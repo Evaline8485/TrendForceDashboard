@@ -1,38 +1,64 @@
 {
   "clusters": [
     {
-      "id": 0,
-      "label": "ai / nvidia / memory / dram",
-      "size": 39,
+      "id": 1,
+      "label": "ai / nvidia / trendforce / memory",
+      "size": 32,
       "accounts": {
         "dylan522p": 1,
         "SemiAnalysis_": 3,
-        "jukan05": 11,
+        "jukan05": 6,
         "QQ_Timmy": 3,
-        "tphuang": 3,
-        "tengyanAI": 2,
+        "tphuang": 2,
+        "tengyanAI": 1,
         "ctee.fans": 1,
         "josepozophotonics": 15
       },
       "engagement_by_account": {
         "dylan522p": 261,
         "SemiAnalysis_": 266,
-        "jukan05": 3915,
+        "jukan05": 1966,
         "QQ_Timmy": 23,
-        "tphuang": 120,
-        "tengyanAI": 67,
+        "tphuang": 99,
+        "tengyanAI": 21,
         "ctee.fans": 8,
         "josepozophotonics": 549
+      }
+    },
+    {
+      "id": 5,
+      "label": "chip / chips / ai / memory",
+      "size": 5,
+      "accounts": {
+        "jukan05": 4,
+        "tphuang": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 1218,
+        "tphuang": 21
+      }
+    },
+    {
+      "id": 0,
+      "label": "hynix / sk / samsung / memory",
+      "size": 2,
+      "accounts": {
+        "jukan05": 1,
+        "tengyanAI": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 731,
+        "tengyanAI": 46
       }
     }
   ],
   "gaps": [
     {
-      "cluster_id": 0,
-      "label": "ai / nvidia / memory / dram",
+      "cluster_id": 1,
+      "label": "ai / nvidia / trendforce / memory",
       "own_count": 0,
-      "competitor_count": 39,
-      "competitor_engagement": 5209,
+      "competitor_count": 32,
+      "competitor_engagement": 3193,
       "competitors_covering": [
         "dylan522p",
         "SemiAnalysis_",
@@ -43,15 +69,26 @@
         "ctee.fans",
         "josepozophotonics"
       ]
+    },
+    {
+      "cluster_id": 5,
+      "label": "chip / chips / ai / memory",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 1239,
+      "competitors_covering": [
+        "jukan05",
+        "tphuang"
+      ]
     }
   ],
   "suggested_entry_points": [
     {
-      "cluster_id": 0,
-      "label": "ai / nvidia / memory / dram",
+      "cluster_id": 1,
+      "label": "ai / nvidia / trendforce / memory",
       "own_count": 0,
-      "competitor_count": 39,
-      "competitor_engagement": 5209,
+      "competitor_count": 32,
+      "competitor_engagement": 3193,
       "competitors_covering": [
         "dylan522p",
         "SemiAnalysis_",
@@ -61,6 +98,17 @@
         "tengyanAI",
         "ctee.fans",
         "josepozophotonics"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "label": "chip / chips / ai / memory",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 1239,
+      "competitors_covering": [
+        "jukan05",
+        "tphuang"
       ]
     }
   ],
