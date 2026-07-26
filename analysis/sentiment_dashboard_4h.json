@@ -1,58 +1,58 @@
 {
-  "generated_at": "2026-07-26T10:19:17.947000+08:00",
+  "generated_at": "2026-07-26T05:00:00+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-07-26T06:19:17.947000+08:00",
-    "end_utc": "2026-07-26T10:19:17.947000+08:00",
-    "start_tw": "Jul 26, 06:19",
-    "end_tw": "Jul 26, 10:19"
+    "start_utc": "2026-07-26T01:00:00+00:00",
+    "end_utc": "2026-07-26T05:00:00+00:00",
+    "start_tw": "Jul 26, 09:00",
+    "end_tw": "Jul 26, 13:00"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 28,
+      "total_posts": 45,
       "sentiment_counts": {
-        "positive": 18,
-        "negative": 6,
-        "neutral": 4
+        "neutral": 8,
+        "positive": 26,
+        "negative": 11
       },
       "sentiment_share": {
-        "positive": 0.643,
-        "negative": 0.214,
-        "neutral": 0.143
+        "neutral": 0.178,
+        "positive": 0.578,
+        "negative": 0.244
       },
       "top_terms": [
         "photonics",
-        "optical",
         "optica",
+        "optical",
         "infrastructure",
-        "chips",
         "ceo",
-        "demand",
-        "capacity",
         "photonic",
-        "chip"
+        "coherent",
+        "hardware",
+        "chips",
+        "quantum"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "memory / ceo / ai / prices",
+        "topic_id": 1,
+        "label": "ceo / photonics / bain / ttm",
         "heat": 90.0,
-        "volume": 19,
-        "engagement": 541,
+        "volume": 29,
+        "engagement": 838,
         "entities": [
           "AI",
+          "台積電",
           "XIVER",
           "European",
-          "TTM",
-          "Chinese"
+          "TTM"
         ]
       },
       {
         "topic_id": 2,
         "label": "quantum / glasgow / quix / hardware",
-        "heat": 18.3,
+        "heat": 16.0,
         "volume": 4,
         "engagement": 202,
         "entities": [
@@ -65,22 +65,34 @@
       },
       {
         "topic_id": 3,
-        "label": "chain / supply / factories / nvidia",
-        "heat": 13.5,
+        "label": "hbm / hynix / sk / nvidia",
+        "heat": 12.5,
         "volume": 2,
-        "engagement": 49,
+        "engagement": 31,
         "entities": [
-          "China s LLM",
-          "China Shock        ",
-          "Chinese",
-          "DC",
-          "Nvidia"
+          "三星",
+          "博通",
+          "美國",
+          "通訊",
+          "韓國"
         ]
       },
       {
-        "topic_id": 4,
+        "topic_id": 5,
+        "label": "anthropic / ai / profit / landscape",
+        "heat": 12.5,
+        "volume": 2,
+        "engagement": 30,
+        "entities": [
+          "AI",
+          "Sam",
+          "sam  issue"
+        ]
+      },
+      {
+        "topic_id": 7,
         "label": "lidar / sensing / photonic / autonomy",
-        "heat": 11.9,
+        "heat": 12.5,
         "volume": 2,
         "engagement": 35,
         "entities": [
@@ -92,28 +104,69 @@
         ]
       },
       {
-        "topic_id": 1,
-        "label": "cash / stocks / leaving / ai",
+        "topic_id": 4,
+        "label": "nand / kioxia / peak / hynix",
+        "heat": 10.6,
+        "volume": 2,
+        "engagement": 7,
+        "entities": [
+          "kioxia  ",
+          "Kioxia    Japan s NAND",
+          "IPO",
+          "japan",
+          "NAND"
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "avg / edinet / toshiba / ipo",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [
+          "IPO",
+          "toshiba",
+          "Bain",
+          "Mar Jul",
+          "Twice Toshiba"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "hashtag / ai / conversation / expansion",
         "heat": 10.0,
         "volume": 1,
-        "engagement": 21,
+        "engagement": 18,
         "entities": [
           "AI",
-          "CapEx"
+          "Sherman",
+          "Jim Anderson",
+          "Jensen Huang",
+          "AIInfrastructure"
+        ]
+      },
+      {
+        "topic_id": 8,
+        "label": "summary / excellent",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 0,
+        "entities": [
+          "Worth"
         ]
       }
     ],
     "named_entities": [
       {
         "entity": "AI",
-        "count": 17
+        "count": 14
       },
       {
         "entity": "European",
         "count": 6
       },
       {
-        "entity": "Chinese",
+        "entity": "台積電",
         "count": 5
       },
       {
@@ -127,6 +180,18 @@
       {
         "entity": "TTM",
         "count": 5
+      },
+      {
+        "entity": "IPO",
+        "count": 4
+      },
+      {
+        "entity": "三星",
+        "count": 4
+      },
+      {
+        "entity": "博通",
+        "count": 4
       },
       {
         "entity": "CTO",
@@ -151,170 +216,172 @@
       {
         "entity": "Jim Anderson",
         "count": 4
-      },
-      {
-        "entity": "Glasgow",
-        "count": 4
-      },
-      {
-        "entity": "UK",
-        "count": 4
-      },
-      {
-        "entity": "Optica",
-        "count": 4
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-07-26T06:19:17.946994+08:00",
-        "bucket_end": "2026-07-26T06:36:26.518423+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-26T06:36:26.518423+08:00",
-        "bucket_end": "2026-07-26T06:53:35.089852+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-26T06:53:35.089852+08:00",
-        "bucket_end": "2026-07-26T07:10:43.661281+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-26T07:10:43.661281+08:00",
-        "bucket_end": "2026-07-26T07:27:52.232710+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-26T07:27:52.232710+08:00",
-        "bucket_end": "2026-07-26T07:45:00.804139+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-26T07:45:00.804139+08:00",
-        "bucket_end": "2026-07-26T08:02:09.375568+08:00",
-        "positive": 0,
+        "bucket_start": "2026-07-26T00:59:59.999994+00:00",
+        "bucket_end": "2026-07-26T01:17:08.571423+00:00",
+        "positive": 2,
         "neutral": 0,
         "negative": 1
       },
       {
-        "bucket_start": "2026-07-26T08:02:09.375568+08:00",
-        "bucket_end": "2026-07-26T08:19:17.946997+08:00",
-        "positive": 2,
+        "bucket_start": "2026-07-26T01:17:08.571423+00:00",
+        "bucket_end": "2026-07-26T01:34:17.142852+00:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-07-26T01:34:17.142852+00:00",
+        "bucket_end": "2026-07-26T01:51:25.714281+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-07-26T01:51:25.714281+00:00",
+        "bucket_end": "2026-07-26T02:08:34.285710+00:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-07-26T02:08:34.285710+00:00",
+        "bucket_end": "2026-07-26T02:25:42.857139+00:00",
+        "positive": 14,
         "neutral": 0,
         "negative": 2
       },
       {
-        "bucket_start": "2026-07-26T08:19:17.946997+08:00",
-        "bucket_end": "2026-07-26T08:36:26.518426+08:00",
+        "bucket_start": "2026-07-26T02:25:42.857139+00:00",
+        "bucket_end": "2026-07-26T02:42:51.428568+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-07-26T02:42:51.428568+00:00",
+        "bucket_end": "2026-07-26T02:59:59.999997+00:00",
+        "positive": 5,
+        "neutral": 1,
+        "negative": 2
+      },
+      {
+        "bucket_start": "2026-07-26T02:59:59.999997+00:00",
+        "bucket_end": "2026-07-26T03:17:08.571426+00:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-07-26T03:17:08.571426+00:00",
+        "bucket_end": "2026-07-26T03:34:17.142855+00:00",
         "positive": 1,
         "neutral": 1,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-26T08:36:26.518426+08:00",
-        "bucket_end": "2026-07-26T08:53:35.089855+08:00",
-        "positive": 0,
-        "neutral": 0,
         "negative": 1
       },
       {
-        "bucket_start": "2026-07-26T08:53:35.089855+08:00",
-        "bucket_end": "2026-07-26T09:10:43.661284+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-26T09:10:43.661284+08:00",
-        "bucket_end": "2026-07-26T09:27:52.232713+08:00",
+        "bucket_start": "2026-07-26T03:34:17.142855+00:00",
+        "bucket_end": "2026-07-26T03:51:25.714284+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0
       },
       {
-        "bucket_start": "2026-07-26T09:27:52.232713+08:00",
-        "bucket_end": "2026-07-26T09:45:00.804142+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-26T09:45:00.804142+08:00",
-        "bucket_end": "2026-07-26T10:02:09.375571+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-26T10:02:09.375571+08:00",
-        "bucket_end": "2026-07-26T10:19:17.947000+08:00",
-        "positive": 8,
+        "bucket_start": "2026-07-26T03:51:25.714284+00:00",
+        "bucket_end": "2026-07-26T04:08:34.285713+00:00",
+        "positive": 2,
         "neutral": 0,
         "negative": 1
+      },
+      {
+        "bucket_start": "2026-07-26T04:08:34.285713+00:00",
+        "bucket_end": "2026-07-26T04:25:42.857142+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-07-26T04:25:42.857142+00:00",
+        "bucket_end": "2026-07-26T04:42:51.428571+00:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-07-26T04:42:51.428571+00:00",
+        "bucket_end": "2026-07-26T05:00:00+00:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0
       }
     ],
     "coverage_focus_ranking": [
       {
         "handle": "jukan05",
-        "top_topic_id": 0,
-        "top_topic_label": "memory / ceo / ai / prices",
-        "focus_share": 1.0,
-        "post_count": 2
-      },
-      {
-        "handle": "ctee.fans",
-        "top_topic_id": 0,
-        "top_topic_label": "memory / ceo / ai / prices",
-        "focus_share": 1.0,
-        "post_count": 3
-      },
-      {
-        "handle": "subhash-km-6b5443123",
-        "top_topic_id": 0,
-        "top_topic_label": "memory / ceo / ai / prices",
+        "top_topic_id": 1,
+        "top_topic_label": "ceo / photonics / bain / ttm",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
-        "handle": "tphuang",
-        "top_topic_id": 0,
-        "top_topic_label": "memory / ceo / ai / prices",
-        "focus_share": 0.6,
-        "post_count": 5
+        "handle": "ctee.fans",
+        "top_topic_id": 1,
+        "top_topic_label": "ceo / photonics / bain / ttm",
+        "focus_share": 1.0,
+        "post_count": 10
       },
       {
-        "handle": "josepozophotonics",
-        "top_topic_id": 0,
-        "top_topic_label": "memory / ceo / ai / prices",
-        "focus_share": 0.6,
-        "post_count": 15
+        "handle": "subhash-km-6b5443123",
+        "top_topic_id": 1,
+        "top_topic_label": "ceo / photonics / bain / ttm",
+        "focus_share": 1.0,
+        "post_count": 1
       },
       {
         "handle": "tengyanAI",
-        "top_topic_id": 0,
-        "top_topic_label": "memory / ceo / ai / prices",
-        "focus_share": 0.5,
-        "post_count": 2
+        "top_topic_id": 5,
+        "top_topic_label": "anthropic / ai / profit / landscape",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 1,
+        "top_topic_label": "ceo / photonics / bain / ttm",
+        "focus_share": 0.857,
+        "post_count": 7
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 3,
+        "top_topic_label": "hbm / hynix / sk / nvidia",
+        "focus_share": 0.667,
+        "post_count": 3
+      },
+      {
+        "handle": "josepozophotonics",
+        "top_topic_id": 1,
+        "top_topic_label": "ceo / photonics / bain / ttm",
+        "focus_share": 0.467,
+        "post_count": 15
+      },
+      {
+        "handle": "technews_tw",
+        "top_topic_id": 1,
+        "top_topic_label": "ceo / photonics / bain / ttm",
+        "focus_share": 0.429,
+        "post_count": 7
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "memory / ceo / ai / prices",
-        "total_engagement": 541,
-        "post_count": 19
+        "topic_id": 1,
+        "label": "ceo / photonics / bain / ttm",
+        "total_engagement": 838,
+        "post_count": 29
       },
       {
         "topic_id": 2,
@@ -323,21 +390,45 @@
         "post_count": 4
       },
       {
-        "topic_id": 3,
-        "label": "chain / supply / factories / nvidia",
-        "total_engagement": 49,
-        "post_count": 2
-      },
-      {
-        "topic_id": 4,
+        "topic_id": 7,
         "label": "lidar / sensing / photonic / autonomy",
         "total_engagement": 35,
         "post_count": 2
       },
       {
-        "topic_id": 1,
-        "label": "cash / stocks / leaving / ai",
-        "total_engagement": 21,
+        "topic_id": 3,
+        "label": "hbm / hynix / sk / nvidia",
+        "total_engagement": 31,
+        "post_count": 2
+      },
+      {
+        "topic_id": 5,
+        "label": "anthropic / ai / profit / landscape",
+        "total_engagement": 30,
+        "post_count": 2
+      },
+      {
+        "topic_id": 6,
+        "label": "hashtag / ai / conversation / expansion",
+        "total_engagement": 18,
+        "post_count": 1
+      },
+      {
+        "topic_id": 4,
+        "label": "nand / kioxia / peak / hynix",
+        "total_engagement": 7,
+        "post_count": 2
+      },
+      {
+        "topic_id": 0,
+        "label": "avg / edinet / toshiba / ipo",
+        "total_engagement": 0,
+        "post_count": 2
+      },
+      {
+        "topic_id": 8,
+        "label": "summary / excellent",
+        "total_engagement": 0,
         "post_count": 1
       }
     ],
