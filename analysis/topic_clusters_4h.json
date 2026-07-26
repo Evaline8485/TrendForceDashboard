@@ -1,38 +1,53 @@
 {
   "clusters": [
     {
-      "id": 0,
-      "label": "ai / 台積電 / openai / memory",
-      "size": 23,
+      "id": 4,
+      "label": "ai / tsmc / 蘋果 / iphone",
+      "size": 22,
       "accounts": {
         "jukan05": 2,
-        "tphuang": 4,
-        "tengyanAI": 2,
+        "tphuang": 2,
+        "tengyanAI": 1,
+        "ctee.fans": 3,
         "subhash-km-6b5443123": 1,
-        "josepozophotonics": 14
+        "josepozophotonics": 13
       },
       "engagement_by_account": {
         "jukan05": 213,
-        "tphuang": 49,
-        "tengyanAI": 25,
+        "tphuang": 34,
+        "tengyanAI": 21,
+        "ctee.fans": 34,
         "subhash-km-6b5443123": 2,
-        "josepozophotonics": 489
+        "josepozophotonics": 454
+      }
+    },
+    {
+      "id": 3,
+      "label": "memory / hbm / dram / hynix",
+      "size": 3,
+      "accounts": {
+        "tphuang": 2,
+        "tengyanAI": 1
+      },
+      "engagement_by_account": {
+        "tphuang": 15,
+        "tengyanAI": 4
       }
     },
     {
       "id": 8,
-      "label": "excellent / summary",
-      "size": 1,
+      "label": "lidar / photonic / sensing / autonomy",
+      "size": 2,
       "accounts": {
-        "josepozophotonics": 1
+        "josepozophotonics": 2
       },
       "engagement_by_account": {
-        "josepozophotonics": 0
+        "josepozophotonics": 35
       }
     },
     {
-      "id": 15,
-      "label": "nvidia / ai / jensen / huang",
+      "id": 1,
+      "label": "nvidia / ai / jensen / amd",
       "size": 1,
       "accounts": {
         "tphuang": 1
@@ -44,33 +59,57 @@
   ],
   "gaps": [
     {
-      "cluster_id": 0,
-      "label": "ai / 台積電 / openai / memory",
+      "cluster_id": 4,
+      "label": "ai / tsmc / 蘋果 / iphone",
       "own_count": 0,
-      "competitor_count": 23,
-      "competitor_engagement": 778,
+      "competitor_count": 22,
+      "competitor_engagement": 758,
       "competitors_covering": [
         "jukan05",
         "tphuang",
         "tengyanAI",
+        "ctee.fans",
         "subhash-km-6b5443123",
         "josepozophotonics"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "label": "memory / hbm / dram / hynix",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 19,
+      "competitors_covering": [
+        "tphuang",
+        "tengyanAI"
       ]
     }
   ],
   "suggested_entry_points": [
     {
-      "cluster_id": 0,
-      "label": "ai / 台積電 / openai / memory",
+      "cluster_id": 4,
+      "label": "ai / tsmc / 蘋果 / iphone",
       "own_count": 0,
-      "competitor_count": 23,
-      "competitor_engagement": 778,
+      "competitor_count": 22,
+      "competitor_engagement": 758,
       "competitors_covering": [
         "jukan05",
         "tphuang",
         "tengyanAI",
+        "ctee.fans",
         "subhash-km-6b5443123",
         "josepozophotonics"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "label": "memory / hbm / dram / hynix",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 19,
+      "competitors_covering": [
+        "tphuang",
+        "tengyanAI"
       ]
     }
   ],
