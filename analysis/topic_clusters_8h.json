@@ -2,52 +2,65 @@
   "clusters": [
     {
       "id": 1,
-      "label": "ai / nvidia / memory / trendforce",
-      "size": 33,
+      "label": "ai / trendforce / memory / dram",
+      "size": 23,
       "accounts": {
-        "jukan05": 1,
-        "technewsinside": 7,
-        "ctee.fans": 10,
-        "subhash-km-6b5443123": 1,
-        "josepozophotonics": 14
-      },
-      "engagement_by_account": {
-        "jukan05": 955,
-        "technewsinside": 152,
-        "ctee.fans": 184,
-        "subhash-km-6b5443123": 1,
-        "josepozophotonics": 458
-      }
-    },
-    {
-      "id": 13,
-      "label": "samsung / foundry / tsmc / hbm",
-      "size": 1,
-      "accounts": {
-        "josepozophotonics": 1
-      },
-      "engagement_by_account": {
+        "TrendForce": 1,
+        "tphuang": 8,
+        "ctee.fans": 1,
         "josepozophotonics": 13
+      },
+      "engagement_by_account": {
+        "TrendForce": 3,
+        "tphuang": 145,
+        "ctee.fans": 9,
+        "josepozophotonics": 453
       }
     },
     {
-      "id": 14,
-      "label": "dram / nand / trendforce / hbm",
+      "id": 5,
+      "label": "nvidia / ai / amd / jensen",
       "size": 1,
       "accounts": {
-        "TrendForce": 1
+        "tphuang": 1
       },
       "engagement_by_account": {
-        "TrendForce": 3
+        "tphuang": 2
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": 1,
+      "label": "ai / trendforce / memory / dram",
+      "own_count": 1,
+      "competitor_count": 22,
+      "competitor_engagement": 607,
+      "competitors_covering": [
+        "tphuang",
+        "ctee.fans",
+        "josepozophotonics"
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": 1,
+      "label": "ai / trendforce / memory / dram",
+      "own_count": 1,
+      "competitor_count": 22,
+      "competitor_engagement": 607,
+      "competitors_covering": [
+        "tphuang",
+        "ctee.fans",
+        "josepozophotonics"
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-07-26T16:00:54+08:00",
-    "end_utc": "2026-07-27T00:00:54+08:00",
-    "start_tw": "Jul 26, 16:00",
-    "end_tw": "Jul 27, 00:00"
+    "start_utc": "2026-07-26T21:58:32+08:00",
+    "end_utc": "2026-07-27T05:58:32+08:00",
+    "start_tw": "Jul 26, 21:58",
+    "end_tw": "Jul 27, 05:58"
   }
 }
