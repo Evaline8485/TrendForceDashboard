@@ -1,9 +1,9 @@
 {
   "clusters": [
     {
-      "id": 2,
-      "label": "ai / 台積電 / openai / google",
-      "size": 39,
+      "id": 4,
+      "label": "ai / 台積電 / trendforce / memory",
+      "size": 36,
       "accounts": {
         "SemiAnalysis_": 1,
         "jukan05": 1,
@@ -11,9 +11,8 @@
         "tphuang": 1,
         "technewsinside": 10,
         "ctee.fans": 10,
-        "yutinghaosfinance": 2,
         "subhash-km-6b5443123": 1,
-        "josepozophotonics": 10
+        "josepozophotonics": 9
       },
       "engagement_by_account": {
         "SemiAnalysis_": 81,
@@ -22,14 +21,24 @@
         "tphuang": 27,
         "technewsinside": 340,
         "ctee.fans": 211,
-        "yutinghaosfinance": 581,
         "subhash-km-6b5443123": 1,
-        "josepozophotonics": 400
+        "josepozophotonics": 251
       }
     },
     {
-      "id": 6,
-      "label": "ai / 台積電 / 資料中心 / 蘋果",
+      "id": 12,
+      "label": "quantum / glasgow / quix / hardware",
+      "size": 4,
+      "accounts": {
+        "josepozophotonics": 4
+      },
+      "engagement_by_account": {
+        "josepozophotonics": 202
+      }
+    },
+    {
+      "id": 0,
+      "label": "ai / trendforce / memory / 台積電",
       "size": 2,
       "accounts": {
         "technewsinside": 2
@@ -39,30 +48,19 @@
       }
     },
     {
-      "id": 8,
-      "label": "lidar / photonic / sensing / autonomy",
+      "id": 16,
+      "label": "早晨財經速解讀 / kimi / 美中科技戰 / 魏哲家",
       "size": 2,
       "accounts": {
-        "josepozophotonics": 2
+        "yutinghaosfinance": 2
       },
       "engagement_by_account": {
-        "josepozophotonics": 35
-      }
-    },
-    {
-      "id": 1,
-      "label": "nvidia / ai / jensen / amd",
-      "size": 1,
-      "accounts": {
-        "jukan05": 1
-      },
-      "engagement_by_account": {
-        "jukan05": 751
+        "yutinghaosfinance": 581
       }
     },
     {
       "id": 3,
-      "label": "memory / dram / hbm / ai",
+      "label": "samsung / hynix / sk / hbm",
       "size": 1,
       "accounts": {
         "jukan05": 1
@@ -72,19 +70,41 @@
       }
     },
     {
-      "id": 16,
-      "label": "regional / photonics / reshore / understood",
+      "id": 14,
+      "label": "nvidia / ai / amd / jensen",
       "size": 1,
       "accounts": {
-        "josepozophotonics": 1
+        "jukan05": 1
       },
       "engagement_by_account": {
-        "josepozophotonics": 18
+        "jukan05": 751
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": 12,
+      "label": "quantum / glasgow / quix / hardware",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 202,
+      "competitors_covering": [
+        "josepozophotonics"
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": 12,
+      "label": "quantum / glasgow / quix / hardware",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 202,
+      "competitors_covering": [
+        "josepozophotonics"
+      ]
+    }
+  ],
   "window": {
     "start_utc": "2026-07-26T23:17:00+00:00",
     "end_utc": "2026-07-27T03:17:00+00:00",
