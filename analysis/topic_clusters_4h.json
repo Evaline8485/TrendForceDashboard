@@ -1,87 +1,79 @@
 {
   "clusters": [
     {
-      "id": 3,
-      "label": "ai / trendforce / 台積電 / memory",
-      "size": 48,
+      "id": 1,
+      "label": "ai / memory / trendforce / dram",
+      "size": 15,
       "accounts": {
-        "TrendForce": 1,
-        "jukan05": 2,
-        "QQ_Timmy": 1,
-        "tphuang": 1,
+        "SemiAnalysis_": 1,
+        "tphuang": 4,
         "tengyanAI": 1,
-        "FT": 10,
-        "statementdog": 1,
-        "technewsinside": 11,
-        "ctee.fans": 7,
-        "yutinghaosfinance": 13
+        "FT": 9
       },
       "engagement_by_account": {
-        "TrendForce": 0,
-        "jukan05": 325,
-        "QQ_Timmy": 91,
-        "tphuang": 17,
-        "tengyanAI": 10,
-        "FT": 826,
-        "statementdog": 0,
-        "technewsinside": 243,
-        "ctee.fans": 73,
-        "yutinghaosfinance": 3199
+        "SemiAnalysis_": 90,
+        "tphuang": 91,
+        "tengyanAI": 13,
+        "FT": 468
+      }
+    },
+    {
+      "id": 3,
+      "label": "openai / ai / anthropic / chatgpt",
+      "size": 1,
+      "accounts": {
+        "FT": 1
+      },
+      "engagement_by_account": {
+        "FT": 10
       }
     },
     {
       "id": 17,
-      "label": "ai / trendforce / memory / 生成式ai",
-      "size": 4,
-      "accounts": {
-        "technewsinside": 4
-      },
-      "engagement_by_account": {
-        "technewsinside": 36
-      }
-    },
-    {
-      "id": 1,
       "label": "nvidia / ai / amd / jensen",
-      "size": 3,
-      "accounts": {
-        "QQ_Timmy": 1,
-        "technewsinside": 2
-      },
-      "engagement_by_account": {
-        "QQ_Timmy": 64,
-        "technewsinside": 140
-      }
-    },
-    {
-      "id": 4,
-      "label": "天文 / 系外行星 / vr / atlas",
       "size": 1,
       "accounts": {
-        "technewsinside": 1
+        "FT": 1
       },
       "engagement_by_account": {
-        "technewsinside": 4
-      }
-    },
-    {
-      "id": 16,
-      "label": "sk / hynix / samsung / hbm",
-      "size": 1,
-      "accounts": {
-        "technewsinside": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 7
+        "FT": 48
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": 1,
+      "label": "ai / memory / trendforce / dram",
+      "own_count": 0,
+      "competitor_count": 15,
+      "competitor_engagement": 662,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "tphuang",
+        "tengyanAI",
+        "FT"
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": 1,
+      "label": "ai / memory / trendforce / dram",
+      "own_count": 0,
+      "competitor_count": 15,
+      "competitor_engagement": 662,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "tphuang",
+        "tengyanAI",
+        "FT"
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-07-27T08:55:58.223877+00:00",
-    "end_utc": "2026-07-27T12:55:58.223877+00:00",
-    "start_tw": "Jul 27, 16:55",
-    "end_tw": "Jul 27, 20:55"
+    "start_utc": "2026-07-28T01:03:09+08:00",
+    "end_utc": "2026-07-28T05:03:09+08:00",
+    "start_tw": "Jul 28, 01:03",
+    "end_tw": "Jul 28, 05:03"
   }
 }
