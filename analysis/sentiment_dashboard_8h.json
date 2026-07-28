@@ -10,51 +10,79 @@
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 48,
+      "total_posts": 52,
       "sentiment_counts": {
-        "positive": 24,
-        "neutral": 11,
-        "negative": 13
+        "positive": 26,
+        "neutral": 12,
+        "negative": 14
       },
       "sentiment_share": {
         "positive": 0.5,
-        "neutral": 0.229,
-        "negative": 0.271
+        "neutral": 0.231,
+        "negative": 0.269
       },
       "top_terms": [
         "trib",
         "opinion",
+        "supply",
         "dram",
         "burnham",
         "cxmt",
         "openai",
         "nvidia",
-        "supply",
-        "semiconductor",
-        "ipo"
+        "capacity",
+        "packaging"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 4,
-        "label": "ai / semiconductor / nvidia / openai",
+        "topic_id": 0,
+        "label": "ares / cpu / units / gpu",
         "heat": 90.0,
-        "volume": 26,
-        "engagement": 4316,
+        "volume": 16,
+        "engagement": 1657,
+        "entities": [
+          "伺服器",
+          "英特爾",
+          "China",
+          "英偉達",
+          "china"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "chip / ai / capex / semiconductor",
+        "heat": 31.1,
+        "volume": 4,
+        "engagement": 970,
         "entities": [
           "AI",
-          "China",
-          "china",
-          "伺服器",
-          "英特爾"
+          "node",
+          "US",
+          "CAPEX",
+          "China"
         ]
       },
       {
         "topic_id": 7,
+        "label": "duv / manufacturing / chip / semiconductor",
+        "heat": 28.4,
+        "volume": 3,
+        "engagement": 1000,
+        "entities": [
+          "上海",
+          "China",
+          "china",
+          "中國",
+          "中芯"
+        ]
+      },
+      {
+        "topic_id": 4,
         "label": "ft / trib / opinion / changing",
-        "heat": 14.6,
-        "volume": 6,
-        "engagement": 336,
+        "heat": 26.9,
+        "volume": 7,
+        "engagement": 609,
         "entities": [
           "US",
           "UK",
@@ -64,37 +92,37 @@
         ]
       },
       {
-        "topic_id": 5,
-        "label": "cxmt / ipo / opinion / dram",
-        "heat": 12.9,
-        "volume": 3,
-        "engagement": 196,
+        "topic_id": 1,
+        "label": "cxmt / ipo / dram / intel",
+        "heat": 18.5,
+        "volume": 4,
+        "engagement": 739,
         "entities": [
           "CXMT",
           "IPO",
-          "Qimonda",
           "DRAM",
-          "Hefei"
+          "intel",
+          "Intel"
         ]
       },
       {
-        "topic_id": 1,
-        "label": "trump",
-        "heat": 12.8,
-        "volume": 2,
-        "engagement": 301,
+        "topic_id": 8,
+        "label": "nvidia / ilya / sutskever / ai",
+        "heat": 13.9,
+        "volume": 3,
+        "engagement": 184,
         "entities": [
-          "israel",
-          "Trump",
-          "Israel",
-          "US",
-          "Donald Trump"
+          "Nvidia",
+          "CPO",
+          "buff ly gWuqeNH",
+          "nvidia",
+          "Safe Superintelligence"
         ]
       },
       {
-        "topic_id": 2,
+        "topic_id": 3,
         "label": "burnham / labour / andy / opinion",
-        "heat": 12.0,
+        "heat": 12.1,
         "volume": 5,
         "engagement": 134,
         "entities": [
@@ -107,8 +135,22 @@
       },
       {
         "topic_id": 6,
+        "label": "ai / openai / supply / kimi",
+        "heat": 10.0,
+        "volume": 6,
+        "engagement": 88,
+        "entities": [
+          "AI",
+          "GM",
+          "OpenAI",
+          "Vercel",
+          "ZDR"
+        ]
+      },
+      {
+        "topic_id": 9,
         "label": "satellite / constellation / analysis / capacity",
-        "heat": 11.6,
+        "heat": 10.0,
         "volume": 2,
         "engagement": 108,
         "entities": [
@@ -119,57 +161,32 @@
         ]
       },
       {
-        "topic_id": 8,
-        "label": "ares / exclusive / ft / dram",
-        "heat": 11.1,
+        "topic_id": 2,
+        "label": "trump",
+        "heat": 10.0,
         "volume": 2,
-        "engagement": 76,
+        "engagement": 301,
         "entities": [
-          "Leonard Green   Partners",
-          "FT Exclusive  A",
-          "LA",
-          "al mouJ Fa"
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "ai / economics / reports / demand",
-        "heat": 10.0,
-        "volume": 1,
-        "engagement": 13,
-        "entities": [
-          "GM",
-          "Celestica",
-          "gm"
-        ]
-      },
-      {
-        "topic_id": 0,
-        "label": "eu / shipping / ft / exclusive",
-        "heat": 10.0,
-        "volume": 1,
-        "engagement": 273,
-        "entities": [
-          "Brussels",
-          "Russia",
-          "Greece",
-          "EU",
-          "eu  "
+          "israel",
+          "Trump",
+          "Israel",
+          "US",
+          "Donald Trump"
         ]
       }
     ],
     "named_entities": [
       {
         "entity": "AI",
-        "count": 9
+        "count": 10
+      },
+      {
+        "entity": "US",
+        "count": 7
       },
       {
         "entity": "China",
         "count": 7
-      },
-      {
-        "entity": "US",
-        "count": 5
       },
       {
         "entity": "china",
@@ -178,6 +195,10 @@
       {
         "entity": "CXMT",
         "count": 5
+      },
+      {
+        "entity": "intel",
+        "count": 4
       },
       {
         "entity": "伺服器",
@@ -189,10 +210,6 @@
       },
       {
         "entity": "DRAM",
-        "count": 3
-      },
-      {
-        "entity": "intel",
         "count": 3
       },
       {
@@ -224,7 +241,7 @@
       {
         "bucket_start": "2026-07-27T21:03:09.000002+08:00",
         "bucket_end": "2026-07-27T21:37:26.142859+08:00",
-        "positive": 1,
+        "positive": 2,
         "neutral": 0,
         "negative": 2
       },
@@ -232,7 +249,7 @@
         "bucket_start": "2026-07-27T21:37:26.142859+08:00",
         "bucket_end": "2026-07-27T22:11:43.285716+08:00",
         "positive": 3,
-        "neutral": 1,
+        "neutral": 2,
         "negative": 1
       },
       {
@@ -240,12 +257,12 @@
         "bucket_end": "2026-07-27T22:46:00.428573+08:00",
         "positive": 2,
         "neutral": 2,
-        "negative": 1
+        "negative": 2
       },
       {
         "bucket_start": "2026-07-27T22:46:00.428573+08:00",
         "bucket_end": "2026-07-27T23:20:17.571430+08:00",
-        "positive": 4,
+        "positive": 5,
         "neutral": 0,
         "negative": 4
       },
@@ -322,109 +339,122 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "TrendForce",
-        "top_topic_id": 4,
-        "top_topic_label": "ai / semiconductor / nvidia / openai",
-        "focus_share": 1.0,
-        "post_count": 2
-      },
-      {
-        "handle": "jukan05",
-        "top_topic_id": 4,
-        "top_topic_label": "ai / semiconductor / nvidia / openai",
-        "focus_share": 1.0,
-        "post_count": 4
-      },
-      {
         "handle": "QQ_Timmy",
-        "top_topic_id": 4,
-        "top_topic_label": "ai / semiconductor / nvidia / openai",
-        "focus_share": 1.0,
-        "post_count": 4
-      },
-      {
-        "handle": "tengyanAI",
-        "top_topic_id": 4,
-        "top_topic_label": "ai / semiconductor / nvidia / openai",
+        "top_topic_id": 0,
+        "top_topic_label": "ares / cpu / units / gpu",
         "focus_share": 0.75,
         "post_count": 4
       },
       {
-        "handle": "tphuang",
-        "top_topic_id": 4,
-        "top_topic_label": "ai / semiconductor / nvidia / openai",
-        "focus_share": 0.714,
-        "post_count": 7
-      },
-      {
         "handle": "SemiAnalysis_",
-        "top_topic_id": 4,
-        "top_topic_label": "ai / semiconductor / nvidia / openai",
+        "top_topic_id": 1,
+        "top_topic_label": "cxmt / ipo / dram / intel",
         "focus_share": 0.667,
         "post_count": 3
       },
       {
+        "handle": "TrendForce",
+        "top_topic_id": 8,
+        "top_topic_label": "nvidia / ilya / sutskever / ai",
+        "focus_share": 0.5,
+        "post_count": 2
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 0,
+        "top_topic_label": "ares / cpu / units / gpu",
+        "focus_share": 0.5,
+        "post_count": 4
+      },
+      {
+        "handle": "tengyanAI",
+        "top_topic_id": 0,
+        "top_topic_label": "ares / cpu / units / gpu",
+        "focus_share": 0.5,
+        "post_count": 4
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 0,
+        "top_topic_label": "ares / cpu / units / gpu",
+        "focus_share": 0.5,
+        "post_count": 4
+      },
+      {
         "handle": "FT",
         "top_topic_id": 4,
-        "top_topic_label": "ai / semiconductor / nvidia / openai",
-        "focus_share": 0.25,
+        "top_topic_label": "ft / trib / opinion / changing",
+        "focus_share": 0.292,
         "post_count": 24
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 0,
+        "top_topic_label": "ares / cpu / units / gpu",
+        "focus_share": 0.286,
+        "post_count": 7
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 4,
-        "label": "ai / semiconductor / nvidia / openai",
-        "total_engagement": 4316,
-        "post_count": 26
+        "topic_id": 0,
+        "label": "ares / cpu / units / gpu",
+        "total_engagement": 1657,
+        "post_count": 16
       },
       {
         "topic_id": 7,
-        "label": "ft / trib / opinion / changing",
-        "total_engagement": 336,
-        "post_count": 6
+        "label": "duv / manufacturing / chip / semiconductor",
+        "total_engagement": 1000,
+        "post_count": 3
+      },
+      {
+        "topic_id": 5,
+        "label": "chip / ai / capex / semiconductor",
+        "total_engagement": 970,
+        "post_count": 4
       },
       {
         "topic_id": 1,
+        "label": "cxmt / ipo / dram / intel",
+        "total_engagement": 739,
+        "post_count": 4
+      },
+      {
+        "topic_id": 4,
+        "label": "ft / trib / opinion / changing",
+        "total_engagement": 609,
+        "post_count": 7
+      },
+      {
+        "topic_id": 2,
         "label": "trump",
         "total_engagement": 301,
         "post_count": 2
       },
       {
-        "topic_id": 0,
-        "label": "eu / shipping / ft / exclusive",
-        "total_engagement": 273,
-        "post_count": 1
-      },
-      {
-        "topic_id": 5,
-        "label": "cxmt / ipo / opinion / dram",
-        "total_engagement": 196,
+        "topic_id": 8,
+        "label": "nvidia / ilya / sutskever / ai",
+        "total_engagement": 184,
         "post_count": 3
       },
       {
-        "topic_id": 2,
+        "topic_id": 3,
         "label": "burnham / labour / andy / opinion",
         "total_engagement": 134,
         "post_count": 5
       },
       {
-        "topic_id": 6,
+        "topic_id": 9,
         "label": "satellite / constellation / analysis / capacity",
         "total_engagement": 108,
         "post_count": 2
       },
       {
-        "topic_id": 8,
-        "label": "ares / exclusive / ft / dram",
-        "total_engagement": 76,
-        "post_count": 2
-      },
-      {
-        "topic_id": 3,
-        "label": "ai / economics / reports / demand",
-        "total_engagement": 13,
-        "post_count": 1
+        "topic_id": 6,
+        "label": "ai / openai / supply / kimi",
+        "total_engagement": 88,
+        "post_count": 6
       }
     ],
     "posting_timeslot_analysis": {
@@ -442,10 +472,10 @@
           "avg_engagement": 0.0
         },
         "evening": {
-          "post_count": 24,
-          "likes": 3752,
-          "engagement": 4594,
-          "avg_engagement": 191.4
+          "post_count": 28,
+          "likes": 3788,
+          "engagement": 4631,
+          "avg_engagement": 165.4
         },
         "late_night": {
           "post_count": 24,
