@@ -10,16 +10,16 @@
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 50,
+      "total_posts": 65,
       "sentiment_counts": {
-        "neutral": 7,
-        "positive": 30,
-        "negative": 13
+        "neutral": 17,
+        "positive": 32,
+        "negative": 16
       },
       "sentiment_share": {
-        "neutral": 0.14,
-        "positive": 0.6,
-        "negative": 0.26
+        "neutral": 0.262,
+        "positive": 0.492,
+        "negative": 0.246
       },
       "top_terms": [
         "trib",
@@ -29,30 +29,30 @@
         "customer",
         "infrastructure",
         "generation",
+        "dram",
         "chip",
-        "chips",
-        "photonic"
+        "chips"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "ai / hbm / dram / ft",
+        "topic_id": 1,
+        "label": "ai / memory / openai / revenue",
         "heat": 90.0,
-        "volume": 30,
-        "engagement": 3719,
+        "volume": 38,
+        "engagement": 3332,
         "entities": [
           "AI",
-          "US",
           "XIVER",
           "TTM",
-          "China"
+          "輝達",
+          "TTM Technologies"
         ]
       },
       {
-        "topic_id": 8,
+        "topic_id": 11,
         "label": "quantum / glasgow / quix / hardware",
-        "heat": 13.6,
+        "heat": 13.9,
         "volume": 4,
         "engagement": 203,
         "entities": [
@@ -64,9 +64,23 @@
         ]
       },
       {
-        "topic_id": 5,
+        "topic_id": 12,
+        "label": "cxmt / lithography / supply / ve",
+        "heat": 13.4,
+        "volume": 3,
+        "engagement": 171,
+        "entities": [
+          "Chinese",
+          "CXMT",
+          "chinese",
+          "China",
+          "中國"
+        ]
+      },
+      {
+        "topic_id": 2,
         "label": "amd / rebate / warrant / equity",
-        "heat": 12.4,
+        "heat": 12.0,
         "volume": 2,
         "engagement": 311,
         "entities": [
@@ -77,22 +91,37 @@
         ]
       },
       {
-        "topic_id": 3,
-        "label": "lithography / cxmt / supply / ve",
-        "heat": 12.4,
+        "topic_id": 10,
+        "label": "hynix / sk / dram / hbm",
+        "heat": 12.0,
         "volume": 2,
-        "engagement": 156,
+        "engagement": 366,
         "entities": [
-          "Chinese",
-          "CXMT",
-          "chinese",
-          "China"
+          "HBM",
+          "LPDDR",
+          "DRAM",
+          "hynix",
+          "Keep"
         ]
       },
       {
-        "topic_id": 0,
+        "topic_id": 7,
+        "label": "benjamin / netanyahu / eve / remarks",
+        "heat": 12.0,
+        "volume": 2,
+        "engagement": 303,
+        "entities": [
+          "US",
+          "s remarks",
+          "Benjamin Netanyahu",
+          "Asia",
+          "https    "
+        ]
+      },
+      {
+        "topic_id": 5,
         "label": "amd / warrants / buyer / directly",
-        "heat": 11.5,
+        "heat": 11.6,
         "volume": 2,
         "engagement": 74,
         "entities": [
@@ -102,6 +131,19 @@
       },
       {
         "topic_id": 4,
+        "label": "talcum / bn / powder / announced",
+        "heat": 10.7,
+        "volume": 2,
+        "engagement": 33,
+        "entities": [
+          "Johnson",
+          "al EEME Fd",
+          "US",
+          "johnson"
+        ]
+      },
+      {
+        "topic_id": 3,
         "label": "lidar / photonic / sensing / autonomy",
         "heat": 10.7,
         "volume": 2,
@@ -115,8 +157,8 @@
         ]
       },
       {
-        "topic_id": 1,
-        "label": "opinion / trib / ft / df",
+        "topic_id": 6,
+        "label": "opinion / trib / ft / spectrum",
         "heat": 10.4,
         "volume": 4,
         "engagement": 21,
@@ -129,7 +171,7 @@
         ]
       },
       {
-        "topic_id": 6,
+        "topic_id": 9,
         "label": "iran / forces",
         "heat": 10.2,
         "volume": 2,
@@ -143,27 +185,26 @@
         ]
       },
       {
-        "topic_id": 9,
-        "label": "ceo / photonics / founder / global",
+        "topic_id": 0,
+        "label": "particularly / remarks",
         "heat": 10.0,
         "volume": 1,
-        "engagement": 53,
+        "engagement": 509,
         "entities": [
-          "CTO",
-          "Malaga  Southern Spain  Meet",
-          "The Optica Global Photonics Economic",
-          "Aldo Kamper  CEO",
-          "OSRAM"
+          "China",
+          "DUV",
+          "Jiaotong",
+          "china"
         ]
       },
       {
-        "topic_id": 7,
-        "label": "summary / excellent",
+        "topic_id": 8,
+        "label": "bloom",
         "heat": 10.0,
         "volume": 1,
-        "engagement": 0,
+        "engagement": 3,
         "entities": [
-          "Worth"
+          "Bloom Energy"
         ]
       }
     ],
@@ -213,6 +254,10 @@
         "count": 4
       },
       {
+        "entity": "輝達",
+        "count": 4
+      },
+      {
         "entity": "CTO",
         "count": 4
       },
@@ -222,10 +267,6 @@
       },
       {
         "entity": "Glasgow",
-        "count": 4
-      },
-      {
-        "entity": "Optica",
         "count": 4
       }
     ],
@@ -262,21 +303,21 @@
         "bucket_start": "2026-07-28T07:01:45.571430+08:00",
         "bucket_end": "2026-07-28T07:36:02.714287+08:00",
         "positive": 0,
-        "neutral": 1,
+        "neutral": 2,
         "negative": 1
       },
       {
         "bucket_start": "2026-07-28T07:36:02.714287+08:00",
         "bucket_end": "2026-07-28T08:10:19.857144+08:00",
         "positive": 1,
-        "neutral": 0,
+        "neutral": 2,
         "negative": 1
       },
       {
         "bucket_start": "2026-07-28T08:10:19.857144+08:00",
         "bucket_end": "2026-07-28T08:44:37.000001+08:00",
-        "positive": 1,
-        "neutral": 1,
+        "positive": 2,
+        "neutral": 3,
         "negative": 0
       },
       {
@@ -284,33 +325,33 @@
         "bucket_end": "2026-07-28T09:18:54.142858+08:00",
         "positive": 0,
         "neutral": 1,
-        "negative": 2
+        "negative": 3
       },
       {
         "bucket_start": "2026-07-28T09:18:54.142858+08:00",
         "bucket_end": "2026-07-28T09:53:11.285715+08:00",
         "positive": 1,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0
       },
       {
         "bucket_start": "2026-07-28T09:53:11.285715+08:00",
         "bucket_end": "2026-07-28T10:27:28.428572+08:00",
         "positive": 11,
-        "neutral": 0,
-        "negative": 3
+        "neutral": 1,
+        "negative": 4
       },
       {
         "bucket_start": "2026-07-28T10:27:28.428572+08:00",
         "bucket_end": "2026-07-28T11:01:45.571429+08:00",
         "positive": 4,
-        "neutral": 1,
-        "negative": 1
+        "neutral": 3,
+        "negative": 2
       },
       {
         "bucket_start": "2026-07-28T11:01:45.571429+08:00",
         "bucket_end": "2026-07-28T11:36:02.714286+08:00",
-        "positive": 0,
+        "positive": 1,
         "neutral": 0,
         "negative": 0
       },
@@ -325,143 +366,175 @@
         "bucket_start": "2026-07-28T12:10:19.857143+08:00",
         "bucket_end": "2026-07-28T12:44:37+08:00",
         "positive": 7,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 2
       }
     ],
     "coverage_focus_ranking": [
       {
         "handle": "dylan522p",
-        "top_topic_id": 2,
-        "top_topic_label": "ai / hbm / dram / ft",
+        "top_topic_id": 1,
+        "top_topic_label": "ai / memory / openai / revenue",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
-        "handle": "tengyanAI",
-        "top_topic_id": 2,
-        "top_topic_label": "ai / hbm / dram / ft",
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 1,
+        "top_topic_label": "ai / memory / openai / revenue",
         "focus_share": 1.0,
-        "post_count": 4
+        "post_count": 1
       },
       {
-        "handle": "jukan05",
-        "top_topic_id": 2,
-        "top_topic_label": "ai / hbm / dram / ft",
-        "focus_share": 0.667,
-        "post_count": 3
+        "handle": "ctee.fans",
+        "top_topic_id": 1,
+        "top_topic_label": "ai / memory / openai / revenue",
+        "focus_share": 0.929,
+        "post_count": 14
       },
       {
         "handle": "QQ_Timmy",
-        "top_topic_id": 2,
-        "top_topic_label": "ai / hbm / dram / ft",
+        "top_topic_id": 1,
+        "top_topic_label": "ai / memory / openai / revenue",
         "focus_share": 0.667,
         "post_count": 3
       },
       {
         "handle": "tphuang",
-        "top_topic_id": 2,
-        "top_topic_label": "ai / hbm / dram / ft",
+        "top_topic_id": 1,
+        "top_topic_label": "ai / memory / openai / revenue",
         "focus_share": 0.667,
         "post_count": 3
       },
       {
+        "handle": "josepozophotonics",
+        "top_topic_id": 1,
+        "top_topic_label": "ai / memory / openai / revenue",
+        "focus_share": 0.538,
+        "post_count": 13
+      },
+      {
+        "handle": "tengyanAI",
+        "top_topic_id": 1,
+        "top_topic_label": "ai / memory / openai / revenue",
+        "focus_share": 0.5,
+        "post_count": 4
+      },
+      {
         "handle": "FT",
-        "top_topic_id": 2,
-        "top_topic_label": "ai / hbm / dram / ft",
-        "focus_share": 0.667,
+        "top_topic_id": 1,
+        "top_topic_label": "ai / memory / openai / revenue",
+        "focus_share": 0.444,
         "post_count": 18
       },
       {
         "handle": "SemiAnalysis_",
-        "top_topic_id": 2,
-        "top_topic_label": "ai / hbm / dram / ft",
+        "top_topic_id": 1,
+        "top_topic_label": "ai / memory / openai / revenue",
         "focus_share": 0.4,
         "post_count": 5
       },
       {
-        "handle": "josepozophotonics",
-        "top_topic_id": 2,
-        "top_topic_label": "ai / hbm / dram / ft",
-        "focus_share": 0.385,
-        "post_count": 13
+        "handle": "jukan05",
+        "top_topic_id": 12,
+        "top_topic_label": "cxmt / lithography / supply / ve",
+        "focus_share": 0.333,
+        "post_count": 3
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
-        "label": "ai / hbm / dram / ft",
-        "total_engagement": 3719,
-        "post_count": 30
+        "topic_id": 1,
+        "label": "ai / memory / openai / revenue",
+        "total_engagement": 3332,
+        "post_count": 38
       },
       {
-        "topic_id": 5,
+        "topic_id": 0,
+        "label": "particularly / remarks",
+        "total_engagement": 509,
+        "post_count": 1
+      },
+      {
+        "topic_id": 10,
+        "label": "hynix / sk / dram / hbm",
+        "total_engagement": 366,
+        "post_count": 2
+      },
+      {
+        "topic_id": 2,
         "label": "amd / rebate / warrant / equity",
         "total_engagement": 311,
         "post_count": 2
       },
       {
-        "topic_id": 8,
+        "topic_id": 7,
+        "label": "benjamin / netanyahu / eve / remarks",
+        "total_engagement": 303,
+        "post_count": 2
+      },
+      {
+        "topic_id": 11,
         "label": "quantum / glasgow / quix / hardware",
         "total_engagement": 203,
         "post_count": 4
       },
       {
-        "topic_id": 3,
-        "label": "lithography / cxmt / supply / ve",
-        "total_engagement": 156,
-        "post_count": 2
+        "topic_id": 12,
+        "label": "cxmt / lithography / supply / ve",
+        "total_engagement": 171,
+        "post_count": 3
       },
       {
-        "topic_id": 0,
+        "topic_id": 5,
         "label": "amd / warrants / buyer / directly",
         "total_engagement": 74,
         "post_count": 2
       },
       {
-        "topic_id": 9,
-        "label": "ceo / photonics / founder / global",
-        "total_engagement": 53,
-        "post_count": 1
-      },
-      {
-        "topic_id": 4,
+        "topic_id": 3,
         "label": "lidar / photonic / sensing / autonomy",
         "total_engagement": 35,
         "post_count": 2
       },
       {
-        "topic_id": 1,
-        "label": "opinion / trib / ft / df",
+        "topic_id": 4,
+        "label": "talcum / bn / powder / announced",
+        "total_engagement": 33,
+        "post_count": 2
+      },
+      {
+        "topic_id": 6,
+        "label": "opinion / trib / ft / spectrum",
         "total_engagement": 21,
         "post_count": 4
       },
       {
-        "topic_id": 6,
+        "topic_id": 9,
         "label": "iran / forces",
         "total_engagement": 11,
         "post_count": 2
       },
       {
-        "topic_id": 7,
-        "label": "summary / excellent",
-        "total_engagement": 0,
+        "topic_id": 8,
+        "label": "bloom",
+        "total_engagement": 3,
         "post_count": 1
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 32,
-          "likes": 3286,
-          "engagement": 3704,
-          "avg_engagement": 115.8
+          "post_count": 46,
+          "likes": 4073,
+          "engagement": 4491,
+          "avg_engagement": 97.6
         },
         "afternoon": {
-          "post_count": 10,
-          "likes": 101,
-          "engagement": 137,
-          "avg_engagement": 13.7
+          "post_count": 11,
+          "likes": 103,
+          "engagement": 139,
+          "avg_engagement": 12.6
         },
         "evening": {
           "post_count": 0,
