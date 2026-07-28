@@ -1,213 +1,273 @@
 {
-  "generated_at": "2026-07-28T08:53:15.031084+00:00",
+  "generated_at": "2026-07-28T21:01:31.514000+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-07-28T07:53:15.031084+00:00",
-    "end_utc": "2026-07-28T08:53:15.031084+00:00",
-    "start_tw": "Jul 28, 15:53",
-    "end_tw": "Jul 28, 16:53"
+    "start_utc": "2026-07-28T20:01:31.514000+08:00",
+    "end_utc": "2026-07-28T21:01:31.514000+08:00",
+    "start_tw": "Jul 28, 20:01",
+    "end_tw": "Jul 28, 21:01"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 8,
+      "total_posts": 11,
       "sentiment_counts": {
-        "negative": 6,
-        "neutral": 2
+        "positive": 4,
+        "negative": 3,
+        "neutral": 4
       },
       "sentiment_share": {
-        "negative": 0.75,
-        "neutral": 0.25
+        "positive": 0.364,
+        "negative": 0.273,
+        "neutral": 0.364
       },
       "top_terms": [
-        "台股",
-        "衝擊",
-        "台積",
-        "積電",
-        "台積電",
-        "一度",
-        "大跌",
-        "跌逾",
-        "史上",
-        "上第"
+        "lens",
+        "boe",
+        "tsmc",
+        "taiwan",
+        "glasssubstrate",
+        "accelerating",
+        "intel",
+        "partnered",
+        "advancing",
+        "pilot"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 0,
-        "label": "ai",
-        "heat": 50.0,
+        "label": "cluster-0",
+        "heat": 90.0,
         "volume": 8,
-        "engagement": 184,
+        "engagement": 483,
         "entities": [
-          "日本",
-          "台積電",
-          "萊坊",
-          "東野",
-          "圭吾"
+          "加州",
+          "海洋",
+          "英國",
+          "九州",
+          "烏克蘭"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "tsmc / boe / intel / lens",
+        "heat": 10.0,
+        "volume": 3,
+        "engagement": 3,
+        "entities": [
+          "TSMC",
+          "Intel",
+          "China",
+          "BOE",
+          "Taiwan"
         ]
       }
     ],
     "named_entities": [
       {
-        "entity": "日本",
+        "entity": "TSMC",
         "count": 4
       },
       {
-        "entity": "台積電",
+        "entity": "Intel",
         "count": 3
       },
       {
-        "entity": "萊坊",
+        "entity": "China",
+        "count": 3
+      },
+      {
+        "entity": "BOE",
+        "count": 3
+      },
+      {
+        "entity": "Taiwan",
+        "count": 3
+      },
+      {
+        "entity": "intel",
+        "count": 3
+      },
+      {
+        "entity": "Lens Technology",
         "count": 2
       },
       {
-        "entity": "東野",
+        "entity": "加州",
         "count": 2
       },
       {
-        "entity": "圭吾",
+        "entity": "海洋",
         "count": 2
       },
       {
-        "entity": "權王",
+        "entity": "英國",
+        "count": 2
+      },
+      {
+        "entity": "九州",
+        "count": 2
+      },
+      {
+        "entity": "TrendForce",
+        "count": 2
+      },
+      {
+        "entity": "CoPoS",
+        "count": 2
+      },
+      {
+        "entity": "buff",
         "count": 1
       },
       {
-        "entity": "千點",
-        "count": 1
-      },
-      {
-        "entity": "聯電",
-        "count": 1
-      },
-      {
-        "entity": "修正",
+        "entity": "china",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-07-28T07:53:15.031086+00:00",
-        "bucket_end": "2026-07-28T07:57:32.173943+00:00",
+        "bucket_start": "2026-07-28T20:01:31.514002+08:00",
+        "bucket_end": "2026-07-28T20:05:48.656859+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-07-28T07:57:32.173943+00:00",
-        "bucket_end": "2026-07-28T08:01:49.316800+00:00",
+        "bucket_start": "2026-07-28T20:05:48.656859+08:00",
+        "bucket_end": "2026-07-28T20:10:05.799716+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-07-28T20:10:05.799716+08:00",
+        "bucket_end": "2026-07-28T20:14:22.942573+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-07-28T20:14:22.942573+08:00",
+        "bucket_end": "2026-07-28T20:18:40.085430+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1
       },
       {
-        "bucket_start": "2026-07-28T08:01:49.316800+00:00",
-        "bucket_end": "2026-07-28T08:06:06.459657+00:00",
+        "bucket_start": "2026-07-28T20:18:40.085430+08:00",
+        "bucket_end": "2026-07-28T20:22:57.228287+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-07-28T20:22:57.228287+08:00",
+        "bucket_end": "2026-07-28T20:27:14.371144+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-07-28T08:06:06.459657+00:00",
-        "bucket_end": "2026-07-28T08:10:23.602514+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-28T08:10:23.602514+00:00",
-        "bucket_end": "2026-07-28T08:14:40.745371+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-28T08:14:40.745371+00:00",
-        "bucket_end": "2026-07-28T08:18:57.888228+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-28T08:18:57.888228+00:00",
-        "bucket_end": "2026-07-28T08:23:15.031085+00:00",
+        "bucket_start": "2026-07-28T20:27:14.371144+08:00",
+        "bucket_end": "2026-07-28T20:31:31.514001+08:00",
         "positive": 0,
         "neutral": 2,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-07-28T20:31:31.514001+08:00",
+        "bucket_end": "2026-07-28T20:35:48.656858+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-07-28T20:35:48.656858+08:00",
+        "bucket_end": "2026-07-28T20:40:05.799715+08:00",
+        "positive": 0,
+        "neutral": 0,
         "negative": 1
       },
       {
-        "bucket_start": "2026-07-28T08:23:15.031085+00:00",
-        "bucket_end": "2026-07-28T08:27:32.173942+00:00",
+        "bucket_start": "2026-07-28T20:40:05.799715+08:00",
+        "bucket_end": "2026-07-28T20:44:22.942572+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-07-28T08:27:32.173942+00:00",
-        "bucket_end": "2026-07-28T08:31:49.316799+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1
-      },
-      {
-        "bucket_start": "2026-07-28T08:31:49.316799+00:00",
-        "bucket_end": "2026-07-28T08:36:06.459656+00:00",
+        "bucket_start": "2026-07-28T20:44:22.942572+08:00",
+        "bucket_end": "2026-07-28T20:48:40.085429+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-07-28T08:36:06.459656+00:00",
-        "bucket_end": "2026-07-28T08:40:23.602513+00:00",
+        "bucket_start": "2026-07-28T20:48:40.085429+08:00",
+        "bucket_end": "2026-07-28T20:52:57.228286+08:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 2
+        "neutral": 1,
+        "negative": 0
       },
       {
-        "bucket_start": "2026-07-28T08:40:23.602513+00:00",
-        "bucket_end": "2026-07-28T08:44:40.745370+00:00",
+        "bucket_start": "2026-07-28T20:52:57.228286+08:00",
+        "bucket_end": "2026-07-28T20:57:14.371143+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-07-28T08:44:40.745370+00:00",
-        "bucket_end": "2026-07-28T08:48:57.888227+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-07-28T08:48:57.888227+00:00",
-        "bucket_end": "2026-07-28T08:53:15.031084+00:00",
-        "positive": 0,
+        "bucket_start": "2026-07-28T20:57:14.371143+08:00",
+        "bucket_end": "2026-07-28T21:01:31.514000+08:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 0
       }
     ],
     "coverage_focus_ranking": [
       {
+        "handle": "TrendForce",
+        "top_topic_id": 1,
+        "top_topic_label": "tsmc / boe / intel / lens",
+        "focus_share": 1.0,
+        "post_count": 3
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 0,
+        "top_topic_label": "cluster-0",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
         "handle": "technewsinside",
         "top_topic_id": 0,
-        "top_topic_label": "ai",
+        "top_topic_label": "cluster-0",
         "focus_share": 1.0,
         "post_count": 6
       },
       {
         "handle": "ctee.fans",
         "top_topic_id": 0,
-        "top_topic_label": "ai",
+        "top_topic_label": "cluster-0",
         "focus_share": 1.0,
-        "post_count": 2
+        "post_count": 1
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 0,
-        "label": "ai",
-        "total_engagement": 184,
+        "label": "cluster-0",
+        "total_engagement": 483,
         "post_count": 8
+      },
+      {
+        "topic_id": 1,
+        "label": "tsmc / boe / intel / lens",
+        "total_engagement": 3,
+        "post_count": 3
       }
     ],
     "posting_timeslot_analysis": {
@@ -219,16 +279,16 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 8,
-          "likes": 184,
-          "engagement": 184,
-          "avg_engagement": 23.0
-        },
-        "evening": {
           "post_count": 0,
           "likes": 0,
           "engagement": 0,
           "avg_engagement": 0.0
+        },
+        "evening": {
+          "post_count": 11,
+          "likes": 446,
+          "engagement": 486,
+          "avg_engagement": 44.2
         },
         "late_night": {
           "post_count": 0,
@@ -237,7 +297,7 @@
           "avg_engagement": 0.0
         }
       },
-      "peak_slot": "afternoon"
+      "peak_slot": "evening"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
