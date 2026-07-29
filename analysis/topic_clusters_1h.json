@@ -2,30 +2,55 @@
   "clusters": [
     {
       "id": 2,
-      "label": "ai / nvidia / memory / tsmc",
-      "size": 10,
+      "label": "ai / spacex / tsmc / memory",
+      "size": 4,
       "accounts": {
-        "TrendForce": 3,
-        "QQ_Timmy": 1,
-        "tengyanAI": 1,
-        "FT": 3,
-        "technewsinside": 2
+        "FT": 4
       },
       "engagement_by_account": {
-        "TrendForce": 3,
-        "QQ_Timmy": 3,
-        "tengyanAI": 13,
-        "FT": 60,
-        "technewsinside": 6
+        "FT": 55
+      }
+    },
+    {
+      "id": 13,
+      "label": "hynix / sk / samsung / hbm",
+      "size": 1,
+      "accounts": {
+        "tengyanAI": 1
+      },
+      "engagement_by_account": {
+        "tengyanAI": 5
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": 2,
+      "label": "ai / spacex / tsmc / memory",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 55,
+      "competitors_covering": [
+        "FT"
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": 2,
+      "label": "ai / spacex / tsmc / memory",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 55,
+      "competitors_covering": [
+        "FT"
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-07-28T20:31:51+08:00",
-    "end_utc": "2026-07-28T21:31:51+08:00",
-    "start_tw": "Jul 28, 20:31",
-    "end_tw": "Jul 28, 21:31"
+    "start_utc": "2026-07-29T03:45:06+08:00",
+    "end_utc": "2026-07-29T04:45:06+08:00",
+    "start_tw": "Jul 29, 03:45",
+    "end_tw": "Jul 29, 04:45"
   }
 }
