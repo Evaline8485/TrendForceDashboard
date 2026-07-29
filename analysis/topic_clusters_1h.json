@@ -1,62 +1,70 @@
 {
   "clusters": [
     {
-      "id": 3,
-      "label": "ai / nvidia / tsmc / memory",
+      "id": 7,
+      "label": "ai / memory / dram / tsmc",
       "size": 8,
       "accounts": {
         "QQ_Timmy": 1,
-        "statementdog": 2,
-        "technewsinside": 2,
-        "ctee.fans": 3
-      },
-      "engagement_by_account": {
-        "QQ_Timmy": 4,
-        "statementdog": 2,
-        "technewsinside": 72,
-        "ctee.fans": 53
-      }
-    },
-    {
-      "id": 5,
-      "label": "hynix / sk / samsung / hbm",
-      "size": 1,
-      "accounts": {
-        "TrendForce": 1
-      },
-      "engagement_by_account": {
-        "TrendForce": 19
-      }
-    },
-    {
-      "id": 11,
-      "label": "三星 / 半導體 / sk海力士 / ai",
-      "size": 1,
-      "accounts": {
+        "tphuang": 1,
+        "FT": 4,
+        "statementdog": 1,
         "technewsinside": 1
       },
       "engagement_by_account": {
-        "technewsinside": 3
+        "QQ_Timmy": 5,
+        "tphuang": 20,
+        "FT": 142,
+        "statementdog": 2,
+        "technewsinside": 0
       }
     },
     {
-      "id": 16,
-      "label": "trendforce / ai / nand / dram",
+      "id": 6,
+      "label": "hynix / sk / samsung / hbm",
       "size": 1,
       "accounts": {
-        "statementdog": 1
+        "jukan05": 1
       },
       "engagement_by_account": {
-        "statementdog": 0
+        "jukan05": 576
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": 7,
+      "label": "ai / memory / dram / tsmc",
+      "own_count": 1,
+      "competitor_count": 7,
+      "competitor_engagement": 169,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "tphuang",
+        "FT",
+        "statementdog"
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": 7,
+      "label": "ai / memory / dram / tsmc",
+      "own_count": 1,
+      "competitor_count": 7,
+      "competitor_engagement": 169,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "tphuang",
+        "FT",
+        "statementdog"
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-07-29T07:30:00+00:00",
-    "end_utc": "2026-07-29T08:30:00+00:00",
-    "start_tw": "Jul 29, 15:30",
-    "end_tw": "Jul 29, 16:30"
+    "start_utc": "2026-07-29T13:26:56.549491+00:00",
+    "end_utc": "2026-07-29T14:26:56.549491+00:00",
+    "start_tw": "Jul 29, 21:26",
+    "end_tw": "Jul 29, 22:26"
   }
 }
