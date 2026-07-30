@@ -123,24 +123,24 @@ for redeploy_attempt in 1 2 3; do
 
   echo "[WARN] Deployment for commit ${SHA:0:7} concluded '$CONCLUSION' (attempt $redeploy_attempt/3)."
 
-  # A 'cancelled' conclusion almost always means a NEWER commit already
-  # landed and superseded this deploy (GitHub cancels an in-progress Pages
-  # deployment when a later one is queued for the same branch) - found
-  # 2026-07-30: during a backlog of queued run_pipeline.sh invocations
-  # (multiple independent scan/core/accounts/daily schedules plus every
-  # scraper repo's own post-scrape sync call, all serialized behind the
-  # same lock), jobs finished seconds apart and each one's forced
-  # empty-commit "redeploy" here just got cancelled by the NEXT queued
-  # job's push in turn - burning ~10min per run on doomed retries and
-  # making the backlog itself worse, not better. If HEAD has moved past
-  # our own SHA, some other commit already superseded us and will get its
-  # own deployment (or already has) - that's success, not a failure, so
-  # skip the redeploy entirely rather than adding to the pile-up.
+  # A 'cancelled' (or never-concluded) result usually just means a NEWER
+  # commit already landed and superseded this deploy - GitHub cancels an
+  # in-progress Pages deployment whenever a later one is queued for the
+  # same branch. Found 2026-07-30: during a backlog of queued
+  # run_pipeline.sh invocations (multiple independent scan/core/accounts/
+  # daily schedules, plus every scraper repo's own post-scrape sync call,
+  # all serialized behind the same lock), 8 commits landed within ~3
+  # minutes and each got cancelled by the next - and this script's OWN
+  # forced empty-commit "redeploy" on every cancellation just added MORE
+  # pushes into that same congested window, burning ~10min per run on
+  # retries that couldn't possibly land while the backlog kept incoming.
+  # If a newer commit already exists upstream, it already got (or will
+  # get) its own deployment attempt - forcing another push here can only
+  # make the pile-up worse, never better, so skip the redeploy entirely.
   git fetch origin --quiet 2>/dev/null
-  CURRENT_HEAD=$(git rev-parse HEAD)
-  REMOTE_HEAD=$(git rev-parse origin/main 2>/dev/null || echo "$CURRENT_HEAD")
-  if [ "$CONCLUSION" = "cancelled" ] && [ "$REMOTE_HEAD" != "$SHA" ]; then
-    echo "  Superseded by a newer commit (${REMOTE_HEAD:0:7}) - that push gets its own deployment. Not treating this as a failure."
+  REMOTE_HEAD=$(git rev-parse origin/main 2>/dev/null || echo "$SHA")
+  if [ "$REMOTE_HEAD" != "$SHA" ]; then
+    echo "  Superseded by a newer commit (${REMOTE_HEAD:0:7}) already - that push gets its own deployment attempt. Not redeploying."
     DEPLOY_OK=1
     break
   fi
