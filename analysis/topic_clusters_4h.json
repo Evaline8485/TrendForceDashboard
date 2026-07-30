@@ -1,43 +1,67 @@
 {
   "clusters": [
     {
-      "id": 0,
-      "label": "ai / nvidia / trendforce / tsmc",
-      "size": 33,
+      "id": 7,
+      "label": "ai / trendforce / google / openai",
+      "size": 32,
       "accounts": {
-        "TrendForce": 1,
         "jukan05": 5,
-        "FT": 9,
+        "FT": 5,
         "statementdog": 2,
         "TrendForce.tw": 1,
-        "technewsinside": 14,
+        "technewsinside": 15,
+        "ctee.fans": 3,
         "yutinghaosfinance": 1
       },
       "engagement_by_account": {
-        "TrendForce": 14,
         "jukan05": 804,
-        "FT": 298,
+        "FT": 236,
         "statementdog": 4,
         "TrendForce.tw": 2,
-        "technewsinside": 267,
+        "technewsinside": 272,
+        "ctee.fans": 65,
         "yutinghaosfinance": 0
       }
     },
     {
-      "id": 12,
-      "label": "dram / hbm / nand / trendforce",
-      "size": 2,
+      "id": 17,
+      "label": "opinion / trib / ft / edition",
+      "size": 4,
       "accounts": {
+        "FT": 4
+      },
+      "engagement_by_account": {
+        "FT": 62
+      }
+    },
+    {
+      "id": 1,
+      "label": "memory / dram / hbm / hynix",
+      "size": 3,
+      "accounts": {
+        "TrendForce": 1,
         "QQ_Timmy": 1,
         "TrendForce.tw": 1
       },
       "engagement_by_account": {
+        "TrendForce": 14,
         "QQ_Timmy": 3,
         "TrendForce.tw": 5
       }
     },
     {
-      "id": 1,
+      "id": 8,
+      "label": "蘋果 / apple / openai / 英特爾",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 4
+      }
+    },
+    {
+      "id": 11,
       "label": "三星 / sk海力士 / ai / galaxy",
       "size": 1,
       "accounts": {
@@ -48,18 +72,7 @@
       }
     },
     {
-      "id": 5,
-      "label": "etf / 韓股 / 台股 / 推出",
-      "size": 1,
-      "accounts": {
-        "technewsinside": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 5
-      }
-    },
-    {
-      "id": 6,
+      "id": 15,
       "label": "ai / trendforce / 生成式ai / 資料中心",
       "size": 1,
       "accounts": {
@@ -70,30 +83,41 @@
       }
     },
     {
-      "id": 10,
-      "label": "spacex / ipo / 馬斯克 / starlink",
+      "id": 16,
+      "label": "spacex / 馬斯克 / ipo / starlink",
       "size": 1,
       "accounts": {
         "technewsinside": 1
       },
       "engagement_by_account": {
         "technewsinside": 1
-      }
-    },
-    {
-      "id": 17,
-      "label": "蘋果 / apple / openai / 英特爾",
-      "size": 1,
-      "accounts": {
-        "technewsinside": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 4
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": 17,
+      "label": "opinion / trib / ft / edition",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 62,
+      "competitors_covering": [
+        "FT"
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": 17,
+      "label": "opinion / trib / ft / edition",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 62,
+      "competitors_covering": [
+        "FT"
+      ]
+    }
+  ],
   "window": {
     "start_utc": "2026-07-30T04:45:00+00:00",
     "end_utc": "2026-07-30T08:45:00+00:00",
