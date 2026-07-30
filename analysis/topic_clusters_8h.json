@@ -1,75 +1,71 @@
 {
   "clusters": [
     {
-      "id": 5,
-      "label": "ai / nvidia / openai / google",
-      "size": 10,
+      "id": 1,
+      "label": "ai / memory / tsmc / dram",
+      "size": 17,
       "accounts": {
         "TrendForce": 2,
-        "jukan05": 2,
-        "statementdog": 1,
-        "TrendForce.tw": 1,
-        "technewsinside": 3,
-        "ctee.fans": 1
+        "SemiAnalysis_": 3,
+        "ctee.fans": 8,
+        "yutinghaosfinance": 4
       },
       "engagement_by_account": {
-        "TrendForce": 9,
-        "jukan05": 270,
-        "statementdog": 0,
-        "TrendForce.tw": 4,
-        "technewsinside": 26,
-        "ctee.fans": 14
+        "TrendForce": 26,
+        "SemiAnalysis_": 86,
+        "ctee.fans": 148,
+        "yutinghaosfinance": 1381
+      }
+    },
+    {
+      "id": 2,
+      "label": "etf / 台股 / 韓股 / 推出",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 1,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 5,
+        "yutinghaosfinance": 189
+      }
+    },
+    {
+      "id": 14,
+      "label": "trendforce / dram / ai / nand",
+      "size": 2,
+      "accounts": {
+        "TrendForce": 2
+      },
+      "engagement_by_account": {
+        "TrendForce": 15
       }
     },
     {
       "id": 10,
-      "label": "trendforce / ai / nand / flash",
-      "size": 2,
-      "accounts": {
-        "TrendForce": 1,
-        "QQ_Timmy": 1
-      },
-      "engagement_by_account": {
-        "TrendForce": 12,
-        "QQ_Timmy": 3
-      }
-    },
-    {
-      "id": 1,
-      "label": "memory / tsmc / samsung / semiconductor",
+      "label": "台股 / 台股雷達 / 台股逐洞賽 / 台積電",
       "size": 1,
       "accounts": {
-        "TrendForce": 1
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "TrendForce": 20
+        "ctee.fans": 9
       }
     },
     {
-      "id": 3,
-      "label": "hynix / sk / samsung / hbm",
+      "id": 11,
+      "label": "台積電 / ai / 英特爾 / cowos",
       "size": 1,
       "accounts": {
-        "TrendForce": 1
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "TrendForce": 29
+        "ctee.fans": 21
       }
     },
     {
-      "id": 4,
-      "label": "spacex / 馬斯克 / ipo / starlink",
-      "size": 1,
-      "accounts": {
-        "technewsinside": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 1
-      }
-    },
-    {
-      "id": 6,
-      "label": "dram / nand / hbm / memory",
+      "id": 15,
+      "label": "datatrack / 看詳情 / 了解詳情 / fed",
       "size": 1,
       "accounts": {
         "TrendForce": 1
@@ -77,25 +73,40 @@
       "engagement_by_account": {
         "TrendForce": 3
       }
-    },
-    {
-      "id": 17,
-      "label": "opinion / trib / ft / edition",
-      "size": 1,
-      "accounts": {
-        "FT": 1
-      },
-      "engagement_by_account": {
-        "FT": 21
-      }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": 1,
+      "label": "ai / memory / tsmc / dram",
+      "own_count": 2,
+      "competitor_count": 15,
+      "competitor_engagement": 1615,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "ctee.fans",
+        "yutinghaosfinance"
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": 1,
+      "label": "ai / memory / tsmc / dram",
+      "own_count": 2,
+      "competitor_count": 15,
+      "competitor_engagement": 1615,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "ctee.fans",
+        "yutinghaosfinance"
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-07-30T16:00:44+08:00",
-    "end_utc": "2026-07-31T00:00:44+08:00",
-    "start_tw": "Jul 30, 16:00",
-    "end_tw": "Jul 31, 00:00"
+    "start_utc": "2026-07-30T17:00:59+08:00",
+    "end_utc": "2026-07-31T01:00:59+08:00",
+    "start_tw": "Jul 30, 17:00",
+    "end_tw": "Jul 31, 01:00"
   }
 }
