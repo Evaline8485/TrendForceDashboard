@@ -1283,7 +1283,7 @@ def main():
   }}
 
   const VIDEO_METRIC_LABELS = {{ views: 'Views', likes: 'Likes', retweets: 'Reposts' }};
-  const MAX_VIDEO_RESULTS = 10;
+  const MAX_VIDEO_RESULTS = 30;
 
   function renderVideoRanking(range) {{
     const container = document.getElementById('video-ranking-content');
