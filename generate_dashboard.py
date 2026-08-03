@@ -662,9 +662,15 @@ def main():
   }}
   .keyword-search-bar input::placeholder {{ color: var(--muted-dim); }}
   .keyword-search-bar input:focus {{ outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px var(--blue-dim); }}
-  .video-region-filter {{ display: inline-flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-left: 16px; }}
-  .video-region-filter label {{ display: inline-flex; align-items: center; gap: 4px; font-size: 12.5px; color: var(--muted); cursor: pointer; white-space: nowrap; }}
-  .video-region-filter input {{ cursor: pointer; }}
+  .video-region-filter {{ display: inline-flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-left: 16px; }}
+  .video-region-filter label {{
+    display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--muted);
+    cursor: pointer; white-space: nowrap; flex-shrink: 0;
+  }}
+  .video-region-filter input {{
+    cursor: pointer; flex-shrink: 0; margin: 0;
+    width: 14px; height: 14px; min-width: 14px; min-height: 14px;
+  }}
   .upload-row {{ display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }}
   .upload-row label {{ color: var(--muted); font-size: 12.5px; }}
   .upload-row input[type="file"] {{
