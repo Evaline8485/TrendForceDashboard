@@ -38,6 +38,14 @@ from datetime import datetime, timezone, timedelta
 from time_ranges import RANGE_ORDER, RANGE_LABELS, RANGE_HOURS, MIN_WINDOW_POSTS, parse_ts, window_bounds, format_window
 from cluster_topics import load_posts
 from video_ranking import RANGES as VIDEO_RANKING_RANGES
+from video_ranking import REGION_KEYWORDS as _VIDEO_REGION_KEYWORDS
+
+# Same 6 region labels video_ranking.py's classify_region() can produce -
+# order here is just display order in the filter row, unrelated to
+# REGION_KEYWORDS' own match-priority order.
+VIDEO_REGIONS = ['United States', 'Europe', 'Japan', 'South Korea', 'China', 'Singapore']
+assert set(VIDEO_REGIONS) == {r for r, _ in _VIDEO_REGION_KEYWORDS}, \
+    'VIDEO_REGIONS must stay in sync with video_ranking.py REGION_KEYWORDS'
 
 # FR-03 (Sentiment/Competitor Watch) explicitly spec's "hourly / every 4
 # hours / daily / monthly / quarterly" - no 8h, no 1w. FR-01/02 (Topic
@@ -654,6 +662,9 @@ def main():
   }}
   .keyword-search-bar input::placeholder {{ color: var(--muted-dim); }}
   .keyword-search-bar input:focus {{ outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px var(--blue-dim); }}
+  .video-region-filter {{ display: inline-flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-left: 16px; }}
+  .video-region-filter label {{ display: inline-flex; align-items: center; gap: 4px; font-size: 12.5px; color: var(--muted); cursor: pointer; white-space: nowrap; }}
+  .video-region-filter input {{ cursor: pointer; }}
   .upload-row {{ display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }}
   .upload-row label {{ color: var(--muted); font-size: 12.5px; }}
   .upload-row input[type="file"] {{
@@ -897,6 +908,10 @@ def main():
         <option value="likes">Likes</option>
         <option value="retweets">Reposts</option>
       </select>
+      <span class="video-region-filter" id="video-region-filter">
+        <span class="muted">Region:</span>
+        {''.join(f'<label><input type="checkbox" class="video-region-cb" value="{r}" checked> {r}</label>' for r in VIDEO_REGIONS)}
+      </span>
     </div>
     <div id="video-ranking-content"></div>
   </section>
@@ -1290,10 +1305,23 @@ def main():
     if (!container) return;
     const metricSelect = document.getElementById('video-metric-select');
     const metric = metricSelect ? metricSelect.value : 'views';
-    const posts = VIDEO_RANKING[range] || [];
+    const allPosts = VIDEO_RANKING[range] || [];
+
+    if (allPosts.length === 0) {{
+      container.innerHTML = '<p class="empty">No video posts found on X in this time range.</p>';
+      return;
+    }}
+
+    // Region is only known for handles enrich_video_locations.js has
+    // already looked up (see video_ranking.py's classify_region) - a post
+    // whose account has no location set, or hasn't been looked up yet,
+    // has region=null and is excluded here same as any unchecked region,
+    // rather than guessed at or shown unlabeled.
+    const checkedRegions = Array.from(document.querySelectorAll('.video-region-cb:checked')).map(cb => cb.value);
+    const posts = allPosts.filter(p => checkedRegions.includes(p.region));
 
     if (posts.length === 0) {{
-      container.innerHTML = '<p class="empty">No video posts found on X in this time range.</p>';
+      container.innerHTML = '<p class="empty">No video posts from the selected region(s) in this time range - try checking more regions, or note that region is only known for accounts we\\'ve already looked up.</p>';
       return;
     }}
 
@@ -1304,6 +1332,7 @@ def main():
       <tr>
         <td class="num">${{i + 1}}</td>
         <td class="cell-primary">${{escapeHtml(p.handle)}}</td>
+        <td>${{escapeHtml(p.region || '—')}}</td>
         <td>${{escapeHtml(p.text.slice(0, 160))}}</td>
         <td>${{p.topic ? escapeHtml(p.topic) : '<span class="muted">—</span>'}}</td>
         <td class="num">${{(p.views || 0).toLocaleString('en-US')}}</td>
@@ -1313,8 +1342,8 @@ def main():
       </tr>`).join('');
 
     container.innerHTML = `
-      <p class="muted">Top ${{ranked.length}} video post(s) across X (any account, not just ones we track) that match one of TrendForce's own industry keywords or Rising Topics, ranked by ${{VIDEO_METRIC_LABELS[metric]}}.</p>
-      <div class="table-wrap"><table><thead><tr><th>#</th><th>Account</th><th>Post</th><th>Topics</th><th>Views</th><th>Likes</th><th>Reposts</th><th>Link</th></tr></thead><tbody>${{rows}}</tbody></table></div>
+      <p class="muted">Top ${{ranked.length}} video post(s) across X (any account, not just ones we track) that match one of TrendForce's own industry keywords or Rising Topics, ranked by ${{VIDEO_METRIC_LABELS[metric]}}. Filtered to ${{checkedRegions.length}} of ${{document.querySelectorAll('.video-region-cb').length}} region(s) — of ${{allPosts.length}} post(s) in this range, ${{posts.length}} matched.</p>
+      <div class="table-wrap"><table><thead><tr><th>#</th><th>Account</th><th>Region</th><th>Post</th><th>Topics</th><th>Views</th><th>Likes</th><th>Reposts</th><th>Link</th></tr></thead><tbody>${{rows}}</tbody></table></div>
     `;
   }}
 
@@ -1330,7 +1359,7 @@ def main():
   }});
 
   document.addEventListener('change', e => {{
-    if (e.target.id === 'video-metric-select') {{
+    if (e.target.id === 'video-metric-select' || e.target.classList.contains('video-region-cb')) {{
       renderVideoRanking(document.getElementById('range-select').value);
     }}
   }});

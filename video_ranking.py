@@ -28,6 +28,76 @@ BASE = os.path.dirname(__file__)
 OUT_FILE = os.path.join(BASE, 'analysis', 'video_ranking.json')
 RISING_TOPICS_FILE = os.path.join(BASE, 'analysis', 'fuzzy_trends_1d.json')
 
+# Profile-location cache built by TrendforceTwitterScraper's
+# enrich_video_locations.js (same cross-repo absolute-path pattern used
+# elsewhere - e.g. this repo reading fuzzy_trends_1d.json in the other
+# direction). Video Ranking's account pool is NOT limited to accounts we
+# track (see module docstring), so region can only ever be known for
+# whichever handles that script has already looked up - anything else
+# (or any handle whose X profile has no location set) comes through as
+# region=None, shown/filtered as "Unknown" on the dashboard rather than
+# guessed at.
+ACCOUNT_LOCATIONS_FILE = '/Users/elainekao/TrendforceTwitterScraper/account_locations.json'
+
+# Keyword match against the free-text X profile-location field (e.g.
+# "San Francisco, CA", "Tokyo, Japan", "London, UK") - deliberately just
+# the 6 regions actually asked for, not an exhaustive world map. Checked
+# in order, first match wins, so more specific/shorter tokens that could
+# collide (e.g. a US state abbreviation) are listed under their own
+# region rather than a catch-all "Europe"/"United States" substring that
+# could misfire on an unrelated word.
+REGION_KEYWORDS = [
+    ('Singapore', ['singapore']),
+    ('Japan', ['japan', 'tokyo', 'osaka', 'kyoto', 'yokohama', 'nagoya']),
+    ('South Korea', ['south korea', 'korea', 'seoul', 'busan', 'incheon']),
+    ('China', ['china', 'beijing', 'shanghai', 'shenzhen', 'guangzhou', 'hangzhou',
+               'nanjing', 'chengdu', 'wuhan', 'xi\'an', 'hong kong']),
+    ('United States', [
+        'united states', 'usa', 'us', 'america',
+        'new york', 'san francisco', 'los angeles', 'seattle', 'boston',
+        'chicago', 'austin', 'texas', 'california', 'washington dc',
+        'silicon valley', 'ca', 'ny', 'sf', 'nyc',
+    ]),
+    ('Europe', [
+        'europe', 'uk', 'united kingdom', 'england', 'london', 'germany', 'berlin',
+        'france', 'paris', 'netherlands', 'amsterdam', 'spain', 'madrid',
+        'italy', 'milan', 'rome', 'switzerland', 'zurich', 'sweden', 'stockholm',
+        'ireland', 'dublin', 'belgium', 'brussels', 'poland', 'denmark',
+        'norway', 'finland', 'portugal', 'austria', 'vienna',
+    ]),
+]
+
+
+def load_account_locations():
+    try:
+        with open(ACCOUNT_LOCATIONS_FILE, encoding='utf-8') as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def classify_region(location):
+    """location is the raw free-text X profile field (or None/empty if
+    never set or not yet looked up) - returns one of REGION_KEYWORDS'
+    labels, or None if it doesn't match any of the 6 tracked regions.
+    Short/ambiguous tokens (state abbreviations like 'ca', 'ny') are
+    matched as whole words only, so they don't fire on an unrelated
+    substring inside a longer word; longer phrases use plain substring
+    matching since they're specific enough not to need it."""
+    if not location:
+        return None
+    # Strip periods so "U.S." normalizes to "us" for the 'us' keyword's
+    # \b match below, rather than needing a separate literal-dot pattern.
+    text = location.lower().replace('.', '')
+    for region, keywords in REGION_KEYWORDS:
+        for kw in keywords:
+            if len(kw) <= 4:
+                if re.search(r'\b' + re.escape(kw) + r'\b', text):
+                    return region
+            elif kw in text:
+                return region
+    return None
+
 # Mirrors KEYWORD_BATCHES in TrendforceTwitterScraper/scrape_video_discovery.js -
 # duplicated intentionally (the two repos can't share code) so posts that
 # never got a topic from a search query in the first place - tracked-account
@@ -220,6 +290,14 @@ def main():
     if not posts:
         print('No video posts found across any tracked X account, skipping.')
         return
+
+    locations = load_account_locations()
+    known_regions = 0
+    for p in posts:
+        p['region'] = classify_region(locations.get(p['handle']))
+        if p['region']:
+            known_regions += 1
+    print(f"Classified region for {known_regions}/{len(posts)} post(s) (rest: unknown location or not yet looked up).")
 
     keyword_sets = [(' / '.join(terms), terms) for terms in INDUSTRY_KEYWORD_SETS]
     keyword_sets += load_rising_topic_keyword_sets()
