@@ -1,52 +1,80 @@
 {
-  "generated_at": "2026-08-03T00:34:52.082095+00:00",
+  "generated_at": "2026-08-03T09:17:50+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-08-02T20:34:52.082095+00:00",
-    "end_utc": "2026-08-03T00:34:52.082095+00:00",
-    "start_tw": "Aug 03, 04:34",
-    "end_tw": "Aug 03, 08:34"
+    "start_utc": "2026-08-03T05:17:50+08:00",
+    "end_utc": "2026-08-03T09:17:50+08:00",
+    "start_tw": "Aug 03, 05:17",
+    "end_tw": "Aug 03, 09:17"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 9,
+      "total_posts": 15,
       "sentiment_counts": {
-        "neutral": 2,
-        "negative": 3,
-        "positive": 4
+        "positive": 6,
+        "neutral": 4,
+        "negative": 5
       },
       "sentiment_share": {
-        "neutral": 0.222,
-        "negative": 0.333,
-        "positive": 0.444
+        "positive": 0.4,
+        "neutral": 0.267,
+        "negative": 0.333
       },
       "top_terms": [
         "transistor",
         "logic",
         "packaging",
+        "fab",
         "chip",
         "integration",
         "dram",
         "hybrid",
         "bonding",
-        "stacking",
-        "bandwidth"
+        "stacking"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 0,
         "label": "packaging / chip / ai / stacking",
-        "heat": 50.0,
-        "volume": 9,
-        "engagement": 944,
+        "heat": 90.0,
+        "volume": 11,
+        "engagement": 1333,
         "entities": [
           "AI",
           "China",
+          "fifa",
           "日本",
-          "DRAM w  compute",
-          "PCB"
+          "DRAM w  compute"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "fab / bandwidth / interconnect / logic",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 11,
+        "entities": [
+          "Kumamoto",
+          "TSMC",
+          "JASM Fab",
+          "CXMT",
+          "w  SMIC"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "biggest / trib / ft",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 38,
+        "entities": [
+          "Asia",
+          "al l",
+          "asia",
+          "US",
+          "al CQONY"
         ]
       }
     ],
@@ -60,8 +88,28 @@
         "count": 2
       },
       {
+        "entity": "US",
+        "count": 2
+      },
+      {
+        "entity": "fifa",
+        "count": 2
+      },
+      {
         "entity": "日本",
         "count": 2
+      },
+      {
+        "entity": "Kumamoto",
+        "count": 1
+      },
+      {
+        "entity": "TSMC",
+        "count": 1
+      },
+      {
+        "entity": "JASM Fab",
+        "count": 1
       },
       {
         "entity": "DRAM w  compute",
@@ -90,135 +138,115 @@
       {
         "entity": "w  SMIC",
         "count": 1
-      },
-      {
-        "entity": "上市",
-        "count": 1
-      },
-      {
-        "entity": "廣達",
-        "count": 1
-      },
-      {
-        "entity": "中信",
-        "count": 1
-      },
-      {
-        "entity": "中華電",
-        "count": 1
-      },
-      {
-        "entity": "台新",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-02T20:34:52.082089+00:00",
-        "bucket_end": "2026-08-02T20:52:00.653518+00:00",
+        "bucket_start": "2026-08-03T05:17:49.999994+08:00",
+        "bucket_end": "2026-08-03T05:34:58.571423+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-02T20:52:00.653518+00:00",
-        "bucket_end": "2026-08-02T21:09:09.224947+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-02T21:09:09.224947+00:00",
-        "bucket_end": "2026-08-02T21:26:17.796376+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-02T21:26:17.796376+00:00",
-        "bucket_end": "2026-08-02T21:43:26.367805+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-02T21:43:26.367805+00:00",
-        "bucket_end": "2026-08-02T22:00:34.939234+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-02T22:00:34.939234+00:00",
-        "bucket_end": "2026-08-02T22:17:43.510663+00:00",
-        "positive": 3,
-        "neutral": 0,
-        "negative": 2
-      },
-      {
-        "bucket_start": "2026-08-02T22:17:43.510663+00:00",
-        "bucket_end": "2026-08-02T22:34:52.082092+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-02T22:34:52.082092+00:00",
-        "bucket_end": "2026-08-02T22:52:00.653521+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-02T22:52:00.653521+00:00",
-        "bucket_end": "2026-08-02T23:09:09.224950+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-02T23:09:09.224950+00:00",
-        "bucket_end": "2026-08-02T23:26:17.796379+00:00",
+        "bucket_start": "2026-08-03T05:34:58.571423+08:00",
+        "bucket_end": "2026-08-03T05:52:07.142852+08:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-02T23:26:17.796379+00:00",
-        "bucket_end": "2026-08-02T23:43:26.367808+00:00",
+        "bucket_start": "2026-08-03T05:52:07.142852+08:00",
+        "bucket_end": "2026-08-03T06:09:15.714281+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-02T23:43:26.367808+00:00",
-        "bucket_end": "2026-08-03T00:00:34.939237+00:00",
+        "bucket_start": "2026-08-03T06:09:15.714281+08:00",
+        "bucket_end": "2026-08-03T06:26:24.285710+08:00",
+        "positive": 3,
+        "neutral": 0,
+        "negative": 2
+      },
+      {
+        "bucket_start": "2026-08-03T06:26:24.285710+08:00",
+        "bucket_end": "2026-08-03T06:43:32.857139+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-03T06:43:32.857139+08:00",
+        "bucket_end": "2026-08-03T07:00:41.428568+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-03T00:00:34.939237+00:00",
-        "bucket_end": "2026-08-03T00:17:43.510666+00:00",
+        "bucket_start": "2026-08-03T07:00:41.428568+08:00",
+        "bucket_end": "2026-08-03T07:17:49.999997+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-03T07:17:49.999997+08:00",
+        "bucket_end": "2026-08-03T07:34:58.571426+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-03T00:17:43.510666+00:00",
-        "bucket_end": "2026-08-03T00:34:52.082095+00:00",
+        "bucket_start": "2026-08-03T07:34:58.571426+08:00",
+        "bucket_end": "2026-08-03T07:52:07.142855+08:00",
         "positive": 0,
         "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-03T07:52:07.142855+08:00",
+        "bucket_end": "2026-08-03T08:09:15.714284+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-03T08:09:15.714284+08:00",
+        "bucket_end": "2026-08-03T08:26:24.285713+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-03T08:26:24.285713+08:00",
+        "bucket_end": "2026-08-03T08:43:32.857142+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-03T08:43:32.857142+08:00",
+        "bucket_end": "2026-08-03T09:00:41.428571+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-03T09:00:41.428571+08:00",
+        "bucket_end": "2026-08-03T09:17:50+08:00",
+        "positive": 0,
+        "neutral": 1,
         "negative": 0
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "tphuang",
-        "top_topic_id": 0,
-        "top_topic_label": "packaging / chip / ai / stacking",
+        "handle": "TrendForce",
+        "top_topic_id": 1,
+        "top_topic_label": "fab / bandwidth / interconnect / logic",
         "focus_share": 1.0,
-        "post_count": 6
+        "post_count": 1
       },
       {
         "handle": "yutinghaosfinance",
@@ -226,23 +254,49 @@
         "top_topic_label": "packaging / chip / ai / stacking",
         "focus_share": 1.0,
         "post_count": 3
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 0,
+        "top_topic_label": "packaging / chip / ai / stacking",
+        "focus_share": 0.833,
+        "post_count": 6
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 0,
+        "top_topic_label": "packaging / chip / ai / stacking",
+        "focus_share": 0.6,
+        "post_count": 5
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 0,
         "label": "packaging / chip / ai / stacking",
-        "total_engagement": 944,
-        "post_count": 9
+        "total_engagement": 1333,
+        "post_count": 11
+      },
+      {
+        "topic_id": 2,
+        "label": "biggest / trib / ft",
+        "total_engagement": 38,
+        "post_count": 2
+      },
+      {
+        "topic_id": 1,
+        "label": "fab / bandwidth / interconnect / logic",
+        "total_engagement": 11,
+        "post_count": 2
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 9,
-          "likes": 933,
-          "engagement": 944,
-          "avg_engagement": 104.9
+          "post_count": 14,
+          "likes": 1165,
+          "engagement": 1252,
+          "avg_engagement": 89.4
         },
         "afternoon": {
           "post_count": 0,
@@ -257,10 +311,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 1,
+          "likes": 99,
+          "engagement": 130,
+          "avg_engagement": 130.0
         }
       },
       "peak_slot": "morning"
