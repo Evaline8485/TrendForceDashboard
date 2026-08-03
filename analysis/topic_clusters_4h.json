@@ -1,60 +1,64 @@
 {
   "clusters": [
     {
-      "id": 1,
-      "label": "ai / memory / tsmc / hbm",
-      "size": 8,
+      "id": 3,
+      "label": "ai / memory / dram / trendforce",
+      "size": 14,
       "accounts": {
         "tphuang": 6,
-        "yutinghaosfinance": 2
+        "FT": 5,
+        "yutinghaosfinance": 3
       },
       "engagement_by_account": {
         "tphuang": 46,
-        "yutinghaosfinance": 897
+        "FT": 433,
+        "yutinghaosfinance": 898
       }
     },
     {
-      "id": 2,
-      "label": "台股 / etf / 台股雷達 / 台積電",
+      "id": 0,
+      "label": "tsmc / nm / packaging / semiconductor",
       "size": 1,
       "accounts": {
-        "yutinghaosfinance": 1
+        "TrendForce": 1
       },
       "engagement_by_account": {
-        "yutinghaosfinance": 1
+        "TrendForce": 5
       }
     }
   ],
   "gaps": [
     {
-      "cluster_id": 1,
-      "label": "ai / memory / tsmc / hbm",
+      "cluster_id": 3,
+      "label": "ai / memory / dram / trendforce",
       "own_count": 0,
-      "competitor_count": 8,
-      "competitor_engagement": 943,
+      "competitor_count": 14,
+      "competitor_engagement": 1377,
       "competitors_covering": [
         "tphuang",
+        "FT",
         "yutinghaosfinance"
       ]
     }
   ],
   "suggested_entry_points": [
     {
-      "cluster_id": 1,
-      "label": "ai / memory / tsmc / hbm",
+      "cluster_id": 3,
+      "label": "ai / memory / dram / trendforce",
       "own_count": 0,
-      "competitor_count": 8,
-      "competitor_engagement": 943,
+      "competitor_count": 14,
+      "competitor_engagement": 1377,
       "competitors_covering": [
         "tphuang",
+        "FT",
         "yutinghaosfinance"
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-08-02T20:34:52.082095+00:00",
-    "end_utc": "2026-08-03T00:34:52.082095+00:00",
-    "start_tw": "Aug 03, 04:34",
-    "end_tw": "Aug 03, 08:34"
+    "start_utc": "2026-08-03T05:17:50+08:00",
+    "end_utc": "2026-08-03T09:17:50+08:00",
+    "start_tw": "Aug 03, 05:17",
+    "end_tw": "Aug 03, 09:17"
   }
 }
