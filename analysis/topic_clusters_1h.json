@@ -1,203 +1,77 @@
 {
   "clusters": [
     {
-      "id": 3,
-      "label": "ai / memory / tsmc / trendforce",
+      "id": 1,
+      "label": "ai / nvidia / memory / tsmc",
       "size": 13,
       "accounts": {
-        "ctee.fans": 3,
-        "josepozophotonics": 10
+        "technews_tw": 2,
+        "FT": 7,
+        "technewsinside": 2,
+        "ctee.fans": 2
       },
       "engagement_by_account": {
-        "ctee.fans": 15,
-        "josepozophotonics": 426
+        "technews_tw": 1,
+        "FT": 81,
+        "technewsinside": 15,
+        "ctee.fans": 6
       }
     },
     {
-      "id": 9,
-      "label": "meta / ai / compute / openai",
-      "size": 1,
+      "id": 8,
+      "label": "台股 / etf / 台股雷達 / 台股逐洞賽",
+      "size": 2,
       "accounts": {
-        "josepozophotonics": 1
+        "technews_tw": 1,
+        "technewsinside": 1
       },
       "engagement_by_account": {
-        "josepozophotonics": 13
+        "technews_tw": 0,
+        "technewsinside": 4
       }
     },
     {
       "id": 10,
-      "label": "laser / fusion / optica / replay",
-      "size": 1,
+      "label": "trib / opinion / ft / edition",
+      "size": 2,
       "accounts": {
-        "josepozophotonics": 1
+        "FT": 2
       },
       "engagement_by_account": {
-        "josepozophotonics": 20
+        "FT": 11
+      }
+    },
+    {
+      "id": 13,
+      "label": "ai / memory / 蘋果 / 輝達",
+      "size": 2,
+      "accounts": {
+        "technews_tw": 1,
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 1,
+        "technewsinside": 4
+      }
+    },
+    {
+      "id": 11,
+      "label": "google / tpu / ai / gemini",
+      "size": 1,
+      "accounts": {
+        "FT": 1
+      },
+      "engagement_by_account": {
+        "FT": 13
       }
     }
   ],
-  "gaps": [
-    {
-      "cluster_id": 3,
-      "label": "ai / memory / tsmc / trendforce",
-      "own_count": 0,
-      "competitor_count": 13,
-      "competitor_engagement": 441,
-      "competitors_covering": [
-        "ctee.fans",
-        "josepozophotonics"
-      ],
-      "sample_posts": [
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "CANADA'S PHOTONICS MOMENT: WHY THE CPFC SPINOFF CHANGES EVERYTHING FOR WESTERN SEMICONDUCTOR SUPPLY CHAINS  The Canadian Photonics Fabrication Center is being spun off from the National Research Council Canada / Conseil national de recherches Canada as a private, independent foundry. That is not a m",
-          "url": "",
-          "timestamp": "2026-08-04T10:15:58.884+08:00",
-          "interaction": 103
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "EIGHT COMPANIES, ONE MESSAGE: QUANTUM IS READY TO SCALE Time for some reporting from the exhibition floor in Glasgow, where Optica Quantum 2.0 and the Quantum Industry Summit were co-located for the first time (15 to 18 June, Scottish Event Campus). The throughline: quantum is moving from the lab to",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7474808294247731200/",
-          "timestamp": "2026-08-04T10:16:17.598+08:00",
-          "interaction": 76
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "WHAT DID QUIX JUST MAKE OBSOLETE? EVERY PHOTONIC QUANTUM COMPUTER THAT CAME BEFORE IT. That was the claim from Jelmer Renema, co-founder and Chief Scientist of QuiX Quantum, at last week's Optica Quantum Industry Summit in Glasgow, collocated this year with Quantum 2.0. On the exhibition floor, he a",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7474483796168355840/",
-          "timestamp": "2026-08-04T10:16:17.598+08:00",
-          "interaction": 74
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "WILL YOU BE IN THE ROOM TO DO GLOBAL BUSINESS? One room. 24 and 25 September in Malaga, Southern Spain. Meet the people who actually set the photonics agenda. The Optica Global Photonics Economic Forum 2026 has confirmed its speaker line-up, and it reads like the org chart of the entire industry. CE",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7475548418258432000/",
-          "timestamp": "2026-08-04T10:16:17.598+08:00",
-          "interaction": 53
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "THE TWO-YEAR CLOCK ON CO-PACKAGED OPTICS: A NINE-MONTH SCOREBOARD Last September, at ECOC in Copenhagen, I chaired a fireside session on the Market Focus stage that I still think about. We put three companies up there, each holding one piece of a puzzle nobody has solved yet: how do you get co-packa",
-          "url": "",
-          "timestamp": "2026-08-04T10:15:58.884+08:00",
-          "interaction": 33
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "Difficult to understand the timing of this move by Optica corporate member Leidos when quantum is becoming ever more important to the defense and financial security sector. Given the news, I expect others will quickly secure this team of talent, which ranks among the smartest in the world. I wish ev",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7476949976170868736/",
-          "timestamp": "2026-08-04T10:16:17.598+08:00",
-          "interaction": 18
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "When I started at Leidos in late 2020, I persuaded leadership to invest in quantum — from a whiteboard idea to a weapons-grade team doing real science. A $25M DARPA quantum-networking program. Single-photon detectors measured to ~1%. Fault-tolerant algorithms for problems classical machines can't to",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7475861066753949696/",
-          "timestamp": "2026-08-04T10:16:17.598+08:00",
-          "interaction": 18
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "REINDUSTRIALISATION IS NOT about turning the clock back. In a tense geopolitical moment, the easy instinct is to protect legacy industries. The leaders actually building capacity have rejected that. You do not reshore by fighting for an industry someone else has dominated for generations. You reshor",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7474952004478382080/",
-          "timestamp": "2026-08-04T10:16:17.598+08:00",
-          "interaction": 18
-        }
-      ]
-    }
-  ],
-  "suggested_entry_points": [
-    {
-      "cluster_id": 3,
-      "label": "ai / memory / tsmc / trendforce",
-      "own_count": 0,
-      "competitor_count": 13,
-      "competitor_engagement": 441,
-      "competitors_covering": [
-        "ctee.fans",
-        "josepozophotonics"
-      ],
-      "sample_posts": [
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "CANADA'S PHOTONICS MOMENT: WHY THE CPFC SPINOFF CHANGES EVERYTHING FOR WESTERN SEMICONDUCTOR SUPPLY CHAINS  The Canadian Photonics Fabrication Center is being spun off from the National Research Council Canada / Conseil national de recherches Canada as a private, independent foundry. That is not a m",
-          "url": "",
-          "timestamp": "2026-08-04T10:15:58.884+08:00",
-          "interaction": 103
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "EIGHT COMPANIES, ONE MESSAGE: QUANTUM IS READY TO SCALE Time for some reporting from the exhibition floor in Glasgow, where Optica Quantum 2.0 and the Quantum Industry Summit were co-located for the first time (15 to 18 June, Scottish Event Campus). The throughline: quantum is moving from the lab to",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7474808294247731200/",
-          "timestamp": "2026-08-04T10:16:17.598+08:00",
-          "interaction": 76
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "WHAT DID QUIX JUST MAKE OBSOLETE? EVERY PHOTONIC QUANTUM COMPUTER THAT CAME BEFORE IT. That was the claim from Jelmer Renema, co-founder and Chief Scientist of QuiX Quantum, at last week's Optica Quantum Industry Summit in Glasgow, collocated this year with Quantum 2.0. On the exhibition floor, he a",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7474483796168355840/",
-          "timestamp": "2026-08-04T10:16:17.598+08:00",
-          "interaction": 74
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "WILL YOU BE IN THE ROOM TO DO GLOBAL BUSINESS? One room. 24 and 25 September in Malaga, Southern Spain. Meet the people who actually set the photonics agenda. The Optica Global Photonics Economic Forum 2026 has confirmed its speaker line-up, and it reads like the org chart of the entire industry. CE",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7475548418258432000/",
-          "timestamp": "2026-08-04T10:16:17.598+08:00",
-          "interaction": 53
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "THE TWO-YEAR CLOCK ON CO-PACKAGED OPTICS: A NINE-MONTH SCOREBOARD Last September, at ECOC in Copenhagen, I chaired a fireside session on the Market Focus stage that I still think about. We put three companies up there, each holding one piece of a puzzle nobody has solved yet: how do you get co-packa",
-          "url": "",
-          "timestamp": "2026-08-04T10:15:58.884+08:00",
-          "interaction": 33
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "Difficult to understand the timing of this move by Optica corporate member Leidos when quantum is becoming ever more important to the defense and financial security sector. Given the news, I expect others will quickly secure this team of talent, which ranks among the smartest in the world. I wish ev",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7476949976170868736/",
-          "timestamp": "2026-08-04T10:16:17.598+08:00",
-          "interaction": 18
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "When I started at Leidos in late 2020, I persuaded leadership to invest in quantum — from a whiteboard idea to a weapons-grade team doing real science. A $25M DARPA quantum-networking program. Single-photon detectors measured to ~1%. Fault-tolerant algorithms for problems classical machines can't to",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7475861066753949696/",
-          "timestamp": "2026-08-04T10:16:17.598+08:00",
-          "interaction": 18
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "REINDUSTRIALISATION IS NOT about turning the clock back. In a tense geopolitical moment, the easy instinct is to protect legacy industries. The leaders actually building capacity have rejected that. You do not reshore by fighting for an industry someone else has dominated for generations. You reshor",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7474952004478382080/",
-          "timestamp": "2026-08-04T10:16:17.598+08:00",
-          "interaction": 18
-        }
-      ]
-    }
-  ],
+  "gaps": [],
+  "suggested_entry_points": [],
   "window": {
-    "start_utc": "2026-08-04T01:31:59.354994+00:00",
-    "end_utc": "2026-08-04T02:31:59.354994+00:00",
-    "start_tw": "Aug 04, 09:31",
-    "end_tw": "Aug 04, 10:31"
+    "start_utc": "2026-08-04T03:40:00+00:00",
+    "end_utc": "2026-08-04T04:40:00+00:00",
+    "start_tw": "Aug 04, 11:40",
+    "end_tw": "Aug 04, 12:40"
   }
 }
