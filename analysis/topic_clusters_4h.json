@@ -2,63 +2,50 @@
   "clusters": [
     {
       "id": 3,
-      "label": "ai / 台積電 / tsmc / trendforce",
-      "size": 14,
+      "label": "ai / memory / tsmc / trendforce",
+      "size": 29,
       "accounts": {
         "technews_tw": 1,
-        "jukan05": 1,
-        "tphuang": 5,
-        "FT": 3,
-        "technewsinside": 4
+        "tphuang": 3,
+        "FT": 1,
+        "technewsinside": 5,
+        "ctee.fans": 9,
+        "josepozophotonics": 10
       },
       "engagement_by_account": {
         "technews_tw": 0,
-        "jukan05": 50,
-        "tphuang": 64,
-        "FT": 52,
-        "technewsinside": 226
+        "tphuang": 16,
+        "FT": 9,
+        "technewsinside": 227,
+        "ctee.fans": 168,
+        "josepozophotonics": 426
+      }
+    },
+    {
+      "id": 14,
+      "label": "hbm / dram / memory / ai",
+      "size": 2,
+      "accounts": {
+        "jukan05": 2
+      },
+      "engagement_by_account": {
+        "jukan05": 121
       }
     },
     {
       "id": 1,
-      "label": "memory / hbm / ai / micron",
-      "size": 4,
+      "label": "nvidia / ai / jensen / amd",
+      "size": 1,
       "accounts": {
-        "SemiAnalysis_": 1,
-        "tphuang": 3
-      },
-      "engagement_by_account": {
-        "SemiAnalysis_": 33,
-        "tphuang": 11
-      }
-    },
-    {
-      "id": 11,
-      "label": "nvidia / ai / amd / jensen",
-      "size": 2,
-      "accounts": {
-        "jukan05": 1,
         "tengyanAI": 1
       },
       "engagement_by_account": {
-        "jukan05": 71,
         "tengyanAI": 4
       }
     },
     {
-      "id": 2,
-      "label": "dram / nand / trendforce / hbm",
-      "size": 1,
-      "accounts": {
-        "jukan05": 1
-      },
-      "engagement_by_account": {
-        "jukan05": 359
-      }
-    },
-    {
-      "id": 6,
-      "label": "hynix / sk / samsung / hbm",
+      "id": 5,
+      "label": "hynix / sk / samsung / memory",
       "size": 1,
       "accounts": {
         "jukan05": 1
@@ -68,115 +55,67 @@
       }
     },
     {
-      "id": 16,
-      "label": "台股 / etf / 台積電 / 台股雷達",
+      "id": 9,
+      "label": "meta / ai / compute / openai",
       "size": 1,
       "accounts": {
-        "technewsinside": 1
+        "josepozophotonics": 1
       },
       "engagement_by_account": {
-        "technewsinside": 1
+        "josepozophotonics": 13
+      }
+    },
+    {
+      "id": 10,
+      "label": "laser / fusion / optica / replay",
+      "size": 1,
+      "accounts": {
+        "josepozophotonics": 1
+      },
+      "engagement_by_account": {
+        "josepozophotonics": 20
+      }
+    },
+    {
+      "id": 11,
+      "label": "dram / nand / trendforce / flash",
+      "size": 1,
+      "accounts": {
+        "jukan05": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 359
+      }
+    },
+    {
+      "id": 13,
+      "label": "早晨財經速解讀 / kimi / 魏哲家",
+      "size": 1,
+      "accounts": {
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "yutinghaosfinance": 318
+      }
+    },
+    {
+      "id": 16,
+      "label": "models / ai / releasing / frontier",
+      "size": 1,
+      "accounts": {
+        "tphuang": 1
+      },
+      "engagement_by_account": {
+        "tphuang": 26
       }
     }
   ],
-  "gaps": [
-    {
-      "cluster_id": 1,
-      "label": "memory / hbm / ai / micron",
-      "own_count": 0,
-      "competitor_count": 4,
-      "competitor_engagement": 44,
-      "competitors_covering": [
-        "SemiAnalysis_",
-        "tphuang"
-      ],
-      "sample_posts": [
-        {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "Kimi K3, The Manos, The Mythos, The Legendos Kimi K3’s architecture: compressed memory, attention across depth, latent expert routing, and serving performance",
-          "url": "https://x.com/SemiAnalysis_/status/2084394819145674794",
-          "timestamp": "2026-08-04T05:43:45.000+08:00",
-          "interaction": 33
-        },
-        {
-          "handle": "tphuang",
-          "platform": "X",
-          "text": "To me, the limit here is not the system or the AI chips or the interconnect. All those are increasing very fast.  The limit is how much high bandwidth memory you can produce & how close you can stack next to the compute chips.  This applies to AI servers as much as edge AI chips.",
-          "url": "https://x.com/tphuang/status/2084409388811358636",
-          "timestamp": "2026-08-04T06:41:39.000+08:00",
-          "interaction": 7
-        },
-        {
-          "handle": "tphuang",
-          "platform": "X",
-          "text": "20GW of AIDC construction/yr would match other figures I've seen which estimated 75-80GW over next 4 yrs.  This also implies other part of supply chain like memory can keep up w/ this much production. It seems like 2026-2027 will have plenty of scaling across the supply chain.",
-          "url": "https://x.com/tphuang/status/2084394525762392243",
-          "timestamp": "2026-08-04T05:42:35.000+08:00",
-          "interaction": 3
-        },
-        {
-          "handle": "tphuang",
-          "platform": "X",
-          "text": "Here, I looked at how deployment of long context window & really large model affects the # of active sessions you can support per SuperNode.  The key is memory wall vs bandwidth wall vs compute wall. Focus on memory, not EFLOPS",
-          "url": "https://x.com/tphuang/status/2084410097602592915",
-          "timestamp": "2026-08-04T06:44:28.000+08:00",
-          "interaction": 1
-        }
-      ]
-    }
-  ],
-  "suggested_entry_points": [
-    {
-      "cluster_id": 1,
-      "label": "memory / hbm / ai / micron",
-      "own_count": 0,
-      "competitor_count": 4,
-      "competitor_engagement": 44,
-      "competitors_covering": [
-        "SemiAnalysis_",
-        "tphuang"
-      ],
-      "sample_posts": [
-        {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "Kimi K3, The Manos, The Mythos, The Legendos Kimi K3’s architecture: compressed memory, attention across depth, latent expert routing, and serving performance",
-          "url": "https://x.com/SemiAnalysis_/status/2084394819145674794",
-          "timestamp": "2026-08-04T05:43:45.000+08:00",
-          "interaction": 33
-        },
-        {
-          "handle": "tphuang",
-          "platform": "X",
-          "text": "To me, the limit here is not the system or the AI chips or the interconnect. All those are increasing very fast.  The limit is how much high bandwidth memory you can produce & how close you can stack next to the compute chips.  This applies to AI servers as much as edge AI chips.",
-          "url": "https://x.com/tphuang/status/2084409388811358636",
-          "timestamp": "2026-08-04T06:41:39.000+08:00",
-          "interaction": 7
-        },
-        {
-          "handle": "tphuang",
-          "platform": "X",
-          "text": "20GW of AIDC construction/yr would match other figures I've seen which estimated 75-80GW over next 4 yrs.  This also implies other part of supply chain like memory can keep up w/ this much production. It seems like 2026-2027 will have plenty of scaling across the supply chain.",
-          "url": "https://x.com/tphuang/status/2084394525762392243",
-          "timestamp": "2026-08-04T05:42:35.000+08:00",
-          "interaction": 3
-        },
-        {
-          "handle": "tphuang",
-          "platform": "X",
-          "text": "Here, I looked at how deployment of long context window & really large model affects the # of active sessions you can support per SuperNode.  The key is memory wall vs bandwidth wall vs compute wall. Focus on memory, not EFLOPS",
-          "url": "https://x.com/tphuang/status/2084410097602592915",
-          "timestamp": "2026-08-04T06:44:28.000+08:00",
-          "interaction": 1
-        }
-      ]
-    }
-  ],
+  "gaps": [],
+  "suggested_entry_points": [],
   "window": {
-    "start_utc": "2026-08-03T21:26:00+00:00",
-    "end_utc": "2026-08-04T01:26:00+00:00",
-    "start_tw": "Aug 04, 05:26",
-    "end_tw": "Aug 04, 09:26"
+    "start_utc": "2026-08-03T22:31:59.354994+00:00",
+    "end_utc": "2026-08-04T02:31:59.354994+00:00",
+    "start_tw": "Aug 04, 06:31",
+    "end_tw": "Aug 04, 10:31"
   }
 }
