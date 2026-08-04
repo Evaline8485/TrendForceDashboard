@@ -54,8 +54,15 @@ directory layout under the identical username. Confirmed hardcoded paths:
 ## 4. Credentials & session state — hand these over out-of-band, never via git
 
 These are what let the scrapers act as your logged-in accounts. None of
-them belong in a git commit (check `.gitignore` already excludes them,
-but double-check before any `git add -A`):
+them belong in a git commit. **Verify this before transfer** — found
+2026-08-04 that `session_google.json` had been tracked in
+`TrendforceTwitterScraper`'s public repo since its initial commit despite
+every sibling session file being gitignored (now fixed: untracked and
+added to `.gitignore` as of commit `a40b4d2`, but the old committed copy
+still exists in git history and that Google session should be rotated —
+log out or change the account password — independent of the code fix).
+Don't assume `.gitignore` coverage is complete; check with
+`git ls-files | grep -E "session|\.env"` in each repo before handoff:
 
 | File | Repo | What it is |
 |---|---|---|
