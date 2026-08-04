@@ -35,7 +35,7 @@ import os
 import urllib.parse
 from datetime import datetime, timezone, timedelta
 
-from time_ranges import RANGE_ORDER, RANGE_LABELS, RANGE_HOURS, MIN_WINDOW_POSTS, parse_ts, window_bounds, format_window
+from time_ranges import RANGE_ORDER, RANGE_LABELS, RANGE_HOURS, MIN_WINDOW_POSTS, parse_ts, window_bounds, format_window, taiwan_str
 from cluster_topics import load_posts
 from video_ranking import RANGES as VIDEO_RANKING_RANGES
 from video_ranking import REGION_KEYWORDS as _VIDEO_REGION_KEYWORDS
@@ -254,7 +254,64 @@ def render_topic_gaps(data):
       </tr>""" for g in gaps)
     body = table(['Topic', '#Our posts', '#Competitor posts', '#Competitor engagement', 'Covered by'],
                  rows, 'No topic gaps detected — our coverage is keeping pace with competitors.')
-    return panel(body, 'Where competitors are outpacing us', 'Top 10 by competitor engagement')
+    return panel(body, 'Where competitors are outpacing us', 'Top 10 by competitor engagement') \
+        + render_topic_gap_digest(gaps)
+
+
+def render_topic_gap_digest(gaps):
+    """A second, card-style view of the same FR-01 gaps table above (not a
+    replacement - explicitly requested alongside it), styled after an
+    external reference: title / time / keyword tags / bullet-point
+    summary / an expand-for-full-text control / every source article
+    listed underneath. Unlike the reference's "AI 彙整" (AI-compiled)
+    bullets, there's no LLM summarization wired into this codebase (FR-06's
+    own summaries are template-assembled from numbers, see
+    generate_summaries.py) - each bullet is a real member post's own
+    original text (cluster_topics.py's raw_text, uncleaned unlike the
+    TF-IDF 'text' field), not a distilled rewrite. Labeled accordingly so
+    this doesn't silently overclaim a summarization capability that isn't
+    there."""
+    cards = []
+    for g in gaps:
+        samples = g.get('sample_posts') or []
+        if not samples:
+            continue
+        top = samples[0]
+        title = top['text'][:80] + ('…' if len(top['text']) > 80 else '')
+        keywords = [k.strip() for k in g['label'].split('/') if k.strip()][:4]
+        timestamps = [parse_ts(p['timestamp']) for p in samples if p.get('timestamp')]
+        timestamps = [t for t in timestamps if t]
+        latest = max(timestamps) if timestamps else None
+        bullets = ''.join(
+            f'<li>{esc(p["text"][:120])}{"…" if len(p["text"]) > 120 else ""}</li>'
+            for p in samples[:5]
+        )
+        sources = ''.join(f"""
+          <div class="gap-source-row">
+            <a href="{esc(p['url'])}" target="_blank" rel="noopener noreferrer">{esc(p['text'][:70])}{'…' if len(p['text']) > 70 else ''}</a>
+            <span class="muted">— {esc(p['handle'])} ({esc(p['platform'])}){f", {esc(taiwan_str(parse_ts(p['timestamp'])))}" if p.get('timestamp') and parse_ts(p['timestamp']) else ''}</span>
+          </div>""" for p in samples)
+        cards.append(f"""
+        <div class="gap-card">
+          <div class="gap-card-title">{esc(title)}</div>
+          <div class="gap-card-meta">
+            <span class="muted">{len(samples)} 篇來源</span>
+            {f'<span class="muted">{esc(taiwan_str(latest))}</span>' if latest else ''}
+            {''.join(f'<span class="badge cat">{esc(k)}</span>' for k in keywords)}
+            <span class="badge score">{fmt_int(g["competitor_engagement"])}</span>
+          </div>
+          <ul class="gap-card-bullets">{bullets}</ul>
+          <details class="gap-card-expand">
+            <summary>展開全文（{len(samples)} 篇）</summary>
+            <div class="gap-card-sources">
+              <div class="muted" style="margin-top:10px;margin-bottom:4px;">來源文章</div>
+              {sources}
+            </div>
+          </details>
+        </div>""")
+    if not cards:
+        return ''
+    return panel(f'<div class="gap-card-grid">{"".join(cards)}</div>', '話題摘要卡', 'Topic Gaps 細分 - 同一份資料的卡片檢視')
 
 
 def render_rising_topics(data):
@@ -806,6 +863,23 @@ def main():
   .badge.status-active, .badge.status-sent, .badge.status-approved {{ background: rgba(63,185,104,0.16); color: var(--green); }}
   .badge.status-stale, .badge.status-drafted, .badge.status-pending {{ background: rgba(210,153,34,0.18); color: var(--yellow); }}
   .badge.status-inactive, .badge.status-dismissed {{ background: rgba(248,81,73,0.16); color: var(--red); }}
+  .gap-card-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }}
+  .gap-card {{
+    background: var(--surface-2); border: 1px solid var(--border-soft); border-radius: var(--radius-sm);
+    padding: 14px 16px;
+  }}
+  .gap-card:hover {{ border-color: var(--border); }}
+  .gap-card-title {{ font-size: 14px; font-weight: 600; line-height: 1.4; margin-bottom: 8px; }}
+  .gap-card-meta {{ display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 11.5px; margin-bottom: 10px; }}
+  .gap-card-bullets {{ margin: 0 0 8px; padding-left: 18px; display: flex; flex-direction: column; gap: 5px; }}
+  .gap-card-bullets li {{ font-size: 12.5px; line-height: 1.5; color: var(--text); }}
+  .gap-card-expand {{ font-size: 12.5px; }}
+  .gap-card-expand summary {{ cursor: pointer; color: var(--blue); font-weight: 600; user-select: none; }}
+  .gap-card-expand summary::-webkit-details-marker {{ color: var(--blue); }}
+  .gap-source-row {{ display: flex; flex-direction: column; gap: 1px; padding: 6px 0; border-bottom: 1px solid var(--border-soft); }}
+  .gap-source-row:last-child {{ border-bottom: none; }}
+  .gap-source-row a {{ font-size: 12.5px; }}
+  .gap-source-row .muted {{ font-size: 11px; }}
   .heat-hot {{ color: var(--red); font-weight: 700; }}
   .heat-warm {{ color: var(--yellow); font-weight: 600; }}
   .heat-cold {{ color: var(--muted); }}

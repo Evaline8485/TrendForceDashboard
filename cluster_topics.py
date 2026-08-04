@@ -287,6 +287,7 @@ def load_x_posts(handle, path):
                     'handle': handle,
                     'platform': 'X',
                     'text': doc,
+                    'raw_text': text.strip(),
                     'timestamp': row.get('timestamp'),
                     'url': row.get('tweetUrl') or '',
                     'likes': parse_count(row.get('likes')),
@@ -306,6 +307,7 @@ def load_facebook_posts(handle, path):
                     'handle': handle,
                     'platform': 'Facebook',
                     'text': doc,
+                    'raw_text': (row.get('text') or '').strip(),
                     'timestamp': parse_facebook_timestamp(row),
                     'url': row.get('postUrl') or '',
                     'likes': parse_count(row.get('reactions')),
@@ -325,6 +327,7 @@ def load_linkedin_posts(handle, path):
                     'handle': handle,
                     'platform': 'LinkedIn',
                     'text': doc,
+                    'raw_text': (row.get('text') or '').strip(),
                     'timestamp': row.get('timestamp'),
                     'url': row.get('postUrl') or '',
                     'likes': parse_count(row.get('likes')),
@@ -420,14 +423,20 @@ def cluster_posts(posts, n_clusters=N_CLUSTERS, min_docs_per_cluster=5):
     return vectorizer, X, km, labels
 
 
+MAX_SAMPLE_POSTS_PER_GAP = 8
+SAMPLE_RAW_TEXT_MAXLEN = 300
+
+
 def summarize_clusters(posts, labels, topic_labels):
     """Build clusters/gaps for whatever subset of (posts, labels) is passed
     in - the caller decides the time window, if any."""
     clusters = []
+    idxs_by_cluster = {}
     for cid in sorted(set(labels)):
         idxs = [i for i, l in enumerate(labels) if l == cid]
         if not idxs:
             continue
+        idxs_by_cluster[cid] = idxs
         by_account = defaultdict(int)
         engagement_by_account = defaultdict(int)
         for i in idxs:
@@ -448,6 +457,31 @@ def summarize_clusters(posts, labels, topic_labels):
         competitor_count = sum(v for k, v in c['accounts'].items() if k not in OWN_HANDLES)
         competitor_engagement = sum(v for k, v in c['engagement_by_account'].items() if k not in OWN_HANDLES)
         if competitor_count >= 3 and own_count <= max(1, competitor_count // 4):
+            # Real member posts (competitor-authored only, matching what
+            # this gap is actually about) for the Topic Digest cards -
+            # top N by engagement, deduped by URL since sync_data.sh can
+            # leave near-duplicate rows across overlapping scraper runs.
+            # raw_text (uncleaned, unlike 'text' which is TF-IDF fodder -
+            # stripped of punctuation) is what's actually displayable.
+            member_posts = [posts[i] for i in idxs_by_cluster[c['id']] if posts[i]['handle'] not in OWN_HANDLES]
+            member_posts.sort(key=lambda p: p['interaction'], reverse=True)
+            seen_urls = set()
+            sample_posts = []
+            for p in member_posts:
+                key = p.get('url') or p.get('raw_text')
+                if key in seen_urls:
+                    continue
+                seen_urls.add(key)
+                sample_posts.append({
+                    'handle': p['handle'],
+                    'platform': p['platform'],
+                    'text': (p.get('raw_text') or '')[:SAMPLE_RAW_TEXT_MAXLEN],
+                    'url': p.get('url') or '',
+                    'timestamp': p.get('timestamp'),
+                    'interaction': p['interaction'],
+                })
+                if len(sample_posts) >= MAX_SAMPLE_POSTS_PER_GAP:
+                    break
             gaps.append({
                 'cluster_id': c['id'],
                 'label': c['label'],
@@ -455,6 +489,7 @@ def summarize_clusters(posts, labels, topic_labels):
                 'competitor_count': competitor_count,
                 'competitor_engagement': competitor_engagement,
                 'competitors_covering': [k for k in c['accounts'] if k not in OWN_HANDLES],
+                'sample_posts': sample_posts,
             })
     gaps.sort(key=lambda g: g['competitor_engagement'], reverse=True)
 
