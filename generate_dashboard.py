@@ -917,6 +917,7 @@ def main():
       <span class="video-region-filter" id="video-region-filter">
         <span class="muted">Region:</span>
         {''.join(f'<label><input type="checkbox" class="video-region-cb" value="{r}" checked> {r}</label>' for r in VIDEO_REGIONS)}
+        <label><input type="checkbox" class="video-region-cb" value="" checked> Unknown</label>
       </span>
     </div>
     <div id="video-ranking-content"></div>
@@ -1319,12 +1320,18 @@ def main():
     }}
 
     // Region is only known for handles enrich_video_locations.js has
-    // already looked up (see video_ranking.py's classify_region) - a post
-    // whose account has no location set, or hasn't been looked up yet,
-    // has region=null and is excluded here same as any unchecked region,
-    // rather than guessed at or shown unlabeled.
+    // already looked up (see video_ranking.py's classify_region) - most
+    // accounts haven't been looked up yet (that cache started empty and
+    // only grows ~40/day), so region=null is still the overwhelming
+    // majority of posts. Found 2026-08-04: defaulting to just the 6 named
+    // regions checked meant nearly every post got excluded and the whole
+    // tab looked blank. The "Unknown" checkbox (empty-string value) is
+    // its own bucket for region=null, checked by default alongside the
+    // rest, so posts aren't hidden purely because enrichment hasn't
+    // reached their account yet - unchecking it lets you see only
+    // classified regions once coverage is good enough to matter.
     const checkedRegions = Array.from(document.querySelectorAll('.video-region-cb:checked')).map(cb => cb.value);
-    const posts = allPosts.filter(p => checkedRegions.includes(p.region));
+    const posts = allPosts.filter(p => checkedRegions.includes(p.region || ''));
 
     if (posts.length === 0) {{
       container.innerHTML = '<p class="empty">No video posts from the selected region(s) in this time range - try checking more regions, or note that region is only known for accounts we\\'ve already looked up.</p>';
