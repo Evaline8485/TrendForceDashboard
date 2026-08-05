@@ -1429,7 +1429,6 @@ def main():
       </tr>`).join('');
 
     container.innerHTML = `
-      <p class="muted">Top ${{ranked.length}} video post(s) across X (any account, not just ones we track) that match one of TrendForce's own industry keywords or Rising Topics, ranked by ${{VIDEO_METRIC_LABELS[metric]}}. Filtered to ${{checkedRegions.length}} of ${{document.querySelectorAll('.video-region-cb').length}} region(s) — of ${{allPosts.length}} post(s) in this range, ${{posts.length}} matched.</p>
       <div class="table-wrap"><table><thead><tr><th>#</th><th>Account</th><th>Region</th><th>Post</th><th>Topics</th><th>Views</th><th>Likes</th><th>Reposts</th><th>Link</th></tr></thead><tbody>${{rows}}</tbody></table></div>
     `;
   }}
