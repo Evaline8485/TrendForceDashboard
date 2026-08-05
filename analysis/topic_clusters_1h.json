@@ -1,125 +1,200 @@
 {
   "clusters": [
     {
-      "id": 3,
-      "label": "ai / trendforce / memory / tsmc",
+      "id": 8,
+      "label": "ft / trib / edition / trump",
+      "size": 4,
+      "accounts": {
+        "FT": 4
+      },
+      "engagement_by_account": {
+        "FT": 160
+      }
+    },
+    {
+      "id": 1,
+      "label": "ai / nvidia / memory / 台積電",
       "size": 3,
       "accounts": {
-        "SemiAnalysis_": 2,
-        "QQ_Timmy": 1
+        "tphuang": 1,
+        "FT": 2
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 68,
-        "QQ_Timmy": 21
-      }
-    },
-    {
-      "id": 13,
-      "label": "hbm / dram / memory / micron",
-      "size": 2,
-      "accounts": {
-        "TrendForce": 1,
-        "QQ_Timmy": 1
-      },
-      "engagement_by_account": {
-        "TrendForce": 4,
-        "QQ_Timmy": 13
-      }
-    },
-    {
-      "id": 11,
-      "label": "nvidia / ai / amd / jensen",
-      "size": 1,
-      "accounts": {
-        "QQ_Timmy": 1
-      },
-      "engagement_by_account": {
-        "QQ_Timmy": 25
+        "tphuang": 0,
+        "FT": 88
       }
     }
   ],
   "gaps": [
     {
-      "cluster_id": 3,
-      "label": "ai / trendforce / memory / tsmc",
+      "cluster_id": 8,
+      "label": "ft / trib / edition / trump",
       "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 89,
+      "competitor_count": 4,
+      "competitor_engagement": 160,
       "competitors_covering": [
-        "SemiAnalysis_",
-        "QQ_Timmy"
+        "FT"
       ],
       "sample_posts": [
         {
-          "handle": "SemiAnalysis_",
+          "handle": "FT",
           "platform": "X",
-          "text": "How often does Claude use tools?  We looked through 2.27M Claude responses we collected to find out.  The Opus models show a clear downward trend in tool calls from Opus 4.6 to Opus 4.8. However, Fable 5 stands out against that pattern, averaging 1.00 tool calls per response",
-          "url": "https://x.com/SemiAnalysis_/status/2084684858282954907",
-          "timestamp": "2026-08-05T00:56:16.000+08:00",
-          "interaction": 53
+          "text": "Breaking news: SpaceX surpassed analysts’ expectations in its first ever earnings report, with Elon Musk’s company nearly doubling its quarterly revenues to almost $8bn.  https:// ft.trib.al/kYfqubY",
+          "url": "https://x.com/FT/status/2084738424573927912",
+          "timestamp": "2026-08-05T04:29:07.000+08:00",
+          "interaction": 96
         },
         {
-          "handle": "QQ_Timmy",
+          "handle": "FT",
           "platform": "X",
-          "text": "世界先進（5347 TT），一家台積電支持的晶圓代工廠，專精於電源管理晶片，表示其2027年的漲價幅度不會低於今年。 電源晶片佔其晶圓產量的77%，而AI伺服器電源是成長最快的需求。本季產能利用率達90%，第四季將進一步提高。",
-          "url": "https://x.com/QQ_Timmy/status/2084675491404067053",
-          "timestamp": "2026-08-05T00:19:03.000+08:00",
+          "text": "Just published: front page of the Financial Times, international edition, Wednesday August 5  https:// ft.trib.al/51giQwr",
+          "url": "https://x.com/FT/status/2084738677863748062",
+          "timestamp": "2026-08-05T04:30:08.000+08:00",
+          "interaction": 25
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Just published: front page of the Financial Times, UK edition, Wednesday August 5  https:// ft.trib.al/nnr5kGv",
+          "url": "https://x.com/FT/status/2084738912434405596",
+          "timestamp": "2026-08-05T04:31:03.000+08:00",
           "interaction": 21
         },
         {
-          "handle": "SemiAnalysis_",
+          "handle": "FT",
           "platform": "X",
-          "text": "That puts Fable 5’s tool usage much closer to the earlier Opus models, which raises an interesting question. Could some of Fable’s performance gains over Opus 5 come from tool use that is more frequent, but also more accurate?  Keep in mind that these results come from actual",
-          "url": "https://x.com/SemiAnalysis_/status/2084684859662836143",
-          "timestamp": "2026-08-05T00:56:16.000+08:00",
-          "interaction": 15
+          "text": "Italy, Germany and other countries that accused Spain of attracting migrants with its amnesty scheme have also quietly legalised the status of people who arrived irregularly in their own territory.  https:// ft.trib.al/28EkMf8",
+          "url": "https://x.com/FT/status/2084750249982116066",
+          "timestamp": "2026-08-05T05:16:07.000+08:00",
+          "interaction": 18
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "label": "ai / nvidia / memory / 台積電",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 88,
+      "competitors_covering": [
+        "tphuang",
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "SpaceX posts 92% rise in revenue in debut earnings report",
+          "url": "https://x.com/FT/status/2084739544763535768",
+          "timestamp": "2026-08-05T04:33:34.000+08:00",
+          "interaction": 68
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "US cannot ‘stay isolated’ from Chinese EV competition, warns Lucid CEO",
+          "url": "https://x.com/FT/status/2084744632534003913",
+          "timestamp": "2026-08-05T04:53:47.000+08:00",
+          "interaction": 20
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "Size of the Chinese open src models. When super nodes wasn't ready & had to run on 8-card servers, the models were small. Now that domestic memory supply is growing rapidly, the models can also get larger.  Memory supply determines the size of models + context length.",
+          "url": "https://x.com/tphuang/status/2084735448090284040",
+          "timestamp": "2026-08-05T04:17:17.000+08:00",
+          "interaction": 0
         }
       ]
     }
   ],
   "suggested_entry_points": [
     {
-      "cluster_id": 3,
-      "label": "ai / trendforce / memory / tsmc",
+      "cluster_id": 8,
+      "label": "ft / trib / edition / trump",
       "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 89,
+      "competitor_count": 4,
+      "competitor_engagement": 160,
       "competitors_covering": [
-        "SemiAnalysis_",
-        "QQ_Timmy"
+        "FT"
       ],
       "sample_posts": [
         {
-          "handle": "SemiAnalysis_",
+          "handle": "FT",
           "platform": "X",
-          "text": "How often does Claude use tools?  We looked through 2.27M Claude responses we collected to find out.  The Opus models show a clear downward trend in tool calls from Opus 4.6 to Opus 4.8. However, Fable 5 stands out against that pattern, averaging 1.00 tool calls per response",
-          "url": "https://x.com/SemiAnalysis_/status/2084684858282954907",
-          "timestamp": "2026-08-05T00:56:16.000+08:00",
-          "interaction": 53
+          "text": "Breaking news: SpaceX surpassed analysts’ expectations in its first ever earnings report, with Elon Musk’s company nearly doubling its quarterly revenues to almost $8bn.  https:// ft.trib.al/kYfqubY",
+          "url": "https://x.com/FT/status/2084738424573927912",
+          "timestamp": "2026-08-05T04:29:07.000+08:00",
+          "interaction": 96
         },
         {
-          "handle": "QQ_Timmy",
+          "handle": "FT",
           "platform": "X",
-          "text": "世界先進（5347 TT），一家台積電支持的晶圓代工廠，專精於電源管理晶片，表示其2027年的漲價幅度不會低於今年。 電源晶片佔其晶圓產量的77%，而AI伺服器電源是成長最快的需求。本季產能利用率達90%，第四季將進一步提高。",
-          "url": "https://x.com/QQ_Timmy/status/2084675491404067053",
-          "timestamp": "2026-08-05T00:19:03.000+08:00",
+          "text": "Just published: front page of the Financial Times, international edition, Wednesday August 5  https:// ft.trib.al/51giQwr",
+          "url": "https://x.com/FT/status/2084738677863748062",
+          "timestamp": "2026-08-05T04:30:08.000+08:00",
+          "interaction": 25
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Just published: front page of the Financial Times, UK edition, Wednesday August 5  https:// ft.trib.al/nnr5kGv",
+          "url": "https://x.com/FT/status/2084738912434405596",
+          "timestamp": "2026-08-05T04:31:03.000+08:00",
           "interaction": 21
         },
         {
-          "handle": "SemiAnalysis_",
+          "handle": "FT",
           "platform": "X",
-          "text": "That puts Fable 5’s tool usage much closer to the earlier Opus models, which raises an interesting question. Could some of Fable’s performance gains over Opus 5 come from tool use that is more frequent, but also more accurate?  Keep in mind that these results come from actual",
-          "url": "https://x.com/SemiAnalysis_/status/2084684859662836143",
-          "timestamp": "2026-08-05T00:56:16.000+08:00",
-          "interaction": 15
+          "text": "Italy, Germany and other countries that accused Spain of attracting migrants with its amnesty scheme have also quietly legalised the status of people who arrived irregularly in their own territory.  https:// ft.trib.al/28EkMf8",
+          "url": "https://x.com/FT/status/2084750249982116066",
+          "timestamp": "2026-08-05T05:16:07.000+08:00",
+          "interaction": 18
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "label": "ai / nvidia / memory / 台積電",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 88,
+      "competitors_covering": [
+        "tphuang",
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "SpaceX posts 92% rise in revenue in debut earnings report",
+          "url": "https://x.com/FT/status/2084739544763535768",
+          "timestamp": "2026-08-05T04:33:34.000+08:00",
+          "interaction": 68
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "US cannot ‘stay isolated’ from Chinese EV competition, warns Lucid CEO",
+          "url": "https://x.com/FT/status/2084744632534003913",
+          "timestamp": "2026-08-05T04:53:47.000+08:00",
+          "interaction": 20
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "Size of the Chinese open src models. When super nodes wasn't ready & had to run on 8-card servers, the models were small. Now that domestic memory supply is growing rapidly, the models can also get larger.  Memory supply determines the size of models + context length.",
+          "url": "https://x.com/tphuang/status/2084735448090284040",
+          "timestamp": "2026-08-05T04:17:17.000+08:00",
+          "interaction": 0
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-08-04T23:56:16+08:00",
-    "end_utc": "2026-08-05T00:56:16+08:00",
-    "start_tw": "Aug 04, 23:56",
-    "end_tw": "Aug 05, 00:56"
+    "start_utc": "2026-08-05T04:16:07+08:00",
+    "end_utc": "2026-08-05T05:16:07+08:00",
+    "start_tw": "Aug 05, 04:16",
+    "end_tw": "Aug 05, 05:16"
   }
 }
