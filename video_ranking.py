@@ -55,7 +55,7 @@ REGION_KEYWORDS = [
     ('United States', [
         'united states', 'usa', 'us', 'america',
         'new york', 'san francisco', 'los angeles', 'seattle', 'boston',
-        'chicago', 'austin', 'texas', 'california', 'washington dc',
+        'chicago', 'austin', 'texas', 'california', 'washington',
         'silicon valley', 'ca', 'ny', 'sf', 'nyc',
     ]),
     ('Europe', [
