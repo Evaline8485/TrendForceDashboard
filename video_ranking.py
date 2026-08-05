@@ -121,6 +121,22 @@ INDUSTRY_KEYWORD_SETS = [
 # in the actual post text regardless of how the term itself is cased.
 ACRONYM_TERMS = {'NAND', 'DRAM', 'HBM', 'EUV', 'SK', 'AI', 'TSMC', 'GPU', 'CPU', 'RAM', 'IC', 'AMD'}
 
+# Ordinary English words that are also genuine industry terms, where NO
+# amount of case/acronym handling helps (unlike NAND/DRAM's problem, this
+# is a meaning collision, not a case one) - "memory" tagged a gun-handling
+# video ("Muscle memory at its finest") and a 5G-conspiracy video ("Memory
+# impairment") as semiconductor-memory topics (found 2026-08-05), since
+# the word alone says nothing about which sense is meant. Require at
+# least one other real semiconductor-context word to also appear in the
+# same text before counting an AMBIGUOUS_TERMS match - "memory" next to
+# "chip"/"DRAM"/"capacity"/etc. is real; alone, it isn't.
+AMBIGUOUS_TERMS = {'memory'}
+MEMORY_CONTEXT_SIGNALS = {
+    'chip', 'chips', 'dram', 'nand', 'hbm', 'wafer', 'fab', 'foundry',
+    'semiconductor', 'gb', 'tb', 'capacity', 'micron', 'samsung', 'hynix',
+    'tsmc', 'gpu', 'cpu', 'silicon', 'euv',
+}
+
 
 def load_rising_topic_keyword_sets():
     """Same file/label format scrape_video_discovery.js's getRisingTopicQueries()
@@ -168,10 +184,15 @@ def term_in_text(term, text):
     foundry, ...) keep case-insensitive matching since case can't
     disambiguate those anyway."""
     if re.fullmatch(r'[a-zA-Z0-9]+', term):
+        lower = term.lower()
         upper = term.upper()
         if upper in ACRONYM_TERMS and len(term) > 1:
             return re.search(r'\b' + re.escape(upper) + r'\b', text) is not None
-        return re.search(r'\b' + re.escape(term.lower()) + r'\b', text.lower()) is not None
+        matched = re.search(r'\b' + re.escape(lower) + r'\b', text.lower()) is not None
+        if matched and lower in AMBIGUOUS_TERMS:
+            text_lower = text.lower()
+            return any(re.search(r'\b' + re.escape(sig) + r'\b', text_lower) for sig in MEMORY_CONTEXT_SIGNALS)
+        return matched
     return term.lower() in text.lower()
 
 
