@@ -1,248 +1,325 @@
 {
-  "generated_at": "2026-08-06T00:00:45+08:00",
+  "generated_at": "2026-08-06T02:42:32+08:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-08-05T16:00:45+08:00",
-    "end_utc": "2026-08-06T00:00:45+08:00",
-    "start_tw": "Aug 05, 16:00",
-    "end_tw": "Aug 06, 00:00"
+    "start_utc": "2026-08-05T18:42:32+08:00",
+    "end_utc": "2026-08-06T02:42:32+08:00",
+    "start_tw": "Aug 05, 18:42",
+    "end_tw": "Aug 06, 02:42"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 20,
+      "total_posts": 50,
       "sentiment_counts": {
-        "positive": 11,
-        "negative": 5,
-        "neutral": 4
+        "positive": 25,
+        "negative": 9,
+        "neutral": 16
       },
       "sentiment_share": {
-        "positive": 0.55,
-        "negative": 0.25,
-        "neutral": 0.2
+        "positive": 0.5,
+        "negative": 0.18,
+        "neutral": 0.32
       },
       "top_terms": [
+        "行長",
+        "執行長",
+        "產能",
+        "roic",
         "supply",
-        "資產",
         "datatrack",
         "rack",
-        "技巨",
-        "巨頭",
-        "科技巨",
-        "技巨頭",
-        "科技巨頭",
-        "gdp"
+        "設施",
+        "帶動",
+        "成長"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "supply / chain / risks / ai",
+        "topic_id": 3,
+        "label": "chip / amd / nvidia / supply",
         "heat": 90.0,
-        "volume": 13,
-        "engagement": 600,
+        "volume": 26,
+        "engagement": 1368,
         "entities": [
+          "太陽",
+          "美軍",
+          "加密",
+          "鴻海",
+          "中國"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "ai / 研華",
+        "heat": 12.4,
+        "volume": 5,
+        "engagement": 48,
+        "entities": [
+          "微軟",
+          "AI",
+          "ai 融資  deepseek",
+          "OpenAI",
+          "Marvell Bravera SC    Marvell"
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "datatrack / semiconductor / rack / xnc",
+        "heat": 11.8,
+        "volume": 4,
+        "engagement": 35,
+        "entities": [
+          "DataTrack",
+          "buff",
+          "中國",
+          "Singapore",
+          "AI"
+        ]
+      },
+      {
+        "topic_id": 8,
+        "label": "eps / 財報重點摘要 / amd / 研華",
+        "heat": 11.7,
+        "volume": 3,
+        "engagement": 33,
+        "entities": [
+          "季增",
+          "毛利"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "trendforce / supply / ai",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 4,
+        "entities": [
+          "The U S  FCC",
+          "Chinese",
           "China",
-          "china",
-          "羅姆",
-          "太赫茲",
-          "The U S  FCC"
+          "AI",
+          "buff"
         ]
       },
       {
         "topic_id": 1,
-        "label": "datatrack / rack / xnc / gdp",
+        "label": "spacex / ai",
         "heat": 10.0,
-        "volume": 3,
-        "engagement": 4,
+        "volume": 2,
+        "engagement": 1,
         "entities": [
-          "DataTrack",
-          "buff",
-          "Singapore",
-          "AI",
-          "singapore"
+          "馬斯克",
+          "基礎設施 將全面採用輝達平台  "
         ]
       },
       {
-        "topic_id": 3,
-        "label": "nvidia / ai",
+        "topic_id": 6,
+        "label": "etf",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 46,
+        "engagement": 1,
         "entities": [
-          "TSMC",
-          "AI",
-          "buff",
-          "nvidia",
-          "輝達"
+          "美股創新高 市場資金重返半導體",
+          "TTss"
         ]
       },
       {
         "topic_id": 0,
-        "label": "ai / 資料中心 / 科技巨頭 / 支出",
+        "label": "roic / ai / iaas / gpu",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 7,
-        "entities": []
+        "engagement": 346,
+        "entities": [
+          "摩根士丹利",
+          "Satya Nadella",
+          "Morgan Stanley s ROIC",
+          "Token",
+          "Hyperscaler"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "capex / roic",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 75,
+        "entities": [
+          "datacenter capex"
+        ]
+      },
+      {
+        "topic_id": 9,
+        "label": "cpo / scale / nvidia / gpu",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 88,
+        "entities": [
+          "CPO",
+          "Nvidia Google AWS",
+          "ASIC",
+          "GPU ASIC",
+          "NPO"
+        ]
       }
     ],
     "named_entities": [
       {
-        "entity": "China",
-        "count": 5
+        "entity": "AI",
+        "count": 8
+      },
+      {
+        "entity": "中國",
+        "count": 7
+      },
+      {
+        "entity": "太陽",
+        "count": 7
+      },
+      {
+        "entity": "美軍",
+        "count": 7
+      },
+      {
+        "entity": "加密",
+        "count": 6
+      },
+      {
+        "entity": "鴻海",
+        "count": 6
       },
       {
         "entity": "buff",
         "count": 4
       },
       {
-        "entity": "AI",
-        "count": 3
+        "entity": "微軟",
+        "count": 4
+      },
+      {
+        "entity": "美國",
+        "count": 4
+      },
+      {
+        "entity": "伺服器",
+        "count": 4
+      },
+      {
+        "entity": "台海",
+        "count": 4
+      },
+      {
+        "entity": "韓國",
+        "count": 4
+      },
+      {
+        "entity": "三星",
+        "count": 4
       },
       {
         "entity": "DataTrack",
         "count": 3
       },
       {
-        "entity": "china",
+        "entity": "日本",
         "count": 3
-      },
-      {
-        "entity": "US",
-        "count": 2
-      },
-      {
-        "entity": "羅姆",
-        "count": 2
-      },
-      {
-        "entity": "太赫茲",
-        "count": 2
-      },
-      {
-        "entity": "The U S  FCC",
-        "count": 1
-      },
-      {
-        "entity": "Chinese",
-        "count": 1
-      },
-      {
-        "entity": "chinese",
-        "count": 1
-      },
-      {
-        "entity": "fcc",
-        "count": 1
-      },
-      {
-        "entity": "Singapore",
-        "count": 1
-      },
-      {
-        "entity": "singapore",
-        "count": 1
-      },
-      {
-        "entity": "NEV Leverage",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-05T16:00:45.000002+08:00",
-        "bucket_end": "2026-08-05T16:35:02.142859+08:00",
-        "positive": 2,
-        "neutral": 4,
+        "bucket_start": "2026-08-05T18:42:32.000002+08:00",
+        "bucket_end": "2026-08-05T19:16:49.142859+08:00",
+        "positive": 1,
+        "neutral": 3,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-05T19:16:49.142859+08:00",
+        "bucket_end": "2026-08-05T19:51:06.285716+08:00",
+        "positive": 4,
+        "neutral": 0,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-05T19:51:06.285716+08:00",
+        "bucket_end": "2026-08-05T20:25:23.428573+08:00",
+        "positive": 6,
+        "neutral": 2,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-05T20:25:23.428573+08:00",
+        "bucket_end": "2026-08-05T20:59:40.571430+08:00",
+        "positive": 5,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-05T20:59:40.571430+08:00",
+        "bucket_end": "2026-08-05T21:33:57.714287+08:00",
+        "positive": 1,
+        "neutral": 2,
+        "negative": 3
+      },
+      {
+        "bucket_start": "2026-08-05T21:33:57.714287+08:00",
+        "bucket_end": "2026-08-05T22:08:14.857144+08:00",
+        "positive": 4,
+        "neutral": 3,
         "negative": 2
       },
       {
-        "bucket_start": "2026-08-05T16:35:02.142859+08:00",
-        "bucket_end": "2026-08-05T17:09:19.285716+08:00",
-        "positive": 3,
-        "neutral": 0,
-        "negative": 1
+        "bucket_start": "2026-08-05T22:08:14.857144+08:00",
+        "bucket_end": "2026-08-05T22:42:32.000001+08:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 0
       },
       {
-        "bucket_start": "2026-08-05T17:09:19.285716+08:00",
-        "bucket_end": "2026-08-05T17:43:36.428573+08:00",
+        "bucket_start": "2026-08-05T22:42:32.000001+08:00",
+        "bucket_end": "2026-08-05T23:16:49.142858+08:00",
+        "positive": 1,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-05T23:16:49.142858+08:00",
+        "bucket_end": "2026-08-05T23:51:06.285715+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 2
+      },
+      {
+        "bucket_start": "2026-08-05T23:51:06.285715+08:00",
+        "bucket_end": "2026-08-06T00:25:23.428572+08:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-05T17:43:36.428573+08:00",
-        "bucket_end": "2026-08-05T18:17:53.571430+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1
-      },
-      {
-        "bucket_start": "2026-08-05T18:17:53.571430+08:00",
-        "bucket_end": "2026-08-05T18:52:10.714287+08:00",
+        "bucket_start": "2026-08-06T00:25:23.428572+08:00",
+        "bucket_end": "2026-08-06T00:59:40.571429+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-05T18:52:10.714287+08:00",
-        "bucket_end": "2026-08-05T19:26:27.857144+08:00",
-        "positive": 1,
+        "bucket_start": "2026-08-06T00:59:40.571429+08:00",
+        "bucket_end": "2026-08-06T01:33:57.714286+08:00",
+        "positive": 2,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-05T19:26:27.857144+08:00",
-        "bucket_end": "2026-08-05T20:00:45.000001+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-05T20:00:45.000001+08:00",
-        "bucket_end": "2026-08-05T20:35:02.142858+08:00",
+        "bucket_start": "2026-08-06T01:33:57.714286+08:00",
+        "bucket_end": "2026-08-06T02:08:14.857143+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-05T20:35:02.142858+08:00",
-        "bucket_end": "2026-08-05T21:09:19.285715+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-05T21:09:19.285715+08:00",
-        "bucket_end": "2026-08-05T21:43:36.428572+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-05T21:43:36.428572+08:00",
-        "bucket_end": "2026-08-05T22:17:53.571429+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1
-      },
-      {
-        "bucket_start": "2026-08-05T22:17:53.571429+08:00",
-        "bucket_end": "2026-08-05T22:52:10.714286+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-05T22:52:10.714286+08:00",
-        "bucket_end": "2026-08-05T23:26:27.857143+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-05T23:26:27.857143+08:00",
-        "bucket_end": "2026-08-06T00:00:45+08:00",
+        "bucket_start": "2026-08-06T02:08:14.857143+08:00",
+        "bucket_end": "2026-08-06T02:42:32+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
@@ -250,72 +327,101 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "statementdog",
-        "top_topic_id": 2,
-        "top_topic_label": "supply / chain / risks / ai",
-        "focus_share": 1.0,
-        "post_count": 1
-      },
-      {
-        "handle": "yutinghaosfinance",
-        "top_topic_id": 2,
-        "top_topic_label": "supply / chain / risks / ai",
-        "focus_share": 1.0,
-        "post_count": 6
-      },
-      {
-        "handle": "ctee.fans",
+        "handle": "jukan05",
         "top_topic_id": 3,
-        "top_topic_label": "nvidia / ai",
+        "top_topic_label": "chip / amd / nvidia / supply",
         "focus_share": 1.0,
         "post_count": 1
-      },
-      {
-        "handle": "TrendForce",
-        "top_topic_id": 2,
-        "top_topic_label": "supply / chain / risks / ai",
-        "focus_share": 0.5,
-        "post_count": 8
       },
       {
         "handle": "technews_tw",
-        "top_topic_id": 2,
-        "top_topic_label": "supply / chain / risks / ai",
-        "focus_share": 0.5,
-        "post_count": 2
+        "top_topic_id": 3,
+        "top_topic_label": "chip / amd / nvidia / supply",
+        "focus_share": 0.667,
+        "post_count": 27
       },
       {
-        "handle": "technewsinside",
-        "top_topic_id": 2,
-        "top_topic_label": "supply / chain / risks / ai",
+        "handle": "TrendForce",
+        "top_topic_id": 7,
+        "top_topic_label": "datatrack / semiconductor / rack / xnc",
         "focus_share": 0.5,
-        "post_count": 2
+        "post_count": 6
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 3,
+        "top_topic_label": "chip / amd / nvidia / supply",
+        "focus_share": 0.4,
+        "post_count": 5
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 3,
+        "top_topic_label": "chip / amd / nvidia / supply",
+        "focus_share": 0.273,
+        "post_count": 11
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
-        "label": "supply / chain / risks / ai",
-        "total_engagement": 600,
-        "post_count": 13
-      },
-      {
         "topic_id": 3,
-        "label": "nvidia / ai",
-        "total_engagement": 46,
-        "post_count": 2
+        "label": "chip / amd / nvidia / supply",
+        "total_engagement": 1368,
+        "post_count": 26
       },
       {
         "topic_id": 0,
-        "label": "ai / 資料中心 / 科技巨頭 / 支出",
-        "total_engagement": 7,
+        "label": "roic / ai / iaas / gpu",
+        "total_engagement": 346,
+        "post_count": 2
+      },
+      {
+        "topic_id": 9,
+        "label": "cpo / scale / nvidia / gpu",
+        "total_engagement": 88,
+        "post_count": 2
+      },
+      {
+        "topic_id": 5,
+        "label": "capex / roic",
+        "total_engagement": 75,
+        "post_count": 2
+      },
+      {
+        "topic_id": 2,
+        "label": "ai / 研華",
+        "total_engagement": 48,
+        "post_count": 5
+      },
+      {
+        "topic_id": 7,
+        "label": "datatrack / semiconductor / rack / xnc",
+        "total_engagement": 35,
+        "post_count": 4
+      },
+      {
+        "topic_id": 8,
+        "label": "eps / 財報重點摘要 / amd / 研華",
+        "total_engagement": 33,
+        "post_count": 3
+      },
+      {
+        "topic_id": 4,
+        "label": "trendforce / supply / ai",
+        "total_engagement": 4,
         "post_count": 2
       },
       {
         "topic_id": 1,
-        "label": "datatrack / rack / xnc / gdp",
-        "total_engagement": 4,
-        "post_count": 3
+        "label": "spacex / ai",
+        "total_engagement": 1,
+        "post_count": 2
+      },
+      {
+        "topic_id": 6,
+        "label": "etf",
+        "total_engagement": 1,
+        "post_count": 2
       }
     ],
     "posting_timeslot_analysis": {
@@ -327,25 +433,25 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 13,
-          "likes": 631,
-          "engagement": 637,
-          "avg_engagement": 49.0
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "evening": {
-          "post_count": 6,
-          "likes": 11,
-          "engagement": 17,
-          "avg_engagement": 2.8
+          "post_count": 46,
+          "likes": 908,
+          "engagement": 1063,
+          "avg_engagement": 23.1
         },
         "late_night": {
-          "post_count": 1,
-          "likes": 2,
-          "engagement": 3,
-          "avg_engagement": 3.0
+          "post_count": 4,
+          "likes": 871,
+          "engagement": 936,
+          "avg_engagement": 234.0
         }
       },
-      "peak_slot": "afternoon"
+      "peak_slot": "evening"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,

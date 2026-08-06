@@ -1,73 +1,300 @@
 {
   "clusters": [
     {
-      "id": 2,
-      "label": "ai / nvidia / 台積電 / tsmc",
+      "id": 5,
+      "label": "ai / memory / 台積電 / google",
+      "size": 8,
+      "accounts": {
+        "tphuang": 2,
+        "tengyanAI": 1,
+        "FT": 5
+      },
+      "engagement_by_account": {
+        "tphuang": 38,
+        "tengyanAI": 6,
+        "FT": 198
+      }
+    },
+    {
+      "id": 3,
+      "label": "trib / opinion / ft / edition",
       "size": 5,
       "accounts": {
-        "TrendForce": 1,
-        "technews_tw": 2,
-        "SemiAnalysis_": 1,
-        "QQ_Timmy": 1
+        "FT": 5
       },
       "engagement_by_account": {
-        "TrendForce": 1,
-        "technews_tw": 0,
-        "SemiAnalysis_": 789,
-        "QQ_Timmy": 23
-      }
-    },
-    {
-      "id": 4,
-      "label": "trendforce / ai / nand / csp",
-      "size": 1,
-      "accounts": {
-        "TrendForce": 1
-      },
-      "engagement_by_account": {
-        "TrendForce": 3
-      }
-    },
-    {
-      "id": 6,
-      "label": "ai / memory / 資料中心 / constraint",
-      "size": 1,
-      "accounts": {
-        "technews_tw": 1
-      },
-      "engagement_by_account": {
-        "technews_tw": 0
-      }
-    },
-    {
-      "id": 14,
-      "label": "spacex / 馬斯克 / ipo / starlink",
-      "size": 1,
-      "accounts": {
-        "technews_tw": 1
-      },
-      "engagement_by_account": {
-        "technews_tw": 0
-      }
-    },
-    {
-      "id": 16,
-      "label": "amd / nvidia / ai / mi",
-      "size": 1,
-      "accounts": {
-        "SemiAnalysis_": 1
-      },
-      "engagement_by_account": {
-        "SemiAnalysis_": 121
+        "FT": 290
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": 3,
+      "label": "trib / opinion / ft / edition",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 290,
+      "competitors_covering": [
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Richard Tice appears to have used more than half a million pounds he received from the mother of Nigel Farage’s long-term aide George Cottrell to convert loans he had made to Reform UK into donations.  https:// ft.trib.al/QCXQHlo",
+          "url": "https://x.com/FT/status/2085116661049196896",
+          "timestamp": "2026-08-06T05:32:06.000+08:00",
+          "interaction": 149
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Just published: front page of the Financial Times, UK edition, Thursday August 6  https:// ft.trib.al/QOXAXjz",
+          "url": "https://x.com/FT/status/2085101306180460697",
+          "timestamp": "2026-08-06T04:31:05.000+08:00",
+          "interaction": 55
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Just published: front page of the Financial Times, international edition, Thursday August 6  https:// ft.trib.al/15168fm",
+          "url": "https://x.com/FT/status/2085101061061177676",
+          "timestamp": "2026-08-06T04:30:06.000+08:00",
+          "interaction": 40
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Opinion: Northern and southern Europe inhabit increasingly different mental worlds.  https:// ft.trib.al/thD1Ojf",
+          "url": "https://x.com/FT/status/2085093770018632025",
+          "timestamp": "2026-08-06T04:01:08.000+08:00",
+          "interaction": 25
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "How to solve Britain’s prisons crisis  https:// ft.trib.al/9ATKFnC  | opinion",
+          "url": "https://x.com/FT/status/2085081076641259747",
+          "timestamp": "2026-08-06T03:10:42.000+08:00",
+          "interaction": 21
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "label": "ai / memory / 台積電 / google",
+      "own_count": 0,
+      "competitor_count": 8,
+      "competitor_engagement": 242,
+      "competitors_covering": [
+        "tphuang",
+        "tengyanAI",
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "African countries — not high on the US diplomatic agenda and vulnerable to sudden policy swings — have spent millions on Republican-linked firms perceived to have the president’s ear.  https:// ft.trib.al/PHSjxT3",
+          "url": "https://x.com/FT/status/2085127235107791305",
+          "timestamp": "2026-08-06T06:14:07.000+08:00",
+          "interaction": 64
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Big US hedge funds hit by wave of cyber attacks",
+          "url": "https://x.com/FT/status/2085092925537399026",
+          "timestamp": "2026-08-06T03:57:47.000+08:00",
+          "interaction": 57
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "JPMorgan poaches M&A banker Amy Lissauer from Bank of America",
+          "url": "https://x.com/FT/status/2085083872069321082",
+          "timestamp": "2026-08-06T03:21:48.000+08:00",
+          "interaction": 42
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Iran’s foreign ministry spokesperson said Tehran and Muscat had agreed on the geographical coordinates of a navigable channel, adding that a joint statement was 'in the final stages'.  https:// ft.trib.al/r6xvapI",
+          "url": "https://x.com/FT/status/2085133768956801128",
+          "timestamp": "2026-08-06T06:40:05.000+08:00",
+          "interaction": 23
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "GM sees its SAIC JV doing a whole lot more export.  I guess they read the tea leaves & realize it cannot compete in Chinese mkt. so this is the only option if they don’t want to leave.",
+          "url": "https://x.com/tphuang/status/2085084188764733852",
+          "timestamp": "2026-08-06T03:23:04.000+08:00",
+          "interaction": 20
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "Yao Ming & NIO ES9",
+          "url": "https://x.com/tphuang/status/2085090727898620080",
+          "timestamp": "2026-08-06T03:49:03.000+08:00",
+          "interaction": 18
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Gianni Infantino admits ‘mistakes’ over failed $20bn Fifa investment plan",
+          "url": "https://x.com/FT/status/2085135964137988454",
+          "timestamp": "2026-08-06T06:48:48.000+08:00",
+          "interaction": 12
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "for anyone who skipped the SanDisk print: demand is so tight that SanDisk is prioritizing stable pricing over squeezing every dollar out of the cycle. customers are prepaying anyway.  gross margin printed 84.6%.  next quarter is guided to 83-85% GM on roughly 18% more revenue.",
+          "url": "https://x.com/tengyanAI/status/2085138631325622324",
+          "timestamp": "2026-08-06T06:59:24.000+08:00",
+          "interaction": 6
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": 3,
+      "label": "trib / opinion / ft / edition",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 290,
+      "competitors_covering": [
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Richard Tice appears to have used more than half a million pounds he received from the mother of Nigel Farage’s long-term aide George Cottrell to convert loans he had made to Reform UK into donations.  https:// ft.trib.al/QCXQHlo",
+          "url": "https://x.com/FT/status/2085116661049196896",
+          "timestamp": "2026-08-06T05:32:06.000+08:00",
+          "interaction": 149
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Just published: front page of the Financial Times, UK edition, Thursday August 6  https:// ft.trib.al/QOXAXjz",
+          "url": "https://x.com/FT/status/2085101306180460697",
+          "timestamp": "2026-08-06T04:31:05.000+08:00",
+          "interaction": 55
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Just published: front page of the Financial Times, international edition, Thursday August 6  https:// ft.trib.al/15168fm",
+          "url": "https://x.com/FT/status/2085101061061177676",
+          "timestamp": "2026-08-06T04:30:06.000+08:00",
+          "interaction": 40
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Opinion: Northern and southern Europe inhabit increasingly different mental worlds.  https:// ft.trib.al/thD1Ojf",
+          "url": "https://x.com/FT/status/2085093770018632025",
+          "timestamp": "2026-08-06T04:01:08.000+08:00",
+          "interaction": 25
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "How to solve Britain’s prisons crisis  https:// ft.trib.al/9ATKFnC  | opinion",
+          "url": "https://x.com/FT/status/2085081076641259747",
+          "timestamp": "2026-08-06T03:10:42.000+08:00",
+          "interaction": 21
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "label": "ai / memory / 台積電 / google",
+      "own_count": 0,
+      "competitor_count": 8,
+      "competitor_engagement": 242,
+      "competitors_covering": [
+        "tphuang",
+        "tengyanAI",
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "African countries — not high on the US diplomatic agenda and vulnerable to sudden policy swings — have spent millions on Republican-linked firms perceived to have the president’s ear.  https:// ft.trib.al/PHSjxT3",
+          "url": "https://x.com/FT/status/2085127235107791305",
+          "timestamp": "2026-08-06T06:14:07.000+08:00",
+          "interaction": 64
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Big US hedge funds hit by wave of cyber attacks",
+          "url": "https://x.com/FT/status/2085092925537399026",
+          "timestamp": "2026-08-06T03:57:47.000+08:00",
+          "interaction": 57
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "JPMorgan poaches M&A banker Amy Lissauer from Bank of America",
+          "url": "https://x.com/FT/status/2085083872069321082",
+          "timestamp": "2026-08-06T03:21:48.000+08:00",
+          "interaction": 42
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Iran’s foreign ministry spokesperson said Tehran and Muscat had agreed on the geographical coordinates of a navigable channel, adding that a joint statement was 'in the final stages'.  https:// ft.trib.al/r6xvapI",
+          "url": "https://x.com/FT/status/2085133768956801128",
+          "timestamp": "2026-08-06T06:40:05.000+08:00",
+          "interaction": 23
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "GM sees its SAIC JV doing a whole lot more export.  I guess they read the tea leaves & realize it cannot compete in Chinese mkt. so this is the only option if they don’t want to leave.",
+          "url": "https://x.com/tphuang/status/2085084188764733852",
+          "timestamp": "2026-08-06T03:23:04.000+08:00",
+          "interaction": 20
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "Yao Ming & NIO ES9",
+          "url": "https://x.com/tphuang/status/2085090727898620080",
+          "timestamp": "2026-08-06T03:49:03.000+08:00",
+          "interaction": 18
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Gianni Infantino admits ‘mistakes’ over failed $20bn Fifa investment plan",
+          "url": "https://x.com/FT/status/2085135964137988454",
+          "timestamp": "2026-08-06T06:48:48.000+08:00",
+          "interaction": 12
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "for anyone who skipped the SanDisk print: demand is so tight that SanDisk is prioritizing stable pricing over squeezing every dollar out of the cycle. customers are prepaying anyway.  gross margin printed 84.6%.  next quarter is guided to 83-85% GM on roughly 18% more revenue.",
+          "url": "https://x.com/tengyanAI/status/2085138631325622324",
+          "timestamp": "2026-08-06T06:59:24.000+08:00",
+          "interaction": 6
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-08-05T22:42:32+08:00",
-    "end_utc": "2026-08-06T02:42:32+08:00",
-    "start_tw": "Aug 05, 22:42",
-    "end_tw": "Aug 06, 02:42"
+    "start_utc": "2026-08-06T02:59:24+08:00",
+    "end_utc": "2026-08-06T06:59:24+08:00",
+    "start_tw": "Aug 06, 02:59",
+    "end_tw": "Aug 06, 06:59"
   }
 }
