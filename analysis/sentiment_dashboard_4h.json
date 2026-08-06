@@ -1,72 +1,58 @@
 {
-  "generated_at": "2026-08-06T00:48:18.482238+00:00",
+  "generated_at": "2026-08-06T10:16:21.051000+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-08-05T20:48:18.482238+00:00",
-    "end_utc": "2026-08-06T00:48:18.482238+00:00",
-    "start_tw": "Aug 06, 04:48",
-    "end_tw": "Aug 06, 08:48"
+    "start_utc": "2026-08-06T06:16:21.051000+08:00",
+    "end_utc": "2026-08-06T10:16:21.051000+08:00",
+    "start_tw": "Aug 06, 06:16",
+    "end_tw": "Aug 06, 10:16"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 35,
+      "total_posts": 44,
       "sentiment_counts": {
-        "neutral": 9,
-        "negative": 15,
-        "positive": 11
+        "neutral": 8,
+        "negative": 16,
+        "positive": 20
       },
       "sentiment_share": {
-        "neutral": 0.257,
-        "negative": 0.429,
-        "positive": 0.314
+        "neutral": 0.182,
+        "negative": 0.364,
+        "positive": 0.455
       },
       "top_terms": [
+        "photonics",
+        "optical",
+        "optica",
+        "laser",
+        "optics",
         "sandisk",
-        "trib",
-        "突破",
-        "hochul",
-        "datacenter",
-        "sndk",
-        "財報",
-        "shield",
-        "shieldai",
-        "核心"
+        "demand",
+        "nvidia",
+        "customers",
+        "supply"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "sandisk / moratorium / sndk / datacenter",
+        "topic_id": 1,
+        "label": "datacenter / hochul / moratorium / billion",
         "heat": 90.0,
-        "volume": 16,
-        "engagement": 829,
+        "volume": 27,
+        "engagement": 789,
         "entities": [
-          "SanDisk",
-          "New York",
-          "Taiwan",
-          "GlobalWafers",
-          "california"
+          "AI",
+          "Meta",
+          "MW",
+          "InP",
+          "CPO"
         ]
       },
       {
         "topic_id": 2,
-        "label": "trib / ft / diplomatic / tehran",
-        "heat": 40.6,
-        "volume": 5,
-        "engagement": 512,
-        "entities": [
-          "Tehran",
-          "Asia",
-          "al TPiWTie",
-          "asia",
-          "trib al  "
-        ]
-      },
-      {
-        "topic_id": 3,
         "label": "ai / 系外行星 / 立功 / 普林斯頓大學天文團隊",
-        "heat": 16.8,
+        "heat": 17.1,
         "volume": 6,
         "engagement": 113,
         "entities": [
@@ -78,19 +64,34 @@
         ]
       },
       {
-        "topic_id": 4,
-        "label": "國防科技 / 無人機 / shieldai / shield",
-        "heat": 10.0,
+        "topic_id": 5,
+        "label": "sandisk / gm / squeezing / revenue",
+        "heat": 12.7,
         "volume": 2,
-        "engagement": 6,
+        "engagement": 88,
         "entities": [
-          "國防"
+          "SanDisk",
+          "GM"
         ]
       },
       {
-        "topic_id": 1,
-        "label": "死亡人數已突破 / 伊波拉 / 剛果民主共和國爆發歷來最嚴重伊波拉疫情 / 科技早報",
-        "heat": 10.0,
+        "topic_id": 7,
+        "label": "quantum / computing / sensing / hashtag",
+        "heat": 12.7,
+        "volume": 2,
+        "engagement": 94,
+        "entities": [
+          "Leidos",
+          "Single",
+          "PI",
+          "DARPA",
+          "Smart"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "死亡人數已突破 / 伊波拉 / 剛果 / 科技早報",
+        "heat": 12.1,
         "volume": 2,
         "engagement": 29,
         "entities": [
@@ -100,29 +101,41 @@
         ]
       },
       {
-        "topic_id": 6,
-        "label": "mw / permits / datacenter / hochul",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 9,
-        "entities": [
-          "MW",
-          "DEC",
-          "the Department of Public Service"
-        ]
-      },
-      {
-        "topic_id": 5,
-        "label": "eps / sndk / sandisk",
-        "heat": 10.0,
+        "topic_id": 0,
+        "label": "eps / sandisk / sndk",
+        "heat": 11.4,
         "volume": 2,
         "engagement": 21,
         "entities": [
           "季增"
         ]
+      },
+      {
+        "topic_id": 3,
+        "label": "shieldai / 無人機 / shield / 國防科技",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 6,
+        "entities": [
+          "國防"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "capex / squeezing / sndk / gross",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 320,
+        "entities": [
+          "SNDK s gross"
+        ]
       }
     ],
     "named_entities": [
+      {
+        "entity": "AI",
+        "count": 11
+      },
       {
         "entity": "波拉",
         "count": 7
@@ -130,6 +143,10 @@
       {
         "entity": "天文",
         "count": 6
+      },
+      {
+        "entity": "Meta",
+        "count": 5
       },
       {
         "entity": "國防",
@@ -141,6 +158,14 @@
       },
       {
         "entity": "MW",
+        "count": 4
+      },
+      {
+        "entity": "InP",
+        "count": 4
+      },
+      {
+        "entity": "CPO",
         "count": 4
       },
       {
@@ -160,242 +185,246 @@
         "count": 3
       },
       {
-        "entity": "New York",
-        "count": 2
+        "entity": "Leidos",
+        "count": 3
       },
       {
-        "entity": "US",
-        "count": 2
-      },
-      {
-        "entity": "Taiwan",
-        "count": 2
-      },
-      {
-        "entity": "GlobalWafers",
-        "count": 2
-      },
-      {
-        "entity": "季增",
-        "count": 2
-      },
-      {
-        "entity": "Tehran",
-        "count": 2
+        "entity": "CTO",
+        "count": 3
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-05T20:48:18.482232+00:00",
-        "bucket_end": "2026-08-05T21:05:27.053661+00:00",
+        "bucket_start": "2026-08-06T06:16:21.050994+08:00",
+        "bucket_end": "2026-08-06T06:33:29.622423+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-05T21:05:27.053661+00:00",
-        "bucket_end": "2026-08-05T21:22:35.625090+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-05T21:22:35.625090+00:00",
-        "bucket_end": "2026-08-05T21:39:44.196519+00:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-05T21:39:44.196519+00:00",
-        "bucket_end": "2026-08-05T21:56:52.767948+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-05T21:56:52.767948+00:00",
-        "bucket_end": "2026-08-05T22:14:01.339377+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-05T22:14:01.339377+00:00",
-        "bucket_end": "2026-08-05T22:31:09.910806+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1
-      },
-      {
-        "bucket_start": "2026-08-05T22:31:09.910806+00:00",
-        "bucket_end": "2026-08-05T22:48:18.482235+00:00",
+        "bucket_start": "2026-08-06T06:33:29.622423+08:00",
+        "bucket_end": "2026-08-06T06:50:38.193852+08:00",
         "positive": 1,
         "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-05T22:48:18.482235+00:00",
-        "bucket_end": "2026-08-05T23:05:27.053664+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 4
-      },
-      {
-        "bucket_start": "2026-08-05T23:05:27.053664+00:00",
-        "bucket_end": "2026-08-05T23:22:35.625093+00:00",
-        "positive": 0,
-        "neutral": 0,
         "negative": 1
       },
       {
-        "bucket_start": "2026-08-05T23:22:35.625093+00:00",
-        "bucket_end": "2026-08-05T23:39:44.196522+00:00",
+        "bucket_start": "2026-08-06T06:50:38.193852+08:00",
+        "bucket_end": "2026-08-06T07:07:46.765281+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 3
       },
       {
-        "bucket_start": "2026-08-05T23:39:44.196522+00:00",
-        "bucket_end": "2026-08-05T23:56:52.767951+00:00",
+        "bucket_start": "2026-08-06T07:07:46.765281+08:00",
+        "bucket_end": "2026-08-06T07:24:55.336710+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-06T07:24:55.336710+08:00",
+        "bucket_end": "2026-08-06T07:42:03.908139+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 3
+      },
+      {
+        "bucket_start": "2026-08-06T07:42:03.908139+08:00",
+        "bucket_end": "2026-08-06T07:59:12.479568+08:00",
         "positive": 1,
+        "neutral": 1,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-06T07:59:12.479568+08:00",
+        "bucket_end": "2026-08-06T08:16:21.050997+08:00",
+        "positive": 4,
+        "neutral": 2,
+        "negative": 4
+      },
+      {
+        "bucket_start": "2026-08-06T08:16:21.050997+08:00",
+        "bucket_end": "2026-08-06T08:33:29.622426+08:00",
+        "positive": 3,
+        "neutral": 4,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-06T08:33:29.622426+08:00",
+        "bucket_end": "2026-08-06T08:50:38.193855+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 2
+      },
+      {
+        "bucket_start": "2026-08-06T08:50:38.193855+08:00",
+        "bucket_end": "2026-08-06T09:07:46.765284+08:00",
+        "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-05T23:56:52.767951+00:00",
-        "bucket_end": "2026-08-06T00:14:01.339380+00:00",
-        "positive": 4,
-        "neutral": 3,
-        "negative": 4
+        "bucket_start": "2026-08-06T09:07:46.765284+08:00",
+        "bucket_end": "2026-08-06T09:24:55.336713+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
       },
       {
-        "bucket_start": "2026-08-06T00:14:01.339380+00:00",
-        "bucket_end": "2026-08-06T00:31:09.910809+00:00",
-        "positive": 3,
-        "neutral": 3,
-        "negative": 2
+        "bucket_start": "2026-08-06T09:24:55.336713+08:00",
+        "bucket_end": "2026-08-06T09:42:03.908142+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
       },
       {
-        "bucket_start": "2026-08-06T00:31:09.910809+00:00",
-        "bucket_end": "2026-08-06T00:48:18.482238+00:00",
+        "bucket_start": "2026-08-06T09:42:03.908142+08:00",
+        "bucket_end": "2026-08-06T09:59:12.479571+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-06T09:59:12.479571+08:00",
+        "bucket_end": "2026-08-06T10:16:21.051000+08:00",
         "positive": 2,
-        "neutral": 1,
+        "neutral": 0,
         "negative": 0
       }
     ],
     "coverage_focus_ranking": [
       {
         "handle": "TrendForce.tw",
-        "top_topic_id": 3,
+        "top_topic_id": 2,
         "top_topic_label": "ai / 系外行星 / 立功 / 普林斯頓大學天文團隊",
         "focus_share": 1.0,
         "post_count": 2
       },
       {
-        "handle": "jukan05",
-        "top_topic_id": 0,
-        "top_topic_label": "sandisk / moratorium / sndk / datacenter",
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 1,
+        "top_topic_label": "datacenter / hochul / moratorium / billion",
         "focus_share": 1.0,
-        "post_count": 3
+        "post_count": 5
       },
       {
-        "handle": "tengyanAI",
-        "top_topic_id": 0,
-        "top_topic_label": "sandisk / moratorium / sndk / datacenter",
+        "handle": "FT",
+        "top_topic_id": 1,
+        "top_topic_label": "datacenter / hochul / moratorium / billion",
+        "focus_share": 1.0,
+        "post_count": 5
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 1,
+        "top_topic_label": "datacenter / hochul / moratorium / billion",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
-        "handle": "yutinghaosfinance",
-        "top_topic_id": 0,
-        "top_topic_label": "sandisk / moratorium / sndk / datacenter",
+        "handle": "TrendForce",
+        "top_topic_id": 1,
+        "top_topic_label": "datacenter / hochul / moratorium / billion",
+        "focus_share": 1.0,
+        "post_count": 2
+      },
+      {
+        "handle": "tengyanAI",
+        "top_topic_id": 5,
+        "top_topic_label": "sandisk / gm / squeezing / revenue",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
         "handle": "ctee.fans",
-        "top_topic_id": 0,
-        "top_topic_label": "sandisk / moratorium / sndk / datacenter",
+        "top_topic_id": 1,
+        "top_topic_label": "datacenter / hochul / moratorium / billion",
         "focus_share": 0.8,
         "post_count": 5
       },
       {
-        "handle": "FT",
-        "top_topic_id": 2,
-        "top_topic_label": "trib / ft / diplomatic / tehran",
-        "focus_share": 0.714,
-        "post_count": 7
-      },
-      {
-        "handle": "SemiAnalysis_",
-        "top_topic_id": 0,
-        "top_topic_label": "sandisk / moratorium / sndk / datacenter",
-        "focus_share": 0.6,
-        "post_count": 5
+        "handle": "josepozophotonics",
+        "top_topic_id": 1,
+        "top_topic_label": "datacenter / hochul / moratorium / billion",
+        "focus_share": 0.778,
+        "post_count": 9
       },
       {
         "handle": "technewsinside",
-        "top_topic_id": 3,
+        "top_topic_id": 2,
         "top_topic_label": "ai / 系外行星 / 立功 / 普林斯頓大學天文團隊",
         "focus_share": 0.5,
         "post_count": 4
       },
       {
         "handle": "QQ_Timmy",
-        "top_topic_id": 0,
-        "top_topic_label": "sandisk / moratorium / sndk / datacenter",
+        "top_topic_id": 1,
+        "top_topic_label": "datacenter / hochul / moratorium / billion",
         "focus_share": 0.5,
         "post_count": 4
       },
       {
         "handle": "technews_tw",
-        "top_topic_id": 4,
-        "top_topic_label": "國防科技 / 無人機 / shieldai / shield",
+        "top_topic_id": 3,
+        "top_topic_label": "shieldai / 無人機 / shield / 國防科技",
+        "focus_share": 0.333,
+        "post_count": 3
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 1,
+        "top_topic_label": "datacenter / hochul / moratorium / billion",
         "focus_share": 0.333,
         "post_count": 3
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "sandisk / moratorium / sndk / datacenter",
-        "total_engagement": 829,
-        "post_count": 16
+        "topic_id": 1,
+        "label": "datacenter / hochul / moratorium / billion",
+        "total_engagement": 789,
+        "post_count": 27
+      },
+      {
+        "topic_id": 6,
+        "label": "capex / squeezing / sndk / gross",
+        "total_engagement": 320,
+        "post_count": 1
       },
       {
         "topic_id": 2,
-        "label": "trib / ft / diplomatic / tehran",
-        "total_engagement": 512,
-        "post_count": 5
-      },
-      {
-        "topic_id": 3,
         "label": "ai / 系外行星 / 立功 / 普林斯頓大學天文團隊",
         "total_engagement": 113,
         "post_count": 6
       },
       {
-        "topic_id": 1,
-        "label": "死亡人數已突破 / 伊波拉 / 剛果民主共和國爆發歷來最嚴重伊波拉疫情 / 科技早報",
-        "total_engagement": 29,
+        "topic_id": 7,
+        "label": "quantum / computing / sensing / hashtag",
+        "total_engagement": 94,
         "post_count": 2
       },
       {
         "topic_id": 5,
-        "label": "eps / sndk / sandisk",
-        "total_engagement": 21,
-        "post_count": 2
-      },
-      {
-        "topic_id": 6,
-        "label": "mw / permits / datacenter / hochul",
-        "total_engagement": 9,
+        "label": "sandisk / gm / squeezing / revenue",
+        "total_engagement": 88,
         "post_count": 2
       },
       {
         "topic_id": 4,
-        "label": "國防科技 / 無人機 / shieldai / shield",
+        "label": "死亡人數已突破 / 伊波拉 / 剛果 / 科技早報",
+        "total_engagement": 29,
+        "post_count": 2
+      },
+      {
+        "topic_id": 0,
+        "label": "eps / sandisk / sndk",
+        "total_engagement": 21,
+        "post_count": 2
+      },
+      {
+        "topic_id": 3,
+        "label": "shieldai / 無人機 / shield / 國防科技",
         "total_engagement": 6,
         "post_count": 2
       }
@@ -403,10 +432,10 @@
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 34,
-          "likes": 1061,
-          "engagement": 1270,
-          "avg_engagement": 37.4
+          "post_count": 44,
+          "likes": 1301,
+          "engagement": 1460,
+          "avg_engagement": 33.2
         },
         "afternoon": {
           "post_count": 0,
@@ -421,10 +450,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 1,
-          "likes": 136,
-          "engagement": 249,
-          "avg_engagement": 249.0
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         }
       },
       "peak_slot": "morning"
