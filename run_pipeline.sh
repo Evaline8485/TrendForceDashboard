@@ -80,6 +80,23 @@ while ! mkdir "$LOCKDIR" 2>/dev/null; do
 done
 trap 'rmdir "$LOCKDIR" 2>/dev/null' EXIT
 
+# macOS drifts into Deep Idle/Power Nap dark-wake cycling when left alone
+# for a while, even mid-run - the same bug already found and fixed in
+# every sibling scraper repo's run_all.sh/run_daily.sh (2026-07-27), but
+# never applied here. Found 2026-08-07: 'core'/'accounts' runs were
+# legitimately taking 3+ hours instead of minutes, which pushed their
+# lock hold time past STALE_AFTER (2h) while genuinely still alive -
+# a queued waiter then "stole" the lock out from under the still-running
+# original (the exact race this lock's own comments already describe),
+# giving TWO simultaneous holders that raced each other's git pushes -
+# which is what was overwhelming GitHub's Pages deploy queue ("job was
+# not acquired by Runner... even after multiple attempts" on 4 separate
+# deploys in one day). caffeinate -i -w $$ blocks idle sleep for exactly
+# this script's own lifetime, fixing the actual slowness instead of just
+# the lock's symptom of it.
+caffeinate -i -w $$ &
+disown
+
 JOB="${1:-}"
 if [[ -z "$JOB" ]]; then
   echo "Usage: $0 <scan|core|accounts|daily>" >&2
