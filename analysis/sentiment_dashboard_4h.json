@@ -1,57 +1,71 @@
 {
-  "generated_at": "2026-08-08T08:55:45+08:00",
+  "generated_at": "2026-08-08T10:47:55.573000+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-08-08T04:55:45+08:00",
-    "end_utc": "2026-08-08T08:55:45+08:00",
-    "start_tw": "Aug 08, 04:55",
-    "end_tw": "Aug 08, 08:55"
+    "start_utc": "2026-08-08T06:47:55.573000+08:00",
+    "end_utc": "2026-08-08T10:47:55.573000+08:00",
+    "start_tw": "Aug 08, 06:47",
+    "end_tw": "Aug 08, 10:47"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 11,
+      "total_posts": 15,
       "sentiment_counts": {
         "neutral": 2,
-        "negative": 7,
-        "positive": 2
+        "negative": 6,
+        "positive": 7
       },
       "sentiment_share": {
-        "neutral": 0.182,
-        "negative": 0.636,
-        "positive": 0.182
+        "neutral": 0.133,
+        "negative": 0.4,
+        "positive": 0.467
       },
       "top_terms": [
+        "photonics",
+        "billion",
+        "infrastructure",
+        "capacity",
+        "optica",
+        "session",
+        "optics",
+        "roughly",
         "dram",
-        "memory",
-        "川普",
-        "關鍵",
-        "beijing",
-        "iphone",
-        "缺貨",
-        "貨潮",
-        "潮席",
-        "席捲"
+        "aws"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "dram / memory",
+        "topic_id": 1,
+        "label": "laser / photonics / gen / billion",
         "heat": 90.0,
-        "volume": 9,
-        "engagement": 851,
+        "volume": 11,
+        "engagement": 414,
         "entities": [
+          "AI",
+          "Meta",
+          "CPO",
           "中國",
-          "台積電",
-          "Micron",
-          "美國商務部",
-          "川普"
+          "美國商務部"
         ]
       },
       {
-        "topic_id": 1,
-        "label": "beijing",
+        "topic_id": 0,
+        "label": "dram / memory / quarter / quarters",
+        "heat": 50.0,
+        "volume": 2,
+        "engagement": 605,
+        "entities": [
+          "台積電",
+          "Micron",
+          "Citi",
+          "DRAM",
+          "NAND"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "beijing / stock",
         "heat": 10.0,
         "volume": 2,
         "engagement": 35,
@@ -63,6 +77,18 @@
       }
     ],
     "named_entities": [
+      {
+        "entity": "AI",
+        "count": 7
+      },
+      {
+        "entity": "Meta",
+        "count": 5
+      },
+      {
+        "entity": "CPO",
+        "count": 4
+      },
       {
         "entity": "中國",
         "count": 3
@@ -92,185 +118,193 @@
         "count": 2
       },
       {
-        "entity": "AWS",
-        "count": 1
+        "entity": "Optica",
+        "count": 2
       },
       {
-        "entity": "Address Capacity Constraints  Apparently",
-        "count": 1
+        "entity": "Exail",
+        "count": 2
       },
       {
-        "entity": "CPU",
-        "count": 1
+        "entity": "European",
+        "count": 2
       },
       {
-        "entity": "zephyr z   s",
-        "count": 1
+        "entity": "OpenAI",
+        "count": 2
       },
       {
-        "entity": "the Citrini Substack",
-        "count": 1
-      },
-      {
-        "entity": "Citi",
-        "count": 1
-      },
-      {
-        "entity": "DRAM",
-        "count": 1
-      },
-      {
-        "entity": "NAND",
-        "count": 1
+        "entity": "Canada",
+        "count": 2
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-08T04:55:44.999994+08:00",
-        "bucket_end": "2026-08-08T05:12:53.571423+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-08T05:12:53.571423+08:00",
-        "bucket_end": "2026-08-08T05:30:02.142852+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-08T05:30:02.142852+08:00",
-        "bucket_end": "2026-08-08T05:47:10.714281+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-08T05:47:10.714281+08:00",
-        "bucket_end": "2026-08-08T06:04:19.285710+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-08T06:04:19.285710+08:00",
-        "bucket_end": "2026-08-08T06:21:27.857139+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-08T06:21:27.857139+08:00",
-        "bucket_end": "2026-08-08T06:38:36.428568+08:00",
+        "bucket_start": "2026-08-08T06:47:55.572994+08:00",
+        "bucket_end": "2026-08-08T07:05:04.144423+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1
       },
       {
-        "bucket_start": "2026-08-08T06:38:36.428568+08:00",
-        "bucket_end": "2026-08-08T06:55:44.999997+08:00",
+        "bucket_start": "2026-08-08T07:05:04.144423+08:00",
+        "bucket_end": "2026-08-08T07:22:12.715852+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-08T07:22:12.715852+08:00",
+        "bucket_end": "2026-08-08T07:39:21.287281+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-08T06:55:44.999997+08:00",
-        "bucket_end": "2026-08-08T07:12:53.571426+08:00",
+        "bucket_start": "2026-08-08T07:39:21.287281+08:00",
+        "bucket_end": "2026-08-08T07:56:29.858710+08:00",
         "positive": 0,
         "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-08T07:56:29.858710+08:00",
+        "bucket_end": "2026-08-08T08:13:38.430139+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-08T08:13:38.430139+08:00",
+        "bucket_end": "2026-08-08T08:30:47.001568+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-08T08:30:47.001568+08:00",
+        "bucket_end": "2026-08-08T08:47:55.572997+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-08T08:47:55.572997+08:00",
+        "bucket_end": "2026-08-08T09:05:04.144426+08:00",
+        "positive": 0,
+        "neutral": 1,
         "negative": 2
       },
       {
-        "bucket_start": "2026-08-08T07:12:53.571426+08:00",
-        "bucket_end": "2026-08-08T07:30:02.142855+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-08T07:30:02.142855+08:00",
-        "bucket_end": "2026-08-08T07:47:10.714284+08:00",
+        "bucket_start": "2026-08-08T09:05:04.144426+08:00",
+        "bucket_end": "2026-08-08T09:22:12.715855+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-08T07:47:10.714284+08:00",
-        "bucket_end": "2026-08-08T08:04:19.285713+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 1
-      },
-      {
-        "bucket_start": "2026-08-08T08:04:19.285713+08:00",
-        "bucket_end": "2026-08-08T08:21:27.857142+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1
-      },
-      {
-        "bucket_start": "2026-08-08T08:21:27.857142+08:00",
-        "bucket_end": "2026-08-08T08:38:36.428571+08:00",
+        "bucket_start": "2026-08-08T09:22:12.715855+08:00",
+        "bucket_end": "2026-08-08T09:39:21.287284+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-08T08:38:36.428571+08:00",
-        "bucket_end": "2026-08-08T08:55:45+08:00",
+        "bucket_start": "2026-08-08T09:39:21.287284+08:00",
+        "bucket_end": "2026-08-08T09:56:29.858713+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 1
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-08T09:56:29.858713+08:00",
+        "bucket_end": "2026-08-08T10:13:38.430142+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-08T10:13:38.430142+08:00",
+        "bucket_end": "2026-08-08T10:30:47.001571+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-08T10:30:47.001571+08:00",
+        "bucket_end": "2026-08-08T10:47:55.573000+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
       }
     ],
     "coverage_focus_ranking": [
       {
         "handle": "technews_tw",
         "top_topic_id": 0,
-        "top_topic_label": "dram / memory",
+        "top_topic_label": "dram / memory / quarter / quarters",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 1,
+        "top_topic_label": "laser / photonics / gen / billion",
+        "focus_share": 1.0,
+        "post_count": 2
+      },
+      {
+        "handle": "subhash-km-6b5443123",
+        "top_topic_id": 1,
+        "top_topic_label": "laser / photonics / gen / billion",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
+        "handle": "josepozophotonics",
+        "top_topic_id": 1,
+        "top_topic_label": "laser / photonics / gen / billion",
+        "focus_share": 1.0,
+        "post_count": 5
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 2,
+        "top_topic_label": "beijing / stock",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
         "handle": "jukan05",
-        "top_topic_id": 0,
-        "top_topic_label": "dram / memory",
-        "focus_share": 1.0,
+        "top_topic_id": 1,
+        "top_topic_label": "laser / photonics / gen / billion",
+        "focus_share": 0.667,
         "post_count": 3
       },
       {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 0,
-        "top_topic_label": "dram / memory",
-        "focus_share": 1.0,
-        "post_count": 2
-      },
-      {
-        "handle": "tphuang",
-        "top_topic_id": 1,
-        "top_topic_label": "beijing",
-        "focus_share": 1.0,
-        "post_count": 1
-      },
-      {
         "handle": "FT",
-        "top_topic_id": 0,
-        "top_topic_label": "dram / memory",
-        "focus_share": 0.75,
-        "post_count": 4
+        "top_topic_id": 1,
+        "top_topic_label": "laser / photonics / gen / billion",
+        "focus_share": 0.5,
+        "post_count": 2
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 0,
-        "label": "dram / memory",
-        "total_engagement": 851,
-        "post_count": 9
+        "label": "dram / memory / quarter / quarters",
+        "total_engagement": 605,
+        "post_count": 2
       },
       {
         "topic_id": 1,
-        "label": "beijing",
+        "label": "laser / photonics / gen / billion",
+        "total_engagement": 414,
+        "post_count": 11
+      },
+      {
+        "topic_id": 2,
+        "label": "beijing / stock",
         "total_engagement": 35,
         "post_count": 2
       }
