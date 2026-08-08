@@ -1,59 +1,330 @@
 {
   "clusters": [
     {
-      "id": 3,
-      "label": "ai / nvidia / memory / tsmc",
-      "size": 41,
+      "id": 8,
+      "label": "ai / 台積電 / google / spacex",
+      "size": 19,
       "accounts": {
-        "TrendForce": 3,
-        "technews_tw": 6,
         "SemiAnalysis_": 2,
-        "QQ_Timmy": 8,
+        "jukan05": 1,
+        "QQ_Timmy": 2,
         "tphuang": 4,
-        "FT": 15,
-        "statementdog": 3
+        "FT": 10
       },
       "engagement_by_account": {
-        "TrendForce": 20,
-        "technews_tw": 8,
-        "SemiAnalysis_": 120,
-        "QQ_Timmy": 140,
-        "tphuang": 114,
-        "FT": 1453,
-        "statementdog": 14
+        "SemiAnalysis_": 958,
+        "jukan05": 80,
+        "QQ_Timmy": 5,
+        "tphuang": 184,
+        "FT": 796
       }
     },
     {
-      "id": 16,
-      "label": "dram / hbm / nand / memory",
+      "id": 7,
+      "label": "trib / opinion / ft / edition",
+      "size": 5,
+      "accounts": {
+        "FT": 5
+      },
+      "engagement_by_account": {
+        "FT": 298
+      }
+    },
+    {
+      "id": 2,
+      "label": "memory / dram / hbm / hynix",
       "size": 2,
       "accounts": {
-        "TrendForce": 1,
-        "technews_tw": 1
+        "jukan05": 2
       },
       "engagement_by_account": {
-        "TrendForce": 26,
-        "technews_tw": 1
+        "jukan05": 685
       }
     },
     {
-      "id": 4,
-      "label": "google / tpu / ai / gemini",
+      "id": 6,
+      "label": "iphone / 蘋果 / apple / 摺疊手機",
       "size": 1,
       "accounts": {
-        "QQ_Timmy": 1
+        "technews_tw": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 14
+        "technews_tw": 2
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": 8,
+      "label": "ai / 台積電 / google / spacex",
+      "own_count": 0,
+      "competitor_count": 19,
+      "competitor_engagement": 2023,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "jukan05",
+        "QQ_Timmy",
+        "tphuang",
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "SpaceX 10GW in 2027 – Why It’s Real,  Will Drive $500B ARR for SpaceX,  and Why Microsoft Will Be the Largest Offtaker Inference at 100B/GW/year, SpaceX's stellar pace, Microsoft's 10GW 2026 Awakening,  Azure Can Grow Tiple-Digits",
+          "url": "https://x.com/SemiAnalysis_/status/2085821313919472016",
+          "timestamp": "2026-08-08T04:12:08.000+08:00",
+          "interaction": 740
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "The UAE’s growing assertiveness over the past decade, including in international affairs and military matters, has earned it the nickname ‘Little Sparta’ in diplomatic circles.  https:// ft.trib.al/FFbyqJ4",
+          "url": "https://x.com/FT/status/2085785323728928804",
+          "timestamp": "2026-08-08T01:49:07.000+08:00",
+          "interaction": 315
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "lmao?",
+          "url": "https://x.com/SemiAnalysis_/status/2085785973745434835",
+          "timestamp": "2026-08-08T01:51:42.000+08:00",
+          "interaction": 218
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Donald Trump revives threat to sack Fed governor Lisa Cook",
+          "url": "https://x.com/FT/status/2085783831383019530",
+          "timestamp": "2026-08-08T01:43:12.000+08:00",
+          "interaction": 151
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Breaking news: The White House wrote to Lisa Cook this week, saying that it was 'considering' sacking her, even after the US Supreme Court blocked Donald Trump’s previous efforts to remove her in June.  https:// ft.trib.al/V5Iogkx",
+          "url": "https://x.com/FT/status/2085783294260474261",
+          "timestamp": "2026-08-08T01:41:03.000+08:00",
+          "interaction": 131
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "This came right after I said they need to be aiming for this range. Seed LLMs likely are already in 2-3T range, so 5T later this yr & 10T next yr seems reasonable.  Key is that such model can only be served on ever larger SuperNode. BD's self designed chips can utilise supply",
+          "url": "https://x.com/tphuang/status/2085782409010893303",
+          "timestamp": "2026-08-08T01:37:32.000+08:00",
+          "interaction": 89
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "AWS Leadership: Cut CPU Resource Waste to Address Capacity Constraints  Apparently, engineers now even have to wait days to secure CPU server capacity.",
+          "url": "https://x.com/jukan05/status/2085883312099455167",
+          "timestamp": "2026-08-08T08:18:30.000+08:00",
+          "interaction": 80
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "China’s Largest Self-Propelled electric Deep-Sea Cable-Laying Vessel 蓝海领航 got launched, developed by CSSC 708th Institute.  139.8m long, 38m beam, 35kt displacement w/ 16kt max cable carrying capacity. Can operate @ 3000m depth w/ DP-2 dynamic positioning system enabling",
+          "url": "https://x.com/tphuang/status/2085779420133159309",
+          "timestamp": "2026-08-08T01:25:40.000+08:00",
+          "interaction": 48
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "label": "trib / opinion / ft / edition",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 298,
+      "competitors_covering": [
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Opinion: Tokyo and Washington’s desire to maintain stability may be creating long-term danger.  https:// ft.trib.al/BQPE1i3",
+          "url": "https://x.com/FT/status/2085776495994098048",
+          "timestamp": "2026-08-08T01:14:03.000+08:00",
+          "interaction": 92
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Passing the Clarity Act on digital assets is a matter of national security  https:// ft.trib.al/cizhUvd  | opinion",
+          "url": "https://x.com/FT/status/2085793451438739861",
+          "timestamp": "2026-08-08T02:21:25.000+08:00",
+          "interaction": 66
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Just published: front page of the Financial Times, UK edition, Saturday August 8  https:// ft.trib.al/7TAvc5V",
+          "url": "https://x.com/FT/status/2085826092909089027",
+          "timestamp": "2026-08-08T04:31:07.000+08:00",
+          "interaction": 53
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Just published: front page of the Financial Times, international edition, Saturday August 8  https:// ft.trib.al/bKpVCP3",
+          "url": "https://x.com/FT/status/2085825858296496509",
+          "timestamp": "2026-08-08T04:30:12.000+08:00",
+          "interaction": 49
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Taming AI’s wild frontier  https:// ft.trib.al/llnpNiw  | opinion",
+          "url": "https://x.com/FT/status/2085793451719729326",
+          "timestamp": "2026-08-08T02:21:25.000+08:00",
+          "interaction": 38
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": 8,
+      "label": "ai / 台積電 / google / spacex",
+      "own_count": 0,
+      "competitor_count": 19,
+      "competitor_engagement": 2023,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "jukan05",
+        "QQ_Timmy",
+        "tphuang",
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "SpaceX 10GW in 2027 – Why It’s Real,  Will Drive $500B ARR for SpaceX,  and Why Microsoft Will Be the Largest Offtaker Inference at 100B/GW/year, SpaceX's stellar pace, Microsoft's 10GW 2026 Awakening,  Azure Can Grow Tiple-Digits",
+          "url": "https://x.com/SemiAnalysis_/status/2085821313919472016",
+          "timestamp": "2026-08-08T04:12:08.000+08:00",
+          "interaction": 740
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "The UAE’s growing assertiveness over the past decade, including in international affairs and military matters, has earned it the nickname ‘Little Sparta’ in diplomatic circles.  https:// ft.trib.al/FFbyqJ4",
+          "url": "https://x.com/FT/status/2085785323728928804",
+          "timestamp": "2026-08-08T01:49:07.000+08:00",
+          "interaction": 315
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "lmao?",
+          "url": "https://x.com/SemiAnalysis_/status/2085785973745434835",
+          "timestamp": "2026-08-08T01:51:42.000+08:00",
+          "interaction": 218
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Donald Trump revives threat to sack Fed governor Lisa Cook",
+          "url": "https://x.com/FT/status/2085783831383019530",
+          "timestamp": "2026-08-08T01:43:12.000+08:00",
+          "interaction": 151
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Breaking news: The White House wrote to Lisa Cook this week, saying that it was 'considering' sacking her, even after the US Supreme Court blocked Donald Trump’s previous efforts to remove her in June.  https:// ft.trib.al/V5Iogkx",
+          "url": "https://x.com/FT/status/2085783294260474261",
+          "timestamp": "2026-08-08T01:41:03.000+08:00",
+          "interaction": 131
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "This came right after I said they need to be aiming for this range. Seed LLMs likely are already in 2-3T range, so 5T later this yr & 10T next yr seems reasonable.  Key is that such model can only be served on ever larger SuperNode. BD's self designed chips can utilise supply",
+          "url": "https://x.com/tphuang/status/2085782409010893303",
+          "timestamp": "2026-08-08T01:37:32.000+08:00",
+          "interaction": 89
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "AWS Leadership: Cut CPU Resource Waste to Address Capacity Constraints  Apparently, engineers now even have to wait days to secure CPU server capacity.",
+          "url": "https://x.com/jukan05/status/2085883312099455167",
+          "timestamp": "2026-08-08T08:18:30.000+08:00",
+          "interaction": 80
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "China’s Largest Self-Propelled electric Deep-Sea Cable-Laying Vessel 蓝海领航 got launched, developed by CSSC 708th Institute.  139.8m long, 38m beam, 35kt displacement w/ 16kt max cable carrying capacity. Can operate @ 3000m depth w/ DP-2 dynamic positioning system enabling",
+          "url": "https://x.com/tphuang/status/2085779420133159309",
+          "timestamp": "2026-08-08T01:25:40.000+08:00",
+          "interaction": 48
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "label": "trib / opinion / ft / edition",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 298,
+      "competitors_covering": [
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Opinion: Tokyo and Washington’s desire to maintain stability may be creating long-term danger.  https:// ft.trib.al/BQPE1i3",
+          "url": "https://x.com/FT/status/2085776495994098048",
+          "timestamp": "2026-08-08T01:14:03.000+08:00",
+          "interaction": 92
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Passing the Clarity Act on digital assets is a matter of national security  https:// ft.trib.al/cizhUvd  | opinion",
+          "url": "https://x.com/FT/status/2085793451438739861",
+          "timestamp": "2026-08-08T02:21:25.000+08:00",
+          "interaction": 66
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Just published: front page of the Financial Times, UK edition, Saturday August 8  https:// ft.trib.al/7TAvc5V",
+          "url": "https://x.com/FT/status/2085826092909089027",
+          "timestamp": "2026-08-08T04:31:07.000+08:00",
+          "interaction": 53
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Just published: front page of the Financial Times, international edition, Saturday August 8  https:// ft.trib.al/bKpVCP3",
+          "url": "https://x.com/FT/status/2085825858296496509",
+          "timestamp": "2026-08-08T04:30:12.000+08:00",
+          "interaction": 49
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Taming AI’s wild frontier  https:// ft.trib.al/llnpNiw  | opinion",
+          "url": "https://x.com/FT/status/2085793451719729326",
+          "timestamp": "2026-08-08T02:21:25.000+08:00",
+          "interaction": 38
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-08-07T18:21:25+08:00",
-    "end_utc": "2026-08-08T02:21:25+08:00",
-    "start_tw": "Aug 07, 18:21",
-    "end_tw": "Aug 08, 02:21"
+    "start_utc": "2026-08-08T00:55:45+08:00",
+    "end_utc": "2026-08-08T08:55:45+08:00",
+    "start_tw": "Aug 08, 00:55",
+    "end_tw": "Aug 08, 08:55"
   }
 }
