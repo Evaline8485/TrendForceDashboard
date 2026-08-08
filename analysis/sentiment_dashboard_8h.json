@@ -1,74 +1,116 @@
 {
-  "generated_at": "2026-08-08T10:47:55.573000+08:00",
+  "generated_at": "2026-08-08T12:40:04+08:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-08-08T02:47:55.573000+08:00",
-    "end_utc": "2026-08-08T10:47:55.573000+08:00",
-    "start_tw": "Aug 08, 02:47",
-    "end_tw": "Aug 08, 10:47"
+    "start_utc": "2026-08-08T04:40:04+08:00",
+    "end_utc": "2026-08-08T12:40:04+08:00",
+    "start_tw": "Aug 08, 04:40",
+    "end_tw": "Aug 08, 12:40"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 23,
+      "total_posts": 41,
       "sentiment_counts": {
-        "neutral": 7,
-        "negative": 7,
-        "positive": 9
+        "neutral": 12,
+        "positive": 16,
+        "negative": 13
       },
       "sentiment_share": {
-        "neutral": 0.304,
-        "negative": 0.304,
-        "positive": 0.391
+        "neutral": 0.293,
+        "positive": 0.39,
+        "negative": 0.317
       },
       "top_terms": [
+        "infrastructure",
         "photonics",
-        "capacity",
+        "revenue",
+        "labs",
+        "customers",
         "optica",
         "billion",
-        "infrastructure",
-        "dram",
-        "largest",
-        "pace",
-        "beijing",
-        "manufacturing"
+        "capacity",
+        "memory",
+        "關鍵"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "photonics / laser / optica / gen",
+        "topic_id": 0,
+        "label": "photonics / server / decade / gen",
         "heat": 90.0,
-        "volume": 16,
-        "engagement": 1254,
+        "volume": 22,
+        "engagement": 784,
+        "entities": [
+          "國泰",
+          "DEMCON",
+          "Optica",
+          "國泰世華",
+          "佳世達"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "dram / memory / checking / quarter",
+        "heat": 54.0,
+        "volume": 3,
+        "engagement": 1370,
+        "entities": [
+          "台積電",
+          "Micron",
+          "zephyr z   s",
+          "the Citrini Substack",
+          "Citi"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "flash / intelligence / infrastructure / engineering",
+        "heat": 13.3,
+        "volume": 3,
+        "engagement": 98,
+        "entities": [
+          "DSV",
+          "Flash",
+          "LLM",
+          "GLM",
+          "glm"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "ai / revenue / gross / customers",
+        "heat": 11.4,
+        "volume": 5,
+        "engagement": 26,
         "entities": [
           "AI",
           "Meta",
-          "DEMCON",
-          "Optica",
-          "CPO"
+          "台達電",
+          "台灣",
+          "韓國"
         ]
       },
       {
-        "topic_id": 0,
-        "label": "dram / micron / beijing / capacity",
-        "heat": 15.1,
-        "volume": 3,
-        "engagement": 608,
+        "topic_id": 3,
+        "label": "nodes / models / labs / node",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 36,
         "entities": [
-          "Micron",
-          "DRAM",
-          "台積電",
-          "Beijing",
-          "CXMT"
+          "node",
+          "AI",
+          "Super",
+          "Chinese",
+          "chinese"
         ]
       },
       {
-        "topic_id": 2,
+        "topic_id": 7,
         "label": "beijing / stock",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 35,
+        "engagement": 111,
         "entities": [
           "Beijing",
           "beijing",
@@ -76,31 +118,47 @@
         ]
       },
       {
-        "topic_id": 3,
-        "label": "saturday / edition / trib / ft",
+        "topic_id": 2,
+        "label": "opinion / trib / ft",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 102,
+        "engagement": 0,
         "entities": [
-          "the Financial Times",
           "UK",
-          "al  TAvc V financial times",
-          "al bKpVCP",
-          "trib al"
+          "Big Tech",
+          "al WpWFPy     "
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "laser / optica / optics / photonics",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 53,
+        "entities": [
+          "CPO",
+          "Paul Rudy  ",
+          "Business Development Executive",
+          "Blue Laser Fusion  ",
+          "Martin Divok   Scientific Team"
         ]
       }
     ],
     "named_entities": [
       {
         "entity": "AI",
-        "count": 7
+        "count": 9
       },
       {
         "entity": "Meta",
         "count": 5
       },
       {
-        "entity": "Beijing",
+        "entity": "國泰",
+        "count": 4
+      },
+      {
+        "entity": "台積電",
         "count": 4
       },
       {
@@ -116,11 +174,19 @@
         "count": 4
       },
       {
-        "entity": "Micron",
+        "entity": "台達電",
         "count": 3
       },
       {
-        "entity": "DRAM",
+        "entity": "國泰世華",
+        "count": 3
+      },
+      {
+        "entity": "佳世達",
+        "count": 3
+      },
+      {
+        "entity": "中美",
         "count": 3
       },
       {
@@ -128,211 +194,230 @@
         "count": 3
       },
       {
-        "entity": "台積電",
+        "entity": "太陽",
         "count": 2
       },
       {
-        "entity": "Microsoft",
+        "entity": "台灣",
         "count": 2
       },
       {
-        "entity": "美國商務部",
-        "count": 2
-      },
-      {
-        "entity": "川普",
-        "count": 2
-      },
-      {
-        "entity": "beijing",
-        "count": 2
-      },
-      {
-        "entity": "the Financial Times",
+        "entity": "韓國",
         "count": 2
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-08T02:47:55.573002+08:00",
-        "bucket_end": "2026-08-08T03:22:12.715859+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-08T03:22:12.715859+08:00",
-        "bucket_end": "2026-08-08T03:56:29.858716+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-08T03:56:29.858716+08:00",
-        "bucket_end": "2026-08-08T04:30:47.001573+08:00",
-        "positive": 0,
-        "neutral": 2,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-08T04:30:47.001573+08:00",
-        "bucket_end": "2026-08-08T05:05:04.144430+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-08T05:05:04.144430+08:00",
-        "bucket_end": "2026-08-08T05:39:21.287287+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-08T05:39:21.287287+08:00",
-        "bucket_end": "2026-08-08T06:13:38.430144+08:00",
+        "bucket_start": "2026-08-08T04:40:04.000002+08:00",
+        "bucket_end": "2026-08-08T05:14:21.142859+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-08T06:13:38.430144+08:00",
-        "bucket_end": "2026-08-08T06:47:55.573001+08:00",
+        "bucket_start": "2026-08-08T05:14:21.142859+08:00",
+        "bucket_end": "2026-08-08T05:48:38.285716+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-08T05:48:38.285716+08:00",
+        "bucket_end": "2026-08-08T06:22:55.428573+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1
       },
       {
-        "bucket_start": "2026-08-08T06:47:55.573001+08:00",
-        "bucket_end": "2026-08-08T07:22:12.715858+08:00",
+        "bucket_start": "2026-08-08T06:22:55.428573+08:00",
+        "bucket_end": "2026-08-08T06:57:12.571430+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-08T06:57:12.571430+08:00",
+        "bucket_end": "2026-08-08T07:31:29.714287+08:00",
         "positive": 2,
         "neutral": 0,
         "negative": 2
       },
       {
-        "bucket_start": "2026-08-08T07:22:12.715858+08:00",
-        "bucket_end": "2026-08-08T07:56:29.858715+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-08T07:56:29.858715+08:00",
-        "bucket_end": "2026-08-08T08:30:47.001572+08:00",
+        "bucket_start": "2026-08-08T07:31:29.714287+08:00",
+        "bucket_end": "2026-08-08T08:05:46.857144+08:00",
         "positive": 0,
         "neutral": 1,
-        "negative": 2
+        "negative": 1
       },
       {
-        "bucket_start": "2026-08-08T08:30:47.001572+08:00",
-        "bucket_end": "2026-08-08T09:05:04.144429+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 2
-      },
-      {
-        "bucket_start": "2026-08-08T09:05:04.144429+08:00",
-        "bucket_end": "2026-08-08T09:39:21.287286+08:00",
+        "bucket_start": "2026-08-08T08:05:46.857144+08:00",
+        "bucket_end": "2026-08-08T08:40:04.000001+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0
+        "negative": 1
       },
       {
-        "bucket_start": "2026-08-08T09:39:21.287286+08:00",
-        "bucket_end": "2026-08-08T10:13:38.430143+08:00",
+        "bucket_start": "2026-08-08T08:40:04.000001+08:00",
+        "bucket_end": "2026-08-08T09:14:21.142858+08:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 0
+        "neutral": 2,
+        "negative": 4
       },
       {
-        "bucket_start": "2026-08-08T10:13:38.430143+08:00",
-        "bucket_end": "2026-08-08T10:47:55.573000+08:00",
+        "bucket_start": "2026-08-08T09:14:21.142858+08:00",
+        "bucket_end": "2026-08-08T09:48:38.285715+08:00",
         "positive": 1,
         "neutral": 0,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-08T09:48:38.285715+08:00",
+        "bucket_end": "2026-08-08T10:22:55.428572+08:00",
+        "positive": 1,
+        "neutral": 2,
         "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-08T10:22:55.428572+08:00",
+        "bucket_end": "2026-08-08T10:57:12.571429+08:00",
+        "positive": 5,
+        "neutral": 1,
+        "negative": 1
+      },
+      {
+        "bucket_start": "2026-08-08T10:57:12.571429+08:00",
+        "bucket_end": "2026-08-08T11:31:29.714286+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-08T11:31:29.714286+08:00",
+        "bucket_end": "2026-08-08T12:05:46.857143+08:00",
+        "positive": 2,
+        "neutral": 2,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-08T12:05:46.857143+08:00",
+        "bucket_end": "2026-08-08T12:40:04+08:00",
+        "positive": 2,
+        "neutral": 2,
+        "negative": 1
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "technews_tw",
+        "handle": "dylan522p",
         "top_topic_id": 0,
-        "top_topic_label": "dram / micron / beijing / capacity",
-        "focus_share": 1.0,
-        "post_count": 1
-      },
-      {
-        "handle": "SemiAnalysis_",
-        "top_topic_id": 1,
-        "top_topic_label": "photonics / laser / optica / gen",
+        "top_topic_label": "photonics / server / decade / gen",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
         "handle": "QQ_Timmy",
-        "top_topic_id": 1,
-        "top_topic_label": "photonics / laser / optica / gen",
+        "top_topic_id": 0,
+        "top_topic_label": "photonics / server / decade / gen",
         "focus_share": 1.0,
-        "post_count": 2
-      },
-      {
-        "handle": "josepozophotonics",
-        "top_topic_id": 1,
-        "top_topic_label": "photonics / laser / optica / gen",
-        "focus_share": 1.0,
-        "post_count": 6
-      },
-      {
-        "handle": "tphuang",
-        "top_topic_id": 2,
-        "top_topic_label": "beijing / stock",
-        "focus_share": 1.0,
-        "post_count": 1
-      },
-      {
-        "handle": "jukan05",
-        "top_topic_id": 1,
-        "top_topic_label": "photonics / laser / optica / gen",
-        "focus_share": 0.667,
-        "post_count": 3
-      },
-      {
-        "handle": "FT",
-        "top_topic_id": 1,
-        "top_topic_label": "photonics / laser / optica / gen",
-        "focus_share": 0.571,
-        "post_count": 7
+        "post_count": 4
       },
       {
         "handle": "subhash-km-6b5443123",
         "top_topic_id": 0,
-        "top_topic_label": "dram / micron / beijing / capacity",
+        "top_topic_label": "photonics / server / decade / gen",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 0,
+        "top_topic_label": "photonics / server / decade / gen",
+        "focus_share": 0.7,
+        "post_count": 10
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 1,
+        "top_topic_label": "ai / revenue / gross / customers",
         "focus_share": 0.5,
         "post_count": 2
+      },
+      {
+        "handle": "josepozophotonics",
+        "top_topic_id": 0,
+        "top_topic_label": "photonics / server / decade / gen",
+        "focus_share": 0.5,
+        "post_count": 6
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 0,
+        "top_topic_label": "photonics / server / decade / gen",
+        "focus_share": 0.5,
+        "post_count": 4
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 6,
+        "top_topic_label": "flash / intelligence / infrastructure / engineering",
+        "focus_share": 0.5,
+        "post_count": 6
+      },
+      {
+        "handle": "technews_tw",
+        "top_topic_id": 1,
+        "top_topic_label": "ai / revenue / gross / customers",
+        "focus_share": 0.429,
+        "post_count": 7
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "photonics / laser / optica / gen",
-        "total_engagement": 1254,
-        "post_count": 16
-      },
-      {
-        "topic_id": 0,
-        "label": "dram / micron / beijing / capacity",
-        "total_engagement": 608,
+        "topic_id": 4,
+        "label": "dram / memory / checking / quarter",
+        "total_engagement": 1370,
         "post_count": 3
       },
       {
-        "topic_id": 3,
-        "label": "saturday / edition / trib / ft",
-        "total_engagement": 102,
+        "topic_id": 0,
+        "label": "photonics / server / decade / gen",
+        "total_engagement": 784,
+        "post_count": 22
+      },
+      {
+        "topic_id": 7,
+        "label": "beijing / stock",
+        "total_engagement": 111,
         "post_count": 2
       },
       {
+        "topic_id": 6,
+        "label": "flash / intelligence / infrastructure / engineering",
+        "total_engagement": 98,
+        "post_count": 3
+      },
+      {
+        "topic_id": 5,
+        "label": "laser / optica / optics / photonics",
+        "total_engagement": 53,
+        "post_count": 2
+      },
+      {
+        "topic_id": 3,
+        "label": "nodes / models / labs / node",
+        "total_engagement": 36,
+        "post_count": 2
+      },
+      {
+        "topic_id": 1,
+        "label": "ai / revenue / gross / customers",
+        "total_engagement": 26,
+        "post_count": 5
+      },
+      {
         "topic_id": 2,
-        "label": "beijing / stock",
-        "total_engagement": 35,
+        "label": "opinion / trib / ft",
+        "total_engagement": 0,
         "post_count": 2
       }
     ],
