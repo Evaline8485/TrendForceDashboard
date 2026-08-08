@@ -1,51 +1,57 @@
 {
   "clusters": [
     {
-      "id": 2,
-      "label": "ai / memory / dram / tsmc",
-      "size": 12,
+      "id": 0,
+      "label": "ai / nvidia / memory / tsmc",
+      "size": 26,
       "accounts": {
-        "jukan05": 3,
-        "QQ_Timmy": 2,
-        "tphuang": 1,
-        "FT": 2,
+        "technews_tw": 4,
+        "dylan522p": 1,
+        "jukan05": 1,
+        "QQ_Timmy": 4,
+        "tphuang": 5,
+        "FT": 4,
+        "statementdog": 2,
         "subhash-km-6b5443123": 1,
-        "josepozophotonics": 3
+        "josepozophotonics": 4
       },
       "engagement_by_account": {
-        "jukan05": 765,
-        "QQ_Timmy": 5,
-        "tphuang": 27,
-        "FT": 25,
+        "technews_tw": 2,
+        "dylan522p": 117,
+        "jukan05": 66,
+        "QQ_Timmy": 89,
+        "tphuang": 134,
+        "FT": 36,
+        "statementdog": 13,
         "subhash-km-6b5443123": 2,
-        "josepozophotonics": 182
+        "josepozophotonics": 215
       }
     },
     {
-      "id": 3,
-      "label": "蘋果 / iphone / apple / ios",
-      "size": 1,
+      "id": 2,
+      "label": "ai / memory / constraint / 資料中心",
+      "size": 2,
       "accounts": {
-        "technews_tw": 1
+        "technews_tw": 2
       },
       "engagement_by_account": {
         "technews_tw": 2
       }
     },
     {
-      "id": 4,
-      "label": "cpo / 大立光 / laser / ai",
-      "size": 1,
+      "id": 5,
+      "label": "trib / opinion / ft / edition",
+      "size": 2,
       "accounts": {
-        "josepozophotonics": 1
+        "FT": 2
       },
       "engagement_by_account": {
-        "josepozophotonics": 33
+        "FT": 0
       }
     },
     {
-      "id": 14,
-      "label": "meta / ai / compute / openai",
+      "id": 12,
+      "label": "meta / billion / spare / ai",
       "size": 1,
       "accounts": {
         "josepozophotonics": 1
@@ -57,27 +63,29 @@
   ],
   "gaps": [
     {
-      "cluster_id": 2,
-      "label": "ai / memory / dram / tsmc",
-      "own_count": 0,
-      "competitor_count": 12,
-      "competitor_engagement": 1006,
+      "cluster_id": 0,
+      "label": "ai / nvidia / memory / tsmc",
+      "own_count": 4,
+      "competitor_count": 22,
+      "competitor_engagement": 672,
       "competitors_covering": [
+        "dylan522p",
         "jukan05",
         "QQ_Timmy",
         "tphuang",
         "FT",
+        "statementdog",
         "subhash-km-6b5443123",
         "josepozophotonics"
       ],
       "sample_posts": [
         {
-          "handle": "jukan05",
+          "handle": "dylan522p",
           "platform": "X",
-          "text": "Citi cuts Micron price target on peaking memory prices  Citi downgraded Micron, arguing that both DRAM and NAND prices will see QoQ gains decelerate over the next four quarters, with pricing peaking in the May (F2Q) quarter of next year.  Specifically, Citi revised its QoQ DRAM",
-          "url": "https://x.com/jukan05/status/2085865896090992746",
-          "timestamp": "2026-08-08T07:09:17.000+08:00",
-          "interaction": 603
+          "text": "Everyone in SF is talking about OSL, but no one wanna talk about ISL and cache hit rates :(",
+          "url": "https://x.com/dylan522p/status/2085894617065734600",
+          "timestamp": "2026-08-08T09:03:25.000+08:00",
+          "interaction": 117
         },
         {
           "handle": "josepozophotonics",
@@ -90,18 +98,18 @@
         {
           "handle": "jukan05",
           "platform": "X",
-          "text": "I recommend checking out  @zephyr_z9 's comments on memory. Our Citrini Semi team posts commentary like this in the Citrini Substack chat.   https:// open.substack.com/chat/posts/f0a d83b8-fcd8-4307-a00f-d476b3f27f19 …",
-          "url": "https://x.com/jukan05/status/2085868311762665483",
-          "timestamp": "2026-08-08T07:18:53.000+08:00",
-          "interaction": 82
+          "text": "According to Korean press reports, Korean PCB/substrate makers are expected to carry their strong Q2 results into further earnings improvement in Q3.  For example, Daeduck Electronics posted revenue of KRW 401.0bn and operating profit of KRW 70.3bn, up 63% and 3,599% YoY",
+          "url": "https://x.com/jukan05/status/2085939743632892184",
+          "timestamp": "2026-08-08T12:02:44.000+08:00",
+          "interaction": 66
         },
         {
-          "handle": "jukan05",
+          "handle": "tphuang",
           "platform": "X",
-          "text": "AWS Leadership: Cut CPU Resource Waste to Address Capacity Constraints  Apparently, engineers now even have to wait days to secure CPU server capacity.",
-          "url": "https://x.com/jukan05/status/2085883312099455167",
-          "timestamp": "2026-08-08T08:18:30.000+08:00",
-          "interaction": 80
+          "text": "Hard to argue against DSV4-Flash being the best cost to ratio LLM. It's almost @ GLM-5.2 on engineering & general intelligence, while being significantly cheaper than even 5.6-Luna.  Demand continues to be off the chart My cline sessions are noticeably slower than 1st few days. I",
+          "url": "https://x.com/tphuang/status/2085911290518929656",
+          "timestamp": "2026-08-08T10:09:40.000+08:00",
+          "interaction": 64
         },
         {
           "handle": "josepozophotonics",
@@ -114,53 +122,55 @@
         {
           "handle": "tphuang",
           "platform": "X",
-          "text": "Things are so cheap here in Beijing. Had a pretty decent lunch yesterday with my kids & it was 190 RMB total. Breakfast today for us in 50 RMB. I know that locals don’t make as much money but the living cost is just so low.",
-          "url": "https://x.com/tphuang/status/2085878757328572641",
-          "timestamp": "2026-08-08T08:00:24.000+08:00",
-          "interaction": 27
+          "text": "Important for ppl to understand what this means. Chinese labs are only able to do this now bc they have enough funding, data & compute. All 3 take time to build up. You cannot train or do inference 5-10T models without super nodes coming online.  Everything follows a timeline.",
+          "url": "https://x.com/tphuang/status/2085932919915442686",
+          "timestamp": "2026-08-08T11:35:37.000+08:00",
+          "interaction": 34
         },
         {
           "handle": "josepozophotonics",
           "platform": "LinkedIn",
-          "text": "𝗣𝗛𝗢𝗧𝗢𝗡𝗜𝗖𝗦 𝗜𝗡 𝗘𝗡𝗘𝗥𝗚𝗬: THE REPLAY IS NOW LIVE Missed the Optica Online Industry Meeting on Photonics in Energy? The full session is now available to watch. On 2 June, Optica brought together technology integrators and enablers working on laser fusion, hydrogen production, solar manufacturing, grid mon",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478830772263723010/",
+          "text": "THE TWO-YEAR CLOCK ON CO-PACKAGED OPTICS: A NINE-MONTH SCOREBOARD Last September, at ECOC in Copenhagen, I chaired a fireside session on the Market Focus stage that I still think about. We put three companies up there, each holding one piece of a puzzle nobody has solved yet: how do you get co-packa",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478551791337590785/",
           "timestamp": "2026-08-08T10:47:55.573+08:00",
-          "interaction": 20
+          "interaction": 33
         },
         {
-          "handle": "FT",
+          "handle": "tphuang",
           "platform": "X",
-          "text": "Police investigating Ann Widdecombe murder reopen inquiry into attempted burglary",
-          "url": "https://x.com/FT/status/2085863764100796424",
-          "timestamp": "2026-08-08T07:00:49.000+08:00",
-          "interaction": 17
+          "text": "Saw this on weibo. Sinopec gas station got replaced by flash charging station as even big oil starts transitioning to the fast charging & EV business.  Charging infrastructure will be far more accessible than gas stations in the future in China.",
+          "url": "https://x.com/tphuang/status/2085911672972263819",
+          "timestamp": "2026-08-08T10:11:11.000+08:00",
+          "interaction": 32
         }
       ]
     }
   ],
   "suggested_entry_points": [
     {
-      "cluster_id": 2,
-      "label": "ai / memory / dram / tsmc",
-      "own_count": 0,
-      "competitor_count": 12,
-      "competitor_engagement": 1006,
+      "cluster_id": 0,
+      "label": "ai / nvidia / memory / tsmc",
+      "own_count": 4,
+      "competitor_count": 22,
+      "competitor_engagement": 672,
       "competitors_covering": [
+        "dylan522p",
         "jukan05",
         "QQ_Timmy",
         "tphuang",
         "FT",
+        "statementdog",
         "subhash-km-6b5443123",
         "josepozophotonics"
       ],
       "sample_posts": [
         {
-          "handle": "jukan05",
+          "handle": "dylan522p",
           "platform": "X",
-          "text": "Citi cuts Micron price target on peaking memory prices  Citi downgraded Micron, arguing that both DRAM and NAND prices will see QoQ gains decelerate over the next four quarters, with pricing peaking in the May (F2Q) quarter of next year.  Specifically, Citi revised its QoQ DRAM",
-          "url": "https://x.com/jukan05/status/2085865896090992746",
-          "timestamp": "2026-08-08T07:09:17.000+08:00",
-          "interaction": 603
+          "text": "Everyone in SF is talking about OSL, but no one wanna talk about ISL and cache hit rates :(",
+          "url": "https://x.com/dylan522p/status/2085894617065734600",
+          "timestamp": "2026-08-08T09:03:25.000+08:00",
+          "interaction": 117
         },
         {
           "handle": "josepozophotonics",
@@ -173,18 +183,18 @@
         {
           "handle": "jukan05",
           "platform": "X",
-          "text": "I recommend checking out  @zephyr_z9 's comments on memory. Our Citrini Semi team posts commentary like this in the Citrini Substack chat.   https:// open.substack.com/chat/posts/f0a d83b8-fcd8-4307-a00f-d476b3f27f19 …",
-          "url": "https://x.com/jukan05/status/2085868311762665483",
-          "timestamp": "2026-08-08T07:18:53.000+08:00",
-          "interaction": 82
+          "text": "According to Korean press reports, Korean PCB/substrate makers are expected to carry their strong Q2 results into further earnings improvement in Q3.  For example, Daeduck Electronics posted revenue of KRW 401.0bn and operating profit of KRW 70.3bn, up 63% and 3,599% YoY",
+          "url": "https://x.com/jukan05/status/2085939743632892184",
+          "timestamp": "2026-08-08T12:02:44.000+08:00",
+          "interaction": 66
         },
         {
-          "handle": "jukan05",
+          "handle": "tphuang",
           "platform": "X",
-          "text": "AWS Leadership: Cut CPU Resource Waste to Address Capacity Constraints  Apparently, engineers now even have to wait days to secure CPU server capacity.",
-          "url": "https://x.com/jukan05/status/2085883312099455167",
-          "timestamp": "2026-08-08T08:18:30.000+08:00",
-          "interaction": 80
+          "text": "Hard to argue against DSV4-Flash being the best cost to ratio LLM. It's almost @ GLM-5.2 on engineering & general intelligence, while being significantly cheaper than even 5.6-Luna.  Demand continues to be off the chart My cline sessions are noticeably slower than 1st few days. I",
+          "url": "https://x.com/tphuang/status/2085911290518929656",
+          "timestamp": "2026-08-08T10:09:40.000+08:00",
+          "interaction": 64
         },
         {
           "handle": "josepozophotonics",
@@ -197,34 +207,34 @@
         {
           "handle": "tphuang",
           "platform": "X",
-          "text": "Things are so cheap here in Beijing. Had a pretty decent lunch yesterday with my kids & it was 190 RMB total. Breakfast today for us in 50 RMB. I know that locals don’t make as much money but the living cost is just so low.",
-          "url": "https://x.com/tphuang/status/2085878757328572641",
-          "timestamp": "2026-08-08T08:00:24.000+08:00",
-          "interaction": 27
+          "text": "Important for ppl to understand what this means. Chinese labs are only able to do this now bc they have enough funding, data & compute. All 3 take time to build up. You cannot train or do inference 5-10T models without super nodes coming online.  Everything follows a timeline.",
+          "url": "https://x.com/tphuang/status/2085932919915442686",
+          "timestamp": "2026-08-08T11:35:37.000+08:00",
+          "interaction": 34
         },
         {
           "handle": "josepozophotonics",
           "platform": "LinkedIn",
-          "text": "𝗣𝗛𝗢𝗧𝗢𝗡𝗜𝗖𝗦 𝗜𝗡 𝗘𝗡𝗘𝗥𝗚𝗬: THE REPLAY IS NOW LIVE Missed the Optica Online Industry Meeting on Photonics in Energy? The full session is now available to watch. On 2 June, Optica brought together technology integrators and enablers working on laser fusion, hydrogen production, solar manufacturing, grid mon",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478830772263723010/",
+          "text": "THE TWO-YEAR CLOCK ON CO-PACKAGED OPTICS: A NINE-MONTH SCOREBOARD Last September, at ECOC in Copenhagen, I chaired a fireside session on the Market Focus stage that I still think about. We put three companies up there, each holding one piece of a puzzle nobody has solved yet: how do you get co-packa",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478551791337590785/",
           "timestamp": "2026-08-08T10:47:55.573+08:00",
-          "interaction": 20
+          "interaction": 33
         },
         {
-          "handle": "FT",
+          "handle": "tphuang",
           "platform": "X",
-          "text": "Police investigating Ann Widdecombe murder reopen inquiry into attempted burglary",
-          "url": "https://x.com/FT/status/2085863764100796424",
-          "timestamp": "2026-08-08T07:00:49.000+08:00",
-          "interaction": 17
+          "text": "Saw this on weibo. Sinopec gas station got replaced by flash charging station as even big oil starts transitioning to the fast charging & EV business.  Charging infrastructure will be far more accessible than gas stations in the future in China.",
+          "url": "https://x.com/tphuang/status/2085911672972263819",
+          "timestamp": "2026-08-08T10:11:11.000+08:00",
+          "interaction": 32
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-08-08T06:47:55.573000+08:00",
-    "end_utc": "2026-08-08T10:47:55.573000+08:00",
-    "start_tw": "Aug 08, 06:47",
-    "end_tw": "Aug 08, 10:47"
+    "start_utc": "2026-08-08T08:40:04+08:00",
+    "end_utc": "2026-08-08T12:40:04+08:00",
+    "start_tw": "Aug 08, 08:40",
+    "end_tw": "Aug 08, 12:40"
   }
 }
