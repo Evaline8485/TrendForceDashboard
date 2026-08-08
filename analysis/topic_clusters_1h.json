@@ -1,44 +1,181 @@
 {
   "clusters": [
     {
-      "id": 1,
-      "label": "ai / memory / trendforce / dram",
-      "size": 11,
+      "id": 3,
+      "label": "ai / nvidia / memory / tsmc",
+      "size": 10,
       "accounts": {
-        "technews_tw": 2,
-        "QQ_Timmy": 1,
-        "FT": 2,
-        "technewsinside": 3,
-        "ctee.fans": 2,
-        "yutinghaosfinance": 1
+        "tphuang": 3,
+        "FT": 7
       },
       "engagement_by_account": {
-        "technews_tw": 0,
-        "QQ_Timmy": 4,
-        "FT": 40,
-        "technewsinside": 22,
-        "ctee.fans": 17,
-        "yutinghaosfinance": 263
-      }
-    },
-    {
-      "id": 0,
-      "label": "買進 / ccl / ai伺服器 / ai",
-      "size": 1,
-      "accounts": {
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "ctee.fans": 8
+        "tphuang": 43,
+        "FT": 187
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": 3,
+      "label": "ai / nvidia / memory / tsmc",
+      "own_count": 0,
+      "competitor_count": 10,
+      "competitor_engagement": 230,
+      "competitors_covering": [
+        "tphuang",
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Donald Trump revives threat to sack Fed governor Lisa Cook",
+          "url": "https://x.com/FT/status/2085783831383019530",
+          "timestamp": "2026-08-08T01:43:12.000+08:00",
+          "interaction": 52
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "The UAE’s growing assertiveness over the past decade, including in international affairs and military matters, has earned it the nickname ‘Little Sparta’ in diplomatic circles.  https:// ft.trib.al/FFbyqJ4",
+          "url": "https://x.com/FT/status/2085785323728928804",
+          "timestamp": "2026-08-08T01:49:07.000+08:00",
+          "interaction": 49
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Breaking news: The White House wrote to Lisa Cook this week, saying that it was 'considering' sacking her, even after the US Supreme Court blocked Donald Trump’s previous efforts to remove her in June.  https:// ft.trib.al/V5Iogkx",
+          "url": "https://x.com/FT/status/2085783294260474261",
+          "timestamp": "2026-08-08T01:41:03.000+08:00",
+          "interaction": 38
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "China’s Largest Self-Propelled electric Deep-Sea Cable-Laying Vessel 蓝海领航 got launched, developed by CSSC 708th Institute.  139.8m long, 38m beam, 35kt displacement w/ 16kt max cable carrying capacity. Can operate @ 3000m depth w/ DP-2 dynamic positioning system enabling",
+          "url": "https://x.com/tphuang/status/2085779420133159309",
+          "timestamp": "2026-08-08T01:25:40.000+08:00",
+          "interaction": 19
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "This came right after I said they need to be aiming for this range. Seed LLMs likely are already in 2-3T range, so 5T later this yr & 10T next yr seems reasonable.  Key is that such model can only be served on ever larger SuperNode. BD's self designed chips can utilise supply",
+          "url": "https://x.com/tphuang/status/2085782409010893303",
+          "timestamp": "2026-08-08T01:37:32.000+08:00",
+          "interaction": 17
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Jeanine Pirro, Trump’s legal crusader goes off script",
+          "url": "https://x.com/FT/status/2085782920602526085",
+          "timestamp": "2026-08-08T01:39:34.000+08:00",
+          "interaction": 16
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Taming AI’s wild frontier  https:// ft.trib.al/llnpNiw  | opinion",
+          "url": "https://x.com/FT/status/2085793451719729326",
+          "timestamp": "2026-08-08T02:21:25.000+08:00",
+          "interaction": 13
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Burnham’s UK tour to focus on cutting cost of living and helping high streets",
+          "url": "https://x.com/FT/status/2085792540028981329",
+          "timestamp": "2026-08-08T02:17:48.000+08:00",
+          "interaction": 11
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": 3,
+      "label": "ai / nvidia / memory / tsmc",
+      "own_count": 0,
+      "competitor_count": 10,
+      "competitor_engagement": 230,
+      "competitors_covering": [
+        "tphuang",
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Donald Trump revives threat to sack Fed governor Lisa Cook",
+          "url": "https://x.com/FT/status/2085783831383019530",
+          "timestamp": "2026-08-08T01:43:12.000+08:00",
+          "interaction": 52
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "The UAE’s growing assertiveness over the past decade, including in international affairs and military matters, has earned it the nickname ‘Little Sparta’ in diplomatic circles.  https:// ft.trib.al/FFbyqJ4",
+          "url": "https://x.com/FT/status/2085785323728928804",
+          "timestamp": "2026-08-08T01:49:07.000+08:00",
+          "interaction": 49
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Breaking news: The White House wrote to Lisa Cook this week, saying that it was 'considering' sacking her, even after the US Supreme Court blocked Donald Trump’s previous efforts to remove her in June.  https:// ft.trib.al/V5Iogkx",
+          "url": "https://x.com/FT/status/2085783294260474261",
+          "timestamp": "2026-08-08T01:41:03.000+08:00",
+          "interaction": 38
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "China’s Largest Self-Propelled electric Deep-Sea Cable-Laying Vessel 蓝海领航 got launched, developed by CSSC 708th Institute.  139.8m long, 38m beam, 35kt displacement w/ 16kt max cable carrying capacity. Can operate @ 3000m depth w/ DP-2 dynamic positioning system enabling",
+          "url": "https://x.com/tphuang/status/2085779420133159309",
+          "timestamp": "2026-08-08T01:25:40.000+08:00",
+          "interaction": 19
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "This came right after I said they need to be aiming for this range. Seed LLMs likely are already in 2-3T range, so 5T later this yr & 10T next yr seems reasonable.  Key is that such model can only be served on ever larger SuperNode. BD's self designed chips can utilise supply",
+          "url": "https://x.com/tphuang/status/2085782409010893303",
+          "timestamp": "2026-08-08T01:37:32.000+08:00",
+          "interaction": 17
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Jeanine Pirro, Trump’s legal crusader goes off script",
+          "url": "https://x.com/FT/status/2085782920602526085",
+          "timestamp": "2026-08-08T01:39:34.000+08:00",
+          "interaction": 16
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Taming AI’s wild frontier  https:// ft.trib.al/llnpNiw  | opinion",
+          "url": "https://x.com/FT/status/2085793451719729326",
+          "timestamp": "2026-08-08T02:21:25.000+08:00",
+          "interaction": 13
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Burnham’s UK tour to focus on cutting cost of living and helping high streets",
+          "url": "https://x.com/FT/status/2085792540028981329",
+          "timestamp": "2026-08-08T02:17:48.000+08:00",
+          "interaction": 11
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-08-07T07:55:40.133549+00:00",
-    "end_utc": "2026-08-07T08:55:40.133549+00:00",
-    "start_tw": "Aug 07, 15:55",
-    "end_tw": "Aug 07, 16:55"
+    "start_utc": "2026-08-08T01:21:25+08:00",
+    "end_utc": "2026-08-08T02:21:25+08:00",
+    "start_tw": "Aug 08, 01:21",
+    "end_tw": "Aug 08, 02:21"
   }
 }
