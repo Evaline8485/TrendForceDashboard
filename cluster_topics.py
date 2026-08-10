@@ -231,6 +231,13 @@ EN_NOISE_WORDS = {
     # Not in sklearn's built-in English stopword list either, despite being
     # just as generic/non-industry-specific.
     'like', 'likes', 'liked', 'year', 'years', 'thanks', 'thank',
+    # Found 2026-08-10: a cluster labeled "opinion / trib / ft / edition"
+    # (no industry content at all) - 'opinion' (zipf 4.94) and 'edition'
+    # (zipf 4.80) just missed COMMON_ENGLISH_ZIPF_THRESHOLD's 5.0 cutoff;
+    # 'ft' (4.52) is a generic short token/account-name artifact (the FT
+    # account's own name, not a real topic); 'trib' (zipf 2.25) is too
+    # rare to be a real word at all - likely a tokenization fragment.
+    'opinion', 'opinions', 'edition', 'editions', 'ft', 'trib',
 }
 
 
