@@ -122,7 +122,19 @@ ACCOUNTS = [h for p in PLATFORM_ACCOUNTS.values() for h in p['own'] + p['competi
 OWN_ACCOUNT = PLATFORM_ACCOUNTS['X']['own'][0]
 COMPETITOR_ACCOUNTS = PLATFORM_ACCOUNTS['X']['competitors']
 
-N_CLUSTERS = 18
+# 18 -> 19 (2026-08-10): removing 'opinion'/'edition'/'ft'/'trib' from the
+# vectorizer's vocabulary (see EN_NOISE_WORDS below) shifted every
+# document's TF-IDF vector enough that K-Means' fixed-size partition
+# reshuffled and silently merged 3 real HBM/DRAM/NAND topic gaps into a
+# larger, already-well-covered cluster (verified by re-running the
+# pre-fix code against the same day's data - gaps went from 4 real ones
+# to 0). Bumping the cluster count by 1 - effectively restoring the slot
+# the junk cluster used to occupy - recovered the HBM gap signal in
+# testing, though not with identical cluster boundaries to before (K-Means
+# has no obligation to reproduce the same partition after any vocabulary
+# change, noise-removal included - some reshuffling here is inherent to
+# unsupervised clustering, not fully eliminable).
+N_CLUSTERS = 19
 MIN_DOCS = N_CLUSTERS * 3  # need enough posts for stable clusters
 
 URL_RE = re.compile(r'https?://\S+')
