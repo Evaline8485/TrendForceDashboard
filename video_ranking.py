@@ -139,7 +139,23 @@ ACRONYM_TERMS = {'NAND', 'DRAM', 'HBM', 'EUV', 'SK', 'AI', 'TSMC', 'GPU', 'CPU',
 # time - 'demand'/'supply'/'share'/'price'/'cut' are exactly the kind of
 # words a "DRAM prices surge on tight supply/demand" cluster would surface
 # as individual terms.
-AMBIGUOUS_TERMS = {'memory', 'spot', 'demand', 'supply', 'share', 'price', 'cut'}
+#
+# The following were found by directly auditing every live post matched
+# against every current single-word Rising Topic term (2026-08-10), not
+# guessed: 'apple' (113 matches, nearly all the fruit or unrelated - an
+# NVIDIA podcast mention, crypto-app copy, investing threads), 'edition'
+# (Italian video titled "...edition", a used-tablet sale listing),
+# 'opinion' (celebrity gossip, football commentary, Spanish "mi opinion"),
+# 'mi' (Spanish/Italian "mi" = "my", far more often than any industry
+# sense), 'ddr' (East Germany "DDR", and DDR/StepMania - the dance rhythm
+# game - not DDR memory), 'eps' (Indonesian K-pop fan slang for
+# "episodes"), 'fy' (unrelated Portuguese slang), 'ft' (music/sports
+# "featuring" - "Squatter ft. DRAM" is an artist named DRAM, not memory;
+# also literal feet-as-distance in a baseball post).
+AMBIGUOUS_TERMS = {
+    'memory', 'spot', 'demand', 'supply', 'share', 'price', 'cut',
+    'apple', 'edition', 'opinion', 'mi', 'ddr', 'eps', 'fy', 'ft',
+}
 INDUSTRY_CONTEXT_SIGNALS = {
     'chip', 'chips', 'dram', 'nand', 'hbm', 'wafer', 'fab', 'foundry',
     'semiconductor', 'gb', 'tb', 'capacity', 'micron', 'samsung', 'hynix',
