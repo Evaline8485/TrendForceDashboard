@@ -1,54 +1,67 @@
 {
   "clusters": [
     {
-      "id": 12,
-      "label": "ai / 台積電 / memory / google",
-      "size": 26,
+      "id": 1,
+      "label": "ai / nvidia / memory / tsmc",
+      "size": 30,
       "accounts": {
         "TrendForce": 1,
-        "technews_tw": 6,
+        "technews_tw": 5,
         "SemiAnalysis_": 3,
         "jukan05": 2,
         "QQ_Timmy": 1,
         "tphuang": 2,
-        "FT": 11
+        "FT": 14,
+        "statementdog": 2
       },
       "engagement_by_account": {
         "TrendForce": 5,
-        "technews_tw": 9,
+        "technews_tw": 5,
         "SemiAnalysis_": 242,
         "jukan05": 1300,
         "QQ_Timmy": 33,
         "tphuang": 146,
-        "FT": 1768
+        "FT": 1848,
+        "statementdog": 19
       }
     },
     {
-      "id": 3,
-      "label": "opinion / trib / ft / edition",
-      "size": 5,
-      "accounts": {
-        "FT": 5
-      },
-      "engagement_by_account": {
-        "FT": 538
-      }
-    },
-    {
-      "id": 5,
-      "label": "hbm / dram / memory / ai",
-      "size": 2,
+      "id": 8,
+      "label": "hbm / dram / memory / nand",
+      "size": 3,
       "accounts": {
         "jukan05": 1,
-        "QQ_Timmy": 1
+        "QQ_Timmy": 2
       },
       "engagement_by_account": {
         "jukan05": 861,
-        "QQ_Timmy": 40
+        "QQ_Timmy": 99
+      }
+    },
+    {
+      "id": 13,
+      "label": "trump / donald / ft / trib",
+      "size": 2,
+      "accounts": {
+        "FT": 2
+      },
+      "engagement_by_account": {
+        "FT": 458
       }
     },
     {
       "id": 6,
+      "label": "蘋果 / iphone / apple / openai",
+      "size": 1,
+      "accounts": {
+        "technews_tw": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 2
+      }
+    },
+    {
+      "id": 7,
       "label": "ai / 資料中心 / memory / constraint",
       "size": 1,
       "accounts": {
@@ -59,8 +72,8 @@
       }
     },
     {
-      "id": 8,
-      "label": "gb / tlc / spot / nand",
+      "id": 17,
+      "label": "ddr / dram / spot / memory",
       "size": 1,
       "accounts": {
         "QQ_Timmy": 1
@@ -68,41 +81,56 @@
       "engagement_by_account": {
         "QQ_Timmy": 42
       }
-    },
-    {
-      "id": 15,
-      "label": "蘋果 / iphone / apple / ios",
-      "size": 1,
-      "accounts": {
-        "technews_tw": 1
-      },
-      "engagement_by_account": {
-        "technews_tw": 2
-      }
-    },
-    {
-      "id": 17,
-      "label": "dram / nand / cxmt / ddr",
-      "size": 1,
-      "accounts": {
-        "QQ_Timmy": 1
-      },
-      "engagement_by_account": {
-        "QQ_Timmy": 59
-      }
     }
   ],
   "gaps": [
     {
-      "cluster_id": 3,
-      "label": "opinion / trib / ft / edition",
-      "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 538,
+      "cluster_id": 1,
+      "label": "ai / nvidia / memory / tsmc",
+      "own_count": 6,
+      "competitor_count": 24,
+      "competitor_engagement": 3588,
       "competitors_covering": [
-        "FT"
+        "SemiAnalysis_",
+        "jukan05",
+        "QQ_Timmy",
+        "tphuang",
+        "FT",
+        "statementdog"
       ],
       "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "WSJ: CXMT HAS MAXED OUT ITS PRODUCTION CAPACITY THIS YEAR, LEAVING LITTLE ROOM FOR NEW INTERNATIONAL CLIENTS  WSJ: HP AND ACER HAVE SECURED LIMITED QUANTITIES OF MEMORY CHIPS FROM CXMT AND ARE SEEKING TO LOCK IN MORE SUPPLIES FOR NEXT YEAR  WSJ: MANY CXMT PRODUCTS ARE FETCHING",
+          "url": "https://x.com/jukan05/status/2086409185194103050",
+          "timestamp": "2026-08-09T19:08:08.000+08:00",
+          "interaction": 955
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Good morning, New York. While you were sleeping, this was the most-read story  https:// ft.trib.al/YNu8g00",
+          "url": "https://x.com/FT/status/2086407438190723225",
+          "timestamp": "2026-08-09T19:01:11.000+08:00",
+          "interaction": 347
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "WSJ: APPLE HELD EARLY TALKS WITH CXMT ON SUPPLY, AIMING TO USE ITS COMPONENTS IN SOME DEVICES SOLD IN CHINA   $AAPL",
+          "url": "https://x.com/jukan05/status/2086408422749274486",
+          "timestamp": "2026-08-09T19:05:06.000+08:00",
+          "interaction": 345
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Dozens of people have been killed in election clashes in Pakistan-administered Kashmir, the highest death toll there in decades and a serious political test for Islamabad’s military-backed government  https:// ft.trib.al/L0MZM23",
+          "url": "https://x.com/FT/status/2086498027317887062",
+          "timestamp": "2026-08-10T01:01:09.000+08:00",
+          "interaction": 246
+        },
         {
           "handle": "FT",
           "platform": "X",
@@ -122,41 +150,107 @@
         {
           "handle": "FT",
           "platform": "X",
-          "text": "US social security could soon be insolvent  https:// ft.trib.al/5KfqxAE  | opinion",
-          "url": "https://x.com/FT/status/2086413268004765720",
-          "timestamp": "2026-08-09T19:24:21.000+08:00",
-          "interaction": 60
+          "text": "Berkshire Hathaway chief executive Greg Abel ploughed a net $19.8bn into the stock market in the second quarter, ending a more than three-year selling streak by his predecessor Warren Buffett  https:// ft.trib.al/CAxoXSk",
+          "url": "https://x.com/FT/status/2086389867257241931",
+          "timestamp": "2026-08-09T17:51:22.000+08:00",
+          "interaction": 200
         },
         {
           "handle": "FT",
           "platform": "X",
-          "text": "Why can’t a bathroom be curtained, carpeted and cushioned?  Enough with the clinical and sterile, bring back the chintz and swagging:  https:// ft.trib.al/dPwRLTa?",
-          "url": "https://x.com/FT/status/2086446681311134038",
-          "timestamp": "2026-08-09T21:37:07.000+08:00",
-          "interaction": 45
+          "text": "Syria makes deal to take control of Russian bases",
+          "url": "https://x.com/FT/status/2086495444092289302",
+          "timestamp": "2026-08-10T00:50:53.000+08:00",
+          "interaction": 165
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "label": "hbm / dram / memory / nand",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 960,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Samsung Hits 80% Yield on HBM4, Ramping Up Supply  According to Korean press reports, Samsung has lifted its HBM4 yield to 80%. In the early days of mass production this February the yield was still below 60%, so this is a remarkable improvement in just six months.  Per a source",
+          "url": "https://x.com/jukan05/status/2086384363437006930",
+          "timestamp": "2026-08-09T17:29:30.000+08:00",
+          "interaction": 861
         },
         {
-          "handle": "FT",
+          "handle": "QQ_Timmy",
           "platform": "X",
-          "text": "Enforcing the duty of candour is harder than it seems  https:// ft.trib.al/Th4ocVC  | opinion",
-          "url": "https://x.com/FT/status/2086413268038406463",
-          "timestamp": "2026-08-09T19:24:21.000+08:00",
-          "interaction": 23
+          "text": "蘋果因AI熱潮導致內存芯片供應緊張，正測試中國長鑫存儲（CXMT）的DRAM芯片，涵蓋iPhone、MacBook等產品線。知情人士透露，蘋果已與長鑫初步洽談，擬用於中國市場部分設備，並尋求白宮許可。  蘋果全球漲價，因AI需求推高存儲成本。獲中國供應有助緩解壓力。惠普、宏碁已在美國以外設備採用長鑫芯片。",
+          "url": "https://x.com/QQ_Timmy/status/2086420821346844782",
+          "timestamp": "2026-08-09T19:54:22.000+08:00",
+          "interaction": 59
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "BofA最新全球記憶體更新： 1. SK海力士：2Q DRAM ASP僅+30% QoQ（同業45-70%），但3Q預期加速恢復至+25% QoQ，HBM4出貨增加。  2. 鎧俠（Kioxia）：3Q營收指引+35% QoQ，暗示NAND ASP近+20%（高於產業平均）。  3. 價格展望：預期4Q再有一輪臨時漲價；產業平均DRAM +8% QoQ、NAND",
+          "url": "https://x.com/QQ_Timmy/status/2086498447109341567",
+          "timestamp": "2026-08-10T01:02:49.000+08:00",
+          "interaction": 40
         }
       ]
     }
   ],
   "suggested_entry_points": [
     {
-      "cluster_id": 3,
-      "label": "opinion / trib / ft / edition",
-      "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 538,
+      "cluster_id": 1,
+      "label": "ai / nvidia / memory / tsmc",
+      "own_count": 6,
+      "competitor_count": 24,
+      "competitor_engagement": 3588,
       "competitors_covering": [
-        "FT"
+        "SemiAnalysis_",
+        "jukan05",
+        "QQ_Timmy",
+        "tphuang",
+        "FT",
+        "statementdog"
       ],
       "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "WSJ: CXMT HAS MAXED OUT ITS PRODUCTION CAPACITY THIS YEAR, LEAVING LITTLE ROOM FOR NEW INTERNATIONAL CLIENTS  WSJ: HP AND ACER HAVE SECURED LIMITED QUANTITIES OF MEMORY CHIPS FROM CXMT AND ARE SEEKING TO LOCK IN MORE SUPPLIES FOR NEXT YEAR  WSJ: MANY CXMT PRODUCTS ARE FETCHING",
+          "url": "https://x.com/jukan05/status/2086409185194103050",
+          "timestamp": "2026-08-09T19:08:08.000+08:00",
+          "interaction": 955
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Good morning, New York. While you were sleeping, this was the most-read story  https:// ft.trib.al/YNu8g00",
+          "url": "https://x.com/FT/status/2086407438190723225",
+          "timestamp": "2026-08-09T19:01:11.000+08:00",
+          "interaction": 347
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "WSJ: APPLE HELD EARLY TALKS WITH CXMT ON SUPPLY, AIMING TO USE ITS COMPONENTS IN SOME DEVICES SOLD IN CHINA   $AAPL",
+          "url": "https://x.com/jukan05/status/2086408422749274486",
+          "timestamp": "2026-08-09T19:05:06.000+08:00",
+          "interaction": 345
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Dozens of people have been killed in election clashes in Pakistan-administered Kashmir, the highest death toll there in decades and a serious political test for Islamabad’s military-backed government  https:// ft.trib.al/L0MZM23",
+          "url": "https://x.com/FT/status/2086498027317887062",
+          "timestamp": "2026-08-10T01:01:09.000+08:00",
+          "interaction": 246
+        },
         {
           "handle": "FT",
           "platform": "X",
@@ -176,34 +270,63 @@
         {
           "handle": "FT",
           "platform": "X",
-          "text": "US social security could soon be insolvent  https:// ft.trib.al/5KfqxAE  | opinion",
-          "url": "https://x.com/FT/status/2086413268004765720",
-          "timestamp": "2026-08-09T19:24:21.000+08:00",
-          "interaction": 60
+          "text": "Berkshire Hathaway chief executive Greg Abel ploughed a net $19.8bn into the stock market in the second quarter, ending a more than three-year selling streak by his predecessor Warren Buffett  https:// ft.trib.al/CAxoXSk",
+          "url": "https://x.com/FT/status/2086389867257241931",
+          "timestamp": "2026-08-09T17:51:22.000+08:00",
+          "interaction": 200
         },
         {
           "handle": "FT",
           "platform": "X",
-          "text": "Why can’t a bathroom be curtained, carpeted and cushioned?  Enough with the clinical and sterile, bring back the chintz and swagging:  https:// ft.trib.al/dPwRLTa?",
-          "url": "https://x.com/FT/status/2086446681311134038",
-          "timestamp": "2026-08-09T21:37:07.000+08:00",
-          "interaction": 45
+          "text": "Syria makes deal to take control of Russian bases",
+          "url": "https://x.com/FT/status/2086495444092289302",
+          "timestamp": "2026-08-10T00:50:53.000+08:00",
+          "interaction": 165
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "label": "hbm / dram / memory / nand",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 960,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Samsung Hits 80% Yield on HBM4, Ramping Up Supply  According to Korean press reports, Samsung has lifted its HBM4 yield to 80%. In the early days of mass production this February the yield was still below 60%, so this is a remarkable improvement in just six months.  Per a source",
+          "url": "https://x.com/jukan05/status/2086384363437006930",
+          "timestamp": "2026-08-09T17:29:30.000+08:00",
+          "interaction": 861
         },
         {
-          "handle": "FT",
+          "handle": "QQ_Timmy",
           "platform": "X",
-          "text": "Enforcing the duty of candour is harder than it seems  https:// ft.trib.al/Th4ocVC  | opinion",
-          "url": "https://x.com/FT/status/2086413268038406463",
-          "timestamp": "2026-08-09T19:24:21.000+08:00",
-          "interaction": 23
+          "text": "蘋果因AI熱潮導致內存芯片供應緊張，正測試中國長鑫存儲（CXMT）的DRAM芯片，涵蓋iPhone、MacBook等產品線。知情人士透露，蘋果已與長鑫初步洽談，擬用於中國市場部分設備，並尋求白宮許可。  蘋果全球漲價，因AI需求推高存儲成本。獲中國供應有助緩解壓力。惠普、宏碁已在美國以外設備採用長鑫芯片。",
+          "url": "https://x.com/QQ_Timmy/status/2086420821346844782",
+          "timestamp": "2026-08-09T19:54:22.000+08:00",
+          "interaction": 59
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "BofA最新全球記憶體更新： 1. SK海力士：2Q DRAM ASP僅+30% QoQ（同業45-70%），但3Q預期加速恢復至+25% QoQ，HBM4出貨增加。  2. 鎧俠（Kioxia）：3Q營收指引+35% QoQ，暗示NAND ASP近+20%（高於產業平均）。  3. 價格展望：預期4Q再有一輪臨時漲價；產業平均DRAM +8% QoQ、NAND",
+          "url": "https://x.com/QQ_Timmy/status/2086498447109341567",
+          "timestamp": "2026-08-10T01:02:49.000+08:00",
+          "interaction": 40
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-08-09T17:02:49+08:00",
-    "end_utc": "2026-08-10T01:02:49+08:00",
-    "start_tw": "Aug 09, 17:02",
-    "end_tw": "Aug 10, 01:02"
+    "start_utc": "2026-08-09T17:05:00+08:00",
+    "end_utc": "2026-08-10T01:05:00+08:00",
+    "start_tw": "Aug 09, 17:05",
+    "end_tw": "Aug 10, 01:05"
   }
 }

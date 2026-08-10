@@ -1,23 +1,25 @@
 {
   "clusters": [
     {
-      "id": 12,
-      "label": "ai / 台積電 / memory / google",
+      "id": 1,
+      "label": "ai / nvidia / memory / tsmc",
       "size": 6,
       "accounts": {
         "SemiAnalysis_": 1,
         "QQ_Timmy": 1,
-        "FT": 4
+        "FT": 3,
+        "statementdog": 1
       },
       "engagement_by_account": {
         "SemiAnalysis_": 137,
         "QQ_Timmy": 33,
-        "FT": 819
+        "FT": 451,
+        "statementdog": 5
       }
     },
     {
-      "id": 5,
-      "label": "hbm / dram / memory / ai",
+      "id": 8,
+      "label": "hbm / dram / memory / nand",
       "size": 1,
       "accounts": {
         "QQ_Timmy": 1
@@ -25,29 +27,33 @@
       "engagement_by_account": {
         "QQ_Timmy": 40
       }
+    },
+    {
+      "id": 13,
+      "label": "trump / donald / ft / trib",
+      "size": 1,
+      "accounts": {
+        "FT": 1
+      },
+      "engagement_by_account": {
+        "FT": 368
+      }
     }
   ],
   "gaps": [
     {
-      "cluster_id": 12,
-      "label": "ai / 台積電 / memory / google",
+      "cluster_id": 1,
+      "label": "ai / nvidia / memory / tsmc",
       "own_count": 0,
       "competitor_count": 6,
-      "competitor_engagement": 989,
+      "competitor_engagement": 626,
       "competitors_covering": [
         "SemiAnalysis_",
         "QQ_Timmy",
-        "FT"
+        "FT",
+        "statementdog"
       ],
       "sample_posts": [
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "Trump is dismantling US guardrails, warn former security officials",
-          "url": "https://x.com/FT/status/2086486382168416335",
-          "timestamp": "2026-08-10T00:14:53.000+08:00",
-          "interaction": 368
-        },
         {
           "handle": "FT",
           "platform": "X",
@@ -87,31 +93,32 @@
           "url": "https://x.com/QQ_Timmy/status/2086497214277562631",
           "timestamp": "2026-08-10T00:57:55.000+08:00",
           "interaction": 33
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "The news below makes TSMC  $TSM  buying AUO's (2409 TT) old fabs look very likely. AUO looks deeply unhappy about falling behind rival panel maker Innolux (3481 TT).  ———  AUO's president Frank Ko, in the job since 2019, resigned at the end of July with no warning, effective the",
+          "url": "https://x.com/statementdog/status/2086498994902192259",
+          "timestamp": "2026-08-10T01:05:00.000+08:00",
+          "interaction": 5
         }
       ]
     }
   ],
   "suggested_entry_points": [
     {
-      "cluster_id": 12,
-      "label": "ai / 台積電 / memory / google",
+      "cluster_id": 1,
+      "label": "ai / nvidia / memory / tsmc",
       "own_count": 0,
       "competitor_count": 6,
-      "competitor_engagement": 989,
+      "competitor_engagement": 626,
       "competitors_covering": [
         "SemiAnalysis_",
         "QQ_Timmy",
-        "FT"
+        "FT",
+        "statementdog"
       ],
       "sample_posts": [
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "Trump is dismantling US guardrails, warn former security officials",
-          "url": "https://x.com/FT/status/2086486382168416335",
-          "timestamp": "2026-08-10T00:14:53.000+08:00",
-          "interaction": 368
-        },
         {
           "handle": "FT",
           "platform": "X",
@@ -151,14 +158,22 @@
           "url": "https://x.com/QQ_Timmy/status/2086497214277562631",
           "timestamp": "2026-08-10T00:57:55.000+08:00",
           "interaction": 33
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "The news below makes TSMC  $TSM  buying AUO's (2409 TT) old fabs look very likely. AUO looks deeply unhappy about falling behind rival panel maker Innolux (3481 TT).  ———  AUO's president Frank Ko, in the job since 2019, resigned at the end of July with no warning, effective the",
+          "url": "https://x.com/statementdog/status/2086498994902192259",
+          "timestamp": "2026-08-10T01:05:00.000+08:00",
+          "interaction": 5
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-08-10T00:02:49+08:00",
-    "end_utc": "2026-08-10T01:02:49+08:00",
-    "start_tw": "Aug 10, 00:02",
-    "end_tw": "Aug 10, 01:02"
+    "start_utc": "2026-08-10T00:05:00+08:00",
+    "end_utc": "2026-08-10T01:05:00+08:00",
+    "start_tw": "Aug 10, 00:05",
+    "end_tw": "Aug 10, 01:05"
   }
 }
