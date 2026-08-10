@@ -17,13 +17,12 @@ their own schedules and each pushes fresh data back into this repo.
 |---|---|---|
 | `TrendForceDash` | `github.com/elainekaotf/TrendForceDashboard` | Analysis + dashboard generation + publish |
 | `TrendforceTwitterScraper` | `github.com/elainekaotf/TrendforceTwitterScraper` | X/Twitter scraping |
-| `TrendforceFacebookScraper` | **none — local-only** | Facebook scraping |
-| `TrendforceLinkedinScraper` | **none — local-only** | LinkedIn scraping |
+| `TrendforceFacebookScraper` | `github.com/elainekaotf/TrendforceFacebookScraper` (private) | Facebook scraping |
+| `TrendforceLinkedinScraper` | `github.com/elainekaotf/TrendforceLinkedinScraper` (private) | LinkedIn scraping |
 
-The two local-only repos currently exist **only on this Mac**. If they're
-part of the handoff, they need a remote created and pushed before (or as
-part of) the transfer — otherwise that code and its git history don't go
-anywhere.
+All four repos now have a GitHub remote (as of 2026-08-07) - the two
+scraper repos that used to be local-only were pushed as new private
+repos, verified clean of any tracked credentials/session files first.
 
 **To transfer GitHub-hosted repos**: GitHub → repo → Settings →
 Collaborators (to add access) or Settings → Danger Zone → Transfer
@@ -128,10 +127,9 @@ is a **data-heavy** repo (large CSV history), not a small codebase.
 
 ## 7. Suggested transfer order
 
-1. Push `TrendforceFacebookScraper` / `TrendforceLinkedinScraper` to new
-   GitHub remotes (or hand over as plain file copies if git history for
-   those two doesn't matter).
-2. Grant the new owner access to (or transfer) the two GitHub-hosted repos.
+1. ~~Push `TrendforceFacebookScraper` / `TrendforceLinkedinScraper` to new
+   GitHub remotes~~ — done 2026-08-07, all four repos now have a remote.
+2. Grant the new owner access to (or transfer) all four repos.
 3. New owner sets up the identical directory layout (§3) on their machine.
 4. Hand over credentials/sessions out-of-band (§4), or let them re-login fresh.
 5. Copy + fix + load the launchd plists (§5) on the new machine.
