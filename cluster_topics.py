@@ -122,19 +122,25 @@ ACCOUNTS = [h for p in PLATFORM_ACCOUNTS.values() for h in p['own'] + p['competi
 OWN_ACCOUNT = PLATFORM_ACCOUNTS['X']['own'][0]
 COMPETITOR_ACCOUNTS = PLATFORM_ACCOUNTS['X']['competitors']
 
-# 18 -> 19 (2026-08-10): removing 'opinion'/'edition'/'ft'/'trib' from the
-# vectorizer's vocabulary (see EN_NOISE_WORDS below) shifted every
-# document's TF-IDF vector enough that K-Means' fixed-size partition
-# reshuffled and silently merged 3 real HBM/DRAM/NAND topic gaps into a
-# larger, already-well-covered cluster (verified by re-running the
-# pre-fix code against the same day's data - gaps went from 4 real ones
-# to 0). Bumping the cluster count by 1 - effectively restoring the slot
-# the junk cluster used to occupy - recovered the HBM gap signal in
-# testing, though not with identical cluster boundaries to before (K-Means
-# has no obligation to reproduce the same partition after any vocabulary
-# change, noise-removal included - some reshuffling here is inherent to
-# unsupervised clustering, not fully eliminable).
-N_CLUSTERS = 19
+# 18 -> 19 -> 20 (2026-08-10, same day, two steps): every time a term gets
+# removed from the vectorizer's vocabulary (see EN_NOISE_WORDS below),
+# every document's TF-IDF vector shifts enough that K-Means' fixed-size
+# partition can reshuffle and silently merge a real topic gap into a
+# larger, already-well-covered cluster - happened twice today: removing
+# 'opinion'/'edition'/'ft'/'trib' (a junk cluster) merged away 3 real
+# HBM/DRAM/NAND gaps (18->19 recovered them), then separately removing
+# 'trendforce' (self-referential noise - TrendForce's own name, not a
+# topic) merged the SAME HBM gap away again (19->20 recovered it again).
+# Each bump effectively restores the cluster-count "slot" the removed
+# term's noise used to occupy. Verified each time by re-running against
+# the same day's data before/after - this is not a one-time fluke, it's
+# how this pipeline responds to any vocabulary change: expect to
+# re-check gap counts (not just "does it still run") after editing
+# EN_NOISE_WORDS, and expect boundaries to differ slightly from before -
+# K-Means has no obligation to reproduce the same partition after any
+# vocabulary change, so some reshuffling here is inherent, not fully
+# eliminable.
+N_CLUSTERS = 20
 MIN_DOCS = N_CLUSTERS * 3  # need enough posts for stable clusters
 
 URL_RE = re.compile(r'https?://\S+')
@@ -250,6 +256,11 @@ EN_NOISE_WORDS = {
     # account's own name, not a real topic); 'trib' (zipf 2.25) is too
     # rare to be a real word at all - likely a tokenization fragment.
     'opinion', 'opinions', 'edition', 'editions', 'ft', 'trib',
+    # Self-referential - TrendForce's own name shows up constantly across
+    # its own posts (and others quoting/crediting it), but it's not a
+    # topic descriptor - "trendforce / dram / nand / hbm" describes DRAM/
+    # NAND/HBM coverage, not "the topic of TrendForce".
+    'trendforce',
 }
 
 
