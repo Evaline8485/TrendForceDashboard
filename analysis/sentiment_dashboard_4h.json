@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-10T01:02:49+08:00",
+  "generated_at": "2026-08-10T01:05:00+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-08-09T21:02:49+08:00",
-    "end_utc": "2026-08-10T01:02:49+08:00",
-    "start_tw": "Aug 09, 21:02",
-    "end_tw": "Aug 10, 01:02"
+    "start_utc": "2026-08-09T21:05:00+08:00",
+    "end_utc": "2026-08-10T01:05:00+08:00",
+    "start_tw": "Aug 09, 21:05",
+    "end_tw": "Aug 10, 01:05"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 18,
+      "total_posts": 20,
       "sentiment_counts": {
-        "positive": 5,
+        "positive": 6,
         "neutral": 7,
-        "negative": 6
+        "negative": 7
       },
       "sentiment_share": {
-        "positive": 0.278,
-        "neutral": 0.389,
-        "negative": 0.333
+        "positive": 0.3,
+        "neutral": 0.35,
+        "negative": 0.35
       },
       "top_terms": [
         "trib",
         "arm",
         "asp",
         "trump",
-        "samsung",
-        "debuts",
-        "gen",
-        "memory",
-        "chips",
-        "pwiip"
+        "tsmc",
+        "tsm",
+        "auo",
+        "fabs",
+        "panel",
+        "maker"
       ]
     },
     "temperature_bar": [
@@ -50,7 +50,7 @@
         ]
       },
       {
-        "topic_id": 1,
+        "topic_id": 2,
         "label": "ft / trib",
         "heat": 76.7,
         "volume": 5,
@@ -64,9 +64,9 @@
         ]
       },
       {
-        "topic_id": 2,
+        "topic_id": 1,
         "label": "trump / arm",
-        "heat": 10.0,
+        "heat": 27.5,
         "volume": 2,
         "engagement": 458,
         "entities": [
@@ -75,6 +75,20 @@
           "US",
           "Netanyahu",
           "Gaza"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "tsmc / auo / panel / maker",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 19,
+        "entities": [
+          "TSMC",
+          "TT",
+          "Innolux       ",
+          "Frank Ko",
+          "LCD"
         ]
       }
     ],
@@ -112,6 +126,14 @@
         "count": 2
       },
       {
+        "entity": "TSMC",
+        "count": 2
+      },
+      {
+        "entity": "TT",
+        "count": 2
+      },
+      {
         "entity": "Samsung",
         "count": 1
       },
@@ -130,113 +152,105 @@
       {
         "entity": "Christopher Nolan",
         "count": 1
-      },
-      {
-        "entity": "mm",
-        "count": 1
-      },
-      {
-        "entity": "FYI",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-09T21:02:48.999994+08:00",
-        "bucket_end": "2026-08-09T21:19:57.571423+08:00",
+        "bucket_start": "2026-08-09T21:04:59.999994+08:00",
+        "bucket_end": "2026-08-09T21:22:08.571423+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-09T21:19:57.571423+08:00",
-        "bucket_end": "2026-08-09T21:37:06.142852+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
-      },
-      {
-        "bucket_start": "2026-08-09T21:37:06.142852+08:00",
-        "bucket_end": "2026-08-09T21:54:14.714281+08:00",
+        "bucket_start": "2026-08-09T21:22:08.571423+08:00",
+        "bucket_end": "2026-08-09T21:39:17.142852+08:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-09T21:54:14.714281+08:00",
-        "bucket_end": "2026-08-09T22:11:23.285710+08:00",
+        "bucket_start": "2026-08-09T21:39:17.142852+08:00",
+        "bucket_end": "2026-08-09T21:56:25.714281+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      {
+        "bucket_start": "2026-08-09T21:56:25.714281+08:00",
+        "bucket_end": "2026-08-09T22:13:34.285710+08:00",
         "positive": 1,
         "neutral": 3,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-09T22:11:23.285710+08:00",
-        "bucket_end": "2026-08-09T22:28:31.857139+08:00",
+        "bucket_start": "2026-08-09T22:13:34.285710+08:00",
+        "bucket_end": "2026-08-09T22:30:42.857139+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-09T22:28:31.857139+08:00",
-        "bucket_end": "2026-08-09T22:45:40.428568+08:00",
+        "bucket_start": "2026-08-09T22:30:42.857139+08:00",
+        "bucket_end": "2026-08-09T22:47:51.428568+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-09T22:45:40.428568+08:00",
-        "bucket_end": "2026-08-09T23:02:48.999997+08:00",
+        "bucket_start": "2026-08-09T22:47:51.428568+08:00",
+        "bucket_end": "2026-08-09T23:04:59.999997+08:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-09T23:02:48.999997+08:00",
-        "bucket_end": "2026-08-09T23:19:57.571426+08:00",
+        "bucket_start": "2026-08-09T23:04:59.999997+08:00",
+        "bucket_end": "2026-08-09T23:22:08.571426+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-09T23:19:57.571426+08:00",
-        "bucket_end": "2026-08-09T23:37:06.142855+08:00",
+        "bucket_start": "2026-08-09T23:22:08.571426+08:00",
+        "bucket_end": "2026-08-09T23:39:17.142855+08:00",
         "positive": 1,
         "neutral": 1,
         "negative": 1
       },
       {
-        "bucket_start": "2026-08-09T23:37:06.142855+08:00",
-        "bucket_end": "2026-08-09T23:54:14.714284+08:00",
+        "bucket_start": "2026-08-09T23:39:17.142855+08:00",
+        "bucket_end": "2026-08-09T23:56:25.714284+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-09T23:54:14.714284+08:00",
-        "bucket_end": "2026-08-10T00:11:23.285713+08:00",
-        "positive": 1,
+        "bucket_start": "2026-08-09T23:56:25.714284+08:00",
+        "bucket_end": "2026-08-10T00:13:34.285713+08:00",
+        "positive": 2,
         "neutral": 0,
         "negative": 1
       },
       {
-        "bucket_start": "2026-08-10T00:11:23.285713+08:00",
-        "bucket_end": "2026-08-10T00:28:31.857142+08:00",
+        "bucket_start": "2026-08-10T00:13:34.285713+08:00",
+        "bucket_end": "2026-08-10T00:30:42.857142+08:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0
       },
       {
-        "bucket_start": "2026-08-10T00:28:31.857142+08:00",
-        "bucket_end": "2026-08-10T00:45:40.428571+08:00",
+        "bucket_start": "2026-08-10T00:30:42.857142+08:00",
+        "bucket_end": "2026-08-10T00:47:51.428571+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1
       },
       {
-        "bucket_start": "2026-08-10T00:45:40.428571+08:00",
-        "bucket_end": "2026-08-10T01:02:49+08:00",
+        "bucket_start": "2026-08-10T00:47:51.428571+08:00",
+        "bucket_end": "2026-08-10T01:05:00+08:00",
         "positive": 0,
-        "neutral": 1,
+        "neutral": 2,
         "negative": 3
       }
     ],
@@ -270,8 +284,15 @@
         "post_count": 2
       },
       {
+        "handle": "statementdog",
+        "top_topic_id": 3,
+        "top_topic_label": "tsmc / auo / panel / maker",
+        "focus_share": 1.0,
+        "post_count": 2
+      },
+      {
         "handle": "FT",
-        "top_topic_id": 1,
+        "top_topic_id": 2,
         "top_topic_label": "ft / trib",
         "focus_share": 0.5,
         "post_count": 10
@@ -279,7 +300,7 @@
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
+        "topic_id": 2,
         "label": "ft / trib",
         "total_engagement": 630,
         "post_count": 5
@@ -291,9 +312,15 @@
         "post_count": 11
       },
       {
-        "topic_id": 2,
+        "topic_id": 1,
         "label": "trump / arm",
         "total_engagement": 458,
+        "post_count": 2
+      },
+      {
+        "topic_id": 3,
+        "label": "tsmc / auo / panel / maker",
+        "total_engagement": 19,
         "post_count": 2
       }
     ],
@@ -318,10 +345,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 9,
-          "likes": 812,
-          "engagement": 1241,
-          "avg_engagement": 137.9
+          "post_count": 10,
+          "likes": 816,
+          "engagement": 1246,
+          "avg_engagement": 124.6
         }
       },
       "peak_slot": "late_night"
