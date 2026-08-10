@@ -125,13 +125,22 @@ ACRONYM_TERMS = {'NAND', 'DRAM', 'HBM', 'EUV', 'SK', 'AI', 'TSMC', 'GPU', 'CPU',
 # amount of case/acronym handling helps (unlike NAND/DRAM's problem, this
 # is a meaning collision, not a case one) - "memory" tagged a gun-handling
 # video ("Muscle memory at its finest") and a 5G-conspiracy video ("Memory
-# impairment") as semiconductor-memory topics (found 2026-08-05), since
-# the word alone says nothing about which sense is meant. Require at
-# least one other real semiconductor-context word to also appear in the
-# same text before counting an AMBIGUOUS_TERMS match - "memory" next to
-# "chip"/"DRAM"/"capacity"/etc. is real; alone, it isn't.
-AMBIGUOUS_TERMS = {'memory'}
-MEMORY_CONTEXT_SIGNALS = {
+# impairment") as semiconductor-memory topics (found 2026-08-05); "spot"
+# tagged "spot anything you like?" the same way via the Rising Topic label
+# "gb / tlc / spot / nand" (found 2026-08-10) - Rising Topic labels come
+# from unsupervised TF-IDF clustering with no semantic guardrails, so any
+# ordinary word can surface as a "term" once it's frequent enough in a
+# trending cluster. Require at least one other real semiconductor-context
+# word to also appear in the same text before counting an AMBIGUOUS_TERMS
+# match - "memory"/"spot" next to "chip"/"DRAM"/"capacity"/etc. is real;
+# alone, it isn't. Pre-loaded with a few more foreseeable repeats of the
+# same pattern (common trading/market words that show up in memory-pricing
+# Rising Topics) rather than waiting to add them one false-positive at a
+# time - 'demand'/'supply'/'share'/'price'/'cut' are exactly the kind of
+# words a "DRAM prices surge on tight supply/demand" cluster would surface
+# as individual terms.
+AMBIGUOUS_TERMS = {'memory', 'spot', 'demand', 'supply', 'share', 'price', 'cut'}
+INDUSTRY_CONTEXT_SIGNALS = {
     'chip', 'chips', 'dram', 'nand', 'hbm', 'wafer', 'fab', 'foundry',
     'semiconductor', 'gb', 'tb', 'capacity', 'micron', 'samsung', 'hynix',
     'tsmc', 'gpu', 'cpu', 'silicon', 'euv',
@@ -191,7 +200,7 @@ def term_in_text(term, text):
         matched = re.search(r'\b' + re.escape(lower) + r'\b', text.lower()) is not None
         if matched and lower in AMBIGUOUS_TERMS:
             text_lower = text.lower()
-            return any(re.search(r'\b' + re.escape(sig) + r'\b', text_lower) for sig in MEMORY_CONTEXT_SIGNALS)
+            return any(re.search(r'\b' + re.escape(sig) + r'\b', text_lower) for sig in INDUSTRY_CONTEXT_SIGNALS)
         return matched
     return term.lower() in text.lower()
 
