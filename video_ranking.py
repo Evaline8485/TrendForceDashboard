@@ -29,15 +29,16 @@ OUT_FILE = os.path.join(BASE, 'analysis', 'video_ranking.json')
 RISING_TOPICS_FILE = os.path.join(BASE, 'analysis', 'fuzzy_trends_1d.json')
 
 # Profile-location cache built by TrendforceTwitterScraper's
-# enrich_video_locations.js (same cross-repo absolute-path pattern used
-# elsewhere - e.g. this repo reading fuzzy_trends_1d.json in the other
-# direction). Video Ranking's account pool is NOT limited to accounts we
-# track (see module docstring), so region can only ever be known for
-# whichever handles that script has already looked up - anything else
-# (or any handle whose X profile has no location set) comes through as
+# enrich_video_locations.js - derived relative to this file (sibling repo,
+# same convention as add_account.py) rather than a hardcoded absolute
+# path, so this doesn't need editing on every handoff to a new machine.
+# Video Ranking's account pool is NOT limited to accounts we track (see
+# module docstring), so region can only ever be known for whichever
+# handles that script has already looked up - anything else (or any
+# handle whose X profile has no location set) comes through as
 # region=None, shown/filtered as "Unknown" on the dashboard rather than
 # guessed at.
-ACCOUNT_LOCATIONS_FILE = '/Users/elainekao/TrendforceTwitterScraper/account_locations.json'
+ACCOUNT_LOCATIONS_FILE = os.path.join(BASE, '..', 'TrendforceTwitterScraper', 'account_locations.json')
 
 # Keyword match against the free-text X profile-location field (e.g.
 # "San Francisco, CA", "Tokyo, Japan", "London, UK") - deliberately just

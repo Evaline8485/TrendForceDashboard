@@ -49,9 +49,14 @@ from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
 CONFIG_PATH = BASE / 'accounts_config.json'
-FACEBOOK_SCRAPER_DIR = Path('/Users/elainekao/TrendforceFacebookScraper')
-TWITTER_SCRAPER_DIR = Path('/Users/elainekao/TrendforceTwitterScraper')
-LINKEDIN_SCRAPER_DIR = Path('/Users/elainekao/TrendforceLinkedinScraper')
+# Sibling repos, derived relative to this file rather than a hardcoded
+# absolute path - works regardless of machine/username/OS as long as the
+# 4 repos stay laid out as siblings under one parent directory (the
+# convention documented in ONBOARDING.md), so this doesn't need editing
+# on every handoff to a new machine.
+FACEBOOK_SCRAPER_DIR = BASE.parent / 'TrendforceFacebookScraper'
+TWITTER_SCRAPER_DIR = BASE.parent / 'TrendforceTwitterScraper'
+LINKEDIN_SCRAPER_DIR = BASE.parent / 'TrendforceLinkedinScraper'
 LINKEDIN_ACCOUNTS_JS = LINKEDIN_SCRAPER_DIR / 'scrape_accounts_linkedin.js'
 LINKEDIN_PROFILES_JS = LINKEDIN_SCRAPER_DIR / 'scrape_profiles_linkedin.js'
 # Mirrors cluster_topics.py's _DEFAULT_OWN - duplicated rather than imported

@@ -43,9 +43,13 @@ while ! mkdir "$LOCKDIR" 2>/dev/null; do
 done
 trap 'rmdir "$LOCKDIR" 2>/dev/null' EXIT
 
-TWITTER_SRC=/Users/elainekao/TrendforceTwitterScraper
-FACEBOOK_SRC=/Users/elainekao/TrendforceFacebookScraper
-LINKEDIN_SRC=/Users/elainekao/TrendforceLinkedinScraper
+# Derived relative to this script's own directory (we've already cd'd
+# there above) rather than a hardcoded absolute path, so this doesn't
+# need editing on every handoff to a new machine - see add_account.py's
+# matching comment for the same convention on the Python side.
+TWITTER_SRC="$(pwd)/../TrendforceTwitterScraper"
+FACEBOOK_SRC="$(pwd)/../TrendforceFacebookScraper"
+LINKEDIN_SRC="$(pwd)/../TrendforceLinkedinScraper"
 
 # Pulled from cluster_topics.PLATFORM_ACCOUNTS (own + competitors merged,
 # accounts_config.json included) rather than hardcoded here - a hardcoded

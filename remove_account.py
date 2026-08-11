@@ -32,8 +32,10 @@ from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
 CONFIG_PATH = BASE / 'accounts_config.json'
-TWITTER_SCRAPER_DIR = Path('/Users/elainekao/TrendforceTwitterScraper')
-LINKEDIN_ACCOUNTS_JS = Path('/Users/elainekao/TrendforceLinkedinScraper/scrape_accounts_linkedin.js')
+# Derived relative to this file rather than a hardcoded absolute path -
+# see add_account.py's matching comment.
+TWITTER_SCRAPER_DIR = BASE.parent / 'TrendforceTwitterScraper'
+LINKEDIN_ACCOUNTS_JS = BASE.parent / 'TrendforceLinkedinScraper' / 'scrape_accounts_linkedin.js'
 
 
 def normalize_handle(raw):
