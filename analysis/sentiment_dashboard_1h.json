@@ -10,16 +10,16 @@
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 8,
+      "total_posts": 11,
       "sentiment_counts": {
-        "positive": 2,
-        "neutral": 4,
+        "positive": 4,
+        "neutral": 5,
         "negative": 2
       },
       "sentiment_share": {
-        "positive": 0.25,
-        "neutral": 0.5,
-        "negative": 0.25
+        "positive": 0.364,
+        "neutral": 0.455,
+        "negative": 0.182
       },
       "top_terms": [
         "ngc",
@@ -37,16 +37,28 @@
     "temperature_bar": [
       {
         "topic_id": 0,
-        "label": "ngc / google / deepmind / ai",
-        "heat": 50.0,
-        "volume": 8,
-        "engagement": 42,
+        "label": "google / deepmind / ai / 打自己臉",
+        "heat": 90.0,
+        "volume": 9,
+        "engagement": 49,
+        "entities": [
+          "AI",
+          "南亞",
+          "伺服器",
+          "三星",
+          "朴昌敏"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "ngc / 美軍 / 紙本地圖 / 驗證新一代指管架構",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 8,
         "entities": [
           "美軍",
           "歐溫堡",
-          "項先進",
-          "AI",
-          "南亞"
+          "項先進"
         ]
       }
     ],
@@ -92,6 +104,14 @@
         "count": 2
       },
       {
+        "entity": "聯準會",
+        "count": 2
+      },
+      {
+        "entity": "財政部",
+        "count": 2
+      },
+      {
         "entity": "ai招募",
         "count": 1
       },
@@ -101,14 +121,6 @@
       },
       {
         "entity": "google",
-        "count": 1
-      },
-      {
-        "entity": "重回開放權重模型戰場 Meta 推出     ",
-        "count": 1
-      },
-      {
-        "entity": "Meta",
         "count": 1
       }
     ],
@@ -131,7 +143,7 @@
         "bucket_start": "2026-08-11T07:59:12.975316+00:00",
         "bucket_end": "2026-08-11T08:03:30.118173+00:00",
         "positive": 0,
-        "neutral": 1,
+        "neutral": 2,
         "negative": 0
       },
       {
@@ -158,7 +170,7 @@
       {
         "bucket_start": "2026-08-11T08:16:21.546744+00:00",
         "bucket_end": "2026-08-11T08:20:38.689601+00:00",
-        "positive": 1,
+        "positive": 2,
         "neutral": 0,
         "negative": 0
       },
@@ -193,7 +205,7 @@
       {
         "bucket_start": "2026-08-11T08:37:47.261029+00:00",
         "bucket_end": "2026-08-11T08:42:04.403886+00:00",
-        "positive": 0,
+        "positive": 1,
         "neutral": 1,
         "negative": 0
       },
@@ -214,33 +226,46 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "technews_tw",
+        "handle": "QQ_Timmy",
         "top_topic_id": 0,
-        "top_topic_label": "ngc / google / deepmind / ai",
+        "top_topic_label": "google / deepmind / ai / 打自己臉",
         "focus_share": 1.0,
         "post_count": 2
       },
       {
-        "handle": "QQ_Timmy",
+        "handle": "ctee.fans",
         "top_topic_id": 0,
-        "top_topic_label": "ngc / google / deepmind / ai",
+        "top_topic_label": "google / deepmind / ai / 打自己臉",
         "focus_share": 1.0,
-        "post_count": 2
+        "post_count": 3
       },
       {
         "handle": "technewsinside",
         "top_topic_id": 0,
-        "top_topic_label": "ngc / google / deepmind / ai",
-        "focus_share": 1.0,
+        "top_topic_label": "google / deepmind / ai / 打自己臉",
+        "focus_share": 0.75,
         "post_count": 4
+      },
+      {
+        "handle": "technews_tw",
+        "top_topic_id": 1,
+        "top_topic_label": "ngc / 美軍 / 紙本地圖 / 驗證新一代指管架構",
+        "focus_share": 0.5,
+        "post_count": 2
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 0,
-        "label": "ngc / google / deepmind / ai",
-        "total_engagement": 42,
-        "post_count": 8
+        "label": "google / deepmind / ai / 打自己臉",
+        "total_engagement": 49,
+        "post_count": 9
+      },
+      {
+        "topic_id": 1,
+        "label": "ngc / 美軍 / 紙本地圖 / 驗證新一代指管架構",
+        "total_engagement": 8,
+        "post_count": 2
       }
     ],
     "posting_timeslot_analysis": {
@@ -252,9 +277,9 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 8,
-          "likes": 41,
-          "engagement": 42,
+          "post_count": 11,
+          "likes": 56,
+          "engagement": 57,
           "avg_engagement": 5.2
         },
         "evening": {
