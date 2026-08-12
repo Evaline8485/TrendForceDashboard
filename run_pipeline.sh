@@ -41,7 +41,13 @@
 # part of any job here.
 
 set -u
-export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:$PATH"
+# /opt/homebrew/bin MUST come first - found 2026-08-12 handing off to an
+# Apple Silicon Mac: with it listed after /usr/bin (an earlier attempt),
+# `python3` still resolved to Apple's own /usr/bin/python3 stub instead of
+# Homebrew's real install (where sklearn etc. actually got pip-installed),
+# since PATH resolution stops at the FIRST match, not the "best" one - the
+# order here is the fix, not just whether the entry is present at all.
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:$PATH"
 cd "$(dirname "$0")"
 
 # Locking: scan/core/accounts/daily all regenerate the SAME docs/index.html

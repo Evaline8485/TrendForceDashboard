@@ -5,7 +5,8 @@
 # manual test run showed can take a while - a lock here prevents two
 # scheduled firings from overlapping and racing each other's git
 # commit/push, same mkdir-mutex pattern as sync_data.sh/run_pipeline.sh.
-export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:$PATH"
+# /opt/homebrew/bin must come FIRST - see run_pipeline.sh's matching comment.
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:$PATH"
 cd "$(dirname "$0")"
 
 LOG="$(dirname "$0")/auto_approve.log"
