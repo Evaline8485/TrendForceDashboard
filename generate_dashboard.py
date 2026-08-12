@@ -10,7 +10,6 @@ is missing, e.g. before the first pipeline run):
   analysis/sentiment_dashboard_<range>.json FR-03 widgets, one per range
   analysis/daily_summaries.json            FR-06 executive summaries
   analysis/account_status.json             FR-05 account status
-  analysis/reply_queue.json                FR-05 reply drafts
   analysis/video_ranking.json              X Video Ranking (replaces the old FR-04
                                             Manual Review Queue section)
 
@@ -525,38 +524,6 @@ def render_accounts(data):
     return accounts_panel + request_panel
 
 
-def render_reply_queue(data):
-    if not data:
-        return '<p class="empty">No FR-05 reply drafts yet.</p>'
-    records = sorted(data.values(), key=lambda r: r['reply_count'], reverse=True)
-
-    def comments_cell(r):
-        comments = r.get('comments') or []
-        if not comments:
-            # scrape_own_comments.js hasn't been run for this post yet (it's
-            # a separate, on-demand scrape, not part of the regular
-            # schedule) - reply_count is still real, just not broken down
-            # into actual comment text yet.
-            return '<span class="muted">not scraped</span>'
-        payload = json.dumps(comments, ensure_ascii=False)
-        return (f'<span class="reply-comments-row" tabindex="0" data-comments="{esc(payload)}">'
-                f'{len(comments)} comment{"s" if len(comments) != 1 else ""}</span>')
-
-    rows = ''.join(f"""
-      <tr>
-        <td><span class="badge status-{esc(r['status'])}">{esc(r['status'])}</span></td>
-        <td class="cell-primary">{esc(r['handle'])}</td>
-        <td class="num">{r['reply_count']}</td>
-        <td>{comments_cell(r)}</td>
-        <td>{esc(r['topic_label'])}</td>
-        <td>{esc(r['draft_reply'])}</td>
-        <td>{f'<a href="{esc(r["url"])}" target="_blank" rel="noopener noreferrer">Open post</a>' if r.get('url') else '—'}</td>
-      </tr>""" for r in records)
-    body = table(['Status', 'Account', '#Replies', 'Comments', 'Topic', 'Draft reply', 'Post'], rows,
-                 'No own-account posts currently need a response.')
-    return panel(body, 'Own-account posts needing a reply', 'Never touches competitor accounts')
-
-
 def main():
     os.makedirs(DOCS_DIR, exist_ok=True)
 
@@ -629,7 +596,6 @@ def main():
 
     daily_summaries = load('daily_summaries.json')
     account_status = load('account_status.json')
-    reply_queue = load('reply_queue.json')
     video_ranking = load('video_ranking.json') or {}
 
     now_tw = datetime.now(TAIWAN_TZ).strftime('%B %d, %Y %H:%M Taiwan Time')
@@ -807,14 +773,6 @@ def main():
   }}
   .kw-link-popover a:hover {{ text-decoration: underline; }}
   .kw-link-popover .empty {{ font-size: 12px; color: var(--muted); margin: 0; }}
-  .reply-comments-row {{ cursor: pointer; color: var(--blue); border-bottom: 1px dotted var(--blue); }}
-  .reply-comment-item {{
-    display: flex; flex-direction: column; gap: 2px; padding-bottom: 6px;
-    border-bottom: 1px solid var(--border-soft); font-size: 12px; line-height: 1.5;
-  }}
-  .reply-comment-item:last-child {{ border-bottom: none; padding-bottom: 0; }}
-  .reply-comment-item strong {{ color: var(--text); font-size: 11.5px; }}
-  .reply-comment-item span {{ color: var(--muted); }}
   .add-account-form {{ display: flex; flex-wrap: wrap; align-items: end; gap: 14px; }}
   .add-account-form label {{
     display: flex; flex-direction: column; gap: 6px; font-size: 11.5px;
@@ -960,7 +918,6 @@ def main():
   <button class="tab-btn" data-tab="competitor">Competitor Watch</button>
   <button class="tab-btn" data-tab="video-ranking">X Video Ranking</button>
   <button class="tab-btn" data-tab="accounts">Accounts</button>
-  <button class="tab-btn" data-tab="replies">Reply Queue</button>
   <button class="tab-btn" data-tab="summaries">Daily Summaries</button>
   <button class="tab-btn" data-tab="selfservice">Self-service Upload</button>
 </nav>
@@ -997,7 +954,6 @@ def main():
     <div id="video-ranking-content"></div>
   </section>
   <section id="accounts"><h2>FR-05 &middot; Account Status</h2>{render_accounts(account_status)}</section>
-  <section id="replies"><h2>FR-05 &middot; Reply Queue</h2>{render_reply_queue(reply_queue)}</section>
   <section id="summaries"><h2>FR-06 &middot; Daily Executive Summaries</h2>{render_summaries(daily_summaries)}</section>
   <section id="selfservice">
     <h2>FR-07 &middot; Self-service Data Analysis &amp; Export</h2>
@@ -1209,64 +1165,6 @@ def main():
   }});
   document.addEventListener('focusout', e => {{
     if (e.target.closest('.kw-link-row') && !e.relatedTarget?.closest('.kw-link-popover, .kw-link-row')) hideKwLinkPopover();
-  }});
-
-  // Reply Queue's actual-comment-text popover - same hover/focus pattern as
-  // the keyword search's link popover above, showing each comment's author
-  // and text instead of a bare URL list.
-  let replyCommentsPopover = null;
-  function showReplyCommentsPopover(row) {{
-    hideReplyCommentsPopover();
-    let comments = [];
-    try {{ comments = JSON.parse(row.dataset.comments || '[]'); }} catch (e) {{ comments = []; }}
-    const pop = document.createElement('div');
-    pop.className = 'kw-link-popover';
-    if (comments.length === 0) {{
-      const p = document.createElement('p');
-      p.className = 'empty';
-      p.textContent = 'No comments scraped for this post yet.';
-      pop.appendChild(p);
-    }} else {{
-      comments.forEach(c => {{
-        const div = document.createElement('div');
-        div.className = 'reply-comment-item';
-        const author = document.createElement('strong');
-        author.textContent = c.author || '(unknown)';
-        const text = document.createElement('span');
-        text.textContent = c.text || '';
-        div.appendChild(author);
-        div.appendChild(text);
-        pop.appendChild(div);
-      }});
-    }}
-    document.body.appendChild(pop);
-    const r = row.getBoundingClientRect();
-    const spaceRight = document.documentElement.clientWidth - r.right;
-    const openLeft = spaceRight < pop.offsetWidth + 20 && r.left > pop.offsetWidth + 20;
-    const left = window.scrollX + (openLeft ? r.left - pop.offsetWidth - 10 : r.right + 10);
-    let top = window.scrollY + r.top - 4;
-    const maxTop = window.scrollY + document.documentElement.clientHeight - pop.offsetHeight - 12;
-    if (top > maxTop) top = Math.max(window.scrollY + 12, maxTop);
-    pop.style.top = `${{top}}px`;
-    pop.style.left = `${{left}}px`;
-    replyCommentsPopover = pop;
-  }}
-  function hideReplyCommentsPopover() {{
-    if (replyCommentsPopover) {{ replyCommentsPopover.remove(); replyCommentsPopover = null; }}
-  }}
-  document.addEventListener('mouseover', e => {{
-    const row = e.target.closest('.reply-comments-row');
-    if (row) showReplyCommentsPopover(row);
-  }});
-  document.addEventListener('focusin', e => {{
-    const row = e.target.closest('.reply-comments-row');
-    if (row) showReplyCommentsPopover(row);
-  }});
-  document.addEventListener('mouseout', e => {{
-    if (e.target.closest('.reply-comments-row') && !e.relatedTarget?.closest('.kw-link-popover, .reply-comments-row')) hideReplyCommentsPopover();
-  }});
-  document.addEventListener('focusout', e => {{
-    if (e.target.closest('.reply-comments-row') && !e.relatedTarget?.closest('.kw-link-popover, .reply-comments-row')) hideReplyCommentsPopover();
   }});
 
   // FR-05: no backend on a static site to add an account and start
