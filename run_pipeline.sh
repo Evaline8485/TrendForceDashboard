@@ -41,7 +41,7 @@
 # part of any job here.
 
 set -u
-export PATH="/usr/local/bin:/usr/bin:/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:$PATH"
+export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:$PATH"
 cd "$(dirname "$0")"
 
 # Locking: scan/core/accounts/daily all regenerate the SAME docs/index.html
