@@ -660,14 +660,14 @@ def main():
 <link rel="icon" href="data:image/svg+xml,{FAVICON_SVG}">
 <style>
   :root {{
-    --bg: #0a0e14; --bg-grad: radial-gradient(ellipse 1200px 600px at 50% -10%, rgba(59,158,255,0.08), transparent);
-    --surface: #131a24; --surface-2: #1a2331; --border: #262f3d; --border-soft: #1d2530;
-    --text: #eef2f7; --muted: #8593a6; --muted-dim: #5c6b80;
-    --blue: #4da3ff; --blue-dim: rgba(77,163,255,0.12);
-    --gold: #f0b429; --green: #3fb968; --red: #f85149; --yellow: #d29922;
+    --bg: #f4f6f9; --bg-grad: radial-gradient(ellipse 1200px 600px at 50% -10%, rgba(47,125,225,0.05), transparent);
+    --surface: #ffffff; --surface-2: #eef1f5; --border: #dde3ea; --border-soft: #e8ecf1;
+    --text: #1a2331; --muted: #5c6b80; --muted-dim: #8a97a8;
+    --blue: #2f7de1; --blue-dim: rgba(47,125,225,0.09);
+    --gold: #a5720f; --green: #1f8a4c; --red: #d1373b; --yellow: #a3720a;
     --status-good: #0ca30c; --status-critical: #d03b3b;
     --radius: 10px; --radius-sm: 7px;
-    --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 8px 24px -8px rgba(0,0,0,0.5);
+    --shadow: 0 1px 2px rgba(15,23,42,0.06), 0 8px 24px -8px rgba(15,23,42,0.12);
   }}
   * {{ box-sizing: border-box; }}
   a {{ color: var(--blue); }}
@@ -691,7 +691,7 @@ def main():
   .muted {{ color: var(--muted); font-size: 13px; }}
   nav {{
     display: flex; gap: 2px; padding: 0 28px; border-bottom: 1px solid var(--border);
-    overflow-x: auto; position: sticky; top: 0; background: rgba(10,14,20,0.92);
+    overflow-x: auto; position: sticky; top: 0; background: rgba(255,255,255,0.92);
     backdrop-filter: blur(10px); z-index: 10;
   }}
   nav button {{
