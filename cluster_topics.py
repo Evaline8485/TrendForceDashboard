@@ -140,7 +140,7 @@ COMPETITOR_ACCOUNTS = PLATFORM_ACCOUNTS['X']['competitors']
 # K-Means has no obligation to reproduce the same partition after any
 # vocabulary change, so some reshuffling here is inherent, not fully
 # eliminable.
-N_CLUSTERS = 20
+N_CLUSTERS = 22
 MIN_DOCS = N_CLUSTERS * 3  # need enough posts for stable clusters
 
 URL_RE = re.compile(r'https?://\S+')
@@ -261,6 +261,22 @@ EN_NOISE_WORDS = {
     # topic descriptor - "trendforce / dram / nand / hbm" describes DRAM/
     # NAND/HBM coverage, not "the topic of TrendForce".
     'trendforce',
+    # Domain-wide glue terms (2026-08-12): this whole feed IS
+    # semiconductor/AI/chip news, so these words appear in nearly every
+    # post regardless of actual subject - instead of differentiating
+    # topics they were dominating cluster centroids and pulling
+    # unrelated companies (nvidia, openai, google, tsmc, samsung, ...)
+    # into one ~14k-post catch-all cluster labeled "ai / memory / tsmc /
+    # chip / google / samsung / openai". Removing them let K-Means
+    # separate by what actually distinguishes posts - the specific
+    # company/product (nvidia+jensen+rubin, openai+anthropic+chatgpt,
+    # google+deepmind+gemini, sk+hynix, ...) - while genuinely related
+    # terms (memory/dram/hbm/nand) still cluster together on their own
+    # merit, unaffected. Verified 2026-08-12 by comparing cluster
+    # top-terms before/after on the same data (see N_CLUSTERS's own
+    # comment above for why any vocabulary change here needs this kind
+    # of before/after check, not just "does it still run").
+    'ai', 'chip', 'chips', 'semiconductor', 'semiconductors', 'supply', 'chain', 'gpu', 'gpus',
 }
 
 
