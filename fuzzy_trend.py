@@ -48,7 +48,8 @@ import os
 from collections import defaultdict
 from datetime import timedelta, timezone
 
-from cluster_topics import N_CLUSTERS, load_posts, label_cluster, cluster_posts
+from cluster_topics import (load_posts, label_cluster, cluster_posts,
+                             load_topic_taxonomy, build_topic_matchers, classify_post_topics)
 from time_ranges import RANGE_HOURS, RANGE_ORDER, MIN_WINDOW_POSTS, parse_ts, format_window, window_dict
 
 BASE = os.path.dirname(__file__)
@@ -186,9 +187,11 @@ def kol_rationale(growth, accel, spread, window_label):
     return f"posts {'+' if growth >= 0 else ''}{growth:.0%}, engagement {'+' if accel >= 0 else ''}{accel:.0%} vs prior {window_label}"
 
 
-def compute_platform_trends(platform_posts, topic_labels, now, hours, full=True):
+def compute_platform_trends(platform_posts, topic_names, now, hours, full=True):
     """Run the FR-02-01..04 expansion chain for one platform's posts, which
-    already carry a 'cluster_id' assigned from the cross-platform shared tree.
+    already carry 'topic_codes' - the FR-01 taxonomy's multi-label match
+    per post (see main()) - so a post counts toward every topic it hit,
+    same as FR-01's own gap counting.
 
     full=False stops after FR-02-01 (the "scan" tier - see module docstring):
     just the top rising topics, no KOL ranking or sub-topic drill-down."""
@@ -198,13 +201,14 @@ def compute_platform_trends(platform_posts, topic_labels, now, hours, full=True)
 
     posts_by_topic = defaultdict(list)
     for p in platform_posts:
-        posts_by_topic[p['cluster_id']].append(p)
+        for code in p['topic_codes']:
+            posts_by_topic[code].append(p)
 
     # FR-02-01: top-10 rising topics for this platform.
     topic_ranking = rank_entities(posts_by_topic, now, hours, topic_rat)
     for t in topic_ranking:
         t['topic_id'] = t.pop('key')
-        t['label'] = topic_labels[t['topic_id']]
+        t['label'] = topic_names[t['topic_id']]
     top_topics = topic_ranking[:TOP_N_TOPICS]
 
     if not full:
@@ -278,22 +282,24 @@ def main(now=None, mode='full'):
     for p in posts:
         p['ts'] = parse_ts(p['timestamp'])
 
-    if len(posts) < N_CLUSTERS * 3:
-        print(f"Not enough posts ({len(posts)}) to run fuzzy trend prediction, skipping.")
+    if not posts:
+        print("No posts found, skipping fuzzy trend prediction.")
         return
 
     if now is None:
         timestamps = [p['ts'] for p in posts if p['ts']]
         now = max(timestamps) if timestamps else datetime.now(timezone.utc)
 
-    # Shared topic tree across all platforms, per FR-01.
-    vectorizer, X, km, labels = cluster_posts(posts, N_CLUSTERS)
-    for p, label in zip(posts, labels):
-        p['cluster_id'] = int(label)
-
-    topic_labels = {}
-    for cid in set(labels):
-        topic_labels[int(cid)] = ' / '.join(label_cluster(vectorizer, km.cluster_centers_[cid])) or f'cluster-{cid}'
+    # Shared FR-01 taxonomy across all platforms - multi-label, same as
+    # cluster_topics.py's own top-level topics (see that file's taxonomy
+    # section for why this replaced K-Means here too, 2026-08-13). Each
+    # post's topic_codes can be empty, one, or several; posts_by_topic in
+    # compute_platform_trends fans a post out to every code it matched.
+    taxonomy = load_topic_taxonomy()
+    matchers = build_topic_matchers(taxonomy)
+    topic_names = {t['code']: t['name'] for t in taxonomy}
+    for p in posts:
+        p['topic_codes'] = classify_post_topics(p.get('raw_text') or p['text'], matchers)
 
     platforms = sorted({p['platform'] for p in posts})
     ranges = ['4h'] if mode == 'scan' else RANGE_ORDER
@@ -306,7 +312,7 @@ def main(now=None, mode='full'):
                                and p['ts'] and p['ts'] >= now - timedelta(hours=hours * 2)]
             if len(platform_posts) < MIN_WINDOW_POSTS:
                 continue
-            result_topics = compute_platform_trends(platform_posts, topic_labels, now, hours, full=(mode == 'full'))
+            result_topics = compute_platform_trends(platform_posts, topic_names, now, hours, full=(mode == 'full'))
             if result_topics:
                 platforms_out[platform] = {'top_rising_topics': result_topics}
 
