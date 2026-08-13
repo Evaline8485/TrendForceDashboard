@@ -164,6 +164,15 @@ CHINESE_NOISE_SUBSTRINGS = [
     '營收', '獲利', '毛利率', '目標價', '股價', '創新高', '創下', '新高', '新低',
     '百分點', '歷史新高', '央行', '因此', '經濟日報', '導讀', 'reurl',
     '年的', '年至', '年間', '年以來', '過去',
+    # UI link/button text (Facebook "read more", generic "view details"),
+    # not article content - the scraper picks it up as if it were part of
+    # the post body, and its low real-world frequency (查看更多=2.57 zipf,
+    # 了解詳情=3.14, 看詳情=3.16, 顯示更多=3.21, 展開全文=3.15) means
+    # is_common_chinese_word()'s zipf floor never catches it either - found
+    # 2026-08-13 polluting rising-topic/sentiment labels ("查看更多 / mlcc /
+    # amd / intel") with a phrase that has nothing to do with the actual
+    # topic.
+    '查看更多', '了解詳情', '看詳情', '顯示更多', '展開全文',
 ]
 CHINESE_NOISE_RE = re.compile('|'.join(re.escape(w) for w in CHINESE_NOISE_SUBSTRINGS))
 # Pure currency/magnitude tokens (億元, 兆日圓, 萬美元, ...) carry no topic
