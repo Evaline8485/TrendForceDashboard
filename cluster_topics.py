@@ -66,6 +66,7 @@ FACEBOOK_CSV_DIR = os.path.join(CSV_DIR, 'facebook')
 LINKEDIN_CSV_DIR = os.path.join(CSV_DIR, 'linkedin')
 OUT_FILE = os.path.join(BASE, 'analysis', 'topic_clusters.json')
 LEGACY_RANGE = '1q'  # analysis/topic_clusters.json mirrors this range
+TAXONOMY_FILE = os.path.join(BASE, 'topic_taxonomy.json')
 
 
 def range_out_file(range_key):
@@ -141,7 +142,6 @@ COMPETITOR_ACCOUNTS = PLATFORM_ACCOUNTS['X']['competitors']
 # vocabulary change, so some reshuffling here is inherent, not fully
 # eliminable.
 N_CLUSTERS = 22
-MIN_DOCS = N_CLUSTERS * 3  # need enough posts for stable clusters
 
 URL_RE = re.compile(r'https?://\S+')
 NON_WORD_RE = re.compile(r'[^a-zA-Z一-鿿\s#]')
@@ -469,34 +469,97 @@ def cluster_posts(posts, n_clusters=N_CLUSTERS, min_docs_per_cluster=5):
     return vectorizer, X, km, labels
 
 
+# --- FR-01 topic taxonomy (2026-08-13) ---
+# FR-01 Topic Gaps used to run K-Means over raw TF-IDF vectors - the
+# cluster boundaries (and therefore the labels/gaps) shifted every time a
+# noise word was added or removed, needing a fresh N_CLUSTERS bump and a
+# before/after gap-count check each time (see N_CLUSTERS's own history
+# comment above). A hand-curated keyword taxonomy
+# (topic_taxonomy.json, from AI關鍵字材料包_Topic分類.xlsx) replaces that
+# with fixed, human-authored topics - stable across pipeline runs, and
+# multi-label per the taxonomy's own recommendation ("允許一篇新聞多重標籤")
+# since a post like "NVIDIA orders CoWoS from TSMC" is genuinely about
+# both B (GPU) and F (foundry), not one or the other.
+#
+# label_cluster/cluster_posts/N_CLUSTERS above are UNCHANGED and still
+# used as-is by fuzzy_trend.py (FR-02), nlp_sentiment.py (FR-03),
+# account_comment_management.py, and manual_review.py - none of those
+# were asked to change, so their own K-Means-based topic trees keep
+# working exactly as before. Only this file's own FR-01 output (main(),
+# below) switches to the taxonomy.
+def load_topic_taxonomy():
+    with open(TAXONOMY_FILE, encoding='utf-8') as f:
+        return json.load(f)
+
+
+def build_topic_matchers(taxonomy):
+    """One compiled regex per topic (alternation of all its keywords).
+
+    Keywords containing CJK characters are matched as plain substrings
+    (Chinese has no whitespace word boundaries). Pure-ASCII keywords get a
+    (?<![A-Za-z0-9])...(?![A-Za-z0-9]) boundary so 'sell' doesn't match
+    inside 'sellers', etc. Short ASCII keywords (<=4 chars, e.g. 'GaN',
+    'SiC', 'Arm', 'Fed') are matched case-sensitively - case-insensitive
+    would turn these into false-positive machines ('again' contains
+    'gan', 'basic' contains 'sic', 'arm'/'farm' are ordinary English
+    words). Longer ASCII keywords ('NVIDIA', 'Broadcom', ...) are safe
+    case-insensitive since they're not real dictionary words."""
+    has_cjk = re.compile(r'[一-鿿]')
+    matchers = {}
+    for topic in taxonomy:
+        parts = []
+        for kw in topic['keywords']:
+            if has_cjk.search(kw):
+                parts.append(re.escape(kw))
+            elif len(kw.replace(' ', '')) <= 4:
+                parts.append(f'(?-i:(?<![A-Za-z0-9]){re.escape(kw)}(?![A-Za-z0-9]))')
+            else:
+                parts.append(f'(?<![A-Za-z0-9]){re.escape(kw)}(?![A-Za-z0-9])')
+        matchers[topic['code']] = re.compile('|'.join(parts), re.IGNORECASE)
+    return matchers
+
+
+def classify_post_topics(text, matchers):
+    """Multi-label: returns every topic code whose taxonomy keywords hit
+    this post's text. A post can (and often does) match 0, 1, or several
+    topics - unmatched posts just don't show up in any topic's stats."""
+    return [code for code, pattern in matchers.items() if pattern.search(text or '')]
+
+
 MAX_SAMPLE_POSTS_PER_GAP = 8
 SAMPLE_RAW_TEXT_MAXLEN = 300
 
 
-def summarize_clusters(posts, labels, topic_labels):
-    """Build clusters/gaps for whatever subset of (posts, labels) is passed
-    in - the caller decides the time window, if any."""
+def summarize_topics(posts, post_topics, topic_names):
+    """Build clusters/gaps for whatever subset of (posts, post_topics) is
+    passed in - the caller decides the time window, if any.
+
+    post_topics[i] is the list of topic codes post i matched (multi-label,
+    see classify_post_topics) - a post with 2 matches counts toward both
+    topics' size/accounts/gaps, by design (see the taxonomy note above
+    build_topic_matchers)."""
     clusters = []
-    idxs_by_cluster = {}
-    for cid in sorted(set(labels)):
-        idxs = [i for i, l in enumerate(labels) if l == cid]
-        if not idxs:
-            continue
-        idxs_by_cluster[cid] = idxs
+    idxs_by_topic = defaultdict(list)
+    for i, codes in enumerate(post_topics):
+        for code in codes:
+            idxs_by_topic[code].append(i)
+
+    for code in sorted(idxs_by_topic):
+        idxs = idxs_by_topic[code]
         by_account = defaultdict(int)
         engagement_by_account = defaultdict(int)
         for i in idxs:
             by_account[posts[i]['handle']] += 1
             engagement_by_account[posts[i]['handle']] += posts[i]['interaction']
         clusters.append({
-            'id': int(cid),
-            'label': topic_labels[cid],
+            'id': code,
+            'label': topic_names[code],
             'size': len(idxs),
             'accounts': dict(by_account),
             'engagement_by_account': dict(engagement_by_account),
         })
 
-    # Topic gaps: clusters where competitors post a lot but our own accounts post little/none.
+    # Topic gaps: topics where competitors post a lot but our own accounts post little/none.
     gaps = []
     for c in clusters:
         own_count = sum(v for k, v in c['accounts'].items() if k in OWN_HANDLES)
@@ -509,7 +572,7 @@ def summarize_clusters(posts, labels, topic_labels):
             # leave near-duplicate rows across overlapping scraper runs.
             # raw_text (uncleaned, unlike 'text' which is TF-IDF fodder -
             # stripped of punctuation) is what's actually displayable.
-            member_posts = [posts[i] for i in idxs_by_cluster[c['id']] if posts[i]['handle'] not in OWN_HANDLES]
+            member_posts = [posts[i] for i in idxs_by_topic[c['id']] if posts[i]['handle'] not in OWN_HANDLES]
             member_posts.sort(key=lambda p: p['interaction'], reverse=True)
             seen_urls = set()
             sample_posts = []
@@ -554,16 +617,17 @@ def write_json(path, result):
 
 def main():
     posts = load_posts()
-    if len(posts) < MIN_DOCS:
-        print(f"Not enough posts ({len(posts)}) for {N_CLUSTERS} clusters, skipping.")
+    if not posts:
+        print("No posts found, skipping.")
         return
 
-    # Fit the tree once on everything - short windows rarely have enough
-    # posts to cluster on their own, so every range reuses this same tree
-    # and just filters which posts count.
-    vectorizer, X, km, labels = cluster_posts(posts, N_CLUSTERS)
-    topic_labels = {int(cid): (' / '.join(label_cluster(vectorizer, km.cluster_centers_[cid])) or f'cluster-{cid}')
-                    for cid in set(labels)}
+    taxonomy = load_topic_taxonomy()
+    matchers = build_topic_matchers(taxonomy)
+    topic_names = {t['code']: t['name'] for t in taxonomy}
+    # Matched once against every post up front (fixed keyword rule, no
+    # fitting needed) - every range below just filters which posts count,
+    # same "compute once, slice by window" shape the old K-Means tree used.
+    post_topics = [classify_post_topics(p.get('raw_text') or p['text'], matchers) for p in posts]
 
     timestamps = [parse_ts(p['timestamp']) for p in posts]
     now = max((t for t in timestamps if t), default=None)
@@ -579,13 +643,13 @@ def main():
             continue
 
         window_posts = [posts[i] for i in idxs]
-        window_labels = [labels[i] for i in idxs]
-        result = summarize_clusters(window_posts, window_labels, topic_labels)
+        window_post_topics = [post_topics[i] for i in idxs]
+        result = summarize_topics(window_posts, window_post_topics, topic_names)
         result['window'] = window_dict(start, end)
         write_json(range_out_file(range_key), result)
         if range_key == LEGACY_RANGE:
             write_json(OUT_FILE, result)
-        print(f"[{range_key}] Wrote {len(result['clusters'])} clusters, {len(result['gaps'])} topic gaps "
+        print(f"[{range_key}] Wrote {len(result['clusters'])} topics, {len(result['gaps'])} topic gaps "
               f"({len(idxs)} posts) to {range_out_file(range_key)}")
         written += 1
 
