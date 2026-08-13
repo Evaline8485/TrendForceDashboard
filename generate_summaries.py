@@ -8,11 +8,14 @@ the underlying numbers rather than free-form generated text, so it stays
 factual and reproducible; FR-04's manual review layer spot-checks the
 result (see manual_review.py's 'summary' record type).
 
-Length constraint: 80-120 characters (counted as Python string length,
+Length constraint: 100-170 characters (counted as Python string length,
 i.e. one count per character including any English terms embedded in the
-zh-TW text). build_summary() assembles short factual clauses one at a time
-and stops before the next clause would exceed the max, then pads with a
-final factual monitoring note if still under the minimum.
+zh-TW text; raised from the original 80-120 on 2026-08-13 to make room
+for a concrete observation+suggestion clause per item - naming a specific
+account/topic to act on, not just a generic "建議持續追蹤"). build_summary()
+assembles short factual clauses one at a time and stops before the next
+clause would exceed the max, then pads with a final factual monitoring
+note if still under the minimum.
 
 Coverage (one summary per item, per SRS 4.6):
   - topic_gap        top N FR-01 gaps by competitor engagement
@@ -33,7 +36,7 @@ TOPIC_CLUSTERS_FILE = os.path.join(BASE, 'analysis', 'topic_clusters.json')
 FUZZY_TRENDS_FILE = os.path.join(BASE, 'analysis', 'fuzzy_trends.json')
 OUT_FILE = os.path.join(BASE, 'analysis', 'daily_summaries.json')
 
-MIN_LEN, MAX_LEN = 80, 120
+MIN_LEN, MAX_LEN = 100, 170
 TOP_N_GAPS = 5
 TOP_N_RISING = 5
 TOP_N_ENGAGEMENT = 3
@@ -77,12 +80,23 @@ def summarize_topic_gaps():
     gaps = sorted(data.get('gaps', []), key=lambda g: g['competitor_engagement'], reverse=True)[:TOP_N_GAPS]
     for i, g in enumerate(gaps):
         competitors = '、'.join(g['competitors_covering'][:3])
+        # sample_posts is already sorted by interaction desc and filtered
+        # to competitor-authored posts (see cluster_topics.py), so [0] is
+        # literally the single highest-engagement competitor post in this
+        # gap - naming its account/engagement gives a concrete benchmark
+        # ("go look at what THIS account did") instead of a vague "建議
+        # 優先規劃選題切入".
+        leading = g['sample_posts'][0] if g.get('sample_posts') else None
         clauses = [
             f"「{g['label']}」議題出現內容缺口",
             f"對手{competitors}等已發布{fmt_int(g['competitor_count'])}篇, 互動量達{fmt_int(g['competitor_engagement'])}",
             f"我方僅{fmt_int(g['own_count'])}篇覆蓋",
-            "建議優先規劃選題切入, 縮小報導落差",
         ]
+        if leading:
+            clauses.append(f"其中{leading['handle']}單篇互動即達{fmt_int(leading['interaction'])}, 可作為切角參考")
+            clauses.append(f"建議優先參考{leading['handle']}報導方向, 規劃「{g['label']}」原創內容搶佔話題")
+        else:
+            clauses.append("建議優先規劃選題切入, 縮小報導落差")
         text = build_summary(clauses, closing_idx=i)
         summaries.append({
             'category': 'topic_gap',
@@ -107,13 +121,20 @@ def summarize_rising_topics():
 
     summaries = []
     for i, (platform, t) in enumerate(all_topics[:TOP_N_RISING]):
-        top_kol = t['rising_kols'][0]['handle'] if t['rising_kols'] else None
+        top_kol = t['rising_kols'][0] if t['rising_kols'] else None
+        # Built from t's own numeric fields rather than reusing
+        # t['rationale'] (topic_rationale() in fuzzy_trend.py, English -
+        # "volume +12900% vs prior 7d, engagement rate +0%, ...") which
+        # read as an odd English fragment dropped into a zh-TW summary.
+        topic_growth_pct = round(t['volume_growth_rate'] * 100)
         clauses = [
             f"{platform}平台「{t['label']}」議題升溫, 熱度評分{t['rising_score']}",
-            f"近7日{t['rationale']}",
+            f"近7日發文量成長{topic_growth_pct}%, 共{t['active_accounts']}個帳號參與討論",
         ]
         if top_kol:
-            clauses.append(f"領先帳號為{top_kol}, 建議關注後續擴散")
+            growth_pct = round(top_kol['volume_growth_rate'] * 100)
+            clauses.append(f"領先帳號為{top_kol['handle']}, 發文量成長{growth_pct}%")
+            clauses.append(f"建議評估跟進{top_kol['handle']}報導角度, 搶佔擴散初期聲量")
         else:
             clauses.append("建議關注後續擴散")
         text = build_summary(clauses, closing_idx=i)
@@ -140,6 +161,7 @@ def summarize_sentiment(daily_dashboard):
 
     clauses = [f"過去24小時共監測{fmt_int(total)}篇貼文, 正面{pos_pct}%、中立{neu_pct}%、負面{neg_pct}%"]
 
+    direction = None
     if len(curve) >= 2:
         prev, last = curve[-2], curve[-1]
         prev_total = prev['positive'] + prev['neutral'] + prev['negative']
@@ -152,6 +174,15 @@ def summarize_sentiment(daily_dashboard):
 
     if heat_top:
         clauses.append(f"最高熱度議題為「{heat_top['label']}」, 熱度評分{heat_top['heat']}")
+        # Concrete, topic-named suggestion instead of no suggestion clause
+        # at all (the pre-2026-08-13 version stopped at facts) - direction
+        # of the recent shift decides whether the ask is "defend" (sinking
+        # sentiment) or "capitalize" (rising sentiment) on this specific
+        # heat-leading topic.
+        if direction == '下降':
+            clauses.append(f"建議就「{heat_top['label']}」規劃正面視角報導, 緩解負面聲量擴散")
+        else:
+            clauses.append(f"建議延伸「{heat_top['label']}」正面討論, 強化品牌聲量")
 
     text = build_summary(clauses, closing_idx=0)
     return [{
@@ -169,8 +200,13 @@ def summarize_engagement(daily_dashboard):
         clauses = [
             f"互動最高議題為「{r['label']}」",
             f"累計互動{fmt_int(r['total_engagement'])}, 發文{r['post_count']}篇",
-            "建議延伸相關報導, 承接既有討論熱度",
         ]
+        if r.get('top_account'):
+            share_pct = round(r['top_account_engagement'] / r['total_engagement'] * 100) if r['total_engagement'] else 0
+            clauses.append(f"{r['top_account']}貢獻其中{share_pct}%互動, 為該議題主要聲量來源")
+            clauses.append(f"建議參考{r['top_account']}內容方向, 延伸相關報導承接討論熱度")
+        else:
+            clauses.append("建議延伸相關報導, 承接既有討論熱度")
         text = build_summary(clauses, closing_idx=i)
         summaries.append({
             'category': 'engagement',

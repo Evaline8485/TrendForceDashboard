@@ -410,11 +410,19 @@ def widget_coverage_focus_ranking(posts_by_topic, topic_labels):
 
 
 def widget_top_engagement_ranking(posts_by_topic, topic_labels):
+    """top_account/top_account_engagement (2026-08-13) let FR-06's daily
+    summaries name a specific account to benchmark against, instead of a
+    generic "延伸相關報導" with no concrete who/what."""
     ranking = []
     for cid, ps in posts_by_topic.items():
         total_engagement = sum(p['interaction'] for p in ps)
+        by_account = defaultdict(int)
+        for p in ps:
+            by_account[p['handle']] += p['interaction']
+        top_account, top_account_engagement = max(by_account.items(), key=lambda kv: kv[1])
         ranking.append({'topic_id': cid, 'label': topic_labels[cid],
-                        'total_engagement': total_engagement, 'post_count': len(ps)})
+                        'total_engagement': total_engagement, 'post_count': len(ps),
+                        'top_account': top_account, 'top_account_engagement': top_account_engagement})
     ranking.sort(key=lambda r: r['total_engagement'], reverse=True)
     return ranking
 
