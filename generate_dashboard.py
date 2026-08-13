@@ -632,7 +632,7 @@ def main():
     --blue: #2f7de1; --blue-dim: rgba(47,125,225,0.09);
     --gold: #a5720f; --green: #1f8a4c; --red: #d1373b; --yellow: #a3720a;
     --status-good: #0ca30c; --status-critical: #d03b3b;
-    --radius: 10px; --radius-sm: 7px;
+    --radius: 0px; --radius-sm: 0px;
     --shadow: 0 1px 2px rgba(15,23,42,0.06), 0 8px 24px -8px rgba(15,23,42,0.12);
   }}
   * {{ box-sizing: border-box; }}
@@ -670,17 +670,17 @@ def main():
   main {{ padding: 28px 32px 64px; max-width: 1180px; margin: 0 auto; }}
   .range-bar {{
     display: flex; align-items: center; gap: 12px; margin-bottom: 24px; flex-wrap: wrap;
-    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 0;
     padding: 10px 14px;
   }}
   .range-bar label {{ color: var(--muted); font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }}
   .range-bar select {{
     background: var(--surface-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 6px; padding: 6px 10px; font-size: 13px; cursor: pointer;
+    border-radius: 0; padding: 6px 10px; font-size: 13px; cursor: pointer;
   }}
   .keyword-search-bar input {{
     width: 100%; max-width: 460px; background: var(--surface-2); color: var(--text);
-    border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; font-size: 13.5px;
+    border: 1px solid var(--border); border-radius: 0; padding: 10px 14px; font-size: 13.5px;
     transition: border-color 0.15s ease;
   }}
   .keyword-search-bar input::placeholder {{ color: var(--muted-dim); }}
@@ -698,11 +698,11 @@ def main():
   .upload-row label {{ color: var(--muted); font-size: 12.5px; }}
   .upload-row input[type="file"] {{
     color: var(--text); font-size: 13px; background: var(--surface-2); border: 1px solid var(--border);
-    border-radius: 7px; padding: 8px 10px;
+    border-radius: 0; padding: 8px 10px;
   }}
   .upload-row select {{
     background: var(--surface-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 6px; padding: 6px 10px; font-size: 13px;
+    border-radius: 0; padding: 6px 10px; font-size: 13px;
   }}
   .download-row {{ display: flex; gap: 10px; margin-top: 14px; }}
   .upload-posts-toolbar {{ display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px; margin: 16px 0 10px; }}
@@ -711,7 +711,7 @@ def main():
     text-transform: uppercase; letter-spacing: 0.04em;
   }}
   .upload-posts-toolbar select, .upload-posts-toolbar input[type="text"] {{
-    background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 0;
     color: var(--text); padding: 7px 10px; font-size: 13px;
   }}
   .upload-posts-toolbar input[type="text"]:focus, .upload-posts-toolbar select:focus {{
@@ -721,14 +721,14 @@ def main():
   .upload-search-label input {{ flex: 1; min-width: 180px; }}
   .pager {{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }}
   .page-btn {{
-    background: var(--surface-2); border: 1px solid var(--border); border-radius: 6px;
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 0;
     color: var(--text); font-size: 12.5px; padding: 5px 11px; cursor: pointer;
     font-variant-numeric: tabular-nums; transition: background 0.1s ease, border-color 0.1s ease;
   }}
   .page-btn:hover {{ border-color: var(--blue); }}
   .page-btn.active {{ background: var(--blue); border-color: var(--blue); color: var(--surface); font-weight: 600; }}
   .btn {{
-    background: var(--blue-dim); color: var(--blue); border: 1px solid transparent; border-radius: 7px;
+    background: var(--blue-dim); color: var(--blue); border: 1px solid transparent; border-radius: 0;
     padding: 8px 14px; font-size: 13px; font-weight: 600; cursor: pointer;
   }}
   .btn:hover {{ filter: brightness(1.15); }}
@@ -739,7 +739,7 @@ def main():
   h3 {{ font-size: 13.5px; font-weight: 600; color: var(--text); margin: 22px 0 12px; }}
   h3:first-child {{ margin-top: 0; }}
   .panel {{
-    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 0;
     padding: 18px 20px; margin-bottom: 18px; box-shadow: var(--shadow);
   }}
   .panel-head {{ display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }}
@@ -764,7 +764,7 @@ def main():
   tr.kw-link-row:hover, tr.kw-link-row:focus {{ background: var(--blue-dim); outline: none; }}
   .kw-link-popover {{
     position: absolute; z-index: 30; background: var(--surface-2); border: 1px solid var(--border);
-    border-radius: 8px; padding: 10px 14px; box-shadow: var(--shadow); max-width: 420px;
+    border-radius: 0; padding: 10px 14px; box-shadow: var(--shadow); max-width: 420px;
     max-height: 260px; overflow-y: auto; display: flex; flex-direction: column; gap: 6px;
   }}
   .kw-link-popover a {{
@@ -779,7 +779,7 @@ def main():
     color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em;
   }}
   .add-account-form select, .add-account-form input {{
-    background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 0;
     color: var(--text); padding: 9px 12px; font-size: 13px; min-width: 220px;
   }}
   .add-account-form input:focus, .add-account-form select:focus {{
@@ -787,7 +787,7 @@ def main():
   }}
   .add-account-hint {{ margin-top: 10px; font-size: 12px; }}
   .remove-account-btn {{
-    background: transparent; border: 1px solid var(--border); border-radius: 6px;
+    background: transparent; border: 1px solid var(--border); border-radius: 0;
     color: var(--red); font-size: 11.5px; padding: 5px 10px; cursor: pointer;
     transition: background 0.1s ease, border-color 0.1s ease;
   }}
@@ -801,7 +801,7 @@ def main():
   .col-2 > .panel {{ margin-bottom: 0; }}
   .card-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; }}
   .rising-card {{
-    background: var(--surface-2); border: 1px solid var(--border-soft); border-radius: var(--radius-sm);
+    background: var(--surface-2); border: 1px solid var(--border-soft); border-radius: 0;
     padding: 12px 14px; transition: border-color 0.15s ease;
   }}
   .rising-card:hover {{ border-color: var(--border); }}
@@ -809,12 +809,12 @@ def main():
   .rising-card-head strong {{ font-size: 13.5px; line-height: 1.35; }}
   .kols {{ margin-top: 10px; display: flex; flex-wrap: wrap; gap: 5px; }}
   .chip {{
-    background: var(--surface); border: 1px solid var(--border); border-radius: 999px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 0;
     padding: 3px 9px; font-size: 11px; color: var(--muted);
   }}
   .chip b {{ color: var(--text); font-weight: 600; }}
   .chip-row {{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }}
-  .badge {{ display: inline-block; padding: 3px 9px; border-radius: 999px; font-size: 10.5px; font-weight: 700; letter-spacing: 0.02em; }}
+  .badge {{ display: inline-block; padding: 3px 9px; border-radius: 0; font-size: 10.5px; font-weight: 700; letter-spacing: 0.02em; }}
   .badge.score {{ background: rgba(240,180,41,0.16); color: var(--gold); }}
   .badge.cat {{ background: var(--blue-dim); color: var(--blue); text-transform: capitalize; }}
   .badge.own {{ background: rgba(63,185,104,0.16); color: var(--green); }}
@@ -823,7 +823,7 @@ def main():
   .badge.status-inactive, .badge.status-dismissed {{ background: rgba(248,81,73,0.16); color: var(--red); }}
   .gap-card-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }}
   .gap-card {{
-    background: var(--surface-2); border: 1px solid var(--border-soft); border-radius: var(--radius-sm);
+    background: var(--surface-2); border: 1px solid var(--border-soft); border-radius: 0;
     padding: 14px 16px;
   }}
   .gap-card:hover {{ border-color: var(--border); }}
@@ -843,7 +843,7 @@ def main():
   .heat-cold {{ color: var(--muted); }}
   .stat-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px; }}
   .stat {{
-    background: var(--surface-2); border: 1px solid var(--border-soft); border-radius: var(--radius-sm);
+    background: var(--surface-2); border: 1px solid var(--border-soft); border-radius: 0;
     padding: 14px 12px; text-align: center;
   }}
   .stat-num {{ font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }}
@@ -851,13 +851,13 @@ def main():
   .stat.pos .stat-num {{ color: var(--green); }} .stat.neg .stat-num {{ color: var(--red); }} .stat.neu .stat-num {{ color: var(--muted); }}
   .summary-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 12px; }}
   .summary-card {{
-    background: var(--surface-2); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 14px 16px;
+    background: var(--surface-2); border: 1px solid var(--border-soft); border-radius: 0; padding: 14px 16px;
   }}
   .summary-card-head {{ display: flex; align-items: center; justify-content: space-between; }}
   .summary-card p {{ margin: 10px 0 0; font-size: 13.5px; line-height: 1.55; }}
   .char-count {{ color: var(--muted-dim); font-size: 11px; }}
   .trend-legend {{ display: flex; flex-wrap: wrap; gap: 16px; font-size: 11.5px; color: var(--muted); margin-bottom: 14px; align-items: center; }}
-  .legend-dot {{ display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 5px; vertical-align: middle; }}
+  .legend-dot {{ display: inline-block; width: 8px; height: 8px; border-radius: 0; margin-right: 5px; vertical-align: middle; }}
   .trend-chart {{
     display: flex; align-items: stretch; gap: 6px; min-width: 640px;
     padding-top: 92px; /* clears both the count label and the hover tooltip above each bar,
@@ -865,14 +865,14 @@ def main():
   }}
   .trend-bar {{
     position: relative; flex: 1; display: flex; flex-direction: column; align-items: center;
-    cursor: default; min-width: 32px; border-radius: 4px; transition: background 0.1s ease;
+    cursor: default; min-width: 32px; border-radius: 0; transition: background 0.1s ease;
   }}
   .trend-bar:hover, .trend-bar:focus {{ background: var(--surface-2); outline: none; }}
   .trend-count {{ font-size: 10.5px; color: var(--muted); font-variant-numeric: tabular-nums; margin-bottom: 3px; }}
   .trend-track {{ position: relative; width: 100%; height: {TREND_TRACK_PX}px; }}
   .seg {{ position: absolute; left: 0; right: 0; }}
-  .seg-pos {{ background: var(--status-good); border-radius: 3px 3px 0 0; }}
-  .seg-neg {{ background: var(--status-critical); border-radius: 0 0 3px 3px; }}
+  .seg-pos {{ background: var(--status-good); border-radius: 0; }}
+  .seg-neg {{ background: var(--status-critical); border-radius: 0; }}
   .seg-neu {{ background: var(--muted-dim); }}
   .trend-baseline {{ position: absolute; left: 0; right: 0; top: {TREND_ARM_PX}px; height: 1px; background: var(--border); }}
   .trend-date {{
@@ -884,7 +884,7 @@ def main():
   .trend-bar[data-tooltip]:hover::after, .trend-bar[data-tooltip]:focus::after {{
     content: attr(data-tooltip); position: absolute; bottom: 100%; left: 50%;
     transform: translateX(-50%); margin-bottom: 12px; padding: 10px 14px;
-    background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 0;
     font-size: 12px; line-height: 1.7; color: var(--text); white-space: pre-line;
     width: max-content; max-width: 220px;
     text-align: left; box-shadow: var(--shadow); z-index: 20; pointer-events: none;
