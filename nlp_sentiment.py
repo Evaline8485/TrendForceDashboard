@@ -322,7 +322,19 @@ def widget_named_entities(posts, top_n=15):
     return [{'entity': e, 'count': c} for e, c in counts.most_common(top_n)]
 
 
-def widget_sentiment_trend_curve(posts, now, span, buckets=14):
+MAX_TREND_TOP_TOPICS = 3
+MAX_TREND_TOP_POSTS = 2
+TREND_POST_TEXT_MAXLEN = 200
+
+
+def widget_sentiment_trend_curve(posts, now, span, topic_labels, buckets=14):
+    """Each bucket answers "what was actually happening" alongside the raw
+    sentiment counts (2026-08-13) - net_sentiment (positive% - negative%,
+    one number instead of three) is the line FR-03's UI plots; volume/
+    engagement is what a paired bar chart plots underneath it; top_topics
+    (by post count within the bucket) and top_posts (by interaction) are
+    what a hover/peak-label answers "why did this spike/dip" with - a
+    temperature reading with no named driver is not actionable."""
     bucket_span = span / buckets
     curve = []
     for i in range(buckets, 0, -1):
@@ -330,12 +342,41 @@ def widget_sentiment_trend_curve(posts, now, span, buckets=14):
         b_start = b_end - bucket_span
         bucket_posts = [p for p in posts if p['ts'] and b_start <= p['ts'] < b_end]
         counts = Counter(p['sentiment'] for p in bucket_posts)
+        total = len(bucket_posts)
+        pos, neg = counts.get('positive', 0), counts.get('negative', 0)
+        net_sentiment = round((pos - neg) / total * 100, 1) if total else 0.0
+
+        topic_counts = Counter(p['cluster_id'] for p in bucket_posts)
+        top_topics = [{'topic_id': cid, 'label': topic_labels.get(cid, f'cluster-{cid}'), 'count': c}
+                      for cid, c in topic_counts.most_common(MAX_TREND_TOP_TOPICS)]
+
+        top_posts_sorted = sorted(bucket_posts, key=lambda p: p['interaction'], reverse=True)
+        seen_urls = set()
+        top_posts = []
+        for p in top_posts_sorted:
+            key = p.get('url') or p.get('raw_text')
+            if key in seen_urls:
+                continue
+            seen_urls.add(key)
+            top_posts.append({
+                'handle': p['handle'], 'platform': p['platform'],
+                'text': (p.get('raw_text') or p['text'])[:TREND_POST_TEXT_MAXLEN],
+                'url': p.get('url', ''), 'interaction': p['interaction'],
+            })
+            if len(top_posts) >= MAX_TREND_TOP_POSTS:
+                break
+
         curve.append({
             'bucket_start': b_start.isoformat(),
             'bucket_end': b_end.isoformat(),
-            'positive': counts.get('positive', 0),
+            'positive': pos,
             'neutral': counts.get('neutral', 0),
-            'negative': counts.get('negative', 0),
+            'negative': neg,
+            'net_sentiment': net_sentiment,
+            'post_count': total,
+            'engagement': sum(p['interaction'] for p in bucket_posts),
+            'top_topics': top_topics,
+            'top_posts': top_posts,
         })
     return curve
 
@@ -478,7 +519,7 @@ def build_dashboard(all_posts, time_range, now, keyword=None):
             'sentiment_overview': widget_sentiment_overview(posts),
             'temperature_bar': widget_temperature_bar(posts_by_topic, topic_labels),
             'named_entities': widget_named_entities(posts),
-            'sentiment_trend_curve': widget_sentiment_trend_curve(posts, now, span),
+            'sentiment_trend_curve': widget_sentiment_trend_curve(posts, now, span, topic_labels),
             'coverage_focus_ranking': widget_coverage_focus_ranking(posts_by_topic, topic_labels),
             'top_engagement_ranking': widget_top_engagement_ranking(posts_by_topic, topic_labels),
             'posting_timeslot_analysis': widget_posting_timeslot_analysis(posts),

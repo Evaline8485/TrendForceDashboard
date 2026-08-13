@@ -383,7 +383,7 @@ def render_sentiment(data):
 
     return f"""
     {stat_cards}
-    {panel(trend_html, 'Sentiment trend curve', 'Positive / neutral / negative over time')}
+    {panel(trend_html, 'Sentiment trend curve', 'Net sentiment & volume over time, with topic call-outs')}
     {keyword_search_html}
     <div class="col-2">
       {panel(table(['Topic', '#Heat', '#Volume', '#Engagement', 'Top entities'], heat_rows), 'Temperature bar')}
@@ -395,78 +395,136 @@ def render_sentiment(data):
     """
 
 
-LOW_SAMPLE_THRESHOLD = 10  # below this many posts, a solid-color bar is noise, not signal
-MIN_BAR_OPACITY = 0.35
-TREND_ARM_PX = 70  # height of one arm (above or below the zero line) at 100% share
+LOW_SAMPLE_THRESHOLD = 10  # below this many posts, a point/bar is noise, not signal
+MIN_POINT_OPACITY = 0.35
 
-
-TREND_TRACK_PX = TREND_ARM_PX * 2
+# Two-panel layout (2026-08-13, replacing the old three-color stacked bar):
+# a line panel plots net sentiment (positive% - negative%, one number
+# instead of three - a single diverging line reads "is this net positive
+# or negative" directly, no three-way mental subtraction) and a bar panel
+# underneath plots volume, sharing the same per-bucket x-slot so a spike in
+# one visually lines up with the other. Two separate y-scales stacked
+# vertically (never a dual-axis single chart - see the dataviz skill's
+# #1 anti-pattern) sharing one x-axis.
+TREND_BUCKET_W = 52  # px per bucket column, shared by both panels
+TREND_LINE_H = 130   # net-sentiment plot area height
+TREND_BAR_H = 46     # volume plot area height
+TREND_LABEL_PAD = 34  # headroom above the line panel for peak/trough callouts
+TREND_GAP = 14       # gap between the two panels
 
 
 def render_trend_curve(curve):
-    """Sentiment is ordered/polarized data (negative < neutral < positive), which
-    calls for a diverging stacked bar centered on a zero baseline rather than a
-    bottom-anchored 100%-stack: neutral sits on the baseline, positive extends up,
-    negative extends down, so "is this net positive or negative" reads from the
-    bar's silhouette alone instead of requiring three-way mental subtraction.
+    """Line panel (net sentiment) + bar panel (volume), sharing one x-axis.
 
-    Neutral renders as ONE absolutely-positioned block straddling the baseline
-    (not two separate halves with a gap) - positive/negative are each anchored
-    flush against its far edge via their own top offset, computed here rather
-    than with flexbox, since three segments with independent, data-dependent
-    sizes all needing to meet at one shared, cross-bar-consistent baseline
-    pixel isn't expressible with stacking alone.
-
-    Each bar is also directly labeled with its post count and date, and
-    low-sample bars are faded - per the dataviz skill (diverging color =
-    polarity; direct labels over hover-only; never gate a value behind a
-    tooltip)."""
+    A temperature reading with no named driver isn't actionable, so every
+    bucket's hover/focus target answers "why": its top 3 topics (by post
+    count) and its top 1-2 posts by engagement (from
+    nlp_sentiment.widget_sentiment_trend_curve). The chart doesn't wait for
+    a hover to say *something*, though - the sharpest peaks/troughs get a
+    direct label naming their #1 topic right on the chart, per the dataviz
+    skill's "never gate a value behind a tooltip" (the full breakdown is
+    still hover-only; only the headline driver is always visible)."""
     if not curve:
         return '<p class="empty">Not enough data to plot a trend curve.</p>'
-    baseline = TREND_ARM_PX  # px from the track's top edge
-    bars = []
-    for b in curve:
-        total = b['positive'] + b['neutral'] + b['negative']
-        pos_share = b['positive'] / total if total else 0
-        neu_share = b['neutral'] / total if total else 0
-        neg_share = b['negative'] / total if total else 0
-        neu_px = neu_share * TREND_ARM_PX
-        pos_px = pos_share * TREND_ARM_PX
-        neg_px = neg_share * TREND_ARM_PX
 
-        neu_top = baseline - neu_px / 2
-        pos_top = neu_top - pos_px
-        neg_top = neu_top + neu_px
+    n = len(curve)
+    values = [b['net_sentiment'] for b in curve]
+    domain_min, domain_max = min(values + [0]), max(values + [0])
+    pad = max(5.0, (domain_max - domain_min) * 0.15)
+    domain_min, domain_max = domain_min - pad, domain_max + pad
+    if domain_max - domain_min < 1e-6:
+        domain_min, domain_max = -10.0, 10.0
 
-        # A bar built from 1-2 posts looks visually identical to one built
-        # from hundreds (both can render fully one color) - fade low-sample
-        # bars so it's obvious at a glance which ones are weak signal.
-        opacity = MIN_BAR_OPACITY + (1 - MIN_BAR_OPACITY) * min(total, LOW_SAMPLE_THRESHOLD) / LOW_SAMPLE_THRESHOLD
+    def y_for(v):
+        return TREND_LABEL_PAD + TREND_LINE_H - (v - domain_min) / (domain_max - domain_min) * TREND_LINE_H
+
+    def x_for(i):
+        return i * TREND_BUCKET_W + TREND_BUCKET_W / 2
+
+    vol_max = max((b['post_count'] for b in curve), default=0) or 1
+    zero_y = y_for(0)
+    bar_top = TREND_LABEL_PAD + TREND_LINE_H + TREND_GAP
+    total_h = bar_top + TREND_BAR_H + 52  # + two-line date/time label row
+
+    # Local extrema on net_sentiment - an interior point strictly above (peak)
+    # or below (trough) both neighbors. Ranked by |value| and capped at 2 of
+    # each so the chart doesn't turn into a label pile-up (dataviz skill:
+    # "label selectively - never a number on every point").
+    peaks, troughs = [], []
+    for i in range(1, n - 1):
+        if values[i] > values[i - 1] and values[i] > values[i + 1]:
+            peaks.append(i)
+        elif values[i] < values[i - 1] and values[i] < values[i + 1]:
+            troughs.append(i)
+    peaks.sort(key=lambda i: values[i], reverse=True)
+    troughs.sort(key=lambda i: values[i])
+    callout_idxs = set(peaks[:2]) | set(troughs[:2])
+
+    def short_label(label, maxlen=14):
+        return label if len(label) <= maxlen else label[:maxlen] + '…'
+
+    line_points, dots, bars, callouts, hit_areas = [], [], [], [], []
+    for i, b in enumerate(curve):
+        x = x_for(i)
+        y = y_for(b['net_sentiment'])
+        line_points.append(f"{x},{y}")
+
+        is_peak, is_trough = i in peaks[:2], i in troughs[:2]
+        total = b['post_count']
+        opacity = MIN_POINT_OPACITY + (1 - MIN_POINT_OPACITY) * min(total, LOW_SAMPLE_THRESHOLD) / LOW_SAMPLE_THRESHOLD
+        dot_color = 'var(--status-good)' if b['net_sentiment'] >= 0 else 'var(--status-critical)'
+        dots.append(f'<circle cx="{x}" cy="{y}" r="4.5" fill="{dot_color}" '
+                    f'stroke="var(--surface)" stroke-width="2" opacity="{round(opacity, 2)}"/>')
+
+        bar_h = (total / vol_max) * TREND_BAR_H if total else 0
+        bars.append(f'<rect x="{x - 12}" y="{bar_top + TREND_BAR_H - bar_h}" width="24" height="{bar_h}" '
+                    f'rx="0" fill="var(--blue)" opacity="{round(0.55 + 0.35 * (total / vol_max if vol_max else 0), 2)}"/>')
+
+        if i in callout_idxs and b['top_topics']:
+            label = short_label(b['top_topics'][0]['label'])
+            if is_peak:
+                callouts.append(f'<text x="{x}" y="{y - 10}" text-anchor="middle" class="trend-callout">{esc(label)}</text>')
+            else:
+                callouts.append(f'<text x="{x}" y="{y + 18}" text-anchor="middle" class="trend-callout">{esc(label)}</text>')
+
         bucket_end_tw = datetime.fromisoformat(b['bucket_end']).astimezone(TAIWAN_TZ)
-        sample_note = ' (low sample size)' if total < LOW_SAMPLE_THRESHOLD else ''
-        tooltip = (f"{bucket_end_tw.strftime('%b %d, %H:%M')} TW — {total} post(s){sample_note}\n"
-                   f"{b['positive']} positive · {b['neutral']} neutral · {b['negative']} negative")
+        payload = json.dumps({
+            'date': bucket_end_tw.strftime('%b %d, %H:%M') + ' TW',
+            'net': b['net_sentiment'], 'post_count': total, 'engagement': b['engagement'],
+            'topics': b['top_topics'], 'posts': b['top_posts'],
+        }, ensure_ascii=False)
+        hit_areas.append(
+            f'<rect class="trend-hit" x="{x - TREND_BUCKET_W / 2}" y="0" width="{TREND_BUCKET_W}" height="{total_h}" '
+            f'fill="transparent" tabindex="0" data-payload="{esc(payload)}"/>')
+        # Two stacked lines (date / time), not one - at TREND_BUCKET_W's
+        # column width a single "8/12 14:13" line collides with its
+        # neighbors (measured, not assumed - the first version of this
+        # chart shipped that overlap). Two shorter lines each fit.
+        hit_areas.append(
+            f'<text x="{x}" y="{total_h - 18}" text-anchor="middle" class="trend-date-label">'
+            f'{bucket_end_tw.strftime("%-m/%-d")}</text>'
+            f'<text x="{x}" y="{total_h - 4}" text-anchor="middle" class="trend-date-label">'
+            f'{bucket_end_tw.strftime("%H:%M")}</text>')
 
-        bars.append(f"""
-          <div class="trend-bar" data-tooltip="{esc(tooltip)}" style="opacity:{round(opacity, 2)}" tabindex="0">
-            <div class="trend-count">{fmt_int(total)}</div>
-            <div class="trend-track">
-              <div class="seg seg-pos" style="height:{pos_px}px; top:{pos_top}px"></div>
-              <div class="seg seg-neu" style="height:{neu_px}px; top:{neu_top}px"></div>
-              <div class="seg seg-neg" style="height:{neg_px}px; top:{neg_top}px"></div>
-              <div class="trend-baseline"></div>
-            </div>
-            <div class="trend-date">{bucket_end_tw.strftime('%-m/%-d')}<br>{bucket_end_tw.strftime('%H:%M')}</div>
-          </div>""")
+    svg_w = n * TREND_BUCKET_W
+    svg = f"""
+    <svg class="trend-svg" viewBox="0 0 {svg_w} {total_h}" width="{svg_w}" height="{total_h}" preserveAspectRatio="xMinYMin meet">
+      <line x1="0" y1="{zero_y}" x2="{svg_w}" y2="{zero_y}" class="trend-zero-line"/>
+      <text x="4" y="{zero_y - 4}" class="trend-axis-label">0</text>
+      {''.join(bars)}
+      <polyline points="{' '.join(line_points)}" class="trend-line"/>
+      {''.join(dots)}
+      {''.join(callouts)}
+      {''.join(hit_areas)}
+    </svg>"""
 
     return f"""
     <div class="trend-legend">
-      <span><span class="legend-dot" style="background:var(--status-good)"></span>Positive</span>
-      <span><span class="legend-dot" style="background:var(--muted-dim)"></span>Neutral</span>
-      <span><span class="legend-dot" style="background:var(--status-critical)"></span>Negative</span>
-      <span class="muted">Bar height = share of posts (not volume) &middot; faded = fewer than {LOW_SAMPLE_THRESHOLD} posts, weak signal</span>
+      <span><span class="legend-line" style="background:var(--status-good)"></span>Net sentiment (positive% &minus; negative%)</span>
+      <span><span class="legend-dot" style="background:var(--blue)"></span>Post volume</span>
+      <span class="muted">Labeled peaks/troughs show the #1 topic driving that swing &middot; hover/focus any column for the top 3 topics + representative posts</span>
     </div>
-    <div class="trend-chart-wrap"><div class="trend-chart">{''.join(bars)}</div></div>"""
+    <div class="trend-chart-wrap"><div class="trend-chart">{svg}</div></div>"""
 
 
 def render_summaries(data):
@@ -773,6 +831,17 @@ def main():
   }}
   .kw-link-popover a:hover {{ text-decoration: underline; }}
   .kw-link-popover .empty {{ font-size: 14px; color: var(--muted); margin: 0; }}
+  .trend-point-popover-head {{ font-size: 14px; font-weight: 700; color: var(--text); }}
+  .trend-point-popover-stats {{ font-size: 14px; color: var(--muted); margin-bottom: 4px; }}
+  .trend-point-topic-row {{ display: flex; justify-content: space-between; gap: 10px; font-size: 14px; }}
+  .trend-point-topic-row span:last-child {{ color: var(--muted); font-variant-numeric: tabular-nums; }}
+  .trend-point-post {{
+    border-top: 1px solid var(--border-soft); padding-top: 6px; margin-top: 4px;
+    font-size: 14px; line-height: 1.5;
+  }}
+  .trend-point-post a {{ color: var(--blue); text-decoration: none; }}
+  .trend-point-post a:hover {{ text-decoration: underline; }}
+  .trend-point-post .muted {{ font-size: 14px; }}
   .add-account-form {{ display: flex; flex-wrap: wrap; align-items: end; gap: 14px; }}
   .add-account-form label {{
     display: flex; flex-direction: column; gap: 6px; font-size: 14px;
@@ -858,40 +927,19 @@ def main():
   .char-count {{ color: var(--muted-dim); font-size: 14px; }}
   .trend-legend {{ display: flex; flex-wrap: wrap; gap: 16px; font-size: 14px; color: var(--muted); margin-bottom: 14px; align-items: center; }}
   .legend-dot {{ display: inline-block; width: 8px; height: 8px; border-radius: 0; margin-right: 5px; vertical-align: middle; }}
+  .legend-line {{ display: inline-block; width: 14px; height: 2px; margin-right: 5px; vertical-align: middle; }}
   .trend-chart-wrap {{
     overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -4px; padding: 0 4px;
   }}
-  .trend-chart {{
-    display: flex; align-items: stretch; gap: 6px; min-width: 640px;
-    padding-top: 92px; /* clears both the count label and the hover tooltip above each bar,
-                           with room to spare so the tooltip never touches the panel above */
-  }}
-  .trend-bar {{
-    position: relative; flex: 1; display: flex; flex-direction: column; align-items: center;
-    cursor: default; min-width: 32px; border-radius: 0; transition: background 0.1s ease;
-  }}
-  .trend-bar:hover, .trend-bar:focus {{ background: var(--surface-2); outline: none; }}
-  .trend-count {{ font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; margin-bottom: 3px; }}
-  .trend-track {{ position: relative; width: 100%; height: {TREND_TRACK_PX}px; }}
-  .seg {{ position: absolute; left: 0; right: 0; }}
-  .seg-pos {{ background: var(--status-good); border-radius: 0; }}
-  .seg-neg {{ background: var(--status-critical); border-radius: 0; }}
-  .seg-neu {{ background: var(--muted-dim); }}
-  .trend-baseline {{ position: absolute; left: 0; right: 0; top: {TREND_ARM_PX}px; height: 1px; background: var(--border); }}
-  .trend-date {{
-    margin-top: 6px; font-size: 14px; line-height: 1.3; color: var(--muted);
-    text-align: center; white-space: nowrap;
-  }}
-  /* Visible on-hover/focus tooltip - replaces the native title attribute,
-     which is slow to appear and easy to miss. */
-  .trend-bar[data-tooltip]:hover::after, .trend-bar[data-tooltip]:focus::after {{
-    content: attr(data-tooltip); position: absolute; bottom: 100%; left: 50%;
-    transform: translateX(-50%); margin-bottom: 12px; padding: 10px 14px;
-    background: var(--surface-2); border: 1px solid var(--border); border-radius: 0;
-    font-size: 14px; line-height: 1.7; color: var(--text); white-space: pre-line;
-    width: max-content; max-width: 220px;
-    text-align: left; box-shadow: var(--shadow); z-index: 20; pointer-events: none;
-  }}
+  .trend-chart {{ display: block; }}
+  .trend-svg {{ display: block; }}
+  .trend-zero-line {{ stroke: var(--border); stroke-width: 1; }}
+  .trend-axis-label {{ font-size: 14px; fill: var(--muted); }}
+  .trend-line {{ fill: none; stroke: var(--text); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }}
+  .trend-callout {{ font-size: 14px; fill: var(--muted); font-weight: 600; }}
+  .trend-date-label {{ font-size: 14px; fill: var(--muted); }}
+  .trend-hit {{ cursor: pointer; }}
+  .trend-hit:hover, .trend-hit:focus {{ fill: var(--surface-2); outline: none; }}
   @media (max-width: 800px) {{
     header, nav, main {{ padding-left: 18px; padding-right: 18px; }}
     .col-2 {{ grid-template-columns: 1fr; }}
@@ -1168,6 +1216,104 @@ def main():
   }});
   document.addEventListener('focusout', e => {{
     if (e.target.closest('.kw-link-row') && !e.relatedTarget?.closest('.kw-link-popover, .kw-link-row')) hideKwLinkPopover();
+  }});
+
+  // Sentiment trend chart's per-bucket "why" popover - same hover/focus
+  // pattern as kwLinkPopover above, showing the bucket's top 3 topics and
+  // 1-2 representative posts (from nlp_sentiment.widget_sentiment_trend_curve)
+  // instead of just a sentiment-count tooltip. Reuses .kw-link-popover's
+  // base look (position/shadow/max-height) via a shared class, with its own
+  // internal structure classes for the topic/post rows.
+  let trendPointPopover = null;
+  function showTrendPointPopover(hit) {{
+    hideTrendPointPopover();
+    let data = null;
+    try {{ data = JSON.parse(hit.dataset.payload || 'null'); }} catch (e) {{ data = null; }}
+    if (!data) return;
+    const pop = document.createElement('div');
+    pop.className = 'kw-link-popover';
+
+    const head = document.createElement('div');
+    head.className = 'trend-point-popover-head';
+    head.textContent = data.date;
+    pop.appendChild(head);
+
+    const stats = document.createElement('div');
+    stats.className = 'trend-point-popover-stats';
+    stats.textContent = `Net sentiment ${{data.net >= 0 ? '+' : ''}}${{data.net}} · ${{data.post_count}} post(s) · ${{data.engagement.toLocaleString()}} engagement`;
+    pop.appendChild(stats);
+
+    if (!data.topics.length) {{
+      const p = document.createElement('p');
+      p.className = 'empty';
+      p.textContent = 'No topic breakdown for this bucket.';
+      pop.appendChild(p);
+    }} else {{
+      data.topics.forEach(t => {{
+        const row = document.createElement('div');
+        row.className = 'trend-point-topic-row';
+        const label = document.createElement('span');
+        label.textContent = t.label;
+        const count = document.createElement('span');
+        count.textContent = `${{t.count}} post(s)`;
+        row.appendChild(label);
+        row.appendChild(count);
+        pop.appendChild(row);
+      }});
+    }}
+
+    data.posts.forEach(p => {{
+      const div = document.createElement('div');
+      div.className = 'trend-point-post';
+      const author = document.createElement('strong');
+      author.textContent = `${{p.handle}} `;
+      const eng = document.createElement('span');
+      eng.className = 'muted';
+      eng.textContent = `(${{p.interaction.toLocaleString()}} engagement)`;
+      div.appendChild(author);
+      div.appendChild(eng);
+      const text = document.createElement('div');
+      text.textContent = p.text;
+      div.appendChild(text);
+      if (p.url) {{
+        const a = document.createElement('a');
+        a.href = p.url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.textContent = 'Open post';
+        div.appendChild(a);
+      }}
+      pop.appendChild(div);
+    }});
+
+    document.body.appendChild(pop);
+    const r = hit.getBoundingClientRect();
+    const spaceRight = document.documentElement.clientWidth - r.right;
+    const openLeft = spaceRight < pop.offsetWidth + 20 && r.left > pop.offsetWidth + 20;
+    const left = window.scrollX + (openLeft ? r.left - pop.offsetWidth - 10 : r.right + 10);
+    let top = window.scrollY + r.top - 4;
+    const maxTop = window.scrollY + document.documentElement.clientHeight - pop.offsetHeight - 12;
+    if (top > maxTop) top = Math.max(window.scrollY + 12, maxTop);
+    pop.style.top = `${{top}}px`;
+    pop.style.left = `${{left}}px`;
+    trendPointPopover = pop;
+  }}
+  function hideTrendPointPopover() {{
+    if (trendPointPopover) {{ trendPointPopover.remove(); trendPointPopover = null; }}
+  }}
+  document.addEventListener('mouseover', e => {{
+    const hit = e.target.closest('.trend-hit');
+    if (hit) showTrendPointPopover(hit);
+  }});
+  document.addEventListener('focusin', e => {{
+    const hit = e.target.closest('.trend-hit');
+    if (hit) showTrendPointPopover(hit);
+  }});
+  document.addEventListener('mouseout', e => {{
+    if (e.target.closest('.trend-hit') && !e.relatedTarget?.closest('.kw-link-popover, .trend-hit')) hideTrendPointPopover();
+  }});
+  document.addEventListener('focusout', e => {{
+    if (e.target.closest('.trend-hit') && !e.relatedTarget?.closest('.kw-link-popover, .trend-hit')) hideTrendPointPopover();
   }});
 
   // FR-05: no backend on a static site to add an account and start

@@ -42,11 +42,11 @@
         "volume": 1717,
         "engagement": 162135,
         "entities": [
+          "AI",
           "中國",
           "美國",
           "輝達",
-          "日本",
-          "台灣"
+          "日本"
         ]
       },
       {
@@ -56,11 +56,11 @@
         "volume": 28,
         "engagement": 2537,
         "entities": [
+          "NAND",
           "三星",
-          "輝達",
-          "長江",
-          "日本",
-          "寶座"
+          "Samsung",
+          "DRAM",
+          "Kioxia"
         ]
       },
       {
@@ -71,10 +71,10 @@
         "engagement": 2081,
         "entities": [
           "台積電",
-          "英特爾",
-          "歐元",
-          "解套",
-          "荷蘭"
+          "EUV",
+          "ASML",
+          "TSMC",
+          "Taiwan"
         ]
       },
       {
@@ -84,11 +84,11 @@
         "volume": 19,
         "engagement": 3060,
         "entities": [
+          "OpenAI",
+          "AI",
           "太陽",
           "雷曼",
-          "輝達",
-          "智慧",
-          "白宮"
+          "輝達"
         ]
       },
       {
@@ -99,10 +99,10 @@
         "engagement": 242,
         "entities": [
           "輝達",
+          "google",
           "超微",
           "上街",
-          "抗議",
-          "美國"
+          "抗議"
         ]
       },
       {
@@ -113,10 +113,10 @@
         "engagement": 18,
         "entities": [
           "美國",
+          "US",
           "聯準會",
-          "中國",
-          "中東",
-          "台韓"
+          "https    ",
+          "DataTrack"
         ]
       },
       {
@@ -163,7 +163,11 @@
         "heat": 10.0,
         "volume": 4,
         "engagement": 8,
-        "entities": []
+        "entities": [
+          "Pixel",
+          "Google",
+          "Google發表會"
+        ]
       },
       {
         "topic_id": 13,
@@ -227,7 +231,13 @@
         "heat": 10.0,
         "volume": 6,
         "engagement": 31,
-        "entities": []
+        "entities": [
+          "ec",
+          "Taiwan",
+          "Hemispheric 完成       ",
+          "FaceID",
+          "AI醫療"
+        ]
       },
       {
         "topic_id": 15,
@@ -238,7 +248,9 @@
         "entities": [
           "紐約州",
           "全美",
-          "台普威"
+          "MW",
+          "台普威",
+          "SpaceX"
         ]
       },
       {
@@ -247,7 +259,11 @@
         "heat": 10.0,
         "volume": 19,
         "engagement": 75,
-        "entities": []
+        "entities": [
+          "ec",
+          "intel",
+          "ohio"
+        ]
       },
       {
         "topic_id": 7,
@@ -321,6 +337,10 @@
         "count": 182
       },
       {
+        "entity": "AI",
+        "count": 169
+      },
+      {
         "entity": "中國",
         "count": 154
       },
@@ -337,8 +357,24 @@
         "count": 103
       },
       {
+        "entity": "TSMC",
+        "count": 86
+      },
+      {
         "entity": "三星",
         "count": 76
+      },
+      {
+        "entity": "US",
+        "count": 72
+      },
+      {
+        "entity": "Taiwan",
+        "count": 64
+      },
+      {
+        "entity": "AMD",
+        "count": 57
       },
       {
         "entity": "伺服器",
@@ -349,28 +385,8 @@
         "count": 52
       },
       {
-        "entity": "川普",
-        "count": 45
-      },
-      {
-        "entity": "英特爾",
-        "count": 40
-      },
-      {
-        "entity": "黃仁勳",
-        "count": 40
-      },
-      {
-        "entity": "美光",
-        "count": 37
-      },
-      {
-        "entity": "天文",
-        "count": 34
-      },
-      {
-        "entity": "馬斯克",
-        "count": 32
+        "entity": "China",
+        "count": 46
       }
     ],
     "sentiment_trend_curve": [
@@ -379,98 +395,572 @@
         "bucket_end": "2026-07-16T15:56:04.857141+08:00",
         "positive": 131,
         "neutral": 96,
-        "negative": 65
+        "negative": 65,
+        "net_sentiment": 22.6,
+        "post_count": 292,
+        "engagement": 24671,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 244
+          },
+          {
+            "topic_id": 17,
+            "label": "asml / euv / tsmc / na",
+            "count": 23
+          },
+          {
+            "topic_id": 13,
+            "label": "台積電 / 查看更多 / 億美元資本預算 / 魏哲家",
+            "count": 8
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "I would like to see them TRY STOP THIS",
+            "url": "https://x.com/dylan522p/status/2077065171533762717",
+            "interaction": 1708
+          },
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "KOREAN LOCAL MEDIA: SAMSUNG FOUNDRY HAS SECURED ANTHROPIC AS A FOUNDRY CUSTOMER  AN INDUSTRY SOURCE CLOSE TO SAMSUNG ELECTRONICS SAID, “SAMSUNG ELECTRONICS’ FOUNDRY DIVISION HAS AGREED TO MANUFACTURE ",
+            "url": "https://x.com/jukan05/status/2076927678905790656",
+            "interaction": 1335
+          }
+        ]
       },
       {
         "bucket_start": "2026-07-16T15:56:04.857141+08:00",
         "bucket_end": "2026-07-18T19:21:47.714284+08:00",
         "positive": 120,
         "neutral": 76,
-        "negative": 62
+        "negative": 62,
+        "net_sentiment": 22.5,
+        "post_count": 258,
+        "engagement": 50913,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 227
+          },
+          {
+            "topic_id": 13,
+            "label": "台積電 / 查看更多 / 億美元資本預算 / 魏哲家",
+            "count": 6
+          },
+          {
+            "topic_id": 19,
+            "label": "google / gemini / deepmind / tpu",
+            "count": 6
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tengyanAI",
+            "platform": "X",
+            "text": "so let me get this straight anthropic terrified us all to think they had a superhuman model that would wreck havoc on the world (bio, cyber) and imposed heavy limits on usage  turns out all the big la",
+            "url": "https://x.com/tengyanAI/status/2078330979190800393",
+            "interaction": 8232
+          },
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Similar to the panic over DeepSeek R1, some uneducated people think Kimi K3’s use of linear attention (KDA) is bad for NVIDIA, HBM, DRAM, and networking because it has relatively lower KV-cache requir",
+            "url": "https://x.com/SemiAnalysis_/status/2078250693010309260",
+            "interaction": 3779
+          }
+        ]
       },
       {
         "bucket_start": "2026-07-18T19:21:47.714284+08:00",
         "bucket_end": "2026-07-20T22:47:30.571427+08:00",
         "positive": 110,
         "neutral": 37,
-        "negative": 58
+        "negative": 58,
+        "net_sentiment": 25.4,
+        "post_count": 205,
+        "engagement": 27435,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 182
+          },
+          {
+            "topic_id": 9,
+            "label": "openai / anthropic / meta / 蘋果",
+            "count": 3
+          },
+          {
+            "topic_id": 10,
+            "label": "三星 / sk海力士 / 摺疊手機 / ds",
+            "count": 3
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Who said Kimi K3 is bearish for compute? Lol.",
+            "url": "https://x.com/jukan05/status/2078858186627633194",
+            "interaction": 2418
+          },
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "I came across an interesting analysis today. It argued that while the unwinding of leveraged positions has contributed to the recent decline in memory stocks, the market is also beginning to price in ",
+            "url": "https://x.com/jukan05/status/2078462124486283755",
+            "interaction": 1553
+          }
+        ]
       },
       {
         "bucket_start": "2026-07-20T22:47:30.571427+08:00",
         "bucket_end": "2026-07-23T02:13:13.428570+08:00",
         "positive": 30,
         "neutral": 9,
-        "negative": 9
+        "negative": 9,
+        "net_sentiment": 43.8,
+        "post_count": 48,
+        "engagement": 3398,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 43
+          },
+          {
+            "topic_id": 0,
+            "label": "id / tw / aspx / links",
+            "count": 2
+          },
+          {
+            "topic_id": 8,
+            "label": "nand / flash / dram / samsung",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "We cut open the Kirin 9030 and put it under an electron microscope. The smallest metal pitch measures 32.5 nanometers. That is tighter than Intel 18A, their brand new leading edge node.  A Chinese fab",
+            "url": "https://x.com/SemiAnalysis_/status/2079251630608842814",
+            "interaction": 669
+          },
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "This is a public cry to not waste the silicon and have better AI infra Rivos, DSF, Grand Teton, Ariel and the cut-down MI450X were defensible on some narrow metric that a group inside Meta Infrastruct",
+            "url": "https://x.com/dylan522p/status/2079764693640790176",
+            "interaction": 329
+          }
+        ]
       },
       {
         "bucket_start": "2026-07-23T02:13:13.428570+08:00",
         "bucket_end": "2026-07-25T05:38:56.285713+08:00",
         "positive": 14,
         "neutral": 6,
-        "negative": 7
+        "negative": 7,
+        "net_sentiment": 25.9,
+        "post_count": 27,
+        "engagement": 3253,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 25
+          },
+          {
+            "topic_id": 3,
+            "label": "tw / udn / links / edn",
+            "count": 1
+          },
+          {
+            "topic_id": 0,
+            "label": "id / tw / aspx / links",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$AMD  believes it can capture over 50% of the $220 billion CPU market expected by 2030  AMD’s TTM revenue is currently $37 billion  That means AMD believes it can nearly triple its total revenue throu",
+            "url": "https://x.com/HyperTechInvest/status/2080402497437610038",
+            "interaction": 395
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Baird doubled its  $AMD  price target from $625 to $1,250  The target reflects AMD’s long-term AI opportunity:  -  $147 billion in AI GPU revenue by 2030  -  15% share of a projected $1.4 trillion AI ",
+            "url": "https://x.com/HyperTechInvest/status/2080625851104956850",
+            "interaction": 338
+          }
+        ]
       },
       {
         "bucket_start": "2026-07-25T05:38:56.285713+08:00",
         "bucket_end": "2026-07-27T09:04:39.142856+08:00",
         "positive": 5,
         "neutral": 4,
-        "negative": 4
+        "negative": 4,
+        "net_sentiment": 7.7,
+        "post_count": 13,
+        "engagement": 3785,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 13
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$MU  has decided to burn bridges with  $AAPL  wow  Years of bullying suppliers for cheap memory do not come without consequences",
+            "url": "https://x.com/HyperTechInvest/status/2081095899355517228",
+            "interaction": 1148
+          },
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "Many don't know this but the collapse of the Bronze Age is what led humans to developing test-time compute, also known as an internal monologue. When civilization collapsed, writing systems disappeare",
+            "url": "https://x.com/dylan522p/status/2080797997546590564",
+            "interaction": 738
+          }
+        ]
       },
       {
         "bucket_start": "2026-07-27T09:04:39.142856+08:00",
         "bucket_end": "2026-07-29T12:30:21.999999+08:00",
         "positive": 16,
         "neutral": 13,
-        "negative": 7
+        "negative": 7,
+        "net_sentiment": 25.0,
+        "post_count": 36,
+        "engagement": 4729,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 32
+          },
+          {
+            "topic_id": 17,
+            "label": "asml / euv / tsmc / na",
+            "count": 2
+          },
+          {
+            "topic_id": 3,
+            "label": "tw / udn / links / edn",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "Slowing down AI is a ultimately wishful thinking The genie is out of the bottle The most importan competition ever with potentially immeasurable benefits to the winner will not suddenly have people st",
+            "url": "https://x.com/dylan522p/status/2082321388736581641",
+            "interaction": 1377
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Semis going down on:  >  Morgan Stanley raising its 2027 and 2028 hyperscaler capex forecasts by 9% and 10%, respectively, now modeling $1.2 trillion and $1.4 trillion in annual spending  >   $GOOG  r",
+            "url": "https://x.com/HyperTechInvest/status/2081825350556991761",
+            "interaction": 610
+          }
+        ]
       },
       {
         "bucket_start": "2026-07-29T12:30:21.999999+08:00",
         "bucket_end": "2026-07-31T15:56:04.857142+08:00",
         "positive": 24,
         "neutral": 12,
-        "negative": 15
+        "negative": 15,
+        "net_sentiment": 17.6,
+        "post_count": 51,
+        "engagement": 5806,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 46
+          },
+          {
+            "topic_id": 3,
+            "label": "tw / udn / links / edn",
+            "count": 4
+          },
+          {
+            "topic_id": 8,
+            "label": "nand / flash / dram / samsung",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "This is pretty much half of X investors today",
+            "url": "https://x.com/HyperTechInvest/status/2082857634944909486",
+            "interaction": 1468
+          },
+          {
+            "handle": "nvidianewsroom",
+            "platform": "X",
+            "text": "Great to see more than 230 organizations across the AI ecosystem have signed a letter supporting open weights as part of America’s AI future.   Their message: open weights enable more people to build,",
+            "url": "https://x.com/nvidianewsroom/status/2082868188224659777",
+            "interaction": 849
+          }
+        ]
       },
       {
         "bucket_start": "2026-07-31T15:56:04.857142+08:00",
         "bucket_end": "2026-08-02T19:21:47.714285+08:00",
         "positive": 11,
         "neutral": 5,
-        "negative": 5
+        "negative": 5,
+        "net_sentiment": 28.6,
+        "post_count": 21,
+        "engagement": 2921,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 19
+          },
+          {
+            "topic_id": 3,
+            "label": "tw / udn / links / edn",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "Love that all FinTwit people making fun of Leopold still get mogged by his returns this year. Leopold is a great guy and he's extremely in tune with where the world is headed.",
+            "url": "https://x.com/dylan522p/status/2083264806245843236",
+            "interaction": 1765
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$NVDA  networking chief Gilad Shainer:  “Training was complicated, but inference is harder.”  The reason is that training is relatively predictable and synchronized, while inference is more dynamic, w",
+            "url": "https://x.com/HyperTechInvest/status/2083628276640264439",
+            "interaction": 164
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-02T19:21:47.714285+08:00",
         "bucket_end": "2026-08-04T22:47:30.571428+08:00",
         "positive": 25,
         "neutral": 14,
-        "negative": 5
+        "negative": 5,
+        "net_sentiment": 45.5,
+        "post_count": 44,
+        "engagement": 5802,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 43
+          },
+          {
+            "topic_id": 3,
+            "label": "tw / udn / links / edn",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "The funny thing about Anthropic and OpenAI people saying they want to slow down AI progress is that this is what Anti Trust mechanisms were built for. It's illegal to collude and slow down AI progress",
+            "url": "https://x.com/dylan522p/status/2084051253278208138",
+            "interaction": 2081
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Rumor: Google is expanding orders for TPU AI server chips as demand heats up, with market researchers putting TPU demand at 15 million by 2028, more than Nvidia’s current 13 million per year, media re",
+            "url": "https://x.com/dnystedt/status/2084055853414621571",
+            "interaction": 702
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-04T22:47:30.571428+08:00",
         "bucket_end": "2026-08-07T02:13:13.428571+08:00",
         "positive": 29,
         "neutral": 12,
-        "negative": 12
+        "negative": 12,
+        "net_sentiment": 32.1,
+        "post_count": 53,
+        "engagement": 6521,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 48
+          },
+          {
+            "topic_id": 17,
+            "label": "asml / euv / tsmc / na",
+            "count": 2
+          },
+          {
+            "topic_id": 3,
+            "label": "tw / udn / links / edn",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "\"Everytime Googlers leave, the TPU ecosystem grows stronger\" Deepmind friend coping so hard in my DMs rn",
+            "url": "https://x.com/dylan522p/status/2085203412040434079",
+            "interaction": 1372
+          },
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "Learned about how Samsung does capacity planning. Most retarded organizational structure ever",
+            "url": "https://x.com/dylan522p/status/2084728715679023358",
+            "interaction": 1288
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-07T02:13:13.428571+08:00",
         "bucket_end": "2026-08-09T05:38:56.285714+08:00",
         "positive": 12,
         "neutral": 6,
-        "negative": 13
+        "negative": 13,
+        "net_sentiment": -3.2,
+        "post_count": 31,
+        "engagement": 6698,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 29
+          },
+          {
+            "topic_id": 0,
+            "label": "id / tw / aspx / links",
+            "count": 1
+          },
+          {
+            "topic_id": 3,
+            "label": "tw / udn / links / edn",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "YC mantra is \"talk to your users\" Yet every good AI or software founder I know secretly thinks their users are retards",
+            "url": "https://x.com/dylan522p/status/2085480002917945449",
+            "interaction": 2327
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "So SemiAnalysis now thinks  $SPCX  will generate a $305B revenue run rate by the end of 2027  That’s almost 2x AWS’s run rate  How could SpaceX possibly build 8 GW in 2027 alone?  Even putting aside w",
+            "url": "https://x.com/HyperTechInvest/status/2085842655926501764",
+            "interaction": 646
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-09T05:38:56.285714+08:00",
         "bucket_end": "2026-08-11T09:04:39.142857+08:00",
         "positive": 19,
         "neutral": 7,
-        "negative": 8
+        "negative": 8,
+        "net_sentiment": 32.4,
+        "post_count": 34,
+        "engagement": 5386,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 34
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "nvidianewsroom",
+            "platform": "X",
+            "text": "NEWS: NVIDIA is partnering with  @apolloglobal ,  @BlackRock ,  @blackstone ,  @brookfield ,  @GoldmanSachs  and  @KKR_Co  to establish AI compute infrastructure financing platforms to mobilize over $",
+            "url": "https://x.com/nvidianewsroom/status/2086920814520066549",
+            "interaction": 1502
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$AMZN   Approved for The Largest Permitted Power Campus for AI Data Centers   $AMZN  has been revealed as the company behind the 7.65 GW Data Center project in Pecos County, West Texas  The campus is ",
+            "url": "https://x.com/HyperTechInvest/status/2086457446793654368",
+            "interaction": 463
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-11T09:04:39.142857+08:00",
         "bucket_end": "2026-08-13T12:30:22+08:00",
         "positive": 465,
         "neutral": 455,
-        "negative": 279
+        "negative": 279,
+        "net_sentiment": 15.5,
+        "post_count": 1199,
+        "engagement": 19248,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "查看更多 / nvidia / memory / tsmc",
+            "count": 731
+          },
+          {
+            "topic_id": 4,
+            "label": "查看更多",
+            "count": 283
+          },
+          {
+            "topic_id": 6,
+            "label": "新聞來源 / sk / pc / dram",
+            "count": 33
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "[Exclusive] Singapore's Temasek to Buy Into Samsung, SK Hynix… Its First Ever Investment in Korean Stocks  Temasek, one of Asia's largest sovereign wealth funds, is making a new investment in Samsung ",
+            "url": "https://x.com/jukan05/status/2087370700999028777",
+            "interaction": 1769
+          },
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Samsung Electronics has been confirmed to have adopted Anthropic's large language model Claude, sharply reducing the time required for some semiconductor design and verification work, according to Kor",
+            "url": "https://x.com/jukan05/status/2087408707000992100",
+            "interaction": 1194
+          }
+        ]
       }
     ],
     "coverage_focus_ranking": [
@@ -613,133 +1103,177 @@
         "topic_id": 1,
         "label": "查看更多 / nvidia / memory / tsmc",
         "total_engagement": 162135,
-        "post_count": 1717
+        "post_count": 1717,
+        "top_account": "jukan05",
+        "top_account_engagement": 56368
       },
       {
         "topic_id": 9,
         "label": "openai / anthropic / meta / 蘋果",
         "total_engagement": 3060,
-        "post_count": 19
+        "post_count": 19,
+        "top_account": "jukan05",
+        "top_account_engagement": 1955
       },
       {
         "topic_id": 8,
         "label": "nand / flash / dram / samsung",
         "total_engagement": 2537,
-        "post_count": 28
+        "post_count": 28,
+        "top_account": "jukan05",
+        "top_account_engagement": 2209
       },
       {
         "topic_id": 17,
         "label": "asml / euv / tsmc / na",
         "total_engagement": 2081,
-        "post_count": 33
+        "post_count": 33,
+        "top_account": "jukan05",
+        "top_account_engagement": 1124
       },
       {
         "topic_id": 19,
         "label": "google / gemini / deepmind / tpu",
         "total_engagement": 242,
-        "post_count": 20
+        "post_count": 20,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 191
       },
       {
         "topic_id": 15,
         "label": "mw / turbines / grew / plant",
         "total_engagement": 106,
-        "post_count": 3
+        "post_count": 3,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 102
       },
       {
         "topic_id": 13,
         "label": "台積電 / 查看更多 / 億美元資本預算 / 魏哲家",
         "total_engagement": 89,
-        "post_count": 31
+        "post_count": 31,
+        "top_account": "technews_tw",
+        "top_account_engagement": 89
       },
       {
         "topic_id": 16,
         "label": "etf / 韓股 / 推出 / 台股",
         "total_engagement": 80,
-        "post_count": 7
+        "post_count": 7,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 68
       },
       {
         "topic_id": 3,
         "label": "tw / udn / links / edn",
         "total_engagement": 75,
-        "post_count": 19
+        "post_count": 19,
+        "top_account": "dnystedt",
+        "top_account_engagement": 75
       },
       {
         "topic_id": 14,
         "label": "台股 / 點作收 / 查看更多 / 關稅",
         "total_engagement": 41,
-        "post_count": 14
+        "post_count": 14,
+        "top_account": "technews_tw",
+        "top_account_engagement": 41
       },
       {
         "topic_id": 0,
         "label": "id / tw / aspx / links",
         "total_engagement": 31,
-        "post_count": 6
+        "post_count": 6,
+        "top_account": "dnystedt",
+        "top_account_engagement": 28
       },
       {
         "topic_id": 20,
         "label": "英特爾 / 晶圓代工 / 查看更多 / 軟銀",
         "total_engagement": 30,
-        "post_count": 11
+        "post_count": 11,
+        "top_account": "technews_tw",
+        "top_account_engagement": 30
       },
       {
         "topic_id": 10,
         "label": "三星 / sk海力士 / 摺疊手機 / ds",
         "total_engagement": 29,
-        "post_count": 18
+        "post_count": 18,
+        "top_account": "technews_tw",
+        "top_account_engagement": 29
       },
       {
         "topic_id": 2,
         "label": "datatrack / 看詳情 / 了解詳情 / fed",
         "total_engagement": 18,
-        "post_count": 22
+        "post_count": 22,
+        "top_account": "TrendForce",
+        "top_account_engagement": 18
       },
       {
         "topic_id": 5,
         "label": "pixel / google / 新一代 / 將於",
         "total_engagement": 8,
-        "post_count": 4
+        "post_count": 4,
+        "top_account": "technews_tw",
+        "top_account_engagement": 8
       },
       {
         "topic_id": 18,
         "label": "公里 / nasa / 烏克蘭 / 台積電",
         "total_engagement": 4,
-        "post_count": 4
+        "post_count": 4,
+        "top_account": "technews_tw",
+        "top_account_engagement": 4
       },
       {
         "topic_id": 12,
         "label": "塵暴時期 / 月美國本土均溫飆至 / 超越 / 年歷史紀錄",
         "total_engagement": 1,
-        "post_count": 2
+        "post_count": 2,
+        "top_account": "technews_tw",
+        "top_account_engagement": 1
       },
       {
         "topic_id": 7,
         "label": "gb / 查看更多 / tlc / tlc晶圓價格下跌",
         "total_engagement": 0,
-        "post_count": 16
+        "post_count": 16,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 11,
         "label": "ddr / 查看更多 / 與ddr / 下跌",
         "total_engagement": 0,
-        "post_count": 19
+        "post_count": 19,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 6,
         "label": "新聞來源 / sk / pc / dram",
         "total_engagement": 0,
-        "post_count": 33
+        "post_count": 33,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 4,
         "label": "查看更多",
         "total_engagement": 0,
-        "post_count": 283
+        "post_count": 283,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 21,
         "label": "amoled / 看詳情 / 轉向 / 了解詳情",
         "total_engagement": 0,
-        "post_count": 4
+        "post_count": 4,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       }
     ],
     "posting_timeslot_analysis": {

@@ -70,11 +70,11 @@
         "volume": 17,
         "engagement": 446,
         "entities": [
+          "AI",
+          "Nvidia",
           "輝達",
-          "智慧",
-          "伺服器",
-          "世代交替",
-          "雲端"
+          "Groq",
+          "Rubin"
         ]
       },
       {
@@ -86,9 +86,9 @@
         "entities": [
           "輝達",
           "三星",
+          "HBM",
           "矽晶圓",
-          "美光",
-          "中國"
+          "美光"
         ]
       },
       {
@@ -98,11 +98,11 @@
         "volume": 25,
         "engagement": 0,
         "entities": [
-          "長江",
-          "利基",
-          "合約",
-          "續揚",
-          "台廠"
+          "Samsung",
+          "DRAM",
+          "Micron",
+          "Kioxia",
+          "SanDisk"
         ]
       },
       {
@@ -203,9 +203,11 @@
         "volume": 9,
         "engagement": 0,
         "entities": [
+          "Pixel",
           "三星",
-          "巴克",
-          "智慧"
+          "AI",
+          "Google",
+          "Google發表會"
         ]
       },
       {
@@ -215,11 +217,11 @@
         "volume": 7,
         "engagement": 0,
         "entities": [
+          "OpenAI",
           "美參議員",
           "桑德斯",
           "日本",
-          "太陽",
-          "微軟"
+          "太陽"
         ]
       },
       {
@@ -361,6 +363,10 @@
         "count": 23
       },
       {
+        "entity": "AI",
+        "count": 22
+      },
+      {
         "entity": "川普",
         "count": 17
       },
@@ -383,10 +389,6 @@
       {
         "entity": "微軟",
         "count": 14
-      },
-      {
-        "entity": "馬斯克",
-        "count": 13
       }
     ],
     "sentiment_trend_curve": [
@@ -395,98 +397,530 @@
         "bucket_end": "2026-08-13T05:04:39.142859+08:00",
         "positive": 1,
         "neutral": 2,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 80,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 2
+          },
+          {
+            "topic_id": 17,
+            "label": "gb / tlc / 查看更多 / tlc晶圓價格下跌",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Just published: front page of the Financial Times, UK edition, Thursday August 13  https:// ft.trib.al/EMq4LnW",
+            "url": "https://x.com/FT/status/2087638037115093034",
+            "interaction": 80
+          },
+          {
+            "handle": "TrendForce.tw",
+            "platform": "Facebook",
+            "text": "2026 年全固態電池邁入工程化驗證關鍵期，日韓廠商車規電芯性能驗證率先突破。當研發重心從實驗室材料轉向製造一致性與車規驗證，哪些廠商能率先跨越 TRL5-6 門檻？TrendForce 分析主要區域市場全固態電池發展態勢：\nhttps://buff.ly/Gxljdg7",
+            "url": "https://www.facebook.com/TrendForce.tw/posts/pfbid0ozq1Xn8NsLk3uvU3E2N6dQ3itVV6sombUnWzBqBjPQ6w6qoZcQe1bsFxhstqJqnkl?__cft__[0]=AZY1ZAVFLiOyHopyBpfdFQ9OD_EgzsDTdExC6_4m2m3mH8VRIWqjQB2UjrgrEEV2RknKXbGZpdXTq-5E-f1j3QKkc12_5po94izmWi9SoDwEnJ8LjoXGJYRFXgWVV7Zaf_IfXPiSQ2xcIth0MkWV2qH7l2O_cdn-ueKUe5ZS8pOas5UrLrf6vv_TtrzFDrTHSb8",
+            "interaction": 0
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T05:04:39.142859+08:00",
         "bucket_end": "2026-08-13T05:38:56.285716+08:00",
         "positive": 0,
         "neutral": 1,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 92,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "nvidia / rubin / server / 輝達",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Wall Street giants bet Nvidia’s AI chips will defy the laws of finance",
+            "url": "https://x.com/FT/status/2087652099312013763",
+            "interaction": 92
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T05:38:56.285716+08:00",
         "bucket_end": "2026-08-13T06:13:13.428573+08:00",
         "positive": 0,
         "neutral": 1,
-        "negative": 2
+        "negative": 2,
+        "net_sentiment": -66.7,
+        "post_count": 3,
+        "engagement": 117,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 3
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Europe experienced its first total solar eclipse of this century, as the Moon’s shadow raced over the Arctic and down eastern Greenland, before touching the far west of Iceland and finally crossing no",
+            "url": "https://x.com/FT/status/2087658592031690987",
+            "interaction": 67
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "What a day for  $NBIS   +34% is crazy",
+            "url": "https://x.com/HyperTechInvest/status/2087659673348706681",
+            "interaction": 50
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T06:13:13.428573+08:00",
         "bucket_end": "2026-08-13T06:47:30.571430+08:00",
         "positive": 4,
         "neutral": 1,
-        "negative": 1
+        "negative": 1,
+        "net_sentiment": 50.0,
+        "post_count": 6,
+        "engagement": 1629,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 6
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Elon shocked the world again on SpaceX's first earnings call: 6-8GW of incremental datacenters in 2027 alone, possibly well above 10GW. Sounds impossible, but we believe it. We see SpaceX on track for",
+            "url": "https://x.com/SemiAnalysis_/status/2087667981031506158",
+            "interaction": 1056
+          },
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Korean media reported that Samsung Electronics is expected to unveil concrete shareholder return measures, including a special dividend, along with its next three year policy, as early as this month. ",
+            "url": "https://x.com/jukan05/status/2087670240511684620",
+            "interaction": 315
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T06:47:30.571430+08:00",
         "bucket_end": "2026-08-13T07:21:47.714287+08:00",
         "positive": 10,
         "neutral": 15,
-        "negative": 7
+        "negative": 7,
+        "net_sentiment": 9.4,
+        "post_count": 32,
+        "engagement": 167,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 16
+          },
+          {
+            "topic_id": 0,
+            "label": "查看更多",
+            "count": 13
+          },
+          {
+            "topic_id": 11,
+            "label": "eps / 每股稅後純益 / 華邦電 / 單季",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Insurers controlled by the Guggenheim Partners CEO are looking to divest outsized holdings of private credit loans linked to other parts of his investment portfolio.  https:// ft.trib.al/o4wkKuY",
+            "url": "https://x.com/FT/status/2087672750940770451",
+            "interaction": 163
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#AI 算力狂飆引爆電力革命！#輝達 攜手 #Google、#微軟 推進 800 VDC 與固態變壓器新架構，資料中心供電正式跨入 MW 級時代。",
+            "url": "https://x.com/technews_tw/status/2087676567753523538",
+            "interaction": 4
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T07:21:47.714287+08:00",
         "bucket_end": "2026-08-13T07:56:04.857144+08:00",
         "positive": 58,
         "neutral": 114,
-        "negative": 55
+        "negative": 55,
+        "net_sentiment": 1.3,
+        "post_count": 227,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 75
+          },
+          {
+            "topic_id": 0,
+            "label": "查看更多",
+            "count": 28
+          },
+          {
+            "topic_id": 2,
+            "label": "新聞來源 / pc / mlcc / sk",
+            "count": 28
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "TrendForce.tw",
+            "platform": "Facebook",
+            "text": "Google遭歐盟重罰，川普隔天就揚言啟動301條調查並加徵關稅，科技監管爭議會不會演變成貿易戰？\n \nhttps://buff.ly/audC3gt\n#\n…… \n查看更多",
+            "url": "https://www.facebook.com/TrendForce.tw/posts/pfbid058DwtUCzfEpawXaJoQJWV6o8guRdPKrn1qSM65RPuDqQWq3kdxr7hWXVRYACGFZHl?__cft__[0]=AZalGF7x-gfDpXyb07cwJzFSxg40Qmg4i3sjbfmxkNZyREc4_6dl0hG5sLQv582SMwWtCmK3fRN8MoFk8tLlWvma8WfFddARjrsrF-A8MC-9V3dnCR-KICgYR7SQ8gV3HhrZWDubv8ZGx_xMb_-GW-PEgYzN1aaIchweyaf4Z0gGZYI8qXaO2nmakLV-FOf6m-c",
+            "interaction": 0
+          },
+          {
+            "handle": "TrendForce.tw",
+            "platform": "Facebook",
+            "text": "三星規劃於平澤 P5 導入 hybrid bonding 設備，但量產時程可能遲至 2029-30 年。\n 新聞來源：\nhttps://buff.ly/ABu3ZWr",
+            "url": "https://www.facebook.com/reel/1758377648808841/?__cft__[0]=AZaPGiUUjziSWF1J9mBnTtWfTe43TgJ5z0OmTbOaPUCgCZ8yaQe4bkA2Ix_GPtKdNtxGGr87fYOPuC6xJxsOVL2IcTPZfZu9BnrfvueuCdHNBYL3FlRxqou4Jn4_rLh_UBxDLOFCktSlgTgCr6LTT3TCMjHkwpu_-Q5Sjz8rnQWzQXXEgC-o2HiORnBCFj_jMPWsZTTkwc0SVUCsCFaDkUUi",
+            "interaction": 0
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T07:56:04.857144+08:00",
         "bucket_end": "2026-08-13T08:30:22.000001+08:00",
         "positive": 3,
         "neutral": 0,
-        "negative": 2
+        "negative": 2,
+        "net_sentiment": 20.0,
+        "post_count": 5,
+        "engagement": 368,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 5
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "SK Securities: Memory Revaluation Stemming from a Shift in the Perception of Compute  Perception of compute: from consumable to asset  AI compute is not a consumable. Rather than a technology good who",
+            "url": "https://x.com/jukan05/status/2087689684298461445",
+            "interaction": 300
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Good morning! 8/13 Foreign Media Summary  - 3653 Chiens: Asian firms raise target Asian brokers indicate that 2Q earnings beat expectations, especially the strong performance of a 46.8% gross margin, ",
+            "url": "https://x.com/QQ_Timmy/status/2087693539862048908",
+            "interaction": 38
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T08:30:22.000001+08:00",
         "bucket_end": "2026-08-13T09:04:39.142858+08:00",
         "positive": 89,
         "neutral": 102,
-        "negative": 53
+        "negative": 53,
+        "net_sentiment": 14.8,
+        "post_count": 244,
+        "engagement": 420,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 176
+          },
+          {
+            "topic_id": 0,
+            "label": "查看更多",
+            "count": 34
+          },
+          {
+            "topic_id": 5,
+            "label": "台積電 / 查看更多 / 索尼 / 影像感測器",
+            "count": 8
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "PoV of NVIDIA acquiring Groq, and then the leftover of Groq is now buying NVIDIA B300/GB300/Rubin GPUs & LPUs and renting them out to enterprises/neolabs. A lot of the clusters Groq is renting out don",
+            "url": "https://x.com/SemiAnalysis_/status/2087698883593834946",
+            "interaction": 273
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Nvidia Vera Rubin-based AI servers begins mass production in the 3rd quarter at Foxconn, and shipments will ramp up in the 4th quarter, media report, adding Foxconn has won new ASIC customers as well,",
+            "url": "https://x.com/dnystedt/status/2087701587380810096",
+            "interaction": 47
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T09:04:39.142858+08:00",
         "bucket_end": "2026-08-13T09:38:56.285715+08:00",
         "positive": 3,
         "neutral": 4,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 42.9,
+        "post_count": 7,
+        "engagement": 688,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 4
+          },
+          {
+            "topic_id": 1,
+            "label": "hbm / rubin / ultra / 三星",
+            "count": 2
+          },
+          {
+            "topic_id": 6,
+            "label": "nvidia / rubin / server / 輝達",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "HBM will actually be in shorter supply in 2028 than in 2027—meaning that the HBM configurations of 2028 AI accelerators will also be scaled back.",
+            "url": "https://x.com/jukan05/status/2087711056470987222",
+            "interaction": 387
+          },
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "image",
+            "url": "https://x.com/SemiAnalysis_/status/2087713601825972495",
+            "interaction": 139
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T09:38:56.285715+08:00",
         "bucket_end": "2026-08-13T10:13:13.428572+08:00",
         "positive": 95,
         "neutral": 65,
-        "negative": 59
+        "negative": 59,
+        "net_sentiment": 16.4,
+        "post_count": 219,
+        "engagement": 203,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 109
+          },
+          {
+            "topic_id": 0,
+            "label": "查看更多",
+            "count": 74
+          },
+          {
+            "topic_id": 15,
+            "label": "台股 / 查看更多 / 早盤一度觸及 / 重返",
+            "count": 8
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The first member of Gen Z to hold the position spoke for her septuagenarian boss far more effectively than her forerunners, knocking back reporters’ questions and winning praise from the president for",
+            "url": "https://x.com/FT/status/2087723214524875234",
+            "interaction": 117
+          },
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "DSv4, Kimi, Qwen & upcoming GLM models are all quite good at cyber security. We are in for a crazy next 18 months when all the vulnerabilities get identified & exploited.  China’s security state has a",
+            "url": "https://x.com/tphuang/status/2087718791564452211",
+            "interaction": 50
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T10:13:13.428572+08:00",
         "bucket_end": "2026-08-13T10:47:30.571429+08:00",
         "positive": 90,
         "neutral": 51,
-        "negative": 49
+        "negative": 49,
+        "net_sentiment": 21.6,
+        "post_count": 190,
+        "engagement": 12,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "查看更多",
+            "count": 125
+          },
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 46
+          },
+          {
+            "topic_id": 9,
+            "label": "早晨財經速解讀 / 查看更多 / 萬口 / spacex",
+            "count": 12
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "#Intel’s interposer-less XBM technology targets direct CPU-memory 3D stacking to drastically boost latency and power efficiency, creating key differentiators for its chip designs and Intel Foundry pac",
+            "url": "https://x.com/trendforce/status/2087726738940002319",
+            "interaction": 11
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "中國長征七號甲火箭升空爆炸！隨高密度發射推進，近三年失利頻率從每 34 次縮短至約 14 次失利一次，成功率下滑至 92.86%。",
+            "url": "https://x.com/technews_tw/status/2087726908272500840",
+            "interaction": 1
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T10:47:30.571429+08:00",
         "bucket_end": "2026-08-13T11:21:47.714286+08:00",
         "positive": 3,
         "neutral": 3,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 50.0,
+        "post_count": 6,
+        "engagement": 402,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 5
+          },
+          {
+            "topic_id": 6,
+            "label": "nvidia / rubin / server / 輝達",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "It seems Intel is bullish on CXL. Interesting.  \"Moving workloads or the KV cache outside the GPU does not automatically remove the bottleneck.\"  \"Effective KV cache offloading requires faster chip to",
+            "url": "https://x.com/jukan05/status/2087739104306020545",
+            "interaction": 184
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "BofA updates  $NBIS  target from $280 to $310",
+            "url": "https://x.com/HyperTechInvest/status/2087739298380697878",
+            "interaction": 110
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T11:21:47.714286+08:00",
         "bucket_end": "2026-08-13T11:56:04.857143+08:00",
         "positive": 3,
         "neutral": 0,
-        "negative": 1
+        "negative": 1,
+        "net_sentiment": 50.0,
+        "post_count": 4,
+        "engagement": 25,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 4
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Everyone is focused on U.S. hyperscalers  Meanwhile, in China, Tencent just posted negative free cash flow for the first time since 2004  Tencent is now spending $9 billion in AI capex per quarter, mo",
+            "url": "https://x.com/HyperTechInvest/status/2087743709429600557",
+            "interaction": 13
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Kioxia and Sandisk have unveiled the 9th-generation high-performance 2Tb QLC 3D flash memory, designed specifically for AI infrastructure and data-intensive applications.  The core technology adopts a",
+            "url": "https://x.com/QQ_Timmy/status/2087743148877599214",
+            "interaction": 12
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T11:56:04.857143+08:00",
         "bucket_end": "2026-08-13T12:30:22+08:00",
         "positive": 5,
         "neutral": 6,
-        "negative": 1
+        "negative": 1,
+        "net_sentiment": 33.3,
+        "post_count": 12,
+        "engagement": 34,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
+            "count": 11
+          },
+          {
+            "topic_id": 6,
+            "label": "nvidia / rubin / server / 輝達",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Trump is taxing the dark matter that pays America’s way  https:// ft.trib.al/DWWdHWw  | opinion",
+            "url": "https://x.com/FT/status/2087755541749613029",
+            "interaction": 7
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Anthropic investors bet on $2tn valuation in record IPO",
+            "url": "https://x.com/FT/status/2087757496781869088",
+            "interaction": 6
+          }
+        ]
       }
     ],
     "coverage_focus_ranking": [
@@ -601,133 +1035,177 @@
         "topic_id": 8,
         "label": "查看更多 / 蘋果 / 輝達 / 英特爾",
         "total_engagement": 3405,
-        "post_count": 463
+        "post_count": 463,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 1368
       },
       {
         "topic_id": 6,
         "label": "nvidia / rubin / server / 輝達",
         "total_engagement": 446,
-        "post_count": 17
+        "post_count": 17,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 273
       },
       {
         "topic_id": 1,
         "label": "hbm / rubin / ultra / 三星",
         "total_engagement": 387,
-        "post_count": 11
+        "post_count": 11,
+        "top_account": "jukan05",
+        "top_account_engagement": 387
       },
       {
         "topic_id": 4,
         "label": "nand / dram / flash / samsung",
         "total_engagement": 0,
-        "post_count": 25
+        "post_count": 25,
+        "top_account": "technews_tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 17,
         "label": "gb / tlc / 查看更多 / tlc晶圓價格下跌",
         "total_engagement": 0,
-        "post_count": 13
+        "post_count": 13,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 0,
         "label": "查看更多",
         "total_engagement": 0,
-        "post_count": 274
+        "post_count": 274,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 2,
         "label": "新聞來源 / pc / mlcc / sk",
         "total_engagement": 0,
-        "post_count": 28
+        "post_count": 28,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 16,
         "label": "datatrack / 了解詳情 / capex",
         "total_engagement": 0,
-        "post_count": 16
+        "post_count": 16,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 7,
         "label": "ddr / 查看更多 / dram / 與ddr",
         "total_engagement": 0,
-        "post_count": 17
+        "post_count": 17,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 5,
         "label": "台積電 / 查看更多 / 索尼 / 影像感測器",
         "total_engagement": 0,
-        "post_count": 16
+        "post_count": 16,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 10,
         "label": "csp / asic / server / mlcc",
         "total_engagement": 0,
-        "post_count": 8
+        "post_count": 8,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 3,
         "label": "看詳情 / datatrack / amoled / inference",
         "total_engagement": 0,
-        "post_count": 6
+        "post_count": 6,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 13,
         "label": "google / deepmind / 查看更多 / 三星",
         "total_engagement": 0,
-        "post_count": 9
+        "post_count": 9,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 21,
         "label": "openai / 全新 / astra / mlcc",
         "total_engagement": 0,
-        "post_count": 7
+        "post_count": 7,
+        "top_account": "technewsinside",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 14,
         "label": "racco / 查看更多",
         "total_engagement": 0,
-        "post_count": 2
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 11,
         "label": "eps / 每股稅後純益 / 華邦電 / 單季",
         "total_engagement": 0,
-        "post_count": 10
+        "post_count": 10,
+        "top_account": "technewsinside",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 19,
         "label": "台股逐洞賽 / 查看更多",
         "total_engagement": 0,
-        "post_count": 3
+        "post_count": 3,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 18,
         "label": "名家評論 / 查看更多 / 人工智慧 / 高達",
         "total_engagement": 0,
-        "post_count": 5
+        "post_count": 5,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 12,
         "label": "盤前 / 查看更多 / sandisk",
         "total_engagement": 0,
-        "post_count": 6
+        "post_count": 6,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 15,
         "label": "台股 / 查看更多 / 早盤一度觸及 / 重返",
         "total_engagement": 0,
-        "post_count": 9
+        "post_count": 9,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 9,
         "label": "早晨財經速解讀 / 查看更多 / 萬口 / spacex",
         "total_engagement": 0,
-        "post_count": 13
+        "post_count": 13,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 20,
         "label": "增幅約 / 查看更多",
         "total_engagement": 0,
-        "post_count": 2
+        "post_count": 2,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 0
       }
     ],
     "posting_timeslot_analysis": {

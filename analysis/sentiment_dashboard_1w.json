@@ -42,11 +42,11 @@
         "volume": 752,
         "engagement": 29750,
         "entities": [
+          "AI",
           "美國",
           "中國",
           "日本",
-          "台灣",
-          "台積電"
+          "台灣"
         ]
       },
       {
@@ -57,10 +57,10 @@
         "engagement": 472,
         "entities": [
           "輝達",
-          "三星",
-          "SK海力士",
-          "矽晶圓",
-          "世代交替"
+          "HBM",
+          "Micron",
+          "micron",
+          "三星"
         ]
       },
       {
@@ -70,11 +70,11 @@
         "volume": 14,
         "engagement": 220,
         "entities": [
+          "DRAM",
+          "Micron",
           "美光",
-          "維吉尼亞州",
-          "合約",
-          "續揚",
-          "台廠"
+          "AI",
+          "Samsung"
         ]
       },
       {
@@ -84,11 +84,11 @@
         "volume": 20,
         "engagement": 228,
         "entities": [
+          "Samsung",
           "長江",
           "修正",
-          "伺服器",
-          "利基",
-          "智慧"
+          "NAND Flash",
+          "Kioxia"
         ]
       },
       {
@@ -98,9 +98,11 @@
         "volume": 6,
         "engagement": 1091,
         "entities": [
-          "英特爾",
-          "曝光",
-          "龐大"
+          "intel",
+          "Intel",
+          "CXL",
+          "XBM",
+          "CPU"
         ]
       },
       {
@@ -112,9 +114,9 @@
         "entities": [
           "華邦電",
           "季增",
+          "EPS",
           "伺服器",
-          "單季營",
-          "飛捷"
+          "OCS"
         ]
       },
       {
@@ -137,7 +139,13 @@
         "heat": 10.0,
         "volume": 1,
         "engagement": 12,
-        "entities": []
+        "entities": [
+          "Kioxia",
+          "Sandisk",
+          "QLC",
+          "AI",
+          "CBA"
+        ]
       },
       {
         "topic_id": 16,
@@ -146,8 +154,11 @@
         "volume": 20,
         "engagement": 6,
         "entities": [
-          "美國",
-          "中國"
+          "Sercomm",
+          "DDR",
+          "AVGO",
+          "SoCs",
+          "HBM"
         ]
       },
       {
@@ -186,9 +197,10 @@
         "engagement": 0,
         "entities": [
           "北美",
+          "CSP",
           "伺服器",
-          "長約",
-          "相對寬"
+          "AI",
+          "Amazon"
         ]
       },
       {
@@ -199,10 +211,10 @@
         "engagement": 0,
         "entities": [
           "伺服器",
+          "AI",
           "三星",
-          "階特",
-          "智慧",
-          "韓大廠"
+          "BB Ratio",
+          "Murata"
         ]
       },
       {
@@ -213,7 +225,8 @@
         "engagement": 0,
         "entities": [
           "三星",
-          "於平澤"
+          "於平澤",
+          "Hybrid Bonding"
         ]
       },
       {
@@ -312,7 +325,13 @@
         "heat": 10.0,
         "volume": 2,
         "engagement": 0,
-        "entities": []
+        "entities": [
+          "YoY",
+          "SOCAMM",
+          "Rubin BOM   ",
+          "GB DRAM",
+          "DDR"
+        ]
       }
     ],
     "named_entities": [
@@ -327,6 +346,10 @@
       {
         "entity": "台灣",
         "count": 66
+      },
+      {
+        "entity": "AI",
+        "count": 59
       },
       {
         "entity": "日本",
@@ -349,8 +372,16 @@
         "count": 24
       },
       {
+        "entity": "US",
+        "count": 22
+      },
+      {
         "entity": "歐洲",
         "count": 22
+      },
+      {
+        "entity": "Taiwan",
+        "count": 21
       },
       {
         "entity": "太陽",
@@ -363,18 +394,6 @@
       {
         "entity": "韓國",
         "count": 17
-      },
-      {
-        "entity": "英特爾",
-        "count": 16
-      },
-      {
-        "entity": "上市",
-        "count": 15
-      },
-      {
-        "entity": "微軟",
-        "count": 14
       }
     ],
     "sentiment_trend_curve": [
@@ -383,98 +402,500 @@
         "bucket_end": "2026-08-07T00:30:22+08:00",
         "positive": 5,
         "neutral": 2,
-        "negative": 2
+        "negative": 2,
+        "net_sentiment": 33.3,
+        "post_count": 9,
+        "engagement": 490,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 9
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Cutting the price target by 40% says more about the analyst than it does about  $SNDK",
+            "url": "https://x.com/HyperTechInvest/status/2085395269685031076",
+            "interaction": 150
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Pretty useful chart from Bernstein on MW monetization",
+            "url": "https://x.com/HyperTechInvest/status/2085395824910168554",
+            "interaction": 116
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-07T00:30:22+08:00",
         "bucket_end": "2026-08-07T12:30:22+08:00",
         "positive": 7,
         "neutral": 3,
-        "negative": 4
+        "negative": 4,
+        "net_sentiment": 21.4,
+        "post_count": 14,
+        "engagement": 3541,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 14
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "YC mantra is \"talk to your users\" Yet every good AI or software founder I know secretly thinks their users are retards",
+            "url": "https://x.com/dylan522p/status/2085480002917945449",
+            "interaction": 2327
+          },
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "Shrek is love, Shrek is life",
+            "url": "https://x.com/dylan522p/status/2085527605609128266",
+            "interaction": 413
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-07T12:30:22+08:00",
         "bucket_end": "2026-08-08T00:30:22+08:00",
         "positive": 2,
         "neutral": 2,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 50.0,
+        "post_count": 4,
+        "engagement": 345,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 4
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "Team just posted a note with the title \"I can make your Bedrock\" to discuss Amazon bedrock revenue mix to institional clients. Incredible title",
+            "url": "https://x.com/dylan522p/status/2085610927760511360",
+            "interaction": 154
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Citi says the memory pullback is a buying opportunity  Reiterates Buy rating on  $SKHY , raises its 2026 and 2027 operating profit estimates by 4% and 3%, respectively, and maintains its ₩3.1M price t",
+            "url": "https://x.com/HyperTechInvest/status/2085692152290652245",
+            "interaction": 144
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-08T00:30:22+08:00",
         "bucket_end": "2026-08-08T12:30:22+08:00",
         "positive": 1,
         "neutral": 0,
-        "negative": 5
+        "negative": 5,
+        "net_sentiment": -66.7,
+        "post_count": 6,
+        "engagement": 1413,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 6
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "So SemiAnalysis now thinks  $SPCX  will generate a $305B revenue run rate by the end of 2027  That’s almost 2x AWS’s run rate  How could SpaceX possibly build 8 GW in 2027 alone?  Even putting aside w",
+            "url": "https://x.com/HyperTechInvest/status/2085842655926501764",
+            "interaction": 646
+          },
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "Everyone in SF is talking about OSL, but no one wanna talk about ISL and cache hit rates :(",
+            "url": "https://x.com/dylan522p/status/2085894617065734600",
+            "interaction": 285
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-08T12:30:22+08:00",
         "bucket_end": "2026-08-09T00:30:22+08:00",
         "positive": 1,
         "neutral": 0,
-        "negative": 1
+        "negative": 1,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 690,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "nvidianewsroom",
+            "platform": "X",
+            "text": "Today in Armenia,  @FirebirdCloudAI  announced the launch of the CIS region's largest AI factory, designed to bring global demand for AI infrastructure, local development opportunities and new economi",
+            "url": "https://x.com/nvidianewsroom/status/2086036542502384018",
+            "interaction": 486
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Goldman Sachs Estimates on Hyperscaler FCF Through 2030  I think it’d be a bit shocking if hyperscalers changed their minds so quickly from   “I have to invest every last penny”   to   “I don’t need t",
+            "url": "https://x.com/HyperTechInvest/status/2086068146419683726",
+            "interaction": 204
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-09T00:30:22+08:00",
         "bucket_end": "2026-08-09T12:30:22+08:00",
         "positive": 2,
         "neutral": 1,
-        "negative": 4
+        "negative": 4,
+        "net_sentiment": -28.6,
+        "post_count": 7,
+        "engagement": 869,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 7
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "The amount of people that have blocked me for sharing the news of  $NBIS  Vineland issues...  What's even the point of social media with that mindset   And I've been a big  $NBIS  bull since it was in",
+            "url": "https://x.com/HyperTechInvest/status/2086184767553446153",
+            "interaction": 212
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "I think this is all priced in  We're closer to a ST bottom than a peak  When you look at the charts and the news we’ve gotten over the last few weeks, it becomes obvious  Would’ve been a sharp take a ",
+            "url": "https://x.com/HyperTechInvest/status/2086132620140879960",
+            "interaction": 132
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-09T12:30:22+08:00",
         "bucket_end": "2026-08-10T00:30:22+08:00",
         "positive": 1,
         "neutral": 0,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 463,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$AMZN   Approved for The Largest Permitted Power Campus for AI Data Centers   $AMZN  has been revealed as the company behind the 7.65 GW Data Center project in Pecos County, West Texas  The campus is ",
+            "url": "https://x.com/HyperTechInvest/status/2086457446793654368",
+            "interaction": 463
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-10T00:30:22+08:00",
         "bucket_end": "2026-08-10T12:30:22+08:00",
         "positive": 6,
         "neutral": 2,
-        "negative": 3
+        "negative": 3,
+        "net_sentiment": 27.3,
+        "post_count": 11,
+        "engagement": 883,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 10
+          },
+          {
+            "topic_id": 11,
+            "label": "dram / micron / samsung / skhynix",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "DigiTimes reports that Samsung,  $SKHY , and  $MU  have secured $38B in advance payments, deposits, and collateral tied to LTAs, giving them unusually strong pricing power and demand visibility throug",
+            "url": "https://x.com/HyperTechInvest/status/2086625760463441967",
+            "interaction": 141
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "TSMC is pushing hard on both Co-Packaged Optics (COUPE Silicon Photonics engine) and CoPoS advanced packaging, which display panel maker AUO hopes to take part in, media report. The AUO Group sees a c",
+            "url": "https://x.com/dnystedt/status/2086606768403325434",
+            "interaction": 111
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-10T12:30:22+08:00",
         "bucket_end": "2026-08-11T00:30:22+08:00",
         "positive": 3,
         "neutral": 4,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 42.9,
+        "post_count": 7,
+        "engagement": 870,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 6
+          },
+          {
+            "topic_id": 0,
+            "label": "intel / memory / foundry / 太空科技",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "We are excited to see Intel is capitalizing on the opportunity ahead of it, and hope they can raise even more capital soon to execute on their foundry ambitions!   https:// newsroom.intel.com/corporat",
+            "url": "https://x.com/SemiAnalysis_/status/2086806145172410849",
+            "interaction": 360
+          },
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "The  @vllm_project  maintainers at  @inferact   are some of the most cracked engineers in the world. They’re building one of the inference engines that powers much of the world’s intelligence—and doin",
+            "url": "https://x.com/SemiAnalysis_/status/2086815217497849987",
+            "interaction": 221
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-11T00:30:22+08:00",
         "bucket_end": "2026-08-11T12:30:22+08:00",
         "positive": 10,
         "neutral": 3,
-        "negative": 6
+        "negative": 6,
+        "net_sentiment": 21.1,
+        "post_count": 19,
+        "engagement": 4071,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 19
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "nvidianewsroom",
+            "platform": "X",
+            "text": "NEWS: NVIDIA is partnering with  @apolloglobal ,  @BlackRock ,  @blackstone ,  @brookfield ,  @GoldmanSachs  and  @KKR_Co  to establish AI compute infrastructure financing platforms to mobilize over $",
+            "url": "https://x.com/nvidianewsroom/status/2086920814520066549",
+            "interaction": 1502
+          },
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "\"Google has an L culture and has never actually made anything internally. They've only ever acquired all their innovation, and their execution is very poor.\"  \"Let's seriously do some accounting. Ever",
+            "url": "https://x.com/SemiAnalysis_/status/2086985543007527327",
+            "interaction": 847
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-11T12:30:22+08:00",
         "bucket_end": "2026-08-12T00:30:22+08:00",
         "positive": 14,
         "neutral": 5,
-        "negative": 5
+        "negative": 5,
+        "net_sentiment": 37.5,
+        "post_count": 24,
+        "engagement": 1072,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 23
+          },
+          {
+            "topic_id": 0,
+            "label": "intel / memory / foundry / 太空科技",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "nvidianewsroom",
+            "platform": "X",
+            "text": "Today, NVIDIA announced Nemotron 3.5 Lightning and NeMo Switchyard — two new open technologies for building faster, more efficient AI systems that can use the right model for each task.  Together, the",
+            "url": "https://x.com/nvidianewsroom/status/2087172786141733067",
+            "interaction": 386
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Another case of comparing apples to oranges   $IREN  decided to pursue the neocloud business   $RIOT  model is completely different  With colocation, you’re leveraging access to power, which makes sig",
+            "url": "https://x.com/HyperTechInvest/status/2087131966021750840",
+            "interaction": 144
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-12T00:30:22+08:00",
         "bucket_end": "2026-08-12T12:30:22+08:00",
         "positive": 17,
         "neutral": 14,
-        "negative": 3
+        "negative": 3,
+        "net_sentiment": 41.2,
+        "post_count": 34,
+        "engagement": 5507,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 29
+          },
+          {
+            "topic_id": 8,
+            "label": "eps / 每股稅後純益 / 華邦電 / eps為",
+            "count": 2
+          },
+          {
+            "topic_id": 11,
+            "label": "dram / micron / samsung / skhynix",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "[Exclusive] Singapore's Temasek to Buy Into Samsung, SK Hynix… Its First Ever Investment in Korean Stocks  Temasek, one of Asia's largest sovereign wealth funds, is making a new investment in Samsung ",
+            "url": "https://x.com/jukan05/status/2087370700999028777",
+            "interaction": 1769
+          },
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Lately, I’ve become addicted to sending stock charts to 5.6 Sol and asking whether they look worth entering. It even draws support and resistance lines directly on the chart and marks potential entry ",
+            "url": "https://x.com/jukan05/status/2087356288217039258",
+            "interaction": 1113
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-12T12:30:22+08:00",
         "bucket_end": "2026-08-13T00:30:22+08:00",
         "positive": 66,
         "neutral": 68,
-        "negative": 37
+        "negative": 37,
+        "net_sentiment": 17.0,
+        "post_count": 171,
+        "engagement": 6395,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 112
+          },
+          {
+            "topic_id": 1,
+            "label": "查看更多",
+            "count": 31
+          },
+          {
+            "topic_id": 3,
+            "label": "hbm / rubin / ultra / 輝達",
+            "count": 4
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Samsung Electronics has been confirmed to have adopted Anthropic's large language model Claude, sharply reducing the time required for some semiconductor design and verification work, according to Kor",
+            "url": "https://x.com/jukan05/status/2087408707000992100",
+            "interaction": 1194
+          },
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "If a bagel can have everything, so can I",
+            "url": "https://x.com/dylan522p/status/2087405029410103632",
+            "interaction": 701
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T00:30:22+08:00",
         "bucket_end": "2026-08-13T12:30:22+08:00",
         "positive": 366,
         "neutral": 366,
-        "negative": 232
+        "negative": 232,
+        "net_sentiment": 13.9,
+        "post_count": 964,
+        "engagement": 5213,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "查看更多 / gb / nvidia / memory",
+            "count": 509
+          },
+          {
+            "topic_id": 1,
+            "label": "查看更多",
+            "count": 268
+          },
+          {
+            "topic_id": 14,
+            "label": "新聞來源 / sk / 生態系 / amazon",
+            "count": 21
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Elon shocked the world again on SpaceX's first earnings call: 6-8GW of incremental datacenters in 2027 alone, possibly well above 10GW. Sounds impossible, but we believe it. We see SpaceX on track for",
+            "url": "https://x.com/SemiAnalysis_/status/2087667981031506158",
+            "interaction": 1056
+          },
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Congrats to  @deepseek_ai  for their release of DeepSeekv4 Pro 0813 1.5T It massively beats Nemotron3 Ultra on agentic tasks.  This is in addition to DeepSeekv4 Flash 0731 beating Nemotron3 Ultra mass",
+            "url": "https://x.com/SemiAnalysis_/status/2087608173729370162",
+            "interaction": 731
+          }
+        ]
       }
     ],
     "coverage_focus_ranking": [
@@ -617,133 +1038,177 @@
         "topic_id": 4,
         "label": "查看更多 / gb / nvidia / memory",
         "total_engagement": 29750,
-        "post_count": 752
+        "post_count": 752,
+        "top_account": "jukan05",
+        "top_account_engagement": 7806
       },
       {
         "topic_id": 0,
         "label": "intel / memory / foundry / 太空科技",
         "total_engagement": 1091,
-        "post_count": 6
+        "post_count": 6,
+        "top_account": "jukan05",
+        "top_account_engagement": 699
       },
       {
         "topic_id": 3,
         "label": "hbm / rubin / ultra / 輝達",
         "total_engagement": 472,
-        "post_count": 16
+        "post_count": 16,
+        "top_account": "jukan05",
+        "top_account_engagement": 387
       },
       {
         "topic_id": 5,
         "label": "nand / flash / dram / samsung",
         "total_engagement": 228,
-        "post_count": 20
+        "post_count": 20,
+        "top_account": "jukan05",
+        "top_account_engagement": 215
       },
       {
         "topic_id": 11,
         "label": "dram / micron / samsung / skhynix",
         "total_engagement": 220,
-        "post_count": 14
+        "post_count": 14,
+        "top_account": "HyperTechInvest",
+        "top_account_engagement": 141
       },
       {
         "topic_id": 8,
         "label": "eps / 每股稅後純益 / 華邦電 / eps為",
         "total_engagement": 39,
-        "post_count": 13
+        "post_count": 13,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 39
       },
       {
         "topic_id": 2,
         "label": "qlc / kioxia / memory / latest",
         "total_engagement": 12,
-        "post_count": 1
+        "post_count": 1,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 12
       },
       {
         "topic_id": 16,
         "label": "ddr / 查看更多 / 下跌 / 與ddr",
         "total_engagement": 6,
-        "post_count": 20
+        "post_count": 20,
+        "top_account": "statementdog",
+        "top_account_engagement": 6
       },
       {
         "topic_id": 12,
         "label": "輝達 / ai資料中心 / 查看更多 / nvidia",
         "total_engagement": 5,
-        "post_count": 16
+        "post_count": 16,
+        "top_account": "technews_tw",
+        "top_account_engagement": 5
       },
       {
         "topic_id": 14,
         "label": "新聞來源 / sk / 生態系 / amazon",
         "total_engagement": 0,
-        "post_count": 24
+        "post_count": 24,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 1,
         "label": "查看更多",
         "total_engagement": 0,
-        "post_count": 299
+        "post_count": 299,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 6,
         "label": "csp / asic / server / mlcc",
         "total_engagement": 0,
-        "post_count": 9
+        "post_count": 9,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 21,
         "label": "mlcc / 新聞來源 / 分析高階 / asic",
         "total_engagement": 0,
-        "post_count": 8
+        "post_count": 8,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 7,
         "label": "hybrid / bonding / 新聞來源 / asml",
         "total_engagement": 0,
-        "post_count": 2
+        "post_count": 2,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 20,
         "label": "datatrack / 看詳情 / 了解詳情 / capex",
         "total_engagement": 0,
-        "post_count": 19
+        "post_count": 19,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 15,
         "label": "台積電 / 查看更多 / 索尼 / 億美元資本預算",
         "total_engagement": 0,
-        "post_count": 17
+        "post_count": 17,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 18,
         "label": "三星 / cells / apple / euv",
         "total_engagement": 0,
-        "post_count": 11
+        "post_count": 11,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 10,
         "label": "台股逐洞賽 / 查看更多",
         "total_engagement": 0,
-        "post_count": 3
+        "post_count": 3,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 9,
         "label": "台股 / 查看更多 / 早盤一度觸及 / 已有",
         "total_engagement": 0,
-        "post_count": 9
+        "post_count": 9,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 17,
         "label": "早晨財經速解讀 / 查看更多 / spacex",
         "total_engagement": 0,
-        "post_count": 12
+        "post_count": 12,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 13,
         "label": "萬口 / 早晨財經速解讀 / 查看更多",
         "total_engagement": 0,
-        "post_count": 1
+        "post_count": 1,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 0
       },
       {
         "topic_id": 19,
         "label": "costs / memory / vr / server",
         "total_engagement": 0,
-        "post_count": 2
+        "post_count": 2,
+        "top_account": "subhash-km-6b5443123",
+        "top_account_engagement": 0
       }
     ],
     "posting_timeslot_analysis": {

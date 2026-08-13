@@ -42,6 +42,9 @@
         "volume": 12,
         "engagement": 41,
         "entities": [
+          "AI",
+          "NeMo Switchyard",
+          "Nemotron",
           "日本",
           "那斯"
         ]
@@ -66,13 +69,28 @@
         "heat": 10.0,
         "volume": 2,
         "engagement": 7,
-        "entities": []
+        "entities": [
+          "Legora",
+          "IPO"
+        ]
       }
     ],
     "named_entities": [
       {
+        "entity": "AI",
+        "count": 3
+      },
+      {
         "entity": "南亞科",
         "count": 2
+      },
+      {
+        "entity": "NeMo Switchyard",
+        "count": 1
+      },
+      {
+        "entity": "Nemotron",
+        "count": 1
       },
       {
         "entity": "華邦電",
@@ -101,6 +119,22 @@
       {
         "entity": "那斯",
         "count": 1
+      },
+      {
+        "entity": "UN",
+        "count": 1
+      },
+      {
+        "entity": "Swarovski",
+        "count": 1
+      },
+      {
+        "entity": "Legora",
+        "count": 1
+      },
+      {
+        "entity": "al Z RlY P",
+        "count": 1
       }
     ],
     "sentiment_trend_curve": [
@@ -109,98 +143,309 @@
         "bucket_end": "2026-08-13T11:34:39.142859+08:00",
         "positive": 2,
         "neutral": 0,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 13,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "cluster-0",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Everyone is focused on U.S. hyperscalers  Meanwhile, in China, Tencent just posted negative free cash flow for the first time since 2004  Tencent is now spending $9 billion in AI capex per quarter, mo",
+            "url": "https://x.com/HyperTechInvest/status/2087743709429600557",
+            "interaction": 13
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "日本 5 大網路券商宣布，配合那斯達克 12 月啟動的 23 小時交易制，最快自 12 月 6 日起開放投資人在日間即時買賣美股。",
+            "url": "https://x.com/technews_tw/status/2087743851444437212",
+            "interaction": 0
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T11:34:39.142859+08:00",
         "bucket_end": "2026-08-13T11:38:56.285716+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": []
       },
       {
         "bucket_start": "2026-08-13T11:38:56.285716+08:00",
         "bucket_end": "2026-08-13T11:43:13.428573+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": []
       },
       {
         "bucket_start": "2026-08-13T11:43:13.428573+08:00",
         "bucket_end": "2026-08-13T11:47:30.571430+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": []
       },
       {
         "bucket_start": "2026-08-13T11:47:30.571430+08:00",
         "bucket_end": "2026-08-13T11:51:47.714287+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 1
+        "negative": 1,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "台泥",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "南亞科苦等 9 個月終入列！ #記憶體三雄擠進MSCI MSCI 最新季度調整13日出爐，記憶體族群成最大贏家，南亞科、華邦電、群聯同步升格全球標準指數成分股，景碩、南電、台耀科亦獲納入；台泥、陽明、台企銀等 6 檔則遭剔除。市值達 1.4…  http:// dlvr.it/TTzxjY",
+            "url": "https://x.com/technews_tw/status/2087748351173509377",
+            "interaction": 0
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T11:51:47.714287+08:00",
         "bucket_end": "2026-08-13T11:56:04.857144+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": []
       },
       {
         "bucket_start": "2026-08-13T11:56:04.857144+08:00",
         "bucket_end": "2026-08-13T12:00:22.000001+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": []
       },
       {
         "bucket_start": "2026-08-13T12:00:22.000001+08:00",
         "bucket_end": "2026-08-13T12:04:39.142858+08:00",
         "positive": 0,
         "neutral": 1,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "cluster-0",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#輝達 推出 #AI 降本利器！全新 NeMo Switchyard 與 Nemotron 3.5 模型登場，主打智慧路由器機制。",
+            "url": "https://x.com/technews_tw/status/2087751766301606389",
+            "interaction": 1
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T12:04:39.142858+08:00",
         "bucket_end": "2026-08-13T12:08:56.285715+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": []
       },
       {
         "bucket_start": "2026-08-13T12:08:56.285715+08:00",
         "bucket_end": "2026-08-13T12:13:13.428572+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": []
       },
       {
         "bucket_start": "2026-08-13T12:13:13.428572+08:00",
         "bucket_end": "2026-08-13T12:17:30.571429+08:00",
         "positive": 2,
         "neutral": 1,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 66.7,
+        "post_count": 3,
+        "engagement": 6,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "cluster-0",
+            "count": 2
+          },
+          {
+            "topic_id": 2,
+            "label": "台泥",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Everybody loves Nvidia — but then, they can’t afford not to  https:// ft.trib.al/b8Yj2g8  | opinion",
+            "url": "https://x.com/FT/status/2087755213738246632",
+            "interaction": 4
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "A reality check is needed on Arctic shipping  https:// ft.trib.al/YmjpIIM  | opinion",
+            "url": "https://x.com/FT/status/2087755209044852887",
+            "interaction": 2
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T12:17:30.571429+08:00",
         "bucket_end": "2026-08-13T12:21:47.714286+08:00",
         "positive": 0,
         "neutral": 1,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 7,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "cluster-0",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Trump is taxing the dark matter that pays America’s way  https:// ft.trib.al/DWWdHWw  | opinion",
+            "url": "https://x.com/FT/status/2087755541749613029",
+            "interaction": 7
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T12:21:47.714286+08:00",
         "bucket_end": "2026-08-13T12:26:04.857143+08:00",
         "positive": 1,
         "neutral": 2,
-        "negative": 1
+        "negative": 1,
+        "net_sentiment": 0.0,
+        "post_count": 4,
+        "engagement": 16,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "cluster-0",
+            "count": 3
+          },
+          {
+            "topic_id": 1,
+            "label": "valuation",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Anthropic investors bet on $2tn valuation in record IPO",
+            "url": "https://x.com/FT/status/2087757496781869088",
+            "interaction": 6
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Mining and technology groups are developing crypto tokens linked to minerals in an attempt to bring the fervour of crypto into a new asset class.  https:// ft.trib.al/z4yTWKr",
+            "url": "https://x.com/FT/status/2087756548806156535",
+            "interaction": 6
+          }
+        ]
       },
       {
         "bucket_start": "2026-08-13T12:26:04.857143+08:00",
         "bucket_end": "2026-08-13T12:30:22+08:00",
         "positive": 2,
         "neutral": 1,
-        "negative": 0
+        "negative": 0,
+        "net_sentiment": 66.7,
+        "post_count": 3,
+        "engagement": 4,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "cluster-0",
+            "count": 2
+          },
+          {
+            "topic_id": 1,
+            "label": "valuation",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Women buy their own diamonds now, says Swarovski boss",
+            "url": "https://x.com/FT/status/2087758632339325051",
+            "interaction": 2
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Wealth managers cut fees to win AI’s paper millionaires",
+            "url": "https://x.com/FT/status/2087758631919931516",
+            "interaction": 1
+          }
+        ]
       }
     ],
     "coverage_focus_ranking": [
@@ -231,19 +476,25 @@
         "topic_id": 0,
         "label": "cluster-0",
         "total_engagement": 41,
-        "post_count": 12
+        "post_count": 12,
+        "top_account": "FT",
+        "top_account_engagement": 27
       },
       {
         "topic_id": 1,
         "label": "valuation",
         "total_engagement": 7,
-        "post_count": 2
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 7
       },
       {
         "topic_id": 2,
         "label": "台泥",
         "total_engagement": 0,
-        "post_count": 2
+        "post_count": 2,
+        "top_account": "technews_tw",
+        "top_account_engagement": 0
       }
     ],
     "posting_timeslot_analysis": {
