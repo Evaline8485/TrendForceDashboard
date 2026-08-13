@@ -652,16 +652,16 @@ def main():
     content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
     background: var(--blue);
   }}
-  header h1 {{ margin: 0; font-size: 27px; font-weight: 800; letter-spacing: -0.02em; }}
-  header .muted {{ margin-top: 7px; font-size: 13px; }}
-  .muted {{ color: var(--muted); font-size: 13px; }}
+  header h1 {{ margin: 0; font-size: 30px; font-weight: 800; letter-spacing: -0.02em; }}
+  header .muted {{ margin-top: 7px; font-size: 14px; }}
+  .muted {{ color: var(--muted); font-size: 14px; }}
   nav {{
     display: flex; gap: 2px; padding: 0 28px; border-bottom: 1px solid var(--border);
     overflow-x: auto; position: sticky; top: 0; background: rgba(255,255,255,0.92);
     backdrop-filter: blur(10px); z-index: 10;
   }}
   nav button {{
-    background: none; border: none; color: var(--muted); padding: 13px 16px; font-size: 13.5px;
+    background: none; border: none; color: var(--muted); padding: 13px 16px; font-size: 14px;
     font-weight: 500; cursor: pointer; border-bottom: 2px solid transparent; white-space: nowrap;
     transition: color 0.15s ease;
   }}
@@ -673,21 +673,21 @@ def main():
     background: var(--surface); border: 1px solid var(--border); border-radius: 0;
     padding: 10px 14px;
   }}
-  .range-bar label {{ color: var(--muted); font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }}
+  .range-bar label {{ color: var(--muted); font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }}
   .range-bar select {{
     background: var(--surface-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 0; padding: 6px 10px; font-size: 13px; cursor: pointer;
+    border-radius: 0; padding: 6px 10px; font-size: 14px; cursor: pointer;
   }}
   .keyword-search-bar input {{
     width: 100%; max-width: 460px; background: var(--surface-2); color: var(--text);
-    border: 1px solid var(--border); border-radius: 0; padding: 10px 14px; font-size: 13.5px;
+    border: 1px solid var(--border); border-radius: 0; padding: 10px 14px; font-size: 14px;
     transition: border-color 0.15s ease;
   }}
   .keyword-search-bar input::placeholder {{ color: var(--muted-dim); }}
   .keyword-search-bar input:focus {{ outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px var(--blue-dim); }}
   .video-region-filter {{ display: inline-flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-left: 16px; }}
   .video-region-filter label {{
-    display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--muted);
+    display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted);
     cursor: pointer; white-space: nowrap; flex-shrink: 0;
   }}
   .video-region-filter input {{
@@ -695,24 +695,24 @@ def main():
     width: 14px; height: 14px; min-width: 14px; min-height: 14px;
   }}
   .upload-row {{ display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }}
-  .upload-row label {{ color: var(--muted); font-size: 12.5px; }}
+  .upload-row label {{ color: var(--muted); font-size: 14px; }}
   .upload-row input[type="file"] {{
-    color: var(--text); font-size: 13px; background: var(--surface-2); border: 1px solid var(--border);
+    color: var(--text); font-size: 14px; background: var(--surface-2); border: 1px solid var(--border);
     border-radius: 0; padding: 8px 10px;
   }}
   .upload-row select {{
     background: var(--surface-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 0; padding: 6px 10px; font-size: 13px;
+    border-radius: 0; padding: 6px 10px; font-size: 14px;
   }}
   .download-row {{ display: flex; gap: 10px; margin-top: 14px; }}
   .upload-posts-toolbar {{ display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px; margin: 16px 0 10px; }}
   .upload-posts-toolbar label {{
-    display: flex; align-items: center; gap: 8px; font-size: 11.5px; color: var(--muted);
+    display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted);
     text-transform: uppercase; letter-spacing: 0.04em;
   }}
   .upload-posts-toolbar select, .upload-posts-toolbar input[type="text"] {{
     background: var(--surface-2); border: 1px solid var(--border); border-radius: 0;
-    color: var(--text); padding: 7px 10px; font-size: 13px;
+    color: var(--text); padding: 7px 10px; font-size: 14px;
   }}
   .upload-posts-toolbar input[type="text"]:focus, .upload-posts-toolbar select:focus {{
     outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px var(--blue-dim);
@@ -722,21 +722,21 @@ def main():
   .pager {{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }}
   .page-btn {{
     background: var(--surface-2); border: 1px solid var(--border); border-radius: 0;
-    color: var(--text); font-size: 12.5px; padding: 5px 11px; cursor: pointer;
+    color: var(--text); font-size: 14px; padding: 5px 11px; cursor: pointer;
     font-variant-numeric: tabular-nums; transition: background 0.1s ease, border-color 0.1s ease;
   }}
   .page-btn:hover {{ border-color: var(--blue); }}
   .page-btn.active {{ background: var(--blue); border-color: var(--blue); color: var(--surface); font-weight: 600; }}
   .btn {{
     background: var(--blue-dim); color: var(--blue); border: 1px solid transparent; border-radius: 0;
-    padding: 8px 14px; font-size: 13px; font-weight: 600; cursor: pointer;
+    padding: 8px 14px; font-size: 14px; font-weight: 600; cursor: pointer;
   }}
   .btn:hover {{ filter: brightness(1.15); }}
   section {{ display: none; }}
   section.active {{ display: block; animation: fadein 0.2s ease; }}
   @keyframes fadein {{ from {{ opacity: 0; transform: translateY(2px); }} to {{ opacity: 1; transform: translateY(0); }} }}
-  h2 {{ font-size: 20px; font-weight: 700; margin: 0 0 22px; text-align: center; letter-spacing: -0.01em; }}
-  h3 {{ font-size: 13.5px; font-weight: 600; color: var(--text); margin: 22px 0 12px; }}
+  h2 {{ font-size: 22px; font-weight: 700; margin: 0 0 22px; text-align: center; letter-spacing: -0.01em; }}
+  h3 {{ font-size: 18px; font-weight: 600; color: var(--text); margin: 22px 0 12px; }}
   h3:first-child {{ margin-top: 0; }}
   .panel {{
     background: var(--surface); border: 1px solid var(--border); border-radius: 0;
@@ -744,12 +744,12 @@ def main():
   }}
   .panel-head {{ display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }}
   .panel-head h3 {{ margin: 0; }}
-  .panel-eyebrow {{ color: var(--muted); font-size: 12px; }}
+  .panel-eyebrow {{ color: var(--muted); font-size: 14px; }}
   .table-wrap {{ overflow-x: auto; margin: -4px -4px -2px; }}
-  table {{ width: 100%; min-width: 480px; border-collapse: collapse; font-size: 13.5px; }}
+  table {{ width: 100%; min-width: 480px; border-collapse: collapse; font-size: 14px; }}
   th, td {{ text-align: left; padding: 9px 10px; }}
   th {{
-    color: var(--muted); font-weight: 600; font-size: 11.5px; text-transform: uppercase;
+    color: var(--muted); font-weight: 600; font-size: 14px; text-transform: uppercase;
     letter-spacing: 0.04em; border-bottom: 1px solid var(--border); padding-bottom: 10px;
   }}
   td {{ border-bottom: 1px solid var(--border-soft); }}
@@ -768,27 +768,27 @@ def main():
     max-height: 260px; overflow-y: auto; display: flex; flex-direction: column; gap: 6px;
   }}
   .kw-link-popover a {{
-    color: var(--blue); font-size: 12px; line-height: 1.5; text-decoration: none;
+    color: var(--blue); font-size: 14px; line-height: 1.5; text-decoration: none;
     word-break: break-all; white-space: normal;
   }}
   .kw-link-popover a:hover {{ text-decoration: underline; }}
-  .kw-link-popover .empty {{ font-size: 12px; color: var(--muted); margin: 0; }}
+  .kw-link-popover .empty {{ font-size: 14px; color: var(--muted); margin: 0; }}
   .add-account-form {{ display: flex; flex-wrap: wrap; align-items: end; gap: 14px; }}
   .add-account-form label {{
-    display: flex; flex-direction: column; gap: 6px; font-size: 11.5px;
+    display: flex; flex-direction: column; gap: 6px; font-size: 14px;
     color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em;
   }}
   .add-account-form select, .add-account-form input {{
     background: var(--surface-2); border: 1px solid var(--border); border-radius: 0;
-    color: var(--text); padding: 9px 12px; font-size: 13px; min-width: 220px;
+    color: var(--text); padding: 9px 12px; font-size: 14px; min-width: 220px;
   }}
   .add-account-form input:focus, .add-account-form select:focus {{
     outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px var(--blue-dim);
   }}
-  .add-account-hint {{ margin-top: 10px; font-size: 12px; }}
+  .add-account-hint {{ margin-top: 10px; font-size: 14px; }}
   .remove-account-btn {{
     background: transparent; border: 1px solid var(--border); border-radius: 0;
-    color: var(--red); font-size: 11.5px; padding: 5px 10px; cursor: pointer;
+    color: var(--red); font-size: 14px; padding: 5px 10px; cursor: pointer;
     transition: background 0.1s ease, border-color 0.1s ease;
   }}
   .remove-account-btn:hover {{ background: rgba(248,81,73,0.16); border-color: var(--red); }}
@@ -796,7 +796,7 @@ def main():
     background: var(--red); border-color: var(--red); color: var(--surface); font-weight: 600;
   }}
   .remove-account-btn.confirming:hover {{ background: var(--red); }}
-  .empty {{ color: var(--muted); font-style: italic; font-size: 13.5px; padding: 8px 2px; }}
+  .empty {{ color: var(--muted); font-style: italic; font-size: 14px; padding: 8px 2px; }}
   .col-2 {{ display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: start; }}
   .col-2 > .panel {{ margin-bottom: 0; }}
   .card-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; }}
@@ -806,15 +806,15 @@ def main():
   }}
   .rising-card:hover {{ border-color: var(--border); }}
   .rising-card-head {{ display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }}
-  .rising-card-head strong {{ font-size: 13.5px; line-height: 1.35; }}
+  .rising-card-head strong {{ font-size: 18px; line-height: 1.35; }}
   .kols {{ margin-top: 10px; display: flex; flex-wrap: wrap; gap: 5px; }}
   .chip {{
     background: var(--surface); border: 1px solid var(--border); border-radius: 0;
-    padding: 3px 9px; font-size: 11px; color: var(--muted);
+    padding: 3px 9px; font-size: 14px; color: var(--muted);
   }}
   .chip b {{ color: var(--text); font-weight: 600; }}
   .chip-row {{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }}
-  .badge {{ display: inline-block; padding: 3px 9px; border-radius: 0; font-size: 10.5px; font-weight: 700; letter-spacing: 0.02em; }}
+  .badge {{ display: inline-block; padding: 3px 9px; border-radius: 0; font-size: 14px; font-weight: 700; letter-spacing: 0.02em; }}
   .badge.score {{ background: rgba(240,180,41,0.16); color: var(--gold); }}
   .badge.cat {{ background: var(--blue-dim); color: var(--blue); text-transform: capitalize; }}
   .badge.own {{ background: rgba(63,185,104,0.16); color: var(--green); }}
@@ -827,17 +827,17 @@ def main():
     padding: 14px 16px;
   }}
   .gap-card:hover {{ border-color: var(--border); }}
-  .gap-card-title {{ font-size: 14px; font-weight: 600; line-height: 1.4; margin-bottom: 8px; }}
-  .gap-card-meta {{ display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 11.5px; margin-bottom: 10px; }}
+  .gap-card-title {{ font-size: 18px; font-weight: 600; line-height: 1.4; margin-bottom: 8px; }}
+  .gap-card-meta {{ display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 14px; margin-bottom: 10px; }}
   .gap-card-bullets {{ margin: 0 0 8px; padding-left: 18px; display: flex; flex-direction: column; gap: 5px; }}
-  .gap-card-bullets li {{ font-size: 12.5px; line-height: 1.5; color: var(--text); }}
-  .gap-card-expand {{ font-size: 12.5px; }}
+  .gap-card-bullets li {{ font-size: 14px; line-height: 1.5; color: var(--text); }}
+  .gap-card-expand {{ font-size: 14px; }}
   .gap-card-expand summary {{ cursor: pointer; color: var(--blue); font-weight: 600; user-select: none; }}
   .gap-card-expand summary::-webkit-details-marker {{ color: var(--blue); }}
   .gap-source-row {{ display: flex; flex-direction: column; gap: 1px; padding: 6px 0; border-bottom: 1px solid var(--border-soft); }}
   .gap-source-row:last-child {{ border-bottom: none; }}
-  .gap-source-row a {{ font-size: 12.5px; }}
-  .gap-source-row .muted {{ font-size: 11px; }}
+  .gap-source-row a {{ font-size: 14px; }}
+  .gap-source-row .muted {{ font-size: 14px; }}
   .heat-hot {{ color: var(--red); font-weight: 700; }}
   .heat-warm {{ color: var(--yellow); font-weight: 600; }}
   .heat-cold {{ color: var(--muted); }}
@@ -846,17 +846,17 @@ def main():
     background: var(--surface-2); border: 1px solid var(--border-soft); border-radius: 0;
     padding: 14px 12px; text-align: center;
   }}
-  .stat-num {{ font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }}
-  .stat-label {{ color: var(--muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.03em; margin-top: 3px; }}
+  .stat-num {{ font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }}
+  .stat-label {{ color: var(--muted); font-size: 14px; text-transform: uppercase; letter-spacing: 0.03em; margin-top: 3px; }}
   .stat.pos .stat-num {{ color: var(--green); }} .stat.neg .stat-num {{ color: var(--red); }} .stat.neu .stat-num {{ color: var(--muted); }}
   .summary-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 12px; }}
   .summary-card {{
     background: var(--surface-2); border: 1px solid var(--border-soft); border-radius: 0; padding: 14px 16px;
   }}
   .summary-card-head {{ display: flex; align-items: center; justify-content: space-between; }}
-  .summary-card p {{ margin: 10px 0 0; font-size: 13.5px; line-height: 1.55; }}
-  .char-count {{ color: var(--muted-dim); font-size: 11px; }}
-  .trend-legend {{ display: flex; flex-wrap: wrap; gap: 16px; font-size: 11.5px; color: var(--muted); margin-bottom: 14px; align-items: center; }}
+  .summary-card p {{ margin: 10px 0 0; font-size: 14px; line-height: 1.55; }}
+  .char-count {{ color: var(--muted-dim); font-size: 14px; }}
+  .trend-legend {{ display: flex; flex-wrap: wrap; gap: 16px; font-size: 14px; color: var(--muted); margin-bottom: 14px; align-items: center; }}
   .legend-dot {{ display: inline-block; width: 8px; height: 8px; border-radius: 0; margin-right: 5px; vertical-align: middle; }}
   .trend-chart {{
     display: flex; align-items: stretch; gap: 6px; min-width: 640px;
@@ -868,7 +868,7 @@ def main():
     cursor: default; min-width: 32px; border-radius: 0; transition: background 0.1s ease;
   }}
   .trend-bar:hover, .trend-bar:focus {{ background: var(--surface-2); outline: none; }}
-  .trend-count {{ font-size: 10.5px; color: var(--muted); font-variant-numeric: tabular-nums; margin-bottom: 3px; }}
+  .trend-count {{ font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; margin-bottom: 3px; }}
   .trend-track {{ position: relative; width: 100%; height: {TREND_TRACK_PX}px; }}
   .seg {{ position: absolute; left: 0; right: 0; }}
   .seg-pos {{ background: var(--status-good); border-radius: 0; }}
@@ -876,7 +876,7 @@ def main():
   .seg-neu {{ background: var(--muted-dim); }}
   .trend-baseline {{ position: absolute; left: 0; right: 0; top: {TREND_ARM_PX}px; height: 1px; background: var(--border); }}
   .trend-date {{
-    margin-top: 6px; font-size: 10px; line-height: 1.3; color: var(--muted);
+    margin-top: 6px; font-size: 14px; line-height: 1.3; color: var(--muted);
     text-align: center; white-space: nowrap;
   }}
   /* Visible on-hover/focus tooltip - replaces the native title attribute,
@@ -885,7 +885,7 @@ def main():
     content: attr(data-tooltip); position: absolute; bottom: 100%; left: 50%;
     transform: translateX(-50%); margin-bottom: 12px; padding: 10px 14px;
     background: var(--surface-2); border: 1px solid var(--border); border-radius: 0;
-    font-size: 12px; line-height: 1.7; color: var(--text); white-space: pre-line;
+    font-size: 14px; line-height: 1.7; color: var(--text); white-space: pre-line;
     width: max-content; max-width: 220px;
     text-align: left; box-shadow: var(--shadow); z-index: 20; pointer-events: none;
   }}
