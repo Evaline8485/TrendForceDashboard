@@ -984,7 +984,10 @@ def main():
     position: absolute; z-index: 30; background: var(--surface-2); border: 1px solid var(--border);
     border-radius: 0; padding: 10px 14px; box-shadow: var(--shadow); max-width: 420px;
     max-height: 260px; overflow-y: auto; display: flex; flex-direction: column; gap: 6px;
+    animation: popover-in 0.12s ease-out;
   }}
+  @keyframes popover-in {{ from {{ opacity: 0; transform: translateY(-4px); }} to {{ opacity: 1; transform: translateY(0); }} }}
+  @media (prefers-reduced-motion: reduce) {{ .kw-link-popover {{ animation: none; }} }}
   .kw-link-popover a {{
     color: var(--blue); font-size: 14px; line-height: 1.5; text-decoration: none;
     word-break: break-all; white-space: normal;
@@ -1466,13 +1469,21 @@ def main():
     }});
 
     document.body.appendChild(pop);
-    const r = hit.getBoundingClientRect();
-    const spaceRight = document.documentElement.clientWidth - r.right;
-    const openLeft = spaceRight < pop.offsetWidth + 20 && r.left > pop.offsetWidth + 20;
-    const left = window.scrollX + (openLeft ? r.left - pop.offsetWidth - 10 : r.right + 10);
-    let top = window.scrollY + r.top - 4;
-    const maxTop = window.scrollY + document.documentElement.clientHeight - pop.offsetHeight - 12;
-    if (top > maxTop) top = Math.max(window.scrollY + 12, maxTop);
+    // hit's own rect spans the FULL chart height (it's a per-column hit
+    // target, not a small mark) - anchoring beside it like kwLinkPopover
+    // does for a table row lands the popover on top of neighboring bars/
+    // line/callouts instead of clear of them. Anchor to the whole chart's
+    // bounding box instead: always open fully above or fully below the
+    // chart, horizontally centered under the hovered column.
+    const chartEl = hit.closest('.trend-svg') || hit;
+    const chartRect = chartEl.getBoundingClientRect();
+    const hitRect = hit.getBoundingClientRect();
+    const spaceBelow = window.innerHeight - chartRect.bottom;
+    const openAbove = spaceBelow < pop.offsetHeight + 16 && chartRect.top > pop.offsetHeight + 16;
+    const top = window.scrollY + (openAbove ? chartRect.top - pop.offsetHeight - 10 : chartRect.bottom + 10);
+    let left = window.scrollX + hitRect.left + hitRect.width / 2 - pop.offsetWidth / 2;
+    const minLeft = window.scrollX + 8, maxLeft = window.scrollX + document.documentElement.clientWidth - pop.offsetWidth - 8;
+    left = Math.max(minLeft, Math.min(left, maxLeft));
     pop.style.top = `${{top}}px`;
     pop.style.left = `${{left}}px`;
     trendPointPopover = pop;
