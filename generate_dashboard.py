@@ -426,9 +426,8 @@ def render_sentiment(data):
 TREND_BUCKET_W = 52  # px per bucket column, shared by both panels
 TREND_LINE_H = 150   # net-sentiment plot area height
 TREND_BAR_H = 60     # volume plot area height
-TREND_LABEL_PAD = 46  # headroom above the line panel for peak/trough callout boxes
+TREND_LABEL_PAD = 46  # headroom above the line panel for peak/trough callout labels
 TREND_GAP = 16       # gap between the two panels
-TREND_CALLOUT_H = 20
 TREND_BAR_W = 26
 
 
@@ -512,20 +511,17 @@ def render_trend_curve(curve):
         for i, b in enumerate(curve) if b.get('is_anomaly')
     )
 
-    # --- Callout boxes on the sharpest peaks/troughs ---
+    # --- Callout labels on the sharpest peaks/troughs (plain text, no
+    # box - a filled/bordered box here reads as a heavy chunk sitting on
+    # top of an otherwise delicate line) ---
     callouts = []
     for i in top_peaks | top_troughs:
         if not curve[i]['top_topics']:
             continue
         label = short_label(curve[i]['top_topics'][0]['label'])
         x, y = x_for(i), y_for(smoothed_values[i])
-        box_w = min(170, max(64, len(label) * 8.6 + 16))
-        box_y = (y - TREND_CALLOUT_H - 8) if i in top_peaks else (y + 8)
-        callouts.append(
-            f'<g class="trend-callout">'
-            f'<rect x="{x - box_w / 2}" y="{box_y}" width="{box_w}" height="{TREND_CALLOUT_H}"/>'
-            f'<text x="{x}" y="{box_y + TREND_CALLOUT_H / 2 + 4}" text-anchor="middle">{esc(label)}</text>'
-            f'</g>')
+        text_y = (y - 10) if i in top_peaks else (y + 20)
+        callouts.append(f'<text x="{x}" y="{text_y}" text-anchor="middle" class="trend-callout">{esc(label)}</text>')
 
     # --- Bars: two independently-scaled variants (post count / engagement) ---
     vol_max = max((b['post_count'] for b in curve), default=0) or 1
@@ -994,17 +990,30 @@ def main():
   }}
   .kw-link-popover a:hover {{ text-decoration: underline; }}
   .kw-link-popover .empty {{ font-size: 14px; color: var(--muted); margin: 0; }}
-  .trend-point-popover-head {{ font-size: 14px; font-weight: 700; color: var(--text); }}
-  .trend-point-popover-stats {{ font-size: 14px; color: var(--muted); margin-bottom: 4px; }}
-  .trend-point-topic-row {{ display: flex; justify-content: space-between; gap: 10px; font-size: 14px; }}
-  .trend-point-topic-row span:last-child {{ color: var(--muted); font-variant-numeric: tabular-nums; }}
-  .trend-point-post {{
-    border-top: 1px solid var(--border-soft); padding-top: 6px; margin-top: 4px;
-    font-size: 14px; line-height: 1.5;
+  /* Dark, compact tooltip (2026-08-13) - the chart's own popover used to
+     share .kw-link-popover's light gray/white box, which at that size
+     read as a heavy chunk sitting on top of a delicate line chart.
+     Narrower, darker, tighter padding; own animation since it isn't
+     .kw-link-popover anymore. */
+  .trend-tooltip {{
+    position: absolute; z-index: 30; background: var(--text); color: var(--surface);
+    padding: 10px 14px; box-shadow: var(--shadow); max-width: 300px;
+    max-height: 260px; overflow-y: auto; display: flex; flex-direction: column; gap: 6px;
+    animation: popover-in 0.12s ease-out;
   }}
-  .trend-point-post a {{ color: var(--blue); text-decoration: none; }}
+  @media (prefers-reduced-motion: reduce) {{ .trend-tooltip {{ animation: none; }} }}
+  .trend-point-popover-head {{ font-size: 14px; font-weight: 700; color: var(--surface); }}
+  .trend-point-popover-stats {{ font-size: 14px; color: var(--muted-dim); margin-bottom: 4px; }}
+  .trend-point-topic-row {{ display: flex; justify-content: space-between; gap: 10px; font-size: 14px; color: var(--surface); }}
+  .trend-point-topic-row span:last-child {{ color: var(--muted-dim); font-variant-numeric: tabular-nums; }}
+  .trend-point-post {{
+    border-top: 1px solid rgba(255,255,255,0.18); padding-top: 6px; margin-top: 4px;
+    font-size: 14px; line-height: 1.5; color: var(--surface);
+  }}
+  .trend-point-post a {{ color: #8ec9ff; text-decoration: none; }}
   .trend-point-post a:hover {{ text-decoration: underline; }}
-  .trend-point-post .muted {{ font-size: 14px; }}
+  .trend-point-post .muted {{ font-size: 14px; color: var(--muted-dim); }}
+  .trend-tooltip .empty {{ font-size: 14px; color: var(--muted-dim); margin: 0; }}
   .add-account-form {{ display: flex; flex-wrap: wrap; align-items: end; gap: 14px; }}
   .add-account-form label {{
     display: flex; flex-direction: column; gap: 6px; font-size: 14px;
@@ -1109,8 +1118,7 @@ def main():
   .trend-line {{ fill: none; stroke: var(--text); stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; }}
   .trend-line-raw {{ fill: none; stroke: var(--muted-dim); stroke-width: 1; opacity: 0.6; }}
   .trend-anomaly-dot {{ fill: var(--gold); stroke: var(--surface); stroke-width: 1.6; }}
-  .trend-callout rect {{ fill: var(--blue-dim); stroke: var(--blue); stroke-width: 1; }}
-  .trend-callout text {{ font-size: 14px; fill: var(--blue); font-weight: 600; }}
+  .trend-callout {{ font-size: 14px; fill: var(--blue); font-weight: 600; }}
   .trend-date-label {{ font-size: 14px; fill: var(--muted); }}
   .trend-hit {{ cursor: pointer; }}
   .trend-hit:hover, .trend-hit:focus {{ fill: var(--surface-2); outline: none; }}
@@ -1406,7 +1414,7 @@ def main():
     try {{ data = JSON.parse(hit.dataset.payload || 'null'); }} catch (e) {{ data = null; }}
     if (!data) return;
     const pop = document.createElement('div');
-    pop.className = 'kw-link-popover';
+    pop.className = 'trend-tooltip';
 
     const head = document.createElement('div');
     head.className = 'trend-point-popover-head';
@@ -1500,10 +1508,10 @@ def main():
     if (hit) showTrendPointPopover(hit);
   }});
   document.addEventListener('mouseout', e => {{
-    if (e.target.closest('.trend-hit') && !e.relatedTarget?.closest('.kw-link-popover, .trend-hit')) hideTrendPointPopover();
+    if (e.target.closest('.trend-hit') && !e.relatedTarget?.closest('.trend-tooltip, .trend-hit')) hideTrendPointPopover();
   }});
   document.addEventListener('focusout', e => {{
-    if (e.target.closest('.trend-hit') && !e.relatedTarget?.closest('.kw-link-popover, .trend-hit')) hideTrendPointPopover();
+    if (e.target.closest('.trend-hit') && !e.relatedTarget?.closest('.trend-tooltip, .trend-hit')) hideTrendPointPopover();
   }});
 
   // Sentiment trend chart's count/engagement mode toggle - both bar
