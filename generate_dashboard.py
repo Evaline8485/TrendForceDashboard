@@ -31,6 +31,7 @@ is a different architecture than "static site, no server."
 """
 import json
 import os
+import re
 import urllib.parse
 from datetime import datetime, timezone, timedelta
 
@@ -257,6 +258,22 @@ def render_topic_gaps(data):
         + render_topic_gap_digest(gaps)
 
 
+SENTENCE_END_RE = re.compile(r'[。！？.!?]')
+
+
+def first_sentence(text, max_len=80, search_window=140):
+    """A raw post's first ~80 chars often cut off mid-clause ("00981A於...")
+    - not a title, just a truncated sentence. Prefer stopping at the first
+    real sentence-ending punctuation within a slightly wider window (a
+    complete short sentence reads better than a longer but grammatically
+    cut-off one); fall back to a hard truncation only if the text runs
+    long with no punctuation in range."""
+    m = SENTENCE_END_RE.search(text[:search_window])
+    if m:
+        return text[:m.end()]
+    return text[:max_len] + ('…' if len(text) > max_len else '')
+
+
 def render_topic_gap_digest(gaps):
     """A second, card-style view of the same FR-01 gaps table above (not a
     replacement - explicitly requested alongside it), styled after an
@@ -276,7 +293,7 @@ def render_topic_gap_digest(gaps):
         if not samples:
             continue
         top = samples[0]
-        title = top['text'][:80] + ('…' if len(top['text']) > 80 else '')
+        title = first_sentence(top['text'])
         keywords = [k.strip() for k in g['label'].split('/') if k.strip()][:4]
         timestamps = [parse_ts(p['timestamp']) for p in samples if p.get('timestamp')]
         timestamps = [t for t in timestamps if t]
