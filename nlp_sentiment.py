@@ -325,26 +325,54 @@ def widget_named_entities(posts, top_n=15):
 MAX_TREND_TOP_TOPICS = 3
 MAX_TREND_TOP_POSTS = 2
 TREND_POST_TEXT_MAXLEN = 200
+TREND_SMOOTH_RADIUS = 2  # 5-point moving average (i-2..i+2), matches the mockup's window
+TREND_ANOMALY_Z = 2.0  # volume z-score above this flags a bucket as anomalous
+TREND_ANOMALY_NEG_SHARE = 0.38  # ...or a high negative share at real volume, even without a volume spike
+TREND_ANOMALY_MIN_VOLUME = 30  # "real volume" floor for the negative-share anomaly path (3x generate_dashboard.py's LOW_SAMPLE_THRESHOLD)
+
+
+def bucket_bounds(now, span, buckets):
+    """Chronological (oldest-first) list of (start, end) tuples - the one
+    definition of "what counts as bucket j" shared by
+    widget_sentiment_trend_curve and widget_topic_sentiment_heatmap so
+    their x-axes line up exactly."""
+    bucket_span = span / buckets
+    return [(now - bucket_span * i, now - bucket_span * (i - 1)) for i in range(buckets, 0, -1)]
 
 
 def widget_sentiment_trend_curve(posts, now, span, topic_labels, buckets=14):
     """Each bucket answers "what was actually happening" alongside the raw
     sentiment counts (2026-08-13) - net_sentiment (positive% - negative%,
     one number instead of three) is the line FR-03's UI plots; volume/
-    engagement is what a paired bar chart plots underneath it; top_topics
-    (by post count within the bucket) and top_posts (by interaction) are
-    what a hover/peak-label answers "why did this spike/dip" with - a
-    temperature reading with no named driver is not actionable."""
-    bucket_span = span / buckets
+    engagement is what a paired bar chart plots underneath it (both
+    split by sentiment AND by count vs. engagement, so the UI can toggle
+    "by post count" vs. "by engagement weight" without a server round
+    trip); top_topics (by post count within the bucket) and top_posts (by
+    interaction) are what a hover/peak-label answers "why did this
+    spike/dip" with - a temperature reading with no named driver is not
+    actionable.
+
+    net_sentiment_smoothed is a TREND_SMOOTH_RADIUS-point centered moving
+    average (the raw per-bucket net_sentiment is noisy at low volume);
+    is_anomaly flags a bucket whose volume z-scores > TREND_ANOMALY_Z
+    against this window's OWN mean/stdev, or whose negative share is high
+    at real volume. This differs from a literal "same hour of day across
+    the last 7 days" baseline (which needs a fixed day-aligned bucket
+    grid) - buckets here scale with whatever range the caller asked for,
+    so a window-relative z-score is the baseline that generalizes across
+    every range instead of only 1w-at-4h-buckets."""
+    bounds = bucket_bounds(now, span, buckets)
     curve = []
-    for i in range(buckets, 0, -1):
-        b_end = now - bucket_span * (i - 1)
-        b_start = b_end - bucket_span
+    for b_start, b_end in bounds:
         bucket_posts = [p for p in posts if p['ts'] and b_start <= p['ts'] < b_end]
         counts = Counter(p['sentiment'] for p in bucket_posts)
         total = len(bucket_posts)
         pos, neg = counts.get('positive', 0), counts.get('negative', 0)
         net_sentiment = round((pos - neg) / total * 100, 1) if total else 0.0
+
+        engagement_by_sentiment = defaultdict(int)
+        for p in bucket_posts:
+            engagement_by_sentiment[p['sentiment']] += p['interaction']
 
         topic_counts = Counter(p['cluster_id'] for p in bucket_posts)
         top_topics = [{'topic_id': cid, 'label': topic_labels.get(cid, f'cluster-{cid}'), 'count': c}
@@ -372,13 +400,72 @@ def widget_sentiment_trend_curve(posts, now, span, topic_labels, buckets=14):
             'positive': pos,
             'neutral': counts.get('neutral', 0),
             'negative': neg,
+            'positive_engagement': engagement_by_sentiment.get('positive', 0),
+            'neutral_engagement': engagement_by_sentiment.get('neutral', 0),
+            'negative_engagement': engagement_by_sentiment.get('negative', 0),
             'net_sentiment': net_sentiment,
             'post_count': total,
             'engagement': sum(p['interaction'] for p in bucket_posts),
             'top_topics': top_topics,
             'top_posts': top_posts,
         })
+
+    # Smoothing and anomaly detection both need cross-bucket context, so
+    # they're a second pass over the finished curve rather than computed
+    # bucket-by-bucket above.
+    n = len(curve)
+    volumes = [b['post_count'] for b in curve]
+    vol_mean = sum(volumes) / n if n else 0.0
+    vol_sd = (sum((v - vol_mean) ** 2 for v in volumes) / n) ** 0.5 if n else 0.0
+    for i, b in enumerate(curve):
+        window = curve[max(0, i - TREND_SMOOTH_RADIUS):i + TREND_SMOOTH_RADIUS + 1]
+        b['net_sentiment_smoothed'] = round(sum(w['net_sentiment'] for w in window) / len(window), 1)
+
+        vol_z = (b['post_count'] - vol_mean) / vol_sd if vol_sd else 0.0
+        neg_share = b['negative'] / b['post_count'] if b['post_count'] else 0.0
+        b['is_anomaly'] = bool(
+            vol_z > TREND_ANOMALY_Z
+            or (neg_share > TREND_ANOMALY_NEG_SHARE and b['post_count'] > TREND_ANOMALY_MIN_VOLUME)
+        )
     return curve
+
+
+MAX_HEATMAP_TOPICS = 6
+
+
+def widget_topic_sentiment_heatmap(posts, now, span, topic_labels, buckets=14, top_n=MAX_HEATMAP_TOPICS):
+    """FR-03's main trend curve nets every topic's sentiment together, so
+    "topic A turned negative while topic B turned positive" cancels out
+    into a flat line - this widget splits that back apart: one row per
+    top topic (by total volume across the window), one column per
+    bucket, each cell's own net_sentiment/volume computed independently.
+    Shares widget_sentiment_trend_curve's bucket_bounds() so both charts'
+    x-axes line up exactly."""
+    topic_totals = Counter(p['cluster_id'] for p in posts)
+    top_topics = [cid for cid, _ in topic_totals.most_common(top_n)]
+    top_set = set(top_topics)
+    bounds = bucket_bounds(now, span, buckets)
+
+    posts_by_topic = defaultdict(list)
+    for p in posts:
+        if p['cluster_id'] in top_set and p['ts']:
+            posts_by_topic[p['cluster_id']].append(p)
+
+    rows = []
+    for cid in top_topics:
+        topic_posts = posts_by_topic[cid]
+        cells = []
+        for b_start, b_end in bounds:
+            bucket_posts = [p for p in topic_posts if b_start <= p['ts'] < b_end]
+            total = len(bucket_posts)
+            pos = sum(1 for p in bucket_posts if p['sentiment'] == 'positive')
+            neg = sum(1 for p in bucket_posts if p['sentiment'] == 'negative')
+            cells.append({
+                'net_sentiment': round((pos - neg) / total * 100, 1) if total else 0.0,
+                'volume': total,
+            })
+        rows.append({'topic_id': cid, 'label': topic_labels.get(cid, f'cluster-{cid}'), 'cells': cells})
+    return rows
 
 
 def widget_competitor_mentions(posts, keyword):
@@ -520,6 +607,7 @@ def build_dashboard(all_posts, time_range, now, keyword=None):
             'temperature_bar': widget_temperature_bar(posts_by_topic, topic_labels),
             'named_entities': widget_named_entities(posts),
             'sentiment_trend_curve': widget_sentiment_trend_curve(posts, now, span, topic_labels),
+            'topic_sentiment_heatmap': widget_topic_sentiment_heatmap(posts, now, span, topic_labels),
             'coverage_focus_ranking': widget_coverage_focus_ranking(posts_by_topic, topic_labels),
             'top_engagement_ranking': widget_top_engagement_ranking(posts_by_topic, topic_labels),
             'posting_timeslot_analysis': widget_posting_timeslot_analysis(posts),

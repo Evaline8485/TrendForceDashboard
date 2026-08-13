@@ -385,6 +385,7 @@ def render_sentiment(data):
       for name, s in slots.items())
 
     trend_html = render_trend_curve(w['sentiment_trend_curve'])
+    heatmap_html = render_topic_heatmap(w.get('topic_sentiment_heatmap', []), w['sentiment_trend_curve'])
 
     focus_rows = ''.join(f"""
       <tr><td class="cell-primary">{esc(r['handle'])}</td><td>{esc(r['top_topic_label'])}</td>
@@ -401,6 +402,7 @@ def render_sentiment(data):
     return f"""
     {stat_cards}
     {panel(trend_html, 'Sentiment trend curve', 'Net sentiment & volume over time, with topic call-outs')}
+    {panel(heatmap_html, 'Topic × time heatmap', "Per-topic sentiment - a site-wide average can't show A turning negative while B turns positive")}
     {keyword_search_html}
     <div class="col-2">
       {panel(table(['Topic', '#Heat', '#Volume', '#Engagement', 'Top entities'], heat_rows), 'Temperature bar')}
@@ -412,41 +414,51 @@ def render_sentiment(data):
     """
 
 
-LOW_SAMPLE_THRESHOLD = 10  # below this many posts, a point/bar is noise, not signal
-MIN_POINT_OPACITY = 0.35
-
-# Two-panel layout (2026-08-13, replacing the old three-color stacked bar):
-# a line panel plots net sentiment (positive% - negative%, one number
-# instead of three - a single diverging line reads "is this net positive
-# or negative" directly, no three-way mental subtraction) and a bar panel
-# underneath plots volume, sharing the same per-bucket x-slot so a spike in
-# one visually lines up with the other. Two separate y-scales stacked
+# Two-panel layout (2026-08-13, redesigned 2026-08-13 against a supplied
+# mockup): a line panel plots net sentiment (positive% - negative%, one
+# number instead of three) with a smoothed line + raw line + a green/red
+# area fill against the zero baseline, and a bar panel underneath plots
+# volume (stacked positive/neutral/negative, toggle between post-count
+# and engagement-weighted), sharing the same per-bucket x-slot so a spike
+# in one visually lines up with the other. Two separate y-scales stacked
 # vertically (never a dual-axis single chart - see the dataviz skill's
 # #1 anti-pattern) sharing one x-axis.
 TREND_BUCKET_W = 52  # px per bucket column, shared by both panels
-TREND_LINE_H = 130   # net-sentiment plot area height
-TREND_BAR_H = 46     # volume plot area height
-TREND_LABEL_PAD = 34  # headroom above the line panel for peak/trough callouts
-TREND_GAP = 14       # gap between the two panels
+TREND_LINE_H = 150   # net-sentiment plot area height
+TREND_BAR_H = 60     # volume plot area height
+TREND_LABEL_PAD = 46  # headroom above the line panel for peak/trough callout boxes
+TREND_GAP = 16       # gap between the two panels
+TREND_CALLOUT_H = 20
+TREND_BAR_W = 26
 
 
 def render_trend_curve(curve):
-    """Line panel (net sentiment) + bar panel (volume), sharing one x-axis.
+    """Line panel (smoothed net sentiment + area fill) + bar panel (volume,
+    count/engagement toggle), sharing one x-axis.
 
     A temperature reading with no named driver isn't actionable, so every
     bucket's hover/focus target answers "why": its top 3 topics (by post
     count) and its top 1-2 posts by engagement (from
     nlp_sentiment.widget_sentiment_trend_curve). The chart doesn't wait for
     a hover to say *something*, though - the sharpest peaks/troughs get a
-    direct label naming their #1 topic right on the chart, per the dataviz
-    skill's "never gate a value behind a tooltip" (the full breakdown is
-    still hover-only; only the headline driver is always visible)."""
+    direct callout naming their #1 topic right on the chart (dataviz
+    skill: "never gate a value behind a tooltip" - the full breakdown is
+    still hover-only, only the headline driver is always visible), and
+    anomalous buckets (volume z-score > 2, or a high negative share at
+    real volume - see nlp_sentiment.py) get a marked dot so a reader
+    doesn't have to eyeball yesterday's curve from memory to notice one.
+
+    Both bar variants (by post count, by engagement) are pre-rendered as
+    sibling <g> layers, each scaled to its OWN max - the mode toggle just
+    flips which layer is visible, no client-side math or server round
+    trip needed."""
     if not curve:
         return '<p class="empty">Not enough data to plot a trend curve.</p>'
 
     n = len(curve)
-    values = [b['net_sentiment'] for b in curve]
-    domain_min, domain_max = min(values + [0]), max(values + [0])
+    raw_values = [b['net_sentiment'] for b in curve]
+    smoothed_values = [b['net_sentiment_smoothed'] for b in curve]
+    domain_min, domain_max = min(raw_values + smoothed_values + [0]), max(raw_values + smoothed_values + [0])
     pad = max(5.0, (domain_max - domain_min) * 0.15)
     domain_min, domain_max = domain_min - pad, domain_max + pad
     if domain_max - domain_min < 1e-6:
@@ -458,56 +470,97 @@ def render_trend_curve(curve):
     def x_for(i):
         return i * TREND_BUCKET_W + TREND_BUCKET_W / 2
 
-    vol_max = max((b['post_count'] for b in curve), default=0) or 1
     zero_y = y_for(0)
     bar_top = TREND_LABEL_PAD + TREND_LINE_H + TREND_GAP
     total_h = bar_top + TREND_BAR_H + 52  # + two-line date/time label row
+    svg_w = n * TREND_BUCKET_W
 
-    # Local extrema on net_sentiment - an interior point strictly above (peak)
-    # or below (trough) both neighbors. Ranked by |value| and capped at 2 of
-    # each so the chart doesn't turn into a label pile-up (dataviz skill:
-    # "label selectively - never a number on every point").
+    # Local extrema on the SMOOTHED line (matches what's actually drawn) -
+    # an interior point strictly above/below both neighbors. Ranked by
+    # value and capped at 2 of each so the chart doesn't turn into a label
+    # pile-up (dataviz skill: "label selectively").
     peaks, troughs = [], []
     for i in range(1, n - 1):
-        if values[i] > values[i - 1] and values[i] > values[i + 1]:
+        if smoothed_values[i] > smoothed_values[i - 1] and smoothed_values[i] > smoothed_values[i + 1]:
             peaks.append(i)
-        elif values[i] < values[i - 1] and values[i] < values[i + 1]:
+        elif smoothed_values[i] < smoothed_values[i - 1] and smoothed_values[i] < smoothed_values[i + 1]:
             troughs.append(i)
-    peaks.sort(key=lambda i: values[i], reverse=True)
-    troughs.sort(key=lambda i: values[i])
-    callout_idxs = set(peaks[:2]) | set(troughs[:2])
+    peaks.sort(key=lambda i: smoothed_values[i], reverse=True)
+    troughs.sort(key=lambda i: smoothed_values[i])
+    top_peaks, top_troughs = set(peaks[:2]), set(troughs[:2])
 
     def short_label(label, maxlen=14):
         return label if len(label) <= maxlen else label[:maxlen] + '…'
 
-    line_points, dots, bars, callouts, hit_areas = [], [], [], [], []
+    # --- Area fill under the smoothed line, split at the zero baseline ---
+    up_pts = ([f"{x_for(0)},{zero_y}"] + [f"{x_for(i)},{y_for(max(v, 0))}" for i, v in enumerate(smoothed_values)]
+              + [f"{x_for(n - 1)},{zero_y}"])
+    dn_pts = ([f"{x_for(0)},{zero_y}"] + [f"{x_for(i)},{y_for(min(v, 0))}" for i, v in enumerate(smoothed_values)]
+              + [f"{x_for(n - 1)},{zero_y}"])
+    area_fill = (f'<polygon points="{" ".join(up_pts)}" fill="var(--status-good)" opacity="0.14"/>'
+                 f'<polygon points="{" ".join(dn_pts)}" fill="var(--status-critical)" opacity="0.14"/>')
+
+    raw_line = ('<polyline points="' + ' '.join(f"{x_for(i)},{y_for(v)}" for i, v in enumerate(raw_values))
+                + '" class="trend-line-raw"/>')
+    smoothed_line = ('<polyline points="' + ' '.join(f"{x_for(i)},{y_for(v)}" for i, v in enumerate(smoothed_values))
+                      + '" class="trend-line"/>')
+
+    # --- Anomaly dots, on the smoothed line ---
+    anomaly_dots = ''.join(
+        f'<circle cx="{x_for(i)}" cy="{y_for(smoothed_values[i])}" r="5" class="trend-anomaly-dot">'
+        f'<title>Anomalous bucket - volume or negative-share well above this window\'s own baseline</title></circle>'
+        for i, b in enumerate(curve) if b.get('is_anomaly')
+    )
+
+    # --- Callout boxes on the sharpest peaks/troughs ---
+    callouts = []
+    for i in top_peaks | top_troughs:
+        if not curve[i]['top_topics']:
+            continue
+        label = short_label(curve[i]['top_topics'][0]['label'])
+        x, y = x_for(i), y_for(smoothed_values[i])
+        box_w = min(170, max(64, len(label) * 8.6 + 16))
+        box_y = (y - TREND_CALLOUT_H - 8) if i in top_peaks else (y + 8)
+        callouts.append(
+            f'<g class="trend-callout">'
+            f'<rect x="{x - box_w / 2}" y="{box_y}" width="{box_w}" height="{TREND_CALLOUT_H}"/>'
+            f'<text x="{x}" y="{box_y + TREND_CALLOUT_H / 2 + 4}" text-anchor="middle">{esc(label)}</text>'
+            f'</g>')
+
+    # --- Bars: two independently-scaled variants (post count / engagement) ---
+    vol_max = max((b['post_count'] for b in curve), default=0) or 1
+    eng_max = max((b['engagement'] for b in curve), default=0) or 1
+    bars_count, bars_eng = [], []
     for i, b in enumerate(curve):
         x = x_for(i)
-        y = y_for(b['net_sentiment'])
-        line_points.append(f"{x},{y}")
+        for target, total, pos, neu, neg, scale_max in (
+            (bars_count, b['post_count'], b['positive'], b['neutral'], b['negative'], vol_max),
+            (bars_eng, b['engagement'], b['positive_engagement'], b['neutral_engagement'], b['negative_engagement'], eng_max),
+        ):
+            if total <= 0:
+                continue
+            bar_h_total = (total / scale_max) * TREND_BAR_H
+            pos_h = bar_h_total * pos / total
+            neu_h = bar_h_total * neu / total
+            neg_h = bar_h_total * neg / total
+            y = bar_top + TREND_BAR_H
+            y -= pos_h
+            target.append(f'<rect x="{x - TREND_BAR_W / 2}" y="{y}" width="{TREND_BAR_W}" height="{pos_h}" fill="var(--status-good)"/>')
+            y -= neu_h
+            target.append(f'<rect x="{x - TREND_BAR_W / 2}" y="{y}" width="{TREND_BAR_W}" height="{neu_h}" fill="var(--muted-dim)"/>')
+            y -= neg_h
+            target.append(f'<rect x="{x - TREND_BAR_W / 2}" y="{y}" width="{TREND_BAR_W}" height="{neg_h}" fill="var(--status-critical)"/>')
 
-        is_peak, is_trough = i in peaks[:2], i in troughs[:2]
-        total = b['post_count']
-        opacity = MIN_POINT_OPACITY + (1 - MIN_POINT_OPACITY) * min(total, LOW_SAMPLE_THRESHOLD) / LOW_SAMPLE_THRESHOLD
-        dot_color = 'var(--status-good)' if b['net_sentiment'] >= 0 else 'var(--status-critical)'
-        dots.append(f'<circle cx="{x}" cy="{y}" r="4.5" fill="{dot_color}" '
-                    f'stroke="var(--surface)" stroke-width="2" opacity="{round(opacity, 2)}"/>')
-
-        bar_h = (total / vol_max) * TREND_BAR_H if total else 0
-        bars.append(f'<rect x="{x - 12}" y="{bar_top + TREND_BAR_H - bar_h}" width="24" height="{bar_h}" '
-                    f'rx="0" fill="var(--blue)" opacity="{round(0.55 + 0.35 * (total / vol_max if vol_max else 0), 2)}"/>')
-
-        if i in callout_idxs and b['top_topics']:
-            label = short_label(b['top_topics'][0]['label'])
-            if is_peak:
-                callouts.append(f'<text x="{x}" y="{y - 10}" text-anchor="middle" class="trend-callout">{esc(label)}</text>')
-            else:
-                callouts.append(f'<text x="{x}" y="{y + 18}" text-anchor="middle" class="trend-callout">{esc(label)}</text>')
-
+    # --- Hit targets + date labels (unchanged interaction pattern) ---
+    hit_areas = []
+    for i, b in enumerate(curve):
+        x = x_for(i)
         bucket_end_tw = datetime.fromisoformat(b['bucket_end']).astimezone(TAIWAN_TZ)
         payload = json.dumps({
             'date': bucket_end_tw.strftime('%b %d, %H:%M') + ' TW',
-            'net': b['net_sentiment'], 'post_count': total, 'engagement': b['engagement'],
+            'net': b['net_sentiment'], 'post_count': b['post_count'], 'engagement': b['engagement'],
+            'positive': b['positive'], 'neutral': b['neutral'], 'negative': b['negative'],
+            'is_anomaly': b.get('is_anomaly', False),
             'topics': b['top_topics'], 'posts': b['top_posts'],
         }, ensure_ascii=False)
         hit_areas.append(
@@ -523,23 +576,113 @@ def render_trend_curve(curve):
             f'<text x="{x}" y="{total_h - 4}" text-anchor="middle" class="trend-date-label">'
             f'{bucket_end_tw.strftime("%H:%M")}</text>')
 
-    svg_w = n * TREND_BUCKET_W
+    top_val, bot_val = round(domain_max), round(domain_min)
     svg = f"""
     <svg class="trend-svg" viewBox="0 0 {svg_w} {total_h}" width="{svg_w}" height="{total_h}" preserveAspectRatio="xMinYMin meet">
+      <line x1="0" y1="{y_for(top_val)}" x2="{svg_w}" y2="{y_for(top_val)}" class="trend-grid-line"/>
+      <text x="4" y="{y_for(top_val) - 4}" class="trend-axis-label">{top_val:+d}</text>
       <line x1="0" y1="{zero_y}" x2="{svg_w}" y2="{zero_y}" class="trend-zero-line"/>
       <text x="4" y="{zero_y - 4}" class="trend-axis-label">0</text>
-      {''.join(bars)}
-      <polyline points="{' '.join(line_points)}" class="trend-line"/>
-      {''.join(dots)}
+      <line x1="0" y1="{y_for(bot_val)}" x2="{svg_w}" y2="{y_for(bot_val)}" class="trend-grid-line"/>
+      <text x="4" y="{y_for(bot_val) - 4}" class="trend-axis-label">{bot_val:+d}</text>
+      {area_fill}
+      <g class="trend-bars-count">{''.join(bars_count)}</g>
+      <g class="trend-bars-eng" style="display:none">{''.join(bars_eng)}</g>
+      {raw_line}
+      {smoothed_line}
+      {anomaly_dots}
       {''.join(callouts)}
       {''.join(hit_areas)}
+      <text x="4" y="{bar_top - 6}" text-anchor="start" class="trend-axis-label trend-bar-axis-label-count">Volume (posts)</text>
+      <text x="4" y="{bar_top - 6}" text-anchor="start" class="trend-axis-label trend-bar-axis-label-eng" style="display:none">Volume (engagement)</text>
     </svg>"""
 
     return f"""
+    <div class="trend-controls">
+      <div class="seg trend-mode-seg">
+        <button class="on" data-mode="count">By post count</button>
+        <button data-mode="eng">By engagement</button>
+      </div>
+    </div>
     <div class="trend-legend">
-      <span><span class="legend-line" style="background:var(--status-good)"></span>Net sentiment (positive% &minus; negative%)</span>
-      <span><span class="legend-dot" style="background:var(--blue)"></span>Post volume</span>
+      <span><span class="legend-line" style="background:var(--text)"></span>Net sentiment (smoothed, 5-pt avg)</span>
+      <span><span class="legend-dot" style="background:var(--status-good)"></span>Positive</span>
+      <span><span class="legend-dot" style="background:var(--muted-dim)"></span>Neutral</span>
+      <span><span class="legend-dot" style="background:var(--status-critical)"></span>Negative</span>
+      <span><span class="legend-dot" style="background:var(--gold)"></span>Anomalous bucket</span>
       <span class="muted">Labeled peaks/troughs show the #1 topic driving that swing &middot; hover/focus any column for the top 3 topics + representative posts</span>
+    </div>
+    <div class="trend-chart-wrap"><div class="trend-chart">{svg}</div></div>"""
+
+
+HEATMAP_ROW_H = 32
+HEATMAP_LABEL_W = 190
+HEATMAP_CELL_GAP = 2
+
+
+def render_topic_heatmap(rows, curve):
+    """Topic x Time heatmap (2026-08-13) - the main trend curve nets every
+    topic's sentiment together, so "topic A turned negative while topic B
+    turned positive" cancels into a flat line above. Splits it back apart:
+    one row per top topic, one column per bucket (same x-axis as the main
+    curve - shares nlp_sentiment.bucket_bounds()), colored by that cell's
+    own net sentiment (green/red) with opacity carrying volume, so a
+    reader sees at a glance WHICH topic actually moved even when the
+    site-wide average didn't. Cell detail is a native SVG <title> tooltip
+    (matches the supplied mockup's own choice) rather than the richer
+    JS popover the main curve uses - a single number + volume doesn't
+    need it."""
+    if not rows or not curve:
+        return '<p class="empty">Not enough data to plot a topic heatmap.</p>'
+
+    n = len(curve)
+    max_vol = max((c['volume'] for r in rows for c in r['cells']), default=0) or 1
+
+    def x_for(i):
+        return HEATMAP_LABEL_W + i * TREND_BUCKET_W
+
+    cells, row_labels = [], []
+    for r_idx, row in enumerate(rows):
+        y = r_idx * HEATMAP_ROW_H
+        label = row['label'] if len(row['label']) <= 22 else row['label'][:22] + '…'
+        row_labels.append(f'<text x="{HEATMAP_LABEL_W - 12}" y="{y + HEATMAP_ROW_H / 2 + 4}" '
+                           f'text-anchor="end" class="heatmap-row-label">{esc(label)}</text>')
+        for i, cell in enumerate(row['cells']):
+            vol, net = cell['volume'], cell['net_sentiment']
+            opacity = 0.06 if vol == 0 else min(vol / max_vol, 1.0) * 0.82 + 0.12
+            color = 'var(--status-good)' if net >= 0 else 'var(--status-critical)'
+            bucket_end_tw = datetime.fromisoformat(curve[i]['bucket_end']).astimezone(TAIWAN_TZ)
+            title = (f"{row['label']} · {bucket_end_tw.strftime('%b %d, %H:%M')} TW\n"
+                     f"Net sentiment {net:+.0f} · {vol} post(s)")
+            cells.append(
+                f'<rect x="{x_for(i)}" y="{y + HEATMAP_CELL_GAP}" width="{TREND_BUCKET_W - HEATMAP_CELL_GAP}" '
+                f'height="{HEATMAP_ROW_H - HEATMAP_CELL_GAP * 2}" fill="{color}" opacity="{round(opacity, 2)}">'
+                f'<title>{esc(title)}</title></rect>')
+
+    grid_h = len(rows) * HEATMAP_ROW_H
+    total_h = grid_h + 52
+    date_labels = []
+    for i, b in enumerate(curve):
+        x = x_for(i) + (TREND_BUCKET_W - HEATMAP_CELL_GAP) / 2
+        bucket_end_tw = datetime.fromisoformat(b['bucket_end']).astimezone(TAIWAN_TZ)
+        date_labels.append(
+            f'<text x="{x}" y="{grid_h + 18}" text-anchor="middle" class="trend-date-label">'
+            f'{bucket_end_tw.strftime("%-m/%-d")}</text>'
+            f'<text x="{x}" y="{grid_h + 32}" text-anchor="middle" class="trend-date-label">'
+            f'{bucket_end_tw.strftime("%H:%M")}</text>')
+
+    svg_w = HEATMAP_LABEL_W + n * TREND_BUCKET_W
+    svg = f"""
+    <svg class="trend-svg heatmap-svg" viewBox="0 0 {svg_w} {total_h}" width="{svg_w}" height="{total_h}" preserveAspectRatio="xMinYMin meet">
+      {''.join(cells)}
+      {''.join(row_labels)}
+      {''.join(date_labels)}
+    </svg>"""
+    return f"""
+    <div class="trend-legend">
+      <span><span class="legend-dot" style="background:var(--status-good)"></span>Net sentiment positive</span>
+      <span><span class="legend-dot" style="background:var(--status-critical)"></span>Net sentiment negative</span>
+      <span class="muted">Shade = volume &middot; hover any cell for the exact value</span>
     </div>
     <div class="trend-chart-wrap"><div class="trend-chart">{svg}</div></div>"""
 
@@ -945,18 +1088,30 @@ def main():
   .trend-legend {{ display: flex; flex-wrap: wrap; gap: 16px; font-size: 14px; color: var(--muted); margin-bottom: 14px; align-items: center; }}
   .legend-dot {{ display: inline-block; width: 8px; height: 8px; border-radius: 0; margin-right: 5px; vertical-align: middle; }}
   .legend-line {{ display: inline-block; width: 14px; height: 2px; margin-right: 5px; vertical-align: middle; }}
+  .trend-controls {{ margin-bottom: 12px; }}
+  .seg {{ display: inline-flex; border: 1px solid var(--border); overflow: hidden; }}
+  .seg button {{
+    border: 0; background: transparent; font-family: inherit; font-size: 14px;
+    padding: 6px 14px; cursor: pointer; color: var(--muted);
+  }}
+  .seg button.on {{ background: var(--text); color: var(--surface); }}
   .trend-chart-wrap {{
     overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -4px; padding: 0 4px;
   }}
   .trend-chart {{ display: block; }}
   .trend-svg {{ display: block; }}
-  .trend-zero-line {{ stroke: var(--border); stroke-width: 1; }}
+  .trend-zero-line {{ stroke: var(--border); stroke-width: 1.4; }}
+  .trend-grid-line {{ stroke: var(--border-soft); stroke-width: 1; stroke-dasharray: 2 4; }}
   .trend-axis-label {{ font-size: 14px; fill: var(--muted); }}
-  .trend-line {{ fill: none; stroke: var(--text); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }}
-  .trend-callout {{ font-size: 14px; fill: var(--muted); font-weight: 600; }}
+  .trend-line {{ fill: none; stroke: var(--text); stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; }}
+  .trend-line-raw {{ fill: none; stroke: var(--muted-dim); stroke-width: 1; opacity: 0.6; }}
+  .trend-anomaly-dot {{ fill: var(--gold); stroke: var(--surface); stroke-width: 1.6; }}
+  .trend-callout rect {{ fill: var(--blue-dim); stroke: var(--blue); stroke-width: 1; }}
+  .trend-callout text {{ font-size: 14px; fill: var(--blue); font-weight: 600; }}
   .trend-date-label {{ font-size: 14px; fill: var(--muted); }}
   .trend-hit {{ cursor: pointer; }}
   .trend-hit:hover, .trend-hit:focus {{ fill: var(--surface-2); outline: none; }}
+  .heatmap-row-label {{ font-size: 14px; fill: var(--text); }}
   @media (max-width: 800px) {{
     header, nav, main {{ padding-left: 18px; padding-right: 18px; }}
     .col-2 {{ grid-template-columns: 1fr; }}
@@ -1257,8 +1412,15 @@ def main():
 
     const stats = document.createElement('div');
     stats.className = 'trend-point-popover-stats';
-    stats.textContent = `Net sentiment ${{data.net >= 0 ? '+' : ''}}${{data.net}} · ${{data.post_count}} post(s) · ${{data.engagement.toLocaleString()}} engagement`;
+    stats.textContent = `Net sentiment ${{data.net >= 0 ? '+' : ''}}${{data.net}} · ${{data.positive}} pos / ${{data.neutral}} neu / ${{data.negative}} neg · ${{data.engagement.toLocaleString()}} engagement`;
     pop.appendChild(stats);
+    if (data.is_anomaly) {{
+      const anom = document.createElement('div');
+      anom.className = 'trend-point-popover-stats';
+      anom.style.color = 'var(--gold)';
+      anom.textContent = 'Anomalous bucket (volume or negative-share well above baseline)';
+      pop.appendChild(anom);
+    }}
 
     if (!data.topics.length) {{
       const p = document.createElement('p');
@@ -1331,6 +1493,27 @@ def main():
   }});
   document.addEventListener('focusout', e => {{
     if (e.target.closest('.trend-hit') && !e.relatedTarget?.closest('.kw-link-popover, .trend-hit')) hideTrendPointPopover();
+  }});
+
+  // Sentiment trend chart's count/engagement mode toggle - both bar
+  // variants are pre-rendered (each scaled to its own max, see
+  // render_trend_curve), so this is just a visibility swap, no
+  // recomputation. Delegated on 'main' since the trend chart's markup is
+  // replaced wholesale on every range switch (see RANGE_HTML below) -
+  // binding directly to '.trend-mode-seg' at page load would miss
+  // whichever range's copy gets swapped in later.
+  document.querySelector('main').addEventListener('click', e => {{
+    const btn = e.target.closest('.trend-mode-seg button');
+    if (!btn) return;
+    const seg = btn.closest('.trend-mode-seg');
+    seg.querySelectorAll('button').forEach(b => b.classList.toggle('on', b === btn));
+    const mode = btn.dataset.mode;
+    const svg = seg.closest('.panel')?.querySelector('.trend-svg');
+    if (!svg) return;
+    svg.querySelector('.trend-bars-count').style.display = mode === 'count' ? '' : 'none';
+    svg.querySelector('.trend-bars-eng').style.display = mode === 'eng' ? '' : 'none';
+    svg.querySelector('.trend-bar-axis-label-count').style.display = mode === 'count' ? '' : 'none';
+    svg.querySelector('.trend-bar-axis-label-eng').style.display = mode === 'eng' ? '' : 'none';
   }});
 
   // FR-05: no backend on a static site to add an account and start
