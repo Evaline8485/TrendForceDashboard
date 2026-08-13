@@ -331,12 +331,12 @@ def render_sentiment(data):
 # in one visually lines up with the other. Two separate y-scales stacked
 # vertically (never a dual-axis single chart - see the dataviz skill's
 # #1 anti-pattern) sharing one x-axis.
-TREND_BUCKET_W = 52  # px per bucket column, shared by both panels
-TREND_LINE_H = 150   # net-sentiment plot area height
-TREND_BAR_H = 60     # volume plot area height
+TREND_BUCKET_W = 64  # px per bucket column, shared by both panels
+TREND_LINE_H = 190   # net-sentiment plot area height
+TREND_BAR_H = 76     # volume plot area height
 TREND_LABEL_PAD = 46  # headroom above the line panel for peak/trough callout labels
 TREND_GAP = 16       # gap between the two panels
-TREND_BAR_W = 26
+TREND_BAR_W = 32
 
 
 def render_trend_curve(curve):
@@ -989,6 +989,7 @@ def main():
   .seg button.on {{ background: var(--text); color: var(--surface); }}
   .trend-chart-wrap {{
     overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -4px; padding: 0 4px;
+    display: flex; justify-content: center;
   }}
   .trend-chart {{ display: block; }}
   .trend-svg {{ display: block; }}
@@ -1085,6 +1086,11 @@ def main():
 
   document.querySelectorAll('.tab-btn').forEach(btn => {{
     btn.addEventListener('click', () => {{
+      // The trend chart's tooltip/crosshair live in document.body, outside
+      // any <section> - switching tabs doesn't fire a mouseout on whatever
+      // .trend-hit was under the pointer, so without this it stays stuck
+      // on screen, floating over whichever tab you switch to.
+      hideTrendPointPopover();
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       document.querySelectorAll('main section').forEach(s => s.classList.remove('active'));
       btn.classList.add('active');
@@ -1598,6 +1604,7 @@ def main():
   }});
 
   function applyRange(range) {{
+    hideTrendPointPopover(); // sentiment-content is about to be replaced - don't leave a stale tooltip floating
     document.getElementById('gaps-content').innerHTML = RANGE_HTML.gaps[range] || '';
     document.getElementById('rising-content').innerHTML = RANGE_HTML.rising[range] || '';
     document.getElementById('sentiment-content').innerHTML = RANGE_HTML.sentiment[range] || '';
