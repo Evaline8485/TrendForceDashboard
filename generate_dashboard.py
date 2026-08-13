@@ -466,7 +466,7 @@ def render_trend_curve(curve):
       <span><span class="legend-dot" style="background:var(--status-critical)"></span>Negative</span>
       <span class="muted">Bar height = share of posts (not volume) &middot; faded = fewer than {LOW_SAMPLE_THRESHOLD} posts, weak signal</span>
     </div>
-    <div class="trend-chart">{''.join(bars)}</div>"""
+    <div class="trend-chart-wrap"><div class="trend-chart">{''.join(bars)}</div></div>"""
 
 
 def render_summaries(data):
@@ -858,6 +858,9 @@ def main():
   .char-count {{ color: var(--muted-dim); font-size: 14px; }}
   .trend-legend {{ display: flex; flex-wrap: wrap; gap: 16px; font-size: 14px; color: var(--muted); margin-bottom: 14px; align-items: center; }}
   .legend-dot {{ display: inline-block; width: 8px; height: 8px; border-radius: 0; margin-right: 5px; vertical-align: middle; }}
+  .trend-chart-wrap {{
+    overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -4px; padding: 0 4px;
+  }}
   .trend-chart {{
     display: flex; align-items: stretch; gap: 6px; min-width: 640px;
     padding-top: 92px; /* clears both the count label and the hover tooltip above each bar,
