@@ -993,15 +993,24 @@ def main():
   /* Dark, compact tooltip (2026-08-13) - the chart's own popover used to
      share .kw-link-popover's light gray/white box, which at that size
      read as a heavy chunk sitting on top of a delicate line chart.
-     Narrower, darker, tighter padding; own animation since it isn't
-     .kw-link-popover anymore. */
+     Narrower, darker, tighter padding.
+
+     One persistent element, reused across every bucket (see
+     getTrendTooltipEl in the script below) - opacity is toggled via
+     .visible rather than the element being created/destroyed per hover,
+     so moving the pointer across adjacent columns cross-fades smoothly
+     instead of re-triggering an entry animation (and mouseleave now
+     fades out instead of vanishing instantly). pointer-events stays off
+     while hidden so an invisible box at opacity 0 never intercepts
+     clicks/hovers underneath it. */
   .trend-tooltip {{
     position: absolute; z-index: 30; background: var(--text); color: var(--surface);
     padding: 10px 14px; box-shadow: var(--shadow); max-width: 300px;
     max-height: 260px; overflow-y: auto; display: flex; flex-direction: column; gap: 6px;
-    animation: popover-in 0.12s ease-out;
+    opacity: 0; pointer-events: none; transition: opacity 0.15s ease;
   }}
-  @media (prefers-reduced-motion: reduce) {{ .trend-tooltip {{ animation: none; }} }}
+  .trend-tooltip.visible {{ opacity: 1; pointer-events: auto; }}
+  @media (prefers-reduced-motion: reduce) {{ .trend-tooltip {{ transition: none; }} }}
   .trend-point-popover-head {{ font-size: 14px; font-weight: 700; color: var(--surface); }}
   .trend-point-popover-stats {{ font-size: 14px; color: var(--muted-dim); margin-bottom: 4px; }}
   .trend-point-topic-row {{ display: flex; justify-content: space-between; gap: 10px; font-size: 14px; color: var(--surface); }}
@@ -1407,14 +1416,26 @@ def main():
   // instead of just a sentiment-count tooltip. Reuses .kw-link-popover's
   // base look (position/shadow/max-height) via a shared class, with its own
   // internal structure classes for the topic/post rows.
-  let trendPointPopover = null;
+  // One persistent tooltip element, reused for every bucket - toggling its
+  // opacity via CSS transition (rather than creating/destroying a new div
+  // per hover, which re-triggers an entry animation on every column change
+  // and has no fade-out at all on leave) is what makes the mockup's own
+  // tooltip feel smooth on rapid mousemove across adjacent columns.
+  let trendTooltipEl = null;
+  function getTrendTooltipEl() {{
+    if (!trendTooltipEl) {{
+      trendTooltipEl = document.createElement('div');
+      trendTooltipEl.className = 'trend-tooltip';
+      document.body.appendChild(trendTooltipEl);
+    }}
+    return trendTooltipEl;
+  }}
   function showTrendPointPopover(hit) {{
-    hideTrendPointPopover();
     let data = null;
     try {{ data = JSON.parse(hit.dataset.payload || 'null'); }} catch (e) {{ data = null; }}
     if (!data) return;
-    const pop = document.createElement('div');
-    pop.className = 'trend-tooltip';
+    const pop = getTrendTooltipEl();
+    pop.innerHTML = '';
 
     const head = document.createElement('div');
     head.className = 'trend-point-popover-head';
@@ -1476,7 +1497,6 @@ def main():
       pop.appendChild(div);
     }});
 
-    document.body.appendChild(pop);
     // hit's own rect spans the FULL chart height (it's a per-column hit
     // target, not a small mark) - anchoring beside it like kwLinkPopover
     // does for a table row lands the popover on top of neighboring bars/
@@ -1494,10 +1514,10 @@ def main():
     left = Math.max(minLeft, Math.min(left, maxLeft));
     pop.style.top = `${{top}}px`;
     pop.style.left = `${{left}}px`;
-    trendPointPopover = pop;
+    pop.classList.add('visible');
   }}
   function hideTrendPointPopover() {{
-    if (trendPointPopover) {{ trendPointPopover.remove(); trendPointPopover = null; }}
+    if (trendTooltipEl) trendTooltipEl.classList.remove('visible');
   }}
   document.addEventListener('mouseover', e => {{
     const hit = e.target.closest('.trend-hit');
