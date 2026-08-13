@@ -50,7 +50,7 @@ import hashlib
 import json
 import os
 import re
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 
 from cluster_topics import PLATFORM_ACCOUNTS, OWN_HANDLES, N_CLUSTERS, parse_count, cluster_posts, label_cluster
@@ -361,8 +361,21 @@ def build():
         json.dump({'generated_at': now.isoformat(), 'accounts': accounts}, f, ensure_ascii=False, indent=2)
 
     vectorizer, X, km, labels = cluster_posts(posts, N_CLUSTERS)
-    topic_labels = {int(cid): ' / '.join(label_cluster(vectorizer, km.cluster_centers_[cid])) or f'cluster-{cid}'
-                    for cid in set(labels)}
+    posts_by_cid = defaultdict(list)
+    for p, cid in zip(posts, labels):
+        posts_by_cid[int(cid)].append(p)
+    # See nlp_sentiment.py's build_dashboard() for why: an empty
+    # label_cluster() result (every TF-IDF term filtered out as noise in a
+    # sparse cluster) used to fall back to a meaningless raw cluster id.
+    topic_labels = {}
+    for cid in set(labels):
+        cid = int(cid)
+        terms = label_cluster(vectorizer, km.cluster_centers_[cid])
+        if terms:
+            topic_labels[cid] = ' / '.join(terms)
+        else:
+            top_entities = [e for e, _ in Counter(e for p in posts_by_cid[cid] for e in p.get('entities', [])).most_common(3)]
+            topic_labels[cid] = ' / '.join(top_entities) if top_entities else f'Misc topic {cid}'
     own_comments = load_own_comments()
     flagged = build_comment_queue(posts, topic_labels, [int(l) for l in labels], now, own_comments)
 

@@ -594,8 +594,21 @@ def build_dashboard(all_posts, time_range, now, keyword=None):
     posts_by_topic = defaultdict(list)
     for p in posts:
         posts_by_topic[p['cluster_id']].append(p)
-    topic_labels = {cid: ' / '.join(label_cluster(vectorizer, km.cluster_centers_[cid])) or f'cluster-{cid}'
-                    for cid in posts_by_topic}
+    # A sparse window (e.g. "last hour" with a dozen posts) can leave a
+    # cluster with every TF-IDF term filtered out as noise - label_cluster()
+    # then returns nothing, and the old fallback (f'cluster-{cid}') showed
+    # a meaningless raw internal ID to the user ("what is cluster-0?").
+    # Fall back to the cluster's own top named entities instead - the same
+    # NER data widget_temperature_bar already surfaces as "Top entities",
+    # so a real topic identity is available even when TF-IDF has nothing.
+    topic_labels = {}
+    for cid, ps in posts_by_topic.items():
+        terms = label_cluster(vectorizer, km.cluster_centers_[cid])
+        if terms:
+            topic_labels[cid] = ' / '.join(terms)
+        else:
+            top_entities = [e for e, _ in Counter(e for p in ps for e in p.get('entities', [])).most_common(3)]
+            topic_labels[cid] = ' / '.join(top_entities) if top_entities else f'Misc topic {cid}'
 
     result = {
         'generated_at': now.isoformat(),

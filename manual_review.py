@@ -35,7 +35,7 @@ import argparse
 import hashlib
 import json
 import os
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime, timezone
 
 from cluster_topics import N_CLUSTERS, cluster_posts, label_cluster
@@ -161,8 +161,17 @@ def build():
     posts_by_topic = defaultdict(list)
     for p, cid in zip(posts, labels):
         posts_by_topic[int(cid)].append(p)
-    topic_labels = {cid: ' / '.join(label_cluster(vectorizer, km.cluster_centers_[cid])) or f'cluster-{cid}'
-                    for cid in posts_by_topic}
+    # See nlp_sentiment.py's build_dashboard() for why: an empty
+    # label_cluster() result (every TF-IDF term filtered out as noise in a
+    # sparse cluster) used to fall back to a meaningless raw cluster id.
+    topic_labels = {}
+    for cid, ps in posts_by_topic.items():
+        terms = label_cluster(vectorizer, km.cluster_centers_[cid])
+        if terms:
+            topic_labels[cid] = ' / '.join(terms)
+        else:
+            top_entities = [e for e, _ in Counter(e for p in ps for e in p.get('entities', [])).most_common(3)]
+            topic_labels[cid] = ' / '.join(top_entities) if top_entities else f'Misc topic {cid}'
 
     new_records = {}
     new_records.update(build_post_records(posts, labels, topic_labels))
