@@ -571,6 +571,7 @@ def render_trend_curve(curve):
       {smoothed_line}
       {anomaly_dots}
       {''.join(callouts)}
+      <line class="trend-crosshair" x1="0" y1="0" x2="0" y2="{total_h}"/>
       {''.join(hit_areas)}
       <text x="4" y="{bar_top - 6}" text-anchor="start" class="trend-axis-label trend-bar-axis-label-count">Volume (posts)</text>
       <text x="4" y="{bar_top - 6}" text-anchor="start" class="trend-axis-label trend-bar-axis-label-eng" style="display:none">Volume (engagement)</text>
@@ -1112,8 +1113,15 @@ def main():
   .trend-anomaly-dot {{ fill: var(--gold); stroke: var(--surface); stroke-width: 1.6; }}
   .trend-callout {{ font-size: 14px; fill: var(--blue); font-weight: 600; }}
   .trend-date-label {{ font-size: 14px; fill: var(--muted); }}
-  .trend-hit {{ cursor: pointer; }}
-  .trend-hit:hover, .trend-hit:focus {{ fill: var(--surface-2); outline: none; }}
+  .trend-hit {{ cursor: pointer; fill: transparent; outline: none; }}
+  /* Thin vertical guide instead of filling the whole (chart-height-tall)
+     hit column on hover - a full-column fill reads as a big blocking
+     rectangle; a hairline that tracks the pointer (same idea as the
+     TrendforceTwitterScraper follower chart's own hover guide) is the
+     lighter, more precise way to say "you're looking at this x". */
+  .trend-crosshair {{ stroke: var(--border); stroke-width: 1; opacity: 0; transition: opacity 0.1s ease; pointer-events: none; }}
+  .trend-crosshair.visible {{ opacity: 1; }}
+  @media (prefers-reduced-motion: reduce) {{ .trend-crosshair {{ transition: none; }} }}
   .heatmap-row-label {{ font-size: 14px; fill: var(--text); }}
   @media (max-width: 800px) {{
     header, nav, main {{ padding-left: 18px; padding-right: 18px; }}
@@ -1417,6 +1425,16 @@ def main():
     let data = null;
     try {{ data = JSON.parse(hit.dataset.payload || 'null'); }} catch (e) {{ data = null; }}
     if (!data) return;
+
+    const svg = hit.closest('.trend-svg');
+    const crosshair = svg?.querySelector('.trend-crosshair');
+    if (crosshair) {{
+      const cx = parseFloat(hit.getAttribute('x')) + parseFloat(hit.getAttribute('width')) / 2;
+      crosshair.setAttribute('x1', cx);
+      crosshair.setAttribute('x2', cx);
+      crosshair.classList.add('visible');
+    }}
+
     const pop = getTrendTooltipEl();
     pop.innerHTML = '';
 
@@ -1501,6 +1519,7 @@ def main():
   }}
   function hideTrendPointPopover() {{
     if (trendTooltipEl) trendTooltipEl.classList.remove('visible');
+    document.querySelectorAll('.trend-crosshair.visible').forEach(c => c.classList.remove('visible'));
   }}
   document.addEventListener('mouseover', e => {{
     const hit = e.target.closest('.trend-hit');
