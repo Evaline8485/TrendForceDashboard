@@ -3,104 +3,62 @@
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 9,
+      "size": 5,
       "accounts": {
-        "TrendForce": 1,
         "technews_tw": 2,
         "jukan05": 1,
         "QQ_Timmy": 1,
-        "tphuang": 1,
-        "dnystedt": 3
-      },
-      "engagement_by_account": {
-        "TrendForce": 2,
-        "technews_tw": 2,
-        "jukan05": 224,
-        "QQ_Timmy": 25,
-        "tphuang": 12,
-        "dnystedt": 87
-      }
-    },
-    {
-      "id": "F",
-      "label": "晶圓代工 / 先進製程",
-      "size": 8,
-      "accounts": {
-        "technews_tw": 2,
-        "jukan05": 2,
-        "QQ_Timmy": 2,
-        "dnystedt": 2
+        "statementdog": 1
       },
       "engagement_by_account": {
         "technews_tw": 1,
-        "jukan05": 381,
-        "QQ_Timmy": 15,
-        "dnystedt": 147
+        "jukan05": 129,
+        "QQ_Timmy": 23,
+        "statementdog": 7
       }
     },
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 6,
-      "accounts": {
-        "technews_tw": 1,
-        "jukan05": 1,
-        "tphuang": 1,
-        "nvidianewsroom": 1,
-        "dnystedt": 2
-      },
-      "engagement_by_account": {
-        "technews_tw": 0,
-        "jukan05": 224,
-        "tphuang": 12,
-        "nvidianewsroom": 97,
-        "dnystedt": 147
-      }
-    },
-    {
-      "id": "H",
-      "label": "網通 / 光通訊",
       "size": 4,
       "accounts": {
-        "technews_tw": 2,
-        "jukan05": 1,
-        "dnystedt": 1
+        "technews_tw": 3,
+        "QQ_Timmy": 1
       },
       "engagement_by_account": {
-        "technews_tw": 2,
-        "jukan05": 224,
-        "dnystedt": 99
+        "technews_tw": 5,
+        "QQ_Timmy": 23
       }
     },
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
+      "id": "K",
+      "label": "AI 模型 / 應用",
       "size": 3,
       "accounts": {
+        "technews_tw": 2,
+        "jukan05": 1
+      },
+      "engagement_by_account": {
         "technews_tw": 1,
-        "tphuang": 1,
-        "dnystedt": 1
-      },
-      "engagement_by_account": {
-        "technews_tw": 0,
-        "tphuang": 6,
-        "dnystedt": 34
-      }
-    },
-    {
-      "id": "E",
-      "label": "AI 伺服器供應鏈",
-      "size": 1,
-      "accounts": {
-        "dnystedt": 1
-      },
-      "engagement_by_account": {
-        "dnystedt": 34
+        "jukan05": 232
       }
     },
     {
       "id": "J",
       "label": "PCB / 載板 / 被動元件",
+      "size": 2,
+      "accounts": {
+        "jukan05": 1,
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 130,
+        "statementdog": 7
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
       "size": 1,
       "accounts": {
         "statementdog": 1
@@ -110,25 +68,36 @@
       }
     },
     {
-      "id": "K",
-      "label": "AI 模型 / 應用",
-      "size": 1,
-      "accounts": {
-        "FT": 1
-      },
-      "engagement_by_account": {
-        "FT": 18
-      }
-    },
-    {
-      "id": "N",
-      "label": "地緣政治 / 政策",
+      "id": "D",
+      "label": "CSP / 資料中心",
       "size": 1,
       "accounts": {
         "technews_tw": 1
       },
       "engagement_by_account": {
-        "technews_tw": 7
+        "technews_tw": 0
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 23
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 23
       }
     },
     {
@@ -136,142 +105,19 @@
       "label": "邊緣 AI / 新終端",
       "size": 1,
       "accounts": {
-        "technews_tw": 1
+        "jukan05": 1
       },
       "engagement_by_account": {
-        "technews_tw": 2
-      }
-    },
-    {
-      "id": "Q",
-      "label": "機器人 / Robotics",
-      "size": 1,
-      "accounts": {
-        "nvidianewsroom": 1
-      },
-      "engagement_by_account": {
-        "nvidianewsroom": 97
+        "jukan05": 138
       }
     }
   ],
-  "gaps": [
-    {
-      "cluster_id": "B",
-      "label": "GPU / AI 加速器",
-      "own_count": 1,
-      "competitor_count": 5,
-      "competitor_engagement": 480,
-      "competitors_covering": [
-        "jukan05",
-        "tphuang",
-        "nvidianewsroom",
-        "dnystedt"
-      ],
-      "sample_posts": [
-        {
-          "handle": "jukan05",
-          "platform": "X",
-          "text": "Taiwan's DigiTimes reports that Nvidia's Feynman platform, the generation after next, will move straight to A16, TSMC's upgraded version of its 2nm process, and will also raise the share of SoIC 3D stacking, with custom HBM and CPO expected to be combined on top of that.",
-          "url": "https://x.com/jukan05/status/2088061698473410965",
-          "timestamp": "2026-08-14T08:34:37.000+08:00",
-          "interaction": 224
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "Nvidia’s next generation chip platform, Feynman is ahead of schedule, will use TSMC’s A16 process, and CPO (co-packaged optics), DigiTimes reports, with TSMC full speed ahead to meet 2028 mass production.  -Nvidia is rapidly shifting its supply chain to put Feynman out in the 2nd",
-          "url": "https://x.com/dnystedt/status/2088070401943601341",
-          "timestamp": "2026-08-14T09:09:12.000+08:00",
-          "interaction": 99
-        },
-        {
-          "handle": "nvidianewsroom",
-          "platform": "X",
-          "text": "NVIDIA and LG are expanding their collaboration to accelerate the next wave of physical AI.  Building on years of work together,  @JensenHuang  and LG Group Chairman Kwang-mo Koo are advancing joint efforts across AI factories, robotics, and autonomous vehicles — combining LG’s",
-          "url": "https://x.com/nvidianewsroom/status/2088087603421569082",
-          "timestamp": "2026-08-14T10:17:34.000+08:00",
-          "interaction": 97
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "Cerebras Systems CEO Andrew Feldman listed 2 key advantages over rivals, media report:  -It uses TSMC’s 5nm process to manufacture its chips, with plentiful supply, in contrast to 3nm and 2nm production.  -Uses on-chip SRAM for memory instead of HBM memory chips, which continue",
-          "url": "https://x.com/dnystedt/status/2088063293181321501",
-          "timestamp": "2026-08-14T08:40:58.000+08:00",
-          "interaction": 48
-        },
-        {
-          "handle": "tphuang",
-          "platform": "X",
-          "text": "And it has started. Vivo's updated S50t kept everything the same except changing DRAM from LPDDR5X to LPDDR5.  Nvidia sucking up latest low power DRAM chips is already hurting China's phone industry.",
-          "url": "https://x.com/tphuang/status/2088100959234969825",
-          "timestamp": "2026-08-14T11:10:38.000+08:00",
-          "interaction": 12
-        }
-      ]
-    }
-  ],
-  "suggested_entry_points": [
-    {
-      "cluster_id": "B",
-      "label": "GPU / AI 加速器",
-      "own_count": 1,
-      "competitor_count": 5,
-      "competitor_engagement": 480,
-      "competitors_covering": [
-        "jukan05",
-        "tphuang",
-        "nvidianewsroom",
-        "dnystedt"
-      ],
-      "sample_posts": [
-        {
-          "handle": "jukan05",
-          "platform": "X",
-          "text": "Taiwan's DigiTimes reports that Nvidia's Feynman platform, the generation after next, will move straight to A16, TSMC's upgraded version of its 2nm process, and will also raise the share of SoIC 3D stacking, with custom HBM and CPO expected to be combined on top of that.",
-          "url": "https://x.com/jukan05/status/2088061698473410965",
-          "timestamp": "2026-08-14T08:34:37.000+08:00",
-          "interaction": 224
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "Nvidia’s next generation chip platform, Feynman is ahead of schedule, will use TSMC’s A16 process, and CPO (co-packaged optics), DigiTimes reports, with TSMC full speed ahead to meet 2028 mass production.  -Nvidia is rapidly shifting its supply chain to put Feynman out in the 2nd",
-          "url": "https://x.com/dnystedt/status/2088070401943601341",
-          "timestamp": "2026-08-14T09:09:12.000+08:00",
-          "interaction": 99
-        },
-        {
-          "handle": "nvidianewsroom",
-          "platform": "X",
-          "text": "NVIDIA and LG are expanding their collaboration to accelerate the next wave of physical AI.  Building on years of work together,  @JensenHuang  and LG Group Chairman Kwang-mo Koo are advancing joint efforts across AI factories, robotics, and autonomous vehicles — combining LG’s",
-          "url": "https://x.com/nvidianewsroom/status/2088087603421569082",
-          "timestamp": "2026-08-14T10:17:34.000+08:00",
-          "interaction": 97
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "Cerebras Systems CEO Andrew Feldman listed 2 key advantages over rivals, media report:  -It uses TSMC’s 5nm process to manufacture its chips, with plentiful supply, in contrast to 3nm and 2nm production.  -Uses on-chip SRAM for memory instead of HBM memory chips, which continue",
-          "url": "https://x.com/dnystedt/status/2088063293181321501",
-          "timestamp": "2026-08-14T08:40:58.000+08:00",
-          "interaction": 48
-        },
-        {
-          "handle": "tphuang",
-          "platform": "X",
-          "text": "And it has started. Vivo's updated S50t kept everything the same except changing DRAM from LPDDR5X to LPDDR5.  Nvidia sucking up latest low power DRAM chips is already hurting China's phone industry.",
-          "url": "https://x.com/tphuang/status/2088100959234969825",
-          "timestamp": "2026-08-14T11:10:38.000+08:00",
-          "interaction": 12
-        }
-      ]
-    }
-  ],
+  "gaps": [],
+  "suggested_entry_points": [],
   "window": {
-    "start_utc": "2026-08-14T08:26:04+08:00",
-    "end_utc": "2026-08-14T12:26:04+08:00",
-    "start_tw": "Aug 14, 08:26",
-    "end_tw": "Aug 14, 12:26"
+    "start_utc": "2026-08-14T12:30:16+08:00",
+    "end_utc": "2026-08-14T16:30:16+08:00",
+    "start_tw": "Aug 14, 12:30",
+    "end_tw": "Aug 14, 16:30"
   }
 }
