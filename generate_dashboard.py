@@ -132,6 +132,11 @@ def pair_label(pair):
     return zh or en or ''
 
 
+def post_matches_pair(text, pair):
+    zh, en = pair.get('zh'), pair.get('en')
+    return bool((zh and zh in text) or (en and en.lower() in text.lower()))
+
+
 
 def esc(s):
     if s is None:
@@ -257,36 +262,53 @@ def render_topic_gap_digest(gaps):
             continue
         top = samples[0]
         name_en = topic_name_en.get(g['cluster_id'])
-        title = f"{g['label']} / {name_en}" if name_en else g['label']
         pairs = topic_keyword_pairs.get(g['cluster_id'], [])
         matched = matched_keyword_pairs(pairs, [p.get('text', '') for p in samples])
         if not matched:
             matched = pairs[:4]  # no textual hit in the (truncated) sample text - fall back to the topic's own defined keywords
-        keywords = [pair_label(p) for p in matched]
-        timestamps = [parse_ts(p['timestamp']) for p in samples if p.get('timestamp')]
+
+        # Title is the single most SPECIFIC matched keyword, not the broad
+        # topic name - "台股市場" covers everything from TAIEX futures to
+        # margin-trading ranking, not a useful card identity on its own.
+        # Prefer whichever keyword matched the single highest-engagement
+        # post (top), since the card is effectively built around that post.
+        primary = next((p for p in matched if post_matches_pair(top.get('text', ''), p)), None) or (matched[0] if matched else None)
+        title = pair_label(primary) if primary else (f"{g['label']} / {name_en}" if name_en else g['label'])
+
+        # Filter the posts this card actually shows down to only those
+        # containing that specific keyword - previously every post that
+        # matched the whole (broad) topic showed up regardless of which
+        # specific keyword it hit, so a "TAIEX futures" card could show a
+        # margin-trading post with nothing to do with futures.
+        filtered_samples = [p for p in samples if post_matches_pair(p.get('text', ''), primary)] if primary else samples
+        if not filtered_samples:
+            filtered_samples = samples
+
+        keywords = [pair_label(p) for p in matched if p is not primary][:4]
+        timestamps = [parse_ts(p['timestamp']) for p in filtered_samples if p.get('timestamp')]
         timestamps = [t for t in timestamps if t]
         latest = max(timestamps) if timestamps else None
         bullets = ''.join(
             f'<li>{esc(p["text"][:120])}{"…" if len(p["text"]) > 120 else ""}</li>'
-            for p in samples[:5]
+            for p in filtered_samples[:5]
         )
         sources = ''.join(f"""
           <div class="gap-source-row">
             <a href="{esc(p['url'])}" target="_blank" rel="noopener noreferrer">{esc(p['text'][:70])}{'…' if len(p['text']) > 70 else ''}</a>
             <span class="muted">— {esc(p['handle'])} ({esc(p['platform'])}){f", {esc(taiwan_str(parse_ts(p['timestamp'])))}" if p.get('timestamp') and parse_ts(p['timestamp']) else ''}</span>
-          </div>""" for p in samples)
+          </div>""" for p in filtered_samples)
         cards.append(f"""
         <div class="gap-card">
           <div class="gap-card-title">{esc(title)}</div>
           <div class="gap-card-meta">
-            <span class="muted">{len(samples)} 篇來源</span>
+            <span class="muted">{len(filtered_samples)} 篇來源</span>
             {f'<span class="muted">{esc(taiwan_str(latest))}</span>' if latest else ''}
             {''.join(f'<span class="badge cat">{esc(k)}</span>' for k in keywords)}
             <span class="badge score">{fmt_int(g["competitor_engagement"])}</span>
           </div>
           <ul class="gap-card-bullets">{bullets}</ul>
           <details class="gap-card-expand">
-            <summary>展開全文（{len(samples)} 篇）</summary>
+            <summary>展開全文（{len(filtered_samples)} 篇）</summary>
             <div class="gap-card-sources">
               <div class="muted" style="margin-top:10px;margin-bottom:4px;">來源文章</div>
               {sources}
