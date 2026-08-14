@@ -16,6 +16,32 @@ notify() { bash alert.sh "$1" "$2"; }
 
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Starting publish..."
 
+# Preflight: if a PRIOR run's push failed badly enough to leave the repo
+# mid-rebase or detached (both now meant to be structurally impossible
+# with the merge-based retry below, but this guards against a run that
+# happened before that fix, or any other way the repo could end up here),
+# recover before doing anything else - otherwise every step below (git
+# add/commit/push) either fails outright or silently operates on the
+# wrong ref. Stash first: by the time publish.sh runs, generate_dashboard.py
+# etc. have already written this run's fresh output to the working tree,
+# uncommitted - `git reset --hard`/`rebase --abort` would otherwise
+# discard it along with whatever mess the prior run left behind.
+if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ] || ! git symbolic-ref -q HEAD >/dev/null; then
+  echo "[WARN] Repo isn't in a clean, publishable state (stuck rebase or detached HEAD) - recovering before continuing."
+  git stash push -u -m "preflight: this run's fresh output" >/dev/null 2>&1
+  git rebase --abort 2>/dev/null
+  git checkout main 2>/dev/null
+  git reset --hard origin/main 2>/dev/null
+  git stash pop >/dev/null 2>&1
+  if git status --porcelain=1 | grep -q '^UU'; then
+    CONFLICTED=$(git diff --name-only --diff-filter=U)
+    echo "[WARN] Stash-pop conflict in: $CONFLICTED - keeping this run's fresh output."
+    echo "$CONFLICTED" | xargs git checkout --theirs --
+    echo "$CONFLICTED" | xargs git add --
+    git stash drop >/dev/null 2>&1
+  fi
+fi
+
 # 0. Validate the data is actually loadable before committing it. This
 #    exists because of a real incident: a cron race between two
 #    sync_data.sh instances corrupted a Facebook CSV mid-write (a split
@@ -51,8 +77,31 @@ for attempt in 1 2 3; do
     echo "[ERROR] Authentication failure - not retrying, this needs manual credential setup."
     exit 1
   fi
-  echo "[WARN] git push failed (attempt $attempt/3), retrying after rebase..."
-  git pull --rebase 2>&1
+  echo "[WARN] git push failed (attempt $attempt/3), retrying after merge..."
+  # Merge, not rebase: a rebase replays our commit elsewhere and can leave
+  # HEAD detached mid-conflict (found repeatedly 2026-08-13/14 on
+  # Evaline's Mac - every occurrence needed someone to manually
+  # `git rebase --abort` and reset before the repo could push again). A
+  # merge never detaches HEAD - we stay on main throughout - and its
+  # --ours/--theirs mean what they intuitively sound like (unlike a
+  # rebase, where they're swapped), which matters here since we're about
+  # to resolve conflicts unattended.
+  #
+  # Every conflict seen in practice has been in pipeline-generated output
+  # (analysis/*.json, docs/index.html, synced csv/) - never hand-edited -
+  # so keeping OUR side (this run's freshly regenerated data, which
+  # reflects whatever sync_data.sh just pulled) and discarding the
+  # incoming side is safe: nothing hand-authored is ever at stake here,
+  # and the next run regenerates everything again regardless of which
+  # side "won".
+  git pull --no-rebase --no-edit 2>&1
+  if git status --porcelain=1 | grep -q '^UU'; then
+    CONFLICTED=$(git diff --name-only --diff-filter=U)
+    echo "[WARN] Merge conflict in: $CONFLICTED - auto-resolving (keeping this run's own freshly-generated version)."
+    echo "$CONFLICTED" | xargs git checkout --ours --
+    echo "$CONFLICTED" | xargs git add --
+    git commit --no-edit >/dev/null 2>&1
+  fi
   sleep $((attempt * 5))
 done
 
