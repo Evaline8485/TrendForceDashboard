@@ -6,7 +6,7 @@ add_account.py/remove_account.py were originally written as a deliberate
 manual gate - a human reads the GitHub issue and decides whether to run
 the command. This script removes that gate on purpose (explicitly asked
 for): it polls open `add-account`/`remove-account`-labeled issues on
-elainekaotf/TrendForceDashboard, parses the platform/handle out of each
+Evaline8485/TrendForceDashboard, parses the platform/handle out of each
 title ("Add account: <platform>/<handle>" / "Remove account: ..." - the
 exact format generate_dashboard.py's request form generates), and runs
 add_account.py/remove_account.py for every one it can, closing the issue
@@ -18,7 +18,7 @@ title that doesn't parse, gets a comment explaining why and is left open
 rather than silently dropped.
 
 Requires `gh` authenticated (`gh auth login`) with access to
-elainekaotf/TrendForceDashboard.
+Evaline8485/TrendForceDashboard.
 
 Usage: python3 auto_approve_accounts.py
 """
@@ -29,7 +29,7 @@ import sys
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
-REPO = 'elainekaotf/TrendForceDashboard'
+REPO = 'Evaline8485/TrendForceDashboard'
 # Tracks which issue numbers we've already fired a "new request" notification
 # for - without this, an issue that fails and gets left open (unsupported
 # platform, add_account.py error) would re-notify on every single check once

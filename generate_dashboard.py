@@ -1528,7 +1528,7 @@ def main():
     }}
     const title = `Add account: ${{platform}}/${{handle}}`;
     const body = `Please start tracking this account:\n\n- Platform: ${{platform}}\n- Handle: ${{handle}}\n\nRequested from the dashboard's Account Status tab.`;
-    const url = `https://github.com/elainekaotf/TrendForceDashboard/issues/new?title=${{encodeURIComponent(title)}}&body=${{encodeURIComponent(body)}}&labels=add-account`;
+    const url = `https://github.com/Evaline8485/TrendForceDashboard/issues/new?title=${{encodeURIComponent(title)}}&body=${{encodeURIComponent(body)}}&labels=add-account`;
     window.open(url, '_blank', 'noopener,noreferrer');
   }});
 
@@ -1557,7 +1557,7 @@ def main():
       btn.textContent = 'Remove';
       const title = `Remove account: ${{platform}}/${{handle}}`;
       const body = `Please stop tracking this account:\n\n- Platform: ${{platform}}\n- Handle: ${{handle}}\n\nRequested from the dashboard's Account Status tab.`;
-      const url = `https://github.com/elainekaotf/TrendForceDashboard/issues/new?title=${{encodeURIComponent(title)}}&body=${{encodeURIComponent(body)}}&labels=remove-account`;
+      const url = `https://github.com/Evaline8485/TrendForceDashboard/issues/new?title=${{encodeURIComponent(title)}}&body=${{encodeURIComponent(body)}}&labels=remove-account`;
       window.open(url, '_blank', 'noopener,noreferrer');
     }});
   }});
