@@ -15,8 +15,8 @@ their own schedules and each pushes fresh data back into this repo.
 
 | Repo | Remote | Role |
 |---|---|---|
-| `TrendForceDash` | `github.com/elainekaotf/TrendForceDashboard` | Analysis + dashboard generation + publish |
-| `TrendforceTwitterScraper` | `github.com/elainekaotf/TrendforceTwitterScraper` | X/Twitter scraping |
+| `TrendForceDash` | `github.com/Evaline8485/TrendForceDashboard` | Analysis + dashboard generation + publish |
+| `TrendforceTwitterScraper` | `github.com/Evaline8485/TrendforceTwitterScraper` | X/Twitter scraping |
 | `TrendforceFacebookScraper` | `github.com/elainekaotf/TrendforceFacebookScraper` (private) | Facebook scraping |
 | `TrendforceLinkedinScraper` | `github.com/elainekaotf/TrendforceLinkedinScraper` (private) | LinkedIn scraping |
 
@@ -24,12 +24,21 @@ All four repos now have a GitHub remote (as of 2026-08-07) - the two
 scraper repos that used to be local-only were pushed as new private
 repos, verified clean of any tracked credentials/session files first.
 
-**To transfer GitHub-hosted repos**: GitHub → repo → Settings →
-Collaborators (to add access) or Settings → Danger Zone → Transfer
-ownership (to fully hand over the account). Transferring ownership
-changes the GitHub Pages URL (`elainekaotf.github.io/...` → whatever the
-new account is), which breaks any existing bookmark/link to the live
-dashboard.
+**Ownership transfer (2026-08-14):** `TrendForceDash` and
+`TrendforceTwitterScraper` were transferred to `Evaline8485` - confirmed
+first that nobody else had the live `elainekaotf.github.io` dashboard
+URL bookmarked/shared anywhere, since transferring changes the GitHub
+Pages URL to whatever the new account is. Every hardcoded
+`elainekaotf/...` reference in the code (publish.sh's GitHub Actions
+deploy-status polling, auto_approve_accounts.py's issue polling, and the
+"Request tracking"/"Remove account" issue-creation links baked into the
+published dashboard's own HTML) was updated to `Evaline8485/...` *before*
+the transfer, so nothing was left pointing at the old path.
+`TrendforceFacebookScraper`/`TrendforceLinkedinScraper` are still under
+`elainekaotf` - transfer those the same way (GitHub → repo → Settings →
+Danger Zone → Transfer ownership) whenever convenient; neither has a
+GitHub Pages deployment or hardcoded owner references, so there's no
+URL-breakage risk to plan around for those two.
 
 ## 3. The hardcoded-path problem — fixed in code, still open in the plists
 
