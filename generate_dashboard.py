@@ -79,6 +79,64 @@ def load(name):
         return json.load(f)
 
 
+def load_topic_name_en():
+    """code -> English topic name (topic_taxonomy.json's own 'name' field
+    is Chinese-only - the source spreadsheet never had an English topic-
+    name column, just per-keyword zh/en pairs - so name_en is a hand-
+    written translation added alongside it, not derived from the sheet."""
+    path = os.path.join(BASE, 'topic_taxonomy.json')
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8') as f:
+        taxonomy = json.load(f)
+    return {t['code']: t.get('name_en', '') for t in taxonomy}
+
+
+def load_topic_keyword_pairs():
+    """code -> list of {zh, en} keyword pairs, straight from the
+    關鍵字(中文)/關鍵字(英文/別名) columns of the source spreadsheet
+    (topic_taxonomy.json's keyword_pairs, one dict per original row -
+    unlike its flat 'keywords' list used for matching, this keeps each
+    row's zh/en pairing intact for display)."""
+    path = os.path.join(BASE, 'topic_taxonomy.json')
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8') as f:
+        taxonomy = json.load(f)
+    return {t['code']: t.get('keyword_pairs', []) for t in taxonomy}
+
+
+def matched_keyword_pairs(pairs, texts, max_pairs=4):
+    """Which of this topic's zh/en keyword pairs actually appear in the
+    given post texts (case-insensitive on the English side, plain
+    substring on the Chinese side) - a Topic Digest card's tags should be
+    the real matched evidence for why these posts landed in this topic,
+    not a guess split from the topic's own name."""
+    joined = ' '.join(texts)
+    joined_lower = joined.lower()
+    matched = []
+    for pair in pairs:
+        zh, en = pair.get('zh'), pair.get('en')
+        hit = (zh and zh in joined) or (en and en.lower() in joined_lower)
+        if hit:
+            matched.append(pair)
+        if len(matched) >= max_pairs:
+            break
+    return matched
+
+
+def pair_label(pair):
+    zh, en = pair.get('zh'), pair.get('en')
+    if zh and en and zh != en:
+        return f"{zh} ({en})"
+    return zh or en or ''
+
+
+def post_matches_pair(text, pair):
+    zh, en = pair.get('zh'), pair.get('en')
+    return bool((zh and zh in text) or (en and en.lower() in text.lower()))
+
+
 
 def esc(s):
     if s is None:
@@ -195,38 +253,62 @@ def render_topic_gap_digest(gaps):
     TF-IDF 'text' field), not a distilled rewrite. Labeled accordingly so
     this doesn't silently overclaim a summarization capability that isn't
     there."""
+    topic_name_en = load_topic_name_en()
+    topic_keyword_pairs = load_topic_keyword_pairs()
     cards = []
     for g in gaps:
         samples = g.get('sample_posts') or []
         if not samples:
             continue
         top = samples[0]
-        title = g['label']
-        keywords = [k.strip() for k in g['label'].split('/') if k.strip()][:4]
-        timestamps = [parse_ts(p['timestamp']) for p in samples if p.get('timestamp')]
+        name_en = topic_name_en.get(g['cluster_id'])
+        pairs = topic_keyword_pairs.get(g['cluster_id'], [])
+        matched = matched_keyword_pairs(pairs, [p.get('text', '') for p in samples])
+        if not matched:
+            matched = pairs[:4]  # no textual hit in the (truncated) sample text - fall back to the topic's own defined keywords
+
+        # Title is the single most SPECIFIC matched keyword, not the broad
+        # topic name - "台股市場" covers everything from TAIEX futures to
+        # margin-trading ranking, not a useful card identity on its own.
+        # Prefer whichever keyword matched the single highest-engagement
+        # post (top), since the card is effectively built around that post.
+        primary = next((p for p in matched if post_matches_pair(top.get('text', ''), p)), None) or (matched[0] if matched else None)
+        title = pair_label(primary) if primary else (f"{g['label']} / {name_en}" if name_en else g['label'])
+
+        # Filter the posts this card actually shows down to only those
+        # containing that specific keyword - previously every post that
+        # matched the whole (broad) topic showed up regardless of which
+        # specific keyword it hit, so a "TAIEX futures" card could show a
+        # margin-trading post with nothing to do with futures.
+        filtered_samples = [p for p in samples if post_matches_pair(p.get('text', ''), primary)] if primary else samples
+        if not filtered_samples:
+            filtered_samples = samples
+
+        keywords = [pair_label(p) for p in matched if p is not primary][:4]
+        timestamps = [parse_ts(p['timestamp']) for p in filtered_samples if p.get('timestamp')]
         timestamps = [t for t in timestamps if t]
         latest = max(timestamps) if timestamps else None
         bullets = ''.join(
             f'<li>{esc(p["text"][:120])}{"…" if len(p["text"]) > 120 else ""}</li>'
-            for p in samples[:5]
+            for p in filtered_samples[:5]
         )
         sources = ''.join(f"""
           <div class="gap-source-row">
             <a href="{esc(p['url'])}" target="_blank" rel="noopener noreferrer">{esc(p['text'][:70])}{'…' if len(p['text']) > 70 else ''}</a>
             <span class="muted">— {esc(p['handle'])} ({esc(p['platform'])}){f", {esc(taiwan_str(parse_ts(p['timestamp'])))}" if p.get('timestamp') and parse_ts(p['timestamp']) else ''}</span>
-          </div>""" for p in samples)
+          </div>""" for p in filtered_samples)
         cards.append(f"""
         <div class="gap-card">
           <div class="gap-card-title">{esc(title)}</div>
           <div class="gap-card-meta">
-            <span class="muted">{len(samples)} 篇來源</span>
+            <span class="muted">{len(filtered_samples)} 篇來源</span>
             {f'<span class="muted">{esc(taiwan_str(latest))}</span>' if latest else ''}
             {''.join(f'<span class="badge cat">{esc(k)}</span>' for k in keywords)}
             <span class="badge score">{fmt_int(g["competitor_engagement"])}</span>
           </div>
           <ul class="gap-card-bullets">{bullets}</ul>
           <details class="gap-card-expand">
-            <summary>展開全文（{len(samples)} 篇）</summary>
+            <summary>展開全文（{len(filtered_samples)} 篇）</summary>
             <div class="gap-card-sources">
               <div class="muted" style="margin-top:10px;margin-bottom:4px;">來源文章</div>
               {sources}
