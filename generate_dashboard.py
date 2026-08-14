@@ -79,6 +79,19 @@ def load(name):
         return json.load(f)
 
 
+def load_topic_name_en():
+    """code -> English topic name (topic_taxonomy.json's own 'name' field
+    is Chinese-only - the source spreadsheet never had an English topic-
+    name column, just per-keyword zh/en pairs - so name_en is a hand-
+    written translation added alongside it, not derived from the sheet."""
+    path = os.path.join(BASE, 'topic_taxonomy.json')
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8') as f:
+        taxonomy = json.load(f)
+    return {t['code']: t.get('name_en', '') for t in taxonomy}
+
+
 
 def esc(s):
     if s is None:
@@ -195,13 +208,15 @@ def render_topic_gap_digest(gaps):
     TF-IDF 'text' field), not a distilled rewrite. Labeled accordingly so
     this doesn't silently overclaim a summarization capability that isn't
     there."""
+    topic_name_en = load_topic_name_en()
     cards = []
     for g in gaps:
         samples = g.get('sample_posts') or []
         if not samples:
             continue
         top = samples[0]
-        title = g['label']
+        name_en = topic_name_en.get(g['cluster_id'])
+        title = f"{g['label']} / {name_en}" if name_en else g['label']
         keywords = [k.strip() for k in g['label'].split('/') if k.strip()][:4]
         timestamps = [parse_ts(p['timestamp']) for p in samples if p.get('timestamp')]
         timestamps = [t for t in timestamps if t]
