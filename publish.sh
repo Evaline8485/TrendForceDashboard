@@ -115,7 +115,7 @@ echo "[$(date '+%Y-%m-%d %H:%M:%S')] Pushed. Watching GitHub Pages deployment...
 
 # 2. Watch the resulting GitHub Pages deployment and auto-redeploy if two
 #    pushes race each other into a failed (not just superseded) state.
-REPO="elainekaotf/TrendForceDashboard"
+REPO="Evaline8485/TrendForceDashboard"
 
 wait_for_run_conclusion() {
   # $1 = commit SHA to match. Polls up to ~3 minutes. Echoes the conclusion
