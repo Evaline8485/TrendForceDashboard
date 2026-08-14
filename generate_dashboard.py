@@ -92,6 +92,46 @@ def load_topic_name_en():
     return {t['code']: t.get('name_en', '') for t in taxonomy}
 
 
+def load_topic_keyword_pairs():
+    """code -> list of {zh, en} keyword pairs, straight from the
+    關鍵字(中文)/關鍵字(英文/別名) columns of the source spreadsheet
+    (topic_taxonomy.json's keyword_pairs, one dict per original row -
+    unlike its flat 'keywords' list used for matching, this keeps each
+    row's zh/en pairing intact for display)."""
+    path = os.path.join(BASE, 'topic_taxonomy.json')
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8') as f:
+        taxonomy = json.load(f)
+    return {t['code']: t.get('keyword_pairs', []) for t in taxonomy}
+
+
+def matched_keyword_pairs(pairs, texts, max_pairs=4):
+    """Which of this topic's zh/en keyword pairs actually appear in the
+    given post texts (case-insensitive on the English side, plain
+    substring on the Chinese side) - a Topic Digest card's tags should be
+    the real matched evidence for why these posts landed in this topic,
+    not a guess split from the topic's own name."""
+    joined = ' '.join(texts)
+    joined_lower = joined.lower()
+    matched = []
+    for pair in pairs:
+        zh, en = pair.get('zh'), pair.get('en')
+        hit = (zh and zh in joined) or (en and en.lower() in joined_lower)
+        if hit:
+            matched.append(pair)
+        if len(matched) >= max_pairs:
+            break
+    return matched
+
+
+def pair_label(pair):
+    zh, en = pair.get('zh'), pair.get('en')
+    if zh and en and zh != en:
+        return f"{zh} ({en})"
+    return zh or en or ''
+
+
 
 def esc(s):
     if s is None:
@@ -209,6 +249,7 @@ def render_topic_gap_digest(gaps):
     this doesn't silently overclaim a summarization capability that isn't
     there."""
     topic_name_en = load_topic_name_en()
+    topic_keyword_pairs = load_topic_keyword_pairs()
     cards = []
     for g in gaps:
         samples = g.get('sample_posts') or []
@@ -217,7 +258,11 @@ def render_topic_gap_digest(gaps):
         top = samples[0]
         name_en = topic_name_en.get(g['cluster_id'])
         title = f"{g['label']} / {name_en}" if name_en else g['label']
-        keywords = [k.strip() for k in g['label'].split('/') if k.strip()][:4]
+        pairs = topic_keyword_pairs.get(g['cluster_id'], [])
+        matched = matched_keyword_pairs(pairs, [p.get('text', '') for p in samples])
+        if not matched:
+            matched = pairs[:4]  # no textual hit in the (truncated) sample text - fall back to the topic's own defined keywords
+        keywords = [pair_label(p) for p in matched]
         timestamps = [parse_ts(p['timestamp']) for p in samples if p.get('timestamp')]
         timestamps = [t for t in timestamps if t]
         latest = max(timestamps) if timestamps else None
