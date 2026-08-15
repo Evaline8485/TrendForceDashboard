@@ -1,75 +1,127 @@
 {
-  "generated_at": "2026-08-15T12:28:25+08:00",
+  "generated_at": "2026-08-15T16:23:08+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-08-15T11:28:25+08:00",
-    "end_utc": "2026-08-15T12:28:25+08:00",
-    "start_tw": "Aug 15, 11:28",
-    "end_tw": "Aug 15, 12:28"
+    "start_utc": "2026-08-15T15:23:08+08:00",
+    "end_utc": "2026-08-15T16:23:08+08:00",
+    "start_tw": "Aug 15, 15:23",
+    "end_tw": "Aug 15, 16:23"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 11,
+      "total_posts": 5,
       "sentiment_counts": {
-        "positive": 5,
-        "neutral": 3,
-        "negative": 3
+        "positive": 1,
+        "neutral": 2,
+        "negative": 2
       },
       "sentiment_share": {
-        "positive": 0.455,
-        "neutral": 0.273,
-        "negative": 0.273
+        "positive": 0.2,
+        "neutral": 0.4,
+        "negative": 0.4
       },
       "top_terms": [
-        "主計",
-        "計總",
-        "總處",
-        "處公",
-        "布最",
-        "最新",
-        "新預",
-        "預測",
-        "主計總",
-        "計總處"
+        "輝達",
+        "cpo",
+        "lane",
+        "交換",
+        "換機",
+        "機正",
+        "式量",
+        "量產",
+        "交換機",
+        "換機正"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 0,
-        "label": "yen / 衝上 / spoiling / 年來最高水準",
-        "heat": 90.0,
-        "volume": 10,
-        "engagement": 35,
-        "entities": []
-      },
-      {
-        "topic_id": 1,
-        "label": "pandemic / ztrcpn / ended / lockdowns",
-        "heat": 10.0,
-        "volume": 1,
-        "engagement": 2,
-        "entities": []
+        "label": "輝達",
+        "heat": 50.0,
+        "volume": 5,
+        "engagement": 26,
+        "entities": [
+          "輝達",
+          "丹佛"
+        ]
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "輝達",
+        "count": 6
+      },
+      {
+        "entity": "丹佛",
+        "count": 1
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-15T11:28:25.000002+08:00",
-        "bucket_end": "2026-08-15T11:32:42.142859+08:00",
-        "positive": 1,
+        "bucket_start": "2026-08-15T15:23:08.000002+08:00",
+        "bucket_end": "2026-08-15T15:27:25.142859+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 23,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 23,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "輝達",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The architect of the 2015 deal with Tehran on how to prevent a new Middle East arms race:  https:// ft.trib.al/8VwI051",
+            "url": "https://x.com/FT/status/2088527635961766081",
+            "interaction": 23
+          }
+        ],
+        "net_sentiment_smoothed": -33.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T15:27:25.142859+08:00",
+        "bucket_end": "2026-08-15T15:31:42.285716+08:00",
+        "positive": 0,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 1,
+        "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -25.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T15:31:42.285716+08:00",
+        "bucket_end": "2026-08-15T15:35:59.428573+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 1,
+        "net_sentiment": -100.0,
         "post_count": 1,
         "engagement": 1,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "yen / 衝上 / spoiling / 年來最高水準",
+            "label": "輝達",
             "count": 1
           }
         ],
@@ -77,48 +129,17 @@
           {
             "handle": "technews_tw",
             "platform": "X",
-            "text": "網家財務體質好轉！上半年營業利益與稅前淨利雙雙轉正，連兩季稅前損益維持正值。 #網路家庭 #財報 #電商",
-            "url": "https://x.com/technews_tw/status/2088468624906592752",
+            "text": "輝達揭露驚人持股！手握 SpaceX 逾 1.2 億股，躍升為第六大投資者。 #輝達 #SpaceX #科技投資",
+            "url": "https://x.com/technews_tw/status/2088529278753464441",
             "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": 66.7,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T11:32:42.142859+08:00",
-        "bucket_end": "2026-08-15T11:36:59.285716+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 5,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 5,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "yen / 衝上 / spoiling / 年來最高水準",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "Jiangsu Zhongxin Microelectronics Co., Ltd.  Product Price Adjustment Notification  Dear Valued Customers and Partners:  We sincerely thank you for your long-standing trust and strong support of our c",
-            "url": "https://x.com/QQ_Timmy/status/2088469368179241186",
-            "interaction": 5
-          }
-        ],
-        "net_sentiment_smoothed": 50.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-15T11:36:59.285716+08:00",
-        "bucket_end": "2026-08-15T11:41:16.428573+08:00",
+        "bucket_start": "2026-08-15T15:35:59.428573+08:00",
+        "bucket_end": "2026-08-15T15:40:16.571430+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -130,12 +151,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T11:41:16.428573+08:00",
-        "bucket_end": "2026-08-15T11:45:33.571430+08:00",
+        "bucket_start": "2026-08-15T15:40:16.571430+08:00",
+        "bucket_end": "2026-08-15T15:44:33.714287+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -147,12 +168,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T11:45:33.571430+08:00",
-        "bucket_end": "2026-08-15T11:49:50.714287+08:00",
+        "bucket_start": "2026-08-15T15:44:33.714287+08:00",
+        "bucket_end": "2026-08-15T15:48:50.857144+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -168,8 +189,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T11:49:50.714287+08:00",
-        "bucket_end": "2026-08-15T11:54:07.857144+08:00",
+        "bucket_start": "2026-08-15T15:48:50.857144+08:00",
+        "bucket_end": "2026-08-15T15:53:08.000001+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -185,8 +206,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T11:54:07.857144+08:00",
-        "bucket_end": "2026-08-15T11:58:25.000001+08:00",
+        "bucket_start": "2026-08-15T15:53:08.000001+08:00",
+        "bucket_end": "2026-08-15T15:57:25.142858+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -198,12 +219,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T11:58:25.000001+08:00",
-        "bucket_end": "2026-08-15T12:02:42.142858+08:00",
+        "bucket_start": "2026-08-15T15:57:25.142858+08:00",
+        "bucket_end": "2026-08-15T16:01:42.285715+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -215,25 +236,25 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T12:02:42.142858+08:00",
-        "bucket_end": "2026-08-15T12:06:59.285715+08:00",
-        "positive": 1,
-        "neutral": 0,
+        "bucket_start": "2026-08-15T16:01:42.285715+08:00",
+        "bucket_end": "2026-08-15T16:05:59.428572+08:00",
+        "positive": 0,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 1,
+        "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
+        "net_sentiment": 0.0,
         "post_count": 1,
-        "engagement": 1,
+        "engagement": 0,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "yen / 衝上 / spoiling / 年來最高水準",
+            "label": "輝達",
             "count": 1
           }
         ],
@@ -241,17 +262,51 @@
           {
             "handle": "technews_tw",
             "platform": "X",
-            "text": "主計總處公布最新預測，大幅上修今年經濟成長率至 11.05%，衝上 39 年來最高水準！",
-            "url": "https://x.com/technews_tw/status/2088476612081951052",
-            "interaction": 1
+            "text": "DDR5 價格區間重疊 2008 年 DDR2！史丹佛數據顯示每 GB 售價顯著走揚，考量通膨後亦回到 2011 年水準。 #記憶體暴漲 #AI浪潮 #DRAM",
+            "url": "https://x.com/technews_tw/status/2088537086374916427",
+            "interaction": 0
           }
         ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T16:05:59.428572+08:00",
+        "bucket_end": "2026-08-15T16:10:16.571429+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T16:10:16.571429+08:00",
+        "bucket_end": "2026-08-15T16:14:33.714286+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
         "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T12:06:59.285715+08:00",
-        "bucket_end": "2026-08-15T12:11:16.428572+08:00",
+        "bucket_start": "2026-08-15T16:14:33.714286+08:00",
+        "bucket_end": "2026-08-15T16:18:50.857143+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -263,204 +318,57 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 15.0,
+        "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T12:11:16.428572+08:00",
-        "bucket_end": "2026-08-15T12:15:33.571429+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 11,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 11,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "yen / 衝上 / spoiling / 年來最高水準",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "OpenAI upheaval mounts as Sam Altman readies IPO push",
-            "url": "https://x.com/FT/status/2088478960447340671",
-            "interaction": 11
-          }
-        ],
-        "net_sentiment_smoothed": 15.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-15T12:15:33.571429+08:00",
-        "bucket_end": "2026-08-15T12:19:50.714286+08:00",
+        "bucket_start": "2026-08-15T16:18:50.857143+08:00",
+        "bucket_end": "2026-08-15T16:23:08+08:00",
         "positive": 1,
-        "neutral": 1,
-        "negative": 2,
-        "positive_engagement": 3,
-        "neutral_engagement": 2,
-        "negative_engagement": 9,
-        "net_sentiment": -25.0,
-        "post_count": 4,
-        "engagement": 14,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 0,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "yen / 衝上 / spoiling / 年來最高水準",
-            "count": 3
-          },
-          {
-            "topic_id": 1,
-            "label": "pandemic / ztrcpn / ended / lockdowns",
+            "label": "輝達",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
+            "handle": "technews_tw",
             "platform": "X",
-            "text": "Traders are spoiling for a fight over the yen",
-            "url": "https://x.com/FT/status/2088480089923015141",
-            "interaction": 6
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Which is the next No 1 city on Earth?",
-            "url": "https://x.com/FT/status/2088480094155104700",
-            "interaction": 3
+            "text": "輝達 CPO 交換機正式量產！全球首款 200G/lane 矽光子交換機技術正式問世。 #輝達 #CPO技術 #矽光子",
+            "url": "https://x.com/technews_tw/status/2088541504809963585",
+            "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": -5.0,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-08-15T12:19:50.714286+08:00",
-        "bucket_end": "2026-08-15T12:24:07.857143+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -6.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-15T12:24:07.857143+08:00",
-        "bucket_end": "2026-08-15T12:28:25+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -8.3,
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
         "topic_id": 0,
-        "label": "yen / 衝上 / spoiling / 年來最高水準",
-        "cells": [
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": -33.3,
-            "volume": 3
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 1,
-        "label": "pandemic / ztrcpn / ended / lockdowns",
+        "label": "輝達",
         "cells": [
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": -100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -497,6 +405,14 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           }
         ]
       }
@@ -505,41 +421,33 @@
       {
         "handle": "technews_tw",
         "top_topic_id": 0,
-        "top_topic_label": "yen / 衝上 / spoiling / 年來最高水準",
+        "top_topic_label": "輝達",
         "focus_share": 1.0,
-        "post_count": 2
+        "post_count": 3
       },
       {
-        "handle": "QQ_Timmy",
+        "handle": "tphuang",
         "top_topic_id": 0,
-        "top_topic_label": "yen / 衝上 / spoiling / 年來最高水準",
+        "top_topic_label": "輝達",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
         "handle": "FT",
         "top_topic_id": 0,
-        "top_topic_label": "yen / 衝上 / spoiling / 年來最高水準",
-        "focus_share": 0.875,
-        "post_count": 8
+        "top_topic_label": "輝達",
+        "focus_share": 1.0,
+        "post_count": 1
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 0,
-        "label": "yen / 衝上 / spoiling / 年來最高水準",
-        "total_engagement": 35,
-        "post_count": 10,
+        "label": "輝達",
+        "total_engagement": 26,
+        "post_count": 5,
         "top_account": "FT",
-        "top_account_engagement": 28
-      },
-      {
-        "topic_id": 1,
-        "label": "pandemic / ztrcpn / ended / lockdowns",
-        "total_engagement": 2,
-        "post_count": 1,
-        "top_account": "FT",
-        "top_account_engagement": 2
+        "top_account_engagement": 23
       }
     ],
     "posting_timeslot_analysis": {
