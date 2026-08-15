@@ -1,153 +1,105 @@
 {
-  "generated_at": "2026-08-15T08:31:08+08:00",
+  "generated_at": "2026-08-15T00:53:29.502861+00:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-08-15T07:31:08+08:00",
-    "end_utc": "2026-08-15T08:31:08+08:00",
-    "start_tw": "Aug 15, 07:31",
-    "end_tw": "Aug 15, 08:31"
+    "start_utc": "2026-08-14T23:53:29.502861+00:00",
+    "end_utc": "2026-08-15T00:53:29.502861+00:00",
+    "start_tw": "Aug 15, 07:53",
+    "end_tw": "Aug 15, 08:53"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 7,
+      "total_posts": 12,
       "sentiment_counts": {
-        "neutral": 3,
+        "neutral": 6,
         "positive": 3,
-        "negative": 1
+        "negative": 3
       },
       "sentiment_share": {
-        "neutral": 0.429,
-        "positive": 0.429,
-        "negative": 0.143
+        "neutral": 0.5,
+        "positive": 0.25,
+        "negative": 0.25
       },
       "top_terms": [
-        "byd",
-        "goog",
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
         "美系",
         "竟出",
         "現中",
         "國式",
-        "式審",
-        "審查",
-        "竟出現",
-        "出現中"
+        "式審"
       ]
     },
     "temperature_bar": [
       {
+        "topic_id": 1,
+        "label": "美系 / 竟出現中國式審查",
+        "heat": 90.0,
+        "volume": 10,
+        "engagement": 36,
+        "entities": [
+          "保時捷",
+          "美國",
+          "密西根",
+          "華爾街",
+          "虎口"
+        ]
+      },
+      {
         "topic_id": 0,
-        "label": "goog / byd",
-        "heat": 50.0,
-        "volume": 7,
-        "engagement": 46,
+        "label": "byd",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 4,
         "entities": []
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "保時捷",
+        "count": 2
+      },
+      {
+        "entity": "美國",
+        "count": 1
+      },
+      {
+        "entity": "密西根",
+        "count": 1
+      },
+      {
+        "entity": "華爾街",
+        "count": 1
+      },
+      {
+        "entity": "虎口",
+        "count": 1
+      },
+      {
+        "entity": "蕭又寧",
+        "count": 1
+      },
+      {
+        "entity": "終於",
+        "count": 1
+      },
+      {
+        "entity": "台灣",
+        "count": 1
+      },
+      {
+        "entity": "水煮蛋",
+        "count": 1
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-15T07:31:08.000002+08:00",
-        "bucket_end": "2026-08-15T07:35:25.142859+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-15T07:35:25.142859+08:00",
-        "bucket_end": "2026-08-15T07:39:42.285716+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-15T07:39:42.285716+08:00",
-        "bucket_end": "2026-08-15T07:43:59.428573+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-15T07:43:59.428573+08:00",
-        "bucket_end": "2026-08-15T07:48:16.571430+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-15T07:48:16.571430+08:00",
-        "bucket_end": "2026-08-15T07:52:33.714287+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 6,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 6,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "goog / byd",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "HyperTechInvest",
-            "platform": "X",
-            "text": "$GOOG  making up 12.6% of Berkshire's portfolio feels crazy  Imagine telling Berkshire investors in 2023 that Warren would become AI-pilled  (Yes, he said it was his choice to buy Google.)",
-            "url": "https://x.com/HyperTechInvest/status/2088413214853996687",
-            "interaction": 6
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-15T07:52:33.714287+08:00",
-        "bucket_end": "2026-08-15T07:56:50.857144+08:00",
+        "bucket_start": "2026-08-14T23:53:29.502863+00:00",
+        "bucket_end": "2026-08-14T23:57:46.645720+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
@@ -159,8 +111,8 @@
         "engagement": 23,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "goog / byd",
+            "topic_id": 1,
+            "label": "美系 / 竟出現中國式審查",
             "count": 1
           }
         ],
@@ -173,12 +125,12 @@
             "interaction": 23
           }
         ],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T07:56:50.857144+08:00",
-        "bucket_end": "2026-08-15T08:01:08.000001+08:00",
+        "bucket_start": "2026-08-14T23:57:46.645720+00:00",
+        "bucket_end": "2026-08-15T00:02:03.788577+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
@@ -190,8 +142,8 @@
         "engagement": 1,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "goog / byd",
+            "topic_id": 1,
+            "label": "美系 / 竟出現中國式審查",
             "count": 1
           }
         ],
@@ -204,12 +156,12 @@
             "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": 20.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T08:01:08.000001+08:00",
-        "bucket_end": "2026-08-15T08:05:25.142858+08:00",
+        "bucket_start": "2026-08-15T00:02:03.788577+00:00",
+        "bucket_end": "2026-08-15T00:06:20.931434+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -221,8 +173,8 @@
         "engagement": 2,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "goog / byd",
+            "topic_id": 1,
+            "label": "美系 / 竟出現中國式審查",
             "count": 1
           }
         ],
@@ -239,8 +191,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T08:05:25.142858+08:00",
-        "bucket_end": "2026-08-15T08:09:42.285715+08:00",
+        "bucket_start": "2026-08-15T00:06:20.931434+00:00",
+        "bucket_end": "2026-08-15T00:10:38.074291+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -252,8 +204,8 @@
         "engagement": 10,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "goog / byd",
+            "topic_id": 1,
+            "label": "美系 / 竟出現中國式審查",
             "count": 1
           }
         ],
@@ -270,42 +222,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T08:09:42.285715+08:00",
-        "bucket_end": "2026-08-15T08:13:59.428572+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-15T08:13:59.428572+08:00",
-        "bucket_end": "2026-08-15T08:18:16.571429+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-15T08:18:16.571429+08:00",
-        "bucket_end": "2026-08-15T08:22:33.714286+08:00",
+        "bucket_start": "2026-08-15T00:10:38.074291+00:00",
+        "bucket_end": "2026-08-15T00:14:55.217148+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -321,8 +239,25 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T08:22:33.714286+08:00",
-        "bucket_end": "2026-08-15T08:26:50.857143+08:00",
+        "bucket_start": "2026-08-15T00:14:55.217148+00:00",
+        "bucket_end": "2026-08-15T00:19:12.360005+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T00:19:12.360005+00:00",
+        "bucket_end": "2026-08-15T00:23:29.502862+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -335,7 +270,7 @@
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "goog / byd",
+            "label": "byd",
             "count": 1
           }
         ],
@@ -348,12 +283,12 @@
             "interaction": 3
           }
         ],
-        "net_sentiment_smoothed": 25.0,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-15T08:26:50.857143+08:00",
-        "bucket_end": "2026-08-15T08:31:08+08:00",
+        "bucket_start": "2026-08-15T00:23:29.502862+00:00",
+        "bucket_end": "2026-08-15T00:27:46.645719+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -365,35 +300,152 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 33.3,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T00:27:46.645719+00:00",
+        "bucket_end": "2026-08-15T00:32:03.788576+00:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 1,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "byd",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "BYD showcasing full breadth of its battery products for commercial vehicles including Heavy trucks, construction machineries, light/medium trucks & Micro trucks.  Each group has wide range of battery ",
+            "url": "https://x.com/tphuang/status/2088423208576004117",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T00:32:03.788576+00:00",
+        "bucket_end": "2026-08-15T00:36:20.931433+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T00:36:20.931433+00:00",
+        "bucket_end": "2026-08-15T00:40:38.074290+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T00:40:38.074290+00:00",
+        "bucket_end": "2026-08-15T00:44:55.217147+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T00:44:55.217147+00:00",
+        "bucket_end": "2026-08-15T00:49:12.360004+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T00:49:12.360004+00:00",
+        "bucket_end": "2026-08-15T00:53:29.502861+00:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "美系 / 竟出現中國式審查",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "保時捷首款純電跑車傳 2030 年停產！工會傳出已同意產線退出，重金研發終成歷史。\n#保時捷\n \n#Taycan\n \n#電動車轉型\n……\n \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02WJN2pd2u3u29uT9U6dtkVHiGwcUKjRE14ppGyFnAqjzRTuAfevccwWUfKEbfBvZdl?__cft__[0]=AZbG72u2k0oEUpNVfvBONf3GA0enUvAu4dEUHugEthkVWb4vz7s6Ui8avY0F9mxMP0TVfGKewwaIczF8Cvn9PrXS36ZoRYebFPjPBZjol2Sb72RFSWpaHp8xw_dDbOriV7c_x2bLjd2sdQtShFrMRiCxLWngMsQ2dJsbMwFXjyRsUs0Jes6X0YIaMZlvRWtjC7g",
+            "interaction": 0
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "美系 \n#AI\n 竟出現中國式審查？",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid0o4LMFb5EyHFe2a6SYMptc2CobcueZvbgJ7igjPwuErt2f44Nkj6CXTAfZRkmq2d3l?__cft__[0]=AZavABcygwEFq20nPWsreRYQMKzYn8049BtgCV0o2f2hQbi6AX6zkcCQfNGzFD4C9zt49fIdqix2poXSih5mXRFT3OT0zjj2WNIvk8Y7xKl2ai8n6JxJSlBZ1ITYH_S6cfIzBJRas9_PR8G_OZsgzVRV6JJxPS8uwCXNPRFaWxZ_eT34yj_-G6sFXIlGV7NyHOg",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "goog / byd",
+        "topic_id": 1,
+        "label": "美系 / 竟出現中國式審查",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
           {
             "net_sentiment": 0.0,
             "volume": 1
@@ -423,8 +475,90 @@
             "volume": 0
           },
           {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "byd",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": 100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -436,41 +570,63 @@
     "coverage_focus_ranking": [
       {
         "handle": "technews_tw",
-        "top_topic_id": 0,
-        "top_topic_label": "goog / byd",
+        "top_topic_id": 1,
+        "top_topic_label": "美系 / 竟出現中國式審查",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
-        "handle": "tphuang",
-        "top_topic_id": 0,
-        "top_topic_label": "goog / byd",
-        "focus_share": 1.0,
-        "post_count": 3
-      },
-      {
         "handle": "statementdog",
-        "top_topic_id": 0,
-        "top_topic_label": "goog / byd",
+        "top_topic_id": 1,
+        "top_topic_label": "美系 / 竟出現中國式審查",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
         "handle": "HyperTechInvest",
-        "top_topic_id": 0,
-        "top_topic_label": "goog / byd",
+        "top_topic_id": 1,
+        "top_topic_label": "美系 / 竟出現中國式審查",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 1,
+        "top_topic_label": "美系 / 竟出現中國式審查",
         "focus_share": 1.0,
         "post_count": 2
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 1,
+        "top_topic_label": "美系 / 竟出現中國式審查",
+        "focus_share": 1.0,
+        "post_count": 4
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 0,
+        "top_topic_label": "byd",
+        "focus_share": 0.667,
+        "post_count": 3
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "goog / byd",
-        "total_engagement": 46,
-        "post_count": 7,
+        "topic_id": 1,
+        "label": "美系 / 竟出現中國式審查",
+        "total_engagement": 36,
+        "post_count": 10,
         "top_account": "HyperTechInvest",
-        "top_account_engagement": 29
+        "top_account_engagement": 23
+      },
+      {
+        "topic_id": 0,
+        "label": "byd",
+        "total_engagement": 4,
+        "post_count": 2,
+        "top_account": "tphuang",
+        "top_account_engagement": 4
       }
     ],
     "posting_timeslot_analysis": {
