@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-14T23:25:38.630108+00:00",
+  "generated_at": "2026-08-15T08:31:08+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-08-14T19:25:38.630108+00:00",
-    "end_utc": "2026-08-14T23:25:38.630108+00:00",
-    "start_tw": "Aug 15, 03:25",
-    "end_tw": "Aug 15, 07:25"
+    "start_utc": "2026-08-15T04:31:08+08:00",
+    "end_utc": "2026-08-15T08:31:08+08:00",
+    "start_tw": "Aug 15, 04:31",
+    "end_tw": "Aug 15, 08:31"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 710,
+      "total_posts": 725,
       "sentiment_counts": {
-        "positive": 259,
-        "neutral": 272,
-        "negative": 179
+        "neutral": 278,
+        "positive": 263,
+        "negative": 184
       },
       "sentiment_share": {
-        "positive": 0.365,
         "neutral": 0.383,
-        "negative": 0.252
+        "positive": 0.363,
+        "negative": 0.254
       },
       "top_terms": [
         "查看",
@@ -37,23 +37,62 @@
     "temperature_bar": [
       {
         "topic_id": 1,
-        "label": "micro / openai / nvidia / eps",
+        "label": "nvidia / google / eps / 台股逐洞賽",
         "heat": 90.0,
-        "volume": 529,
-        "engagement": 0,
+        "volume": 533,
+        "engagement": 439,
         "entities": [
           "美國",
           "中國",
           "台灣",
           "日本",
-          "台積電"
+          "川普"
         ]
       },
       {
-        "topic_id": 6,
-        "label": "datatrack / 成長能否延續 / gdp / fed",
-        "heat": 14.4,
-        "volume": 31,
+        "topic_id": 13,
+        "label": "csp / nvidia / csps / bn",
+        "heat": 11.0,
+        "volume": 10,
+        "engagement": 136,
+        "entities": [
+          "伺服器",
+          "中國",
+          "雷射",
+          "深度",
+          "北美"
+        ]
+      },
+      {
+        "topic_id": 11,
+        "label": "hbm / 新聞來源 / sk / 海力士",
+        "heat": 10.0,
+        "volume": 11,
+        "engagement": 0,
+        "entities": [
+          "三星",
+          "輝達",
+          "中國",
+          "卡關"
+        ]
+      },
+      {
+        "topic_id": 18,
+        "label": "dram / ddr / hbm / 主流",
+        "heat": 10.0,
+        "volume": 5,
+        "engagement": 0,
+        "entities": [
+          "齊揚",
+          "伺服器",
+          "黃金"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "datatrack / 看分析 / 成長能否延續 / gdp",
+        "heat": 10.0,
+        "volume": 35,
         "engagement": 0,
         "entities": [
           "美國",
@@ -64,37 +103,9 @@
         ]
       },
       {
-        "topic_id": 4,
-        "label": "新聞來源 / openai / 新機 / ultra",
-        "heat": 12.3,
-        "volume": 17,
-        "engagement": 0,
-        "entities": [
-          "三星",
-          "台積電",
-          "高通",
-          "輝達",
-          "中國"
-        ]
-      },
-      {
-        "topic_id": 19,
-        "label": "dram / ddr / hbm / sk",
-        "heat": 11.8,
-        "volume": 14,
-        "engagement": 0,
-        "entities": [
-          "伺服器",
-          "齊揚",
-          "美光",
-          "新一波",
-          "黃金"
-        ]
-      },
-      {
-        "topic_id": 15,
+        "topic_id": 6,
         "label": "ddr / 新聞來源 / 主流 / 引爆",
-        "heat": 11.7,
+        "heat": 10.0,
         "volume": 13,
         "engagement": 0,
         "entities": [
@@ -104,9 +115,35 @@
         ]
       },
       {
-        "topic_id": 16,
+        "topic_id": 19,
+        "label": "dram / sk / 新聞來源 / hbm",
+        "heat": 10.0,
+        "volume": 9,
+        "engagement": 0,
+        "entities": [
+          "伺服器",
+          "美光",
+          "新一波"
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "輝達 / 美光 / hvdc / meta",
+        "heat": 10.0,
+        "volume": 7,
+        "engagement": 0,
+        "entities": [
+          "輝達",
+          "摩根士丹利",
+          "黃仁勳",
+          "川普",
+          "體開徵"
+        ]
+      },
+      {
+        "topic_id": 3,
         "label": "spacex / starlink / 月球撞擊 / 星鏈",
-        "heat": 11.5,
+        "heat": 10.0,
         "volume": 12,
         "engagement": 0,
         "entities": [
@@ -118,175 +155,82 @@
         ]
       },
       {
-        "topic_id": 12,
-        "label": "nand / flash / gb / enterprise",
-        "heat": 11.4,
-        "volume": 11,
+        "topic_id": 4,
+        "label": "新聞來源 / 三星 / ultra / 新機",
+        "heat": 10.0,
+        "volume": 20,
+        "engagement": 0,
+        "entities": [
+          "三星",
+          "中國",
+          "台積電",
+          "高通",
+          "美光"
+        ]
+      },
+      {
+        "topic_id": 21,
+        "label": "nand / flash / enterprise / ssd",
+        "heat": 10.0,
+        "volume": 9,
         "engagement": 0,
         "entities": [
           "台廠"
         ]
       },
       {
-        "topic_id": 10,
-        "label": "csp / nvidia / amd / csps",
-        "heat": 11.4,
-        "volume": 11,
+        "topic_id": 14,
+        "label": "micro / tcl / sony / samsung",
+        "heat": 10.0,
+        "volume": 5,
         "engagement": 0,
         "entities": [
-          "伺服器",
-          "中國",
-          "雷射",
-          "深度",
-          "高喊"
-        ]
-      },
-      {
-        "topic_id": 21,
-        "label": "輝達 / 美光 / hvdc / 蘋果",
-        "heat": 10.9,
-        "volume": 8,
-        "engagement": 0,
-        "entities": [
-          "輝達",
-          "摩根士丹利",
-          "黃仁勳",
-          "川普",
-          "體開徵"
-        ]
-      },
-      {
-        "topic_id": 9,
-        "label": "早晨財經速解讀",
-        "heat": 10.8,
-        "volume": 7,
-        "engagement": 0,
-        "entities": [
-          "谷歌",
-          "解套",
-          "費半入"
-        ]
-      },
-      {
-        "topic_id": 13,
-        "label": "hbm / 新聞來源 / hynix / micron",
-        "heat": 10.6,
-        "volume": 6,
-        "engagement": 0,
-        "entities": [
-          "輝達",
-          "中國",
-          "三星"
-        ]
-      },
-      {
-        "topic_id": 11,
-        "label": "台股 / 台股雷達 / 國安基金第 / 短線走勢呈疲弱狀況",
-        "heat": 10.6,
-        "volume": 6,
-        "engagement": 0,
-        "entities": [
-          "國安",
-          "鴻海",
-          "康霈",
-          "景碩",
-          "穩懋"
-        ]
-      },
-      {
-        "topic_id": 2,
-        "label": "萬人",
-        "heat": 10.6,
-        "volume": 6,
-        "engagement": 0,
-        "entities": [
-          "美國",
-          "中國",
-          "華盛頓",
-          "內政部",
-          "普通"
+          "三星",
+          "友達",
+          "華星",
+          "東方",
+          "矽基"
         ]
       },
       {
         "topic_id": 5,
-        "label": "海力士 / sk / hbm / 新聞來源",
-        "heat": 10.5,
-        "volume": 5,
+        "label": "gb / nand / tlc / iphone",
+        "heat": 10.0,
+        "volume": 8,
         "engagement": 0,
         "entities": [
-          "三星",
-          "中國",
-          "SK海力士"
+          "伺服器",
+          "九月份"
         ]
       },
       {
-        "topic_id": 20,
-        "label": "看分析 / datatrack / fed",
-        "heat": 10.5,
+        "topic_id": 9,
+        "label": "fed / datatrack / 名家評論 / 看分析",
+        "heat": 10.0,
         "volume": 5,
         "engagement": 0,
         "entities": [
           "美國",
-          "道瓊",
-          "聯準會"
-        ]
-      },
-      {
-        "topic_id": 7,
-        "label": "三星 / 新聞來源 / hbm / nand",
-        "heat": 10.5,
-        "volume": 5,
-        "engagement": 0,
-        "entities": [
-          "三星",
-          "美光",
-          "中國",
-          "卡關",
-          "輝達"
-        ]
-      },
-      {
-        "topic_id": 0,
-        "label": "iphone / gb / ultra / 蘋果",
-        "heat": 10.5,
-        "volume": 5,
-        "engagement": 0,
-        "entities": [
-          "印度",
-          "伺服器",
-          "九月份",
-          "曝光"
+          "美國聯準會",
+          "華許",
+          "美國聯邦"
         ]
       },
       {
         "topic_id": 8,
-        "label": "關稅 / 川普 / datatrack",
-        "heat": 10.5,
-        "volume": 5,
+        "label": "openai / anthropic / 新聞來源 / ai安全",
+        "heat": 10.0,
+        "volume": 7,
         "engagement": 0,
         "entities": [
-          "川普",
-          "美國",
-          "中國",
-          "加徵",
-          "加拿大"
+          "甲骨文",
+          "英國"
         ]
       },
       {
-        "topic_id": 14,
-        "label": "etf / 台股",
-        "heat": 10.5,
-        "volume": 5,
-        "engagement": 0,
-        "entities": [
-          "衛星",
-          "日本"
-        ]
-      },
-      {
-        "topic_id": 18,
+        "topic_id": 17,
         "label": "資料中心 / 隨著",
-        "heat": 10.3,
+        "heat": 10.0,
         "volume": 4,
         "engagement": 0,
         "entities": [
@@ -298,27 +242,81 @@
         ]
       },
       {
-        "topic_id": 17,
-        "label": "小米 / oppo / 新聞來源",
-        "heat": 10.2,
-        "volume": 3,
+        "topic_id": 15,
+        "label": "台股 / 台股雷達 / 國安基金第 / 短線走勢呈疲弱狀況",
+        "heat": 10.0,
+        "volume": 6,
         "engagement": 0,
         "entities": [
-          "歐洲",
-          "中國",
-          "亞迪",
-          "小鵬"
+          "國安",
+          "鴻海",
+          "康霈",
+          "景碩",
+          "穩懋"
         ]
       },
       {
-        "topic_id": 3,
-        "label": "glp",
+        "topic_id": 12,
+        "label": "蘋果 / 台積電 / 輝達 / lpddr",
         "heat": 10.0,
-        "volume": 2,
+        "volume": 5,
         "engagement": 0,
         "entities": [
-          "台大",
-          "美國銀行"
+          "台積電",
+          "卻卡",
+          "終於",
+          "中國",
+          "微軟"
+        ]
+      },
+      {
+        "topic_id": 10,
+        "label": "財報 / 華邦電 / 記憶體產業",
+        "heat": 10.0,
+        "volume": 3,
+        "engagement": 0,
+        "entities": [
+          "華邦電",
+          "方德",
+          "高達",
+          "美國"
+        ]
+      },
+      {
+        "topic_id": 20,
+        "label": "etf / medium / 台股",
+        "heat": 10.0,
+        "volume": 5,
+        "engagement": 0,
+        "entities": [
+          "衛星",
+          "日本"
+        ]
+      },
+      {
+        "topic_id": 16,
+        "label": "萬人",
+        "heat": 10.0,
+        "volume": 6,
+        "engagement": 0,
+        "entities": [
+          "美國",
+          "中國",
+          "華盛頓",
+          "內政部",
+          "普通"
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "早晨財經速解讀",
+        "heat": 10.0,
+        "volume": 7,
+        "engagement": 0,
+        "entities": [
+          "谷歌",
+          "解套",
+          "費半入"
         ]
       }
     ],
@@ -386,8 +384,8 @@
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-14T19:25:38.630102+00:00",
-        "bucket_end": "2026-08-14T19:42:47.201531+00:00",
+        "bucket_start": "2026-08-15T04:31:07.999994+08:00",
+        "bucket_end": "2026-08-15T04:48:16.571423+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -399,179 +397,146 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-14T19:42:47.201531+00:00",
-        "bucket_end": "2026-08-14T19:59:55.772960+00:00",
+        "bucket_start": "2026-08-15T04:48:16.571423+08:00",
+        "bucket_end": "2026-08-15T05:05:25.142852+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-14T19:59:55.772960+00:00",
-        "bucket_end": "2026-08-14T20:17:04.344389+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-14T20:17:04.344389+00:00",
-        "bucket_end": "2026-08-14T20:34:12.915818+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-14T20:34:12.915818+00:00",
-        "bucket_end": "2026-08-14T20:51:21.487247+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 1.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-14T20:51:21.487247+00:00",
-        "bucket_end": "2026-08-14T21:08:30.058676+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 1.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-14T21:08:30.058676+00:00",
-        "bucket_end": "2026-08-14T21:25:38.630105+00:00",
-        "positive": 69,
-        "neutral": 107,
-        "negative": 50,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 8.4,
-        "post_count": 226,
-        "engagement": 0,
+        "negative_engagement": 119,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 119,
         "top_topics": [
           {
             "topic_id": 1,
-            "label": "micro / openai / nvidia / eps",
-            "count": 101
-          },
-          {
-            "topic_id": 6,
-            "label": "datatrack / 成長能否延續 / gdp / fed",
-            "count": 31
-          },
-          {
-            "topic_id": 4,
-            "label": "新聞來源 / openai / 新機 / ultra",
-            "count": 17
+            "label": "nvidia / google / eps / 台股逐洞賽",
+            "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "TrendForce.tw",
-            "platform": "Facebook",
-            "text": "全球記憶體市場強勁成長，AI 需求推動三大廠營收創紀錄…… \n查看更多",
-            "url": "https://www.facebook.com/TrendForce.tw/posts/pfbid02TsGGEmv5bWdq1K2n5Ko5nbMzm8PsYSFJv7Lp1qYE4yMqTDPiKiQjNocNhiphDHbul?__cft__[0]=AZZQCdvZizw1gdM1qvR8bPuPQ-GTWIgsqQ6jeO64bcRANBNTX_NPMXNUO-6A4hP0ttwa3g2fZ0U8562-hPltd8Q0EgvQKRM7ys_nNGDd7uKtXOPlLioj3ji6ItjoyD0s0WawCl954FMhu90UIWSoO75iSN75MRraNGaxPaTil-FBm8X3HHdbpizX0c7JY9umPE4",
-            "interaction": 0
-          },
-          {
-            "handle": "TrendForce.tw",
-            "platform": "Facebook",
-            "text": "#AI\n 算力撞上記憶體牆\n當算力成長遠超頻寬極限，HBM 成為新戰場。這場突破「記憶體牆」的軍備競賽，將決定未來的競爭格局\n \nhttps://buff.ly/5XpLyT1\n…… \n查看更多",
-            "url": "https://www.facebook.com/TrendForce.tw/posts/pfbid02wjMXYcqumhAp4HndFH3U1PEQPnmzPh9aRhHiEQJGtXfgu5AbDtpNvKq2xEeNFqJvl?__cft__[0]=AZamPmSZ4GNKqOlb_JbUKNzM3fQftNolMjJMJNCKoOuP87U642bPUD5PJhx4wA-9cAzlMVLcEkeydm707YoJmG053tH6qqBSFoQCuDBntSqA8_KwcLgdsj5xm4GNDamL1oW6csngtU2zZl914x7LEuhXe24Gj-MdV0RUUWMGkSScCL7CA-n2uU27ZXfTpXPwkc8",
-            "interaction": 0
+            "handle": "FT",
+            "platform": "X",
+            "text": "Jason Arday, who resigned as a professor at the University of Cambridge last week amid allegations of plagiarism, has been found dead.  https:// ft.trib.al/4WS0Gbq",
+            "url": "https://x.com/FT/status/2088371063663071713",
+            "interaction": 119
           }
         ],
-        "net_sentiment_smoothed": 1.7,
+        "net_sentiment_smoothed": -23.1,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T05:05:25.142852+08:00",
+        "bucket_end": "2026-08-15T05:22:33.714281+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -8.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T05:22:33.714281+08:00",
+        "bucket_end": "2026-08-15T05:39:42.285710+08:00",
+        "positive": 69,
+        "neutral": 107,
+        "negative": 52,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 151,
+        "net_sentiment": 7.5,
+        "post_count": 228,
+        "engagement": 151,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "nvidia / google / eps / 台股逐洞賽",
+            "count": 100
+          },
+          {
+            "topic_id": 2,
+            "label": "datatrack / 看分析 / 成長能否延續 / gdp",
+            "count": 35
+          },
+          {
+            "topic_id": 4,
+            "label": "新聞來源 / 三星 / ultra / 新機",
+            "count": 20
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "FT Exclusive: The New York-based firm disclosed the figure to lenders as part of a deal to shift its roughly $11bn public debt pile to private investors including Pimco.  https:// ft.trib.al/aPG6wZb",
+            "url": "https://x.com/FT/status/2088376779027181597",
+            "interaction": 104
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Jane Street suffers $15bn loss in July market ructions",
+            "url": "https://x.com/FT/status/2088378682465288223",
+            "interaction": 47
+          }
+        ],
+        "net_sentiment_smoothed": -5.7,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-08-14T21:25:38.630105+00:00",
-        "bucket_end": "2026-08-14T21:42:47.201534+00:00",
-        "positive": 0,
-        "neutral": 0,
+        "bucket_start": "2026-08-15T05:39:42.285710+08:00",
+        "bucket_end": "2026-08-15T05:56:50.857139+08:00",
+        "positive": 1,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "positive_engagement": 6,
+        "neutral_engagement": 8,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 4.4,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 14,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "nvidia / google / eps / 台股逐洞賽",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "Chery 捷豹路虎 FREELANDER 神行者 8 has been put on sale bw 339.9 to 429.9k RMB  This is a 6 seat box SUV dimension 5185/2050/1898mm wheelbase 3040mm Uses latest HW ADS 5.0 + 60.3 kWh CATL NMC battery for 310",
+            "url": "https://x.com/tphuang/status/2088381661151137966",
+            "interaction": 8
+          },
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "Alright, time to try it out. Somehow, my GLM coding plan weekly counter also reset on ZCode, so I can see how token efficient this is.",
+            "url": "https://x.com/tphuang/status/2088382378008056241",
+            "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": 14.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-14T21:42:47.201534+00:00",
-        "bucket_end": "2026-08-14T21:59:55.772963+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 4.4,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-14T21:59:55.772963+00:00",
-        "bucket_end": "2026-08-14T22:17:04.344392+00:00",
+        "bucket_start": "2026-08-15T05:56:50.857139+08:00",
+        "bucket_end": "2026-08-15T06:13:59.428568+08:00",
         "positive": 66,
         "neutral": 58,
         "negative": 43,
@@ -584,17 +549,17 @@
         "top_topics": [
           {
             "topic_id": 1,
-            "label": "micro / openai / nvidia / eps",
-            "count": 136
+            "label": "nvidia / google / eps / 台股逐洞賽",
+            "count": 129
           },
           {
-            "topic_id": 16,
+            "topic_id": 3,
             "label": "spacex / starlink / 月球撞擊 / 星鏈",
             "count": 9
           },
           {
-            "topic_id": 14,
-            "label": "etf / 台股",
+            "topic_id": 8,
+            "label": "openai / anthropic / 新聞來源 / ai安全",
             "count": 5
           }
         ],
@@ -614,119 +579,330 @@
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 5.2,
+        "net_sentiment_smoothed": 16.5,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-14T22:17:04.344392+00:00",
-        "bucket_end": "2026-08-14T22:34:12.915821+00:00",
+        "bucket_start": "2026-08-15T06:13:59.428568+08:00",
+        "bucket_end": "2026-08-15T06:31:07.999997+08:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 72,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 5.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-14T22:34:12.915821+00:00",
-        "bucket_end": "2026-08-14T22:51:21.487250+00:00",
-        "positive": 48,
-        "neutral": 62,
-        "negative": 31,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 12.1,
-        "post_count": 141,
-        "engagement": 0,
+        "post_count": 1,
+        "engagement": 72,
         "top_topics": [
           {
             "topic_id": 1,
-            "label": "micro / openai / nvidia / eps",
-            "count": 133
+            "label": "nvidia / google / eps / 台股逐洞賽",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "corgi cafe daughter or cursor cafe son",
+            "url": "https://x.com/SemiAnalysis_/status/2088392307691360398",
+            "interaction": 72
+          }
+        ],
+        "net_sentiment_smoothed": 15.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T06:31:07.999997+08:00",
+        "bucket_end": "2026-08-15T06:48:16.571426+08:00",
+        "positive": 48,
+        "neutral": 62,
+        "negative": 32,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 37,
+        "net_sentiment": 11.3,
+        "post_count": 142,
+        "engagement": 37,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "nvidia / google / eps / 台股逐洞賽",
+            "count": 132
           },
           {
-            "topic_id": 11,
+            "topic_id": 15,
             "label": "台股 / 台股雷達 / 國安基金第 / 短線走勢呈疲弱狀況",
             "count": 4
           },
           {
-            "topic_id": 2,
-            "label": "萬人",
+            "topic_id": 9,
+            "label": "fed / datatrack / 名家評論 / 看分析",
             "count": 2
           }
         ],
         "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Jane Street has paid up large to avoid its numbers leaking out",
+            "url": "https://x.com/FT/status/2088395143833420269",
+            "interaction": 37
+          },
           {
             "handle": "ctee.fans",
             "platform": "Facebook",
             "text": "一般家庭製作的水煮蛋，可參考以下保存時間：\n……\n \n查看更多",
             "url": "https://www.facebook.com/ctee.fans/posts/pfbid02RFTihqCFKjmAHigkH8SKwNZ8JwQfHgwwRRiRaJyjZeZToaX9KmMAsxwdahitdgydl?__cft__[0]=AZb41ydHBHrnLpcPm2rKpRy1NTbd8zRK_T_rAlDwaxaSb3GDYx4U4mPoLGeoY0SPECVEmLzdronUH-gWxiB9PicaexLWgeBGGhS_wBRtayKSZ2sUqXYu44nJW_EyOp6nC1Kgq7QEwl7ow_i19-tMCRqqXZVmnyPsUCxdhol0_ZTva7EgsjYe_8Voaw_q3US4fn8",
             "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 5.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T06:48:16.571426+08:00",
+        "bucket_end": "2026-08-15T07:05:25.142855+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 136,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 136,
+        "top_topics": [
+          {
+            "topic_id": 13,
+            "label": "csp / nvidia / csps / bn",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Nvidia discloses $21bn stake in SpaceX",
+            "url": "https://x.com/FT/status/2088398505760989196",
+            "interaction": 136
+          }
+        ],
+        "net_sentiment_smoothed": 4.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T07:05:25.142855+08:00",
+        "bucket_end": "2026-08-15T07:22:33.714284+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 14.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T07:22:33.714284+08:00",
+        "bucket_end": "2026-08-15T07:39:42.285713+08:00",
+        "positive": 76,
+        "neutral": 45,
+        "negative": 55,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 11.9,
+        "post_count": 176,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "nvidia / google / eps / 台股逐洞賽",
+            "count": 161
           },
           {
-            "handle": "ctee.fans",
+            "topic_id": 7,
+            "label": "早晨財經速解讀",
+            "count": 7
+          },
+          {
+            "topic_id": 16,
+            "label": "萬人",
+            "count": 4
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "yutinghaosfinance",
             "platform": "Facebook",
-            "text": "今（13）日華碩、奇鋐、國巨等個股營運各湧利多，股價強勢上漲，反觀鴻海、康霈*等個股出現賣壓湧現走勢...\n#台股\n \n#台股雷達",
-            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02f882eKioPa3j41S18vyYHXkT9DX1F5cgDqZHAAnS8A6EBRjTgSo6d7Y9cQzarrFol?__cft__[0]=AZZgmMIoAWNRz2xDHUKmXCoE34SbgIdPYr8o7TcFz5samXTklWCo9--n10lB4G2UzKpu2GID4tq_tYGuNIvo9gXbOby0hUEzul0TL6NOnlAYO5cFvee_owFVeinJFKykSJsbruFTslIapqYGcJrdMNdc9indp_-9oZgxgc_Jd2Pr3jy0expxJlqaui-CVomwKi4",
+            "text": "巴西國艦國造終於成功。巴西過去幾十年的國產軍艦計畫屢屢失敗，但今年4月，終於服役了新一代塔曼達雷級巡防艦，首批共4艘、第二批4艘也已初步達成協議，而且整艘船都在巴西本土建造。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0QrxxkYFwMMZei5epGtBgQ5XE7eHwaWWD5mokZgdgRoYtDi5wbcuL6NpNPAWLYw4Cl?comment_id=1063453093264001",
+            "interaction": 0
+          },
+          {
+            "handle": "yutinghaosfinance",
+            "platform": "Facebook",
+            "text": "中國進入高齡就業新時代。北京政府宣布自7月起，首次明文保障退休後繼續工作的高齡勞工，涵蓋技術顧問、保全、清潔與家事服務等工作。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02XvcSBXNQEThcwiSS8nDmyWsQZKtwyapi5LW3VBkDeoPheZtqWjFFqcKFa9yb5kL2l?__cft__[0]=AZb2BoiMJxXfTquQEoSSR0MXioiS01IQeqN-4NaPXL_3q8mkQO1yYFgmqGKAgB3Ypwi7zR-kfFXNoYg42D-mRnXqhfEityp9hAiiC0yqCou4RMxLJYa5yrosQuo29dZ7ZNWiEOIUppdSBTAMxdX1xxO1VdN_NIOyKo9562zOJeBKeaWMB915xBLoasxnSW8wa5k",
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 5.2,
+        "net_sentiment_smoothed": 12.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-14T22:51:21.487250+00:00",
-        "bucket_end": "2026-08-14T23:08:30.058679+00:00",
-        "positive": 0,
-        "neutral": 0,
+        "bucket_start": "2026-08-15T07:39:42.285713+08:00",
+        "bucket_end": "2026-08-15T07:56:50.857142+08:00",
+        "positive": 1,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "positive_engagement": 6,
+        "neutral_engagement": 23,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 3.0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 29,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "nvidia / google / eps / 台股逐洞賽",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$GOOG  trying to ditch  $AVGO  as much as possible, first with  $MRVL  and MediaTek  Now with  $AMD    Big implications here",
+            "url": "https://x.com/HyperTechInvest/status/2088414479038198228",
+            "interaction": 23
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$GOOG  making up 12.6% of Berkshire's portfolio feels crazy  Imagine telling Berkshire investors in 2023 that Warren would become AI-pilled  (Yes, he said it was his choice to buy Google.)",
+            "url": "https://x.com/HyperTechInvest/status/2088413214853996687",
+            "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": 32.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-14T23:08:30.058679+00:00",
-        "bucket_end": "2026-08-14T23:25:38.630108+00:00",
-        "positive": 0,
+        "bucket_start": "2026-08-15T07:56:50.857142+08:00",
+        "bucket_end": "2026-08-15T08:13:59.428571+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 10,
+        "neutral_engagement": 1,
+        "negative_engagement": 2,
+        "net_sentiment": 0.0,
+        "post_count": 3,
+        "engagement": 13,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "nvidia / google / eps / 台股逐洞賽",
+            "count": 3
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "Okay so Mistral is transitioning from AI labs into neocloud after it realizes it has too much compute for its own models.  Zhipu's effort to promote its AI effort is working. Pretty big deal for Mistr",
+            "url": "https://x.com/tphuang/status/2088417364849365436",
+            "interaction": 10
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "800VDC could cut relay count per AI power rack from 12-144 to 12-36 while lifting relay ASPs from under $1 to $20-30, according to supply-chain checks.",
+            "url": "https://x.com/statementdog/status/2088416127395279123",
+            "interaction": 2
+          }
+        ],
+        "net_sentiment_smoothed": 40.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-15T08:13:59.428571+08:00",
+        "bucket_end": "2026-08-15T08:31:08+08:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 3,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 4.0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 3,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "nvidia / google / eps / 台股逐洞賽",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "BYD highlighting its partnership w/ Midea to move along the idea of mobile living space.  Customers can buy Midea auto-related products directly from BYD mkt place.  Tight integration allows BYD cars ",
+            "url": "https://x.com/tphuang/status/2088421227606286586",
+            "interaction": 3
+          }
+        ],
+        "net_sentiment_smoothed": 50.0,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
         "topic_id": 1,
-        "label": "micro / openai / nvidia / eps",
+        "label": "nvidia / google / eps / 台股逐洞賽",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 7.0,
+            "volume": 100
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 15.5,
+            "volume": 129
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 9.1,
+            "volume": 132
+          },
+          {
             "net_sentiment": 0.0,
             "volume": 0
           },
@@ -735,54 +911,26 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 10.6,
+            "volume": 161
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 3
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 5.9,
-            "volume": 101
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 16.2,
-            "volume": 136
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 10.5,
-            "volume": 133
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           }
         ]
       },
       {
-        "topic_id": 6,
-        "label": "datatrack / 成長能否延續 / gdp / fed",
+        "topic_id": 2,
+        "label": "datatrack / 看分析 / 成長能否延續 / gdp",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -797,8 +945,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 11.4,
+            "volume": 35
           },
           {
             "net_sentiment": 0.0,
@@ -809,8 +957,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 12.9,
-            "volume": 31
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -844,7 +992,7 @@
       },
       {
         "topic_id": 4,
-        "label": "新聞來源 / openai / 新機 / ultra",
+        "label": "新聞來源 / 三星 / ultra / 新機",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -859,8 +1007,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 5.0,
+            "volume": 20
           },
           {
             "net_sentiment": 0.0,
@@ -871,8 +1019,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 11.8,
-            "volume": 17
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -905,83 +1053,9 @@
         ]
       },
       {
-        "topic_id": 19,
-        "label": "dram / ddr / hbm / sk",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 13
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 15,
+        "topic_id": 6,
         "label": "ddr / 新聞來源 / 主流 / 引爆",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -1025,11 +1099,23 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 16,
+        "topic_id": 3,
         "label": "spacex / starlink / 月球撞擊 / 星鏈",
         "cells": [
           {
@@ -1046,23 +1132,7 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -1087,83 +1157,203 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 11,
+        "label": "hbm / 新聞來源 / sk / 海力士",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 36.4,
+            "volume": 11
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
+        "handle": "technews_tw",
+        "top_topic_id": 1,
+        "top_topic_label": "nvidia / google / eps / 台股逐洞賽",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 1,
+        "top_topic_label": "nvidia / google / eps / 台股逐洞賽",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 1,
+        "top_topic_label": "nvidia / google / eps / 台股逐洞賽",
+        "focus_share": 1.0,
+        "post_count": 5
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 1,
+        "top_topic_label": "nvidia / google / eps / 台股逐洞賽",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
+        "handle": "HyperTechInvest",
+        "top_topic_id": 1,
+        "top_topic_label": "nvidia / google / eps / 台股逐洞賽",
+        "focus_share": 1.0,
+        "post_count": 2
+      },
+      {
         "handle": "ctee.fans",
         "top_topic_id": 1,
-        "top_topic_label": "micro / openai / nvidia / eps",
-        "focus_share": 0.943,
+        "top_topic_label": "nvidia / google / eps / 台股逐洞賽",
+        "focus_share": 0.929,
         "post_count": 141
       },
       {
         "handle": "yutinghaosfinance",
         "top_topic_id": 1,
-        "top_topic_label": "micro / openai / nvidia / eps",
-        "focus_share": 0.903,
+        "top_topic_label": "nvidia / google / eps / 台股逐洞賽",
+        "focus_share": 0.915,
         "post_count": 176
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 1,
+        "top_topic_label": "nvidia / google / eps / 台股逐洞賽",
+        "focus_share": 0.8,
+        "post_count": 5
       },
       {
         "handle": "technewsinside",
         "top_topic_id": 1,
-        "top_topic_label": "micro / openai / nvidia / eps",
-        "focus_share": 0.814,
+        "top_topic_label": "nvidia / google / eps / 台股逐洞賽",
+        "focus_share": 0.772,
         "post_count": 167
       },
       {
         "handle": "TrendForce.tw",
         "top_topic_id": 1,
-        "top_topic_label": "micro / openai / nvidia / eps",
-        "focus_share": 0.447,
+        "top_topic_label": "nvidia / google / eps / 台股逐洞賽",
+        "focus_share": 0.434,
         "post_count": 226
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 1,
-        "label": "micro / openai / nvidia / eps",
-        "total_engagement": 0,
-        "post_count": 529,
-        "top_account": "TrendForce.tw",
-        "top_account_engagement": 0
+        "label": "nvidia / google / eps / 台股逐洞賽",
+        "total_engagement": 439,
+        "post_count": 533,
+        "top_account": "FT",
+        "top_account_engagement": 307
       },
       {
         "topic_id": 13,
-        "label": "hbm / 新聞來源 / hynix / micron",
+        "label": "csp / nvidia / csps / bn",
+        "total_engagement": 136,
+        "post_count": 10,
+        "top_account": "FT",
+        "top_account_engagement": 136
+      },
+      {
+        "topic_id": 11,
+        "label": "hbm / 新聞來源 / sk / 海力士",
         "total_engagement": 0,
-        "post_count": 6,
+        "post_count": 11,
         "top_account": "TrendForce.tw",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 19,
-        "label": "dram / ddr / hbm / sk",
-        "total_engagement": 0,
-        "post_count": 14,
-        "top_account": "TrendForce.tw",
-        "top_account_engagement": 0
-      },
-      {
-        "topic_id": 5,
-        "label": "海力士 / sk / hbm / 新聞來源",
+        "topic_id": 18,
+        "label": "dram / ddr / hbm / 主流",
         "total_engagement": 0,
         "post_count": 5,
         "top_account": "TrendForce.tw",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 6,
-        "label": "datatrack / 成長能否延續 / gdp / fed",
+        "topic_id": 2,
+        "label": "datatrack / 看分析 / 成長能否延續 / gdp",
         "total_engagement": 0,
-        "post_count": 31,
+        "post_count": 35,
         "top_account": "TrendForce.tw",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 15,
+        "topic_id": 6,
         "label": "ddr / 新聞來源 / 主流 / 引爆",
         "total_engagement": 0,
         "post_count": 13,
@@ -1171,23 +1361,23 @@
         "top_account_engagement": 0
       },
       {
-        "topic_id": 17,
-        "label": "小米 / oppo / 新聞來源",
+        "topic_id": 19,
+        "label": "dram / sk / 新聞來源 / hbm",
         "total_engagement": 0,
-        "post_count": 3,
+        "post_count": 9,
         "top_account": "TrendForce.tw",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 21,
-        "label": "輝達 / 美光 / hvdc / 蘋果",
+        "topic_id": 0,
+        "label": "輝達 / 美光 / hvdc / meta",
         "total_engagement": 0,
-        "post_count": 8,
+        "post_count": 7,
         "top_account": "TrendForce.tw",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 16,
+        "topic_id": 3,
         "label": "spacex / starlink / 月球撞擊 / 星鏈",
         "total_engagement": 0,
         "post_count": 12,
@@ -1196,47 +1386,39 @@
       },
       {
         "topic_id": 4,
-        "label": "新聞來源 / openai / 新機 / ultra",
+        "label": "新聞來源 / 三星 / ultra / 新機",
         "total_engagement": 0,
-        "post_count": 17,
+        "post_count": 20,
         "top_account": "TrendForce.tw",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 12,
-        "label": "nand / flash / gb / enterprise",
+        "topic_id": 21,
+        "label": "nand / flash / enterprise / ssd",
         "total_engagement": 0,
-        "post_count": 11,
+        "post_count": 9,
         "top_account": "TrendForce.tw",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 20,
-        "label": "看分析 / datatrack / fed",
-        "total_engagement": 0,
-        "post_count": 5,
-        "top_account": "TrendForce.tw",
-        "top_account_engagement": 0
-      },
-      {
-        "topic_id": 10,
-        "label": "csp / nvidia / amd / csps",
-        "total_engagement": 0,
-        "post_count": 11,
-        "top_account": "TrendForce.tw",
-        "top_account_engagement": 0
-      },
-      {
-        "topic_id": 7,
-        "label": "三星 / 新聞來源 / hbm / nand",
+        "topic_id": 14,
+        "label": "micro / tcl / sony / samsung",
         "total_engagement": 0,
         "post_count": 5,
         "top_account": "TrendForce.tw",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 0,
-        "label": "iphone / gb / ultra / 蘋果",
+        "topic_id": 5,
+        "label": "gb / nand / tlc / iphone",
+        "total_engagement": 0,
+        "post_count": 8,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0
+      },
+      {
+        "topic_id": 9,
+        "label": "fed / datatrack / 名家評論 / 看分析",
         "total_engagement": 0,
         "post_count": 5,
         "top_account": "TrendForce.tw",
@@ -1244,14 +1426,14 @@
       },
       {
         "topic_id": 8,
-        "label": "關稅 / 川普 / datatrack",
+        "label": "openai / anthropic / 新聞來源 / ai安全",
         "total_engagement": 0,
-        "post_count": 5,
+        "post_count": 7,
         "top_account": "TrendForce.tw",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 18,
+        "topic_id": 17,
         "label": "資料中心 / 隨著",
         "total_engagement": 0,
         "post_count": 4,
@@ -1259,7 +1441,7 @@
         "top_account_engagement": 0
       },
       {
-        "topic_id": 11,
+        "topic_id": 15,
         "label": "台股 / 台股雷達 / 國安基金第 / 短線走勢呈疲弱狀況",
         "total_engagement": 0,
         "post_count": 6,
@@ -1267,23 +1449,31 @@
         "top_account_engagement": 0
       },
       {
-        "topic_id": 3,
-        "label": "glp",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "technewsinside",
-        "top_account_engagement": 0
-      },
-      {
-        "topic_id": 14,
-        "label": "etf / 台股",
+        "topic_id": 12,
+        "label": "蘋果 / 台積電 / 輝達 / lpddr",
         "total_engagement": 0,
         "post_count": 5,
         "top_account": "technewsinside",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 2,
+        "topic_id": 10,
+        "label": "財報 / 華邦電 / 記憶體產業",
+        "total_engagement": 0,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 0
+      },
+      {
+        "topic_id": 20,
+        "label": "etf / medium / 台股",
+        "total_engagement": 0,
+        "post_count": 5,
+        "top_account": "technewsinside",
+        "top_account_engagement": 0
+      },
+      {
+        "topic_id": 16,
         "label": "萬人",
         "total_engagement": 0,
         "post_count": 6,
@@ -1291,7 +1481,7 @@
         "top_account_engagement": 0
       },
       {
-        "topic_id": 9,
+        "topic_id": 7,
         "label": "早晨財經速解讀",
         "total_engagement": 0,
         "post_count": 7,
