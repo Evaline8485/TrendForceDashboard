@@ -1,6 +1,93 @@
 {
   "clusters": [
     {
+      "id": "M",
+      "label": "台股市場",
+      "size": 5,
+      "accounts": {
+        "technews_tw": 1,
+        "technewsinside": 1,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technews_tw": 0,
+        "technewsinside": 11,
+        "ctee.fans": 371
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 3,
+      "accounts": {
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "ctee.fans": 371
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 17,
+        "ctee.fans": 10
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 2,
+      "accounts": {
+        "TrendForce.tw": 1,
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "TrendForce.tw": 4,
+        "technewsinside": 67
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 146
+      }
+    },
+    {
+      "id": "N",
+      "label": "地緣政治 / 政策",
+      "size": 2,
+      "accounts": {
+        "technews_tw": 1,
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 1,
+        "technewsinside": 32
+      }
+    },
+    {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 307
+      }
+    },
+    {
       "id": "B",
       "label": "GPU / AI 加速器",
       "size": 1,
@@ -12,56 +99,108 @@
       }
     },
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
+      "id": "C",
+      "label": "ASIC / 自研晶片",
       "size": 1,
       "accounts": {
-        "tphuang": 1
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "tphuang": 38
+        "ctee.fans": 7
       }
     },
     {
-      "id": "E",
-      "label": "AI 伺服器供應鏈",
+      "id": "R",
+      "label": "散熱 / HVAC",
       "size": 1,
       "accounts": {
-        "QQ_Timmy": 1
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 16
-      }
-    },
-    {
-      "id": "M",
-      "label": "台股市場",
-      "size": 1,
-      "accounts": {
-        "technews_tw": 1
-      },
-      "engagement_by_account": {
-        "technews_tw": 0
-      }
-    },
-    {
-      "id": "N",
-      "label": "地緣政治 / 政策",
-      "size": 1,
-      "accounts": {
-        "technews_tw": 1
-      },
-      "engagement_by_account": {
-        "technews_tw": 1
+        "ctee.fans": 36
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "E",
+      "label": "AI 伺服器供應鏈",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 371,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【誰是台股50K「帶路王」？法人搶卡位16檔績優股 緯創、南亞科入列】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02ZmCdEZdYAG34xBDH5e4q2gTfE2Z5pQKW81S16euUxQgWEtFmaELYHtJyMjtYQjoNl?__cft__[0]=AZYhN5jFpVxXEGfcJ4EgyCMh53nydm18OsG6QINWOB8c9WO37zPcmL9gRPFlJCKGE4TIzbn8fXnMfR4SnHBcgDgQTkoZZlq16cRDc0J4jre3UgARj_bsb6laaozS3X3P4arQSQsuEPgTT_LzsW1S_LJYO1OEWf_cxZUl5qZanErIOEdvvPhezCS-77Crkqy7d-M",
+          "timestamp": "2026-08-16T08:53:55.343449+00:00",
+          "interaction": 307
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI伺服器導軌大廠川湖（2059）自結7月每股盈餘(EPS)為50.24元，等於一個月賺進5個股本，令市場驚豔，近期股價強勢走高，躋身台股「萬金股」行列！…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02xEjUPc9VBNFSq2V5JnDizSV6QkbTJkC14o9myvwLFGwaaTeGjMz2Mg2sJnFqhn9jl?__cft__[0]=AZYIe6Eb8S0YUlsi-BeUvNivnxsmYmvTTYBq7b0RfK3e8ePDUVOfU8jTpFNZdBe1AKqcLjf3XO7Dd4a3hdu1AnJDbKgRA6MdkPaapqFvc7KotpbpSgz4p8O9lupmuruet4QtR_H_-AEMwygEp6ckGbdVf_eBrbm7FP-TAqi5HZpiIMyhqlokRzRQsH1lcLGdFnA",
+          "timestamp": "2026-08-16T08:53:55.343449+00:00",
+          "interaction": 36
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股兩大人氣指標股鴻海與國巨周五（14日）股價雙雙收黑：…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02gZ1hdPCqrvsipfXUVH779pEoBCNjvmg159pyG4zb9odXaFg8AUvcCghVpxuhfopbl?__cft__[0]=AZYLUSIwVOKxeKwbL7z5D5nqca0Wp0qgFp2W1k9nr5SKg38JNZTYjsfSRFNwk_ohHOnLW143PAgoy-R7-L5-2sblt3cArd8ToNR7uuidrQoWICyAv_fVGSMEa4auSbcfer-t2ub3Gsn7vtZ-Bhebkj_zsVlMBxCbuc_0Qn-Zehojxt0Y31j0VaegvItvA5SxX0w",
+          "timestamp": "2026-08-16T08:53:55.343449+00:00",
+          "interaction": 28
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "E",
+      "label": "AI 伺服器供應鏈",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 371,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【誰是台股50K「帶路王」？法人搶卡位16檔績優股 緯創、南亞科入列】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02ZmCdEZdYAG34xBDH5e4q2gTfE2Z5pQKW81S16euUxQgWEtFmaELYHtJyMjtYQjoNl?__cft__[0]=AZYhN5jFpVxXEGfcJ4EgyCMh53nydm18OsG6QINWOB8c9WO37zPcmL9gRPFlJCKGE4TIzbn8fXnMfR4SnHBcgDgQTkoZZlq16cRDc0J4jre3UgARj_bsb6laaozS3X3P4arQSQsuEPgTT_LzsW1S_LJYO1OEWf_cxZUl5qZanErIOEdvvPhezCS-77Crkqy7d-M",
+          "timestamp": "2026-08-16T08:53:55.343449+00:00",
+          "interaction": 307
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI伺服器導軌大廠川湖（2059）自結7月每股盈餘(EPS)為50.24元，等於一個月賺進5個股本，令市場驚豔，近期股價強勢走高，躋身台股「萬金股」行列！…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02xEjUPc9VBNFSq2V5JnDizSV6QkbTJkC14o9myvwLFGwaaTeGjMz2Mg2sJnFqhn9jl?__cft__[0]=AZYIe6Eb8S0YUlsi-BeUvNivnxsmYmvTTYBq7b0RfK3e8ePDUVOfU8jTpFNZdBe1AKqcLjf3XO7Dd4a3hdu1AnJDbKgRA6MdkPaapqFvc7KotpbpSgz4p8O9lupmuruet4QtR_H_-AEMwygEp6ckGbdVf_eBrbm7FP-TAqi5HZpiIMyhqlokRzRQsH1lcLGdFnA",
+          "timestamp": "2026-08-16T08:53:55.343449+00:00",
+          "interaction": 36
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股兩大人氣指標股鴻海與國巨周五（14日）股價雙雙收黑：…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02gZ1hdPCqrvsipfXUVH779pEoBCNjvmg159pyG4zb9odXaFg8AUvcCghVpxuhfopbl?__cft__[0]=AZYLUSIwVOKxeKwbL7z5D5nqca0Wp0qgFp2W1k9nr5SKg38JNZTYjsfSRFNwk_ohHOnLW143PAgoy-R7-L5-2sblt3cArd8ToNR7uuidrQoWICyAv_fVGSMEa4auSbcfer-t2ub3Gsn7vtZ-Bhebkj_zsVlMBxCbuc_0Qn-Zehojxt0Y31j0VaegvItvA5SxX0w",
+          "timestamp": "2026-08-16T08:53:55.343449+00:00",
+          "interaction": 28
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-08-16T12:07:08+08:00",
-    "end_utc": "2026-08-16T16:07:08+08:00",
-    "start_tw": "Aug 16, 12:07",
-    "end_tw": "Aug 16, 16:07"
+    "start_utc": "2026-08-16T04:53:55.343449+00:00",
+    "end_utc": "2026-08-16T08:53:55.343449+00:00",
+    "start_tw": "Aug 16, 12:53",
+    "end_tw": "Aug 16, 16:53"
   }
 }
