@@ -33,6 +33,21 @@
       }
     },
     {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 4,
+      "accounts": {
+        "SemiAnalysis_": 1,
+        "ctee.fans": 1,
+        "yutinghaosfinance": 2
+      },
+      "engagement_by_account": {
+        "SemiAnalysis_": 202,
+        "ctee.fans": 0,
+        "yutinghaosfinance": 0
+      }
+    },
+    {
       "id": "D",
       "label": "CSP / 資料中心",
       "size": 4,
@@ -48,19 +63,6 @@
       }
     },
     {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 3,
-      "accounts": {
-        "ctee.fans": 1,
-        "yutinghaosfinance": 2
-      },
-      "engagement_by_account": {
-        "ctee.fans": 0,
-        "yutinghaosfinance": 0
-      }
-    },
-    {
       "id": "F",
       "label": "晶圓代工 / 先進製程",
       "size": 2,
@@ -68,6 +70,32 @@
         "technewsinside": 2
       },
       "engagement_by_account": {
+        "technewsinside": 0
+      }
+    },
+    {
+      "id": "L",
+      "label": "總經 / Fed",
+      "size": 2,
+      "accounts": {
+        "SemiAnalysis_": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "SemiAnalysis_": 62,
+        "ctee.fans": 0
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 2,
+      "accounts": {
+        "tphuang": 1,
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "tphuang": 22,
         "technewsinside": 0
       }
     },
@@ -94,17 +122,6 @@
       }
     },
     {
-      "id": "L",
-      "label": "總經 / Fed",
-      "size": 1,
-      "accounts": {
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "ctee.fans": 0
-      }
-    },
-    {
       "id": "N",
       "label": "地緣政治 / 政策",
       "size": 1,
@@ -113,17 +130,6 @@
       },
       "engagement_by_account": {
         "ctee.fans": 0
-      }
-    },
-    {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
-      "size": 1,
-      "accounts": {
-        "technewsinside": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 0
       }
     },
     {
@@ -143,13 +149,22 @@
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
       "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 202,
       "competitors_covering": [
+        "SemiAnalysis_",
         "ctee.fans",
         "yutinghaosfinance"
       ],
       "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Hey  @elonmusk  , Chernobyl Units 1–3 RBMK-1000 reactors could, in theory (though very hard), be retrofitted to generate 2.9 GW of electricity, enough to power 1.2 million Rubin GPUs. This is because Unit 4 was the one that exploded. Maybe  @nvidiaai  is willing to look into",
+          "url": "https://x.com/SemiAnalysis_/status/2088732611917004913",
+          "timestamp": "2026-08-16T05:00:36.000+08:00",
+          "interaction": 202
+        },
         {
           "handle": "ctee.fans",
           "platform": "Facebook",
@@ -219,13 +234,22 @@
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
       "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 202,
       "competitors_covering": [
+        "SemiAnalysis_",
         "ctee.fans",
         "yutinghaosfinance"
       ],
       "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Hey  @elonmusk  , Chernobyl Units 1–3 RBMK-1000 reactors could, in theory (though very hard), be retrofitted to generate 2.9 GW of electricity, enough to power 1.2 million Rubin GPUs. This is because Unit 4 was the one that exploded. Maybe  @nvidiaai  is willing to look into",
+          "url": "https://x.com/SemiAnalysis_/status/2088732611917004913",
+          "timestamp": "2026-08-16T05:00:36.000+08:00",
+          "interaction": 202
+        },
         {
           "handle": "ctee.fans",
           "platform": "Facebook",
@@ -291,9 +315,9 @@
     }
   ],
   "window": {
-    "start_utc": "2026-08-15T14:45:29.682303+00:00",
-    "end_utc": "2026-08-15T22:45:29.682303+00:00",
-    "start_tw": "Aug 15, 22:45",
-    "end_tw": "Aug 16, 06:45"
+    "start_utc": "2026-08-16T00:00:45+08:00",
+    "end_utc": "2026-08-16T08:00:45+08:00",
+    "start_tw": "Aug 16, 00:00",
+    "end_tw": "Aug 16, 08:00"
   }
 }
