@@ -36,21 +36,21 @@
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "photonics / billion / capacity / manufacturing",
+        "topic_id": 1,
+        "label": "photonics / quantum / optical / tsmc",
         "heat": 90.0,
         "volume": 162,
-        "engagement": 3593,
+        "engagement": 3680,
         "entities": [
           "台灣",
-          "伺服器",
           "高達",
           "上市",
-          "法拉利"
+          "法拉利",
+          "台積電"
         ]
       },
       {
-        "topic_id": 10,
+        "topic_id": 2,
         "label": "台股 / etf",
         "heat": 11.4,
         "volume": 4,
@@ -64,16 +64,16 @@
         ]
       },
       {
-        "topic_id": 6,
-        "label": "iphone / apple / memory / cxmt",
+        "topic_id": 17,
+        "label": "iphone / apple / memory / tests",
         "heat": 10.5,
         "volume": 2,
         "engagement": 45,
         "entities": []
       },
       {
-        "topic_id": 7,
-        "label": "馬斯克 / terafab / 砸下 / 億美元打造",
+        "topic_id": 20,
+        "label": "馬斯克 / terafab / 比德州超級工廠與五角大廈等四大地標加總還要龐大 / 面積高達",
         "heat": 10.5,
         "volume": 2,
         "engagement": 31,
@@ -83,16 +83,16 @@
         ]
       },
       {
-        "topic_id": 19,
-        "label": "nand / substantially / edged / toshiba",
-        "heat": 10.5,
+        "topic_id": 21,
+        "label": "smic / huahong / utilization / foundry",
+        "heat": 10.2,
         "volume": 2,
-        "engagement": 162,
+        "engagement": 9,
         "entities": []
       },
       {
-        "topic_id": 8,
-        "label": "友達 / 彭双浪 / 剛靠處分舊廠大賺 / 總經理柯富仁閃電離職背後",
+        "topic_id": 3,
+        "label": "彭双浪 / 友達 / 對資產處分與轉型節奏的嚴重分歧 / 億元並順利轉虧為盈",
         "heat": 10.2,
         "volume": 2,
         "engagement": 10,
@@ -103,7 +103,7 @@
         ]
       },
       {
-        "topic_id": 14,
+        "topic_id": 18,
         "label": "蘋果 / apple / 晶片 / intelligence",
         "heat": 10.0,
         "volume": 2,
@@ -114,40 +114,34 @@
         ]
       },
       {
-        "topic_id": 18,
-        "label": "tpu / amd / cpu / google",
+        "topic_id": 6,
+        "label": "cpu",
         "heat": 10.0,
         "volume": 1,
-        "engagement": 2,
-        "entities": []
-      },
-      {
-        "topic_id": 1,
-        "label": "hbm / samsung / micron / yield",
-        "heat": 10.0,
-        "volume": 3,
         "engagement": 0,
-        "entities": []
-      },
-      {
-        "topic_id": 16,
-        "label": "ddr / spot / dram / aug",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 0,
-        "entities": []
+        "entities": [
+          "伺服器"
+        ]
       },
       {
         "topic_id": 11,
-        "label": "或是將此貼文分享給人脈網 / 今天就應徵 / 我們正在 / hiring",
+        "label": "validation / global / customers",
         "heat": 10.0,
-        "volume": 3,
+        "volume": 1,
+        "engagement": 68,
+        "entities": []
+      },
+      {
+        "topic_id": 4,
+        "label": "hbm / samsung / nvidia / targeting",
+        "heat": 10.0,
+        "volume": 5,
         "engagement": 0,
         "entities": []
       },
       {
-        "topic_id": 12,
-        "label": "analyst / senior",
+        "topic_id": 7,
+        "label": "spot / tlc / prices / gb",
         "heat": 10.0,
         "volume": 2,
         "engagement": 0,
@@ -155,15 +149,23 @@
       },
       {
         "topic_id": 5,
-        "label": "phase / fund / iii / strategic",
+        "label": "ddr / spot / dram / aug",
         "heat": 10.0,
-        "volume": 1,
+        "volume": 2,
         "engagement": 0,
         "entities": []
       },
       {
-        "topic_id": 9,
-        "label": "hbm / samsung / dies / nm",
+        "topic_id": 14,
+        "label": "我們正在 / hiring / analyst / san",
+        "heat": 10.0,
+        "volume": 3,
+        "engagement": 0,
+        "entities": []
+      },
+      {
+        "topic_id": 10,
+        "label": "analyst / senior",
         "heat": 10.0,
         "volume": 2,
         "engagement": 0,
@@ -171,14 +173,22 @@
       },
       {
         "topic_id": 0,
-        "label": "pcb / avary / zj / innolight",
+        "label": "cxmt / dram / samsung / dominated",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 0,
+        "entities": []
+      },
+      {
+        "topic_id": 9,
+        "label": "pcb / avary / innolight / zj",
         "heat": 10.0,
         "volume": 2,
         "engagement": 0,
         "entities": []
       },
       {
-        "topic_id": 20,
+        "topic_id": 13,
         "label": "soi / ymtc / micro / euv",
         "heat": 10.0,
         "volume": 2,
@@ -186,39 +196,31 @@
         "entities": []
       },
       {
-        "topic_id": 4,
-        "label": "dram / nand / hbm / memory",
+        "topic_id": 16,
+        "label": "msi / monitor / oled / asus",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": []
+      },
+      {
+        "topic_id": 19,
+        "label": "amazon / apple / split / stories",
         "heat": 10.0,
         "volume": 1,
         "engagement": 0,
         "entities": []
       },
       {
-        "topic_id": 13,
-        "label": "adds / tsmc",
+        "topic_id": 8,
+        "label": "cpfc / billion / sovereignty / assets",
         "heat": 10.0,
         "volume": 1,
         "engagement": 0,
         "entities": []
       },
       {
-        "topic_id": 3,
-        "label": "fibre / spool / drones / lets",
-        "heat": 10.0,
-        "volume": 1,
-        "engagement": 0,
-        "entities": []
-      },
-      {
-        "topic_id": 21,
-        "label": "quantum / glasgow / hardware / algorithms",
-        "heat": 10.0,
-        "volume": 4,
-        "engagement": 0,
-        "entities": []
-      },
-      {
-        "topic_id": 15,
+        "topic_id": 12,
         "label": "lidar / sensing / photonic / autonomy",
         "heat": 10.0,
         "volume": 2,
@@ -226,8 +228,8 @@
         "entities": []
       },
       {
-        "topic_id": 17,
-        "label": "ibm / assembly / waveguide / overhead",
+        "topic_id": 15,
+        "label": "integrated / platform / photonics / infrastructure",
         "heat": 10.0,
         "volume": 1,
         "engagement": 0,
@@ -311,13 +313,13 @@
         "engagement": 13,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
+            "topic_id": 21,
+            "label": "smic / huahong / utilization / foundry",
             "count": 1
           },
           {
-            "topic_id": 7,
-            "label": "馬斯克 / terafab / 砸下 / 億美元打造",
+            "topic_id": 20,
+            "label": "馬斯克 / terafab / 比德州超級工廠與五角大廈等四大地標加總還要龐大 / 面積高達",
             "count": 1
           }
         ],
@@ -354,13 +356,13 @@
         "engagement": 165,
         "top_topics": [
           {
-            "topic_id": 8,
-            "label": "友達 / 彭双浪 / 剛靠處分舊廠大賺 / 總經理柯富仁閃電離職背後",
+            "topic_id": 3,
+            "label": "彭双浪 / 友達 / 對資產處分與轉型節奏的嚴重分歧 / 億元並順利轉虧為盈",
             "count": 1
           },
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
+            "topic_id": 1,
+            "label": "photonics / quantum / optical / tsmc",
             "count": 1
           }
         ],
@@ -397,18 +399,18 @@
         "engagement": 130,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
-            "count": 31
-          },
-          {
             "topic_id": 1,
-            "label": "hbm / samsung / micron / yield",
-            "count": 3
+            "label": "photonics / quantum / optical / tsmc",
+            "count": 28
           },
           {
-            "topic_id": 11,
-            "label": "或是將此貼文分享給人脈網 / 今天就應徵 / 我們正在 / hiring",
+            "topic_id": 4,
+            "label": "hbm / samsung / nvidia / targeting",
+            "count": 5
+          },
+          {
+            "topic_id": 14,
+            "label": "我們正在 / hiring / analyst / san",
             "count": 3
           }
         ],
@@ -445,8 +447,8 @@
         "engagement": 12,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
+            "topic_id": 1,
+            "label": "photonics / quantum / optical / tsmc",
             "count": 5
           }
         ],
@@ -483,18 +485,18 @@
         "engagement": 1790,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
+            "topic_id": 1,
+            "label": "photonics / quantum / optical / tsmc",
             "count": 18
           },
           {
-            "topic_id": 14,
+            "topic_id": 18,
             "label": "蘋果 / apple / 晶片 / intelligence",
             "count": 1
           },
           {
-            "topic_id": 8,
-            "label": "友達 / 彭双浪 / 剛靠處分舊廠大賺 / 總經理柯富仁閃電離職背後",
+            "topic_id": 11,
+            "label": "validation / global / customers",
             "count": 1
           }
         ],
@@ -531,19 +533,19 @@
         "engagement": 1,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
-            "count": 73
+            "topic_id": 1,
+            "label": "photonics / quantum / optical / tsmc",
+            "count": 78
           },
           {
-            "topic_id": 21,
-            "label": "quantum / glasgow / hardware / algorithms",
-            "count": 4
-          },
-          {
-            "topic_id": 15,
+            "topic_id": 12,
             "label": "lidar / sensing / photonic / autonomy",
             "count": 2
+          },
+          {
+            "topic_id": 19,
+            "label": "amazon / apple / split / stories",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -579,12 +581,12 @@
         "engagement": 503,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
+            "topic_id": 1,
+            "label": "photonics / quantum / optical / tsmc",
             "count": 16
           },
           {
-            "topic_id": 10,
+            "topic_id": 2,
             "label": "台股 / etf",
             "count": 2
           }
@@ -622,8 +624,8 @@
         "engagement": 1,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
+            "topic_id": 1,
+            "label": "photonics / quantum / optical / tsmc",
             "count": 1
           }
         ],
@@ -653,8 +655,8 @@
         "engagement": 1310,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
+            "topic_id": 1,
+            "label": "photonics / quantum / optical / tsmc",
             "count": 4
           }
         ],
@@ -691,12 +693,12 @@
         "engagement": 16,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
+            "topic_id": 1,
+            "label": "photonics / quantum / optical / tsmc",
             "count": 2
           },
           {
-            "topic_id": 10,
+            "topic_id": 2,
             "label": "台股 / etf",
             "count": 1
           }
@@ -734,12 +736,12 @@
         "engagement": 19,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
+            "topic_id": 1,
+            "label": "photonics / quantum / optical / tsmc",
             "count": 2
           },
           {
-            "topic_id": 10,
+            "topic_id": 2,
             "label": "台股 / etf",
             "count": 1
           }
@@ -777,8 +779,8 @@
         "engagement": 1,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
+            "topic_id": 1,
+            "label": "photonics / quantum / optical / tsmc",
             "count": 1
           }
         ],
@@ -808,9 +810,14 @@
         "engagement": 24,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
-            "count": 3
+            "topic_id": 1,
+            "label": "photonics / quantum / optical / tsmc",
+            "count": 2
+          },
+          {
+            "topic_id": 6,
+            "label": "cpu",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -846,12 +853,12 @@
         "engagement": 15,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "photonics / billion / capacity / manufacturing",
+            "topic_id": 1,
+            "label": "photonics / quantum / optical / tsmc",
             "count": 3
           },
           {
-            "topic_id": 14,
+            "topic_id": 18,
             "label": "蘋果 / apple / 晶片 / intelligence",
             "count": 1
           }
@@ -878,20 +885,20 @@
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
-        "label": "photonics / billion / capacity / manufacturing",
+        "topic_id": 1,
+        "label": "photonics / quantum / optical / tsmc",
         "cells": [
           {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": -100.0,
             "volume": 1
           },
           {
-            "net_sentiment": 16.1,
-            "volume": 31
+            "net_sentiment": 17.9,
+            "volume": 28
           },
           {
             "net_sentiment": 60.0,
@@ -902,8 +909,8 @@
             "volume": 18
           },
           {
-            "net_sentiment": 52.1,
-            "volume": 73
+            "net_sentiment": 51.3,
+            "volume": 78
           },
           {
             "net_sentiment": 0.0,
@@ -930,8 +937,8 @@
             "volume": 1
           },
           {
-            "net_sentiment": -66.7,
-            "volume": 3
+            "net_sentiment": -100.0,
+            "volume": 2
           },
           {
             "net_sentiment": 33.3,
@@ -940,7 +947,69 @@
         ]
       },
       {
-        "topic_id": 10,
+        "topic_id": 4,
+        "label": "hbm / samsung / nvidia / targeting",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -40.0,
+            "volume": 5
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
         "label": "台股 / etf",
         "cells": [
           {
@@ -1002,132 +1071,8 @@
         ]
       },
       {
-        "topic_id": 21,
-        "label": "quantum / glasgow / hardware / algorithms",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 4
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 1,
-        "label": "hbm / samsung / micron / yield",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -33.3,
-            "volume": 3
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 11,
-        "label": "或是將此貼文分享給人脈網 / 今天就應徵 / 我們正在 / hiring",
+        "topic_id": 14,
+        "label": "我們正在 / hiring / analyst / san",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -1188,8 +1133,8 @@
         ]
       },
       {
-        "topic_id": 6,
-        "label": "iphone / apple / memory / cxmt",
+        "topic_id": 17,
+        "label": "iphone / apple / memory / tests",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -1202,6 +1147,68 @@
           {
             "net_sentiment": 50.0,
             "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 21,
+        "label": "smic / huahong / utilization / foundry",
+        "cells": [
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -1253,101 +1260,93 @@
     "coverage_focus_ranking": [
       {
         "handle": "SemiAnalysis_",
-        "top_topic_id": 2,
-        "top_topic_label": "photonics / billion / capacity / manufacturing",
+        "top_topic_id": 1,
+        "top_topic_label": "photonics / quantum / optical / tsmc",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
-        "handle": "tphuang",
-        "top_topic_id": 2,
-        "top_topic_label": "photonics / billion / capacity / manufacturing",
-        "focus_share": 1.0,
-        "post_count": 2
-      },
-      {
         "handle": "FT",
-        "top_topic_id": 2,
-        "top_topic_label": "photonics / billion / capacity / manufacturing",
+        "top_topic_id": 1,
+        "top_topic_label": "photonics / quantum / optical / tsmc",
         "focus_share": 1.0,
         "post_count": 11
       },
       {
         "handle": "yutinghaosfinance",
-        "top_topic_id": 2,
-        "top_topic_label": "photonics / billion / capacity / manufacturing",
+        "top_topic_id": 1,
+        "top_topic_label": "photonics / quantum / optical / tsmc",
         "focus_share": 1.0,
         "post_count": 2
       },
       {
         "handle": "subhash-km-6b5443123",
-        "top_topic_id": 2,
-        "top_topic_label": "photonics / billion / capacity / manufacturing",
-        "focus_share": 0.923,
+        "top_topic_id": 1,
+        "top_topic_label": "photonics / quantum / optical / tsmc",
+        "focus_share": 0.962,
         "post_count": 26
       },
       {
-        "handle": "ctee.fans",
-        "top_topic_id": 2,
-        "top_topic_label": "photonics / billion / capacity / manufacturing",
-        "focus_share": 0.882,
-        "post_count": 17
-      },
-      {
         "handle": "josepozophotonics",
-        "top_topic_id": 2,
-        "top_topic_label": "photonics / billion / capacity / manufacturing",
-        "focus_share": 0.864,
+        "top_topic_id": 1,
+        "top_topic_label": "photonics / quantum / optical / tsmc",
+        "focus_share": 0.932,
         "post_count": 59
       },
       {
         "handle": "technewsinside",
-        "top_topic_id": 2,
-        "top_topic_label": "photonics / billion / capacity / manufacturing",
-        "focus_share": 0.824,
+        "top_topic_id": 1,
+        "top_topic_label": "photonics / quantum / optical / tsmc",
+        "focus_share": 0.882,
         "post_count": 17
       },
       {
-        "handle": "TrendForce",
-        "top_topic_id": 2,
-        "top_topic_label": "photonics / billion / capacity / manufacturing",
-        "focus_share": 0.62,
-        "post_count": 50
+        "handle": "ctee.fans",
+        "top_topic_id": 1,
+        "top_topic_label": "photonics / quantum / optical / tsmc",
+        "focus_share": 0.882,
+        "post_count": 17
       },
       {
         "handle": "technews_tw",
-        "top_topic_id": 2,
-        "top_topic_label": "photonics / billion / capacity / manufacturing",
+        "top_topic_id": 1,
+        "top_topic_label": "photonics / quantum / optical / tsmc",
         "focus_share": 0.588,
         "post_count": 17
       },
       {
+        "handle": "TrendForce",
+        "top_topic_id": 1,
+        "top_topic_label": "photonics / quantum / optical / tsmc",
+        "focus_share": 0.52,
+        "post_count": 50
+      },
+      {
         "handle": "dnystedt",
-        "top_topic_id": 6,
-        "top_topic_label": "iphone / apple / memory / cxmt",
+        "top_topic_id": 17,
+        "top_topic_label": "iphone / apple / memory / tests",
+        "focus_share": 0.5,
+        "post_count": 2
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 1,
+        "top_topic_label": "photonics / quantum / optical / tsmc",
         "focus_share": 0.5,
         "post_count": 2
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
-        "label": "photonics / billion / capacity / manufacturing",
-        "total_engagement": 3593,
+        "topic_id": 1,
+        "label": "photonics / quantum / optical / tsmc",
+        "total_engagement": 3680,
         "post_count": 162,
         "top_account": "yutinghaosfinance",
         "top_account_engagement": 1283
       },
       {
-        "topic_id": 19,
-        "label": "nand / substantially / edged / toshiba",
-        "total_engagement": 162,
-        "post_count": 2,
-        "top_account": "technewsinside",
-        "top_account_engagement": 162
-      },
-      {
-        "topic_id": 10,
+        "topic_id": 2,
         "label": "台股 / etf",
         "total_engagement": 158,
         "post_count": 4,
@@ -1355,39 +1354,47 @@
         "top_account_engagement": 156
       },
       {
-        "topic_id": 6,
-        "label": "iphone / apple / memory / cxmt",
+        "topic_id": 11,
+        "label": "validation / global / customers",
+        "total_engagement": 68,
+        "post_count": 1,
+        "top_account": "tphuang",
+        "top_account_engagement": 68
+      },
+      {
+        "topic_id": 17,
+        "label": "iphone / apple / memory / tests",
         "total_engagement": 45,
         "post_count": 2,
         "top_account": "dnystedt",
         "top_account_engagement": 39
       },
       {
-        "topic_id": 7,
-        "label": "馬斯克 / terafab / 砸下 / 億美元打造",
+        "topic_id": 20,
+        "label": "馬斯克 / terafab / 比德州超級工廠與五角大廈等四大地標加總還要龐大 / 面積高達",
         "total_engagement": 31,
         "post_count": 2,
         "top_account": "technewsinside",
         "top_account_engagement": 27
       },
       {
-        "topic_id": 8,
-        "label": "友達 / 彭双浪 / 剛靠處分舊廠大賺 / 總經理柯富仁閃電離職背後",
+        "topic_id": 3,
+        "label": "彭双浪 / 友達 / 對資產處分與轉型節奏的嚴重分歧 / 億元並順利轉虧為盈",
         "total_engagement": 10,
         "post_count": 2,
         "top_account": "technewsinside",
         "top_account_engagement": 7
       },
       {
-        "topic_id": 18,
-        "label": "tpu / amd / cpu / google",
-        "total_engagement": 2,
-        "post_count": 1,
-        "top_account": "technews_tw",
-        "top_account_engagement": 2
+        "topic_id": 21,
+        "label": "smic / huahong / utilization / foundry",
+        "total_engagement": 9,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 9
       },
       {
-        "topic_id": 14,
+        "topic_id": 18,
         "label": "蘋果 / apple / 晶片 / intelligence",
         "total_engagement": 1,
         "post_count": 2,
@@ -1395,32 +1402,24 @@
         "top_account_engagement": 1
       },
       {
-        "topic_id": 1,
-        "label": "hbm / samsung / micron / yield",
+        "topic_id": 6,
+        "label": "cpu",
         "total_engagement": 0,
-        "post_count": 3,
+        "post_count": 1,
+        "top_account": "technews_tw",
+        "top_account_engagement": 0
+      },
+      {
+        "topic_id": 4,
+        "label": "hbm / samsung / nvidia / targeting",
+        "total_engagement": 0,
+        "post_count": 5,
         "top_account": "TrendForce",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 16,
-        "label": "ddr / spot / dram / aug",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0
-      },
-      {
-        "topic_id": 11,
-        "label": "或是將此貼文分享給人脈網 / 今天就應徵 / 我們正在 / hiring",
-        "total_engagement": 0,
-        "post_count": 3,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0
-      },
-      {
-        "topic_id": 12,
-        "label": "analyst / senior",
+        "topic_id": 7,
+        "label": "spot / tlc / prices / gb",
         "total_engagement": 0,
         "post_count": 2,
         "top_account": "TrendForce",
@@ -1428,15 +1427,23 @@
       },
       {
         "topic_id": 5,
-        "label": "phase / fund / iii / strategic",
+        "label": "ddr / spot / dram / aug",
         "total_engagement": 0,
-        "post_count": 1,
+        "post_count": 2,
         "top_account": "TrendForce",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 9,
-        "label": "hbm / samsung / dies / nm",
+        "topic_id": 14,
+        "label": "我們正在 / hiring / analyst / san",
+        "total_engagement": 0,
+        "post_count": 3,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0
+      },
+      {
+        "topic_id": 10,
+        "label": "analyst / senior",
         "total_engagement": 0,
         "post_count": 2,
         "top_account": "TrendForce",
@@ -1444,14 +1451,22 @@
       },
       {
         "topic_id": 0,
-        "label": "pcb / avary / zj / innolight",
+        "label": "cxmt / dram / samsung / dominated",
+        "total_engagement": 0,
+        "post_count": 1,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0
+      },
+      {
+        "topic_id": 9,
+        "label": "pcb / avary / innolight / zj",
         "total_engagement": 0,
         "post_count": 2,
         "top_account": "TrendForce",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 20,
+        "topic_id": 13,
         "label": "soi / ymtc / micro / euv",
         "total_engagement": 0,
         "post_count": 2,
@@ -1459,39 +1474,31 @@
         "top_account_engagement": 0
       },
       {
-        "topic_id": 4,
-        "label": "dram / nand / hbm / memory",
+        "topic_id": 16,
+        "label": "msi / monitor / oled / asus",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0
+      },
+      {
+        "topic_id": 19,
+        "label": "amazon / apple / split / stories",
         "total_engagement": 0,
         "post_count": 1,
         "top_account": "subhash-km-6b5443123",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 13,
-        "label": "adds / tsmc",
-        "total_engagement": 0,
-        "post_count": 1,
-        "top_account": "subhash-km-6b5443123",
-        "top_account_engagement": 0
-      },
-      {
-        "topic_id": 3,
-        "label": "fibre / spool / drones / lets",
+        "topic_id": 8,
+        "label": "cpfc / billion / sovereignty / assets",
         "total_engagement": 0,
         "post_count": 1,
         "top_account": "josepozophotonics",
         "top_account_engagement": 0
       },
       {
-        "topic_id": 21,
-        "label": "quantum / glasgow / hardware / algorithms",
-        "total_engagement": 0,
-        "post_count": 4,
-        "top_account": "josepozophotonics",
-        "top_account_engagement": 0
-      },
-      {
-        "topic_id": 15,
+        "topic_id": 12,
         "label": "lidar / sensing / photonic / autonomy",
         "total_engagement": 0,
         "post_count": 2,
@@ -1499,8 +1506,8 @@
         "top_account_engagement": 0
       },
       {
-        "topic_id": 17,
-        "label": "ibm / assembly / waveguide / overhead",
+        "topic_id": 15,
+        "label": "integrated / platform / photonics / infrastructure",
         "total_engagement": 0,
         "post_count": 1,
         "top_account": "josepozophotonics",
