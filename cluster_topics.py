@@ -173,6 +173,17 @@ CHINESE_NOISE_SUBSTRINGS = [
     # amd / intel") with a phrase that has nothing to do with the actual
     # topic.
     '查看更多', '了解詳情', '看詳情', '顯示更多', '展開全文',
+    # Same class, from LinkedIn instead: its zh-TW UI renders the a11y label
+    # 主題標籤 ("hashtag") immediately before EVERY hashtag, and the scraper
+    # captures it as body text ("... 🔗 主題標籤 #SMIC 主題標籤 #HuaHong").
+    # 388 occurrences in linkedin/TrendForce.csv + 308 in
+    # linkedin/profiles/josepozophotonics.csv was frequent enough to surface
+    # as a topic term itself - found 2026-08-17 labelling temperature-bar
+    # topics "主題標籤 / photonics / billion / tsmc". zipf=3.30, so the
+    # is_common_chinese_word() floor never catches it. Also stripped at the
+    # source now (see HASHTAG_LABEL_RE in the LinkedIn scrapers); this entry
+    # is what covers the ~700 rows already on disk.
+    '主題標籤',
 ]
 CHINESE_NOISE_RE = re.compile('|'.join(re.escape(w) for w in CHINESE_NOISE_SUBSTRINGS))
 # Pure currency/magnitude tokens (億元, 兆日圓, 萬美元, ...) carry no topic
