@@ -234,7 +234,17 @@ CHINESE_NOISE_SUBSTRINGS = [
 CHINESE_NOISE_RE = re.compile('|'.join(re.escape(w) for w in CHINESE_NOISE_SUBSTRINGS))
 # Pure currency/magnitude tokens (億元, 兆日圓, 萬美元, ...) carry no topic
 # identity on their own - they're units, not subjects.
-CHINESE_UNIT_TOKEN_RE = re.compile(r'^[0-9億萬千兆]+[元日圓韓美歐]{0,2}$')
+# The suffix set was originally currencies only, which left the counting
+# measure words uncaught - 億次 was a top-4 term of FR-03's hottest bar on
+# 2026-08-17. Extended from the corpus rather than by guesswork: these are
+# every Chinese numeral suffix appearing 8+ times across 9,261 posts that the
+# currency-only pattern missed - 人民幣 (26), 至 (25, a tokenizer artifact of
+# ranges like "5億至10億"), 人 (25), 韓圜 (23), 台 (19), 顆 (19), 片 (15),
+# 支 (11), 次 (9). {0,3} rather than {0,2} so 人民幣 fits.
+# Safe against real terms because a numeral prefix is required: 台積電, 晶片
+# and 三星 don't start with [0-9億萬千兆], and process nodes like 3奈米 keep
+# a suffix outside the set.
+CHINESE_UNIT_TOKEN_RE = re.compile(r'^[0-9億萬千兆]+[元日圓韓美歐人民幣圜台顆片支次至]{0,3}$')
 
 # General-purpose sweep for ordinary Chinese words, same idea as
 # is_common_english_word() below: CHINESE_NOISE_SUBSTRINGS only catches
