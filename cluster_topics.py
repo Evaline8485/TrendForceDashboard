@@ -184,6 +184,17 @@ CHINESE_NOISE_SUBSTRINGS = [
     # source now (see HASHTAG_LABEL_RE in the LinkedIn scrapers); this entry
     # is what covers the ~700 rows already on disk.
     '主題標籤',
+    # LinkedIn's auto-generated hiring announcement, which is pure template:
+    # "我們正在 #Hiring 位於{地點}的新{職稱}。今天就應徵，或是將此貼文分享給
+    # 人脈網。" Only the location and job title vary, so the CTA wording
+    # recurs verbatim on every job post and formed its own cluster once
+    # 主題標籤 stopped masking it (found 2026-08-17).
+    # NOT listed here: '我們正在'. It reads like boilerplate but zipf=4.43
+    # makes it an ordinary phrase, and CHINESE_NOISE_RE matches by substring
+    # - it would also strip real content like 我們正在開發 (3.09) and
+    # 我們正在擴產 (0.90). The two CTA phrases below are specific enough
+    # (zipf 1.39 and 0.09) to kill the template on their own.
+    '今天就應徵', '分享給人脈網',
 ]
 CHINESE_NOISE_RE = re.compile('|'.join(re.escape(w) for w in CHINESE_NOISE_SUBSTRINGS))
 # Pure currency/magnitude tokens (億元, 兆日圓, 萬美元, ...) carry no topic
