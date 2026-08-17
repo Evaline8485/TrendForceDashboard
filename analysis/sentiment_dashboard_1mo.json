@@ -36,23 +36,9 @@
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "輝達 / gb / csp / oled",
-        "heat": 90.0,
-        "volume": 1541,
-        "engagement": 23390,
-        "entities": [
-          "美國",
-          "中國",
-          "台灣",
-          "日本",
-          "輝達"
-        ]
-      },
-      {
         "topic_id": 12,
         "label": "kimi / deepseek / cyber / agent",
-        "heat": 21.9,
+        "heat": 85.6,
         "volume": 61,
         "engagement": 13509,
         "entities": [
@@ -61,26 +47,27 @@
           "伺服器",
           "中子星",
           "寒武"
-        ]
+        ],
+        "is_catchall": false
       },
       {
-        "topic_id": 22,
-        "label": "nvidia / 輝達 / windows / dgx",
-        "heat": 15.1,
-        "volume": 55,
-        "engagement": 12024,
+        "topic_id": 5,
+        "label": "billion / capacity / trillion / japan",
+        "heat": 77.7,
+        "volume": 96,
+        "engagement": 7936,
         "entities": [
-          "黃仁勳",
-          "輝達",
-          "日本",
-          "馬斯克",
-          "伺服器"
-        ]
+          "銅市",
+          "中國",
+          "高達",
+          "川普"
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 34,
         "label": "optical / silicon / 衝上 / meant",
-        "heat": 14.2,
+        "heat": 68.8,
         "volume": 117,
         "engagement": 3170,
         "entities": [
@@ -89,72 +76,37 @@
           "熙特爾",
           "國巨",
           "高達"
-        ]
+        ],
+        "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "billion / capacity / trillion / japan",
-        "heat": 13.5,
-        "volume": 96,
-        "engagement": 7936,
+        "topic_id": 22,
+        "label": "nvidia / 輝達 / windows / dgx",
+        "heat": 65.3,
+        "volume": 55,
+        "engagement": 12024,
         "entities": [
-          "銅市",
-          "中國",
-          "高達",
-          "川普"
-        ]
+          "黃仁勳",
+          "輝達",
+          "日本",
+          "馬斯克",
+          "伺服器"
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 11,
         "label": "memory / prices / costs / outlook",
-        "heat": 13.3,
+        "heat": 63.0,
         "volume": 53,
         "engagement": 11833,
-        "entities": []
-      },
-      {
-        "topic_id": 15,
-        "label": "quantum / bn / ibm / tech",
-        "heat": 12.6,
-        "volume": 74,
-        "engagement": 2565,
-        "entities": [
-          "美軍",
-          "博通",
-          "開放乙太",
-          "國防合約",
-          "美國"
-        ]
-      },
-      {
-        "topic_id": 16,
-        "label": "fusion / byd / laser / costs",
-        "heat": 12.6,
-        "volume": 72,
-        "engagement": 4243,
-        "entities": [
-          "福特",
-          "毛利"
-        ]
-      },
-      {
-        "topic_id": 28,
-        "label": "tsmc / nm / kumamoto / sony",
-        "heat": 12.4,
-        "volume": 67,
-        "engagement": 5633,
-        "entities": [
-          "台積電",
-          "台灣",
-          "三星",
-          "韓國",
-          "亞利"
-        ]
+        "entities": [],
+        "is_catchall": false
       },
       {
         "topic_id": 6,
         "label": "ceo / manufacturing / powers / infrastructure",
-        "heat": 12.4,
+        "heat": 57.9,
         "volume": 69,
         "engagement": 7544,
         "entities": [
@@ -163,26 +115,55 @@
           "加州",
           "伺服器",
           "華爾街"
-        ]
+        ],
+        "is_catchall": false
       },
       {
-        "topic_id": 18,
-        "label": "約新台幣 / 日圓 / pcb / friday",
-        "heat": 12.4,
+        "topic_id": 28,
+        "label": "tsmc / nm / kumamoto / sony",
+        "heat": 43.9,
         "volume": 67,
-        "engagement": 1422,
+        "engagement": 5633,
         "entities": [
-          "日本",
-          "中國",
+          "台積電",
           "台灣",
-          "貝森特",
+          "三星",
+          "韓國",
+          "亞利"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 16,
+        "label": "fusion / byd / laser / costs",
+        "heat": 41.4,
+        "volume": 72,
+        "engagement": 4243,
+        "entities": [
+          "福特",
+          "毛利"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
+        "label": "quantum / bn / ibm / tech",
+        "heat": 35.5,
+        "volume": 74,
+        "engagement": 2565,
+        "entities": [
+          "美軍",
+          "博通",
+          "開放乙太",
+          "國防合約",
           "美國"
-        ]
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 4,
         "label": "nand / flash / dram / ssd",
-        "heat": 12.2,
+        "heat": 25.1,
         "volume": 63,
         "engagement": 2906,
         "entities": [
@@ -191,37 +172,13 @@
           "華強",
           "修正",
           "長江"
-        ]
-      },
-      {
-        "topic_id": 33,
-        "label": "photonics / asml / eu / manufacturing",
-        "heat": 12.2,
-        "volume": 65,
-        "engagement": 736,
-        "entities": [
-          "曝光",
-          "中國"
-        ]
-      },
-      {
-        "topic_id": 35,
-        "label": "apple / cxmt / amazon / macbook",
-        "heat": 12.0,
-        "volume": 59,
-        "engagement": 1047,
-        "entities": [
-          "中國",
-          "毛利",
-          "美國",
-          "伺服器",
-          "三星"
-        ]
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 26,
         "label": "cpu / 台股逐洞賽 / intel / 日公告",
-        "heat": 11.8,
+        "heat": 23.2,
         "volume": 53,
         "engagement": 3420,
         "entities": [
@@ -230,76 +187,13 @@
           "美國",
           "陳立武",
           "成本增加"
-        ]
-      },
-      {
-        "topic_id": 1,
-        "label": "server / rack / taiwan / semicon",
-        "heat": 11.8,
-        "volume": 53,
-        "engagement": 2647,
-        "entities": [
-          "三菱",
-          "智慧",
-          "聯發科",
-          "長約",
-          "伺服器"
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "dram / ddr / 南亞科 / hbm",
-        "heat": 11.7,
-        "volume": 51,
-        "engagement": 1457,
-        "entities": [
-          "美光",
-          "南亞科",
-          "伺服器",
-          "群聯",
-          "於雲林"
-        ]
-      },
-      {
-        "topic_id": 36,
-        "label": "revenue / margin / quarter / yoy",
-        "heat": 11.6,
-        "volume": 49,
-        "engagement": 3700,
-        "entities": []
-      },
-      {
-        "topic_id": 21,
-        "label": "hbm / rubin / samsung / ultra",
-        "heat": 11.5,
-        "volume": 46,
-        "engagement": 2998,
-        "entities": [
-          "輝達",
-          "SK海力士",
-          "中國",
-          "三星",
-          "世代交替"
-        ]
-      },
-      {
-        "topic_id": 13,
-        "label": "spacex / 馬斯克 / starlink / 特斯拉",
-        "heat": 11.5,
-        "volume": 48,
-        "engagement": 2921,
-        "entities": [
-          "馬斯克",
-          "輝達",
-          "太陽",
-          "衛星",
-          "德州"
-        ]
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 0,
         "label": "anthropic / claude / resource / 榮耀",
-        "heat": 11.5,
+        "heat": 23.2,
         "volume": 46,
         "engagement": 4036,
         "entities": [
@@ -308,82 +202,67 @@
           "廣運",
           "董座",
           "真武"
-        ]
+        ],
+        "is_catchall": false
       },
       {
-        "topic_id": 29,
-        "label": "inference / ssd / fcc / sandisk",
-        "heat": 11.4,
-        "volume": 44,
-        "engagement": 1524,
-        "entities": [
-          "SK海力士",
-          "中國",
-          "緯創",
-          "伺服器",
-          "美國"
-        ]
+        "topic_id": 36,
+        "label": "revenue / margin / quarter / yoy",
+        "heat": 22.9,
+        "volume": 49,
+        "engagement": 3700,
+        "entities": [],
+        "is_catchall": false
       },
       {
-        "topic_id": 20,
-        "label": "netherlands / wonder / useful / photonics",
-        "heat": 11.4,
-        "volume": 44,
-        "engagement": 2459,
+        "topic_id": 1,
+        "label": "server / rack / taiwan / semicon",
+        "heat": 20.2,
+        "volume": 53,
+        "engagement": 2647,
         "entities": [
-          "崔泰源",
-          "高昂",
-          "原盼",
-          "太空梭",
-          "益普索"
-        ]
+          "三菱",
+          "智慧",
+          "聯發科",
+          "長約",
+          "伺服器"
+        ],
+        "is_catchall": false
       },
       {
-        "topic_id": 38,
-        "label": "cpo / micro / 友達 / 群創",
-        "heat": 11.4,
-        "volume": 44,
-        "engagement": 2385,
+        "topic_id": 13,
+        "label": "spacex / 馬斯克 / starlink / 特斯拉",
+        "heat": 20.0,
+        "volume": 48,
+        "engagement": 2921,
         "entities": [
-          "友達",
-          "群創",
-          "大立光",
-          "恩平",
-          "彭双浪"
-        ]
-      },
-      {
-        "topic_id": 8,
-        "label": "meta / alphabet / 波克夏 / google",
-        "heat": 11.3,
-        "volume": 42,
-        "engagement": 657,
-        "entities": [
-          "波克夏",
-          "微軟",
-          "家族",
-          "華爾街",
-          "中國"
-        ]
-      },
-      {
-        "topic_id": 10,
-        "label": "openai / anthropic / ipo / token",
-        "heat": 11.1,
-        "volume": 39,
-        "engagement": 2402,
-        "entities": [
-          "中國",
-          "雷曼",
+          "馬斯克",
           "輝達",
           "太陽",
-          "宇樹"
-        ]
+          "衛星",
+          "德州"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 21,
+        "label": "hbm / rubin / samsung / ultra",
+        "heat": 19.8,
+        "volume": 46,
+        "engagement": 2998,
+        "entities": [
+          "輝達",
+          "SK海力士",
+          "中國",
+          "三星",
+          "世代交替"
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 37,
         "label": "sk / hynix / 海力士 / samsung",
-        "heat": 11.1,
+        "heat": 19.7,
         "volume": 38,
         "engagement": 4076,
         "entities": [
@@ -392,26 +271,73 @@
           "美光",
           "戴爾",
           "中國廠"
-        ]
+        ],
+        "is_catchall": false
       },
       {
-        "topic_id": 30,
-        "label": "ddr / gb / pc / dram",
-        "heat": 11.0,
-        "volume": 36,
-        "engagement": 477,
+        "topic_id": 18,
+        "label": "約新台幣 / 日圓 / pcb / friday",
+        "heat": 19.4,
+        "volume": 67,
+        "engagement": 1422,
         "entities": [
-          "三星",
-          "金士頓",
-          "修正",
-          "丹佛",
+          "日本",
+          "中國",
+          "台灣",
+          "貝森特",
           "美國"
-        ]
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 20,
+        "label": "netherlands / wonder / useful / photonics",
+        "heat": 18.4,
+        "volume": 44,
+        "engagement": 2459,
+        "entities": [
+          "崔泰源",
+          "高昂",
+          "原盼",
+          "太空梭",
+          "益普索"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 38,
+        "label": "cpo / micro / 友達 / 群創",
+        "heat": 18.3,
+        "volume": 44,
+        "engagement": 2385,
+        "entities": [
+          "友達",
+          "群創",
+          "大立光",
+          "恩平",
+          "彭双浪"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "openai / anthropic / ipo / token",
+        "heat": 18.3,
+        "volume": 39,
+        "engagement": 2402,
+        "entities": [
+          "中國",
+          "雷曼",
+          "輝達",
+          "太陽",
+          "宇樹"
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 14,
         "label": "amd / cpu / 資料中心 / nvidia",
-        "heat": 10.9,
+        "heat": 18.0,
         "volume": 33,
         "engagement": 3904,
         "entities": [
@@ -420,51 +346,13 @@
           "古河",
           "高喊",
           "雙雄"
-        ]
-      },
-      {
-        "topic_id": 17,
-        "label": "cowos / 先進封裝 / tsmc / 博通",
-        "heat": 10.8,
-        "volume": 32,
-        "engagement": 544,
-        "entities": [
-          "台積電",
-          "群創",
-          "大銀",
-          "博通",
-          "華麗"
-        ]
-      },
-      {
-        "topic_id": 27,
-        "label": "mw / 標普 / 微軟 / 財報",
-        "heat": 10.8,
-        "volume": 43,
-        "engagement": 255,
-        "entities": [
-          "微軟",
-          "台達電",
-          "美國",
-          "中國",
-          "聊天室"
-        ]
-      },
-      {
-        "topic_id": 32,
-        "label": "excellent / summary / lidar / sensing",
-        "heat": 10.8,
-        "volume": 32,
-        "engagement": 1106,
-        "entities": [
-          "智慧",
-          "麥克風"
-        ]
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 39,
         "label": "google / pixel / cash / deepmind",
-        "heat": 10.7,
+        "heat": 16.8,
         "volume": 29,
         "engagement": 3718,
         "entities": [
@@ -473,40 +361,142 @@
           "英特爾",
           "快訊",
           "亞馬遜"
-        ]
+        ],
+        "is_catchall": false
       },
       {
-        "topic_id": 23,
-        "label": "三星 / 高達 / galaxy / 供應鏈",
-        "heat": 10.5,
-        "volume": 40,
-        "engagement": 144,
+        "topic_id": 29,
+        "label": "inference / ssd / fcc / sandisk",
+        "heat": 16.2,
+        "volume": 44,
+        "engagement": 1524,
+        "entities": [
+          "SK海力士",
+          "中國",
+          "緯創",
+          "伺服器",
+          "美國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "dram / ddr / 南亞科 / hbm",
+        "heat": 16.0,
+        "volume": 51,
+        "engagement": 1457,
+        "entities": [
+          "美光",
+          "南亞科",
+          "伺服器",
+          "群聯",
+          "於雲林"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 32,
+        "label": "excellent / summary / lidar / sensing",
+        "heat": 14.9,
+        "volume": 32,
+        "engagement": 1106,
+        "entities": [
+          "智慧",
+          "麥克風"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 35,
+        "label": "apple / cxmt / amazon / macbook",
+        "heat": 14.8,
+        "volume": 59,
+        "engagement": 1047,
+        "entities": [
+          "中國",
+          "毛利",
+          "美國",
+          "伺服器",
+          "三星"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 33,
+        "label": "photonics / asml / eu / manufacturing",
+        "heat": 14.1,
+        "volume": 65,
+        "engagement": 736,
+        "entities": [
+          "曝光",
+          "中國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "meta / alphabet / 波克夏 / google",
+        "heat": 13.3,
+        "volume": 42,
+        "engagement": 657,
+        "entities": [
+          "波克夏",
+          "微軟",
+          "家族",
+          "華爾街",
+          "中國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "cowos / 先進封裝 / tsmc / 博通",
+        "heat": 12.8,
+        "volume": 32,
+        "engagement": 544,
+        "entities": [
+          "台積電",
+          "群創",
+          "大銀",
+          "博通",
+          "華麗"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 30,
+        "label": "ddr / gb / pc / dram",
+        "heat": 12.5,
+        "volume": 36,
+        "engagement": 477,
         "entities": [
           "三星",
-          "高達",
-          "聯電",
-          "中國",
-          "台灣"
-        ]
+          "金士頓",
+          "修正",
+          "丹佛",
+          "美國"
+        ],
+        "is_catchall": false
       },
       {
-        "topic_id": 9,
-        "label": "eps / 群聯 / 單季 / 衝上",
-        "heat": 10.4,
-        "volume": 33,
-        "engagement": 120,
+        "topic_id": 27,
+        "label": "mw / 標普 / 微軟 / 財報",
+        "heat": 11.4,
+        "volume": 43,
+        "engagement": 255,
         "entities": [
-          "群聯",
-          "華邦電",
-          "伺服器",
-          "季增",
-          "萬旭"
-        ]
+          "微軟",
+          "台達電",
+          "美國",
+          "中國",
+          "聊天室"
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 19,
         "label": "台股 / etf / pcb",
-        "heat": 10.4,
+        "heat": 11.0,
         "volume": 24,
         "engagement": 173,
         "entities": [
@@ -515,12 +505,43 @@
           "台灣",
           "國安",
           "高峰"
-        ]
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 23,
+        "label": "三星 / 高達 / galaxy / 供應鏈",
+        "heat": 10.8,
+        "volume": 40,
+        "engagement": 144,
+        "entities": [
+          "三星",
+          "高達",
+          "聯電",
+          "中國",
+          "台灣"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "eps / 群聯 / 單季 / 衝上",
+        "heat": 10.7,
+        "volume": 33,
+        "engagement": 120,
+        "entities": [
+          "群聯",
+          "華邦電",
+          "伺服器",
+          "季增",
+          "萬旭"
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 24,
         "label": "台積電 / 日公布 / 最新 / 索尼",
-        "heat": 10.1,
+        "heat": 10.2,
         "volume": 33,
         "engagement": 29,
         "entities": [
@@ -529,12 +550,13 @@
           "嘉義",
           "索尼",
           "宮廟"
-        ]
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 7,
         "label": "datatrack / fed / rack / gdp",
-        "heat": 10.0,
+        "heat": 10.1,
         "volume": 59,
         "engagement": 14,
         "entities": [
@@ -543,7 +565,8 @@
           "聯準會",
           "日本",
           "中東"
-        ]
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 25,
@@ -557,7 +580,8 @@
           "太陽",
           "台灣",
           "中國"
-        ]
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 31,
@@ -571,7 +595,23 @@
           "川普民",
           "美日聯手救日圓",
           "華許"
-        ]
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "其他（未分群，1541 篇）",
+        "heat": 10.0,
+        "volume": 1541,
+        "engagement": 23390,
+        "entities": [
+          "美國",
+          "中國",
+          "台灣",
+          "日本",
+          "輝達"
+        ],
+        "is_catchall": true
       }
     ],
     "named_entities": [
@@ -652,7 +692,7 @@
         "top_topics": [
           {
             "topic_id": 2,
-            "label": "輝達 / gb / csp / oled",
+            "label": "其他（未分群，1541 篇）",
             "count": 56
           },
           {
@@ -710,7 +750,7 @@
           },
           {
             "topic_id": 2,
-            "label": "輝達 / gb / csp / oled",
+            "label": "其他（未分群，1541 篇）",
             "count": 4
           }
         ],
@@ -887,7 +927,7 @@
           },
           {
             "topic_id": 2,
-            "label": "輝達 / gb / csp / oled",
+            "label": "其他（未分群，1541 篇）",
             "count": 1
           }
         ],
@@ -1160,7 +1200,7 @@
         "top_topics": [
           {
             "topic_id": 2,
-            "label": "輝達 / gb / csp / oled",
+            "label": "其他（未分群，1541 篇）",
             "count": 491
           },
           {
@@ -1208,7 +1248,7 @@
         "top_topics": [
           {
             "topic_id": 2,
-            "label": "輝達 / gb / csp / oled",
+            "label": "其他（未分群，1541 篇）",
             "count": 766
           },
           {
@@ -1256,7 +1296,7 @@
         "top_topics": [
           {
             "topic_id": 2,
-            "label": "輝達 / gb / csp / oled",
+            "label": "其他（未分群，1541 篇）",
             "count": 212
           },
           {
@@ -1293,7 +1333,7 @@
     "topic_sentiment_heatmap": [
       {
         "topic_id": 2,
-        "label": "輝達 / gb / csp / oled",
+        "label": "其他（未分群，1541 篇）",
         "cells": [
           {
             "net_sentiment": 7.1,
@@ -1675,35 +1715,35 @@
       {
         "handle": "yutinghaosfinance",
         "top_topic_id": 2,
-        "top_topic_label": "輝達 / gb / csp / oled",
+        "top_topic_label": "其他（未分群，1541 篇）",
         "focus_share": 0.865,
         "post_count": 459
       },
       {
         "handle": "ctee.fans",
         "top_topic_id": 2,
-        "top_topic_label": "輝達 / gb / csp / oled",
+        "top_topic_label": "其他（未分群，1541 篇）",
         "focus_share": 0.8,
         "post_count": 510
       },
       {
         "handle": "technewsinside",
         "top_topic_id": 2,
-        "top_topic_label": "輝達 / gb / csp / oled",
+        "top_topic_label": "其他（未分群，1541 篇）",
         "focus_share": 0.553,
         "post_count": 615
       },
       {
         "handle": "technews_tw",
         "top_topic_id": 2,
-        "top_topic_label": "輝達 / gb / csp / oled",
+        "top_topic_label": "其他（未分群，1541 篇）",
         "focus_share": 0.469,
         "post_count": 239
       },
       {
         "handle": "TrendForce.tw",
         "top_topic_id": 2,
-        "top_topic_label": "輝達 / gb / csp / oled",
+        "top_topic_label": "其他（未分群，1541 篇）",
         "focus_share": 0.405,
         "post_count": 496
       },
@@ -1731,7 +1771,7 @@
       {
         "handle": "FT",
         "top_topic_id": 2,
-        "top_topic_label": "輝達 / gb / csp / oled",
+        "top_topic_label": "其他（未分群，1541 篇）",
         "focus_share": 0.243,
         "post_count": 136
       },
@@ -1766,14 +1806,14 @@
       {
         "handle": "dylan522p",
         "top_topic_id": 2,
-        "top_topic_label": "輝達 / gb / csp / oled",
+        "top_topic_label": "其他（未分群，1541 篇）",
         "focus_share": 0.2,
         "post_count": 20
       },
       {
         "handle": "QQ_Timmy",
         "top_topic_id": 2,
-        "top_topic_label": "輝達 / gb / csp / oled",
+        "top_topic_label": "其他（未分群，1541 篇）",
         "focus_share": 0.193,
         "post_count": 57
       },
@@ -1802,7 +1842,7 @@
     "top_engagement_ranking": [
       {
         "topic_id": 2,
-        "label": "輝達 / gb / csp / oled",
+        "label": "其他（未分群，1541 篇）",
         "total_engagement": 23390,
         "post_count": 1541,
         "top_account": "yutinghaosfinance",

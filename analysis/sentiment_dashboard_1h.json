@@ -36,92 +36,85 @@
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "台灣 / 台積電 / 羅瑋",
-        "heat": 90.0,
-        "volume": 38,
-        "engagement": 4000,
-        "entities": [
-          "台灣",
-          "台積電",
-          "羅瑋",
-          "韓國",
-          "國泰"
-        ]
-      },
-      {
-        "topic_id": 7,
-        "label": "agent",
-        "heat": 11.9,
-        "volume": 2,
-        "engagement": 107,
-        "entities": [
-          "聯盟",
-          "智慧"
-        ]
-      },
-      {
         "topic_id": 3,
         "label": "google / meta / tpu / 微軟",
-        "heat": 11.0,
+        "heat": 90.0,
         "volume": 4,
         "engagement": 54,
         "entities": [
           "微軟",
           "家族",
           "博通"
-        ]
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "agent",
+        "heat": 76.7,
+        "volume": 2,
+        "engagement": 107,
+        "entities": [
+          "聯盟",
+          "智慧"
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 8,
         "label": "蘋果 / 長鑫存儲",
-        "heat": 10.5,
+        "heat": 21.2,
         "volume": 2,
         "engagement": 25,
         "entities": [
           "中國",
           "長江"
-        ]
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 6,
         "label": "inp / 磷化銦基板 / 受惠 / 創史上最大漲幅",
-        "heat": 10.1,
+        "heat": 13.7,
         "volume": 2,
         "engagement": 6,
-        "entities": []
+        "entities": [],
+        "is_catchall": false
       },
       {
         "topic_id": 5,
         "label": "騰訊 / 長鑫存儲 / 登頂新市值王 / 中國科技市場版圖大洗牌",
-        "heat": 10.1,
+        "heat": 12.6,
         "volume": 2,
         "engagement": 4,
         "entities": [
           "騰訊",
           "中國"
-        ]
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "記憶體 / iphone / 新機價格調漲約 / 價格飆漲與日圓貶值",
+        "heat": 11.4,
+        "volume": 2,
+        "engagement": 2,
+        "entities": [
+          "日本"
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 4,
         "label": "遠低於預期的 / 年率僅成長 / 受伊朗戰爭與日圓貶值衝擊 / 日本第",
-        "heat": 10.0,
+        "heat": 10.7,
         "volume": 2,
         "engagement": 1,
         "entities": [
           "伊朗",
           "日本"
-        ]
-      },
-      {
-        "topic_id": 2,
-        "label": "記憶體 / iphone / 新機價格調漲約 / 價格飆漲與日圓貶值",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 2,
-        "entities": [
-          "日本"
-        ]
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 9,
@@ -131,7 +124,8 @@
         "engagement": 0,
         "entities": [
           "微軟"
-        ]
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 10,
@@ -141,7 +135,8 @@
         "engagement": 7,
         "entities": [
           "台灣"
-        ]
+        ],
+        "is_catchall": false
       },
       {
         "topic_id": 0,
@@ -151,7 +146,23 @@
         "engagement": 11,
         "entities": [
           "伺服器"
-        ]
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，38 篇）",
+        "heat": 10.0,
+        "volume": 38,
+        "engagement": 4000,
+        "entities": [
+          "台灣",
+          "台積電",
+          "羅瑋",
+          "韓國",
+          "國泰"
+        ],
+        "is_catchall": true
       }
     ],
     "named_entities": [
@@ -232,7 +243,7 @@
         "top_topics": [
           {
             "topic_id": 1,
-            "label": "台灣 / 台積電 / 羅瑋",
+            "label": "其他（未分群，38 篇）",
             "count": 2
           }
         ],
@@ -330,7 +341,7 @@
         "top_topics": [
           {
             "topic_id": 1,
-            "label": "台灣 / 台積電 / 羅瑋",
+            "label": "其他（未分群，38 篇）",
             "count": 1
           }
         ],
@@ -508,7 +519,7 @@
         "top_topics": [
           {
             "topic_id": 1,
-            "label": "台灣 / 台積電 / 羅瑋",
+            "label": "其他（未分群，38 篇）",
             "count": 2
           }
         ],
@@ -546,7 +557,7 @@
         "top_topics": [
           {
             "topic_id": 1,
-            "label": "台灣 / 台積電 / 羅瑋",
+            "label": "其他（未分群，38 篇）",
             "count": 25
           },
           {
@@ -600,7 +611,7 @@
     "topic_sentiment_heatmap": [
       {
         "topic_id": 1,
-        "label": "台灣 / 台積電 / 羅瑋",
+        "label": "其他（未分群，38 篇）",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -975,49 +986,49 @@
       {
         "handle": "SemiAnalysis_",
         "top_topic_id": 1,
-        "top_topic_label": "台灣 / 台積電 / 羅瑋",
+        "top_topic_label": "其他（未分群，38 篇）",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
         "handle": "tphuang",
         "top_topic_id": 1,
-        "top_topic_label": "台灣 / 台積電 / 羅瑋",
+        "top_topic_label": "其他（未分群，38 篇）",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
         "handle": "FT",
         "top_topic_id": 1,
-        "top_topic_label": "台灣 / 台積電 / 羅瑋",
+        "top_topic_label": "其他（未分群，38 篇）",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
         "handle": "TrendForce.tw",
         "top_topic_id": 1,
-        "top_topic_label": "台灣 / 台積電 / 羅瑋",
+        "top_topic_label": "其他（未分群，38 篇）",
         "focus_share": 1.0,
         "post_count": 2
       },
       {
         "handle": "ctee.fans",
         "top_topic_id": 1,
-        "top_topic_label": "台灣 / 台積電 / 羅瑋",
+        "top_topic_label": "其他（未分群，38 篇）",
         "focus_share": 1.0,
         "post_count": 7
       },
       {
         "handle": "yutinghaosfinance",
         "top_topic_id": 1,
-        "top_topic_label": "台灣 / 台積電 / 羅瑋",
+        "top_topic_label": "其他（未分群，38 篇）",
         "focus_share": 0.889,
         "post_count": 9
       },
       {
         "handle": "technewsinside",
         "top_topic_id": 1,
-        "top_topic_label": "台灣 / 台積電 / 羅瑋",
+        "top_topic_label": "其他（未分群，38 篇）",
         "focus_share": 0.562,
         "post_count": 32
       },
@@ -1032,7 +1043,7 @@
     "top_engagement_ranking": [
       {
         "topic_id": 1,
-        "label": "台灣 / 台積電 / 羅瑋",
+        "label": "其他（未分群，38 篇）",
         "total_engagement": 4000,
         "post_count": 38,
         "top_account": "yutinghaosfinance",
