@@ -1,122 +1,131 @@
 {
-  "generated_at": "2026-08-17T12:39:42+08:00",
+  "generated_at": "2026-08-17T16:24:17+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-08-17T11:39:42+08:00",
-    "end_utc": "2026-08-17T12:39:42+08:00",
-    "start_tw": "Aug 17, 11:39",
-    "end_tw": "Aug 17, 12:39"
+    "start_utc": "2026-08-17T15:24:17+08:00",
+    "end_utc": "2026-08-17T16:24:17+08:00",
+    "start_tw": "Aug 17, 15:24",
+    "end_tw": "Aug 17, 16:24"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 12,
+      "total_posts": 11,
       "sentiment_counts": {
-        "negative": 5,
-        "neutral": 4,
-        "positive": 3
+        "neutral": 6,
+        "negative": 3,
+        "positive": 2
       },
       "sentiment_share": {
-        "negative": 0.417,
-        "neutral": 0.333,
-        "positive": 0.25
+        "neutral": 0.545,
+        "negative": 0.273,
+        "positive": 0.182
       },
       "top_terms": [
-        "晶片",
-        "蘋果",
-        "為緩",
-        "緩解",
-        "解成",
-        "成本",
-        "本壓",
-        "為緩解",
-        "緩解成",
-        "解成本"
+        "漲逾",
+        "gdp",
+        "日圓",
+        "圓貶",
+        "貶值",
+        "與日圓",
+        "日圓貶",
+        "圓貶值",
+        "與日圓貶",
+        "日圓貶值"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 0,
-        "label": "maga / aiso / ssd / sk海力士",
+        "label": "騰訊 / 三星 / 中國",
         "heat": 90.0,
-        "volume": 6,
-        "engagement": 32,
+        "volume": 9,
+        "engagement": 123,
         "entities": [
-          "台灣",
-          "SK海力士",
-          "聯盟",
-          "高峰",
-          "國泰"
+          "騰訊",
+          "三星",
+          "中國",
+          "日本",
+          "曝光"
         ]
       },
       {
         "topic_id": 1,
-        "label": "politics / cpu / tea / climate",
+        "label": "gdp",
         "heat": 10.0,
-        "volume": 6,
-        "engagement": 29,
+        "volume": 2,
+        "engagement": 3,
         "entities": [
-          "長江",
-          "伺服器",
-          "中國"
+          "伊朗",
+          "日本",
+          "台灣"
         ]
       }
     ],
     "named_entities": [
       {
-        "entity": "長江",
+        "entity": "日本",
         "count": 2
       },
       {
-        "entity": "伺服器",
+        "entity": "騰訊",
         "count": 2
       },
       {
-        "entity": "台灣",
+        "entity": "三星",
         "count": 2
+      },
+      {
+        "entity": "伊朗",
+        "count": 1
       },
       {
         "entity": "中國",
         "count": 1
       },
       {
-        "entity": "SK海力士",
+        "entity": "曝光",
         "count": 1
       },
       {
-        "entity": "聯盟",
-        "count": 1
-      },
-      {
-        "entity": "高峰",
-        "count": 1
-      },
-      {
-        "entity": "國泰",
-        "count": 1
-      },
-      {
-        "entity": "兆豐",
+        "entity": "台灣",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-17T11:39:42.000002+08:00",
-        "bucket_end": "2026-08-17T11:43:59.142859+08:00",
-        "positive": 1,
+        "bucket_start": "2026-08-17T15:24:17.000002+08:00",
+        "bucket_end": "2026-08-17T15:28:34.142859+08:00",
+        "positive": 0,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 1,
+        "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-17T15:28:34.142859+08:00",
+        "bucket_end": "2026-08-17T15:32:51.285716+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 3,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
         "post_count": 1,
-        "engagement": 1,
+        "engagement": 3,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "maga / aiso / ssd / sk海力士",
+            "topic_id": 1,
+            "label": "gdp",
             "count": 1
           }
         ],
@@ -124,35 +133,64 @@
           {
             "handle": "technews_tw",
             "platform": "X",
-            "text": "00982A 年化配息率 11%！ #20檔ETF明同日除息 台股 8 月除息高峰明日登場，共 20 檔 ETF 同步除息，其中主動群益台灣強棒（00982A）、主動野村臺灣優選（00980A）為主動式產品，其餘 18 檔屬被動式，涵蓋國泰台灣科技龍頭（00881）、群益台 ESG 低碳 50（00923）、兆豐藍籌…  https:// dlvr.it/TV2pM6",
-            "url": "https://x.com/technews_tw/status/2089196451750641724",
-            "interaction": 1
+            "text": "台灣 2026 年全年 #GDP 成長率預估衝上 11.05%，創近 40 年新高！",
+            "url": "https://x.com/technews_tw/status/2089253587683836165",
+            "interaction": 3
           }
         ],
-        "net_sentiment_smoothed": 50.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T11:43:59.142859+08:00",
-        "bucket_end": "2026-08-17T11:48:16.285716+08:00",
-        "positive": 1,
+        "bucket_start": "2026-08-17T15:32:51.285716+08:00",
+        "bucket_end": "2026-08-17T15:37:08.428573+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-17T15:37:08.428573+08:00",
+        "bucket_end": "2026-08-17T15:41:25.571430+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-17T15:41:25.571430+08:00",
+        "bucket_end": "2026-08-17T15:45:42.714287+08:00",
+        "positive": 0,
         "neutral": 1,
         "negative": 0,
-        "positive_engagement": 17,
-        "neutral_engagement": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 13,
         "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 18,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 13,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "maga / aiso / ssd / sk海力士",
-            "count": 1
-          },
-          {
-            "topic_id": 1,
-            "label": "politics / cpu / tea / climate",
+            "label": "騰訊 / 三星 / 中國",
             "count": 1
           }
         ],
@@ -160,71 +198,30 @@
           {
             "handle": "tphuang",
             "platform": "X",
-            "text": "i don’t know how many Chagee tea stores are like this, but it’s a really great environment to sit down, have a cup of tea & work.  There is a reason Starbucks have been struggling in China.",
-            "url": "https://x.com/tphuang/status/2089197382626087075",
-            "interaction": 17
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "#昕力資訊 領軍 AISO 聯盟推出全系列軟硬整合 AI 一體機與筆電，並預告 10 月問世自營品牌「AISO 1」地端 AI Agent 機。",
-            "url": "https://x.com/technews_tw/status/2089197519905739225",
-            "interaction": 1
+            "text": "I stumbled onto this shop is called Taozhu Lab in a mall. So much embodied AI toys & gadgets + 3D printing everywhere.  Mind blown",
+            "url": "https://x.com/tphuang/status/2089256464825368587",
+            "interaction": 13
           }
         ],
-        "net_sentiment_smoothed": 37.5,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T11:48:16.285716+08:00",
-        "bucket_end": "2026-08-17T11:52:33.428573+08:00",
+        "bucket_start": "2026-08-17T15:45:42.714287+08:00",
+        "bucket_end": "2026-08-17T15:49:59.857144+08:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 1,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T11:52:33.428573+08:00",
-        "bucket_end": "2026-08-17T11:56:50.571430+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T11:56:50.571430+08:00",
-        "bucket_end": "2026-08-17T12:01:07.714287+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 1,
-        "net_sentiment": -100.0,
         "post_count": 1,
         "engagement": 1,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "maga / aiso / ssd / sk海力士",
+            "label": "騰訊 / 三星 / 中國",
             "count": 1
           }
         ],
@@ -232,17 +229,17 @@
           {
             "handle": "technews_tw",
             "platform": "X",
-            "text": "買到不良品卻賠更大？全球記憶體短缺推升 SSD 價格暴漲，#SK海力士 因缺貨無法提供更換，對保固故障品改以「原始購買價」退款。",
-            "url": "https://x.com/technews_tw/status/2089200795942330731",
+            "text": "#三星 傳出將重返耳罩式耳機市場，於 Galaxy Wearable 應用程式碼中曝光代號「Galaxy H1」的新機款。",
+            "url": "https://x.com/technews_tw/status/2089258144782483473",
             "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": -40.0,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T12:01:07.714287+08:00",
-        "bucket_end": "2026-08-17T12:05:24.857144+08:00",
+        "bucket_start": "2026-08-17T15:49:59.857144+08:00",
+        "bucket_end": "2026-08-17T15:54:17.000001+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -254,175 +251,160 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -40.0,
+        "net_sentiment_smoothed": 13.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T12:05:24.857144+08:00",
-        "bucket_end": "2026-08-17T12:09:42.000001+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 20,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 20,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "maga / aiso / ssd / sk海力士",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Washington’s renewed pressure on a jurist who it sanctioned last year on human rights grounds threatens to drag relations between the two countries to the lowest point in decades, ahead of Brazil’s el",
-            "url": "https://x.com/FT/status/2089202578978484733",
-            "interaction": 20
-          }
-        ],
-        "net_sentiment_smoothed": -40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T12:09:42.000001+08:00",
-        "bucket_end": "2026-08-17T12:13:59.142858+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -30.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T12:13:59.142858+08:00",
-        "bucket_end": "2026-08-17T12:18:16.285715+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -30.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T12:18:16.285715+08:00",
-        "bucket_end": "2026-08-17T12:22:33.428572+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 4,
-        "net_sentiment": -50.0,
-        "post_count": 2,
-        "engagement": 4,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "politics / cpu / tea / climate",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Private credit under strain as troubled loans swell",
-            "url": "https://x.com/FT/status/2089205454698139982",
-            "interaction": 4
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "#AI 代理與推理需求爆發！#伺服器 #CPU 市場迎來巨幅成長，預計 2030 年規模將從 2025 年的 350 億美元飆升至 2,100 億美元，其中 AI 專用晶片占比高達 86%。",
-            "url": "https://x.com/technews_tw/status/2089205308828922178",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": -3.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T12:22:33.428572+08:00",
-        "bucket_end": "2026-08-17T12:26:50.571429+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -23.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T12:26:50.571429+08:00",
-        "bucket_end": "2026-08-17T12:31:07.714286+08:00",
+        "bucket_start": "2026-08-17T15:54:17.000001+08:00",
+        "bucket_end": "2026-08-17T15:58:34.142858+08:00",
         "positive": 1,
-        "neutral": 2,
+        "neutral": 0,
         "negative": 0,
-        "positive_engagement": 2,
-        "neutral_engagement": 13,
+        "positive_engagement": 6,
+        "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 33.3,
-        "post_count": 3,
-        "engagement": 15,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 6,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "politics / cpu / tea / climate",
-            "count": 2
-          },
-          {
             "topic_id": 0,
-            "label": "maga / aiso / ssd / sk海力士",
+            "label": "騰訊 / 三星 / 中國",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
+            "handle": "tphuang",
             "platform": "X",
-            "text": "How Maga came for Europe",
-            "url": "https://x.com/FT/status/2089207710415769667",
-            "interaction": 7
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Andy Burnham faces climate test over North Sea oil decision",
-            "url": "https://x.com/FT/status/2089207735296401598",
+            "text": "These HIMA vehicles are really big. Even Z7T, which I didn’t think was going to be very large turned out to be so room. M9 & V9 are just gigantic. M6 is probably what personally would be ideal to me f",
+            "url": "https://x.com/tphuang/status/2089259723329765609",
             "interaction": 6
           }
         ],
-        "net_sentiment_smoothed": -23.3,
+        "net_sentiment_smoothed": 13.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-17T15:58:34.142858+08:00",
+        "bucket_end": "2026-08-17T16:02:51.285715+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 2,
+        "positive_engagement": 18,
+        "neutral_engagement": 0,
+        "negative_engagement": 28,
+        "net_sentiment": -33.3,
+        "post_count": 3,
+        "engagement": 46,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "騰訊 / 三星 / 中國",
+            "count": 3
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "FT Exclusive: JPMorgan Chase chief Jamie Dimon has warned UK chancellor John Healey against creating a more hostile tax environment for banks, as the financial services sector prepares to embark on a ",
+            "url": "https://x.com/FT/status/2089260977522900995",
+            "interaction": 27
+          },
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "Dyson is cooked in China. This is its competition. One feels like accelerating to the future & the other is stuck in the non AI robotic age.",
+            "url": "https://x.com/tphuang/status/2089260849601064993",
+            "interaction": 18
+          }
+        ],
+        "net_sentiment_smoothed": 13.3,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-08-17T12:31:07.714286+08:00",
-        "bucket_end": "2026-08-17T12:35:24.857143+08:00",
+        "bucket_start": "2026-08-17T16:02:51.285715+08:00",
+        "bucket_end": "2026-08-17T16:07:08.428572+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 1,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "騰訊 / 三星 / 中國",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "中國科技市場版圖大洗牌！#長鑫存儲 掛牌 3 週股價暴漲逾 500%，市值突破 5,000 億美元大關，超越 #騰訊 登頂新市值王。",
+            "url": "https://x.com/technews_tw/status/2089262049557942337",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 13.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-17T16:07:08.428572+08:00",
+        "bucket_end": "2026-08-17T16:11:25.571429+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -26.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-17T16:11:25.571429+08:00",
+        "bucket_end": "2026-08-17T16:15:42.714286+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 55,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 55,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "騰訊 / 三星 / 中國",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "image",
+            "url": "https://x.com/SemiAnalysis_/status/2089264236983681307",
+            "interaction": 55
+          }
+        ],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-17T16:15:42.714286+08:00",
+        "bucket_end": "2026-08-17T16:19:59.857143+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -435,7 +417,7 @@
         "top_topics": [
           {
             "topic_id": 1,
-            "label": "politics / cpu / tea / climate",
+            "label": "gdp",
             "count": 1
           }
         ],
@@ -443,17 +425,17 @@
           {
             "handle": "technews_tw",
             "platform": "X",
-            "text": "#蘋果 為緩解成本壓力，傳出有意採購中國 #長鑫存儲 與 #長江存儲 晶片，卻遭華府出面阻攔。",
-            "url": "https://x.com/technews_tw/status/2089208639206920528",
+            "text": "受伊朗戰爭與日圓貶值衝擊，日本第 2 季 GDP 年率僅成長 1.1%，遠低於預期的 2.0%！",
+            "url": "https://x.com/technews_tw/status/2089265950722056482",
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": -16.7,
+        "net_sentiment_smoothed": -25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T12:35:24.857143+08:00",
-        "bucket_end": "2026-08-17T12:39:42+08:00",
+        "bucket_start": "2026-08-17T16:19:59.857143+08:00",
+        "bucket_end": "2026-08-17T16:24:17+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -465,15 +447,39 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -22.2,
+        "net_sentiment_smoothed": -33.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "politics / cpu / tea / climate",
+        "topic_id": 0,
+        "label": "騰訊 / 三星 / 中國",
         "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -483,48 +489,24 @@
             "volume": 1
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": -33.3,
+            "volume": 3
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -50.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": -100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -533,16 +515,48 @@
         ]
       },
       {
-        "topic_id": 0,
-        "label": "maga / aiso / ssd / sk海力士",
+        "topic_id": 1,
+        "label": "gdp",
         "cells": [
           {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -555,38 +569,6 @@
           {
             "net_sentiment": -100.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -597,58 +579,65 @@
     ],
     "coverage_focus_ranking": [
       {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 0,
+        "top_topic_label": "騰訊 / 三星 / 中國",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
         "handle": "tphuang",
-        "top_topic_id": 1,
-        "top_topic_label": "politics / cpu / tea / climate",
+        "top_topic_id": 0,
+        "top_topic_label": "騰訊 / 三星 / 中國",
+        "focus_share": 1.0,
+        "post_count": 3
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 0,
+        "top_topic_label": "騰訊 / 三星 / 中國",
         "focus_share": 1.0,
         "post_count": 1
       },
       {
         "handle": "technews_tw",
         "top_topic_id": 0,
-        "top_topic_label": "maga / aiso / ssd / sk海力士",
-        "focus_share": 0.6,
-        "post_count": 5
-      },
-      {
-        "handle": "FT",
-        "top_topic_id": 1,
-        "top_topic_label": "politics / cpu / tea / climate",
-        "focus_share": 0.5,
+        "top_topic_label": "騰訊 / 三星 / 中國",
+        "focus_share": 0.667,
         "post_count": 6
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 0,
-        "label": "maga / aiso / ssd / sk海力士",
-        "total_engagement": 32,
-        "post_count": 6,
-        "top_account": "FT",
-        "top_account_engagement": 29
+        "label": "騰訊 / 三星 / 中國",
+        "total_engagement": 123,
+        "post_count": 9,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 55
       },
       {
         "topic_id": 1,
-        "label": "politics / cpu / tea / climate",
-        "total_engagement": 29,
-        "post_count": 6,
-        "top_account": "tphuang",
-        "top_account_engagement": 17
+        "label": "gdp",
+        "total_engagement": 3,
+        "post_count": 2,
+        "top_account": "technews_tw",
+        "top_account_engagement": 3
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 3,
-          "likes": 17,
-          "engagement": 19,
-          "avg_engagement": 6.3
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 9,
-          "likes": 18,
-          "engagement": 42,
-          "avg_engagement": 4.7
+          "post_count": 11,
+          "likes": 96,
+          "engagement": 126,
+          "avg_engagement": 11.5
         },
         "evening": {
           "post_count": 0,
