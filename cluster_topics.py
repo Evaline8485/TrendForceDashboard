@@ -54,8 +54,11 @@ import warnings
 from collections import defaultdict
 from datetime import datetime, timezone
 
+import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
+from sklearn.decomposition import TruncatedSVD
+from sklearn.preprocessing import Normalizer
 from wordfreq import zipf_frequency
 
 from time_ranges import RANGE_HOURS, RANGE_ORDER, MIN_WINDOW_POSTS, parse_ts, window_bounds, window_dict, TAIWAN_TZ
@@ -142,6 +145,16 @@ COMPETITOR_ACCOUNTS = PLATFORM_ACCOUNTS['X']['competitors']
 # vocabulary change, so some reshuffling here is inherent, not fully
 # eliminable.
 N_CLUSTERS = 22
+
+# LSA dimensions cluster_posts() projects onto before running K-Means (see the
+# measurement write-up in that function). 50 was the best of the three values
+# measured on the same 9,178 posts, by size of the catch-all cluster: no SVD
+# 79%, 50 dims 31%, 100 dims 40%, 200 dims 58%. Fewer dimensions force more of
+# the variance into the retained axes, which is what separates the subjects
+# here. Values below 50 were not measured - if you tune this, compare the
+# largest cluster's share and the median cluster size, not just whether the
+# pipeline still runs.
+SVD_COMPONENTS = 50
 
 URL_RE = re.compile(r'https?://\S+')
 NON_WORD_RE = re.compile(r'[^a-zA-Z一-鿿\s#]')
@@ -487,6 +500,35 @@ def cluster_posts(posts, n_clusters=N_CLUSTERS, min_docs_per_cluster=5):
         raise ValueError(f"Could not vectorize {len(docs)} document(s) even without stop-word filtering.")
 
     k = max(1, min(n_clusters, len(posts) // min_docs_per_cluster))
+
+    # Cluster in an LSA-reduced dense space, not the raw TF-IDF matrix.
+    # Measured 2026-08-17 on 9,178 posts: each document has only ~8.2
+    # non-zero terms out of 3,000, so almost every pair of documents shares
+    # no vocabulary at all and sits at the maximum possible distance from the
+    # other. K-Means cannot separate points that are all equidistant, and
+    # degenerated into one catch-all cluster holding 7,251 posts (79% of the
+    # corpus) plus a handful of tight outliers - which made FR-03's
+    # temperature bar useless, since its hottest "topic" was really "most of
+    # the feed" and its label just that blob's top four terms
+    # ("photonics / quantum / optical / tsmc" - four unrelated subjects).
+    # Neither more clusters nor a max_df cap fixes this: N_CLUSTERS 22->55
+    # only moved the blob 81%->67% while fragmenting everything else, and
+    # max_df from 1.0 down to 0.15 changed nothing at all (no term appears in
+    # even 15% of documents). Reducing to SVD_COMPONENTS dims first drops the
+    # blob to 31% and RAISES the median cluster from 50 to 178 posts, and the
+    # subjects above separate (photonics becomes its own 634-post topic).
+    n_components = min(SVD_COMPONENTS, X.shape[1] - 1, X.shape[0] - 1)
+    if n_components >= 2:
+        svd = TruncatedSVD(n_components, random_state=42)
+        # Normalizer after SVD: TF-IDF output is L2-normalized but the
+        # projection is not, and K-Means on unnormalized LSA vectors clusters
+        # by document length as much as by subject.
+        fit_matrix = Normalizer(copy=False).fit_transform(svd.fit_transform(X))
+    else:
+        # Too few documents/terms to project (FR-02's sub-topic drill-down
+        # hits this) - fall back to the raw matrix rather than raising.
+        fit_matrix = X
+
     km = KMeans(n_clusters=k, n_init=10, random_state=42)
     # k-means++ init's cumulative-distance computation overflows float64 on
     # this TF-IDF matrix's value range (a handful of documents can have
@@ -496,7 +538,19 @@ def cluster_posts(posts, n_clusters=N_CLUSTERS, min_docs_per_cluster=5):
     # just this call rather than a rewrite of sklearn's own init routine.
     with warnings.catch_warnings():
         warnings.filterwarnings('ignore', category=RuntimeWarning, module='sklearn')
-        labels = km.fit_predict(X)
+        labels = km.fit_predict(fit_matrix)
+
+    if fit_matrix is not X:
+        # Every caller labels a cluster with label_cluster(vectorizer,
+        # km.cluster_centers_[cid]), which indexes the vectorizer's vocabulary
+        # by centroid position - so the centroids handed back must stay in term
+        # space. Left in SVD space they would silently produce whichever terms
+        # happen to sit at indices 0..n_components, with no error to notice.
+        # Recompute each centroid as the mean TF-IDF of its own members.
+        km.cluster_centers_ = np.vstack([
+            np.asarray(X[labels == cid].mean(axis=0)).ravel() if (labels == cid).any()
+            else np.zeros(X.shape[1])
+            for cid in range(k)])
     return vectorizer, X, km, labels
 
 
