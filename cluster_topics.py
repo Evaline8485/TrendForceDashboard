@@ -144,7 +144,18 @@ COMPETITOR_ACCOUNTS = PLATFORM_ACCOUNTS['X']['competitors']
 # K-Means has no obligation to reproduce the same partition after any
 # vocabulary change, so some reshuffling here is inherent, not fully
 # eliminable.
-N_CLUSTERS = 22
+# Raised 22 -> 40 on 2026-08-17, once clustering moved into LSA space (see
+# SVD_COMPONENTS below). In the raw TF-IDF space more clusters did nothing for
+# the catch-all blob - 22->55 moved it only 81%->67% while fragmenting every
+# other cluster - so this was pinned at 22. After the LSA change the same
+# sweep behaves completely differently, because the points now have real
+# distances between them: blob 37% (N=22) -> 32% (30) -> 26% (40) -> 20% (55),
+# with the median cluster staying healthy until 55, where the smallest falls
+# to 24 posts. 40 is the last value before fragmentation starts.
+# FR-03's temperature bar renders only the top 10 bars
+# (generate_dashboard.py), so a higher cluster count sharpens what those 10
+# are instead of crowding the widget.
+N_CLUSTERS = 40
 
 # LSA dimensions cluster_posts() projects onto before running K-Means (see the
 # measurement write-up in that function). 50 was the best of the three values
@@ -205,9 +216,20 @@ CHINESE_NOISE_SUBSTRINGS = [
     # NOT listed here: '我們正在'. It reads like boilerplate but zipf=4.43
     # makes it an ordinary phrase, and CHINESE_NOISE_RE matches by substring
     # - it would also strip real content like 我們正在開發 (3.09) and
-    # 我們正在擴產 (0.90). The two CTA phrases below are specific enough
-    # (zipf 1.39 and 0.09) to kill the template on their own.
+    # 我們正在擴產 (0.90). The two CTA phrases below (zipf 1.39 and 0.09) keep
+    # the CTA out of the LABEL, but they do NOT make the cluster go away: the
+    # job posts are near-identical text, so K-Means still groups them and just
+    # names the group from whatever words are left ("我們正在 / hiring /
+    # analyst / san"). Removing it for real means skipping these posts at
+    # scrape time, not filtering more words here.
     '今天就應徵', '分享給人脈網',
+    # 新聞來源 - the "News source" caption TechNews renders above a quoted
+    # article. Same class of UI-chrome contamination as 主題標籤: zipf 4.03 as
+    # a compound (來源 alone is 5.18 and 新聞 5.58, so both clear the general
+    # floor on their own, but the joined token does not), and it was the top
+    # term of the largest cluster after the LSA change went in (found
+    # 2026-08-17).
+    '新聞來源',
 ]
 CHINESE_NOISE_RE = re.compile('|'.join(re.escape(w) for w in CHINESE_NOISE_SUBSTRINGS))
 # Pure currency/magnitude tokens (億元, 兆日圓, 萬美元, ...) carry no topic

@@ -183,6 +183,33 @@ a normal `git clone` brings the new owner the full data history. Nothing
 special needed here beyond normal repo access — just worth knowing this
 is a **data-heavy** repo (large CSV history), not a small codebase.
 
+### 6a. Two traps when working on this repo
+
+**`publish.sh` commits your working tree, not just its own output.** It runs
+`git add -A` (publish.sh:56), so *any* dirty file gets swept into the
+"Automated pipeline update" commit and pushed — including source code you are
+still in the middle of editing. This is not hypothetical: a half-finished
+`cluster_topics.py` edit went out inside commit `174410d` on 2026-08-17 that
+way. Two consequences:
+
+- Don't edit this repo's code while a scheduled run is due (see §5 for the
+  cron table). If you must, commit your own work first so the automated
+  commit has nothing of yours to pick up.
+- Never leave scratch files (`*.bak`, dumps, test output) inside the repo.
+  Write them somewhere outside it. `csv/` **is** tracked (§6), so a backup
+  dropped next to the original gets committed too.
+
+`TrendforceXScraper/publish.sh` does not have this problem — it stages two
+named files (its publish.sh:34). Only this repo's does.
+
+**Don't use `grep -c` to check `docs/index.html`.** `grep -c` counts matching
+*lines*, and the generated HTML is a handful of very long lines with the data
+blobs inlined — so a real count of several hundred reports as `3`. Use
+`grep -o <pattern> file | wc -l`, or parse the JSON under `analysis/`
+instead. Related: when fetching the deployed page to verify it, write it to a
+file and check the byte count against the local `docs/index.html` — a
+truncated response greps clean and looks like a pass.
+
 ## 7. Suggested transfer order
 
 1. ~~Push `TrendforceFacebookScraper` / `TrendforceLinkedinScraper` to new
