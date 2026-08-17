@@ -300,18 +300,72 @@ def widget_sentiment_overview(posts):
     }
 
 
-def widget_temperature_bar(posts_by_topic, topic_labels):
+CATCHALL_MIN_SHARE = 0.25
+CATCHALL_MIN_RATIO = 3.0
+
+
+def detect_catchall_topic(posts_by_topic):
+    """The cluster that is "everything else" rather than a subject.
+
+    K-Means always leaves one, because every post has to be assigned to some
+    cluster - a post about nothing the other clusters cover still lands
+    somewhere. Moving the clustering into LSA space (cluster_topics.py,
+    2026-08-17) cut this cluster from 79% of the corpus to 26%, and N_CLUSTERS
+    40 sharpened the rest, but neither removes it: a whitelist taxonomy
+    excludes unmatched posts, K-Means pools them.
+
+    Left in the rankings it does two things, both bad. It takes the top slot
+    on every topic widget under a label that is just its top four unrelated
+    terms ("億次 / 臻鼎 / resource / photonics"). Worse, its volume sets the
+    scale normalize() divides by, so every real topic is squashed into a
+    narrow band - on the 1d window, one bar at heat 90.0 and the genuine
+    topics all between 10.6 and 14.2. That is what kept the ranking
+    unreadable even after the labels themselves were clean.
+
+    Two conditions, both required. Measured across all seven windows of the
+    2026-08-17 17:29 build, as share of window / multiple of runner-up:
+        1h  66% 9.5x    4h  63% 26x    8h 31% 5.9x    1d 39% 12.8x
+        1w  45% 14.2x   1mo 42% 12.6x  1q 28% 6.5x
+    Real topics in the same build top out near 5% of their window, so they
+    cannot pass the share test. The runner-up test is what protects a sparse
+    window, where a legitimate topic can be a large share of a dozen posts
+    without dwarfing everything else.
+    """
+    if len(posts_by_topic) < 3:
+        return None
+    sizes = sorted(((len(ps), cid) for cid, ps in posts_by_topic.items()), reverse=True)
+    total = sum(n for n, _ in sizes)
+    if not total:
+        return None
+    (top_n, top_cid), (second_n, _) = sizes[0], sizes[1]
+    if top_n / total >= CATCHALL_MIN_SHARE and top_n >= CATCHALL_MIN_RATIO * max(second_n, 1):
+        return top_cid
+    return None
+
+
+def widget_temperature_bar(posts_by_topic, topic_labels, catchall_cid=None):
     raw_volume = {cid: len(ps) for cid, ps in posts_by_topic.items()}
     raw_engagement = {cid: sum(p['interaction'] for p in ps) for cid, ps in posts_by_topic.items()}
-    norm_v, norm_e = normalize(raw_volume), normalize(raw_engagement)
+    # Scale over real topics only - including the catch-all's volume is what
+    # compressed every genuine topic into a 10-14 band (see
+    # detect_catchall_topic). Falls back to the full set if excluding it would
+    # leave nothing to scale against.
+    scale_v = {cid: n for cid, n in raw_volume.items() if cid != catchall_cid}
+    scale_e = {cid: n for cid, n in raw_engagement.items() if cid != catchall_cid}
+    norm_v, norm_e = normalize(scale_v or raw_volume), normalize(scale_e or raw_engagement)
     bars = []
     for cid, ps in posts_by_topic.items():
         heat = fuzzy_fuse(norm_v.get(cid, 0), norm_e.get(cid, 0))
         entity_counts = Counter(e for p in ps for e in p.get('entities', []))
         bars.append({'topic_id': cid, 'label': topic_labels[cid], 'heat': heat,
                      'volume': raw_volume[cid], 'engagement': raw_engagement[cid],
-                     'entities': [e for e, _ in entity_counts.most_common(5)]})
-    bars.sort(key=lambda b: b['heat'], reverse=True)
+                     'entities': [e for e, _ in entity_counts.most_common(5)],
+                     'is_catchall': cid == catchall_cid})
+    # Catch-all last regardless of heat, so the top 10 the dashboard renders
+    # (generate_dashboard.py:360) is all real topics. Kept in the payload
+    # rather than dropped - "this many posts matched no topic" is worth
+    # seeing, and silently discarding a quarter of the window is not.
+    bars.sort(key=lambda b: (b['is_catchall'], -b['heat']))
     return bars
 
 
@@ -610,6 +664,13 @@ def build_dashboard(all_posts, time_range, now, keyword=None):
             top_entities = [e for e, _ in Counter(e for p in ps for e in p.get('entities', [])).most_common(3)]
             topic_labels[cid] = ' / '.join(top_entities) if top_entities else f'Misc topic {cid}'
 
+    # Rename the catch-all here, at the source, so the temperature bar and both
+    # topic rankings (coverage focus, top engagement) all show it the same way
+    # instead of each widget having to know about it.
+    catchall_cid = detect_catchall_topic(posts_by_topic)
+    if catchall_cid is not None:
+        topic_labels[catchall_cid] = f'其他（未分群，{len(posts_by_topic[catchall_cid])} 篇）'
+
     result = {
         'generated_at': now.isoformat(),
         'time_range': time_range,
@@ -617,7 +678,7 @@ def build_dashboard(all_posts, time_range, now, keyword=None):
         'keyword': keyword,
         'widgets': {
             'sentiment_overview': widget_sentiment_overview(posts),
-            'temperature_bar': widget_temperature_bar(posts_by_topic, topic_labels),
+            'temperature_bar': widget_temperature_bar(posts_by_topic, topic_labels, catchall_cid),
             'named_entities': widget_named_entities(posts),
             'sentiment_trend_curve': widget_sentiment_trend_curve(posts, now, span, topic_labels),
             'topic_sentiment_heatmap': widget_topic_sentiment_heatmap(posts, now, span, topic_labels),
