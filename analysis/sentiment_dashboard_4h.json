@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-17T21:55:11.350038+00:00",
+  "generated_at": "2026-08-18T08:23:26+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-08-17T17:55:11.350038+00:00",
-    "end_utc": "2026-08-17T21:55:11.350038+00:00",
-    "start_tw": "Aug 18, 01:55",
-    "end_tw": "Aug 18, 05:55"
+    "start_utc": "2026-08-18T04:23:26+08:00",
+    "end_utc": "2026-08-18T08:23:26+08:00",
+    "start_tw": "Aug 18, 04:23",
+    "end_tw": "Aug 18, 08:23"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 17,
+      "total_posts": 30,
       "sentiment_counts": {
-        "positive": 11,
-        "neutral": 4,
-        "negative": 2
+        "neutral": 7,
+        "positive": 18,
+        "negative": 5
       },
       "sentiment_share": {
-        "positive": 0.647,
-        "neutral": 0.235,
-        "negative": 0.118
+        "neutral": 0.233,
+        "positive": 0.6,
+        "negative": 0.167
       },
       "top_terms": [
         "查看",
@@ -29,31 +29,25 @@
         "看更多",
         "利率",
         "長榮",
-        "上周",
-        "周報",
-        "指數"
+        "成長",
+        "帶動",
+        "引擎"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "羅瑋 / 亞洲 / 卓榮泰",
+        "topic_id": 4,
+        "label": "tuesday",
         "heat": 90.0,
-        "volume": 15,
-        "engagement": 286,
-        "entities": [
-          "羅瑋",
-          "亞洲",
-          "卓榮泰",
-          "聯準會",
-          "路透"
-        ],
+        "volume": 2,
+        "engagement": 108,
+        "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
+        "topic_id": 3,
         "label": "陽明",
-        "heat": 10.0,
+        "heat": 69.6,
         "volume": 2,
         "engagement": 34,
         "entities": [
@@ -64,6 +58,48 @@
           "萬海"
         ],
         "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "announced",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 33,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "taiwan / firms",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 16,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "firms / taiwan / announced",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 10,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，23 篇）",
+        "heat": 10.0,
+        "volume": 23,
+        "engagement": 648,
+        "entities": [
+          "羅瑋",
+          "亞洲",
+          "卓榮泰",
+          "聯準會",
+          "美系大行"
+        ],
+        "is_catchall": true
       }
     ],
     "named_entities": [
@@ -86,6 +122,10 @@
       {
         "entity": "聯準會",
         "count": 2
+      },
+      {
+        "entity": "美系大行",
+        "count": 1
       },
       {
         "entity": "路透",
@@ -122,16 +162,228 @@
       {
         "entity": "永豐",
         "count": 1
-      },
-      {
-        "entity": "日本",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-17T17:55:11.350032+00:00",
-        "bucket_end": "2026-08-17T18:12:19.921461+00:00",
+        "bucket_start": "2026-08-18T04:23:25.999994+08:00",
+        "bucket_end": "2026-08-18T04:40:34.571423+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 43,
+        "neutral_engagement": 65,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 108,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "tuesday",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Just published: front page of the Financial Times, international edition, Tuesday August 18  https:// ft.trib.al/3mBR8id",
+            "url": "https://x.com/FT/status/2089449719185416696",
+            "interaction": 65
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Just published: front page of the Financial Times, UK edition, Tuesday August 18  https:// ft.trib.al/evmGp8l",
+            "url": "https://x.com/FT/status/2089449963251982470",
+            "interaction": 43
+          }
+        ],
+        "net_sentiment_smoothed": -16.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-18T04:40:34.571423+08:00",
+        "bucket_end": "2026-08-18T04:57:43.142852+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 27,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 27,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "其他（未分群，23 篇）",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Mark Carney in last-ditch effort to avoid Trump’s latest tariffs",
+            "url": "https://x.com/FT/status/2089452362750455841",
+            "interaction": 27
+          }
+        ],
+        "net_sentiment_smoothed": -12.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-18T04:57:43.142852+08:00",
+        "bucket_end": "2026-08-18T05:14:51.714281+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -10.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-18T05:14:51.714281+08:00",
+        "bucket_end": "2026-08-18T05:32:00.285710+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -9.1,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-18T05:32:00.285710+08:00",
+        "bucket_end": "2026-08-18T05:49:08.857139+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 23,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 23,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "其他（未分群，23 篇）",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "US pauses construction of border wall through national park in Texas",
+            "url": "https://x.com/FT/status/2089469376839798856",
+            "interaction": 23
+          }
+        ],
+        "net_sentiment_smoothed": 10.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-18T05:49:08.857139+08:00",
+        "bucket_end": "2026-08-18T06:06:17.428568+08:00",
+        "positive": 15,
+        "neutral": 4,
+        "negative": 3,
+        "positive_engagement": 432,
+        "neutral_engagement": 119,
+        "negative_engagement": 102,
+        "net_sentiment": 54.5,
+        "post_count": 22,
+        "engagement": 653,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "其他（未分群，23 篇）",
+            "count": 19
+          },
+          {
+            "topic_id": 3,
+            "label": "陽明",
+            "count": 2
+          },
+          {
+            "topic_id": 2,
+            "label": "announced",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Over the years, Google has been improving its original 2D Torus Inter-Chip-Interconnect (ICI) network topology introduced with TPUv2, later extended to a 3D Torus starting with TPUv4 and v5p. (1/8)",
+            "url": "https://x.com/SemiAnalysis_/status/2089472651521626622",
+            "interaction": 142
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Top Fifa official departs after attacking Infantino’s plan to lure investors",
+            "url": "https://x.com/FT/status/2089471006163222663",
+            "interaction": 72
+          }
+        ],
+        "net_sentiment_smoothed": 10.9,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-08-18T06:06:17.428568+08:00",
+        "bucket_end": "2026-08-18T06:23:25.999997+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 10.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-18T06:23:25.999997+08:00",
+        "bucket_end": "2026-08-18T06:40:34.571426+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 10.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-18T06:40:34.571426+08:00",
+        "bucket_end": "2026-08-18T06:57:43.142855+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -147,8 +399,39 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T18:12:19.921461+00:00",
-        "bucket_end": "2026-08-17T18:29:28.492890+00:00",
+        "bucket_start": "2026-08-18T06:57:43.142855+08:00",
+        "bucket_end": "2026-08-18T07:14:51.714284+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 1,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "其他（未分群，23 篇）",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#AI 竟會自主突破沙盒甚至冒充真人！",
+            "url": "https://x.com/technews_tw/status/2089488190130549103",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-18T07:14:51.714284+08:00",
+        "bucket_end": "2026-08-18T07:32:00.285713+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -164,8 +447,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T18:29:28.492890+00:00",
-        "bucket_end": "2026-08-17T18:46:37.064319+00:00",
+        "bucket_start": "2026-08-18T07:32:00.285713+08:00",
+        "bucket_end": "2026-08-18T07:49:08.857142+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -177,12 +460,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T18:46:37.064319+00:00",
-        "bucket_end": "2026-08-17T19:03:45.635748+00:00",
+        "bucket_start": "2026-08-18T07:49:08.857142+08:00",
+        "bucket_end": "2026-08-18T08:06:17.428571+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -194,184 +477,305 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T19:03:45.635748+00:00",
-        "bucket_end": "2026-08-17T19:20:54.207177+00:00",
-        "positive": 0,
+        "bucket_start": "2026-08-18T08:06:17.428571+08:00",
+        "bucket_end": "2026-08-18T08:23:26+08:00",
+        "positive": 2,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 21,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T19:20:54.207177+00:00",
-        "bucket_end": "2026-08-17T19:38:02.778606+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T19:38:02.778606+00:00",
-        "bucket_end": "2026-08-17T19:55:11.350035+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T19:55:11.350035+00:00",
-        "bucket_end": "2026-08-17T20:12:19.921464+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T20:12:19.921464+00:00",
-        "bucket_end": "2026-08-17T20:29:28.492893+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T20:29:28.492893+00:00",
-        "bucket_end": "2026-08-17T20:46:37.064322+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T20:46:37.064322+00:00",
-        "bucket_end": "2026-08-17T21:03:45.635751+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T21:03:45.635751+00:00",
-        "bucket_end": "2026-08-17T21:20:54.207180+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T21:20:54.207180+00:00",
-        "bucket_end": "2026-08-17T21:38:02.778609+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T21:38:02.778609+00:00",
-        "bucket_end": "2026-08-17T21:55:11.350038+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 21,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "其他（未分群，23 篇）",
+            "count": 1
+          },
+          {
+            "topic_id": 5,
+            "label": "firms / taiwan / announced",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "早安！8/18 外電綜合整理  - 3529力旺：美系初評正向 美系大行表示先進製程節點遷移可推動 NeoFuse 的採用以及權利金成長。PQC的採用可望帶動 NeoPUF，並創造第二個權利金成長引擎。預估26-28年EPS為$34.3/$41.2/$53.3，以明年80xPE評價，同步升目標。   #下次會考",
+            "url": "https://x.com/QQ_Timmy/status/2089507409371050202",
+            "interaction": 11
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "When Nvidia announced Spectrum-X switches built with CPO (co-packaged optics) have entered mass production, it named 4 Taiwan firms among partners, TSMC, Foxconn, ASE and Browave as well as China’s le",
+            "url": "https://x.com/dnystedt/status/2089507692541104604",
+            "interaction": 10
+          }
+        ],
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
+        "topic_id": 1,
+        "label": "其他（未分群，23 篇）",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 57.9,
+            "volume": 19
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "tuesday",
+        "cells": [
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "陽明",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "announced",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
         "topic_id": 0,
-        "label": "羅瑋 / 亞洲 / 卓榮泰",
+        "label": "taiwan / firms",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -432,8 +836,8 @@
         ]
       },
       {
-        "topic_id": 1,
-        "label": "陽明",
+        "topic_id": 5,
+        "label": "firms / taiwan / announced",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -488,46 +892,120 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
+        "handle": "technews_tw",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，23 篇）",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，23 篇）",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，23 篇）",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
         "handle": "ctee.fans",
-        "top_topic_id": 0,
-        "top_topic_label": "羅瑋 / 亞洲 / 卓榮泰",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，23 篇）",
         "focus_share": 0.882,
         "post_count": 17
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，23 篇）",
+        "focus_share": 0.667,
+        "post_count": 6
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，23 篇）",
+        "focus_share": 0.5,
+        "post_count": 2
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 0,
+        "top_topic_label": "taiwan / firms",
+        "focus_share": 0.5,
+        "post_count": 2
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "羅瑋 / 亞洲 / 卓榮泰",
-        "total_engagement": 286,
-        "post_count": 15,
+        "topic_id": 1,
+        "label": "其他（未分群，23 篇）",
+        "total_engagement": 648,
+        "post_count": 23,
         "top_account": "ctee.fans",
         "top_account_engagement": 286
       },
       {
-        "topic_id": 1,
+        "topic_id": 4,
+        "label": "tuesday",
+        "total_engagement": 108,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 108
+      },
+      {
+        "topic_id": 3,
         "label": "陽明",
         "total_engagement": 34,
         "post_count": 2,
         "top_account": "ctee.fans",
         "top_account_engagement": 34
+      },
+      {
+        "topic_id": 2,
+        "label": "announced",
+        "total_engagement": 33,
+        "post_count": 1,
+        "top_account": "tphuang",
+        "top_account_engagement": 33
+      },
+      {
+        "topic_id": 0,
+        "label": "taiwan / firms",
+        "total_engagement": 16,
+        "post_count": 1,
+        "top_account": "dnystedt",
+        "top_account_engagement": 16
+      },
+      {
+        "topic_id": 5,
+        "label": "firms / taiwan / announced",
+        "total_engagement": 10,
+        "post_count": 1,
+        "top_account": "dnystedt",
+        "top_account_engagement": 10
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 5,
+          "likes": 157,
+          "engagement": 180,
+          "avg_engagement": 36.0
         },
         "afternoon": {
           "post_count": 0,
@@ -542,10 +1020,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 17,
-          "likes": 320,
-          "engagement": 320,
-          "avg_engagement": 18.8
+          "post_count": 25,
+          "likes": 574,
+          "engagement": 669,
+          "avg_engagement": 26.8
         }
       },
       "peak_slot": "late_night"

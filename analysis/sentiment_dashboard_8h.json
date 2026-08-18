@@ -1,44 +1,62 @@
 {
-  "generated_at": "2026-08-17T21:55:11.350038+00:00",
+  "generated_at": "2026-08-18T08:23:26+08:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-08-17T13:55:11.350038+00:00",
-    "end_utc": "2026-08-17T21:55:11.350038+00:00",
-    "start_tw": "Aug 17, 21:55",
-    "end_tw": "Aug 18, 05:55"
+    "start_utc": "2026-08-18T00:23:26+08:00",
+    "end_utc": "2026-08-18T08:23:26+08:00",
+    "start_tw": "Aug 18, 00:23",
+    "end_tw": "Aug 18, 08:23"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 35,
+      "total_posts": 40,
       "sentiment_counts": {
-        "positive": 18,
-        "neutral": 10,
-        "negative": 7
+        "neutral": 8,
+        "positive": 23,
+        "negative": 9
       },
       "sentiment_share": {
-        "positive": 0.514,
-        "neutral": 0.286,
-        "negative": 0.2
+        "neutral": 0.2,
+        "positive": 0.575,
+        "negative": 0.225
       },
       "top_terms": [
-        "hynix",
-        "customers",
-        "memory",
         "查看",
         "看更",
         "更多",
         "查看更",
         "看更多",
-        "dram",
-        "samsung"
+        "利率",
+        "長榮",
+        "edge",
+        "tsmc",
+        "成長"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 4,
-        "label": "陽明",
+        "topic_id": 2,
+        "label": "clearlake / chelsea / boehly",
         "heat": 90.0,
+        "volume": 2,
+        "engagement": 735,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "tuesday",
+        "heat": 60.8,
+        "volume": 2,
+        "engagement": 108,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "陽明",
+        "heat": 52.6,
         "volume": 2,
         "engagement": 34,
         "entities": [
@@ -51,62 +69,53 @@
         "is_catchall": false
       },
       {
-        "topic_id": 3,
-        "label": "hbm / micron / earnings / samsung",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "memory / intel",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
         "topic_id": 6,
-        "label": "samsung / investment / hynix / sk",
+        "label": "tsmc / edge",
         "heat": 10.0,
-        "volume": 2,
-        "engagement": 0,
+        "volume": 1,
+        "engagement": 94,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 2,
-        "label": "inp / changzhou / vertilite / laser",
+        "topic_id": 4,
+        "label": "edge / announced",
         "heat": 10.0,
-        "volume": 2,
-        "engagement": 0,
+        "volume": 1,
+        "engagement": 33,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "analyst",
+        "topic_id": 7,
+        "label": "taiwan / firms",
         "heat": 10.0,
-        "volume": 2,
-        "engagement": 0,
+        "volume": 1,
+        "engagement": 16,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "tsmc / firms / taiwan / announced",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 10,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，23 篇）",
+        "label": "其他（未分群，30 篇）",
         "heat": 10.0,
-        "volume": 23,
-        "engagement": 286,
+        "volume": 30,
+        "engagement": 1231,
         "entities": [
           "羅瑋",
           "亞洲",
           "卓榮泰",
           "聯準會",
-          "路透"
+          "美系大行"
         ],
         "is_catchall": true
       }
@@ -131,6 +140,10 @@
       {
         "entity": "聯準會",
         "count": 2
+      },
+      {
+        "entity": "美系大行",
+        "count": 1
       },
       {
         "entity": "路透",
@@ -167,198 +180,55 @@
       {
         "entity": "永豐",
         "count": 1
-      },
-      {
-        "entity": "日本",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-17T13:55:11.350040+00:00",
-        "bucket_end": "2026-08-17T14:29:28.492897+00:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": -25.0,
-        "post_count": 4,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "其他（未分群，23 篇）",
-            "count": 2
-          },
-          {
-            "topic_id": 3,
-            "label": "hbm / micron / earnings / samsung",
-            "count": 1
-          },
-          {
-            "topic_id": 1,
-            "label": "memory / intel",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "📢 Already delivering its fastest growth in 3QFY26, Applied Materials is raising the bar for 2026: advanced packaging sales are now expected to surge >70% YoY, up from >50%, while DRAM momentum is set ",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7494992754578493441/",
-            "interaction": 0
-          },
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "📊 HBM4 is ramping in 2H26, with Samsung’s yield reportedly nearing 80%—heating up the race with SK hynix. With HBM3e still dominant in 1H26, could rising DRAM and HBM4 ASPs fuel the next leg of earnin",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7494917255231873024/",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 19.4,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T14:29:28.492897+00:00",
-        "bucket_end": "2026-08-17T15:03:45.635754+00:00",
+        "bucket_start": "2026-08-18T00:23:26.000002+08:00",
+        "bucket_end": "2026-08-18T00:57:43.142859+08:00",
         "positive": 2,
         "neutral": 1,
-        "negative": 3,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": -16.7,
-        "post_count": 6,
-        "engagement": 0,
+        "negative": 1,
+        "positive_engagement": 525,
+        "neutral_engagement": 239,
+        "negative_engagement": 296,
+        "net_sentiment": 25.0,
+        "post_count": 4,
+        "engagement": 1060,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "其他（未分群，23 篇）",
-            "count": 4
-          },
-          {
-            "topic_id": 3,
-            "label": "hbm / micron / earnings / samsung",
-            "count": 1
-          },
-          {
-            "topic_id": 1,
-            "label": "memory / intel",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "Connecting Silicon Valley talent with global semiconductor intelligence.✨   TrendForce is a trusted global market intelligence provider specializing in semiconductors, AI hardware, displays, and emerg",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7493192162914840576/",
-            "interaction": 0
-          },
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "🤔 Micron has joined SK hynix and Samsung in shipping HBM4 for NVIDIA’s Vera Rubin—but says customers may not work with all three suppliers across every project. Could some projects narrow to just two—",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7494785369972985856/",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 14.6,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-08-17T15:03:45.635754+00:00",
-        "bucket_end": "2026-08-17T15:38:02.778611+00:00",
-        "positive": 4,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 4,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "其他（未分群，23 篇）",
+            "label": "其他（未分群，30 篇）",
             "count": 2
           },
-          {
-            "topic_id": 6,
-            "label": "samsung / investment / hynix / sk",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "🚀 Amid market chatter that Intel’s EMIB-T has reached 90% yields, TSMC confirmed at the 2026 OCP APAC Summit today that its 5.5-reticle CoWoS is delivering >98% yields across multiple AI products, rea",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7495026748485677056/",
-            "interaction": 0
-          },
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "👀 Samsung and SK hynix’s 1H26 chip facility investment jumped 35% to KRW 43.2T—but there’s more to watch. NVIDIA’s share of SK hynix revenue fell to 13.35%, while it was absent from Samsung’s top five",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7493970355351384064/",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 11.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-17T15:38:02.778611+00:00",
-        "bucket_end": "2026-08-17T16:12:19.921468+00:00",
-        "positive": 0,
-        "neutral": 4,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 4,
-        "engagement": 0,
-        "top_topics": [
           {
             "topic_id": 2,
-            "label": "inp / changzhou / vertilite / laser",
-            "count": 2
-          },
-          {
-            "topic_id": 5,
-            "label": "analyst",
+            "label": "clearlake / chelsea / boehly",
             "count": 2
           }
         ],
         "top_posts": [
           {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "👀 Vertilite is making a ~RMB 5B push into InP laser chips with a new base in Changzhou. Already mass-producing GaAs and InP optical products, the company also counts Huawei’s Hubble and Xiaomi among i",
-            "url": "",
-            "interaction": 0
+            "handle": "FT",
+            "platform": "X",
+            "text": "FT Exclusive: Since buying Chelsea FC, the US financiers' side of the consortium has clashed with Clearlake over strategy. While Clearlake owns more than 60% of Chelsea, it shares joint control and eq",
+            "url": "https://x.com/FT/status/2089391499628724589",
+            "interaction": 496
           },
           {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "[News] Vertilite to Build InP Laser Chip Base in China’s Changzhou with RMB 5 Billion",
-            "url": "",
-            "interaction": 0
+            "handle": "FT",
+            "platform": "X",
+            "text": "Russia fires economist over Ukraine war warning",
+            "url": "https://x.com/FT/status/2089393491411427603",
+            "interaction": 296
           }
         ],
-        "net_sentiment_smoothed": 16.7,
+        "net_sentiment_smoothed": 8.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T16:12:19.921468+00:00",
-        "bucket_end": "2026-08-17T16:46:37.064325+00:00",
+        "bucket_start": "2026-08-18T00:57:43.142859+08:00",
+        "bucket_end": "2026-08-18T01:32:00.285716+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -370,80 +240,217 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
+        "net_sentiment_smoothed": -18.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-18T01:32:00.285716+08:00",
+        "bucket_end": "2026-08-18T02:06:17.428573+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 34,
+        "neutral_engagement": 0,
+        "negative_engagement": 18,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 52,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "其他（未分群，30 篇）",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Opinion: What looks like random algorithmic attention can actually be the work of obsessive digital devotees.  https:// ft.trib.al/3T8ZKRK",
+            "url": "https://x.com/FT/status/2089407196870111289",
+            "interaction": 34
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Crime and punishment in the Middle East  https:// ft.trib.al/4DJzQ03  | opinion",
+            "url": "https://x.com/FT/status/2089412109452898331",
+            "interaction": 18
+          }
+        ],
+        "net_sentiment_smoothed": 5.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-18T02:06:17.428573+08:00",
+        "bucket_end": "2026-08-18T02:40:34.571430+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 49,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 49,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "其他（未分群，30 篇）",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The UK is going the wrong way about protecting pubs  https:// ft.trib.al/lTkO823  | opinion",
+            "url": "https://x.com/FT/status/2089414344740073668",
+            "interaction": 49
+          }
+        ],
         "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T16:46:37.064325+00:00",
-        "bucket_end": "2026-08-17T17:20:54.207182+00:00",
-        "positive": 0,
+        "bucket_start": "2026-08-18T02:40:34.571430+08:00",
+        "bucket_end": "2026-08-18T03:14:51.714287+08:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 94,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 94,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "tsmc / edge",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Apple has anchored every leading-edge TSMC ramp since 20nm in 2014, though it has rarely been alone. HiSilicon matched it onto N7 and N5 within weeks before sanctions took it out of the race, and that",
+            "url": "https://x.com/SemiAnalysis_/status/2089427309254086928",
+            "interaction": 94
+          }
+        ],
         "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T17:20:54.207182+00:00",
-        "bucket_end": "2026-08-17T17:55:11.350039+00:00",
-        "positive": 0,
+        "bucket_start": "2026-08-18T03:14:51.714287+08:00",
+        "bucket_end": "2026-08-18T03:49:08.857144+08:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 81,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 81,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "其他（未分群，30 篇）",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Seoul rattled by threat to drills at heart of US-Korean alliance",
+            "url": "https://x.com/FT/status/2089437075355373634",
+            "interaction": 81
+          }
+        ],
         "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T17:55:11.350039+00:00",
-        "bucket_end": "2026-08-17T18:29:28.492896+00:00",
+        "bucket_start": "2026-08-18T03:49:08.857144+08:00",
+        "bucket_end": "2026-08-18T04:23:26.000001+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "negative_engagement": 76,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 76,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "其他（未分群，30 篇）",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Opinion from Alphaville: Only seven of these top 25 trading losses are from funds: most are either banks and normie companies who mishedged.  https:// ft.trib.al/NU9e6vL",
+            "url": "https://x.com/FT/status/2089445464953204922",
+            "interaction": 76
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T18:29:28.492896+00:00",
-        "bucket_end": "2026-08-17T19:03:45.635753+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
+        "bucket_start": "2026-08-18T04:23:26.000001+08:00",
+        "bucket_end": "2026-08-18T04:57:43.142858+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 43,
+        "neutral_engagement": 65,
+        "negative_engagement": 27,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "post_count": 3,
+        "engagement": 135,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "tuesday",
+            "count": 2
+          },
+          {
+            "topic_id": 0,
+            "label": "其他（未分群，30 篇）",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Just published: front page of the Financial Times, international edition, Tuesday August 18  https:// ft.trib.al/3mBR8id",
+            "url": "https://x.com/FT/status/2089449719185416696",
+            "interaction": 65
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Just published: front page of the Financial Times, UK edition, Tuesday August 18  https:// ft.trib.al/evmGp8l",
+            "url": "https://x.com/FT/status/2089449963251982470",
+            "interaction": 43
+          }
+        ],
+        "net_sentiment_smoothed": 10.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T19:03:45.635753+00:00",
-        "bucket_end": "2026-08-17T19:38:02.778610+00:00",
+        "bucket_start": "2026-08-18T04:57:43.142858+08:00",
+        "bucket_end": "2026-08-18T05:32:00.285715+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -455,12 +462,60 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -9.6,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T19:38:02.778610+00:00",
-        "bucket_end": "2026-08-17T20:12:19.921467+00:00",
+        "bucket_start": "2026-08-18T05:32:00.285715+08:00",
+        "bucket_end": "2026-08-18T06:06:17.428572+08:00",
+        "positive": 15,
+        "neutral": 5,
+        "negative": 3,
+        "positive_engagement": 432,
+        "neutral_engagement": 142,
+        "negative_engagement": 102,
+        "net_sentiment": 52.2,
+        "post_count": 23,
+        "engagement": 676,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "其他（未分群，30 篇）",
+            "count": 20
+          },
+          {
+            "topic_id": 1,
+            "label": "陽明",
+            "count": 2
+          },
+          {
+            "topic_id": 4,
+            "label": "edge / announced",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Over the years, Google has been improving its original 2D Torus Inter-Chip-Interconnect (ICI) network topology introduced with TPUv2, later extended to a 3D Torus starting with TPUv4 and v5p. (1/8)",
+            "url": "https://x.com/SemiAnalysis_/status/2089472651521626622",
+            "interaction": 142
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Top Fifa official departs after attacking Infantino’s plan to lure investors",
+            "url": "https://x.com/FT/status/2089471006163222663",
+            "interaction": 72
+          }
+        ],
+        "net_sentiment_smoothed": 10.4,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-08-18T06:06:17.428572+08:00",
+        "bucket_end": "2026-08-18T06:40:34.571429+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -472,29 +527,43 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 10.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T20:12:19.921467+00:00",
-        "bucket_end": "2026-08-17T20:46:37.064324+00:00",
+        "bucket_start": "2026-08-18T06:40:34.571429+08:00",
+        "bucket_end": "2026-08-18T07:14:51.714286+08:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 1,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "其他（未分群，30 篇）",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#AI 竟會自主突破沙盒甚至冒充真人！",
+            "url": "https://x.com/technews_tw/status/2089488190130549103",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 30.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T20:46:37.064324+00:00",
-        "bucket_end": "2026-08-17T21:20:54.207181+00:00",
+        "bucket_start": "2026-08-18T07:14:51.714286+08:00",
+        "bucket_end": "2026-08-18T07:49:08.857143+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -506,42 +575,150 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-17T21:20:54.207181+00:00",
-        "bucket_end": "2026-08-17T21:55:11.350038+00:00",
-        "positive": 0,
+        "bucket_start": "2026-08-18T07:49:08.857143+08:00",
+        "bucket_end": "2026-08-18T08:23:26+08:00",
+        "positive": 2,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 21,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 21,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "其他（未分群，30 篇）",
+            "count": 1
+          },
+          {
+            "topic_id": 3,
+            "label": "tsmc / firms / taiwan / announced",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "早安！8/18 外電綜合整理  - 3529力旺：美系初評正向 美系大行表示先進製程節點遷移可推動 NeoFuse 的採用以及權利金成長。PQC的採用可望帶動 NeoPUF，並創造第二個權利金成長引擎。預估26-28年EPS為$34.3/$41.2/$53.3，以明年80xPE評價，同步升目標。   #下次會考",
+            "url": "https://x.com/QQ_Timmy/status/2089507409371050202",
+            "interaction": 11
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "When Nvidia announced Spectrum-X switches built with CPO (co-packaged optics) have entered mass production, it named 4 Taiwan firms among partners, TSMC, Foxconn, ASE and Browave as well as China’s le",
+            "url": "https://x.com/dnystedt/status/2089507692541104604",
+            "interaction": 10
+          }
+        ],
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
         "topic_id": 0,
-        "label": "其他（未分群，23 篇）",
+        "label": "其他（未分群，30 篇）",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 2
           },
           {
-            "net_sentiment": -25.0,
-            "volume": 4
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 55.0,
+            "volume": 20
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "tuesday",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
             "volume": 2
           },
           {
@@ -567,102 +744,20 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 4,
-        "label": "陽明",
+        "topic_id": 2,
+        "label": "clearlake / chelsea / boehly",
         "cells": [
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 50.0,
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "hbm / micron / earnings / samsung",
-        "cells": [
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -716,18 +811,10 @@
       },
       {
         "topic_id": 1,
-        "label": "memory / intel",
+        "label": "陽明",
         "cells": [
           {
             "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 0
           },
           {
@@ -757,6 +844,14 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -778,7 +873,7 @@
       },
       {
         "topic_id": 6,
-        "label": "samsung / investment / hynix / sk",
+        "label": "tsmc / edge",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -789,16 +884,16 @@
             "volume": 0
           },
           {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": 100.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -839,8 +934,8 @@
         ]
       },
       {
-        "topic_id": 2,
-        "label": "inp / changzhou / vertilite / laser",
+        "topic_id": 4,
+        "label": "edge / announced",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -856,10 +951,6 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 0
           },
           {
@@ -881,6 +972,10 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -903,31 +998,90 @@
     ],
     "coverage_focus_ranking": [
       {
+        "handle": "technews_tw",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，30 篇）",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，30 篇）",
+        "focus_share": 1.0,
+        "post_count": 1
+      },
+      {
         "handle": "ctee.fans",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，23 篇）",
+        "top_topic_label": "其他（未分群，30 篇）",
         "focus_share": 0.882,
         "post_count": 17
       },
       {
-        "handle": "TrendForce",
+        "handle": "FT",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，23 篇）",
-        "focus_share": 0.444,
-        "post_count": 18
+        "top_topic_label": "其他（未分群，30 篇）",
+        "focus_share": 0.733,
+        "post_count": 15
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，30 篇）",
+        "focus_share": 0.5,
+        "post_count": 2
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，30 篇）",
+        "focus_share": 0.5,
+        "post_count": 2
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 7,
+        "top_topic_label": "taiwan / firms",
+        "focus_share": 0.5,
+        "post_count": 2
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 0,
-        "label": "其他（未分群，23 篇）",
-        "total_engagement": 286,
-        "post_count": 23,
-        "top_account": "ctee.fans",
-        "top_account_engagement": 286
+        "label": "其他（未分群，30 篇）",
+        "total_engagement": 1231,
+        "post_count": 30,
+        "top_account": "FT",
+        "top_account_engagement": 772
       },
       {
-        "topic_id": 4,
+        "topic_id": 2,
+        "label": "clearlake / chelsea / boehly",
+        "total_engagement": 735,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 735
+      },
+      {
+        "topic_id": 5,
+        "label": "tuesday",
+        "total_engagement": 108,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 108
+      },
+      {
+        "topic_id": 6,
+        "label": "tsmc / edge",
+        "total_engagement": 94,
+        "post_count": 1,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 94
+      },
+      {
+        "topic_id": 1,
         "label": "陽明",
         "total_engagement": 34,
         "post_count": 2,
@@ -935,53 +1089,37 @@
         "top_account_engagement": 34
       },
       {
+        "topic_id": 4,
+        "label": "edge / announced",
+        "total_engagement": 33,
+        "post_count": 1,
+        "top_account": "tphuang",
+        "top_account_engagement": 33
+      },
+      {
+        "topic_id": 7,
+        "label": "taiwan / firms",
+        "total_engagement": 16,
+        "post_count": 1,
+        "top_account": "dnystedt",
+        "top_account_engagement": 16
+      },
+      {
         "topic_id": 3,
-        "label": "hbm / micron / earnings / samsung",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0
-      },
-      {
-        "topic_id": 1,
-        "label": "memory / intel",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0
-      },
-      {
-        "topic_id": 6,
-        "label": "samsung / investment / hynix / sk",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0
-      },
-      {
-        "topic_id": 2,
-        "label": "inp / changzhou / vertilite / laser",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0
-      },
-      {
-        "topic_id": 5,
-        "label": "analyst",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0
+        "label": "tsmc / firms / taiwan / announced",
+        "total_engagement": 10,
+        "post_count": 1,
+        "top_account": "dnystedt",
+        "top_account_engagement": 10
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 5,
+          "likes": 157,
+          "engagement": 180,
+          "avg_engagement": 36.0
         },
         "afternoon": {
           "post_count": 0,
@@ -990,16 +1128,16 @@
           "avg_engagement": 0.0
         },
         "evening": {
-          "post_count": 14,
+          "post_count": 0,
           "likes": 0,
           "engagement": 0,
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 21,
-          "likes": 320,
-          "engagement": 320,
-          "avg_engagement": 15.2
+          "post_count": 35,
+          "likes": 1596,
+          "engagement": 2081,
+          "avg_engagement": 59.5
         }
       },
       "peak_slot": "late_night"
