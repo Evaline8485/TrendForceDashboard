@@ -363,14 +363,14 @@ EN_NOISE_WORDS = {
     # gw 3.27 that show up in datacenter-capacity posts).
     'billion', 'billions', 'trillion', 'trillions', 'million', 'millions',
     'bn', 'mn', 'kw', 'mw', 'gw', 'twh', 'gwh', 'mwh',
-    # Legal-entity suffixes - part of a company's registered name, not a
-    # topic ('gmbh' appeared in a photonics label next to 'brussels').
-    'gmbh', 'ag', 'nv', 'sa', 'srl', 'bv', 'oy', 'ab', 'kk',
-    # Weekday/relative-time words: a post's date is already a field, so
-    # these only ever say "recently" (monday 4.80, friday 4.96, yr 3.79).
-    'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday',
-    'yr', 'yrs', 'ytd', 'qtr',
-    # NOT listed: place names. They look like the same class of term, and
+    # NOT listed: legal-entity suffixes (gmbh, ag, nv, ...) or weekday/
+    # relative-time words (monday, friday, yr, ...). Both came out of the same
+    # 2026-08-18 audit and are the same kind of non-subject term, but the
+    # magnitude units above are the only category asked for - and each
+    # vocabulary change carries the reshuffle risk N_CLUSTERS's comment
+    # describes, so a narrower change is the safer one. They appear once or
+    # twice each across the seven windows; add them if that becomes annoying.
+    # NOT listed either: place names. They look like the same class of term, and
     # 'brussels' genuinely was just a conference venue - but Kumamoto (JASM's
     # fab) and Ohio (Intel's) ARE the subject of real, distinct stories, and
     # nothing separates them numerically (kumamoto zipf 2.15 vs brussels
