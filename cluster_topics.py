@@ -353,6 +353,29 @@ EN_NOISE_WORDS = {
     # comment above for why any vocabulary change here needs this kind
     # of before/after check, not just "does it still run").
     'ai', 'chip', 'chips', 'semiconductor', 'semiconductors', 'supply', 'chain', 'gpu', 'gpus',
+    # Magnitude and unit words (2026-08-18): the English counterpart of
+    # CHINESE_UNIT_TOKEN_RE. That pattern covers 億元/萬台/億次, but the same
+    # class of token in English went straight through - a label like
+    # "billion / capacity / trillion / demand" spends half its width on
+    # magnitudes. These quantify a subject, they are never the subject, and
+    # zipf leaves them all under the 5.0 English floor (billion 4.75,
+    # trillion 3.79, bn 3.35, and the power units kw 3.43 / mw 3.58 /
+    # gw 3.27 that show up in datacenter-capacity posts).
+    'billion', 'billions', 'trillion', 'trillions', 'million', 'millions',
+    'bn', 'mn', 'kw', 'mw', 'gw', 'twh', 'gwh', 'mwh',
+    # Legal-entity suffixes - part of a company's registered name, not a
+    # topic ('gmbh' appeared in a photonics label next to 'brussels').
+    'gmbh', 'ag', 'nv', 'sa', 'srl', 'bv', 'oy', 'ab', 'kk',
+    # Weekday/relative-time words: a post's date is already a field, so
+    # these only ever say "recently" (monday 4.80, friday 4.96, yr 3.79).
+    'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday',
+    'yr', 'yrs', 'ytd', 'qtr',
+    # NOT listed: place names. They look like the same class of term, and
+    # 'brussels' genuinely was just a conference venue - but Kumamoto (JASM's
+    # fab) and Ohio (Intel's) ARE the subject of real, distinct stories, and
+    # nothing separates them numerically (kumamoto zipf 2.15 vs brussels
+    # 3.99, taiwan 4.04, netherlands 4.28). Filtering the venue would cost
+    # the fab, so the venue stays.
 }
 
 
