@@ -394,7 +394,7 @@ def bucket_bounds(now, span, buckets):
     return [(now - bucket_span * i, now - bucket_span * (i - 1)) for i in range(buckets, 0, -1)]
 
 
-def widget_sentiment_trend_curve(posts, now, span, topic_labels, buckets=14):
+def widget_sentiment_trend_curve(posts, now, span, topic_labels, buckets=14, catchall_cid=None):
     """Each bucket answers "what was actually happening" alongside the raw
     sentiment counts (2026-08-13) - net_sentiment (positive% - negative%,
     one number instead of three) is the line FR-03's UI plots; volume/
@@ -428,7 +428,11 @@ def widget_sentiment_trend_curve(posts, now, span, topic_labels, buckets=14):
         for p in bucket_posts:
             engagement_by_sentiment[p['sentiment']] += p['interaction']
 
-        topic_counts = Counter(p['cluster_id'] for p in bucket_posts)
+        # Catch-all excluded: this list answers "why did this bucket spike",
+        # and the cluster that holds every unclassifiable post is both the
+        # biggest and the least informative answer available.
+        topic_counts = Counter(p['cluster_id'] for p in bucket_posts
+                               if p['cluster_id'] != catchall_cid)
         top_topics = [{'topic_id': cid, 'label': topic_labels.get(cid, f'cluster-{cid}'), 'count': c}
                       for cid, c in topic_counts.most_common(MAX_TREND_TOP_TOPICS)]
 
@@ -487,7 +491,7 @@ def widget_sentiment_trend_curve(posts, now, span, topic_labels, buckets=14):
 MAX_HEATMAP_TOPICS = 6
 
 
-def widget_topic_sentiment_heatmap(posts, now, span, topic_labels, buckets=14, top_n=MAX_HEATMAP_TOPICS):
+def widget_topic_sentiment_heatmap(posts, now, span, topic_labels, buckets=14, top_n=MAX_HEATMAP_TOPICS, catchall_cid=None):
     """FR-03's main trend curve nets every topic's sentiment together, so
     "topic A turned negative while topic B turned positive" cancels out
     into a flat line - this widget splits that back apart: one row per
@@ -495,7 +499,11 @@ def widget_topic_sentiment_heatmap(posts, now, span, topic_labels, buckets=14, t
     bucket, each cell's own net_sentiment/volume computed independently.
     Shares widget_sentiment_trend_curve's bucket_bounds() so both charts'
     x-axes line up exactly."""
-    topic_totals = Counter(p['cluster_id'] for p in posts)
+    # Catch-all excluded from the row selection: it is the largest cluster by
+    # construction, so it would always take one of the MAX_HEATMAP_TOPICS rows
+    # and spend it on a row whose label names no topic.
+    topic_totals = Counter(p['cluster_id'] for p in posts
+                           if p['cluster_id'] != catchall_cid)
     top_topics = [cid for cid, _ in topic_totals.most_common(top_n)]
     top_set = set(top_topics)
     bounds = bucket_bounds(now, span, buckets)
@@ -569,8 +577,19 @@ def build_keyword_index(all_posts):
     ]
 
 
-def widget_coverage_focus_ranking(posts_by_topic, topic_labels):
-    """Each account's dominant (most-posted) topic."""
+def widget_coverage_focus_ranking(posts_by_topic, topic_labels, catchall_cid=None):
+    """Each account's dominant (most-posted) topic.
+
+    The catch-all cluster is skipped when picking that topic, and left out of
+    the focus_share denominator, so the answer is "of this account's posts that
+    map to a topic, this is the one it covers most". Without that, an account
+    whose feed is mostly general market news reported its dominant topic as
+    "其他（未分群）" - true, but it filled the top of the ranking with a row
+    that names no topic (1d 2026-08-17: ctee.fans at 0.875, yutinghaosfinance
+    at 0.889). The share that did not map is kept as unclustered_posts rather
+    than dropped, so a feed that is mostly unclassifiable is still visible as
+    such. Accounts with nothing but catch-all posts keep the catch-all as their
+    topic - there is no real one to report."""
     by_account_topic = defaultdict(Counter)
     for cid, ps in posts_by_topic.items():
         for p in ps:
@@ -578,20 +597,28 @@ def widget_coverage_focus_ranking(posts_by_topic, topic_labels):
 
     ranking = []
     for handle, topic_counts in by_account_topic.items():
-        top_cid, top_count = topic_counts.most_common(1)[0]
         total = sum(topic_counts.values())
+        unclustered = topic_counts.get(catchall_cid, 0) if catchall_cid is not None else 0
+        real = {cid: n for cid, n in topic_counts.items() if cid != catchall_cid}
+        if real:
+            top_cid, top_count = max(real.items(), key=lambda kv: kv[1])
+            denominator = total - unclustered
+        else:
+            top_cid, top_count = topic_counts.most_common(1)[0]
+            denominator = total
         ranking.append({
             'handle': handle,
             'top_topic_id': top_cid,
             'top_topic_label': topic_labels[top_cid],
-            'focus_share': round(top_count / total, 3),
+            'focus_share': round(top_count / denominator, 3) if denominator else 0.0,
             'post_count': total,
+            'unclustered_posts': unclustered,
         })
     ranking.sort(key=lambda r: r['focus_share'], reverse=True)
     return ranking
 
 
-def widget_top_engagement_ranking(posts_by_topic, topic_labels):
+def widget_top_engagement_ranking(posts_by_topic, topic_labels, catchall_cid=None):
     """top_account/top_account_engagement (2026-08-13) let FR-06's daily
     summaries name a specific account to benchmark against, instead of a
     generic "延伸相關報導" with no concrete who/what."""
@@ -604,8 +631,14 @@ def widget_top_engagement_ranking(posts_by_topic, topic_labels):
         top_account, top_account_engagement = max(by_account.items(), key=lambda kv: kv[1])
         ranking.append({'topic_id': cid, 'label': topic_labels[cid],
                         'total_engagement': total_engagement, 'post_count': len(ps),
-                        'top_account': top_account, 'top_account_engagement': top_account_engagement})
-    ranking.sort(key=lambda r: r['total_engagement'], reverse=True)
+                        'top_account': top_account, 'top_account_engagement': top_account_engagement,
+                        'is_catchall': cid == catchall_cid})
+    # Catch-all last, same reasoning as widget_temperature_bar: it holds more
+    # posts than any real topic, so it wins any total-engagement race by volume
+    # alone and says nothing (1d 2026-08-17: 5,444 against 883 for the real
+    # top topic). Relabelling it was not enough - the ranking has to demote it
+    # too. Kept in the payload with its real numbers rather than dropped.
+    ranking.sort(key=lambda r: (r['is_catchall'], -r['total_engagement']))
     return ranking
 
 
@@ -680,10 +713,10 @@ def build_dashboard(all_posts, time_range, now, keyword=None):
             'sentiment_overview': widget_sentiment_overview(posts),
             'temperature_bar': widget_temperature_bar(posts_by_topic, topic_labels, catchall_cid),
             'named_entities': widget_named_entities(posts),
-            'sentiment_trend_curve': widget_sentiment_trend_curve(posts, now, span, topic_labels),
-            'topic_sentiment_heatmap': widget_topic_sentiment_heatmap(posts, now, span, topic_labels),
-            'coverage_focus_ranking': widget_coverage_focus_ranking(posts_by_topic, topic_labels),
-            'top_engagement_ranking': widget_top_engagement_ranking(posts_by_topic, topic_labels),
+            'sentiment_trend_curve': widget_sentiment_trend_curve(posts, now, span, topic_labels, catchall_cid=catchall_cid),
+            'topic_sentiment_heatmap': widget_topic_sentiment_heatmap(posts, now, span, topic_labels, catchall_cid=catchall_cid),
+            'coverage_focus_ranking': widget_coverage_focus_ranking(posts_by_topic, topic_labels, catchall_cid),
+            'top_engagement_ranking': widget_top_engagement_ranking(posts_by_topic, topic_labels, catchall_cid),
             'posting_timeslot_analysis': widget_posting_timeslot_analysis(posts),
         },
     }
