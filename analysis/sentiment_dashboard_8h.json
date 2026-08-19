@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-19T10:20:09.938000+08:00",
+  "generated_at": "2026-08-19T13:05:28+08:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-08-19T02:20:09.938000+08:00",
-    "end_utc": "2026-08-19T10:20:09.938000+08:00",
-    "start_tw": "Aug 19, 02:20",
-    "end_tw": "Aug 19, 10:20"
+    "start_utc": "2026-08-19T05:05:28+08:00",
+    "end_utc": "2026-08-19T13:05:28+08:00",
+    "start_tw": "Aug 19, 05:05",
+    "end_tw": "Aug 19, 13:05"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 84,
+      "total_posts": 147,
       "sentiment_counts": {
-        "neutral": 7,
-        "positive": 63,
-        "negative": 14
+        "neutral": 22,
+        "negative": 32,
+        "positive": 93
       },
       "sentiment_share": {
-        "neutral": 0.083,
-        "positive": 0.75,
-        "negative": 0.167
+        "neutral": 0.15,
+        "negative": 0.218,
+        "positive": 0.633
       },
       "top_terms": [
         "photonics",
@@ -29,162 +29,441 @@
         "optics",
         "infrastructure",
         "photonic",
+        "capacity",
         "manufacturing",
-        "laser",
-        "capacity"
+        "laser"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "quantum / glasgow / quix / hardware",
-        "heat": 90.0,
-        "volume": 5,
+        "topic_id": 16,
+        "label": "openai / anthropic / arr / ed",
+        "heat": 80.7,
+        "volume": 7,
+        "engagement": 280,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "hbm / memory / malaysia / cache",
+        "heat": 67.8,
+        "volume": 4,
+        "engagement": 345,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "iran / trump / uae / escalates",
+        "heat": 61.4,
+        "volume": 3,
+        "engagement": 357,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "photonics / eu / useful / netherlands",
+        "heat": 50.0,
+        "volume": 9,
         "engagement": 0,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 11,
-        "label": "sk / hynix / samsung / closed",
-        "heat": 50.0,
-        "volume": 3,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 7,
-        "label": "fusion / laser / lutz / marvel",
-        "heat": 50.0,
-        "volume": 3,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 9,
-        "label": "sherman / anderson / jim / jensen",
-        "heat": 50.0,
-        "volume": 3,
-        "engagement": 0,
-        "entities": [],
+        "topic_id": 24,
+        "label": "cpo / cowos / tsmc / packaging",
+        "heat": 49.7,
+        "volume": 6,
+        "engagement": 151,
+        "entities": [
+          "萬潤",
+          "歐系大行"
+        ],
         "is_catchall": false
       },
       {
         "topic_id": 6,
-        "label": "manufacturing / jobs / growing / construction",
-        "heat": 30.0,
-        "volume": 2,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 10,
-        "label": "tokens / flash / capacity / intelligence",
-        "heat": 30.0,
-        "volume": 2,
-        "engagement": 0,
+        "label": "ukraine / calls / vs / uae",
+        "heat": 47.3,
+        "volume": 3,
+        "engagement": 287,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 12,
-        "label": "memory / outlook / global / secretary",
-        "heat": 30.0,
+        "label": "stake / lakers / walter / apollo",
+        "heat": 17.7,
+        "volume": 3,
+        "engagement": 136,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
+        "label": "canada / tariffs / wednesday / subject",
+        "heat": 17.6,
+        "volume": 3,
+        "engagement": 133,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 20,
+        "label": "ve / flash / intelligence / gpt",
+        "heat": 17.3,
+        "volume": 3,
+        "engagement": 53,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "tsmc / kumamoto / equipment / fab",
+        "heat": 14.2,
+        "volume": 3,
+        "engagement": 24,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 26,
+        "label": "memory / global / outlook / forecasts",
+        "heat": 14.0,
+        "volume": 5,
+        "engagement": 22,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "輝達 / openai",
+        "heat": 11.1,
+        "volume": 3,
+        "engagement": 5,
+        "entities": [
+          "輝達",
+          "城河",
+          "俄亥俄州"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "vision / lidar / sensing / photonic",
+        "heat": 10.0,
+        "volume": 3,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "amd / 英特爾 / arm / unit",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 1,
+        "entities": [
+          "英特爾"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 25,
+        "label": "taiwan / semicon / phases / custom",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 35,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "alibaba / remains / holdings / commerce",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 36,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 21,
+        "label": "retail / purchase / largest / purchases",
+        "heat": 10.0,
         "volume": 2,
         "engagement": 0,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 8,
-        "label": "hbm / dram / cache / memory",
-        "heat": 30.0,
+        "topic_id": 18,
+        "label": "cash / boom / balance / net",
+        "heat": 10.0,
         "volume": 2,
+        "engagement": 8,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 23,
+        "label": "sleeping / surge / asia / prices",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 165,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "stock / nasdaq / conviction / prices",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 36,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 28,
+        "label": "sk / hynix / samsung / closed",
+        "heat": 10.0,
+        "volume": 3,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 19,
+        "label": "interview / phoenix / twan / origin",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 27,
+        "label": "ceo / malaga / panel / photonics",
+        "heat": 10.0,
+        "volume": 3,
         "engagement": 0,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 14,
-        "label": "largest / cap / holdings / commerce",
-        "heat": 30.0,
-        "volume": 2,
+        "label": "fibre / defence / ttm / aerospace",
+        "heat": 10.0,
+        "volume": 4,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 11,
+        "label": "inp / capacity / ceo / jim",
+        "heat": 10.0,
+        "volume": 5,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "fusion / laser / lutz / marvel",
+        "heat": 10.0,
+        "volume": 3,
         "engagement": 0,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 5,
-        "label": "twan / phoenix / origin / interview",
-        "heat": 30.0,
-        "volume": 2,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 15,
-        "label": "inp / inch / indium / capacity",
-        "heat": 30.0,
-        "volume": 2,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
-        "label": "ceo / photonics / edmund / agenda",
-        "heat": 30.0,
-        "volume": 2,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
-        "label": "lidar / sensing / autonomy / photonic",
-        "heat": 30.0,
-        "volume": 2,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 13,
-        "label": "photonics / manufacturing / audience / ip",
-        "heat": 30.0,
-        "volume": 2,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 0,
-        "label": "cash / balance / sitting / net",
+        "label": "optical / switch / photonics / startups",
         "heat": 10.0,
-        "volume": 1,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "quantum / glasgow / quix / hardware",
+        "heat": 10.0,
+        "volume": 5,
         "engagement": 0,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "其他（未分群，49 篇）",
+        "label": "其他（未分群，51 篇）",
         "heat": 10.0,
-        "volume": 49,
-        "engagement": 0,
-        "entities": [],
+        "volume": 51,
+        "engagement": 1177,
+        "entities": [
+          "中國",
+          "美國",
+          "微軟",
+          "印度",
+          "乾瞻"
+        ],
         "is_catchall": true
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "輝達",
+        "count": 9
+      },
+      {
+        "entity": "中國",
+        "count": 5
+      },
+      {
+        "entity": "美國",
+        "count": 3
+      },
+      {
+        "entity": "微軟",
+        "count": 3
+      },
+      {
+        "entity": "印度",
+        "count": 3
+      },
+      {
+        "entity": "乾瞻",
+        "count": 3
+      },
+      {
+        "entity": "英特爾",
+        "count": 3
+      },
+      {
+        "entity": "外國化",
+        "count": 2
+      },
+      {
+        "entity": "城河",
+        "count": 2
+      },
+      {
+        "entity": "大摩",
+        "count": 1
+      },
+      {
+        "entity": "中華區",
+        "count": 1
+      },
+      {
+        "entity": "美國國際汽車經銷商協會",
+        "count": 1
+      },
+      {
+        "entity": "暴紅",
+        "count": 1
+      },
+      {
+        "entity": "基斯",
+        "count": 1
+      },
+      {
+        "entity": "杭格",
+        "count": 1
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-19T02:20:09.938002+08:00",
-        "bucket_end": "2026-08-19T02:54:27.080859+08:00",
+        "bucket_start": "2026-08-19T05:05:28.000002+08:00",
+        "bucket_end": "2026-08-19T05:39:45.142859+08:00",
+        "positive": 3,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 320,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 3,
+        "engagement": 320,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "ukraine / calls / vs / uae",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Ukraine’s ousted defence minister calls for wartime election",
+            "url": "https://x.com/FT/status/2089828070395957271",
+            "interaction": 277
+          },
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "BYD confirms that FangChengBao Tai9, S & S GT will be displayed on 21st in Chengdu Auto Show. S & S GT are 5m+ long sedan w/ 2.96m wheelbase & to launch in Q3.  3rd gen Tang (aka Tang 8) will also be ",
+            "url": "https://x.com/tphuang/status/2089828710178312254",
+            "interaction": 30
+          }
+        ],
+        "net_sentiment_smoothed": 23.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-19T05:39:45.142859+08:00",
+        "bucket_end": "2026-08-19T06:14:02.285716+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 4,
+        "positive_engagement": 135,
+        "neutral_engagement": 17,
+        "negative_engagement": 334,
+        "net_sentiment": -28.6,
+        "post_count": 7,
+        "engagement": 486,
+        "top_topics": [
+          {
+            "topic_id": 12,
+            "label": "stake / lakers / walter / apollo",
+            "count": 2
+          },
+          {
+            "topic_id": 2,
+            "label": "alibaba / remains / holdings / commerce",
+            "count": 1
+          },
+          {
+            "topic_id": 0,
+            "label": "iran / trump / uae / escalates",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "UAE suspends trade with Iran after saying it fired missiles at Gulf state",
+            "url": "https://x.com/FT/status/2089835963694362673",
+            "interaction": 231
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "FT Exclusive: The talks between Mark Walter and Apollo took place throughout the summer and continued until Bob Iger and Josh Kushner offered to buy his stake in the Lakers.  https:// ft.trib.al/Vvx2l",
+            "url": "https://x.com/FT/status/2089836327332200706",
+            "interaction": 113
+          }
+        ],
+        "net_sentiment_smoothed": 17.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-19T06:14:02.285716+08:00",
+        "bucket_end": "2026-08-19T06:48:19.428573+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -196,306 +475,484 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 30.9,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-19T02:54:27.080859+08:00",
-        "bucket_end": "2026-08-19T03:28:44.223716+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
+        "bucket_start": "2026-08-19T06:48:19.428573+08:00",
+        "bucket_end": "2026-08-19T07:22:36.571430+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 44,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
+        "negative_engagement": 30,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "post_count": 3,
+        "engagement": 74,
+        "top_topics": [
+          {
+            "topic_id": 15,
+            "label": "canada / tariffs / wednesday / subject",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "London’s clean air zone linked to improvement in children’s lung health",
+            "url": "https://x.com/FT/status/2089852950864617738",
+            "interaction": 44
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Canada faces deadline to stop US tariffs on $20bn of exports",
+            "url": "https://x.com/FT/status/2089853532383986134",
+            "interaction": 30
+          }
+        ],
+        "net_sentiment_smoothed": 16.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-19T03:28:44.223716+08:00",
-        "bucket_end": "2026-08-19T04:03:01.366573+08:00",
-        "positive": 0,
-        "neutral": 0,
+        "bucket_start": "2026-08-19T07:22:36.571430+08:00",
+        "bucket_end": "2026-08-19T07:56:53.714287+08:00",
+        "positive": 5,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "positive_engagement": 340,
+        "neutral_engagement": 2,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 83.3,
+        "post_count": 6,
+        "engagement": 342,
+        "top_topics": [
+          {
+            "topic_id": 26,
+            "label": "memory / global / outlook / forecasts",
+            "count": 1
+          },
+          {
+            "topic_id": 24,
+            "label": "cpo / cowos / tsmc / packaging",
+            "count": 1
+          },
+          {
+            "topic_id": 3,
+            "label": "hbm / memory / malaysia / cache",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Rumor: Intel Malaysia took over some advanced packaging for TSMC due to a surge in orders for CoWoS packaging by a major mutual client, media report, adding ASE, Unimicron, Gudeng Precision and others",
+            "url": "https://x.com/dnystedt/status/2089861385509552493",
+            "interaction": 118
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$927  $NBIS  price target by slapping a 10x multiple on 2027 exit ARR   Not even Anthropic is valued at 10x 2027 exit ARR  The model doesn’t even try to bridge depreciation, arguably one of the most i",
+            "url": "https://x.com/HyperTechInvest/status/2089859346134102017",
+            "interaction": 90
+          }
+        ],
+        "net_sentiment_smoothed": 15.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-19T04:03:01.366573+08:00",
-        "bucket_end": "2026-08-19T04:37:18.509430+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "bucket_start": "2026-08-19T07:56:53.714287+08:00",
+        "bucket_end": "2026-08-19T08:31:10.857144+08:00",
+        "positive": 3,
+        "neutral": 3,
+        "negative": 1,
+        "positive_engagement": 386,
+        "neutral_engagement": 70,
+        "negative_engagement": 282,
+        "net_sentiment": 28.6,
+        "post_count": 7,
+        "engagement": 738,
+        "top_topics": [
+          {
+            "topic_id": 25,
+            "label": "taiwan / semicon / phases / custom",
+            "count": 1
+          },
+          {
+            "topic_id": 24,
+            "label": "cpo / cowos / tsmc / packaging",
+            "count": 1
+          },
+          {
+            "topic_id": 16,
+            "label": "openai / anthropic / arr / ed",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "Big moment for China's space industry as Zhuque-3 reusable rocket completed its recovery test, the 1st Chinese rocket to complete this on land. A huge step forward for Landspace.",
+            "url": "https://x.com/tphuang/status/2089872330176463159",
+            "interaction": 300
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Cathie Wood has no idea Groq and Cerebras don’t use HBM because they use SRAM, which is even more expensive memory",
+            "url": "https://x.com/HyperTechInvest/status/2089864213787562074",
+            "interaction": 282
+          }
+        ],
+        "net_sentiment_smoothed": -4.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-19T04:37:18.509430+08:00",
-        "bucket_end": "2026-08-19T05:11:35.652287+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
+        "bucket_start": "2026-08-19T08:31:10.857144+08:00",
+        "bucket_end": "2026-08-19T09:05:28.000001+08:00",
+        "positive": 1,
+        "neutral": 2,
+        "negative": 3,
+        "positive_engagement": 34,
+        "neutral_engagement": 2,
+        "negative_engagement": 116,
+        "net_sentiment": -33.3,
+        "post_count": 6,
+        "engagement": 152,
+        "top_topics": [
+          {
+            "topic_id": 26,
+            "label": "memory / global / outlook / forecasts",
+            "count": 1
+          },
+          {
+            "topic_id": 16,
+            "label": "openai / anthropic / arr / ed",
+            "count": 1
+          },
+          {
+            "topic_id": 0,
+            "label": "iran / trump / uae / escalates",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Canadian Prime Minister Mark Carney spoke to US President Donald Trump for last-minute negotiations aimed at averting the new levies that would threaten serious consequences for Canada’s economy.  htt",
+            "url": "https://x.com/FT/status/2089876582924005431",
+            "interaction": 92
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Three of Taiwan’s top chip design houses have invested in new data centers for more R&D compute, media report: -MediaTek (smartphone chips, custom ASICs, more): Opened the first of three phases at its",
+            "url": "https://x.com/dnystedt/status/2089877577544683831",
+            "interaction": 34
+          }
+        ],
+        "net_sentiment_smoothed": 9.1,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-19T05:11:35.652287+08:00",
-        "bucket_end": "2026-08-19T05:45:52.795144+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T05:45:52.795144+08:00",
-        "bucket_end": "2026-08-19T06:20:09.938001+08:00",
+        "bucket_start": "2026-08-19T09:05:28.000001+08:00",
+        "bucket_end": "2026-08-19T09:39:45.142858+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
+        "negative_engagement": 1,
         "net_sentiment": -100.0,
         "post_count": 1,
-        "engagement": 0,
+        "engagement": 1,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "quantum / glasgow / quix / hardware",
+            "topic_id": 22,
+            "label": "amd / 英特爾 / arm / unit",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "josepozophotonics",
-            "platform": "LinkedIn",
-            "text": "WILL QUANTUM SCALE OR FAIL? That was the question running through my opening remarks on Tuesday at the Optica Quantum 2.0 and Quantum Industry Summit in Glasgow this week, before an audience of 750 an",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7471323484728688640/",
-            "interaction": 0
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "美債殖利率暴升拖累科技股！英特爾重挫逾 7 %、 AMD 下跌 5.5 %。 #英特爾 #AMD #美股科技股",
+            "url": "https://x.com/technews_tw/status/2089885164969304415",
+            "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": -20.0,
+        "net_sentiment_smoothed": 4.1,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-19T06:20:09.938001+08:00",
-        "bucket_end": "2026-08-19T06:54:27.080858+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T06:54:27.080858+08:00",
-        "bucket_end": "2026-08-19T07:28:44.223715+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T07:28:44.223715+08:00",
-        "bucket_end": "2026-08-19T08:03:01.366572+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T08:03:01.366572+08:00",
-        "bucket_end": "2026-08-19T08:37:18.509429+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 12.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T08:37:18.509429+08:00",
-        "bucket_end": "2026-08-19T09:11:35.652286+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 24.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T09:11:35.652286+08:00",
-        "bucket_end": "2026-08-19T09:45:52.795143+08:00",
-        "positive": 4,
-        "neutral": 0,
+        "bucket_start": "2026-08-19T09:39:45.142858+08:00",
+        "bucket_end": "2026-08-19T10:14:02.285715+08:00",
+        "positive": 9,
+        "neutral": 2,
         "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "positive_engagement": 503,
+        "neutral_engagement": 42,
         "negative_engagement": 0,
-        "net_sentiment": 60.0,
-        "post_count": 5,
-        "engagement": 0,
+        "net_sentiment": 66.7,
+        "post_count": 12,
+        "engagement": 545,
         "top_topics": [
           {
-            "topic_id": 5,
-            "label": "twan / phoenix / origin / interview",
+            "topic_id": 19,
+            "label": "interview / phoenix / twan / origin",
             "count": 2
           },
           {
-            "topic_id": 7,
-            "label": "fusion / laser / lutz / marvel",
+            "topic_id": 4,
+            "label": "輝達 / openai",
+            "count": 1
+          },
+          {
+            "topic_id": 20,
+            "label": "ve / flash / intelligence / gpt",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "josepozophotonics",
-            "platform": "LinkedIn",
-            "text": "BUILDING NEW ORIGIN: Twan Korthorst \"The most important person is not the CTO. It's the COO. It's all about the operation.\" Let me share a deep-tech interview which we recently completed on location i",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7495583096650616834/",
-            "interaction": 0
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Cerebras's Next Generation CS-4: Fast Just Got Faster Double the Performance, Double the Power, Double the Fun",
+            "url": "https://x.com/SemiAnalysis_/status/2089893209128280303",
+            "interaction": 193
           },
           {
-            "handle": "josepozophotonics",
-            "platform": "LinkedIn",
-            "text": "FIRST LIGHT NEW ORIGIN: Twan Korthorst \"The most important person is not the CTO. It's the COO. It's all about the operation.\" Here is a landmark Optica interview about building a photonics company. I",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7495534744898805760/",
-            "interaction": 0
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Taiwanese media reported that the PCB industry has continued to raise prices as supplies of raw materials such as CCL and prepreg (PP) tighten and costs increase.  PCB makers have already raised quote",
+            "url": "https://x.com/jukan05/status/2089890706785759549",
+            "interaction": 177
           }
         ],
-        "net_sentiment_smoothed": 30.2,
+        "net_sentiment_smoothed": 18.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-19T09:45:52.795143+08:00",
-        "bucket_end": "2026-08-19T10:20:09.938000+08:00",
-        "positive": 56,
-        "neutral": 7,
-        "negative": 11,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 60.8,
-        "post_count": 74,
-        "engagement": 0,
+        "bucket_start": "2026-08-19T10:14:02.285715+08:00",
+        "bucket_end": "2026-08-19T10:48:19.428572+08:00",
+        "positive": 61,
+        "neutral": 8,
+        "negative": 13,
+        "positive_engagement": 204,
+        "neutral_engagement": 1,
+        "negative_engagement": 2,
+        "net_sentiment": 58.5,
+        "post_count": 82,
+        "engagement": 207,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "quantum / glasgow / quix / hardware",
-            "count": 4
+            "topic_id": 13,
+            "label": "photonics / eu / useful / netherlands",
+            "count": 8
           },
           {
-            "topic_id": 9,
-            "label": "sherman / anderson / jim / jensen",
-            "count": 3
+            "topic_id": 11,
+            "label": "inp / capacity / ceo / jim",
+            "count": 5
           },
+          {
+            "topic_id": 14,
+            "label": "fibre / defence / ttm / aerospace",
+            "count": 4
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The US president said that he had postponed the 50% tariffs, which were set to kick in on Wednesday, ‘based on the fact that Canada and the U.S.A., subject to the finalization of documents, have a DEA",
+            "url": "https://x.com/FT/status/2089907110406427028",
+            "interaction": 103
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "China eases limits on Nvidia H200 chips as AI race escalates",
+            "url": "https://x.com/FT/status/2089901015910777319",
+            "interaction": 101
+          }
+        ],
+        "net_sentiment_smoothed": 25.0,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-08-19T10:48:19.428572+08:00",
+        "bucket_end": "2026-08-19T11:22:36.571429+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 37,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 37,
+        "top_topics": [
           {
             "topic_id": 10,
-            "label": "tokens / flash / capacity / intelligence",
-            "count": 2
+            "label": "stock / nasdaq / conviction / prices",
+            "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "subhash-km-6b5443123",
-            "platform": "LinkedIn",
-            "text": "🇺🇸 Most Populous States in the US 2026 👇  1. 🇺🇸 California ➜ 39,345,844 2. 🇺🇸 Texas ➜ 32,101,064 3. 🇺🇸 Florida ➜ 23,659,198 4. 🇺🇸 New York ➜ 20,003,435 5. 🇺🇸 Pennsylvania ➜ 13,073,016 6. 🇺🇸 Illinois ➜",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7495638170416496640/",
-            "interaction": 0
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "What’s your highest-conviction stock at the moment?  I want to take a look at what people are liking at these prices",
+            "url": "https://x.com/HyperTechInvest/status/2089908309642051686",
+            "interaction": 36
           },
           {
-            "handle": "subhash-km-6b5443123",
-            "platform": "LinkedIn",
-            "text": "AI is growing blue collar jobs in construction and manufacturing. 💡",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7495502308449951744/",
-            "interaction": 0
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "跨界造車短短 28 個月創奇蹟！小米 SU7 累計交付破 50 萬輛，成功震撼傳統車廠。 #小米汽車 #小米SU7 #電動車",
+            "url": "https://x.com/technews_tw/status/2089910870122099133",
+            "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": 40.3,
-        "is_anomaly": true
+        "net_sentiment_smoothed": 47.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-19T11:22:36.571429+08:00",
+        "bucket_end": "2026-08-19T11:56:53.714286+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 1,
+        "neutral_engagement": 0,
+        "negative_engagement": 1,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 2,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "強化出入境管制防範技術外流！中國將「產業與技術安全」列為邊控紅線。 #出入境管制 #中國政策 #科技安全",
+            "url": "https://x.com/technews_tw/status/2089919840828219590",
+            "interaction": 1
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "中國安全疑慮升溫！政府機構接獲命令提早卸載微軟 Win 10 特供版。 #微軟 #Windows10 #去外國化",
+            "url": "https://x.com/technews_tw/status/2089916430682890491",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 13.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-19T11:56:53.714286+08:00",
+        "bucket_end": "2026-08-19T12:31:10.857143+08:00",
+        "positive": 4,
+        "neutral": 3,
+        "negative": 3,
+        "positive_engagement": 146,
+        "neutral_engagement": 22,
+        "negative_engagement": 62,
+        "net_sentiment": 10.0,
+        "post_count": 10,
+        "engagement": 230,
+        "top_topics": [
+          {
+            "topic_id": 9,
+            "label": "vision / lidar / sensing / photonic",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "輝達 / openai",
+            "count": 1
+          },
+          {
+            "topic_id": 20,
+            "label": "ve / flash / intelligence / gpt",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "FT Exclusive: Iranian forces have assessed striking US assets beyond the Middle East, according to people close to the regime, as Tehran considers its options to increase the stakes of the conflict.  ",
+            "url": "https://x.com/FT/status/2089928535804686347",
+            "interaction": 126
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Iran eyes military targets in Europe if Trump escalates war, insiders say",
+            "url": "https://x.com/FT/status/2089928245646880972",
+            "interaction": 34
+          }
+        ],
+        "net_sentiment_smoothed": 2.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-19T12:31:10.857143+08:00",
+        "bucket_end": "2026-08-19T13:05:28+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 4,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 117,
+        "net_sentiment": -100.0,
+        "post_count": 4,
+        "engagement": 117,
+        "top_topics": [
+          {
+            "topic_id": 16,
+            "label": "openai / anthropic / arr / ed",
+            "count": 1
+          },
+          {
+            "topic_id": 18,
+            "label": "cash / boom / balance / net",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "Holy shit have y'all seen Anthropic ARR? As measured by last 1 hour at 2PM times 8760",
+            "url": "https://x.com/dylan522p/status/2089933933203075349",
+            "interaction": 109
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Travel eSIM boom threatens mobile industry’s roaming cash cow",
+            "url": "https://x.com/FT/status/2089936099573461138",
+            "interaction": 8
+          }
+        ],
+        "net_sentiment_smoothed": -30.0,
+        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
-        "label": "quantum / glasgow / quix / hardware",
+        "topic_id": 13,
+        "label": "photonics / eu / useful / netherlands",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -517,6 +974,296 @@
             "net_sentiment": 0.0,
             "volume": 0
           },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 75.0,
+            "volume": 8
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 16,
+        "label": "openai / anthropic / arr / ed",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 24,
+        "label": "cpo / cowos / tsmc / packaging",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 4
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 26,
+        "label": "memory / global / outlook / forecasts",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 66.7,
+            "volume": 3
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 11,
+        "label": "inp / capacity / ceo / jim",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 5
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "quantum / glasgow / quix / hardware",
+        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -550,158 +1297,12 @@
             "volume": 0
           },
           {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": 50.0,
             "volume": 4
-          }
-        ]
-      },
-      {
-        "topic_id": 11,
-        "label": "sk / hynix / samsung / closed",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 2
-          }
-        ]
-      },
-      {
-        "topic_id": 7,
-        "label": "fusion / laser / lutz / marvel",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 2
-          }
-        ]
-      },
-      {
-        "topic_id": 9,
-        "label": "sherman / anderson / jim / jensen",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -718,220 +1319,298 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 3
-          }
-        ]
-      },
-      {
-        "topic_id": 6,
-        "label": "manufacturing / jobs / growing / construction",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          }
-        ]
-      },
-      {
-        "topic_id": 10,
-        "label": "tokens / flash / capacity / intelligence",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 2
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "josepozophotonics",
-        "top_topic_id": 2,
-        "top_topic_label": "quantum / glasgow / quix / hardware",
-        "focus_share": 0.227,
-        "post_count": 55,
-        "unclustered_posts": 33
+        "handle": "TrendForce",
+        "top_topic_id": 26,
+        "top_topic_label": "memory / global / outlook / forecasts",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，51 篇）",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，51 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，51 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "dylan522p",
+        "top_topic_id": 16,
+        "top_topic_label": "openai / anthropic / arr / ed",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 24,
+        "top_topic_label": "cpo / cowos / tsmc / packaging",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "tengyanAI",
+        "top_topic_id": 20,
+        "top_topic_label": "ve / flash / intelligence / gpt",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 20,
+        "top_topic_label": "ve / flash / intelligence / gpt",
+        "focus_share": 0.5,
+        "post_count": 5,
+        "unclustered_posts": 3
+      },
+      {
+        "handle": "technews_tw",
+        "top_topic_id": 4,
+        "top_topic_label": "輝達 / openai",
+        "focus_share": 0.429,
+        "post_count": 17,
+        "unclustered_posts": 10
+      },
+      {
+        "handle": "HyperTechInvest",
+        "top_topic_id": 16,
+        "top_topic_label": "openai / anthropic / arr / ed",
+        "focus_share": 0.4,
+        "post_count": 5,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 26,
+        "top_topic_label": "memory / global / outlook / forecasts",
+        "focus_share": 0.25,
+        "post_count": 6,
+        "unclustered_posts": 2
       },
       {
         "handle": "subhash-km-6b5443123",
-        "top_topic_id": 6,
-        "top_topic_label": "manufacturing / jobs / growing / construction",
-        "focus_share": 0.154,
+        "top_topic_id": 26,
+        "top_topic_label": "memory / global / outlook / forecasts",
+        "focus_share": 0.214,
         "post_count": 29,
-        "unclustered_posts": 16
+        "unclustered_posts": 15
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 12,
+        "top_topic_label": "stake / lakers / walter / apollo",
+        "focus_share": 0.2,
+        "post_count": 22,
+        "unclustered_posts": 7
+      },
+      {
+        "handle": "josepozophotonics",
+        "top_topic_id": 13,
+        "top_topic_label": "photonics / eu / useful / netherlands",
+        "focus_share": 0.2,
+        "post_count": 55,
+        "unclustered_posts": 10
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 6,
-        "label": "manufacturing / jobs / growing / construction",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "subhash-km-6b5443123",
-        "top_account_engagement": 0,
+        "topic_id": 0,
+        "label": "iran / trump / uae / escalates",
+        "total_engagement": 357,
+        "post_count": 3,
+        "top_account": "FT",
+        "top_account_engagement": 357,
         "is_catchall": false
       },
       {
-        "topic_id": 10,
-        "label": "tokens / flash / capacity / intelligence",
-        "total_engagement": 0,
+        "topic_id": 3,
+        "label": "hbm / memory / malaysia / cache",
+        "total_engagement": 345,
+        "post_count": 4,
+        "top_account": "HyperTechInvest",
+        "top_account_engagement": 345,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "ukraine / calls / vs / uae",
+        "total_engagement": 287,
+        "post_count": 3,
+        "top_account": "FT",
+        "top_account_engagement": 287,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 16,
+        "label": "openai / anthropic / arr / ed",
+        "total_engagement": 280,
+        "post_count": 7,
+        "top_account": "HyperTechInvest",
+        "top_account_engagement": 148,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 23,
+        "label": "sleeping / surge / asia / prices",
+        "total_engagement": 165,
         "post_count": 2,
-        "top_account": "subhash-km-6b5443123",
-        "top_account_engagement": 0,
+        "top_account": "FT",
+        "top_account_engagement": 165,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 24,
+        "label": "cpo / cowos / tsmc / packaging",
+        "total_engagement": 151,
+        "post_count": 6,
+        "top_account": "dnystedt",
+        "top_account_engagement": 118,
         "is_catchall": false
       },
       {
         "topic_id": 12,
-        "label": "memory / outlook / global / secretary",
-        "total_engagement": 0,
+        "label": "stake / lakers / walter / apollo",
+        "total_engagement": 136,
+        "post_count": 3,
+        "top_account": "FT",
+        "top_account_engagement": 136,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
+        "label": "canada / tariffs / wednesday / subject",
+        "total_engagement": 133,
+        "post_count": 3,
+        "top_account": "FT",
+        "top_account_engagement": 133,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 20,
+        "label": "ve / flash / intelligence / gpt",
+        "total_engagement": 53,
+        "post_count": 3,
+        "top_account": "tphuang",
+        "top_account_engagement": 34,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "alibaba / remains / holdings / commerce",
+        "total_engagement": 36,
         "post_count": 2,
-        "top_account": "subhash-km-6b5443123",
+        "top_account": "tphuang",
+        "top_account_engagement": 36,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "stock / nasdaq / conviction / prices",
+        "total_engagement": 36,
+        "post_count": 2,
+        "top_account": "HyperTechInvest",
+        "top_account_engagement": 36,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 25,
+        "label": "taiwan / semicon / phases / custom",
+        "total_engagement": 35,
+        "post_count": 2,
+        "top_account": "dnystedt",
+        "top_account_engagement": 34,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "tsmc / kumamoto / equipment / fab",
+        "total_engagement": 24,
+        "post_count": 3,
+        "top_account": "dnystedt",
+        "top_account_engagement": 24,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 26,
+        "label": "memory / global / outlook / forecasts",
+        "total_engagement": 22,
+        "post_count": 5,
+        "top_account": "dnystedt",
+        "top_account_engagement": 21,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 18,
+        "label": "cash / boom / balance / net",
+        "total_engagement": 8,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 8,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "輝達 / openai",
+        "total_engagement": 5,
+        "post_count": 3,
+        "top_account": "technews_tw",
+        "top_account_engagement": 5,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "amd / 英特爾 / arm / unit",
+        "total_engagement": 1,
+        "post_count": 2,
+        "top_account": "technews_tw",
+        "top_account_engagement": 1,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "vision / lidar / sensing / photonic",
+        "total_engagement": 0,
+        "post_count": 3,
+        "top_account": "technews_tw",
         "top_account_engagement": 0,
         "is_catchall": false
       },
       {
-        "topic_id": 8,
-        "label": "hbm / dram / cache / memory",
+        "topic_id": 21,
+        "label": "retail / purchase / largest / purchases",
         "total_engagement": 0,
         "post_count": 2,
-        "top_account": "subhash-km-6b5443123",
+        "top_account": "FT",
         "top_account_engagement": 0,
         "is_catchall": false
       },
       {
-        "topic_id": 14,
-        "label": "largest / cap / holdings / commerce",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "subhash-km-6b5443123",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 11,
+        "topic_id": 28,
         "label": "sk / hynix / samsung / closed",
         "total_engagement": 0,
         "post_count": 3,
@@ -940,17 +1619,8 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "cash / balance / sitting / net",
-        "total_engagement": 0,
-        "post_count": 1,
-        "top_account": "subhash-km-6b5443123",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 5,
-        "label": "twan / phoenix / origin / interview",
+        "topic_id": 19,
+        "label": "interview / phoenix / twan / origin",
         "total_engagement": 0,
         "post_count": 2,
         "top_account": "josepozophotonics",
@@ -958,25 +1628,43 @@
         "is_catchall": false
       },
       {
-        "topic_id": 15,
-        "label": "inp / inch / indium / capacity",
+        "topic_id": 27,
+        "label": "ceo / malaga / panel / photonics",
         "total_engagement": 0,
-        "post_count": 2,
+        "post_count": 3,
         "top_account": "josepozophotonics",
         "top_account_engagement": 0,
         "is_catchall": false
       },
       {
-        "topic_id": 3,
-        "label": "ceo / photonics / edmund / agenda",
+        "topic_id": 14,
+        "label": "fibre / defence / ttm / aerospace",
         "total_engagement": 0,
-        "post_count": 2,
+        "post_count": 4,
         "top_account": "josepozophotonics",
         "top_account_engagement": 0,
         "is_catchall": false
       },
       {
-        "topic_id": 7,
+        "topic_id": 11,
+        "label": "inp / capacity / ceo / jim",
+        "total_engagement": 0,
+        "post_count": 5,
+        "top_account": "josepozophotonics",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "photonics / eu / useful / netherlands",
+        "total_engagement": 0,
+        "post_count": 9,
+        "top_account": "josepozophotonics",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
         "label": "fusion / laser / lutz / marvel",
         "total_engagement": 0,
         "post_count": 3,
@@ -985,7 +1673,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 5,
+        "label": "optical / switch / photonics / startups",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "josepozophotonics",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
         "label": "quantum / glasgow / quix / hardware",
         "total_engagement": 0,
         "post_count": 5,
@@ -994,55 +1691,28 @@
         "is_catchall": false
       },
       {
-        "topic_id": 4,
-        "label": "lidar / sensing / autonomy / photonic",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "josepozophotonics",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 9,
-        "label": "sherman / anderson / jim / jensen",
-        "total_engagement": 0,
-        "post_count": 3,
-        "top_account": "josepozophotonics",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 13,
-        "label": "photonics / manufacturing / audience / ip",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "josepozophotonics",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
         "topic_id": 1,
-        "label": "其他（未分群，49 篇）",
-        "total_engagement": 0,
-        "post_count": 49,
-        "top_account": "subhash-km-6b5443123",
-        "top_account_engagement": 0,
+        "label": "其他（未分群，51 篇）",
+        "total_engagement": 1177,
+        "post_count": 51,
+        "top_account": "tphuang",
+        "top_account_engagement": 343,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 83,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 125,
+          "likes": 1967,
+          "engagement": 2478,
+          "avg_engagement": 19.8
         },
         "afternoon": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 15,
+          "likes": 221,
+          "engagement": 328,
+          "avg_engagement": 21.9
         },
         "evening": {
           "post_count": 0,
@@ -1051,10 +1721,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 1,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 7,
+          "likes": 324,
+          "engagement": 445,
+          "avg_engagement": 63.6
         }
       },
       "peak_slot": "morning"
