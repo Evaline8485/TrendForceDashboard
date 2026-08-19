@@ -1,190 +1,115 @@
 {
-  "generated_at": "2026-08-19T13:05:28+08:00",
+  "generated_at": "2026-08-19T16:30:09+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-08-19T12:05:28+08:00",
-    "end_utc": "2026-08-19T13:05:28+08:00",
-    "start_tw": "Aug 19, 12:05",
-    "end_tw": "Aug 19, 13:05"
+    "start_utc": "2026-08-19T15:30:09+08:00",
+    "end_utc": "2026-08-19T16:30:09+08:00",
+    "start_tw": "Aug 19, 15:30",
+    "end_tw": "Aug 19, 16:30"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 14,
+      "total_posts": 11,
       "sentiment_counts": {
-        "negative": 7,
-        "positive": 4,
-        "neutral": 3
+        "neutral": 6,
+        "positive": 3,
+        "negative": 2
       },
       "sentiment_share": {
-        "negative": 0.5,
-        "positive": 0.286,
-        "neutral": 0.214
+        "neutral": 0.545,
+        "positive": 0.273,
+        "negative": 0.182
       },
       "top_terms": [
-        "wcr",
-        "大摩",
-        "摩點",
-        "點名",
-        "大摩點",
-        "摩點名",
-        "大摩點名",
-        "檔台",
-        "台廠",
-        "檔台廠"
+        "機器",
+        "器人",
+        "機器人",
+        "自動",
+        "動化",
+        "化展",
+        "自動化",
+        "動化展",
+        "自動化展",
+        "產能"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "magic / brands / ukraine / ysqxz",
+        "topic_id": 0,
+        "label": "韓國 / 台積電 / 深水",
         "heat": 90.0,
-        "volume": 8,
-        "engagement": 208,
-        "entities": [],
+        "volume": 9,
+        "engagement": 54,
+        "entities": [
+          "韓國",
+          "台積電",
+          "深水",
+          "台灣",
+          "范雅亮"
+        ],
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "年衝上 / macos / server / 貿易政策",
+        "topic_id": 1,
+        "label": "自動化展",
         "heat": 10.0,
-        "volume": 6,
-        "engagement": 118,
+        "volume": 2,
+        "engagement": 1,
         "entities": [
-          "美國",
-          "大摩",
-          "中華區",
-          "美國國際汽車經銷商協會",
-          "中國"
+          "上緯智",
+          "上銀"
         ],
         "is_catchall": false
       }
     ],
     "named_entities": [
       {
-        "entity": "美國",
+        "entity": "上緯智",
         "count": 3
       },
       {
-        "entity": "大摩",
+        "entity": "韓國",
+        "count": 3
+      },
+      {
+        "entity": "上銀",
+        "count": 2
+      },
+      {
+        "entity": "台積電",
+        "count": 2
+      },
+      {
+        "entity": "深水",
         "count": 1
       },
       {
-        "entity": "中華區",
+        "entity": "台灣",
         "count": 1
       },
       {
-        "entity": "美國國際汽車經銷商協會",
-        "count": 1
-      },
-      {
-        "entity": "中國",
+        "entity": "范雅亮",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-19T12:05:28.000002+08:00",
-        "bucket_end": "2026-08-19T12:09:45.142859+08:00",
+        "bucket_start": "2026-08-19T15:30:09.000002+08:00",
+        "bucket_end": "2026-08-19T15:34:26.142859+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -13.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T12:09:45.142859+08:00",
-        "bucket_end": "2026-08-19T12:14:02.285716+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 3,
-        "positive_engagement": 126,
-        "neutral_engagement": 14,
-        "negative_engagement": 62,
-        "net_sentiment": -40.0,
-        "post_count": 5,
-        "engagement": 202,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "magic / brands / ukraine / ysqxz",
-            "count": 5
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "FT Exclusive: Iranian forces have assessed striking US assets beyond the Middle East, according to people close to the regime, as Tehran considers its options to increase the stakes of the conflict.  ",
-            "url": "https://x.com/FT/status/2089928535804686347",
-            "interaction": 126
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Iran eyes military targets in Europe if Trump escalates war, insiders say",
-            "url": "https://x.com/FT/status/2089928245646880972",
-            "interaction": 34
-          }
-        ],
-        "net_sentiment_smoothed": 15.0,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-08-19T12:14:02.285716+08:00",
-        "bucket_end": "2026-08-19T12:18:19.428573+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 6,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
+        "negative_engagement": 1,
+        "net_sentiment": -100.0,
         "post_count": 1,
-        "engagement": 6,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "magic / brands / ukraine / ysqxz",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Revolut to let Nik Storonsky borrow up to $250mn against his stake",
-            "url": "https://x.com/FT/status/2089929899641327666",
-            "interaction": 6
-          }
-        ],
-        "net_sentiment_smoothed": 12.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T12:18:19.428573+08:00",
-        "bucket_end": "2026-08-19T12:22:36.571430+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 0,
+        "engagement": 1,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "年衝上 / macos / server / 貿易政策",
+            "label": "韓國 / 台積電 / 深水",
             "count": 1
           }
         ],
@@ -192,17 +117,17 @@
           {
             "handle": "technews_tw",
             "platform": "X",
-            "text": "macOS Tahoe 程式碼驚現 N109 代號！外界推測蘋果仍秘密開發第二代 Vision Pro 或新頭顯。 #VisionPro #蘋果頭顯 #macOS",
-            "url": "https://x.com/technews_tw/status/2089930049621516641",
-            "interaction": 0
+            "text": "iPad 版 YouTube 爆發介面消失災情！退出全螢幕後標題、留言區與互動按鈕全都不見。 #YouTube #災情 #iPad #軟體更新",
+            "url": "https://x.com/technews_tw/status/2089978448685224318",
+            "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": 32.0,
+        "net_sentiment_smoothed": -33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-19T12:22:36.571430+08:00",
-        "bucket_end": "2026-08-19T12:26:53.714287+08:00",
+        "bucket_start": "2026-08-19T15:34:26.142859+08:00",
+        "bucket_end": "2026-08-19T15:38:43.285716+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -214,12 +139,208 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
+        "net_sentiment_smoothed": -12.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-19T15:38:43.285716+08:00",
+        "bucket_end": "2026-08-19T15:43:00.428573+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 12,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 12,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "韓國 / 台積電 / 深水",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "The semi bottleneck has shifted from \"not enough chips\" to \"not enough tools to make them,\" as lead times at semiconductor equipment giants have reportedly stretched 1.5x to 2x,",
+            "url": "https://x.com/trendforce/status/2089980867326382389",
+            "interaction": 12
+          }
+        ],
+        "net_sentiment_smoothed": -10.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-19T15:43:00.428573+08:00",
+        "bucket_end": "2026-08-19T15:47:17.571430+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 21,
+        "neutral_engagement": 1,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 22,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "韓國 / 台積電 / 深水",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "I recommend everyone to read Zai founder's wisdom here. It's humbling for someone like me on the peripheral of AI to be able to read deep thoughts on AI development from an industry leader.  A few int",
+            "url": "https://x.com/tphuang/status/2089981480466255963",
+            "interaction": 21
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "法說會後股價波動！精材第二季稅後純益年增暴衝 512 %，每股盈餘繳出 1.46 元成績單。 #精材 #台積電概念股 #半導體封測",
+            "url": "https://x.com/technews_tw/status/2089981822004539455",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": -10.0,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-08-19T15:47:17.571430+08:00",
+        "bucket_end": "2026-08-19T15:51:34.714287+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -10.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-19T15:51:34.714287+08:00",
+        "bucket_end": "2026-08-19T15:55:51.857144+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 1,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "韓國 / 台積電 / 深水",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "韓國調高單一股票槓桿 ETF 保證金門檻，交易熱度瞬間暴跌近九成！ #韓國股市 #槓桿ETF #金融政策",
+            "url": "https://x.com/technews_tw/status/2089983983555862853",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": -10.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-19T15:55:51.857144+08:00",
+        "bucket_end": "2026-08-19T16:00:09.000001+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-19T16:00:09.000001+08:00",
+        "bucket_end": "2026-08-19T16:04:26.142858+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 1,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "韓國 / 台積電 / 深水",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "AI 晶片競賽進入深水區，封裝技術將如何決定下一階段的效能與量產能力？ 「TCB 跟 Hybrid Bonding 的關係，就像 EUV 跟 DUV — EUV 的問世並沒有讓 DUV 消失，市場需求是並行的。」——ASMPT 台灣總經理范雅亮 面對不同應用與製程需求，ASMPT…",
+            "url": "https://x.com/technews_tw/status/2089986251873296564",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-19T16:04:26.142858+08:00",
+        "bucket_end": "2026-08-19T16:08:43.285715+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 2,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 2,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "韓國 / 台積電 / 深水",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "瑞銀比較 EMIB-T vs CoPoS 的 11 面向！ #瑞銀11項拆解EMIBT與CoPoS 瑞士銀行（UBS）拿英特爾（Intel）EMIB-T 與台積電 CoPoS 逐項對比，11 個面向中 EMIB-T 在架構、封裝複雜度與成本領先 5 項，CoPoS 在效能、供電完整性與生態系領先 4 項，2 項相當，結論是兩者並存。…  https:// dlvr.it/TV4dMH",
+            "url": "https://x.com/technews_tw/status/2089986888019161406",
+            "interaction": 2
+          }
+        ],
         "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-19T12:26:53.714287+08:00",
-        "bucket_end": "2026-08-19T12:31:10.857144+08:00",
+        "bucket_start": "2026-08-19T16:08:43.285715+08:00",
+        "bucket_end": "2026-08-19T16:13:00.428572+08:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -231,17 +352,17 @@
         "engagement": 1,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "年衝上 / macos / server / 貿易政策",
+            "topic_id": 1,
+            "label": "自動化展",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "statementdog",
+            "handle": "technews_tw",
             "platform": "X",
-            "text": "UBS estimates an AI server chassis can sell for 5 to 10 times the price of an equivalent general server chassis.  For high-end  $NVDA  GPU rack configurations, UBS puts chassis and cabinet content at ",
-            "url": "https://x.com/statementdog/status/2089932255175315948",
+            "text": "訂單持續暴增交期拉長！上銀產能滿載至明年第一季，預估今年營收將雙位數成長。 #上銀 #自動化展 #機器人概念股",
+            "url": "https://x.com/technews_tw/status/2089988397851132204",
             "interaction": 1
           }
         ],
@@ -249,76 +370,21 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-19T12:31:10.857144+08:00",
-        "bucket_end": "2026-08-19T12:35:28.000001+08:00",
+        "bucket_start": "2026-08-19T16:13:00.428572+08:00",
+        "bucket_end": "2026-08-19T16:17:17.571429+08:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 109,
-        "net_sentiment": -100.0,
-        "post_count": 2,
-        "engagement": 109,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "年衝上 / macos / server / 貿易政策",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "dylan522p",
-            "platform": "X",
-            "text": "Holy shit have y'all seen Anthropic ARR? As measured by last 1 hour at 2PM times 8760",
-            "url": "https://x.com/dylan522p/status/2089933933203075349",
-            "interaction": 109
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "美國車商罕見發起抵制行動！美國國際汽車經銷商協會發起拒絕中國車運動，力推立法永久禁入。 #美國車市 #汽車產業 #貿易政策",
-            "url": "https://x.com/technews_tw/status/2089933499260367061",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T12:35:28.000001+08:00",
-        "bucket_end": "2026-08-19T12:39:45.142858+08:00",
-        "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 10,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T12:39:45.142858+08:00",
-        "bucket_end": "2026-08-19T12:44:02.285715+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 8,
-        "net_sentiment": -100.0,
         "post_count": 1,
-        "engagement": 8,
+        "engagement": 10,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "年衝上 / macos / server / 貿易政策",
+            "label": "韓國 / 台積電 / 深水",
             "count": 1
           }
         ],
@@ -326,30 +392,47 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Travel eSIM boom threatens mobile industry’s roaming cash cow",
-            "url": "https://x.com/FT/status/2089936099573461138",
-            "interaction": 8
+            "text": "Virgin Atlantic and Trainline investigated over ‘drip pricing’",
+            "url": "https://x.com/FT/status/2089989244664062142",
+            "interaction": 10
           }
         ],
-        "net_sentiment_smoothed": -60.0,
+        "net_sentiment_smoothed": 40.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-19T12:44:02.285715+08:00",
-        "bucket_end": "2026-08-19T12:48:19.428572+08:00",
+        "bucket_start": "2026-08-19T16:17:17.571429+08:00",
+        "bucket_end": "2026-08-19T16:21:34.714286+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 1,
+        "negative": 0,
         "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": -100.0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-19T16:21:34.714286+08:00",
+        "bucket_end": "2026-08-19T16:25:51.857143+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
         "post_count": 1,
         "engagement": 0,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "年衝上 / macos / server / 貿易政策",
+            "topic_id": 1,
+            "label": "自動化展",
             "count": 1
           }
         ],
@@ -357,17 +440,17 @@
           {
             "handle": "technews_tw",
             "platform": "X",
-            "text": "大摩點名 25 檔台廠！ #AI半導體2030年衝上7530億美元 大摩最新大中華區半導體報告估算，AI 半導體 2026 年 4,850 億美元、2030 年衝上 7,530 億美元，約占屆時全球半導體 1.5 兆美元市場的一半。全球雲端資本支出 2027 年逼近 1.4 兆美元，四大雲端業者第二季資本支出年增…  https:// dlvr.it/TV4WcR",
-            "url": "https://x.com/technews_tw/status/2089936818519294415",
+            "text": "少子化與缺工帶來強勁剛需！上緯智聯第四季啟動自主組裝，明年推出自製台灣土狗機器人。 #上緯智聯 #AI機器人 #自動化展",
+            "url": "https://x.com/technews_tw/status/2089991885259767916",
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": -40.0,
+        "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-19T12:48:19.428572+08:00",
-        "bucket_end": "2026-08-19T12:52:36.571429+08:00",
+        "bucket_start": "2026-08-19T16:25:51.857143+08:00",
+        "bucket_end": "2026-08-19T16:30:09+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -379,154 +462,29 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T12:52:36.571429+08:00",
-        "bucket_end": "2026-08-19T12:56:53.714286+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T12:56:53.714286+08:00",
-        "bucket_end": "2026-08-19T13:01:10.857143+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-19T13:01:10.857143+08:00",
-        "bucket_end": "2026-08-19T13:05:28+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "magic / brands / ukraine / ysqxz",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -40.0,
-            "volume": 5
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
         "topic_id": 0,
-        "label": "年衝上 / macos / server / 貿易政策",
+        "label": "韓國 / 台積電 / 深水",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
           {
             "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 50.0,
             "volume": 2
           },
           {
@@ -538,12 +496,24 @@
             "volume": 1
           },
           {
-            "net_sentiment": -100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 1
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -558,59 +528,121 @@
             "volume": 0
           }
         ]
+      },
+      {
+        "topic_id": 1,
+        "label": "自動化展",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "technews_tw",
+        "handle": "TrendForce",
         "top_topic_id": 0,
-        "top_topic_label": "年衝上 / macos / server / 貿易政策",
-        "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "dylan522p",
-        "top_topic_id": 0,
-        "top_topic_label": "年衝上 / macos / server / 貿易政策",
+        "top_topic_label": "韓國 / 台積電 / 深水",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
-        "handle": "statementdog",
+        "handle": "tphuang",
         "top_topic_id": 0,
-        "top_topic_label": "年衝上 / macos / server / 貿易政策",
+        "top_topic_label": "韓國 / 台積電 / 深水",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
         "handle": "FT",
-        "top_topic_id": 1,
-        "top_topic_label": "magic / brands / ukraine / ysqxz",
-        "focus_share": 0.889,
-        "post_count": 9,
+        "top_topic_id": 0,
+        "top_topic_label": "韓國 / 台積電 / 深水",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "technews_tw",
+        "top_topic_id": 0,
+        "top_topic_label": "韓國 / 台積電 / 深水",
+        "focus_share": 0.714,
+        "post_count": 7,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "magic / brands / ukraine / ysqxz",
-        "total_engagement": 208,
-        "post_count": 8,
-        "top_account": "FT",
-        "top_account_engagement": 208,
+        "topic_id": 0,
+        "label": "韓國 / 台積電 / 深水",
+        "total_engagement": 54,
+        "post_count": 9,
+        "top_account": "tphuang",
+        "top_account_engagement": 21,
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "年衝上 / macos / server / 貿易政策",
-        "total_engagement": 118,
-        "post_count": 6,
-        "top_account": "dylan522p",
-        "top_account_engagement": 109,
+        "topic_id": 1,
+        "label": "自動化展",
+        "total_engagement": 1,
+        "post_count": 2,
+        "top_account": "technews_tw",
+        "top_account_engagement": 1,
         "is_catchall": false
       }
     ],
@@ -623,10 +655,10 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 14,
-          "likes": 219,
-          "engagement": 326,
-          "avg_engagement": 23.3
+          "post_count": 11,
+          "likes": 43,
+          "engagement": 55,
+          "avg_engagement": 5.0
         },
         "evening": {
           "post_count": 0,
