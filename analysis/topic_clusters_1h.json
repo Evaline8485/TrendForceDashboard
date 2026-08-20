@@ -1,69 +1,337 @@
 {
   "clusters": [
     {
-      "id": "C",
-      "label": "ASIC / 自研晶片",
-      "size": 2,
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 12,
       "accounts": {
         "technews_tw": 1,
-        "HyperTechInvest": 1
+        "technewsinside": 11
       },
       "engagement_by_account": {
         "technews_tw": 0,
-        "HyperTechInvest": 0
+        "technewsinside": 128
       }
     },
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 1,
+      "size": 5,
       "accounts": {
-        "HyperTechInvest": 1
+        "HyperTechInvest": 1,
+        "technewsinside": 1,
+        "ctee.fans": 3
       },
       "engagement_by_account": {
-        "HyperTechInvest": 0
+        "HyperTechInvest": 0,
+        "technewsinside": 75,
+        "ctee.fans": 30
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 4,
+      "accounts": {
+        "technews_tw": 1,
+        "HyperTechInvest": 1,
+        "technewsinside": 2
+      },
+      "engagement_by_account": {
+        "technews_tw": 0,
+        "HyperTechInvest": 0,
+        "technewsinside": 31
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 4,
+      "accounts": {
+        "technewsinside": 2,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "technewsinside": 86,
+        "ctee.fans": 83
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 4,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 6,
+        "ctee.fans": 57
       }
     },
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 1,
+      "size": 3,
       "accounts": {
-        "HyperTechInvest": 1
+        "HyperTechInvest": 1,
+        "technewsinside": 2
       },
       "engagement_by_account": {
-        "HyperTechInvest": 0
+        "HyperTechInvest": 0,
+        "technewsinside": 67
       }
     },
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
-      "size": 1,
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 3,
       "accounts": {
-        "technews_tw": 1
+        "technewsinside": 3
       },
       "engagement_by_account": {
-        "technews_tw": 0
+        "technewsinside": 103
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 3,
+      "accounts": {
+        "technewsinside": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 19
       }
     },
     {
       "id": "G",
       "label": "IC 設計",
-      "size": 1,
+      "size": 2,
       "accounts": {
-        "technews_tw": 1
+        "technews_tw": 1,
+        "technewsinside": 1
       },
       "engagement_by_account": {
-        "technews_tw": 0
+        "technews_tw": 0,
+        "technewsinside": 18
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 58
+      }
+    },
+    {
+      "id": "N",
+      "label": "地緣政治 / 政策",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 7
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 10
+      }
+    },
+    {
+      "id": "S",
+      "label": "電網 / 能源基礎設施",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 10
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 57,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "因應台股高檔刷洗格局，外資操作自8月中起轉趨靈活，一方面賣超大型股，另一方面順應新台幣升值的資金流入，將資金轉向主動式台股ETF、航運、及部分具基本面題材個股，作為現階段防禦與長線布局之標的，反映外資並未全面撤出台股，而是透過調整持股結構，兼顧防禦與中長線布局。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid036HpwFpzArcRPoo85xkSPiCjkQKWQ7pTXWFtiftfqtbYcXTpaqw6wjMmsBk8qnXhBl?__cft__[0]=AZZ0AMtlwb7JWdLz13wPyNHl6G-UxhyntDEYMVnZ4uwSSC-_OWP5Z_2OIaNL1ncUxblUneocg3HT8iq6JP9ORPG3ScDIYXieg6wv7FZxmlQN1GWKIWgFqJi1_BkztsOY1mZePNyjlP2AVd4dP6WpnCm51akE11w4w3-u5motoC54p3fUrh3-3QRsU387t_35W68",
+          "timestamp": "2026-08-20T08:53:17.327269+00:00",
+          "interaction": 32
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "SK海力士祭出史上罕見的大手筆回購，瞬間點燃市場對AI記憶體超級週期的信心，消息激勵股價今（20）日盤中一度飆升逾12％，也帶動台股記憶體族群南亞科（2408）、華邦電（2344）同步走強。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0c7VsctdwPsc5eDiG92bC3bTWACTZtY2dHgLVSEccErFF7MB7JMJAy5jmphNXSUJxl?__cft__[0]=AZbQki8VSw3Kn9I7tVQRGXwvEOnRq4WCz4uAAN4vKtXGnLufxm3w39SjyaZjGhDRDRhjcto-fxyLSkCHf1xQRMdLIwVl3akDNrIexBPc-xXja_wU0LxFOFHNYipAOI1W0ACfcXEW7B7ves4ISjpTEg33RdbBQT1ZLbvSgg60TzDZ4Ys-YYGohWFw_VpxQe7rxtc",
+          "timestamp": "2026-08-20T08:53:17.327269+00:00",
+          "interaction": 16
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "據韓媒《Money Today》報導，三星電子（Samsung Electronics）預計於本月召開董事會，正式拍板規模逾100兆韓元的股東回饋計畫；此前，SK海力士（SKHynix）亦宣布斥資40兆韓元註銷庫藏股，雙雄合計達140兆韓元的「股東回饋潮」，創韓國半導體業新紀錄。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02SF22vX4HHnaKj8bsyk1kggKyhitF4DT7Z4bktYuKJBANEvFfLgH1cJArEMsHuBDpl?__cft__[0]=AZbiux4DMeY0iJp7ES7onkdsonXf0X9obcjE0zut__QLOYwzDewFkQ1NQfh0MUyi_ucrW37YyhG8gJCoWZrNA92skBgayIxe-xZ0h7mU7E7zH0U_1ah2poQf6USlgAXhPboe7D2bNtEfjsYgU3oSyAgsALrvEaX5W7s5ncNRNpgoxYZVFVXd70UDhOvFzm8THMk",
+          "timestamp": "2026-08-20T08:53:17.327269+00:00",
+          "interaction": 9
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 1,
+      "competitor_count": 4,
+      "competitor_engagement": 30,
+      "competitors_covering": [
+        "HyperTechInvest",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "SK海力士祭出史上罕見的大手筆回購，瞬間點燃市場對AI記憶體超級週期的信心，消息激勵股價今（20）日盤中一度飆升逾12％，也帶動台股記憶體族群南亞科（2408）、華邦電（2344）同步走強。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0c7VsctdwPsc5eDiG92bC3bTWACTZtY2dHgLVSEccErFF7MB7JMJAy5jmphNXSUJxl?__cft__[0]=AZbQki8VSw3Kn9I7tVQRGXwvEOnRq4WCz4uAAN4vKtXGnLufxm3w39SjyaZjGhDRDRhjcto-fxyLSkCHf1xQRMdLIwVl3akDNrIexBPc-xXja_wU0LxFOFHNYipAOI1W0ACfcXEW7B7ves4ISjpTEg33RdbBQT1ZLbvSgg60TzDZ4Ys-YYGohWFw_VpxQe7rxtc",
+          "timestamp": "2026-08-20T08:53:17.327269+00:00",
+          "interaction": 16
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "據韓媒《Money Today》報導，三星電子（Samsung Electronics）預計於本月召開董事會，正式拍板規模逾100兆韓元的股東回饋計畫；此前，SK海力士（SKHynix）亦宣布斥資40兆韓元註銷庫藏股，雙雄合計達140兆韓元的「股東回饋潮」，創韓國半導體業新紀錄。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02SF22vX4HHnaKj8bsyk1kggKyhitF4DT7Z4bktYuKJBANEvFfLgH1cJArEMsHuBDpl?__cft__[0]=AZbiux4DMeY0iJp7ES7onkdsonXf0X9obcjE0zut__QLOYwzDewFkQ1NQfh0MUyi_ucrW37YyhG8gJCoWZrNA92skBgayIxe-xZ0h7mU7E7zH0U_1ah2poQf6USlgAXhPboe7D2bNtEfjsYgU3oSyAgsALrvEaX5W7s5ncNRNpgoxYZVFVXd70UDhOvFzm8THMk",
+          "timestamp": "2026-08-20T08:53:17.327269+00:00",
+          "interaction": 9
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "8月20日，SK海力士聯合維吉尼亞大學（UVA）等多家全球頂尖學術機構，於權威科學期刊《自然電子學》（Nature Electronics）發表共同封裝光學元件（CPO）技術路線圖。論文直指光通訊是跨越AI「頻寬牆」的重要關卡，並首度提出將光互連技術一路延伸至「記憶體介面」的長遠願景。\n……\n \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0Xs7ySubUqDYRRw7Jt7fkv1HHCjU7T9FQgv177yoT1U48eCZEkuMFUiQVT1mGiDVLl?__cft__[0]=AZa6WgRirnASj-ZCAUWEvZ4UWXwhHvKC8oD7sJZfx5zPZtJ4zCWMMKUE9IoAUVyEEy2ClB0lq9OzRbAk_A01f4LIAjbXUOkKz_hceBLFzQlht87xjP5qujzSIFK20j2DyADQAKL89Y_yRtAzdxOFiq9aB26h64xEEDA1k_y4AOWSE0JiL0OOmHt_7RTprtSbW-w",
+          "timestamp": "2026-08-20T08:53:17.327269+00:00",
+          "interaction": 5
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "$SKHY  is moving closer to  $NVDA   and  $AMD    The company is building an HBM design team in San Jose to co-design next-gen HBM directly with major US AI chip customers  San Jose is next to Santa Clara, where Nvidia and AMD are headquartered, while Broadcom also has major operations",
+          "url": "https://x.com/HyperTechInvest/status/2090356923149463955",
+          "timestamp": "2026-08-20T16:35:02.000+08:00",
+          "interaction": 0
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 57,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "因應台股高檔刷洗格局，外資操作自8月中起轉趨靈活，一方面賣超大型股，另一方面順應新台幣升值的資金流入，將資金轉向主動式台股ETF、航運、及部分具基本面題材個股，作為現階段防禦與長線布局之標的，反映外資並未全面撤出台股，而是透過調整持股結構，兼顧防禦與中長線布局。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid036HpwFpzArcRPoo85xkSPiCjkQKWQ7pTXWFtiftfqtbYcXTpaqw6wjMmsBk8qnXhBl?__cft__[0]=AZZ0AMtlwb7JWdLz13wPyNHl6G-UxhyntDEYMVnZ4uwSSC-_OWP5Z_2OIaNL1ncUxblUneocg3HT8iq6JP9ORPG3ScDIYXieg6wv7FZxmlQN1GWKIWgFqJi1_BkztsOY1mZePNyjlP2AVd4dP6WpnCm51akE11w4w3-u5motoC54p3fUrh3-3QRsU387t_35W68",
+          "timestamp": "2026-08-20T08:53:17.327269+00:00",
+          "interaction": 32
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "SK海力士祭出史上罕見的大手筆回購，瞬間點燃市場對AI記憶體超級週期的信心，消息激勵股價今（20）日盤中一度飆升逾12％，也帶動台股記憶體族群南亞科（2408）、華邦電（2344）同步走強。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0c7VsctdwPsc5eDiG92bC3bTWACTZtY2dHgLVSEccErFF7MB7JMJAy5jmphNXSUJxl?__cft__[0]=AZbQki8VSw3Kn9I7tVQRGXwvEOnRq4WCz4uAAN4vKtXGnLufxm3w39SjyaZjGhDRDRhjcto-fxyLSkCHf1xQRMdLIwVl3akDNrIexBPc-xXja_wU0LxFOFHNYipAOI1W0ACfcXEW7B7ves4ISjpTEg33RdbBQT1ZLbvSgg60TzDZ4Ys-YYGohWFw_VpxQe7rxtc",
+          "timestamp": "2026-08-20T08:53:17.327269+00:00",
+          "interaction": 16
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "據韓媒《Money Today》報導，三星電子（Samsung Electronics）預計於本月召開董事會，正式拍板規模逾100兆韓元的股東回饋計畫；此前，SK海力士（SKHynix）亦宣布斥資40兆韓元註銷庫藏股，雙雄合計達140兆韓元的「股東回饋潮」，創韓國半導體業新紀錄。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02SF22vX4HHnaKj8bsyk1kggKyhitF4DT7Z4bktYuKJBANEvFfLgH1cJArEMsHuBDpl?__cft__[0]=AZbiux4DMeY0iJp7ES7onkdsonXf0X9obcjE0zut__QLOYwzDewFkQ1NQfh0MUyi_ucrW37YyhG8gJCoWZrNA92skBgayIxe-xZ0h7mU7E7zH0U_1ah2poQf6USlgAXhPboe7D2bNtEfjsYgU3oSyAgsALrvEaX5W7s5ncNRNpgoxYZVFVXd70UDhOvFzm8THMk",
+          "timestamp": "2026-08-20T08:53:17.327269+00:00",
+          "interaction": 9
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 1,
+      "competitor_count": 4,
+      "competitor_engagement": 30,
+      "competitors_covering": [
+        "HyperTechInvest",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "SK海力士祭出史上罕見的大手筆回購，瞬間點燃市場對AI記憶體超級週期的信心，消息激勵股價今（20）日盤中一度飆升逾12％，也帶動台股記憶體族群南亞科（2408）、華邦電（2344）同步走強。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0c7VsctdwPsc5eDiG92bC3bTWACTZtY2dHgLVSEccErFF7MB7JMJAy5jmphNXSUJxl?__cft__[0]=AZbQki8VSw3Kn9I7tVQRGXwvEOnRq4WCz4uAAN4vKtXGnLufxm3w39SjyaZjGhDRDRhjcto-fxyLSkCHf1xQRMdLIwVl3akDNrIexBPc-xXja_wU0LxFOFHNYipAOI1W0ACfcXEW7B7ves4ISjpTEg33RdbBQT1ZLbvSgg60TzDZ4Ys-YYGohWFw_VpxQe7rxtc",
+          "timestamp": "2026-08-20T08:53:17.327269+00:00",
+          "interaction": 16
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "據韓媒《Money Today》報導，三星電子（Samsung Electronics）預計於本月召開董事會，正式拍板規模逾100兆韓元的股東回饋計畫；此前，SK海力士（SKHynix）亦宣布斥資40兆韓元註銷庫藏股，雙雄合計達140兆韓元的「股東回饋潮」，創韓國半導體業新紀錄。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02SF22vX4HHnaKj8bsyk1kggKyhitF4DT7Z4bktYuKJBANEvFfLgH1cJArEMsHuBDpl?__cft__[0]=AZbiux4DMeY0iJp7ES7onkdsonXf0X9obcjE0zut__QLOYwzDewFkQ1NQfh0MUyi_ucrW37YyhG8gJCoWZrNA92skBgayIxe-xZ0h7mU7E7zH0U_1ah2poQf6USlgAXhPboe7D2bNtEfjsYgU3oSyAgsALrvEaX5W7s5ncNRNpgoxYZVFVXd70UDhOvFzm8THMk",
+          "timestamp": "2026-08-20T08:53:17.327269+00:00",
+          "interaction": 9
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "8月20日，SK海力士聯合維吉尼亞大學（UVA）等多家全球頂尖學術機構，於權威科學期刊《自然電子學》（Nature Electronics）發表共同封裝光學元件（CPO）技術路線圖。論文直指光通訊是跨越AI「頻寬牆」的重要關卡，並首度提出將光互連技術一路延伸至「記憶體介面」的長遠願景。\n……\n \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0Xs7ySubUqDYRRw7Jt7fkv1HHCjU7T9FQgv177yoT1U48eCZEkuMFUiQVT1mGiDVLl?__cft__[0]=AZa6WgRirnASj-ZCAUWEvZ4UWXwhHvKC8oD7sJZfx5zPZtJ4zCWMMKUE9IoAUVyEEy2ClB0lq9OzRbAk_A01f4LIAjbXUOkKz_hceBLFzQlht87xjP5qujzSIFK20j2DyADQAKL89Y_yRtAzdxOFiq9aB26h64xEEDA1k_y4AOWSE0JiL0OOmHt_7RTprtSbW-w",
+          "timestamp": "2026-08-20T08:53:17.327269+00:00",
+          "interaction": 5
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "$SKHY  is moving closer to  $NVDA   and  $AMD    The company is building an HBM design team in San Jose to co-design next-gen HBM directly with major US AI chip customers  San Jose is next to Santa Clara, where Nvidia and AMD are headquartered, while Broadcom also has major operations",
+          "url": "https://x.com/HyperTechInvest/status/2090356923149463955",
+          "timestamp": "2026-08-20T16:35:02.000+08:00",
+          "interaction": 0
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-08-20T15:35:02+08:00",
-    "end_utc": "2026-08-20T16:35:02+08:00",
-    "start_tw": "Aug 20, 15:35",
-    "end_tw": "Aug 20, 16:35"
+    "start_utc": "2026-08-20T07:55:49.520265+00:00",
+    "end_utc": "2026-08-20T08:55:49.520265+00:00",
+    "start_tw": "Aug 20, 15:55",
+    "end_tw": "Aug 20, 16:55"
   }
 }
