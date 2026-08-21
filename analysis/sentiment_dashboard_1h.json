@@ -1,447 +1,286 @@
 {
-  "generated_at": "2026-08-21T12:23:55+08:00",
+  "generated_at": "2026-08-21T16:30:09+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-08-21T11:23:55+08:00",
-    "end_utc": "2026-08-21T12:23:55+08:00",
-    "start_tw": "Aug 21, 11:23",
-    "end_tw": "Aug 21, 12:23"
+    "start_utc": "2026-08-21T15:30:09+08:00",
+    "end_utc": "2026-08-21T16:30:09+08:00",
+    "start_tw": "Aug 21, 15:30",
+    "end_tw": "Aug 21, 16:30"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 17,
+      "total_posts": 12,
       "sentiment_counts": {
-        "neutral": 4,
-        "positive": 7,
-        "negative": 6
+        "positive": 4,
+        "negative": 4,
+        "neutral": 4
       },
       "sentiment_share": {
-        "neutral": 0.235,
-        "positive": 0.412,
-        "negative": 0.353
+        "positive": 0.333,
+        "negative": 0.333,
+        "neutral": 0.333
       },
       "top_terms": [
-        "正與",
-        "國能",
-        "能源",
-        "源部",
-        "美國能",
-        "國能源",
-        "能源部",
-        "美國能源",
-        "國能源部",
-        "計畫"
+        "rmb",
+        "fraud",
+        "sentenced",
+        "prison",
+        "日圓",
+        "圓哈",
+        "哈日",
+        "日族",
+        "族注",
+        "日圓哈"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "senior / biggest",
+        "topic_id": 1,
+        "label": "sentenced / prison / fraud",
         "heat": 90.0,
-        "volume": 2,
-        "engagement": 19,
-        "entities": [],
+        "volume": 10,
+        "engagement": 75,
+        "entities": [
+          "莫德納",
+          "哈日族",
+          "中東",
+          "日本",
+          "日本央行"
+        ],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "bond",
+        "label": "rmb",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 14,
+        "engagement": 12,
         "entities": [],
         "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "其他（未分群，13 篇）",
-        "heat": 10.0,
-        "volume": 13,
-        "engagement": 610,
-        "entities": [
-          "美國",
-          "博通",
-          "超微",
-          "黑石",
-          "阿波羅"
-        ],
-        "is_catchall": true
       }
     ],
     "named_entities": [
       {
+        "entity": "莫德納",
+        "count": 2
+      },
+      {
+        "entity": "哈日族",
+        "count": 1
+      },
+      {
+        "entity": "中東",
+        "count": 1
+      },
+      {
+        "entity": "日本",
+        "count": 1
+      },
+      {
+        "entity": "日本央行",
+        "count": 1
+      },
+      {
+        "entity": "中美",
+        "count": 1
+      },
+      {
         "entity": "美國",
-        "count": 3
-      },
-      {
-        "entity": "博通",
-        "count": 2
-      },
-      {
-        "entity": "超微",
-        "count": 2
-      },
-      {
-        "entity": "黑石",
         "count": 1
       },
       {
-        "entity": "阿波羅",
-        "count": 1
-      },
-      {
-        "entity": "美光科技",
-        "count": 1
-      },
-      {
-        "entity": "太平洋",
-        "count": 1
-      },
-      {
-        "entity": "西北",
-        "count": 1
-      },
-      {
-        "entity": "美光",
+        "entity": "中國",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-21T11:23:55.000002+08:00",
-        "bucket_end": "2026-08-21T11:28:12.142859+08:00",
-        "positive": 1,
+        "bucket_start": "2026-08-21T15:30:09.000002+08:00",
+        "bucket_end": "2026-08-21T15:34:26.142859+08:00",
+        "positive": 0,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 7,
+        "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 7,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "Primemas 正與美光科技深化合作，計畫今年下半年量產 JBOM（Just a Bunch of Memory）。此系統將多張 CXL 記憶卡組成更大共享記憶池，協助 AI 資料中心更靈活運用昂貴記憶體。  雙方另合作 Abaco 專案，為美國能源部太平洋西北國家實驗室打造機架級共享記憶系統，採用美光 DDR5，目標提供超過 100TB 的",
-            "url": "https://x.com/QQ_Timmy/status/2090641987099558098",
-            "interaction": 7
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-21T11:28:12.142859+08:00",
-        "bucket_end": "2026-08-21T11:32:29.285716+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 147,
-        "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 147,
+        "post_count": 0,
+        "engagement": 0,
         "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "South Korea’s preliminary DRAM export unit price for August 1–20 continued to rise.",
-            "url": "https://x.com/jukan05/status/2090642131371294862",
-            "interaction": 147
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [],
+        "net_sentiment_smoothed": -33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-21T11:32:29.285716+08:00",
-        "bucket_end": "2026-08-21T11:36:46.428573+08:00",
+        "bucket_start": "2026-08-21T15:34:26.142859+08:00",
+        "bucket_end": "2026-08-21T15:38:43.285716+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 1,
+        "negative_engagement": 8,
         "net_sentiment": -100.0,
         "post_count": 1,
-        "engagement": 1,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "#星艦 回收傳出延後！受測試進展未達預期衝擊，#SpaceX 股價跌破 IPO 發行價 135 美元，引發太空概念股走低。",
-            "url": "https://x.com/technews_tw/status/2090643385464099280",
-            "interaction": 1
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-21T11:36:46.428573+08:00",
-        "bucket_end": "2026-08-21T11:41:03.571430+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 1,
-        "neutral_engagement": 0,
-        "negative_engagement": 433,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 434,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "Bro, WTF? What the hell is happening with NAND?",
-            "url": "https://x.com/jukan05/status/2090645056042754349",
-            "interaction": 433
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "#美超微 內部調查正式結案！針對 2026 年 3 月的員工出口管制指控案件，獨立董事與專業律師完成全面審查，確認高階管理層對違規轉移行為完全不知情，亦未影響先前財報可信度。",
-            "url": "https://x.com/technews_tw/status/2090644574813475015",
-            "interaction": 1
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-21T11:41:03.571430+08:00",
-        "bucket_end": "2026-08-21T11:45:20.714287+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-21T11:45:20.714287+08:00",
-        "bucket_end": "2026-08-21T11:49:37.857144+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "美國能源部豪擲 5 億美元砸向本土電池供應鏈！其中鋰與鈷計畫各獲 1 億美元資助，首階段目標要讓美國鋰產量直接翻倍。",
-            "url": "https://x.com/technews_tw/status/2090646832519250354",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-21T11:49:37.857144+08:00",
-        "bucket_end": "2026-08-21T11:53:55.000001+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-21T11:53:55.000001+08:00",
-        "bucket_end": "2026-08-21T11:58:12.142858+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-21T11:58:12.142858+08:00",
-        "bucket_end": "2026-08-21T12:02:29.285715+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-21T12:02:29.285715+08:00",
-        "bucket_end": "2026-08-21T12:06:46.428572+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "#Sony 旗艦耳機甜甜價要來了！",
-            "url": "https://x.com/technews_tw/status/2090651259892326469",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-21T12:06:46.428572+08:00",
-        "bucket_end": "2026-08-21T12:11:03.571429+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-21T12:11:03.571429+08:00",
-        "bucket_end": "2026-08-21T12:15:20.714286+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 12,
-        "net_sentiment": -100.0,
-        "post_count": 2,
-        "engagement": 12,
+        "engagement": 8,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "bond",
+            "topic_id": 1,
+            "label": "sentenced / prison / fraud",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
+            "handle": "HyperTechInvest",
             "platform": "X",
-            "text": "Healey warned to limit Budget borrowing amid bond sell-off",
-            "url": "https://x.com/FT/status/2090653831944077591",
+            "text": "I'd get sick to my stomach if I calculated how much these are up now",
+            "url": "https://x.com/HyperTechInvest/status/2090704792972824919",
             "interaction": 8
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The battle over golf’s future",
-            "url": "https://x.com/FT/status/2090653240941527426",
-            "interaction": 4
           }
         ],
-        "net_sentiment_smoothed": -5.0,
+        "net_sentiment_smoothed": -12.5,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-21T12:15:20.714286+08:00",
-        "bucket_end": "2026-08-21T12:19:37.857143+08:00",
+        "bucket_start": "2026-08-21T15:38:43.285716+08:00",
+        "bucket_end": "2026-08-21T15:43:00.428573+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 10.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-21T15:43:00.428573+08:00",
+        "bucket_end": "2026-08-21T15:47:17.571430+08:00",
         "positive": 1,
         "neutral": 1,
         "negative": 0,
-        "positive_engagement": 15,
-        "neutral_engagement": 0,
+        "positive_engagement": 17,
+        "neutral_engagement": 1,
         "negative_engagement": 0,
         "net_sentiment": 50.0,
         "post_count": 2,
-        "engagement": 15,
+        "engagement": 18,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "senior / biggest",
-            "count": 1
+            "topic_id": 1,
+            "label": "sentenced / prison / fraud",
+            "count": 2
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
+            "handle": "HyperTechInvest",
             "platform": "X",
-            "text": "Europe’s biggest bank axed 134 of its most senior employees last year and paid them a total of $67.5mn in severance, significantly exceeding cuts by other European lenders in 2025.  https:// ft.trib.a",
-            "url": "https://x.com/FT/status/2090654877139489133",
-            "interaction": 15
+            "text": "Reality check for many investors:  Picking a stock from a trendy theme and making +50% in weeks is NOT NORMAL  Waiting years for a thesis to develop while the stock doesn’t move much is NORMAL  FOMO i",
+            "url": "https://x.com/HyperTechInvest/status/2090707154986787317",
+            "interaction": 17
           },
           {
             "handle": "technews_tw",
             "platform": "X",
-            "text": "#博通 搶攻 AI 客製化晶片！傳正與貸款機構洽談高達 1,000 億美元融資交易，強勢攜手黑石與阿波羅等巨頭，力挺 Anthropic 等企業擴充算力。",
-            "url": "https://x.com/technews_tw/status/2090654614853148917",
-            "interaction": 0
+            "text": "中美經貿戰火再升溫！美國發表報告指控中國透過第三地轉運避稅，並對進口無人機祭出高達 100% 的重稅。",
+            "url": "https://x.com/technews_tw/status/2090706459067904458",
+            "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": -6.2,
+        "net_sentiment_smoothed": 10.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-21T12:19:37.857143+08:00",
-        "bucket_end": "2026-08-21T12:23:55+08:00",
-        "positive": 2,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 7,
+        "bucket_start": "2026-08-21T15:47:17.571430+08:00",
+        "bucket_end": "2026-08-21T15:51:34.714287+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 6,
         "neutral_engagement": 0,
-        "negative_engagement": 4,
-        "net_sentiment": 25.0,
-        "post_count": 4,
-        "engagement": 11,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 6,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "senior / biggest",
+            "topic_id": 0,
+            "label": "rmb",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "oh boy, HW is getting ready to sell kid's car. Amazingly 350W of power & 20km range + front/rear 1080P camera.  You can get one for 15800 RMB!",
+            "url": "https://x.com/tphuang/status/2090707739676701160",
+            "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-21T15:51:34.714287+08:00",
+        "bucket_end": "2026-08-21T15:55:51.857144+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 5,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 5,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "sentenced / prison / fraud",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "I say this as someone who’s up 80% YTD and who made a ton of money with memory and neoclouds  It’s not cope, it’s understanding how businesses work",
+            "url": "https://x.com/HyperTechInvest/status/2090708823585788196",
+            "interaction": 5
+          }
+        ],
+        "net_sentiment_smoothed": 16.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-21T15:55:51.857144+08:00",
+        "bucket_end": "2026-08-21T16:00:09.000001+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 6,
+        "neutral_engagement": 0,
+        "negative_engagement": 13,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 19,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "rmb",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "sentenced / prison / fraud",
             "count": 1
           }
         ],
@@ -449,67 +288,181 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Ukraine seeks Musk’s help to hit Russian missile launchers",
-            "url": "https://x.com/FT/status/2090656110185263398",
+            "text": "Fashion tech entrepreneur Christine Hunsicker, who argued that she committed a near $300mn fraud in part because a mirror fell on her head, has been sentenced to five years in prison.  https:// ft.tri",
+            "url": "https://x.com/FT/status/2090710534299484577",
+            "interaction": 13
+          },
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "HIMA has also put Luxeed RX on pre-sale for 299.8k & 359.8k RMB. The main diff being the higher priced one having \"L3 ADAS support\".  Dimension 5020/2007/1585mm wheelbase 3000 HIMA team has been heavi",
+            "url": "https://x.com/tphuang/status/2090710044438372732",
             "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": 6.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-21T16:00:09.000001+08:00",
+        "bucket_end": "2026-08-21T16:04:26.142858+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 2,
+        "positive_engagement": 0,
+        "neutral_engagement": 11,
+        "negative_engagement": 8,
+        "net_sentiment": -66.7,
+        "post_count": 3,
+        "engagement": 19,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "sentenced / prison / fraud",
+            "count": 3
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "London cabbies plot ‘skulduggery’ to take on robotaxis",
+            "url": "https://x.com/FT/status/2090711026756878817",
+            "interaction": 11
           },
           {
             "handle": "FT",
             "platform": "X",
-            "text": "HSBC spends $68mn on biggest cull of senior bankers since financial crisis",
-            "url": "https://x.com/FT/status/2090656114299883650",
-            "interaction": 4
+            "text": "Founder who blamed $300mn fraud on head injury sentenced to prison",
+            "url": "https://x.com/FT/status/2090711021778342388",
+            "interaction": 8
           }
         ],
-        "net_sentiment_smoothed": -8.3,
+        "net_sentiment_smoothed": -13.3,
         "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-08-21T16:04:26.142858+08:00",
+        "bucket_end": "2026-08-21T16:08:43.285715+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -13.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-21T16:08:43.285715+08:00",
+        "bucket_end": "2026-08-21T16:13:00.428572+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -13.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-21T16:13:00.428572+08:00",
+        "bucket_end": "2026-08-21T16:17:17.571429+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-21T16:17:17.571429+08:00",
+        "bucket_end": "2026-08-21T16:21:34.714286+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-21T16:21:34.714286+08:00",
+        "bucket_end": "2026-08-21T16:25:51.857143+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "sentenced / prison / fraud",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "日圓哈日族注意！受中東局勢與弱勢日圓影響，日本 7 月核心通膨率攀升至 1.8%，進一步鞏固日本央行達到 2% 通膨目標的信心。",
+            "url": "https://x.com/technews_tw/status/2090716545123303618",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 25.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-21T16:25:51.857143+08:00",
+        "bucket_end": "2026-08-21T16:30:09+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 33.3,
+        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "bond",
+        "topic_id": 1,
+        "label": "sentenced / prison / fraud",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -523,18 +476,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 2,
-        "label": "senior / biggest",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 50.0,
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -542,27 +485,15 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 1
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": -100.0,
+            "volume": 1
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": -66.7,
+            "volume": 3
           },
           {
             "net_sentiment": 0.0,
@@ -585,8 +516,70 @@
             "volume": 1
           },
           {
-            "net_sentiment": -100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "rmb",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       }
@@ -595,86 +588,69 @@
       {
         "handle": "technews_tw",
         "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，13 篇）",
+        "top_topic_label": "sentenced / prison / fraud",
         "focus_share": 1.0,
-        "post_count": 5,
-        "unclustered_posts": 5
-      },
-      {
-        "handle": "jukan05",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，13 篇）",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 2
-      },
-      {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，13 篇）",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "statementdog",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，13 篇）",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
+        "post_count": 3,
+        "unclustered_posts": 0
       },
       {
         "handle": "FT",
+        "top_topic_id": 1,
+        "top_topic_label": "sentenced / prison / fraud",
+        "focus_share": 1.0,
+        "post_count": 4,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "HyperTechInvest",
+        "top_topic_id": 1,
+        "top_topic_label": "sentenced / prison / fraud",
+        "focus_share": 1.0,
+        "post_count": 3,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "tphuang",
         "top_topic_id": 0,
-        "top_topic_label": "bond",
-        "focus_share": 0.5,
-        "post_count": 8,
-        "unclustered_posts": 4
+        "top_topic_label": "rmb",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
-        "label": "senior / biggest",
-        "total_engagement": 19,
-        "post_count": 2,
+        "topic_id": 1,
+        "label": "sentenced / prison / fraud",
+        "total_engagement": 75,
+        "post_count": 10,
         "top_account": "FT",
-        "top_account_engagement": 19,
+        "top_account_engagement": 44,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "bond",
-        "total_engagement": 14,
+        "label": "rmb",
+        "total_engagement": 12,
         "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 14,
+        "top_account": "tphuang",
+        "top_account_engagement": 12,
         "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "其他（未分群，13 篇）",
-        "total_engagement": 610,
-        "post_count": 13,
-        "top_account": "jukan05",
-        "top_account_engagement": 580,
-        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 6,
-          "likes": 482,
-          "engagement": 589,
-          "avg_engagement": 98.2
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 11,
-          "likes": 32,
-          "engagement": 54,
-          "avg_engagement": 4.9
+          "post_count": 12,
+          "likes": 59,
+          "engagement": 87,
+          "avg_engagement": 7.2
         },
         "evening": {
           "post_count": 0,
