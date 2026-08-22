@@ -1,29 +1,42 @@
 {
   "clusters": [
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
-      "size": 5,
+      "id": "Q",
+      "label": "機器人 / Robotics",
+      "size": 7,
       "accounts": {
-        "technewsinside": 4,
+        "technewsinside": 6,
         "ctee.fans": 1
       },
       "engagement_by_account": {
-        "technewsinside": 55,
-        "ctee.fans": 39
+        "technewsinside": 177,
+        "ctee.fans": 17
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 6,
+      "accounts": {
+        "ctee.fans": 6
+      },
+      "engagement_by_account": {
+        "ctee.fans": 252
       }
     },
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 4,
+      "size": 5,
       "accounts": {
-        "technewsinside": 3,
-        "ctee.fans": 1
+        "TrendForce.tw": 1,
+        "technewsinside": 1,
+        "ctee.fans": 3
       },
       "engagement_by_account": {
-        "technewsinside": 68,
-        "ctee.fans": 13
+        "TrendForce.tw": 8,
+        "technewsinside": 20,
+        "ctee.fans": 238
       }
     },
     {
@@ -31,21 +44,80 @@
       "label": "晶圓代工 / 先進製程",
       "size": 3,
       "accounts": {
-        "technewsinside": 3
+        "technewsinside": 1,
+        "ctee.fans": 2
       },
       "engagement_by_account": {
-        "technewsinside": 62
+        "technewsinside": 488,
+        "ctee.fans": 75
       }
     },
     {
-      "id": "M",
-      "label": "台股市場",
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 3,
+      "accounts": {
+        "technewsinside": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 37
+      }
+    },
+    {
+      "id": "L",
+      "label": "總經 / Fed",
+      "size": 3,
+      "accounts": {
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "ctee.fans": 89
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 2
+      },
+      "engagement_by_account": {
+        "technewsinside": 412
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 2
+      },
+      "engagement_by_account": {
+        "technewsinside": 28
+      }
+    },
+    {
+      "id": "G",
+      "label": "IC 設計",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 19,
+        "ctee.fans": 17
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
       "size": 2,
       "accounts": {
         "ctee.fans": 2
       },
       "engagement_by_account": {
-        "ctee.fans": 23
+        "ctee.fans": 221
       }
     },
     {
@@ -53,67 +125,235 @@
       "label": "邊緣 AI / 新終端",
       "size": 2,
       "accounts": {
-        "technewsinside": 1,
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 11,
-        "ctee.fans": 6
-      }
-    },
-    {
-      "id": "Q",
-      "label": "機器人 / Robotics",
-      "size": 2,
-      "accounts": {
-        "technewsinside": 1,
-        "yutinghaosfinance": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 12,
-        "yutinghaosfinance": 307
-      }
-    },
-    {
-      "id": "S",
-      "label": "電網 / 能源基礎設施",
-      "size": 2,
-      "accounts": {
         "technewsinside": 2
       },
       "engagement_by_account": {
-        "technewsinside": 35
+        "technewsinside": 26
       }
     },
     {
-      "id": "C",
-      "label": "ASIC / 自研晶片",
+      "id": "D",
+      "label": "CSP / 資料中心",
       "size": 1,
       "accounts": {
         "technewsinside": 1
       },
       "engagement_by_account": {
-        "technewsinside": 29
+        "technewsinside": 19
       }
     },
     {
-      "id": "L",
-      "label": "總經 / Fed",
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
       "size": 1,
       "accounts": {
-        "ctee.fans": 1
+        "technewsinside": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 13
+        "technewsinside": 18
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 6,
+      "competitor_engagement": 252,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股21日反彈走揚】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02DyjXb1kLVwt14Mfd71Bv2hC4RvZu8qd1FP5y6rx5LKsFJEWskjHwgxxrH22z8vXrl?__cft__[0]=AZYAOtFHOqkd5Szb5eS3Xx0pLfxcO9ONFdW8LbF4VUHujlviE5SthsK95LWsCVnVf7CYX8m3YFZvJQ0NyScAWWTGWQJDjwBMpqiK5xp6_5497y80ZCUpwTn5s_B0zyb1iO4QPhAlgtlakcW6itqlLQZKMkv2-a19o05PqhoJb3ViYxRQGQQ4fj5uX1osuJZQm10",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 134
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股今（20）日量縮收盤上漲214點漲幅約0.5%，漲勢主要受到台積電拉抬25元帶動，相比之下，韓股一度大漲約6%，相較台股的溫吞形成鮮明對比...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0zsJcZ5Ai6sLZEu9ayW7x3dfA8AvVYt2K8QPYS9KfaK5BEunwpXgtkyKJnwg35qwKl?__cft__[0]=AZb4VfEO09yKyibzmuJyB8lPQ3oLrnT3VT6eTXIpCP67hRvKEK_5uICkPItFukxBqMLbXDfs_aslO9KwvsjjEh60eDwcAH4nqjOsurA9JgHVOO7mjfOvp7moCIO3COP2XfX-_TmB3jZsSin6CBOO-FoFLNiYAXyZnVZz5pyITp0WvRLJWyl_FXUQftqA9QdAFAw",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台積甩尾台股量縮返季線 空方遭遇多頭防禦 專家估支撐點在這】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02oUUNJGjBGLPZMrEF67t2kXvP6bCjDKm3gGcqHLQAVkxwoRPMtzg5qZGRyjv1GyvVl?__cft__[0]=AZbK6OJzBtEdkXaH4fGuHWiIUHRzJtXUQqj2EgV7dgAPVS-kpMCKyMCyFCpasBXVJjhw3yv3bHzKjDSIThGEefntwLsWpLo0CHwEx3YobywrmUu1dGUQwPUDpKjkiNNZJEvvP3X4-QaAm5eJlIVszpIPWG9JPaI13GSiN3J4XoK2LKQ73jM4BEWf3TwuqDViVu4",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 34
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股盤面資金匯聚在傳產股上】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0hEzGgfTKnxqNiRLHQnnxvfrWqiiRQ5qsFtpk1d2z219hHvw6GHJ457LYNjWNL6LWl?__cft__[0]=AZa38Beyl8U2hPKrzK2D4GvL3WK1xFTEDXhnBT2qz64pVvkTlluiqS94YAjCcoG0_je1yRxi4CBweLLla0KaM_75aSxROpSaxRqwzs2LDvnuB4Zis8RMsO9wU4nMW_9raAM8EVCrUG8KoCmtEcfJEcodYbtFwxiwKVX_pYhpqvmq2Oobq5oaLsjOD9_ltMlfcPM",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 22
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股逐洞賽｜台股族群分化明顯 資金尋找新強勢方向】\n台股20日族群分化明顯，整體盤勢更接近「族群輪動」而非全面上漲。AI相關族群表現較佳，非AI題材的軍工、航運也有資金進駐，顯示市場正在前波修正後尋找新的強勢方向...…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0EuuLvkziQE85QmEsSGEh3tgh4zBPLo4EqygmGTaepq6pUiuwWABWMZ3zbHP6b1v4l?__cft__[0]=AZa0iA8ITXUAwRKms7XGlTnNYQMyl25a1-hAjqo40PKXcfkKCccU12g_rk77FvEHtSDKn1MJv1i721iWl5m1ZWiWpB74X4P7mXG5Z286hzk3A1LLGsXoZlEbKXX0W78vtMkR9xSBnhuspCmfc05bVjsOWXtiKYfRHjK1xBrd4vAEtEiWknMWhFhZv326R-FWay4",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 8
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股本周震盪加劇，指數持續徘徊在44,000點區間，距離46,000點關卡仍有一段距離，面對反彈後漲勢轉趨顛簸，素有「股市老先覺」之稱的資深分析師杜金龍認為，目前大盤陷入「有價無量」格局...\n……\n \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid025DgtnCiminVTPKdQo7p5Xud244d1C5ftLc4rjq7F3VTkXcb83AihgVars5nPW47rl?__cft__[0]=AZaGUQa3SGr8ya-wqNOiJYWptXvzx55wrNSy3v6lGEWcdxQX5Xk7DZ2H7TmruOXRuBn2-8GTnP_1yj9vsR8O5Smdc-vVsulOV2X04qc8tXLrsANd6q1_Gmyu4tIeesrn1KyqoWfPp95lBLHXmld9-KWakEN6wXtxxNf9mYRBpzUtgv-b9cSnSwBFm2h2IRAhrJk",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": "L",
+      "label": "總經 / Fed",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 89,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美國財政部擴大長債回購，壓低30年期美債殖利率並拖累美元，現貨黃金19日一度突破4,500美元...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid031Ei47aCNdSzfe77ewtYYxmEFS6Q923jNnWmPnFscdNn1xiNsNbQGq5bgezzekm5bl?__cft__[0]=AZYU1TvRV87zyjnvL5-FX7Rmm1DVaYJe90fvwG26pMIhHHMlA6D4vIa0OG5x1kCT8ok-RWSQrwt2VMg2g9dCKt8nnuSBQ5bAo6B2NgcEpeA3OD5bwgvlW-aRvir2BX3gF-JTTXNUzKwLIpLKw1EefHkCsCGBZZUFKtlsEYSwG7G12D9nOgbEpRUhEKEUyatAnGc",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 35
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "市場對美債殖利率攀升的疑慮暫時消退，華爾街股市21日止跌回穩，道瓊工業指數輕微高開，盤中漲幅一度擴大至596點...…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0St9mR7r23irSah3VQQgBSj5jABZAzDhRzmUhLyoGmxz3YKqBUVmK21qbqr5tBTitl?__cft__[0]=AZY1Wjupzf1HbE2gGXauIVuSWbkd2TaUK9dn4Up8kjZ2WkMHe10zMJ_fUf8QSPGoWz0_WYa-yRhbke8sEf64bexGZMnl1Tmdbo1e_HmSB7YxRpcYSLGL7-jNGLO6AHv0MrLS9v8D-KWEiWfA5mSoiifuVmog3qfU4_7Z62h-P-CDn9AafzZjjYqKEM8pTxbRPTs",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 31
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "對於外界認為財政部加碼回購美債的行動，可能會打亂Fed的貨幣政策步調時，戴利認為一切仍處於初期階段...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02zgi7WxRJmzwZhneW72U9XYJdV9e9onxtX3C4dbMQWMv18n9hRc9HP51mW9NvX6Kal?__cft__[0]=AZbkh7y_V56zFQfg1X9INMohccRjUdhy8smzQiEu6H8VWAKGlTmkwOA6q_nAdDQsVtsAgnQzzY7ybArOto1Nfl7wStlSAo5yWV12N2Z6gSBpLS9QkGMfd5nzTN73NW8X9nfzu1tmIUvDKh3z4CV5Ojun5Yz0sjPdGAzul9M7rr4xRRXBn7uegaKrPYzsYsSz2B8",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 23
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 6,
+      "competitor_engagement": 252,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股21日反彈走揚】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02DyjXb1kLVwt14Mfd71Bv2hC4RvZu8qd1FP5y6rx5LKsFJEWskjHwgxxrH22z8vXrl?__cft__[0]=AZYAOtFHOqkd5Szb5eS3Xx0pLfxcO9ONFdW8LbF4VUHujlviE5SthsK95LWsCVnVf7CYX8m3YFZvJQ0NyScAWWTGWQJDjwBMpqiK5xp6_5497y80ZCUpwTn5s_B0zyb1iO4QPhAlgtlakcW6itqlLQZKMkv2-a19o05PqhoJb3ViYxRQGQQ4fj5uX1osuJZQm10",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 134
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股今（20）日量縮收盤上漲214點漲幅約0.5%，漲勢主要受到台積電拉抬25元帶動，相比之下，韓股一度大漲約6%，相較台股的溫吞形成鮮明對比...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0zsJcZ5Ai6sLZEu9ayW7x3dfA8AvVYt2K8QPYS9KfaK5BEunwpXgtkyKJnwg35qwKl?__cft__[0]=AZb4VfEO09yKyibzmuJyB8lPQ3oLrnT3VT6eTXIpCP67hRvKEK_5uICkPItFukxBqMLbXDfs_aslO9KwvsjjEh60eDwcAH4nqjOsurA9JgHVOO7mjfOvp7moCIO3COP2XfX-_TmB3jZsSin6CBOO-FoFLNiYAXyZnVZz5pyITp0WvRLJWyl_FXUQftqA9QdAFAw",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台積甩尾台股量縮返季線 空方遭遇多頭防禦 專家估支撐點在這】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02oUUNJGjBGLPZMrEF67t2kXvP6bCjDKm3gGcqHLQAVkxwoRPMtzg5qZGRyjv1GyvVl?__cft__[0]=AZbK6OJzBtEdkXaH4fGuHWiIUHRzJtXUQqj2EgV7dgAPVS-kpMCKyMCyFCpasBXVJjhw3yv3bHzKjDSIThGEefntwLsWpLo0CHwEx3YobywrmUu1dGUQwPUDpKjkiNNZJEvvP3X4-QaAm5eJlIVszpIPWG9JPaI13GSiN3J4XoK2LKQ73jM4BEWf3TwuqDViVu4",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 34
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股盤面資金匯聚在傳產股上】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0hEzGgfTKnxqNiRLHQnnxvfrWqiiRQ5qsFtpk1d2z219hHvw6GHJ457LYNjWNL6LWl?__cft__[0]=AZa38Beyl8U2hPKrzK2D4GvL3WK1xFTEDXhnBT2qz64pVvkTlluiqS94YAjCcoG0_je1yRxi4CBweLLla0KaM_75aSxROpSaxRqwzs2LDvnuB4Zis8RMsO9wU4nMW_9raAM8EVCrUG8KoCmtEcfJEcodYbtFwxiwKVX_pYhpqvmq2Oobq5oaLsjOD9_ltMlfcPM",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 22
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股逐洞賽｜台股族群分化明顯 資金尋找新強勢方向】\n台股20日族群分化明顯，整體盤勢更接近「族群輪動」而非全面上漲。AI相關族群表現較佳，非AI題材的軍工、航運也有資金進駐，顯示市場正在前波修正後尋找新的強勢方向...…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0EuuLvkziQE85QmEsSGEh3tgh4zBPLo4EqygmGTaepq6pUiuwWABWMZ3zbHP6b1v4l?__cft__[0]=AZa0iA8ITXUAwRKms7XGlTnNYQMyl25a1-hAjqo40PKXcfkKCccU12g_rk77FvEHtSDKn1MJv1i721iWl5m1ZWiWpB74X4P7mXG5Z286hzk3A1LLGsXoZlEbKXX0W78vtMkR9xSBnhuspCmfc05bVjsOWXtiKYfRHjK1xBrd4vAEtEiWknMWhFhZv326R-FWay4",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 8
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股本周震盪加劇，指數持續徘徊在44,000點區間，距離46,000點關卡仍有一段距離，面對反彈後漲勢轉趨顛簸，素有「股市老先覺」之稱的資深分析師杜金龍認為，目前大盤陷入「有價無量」格局...\n……\n \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid025DgtnCiminVTPKdQo7p5Xud244d1C5ftLc4rjq7F3VTkXcb83AihgVars5nPW47rl?__cft__[0]=AZaGUQa3SGr8ya-wqNOiJYWptXvzx55wrNSy3v6lGEWcdxQX5Xk7DZ2H7TmruOXRuBn2-8GTnP_1yj9vsR8O5Smdc-vVsulOV2X04qc8tXLrsANd6q1_Gmyu4tIeesrn1KyqoWfPp95lBLHXmld9-KWakEN6wXtxxNf9mYRBpzUtgv-b9cSnSwBFm2h2IRAhrJk",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": "L",
+      "label": "總經 / Fed",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 89,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美國財政部擴大長債回購，壓低30年期美債殖利率並拖累美元，現貨黃金19日一度突破4,500美元...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid031Ei47aCNdSzfe77ewtYYxmEFS6Q923jNnWmPnFscdNn1xiNsNbQGq5bgezzekm5bl?__cft__[0]=AZYU1TvRV87zyjnvL5-FX7Rmm1DVaYJe90fvwG26pMIhHHMlA6D4vIa0OG5x1kCT8ok-RWSQrwt2VMg2g9dCKt8nnuSBQ5bAo6B2NgcEpeA3OD5bwgvlW-aRvir2BX3gF-JTTXNUzKwLIpLKw1EefHkCsCGBZZUFKtlsEYSwG7G12D9nOgbEpRUhEKEUyatAnGc",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 35
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "市場對美債殖利率攀升的疑慮暫時消退，華爾街股市21日止跌回穩，道瓊工業指數輕微高開，盤中漲幅一度擴大至596點...…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0St9mR7r23irSah3VQQgBSj5jABZAzDhRzmUhLyoGmxz3YKqBUVmK21qbqr5tBTitl?__cft__[0]=AZY1Wjupzf1HbE2gGXauIVuSWbkd2TaUK9dn4Up8kjZ2WkMHe10zMJ_fUf8QSPGoWz0_WYa-yRhbke8sEf64bexGZMnl1Tmdbo1e_HmSB7YxRpcYSLGL7-jNGLO6AHv0MrLS9v8D-KWEiWfA5mSoiifuVmog3qfU4_7Z62h-P-CDn9AafzZjjYqKEM8pTxbRPTs",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 31
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "對於外界認為財政部加碼回購美債的行動，可能會打亂Fed的貨幣政策步調時，戴利認為一切仍處於初期階段...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02zgi7WxRJmzwZhneW72U9XYJdV9e9onxtX3C4dbMQWMv18n9hRc9HP51mW9NvX6Kal?__cft__[0]=AZbkh7y_V56zFQfg1X9INMohccRjUdhy8smzQiEu6H8VWAKGlTmkwOA6q_nAdDQsVtsAgnQzzY7ybArOto1Nfl7wStlSAo5yWV12N2Z6gSBpLS9QkGMfd5nzTN73NW8X9nfzu1tmIUvDKh3z4CV5Ojun5Yz0sjPdGAzul9M7rr4xRRXBn7uegaKrPYzsYsSz2B8",
+          "timestamp": "2026-08-22T06:35:49.319346+00:00",
+          "interaction": 23
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-08-21T12:56:20.617645+00:00",
-    "end_utc": "2026-08-21T16:56:20.617645+00:00",
-    "start_tw": "Aug 21, 20:56",
-    "end_tw": "Aug 22, 00:56"
+    "start_utc": "2026-08-22T02:35:49.319346+00:00",
+    "end_utc": "2026-08-22T06:35:49.319346+00:00",
+    "start_tw": "Aug 22, 10:35",
+    "end_tw": "Aug 22, 14:35"
   }
 }
