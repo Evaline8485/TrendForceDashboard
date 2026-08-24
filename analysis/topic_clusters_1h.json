@@ -1,45 +1,350 @@
 {
   "clusters": [
     {
-      "id": "K",
-      "label": "AI 模型 / 應用",
-      "size": 2,
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 5,
       "accounts": {
-        "technews_tw": 2
+        "technews_tw": 1,
+        "technewsinside": 4
       },
       "engagement_by_account": {
-        "technews_tw": 0
+        "technews_tw": 0,
+        "technewsinside": 57
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 5,
+      "accounts": {
+        "technews_tw": 2,
+        "technewsinside": 3
+      },
+      "engagement_by_account": {
+        "technews_tw": 0,
+        "technewsinside": 15
+      }
+    },
+    {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 4,
+      "accounts": {
+        "TrendForce.tw": 1,
+        "technewsinside": 2,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "TrendForce.tw": 7,
+        "technewsinside": 25,
+        "ctee.fans": 12
       }
     },
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 1,
+      "size": 4,
       "accounts": {
-        "statementdog": 1
+        "statementdog": 1,
+        "technewsinside": 2,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "statementdog": 4
+        "statementdog": 4,
+        "technewsinside": 20,
+        "ctee.fans": 25
       }
     },
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
-      "size": 1,
+      "id": "M",
+      "label": "台股市場",
+      "size": 4,
       "accounts": {
-        "technews_tw": 1
+        "ctee.fans": 4
       },
       "engagement_by_account": {
-        "technews_tw": 0
+        "ctee.fans": 154
+      }
+    },
+    {
+      "id": "N",
+      "label": "地緣政治 / 政策",
+      "size": 4,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 2,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 8,
+        "ctee.fans": 26,
+        "yutinghaosfinance": 269
+      }
+    },
+    {
+      "id": "G",
+      "label": "IC 設計",
+      "size": 3,
+      "accounts": {
+        "technewsinside": 2,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 27,
+        "ctee.fans": 4
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 2
+      },
+      "engagement_by_account": {
+        "technewsinside": 27
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 6,
+        "ctee.fans": 12
+      }
+    },
+    {
+      "id": "S",
+      "label": "電網 / 能源基礎設施",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 2
+      },
+      "engagement_by_account": {
+        "technewsinside": 22
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 19
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 11
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 6
+      }
+    },
+    {
+      "id": "R",
+      "label": "散熱 / HVAC",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 4
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "N",
+      "label": "地緣政治 / 政策",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 295,
+      "competitors_covering": [
+        "ctee.fans",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "2026/8/24(一)美債救不動 黃金 比特幣先起飛?關稅戰再起 最後誰買單？【早晨財經速解讀】…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/videos/1267637018724486/?__cft__[0]=AZaiAMehMI28lp7qp1puLMj4vhbWtbPeRue1HPZPluKZjy-jSVlXBE_2IWDc6mbZZ9wbViJpnmKZuXeYEj85u0K7eUbCHVDgZLiyBJf9viX7OKw_wIBt5Ob1FxZtWfgd6vCkRAJjsW2IEWSYITlnhdBaQ2PpFf9FvTaueIYxxgWyNpT5GwG8iWBoMeLgRQprLL_davsXAZt7MA18LZII8WpW",
+          "timestamp": "2026-08-24T08:55:49.362447+00:00",
+          "interaction": 269
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "在連續數周大舉買入後，對沖基金上周驟然轉向，淨賣出規模創「關稅日」以來最大，市場避險情緒明顯升溫，高盛最新資料顯示，美國多空基金淨槓桿率單周大幅下降3個百分點至48.3％，創近一年新低。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02ZfXX7cRN7tqDh1gdHRHuATvgQTqBFncYZ8PJXUFkdjDHdeTRagpN7ENu6ra4eUBJl?__cft__[0]=AZbgy8Ff9b5InKlkth-vr1LBelYCj1dz7a7HZ9T8t-oFcWaTJpOeCYaUi4I5MAMbA-ufWm6iyjnzTwJt52_9l0zBkYQrggIYBCQ7mrseDMIGNS-R6sgwclgI4RGhY5M1wfk8VyuDNjOEq0irKprkyXlk3EmHvLYL1TINkupeXDm0KcgDEe6EDuQew1rhCBxhnz4",
+          "timestamp": "2026-08-24T08:53:17.575330+00:00",
+          "interaction": 26
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "在連續數周大舉買入後，對沖基金上周驟然轉向，淨賣出規模創「關稅日」以來最大，市場避險情緒明顯升溫，高盛最新資料顯示，美國多空基金淨槓桿率單周大幅下降3個百分點至48.3％，創近一年新低。\n摩根士丹利（大摩）也證實，上周是過去12個月全球股票拋售量第二大的一周。隨著資金快速撤出，資訊科技、公用事業等類股成為主要賣壓來源，市場接下來將聚焦輝達財報與傑克森霍爾會議，能否成為下一個關鍵轉折點。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02ZfXX7cRN7tqDh1gdHRHuATvgQTqBFncYZ8PJXUFkdjDHdeTRagpN7ENu6ra4eUBJl?__tn__=%2CO",
+          "timestamp": "2026-08-24T08:53:17.575330+00:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 154,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股近期最狂飆股世紀*（5314）除權後一路「尬爆」空方！公司8月14日除權，每千股無償配發3,157.03股新股，除權參考價14.75元，股價卻一路攻高，至24日早盤已連拉7根漲停、股價28.6元，7個交易日累計漲幅幾乎翻倍，讓原本布局空方的投資人面臨龐大回補壓力，也引起多個投資論壇的熱烈討論。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02vE6qLk8Hv7JpMstNP24An39yHGoGqpwVD676AhktdwusMWamo3tedHHTaFuGJYAHl?__cft__[0]=AZZEjOYqb2idAlt1lpeR_jzqxpP4mW6BpsWamznSOVeBWlQa8KNSMunHXrGpBHV3116aIVTEUqUoYgXKGJAKAyFltSEQ19l37r-E9PMJk14iQmELdeBbxJh1B2q9n0KqMt2OHgYg1Z6noCOsLKgSAzs55ZK-JdDaCd8w7-QX8Kh4SN7jg1loQrQiZDPnc_k-qK4",
+          "timestamp": "2026-08-24T08:53:17.575330+00:00",
+          "interaction": 89
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股ETF吸人氣 0050受益人新增近150萬居冠 「這檔」主動式ETF破百萬緊追其後】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0iE78CN6kr9C9uLCqjwwcSq2EjEcHRKKaYV7BmpYECjubW3nvjYxf98R9444icxvUl?__cft__[0]=AZZ-IPK97nlj8ashyJ1k5w5_q8EPymiK_HYAWKqS_637asTmrY1GG5dH-xqIx6uzZMSiwTxxw8vM4cRNPIEkCeWr8jFIyponLNHiN2r6wcZN17mtNyUxzEYY9V4OjzliNtt9jwMLlPJt_VXKbqHbpXJcvIku2MYW5et5b4sBMQtLQWhJjDNFbELQJfZ5Eviv0eM",
+          "timestamp": "2026-08-24T08:53:17.575330+00:00",
+          "interaction": 32
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "雖美伊關係緊張與全球債市警報未解，但受上周五美股四大指數漲多跌少、費城半導體指數僅小跌0.51％激勵，台股今(24)日開盤上漲16.01點、以45,240.3點開出，盤中一度升至45,362.30點，上漲138.01點…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid035znx9d5w4g6J2JkHpDuM7wz9tQsyyuMeo12fm7TfaztLTUDWiPb7V6cZPThFBYTsl?__cft__[0]=AZbD9SzgOF8XmTkDF4YR0CY70cJxzAM8MMBWrReiHHba_9Y4vPDkxEz0-fCJOCjSQH7LOVwbdo7ocoSi5J7zpWZg4LQ0wgNzPxFhv_d4yRVjGSXZI7_1gN-IBH4obvYce8jzRiDcxDeP4f4liRizv5lH6wmQ6Gq-EIIofjOc8EdrQgUrzDg2qjHh6tCGL1HHg6s",
+          "timestamp": "2026-08-24T08:53:17.575330+00:00",
+          "interaction": 29
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【8／24盤中焦點股】\n✓台股掀股王爭霸戰！川湖今漲停14,720元 將挑戰信驊寶座…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0QQeiiX3TgwsRdtYZUyGPwWmaejpzrzGPgGEG9xm4c1LBm392K3wddZ2yeEJDpDrHl?__cft__[0]=AZZth0mUc0D9e63mXs5Xiz7WOAanwOtxsT4nyyJMfQ-ujQmUJMy7owRWBVU02q8aqZcPP9yQolHmDZi5Cne2Oje5Wyp4umK7ll-O8TADkZ3GTX2gEFVVSHMRiaSjI2-OrFEeWrLcVQcDU6PgPvYe-TpYhmIIy3hd9FhlcD63uXUEQj3AFPrHJzLTwnH_6qq22Sg",
+          "timestamp": "2026-08-24T08:53:17.575330+00:00",
+          "interaction": 4
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "N",
+      "label": "地緣政治 / 政策",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 295,
+      "competitors_covering": [
+        "ctee.fans",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "2026/8/24(一)美債救不動 黃金 比特幣先起飛?關稅戰再起 最後誰買單？【早晨財經速解讀】…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/videos/1267637018724486/?__cft__[0]=AZaiAMehMI28lp7qp1puLMj4vhbWtbPeRue1HPZPluKZjy-jSVlXBE_2IWDc6mbZZ9wbViJpnmKZuXeYEj85u0K7eUbCHVDgZLiyBJf9viX7OKw_wIBt5Ob1FxZtWfgd6vCkRAJjsW2IEWSYITlnhdBaQ2PpFf9FvTaueIYxxgWyNpT5GwG8iWBoMeLgRQprLL_davsXAZt7MA18LZII8WpW",
+          "timestamp": "2026-08-24T08:55:49.362447+00:00",
+          "interaction": 269
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "在連續數周大舉買入後，對沖基金上周驟然轉向，淨賣出規模創「關稅日」以來最大，市場避險情緒明顯升溫，高盛最新資料顯示，美國多空基金淨槓桿率單周大幅下降3個百分點至48.3％，創近一年新低。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02ZfXX7cRN7tqDh1gdHRHuATvgQTqBFncYZ8PJXUFkdjDHdeTRagpN7ENu6ra4eUBJl?__cft__[0]=AZbgy8Ff9b5InKlkth-vr1LBelYCj1dz7a7HZ9T8t-oFcWaTJpOeCYaUi4I5MAMbA-ufWm6iyjnzTwJt52_9l0zBkYQrggIYBCQ7mrseDMIGNS-R6sgwclgI4RGhY5M1wfk8VyuDNjOEq0irKprkyXlk3EmHvLYL1TINkupeXDm0KcgDEe6EDuQew1rhCBxhnz4",
+          "timestamp": "2026-08-24T08:53:17.575330+00:00",
+          "interaction": 26
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "在連續數周大舉買入後，對沖基金上周驟然轉向，淨賣出規模創「關稅日」以來最大，市場避險情緒明顯升溫，高盛最新資料顯示，美國多空基金淨槓桿率單周大幅下降3個百分點至48.3％，創近一年新低。\n摩根士丹利（大摩）也證實，上周是過去12個月全球股票拋售量第二大的一周。隨著資金快速撤出，資訊科技、公用事業等類股成為主要賣壓來源，市場接下來將聚焦輝達財報與傑克森霍爾會議，能否成為下一個關鍵轉折點。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02ZfXX7cRN7tqDh1gdHRHuATvgQTqBFncYZ8PJXUFkdjDHdeTRagpN7ENu6ra4eUBJl?__tn__=%2CO",
+          "timestamp": "2026-08-24T08:53:17.575330+00:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 154,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股近期最狂飆股世紀*（5314）除權後一路「尬爆」空方！公司8月14日除權，每千股無償配發3,157.03股新股，除權參考價14.75元，股價卻一路攻高，至24日早盤已連拉7根漲停、股價28.6元，7個交易日累計漲幅幾乎翻倍，讓原本布局空方的投資人面臨龐大回補壓力，也引起多個投資論壇的熱烈討論。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02vE6qLk8Hv7JpMstNP24An39yHGoGqpwVD676AhktdwusMWamo3tedHHTaFuGJYAHl?__cft__[0]=AZZEjOYqb2idAlt1lpeR_jzqxpP4mW6BpsWamznSOVeBWlQa8KNSMunHXrGpBHV3116aIVTEUqUoYgXKGJAKAyFltSEQ19l37r-E9PMJk14iQmELdeBbxJh1B2q9n0KqMt2OHgYg1Z6noCOsLKgSAzs55ZK-JdDaCd8w7-QX8Kh4SN7jg1loQrQiZDPnc_k-qK4",
+          "timestamp": "2026-08-24T08:53:17.575330+00:00",
+          "interaction": 89
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股ETF吸人氣 0050受益人新增近150萬居冠 「這檔」主動式ETF破百萬緊追其後】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0iE78CN6kr9C9uLCqjwwcSq2EjEcHRKKaYV7BmpYECjubW3nvjYxf98R9444icxvUl?__cft__[0]=AZZ-IPK97nlj8ashyJ1k5w5_q8EPymiK_HYAWKqS_637asTmrY1GG5dH-xqIx6uzZMSiwTxxw8vM4cRNPIEkCeWr8jFIyponLNHiN2r6wcZN17mtNyUxzEYY9V4OjzliNtt9jwMLlPJt_VXKbqHbpXJcvIku2MYW5et5b4sBMQtLQWhJjDNFbELQJfZ5Eviv0eM",
+          "timestamp": "2026-08-24T08:53:17.575330+00:00",
+          "interaction": 32
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "雖美伊關係緊張與全球債市警報未解，但受上周五美股四大指數漲多跌少、費城半導體指數僅小跌0.51％激勵，台股今(24)日開盤上漲16.01點、以45,240.3點開出，盤中一度升至45,362.30點，上漲138.01點…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid035znx9d5w4g6J2JkHpDuM7wz9tQsyyuMeo12fm7TfaztLTUDWiPb7V6cZPThFBYTsl?__cft__[0]=AZbD9SzgOF8XmTkDF4YR0CY70cJxzAM8MMBWrReiHHba_9Y4vPDkxEz0-fCJOCjSQH7LOVwbdo7ocoSi5J7zpWZg4LQ0wgNzPxFhv_d4yRVjGSXZI7_1gN-IBH4obvYce8jzRiDcxDeP4f4liRizv5lH6wmQ6Gq-EIIofjOc8EdrQgUrzDg2qjHh6tCGL1HHg6s",
+          "timestamp": "2026-08-24T08:53:17.575330+00:00",
+          "interaction": 29
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【8／24盤中焦點股】\n✓台股掀股王爭霸戰！川湖今漲停14,720元 將挑戰信驊寶座…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0QQeiiX3TgwsRdtYZUyGPwWmaejpzrzGPgGEG9xm4c1LBm392K3wddZ2yeEJDpDrHl?__cft__[0]=AZZth0mUc0D9e63mXs5Xiz7WOAanwOtxsT4nyyJMfQ-ujQmUJMy7owRWBVU02q8aqZcPP9yQolHmDZi5Cne2Oje5Wyp4umK7ll-O8TADkZ3GTX2gEFVVSHMRiaSjI2-OrFEeWrLcVQcDU6PgPvYe-TpYhmIIy3hd9FhlcD63uXUEQj3AFPrHJzLTwnH_6qq22Sg",
+          "timestamp": "2026-08-24T08:53:17.575330+00:00",
+          "interaction": 4
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-08-24T15:30:09+08:00",
-    "end_utc": "2026-08-24T16:30:09+08:00",
-    "start_tw": "Aug 24, 15:30",
-    "end_tw": "Aug 24, 16:30"
+    "start_utc": "2026-08-24T07:55:49.362447+00:00",
+    "end_utc": "2026-08-24T08:55:49.362447+00:00",
+    "start_tw": "Aug 24, 15:55",
+    "end_tw": "Aug 24, 16:55"
   }
 }
