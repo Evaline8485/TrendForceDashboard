@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-24T12:30:28+08:00",
+  "generated_at": "2026-08-24T16:30:09+08:00",
   "range": "1h",
   "window_hours": 1,
   "window": {
-    "start_utc": "2026-08-24T11:30:28+08:00",
-    "end_utc": "2026-08-24T12:30:28+08:00",
-    "start_tw": "Aug 24, 11:30",
-    "end_tw": "Aug 24, 12:30"
+    "start_utc": "2026-08-24T15:30:09+08:00",
+    "end_utc": "2026-08-24T16:30:09+08:00",
+    "start_tw": "Aug 24, 15:30",
+    "end_tw": "Aug 24, 16:30"
   },
   "scan_only": false,
   "platforms": {
@@ -14,19 +14,95 @@
       "top_rising_topics": [
         {
           "rising_score": 90.0,
-          "volume_growth_rate": 0.0,
+          "volume_growth_rate": 1.0,
           "engagement_acceleration": -1.0,
           "active_accounts": 1,
-          "rationale": "volume +0% vs prior 1h, engagement rate -100%, 1 account(s) posting",
-          "topic_id": "A",
-          "label": "記憶體 / HBM",
+          "rationale": "volume +100% vs prior 1h, engagement rate -100%, 1 account(s) posting",
+          "topic_id": "K",
+          "label": "AI 模型 / 應用",
+          "rising_kols": [
+            {
+              "rising_score": 90.0,
+              "volume_growth_rate": 2.0,
+              "engagement_acceleration": 0.0,
+              "active_accounts": 1,
+              "rationale": "posts +200%, engagement +0% vs prior 1h",
+              "handle": "technews_tw"
+            },
+            {
+              "rising_score": 10.0,
+              "volume_growth_rate": -1.0,
+              "engagement_acceleration": -1.0,
+              "active_accounts": 0,
+              "rationale": "posts -100%, engagement -100% vs prior 1h",
+              "handle": "HyperTechInvest"
+            }
+          ],
+          "sub_topics": []
+        },
+        {
+          "rising_score": 90.0,
+          "volume_growth_rate": 1.0,
+          "engagement_acceleration": 0.0,
+          "active_accounts": 1,
+          "rationale": "volume +100% vs prior 1h, engagement rate +0%, 1 account(s) posting",
+          "topic_id": "D",
+          "label": "CSP / 資料中心",
           "rising_kols": [
             {
               "rising_score": 50.0,
-              "volume_growth_rate": 0.0,
-              "engagement_acceleration": -1.0,
+              "volume_growth_rate": 1.0,
+              "engagement_acceleration": 0.0,
               "active_accounts": 1,
-              "rationale": "posts +0%, engagement -100% vs prior 1h",
+              "rationale": "posts +100%, engagement +0% vs prior 1h",
+              "handle": "technews_tw"
+            }
+          ],
+          "sub_topics": []
+        },
+        {
+          "rising_score": 70.0,
+          "volume_growth_rate": 0.0,
+          "engagement_acceleration": -0.75,
+          "active_accounts": 1,
+          "rationale": "volume +0% vs prior 1h, engagement rate -75%, 1 account(s) posting",
+          "topic_id": "B",
+          "label": "GPU / AI 加速器",
+          "rising_kols": [
+            {
+              "rising_score": 90.0,
+              "volume_growth_rate": 1.0,
+              "engagement_acceleration": 4.0,
+              "active_accounts": 1,
+              "rationale": "posts +100%, engagement +400% vs prior 1h",
+              "handle": "statementdog"
+            },
+            {
+              "rising_score": 10.0,
+              "volume_growth_rate": -1.0,
+              "engagement_acceleration": -1.0,
+              "active_accounts": 0,
+              "rationale": "posts -100%, engagement -100% vs prior 1h",
+              "handle": "HyperTechInvest"
+            }
+          ],
+          "sub_topics": []
+        },
+        {
+          "rising_score": 10.0,
+          "volume_growth_rate": -1.0,
+          "engagement_acceleration": 0.0,
+          "active_accounts": 0,
+          "rationale": "volume -100% vs prior 1h, engagement rate +0%, 0 account(s) posting",
+          "topic_id": "O",
+          "label": "邊緣 AI / 新終端",
+          "rising_kols": [
+            {
+              "rising_score": 50.0,
+              "volume_growth_rate": -1.0,
+              "engagement_acceleration": 0.0,
+              "active_accounts": 0,
+              "rationale": "posts -100%, engagement +0% vs prior 1h",
               "handle": "technews_tw"
             }
           ],
@@ -35,18 +111,38 @@
         {
           "rising_score": 10.0,
           "volume_growth_rate": -1.0,
-          "engagement_acceleration": -0.5,
+          "engagement_acceleration": 0.0,
           "active_accounts": 0,
-          "rationale": "volume -100% vs prior 1h, engagement rate -50%, 0 account(s) posting",
-          "topic_id": "D",
-          "label": "CSP / 資料中心",
+          "rationale": "volume -100% vs prior 1h, engagement rate +0%, 0 account(s) posting",
+          "topic_id": "N",
+          "label": "地緣政治 / 政策",
           "rising_kols": [
             {
               "rising_score": 50.0,
               "volume_growth_rate": -1.0,
-              "engagement_acceleration": -0.5,
+              "engagement_acceleration": 0.0,
               "active_accounts": 0,
-              "rationale": "posts -100%, engagement -50% vs prior 1h",
+              "rationale": "posts -100%, engagement +0% vs prior 1h",
+              "handle": "technews_tw"
+            }
+          ],
+          "sub_topics": []
+        },
+        {
+          "rising_score": 10.0,
+          "volume_growth_rate": -1.0,
+          "engagement_acceleration": 0.0,
+          "active_accounts": 0,
+          "rationale": "volume -100% vs prior 1h, engagement rate +0%, 0 account(s) posting",
+          "topic_id": "E",
+          "label": "AI 伺服器供應鏈",
+          "rising_kols": [
+            {
+              "rising_score": 50.0,
+              "volume_growth_rate": -1.0,
+              "engagement_acceleration": 0.0,
+              "active_accounts": 0,
+              "rationale": "posts -100%, engagement +0% vs prior 1h",
               "handle": "technews_tw"
             }
           ],
@@ -58,8 +154,8 @@
           "engagement_acceleration": -1.0,
           "active_accounts": 0,
           "rationale": "volume -100% vs prior 1h, engagement rate -100%, 0 account(s) posting",
-          "topic_id": "S",
-          "label": "電網 / 能源基礎設施",
+          "topic_id": "F",
+          "label": "晶圓代工 / 先進製程",
           "rising_kols": [
             {
               "rising_score": 50.0,
@@ -67,6 +163,66 @@
               "engagement_acceleration": -1.0,
               "active_accounts": 0,
               "rationale": "posts -100%, engagement -100% vs prior 1h",
+              "handle": "technews_tw"
+            }
+          ],
+          "sub_topics": []
+        },
+        {
+          "rising_score": 10.0,
+          "volume_growth_rate": -1.0,
+          "engagement_acceleration": -1.0,
+          "active_accounts": 0,
+          "rationale": "volume -100% vs prior 1h, engagement rate -100%, 0 account(s) posting",
+          "topic_id": "G",
+          "label": "IC 設計",
+          "rising_kols": [
+            {
+              "rising_score": 50.0,
+              "volume_growth_rate": -1.0,
+              "engagement_acceleration": -1.0,
+              "active_accounts": 0,
+              "rationale": "posts -100%, engagement -100% vs prior 1h",
+              "handle": "technews_tw"
+            }
+          ],
+          "sub_topics": []
+        },
+        {
+          "rising_score": 10.0,
+          "volume_growth_rate": -1.0,
+          "engagement_acceleration": 0.0,
+          "active_accounts": 0,
+          "rationale": "volume -100% vs prior 1h, engagement rate +0%, 0 account(s) posting",
+          "topic_id": "H",
+          "label": "網通 / 光通訊",
+          "rising_kols": [
+            {
+              "rising_score": 50.0,
+              "volume_growth_rate": -1.0,
+              "engagement_acceleration": 0.0,
+              "active_accounts": 0,
+              "rationale": "posts -100%, engagement +0% vs prior 1h",
+              "handle": "technews_tw"
+            }
+          ],
+          "sub_topics": []
+        },
+        {
+          "rising_score": 10.0,
+          "volume_growth_rate": -1.0,
+          "engagement_acceleration": 0.0,
+          "active_accounts": 0,
+          "rationale": "volume -100% vs prior 1h, engagement rate +0%, 0 account(s) posting",
+          "topic_id": "S",
+          "label": "電網 / 能源基礎設施",
+          "rising_kols": [
+            {
+              "rising_score": 50.0,
+              "volume_growth_rate": -1.0,
+              "engagement_acceleration": 0.0,
+              "active_accounts": 0,
+              "rationale": "posts -100%, engagement +0% vs prior 1h",
               "handle": "technews_tw"
             }
           ],
