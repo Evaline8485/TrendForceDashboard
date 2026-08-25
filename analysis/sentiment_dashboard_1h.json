@@ -1,242 +1,114 @@
 {
-  "generated_at": "2026-08-25T12:32:25+08:00",
+  "generated_at": "2026-08-25T16:30:10+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-08-25T11:32:25+08:00",
-    "end_utc": "2026-08-25T12:32:25+08:00",
-    "start_tw": "Aug 25, 11:32",
-    "end_tw": "Aug 25, 12:32"
+    "start_utc": "2026-08-25T15:30:10+08:00",
+    "end_utc": "2026-08-25T16:30:10+08:00",
+    "start_tw": "Aug 25, 15:30",
+    "end_tw": "Aug 25, 16:30"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
       "total_posts": 11,
       "sentiment_counts": {
-        "positive": 4,
-        "neutral": 4,
-        "negative": 3
+        "negative": 7,
+        "neutral": 2,
+        "positive": 2
       },
       "sentiment_share": {
-        "positive": 0.364,
-        "neutral": 0.364,
-        "negative": 0.273
+        "negative": 0.636,
+        "neutral": 0.182,
+        "positive": 0.182
       },
       "top_terms": [
+        "checks",
         "nvidia",
-        "surge",
-        "server",
-        "hike",
         "hbm",
-        "lagging",
-        "conventional",
-        "dram",
-        "setup",
-        "favorite"
+        "shortage",
+        "stanley",
+        "druckenmiller",
+        "indicate",
+        "prices",
+        "server",
+        "remained"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 0,
-        "label": "surge",
+        "label": "hbm / shortage / nvidia / checks",
         "heat": 90.0,
         "volume": 9,
-        "engagement": 43,
-        "entities": [],
+        "engagement": 192,
+        "entities": [
+          "三星"
+        ],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "nvidia / surge",
+        "label": "stanley / druckenmiller",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 7,
+        "engagement": 6,
         "entities": [],
         "is_catchall": false
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "三星",
+        "count": 1
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-25T11:32:25.000002+08:00",
-        "bucket_end": "2026-08-25T11:36:42.142859+08:00",
-        "positive": 0,
+        "bucket_start": "2026-08-25T15:30:10.000002+08:00",
+        "bucket_end": "2026-08-25T15:34:27.142859+08:00",
+        "positive": 1,
         "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 16,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 16,
+        "negative": 2,
+        "positive_engagement": 31,
+        "neutral_engagement": 6,
+        "negative_engagement": 8,
+        "net_sentiment": -25.0,
+        "post_count": 4,
+        "engagement": 45,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "surge",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Tokio Marine plots multibillion-dollar deal after Berkshire takes stake",
-            "url": "https://x.com/FT/status/2092093606232265190",
-            "interaction": 16
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T11:36:42.142859+08:00",
-        "bucket_end": "2026-08-25T11:40:59.285716+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T11:40:59.285716+08:00",
-        "bucket_end": "2026-08-25T11:45:16.428573+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T11:45:16.428573+08:00",
-        "bucket_end": "2026-08-25T11:49:33.571430+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T11:49:33.571430+08:00",
-        "bucket_end": "2026-08-25T11:53:50.714287+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T11:53:50.714287+08:00",
-        "bucket_end": "2026-08-25T11:58:07.857144+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 2,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 2,
-        "top_topics": [
+            "label": "hbm / shortage / nvidia / checks",
+            "count": 2
+          },
           {
             "topic_id": 1,
-            "label": "nvidia / surge",
-            "count": 1
+            "label": "stanley / druckenmiller",
+            "count": 2
           }
         ],
         "top_posts": [
           {
-            "handle": "statementdog",
+            "handle": "tphuang",
             "platform": "X",
-            "text": "New estimates from Taiwan expect NVIDIA  $NVDA ’s move to 1.6T cables to begin in 4Q26, with the larger ramp coming in 2027.  They also cut active electrical cable revenue forecasts for Taiwan supplie",
-            "url": "https://x.com/statementdog/status/2092098727716569152",
-            "interaction": 2
-          }
-        ],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T11:58:07.857144+08:00",
-        "bucket_end": "2026-08-25T12:02:25.000001+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T12:02:25.000001+08:00",
-        "bucket_end": "2026-08-25T12:06:42.142858+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 5,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 5,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "nvidia / surge",
-            "count": 1
-          }
-        ],
-        "top_posts": [
+            "text": "It's 3 PM here in Beijing where I'm trying to do work. I got GLM-5.3 charging the usual 3x API cost at the same time this mysterious ox alpha model is entirely unreachable.  Yet, ppl are convinced tha",
+            "url": "https://x.com/tphuang/status/2092152805695901824",
+            "interaction": 31
+          },
           {
             "handle": "TrendForce",
             "platform": "X",
-            "text": "NVIDIA’s reported 15% server price hike + HBM lagging conventional DRAM growth = The perfect setup for a major HBM surge in 2027.",
-            "url": "https://x.com/trendforce/status/2092100687559803337",
-            "interaction": 5
+            "text": "TrendForce’s supply chain checks indicate that prices for NVIDIA’s server GPUs have remained largely unchanged so far this year. However, rising costs for upstream components such as HBM and wafers, c",
+            "url": "https://x.com/trendforce/status/2092152691422281793",
+            "interaction": 8
           }
         ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
+        "net_sentiment_smoothed": -8.3,
+        "is_anomaly": true
       },
       {
-        "bucket_start": "2026-08-25T12:06:42.142858+08:00",
-        "bucket_end": "2026-08-25T12:10:59.285715+08:00",
+        "bucket_start": "2026-08-25T15:34:27.142859+08:00",
+        "bucket_end": "2026-08-25T15:38:44.285716+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -248,25 +120,138 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -6.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T12:10:59.285715+08:00",
-        "bucket_end": "2026-08-25T12:15:16.428572+08:00",
+        "bucket_start": "2026-08-25T15:38:44.285716+08:00",
+        "bucket_end": "2026-08-25T15:43:01.428573+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -25.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T15:43:01.428573+08:00",
+        "bucket_end": "2026-08-25T15:47:18.571430+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T15:47:18.571430+08:00",
+        "bucket_end": "2026-08-25T15:51:35.714287+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 8,
+        "negative_engagement": 115,
         "net_sentiment": -100.0,
         "post_count": 1,
-        "engagement": 8,
+        "engagement": 115,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "surge",
+            "label": "hbm / shortage / nvidia / checks",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Meritz Securities: According to our channel checks, Japan’s Ajinomoto has recently informed customers that, due to an acute supply shortage, it will prioritize allocations for AI and high-end applicat",
+            "url": "https://x.com/jukan05/status/2092157094271324610",
+            "interaction": 115
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T15:51:35.714287+08:00",
+        "bucket_end": "2026-08-25T15:55:52.857144+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T15:55:52.857144+08:00",
+        "bucket_end": "2026-08-25T16:00:10.000001+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 6,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 6,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "hbm / shortage / nvidia / checks",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$SKHY  had already shipped HBM4E using MR-MUF, so this was pretty much confirmed months ago",
+            "url": "https://x.com/HyperTechInvest/status/2092159915477585966",
+            "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T16:00:10.000001+08:00",
+        "bucket_end": "2026-08-25T16:04:27.142858+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 22,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 22,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "hbm / shortage / nvidia / checks",
             "count": 1
           }
         ],
@@ -274,17 +259,34 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "US grain farmers pummelled as Iran war triggers surge in costs",
-            "url": "https://x.com/FT/status/2092103261884977622",
-            "interaction": 8
+            "text": "Don’t rush in, there are many business risks for the maker of Claude, says Simon Edelsten:  https:// ft.trib.al/8mHIiRe",
+            "url": "https://x.com/FT/status/2092160833769939452",
+            "interaction": 22
           }
         ],
-        "net_sentiment_smoothed": -10.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T12:15:16.428572+08:00",
-        "bucket_end": "2026-08-25T12:19:33.571429+08:00",
+        "bucket_start": "2026-08-25T16:04:27.142858+08:00",
+        "bucket_end": "2026-08-25T16:08:44.285715+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T16:08:44.285715+08:00",
+        "bucket_end": "2026-08-25T16:13:01.428572+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -300,46 +302,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T12:19:33.571429+08:00",
-        "bucket_end": "2026-08-25T12:23:50.714286+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 8,
-        "negative_engagement": 5,
-        "net_sentiment": -50.0,
-        "post_count": 2,
-        "engagement": 13,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "surge",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Iranians queue for petrol as US blockade bites",
-            "url": "https://x.com/FT/status/2092105493237878964",
-            "interaction": 8
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "In a wide-ranging interview with the FT’s Alec Russell, the UN chief described a world being reshaped by the decline of US dominance, the rise of new powers and the humbling lessons from wars of choic",
-            "url": "https://x.com/FT/status/2092105580198428684",
-            "interaction": 5
-          }
-        ],
-        "net_sentiment_smoothed": -16.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T12:23:50.714286+08:00",
-        "bucket_end": "2026-08-25T12:28:07.857143+08:00",
+        "bucket_start": "2026-08-25T16:13:01.428572+08:00",
+        "bucket_end": "2026-08-25T16:17:18.571429+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -351,76 +315,104 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 4.2,
+        "net_sentiment_smoothed": -30.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T12:28:07.857143+08:00",
-        "bucket_end": "2026-08-25T12:32:25+08:00",
-        "positive": 2,
+        "bucket_start": "2026-08-25T16:17:18.571429+08:00",
+        "bucket_end": "2026-08-25T16:21:35.714286+08:00",
+        "positive": 0,
         "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 1,
+        "negative": 1,
+        "positive_engagement": 0,
         "neutral_engagement": 1,
-        "negative_engagement": 0,
-        "net_sentiment": 66.7,
-        "post_count": 3,
-        "engagement": 2,
+        "negative_engagement": 6,
+        "net_sentiment": -50.0,
+        "post_count": 2,
+        "engagement": 7,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "surge",
-            "count": 3
+            "label": "hbm / shortage / nvidia / checks",
+            "count": 2
           }
         ],
         "top_posts": [
           {
-            "handle": "tphuang",
+            "handle": "HyperTechInvest",
             "platform": "X",
-            "text": "Our 3 favorite flash/small models: Ox Alpha is seeing huge adoption as seen on OpenRouter. Great marketing effort by Zai here, since it's just 1 wk & ppl can try it out. Pretty clear it's GLM-5.3t  Bi",
-            "url": "https://x.com/tphuang/status/2092107101627994540",
-            "interaction": 1
+            "text": "$NVDA  created the neocloud industry from 0 by leveraging the GPU shortage  It took massive confidence in its moat, but NVIDIA knew it had to take advantage of its quasi-monopoly   $NVDA  managed to g",
+            "url": "https://x.com/HyperTechInvest/status/2092165389988098361",
+            "interaction": 6
           },
           {
-            "handle": "FT",
+            "handle": "QQ_Timmy",
             "platform": "X",
-            "text": "Austerity denial and the mystery of Britain’s shrunken state",
-            "url": "https://x.com/FT/status/2092107795784958428",
+            "text": "儘管AI需求加劇DRAM短缺，三星電子今年下半年增產速度預計低於市場預期。主要因優先從1b（10nm第五代）轉向1c（第六代）製程，重心放在提升良率與生產性，而非單純擴大產量。",
+            "url": "https://x.com/QQ_Timmy/status/2092165080079012335",
             "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": 5.6,
-        "is_anomaly": true
+        "net_sentiment_smoothed": -30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T16:21:35.714286+08:00",
+        "bucket_end": "2026-08-25T16:25:52.857143+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 1,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "hbm / shortage / nvidia / checks",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Absolutely insane stuff from  $AMD    I'll put it simply:  $AMD  is the next multi-trillion-dollar company  Lisa Su is one of the top 5 CEOs in history for the turnaround she has pulled off",
+            "url": "https://x.com/HyperTechInvest/status/2092166189070041102",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": -37.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T16:25:52.857143+08:00",
+        "bucket_end": "2026-08-25T16:30:10+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -50.0,
+        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
         "topic_id": 0,
-        "label": "surge",
+        "label": "hbm / shortage / nvidia / checks",
         "cells": [
           {
             "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -443,6 +435,44 @@
             "volume": 0
           },
           {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "stanley / druckenmiller",
+        "cells": [
+          {
             "net_sentiment": -50.0,
             "volume": 2
           },
@@ -451,16 +481,6 @@
             "volume": 0
           },
           {
-            "net_sentiment": 66.7,
-            "volume": 3
-          }
-        ]
-      },
-      {
-        "topic_id": 1,
-        "label": "nvidia / surge",
-        "cells": [
-          {
             "net_sentiment": 0.0,
             "volume": 0
           },
@@ -481,16 +501,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -522,16 +534,16 @@
     "coverage_focus_ranking": [
       {
         "handle": "TrendForce",
-        "top_topic_id": 1,
-        "top_topic_label": "nvidia / surge",
+        "top_topic_id": 0,
+        "top_topic_label": "hbm / shortage / nvidia / checks",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
-        "handle": "statementdog",
-        "top_topic_id": 1,
-        "top_topic_label": "nvidia / surge",
+        "handle": "jukan05",
+        "top_topic_id": 0,
+        "top_topic_label": "hbm / shortage / nvidia / checks",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
@@ -539,7 +551,7 @@
       {
         "handle": "tphuang",
         "top_topic_id": 0,
-        "top_topic_label": "surge",
+        "top_topic_label": "hbm / shortage / nvidia / checks",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
@@ -547,45 +559,61 @@
       {
         "handle": "FT",
         "top_topic_id": 0,
-        "top_topic_label": "surge",
+        "top_topic_label": "hbm / shortage / nvidia / checks",
         "focus_share": 1.0,
-        "post_count": 8,
+        "post_count": 2,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "HyperTechInvest",
+        "top_topic_id": 0,
+        "top_topic_label": "hbm / shortage / nvidia / checks",
+        "focus_share": 1.0,
+        "post_count": 3,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 1,
+        "top_topic_label": "stanley / druckenmiller",
+        "focus_share": 0.667,
+        "post_count": 3,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 0,
-        "label": "surge",
-        "total_engagement": 43,
+        "label": "hbm / shortage / nvidia / checks",
+        "total_engagement": 192,
         "post_count": 9,
-        "top_account": "FT",
-        "top_account_engagement": 42,
+        "top_account": "jukan05",
+        "top_account_engagement": 115,
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "nvidia / surge",
-        "total_engagement": 7,
+        "label": "stanley / druckenmiller",
+        "total_engagement": 6,
         "post_count": 2,
-        "top_account": "TrendForce",
-        "top_account_engagement": 5,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 6,
         "is_catchall": false
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 2,
-          "likes": 11,
-          "engagement": 18,
-          "avg_engagement": 9.0
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 9,
-          "likes": 18,
-          "engagement": 32,
-          "avg_engagement": 3.6
+          "post_count": 11,
+          "likes": 159,
+          "engagement": 198,
+          "avg_engagement": 18.0
         },
         "evening": {
           "post_count": 0,

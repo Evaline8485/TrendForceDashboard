@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-25T12:32:25+08:00",
+  "generated_at": "2026-08-25T16:30:10+08:00",
   "time_range": "1q",
   "window": {
-    "start_utc": "2026-05-27T12:32:25+08:00",
-    "end_utc": "2026-08-25T12:32:25+08:00",
-    "start_tw": "May 27, 12:32",
-    "end_tw": "Aug 25, 12:32"
+    "start_utc": "2026-05-27T16:30:10+08:00",
+    "end_utc": "2026-08-25T16:30:10+08:00",
+    "start_tw": "May 27, 16:30",
+    "end_tw": "Aug 25, 16:30"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 10099,
+      "total_posts": 10121,
       "sentiment_counts": {
-        "positive": 4915,
-        "negative": 2347,
-        "neutral": 2837
+        "negative": 2358,
+        "positive": 4920,
+        "neutral": 2843
       },
       "sentiment_share": {
-        "positive": 0.487,
-        "negative": 0.232,
+        "negative": 0.233,
+        "positive": 0.486,
         "neutral": 0.281
       },
       "top_terms": [
@@ -31,31 +31,46 @@
         "nvidia",
         "optical",
         "optica",
-        "demand"
+        "scale"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 33,
-        "label": "korea / taiwan / revenue / japan",
+        "topic_id": 1,
+        "label": "gdp / trump / stock / revenue",
         "heat": 90.0,
-        "volume": 402,
-        "engagement": 69887,
+        "volume": 468,
+        "engagement": 84568,
         "entities": [
-          "鴻海",
+          "台灣",
           "美國",
-          "韓國",
+          "川普",
           "日本",
-          "美國陸軍"
+          "韓國"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 6,
+        "topic_id": 10,
+        "label": "deepseek / kimi / inference / models",
+        "heat": 80.0,
+        "volume": 331,
+        "engagement": 67042,
+        "entities": [
+          "中國",
+          "美國",
+          "伺服器",
+          "貝佐斯",
+          "歐洲"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
         "label": "nvidia / rubin / jensen / rack",
-        "heat": 85.1,
+        "heat": 71.8,
         "volume": 272,
-        "engagement": 64283,
+        "engagement": 63655,
         "entities": [
           "黃仁勳",
           "輝達",
@@ -66,26 +81,41 @@
         "is_catchall": false
       },
       {
-        "topic_id": 19,
-        "label": "deepseek / kimi / glm / models",
-        "heat": 82.2,
-        "volume": 304,
-        "engagement": 58821,
+        "topic_id": 26,
+        "label": "byd / pcb / semianalysis / rubin",
+        "heat": 65.0,
+        "volume": 351,
+        "engagement": 41094,
         "entities": [
-          "中國",
           "日本",
+          "台灣",
+          "高盛",
           "美國",
-          "歐洲",
-          "山東"
+          "中國"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 17,
-        "label": "samsung / foundry / electronics / korean",
-        "heat": 62.2,
-        "volume": 159,
-        "engagement": 64900,
+        "topic_id": 12,
+        "label": "capacity / canada / optical / demand",
+        "heat": 52.4,
+        "volume": 276,
+        "engagement": 42216,
+        "entities": [
+          "三星",
+          "新加坡",
+          "伺服器",
+          "台積電",
+          "太空梭"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 28,
+        "label": "samsung / oled / foundry / electronics",
+        "heat": 49.8,
+        "volume": 173,
+        "engagement": 60538,
         "entities": [
           "三星",
           "韓國",
@@ -96,41 +126,11 @@
         "is_catchall": false
       },
       {
-        "topic_id": 3,
-        "label": "byd / inference / 約新台幣 / auto",
-        "heat": 60.5,
-        "volume": 349,
-        "engagement": 25559,
-        "entities": [
-          "美國",
-          "台灣",
-          "中國",
-          "日月光",
-          "莫德納"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 23,
-        "label": "memory / prices / cxmt / shortage",
-        "heat": 56.0,
-        "volume": 215,
-        "engagement": 46017,
-        "entities": [
-          "日本",
-          "氟化",
-          "關東",
-          "美光科技",
-          "美國"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 7,
+        "topic_id": 21,
         "label": "hynix / sk / samsung / memory",
-        "heat": 55.4,
+        "heat": 47.5,
         "volume": 167,
-        "engagement": 57557,
+        "engagement": 57630,
         "entities": [
           "韓國",
           "三星",
@@ -141,41 +141,56 @@
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "anthropic / claude / openai / fable",
-        "heat": 55.2,
-        "volume": 169,
-        "engagement": 56974,
+        "topic_id": 2,
+        "label": "memory / prices / cxmt / shortage",
+        "heat": 43.1,
+        "volume": 208,
+        "engagement": 45417,
+        "entities": [
+          "日本",
+          "氟化",
+          "關東",
+          "美光科技",
+          "美國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 27,
+        "label": "anthropic / claude / fable / 美軍",
+        "heat": 38.3,
+        "volume": 136,
+        "engagement": 51044,
         "entities": [
           "美軍",
           "中國",
-          "美國",
           "博通",
+          "美國",
           "三星"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 16,
-        "label": "tsmc / nm / intel / packaging",
-        "heat": 49.5,
-        "volume": 239,
-        "engagement": 34042,
+        "topic_id": 20,
+        "label": "tsmc / nm / packaging / copos",
+        "heat": 28.0,
+        "volume": 204,
+        "engagement": 30032,
         "entities": [
           "台積電",
-          "英特爾",
-          "桑那州",
           "深度",
-          "亞利"
+          "三星",
+          "采鈺龍",
+          "邱銘乾"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 8,
-        "label": "dram / hbm / nand / ddr",
-        "heat": 40.7,
-        "volume": 217,
-        "engagement": 32447,
+        "topic_id": 18,
+        "label": "dram / ddr / hbm / 南亞科",
+        "heat": 26.1,
+        "volume": 191,
+        "engagement": 29457,
         "entities": [
           "美光",
           "南亞科",
@@ -186,56 +201,71 @@
         "is_catchall": false
       },
       {
-        "topic_id": 10,
-        "label": "inp / silicon / wafer / meant",
-        "heat": 40.0,
-        "volume": 246,
-        "engagement": 23264,
+        "topic_id": 23,
+        "label": "server / cpu / arm / asic",
+        "heat": 25.7,
+        "volume": 226,
+        "engagement": 22790,
         "entities": [
           "伺服器",
+          "聯發科",
           "日本",
-          "中國",
-          "深圳",
-          "廣東建"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
-        "label": "optical / scale / photonics / canada",
-        "heat": 32.2,
-        "volume": 235,
-        "engagement": 19832,
-        "entities": [
-          "台灣",
           "台積電",
-          "富蘭克林號",
-          "方德",
-          "深圳"
+          "小摩"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 37,
-        "label": "packaging / glass / advanced / intel",
-        "heat": 27.0,
-        "volume": 170,
-        "engagement": 27786,
+        "topic_id": 13,
+        "label": "ceo / manufacturing / jensen / photonics",
+        "heat": 24.7,
+        "volume": 189,
+        "engagement": 26943,
+        "entities": [
+          "伯克利",
+          "三星",
+          "中美",
+          "台積電",
+          "韓國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 38,
+        "label": "optical / packaging / scale / photonics",
+        "heat": 24.5,
+        "volume": 248,
+        "engagement": 17692,
         "entities": [
           "台積電",
           "中研院",
           "台灣",
-          "新科",
-          "吳顯揚"
+          "美國",
+          "新科"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 26,
-        "label": "hbm / memory / kospi / samsung",
-        "heat": 25.8,
-        "volume": 171,
-        "engagement": 25767,
+        "topic_id": 29,
+        "label": "nand / flash / dram / ssd",
+        "heat": 24.3,
+        "volume": 193,
+        "engagement": 25552,
+        "entities": [
+          "美光",
+          "日本",
+          "三星",
+          "清州",
+          "貝恩"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "hbm / memory / kospi / sk海力士",
+        "heat": 23.0,
+        "volume": 174,
+        "engagement": 26729,
         "entities": [
           "三星",
           "輝達",
@@ -246,161 +276,116 @@
         "is_catchall": false
       },
       {
-        "topic_id": 20,
-        "label": "nand / flash / ssd / kioxia",
-        "heat": 23.9,
-        "volume": 165,
-        "engagement": 23931,
+        "topic_id": 9,
+        "label": "openai / anthropic / chatgpt / token",
+        "heat": 19.5,
+        "volume": 157,
+        "engagement": 19310,
         "entities": [
-          "美光",
+          "美國",
+          "馬斯克",
           "日本",
-          "三星",
-          "貝恩",
-          "清州"
+          "輝達",
+          "韓國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "intel / tsmc / intc / emib",
+        "heat": 18.1,
+        "volume": 122,
+        "engagement": 30918,
+        "entities": [
+          "英特爾",
+          "智慧",
+          "美國",
+          "蔡司",
+          "愛爾蘭"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "meta / alphabet / 亞馬遜 / amazon",
+        "heat": 18.1,
+        "volume": 144,
+        "engagement": 14637,
+        "entities": [
+          "波克夏",
+          "谷歌",
+          "微軟",
+          "智慧",
+          "日本"
         ],
         "is_catchall": false
       },
       {
         "topic_id": 36,
-        "label": "server / cpu / 微軟 / arm",
-        "heat": 23.1,
-        "volume": 204,
-        "engagement": 16075,
+        "label": "inp / silicon / meant / wafer",
+        "heat": 18.0,
+        "volume": 173,
+        "engagement": 14352,
         "entities": [
-          "微軟",
+          "深圳",
+          "廣東建",
+          "庫克",
+          "日本",
+          "聯亞"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "ai伺服器 / 自動化展 / kumamoto / 日宣布",
+        "heat": 17.3,
+        "volume": 156,
+        "engagement": 12311,
+        "entities": [
           "伺服器",
-          "台積電",
-          "聯發科",
-          "日本"
+          "鴻海",
+          "美光",
+          "日本",
+          "美國"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 9,
-        "label": "manufacturing / jensen / infrastructure / capacity",
-        "heat": 21.2,
-        "volume": 146,
-        "engagement": 24144,
-        "entities": [
-          "美國產業協會",
-          "聯合",
-          "財政部",
-          "通訊",
-          "商務部"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 32,
-        "label": "gb / rubin / tlc / rack",
-        "heat": 19.6,
-        "volume": 147,
-        "engagement": 18010,
-        "entities": [
-          "小摩",
-          "摩根士丹利",
-          "大摩",
-          "摩根",
-          "黃仁勳"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 27,
-        "label": "quantum / reach / sector / glasgow",
-        "heat": 18.9,
-        "volume": 196,
-        "engagement": 11818,
-        "entities": [
-          "美國",
-          "株式会社",
-          "伺服器",
-          "上市",
-          "岡本"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 31,
-        "label": "meta / alphabet / amazon / google",
-        "heat": 18.8,
-        "volume": 136,
-        "engagement": 14056,
-        "entities": [
-          "波克夏",
-          "谷歌",
-          "智慧",
-          "微軟",
-          "華爾街"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 38,
-        "label": "global / ceo / photonics / panel",
-        "heat": 18.5,
-        "volume": 164,
-        "engagement": 13206,
-        "entities": [
-          "伯克利",
-          "三星",
-          "新加坡",
-          "英飛凌",
-          "德勒斯"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 13,
-        "label": "google / tpu / marvell / pixel",
-        "heat": 18.3,
-        "volume": 153,
-        "engagement": 12646,
-        "entities": [
-          "博通",
-          "聯發科",
-          "三星",
-          "中國",
-          "輝達"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 24,
-        "label": "openai / chatgpt / ed / uber",
-        "heat": 18.3,
-        "volume": 129,
-        "engagement": 13957,
-        "entities": [
-          "美國",
-          "馬斯克",
-          "輝達",
-          "韓國",
-          "日本"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 14,
-        "label": "fusion / laser / cc / lutz",
-        "heat": 17.9,
-        "volume": 124,
-        "engagement": 13573,
+        "topic_id": 16,
+        "label": "fusion / laser / cc / photonics",
+        "heat": 17.1,
+        "volume": 135,
+        "engagement": 11889,
         "entities": [
           "川普",
           "台積電",
           "美國",
-          "黑洞",
-          "亞利"
+          "亞利",
+          "桑那"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 22,
-        "label": "excellent / lidar / summary / sensing",
-        "heat": 17.5,
-        "volume": 120,
-        "engagement": 14502,
+        "topic_id": 11,
+        "label": "quantum / reach / sector / glasgow",
+        "heat": 17.0,
+        "volume": 196,
+        "engagement": 11452,
+        "entities": [
+          "美國",
+          "黑洞",
+          "株式会社",
+          "波訊",
+          "伺服器"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 19,
+        "label": "lidar / sensing / robotics / vision",
+        "heat": 16.9,
+        "volume": 112,
+        "engagement": 12360,
         "entities": [
           "亞洲",
           "威盛",
@@ -411,71 +396,26 @@
         "is_catchall": false
       },
       {
-        "topic_id": 11,
-        "label": "spacex / 馬斯克 / ipo / starlink",
-        "heat": 17.3,
-        "volume": 141,
-        "engagement": 10336,
+        "topic_id": 8,
+        "label": "google / tpu / marvell / pixel",
+        "heat": 16.9,
+        "volume": 150,
+        "engagement": 11421,
         "entities": [
-          "馬斯克",
-          "上市",
-          "美國",
-          "輝達",
-          "衛星"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 18,
-        "label": "pcb / defence / fibre / ukraine",
-        "heat": 16.8,
-        "volume": 182,
-        "engagement": 9349,
-        "entities": [
-          "台灣",
-          "美國",
-          "高盛",
-          "日本",
+          "博通",
+          "聯發科",
+          "三星",
+          "中國",
           "輝達"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 15,
-        "label": "photonics / ibm / wonder / eu",
-        "heat": 16.7,
-        "volume": 192,
-        "engagement": 9022,
-        "entities": [
-          "新加坡",
-          "川普",
-          "深度",
-          "伺服器",
-          "益普索"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 34,
-        "label": "mlcc / ai伺服器 / mlc / ccl",
-        "heat": 16.3,
-        "volume": 108,
-        "engagement": 11022,
-        "entities": [
-          "伺服器",
-          "高盛",
-          "國巨",
-          "京瓷",
-          "鴻海"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 25,
-        "label": "amd / nvidia / cpu / tpu",
-        "heat": 15.9,
-        "volume": 105,
-        "engagement": 14674,
+        "topic_id": 31,
+        "label": "amd / nvidia / cpu / mrvl",
+        "heat": 16.6,
+        "volume": 109,
+        "engagement": 15088,
         "entities": [
           "英特爾",
           "伺服器",
@@ -486,11 +426,56 @@
         "is_catchall": false
       },
       {
-        "topic_id": 21,
-        "label": "cpo / ky / 大立光 / 隨著",
+        "topic_id": 4,
+        "label": "photonics / global / optica / wonder",
+        "heat": 15.8,
+        "volume": 201,
+        "engagement": 8783,
+        "entities": [
+          "英飛凌",
+          "德勒斯",
+          "美國",
+          "德國",
+          "川普"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 24,
+        "label": "spacex / 馬斯克 / ipo / starlink",
+        "heat": 15.7,
+        "volume": 140,
+        "engagement": 8672,
+        "entities": [
+          "馬斯克",
+          "上市",
+          "美國",
+          "輝達",
+          "衛星"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 32,
+        "label": "科技早報 / defence / ukraine / fibre",
         "heat": 15.3,
-        "volume": 145,
-        "engagement": 6612,
+        "volume": 201,
+        "engagement": 7877,
+        "entities": [
+          "美國",
+          "中國",
+          "黑洞",
+          "阿茲海",
+          "默症"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "cpo / 光通訊 / ky / 大立光",
+        "heat": 14.8,
+        "volume": 135,
+        "engagement": 6794,
         "entities": [
           "大立光",
           "台積電",
@@ -501,11 +486,11 @@
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 39,
         "label": "asml / euv / 將於 / niesing",
-        "heat": 14.6,
-        "volume": 115,
-        "engagement": 5529,
+        "heat": 14.0,
+        "volume": 112,
+        "engagement": 5459,
         "entities": [
           "台積電",
           "美國",
@@ -516,26 +501,11 @@
         "is_catchall": false
       },
       {
-        "topic_id": 30,
-        "label": "iphone / 蘋果 / 記憶體漲價 / 供應鏈",
-        "heat": 13.4,
-        "volume": 90,
-        "engagement": 3888,
-        "entities": [
-          "智慧",
-          "中國",
-          "日本",
-          "印度",
-          "台灣"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 12,
+        "topic_id": 35,
         "label": "台積電 / 魏哲家 / 最新 / 力積電",
-        "heat": 11.5,
-        "volume": 126,
-        "engagement": 1717,
+        "heat": 11.4,
+        "volume": 128,
+        "engagement": 1793,
         "entities": [
           "台積電",
           "魏哲家",
@@ -546,29 +516,29 @@
         "is_catchall": false
       },
       {
-        "topic_id": 28,
-        "label": "輝達 / 黃仁勳 / ai晶片 / 核能",
-        "heat": 11.0,
-        "volume": 150,
-        "engagement": 1189,
+        "topic_id": 30,
+        "label": "輝達 / 黃仁勳 / ai晶片 / 攜手",
+        "heat": 10.8,
+        "volume": 133,
+        "engagement": 1095,
         "entities": [
           "輝達",
           "黃仁勳",
           "中國",
-          "美國",
-          "韓國"
+          "韓國",
+          "摩根士丹利"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 39,
-        "label": "蘋果 / ios / 長鑫存儲 / app",
-        "heat": 10.6,
-        "volume": 93,
-        "engagement": 822,
+        "topic_id": 37,
+        "label": "蘋果 / iphone / ios / app",
+        "heat": 10.8,
+        "volume": 130,
+        "engagement": 1051,
         "entities": [
-          "英特爾",
           "中國",
+          "英特爾",
           "智慧",
           "長江",
           "美國"
@@ -576,11 +546,11 @@
         "is_catchall": false
       },
       {
-        "topic_id": 35,
+        "topic_id": 14,
         "label": "三星 / 聯電 / 高達 / 晶圓代工",
-        "heat": 10.3,
-        "volume": 102,
-        "engagement": 590,
+        "heat": 10.6,
+        "volume": 110,
+        "engagement": 864,
         "entities": [
           "三星",
           "台積電",
@@ -591,9 +561,39 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
+        "topic_id": 25,
+        "label": "ai資料中心 / 微軟 / 資料中心 / 台達電",
+        "heat": 10.5,
+        "volume": 96,
+        "engagement": 763,
+        "entities": [
+          "微軟",
+          "台達電",
+          "美國",
+          "輝達",
+          "中國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 33,
+        "label": "eps / 華邦電 / 群聯 / 財報",
+        "heat": 10.4,
+        "volume": 71,
+        "engagement": 610,
+        "entities": [
+          "華邦電",
+          "群聯",
+          "潘健成",
+          "聯亞",
+          "乾瞻"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
         "label": "datatrack / fed / rack / capex",
-        "heat": 10.0,
+        "heat": 10.1,
         "volume": 83,
         "engagement": 297,
         "entities": [
@@ -606,32 +606,32 @@
         "is_catchall": false
       },
       {
-        "topic_id": 29,
-        "label": "eps / 華邦電 / 群聯 / 財報",
+        "topic_id": 34,
+        "label": "川普 / 關稅 / cpi / 聯準會",
         "heat": 10.0,
-        "volume": 70,
-        "engagement": 608,
+        "volume": 58,
+        "engagement": 200,
         "entities": [
-          "華邦電",
-          "群聯",
-          "潘健成",
-          "聯亞",
-          "乾瞻"
+          "川普",
+          "美國",
+          "荷莫茲海峽",
+          "聯準會",
+          "加密"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "其他（未分群，3398 篇）",
+        "topic_id": 0,
+        "label": "其他（未分群，3262 篇）",
         "heat": 10.0,
-        "volume": 3398,
-        "engagement": 194971,
+        "volume": 3262,
+        "engagement": 165014,
         "entities": [
           "美國",
           "中國",
           "台灣",
           "日本",
-          "川普"
+          "台積電"
         ],
         "is_catchall": true
       }
@@ -659,7 +659,7 @@
       },
       {
         "entity": "三星",
-        "count": 412
+        "count": 413
       },
       {
         "entity": "日本",
@@ -695,36 +695,36 @@
       },
       {
         "entity": "美光",
-        "count": 163
+        "count": 164
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-05-27T12:32:24.999994+08:00",
-        "bucket_end": "2026-06-02T22:49:33.571423+08:00",
-        "positive": 103,
-        "neutral": 53,
-        "negative": 43,
-        "positive_engagement": 42986,
-        "neutral_engagement": 22447,
-        "negative_engagement": 18948,
-        "net_sentiment": 30.2,
-        "post_count": 199,
-        "engagement": 84381,
+        "bucket_start": "2026-05-27T16:30:09.999994+08:00",
+        "bucket_end": "2026-06-03T02:47:18.571423+08:00",
+        "positive": 104,
+        "neutral": 52,
+        "negative": 39,
+        "positive_engagement": 43232,
+        "neutral_engagement": 22420,
+        "negative_engagement": 17887,
+        "net_sentiment": 33.3,
+        "post_count": 195,
+        "engagement": 83539,
         "top_topics": [
           {
-            "topic_id": 6,
+            "topic_id": 3,
             "label": "nvidia / rubin / jensen / rack",
-            "count": 21
+            "count": 18
           },
           {
-            "topic_id": 16,
-            "label": "tsmc / nm / intel / packaging",
-            "count": 14
+            "topic_id": 6,
+            "label": "intel / tsmc / intc / emib",
+            "count": 17
           },
           {
-            "topic_id": 33,
-            "label": "korea / taiwan / revenue / japan",
+            "topic_id": 12,
+            "label": "capacity / canada / optical / demand",
             "count": 14
           }
         ],
@@ -744,36 +744,36 @@
             "interaction": 5381
           }
         ],
-        "net_sentiment_smoothed": 24.7,
+        "net_sentiment_smoothed": 25.5,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-06-02T22:49:33.571423+08:00",
-        "bucket_end": "2026-06-09T09:06:42.142852+08:00",
-        "positive": 193,
-        "neutral": 124,
-        "negative": 105,
-        "positive_engagement": 33923,
-        "neutral_engagement": 24950,
-        "negative_engagement": 16368,
-        "net_sentiment": 20.9,
-        "post_count": 422,
-        "engagement": 75241,
+        "bucket_start": "2026-06-03T02:47:18.571423+08:00",
+        "bucket_end": "2026-06-09T13:04:27.142852+08:00",
+        "positive": 204,
+        "neutral": 129,
+        "negative": 114,
+        "positive_engagement": 35811,
+        "neutral_engagement": 30785,
+        "negative_engagement": 16377,
+        "net_sentiment": 20.1,
+        "post_count": 447,
+        "engagement": 82973,
         "top_topics": [
           {
-            "topic_id": 6,
+            "topic_id": 3,
             "label": "nvidia / rubin / jensen / rack",
-            "count": 29
+            "count": 28
           },
           {
-            "topic_id": 12,
-            "label": "台積電 / 魏哲家 / 最新 / 力積電",
+            "topic_id": 6,
+            "label": "intel / tsmc / intc / emib",
             "count": 16
           },
           {
-            "topic_id": 28,
-            "label": "輝達 / 黃仁勳 / ai晶片 / 核能",
-            "count": 15
+            "topic_id": 9,
+            "label": "openai / anthropic / chatgpt / token",
+            "count": 16
           }
         ],
         "top_posts": [
@@ -787,88 +787,88 @@
           {
             "handle": "jukan05",
             "platform": "X",
-            "text": "JENSEN HUANG: “AI-RELATED STOCKS ARE VERY CHEAP RIGHT NOW.”",
-            "url": "https://x.com/jukan05/status/2063783610558407010",
-            "interaction": 2929
-          }
-        ],
-        "net_sentiment_smoothed": 25.8,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-06-09T09:06:42.142852+08:00",
-        "bucket_end": "2026-06-15T19:23:50.714281+08:00",
-        "positive": 262,
-        "neutral": 146,
-        "negative": 137,
-        "positive_engagement": 48902,
-        "neutral_engagement": 22964,
-        "negative_engagement": 25929,
-        "net_sentiment": 22.9,
-        "post_count": 545,
-        "engagement": 97795,
-        "top_topics": [
-          {
-            "topic_id": 11,
-            "label": "spacex / 馬斯克 / ipo / starlink",
-            "count": 25
-          },
-          {
-            "topic_id": 5,
-            "label": "anthropic / claude / openai / fable",
-            "count": 24
-          },
-          {
-            "topic_id": 33,
-            "label": "korea / taiwan / revenue / japan",
-            "count": 22
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
             "text": "SOURCES: ANTHROPIC WILL RELEASE THE PUBLIC VERSION OF MYTHOS TOMORROW",
             "url": "https://x.com/jukan05/status/2064170300452098183",
             "interaction": 5789
+          }
+        ],
+        "net_sentiment_smoothed": 26.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-06-09T13:04:27.142852+08:00",
+        "bucket_end": "2026-06-15T23:21:35.714281+08:00",
+        "positive": 255,
+        "neutral": 143,
+        "negative": 133,
+        "positive_engagement": 47722,
+        "neutral_engagement": 17137,
+        "negative_engagement": 26326,
+        "net_sentiment": 23.0,
+        "post_count": 531,
+        "engagement": 91185,
+        "top_topics": [
+          {
+            "topic_id": 24,
+            "label": "spacex / 馬斯克 / ipo / starlink",
+            "count": 27
           },
+          {
+            "topic_id": 26,
+            "label": "byd / pcb / semianalysis / rubin",
+            "count": 22
+          },
+          {
+            "topic_id": 10,
+            "label": "deepseek / kimi / inference / models",
+            "count": 21
+          }
+        ],
+        "top_posts": [
           {
             "handle": "SemiAnalysis_",
             "platform": "X",
             "text": "BREAKING NEWS: Anthropic's latest model will NOT help you if it thinks your ML research/ML engineering is interesting, and/or will secretly degrade its IQ so that the average engineer won't notice. We",
             "url": "https://x.com/SemiAnalysis_/status/2064482714149896431",
             "interaction": 5527
+          },
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "we heard fable got banned",
+            "url": "https://x.com/SemiAnalysis_/status/2065627871343698300",
+            "interaction": 5294
           }
         ],
-        "net_sentiment_smoothed": 28.2,
+        "net_sentiment_smoothed": 28.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-06-15T19:23:50.714281+08:00",
-        "bucket_end": "2026-06-22T05:40:59.285710+08:00",
-        "positive": 272,
+        "bucket_start": "2026-06-15T23:21:35.714281+08:00",
+        "bucket_end": "2026-06-22T09:38:44.285710+08:00",
+        "positive": 275,
         "neutral": 137,
-        "negative": 119,
-        "positive_engagement": 36716,
-        "neutral_engagement": 21335,
-        "negative_engagement": 8892,
-        "net_sentiment": 29.0,
-        "post_count": 528,
-        "engagement": 66943,
+        "negative": 117,
+        "positive_engagement": 36392,
+        "neutral_engagement": 21442,
+        "negative_engagement": 8764,
+        "net_sentiment": 29.9,
+        "post_count": 529,
+        "engagement": 66598,
         "top_topics": [
           {
-            "topic_id": 23,
+            "topic_id": 26,
+            "label": "byd / pcb / semianalysis / rubin",
+            "count": 28
+          },
+          {
+            "topic_id": 2,
             "label": "memory / prices / cxmt / shortage",
-            "count": 24
+            "count": 22
           },
           {
-            "topic_id": 19,
-            "label": "deepseek / kimi / glm / models",
-            "count": 20
-          },
-          {
-            "topic_id": 33,
-            "label": "korea / taiwan / revenue / japan",
+            "topic_id": 37,
+            "label": "蘋果 / iphone / ios / app",
             "count": 18
           }
         ],
@@ -892,32 +892,32 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-06-22T05:40:59.285710+08:00",
-        "bucket_end": "2026-06-28T15:58:07.857139+08:00",
-        "positive": 240,
-        "neutral": 85,
+        "bucket_start": "2026-06-22T09:38:44.285710+08:00",
+        "bucket_end": "2026-06-28T19:55:52.857139+08:00",
+        "positive": 235,
+        "neutral": 83,
         "negative": 85,
-        "positive_engagement": 55565,
-        "neutral_engagement": 16140,
-        "negative_engagement": 22632,
-        "net_sentiment": 37.8,
-        "post_count": 410,
-        "engagement": 94337,
+        "positive_engagement": 57810,
+        "neutral_engagement": 16025,
+        "negative_engagement": 22742,
+        "net_sentiment": 37.2,
+        "post_count": 403,
+        "engagement": 96577,
         "top_topics": [
           {
-            "topic_id": 3,
-            "label": "byd / inference / 約新台幣 / auto",
-            "count": 31
+            "topic_id": 26,
+            "label": "byd / pcb / semianalysis / rubin",
+            "count": 37
           },
           {
-            "topic_id": 23,
+            "topic_id": 2,
             "label": "memory / prices / cxmt / shortage",
-            "count": 24
+            "count": 23
           },
           {
-            "topic_id": 33,
-            "label": "korea / taiwan / revenue / japan",
-            "count": 22
+            "topic_id": 10,
+            "label": "deepseek / kimi / inference / models",
+            "count": 23
           }
         ],
         "top_posts": [
@@ -940,32 +940,32 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-06-28T15:58:07.857139+08:00",
-        "bucket_end": "2026-07-05T02:15:16.428568+08:00",
-        "positive": 248,
+        "bucket_start": "2026-06-28T19:55:52.857139+08:00",
+        "bucket_end": "2026-07-05T06:13:01.428568+08:00",
+        "positive": 245,
         "neutral": 135,
-        "negative": 124,
-        "positive_engagement": 41258,
+        "negative": 121,
+        "positive_engagement": 38302,
         "neutral_engagement": 21887,
-        "negative_engagement": 21164,
-        "net_sentiment": 24.5,
-        "post_count": 507,
-        "engagement": 84309,
+        "negative_engagement": 20776,
+        "net_sentiment": 24.8,
+        "post_count": 501,
+        "engagement": 80965,
         "top_topics": [
           {
-            "topic_id": 3,
-            "label": "byd / inference / 約新台幣 / auto",
-            "count": 43
+            "topic_id": 26,
+            "label": "byd / pcb / semianalysis / rubin",
+            "count": 40
           },
           {
-            "topic_id": 8,
-            "label": "dram / hbm / nand / ddr",
-            "count": 29
+            "topic_id": 10,
+            "label": "deepseek / kimi / inference / models",
+            "count": 33
           },
           {
-            "topic_id": 19,
-            "label": "deepseek / kimi / glm / models",
-            "count": 29
+            "topic_id": 1,
+            "label": "gdp / trump / stock / revenue",
+            "count": 27
           }
         ],
         "top_posts": [
@@ -988,32 +988,32 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-07-05T02:15:16.428568+08:00",
-        "bucket_end": "2026-07-11T12:32:24.999997+08:00",
-        "positive": 307,
-        "neutral": 192,
-        "negative": 146,
-        "positive_engagement": 48152,
-        "neutral_engagement": 19579,
-        "negative_engagement": 20604,
-        "net_sentiment": 25.0,
-        "post_count": 645,
-        "engagement": 88335,
+        "bucket_start": "2026-07-05T06:13:01.428568+08:00",
+        "bucket_end": "2026-07-11T16:30:09.999997+08:00",
+        "positive": 309,
+        "neutral": 196,
+        "negative": 151,
+        "positive_engagement": 49914,
+        "neutral_engagement": 19592,
+        "negative_engagement": 20617,
+        "net_sentiment": 24.1,
+        "post_count": 656,
+        "engagement": 90123,
         "top_topics": [
           {
-            "topic_id": 3,
-            "label": "byd / inference / 約新台幣 / auto",
-            "count": 29
+            "topic_id": 26,
+            "label": "byd / pcb / semianalysis / rubin",
+            "count": 42
           },
           {
-            "topic_id": 8,
-            "label": "dram / hbm / nand / ddr",
-            "count": 26
+            "topic_id": 10,
+            "label": "deepseek / kimi / inference / models",
+            "count": 33
           },
           {
-            "topic_id": 19,
-            "label": "deepseek / kimi / glm / models",
-            "count": 26
+            "topic_id": 18,
+            "label": "dram / ddr / hbm / 南亞科",
+            "count": 25
           }
         ],
         "top_posts": [
@@ -1036,32 +1036,32 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-07-11T12:32:24.999997+08:00",
-        "bucket_end": "2026-07-17T22:49:33.571426+08:00",
+        "bucket_start": "2026-07-11T16:30:09.999997+08:00",
+        "bucket_end": "2026-07-18T02:47:18.571426+08:00",
         "positive": 312,
-        "neutral": 227,
-        "negative": 169,
-        "positive_engagement": 38236,
-        "neutral_engagement": 28215,
-        "negative_engagement": 20292,
-        "net_sentiment": 20.2,
-        "post_count": 708,
-        "engagement": 86743,
+        "neutral": 223,
+        "negative": 167,
+        "positive_engagement": 36418,
+        "neutral_engagement": 28202,
+        "negative_engagement": 21718,
+        "net_sentiment": 20.7,
+        "post_count": 702,
+        "engagement": 86338,
         "top_topics": [
           {
-            "topic_id": 3,
-            "label": "byd / inference / 約新台幣 / auto",
-            "count": 40
+            "topic_id": 26,
+            "label": "byd / pcb / semianalysis / rubin",
+            "count": 43
           },
           {
-            "topic_id": 19,
-            "label": "deepseek / kimi / glm / models",
-            "count": 39
+            "topic_id": 10,
+            "label": "deepseek / kimi / inference / models",
+            "count": 35
           },
           {
-            "topic_id": 16,
-            "label": "tsmc / nm / intel / packaging",
-            "count": 31
+            "topic_id": 20,
+            "label": "tsmc / nm / packaging / copos",
+            "count": 30
           }
         ],
         "top_posts": [
@@ -1080,36 +1080,36 @@
             "interaction": 2282
           }
         ],
-        "net_sentiment_smoothed": 29.7,
+        "net_sentiment_smoothed": 29.9,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-07-17T22:49:33.571426+08:00",
-        "bucket_end": "2026-07-24T09:06:42.142855+08:00",
-        "positive": 153,
+        "bucket_start": "2026-07-18T02:47:18.571426+08:00",
+        "bucket_end": "2026-07-24T13:04:27.142855+08:00",
+        "positive": 151,
         "neutral": 56,
-        "negative": 72,
-        "positive_engagement": 27845,
+        "negative": 69,
+        "positive_engagement": 29371,
         "neutral_engagement": 5301,
-        "negative_engagement": 20742,
-        "net_sentiment": 28.8,
-        "post_count": 281,
-        "engagement": 53888,
+        "negative_engagement": 19303,
+        "net_sentiment": 29.7,
+        "post_count": 276,
+        "engagement": 53975,
         "top_topics": [
           {
-            "topic_id": 19,
-            "label": "deepseek / kimi / glm / models",
-            "count": 27
+            "topic_id": 10,
+            "label": "deepseek / kimi / inference / models",
+            "count": 28
           },
           {
-            "topic_id": 3,
-            "label": "byd / inference / 約新台幣 / auto",
-            "count": 19
+            "topic_id": 26,
+            "label": "byd / pcb / semianalysis / rubin",
+            "count": 18
           },
           {
-            "topic_id": 23,
+            "topic_id": 2,
             "label": "memory / prices / cxmt / shortage",
-            "count": 16
+            "count": 14
           }
         ],
         "top_posts": [
@@ -1128,35 +1128,35 @@
             "interaction": 3779
           }
         ],
-        "net_sentiment_smoothed": 28.9,
+        "net_sentiment_smoothed": 28.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-07-24T09:06:42.142855+08:00",
-        "bucket_end": "2026-07-30T19:23:50.714284+08:00",
+        "bucket_start": "2026-07-24T13:04:27.142855+08:00",
+        "bucket_end": "2026-07-30T23:21:35.714284+08:00",
         "positive": 10,
         "neutral": 4,
         "negative": 2,
-        "positive_engagement": 6190,
+        "positive_engagement": 4686,
         "neutral_engagement": 1826,
         "negative_engagement": 879,
         "net_sentiment": 50.0,
         "post_count": 16,
-        "engagement": 8895,
+        "engagement": 7391,
         "top_topics": [
           {
-            "topic_id": 6,
+            "topic_id": 3,
             "label": "nvidia / rubin / jensen / rack",
-            "count": 6
+            "count": 5
           },
           {
-            "topic_id": 37,
-            "label": "packaging / glass / advanced / intel",
+            "topic_id": 17,
+            "label": "meta / alphabet / 亞馬遜 / amazon",
             "count": 2
           },
           {
-            "topic_id": 10,
-            "label": "inp / silicon / wafer / meant",
+            "topic_id": 38,
+            "label": "optical / packaging / scale / photonics",
             "count": 1
           }
         ],
@@ -1164,48 +1164,48 @@
           {
             "handle": "nvidianewsroom",
             "platform": "X",
-            "text": "A warm California welcome from NVIDIA to  @SKhynix .",
-            "url": "https://x.com/nvidianewsroom/status/2080499639149593034",
-            "interaction": 1531
-          },
-          {
-            "handle": "nvidianewsroom",
-            "platform": "X",
             "text": "And that makes three:  @Samsung  Chairman Lee Jae-Yong joined Jensen at NVIDIA as part of a full day with Korea’s technology leaders.",
             "url": "https://x.com/nvidianewsroom/status/2080762909882274109",
             "interaction": 1512
+          },
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "Slowing down AI is a ultimately wishful thinking The genie is out of the bottle The most importan competition ever with potentially immeasurable benefits to the winner will not suddenly have people st",
+            "url": "https://x.com/dylan522p/status/2082321388736581641",
+            "interaction": 1376
           }
         ],
-        "net_sentiment_smoothed": 29.7,
+        "net_sentiment_smoothed": 26.9,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-07-30T19:23:50.714284+08:00",
-        "bucket_end": "2026-08-06T05:40:59.285713+08:00",
+        "bucket_start": "2026-07-30T23:21:35.714284+08:00",
+        "bucket_end": "2026-08-06T09:38:44.285713+08:00",
         "positive": 14,
         "neutral": 7,
-        "negative": 8,
-        "positive_engagement": 5120,
+        "negative": 9,
+        "positive_engagement": 5125,
         "neutral_engagement": 103,
-        "negative_engagement": 1567,
-        "net_sentiment": 20.7,
-        "post_count": 29,
-        "engagement": 6790,
+        "negative_engagement": 1845,
+        "net_sentiment": 16.7,
+        "post_count": 30,
+        "engagement": 7073,
         "top_topics": [
           {
-            "topic_id": 33,
-            "label": "korea / taiwan / revenue / japan",
-            "count": 7
+            "topic_id": 1,
+            "label": "gdp / trump / stock / revenue",
+            "count": 5
           },
           {
-            "topic_id": 20,
-            "label": "nand / flash / ssd / kioxia",
-            "count": 2
+            "topic_id": 12,
+            "label": "capacity / canada / optical / demand",
+            "count": 4
           },
           {
-            "topic_id": 10,
-            "label": "inp / silicon / wafer / meant",
-            "count": 2
+            "topic_id": 23,
+            "label": "server / cpu / arm / asic",
+            "count": 3
           }
         ],
         "top_posts": [
@@ -1224,36 +1224,36 @@
             "interaction": 1763
           }
         ],
-        "net_sentiment_smoothed": 30.0,
+        "net_sentiment_smoothed": 27.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-06T05:40:59.285713+08:00",
-        "bucket_end": "2026-08-12T15:58:07.857142+08:00",
-        "positive": 43,
-        "neutral": 21,
-        "negative": 19,
-        "positive_engagement": 15098,
-        "neutral_engagement": 5590,
-        "negative_engagement": 2210,
-        "net_sentiment": 28.9,
-        "post_count": 83,
-        "engagement": 22898,
+        "bucket_start": "2026-08-06T09:38:44.285713+08:00",
+        "bucket_end": "2026-08-12T19:55:52.857142+08:00",
+        "positive": 81,
+        "neutral": 72,
+        "negative": 46,
+        "positive_engagement": 15314,
+        "neutral_engagement": 7126,
+        "negative_engagement": 2458,
+        "net_sentiment": 17.6,
+        "post_count": 199,
+        "engagement": 24898,
         "top_topics": [
           {
-            "topic_id": 33,
-            "label": "korea / taiwan / revenue / japan",
-            "count": 13
+            "topic_id": 1,
+            "label": "gdp / trump / stock / revenue",
+            "count": 15
           },
           {
-            "topic_id": 16,
-            "label": "tsmc / nm / intel / packaging",
+            "topic_id": 23,
+            "label": "server / cpu / arm / asic",
+            "count": 10
+          },
+          {
+            "topic_id": 20,
+            "label": "tsmc / nm / packaging / copos",
             "count": 9
-          },
-          {
-            "topic_id": 6,
-            "label": "nvidia / rubin / jensen / rack",
-            "count": 7
           }
         ],
         "top_posts": [
@@ -1272,36 +1272,36 @@
             "interaction": 1879
           }
         ],
-        "net_sentiment_smoothed": 30.5,
+        "net_sentiment_smoothed": 27.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-12T15:58:07.857142+08:00",
-        "bucket_end": "2026-08-19T02:15:16.428571+08:00",
-        "positive": 1603,
-        "neutral": 1111,
-        "negative": 842,
-        "positive_engagement": 43044,
-        "neutral_engagement": 23785,
-        "negative_engagement": 35305,
-        "net_sentiment": 21.4,
-        "post_count": 3556,
-        "engagement": 102134,
+        "bucket_start": "2026-08-12T19:55:52.857142+08:00",
+        "bucket_end": "2026-08-19T06:13:01.428571+08:00",
+        "positive": 1569,
+        "neutral": 1062,
+        "negative": 818,
+        "positive_engagement": 43288,
+        "neutral_engagement": 22363,
+        "negative_engagement": 35133,
+        "net_sentiment": 21.8,
+        "post_count": 3449,
+        "engagement": 100784,
         "top_topics": [
           {
-            "topic_id": 33,
-            "label": "korea / taiwan / revenue / japan",
-            "count": 107
+            "topic_id": 1,
+            "label": "gdp / trump / stock / revenue",
+            "count": 149
+          },
+          {
+            "topic_id": 38,
+            "label": "optical / packaging / scale / photonics",
+            "count": 96
           },
           {
             "topic_id": 4,
-            "label": "optical / scale / photonics / canada",
-            "count": 89
-          },
-          {
-            "topic_id": 10,
-            "label": "inp / silicon / wafer / meant",
-            "count": 86
+            "label": "photonics / global / optica / wonder",
+            "count": 82
           }
         ],
         "top_posts": [
@@ -1320,36 +1320,36 @@
             "interaction": 3305
           }
         ],
-        "net_sentiment_smoothed": 25.6,
+        "net_sentiment_smoothed": 21.7,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-08-19T02:15:16.428571+08:00",
-        "bucket_end": "2026-08-25T12:32:25+08:00",
-        "positive": 1155,
-        "neutral": 538,
-        "negative": 475,
-        "positive_engagement": 52841,
-        "neutral_engagement": 56436,
-        "negative_engagement": 71710,
-        "net_sentiment": 31.4,
-        "post_count": 2168,
-        "engagement": 180987,
+        "bucket_start": "2026-08-19T06:13:01.428571+08:00",
+        "bucket_end": "2026-08-25T16:30:10+08:00",
+        "positive": 1156,
+        "neutral": 544,
+        "negative": 486,
+        "positive_engagement": 53660,
+        "neutral_engagement": 56999,
+        "negative_engagement": 72329,
+        "net_sentiment": 30.6,
+        "post_count": 2186,
+        "engagement": 182988,
         "top_topics": [
           {
-            "topic_id": 33,
-            "label": "korea / taiwan / revenue / japan",
-            "count": 121
+            "topic_id": 1,
+            "label": "gdp / trump / stock / revenue",
+            "count": 170
           },
           {
-            "topic_id": 27,
+            "topic_id": 4,
+            "label": "photonics / global / optica / wonder",
+            "count": 96
+          },
+          {
+            "topic_id": 11,
             "label": "quantum / reach / sector / glasgow",
-            "count": 88
-          },
-          {
-            "topic_id": 15,
-            "label": "photonics / ibm / wonder / eu",
-            "count": 88
+            "count": 85
           }
         ],
         "top_posts": [
@@ -1368,364 +1368,174 @@
             "interaction": 5280
           }
         ],
-        "net_sentiment_smoothed": 27.2,
+        "net_sentiment_smoothed": 23.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 33,
-        "label": "korea / taiwan / revenue / japan",
+        "topic_id": 1,
+        "label": "gdp / trump / stock / revenue",
         "cells": [
-          {
-            "net_sentiment": 28.6,
-            "volume": 14
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 5
-          },
-          {
-            "net_sentiment": 18.2,
-            "volume": 22
-          },
-          {
-            "net_sentiment": 33.3,
-            "volume": 18
-          },
-          {
-            "net_sentiment": 4.5,
-            "volume": 22
-          },
-          {
-            "net_sentiment": 12.0,
-            "volume": 25
-          },
-          {
-            "net_sentiment": -15.8,
-            "volume": 19
-          },
-          {
-            "net_sentiment": -4.5,
-            "volume": 22
-          },
-          {
-            "net_sentiment": 33.3,
-            "volume": 6
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 14.3,
-            "volume": 7
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 13
-          },
-          {
-            "net_sentiment": 0.9,
-            "volume": 107
-          },
-          {
-            "net_sentiment": 10.7,
-            "volume": 121
-          }
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "byd / inference / 約新台幣 / auto",
-        "cells": [
-          {
-            "net_sentiment": 80.0,
-            "volume": 5
-          },
-          {
-            "net_sentiment": -33.3,
-            "volume": 3
-          },
           {
             "net_sentiment": 0.0,
             "volume": 8
-          },
-          {
-            "net_sentiment": 66.7,
-            "volume": 15
-          },
-          {
-            "net_sentiment": 80.6,
-            "volume": 31
-          },
-          {
-            "net_sentiment": 30.2,
-            "volume": 43
-          },
-          {
-            "net_sentiment": 44.8,
-            "volume": 29
-          },
-          {
-            "net_sentiment": 42.5,
-            "volume": 40
-          },
-          {
-            "net_sentiment": 63.2,
-            "volume": 19
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 55.7,
-            "volume": 70
-          },
-          {
-            "net_sentiment": 32.1,
-            "volume": 84
-          }
-        ]
-      },
-      {
-        "topic_id": 19,
-        "label": "deepseek / kimi / glm / models",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 4
-          },
-          {
-            "net_sentiment": 71.4,
-            "volume": 7
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 18
-          },
-          {
-            "net_sentiment": 65.0,
-            "volume": 20
-          },
-          {
-            "net_sentiment": 84.2,
-            "volume": 19
-          },
-          {
-            "net_sentiment": 37.9,
-            "volume": 29
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 26
-          },
-          {
-            "net_sentiment": 48.7,
-            "volume": 39
-          },
-          {
-            "net_sentiment": 48.1,
-            "volume": 27
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 3
-          },
-          {
-            "net_sentiment": 21.4,
-            "volume": 70
-          },
-          {
-            "net_sentiment": 66.7,
-            "volume": 42
-          }
-        ]
-      },
-      {
-        "topic_id": 6,
-        "label": "nvidia / rubin / jensen / rack",
-        "cells": [
-          {
-            "net_sentiment": 33.3,
-            "volume": 21
-          },
-          {
-            "net_sentiment": 37.9,
-            "volume": 29
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 19
-          },
-          {
-            "net_sentiment": 28.6,
-            "volume": 14
-          },
-          {
-            "net_sentiment": 16.7,
-            "volume": 18
           },
           {
             "net_sentiment": 11.1,
             "volume": 9
           },
           {
-            "net_sentiment": 13.0,
-            "volume": 23
+            "net_sentiment": 26.3,
+            "volume": 19
           },
           {
-            "net_sentiment": 47.8,
-            "volume": 23
+            "net_sentiment": 14.3,
+            "volume": 14
           },
           {
-            "net_sentiment": 70.0,
-            "volume": 10
+            "net_sentiment": 11.1,
+            "volume": 18
           },
           {
-            "net_sentiment": 83.3,
-            "volume": 6
+            "net_sentiment": 14.8,
+            "volume": 27
+          },
+          {
+            "net_sentiment": -18.2,
+            "volume": 11
+          },
+          {
+            "net_sentiment": -5.3,
+            "volume": 19
+          },
+          {
+            "net_sentiment": 33.3,
+            "volume": 3
           },
           {
             "net_sentiment": 100.0,
             "volume": 1
           },
           {
-            "net_sentiment": 85.7,
-            "volume": 7
+            "net_sentiment": -40.0,
+            "volume": 5
           },
           {
-            "net_sentiment": 41.3,
-            "volume": 46
+            "net_sentiment": 6.7,
+            "volume": 15
           },
           {
-            "net_sentiment": 56.5,
-            "volume": 46
+            "net_sentiment": -3.4,
+            "volume": 149
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 170
+          }
+        ]
+      },
+      {
+        "topic_id": 26,
+        "label": "byd / pcb / semianalysis / rubin",
+        "cells": [
+          {
+            "net_sentiment": 15.4,
+            "volume": 13
+          },
+          {
+            "net_sentiment": 66.7,
+            "volume": 9
+          },
+          {
+            "net_sentiment": 13.6,
+            "volume": 22
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 28
+          },
+          {
+            "net_sentiment": 83.8,
+            "volume": 37
+          },
+          {
+            "net_sentiment": 40.0,
+            "volume": 40
+          },
+          {
+            "net_sentiment": 35.7,
+            "volume": 42
+          },
+          {
+            "net_sentiment": 39.5,
+            "volume": 43
+          },
+          {
+            "net_sentiment": 66.7,
+            "volume": 18
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 45.5,
+            "volume": 55
+          },
+          {
+            "net_sentiment": 41.5,
+            "volume": 41
           }
         ]
       },
       {
         "topic_id": 10,
-        "label": "inp / silicon / wafer / meant",
+        "label": "deepseek / kimi / inference / models",
         "cells": [
           {
-            "net_sentiment": 0.0,
+            "net_sentiment": 40.0,
             "volume": 5
-          },
-          {
-            "net_sentiment": -20.0,
-            "volume": 5
-          },
-          {
-            "net_sentiment": 70.0,
-            "volume": 10
-          },
-          {
-            "net_sentiment": 33.3,
-            "volume": 12
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 10
-          },
-          {
-            "net_sentiment": 21.4,
-            "volume": 14
-          },
-          {
-            "net_sentiment": 58.3,
-            "volume": 12
           },
           {
             "net_sentiment": 42.9,
             "volume": 7
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 61.9,
+            "volume": 21
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 1
+            "net_sentiment": 70.6,
+            "volume": 17
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 2
+            "net_sentiment": 78.3,
+            "volume": 23
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 1
+            "net_sentiment": 30.3,
+            "volume": 33
           },
           {
-            "net_sentiment": 19.8,
-            "volume": 86
+            "net_sentiment": 48.5,
+            "volume": 33
           },
           {
-            "net_sentiment": 18.5,
-            "volume": 81
-          }
-        ]
-      },
-      {
-        "topic_id": 16,
-        "label": "tsmc / nm / intel / packaging",
-        "cells": [
-          {
-            "net_sentiment": 71.4,
-            "volume": 14
+            "net_sentiment": 57.1,
+            "volume": 35
           },
           {
-            "net_sentiment": 55.6,
-            "volume": 9
-          },
-          {
-            "net_sentiment": 20.0,
-            "volume": 20
-          },
-          {
-            "net_sentiment": 66.7,
-            "volume": 15
-          },
-          {
-            "net_sentiment": 75.0,
-            "volume": 12
-          },
-          {
-            "net_sentiment": 38.9,
-            "volume": 18
-          },
-          {
-            "net_sentiment": 56.2,
-            "volume": 16
-          },
-          {
-            "net_sentiment": 35.5,
-            "volume": 31
-          },
-          {
-            "net_sentiment": 75.0,
-            "volume": 4
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 57.1,
+            "volume": 28
           },
           {
             "net_sentiment": 0.0,
@@ -1733,15 +1543,205 @@
           },
           {
             "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 33.3,
+            "volume": 6
+          },
+          {
+            "net_sentiment": 23.6,
+            "volume": 72
+          },
+          {
+            "net_sentiment": 58.0,
+            "volume": 50
+          }
+        ]
+      },
+      {
+        "topic_id": 12,
+        "label": "capacity / canada / optical / demand",
+        "cells": [
+          {
+            "net_sentiment": 14.3,
+            "volume": 14
+          },
+          {
+            "net_sentiment": 66.7,
             "volume": 9
           },
           {
-            "net_sentiment": 35.4,
-            "volume": 48
+            "net_sentiment": 31.2,
+            "volume": 16
           },
           {
-            "net_sentiment": 34.9,
-            "volume": 43
+            "net_sentiment": 47.1,
+            "volume": 17
+          },
+          {
+            "net_sentiment": 31.6,
+            "volume": 19
+          },
+          {
+            "net_sentiment": 28.6,
+            "volume": 21
+          },
+          {
+            "net_sentiment": 13.0,
+            "volume": 23
+          },
+          {
+            "net_sentiment": 60.0,
+            "volume": 15
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 8
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 4
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 28.3,
+            "volume": 53
+          },
+          {
+            "net_sentiment": 45.3,
+            "volume": 75
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "nvidia / rubin / jensen / rack",
+        "cells": [
+          {
+            "net_sentiment": 44.4,
+            "volume": 18
+          },
+          {
+            "net_sentiment": 35.7,
+            "volume": 28
+          },
+          {
+            "net_sentiment": 5.3,
+            "volume": 19
+          },
+          {
+            "net_sentiment": 23.1,
+            "volume": 13
+          },
+          {
+            "net_sentiment": 11.8,
+            "volume": 17
+          },
+          {
+            "net_sentiment": 20.0,
+            "volume": 10
+          },
+          {
+            "net_sentiment": 13.0,
+            "volume": 23
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 24
+          },
+          {
+            "net_sentiment": 58.3,
+            "volume": 12
+          },
+          {
+            "net_sentiment": 80.0,
+            "volume": 5
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 77.8,
+            "volume": 9
+          },
+          {
+            "net_sentiment": 40.0,
+            "volume": 45
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 48
+          }
+        ]
+      },
+      {
+        "topic_id": 38,
+        "label": "optical / packaging / scale / photonics",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 66.7,
+            "volume": 9
+          },
+          {
+            "net_sentiment": 80.0,
+            "volume": 10
+          },
+          {
+            "net_sentiment": 53.8,
+            "volume": 13
+          },
+          {
+            "net_sentiment": 16.7,
+            "volume": 6
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 12
+          },
+          {
+            "net_sentiment": 87.5,
+            "volume": 16
+          },
+          {
+            "net_sentiment": 58.3,
+            "volume": 12
+          },
+          {
+            "net_sentiment": 66.7,
+            "volume": 3
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -33.3,
+            "volume": 3
+          },
+          {
+            "net_sentiment": 54.2,
+            "volume": 96
+          },
+          {
+            "net_sentiment": 47.7,
+            "volume": 65
           }
         ]
       }
@@ -1749,502 +1749,493 @@
     "coverage_focus_ranking": [
       {
         "handle": "nvidianewsroom",
-        "top_topic_id": 6,
+        "top_topic_id": 3,
         "top_topic_label": "nvidia / rubin / jensen / rack",
-        "focus_share": 0.828,
+        "focus_share": 0.793,
         "post_count": 31,
         "unclustered_posts": 2
       },
       {
         "handle": "tphuang",
-        "top_topic_id": 3,
-        "top_topic_label": "byd / inference / 約新台幣 / auto",
-        "focus_share": 0.424,
-        "post_count": 484,
+        "top_topic_id": 26,
+        "top_topic_label": "byd / pcb / semianalysis / rubin",
+        "focus_share": 0.381,
+        "post_count": 485,
         "unclustered_posts": 5
       },
       {
+        "handle": "FT",
+        "top_topic_id": 1,
+        "top_topic_label": "gdp / trump / stock / revenue",
+        "focus_share": 0.259,
+        "post_count": 431,
+        "unclustered_posts": 83
+      },
+      {
         "handle": "dnystedt",
-        "top_topic_id": 16,
-        "top_topic_label": "tsmc / nm / intel / packaging",
-        "focus_share": 0.264,
+        "top_topic_id": 20,
+        "top_topic_label": "tsmc / nm / packaging / copos",
+        "focus_share": 0.257,
         "post_count": 79,
-        "unclustered_posts": 7
+        "unclustered_posts": 9
       },
       {
         "handle": "HyperTechInvest",
-        "top_topic_id": 33,
-        "top_topic_label": "korea / taiwan / revenue / japan",
-        "focus_share": 0.221,
-        "post_count": 81,
-        "unclustered_posts": 4
-      },
-      {
-        "handle": "dylan522p",
-        "top_topic_id": 33,
-        "top_topic_label": "korea / taiwan / revenue / japan",
-        "focus_share": 0.19,
-        "post_count": 53,
-        "unclustered_posts": 11
+        "top_topic_id": 1,
+        "top_topic_label": "gdp / trump / stock / revenue",
+        "focus_share": 0.222,
+        "post_count": 84,
+        "unclustered_posts": 3
       },
       {
         "handle": "TrendForce.tw",
-        "top_topic_id": 0,
-        "top_topic_label": "datatrack / fed / rack / capex",
-        "focus_share": 0.182,
-        "post_count": 507,
-        "unclustered_posts": 193
-      },
-      {
-        "handle": "FT",
-        "top_topic_id": 33,
-        "top_topic_label": "korea / taiwan / revenue / japan",
-        "focus_share": 0.18,
-        "post_count": 419,
-        "unclustered_posts": 91
-      },
-      {
-        "handle": "yutinghaosfinance",
-        "top_topic_id": 19,
-        "top_topic_label": "deepseek / kimi / glm / models",
-        "focus_share": 0.179,
-        "post_count": 546,
-        "unclustered_posts": 507
-      },
-      {
-        "handle": "ctee.fans",
-        "top_topic_id": 29,
-        "top_topic_label": "eps / 華邦電 / 群聯 / 財報",
-        "focus_share": 0.163,
-        "post_count": 774,
-        "unclustered_posts": 676
-      },
-      {
-        "handle": "josepozophotonics",
         "top_topic_id": 15,
-        "top_topic_label": "photonics / ibm / wonder / eu",
-        "focus_share": 0.151,
-        "post_count": 963,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "statementdog",
-        "top_topic_id": 33,
-        "top_topic_label": "korea / taiwan / revenue / japan",
-        "focus_share": 0.141,
-        "post_count": 72,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "TrendForce",
-        "top_topic_id": 16,
-        "top_topic_label": "tsmc / nm / intel / packaging",
-        "focus_share": 0.122,
-        "post_count": 347,
-        "unclustered_posts": 20
-      },
-      {
-        "handle": "jukan05",
-        "top_topic_id": 17,
-        "top_topic_label": "samsung / foundry / electronics / korean",
-        "focus_share": 0.119,
-        "post_count": 647,
-        "unclustered_posts": 69
-      },
-      {
-        "handle": "tengyanAI",
-        "top_topic_id": 33,
-        "top_topic_label": "korea / taiwan / revenue / japan",
-        "focus_share": 0.107,
-        "post_count": 356,
-        "unclustered_posts": 38
+        "top_topic_label": "datatrack / fed / rack / capex",
+        "focus_share": 0.193,
+        "post_count": 507,
+        "unclustered_posts": 211
       },
       {
         "handle": "subhash-km-6b5443123",
-        "top_topic_id": 33,
-        "top_topic_label": "korea / taiwan / revenue / japan",
-        "focus_share": 0.103,
+        "top_topic_id": 1,
+        "top_topic_label": "gdp / trump / stock / revenue",
+        "focus_share": 0.186,
         "post_count": 460,
         "unclustered_posts": 24
       },
       {
-        "handle": "SemiAnalysis_",
-        "top_topic_id": 33,
-        "top_topic_label": "korea / taiwan / revenue / japan",
-        "focus_share": 0.097,
-        "post_count": 476,
-        "unclustered_posts": 44
+        "handle": "statementdog",
+        "top_topic_id": 23,
+        "top_topic_label": "server / cpu / arm / asic",
+        "focus_share": 0.169,
+        "post_count": 73,
+        "unclustered_posts": 2
       },
       {
-        "handle": "technewsinside",
+        "handle": "dylan522p",
+        "top_topic_id": 27,
+        "top_topic_label": "anthropic / claude / fable / 美軍",
+        "focus_share": 0.163,
+        "post_count": 53,
+        "unclustered_posts": 10
+      },
+      {
+        "handle": "josepozophotonics",
+        "top_topic_id": 4,
+        "top_topic_label": "photonics / global / optica / wonder",
+        "focus_share": 0.157,
+        "post_count": 963,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 33,
+        "top_topic_label": "eps / 華邦電 / 群聯 / 財報",
+        "focus_share": 0.154,
+        "post_count": 774,
+        "unclustered_posts": 670
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 10,
+        "top_topic_label": "deepseek / kimi / inference / models",
+        "focus_share": 0.125,
+        "post_count": 476,
+        "unclustered_posts": 29
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 10,
+        "top_topic_label": "deepseek / kimi / inference / models",
+        "focus_share": 0.125,
+        "post_count": 546,
+        "unclustered_posts": 506
+      },
+      {
+        "handle": "jukan05",
         "top_topic_id": 28,
-        "top_topic_label": "輝達 / 黃仁勳 / ai晶片 / 核能",
-        "focus_share": 0.097,
-        "post_count": 964,
-        "unclustered_posts": 543
+        "top_topic_label": "samsung / oled / foundry / electronics",
+        "focus_share": 0.113,
+        "post_count": 647,
+        "unclustered_posts": 72
+      },
+      {
+        "handle": "tengyanAI",
+        "top_topic_id": 12,
+        "top_topic_label": "capacity / canada / optical / demand",
+        "focus_share": 0.112,
+        "post_count": 356,
+        "unclustered_posts": 35
+      },
+      {
+        "handle": "TrendForce",
+        "top_topic_id": 20,
+        "top_topic_label": "tsmc / nm / packaging / copos",
+        "focus_share": 0.104,
+        "post_count": 345,
+        "unclustered_posts": 18
       },
       {
         "handle": "QQ_Timmy",
-        "top_topic_id": 6,
+        "top_topic_id": 3,
         "top_topic_label": "nvidia / rubin / jensen / rack",
-        "focus_share": 0.085,
-        "post_count": 654,
-        "unclustered_posts": 181
+        "focus_share": 0.082,
+        "post_count": 661,
+        "unclustered_posts": 172
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 30,
+        "top_topic_label": "輝達 / 黃仁勳 / ai晶片 / 攜手",
+        "focus_share": 0.081,
+        "post_count": 964,
+        "unclustered_posts": 508
       },
       {
         "handle": "technews_tw",
-        "top_topic_id": 28,
-        "top_topic_label": "輝達 / 黃仁勳 / ai晶片 / 核能",
-        "focus_share": 0.077,
+        "top_topic_id": 37,
+        "top_topic_label": "蘋果 / iphone / ios / app",
+        "focus_share": 0.074,
         "post_count": 2186,
-        "unclustered_posts": 982
+        "unclustered_posts": 903
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 33,
-        "label": "korea / taiwan / revenue / japan",
-        "total_engagement": 69887,
-        "post_count": 402,
+        "topic_id": 1,
+        "label": "gdp / trump / stock / revenue",
+        "total_engagement": 84568,
+        "post_count": 468,
         "top_account": "jukan05",
-        "top_account_engagement": 22999,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 17,
-        "label": "samsung / foundry / electronics / korean",
-        "total_engagement": 64900,
-        "post_count": 159,
-        "top_account": "jukan05",
-        "top_account_engagement": 57674,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 6,
-        "label": "nvidia / rubin / jensen / rack",
-        "total_engagement": 64283,
-        "post_count": 272,
-        "top_account": "jukan05",
-        "top_account_engagement": 28840,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 19,
-        "label": "deepseek / kimi / glm / models",
-        "total_engagement": 58821,
-        "post_count": 304,
-        "top_account": "SemiAnalysis_",
-        "top_account_engagement": 25555,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 7,
-        "label": "hynix / sk / samsung / memory",
-        "total_engagement": 57557,
-        "post_count": 167,
-        "top_account": "jukan05",
-        "top_account_engagement": 50800,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 5,
-        "label": "anthropic / claude / openai / fable",
-        "total_engagement": 56974,
-        "post_count": 169,
-        "top_account": "jukan05",
-        "top_account_engagement": 17975,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 23,
-        "label": "memory / prices / cxmt / shortage",
-        "total_engagement": 46017,
-        "post_count": 215,
-        "top_account": "jukan05",
-        "top_account_engagement": 35143,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 16,
-        "label": "tsmc / nm / intel / packaging",
-        "total_engagement": 34042,
-        "post_count": 239,
-        "top_account": "jukan05",
-        "top_account_engagement": 22295,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 8,
-        "label": "dram / hbm / nand / ddr",
-        "total_engagement": 32447,
-        "post_count": 217,
-        "top_account": "jukan05",
-        "top_account_engagement": 23076,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 37,
-        "label": "packaging / glass / advanced / intel",
-        "total_engagement": 27786,
-        "post_count": 170,
-        "top_account": "jukan05",
-        "top_account_engagement": 15407,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 26,
-        "label": "hbm / memory / kospi / samsung",
-        "total_engagement": 25767,
-        "post_count": 171,
-        "top_account": "jukan05",
-        "top_account_engagement": 12803,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
-        "label": "byd / inference / 約新台幣 / auto",
-        "total_engagement": 25559,
-        "post_count": 349,
-        "top_account": "tphuang",
-        "top_account_engagement": 13181,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 9,
-        "label": "manufacturing / jensen / infrastructure / capacity",
-        "total_engagement": 24144,
-        "post_count": 146,
-        "top_account": "jukan05",
-        "top_account_engagement": 15466,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 20,
-        "label": "nand / flash / ssd / kioxia",
-        "total_engagement": 23931,
-        "post_count": 165,
-        "top_account": "jukan05",
-        "top_account_engagement": 19223,
+        "top_account_engagement": 31432,
         "is_catchall": false
       },
       {
         "topic_id": 10,
-        "label": "inp / silicon / wafer / meant",
-        "total_engagement": 23264,
-        "post_count": 246,
+        "label": "deepseek / kimi / inference / models",
+        "total_engagement": 67042,
+        "post_count": 331,
         "top_account": "SemiAnalysis_",
-        "top_account_engagement": 6684,
+        "top_account_engagement": 28410,
         "is_catchall": false
       },
       {
-        "topic_id": 4,
-        "label": "optical / scale / photonics / canada",
-        "total_engagement": 19832,
-        "post_count": 235,
+        "topic_id": 3,
+        "label": "nvidia / rubin / jensen / rack",
+        "total_engagement": 63655,
+        "post_count": 272,
         "top_account": "jukan05",
-        "top_account_engagement": 6536,
+        "top_account_engagement": 25874,
         "is_catchall": false
       },
       {
-        "topic_id": 32,
-        "label": "gb / rubin / tlc / rack",
-        "total_engagement": 18010,
-        "post_count": 147,
+        "topic_id": 28,
+        "label": "samsung / oled / foundry / electronics",
+        "total_engagement": 60538,
+        "post_count": 173,
+        "top_account": "jukan05",
+        "top_account_engagement": 53267,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 21,
+        "label": "hynix / sk / samsung / memory",
+        "total_engagement": 57630,
+        "post_count": 167,
+        "top_account": "jukan05",
+        "top_account_engagement": 50827,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 27,
+        "label": "anthropic / claude / fable / 美軍",
+        "total_engagement": 51044,
+        "post_count": 136,
         "top_account": "SemiAnalysis_",
-        "top_account_engagement": 9890,
+        "top_account_engagement": 17890,
         "is_catchall": false
       },
       {
-        "topic_id": 36,
-        "label": "server / cpu / 微軟 / arm",
-        "total_engagement": 16075,
+        "topic_id": 2,
+        "label": "memory / prices / cxmt / shortage",
+        "total_engagement": 45417,
+        "post_count": 208,
+        "top_account": "jukan05",
+        "top_account_engagement": 35183,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "capacity / canada / optical / demand",
+        "total_engagement": 42216,
+        "post_count": 276,
+        "top_account": "jukan05",
+        "top_account_engagement": 14917,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 26,
+        "label": "byd / pcb / semianalysis / rubin",
+        "total_engagement": 41094,
+        "post_count": 351,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 12947,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "intel / tsmc / intc / emib",
+        "total_engagement": 30918,
+        "post_count": 122,
+        "top_account": "jukan05",
+        "top_account_engagement": 22919,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 20,
+        "label": "tsmc / nm / packaging / copos",
+        "total_engagement": 30032,
         "post_count": 204,
         "top_account": "jukan05",
-        "top_account_engagement": 6280,
+        "top_account_engagement": 18811,
         "is_catchall": false
       },
       {
-        "topic_id": 25,
-        "label": "amd / nvidia / cpu / tpu",
-        "total_engagement": 14674,
-        "post_count": 105,
+        "topic_id": 18,
+        "label": "dram / ddr / hbm / 南亞科",
+        "total_engagement": 29457,
+        "post_count": 191,
+        "top_account": "jukan05",
+        "top_account_engagement": 22552,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "ceo / manufacturing / jensen / photonics",
+        "total_engagement": 26943,
+        "post_count": 189,
+        "top_account": "jukan05",
+        "top_account_engagement": 18422,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "hbm / memory / kospi / sk海力士",
+        "total_engagement": 26729,
+        "post_count": 174,
+        "top_account": "jukan05",
+        "top_account_engagement": 13674,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 29,
+        "label": "nand / flash / dram / ssd",
+        "total_engagement": 25552,
+        "post_count": 193,
+        "top_account": "jukan05",
+        "top_account_engagement": 20408,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 23,
+        "label": "server / cpu / arm / asic",
+        "total_engagement": 22790,
+        "post_count": 226,
+        "top_account": "jukan05",
+        "top_account_engagement": 7762,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "openai / anthropic / chatgpt / token",
+        "total_engagement": 19310,
+        "post_count": 157,
+        "top_account": "jukan05",
+        "top_account_engagement": 7527,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 38,
+        "label": "optical / packaging / scale / photonics",
+        "total_engagement": 17692,
+        "post_count": 248,
+        "top_account": "jukan05",
+        "top_account_engagement": 10199,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 31,
+        "label": "amd / nvidia / cpu / mrvl",
+        "total_engagement": 15088,
+        "post_count": 109,
         "top_account": "SemiAnalysis_",
         "top_account_engagement": 7346,
         "is_catchall": false
       },
       {
-        "topic_id": 22,
-        "label": "excellent / lidar / summary / sensing",
-        "total_engagement": 14502,
-        "post_count": 120,
+        "topic_id": 17,
+        "label": "meta / alphabet / 亞馬遜 / amazon",
+        "total_engagement": 14637,
+        "post_count": 144,
         "top_account": "jukan05",
-        "top_account_engagement": 6502,
+        "top_account_engagement": 8620,
         "is_catchall": false
       },
       {
-        "topic_id": 31,
-        "label": "meta / alphabet / amazon / google",
-        "total_engagement": 14056,
-        "post_count": 136,
-        "top_account": "jukan05",
-        "top_account_engagement": 7873,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 24,
-        "label": "openai / chatgpt / ed / uber",
-        "total_engagement": 13957,
-        "post_count": 129,
+        "topic_id": 36,
+        "label": "inp / silicon / meant / wafer",
+        "total_engagement": 14352,
+        "post_count": 173,
         "top_account": "SemiAnalysis_",
-        "top_account_engagement": 5746,
+        "top_account_engagement": 5731,
         "is_catchall": false
       },
       {
-        "topic_id": 14,
-        "label": "fusion / laser / cc / lutz",
-        "total_engagement": 13573,
-        "post_count": 124,
-        "top_account": "jukan05",
-        "top_account_engagement": 7007,
+        "topic_id": 19,
+        "label": "lidar / sensing / robotics / vision",
+        "total_engagement": 12360,
+        "post_count": 112,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 6421,
         "is_catchall": false
       },
       {
-        "topic_id": 38,
-        "label": "global / ceo / photonics / panel",
-        "total_engagement": 13206,
-        "post_count": 164,
-        "top_account": "jukan05",
-        "top_account_engagement": 5958,
+        "topic_id": 5,
+        "label": "ai伺服器 / 自動化展 / kumamoto / 日宣布",
+        "total_engagement": 12311,
+        "post_count": 156,
+        "top_account": "FT",
+        "top_account_engagement": 5534,
         "is_catchall": false
       },
       {
-        "topic_id": 13,
-        "label": "google / tpu / marvell / pixel",
-        "total_engagement": 12646,
-        "post_count": 153,
+        "topic_id": 16,
+        "label": "fusion / laser / cc / photonics",
+        "total_engagement": 11889,
+        "post_count": 135,
         "top_account": "jukan05",
-        "top_account_engagement": 5480,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 27,
-        "label": "quantum / reach / sector / glasgow",
-        "total_engagement": 11818,
-        "post_count": 196,
-        "top_account": "jukan05",
-        "top_account_engagement": 4786,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 34,
-        "label": "mlcc / ai伺服器 / mlc / ccl",
-        "total_engagement": 11022,
-        "post_count": 108,
-        "top_account": "jukan05",
-        "top_account_engagement": 6599,
+        "top_account_engagement": 4676,
         "is_catchall": false
       },
       {
         "topic_id": 11,
-        "label": "spacex / 馬斯克 / ipo / starlink",
-        "total_engagement": 10336,
-        "post_count": 141,
-        "top_account": "SemiAnalysis_",
-        "top_account_engagement": 5992,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 18,
-        "label": "pcb / defence / fibre / ukraine",
-        "total_engagement": 9349,
-        "post_count": 182,
-        "top_account": "FT",
-        "top_account_engagement": 4874,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 15,
-        "label": "photonics / ibm / wonder / eu",
-        "total_engagement": 9022,
-        "post_count": 192,
+        "label": "quantum / reach / sector / glasgow",
+        "total_engagement": 11452,
+        "post_count": 196,
         "top_account": "jukan05",
-        "top_account_engagement": 3711,
+        "top_account_engagement": 4269,
         "is_catchall": false
       },
       {
-        "topic_id": 21,
-        "label": "cpo / ky / 大立光 / 隨著",
-        "total_engagement": 6612,
-        "post_count": 145,
+        "topic_id": 8,
+        "label": "google / tpu / marvell / pixel",
+        "total_engagement": 11421,
+        "post_count": 150,
+        "top_account": "jukan05",
+        "top_account_engagement": 4432,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "photonics / global / optica / wonder",
+        "total_engagement": 8783,
+        "post_count": 201,
+        "top_account": "dylan522p",
+        "top_account_engagement": 2936,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 24,
+        "label": "spacex / 馬斯克 / ipo / starlink",
+        "total_engagement": 8672,
+        "post_count": 140,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 5379,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 32,
+        "label": "科技早報 / defence / ukraine / fibre",
+        "total_engagement": 7877,
+        "post_count": 201,
+        "top_account": "FT",
+        "top_account_engagement": 5064,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "cpo / 光通訊 / ky / 大立光",
+        "total_engagement": 6794,
+        "post_count": 135,
         "top_account": "jukan05",
         "top_account_engagement": 2809,
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 39,
         "label": "asml / euv / 將於 / niesing",
-        "total_engagement": 5529,
-        "post_count": 115,
+        "total_engagement": 5459,
+        "post_count": 112,
         "top_account": "jukan05",
         "top_account_engagement": 3041,
         "is_catchall": false
       },
       {
-        "topic_id": 30,
-        "label": "iphone / 蘋果 / 記憶體漲價 / 供應鏈",
-        "total_engagement": 3888,
-        "post_count": 90,
-        "top_account": "jukan05",
-        "top_account_engagement": 2688,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 12,
+        "topic_id": 35,
         "label": "台積電 / 魏哲家 / 最新 / 力積電",
-        "total_engagement": 1717,
-        "post_count": 126,
+        "total_engagement": 1793,
+        "post_count": 128,
         "top_account": "QQ_Timmy",
-        "top_account_engagement": 741,
+        "top_account_engagement": 811,
         "is_catchall": false
       },
       {
-        "topic_id": 28,
-        "label": "輝達 / 黃仁勳 / ai晶片 / 核能",
-        "total_engagement": 1189,
-        "post_count": 150,
+        "topic_id": 30,
+        "label": "輝達 / 黃仁勳 / ai晶片 / 攜手",
+        "total_engagement": 1095,
+        "post_count": 133,
         "top_account": "technewsinside",
-        "top_account_engagement": 484,
+        "top_account_engagement": 465,
         "is_catchall": false
       },
       {
-        "topic_id": 39,
-        "label": "蘋果 / ios / 長鑫存儲 / app",
-        "total_engagement": 822,
-        "post_count": 93,
-        "top_account": "jukan05",
-        "top_account_engagement": 335,
+        "topic_id": 37,
+        "label": "蘋果 / iphone / ios / app",
+        "total_engagement": 1051,
+        "post_count": 130,
+        "top_account": "technews_tw",
+        "top_account_engagement": 325,
         "is_catchall": false
       },
       {
-        "topic_id": 29,
+        "topic_id": 14,
+        "label": "三星 / 聯電 / 高達 / 晶圓代工",
+        "total_engagement": 864,
+        "post_count": 110,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 359,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 25,
+        "label": "ai資料中心 / 微軟 / 資料中心 / 台達電",
+        "total_engagement": 763,
+        "post_count": 96,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 351,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 33,
         "label": "eps / 華邦電 / 群聯 / 財報",
-        "total_engagement": 608,
-        "post_count": 70,
+        "total_engagement": 610,
+        "post_count": 71,
         "top_account": "QQ_Timmy",
         "top_account_engagement": 236,
         "is_catchall": false
       },
       {
-        "topic_id": 35,
-        "label": "三星 / 聯電 / 高達 / 晶圓代工",
-        "total_engagement": 590,
-        "post_count": 102,
-        "top_account": "technews_tw",
-        "top_account_engagement": 271,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 0,
+        "topic_id": 15,
         "label": "datatrack / fed / rack / capex",
         "total_engagement": 297,
         "post_count": 83,
@@ -2253,10 +2244,19 @@
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "其他（未分群，3398 篇）",
-        "total_engagement": 194971,
-        "post_count": 3398,
+        "topic_id": 34,
+        "label": "川普 / 關稅 / cpi / 聯準會",
+        "total_engagement": 200,
+        "post_count": 58,
+        "top_account": "technews_tw",
+        "top_account_engagement": 97,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，3262 篇）",
+        "total_engagement": 165014,
+        "post_count": 3262,
         "top_account": "yutinghaosfinance",
         "top_account_engagement": 56465,
         "is_catchall": true
@@ -2266,27 +2266,27 @@
       "slots": {
         "morning": {
           "post_count": 3054,
-          "likes": 254527,
-          "engagement": 292399,
-          "avg_engagement": 95.7
+          "likes": 255538,
+          "engagement": 293630,
+          "avg_engagement": 96.1
         },
         "afternoon": {
-          "post_count": 2162,
-          "likes": 194227,
-          "engagement": 222023,
-          "avg_engagement": 102.7
+          "post_count": 2184,
+          "likes": 194176,
+          "engagement": 222096,
+          "avg_engagement": 101.7
         },
         "evening": {
           "post_count": 1554,
-          "likes": 114514,
-          "engagement": 136174,
-          "avg_engagement": 87.6
+          "likes": 114674,
+          "engagement": 136357,
+          "avg_engagement": 87.7
         },
         "late_night": {
           "post_count": 674,
-          "likes": 96050,
-          "engagement": 113775,
-          "avg_engagement": 168.8
+          "likes": 96239,
+          "engagement": 114015,
+          "avg_engagement": 169.2
         }
       },
       "peak_slot": "morning"
