@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-25T16:53:23.661137+00:00",
+  "generated_at": "2026-08-25T16:56:03.360348+00:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-08-25T15:53:23.661137+00:00",
-    "end_utc": "2026-08-25T16:53:23.661137+00:00",
-    "start_tw": "Aug 25, 23:53",
-    "end_tw": "Aug 26, 00:53"
+    "start_utc": "2026-08-25T15:56:03.360348+00:00",
+    "end_utc": "2026-08-25T16:56:03.360348+00:00",
+    "start_tw": "Aug 25, 23:56",
+    "end_tw": "Aug 26, 00:56"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 57,
+      "total_posts": 68,
       "sentiment_counts": {
-        "positive": 20,
-        "negative": 13,
-        "neutral": 24
+        "positive": 22,
+        "negative": 20,
+        "neutral": 26
       },
       "sentiment_share": {
-        "positive": 0.351,
-        "negative": 0.228,
-        "neutral": 0.421
+        "positive": 0.324,
+        "negative": 0.294,
+        "neutral": 0.382
       },
       "top_terms": [
         "查看",
@@ -27,18 +27,29 @@
         "更多",
         "查看更",
         "看更多",
+        "最新",
         "半導",
         "導體",
         "半導體",
-        "升至",
-        "最新"
+        "升至"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "台積電",
+        "topic_id": 3,
+        "label": "nand",
         "heat": 90.0,
+        "volume": 2,
+        "engagement": 337,
+        "entities": [
+          "韓國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "台積電",
+        "heat": 56.8,
         "volume": 2,
         "engagement": 34,
         "entities": [
@@ -48,9 +59,9 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
+        "topic_id": 4,
         "label": "nasa",
-        "heat": 90.0,
+        "heat": 53.9,
         "volume": 2,
         "engagement": 22,
         "entities": [
@@ -61,21 +72,9 @@
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "oled / 處理器",
-        "heat": 78.8,
-        "volume": 2,
-        "engagement": 18,
-        "entities": [
-          "官宣",
-          "余承東"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
+        "topic_id": 2,
         "label": "高盛",
-        "heat": 50.0,
+        "heat": 50.7,
         "volume": 2,
         "engagement": 9,
         "entities": [
@@ -87,7 +86,28 @@
         "is_catchall": false
       },
       {
-        "topic_id": 8,
+        "topic_id": 1,
+        "label": "oled",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 6,
+        "entities": [
+          "官宣",
+          "余承東"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "處理器 / oled",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 12,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
         "label": "處理器",
         "heat": 10.0,
         "volume": 1,
@@ -96,22 +116,26 @@
         "is_catchall": false
       },
       {
-        "topic_id": 9,
-        "label": "其他（未分群，48 篇）",
+        "topic_id": 0,
+        "label": "其他（未分群，57 篇）",
         "heat": 10.0,
-        "volume": 48,
-        "engagement": 1372,
+        "volume": 57,
+        "engagement": 3589,
         "entities": [
+          "美國",
           "輝達",
+          "川普",
           "中國",
-          "高明",
-          "星星",
-          "鄭州"
+          "高明"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
+      {
+        "entity": "美國",
+        "count": 7
+      },
       {
         "entity": "華爾街",
         "count": 5
@@ -126,11 +150,15 @@
       },
       {
         "entity": "輝達",
-        "count": 3
+        "count": 4
+      },
+      {
+        "entity": "川普",
+        "count": 4
       },
       {
         "entity": "中國",
-        "count": 2
+        "count": 3
       },
       {
         "entity": "高明",
@@ -157,26 +185,18 @@
         "count": 2
       },
       {
-        "entity": "美國",
-        "count": 2
-      },
-      {
         "entity": "愛立信",
         "count": 2
       },
       {
         "entity": "聯發科",
         "count": 2
-      },
-      {
-        "entity": "智慧",
-        "count": 2
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-25T15:53:23.661139+00:00",
-        "bucket_end": "2026-08-25T15:57:40.803996+00:00",
+        "bucket_start": "2026-08-25T15:56:03.360350+00:00",
+        "bucket_end": "2026-08-25T16:00:20.503207+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -192,8 +212,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T15:57:40.803996+00:00",
-        "bucket_end": "2026-08-25T16:01:57.946853+00:00",
+        "bucket_start": "2026-08-25T16:00:20.503207+00:00",
+        "bucket_end": "2026-08-25T16:04:37.646064+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -217,8 +237,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T16:01:57.946853+00:00",
-        "bucket_end": "2026-08-25T16:06:15.089710+00:00",
+        "bucket_start": "2026-08-25T16:04:37.646064+00:00",
+        "bucket_end": "2026-08-25T16:08:54.788921+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -230,38 +250,53 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 26.7,
+        "net_sentiment_smoothed": 40.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T16:06:15.089710+00:00",
-        "bucket_end": "2026-08-25T16:10:32.232567+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 26.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T16:10:32.232567+00:00",
-        "bucket_end": "2026-08-25T16:14:49.375424+00:00",
-        "positive": 2,
+        "bucket_start": "2026-08-25T16:08:54.788921+00:00",
+        "bucket_end": "2026-08-25T16:13:11.931778+00:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 1,
-        "positive_engagement": 184,
+        "positive_engagement": 19,
         "neutral_engagement": 0,
         "negative_engagement": 1,
-        "net_sentiment": 33.3,
-        "post_count": 3,
-        "engagement": 185,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 20,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Canada announced retaliatory tariffs of up to 50% on $20bn worth of US imports a day after Donald Trump said he would raise duties on Canadian cars.  https:// ft.trib.al/xF9KwG3",
+            "url": "https://x.com/FT/status/2092284140599025829",
+            "interaction": 19
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Foot Locker owner plunges after warning nervous consumers are cutting spending",
+            "url": "https://x.com/FT/status/2092283545167311102",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T16:13:11.931778+00:00",
+        "bucket_end": "2026-08-25T16:17:29.074635+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 165,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 165,
         "top_topics": [],
         "top_posts": [
           {
@@ -270,21 +305,14 @@
             "text": "No matter how hard I try in the public markets, it’s pretty demoralizing to see people making 10x, 20x, or more in private markets.",
             "url": "https://x.com/jukan05/status/2092284287538135383",
             "interaction": 165
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Canada announced retaliatory tariffs of up to 50% on $20bn worth of US imports a day after Donald Trump said he would raise duties on Canadian cars.  https:// ft.trib.al/xF9KwG3",
-            "url": "https://x.com/FT/status/2092284140599025829",
-            "interaction": 19
           }
         ],
-        "net_sentiment_smoothed": 6.7,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T16:14:49.375424+00:00",
-        "bucket_end": "2026-08-25T16:19:06.518281+00:00",
+        "bucket_start": "2026-08-25T16:17:29.074635+00:00",
+        "bucket_end": "2026-08-25T16:21:46.217492+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -296,12 +324,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 6.7,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T16:19:06.518281+00:00",
-        "bucket_end": "2026-08-25T16:23:23.661138+00:00",
+        "bucket_start": "2026-08-25T16:21:46.217492+00:00",
+        "bucket_end": "2026-08-25T16:26:03.360349+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -313,29 +341,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 6.7,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T16:23:23.661138+00:00",
-        "bucket_end": "2026-08-25T16:27:40.803995+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T16:27:40.803995+00:00",
-        "bucket_end": "2026-08-25T16:31:57.946852+00:00",
+        "bucket_start": "2026-08-25T16:26:03.360349+00:00",
+        "bucket_end": "2026-08-25T16:30:20.503206+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -351,8 +362,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T16:31:57.946852+00:00",
-        "bucket_end": "2026-08-25T16:36:15.089709+00:00",
+        "bucket_start": "2026-08-25T16:30:20.503206+00:00",
+        "bucket_end": "2026-08-25T16:34:37.646063+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -368,8 +379,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T16:36:15.089709+00:00",
-        "bucket_end": "2026-08-25T16:40:32.232566+00:00",
+        "bucket_start": "2026-08-25T16:34:37.646063+00:00",
+        "bucket_end": "2026-08-25T16:38:54.788920+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -381,12 +392,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 10.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T16:40:32.232566+00:00",
-        "bucket_end": "2026-08-25T16:44:49.375423+00:00",
+        "bucket_start": "2026-08-25T16:38:54.788920+00:00",
+        "bucket_end": "2026-08-25T16:43:11.931777+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -398,67 +409,52 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 11.8,
+        "net_sentiment_smoothed": 2.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T16:44:49.375423+00:00",
-        "bucket_end": "2026-08-25T16:49:06.518280+00:00",
-        "positive": 1,
-        "neutral": 1,
+        "bucket_start": "2026-08-25T16:43:11.931777+00:00",
+        "bucket_end": "2026-08-25T16:47:29.074634+00:00",
+        "positive": 0,
+        "neutral": 0,
         "negative": 0,
-        "positive_engagement": 5,
-        "neutral_engagement": 15,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 20,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
         "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "TrendForce.tw",
-            "platform": "Facebook",
-            "text": "DRAM 與 NAND Flash 占 CSP 資本支出比重，2027 年將由 47% 一路攀升至 68%。當記憶體吃掉近七成預算、HBM 合約價還可能再漲 70–140%，CSP 會如何重新配置 AI 系統記憶體架構？TrendForce 分析記憶體合約價飆升對 AI 生態系的影響：\nhttps://buff.ly/G1FcNDy",
-            "url": "https://www.facebook.com/TrendForce.tw/posts/pfbid0d89WENQcomdyzCfHcFaf6TXNYxQMYYfJvTDRox7By6km2eGEdgt28dUBQy3GMx1Rl?comment_id=3654394238032752",
-            "interaction": 15
-          },
-          {
-            "handle": "TrendForce.tw",
-            "platform": "Facebook",
-            "text": "2026 年第二季電動車銷量占全球汽車市場 33.2%，創歷史新高，中國占比卻從 66% 滑落至 56%。當中國本土需求退潮，海外市場撐起銷售成長，全球品牌市占會如何變化？TrendForce 分析 BEV & PHEV 最新銷售排名與市占： \nhttps://buff.ly/1khrToZ",
-            "url": "https://www.facebook.com/TrendForce.tw/posts/pfbid0czwUQEEbNbb9vRGTAjuKZNp7fdmG612AqzkUd4LtNPnZZMDTdb824WVWv8K1SgQml?__cft__[0]=AZZIxSO_4sIr5aJKvMU8T0BG1kZo9jpNBN-68j-iXeQ0cQsvH9EA_jANq-b_CocWxqKTziVpxC1FS1iQLEYbb_GRffjkBujZsjDUdsj8zUFc1ekDgjTrIXKnxmBwD8RMurMm4AFmJGrUGwoM-WXCzHewYYh3zS1njqfMckpW4KXtxnTHjWFU43Aex71Gj-tltaM",
-            "interaction": 5
-          }
-        ],
-        "net_sentiment_smoothed": 14.7,
+        "top_posts": [],
+        "net_sentiment_smoothed": 3.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T16:49:06.518280+00:00",
-        "bucket_end": "2026-08-25T16:53:23.661137+00:00",
-        "positive": 11,
-        "neutral": 15,
+        "bucket_start": "2026-08-25T16:47:29.074634+00:00",
+        "bucket_end": "2026-08-25T16:51:46.217491+00:00",
+        "positive": 12,
+        "neutral": 16,
         "negative": 8,
-        "positive_engagement": 150,
-        "neutral_engagement": 646,
+        "positive_engagement": 155,
+        "neutral_engagement": 661,
         "negative_engagement": 155,
-        "net_sentiment": 8.8,
-        "post_count": 34,
-        "engagement": 951,
+        "net_sentiment": 11.1,
+        "post_count": 36,
+        "engagement": 971,
         "top_topics": [
           {
-            "topic_id": 4,
+            "topic_id": 2,
             "label": "高盛",
             "count": 2
           },
           {
-            "topic_id": 2,
+            "topic_id": 5,
             "label": "台積電",
             "count": 2
           },
           {
-            "topic_id": 1,
-            "label": "oled / 處理器",
+            "topic_id": 4,
+            "label": "nasa",
             "count": 2
           }
         ],
@@ -478,13 +474,107 @@
             "interaction": 125
           }
         ],
-        "net_sentiment_smoothed": 19.6,
+        "net_sentiment_smoothed": 4.2,
         "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-08-25T16:51:46.217491+00:00",
+        "bucket_end": "2026-08-25T16:56:03.360348+00:00",
+        "positive": 5,
+        "neutral": 8,
+        "negative": 4,
+        "positive_engagement": 78,
+        "neutral_engagement": 141,
+        "negative_engagement": 93,
+        "net_sentiment": 5.9,
+        "post_count": 17,
+        "engagement": 312,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "法人認為，被動元件出現長線的買點，但上方賣壓實在太沉重，短線操作者不宜接刀，國巨短期均線、月季線皆向下，股價十分疲弱，籌碼面仍凌亂必須保持耐心。…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0YchToBaAHniHFFdYtMSqxRGnbfmHaoYn3eBKmsCjV1KAjN6tx4LND1BF5vy4aZxyl?__cft__[0]=AZankncWbuiWc-NfYxwQQ0G8DpJwIzuNWYzskEbZUtbEX3ZXe_TpOcN0A4Mtnzku3DYB7PcTwvuih3ckzjYPfDsgFpfLy7hfXuymPVmmsFMPjm7GPvN9fWSUBwHFQt3rE7uOUcxY-KKh5a2O26BYML48LDFE0lxrmcwJcJcm6pS56GVf7rDATSR-qqwSrcLdeME",
+            "interaction": 46
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "輝達身為AI晶片龍頭，被視為是整體AI產業的風向球。華爾街預期輝達上季營收將年增97％至...",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0JQi3yHjhahZKgt8jtsoybQunjroSKErB79hopWiFtLWtdYyRA2Fv7qd15cPDUxgXl?__cft__[0]=AZZhLC2uV-2z4mNI6gtsNVdvwIkip7PJgYMORjA9X_yEpbrxVHF-30TxodKliANnIXFToLhLaeqD6OlsSNlLsKd9ZpEucpYCYn8Gh55pmp3oz3MQsBpNcd65jBJ9iTHgQunnyM9NvYCPu5Ql56wzoeif27kTpFitwdb6mb8DA6fflnrspSrN64yto1IXkgEr5q8",
+            "interaction": 36
+          }
+        ],
+        "net_sentiment_smoothed": 5.7,
+        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 4,
+        "topic_id": 3,
+        "label": "nand",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
         "label": "高盛",
         "cells": [
           {
@@ -537,16 +627,16 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
-            "volume": 2
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 2,
+        "topic_id": 5,
         "label": "台積電",
         "cells": [
           {
@@ -598,85 +688,19 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": 50.0,
             "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 1,
-        "label": "oled / 處理器",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 2
-          }
-        ]
-      },
-      {
-        "topic_id": 0,
+        "topic_id": 4,
         "label": "nasa",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -728,17 +752,17 @@
           {
             "net_sentiment": -50.0,
             "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 8,
-        "label": "處理器",
+        "topic_id": 1,
+        "label": "oled",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -790,6 +814,72 @@
           {
             "net_sentiment": 100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 10,
+        "label": "處理器 / oled",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       }
@@ -797,47 +887,55 @@
     "coverage_focus_ranking": [
       {
         "handle": "TrendForce",
-        "top_topic_id": 9,
-        "top_topic_label": "其他（未分群，48 篇）",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，57 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
       },
       {
         "handle": "jukan05",
-        "top_topic_id": 9,
-        "top_topic_label": "其他（未分群，48 篇）",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，57 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
       },
       {
         "handle": "FT",
-        "top_topic_id": 9,
-        "top_topic_label": "其他（未分群，48 篇）",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，57 篇）",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 2
       },
       {
         "handle": "TrendForce.tw",
-        "top_topic_id": 9,
-        "top_topic_label": "其他（未分群，48 篇）",
+        "top_topic_id": 3,
+        "top_topic_label": "nand",
         "focus_share": 1.0,
         "post_count": 2,
-        "unclustered_posts": 2
+        "unclustered_posts": 1
       },
       {
         "handle": "ctee.fans",
-        "top_topic_id": 9,
-        "top_topic_label": "其他（未分群，48 篇）",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，57 篇）",
         "focus_share": 1.0,
         "post_count": 17,
         "unclustered_posts": 17
       },
       {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 3,
+        "top_topic_label": "nand",
+        "focus_share": 1.0,
+        "post_count": 11,
+        "unclustered_posts": 10
+      },
+      {
         "handle": "technewsinside",
-        "top_topic_id": 4,
+        "top_topic_id": 2,
         "top_topic_label": "高盛",
         "focus_share": 0.222,
         "post_count": 34,
@@ -846,7 +944,16 @@
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
+        "topic_id": 3,
+        "label": "nand",
+        "total_engagement": 337,
+        "post_count": 2,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 322,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
         "label": "台積電",
         "total_engagement": 34,
         "post_count": 2,
@@ -855,7 +962,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
+        "topic_id": 4,
         "label": "nasa",
         "total_engagement": 22,
         "post_count": 2,
@@ -864,16 +971,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "oled / 處理器",
-        "total_engagement": 18,
-        "post_count": 2,
-        "top_account": "technewsinside",
-        "top_account_engagement": 18,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 8,
+        "topic_id": 6,
         "label": "處理器",
         "total_engagement": 16,
         "post_count": 1,
@@ -882,7 +980,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 4,
+        "topic_id": 10,
+        "label": "處理器 / oled",
+        "total_engagement": 12,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 12,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
         "label": "高盛",
         "total_engagement": 9,
         "post_count": 2,
@@ -891,12 +998,21 @@
         "is_catchall": false
       },
       {
-        "topic_id": 9,
-        "label": "其他（未分群，48 篇）",
-        "total_engagement": 1372,
-        "post_count": 48,
+        "topic_id": 1,
+        "label": "oled",
+        "total_engagement": 6,
+        "post_count": 1,
         "top_account": "technewsinside",
-        "top_account_engagement": 852,
+        "top_account_engagement": 6,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，57 篇）",
+        "total_engagement": 3589,
+        "post_count": 57,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 2232,
         "is_catchall": true
       }
     ],
@@ -921,10 +1037,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 57,
-          "likes": 1433,
-          "engagement": 1471,
-          "avg_engagement": 25.8
+          "post_count": 68,
+          "likes": 3987,
+          "engagement": 4025,
+          "avg_engagement": 59.2
         }
       },
       "peak_slot": "late_night"
