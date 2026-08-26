@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-25T22:34:19.107567+00:00",
+  "generated_at": "2026-08-26T00:58:21.893977+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-08-25T18:34:19.107567+00:00",
-    "end_utc": "2026-08-25T22:34:19.107567+00:00",
-    "start_tw": "Aug 26, 02:34",
-    "end_tw": "Aug 26, 06:34"
+    "start_utc": "2026-08-25T20:58:21.893977+00:00",
+    "end_utc": "2026-08-26T00:58:21.893977+00:00",
+    "start_tw": "Aug 26, 04:58",
+    "end_tw": "Aug 26, 08:58"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 59,
+      "total_posts": 70,
       "sentiment_counts": {
-        "neutral": 20,
-        "negative": 18,
-        "positive": 21
+        "neutral": 28,
+        "negative": 20,
+        "positive": 22
       },
       "sentiment_share": {
-        "neutral": 0.339,
-        "negative": 0.305,
-        "positive": 0.356
+        "neutral": 0.4,
+        "negative": 0.286,
+        "positive": 0.314
       },
       "top_terms": [
         "查看",
@@ -28,17 +28,43 @@
         "查看更",
         "看更多",
         "強勢",
-        "加速",
         "風險",
         "台股",
-        "授權"
+        "加速",
+        "輝達"
       ]
     },
     "temperature_bar": [
       {
+        "topic_id": 7,
+        "label": "hbm / sk / 海力士 / sk海力士",
+        "heat": 90.0,
+        "volume": 2,
+        "engagement": 163,
+        "entities": [
+          "SK海力士",
+          "英特爾",
+          "台積電",
+          "曝光",
+          "高峰"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "輝達",
+        "heat": 66.8,
+        "volume": 3,
+        "engagement": 43,
+        "entities": [
+          "輝達"
+        ],
+        "is_catchall": false
+      },
+      {
         "topic_id": 0,
         "label": "台積電",
-        "heat": 85.0,
+        "heat": 40.0,
         "volume": 2,
         "engagement": 68,
         "entities": [
@@ -49,20 +75,35 @@
         "is_catchall": false
       },
       {
-        "topic_id": 2,
-        "label": "輝達",
-        "heat": 67.5,
+        "topic_id": 3,
+        "label": "科技早報",
+        "heat": 22.1,
         "volume": 2,
-        "engagement": 40,
+        "engagement": 34,
         "entities": [
-          "輝達"
+          "泰勒",
+          "城市",
+          "都市",
+          "瑞克",
+          "巨星"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 3,
+        "topic_id": 6,
+        "label": "三星 / hbm / 揭露",
+        "heat": 20.5,
+        "volume": 2,
+        "engagement": 31,
+        "entities": [
+          "三星"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
         "label": "量子運算",
-        "heat": 56.9,
+        "heat": 16.3,
         "volume": 2,
         "engagement": 23,
         "entities": [],
@@ -70,51 +111,24 @@
       },
       {
         "topic_id": 5,
-        "label": "chatgpt / 隱私安全 / 幫你讀訊息真的安全嗎 / mac",
-        "heat": 52.5,
+        "label": "chatgpt / 隱私安全 / 獲授權可讀取 / openai",
+        "heat": 12.6,
         "volume": 2,
         "engagement": 16,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 6,
-        "label": "hbm / 海力士 / sk / sk海力士",
-        "heat": 50.0,
-        "volume": 1,
-        "engagement": 140,
-        "entities": [
-          "英特爾",
-          "台積電",
-          "SK海力士",
-          "曝光"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
-        "label": "三星 / 揭露 / hbm",
-        "heat": 10.0,
-        "volume": 1,
-        "engagement": 12,
-        "entities": [
-          "三星"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 9,
-        "label": "三星 / hbm",
+        "topic_id": 11,
+        "label": "mini",
         "heat": 10.0,
         "volume": 1,
         "engagement": 19,
-        "entities": [
-          "三星"
-        ],
+        "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 7,
+        "topic_id": 12,
         "label": "導入",
         "heat": 10.0,
         "volume": 1,
@@ -125,34 +139,66 @@
         "is_catchall": false
       },
       {
-        "topic_id": 8,
-        "label": "hbm / 海力士 / 揭露 / 導入",
+        "topic_id": 10,
+        "label": "mac / mini",
         "heat": 10.0,
         "volume": 1,
-        "engagement": 23,
+        "engagement": 12,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "矽光子",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 22,
         "entities": [
-          "高峰",
-          "SK海力士"
+          "加州"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "盤前",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 13,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "矽光子 / 盤前",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 11,
+        "entities": [
+          "輝達"
         ],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "其他（未分群，46 篇）",
+        "label": "其他（未分群，49 篇）",
         "heat": 10.0,
-        "volume": 46,
-        "engagement": 3430,
+        "volume": 49,
+        "engagement": 3626,
         "entities": [
-          "伊朗",
           "日本",
+          "伊朗",
           "太陽",
           "修正",
-          "中國"
+          "美國"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
+      {
+        "entity": "輝達",
+        "count": 6
+      },
       {
         "entity": "台積電",
         "count": 6
@@ -162,15 +208,11 @@
         "count": 6
       },
       {
-        "entity": "輝達",
-        "count": 4
+        "entity": "日本",
+        "count": 5
       },
       {
         "entity": "伊朗",
-        "count": 4
-      },
-      {
-        "entity": "日本",
         "count": 4
       },
       {
@@ -178,7 +220,15 @@
         "count": 3
       },
       {
+        "entity": "加州",
+        "count": 3
+      },
+      {
         "entity": "修正",
+        "count": 2
+      },
+      {
+        "entity": "美國",
         "count": 2
       },
       {
@@ -187,6 +237,10 @@
       },
       {
         "entity": "SK海力士",
+        "count": 2
+      },
+      {
+        "entity": "曝光",
         "count": 2
       },
       {
@@ -200,24 +254,12 @@
       {
         "entity": "美西",
         "count": 2
-      },
-      {
-        "entity": "富豪",
-        "count": 2
-      },
-      {
-        "entity": "南遷",
-        "count": 2
-      },
-      {
-        "entity": "印度",
-        "count": 2
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-25T18:34:19.107561+00:00",
-        "bucket_end": "2026-08-25T18:51:27.678990+00:00",
+        "bucket_start": "2026-08-25T20:58:21.893971+00:00",
+        "bucket_end": "2026-08-25T21:15:30.465400+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -233,8 +275,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T18:51:27.678990+00:00",
-        "bucket_end": "2026-08-25T19:08:36.250419+00:00",
+        "bucket_start": "2026-08-25T21:15:30.465400+00:00",
+        "bucket_end": "2026-08-25T21:32:39.036829+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -246,148 +288,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 0.6,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T19:08:36.250419+00:00",
-        "bucket_end": "2026-08-25T19:25:44.821848+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T19:25:44.821848+00:00",
-        "bucket_end": "2026-08-25T19:42:53.393277+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T19:42:53.393277+00:00",
-        "bucket_end": "2026-08-25T20:00:01.964706+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T20:00:01.964706+00:00",
-        "bucket_end": "2026-08-25T20:17:10.536135+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T20:17:10.536135+00:00",
-        "bucket_end": "2026-08-25T20:34:19.107564+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T20:34:19.107564+00:00",
-        "bucket_end": "2026-08-25T20:51:27.678993+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T20:51:27.678993+00:00",
-        "bucket_end": "2026-08-25T21:08:36.250422+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T21:08:36.250422+00:00",
-        "bucket_end": "2026-08-25T21:25:44.821851+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T21:25:44.821851+00:00",
-        "bucket_end": "2026-08-25T21:42:53.393280+00:00",
+        "bucket_start": "2026-08-25T21:32:39.036829+00:00",
+        "bucket_end": "2026-08-25T21:49:47.608258+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -403,25 +309,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-08-25T21:42:53.393280+00:00",
-        "bucket_end": "2026-08-25T22:00:01.964709+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.5,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-25T22:00:01.964709+00:00",
-        "bucket_end": "2026-08-25T22:17:10.536138+00:00",
+        "bucket_start": "2026-08-25T21:49:47.608258+00:00",
+        "bucket_end": "2026-08-25T22:06:56.179687+00:00",
         "positive": 14,
         "neutral": 13,
         "negative": 13,
@@ -438,13 +327,13 @@
             "count": 2
           },
           {
-            "topic_id": 3,
+            "topic_id": 4,
             "label": "量子運算",
             "count": 2
           },
           {
-            "topic_id": 0,
-            "label": "台積電",
+            "topic_id": 7,
+            "label": "hbm / sk / 海力士 / sk海力士",
             "count": 2
           }
         ],
@@ -464,12 +353,12 @@
             "interaction": 880
           }
         ],
-        "net_sentiment_smoothed": 0.6,
+        "net_sentiment_smoothed": 2.6,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-08-25T22:17:10.536138+00:00",
-        "bucket_end": "2026-08-25T22:34:19.107567+00:00",
+        "bucket_start": "2026-08-25T22:06:56.179687+00:00",
+        "bucket_end": "2026-08-25T22:24:04.751116+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -481,7 +370,212 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.8,
+        "net_sentiment_smoothed": 2.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T22:24:04.751116+00:00",
+        "bucket_end": "2026-08-25T22:41:13.322545+00:00",
+        "positive": 7,
+        "neutral": 7,
+        "negative": 5,
+        "positive_engagement": 217,
+        "neutral_engagement": 216,
+        "negative_engagement": 225,
+        "net_sentiment": 10.5,
+        "post_count": 19,
+        "engagement": 658,
+        "top_topics": [
+          {
+            "topic_id": 13,
+            "label": "盤前",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "晶片概念股24日盤初表現欠佳，SanDisk股價也下跌了5％，美光下跌超過3％，AMD和博通分別下跌近2％和約1％；光電龍頭Coherent和CPO大廠Lumentum股價下跌均重挫5％。…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid021MUxVY64pMu7AjPyQ6d6WyoBSFesnQZrLpWNCXT5EFHe2WphqjSBG6kG49dyhjgMl?__cft__[0]=AZbh7kRirF3xjYOvgBi8DkVQ5wx-mLK1mhGzC4ET7ZlQo72mxp_B2KJ-jhIkJfjUuN3vJh8V0Tm9UHXmW87wbaGfcbOn_HY4Q93zEZ1_00bhiX1DeWz5Vfdl929twi9DYq2L0aS7L0IvOdwADKlYqweilg0hSVPp1hRjNTR5hAfFQxOWnjL08AWWzlp9LUHhA5Q",
+            "interaction": 108
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "台股今（24）日突湧恐慌性賣壓，終場大跌461.97點收在44,762.32點...",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02caUZBcGuzFTBxCteJMWAsoYNKMHNR4k531yh2mUJyPDEMMiHLBHq9CkKuNHxo3Nzl?__cft__[0]=AZZr5i2N_y4lk-zHFqtP-_kcsIsD9b7duImfc67IrimrAPM2BeGHT_m7X2-VnW2WjPtsAqIFT9nQZQcTFMANdIPVwnfkJ8sHcvGj56ioQw4fq6G5SZfZhQWli3g7F9E2uLlSrQhVjapr79B_syHXvKL_NNiqjVf5SDpegvw7tEpdbV3XxWrXQjR55VsIC6rjFNo",
+            "interaction": 77
+          }
+        ],
+        "net_sentiment_smoothed": 2.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T22:41:13.322545+00:00",
+        "bucket_end": "2026-08-25T22:58:21.893974+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 2.1,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T22:58:21.893974+00:00",
+        "bucket_end": "2026-08-25T23:15:30.465403+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 2.1,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T23:15:30.465403+00:00",
+        "bucket_end": "2026-08-25T23:32:39.036832+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T23:32:39.036832+00:00",
+        "bucket_end": "2026-08-25T23:49:47.608261+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-25T23:49:47.608261+00:00",
+        "bucket_end": "2026-08-26T00:06:56.179690+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-26T00:06:56.179690+00:00",
+        "bucket_end": "2026-08-26T00:24:04.751119+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -2.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-26T00:24:04.751119+00:00",
+        "bucket_end": "2026-08-26T00:41:13.322548+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -2.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-26T00:41:13.322548+00:00",
+        "bucket_end": "2026-08-26T00:58:21.893977+00:00",
+        "positive": 1,
+        "neutral": 7,
+        "negative": 2,
+        "positive_engagement": 3,
+        "neutral_engagement": 163,
+        "negative_engagement": 28,
+        "net_sentiment": -10.0,
+        "post_count": 10,
+        "engagement": 194,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "輝達",
+            "count": 1
+          },
+          {
+            "topic_id": 10,
+            "label": "mac / mini",
+            "count": 1
+          },
+          {
+            "topic_id": 8,
+            "label": "矽光子",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "誰將主宰下一個十年？\n#AI資料中心掀800V供電革\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid024W5h7AN9DBL5iLRR18TpE4nRJEJj6W1VJrZcY46WAdsfjR8TKN8CbzPCKsZ4Tmq5l?__cft__[0]=AZbBSODHKtcEZc32cUUd1ouYK148Ttg9kkRQSsU8qMstMqhCXdZMnCJsrZQAntfUqY4kuWJYTmuWzrNWInlNupxkeIXB-Gy5tZAGl9N-W0_1VX6E0243fcWSmK4DH1TBli-8ipLYIeznGwk1b5UCoXiHABMu85SPelSMELqQ7T0VYktoCDmIAuD8qEo4utBuhBw",
+            "interaction": 73
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "【台股V轉闖三關 成交量仍低市場還在怕？重返多頭條件曝光】…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0razxigQJVFgEpSGSAeawVhS9YTWa1AYgYQKSnZGYHoYNwtY4wLUMwwipYMFzYv8ul?__cft__[0]=AZZNE-gh4nyssQ-MmFjv1cVomP1RGcd5V2NIU-1T80P5eFh3M2EnH2HVum0W8l_1EHY-ybEB70qyzqGbcZ9ofeU-fJQU7LXTi7Kt0666r7N7INPW0Ote1AFT9pfZD5tezAdZIO4ckgEoOvvS8RxvOT7-yXk9hRk3qGwRcyrefFOQIzUEn60WIgrd64CU9IIMi-g",
+            "interaction": 25
+          }
+        ],
+        "net_sentiment_smoothed": -3.3,
         "is_anomaly": false
       }
     ],
@@ -503,54 +597,54 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": 50.0,
             "volume": 2
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           }
         ]
       },
       {
         "topic_id": 3,
-        "label": "量子運算",
+        "label": "科技早報",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -565,252 +659,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 0,
-        "label": "台積電",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 5,
-        "label": "chatgpt / 隱私安全 / 幫你讀訊息真的安全嗎 / mac",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 6,
-        "label": "hbm / 海力士 / sk / sk海力士",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
+            "net_sentiment": -100.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 4,
-        "label": "三星 / 揭露 / hbm",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -851,6 +701,250 @@
           {
             "net_sentiment": -100.0,
             "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "量子運算",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "hbm / sk / 海力士 / sk海力士",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "三星 / hbm / 揭露",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "台積電",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -861,30 +955,38 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "ctee.fans",
+        "handle": "yutinghaosfinance",
         "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，46 篇）",
+        "top_topic_label": "其他（未分群，49 篇）",
         "focus_share": 1.0,
-        "post_count": 19,
-        "unclustered_posts": 19
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 13,
+        "top_topic_label": "盤前",
+        "focus_share": 0.5,
+        "post_count": 23,
+        "unclustered_posts": 21
       },
       {
         "handle": "technewsinside",
         "top_topic_id": 2,
         "top_topic_label": "輝達",
-        "focus_share": 0.154,
-        "post_count": 40,
+        "focus_share": 0.158,
+        "post_count": 46,
         "unclustered_posts": 27
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 6,
-        "label": "hbm / 海力士 / sk / sk海力士",
-        "total_engagement": 140,
-        "post_count": 1,
+        "topic_id": 7,
+        "label": "hbm / sk / 海力士 / sk海力士",
+        "total_engagement": 163,
+        "post_count": 2,
         "top_account": "technewsinside",
-        "top_account_engagement": 140,
+        "top_account_engagement": 163,
         "is_catchall": false
       },
       {
@@ -899,14 +1001,32 @@
       {
         "topic_id": 2,
         "label": "輝達",
-        "total_engagement": 40,
-        "post_count": 2,
+        "total_engagement": 43,
+        "post_count": 3,
         "top_account": "technewsinside",
-        "top_account_engagement": 40,
+        "top_account_engagement": 43,
         "is_catchall": false
       },
       {
         "topic_id": 3,
+        "label": "科技早報",
+        "total_engagement": 34,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 34,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "三星 / hbm / 揭露",
+        "total_engagement": 31,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 31,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
         "label": "量子運算",
         "total_engagement": 23,
         "post_count": 2,
@@ -916,16 +1036,16 @@
       },
       {
         "topic_id": 8,
-        "label": "hbm / 海力士 / 揭露 / 導入",
-        "total_engagement": 23,
+        "label": "矽光子",
+        "total_engagement": 22,
         "post_count": 1,
         "top_account": "technewsinside",
-        "top_account_engagement": 23,
+        "top_account_engagement": 22,
         "is_catchall": false
       },
       {
-        "topic_id": 9,
-        "label": "三星 / hbm",
+        "topic_id": 11,
+        "label": "mini",
         "total_engagement": 19,
         "post_count": 1,
         "top_account": "technewsinside",
@@ -934,7 +1054,7 @@
       },
       {
         "topic_id": 5,
-        "label": "chatgpt / 隱私安全 / 幫你讀訊息真的安全嗎 / mac",
+        "label": "chatgpt / 隱私安全 / 獲授權可讀取 / openai",
         "total_engagement": 16,
         "post_count": 2,
         "top_account": "technewsinside",
@@ -942,7 +1062,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 7,
+        "topic_id": 12,
         "label": "導入",
         "total_engagement": 13,
         "post_count": 1,
@@ -951,8 +1071,17 @@
         "is_catchall": false
       },
       {
-        "topic_id": 4,
-        "label": "三星 / 揭露 / hbm",
+        "topic_id": 13,
+        "label": "盤前",
+        "total_engagement": 13,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 13,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "mac / mini",
         "total_engagement": 12,
         "post_count": 1,
         "top_account": "technewsinside",
@@ -960,22 +1089,31 @@
         "is_catchall": false
       },
       {
+        "topic_id": 9,
+        "label": "矽光子 / 盤前",
+        "total_engagement": 11,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 11,
+        "is_catchall": false
+      },
+      {
         "topic_id": 1,
-        "label": "其他（未分群，46 篇）",
-        "total_engagement": 3430,
-        "post_count": 46,
+        "label": "其他（未分群，49 篇）",
+        "total_engagement": 3626,
+        "post_count": 49,
         "top_account": "technewsinside",
-        "top_account_engagement": 2772,
+        "top_account_engagement": 2811,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 59,
-          "likes": 3784,
-          "engagement": 3784,
-          "avg_engagement": 64.1
+          "post_count": 70,
+          "likes": 4094,
+          "engagement": 4094,
+          "avg_engagement": 58.5
         },
         "afternoon": {
           "post_count": 0,
