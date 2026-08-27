@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-27T03:29:00.089816+00:00",
+  "generated_at": "2026-08-27T04:24:08.044896+00:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-08-27T02:29:00.089816+00:00",
-    "end_utc": "2026-08-27T03:29:00.089816+00:00",
-    "start_tw": "Aug 27, 10:29",
-    "end_tw": "Aug 27, 11:29"
+    "start_utc": "2026-08-27T03:24:08.044896+00:00",
+    "end_utc": "2026-08-27T04:24:08.044896+00:00",
+    "start_tw": "Aug 27, 11:24",
+    "end_tw": "Aug 27, 12:24"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 36,
+      "total_posts": 45,
       "sentiment_counts": {
-        "neutral": 12,
-        "negative": 13,
-        "positive": 11
+        "negative": 17,
+        "positive": 12,
+        "neutral": 16
       },
       "sentiment_share": {
-        "neutral": 0.333,
-        "negative": 0.361,
-        "positive": 0.306
+        "negative": 0.378,
+        "positive": 0.267,
+        "neutral": 0.356
       },
       "top_terms": [
         "查看",
@@ -27,11 +27,11 @@
         "更多",
         "查看更",
         "看更多",
-        "台股",
         "輝達",
-        "達財",
         "財報",
-        "輝達財"
+        "日圓",
+        "預期",
+        "台股"
       ]
     },
     "temperature_bar": [
@@ -49,9 +49,22 @@
         "is_catchall": false
       },
       {
+        "topic_id": 3,
+        "label": "ai算力",
+        "heat": 60.8,
+        "volume": 2,
+        "engagement": 66,
+        "entities": [
+          "輝達",
+          "日本",
+          "貢獻"
+        ],
+        "is_catchall": false
+      },
+      {
         "topic_id": 1,
-        "label": "asic / cpu / accelerators / roadmap",
-        "heat": 58.1,
+        "label": "asic",
+        "heat": 56.6,
         "volume": 2,
         "engagement": 44,
         "entities": [
@@ -60,53 +73,69 @@
         "is_catchall": false
       },
       {
-        "topic_id": 3,
-        "label": "pim / samsung / mass / gaia",
-        "heat": 50.0,
-        "volume": 2,
-        "engagement": 0,
-        "entities": [],
+        "topic_id": 4,
+        "label": "長鑫存儲 / dram / cxmt / ai伺服器",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 9,
+        "entities": [
+          "大摩",
+          "中國",
+          "摩根士丹利",
+          "伺服器"
+        ],
         "is_catchall": false
       },
       {
         "topic_id": 5,
-        "label": "samsung / tsmc / nm / cutting",
+        "label": "edge / ai伺服器",
         "heat": 10.0,
         "volume": 1,
-        "engagement": 0,
-        "entities": [],
+        "engagement": 12,
+        "entities": [
+          "鴻海",
+          "美國",
+          "加州",
+          "伺服器"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "dram / 長鑫存儲 / cxmt",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 43,
+        "entities": [
+          "三星"
+        ],
         "is_catchall": false
       },
       {
         "topic_id": 6,
-        "label": "tsmc / cpu / roadmap / nm",
+        "label": "edge",
         "heat": 10.0,
         "volume": 1,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
-        "label": "sk / hynix / accelerators / roadmap",
-        "heat": 10.0,
-        "volume": 1,
-        "engagement": 0,
-        "entities": [],
+        "engagement": 29,
+        "entities": [
+          "鴻海",
+          "美國",
+          "加州"
+        ],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，27 篇）",
+        "label": "其他（未分群，35 篇）",
         "heat": 10.0,
-        "volume": 27,
-        "engagement": 6128,
+        "volume": 35,
+        "engagement": 6186,
         "entities": [
           "台灣",
           "輝達",
-          "美國",
           "川普",
-          "台積電"
+          "曝光",
+          "聯電"
         ],
         "is_catchall": true
       }
@@ -114,14 +143,34 @@
     "named_entities": [
       {
         "entity": "輝達",
-        "count": 4
-      },
-      {
-        "entity": "台灣",
-        "count": 3
+        "count": 6
       },
       {
         "entity": "美國",
+        "count": 5
+      },
+      {
+        "entity": "日本",
+        "count": 4
+      },
+      {
+        "entity": "中國",
+        "count": 3
+      },
+      {
+        "entity": "伺服器",
+        "count": 3
+      },
+      {
+        "entity": "鴻海",
+        "count": 3
+      },
+      {
+        "entity": "三星",
+        "count": 3
+      },
+      {
+        "entity": "台灣",
         "count": 3
       },
       {
@@ -129,327 +178,34 @@
         "count": 3
       },
       {
-        "entity": "日本",
-        "count": 3
+        "entity": "曝光",
+        "count": 2
+      },
+      {
+        "entity": "加州",
+        "count": 2
+      },
+      {
+        "entity": "聯電",
+        "count": 2
+      },
+      {
+        "entity": "亞洲",
+        "count": 2
+      },
+      {
+        "entity": "香港",
+        "count": 2
       },
       {
         "entity": "台積電",
         "count": 2
-      },
-      {
-        "entity": "大立光",
-        "count": 2
-      },
-      {
-        "entity": "中國",
-        "count": 2
-      },
-      {
-        "entity": "伊朗",
-        "count": 2
-      },
-      {
-        "entity": "弘塑",
-        "count": 1
-      },
-      {
-        "entity": "均華",
-        "count": 1
-      },
-      {
-        "entity": "雷射",
-        "count": 1
-      },
-      {
-        "entity": "長庫克",
-        "count": 1
-      },
-      {
-        "entity": "美國聯準會",
-        "count": 1
-      },
-      {
-        "entity": "伺服器",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-08-27T02:29:00.089818+00:00",
-        "bucket_end": "2026-08-27T02:33:17.232675+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T02:33:17.232675+00:00",
-        "bucket_end": "2026-08-27T02:37:34.375532+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T02:37:34.375532+00:00",
-        "bucket_end": "2026-08-27T02:41:51.518389+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T02:41:51.518389+00:00",
-        "bucket_end": "2026-08-27T02:46:08.661246+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T02:46:08.661246+00:00",
-        "bucket_end": "2026-08-27T02:50:25.804103+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T02:50:25.804103+00:00",
-        "bucket_end": "2026-08-27T02:54:42.946960+00:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 5,
-            "label": "samsung / tsmc / nm / cutting",
-            "count": 1
-          },
-          {
-            "topic_id": 6,
-            "label": "tsmc / cpu / roadmap / nm",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "📈 Samsung Foundry’s turnaround may be closer than expected. Reported price hikes of up to 15% across SF4, SF5 and 8nm could be a key catalyst—higher than  #TSMC’s planned up to 10% increase in 2027.  ",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7498348757768458240/",
-            "interaction": 0
-          },
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "👀 Could TSMC become a bigger part of Team Blue’s next-gen CPU plans? While Nova Lake is expected to rely largely on 18A, Intel may tap TSMC’s N2X for part of Razor Lake, depending on how 18A-P perform",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7496053510086643712/",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T02:54:42.946960+00:00",
-        "bucket_end": "2026-08-27T02:59:00.089817+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T02:59:00.089817+00:00",
-        "bucket_end": "2026-08-27T03:03:17.232674+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 23.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T03:03:17.232674+00:00",
-        "bucket_end": "2026-08-27T03:07:34.375531+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 13.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T03:07:34.375531+00:00",
-        "bucket_end": "2026-08-27T03:11:51.518388+00:00",
-        "positive": 2,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 66.7,
-        "post_count": 3,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 3,
-            "label": "pim / samsung / mass / gaia",
-            "count": 2
-          },
-          {
-            "topic_id": 4,
-            "label": "sk / hynix / accelerators / roadmap",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "🚀 Memory giants are moving into the optical era. SK hynix just unveiled its CPO roadmap, featuring an optics-centric architecture that uses a photonic interposer to directly link memory and processors",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7498539877211258880/",
-            "interaction": 0
-          },
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "👀 Samsung’s 4nm GAIA could mark the first PIM-powered AI PC chip, cutting workload time by over half in tests. Prototypes have reportedly been sent to Lenovo and HP, with mass production possible in 2",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7498318436620480512/",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 13.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T03:11:51.518388+00:00",
-        "bucket_end": "2026-08-27T03:16:08.661245+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 13.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T03:16:08.661245+00:00",
-        "bucket_end": "2026-08-27T03:20:25.804102+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 6.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T03:20:25.804102+00:00",
-        "bucket_end": "2026-08-27T03:24:42.946959+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -8.8,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-08-27T03:24:42.946959+00:00",
-        "bucket_end": "2026-08-27T03:29:00.089816+00:00",
+        "bucket_start": "2026-08-27T03:24:08.044898+00:00",
+        "bucket_end": "2026-08-27T03:28:25.187755+00:00",
         "positive": 2,
         "neutral": 7,
         "negative": 8,
@@ -462,8 +218,13 @@
         "top_topics": [
           {
             "topic_id": 1,
-            "label": "asic / cpu / accelerators / roadmap",
+            "label": "asic",
             "count": 2
+          },
+          {
+            "topic_id": 6,
+            "label": "edge",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -482,14 +243,256 @@
             "interaction": 44
           }
         ],
-        "net_sentiment_smoothed": -11.8,
+        "net_sentiment_smoothed": -9.4,
         "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-08-27T03:28:25.187755+00:00",
+        "bucket_end": "2026-08-27T03:32:42.330612+00:00",
+        "positive": 6,
+        "neutral": 3,
+        "negative": 5,
+        "positive_engagement": 3262,
+        "neutral_engagement": 999,
+        "negative_engagement": 2043,
+        "net_sentiment": 7.1,
+        "post_count": 14,
+        "engagement": 6304,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "早晨財經速解讀",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "yutinghaosfinance",
+            "platform": "Facebook",
+            "text": "國運昌隆，台灣經濟信心本世紀首見黃金交叉，對經濟樂觀者，第一次大於悲觀者。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02SMMcc9x1rLG4ZcSwSpK7NXNthdB44SXZLZWKJzQFaCqYy8V8ZiX1dmwQK9nCseuml?__cft__[0]=AZZl93iNgAUU_-RdJuTDOZogY32604fcZHM0ahXLfI3bN2Bg_FNCo9IIoIwYoJ_9JH8XzJv0Wm9PNZ3Ka7RyKTEcPGEY680hv-DJMZJc-mjFgOzfeY4whF0ZoWUudFsJQIJYne9pOiVa8cpwmO2mrJyU1UHpsr1y1py9gSS9EDLBQqYd9eDJVMDC7vNi7v-zBlQ",
+            "interaction": 1525
+          },
+          {
+            "handle": "yutinghaosfinance",
+            "platform": "Facebook",
+            "text": "東京六本木表面上是高級餐廳、夜店與富人聚集的繁華街區，背後卻存在一套特殊的地下秩序。SPA雜誌報導，當地約有3個黑幫勢力彼此牽制，嘗試壓低公開衝突，悶聲發大財。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0PaAR4Erq1WoVu5YPr37T3ywupLufefWVt7LJLi9ytvBQJxT1ffDGy1Y6S6gZgiKLl?__cft__[0]=AZakeNuToOY83LGtDvf0a7yaKqNkMdxsLCh8Jbal6kGjcUMNl6Na3ueiEMI-9Z9A4li42cnQ4Cyc-_sg7of7vCUEPY2D-g4CQKLqbdrsJzodwgA9OYq4z2Yg_aEybnPy4I0MB8r_4A2baDeml348ba0UY569bMbr_ReafC_8B5BTU0fx9UDvI8vp96N1fHIymvY",
+            "interaction": 753
+          }
+        ],
+        "net_sentiment_smoothed": -7.0,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-08-27T03:32:42.330612+00:00",
+        "bucket_end": "2026-08-27T03:36:59.473469+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -5.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-27T03:36:59.473469+00:00",
+        "bucket_end": "2026-08-27T03:41:16.616326+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 1.4,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-27T03:41:16.616326+00:00",
+        "bucket_end": "2026-08-27T03:45:33.759183+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-27T03:45:33.759183+00:00",
+        "bucket_end": "2026-08-27T03:49:50.902040+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-27T03:49:50.902040+00:00",
+        "bucket_end": "2026-08-27T03:54:08.044897+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-27T03:54:08.044897+00:00",
+        "bucket_end": "2026-08-27T03:58:25.187754+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-27T03:58:25.187754+00:00",
+        "bucket_end": "2026-08-27T04:02:42.330611+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-27T04:02:42.330611+00:00",
+        "bucket_end": "2026-08-27T04:06:59.473468+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-27T04:06:59.473468+00:00",
+        "bucket_end": "2026-08-27T04:11:16.616325+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-27T04:11:16.616325+00:00",
+        "bucket_end": "2026-08-27T04:15:33.759182+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-27T04:15:33.759182+00:00",
+        "bucket_end": "2026-08-27T04:19:50.902039+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-08-27T04:19:50.902039+00:00",
+        "bucket_end": "2026-08-27T04:24:08.044896+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "asic / cpu / accelerators / roadmap",
+        "topic_id": 3,
+        "label": "ai算力",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -545,7 +548,69 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "asic",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
             "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
@@ -559,100 +624,6 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "pim / samsung / mass / gaia",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
             "volume": 2
           },
           {
@@ -670,98 +641,6 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 5,
-        "label": "samsung / tsmc / nm / cutting",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 6,
-        "label": "tsmc / cpu / roadmap / nm",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -799,7 +678,7 @@
       },
       {
         "topic_id": 4,
-        "label": "sk / hynix / accelerators / roadmap",
+        "label": "長鑫存儲 / dram / cxmt / ai伺服器",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -838,8 +717,132 @@
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "edge / ai伺服器",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "dram / 長鑫存儲 / cxmt",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -862,14 +865,6 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "ctee.fans",
-        "top_topic_id": 1,
-        "top_topic_label": "asic / cpu / accelerators / roadmap",
-        "focus_share": 1.0,
-        "post_count": 16,
-        "unclustered_posts": 15
-      },
-      {
         "handle": "yutinghaosfinance",
         "top_topic_id": 2,
         "top_topic_label": "早晨財經速解讀",
@@ -879,11 +874,27 @@
       },
       {
         "handle": "TrendForce",
-        "top_topic_id": 3,
-        "top_topic_label": "pim / samsung / mass / gaia",
-        "focus_share": 0.333,
-        "post_count": 6,
+        "top_topic_id": 1,
+        "top_topic_label": "asic",
+        "focus_share": 1.0,
+        "post_count": 1,
         "unclustered_posts": 0
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 1,
+        "top_topic_label": "asic",
+        "focus_share": 0.5,
+        "post_count": 16,
+        "unclustered_posts": 14
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 3,
+        "top_topic_label": "ai算力",
+        "focus_share": 0.4,
+        "post_count": 14,
+        "unclustered_posts": 9
       }
     ],
     "top_engagement_ranking": [
@@ -897,8 +908,17 @@
         "is_catchall": false
       },
       {
+        "topic_id": 3,
+        "label": "ai算力",
+        "total_engagement": 66,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 66,
+        "is_catchall": false
+      },
+      {
         "topic_id": 1,
-        "label": "asic / cpu / accelerators / roadmap",
+        "label": "asic",
         "total_engagement": 44,
         "post_count": 2,
         "top_account": "ctee.fans",
@@ -906,46 +926,46 @@
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "samsung / tsmc / nm / cutting",
-        "total_engagement": 0,
+        "topic_id": 7,
+        "label": "dram / 長鑫存儲 / cxmt",
+        "total_engagement": 43,
         "post_count": 1,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0,
+        "top_account": "technewsinside",
+        "top_account_engagement": 43,
         "is_catchall": false
       },
       {
         "topic_id": 6,
-        "label": "tsmc / cpu / roadmap / nm",
-        "total_engagement": 0,
+        "label": "edge",
+        "total_engagement": 29,
         "post_count": 1,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 29,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "edge / ai伺服器",
+        "total_engagement": 12,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 12,
         "is_catchall": false
       },
       {
         "topic_id": 4,
-        "label": "sk / hynix / accelerators / roadmap",
-        "total_engagement": 0,
+        "label": "長鑫存儲 / dram / cxmt / ai伺服器",
+        "total_engagement": 9,
         "post_count": 1,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
-        "label": "pim / samsung / mass / gaia",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0,
+        "top_account": "technewsinside",
+        "top_account_engagement": 9,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，27 篇）",
-        "total_engagement": 6128,
-        "post_count": 27,
+        "label": "其他（未分群，35 篇）",
+        "total_engagement": 6186,
+        "post_count": 35,
         "top_account": "yutinghaosfinance",
         "top_account_engagement": 5871,
         "is_catchall": true
@@ -954,16 +974,16 @@
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 36,
+          "post_count": 31,
           "likes": 6605,
           "engagement": 6605,
-          "avg_engagement": 183.5
+          "avg_engagement": 213.1
         },
         "afternoon": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 14,
+          "likes": 217,
+          "engagement": 217,
+          "avg_engagement": 15.5
         },
         "evening": {
           "post_count": 0,
