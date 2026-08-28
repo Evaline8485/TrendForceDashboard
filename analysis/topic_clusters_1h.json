@@ -1,14 +1,36 @@
 {
   "clusters": [
     {
-      "id": "M",
-      "label": "台股市場",
-      "size": 5,
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 1,
       "accounts": {
-        "ctee.fans": 5
+        "TrendForce": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 98
+        "TrendForce": 3
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 1,
+      "accounts": {
+        "FT": 1
+      },
+      "engagement_by_account": {
+        "FT": 7
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 1,
+      "accounts": {
+        "jukan05": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 53
       }
     },
     {
@@ -16,10 +38,10 @@
       "label": "晶圓代工 / 先進製程",
       "size": 1,
       "accounts": {
-        "ctee.fans": 1
+        "jukan05": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 32
+        "jukan05": 53
       }
     },
     {
@@ -27,10 +49,10 @@
       "label": "PCB / 載板 / 被動元件",
       "size": 1,
       "accounts": {
-        "ctee.fans": 1
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 20
+        "statementdog": 4
       }
     },
     {
@@ -38,147 +60,19 @@
       "label": "AI 模型 / 應用",
       "size": 1,
       "accounts": {
-        "ctee.fans": 1
+        "FT": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 5
-      }
-    },
-    {
-      "id": "L",
-      "label": "總經 / Fed",
-      "size": 1,
-      "accounts": {
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "ctee.fans": 31
-      }
-    },
-    {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
-      "size": 1,
-      "accounts": {
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "ctee.fans": 23
+        "FT": 60
       }
     }
   ],
-  "gaps": [
-    {
-      "cluster_id": "M",
-      "label": "台股市場",
-      "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 98,
-      "competitors_covering": [
-        "ctee.fans"
-      ],
-      "sample_posts": [
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "拿到2,000萬你會買房還是放台股？…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02EbtLmygYWGcjq29SkR1PD9HDubusDsF4zBwkjM1bY1FPmdVWB1uU93rH1skMYwwul?__cft__[0]=AZZJ0_tydqJWZhTShL5hncsW_9RD46pOEVwXhEb9KPmdOPRtPM59FMv5GjmEqNK_Gp6adBnwrQFny8Ssd63c2VgIzbxyTIDRexj6w6i38zjEgQLquEV8WyRUBMqqW715tW1ROd360kqyQz-pfC2yafK5k4Ukt1Kpuv4JlJ-ZrnxibEpsS1JJaoMrmBwLIUVkrvk",
-          "timestamp": "2026-08-28T03:19:26.555060+00:00",
-          "interaction": 28
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "【輝達+蘋果雙助攻 台股挾AI續戰46K 法人看好一路旺到「光輝十月」】…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0e3SgnDH3D7mkBbUoV4LFD15Zu1MAJoM8WYpEW7YG32gkxsLMj6frC3TRMpRbELnpl?__cft__[0]=AZY_EFizUitaFO_luyxniCELgGPZriYz1doId6R1d_4Xk-SaNeWRUFJSiKcg7v5Bfmcw5gyEcxYjwKGii9yjXv4tiD7WuwaPwlhrI0jSlcuSyMT0CdIR4p_rMEIBepl8tj6HYZ06FOmKavzHSLoYOw3ApVgjjfqmWyqK4xBd97n7qtT1J20Gkr37xG6hARbOVRI",
-          "timestamp": "2026-08-28T03:19:26.555060+00:00",
-          "interaction": 23
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "今日穩懋、華通等個股在買盤點火下放量上漲，反觀台光電、第一保...\n#台股雷達",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0cmWSd1KchkgtgPdZ3KkToAJwdGE2C9uFaJ9JT6VFMEKMPk3eW6aQgAgLJC6wzwMBl?__cft__[0]=AZZLQiMwVEh0Z6XuE38lFg4szK6RzqCXA9m5WWV4gqfCA_5r97qx87dQXm0PNGzFW2i-LRLzmiedAZG3lruToK45rcM7K7lbRwwyHLPJqMtMsq4_QDVKWTJTfcmHXbzIxaQCgvZhNwWrVEVGvavHRUGQo254lMVl3jDbJjNR4U6452KCWly9TFPlqpFCfIIvV5E",
-          "timestamp": "2026-08-28T03:19:26.555060+00:00",
-          "interaction": 20
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "散戶對股市的信心愈來愈淡。8月消費者信心指數(CCI)總指數65.01點，月增僅0.43 點；其中，投資股票時機指標27.72點、呈現連續三個月下滑，反映台股處高檔震盪，令投資人心態先行觀望...",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0abb8FL7UHwoYpLiAx1qzpjNwSWfK5YaPYVvBWLyuZhFw32rYhgbHUwSoGZ2Rvkirl?__cft__[0]=AZZDImcMydwuybXYLmpvR2Mpnx8G3B-PyjQTgwaiXCGaTij5pw6em21jt2qN9uIk8fPDvoWAcLi_HGzfy0F89Zg5la9tZibrKAJhuvwPiJwOT5HaVoeTrVUlTunu3qx5PbdBPNsiBBu_t_CiODTC_Y7KlZuQJKptrLgEfqz4humEAxZhcrNaEpCn-yeImzffHg0",
-          "timestamp": "2026-08-28T03:19:26.555060+00:00",
-          "interaction": 14
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "【台股逐洞賽│台股高檔健康換手 類股強弱分化】\n台股27日呈現類股強弱分化與高檔健康洗籌格局，投組標的各憑題材展現韌性。光學強勢指標聯一光延續大滿貫買盤，開高後迅速直奔漲停，呈現強勢連飆格局...",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02AzChnrbG2xukrnJEv8atCTbyTB6BBPpT3ZkJ1Epvwia4spmxVBnCTkEhnHwbXW3Gl?__cft__[0]=AZYhJqp8kGE3-iwLMgp6JNEegipTMGx-A1Q81M1R_LdLl1MrdVsJApabGazQq2IHQfbWPpX_0o4XGOM13GgFyYQRyfF83i32OAJMRktohIyQhm5vgwvTpmLF3qxZipqtpG-X3JQtXPivzhsyfUN3rzW60bcdsE_HiR6IOou0t34ui1w47JMgVCkuvnx62xevJRU",
-          "timestamp": "2026-08-28T03:19:26.555060+00:00",
-          "interaction": 13
-        }
-      ]
-    }
-  ],
-  "suggested_entry_points": [
-    {
-      "cluster_id": "M",
-      "label": "台股市場",
-      "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 98,
-      "competitors_covering": [
-        "ctee.fans"
-      ],
-      "sample_posts": [
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "拿到2,000萬你會買房還是放台股？…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02EbtLmygYWGcjq29SkR1PD9HDubusDsF4zBwkjM1bY1FPmdVWB1uU93rH1skMYwwul?__cft__[0]=AZZJ0_tydqJWZhTShL5hncsW_9RD46pOEVwXhEb9KPmdOPRtPM59FMv5GjmEqNK_Gp6adBnwrQFny8Ssd63c2VgIzbxyTIDRexj6w6i38zjEgQLquEV8WyRUBMqqW715tW1ROd360kqyQz-pfC2yafK5k4Ukt1Kpuv4JlJ-ZrnxibEpsS1JJaoMrmBwLIUVkrvk",
-          "timestamp": "2026-08-28T03:19:26.555060+00:00",
-          "interaction": 28
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "【輝達+蘋果雙助攻 台股挾AI續戰46K 法人看好一路旺到「光輝十月」】…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0e3SgnDH3D7mkBbUoV4LFD15Zu1MAJoM8WYpEW7YG32gkxsLMj6frC3TRMpRbELnpl?__cft__[0]=AZY_EFizUitaFO_luyxniCELgGPZriYz1doId6R1d_4Xk-SaNeWRUFJSiKcg7v5Bfmcw5gyEcxYjwKGii9yjXv4tiD7WuwaPwlhrI0jSlcuSyMT0CdIR4p_rMEIBepl8tj6HYZ06FOmKavzHSLoYOw3ApVgjjfqmWyqK4xBd97n7qtT1J20Gkr37xG6hARbOVRI",
-          "timestamp": "2026-08-28T03:19:26.555060+00:00",
-          "interaction": 23
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "今日穩懋、華通等個股在買盤點火下放量上漲，反觀台光電、第一保...\n#台股雷達",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0cmWSd1KchkgtgPdZ3KkToAJwdGE2C9uFaJ9JT6VFMEKMPk3eW6aQgAgLJC6wzwMBl?__cft__[0]=AZZLQiMwVEh0Z6XuE38lFg4szK6RzqCXA9m5WWV4gqfCA_5r97qx87dQXm0PNGzFW2i-LRLzmiedAZG3lruToK45rcM7K7lbRwwyHLPJqMtMsq4_QDVKWTJTfcmHXbzIxaQCgvZhNwWrVEVGvavHRUGQo254lMVl3jDbJjNR4U6452KCWly9TFPlqpFCfIIvV5E",
-          "timestamp": "2026-08-28T03:19:26.555060+00:00",
-          "interaction": 20
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "散戶對股市的信心愈來愈淡。8月消費者信心指數(CCI)總指數65.01點，月增僅0.43 點；其中，投資股票時機指標27.72點、呈現連續三個月下滑，反映台股處高檔震盪，令投資人心態先行觀望...",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0abb8FL7UHwoYpLiAx1qzpjNwSWfK5YaPYVvBWLyuZhFw32rYhgbHUwSoGZ2Rvkirl?__cft__[0]=AZZDImcMydwuybXYLmpvR2Mpnx8G3B-PyjQTgwaiXCGaTij5pw6em21jt2qN9uIk8fPDvoWAcLi_HGzfy0F89Zg5la9tZibrKAJhuvwPiJwOT5HaVoeTrVUlTunu3qx5PbdBPNsiBBu_t_CiODTC_Y7KlZuQJKptrLgEfqz4humEAxZhcrNaEpCn-yeImzffHg0",
-          "timestamp": "2026-08-28T03:19:26.555060+00:00",
-          "interaction": 14
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "【台股逐洞賽│台股高檔健康換手 類股強弱分化】\n台股27日呈現類股強弱分化與高檔健康洗籌格局，投組標的各憑題材展現韌性。光學強勢指標聯一光延續大滿貫買盤，開高後迅速直奔漲停，呈現強勢連飆格局...",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02AzChnrbG2xukrnJEv8atCTbyTB6BBPpT3ZkJ1Epvwia4spmxVBnCTkEhnHwbXW3Gl?__cft__[0]=AZYhJqp8kGE3-iwLMgp6JNEegipTMGx-A1Q81M1R_LdLl1MrdVsJApabGazQq2IHQfbWPpX_0o4XGOM13GgFyYQRyfF83i32OAJMRktohIyQhm5vgwvTpmLF3qxZipqtpG-X3JQtXPivzhsyfUN3rzW60bcdsE_HiR6IOou0t34ui1w47JMgVCkuvnx62xevJRU",
-          "timestamp": "2026-08-28T03:19:26.555060+00:00",
-          "interaction": 13
-        }
-      ]
-    }
-  ],
+  "gaps": [],
+  "suggested_entry_points": [],
   "window": {
-    "start_utc": "2026-08-28T02:59:32.499028+00:00",
-    "end_utc": "2026-08-28T03:59:32.499028+00:00",
-    "start_tw": "Aug 28, 10:59",
-    "end_tw": "Aug 28, 11:59"
+    "start_utc": "2026-08-28T11:48:27+08:00",
+    "end_utc": "2026-08-28T12:48:27+08:00",
+    "start_tw": "Aug 28, 11:48",
+    "end_tw": "Aug 28, 12:48"
   }
 }
