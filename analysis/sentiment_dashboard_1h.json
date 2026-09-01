@@ -1,151 +1,165 @@
 {
-  "generated_at": "2026-09-01T12:29:20+08:00",
+  "generated_at": "2026-09-01T16:27:06+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-09-01T11:29:20+08:00",
-    "end_utc": "2026-09-01T12:29:20+08:00",
-    "start_tw": "Sep 01, 11:29",
-    "end_tw": "Sep 01, 12:29"
+    "start_utc": "2026-09-01T15:27:06+08:00",
+    "end_utc": "2026-09-01T16:27:06+08:00",
+    "start_tw": "Sep 01, 15:27",
+    "end_tw": "Sep 01, 16:27"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 25,
+      "total_posts": 9,
       "sentiment_counts": {
-        "positive": 9,
-        "neutral": 10,
-        "negative": 6
+        "neutral": 4,
+        "positive": 3,
+        "negative": 2
       },
       "sentiment_share": {
-        "positive": 0.36,
-        "neutral": 0.4,
-        "negative": 0.24
+        "neutral": 0.444,
+        "positive": 0.333,
+        "negative": 0.222
       },
       "top_terms": [
-        "查看",
-        "看更",
-        "更多",
-        "查看更",
-        "看更多",
-        "robot",
-        "global",
-        "technologies",
-        "貨的",
-        "成本"
+        "glass",
+        "agent",
+        "自主",
+        "主執",
+        "行任",
+        "務爆",
+        "爆發",
+        "自主執",
+        "主執行",
+        "執行任"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "robot",
-        "heat": 78.8,
-        "volume": 3,
-        "engagement": 24,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 2,
-        "label": "japan / yields / yield / bond",
-        "heat": 50.0,
-        "volume": 2,
-        "engagement": 56,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
-        "label": "technologies / presenter / global",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 12,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
-        "label": "cdns / presenter",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 6,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
         "topic_id": 0,
-        "label": "其他（未分群，16 篇）",
-        "heat": 10.0,
-        "volume": 16,
-        "engagement": 2473,
+        "label": "glass",
+        "heat": 50.0,
+        "volume": 9,
+        "engagement": 163,
         "entities": [
-          "高通",
-          "美國",
-          "台灣",
-          "韓國",
-          "三星"
+          "沃旭",
+          "台積電",
+          "藍圖"
         ],
-        "is_catchall": true
+        "is_catchall": false
       }
     ],
     "named_entities": [
       {
-        "entity": "高通",
+        "entity": "沃旭",
         "count": 2
       },
       {
-        "entity": "美國",
+        "entity": "台積電",
         "count": 2
       },
       {
-        "entity": "台灣",
-        "count": 2
-      },
-      {
-        "entity": "韓國",
-        "count": 2
-      },
-      {
-        "entity": "三星",
-        "count": 1
-      },
-      {
-        "entity": "貝森特",
-        "count": 1
-      },
-      {
-        "entity": "張透過",
-        "count": 1
-      },
-      {
-        "entity": "日本",
-        "count": 1
-      },
-      {
-        "entity": "彭博",
+        "entity": "藍圖",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-01T11:29:20.000002+08:00",
-        "bucket_end": "2026-09-01T11:33:37.142859+08:00",
+        "bucket_start": "2026-09-01T15:27:06.000002+08:00",
+        "bucket_end": "2026-09-01T15:31:23.142859+08:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 18,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
+        "post_count": 1,
+        "engagement": 18,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "glass",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Glass will be used alongside ABF build-up layers and PID, an insulating polymer layer  This substrate material transition is crucial for FOPLP",
+            "url": "https://x.com/HyperTechInvest/status/2094688811787989279",
+            "interaction": 18
+          }
+        ],
         "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T11:33:37.142859+08:00",
-        "bucket_end": "2026-09-01T11:37:54.285716+08:00",
+        "bucket_start": "2026-09-01T15:31:23.142859+08:00",
+        "bucket_end": "2026-09-01T15:35:40.285716+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "glass",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#SanDisk 股價逆勢上演絕地反彈，尾盤大漲 5.5%！",
+            "url": "https://x.com/technews_tw/status/2094690336761323885",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 25.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-01T15:35:40.285716+08:00",
+        "bucket_end": "2026-09-01T15:39:57.428573+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 131,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 131,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "glass",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "A few things worth highlighting from Korea’s August export data released today:  - DRAM export ASP rose 1.8% MoM. - Flash memory export ASP surged 63.3% MoM. - PCB export ASP also reached a new high, ",
+            "url": "https://x.com/jukan05/status/2094690754685993096",
+            "interaction": 131
+          }
+        ],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-01T15:39:57.428573+08:00",
+        "bucket_end": "2026-09-01T15:44:14.571430+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -157,25 +171,56 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 29.2,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T11:37:54.285716+08:00",
-        "bucket_end": "2026-09-01T11:42:11.428573+08:00",
+        "bucket_start": "2026-09-01T15:44:14.571430+08:00",
+        "bucket_end": "2026-09-01T15:48:31.714287+08:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 9,
+        "positive_engagement": 1,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 100.0,
         "post_count": 1,
-        "engagement": 9,
+        "engagement": 1,
         "top_topics": [
           {
-            "topic_id": 4,
-            "label": "technologies / presenter / global",
+            "topic_id": 0,
+            "label": "glass",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#台積電 於 SEMICON Taiwan 2026 發表異質整合藍圖，半導體正式邁入「系統整合微縮」時代！",
+            "url": "https://x.com/technews_tw/status/2094693854943609246",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-01T15:48:31.714287+08:00",
+        "bucket_end": "2026-09-01T15:52:48.857144+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 2,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 2,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "glass",
             "count": 1
           }
         ],
@@ -183,260 +228,96 @@
           {
             "handle": "HyperTechInvest",
             "platform": "X",
-            "text": "The  $AMD  presenter highlighted graphene among several next-generation thermal management solutions  Ultimately, multiple technologies will be used together  Graphene TIM would sit between the packag",
-            "url": "https://x.com/HyperTechInvest/status/2094631626932400138",
-            "interaction": 9
+            "text": "Unimicron says TGV yields are still poor and is targeting 2029/2030 for mass production of glass-core substrates",
+            "url": "https://x.com/HyperTechInvest/status/2094694281487503500",
+            "interaction": 2
           }
         ],
-        "net_sentiment_smoothed": 13.3,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T11:42:11.428573+08:00",
-        "bucket_end": "2026-09-01T11:46:28.571430+08:00",
-        "positive": 2,
-        "neutral": 3,
-        "negative": 1,
-        "positive_engagement": 1080,
-        "neutral_engagement": 1128,
-        "negative_engagement": 237,
-        "net_sentiment": 16.7,
-        "post_count": 6,
-        "engagement": 2445,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "yutinghaosfinance",
-            "platform": "Facebook",
-            "text": "市場正在押注台灣央行升息。彭博經濟學家認為，台灣經濟成長強勁，加上整體與核心通膨同步升溫，中央銀行最快可能在9月理監事會議升息，不一定會等到11月28日，地方選舉後才行動。…… \n查看更多",
-            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02sBWhhP7j8zPVMjfufyeF1FS2Bt4QsjFkgEqvJV7CW5Qisym6HWqEifYHnqVVAdWMl?__cft__[0]=AZbQkyPIHqXdnMcp7rPLxPxXbfduPBdfHmHW6fTuwj2YF-SsHfixcd0n2G0mEznrdDHIDRLLRXgEjCnhShnRPDUv-ic9E5MmglUHmfzB4fld9fxQh9nR8nrlWQu-X1WGTtkSAQ5UcXYbo5ApcXigS_OnvNBsa2LikLXEbwwVHY4UJCwKmXhcJlbyE2yMbNjyRII",
-            "interaction": 720
-          },
-          {
-            "handle": "yutinghaosfinance",
-            "platform": "Facebook",
-            "text": "日本食品消費稅將從8%降到1%，但只限兩年。從2027年4月起，酒類與外食以外的食品，消費稅率將由目前8%降到1%，也就是直接少掉7個百分點，但法律會明訂只實施到2029年3月底，而且不加入景氣不好就延長的彈性條款。…… \n查看更多",
-            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0wT84SBqr8qa63y17dU6AAjDLUuofgs3RxVg8oyWwQp91WjVSHbPD5pgCTDzfrzGl?__cft__[0]=AZZm4Ej6ZYzzgdDbTXXZpjTwqK5EUlhazZ-kkEl5L9yST-QkgZGBHnIPHcA7_IwVmj6eO0hEm5t_q2cdxM6hb1cKH0upSWDMbIAORQw7ky9-yBIeVse7KCbECN-N6WmCTwfWba1NrO_i_9mvbWlclslxiEh_nJXAhcg_LlNeFeaMFHWkE2JmS5VgdxllKz5C3b4",
-            "interaction": 476
-          }
-        ],
-        "net_sentiment_smoothed": 23.3,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-09-01T11:46:28.571430+08:00",
-        "bucket_end": "2026-09-01T11:50:45.714287+08:00",
+        "bucket_start": "2026-09-01T15:52:48.857144+08:00",
+        "bucket_end": "2026-09-01T15:57:06.000001+08:00",
         "positive": 0,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 6,
-        "negative_engagement": 13,
-        "net_sentiment": -50.0,
-        "post_count": 2,
-        "engagement": 19,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "robot",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "Seeing some outrageous stuff at China science museum today display.  There is electronic skin for bionic robot, fusion reactor display, fluid transformers & space solar stations. Also TMSR & other NPP",
-            "url": "https://x.com/tphuang/status/2094633834335928691",
-            "interaction": 13
-          },
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "高通（Qualcomm）宣布自2026年9月1日起調漲晶片價格，漲幅達兩位數。公司7月已通知客戶，之後出貨的晶片將調價。執行長Amon表示，供應商成本持續上升，高通無法再自行吸收，必須轉嫁給客戶。漲幅將依個別客戶協商，涵蓋賣給蘋果、三星及其他手機廠的產品。  蘋果目前仍為iPhone",
-            "url": "https://x.com/QQ_Timmy/status/2094633842455859685",
-            "interaction": 6
-          }
-        ],
-        "net_sentiment_smoothed": 43.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-01T11:50:45.714287+08:00",
-        "bucket_end": "2026-09-01T11:55:02.857144+08:00",
-        "positive": 1,
-        "neutral": 1,
+        "neutral": 0,
         "negative": 0,
-        "positive_engagement": 3,
-        "neutral_engagement": 40,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 43,
-        "top_topics": [
-          {
-            "topic_id": 4,
-            "label": "technologies / presenter / global",
-            "count": 1
-          },
-          {
-            "topic_id": 2,
-            "label": "japan / yields / yield / bond",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Japan’s benchmark bond yields hit 3% for first time since 1996",
-            "url": "https://x.com/FT/status/2094634090297188434",
-            "interaction": 40
-          },
-          {
-            "handle": "TrendForce",
-            "platform": "X",
-            "text": "#MediaTek is a leading global supplier of smartphone SoCs and has extended its low-power design, connectivity, and high-volume manufacturing capabilities into smart automotive systems, AI PCs, and sma",
-            "url": "https://x.com/trendforce/status/2094635027174945259",
-            "interaction": 3
-          }
-        ],
-        "net_sentiment_smoothed": 23.3,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T11:55:02.857144+08:00",
-        "bucket_end": "2026-09-01T11:59:20.000001+08:00",
+        "bucket_start": "2026-09-01T15:57:06.000001+08:00",
+        "bucket_end": "2026-09-01T16:01:23.142858+08:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 8,
+        "positive_engagement": 3,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 8,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "robot",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "This is apparently the honor robot that won the marathon this year",
-            "url": "https://x.com/tphuang/status/2094635365089034518",
-            "interaction": 8
-          }
-        ],
-        "net_sentiment_smoothed": 30.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-01T11:59:20.000001+08:00",
-        "bucket_end": "2026-09-01T12:03:37.142858+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 3,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
         "post_count": 1,
         "engagement": 3,
         "top_topics": [
           {
-            "topic_id": 3,
-            "label": "cdns / presenter",
+            "topic_id": 0,
+            "label": "glass",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "HyperTechInvest",
+            "handle": "QQ_Timmy",
             "platform": "X",
-            "text": "$CDNS  was the only presenter who decided to speak in Chinese at an event that was supposed to be 100% in English",
-            "url": "https://x.com/HyperTechInvest/status/2094636784378679596",
+            "text": "SambaNova SN50 針對 agentic 推論做資料流架構，強調算子融合與資料區域性，並用 SRAM＋HBM＋CXL DDR 三層記憶體提高頻寬利用率。全風冷機架對企業機房較友善。技術之外，公司稱新雲與企業客戶開始有牽引，部署便利與現有機房相容，可能跟峰值效能一樣重要。  CPU 場次 Agentic AI 讓 CPU",
+            "url": "https://x.com/QQ_Timmy/status/2094696765844799893",
             "interaction": 3
           }
         ],
-        "net_sentiment_smoothed": 60.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T12:03:37.142858+08:00",
-        "bucket_end": "2026-09-01T12:07:54.285715+08:00",
-        "positive": 1,
+        "bucket_start": "2026-09-01T16:01:23.142858+08:00",
+        "bucket_end": "2026-09-01T16:05:40.285715+08:00",
+        "positive": 0,
         "neutral": 1,
         "negative": 0,
-        "positive_engagement": 3,
-        "neutral_engagement": 3,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 6,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "robot",
-            "count": 1
-          },
-          {
-            "topic_id": 3,
-            "label": "cdns / presenter",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "Unitree dance robot time",
-            "url": "https://x.com/tphuang/status/2094637662477181439",
-            "interaction": 3
-          },
-          {
-            "handle": "HyperTechInvest",
-            "platform": "X",
-            "text": "$CDNS  laid out the three phases of AI adoption:  1–3 years: AI infrastructure 2–7 years: Physical AI 5–10+ years: Sciences AI  There seems to be a growing trend toward AI-powered biotech and scientif",
-            "url": "https://x.com/HyperTechInvest/status/2094638330466168930",
-            "interaction": 3
-          }
-        ],
-        "net_sentiment_smoothed": 50.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-01T12:07:54.285715+08:00",
-        "bucket_end": "2026-09-01T12:12:11.428572+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 4,
+        "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
+        "net_sentiment": 0.0,
         "post_count": 1,
-        "engagement": 4,
-        "top_topics": [],
-        "top_posts": [
+        "engagement": 0,
+        "top_topics": [
           {
-            "handle": "TrendForce",
-            "platform": "X",
-            "text": "As hyperscalers swap out GPUs for in-house XPUs, #NVIDIA is pulling off a brilliant pivot: owning the fabric, networking, and rack architecture underneath.",
-            "url": "https://x.com/trendforce/status/2094638679067390310",
-            "interaction": 4
+            "topic_id": 0,
+            "label": "glass",
+            "count": 1
           }
         ],
-        "net_sentiment_smoothed": 40.0,
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#沃旭能源 大彰化離岸風場宣布全數完工，總裝置容量衝上 1.82 GW。",
+            "url": "https://x.com/technews_tw/status/2094697365915762927",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T12:12:11.428572+08:00",
-        "bucket_end": "2026-09-01T12:16:28.571429+08:00",
+        "bucket_start": "2026-09-01T16:05:40.285715+08:00",
+        "bucket_end": "2026-09-01T16:09:57.428572+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -448,132 +329,116 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T12:16:28.571429+08:00",
-        "bucket_end": "2026-09-01T12:20:45.714286+08:00",
-        "positive": 1,
+        "bucket_start": "2026-09-01T16:09:57.428572+08:00",
+        "bucket_end": "2026-09-01T16:14:14.571429+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-01T16:14:14.571429+08:00",
+        "bucket_end": "2026-09-01T16:18:31.714286+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-01T16:18:31.714286+08:00",
+        "bucket_end": "2026-09-01T16:22:48.857143+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-01T16:22:48.857143+08:00",
+        "bucket_end": "2026-09-01T16:27:06+08:00",
+        "positive": 0,
         "neutral": 1,
         "negative": 0,
-        "positive_engagement": 3,
-        "neutral_engagement": 2,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 5,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Apple’s new boss starts out asset-light and option-rich  https:// ft.trib.al/H8tDQme  | opinion",
-            "url": "https://x.com/FT/status/2094640891038171340",
-            "interaction": 3
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "A real-world trial for work in the age of AI  https:// ft.trib.al/w0qmb8M  | opinion",
-            "url": "https://x.com/FT/status/2094640887141650576",
-            "interaction": 2
-          }
-        ],
-        "net_sentiment_smoothed": 16.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-01T12:20:45.714286+08:00",
-        "bucket_end": "2026-09-01T12:25:02.857143+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 16,
+        "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 2,
+        "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 3,
-        "engagement": 18,
+        "post_count": 1,
+        "engagement": 0,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "japan / yields / yield / bond",
+            "topic_id": 0,
+            "label": "glass",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
+            "handle": "technews_tw",
             "platform": "X",
-            "text": "Yields on Japan’s 10-year government bonds hit 3% after US Treasury secretary Scott Bessent sent his clearest signal yet that Washington wants the Bank of Japan to raise interest rates more aggressive",
-            "url": "https://x.com/FT/status/2094641639113285939",
-            "interaction": 16
-          },
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "Global Bond Market meltdown including new highs in many yrs for JGB.  What will this do to Western financial system? Smells like something really bad is about to happen.",
-            "url": "https://x.com/tphuang/status/2094642239402311878",
-            "interaction": 2
+            "text": "AI Agent 自主執行任務爆發，卻也讓資安攻擊速度大幅飆升！",
+            "url": "https://x.com/technews_tw/status/2094703109578891349",
+            "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": -4.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-01T12:25:02.857143+08:00",
-        "bucket_end": "2026-09-01T12:29:20+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 3,
-        "negative_engagement": 5,
-        "net_sentiment": -66.7,
-        "post_count": 3,
-        "engagement": 8,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Disasters to cost world $450bn a year from climate change and development",
-            "url": "https://x.com/FT/status/2094643697946079367",
-            "interaction": 3
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The Meta settlement is regulation by enforcement  https:// ft.trib.al/eVnV0cz  | opinion",
-            "url": "https://x.com/FT/status/2094643472984633671",
-            "interaction": 3
-          }
-        ],
-        "net_sentiment_smoothed": -5.6,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "robot",
+        "topic_id": 0,
+        "label": "glass",
         "cells": [
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": -100.0,
@@ -589,10 +454,6 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 1
           },
           {
@@ -613,315 +474,77 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 4,
-        "label": "technologies / presenter / global",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 2,
-        "label": "japan / yields / yield / bond",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "cdns / presenter",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "TrendForce",
-        "top_topic_id": 4,
-        "top_topic_label": "technologies / presenter / global",
+        "handle": "technews_tw",
+        "top_topic_id": 0,
+        "top_topic_label": "glass",
         "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 1
+        "post_count": 4,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 0,
+        "top_topic_label": "glass",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
       },
       {
         "handle": "QQ_Timmy",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，16 篇）",
+        "top_topic_label": "glass",
         "focus_share": 1.0,
         "post_count": 1,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "tphuang",
-        "top_topic_id": 1,
-        "top_topic_label": "robot",
-        "focus_share": 1.0,
-        "post_count": 4,
-        "unclustered_posts": 1
+        "unclustered_posts": 0
       },
       {
         "handle": "FT",
-        "top_topic_id": 2,
-        "top_topic_label": "japan / yields / yield / bond",
-        "focus_share": 1.0,
-        "post_count": 8,
-        "unclustered_posts": 6
-      },
-      {
-        "handle": "statementdog",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，16 篇）",
+        "top_topic_label": "glass",
         "focus_share": 1.0,
         "post_count": 1,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "yutinghaosfinance",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，16 篇）",
-        "focus_share": 1.0,
-        "post_count": 6,
-        "unclustered_posts": 6
+        "unclustered_posts": 0
       },
       {
         "handle": "HyperTechInvest",
-        "top_topic_id": 3,
-        "top_topic_label": "cdns / presenter",
-        "focus_share": 0.667,
-        "post_count": 3,
+        "top_topic_id": 0,
+        "top_topic_label": "glass",
+        "focus_share": 1.0,
+        "post_count": 2,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
-        "label": "japan / yields / yield / bond",
-        "total_engagement": 56,
-        "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 56,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "robot",
-        "total_engagement": 24,
-        "post_count": 3,
-        "top_account": "tphuang",
-        "top_account_engagement": 24,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
-        "label": "technologies / presenter / global",
-        "total_engagement": 12,
-        "post_count": 2,
-        "top_account": "HyperTechInvest",
-        "top_account_engagement": 9,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
-        "label": "cdns / presenter",
-        "total_engagement": 6,
-        "post_count": 2,
-        "top_account": "HyperTechInvest",
-        "top_account_engagement": 6,
-        "is_catchall": false
-      },
-      {
         "topic_id": 0,
-        "label": "其他（未分群，16 篇）",
-        "total_engagement": 2473,
-        "post_count": 16,
-        "top_account": "yutinghaosfinance",
-        "top_account_engagement": 2445,
-        "is_catchall": true
+        "label": "glass",
+        "total_engagement": 163,
+        "post_count": 9,
+        "top_account": "jukan05",
+        "top_account_engagement": 131,
+        "is_catchall": false
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 12,
-          "likes": 2494,
-          "engagement": 2524,
-          "avg_engagement": 210.3
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 13,
-          "likes": 29,
-          "engagement": 47,
-          "avg_engagement": 3.6
+          "post_count": 9,
+          "likes": 144,
+          "engagement": 163,
+          "avg_engagement": 18.1
         },
         "evening": {
           "post_count": 0,
