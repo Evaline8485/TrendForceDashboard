@@ -1,69 +1,126 @@
 {
-  "generated_at": "2026-09-01T16:27:06+08:00",
+  "generated_at": "2026-09-01T08:55:52.376442+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-09-01T12:27:06+08:00",
-    "end_utc": "2026-09-01T16:27:06+08:00",
-    "start_tw": "Sep 01, 12:27",
-    "end_tw": "Sep 01, 16:27"
+    "start_utc": "2026-09-01T04:55:52.376442+00:00",
+    "end_utc": "2026-09-01T08:55:52.376442+00:00",
+    "start_tw": "Sep 01, 12:55",
+    "end_tw": "Sep 01, 16:55"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 48,
+      "total_posts": 95,
       "sentiment_counts": {
-        "positive": 24,
-        "neutral": 11,
-        "negative": 13
+        "positive": 40,
+        "neutral": 36,
+        "negative": 19
       },
       "sentiment_share": {
-        "positive": 0.5,
-        "neutral": 0.229,
-        "negative": 0.271
+        "positive": 0.421,
+        "neutral": 0.379,
+        "negative": 0.2
       },
       "top_terms": [
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
+        "半導",
+        "導體",
+        "半導體",
         "記憶",
-        "憶體",
-        "記憶體",
-        "hbm",
-        "memory",
-        "客製",
-        "推論",
-        "nvidia",
-        "爆發",
-        "裝置"
+        "憶體"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 8,
-        "label": "memory / dram / nvidia / goog",
+        "topic_id": 18,
+        "label": "memory / dram / nvidia / flash",
         "heat": 90.0,
+        "volume": 4,
+        "engagement": 248,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "tpu / google / nvidia / hbm",
+        "heat": 50.2,
         "volume": 3,
-        "engagement": 175,
+        "engagement": 127,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 6,
-        "label": "tpu / hbm / google / inference",
-        "heat": 85.1,
-        "volume": 3,
-        "engagement": 88,
+        "label": "台積電揭coupe新藍圖 / 光學中介層登場 / taiwan / semicon",
+        "heat": 46.4,
+        "volume": 2,
+        "engagement": 237,
         "entities": [
-          "聯發科",
-          "輝達",
-          "台灣",
-          "上市"
+          "台積電",
+          "陳明"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "hbm / agentic / inference / samsung",
-        "heat": 81.0,
+        "topic_id": 11,
+        "label": "anthropic / 務必先徹底掃毒並確認裝置已清除惡意程式 / 以免讓自己的 / 同時重新檢查帳號及其他登入來源的安全性",
+        "heat": 17.6,
         "volume": 3,
-        "engagement": 80,
+        "engagement": 28,
+        "entities": [
+          "安全性"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "卻也讓資安攻擊速度大幅飆升 / 自主執行任務爆發 / agent",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 6,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "台積電 / 半導體正式邁入 / 發表異質整合藍圖 / 系統整合微縮",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 39,
+        "entities": [
+          "台積電",
+          "藍圖"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "sandisk / 尾盤大漲",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 7,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "openai / 蘋果 / 更已被輸入 / 發現機密電路圖不只被帶往",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 15,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
+        "label": "hbm / 三星 / 將至 / 記憶體產能鎖定給輝達等大廠",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 18,
         "entities": [
           "三星",
           "輝達"
@@ -71,52 +128,8 @@
         "is_catchall": false
       },
       {
-        "topic_id": 2,
-        "label": "semicon / taiwan",
-        "heat": 51.0,
-        "volume": 3,
-        "engagement": 22,
-        "entities": [
-          "台積電",
-          "藍圖",
-          "陳明",
-          "曝光"
-        ],
-        "is_catchall": false
-      },
-      {
         "topic_id": 5,
-        "label": "soitec / substrate / capacity",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 24,
-        "entities": [
-          "依承諾",
-          "路透"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 7,
-        "label": "asic / avgo / cache / kv",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 40,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
-        "label": "robot",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 49,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
-        "label": "glass / substrate",
+        "label": "lpddr / 長鑫存儲 / 宣布最新 / 最高傳輸速率達",
         "heat": 10.0,
         "volume": 2,
         "engagement": 20,
@@ -124,185 +137,218 @@
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "其他（未分群，28 篇）",
+        "topic_id": 4,
+        "label": "只差一代了",
         "heat": 10.0,
-        "volume": 28,
-        "engagement": 2180,
+        "volume": 2,
+        "engagement": 12,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "徐秀蘭 / 環球晶圓 / 浪潮帶動矽晶圓需求爆發 / 台灣生態系",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 5,
+        "entities": [
+          "台灣",
+          "環球晶",
+          "徐秀蘭"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "環球晶 / 迎來強勁動能 / 董事長徐秀蘭看好未來兩年在客戶擴產與量價齊揚帶動下 / 產業將迎來雙位數成長",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 18,
         "entities": [
           "環球晶",
-          "徐秀蘭",
-          "沃旭",
+          "徐秀蘭"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "asml / 半導體微縮邁入新時代 / euv / 片晶圓",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 18,
+        "entities": [
+          "曝光"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 14,
+        "label": "君帆工業 / semicontaiwan / 高穩定性的氣動元件與客製化解決方案 / 展示耐酸鹼",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 10,
+        "entities": [
+          "君帆",
+          "耐酸"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "華為 / 淨利卻暴跌逾 / 上半年財報登場",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 6,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "川普",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 16,
+        "entities": [
+          "川普",
+          "美國",
+          "中國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 16,
+        "label": "票價又要漲了",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 17,
+        "entities": [
+          "中華",
+          "星宇",
+          "亞洲",
+          "歐美"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，55 篇）",
+        "heat": 10.0,
+        "volume": 55,
+        "engagement": 4155,
+        "entities": [
           "台灣",
-          "君帆"
+          "輝達",
+          "聯發科",
+          "沃旭",
+          "日本"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
       {
+        "entity": "台灣",
+        "count": 11
+      },
+      {
         "entity": "台積電",
-        "count": 5
+        "count": 8
       },
       {
         "entity": "輝達",
-        "count": 5
+        "count": 6
       },
       {
         "entity": "環球晶",
-        "count": 4
+        "count": 6
+      },
+      {
+        "entity": "徐秀蘭",
+        "count": 5
+      },
+      {
+        "entity": "美國",
+        "count": 5
       },
       {
         "entity": "聯發科",
         "count": 4
       },
       {
-        "entity": "徐秀蘭",
-        "count": 3
-      },
-      {
-        "entity": "台灣",
-        "count": 3
-      },
-      {
         "entity": "沃旭",
-        "count": 2
+        "count": 3
       },
       {
         "entity": "三星",
-        "count": 2
+        "count": 3
       },
       {
         "entity": "君帆",
-        "count": 2
+        "count": 3
+      },
+      {
+        "entity": "川普",
+        "count": 3
+      },
+      {
+        "entity": "日本",
+        "count": 3
       },
       {
         "entity": "藍圖",
-        "count": 1
+        "count": 2
       },
       {
         "entity": "陳明",
-        "count": 1
+        "count": 2
       },
       {
         "entity": "曝光",
-        "count": 1
-      },
-      {
-        "entity": "耐酸",
-        "count": 1
-      },
-      {
-        "entity": "安全性",
-        "count": 1
-      },
-      {
-        "entity": "依承諾",
-        "count": 1
+        "count": 2
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-01T12:27:05.999994+08:00",
-        "bucket_end": "2026-09-01T12:44:14.571423+08:00",
-        "positive": 1,
-        "neutral": 2,
-        "negative": 3,
-        "positive_engagement": 36,
-        "neutral_engagement": 29,
-        "negative_engagement": 150,
-        "net_sentiment": -33.3,
-        "post_count": 6,
-        "engagement": 215,
-        "top_topics": [
-          {
-            "topic_id": 6,
-            "label": "tpu / hbm / google / inference",
-            "count": 1
-          },
-          {
-            "topic_id": 4,
-            "label": "robot",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Revolut’s mission to dominate banking",
-            "url": "https://x.com/FT/status/2094643472728732071",
-            "interaction": 83
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Disasters to cost world $450bn a year from climate change and development",
-            "url": "https://x.com/FT/status/2094643697946079367",
-            "interaction": 56
-          }
-        ],
-        "net_sentiment_smoothed": 5.6,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-01T12:44:14.571423+08:00",
-        "bucket_end": "2026-09-01T13:01:23.142852+08:00",
-        "positive": 3,
+        "bucket_start": "2026-09-01T04:55:52.376436+00:00",
+        "bucket_end": "2026-09-01T05:13:00.947865+00:00",
+        "positive": 2,
         "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 62,
+        "negative": 0,
+        "positive_engagement": 39,
         "neutral_engagement": 0,
-        "negative_engagement": 24,
-        "net_sentiment": 50.0,
-        "post_count": 4,
-        "engagement": 86,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 39,
         "top_topics": [
           {
-            "topic_id": 8,
-            "label": "memory / dram / nvidia / goog",
+            "topic_id": 18,
+            "label": "memory / dram / nvidia / flash",
             "count": 1
           }
         ],
         "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Wall Street banks push Big Law to cut fees because of AI",
-            "url": "https://x.com/FT/status/2094647722250817602",
-            "interaction": 24
-          },
           {
             "handle": "FT",
             "platform": "X",
             "text": "Number of UK pensioners paying highest tax rates doubles in five years",
             "url": "https://x.com/FT/status/2094650509504229586",
             "interaction": 23
+          },
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "Nvidia reportedly warns biggest customers of 15% price hikes on AI servers — memory costs continue to soar.   News Source: https:// buff.ly/KpbezDu",
+            "url": "https://x.com/trendforce/status/2094651503214473400",
+            "interaction": 16
           }
         ],
-        "net_sentiment_smoothed": -20.8,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T13:01:23.142852+08:00",
-        "bucket_end": "2026-09-01T13:18:31.714281+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-01T13:18:31.714281+08:00",
-        "bucket_end": "2026-09-01T13:35:40.285710+08:00",
+        "bucket_start": "2026-09-01T05:13:00.947865+00:00",
+        "bucket_end": "2026-09-01T05:30:09.519294+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 2,
@@ -329,74 +375,43 @@
             "interaction": 45
           }
         ],
-        "net_sentiment_smoothed": 10.0,
+        "net_sentiment_smoothed": 10.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T13:35:40.285710+08:00",
-        "bucket_end": "2026-09-01T13:52:48.857139+08:00",
-        "positive": 2,
-        "neutral": 2,
-        "negative": 0,
-        "positive_engagement": 74,
-        "neutral_engagement": 45,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 4,
-        "engagement": 119,
-        "top_topics": [
-          {
-            "topic_id": 4,
-            "label": "robot",
-            "count": 1
-          },
-          {
-            "topic_id": 6,
-            "label": "tpu / hbm / google / inference",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "HyperTechInvest",
-            "platform": "X",
-            "text": "$GOOG  showcases its two TPU 8 variants:  TPU 8t: optimized for training and massive scale, with 9,600 TPUs per pod and 2 PB of shared HBM  TPU 8i: optimized for inference and reinforcement learning, ",
-            "url": "https://x.com/HyperTechInvest/status/2094663576338489360",
-            "interaction": 40
-          },
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "This is me ordering from ice cream robot machine.  The advancement in tech & robot over just the past yr is astounding.",
-            "url": "https://x.com/tphuang/status/2094663762691396064",
-            "interaction": 34
-          }
-        ],
-        "net_sentiment_smoothed": 6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-01T13:52:48.857139+08:00",
-        "bucket_end": "2026-09-01T14:09:57.428568+08:00",
-        "positive": 3,
+        "bucket_start": "2026-09-01T05:30:09.519294+00:00",
+        "bucket_end": "2026-09-01T05:47:18.090723+00:00",
+        "positive": 0,
         "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 126,
+        "negative": 0,
+        "positive_engagement": 0,
         "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 8.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-01T05:47:18.090723+00:00",
+        "bucket_end": "2026-09-01T06:04:26.662152+00:00",
+        "positive": 4,
+        "neutral": 2,
+        "negative": 1,
+        "positive_engagement": 172,
+        "neutral_engagement": 45,
         "negative_engagement": 34,
-        "net_sentiment": 50.0,
-        "post_count": 4,
-        "engagement": 160,
+        "net_sentiment": 42.9,
+        "post_count": 7,
+        "engagement": 251,
         "top_topics": [
           {
-            "topic_id": 7,
-            "label": "asic / avgo / cache / kv",
-            "count": 1
-          },
-          {
-            "topic_id": 8,
-            "label": "memory / dram / nvidia / goog",
-            "count": 1
+            "topic_id": 17,
+            "label": "tpu / google / nvidia / hbm",
+            "count": 2
           }
         ],
         "top_posts": [
@@ -408,37 +423,32 @@
             "interaction": 75
           },
           {
-            "handle": "FT",
+            "handle": "HyperTechInvest",
             "platform": "X",
-            "text": "The agency’s latest restructuring will add to the tally of at least 18,000 jobs that have been cut across the sector over the past 18 months.  https:// ft.trib.al/V394SOr",
-            "url": "https://x.com/FT/status/2094666834561712606",
-            "interaction": 34
+            "text": "$GOOG  showcases its two TPU 8 variants:  TPU 8t: optimized for training and massive scale, with 9,600 TPUs per pod and 2 PB of shared HBM  TPU 8i: optimized for inference and reinforcement learning, ",
+            "url": "https://x.com/HyperTechInvest/status/2094663576338489360",
+            "interaction": 40
           }
         ],
-        "net_sentiment_smoothed": 6.7,
+        "net_sentiment_smoothed": 8.6,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T14:09:57.428568+08:00",
-        "bucket_end": "2026-09-01T14:27:05.999997+08:00",
-        "positive": 2,
+        "bucket_start": "2026-09-01T06:04:26.662152+00:00",
+        "bucket_end": "2026-09-01T06:21:35.233581+00:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 1,
-        "positive_engagement": 88,
+        "positive_engagement": 28,
         "neutral_engagement": 0,
         "negative_engagement": 1423,
-        "net_sentiment": 33.3,
-        "post_count": 3,
-        "engagement": 1511,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 1451,
         "top_topics": [
           {
-            "topic_id": 5,
-            "label": "soitec / substrate / capacity",
-            "count": 1
-          },
-          {
-            "topic_id": 0,
-            "label": "hbm / agentic / inference / samsung",
+            "topic_id": 18,
+            "label": "memory / dram / nvidia / flash",
             "count": 1
           }
         ],
@@ -453,47 +463,30 @@
           {
             "handle": "HyperTechInvest",
             "platform": "X",
-            "text": "Samsung’s zNAND-O looks amazing  10× DRAM bit density, with 7× higher read bandwidth and 7× better read power efficiency than conventional flash  3D NAND could offload a lot memory capacity from HBM, ",
-            "url": "https://x.com/HyperTechInvest/status/2094672893850567052",
-            "interaction": 73
+            "text": "$GOOG :  “Software optimizations aren’t enough. We need more memory.”",
+            "url": "https://x.com/HyperTechInvest/status/2094668131772071950",
+            "interaction": 28
           }
         ],
-        "net_sentiment_smoothed": 46.7,
+        "net_sentiment_smoothed": 48.6,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T14:27:05.999997+08:00",
-        "bucket_end": "2026-09-01T14:44:14.571426+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 45.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-01T14:44:14.571426+08:00",
-        "bucket_end": "2026-09-01T15:01:23.142855+08:00",
+        "bucket_start": "2026-09-01T06:21:35.233581+00:00",
+        "bucket_end": "2026-09-01T06:38:43.805010+00:00",
         "positive": 2,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 39,
+        "positive_engagement": 88,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 100.0,
         "post_count": 2,
-        "engagement": 39,
+        "engagement": 88,
         "top_topics": [
           {
-            "topic_id": 7,
-            "label": "asic / avgo / cache / kv",
+            "topic_id": 18,
+            "label": "memory / dram / nvidia / flash",
             "count": 1
           }
         ],
@@ -501,85 +494,120 @@
           {
             "handle": "HyperTechInvest",
             "platform": "X",
+            "text": "Samsung’s zNAND-O looks amazing  10× DRAM bit density, with 7× higher read bandwidth and 7× better read power efficiency than conventional flash  3D NAND could offload a lot memory capacity from HBM, ",
+            "url": "https://x.com/HyperTechInvest/status/2094672893850567052",
+            "interaction": 73
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "First CW lasers. Now silicon-photonics wafers are being locked under multi-year contracts.  UBS estimates Soitec (SOI FP) supplies 95% of the photonics-SOI substrate market. The company has more than ",
+            "url": "https://x.com/statementdog/status/2094672851727167573",
+            "interaction": 15
+          }
+        ],
+        "net_sentiment_smoothed": 58.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-01T06:38:43.805010+00:00",
+        "bucket_end": "2026-09-01T06:55:52.376439+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 22,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 22,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
             "text": "$LITE  likes VCSELs for AI scale-up interconnects  Their main limitation is reach",
             "url": "https://x.com/HyperTechInvest/status/2094680192405144040",
             "interaction": 22
+          }
+        ],
+        "net_sentiment_smoothed": 56.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-01T06:55:52.376439+00:00",
+        "bucket_end": "2026-09-01T07:13:00.947868+00:00",
+        "positive": 4,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 28,
+        "neutral_engagement": 1,
+        "negative_engagement": 14,
+        "net_sentiment": 50.0,
+        "post_count": 6,
+        "engagement": 43,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "台積電揭coupe新藍圖 / 光學中介層登場 / taiwan / semicon",
+            "count": 1
           },
+          {
+            "topic_id": 10,
+            "label": "asml / 半導體微縮邁入新時代 / euv / 片晶圓",
+            "count": 1
+          },
+          {
+            "topic_id": 14,
+            "label": "君帆工業 / semicontaiwan / 高穩定性的氣動元件與客製化解決方案 / 展示耐酸鹼",
+            "count": 1
+          }
+        ],
+        "top_posts": [
           {
             "handle": "QQ_Timmy",
             "platform": "X",
             "text": "OpenAI Jalapeño Jalapeño 是推論專用 ASIC，追求延遲、互動性與每瓦效率，功耗低於 GB200，並針對 KV cache 做記憶體切片。OAI 與 AVGO 九個月就做出初始 RTL，顯示客製晶片時程被壓縮。它證明 ASIC 在穩定、大規模推論上有成本優勢，但模型與硬體綁定深、軟體複雜，GPU 仍因彈性與生態占大多數場景。",
             "url": "https://x.com/QQ_Timmy/status/2094681410502324287",
             "interaction": 17
-          }
-        ],
-        "net_sentiment_smoothed": 39.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-01T15:01:23.142855+08:00",
-        "bucket_end": "2026-09-01T15:18:31.714284+08:00",
-        "positive": 4,
-        "neutral": 2,
-        "negative": 1,
-        "positive_engagement": 12,
-        "neutral_engagement": 2,
-        "negative_engagement": 14,
-        "net_sentiment": 42.9,
-        "post_count": 7,
-        "engagement": 28,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "semicon / taiwan",
-            "count": 2
-          }
-        ],
-        "top_posts": [
+          },
           {
             "handle": "technews_tw",
             "platform": "X",
             "text": "光學中介層登場！ #台積電揭COUPE新藍圖 台積電副專案處長陳明發 31 日於 SEMICON Taiwan 2026 矽光子國際論壇揭露 COUPE 平台最新進展，並首度透露下一階段規劃：將調變器與光源整合至平台背面，讓 COUPE 進一步扮演「光學中介層」角色。 #銅線轉向光傳輸…  https:// dlvr.it/TVGNF3",
             "url": "https://x.com/technews_tw/status/2094684653521408289",
             "interaction": 14
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "半導體微縮邁入新時代！#ASML 於 2026 SEMICON Taiwan 宣布 High NA EUV 加速進入高量產階段，全球累計曝光已突破 135 萬片，產能高達每小時 135 片晶圓，未來更將提升至 180 片。",
-            "url": "https://x.com/technews_tw/status/2094684004771614816",
-            "interaction": 7
           }
         ],
-        "net_sentiment_smoothed": 39.7,
+        "net_sentiment_smoothed": 66.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T15:18:31.714284+08:00",
-        "bucket_end": "2026-09-01T15:35:40.285713+08:00",
-        "positive": 4,
+        "bucket_start": "2026-09-01T07:13:00.947868+00:00",
+        "bucket_end": "2026-09-01T07:30:09.519297+00:00",
+        "positive": 5,
         "neutral": 3,
         "negative": 2,
-        "positive_engagement": 42,
-        "neutral_engagement": 22,
+        "positive_engagement": 43,
+        "neutral_engagement": 23,
         "negative_engagement": 12,
-        "net_sentiment": 22.2,
-        "post_count": 9,
-        "engagement": 76,
+        "net_sentiment": 30.0,
+        "post_count": 10,
+        "engagement": 78,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "hbm / agentic / inference / samsung",
+            "topic_id": 1,
+            "label": "openai / 蘋果 / 更已被輸入 / 發現機密電路圖不只被帶往",
+            "count": 1
+          },
+          {
+            "topic_id": 15,
+            "label": "hbm / 三星 / 將至 / 記憶體產能鎖定給輝達等大廠",
             "count": 1
           },
           {
             "topic_id": 5,
-            "label": "soitec / substrate / capacity",
-            "count": 1
-          },
-          {
-            "topic_id": 6,
-            "label": "tpu / hbm / google / inference",
+            "label": "lpddr / 長鑫存儲 / 宣布最新 / 最高傳輸速率達",
             "count": 1
           }
         ],
@@ -599,35 +627,30 @@
             "interaction": 18
           }
         ],
-        "net_sentiment_smoothed": 49.7,
-        "is_anomaly": true
+        "net_sentiment_smoothed": 51.0,
+        "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T15:35:40.285713+08:00",
-        "bucket_end": "2026-09-01T15:52:48.857142+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 132,
+        "bucket_start": "2026-09-01T07:30:09.519297+00:00",
+        "bucket_end": "2026-09-01T07:47:18.090726+00:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 131,
         "neutral_engagement": 0,
-        "negative_engagement": 2,
-        "net_sentiment": 33.3,
-        "post_count": 3,
-        "engagement": 134,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 131,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "semicon / taiwan",
-            "count": 1
-          },
-          {
-            "topic_id": 8,
-            "label": "memory / dram / nvidia / goog",
-            "count": 1
-          },
-          {
             "topic_id": 3,
-            "label": "glass / substrate",
+            "label": "sandisk / 尾盤大漲",
+            "count": 1
+          },
+          {
+            "topic_id": 18,
+            "label": "memory / dram / nvidia / flash",
             "count": 1
           }
         ],
@@ -640,32 +663,32 @@
             "interaction": 131
           },
           {
-            "handle": "HyperTechInvest",
+            "handle": "technews_tw",
             "platform": "X",
-            "text": "Unimicron says TGV yields are still poor and is targeting 2029/2030 for mass production of glass-core substrates",
-            "url": "https://x.com/HyperTechInvest/status/2094694281487503500",
-            "interaction": 2
+            "text": "#SanDisk 股價逆勢上演絕地反彈，尾盤大漲 5.5%！",
+            "url": "https://x.com/technews_tw/status/2094690336761323885",
+            "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 29.7,
+        "net_sentiment_smoothed": 31.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T15:52:48.857142+08:00",
-        "bucket_end": "2026-09-01T16:09:57.428571+08:00",
-        "positive": 1,
+        "bucket_start": "2026-09-01T07:47:18.090726+00:00",
+        "bucket_end": "2026-09-01T08:04:26.662155+00:00",
+        "positive": 2,
         "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 3,
+        "negative": 1,
+        "positive_engagement": 4,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 3,
+        "negative_engagement": 2,
+        "net_sentiment": 25.0,
+        "post_count": 4,
+        "engagement": 6,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "hbm / agentic / inference / samsung",
+            "topic_id": 9,
+            "label": "台積電 / 半導體正式邁入 / 發表異質整合藍圖 / 系統整合微縮",
             "count": 1
           }
         ],
@@ -678,30 +701,60 @@
             "interaction": 3
           },
           {
-            "handle": "technews_tw",
+            "handle": "HyperTechInvest",
             "platform": "X",
-            "text": "#沃旭能源 大彰化離岸風場宣布全數完工，總裝置容量衝上 1.82 GW。",
-            "url": "https://x.com/technews_tw/status/2094697365915762927",
-            "interaction": 0
+            "text": "Unimicron says TGV yields are still poor and is targeting 2029/2030 for mass production of glass-core substrates",
+            "url": "https://x.com/HyperTechInvest/status/2094694281487503500",
+            "interaction": 2
           }
         ],
-        "net_sentiment_smoothed": 26.4,
+        "net_sentiment_smoothed": 11.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-01T16:09:57.428571+08:00",
-        "bucket_end": "2026-09-01T16:27:06+08:00",
+        "bucket_start": "2026-09-01T08:04:26.662155+00:00",
+        "bucket_end": "2026-09-01T08:21:35.233584+00:00",
         "positive": 0,
-        "neutral": 1,
+        "neutral": 0,
         "negative": 0,
         "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 1,
+        "post_count": 0,
         "engagement": 0,
         "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 8.4,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-01T08:21:35.233584+00:00",
+        "bucket_end": "2026-09-01T08:38:43.805013+00:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 8,
+        "net_sentiment": -50.0,
+        "post_count": 2,
+        "engagement": 8,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "卻也讓資安攻擊速度大幅飆升 / 自主執行任務爆發 / agent",
+            "count": 1
+          }
+        ],
         "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Drought and heatwaves have played a part in shortages but the main culprit is years of under-investment in the water industry after privatisation:  https:// ft.trib.al/uigyxxT",
+            "url": "https://x.com/FT/status/2094703581483987149",
+            "interaction": 8
+          },
           {
             "handle": "technews_tw",
             "platform": "X",
@@ -710,18 +763,82 @@
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 27.8,
+        "net_sentiment_smoothed": -2.0,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-01T08:38:43.805013+00:00",
+        "bucket_end": "2026-09-01T08:55:52.376442+00:00",
+        "positive": 15,
+        "neutral": 25,
+        "negative": 7,
+        "positive_engagement": 273,
+        "neutral_engagement": 923,
+        "negative_engagement": 131,
+        "net_sentiment": 17.0,
+        "post_count": 47,
+        "engagement": 1327,
+        "top_topics": [
+          {
+            "topic_id": 7,
+            "label": "川普",
+            "count": 2
+          },
+          {
+            "topic_id": 11,
+            "label": "anthropic / 務必先徹底掃毒並確認裝置已清除惡意程式 / 以免讓自己的 / 同時重新檢查帳號及其他登入來源的安全性",
+            "count": 2
+          },
+          {
+            "topic_id": 16,
+            "label": "票價又要漲了",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "花旗、大摩點讚聯發科！\n#輝達Alphabet投資聯發科\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid0tKuyM4XxrfiLT9U3MnRiBCR4rXFLnaetzdS7qXbo8TfmM4HgDDRzsM3wB6nkgcvTl?__cft__[0]=AZhmFfOl6N3ryF7aBLvbp2yGosZ1tesSg6_Wy3vCmtH2_QSB_p1BvvKtcoo2t87egO1TArUTsluZbZi_1BfbvknG8tbN-erZtnOhp2dmwRVXqPKH0hi4n7yBavwMiEDN6sT96c-YpH-VMp8nk-DiwRbHuRkMBKobcVZxtdNKToimLkLsP--4qVpsW8g",
+            "interaction": 253
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "光學中介層登場！\n#台積電揭COUPE新藍圖\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02iuKHWFYh6bVgNy3tW32imJXmtW9P758p7JfFLbdcphrw82SayM2vn5i49h4ZZMhdl?__cft__[0]=AZi4Y546O6lJ8XfNXfLtuI2eGWliqQt-EYSmj-Uw4xL8aFn5BBXHbIPo2XizRy2KDAV3KUkj1rI1hIZwCH144NrDuLf5vJUnHM3J1KWsWhgN_fzJvG47lZrHWBbLTiPgOSXQ9T8zgICqD4BRljKeFUR-oKwmXkUmBR6dfGG6YTiPF58Xs-nvSGmwhFk",
+            "interaction": 223
+          }
+        ],
+        "net_sentiment_smoothed": -11.0,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 8,
-        "label": "memory / dram / nvidia / goog",
+        "topic_id": 18,
+        "label": "memory / dram / nvidia / flash",
         "cells": [
           {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 100.0,
@@ -750,22 +867,6 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -778,8 +879,8 @@
         ]
       },
       {
-        "topic_id": 2,
-        "label": "semicon / taiwan",
+        "topic_id": 11,
+        "label": "anthropic / 務必先徹底掃毒並確認裝置已清除惡意程式 / 以免讓自己的 / 同時重新檢查帳號及其他登入來源的安全性",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -810,6 +911,14 @@
             "volume": 0
           },
           {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": 0.0,
             "volume": 0
           },
@@ -819,29 +928,21 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
             "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 0,
-        "label": "hbm / agentic / inference / samsung",
+        "topic_id": 17,
+        "label": "tpu / google / nvidia / hbm",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -856,78 +957,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 6,
-        "label": "tpu / hbm / google / inference",
-        "cells": [
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -960,12 +991,20 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 5,
-        "label": "soitec / substrate / capacity",
+        "topic_id": 2,
+        "label": "卻也讓資安攻擊速度大幅飆升 / 自主執行任務爆發 / agent",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -992,42 +1031,42 @@
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 1
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 7,
-        "label": "asic / avgo / cache / kv",
+        "topic_id": 9,
+        "label": "台積電 / 半導體正式邁入 / 發表異質整合藍圖 / 系統整合微縮",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -1050,6 +1089,26 @@
             "volume": 0
           },
           {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": 100.0,
             "volume": 1
           },
@@ -1064,7 +1123,13 @@
           {
             "net_sentiment": 100.0,
             "volume": 1
-          },
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "sandisk / 尾盤大漲",
+        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -1084,6 +1149,42 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
           }
         ]
       }
@@ -1091,155 +1192,277 @@
     "coverage_focus_ranking": [
       {
         "handle": "TrendForce",
-        "top_topic_id": 8,
-        "top_topic_label": "memory / dram / nvidia / goog",
+        "top_topic_id": 18,
+        "top_topic_label": "memory / dram / nvidia / flash",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
         "handle": "jukan05",
-        "top_topic_id": 8,
-        "top_topic_label": "memory / dram / nvidia / goog",
+        "top_topic_id": 18,
+        "top_topic_label": "memory / dram / nvidia / flash",
         "focus_share": 1.0,
         "post_count": 3,
         "unclustered_posts": 2
       },
       {
-        "handle": "SemiAnalysis_",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，28 篇）",
+        "handle": "QQ_Timmy",
+        "top_topic_id": 17,
+        "top_topic_label": "tpu / google / nvidia / hbm",
+        "focus_share": 1.0,
+        "post_count": 5,
+        "unclustered_posts": 4
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，55 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
       },
       {
         "handle": "FT",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，28 篇）",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，55 篇）",
         "focus_share": 1.0,
-        "post_count": 13,
-        "unclustered_posts": 13
+        "post_count": 7,
+        "unclustered_posts": 7
       },
       {
         "handle": "statementdog",
-        "top_topic_id": 5,
-        "top_topic_label": "soitec / substrate / capacity",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，55 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "TrendForce.tw",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，55 篇）",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 16,
+        "top_topic_label": "票價又要漲了",
+        "focus_share": 1.0,
+        "post_count": 19,
+        "unclustered_posts": 17
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，55 篇）",
+        "focus_share": 1.0,
+        "post_count": 8,
+        "unclustered_posts": 8
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 17,
+        "top_topic_label": "tpu / google / nvidia / hbm",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
-        "handle": "tphuang",
-        "top_topic_id": 4,
-        "top_topic_label": "robot",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 0
+        "handle": "HyperTechInvest",
+        "top_topic_id": 18,
+        "top_topic_label": "memory / dram / nvidia / flash",
+        "focus_share": 0.667,
+        "post_count": 6,
+        "unclustered_posts": 3
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 11,
+        "top_topic_label": "anthropic / 務必先徹底掃毒並確認裝置已清除惡意程式 / 以免讓自己的 / 同時重新檢查帳號及其他登入來源的安全性",
+        "focus_share": 0.118,
+        "post_count": 26,
+        "unclustered_posts": 9
       },
       {
         "handle": "technews_tw",
         "top_topic_id": 2,
-        "top_topic_label": "semicon / taiwan",
-        "focus_share": 0.75,
+        "top_topic_label": "卻也讓資安攻擊速度大幅飆升 / 自主執行任務爆發 / agent",
+        "focus_share": 0.071,
         "post_count": 15,
-        "unclustered_posts": 11
-      },
-      {
-        "handle": "HyperTechInvest",
-        "top_topic_id": 3,
-        "top_topic_label": "glass / substrate",
-        "focus_share": 0.4,
-        "post_count": 6,
         "unclustered_posts": 1
-      },
-      {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 6,
-        "top_topic_label": "tpu / hbm / google / inference",
-        "focus_share": 0.333,
-        "post_count": 6,
-        "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 8,
-        "label": "memory / dram / nvidia / goog",
-        "total_engagement": 175,
-        "post_count": 3,
+        "topic_id": 18,
+        "label": "memory / dram / nvidia / flash",
+        "total_engagement": 248,
+        "post_count": 4,
         "top_account": "jukan05",
         "top_account_engagement": 131,
         "is_catchall": false
       },
       {
         "topic_id": 6,
-        "label": "tpu / hbm / google / inference",
-        "total_engagement": 88,
-        "post_count": 3,
-        "top_account": "QQ_Timmy",
-        "top_account_engagement": 48,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 0,
-        "label": "hbm / agentic / inference / samsung",
-        "total_engagement": 80,
-        "post_count": 3,
-        "top_account": "HyperTechInvest",
-        "top_account_engagement": 73,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
-        "label": "robot",
-        "total_engagement": 49,
+        "label": "台積電揭coupe新藍圖 / 光學中介層登場 / taiwan / semicon",
+        "total_engagement": 237,
         "post_count": 2,
-        "top_account": "tphuang",
-        "top_account_engagement": 49,
+        "top_account": "technewsinside",
+        "top_account_engagement": 223,
         "is_catchall": false
       },
       {
-        "topic_id": 7,
-        "label": "asic / avgo / cache / kv",
-        "total_engagement": 40,
+        "topic_id": 17,
+        "label": "tpu / google / nvidia / hbm",
+        "total_engagement": 127,
+        "post_count": 3,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 75,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "台積電 / 半導體正式邁入 / 發表異質整合藍圖 / 系統整合微縮",
+        "total_engagement": 39,
         "post_count": 2,
-        "top_account": "QQ_Timmy",
-        "top_account_engagement": 40,
+        "top_account": "technewsinside",
+        "top_account_engagement": 38,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 11,
+        "label": "anthropic / 務必先徹底掃毒並確認裝置已清除惡意程式 / 以免讓自己的 / 同時重新檢查帳號及其他登入來源的安全性",
+        "total_engagement": 28,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 26,
         "is_catchall": false
       },
       {
         "topic_id": 5,
-        "label": "soitec / substrate / capacity",
-        "total_engagement": 24,
-        "post_count": 2,
-        "top_account": "statementdog",
-        "top_account_engagement": 15,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 2,
-        "label": "semicon / taiwan",
-        "total_engagement": 22,
-        "post_count": 3,
-        "top_account": "technews_tw",
-        "top_account_engagement": 22,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
-        "label": "glass / substrate",
+        "label": "lpddr / 長鑫存儲 / 宣布最新 / 最高傳輸速率達",
         "total_engagement": 20,
         "post_count": 2,
-        "top_account": "HyperTechInvest",
+        "top_account": "technewsinside",
         "top_account_engagement": 20,
         "is_catchall": false
       },
       {
+        "topic_id": 15,
+        "label": "hbm / 三星 / 將至 / 記憶體產能鎖定給輝達等大廠",
+        "total_engagement": 18,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 14,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "環球晶 / 迎來強勁動能 / 董事長徐秀蘭看好未來兩年在客戶擴產與量價齊揚帶動下 / 產業將迎來雙位數成長",
+        "total_engagement": 18,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 17,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "asml / 半導體微縮邁入新時代 / euv / 片晶圓",
+        "total_engagement": 18,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 11,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 16,
+        "label": "票價又要漲了",
+        "total_engagement": 17,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 17,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "川普",
+        "total_engagement": 16,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 16,
+        "is_catchall": false
+      },
+      {
         "topic_id": 1,
-        "label": "其他（未分群，28 篇）",
-        "total_engagement": 2180,
-        "post_count": 28,
+        "label": "openai / 蘋果 / 更已被輸入 / 發現機密電路圖不只被帶往",
+        "total_engagement": 15,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 15,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "只差一代了",
+        "total_engagement": 12,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 8,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 14,
+        "label": "君帆工業 / semicontaiwan / 高穩定性的氣動元件與客製化解決方案 / 展示耐酸鹼",
+        "total_engagement": 10,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 8,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "sandisk / 尾盤大漲",
+        "total_engagement": 7,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 7,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "卻也讓資安攻擊速度大幅飆升 / 自主執行任務爆發 / agent",
+        "total_engagement": 6,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 6,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "華為 / 淨利卻暴跌逾 / 上半年財報登場",
+        "total_engagement": 6,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 5,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "徐秀蘭 / 環球晶圓 / 浪潮帶動矽晶圓需求爆發 / 台灣生態系",
+        "total_engagement": 5,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 4,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，55 篇）",
+        "total_engagement": 4155,
+        "post_count": 55,
         "top_account": "jukan05",
         "top_account_engagement": 1677,
         "is_catchall": true
@@ -1254,10 +1477,10 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 48,
-          "likes": 2262,
-          "engagement": 2678,
-          "avg_engagement": 55.8
+          "post_count": 95,
+          "likes": 4683,
+          "engagement": 5002,
+          "avg_engagement": 52.7
         },
         "evening": {
           "post_count": 0,
