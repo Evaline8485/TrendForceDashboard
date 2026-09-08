@@ -1,85 +1,384 @@
 {
-  "generated_at": "2026-09-07T18:26:18+08:00",
+  "generated_at": "2026-09-08T08:34:43+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-09-07T17:26:18+08:00",
-    "end_utc": "2026-09-07T18:26:18+08:00",
-    "start_tw": "Sep 07, 17:26",
-    "end_tw": "Sep 07, 18:26"
+    "start_utc": "2026-09-08T07:34:43+08:00",
+    "end_utc": "2026-09-08T08:34:43+08:00",
+    "start_tw": "Sep 08, 07:34",
+    "end_tw": "Sep 08, 08:34"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 6,
+      "total_posts": 12,
       "sentiment_counts": {
-        "negative": 3,
-        "neutral": 2,
-        "positive": 1
+        "positive": 5,
+        "neutral": 6,
+        "negative": 1
       },
       "sentiment_share": {
-        "negative": 0.5,
-        "neutral": 0.333,
-        "positive": 0.167
+        "positive": 0.417,
+        "neutral": 0.5,
+        "negative": 0.083
       },
       "top_terms": [
-        "兩大",
-        "大記",
-        "記憶",
-        "憶體",
-        "體龍",
-        "龍頭",
-        "頭庫",
-        "庫存",
-        "存跌",
-        "跌破"
+        "gemini",
+        "模型",
+        "收大",
+        "大幅",
+        "收大幅",
+        "最新",
+        "terminal",
+        "bench",
+        "designed",
+        "completed"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 0,
-        "label": "endowments / outperform / index / fear",
-        "heat": 50.0,
-        "volume": 6,
-        "engagement": 77,
+        "label": "intel / completed / byd / latest",
+        "heat": 90.0,
+        "volume": 10,
+        "engagement": 214,
         "entities": [
-          "三星",
-          "庫存",
-          "SK海力士"
+          "英特爾",
+          "毛利",
+          "陳立武"
         ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "terminal / bench / designed / gemini",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 200,
+        "entities": [],
         "is_catchall": false
       }
     ],
     "named_entities": [
       {
-        "entity": "三星",
-        "count": 3
+        "entity": "英特爾",
+        "count": 1
       },
       {
-        "entity": "庫存",
-        "count": 3
+        "entity": "毛利",
+        "count": 1
       },
       {
-        "entity": "SK海力士",
+        "entity": "陳立武",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-07T17:26:18.000002+08:00",
-        "bucket_end": "2026-09-07T17:30:35.142859+08:00",
+        "bucket_start": "2026-09-08T07:34:43.000002+08:00",
+        "bucket_end": "2026-09-08T07:39:00.142859+08:00",
         "positive": 1,
         "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 13,
+        "negative": 0,
+        "positive_engagement": 37,
         "neutral_engagement": 0,
-        "negative_engagement": 16,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 29,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 37,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "endowments / outperform / index / fear",
+            "label": "intel / completed / byd / latest",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "China seems to find this stepped tapering of unmanned aircraft a good compromise bw range/weight & rear aspect stealth.  As a twin-engine aircraft, this is likely the upper limit of how large WZ-X can",
+            "url": "https://x.com/tphuang/status/2097107013897777524",
+            "interaction": 37
+          }
+        ],
+        "net_sentiment_smoothed": 33.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T07:39:00.142859+08:00",
+        "bucket_end": "2026-09-08T07:43:17.285716+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 25.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T07:43:17.285716+08:00",
+        "bucket_end": "2026-09-08T07:47:34.428573+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T07:47:34.428573+08:00",
+        "bucket_end": "2026-09-08T07:51:51.571430+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T07:51:51.571430+08:00",
+        "bucket_end": "2026-09-08T07:56:08.714287+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 101,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 101,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "intel / completed / byd / latest",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Rumor: CXMT and YMTC have completed Apple’s product qualification process.  However, large-scale adoption still hinges on the U.S. administration.",
+            "url": "https://x.com/jukan05/status/2097111391056577001",
+            "interaction": 101
+          }
+        ],
+        "net_sentiment_smoothed": 26.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T07:56:08.714287+08:00",
+        "bucket_end": "2026-09-08T08:00:25.857144+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 6,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 6,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "intel / completed / byd / latest",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "BYD Semi unveils V305B SiC Power Module packaging designed for 1000V auto platform w/ peak 1500V support.  This is the mass produced module supporting different type of SiC chips including 1500V + 140",
+            "url": "https://x.com/tphuang/status/2097112697116786900",
+            "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": 26.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T08:00:25.857144+08:00",
+        "bucket_end": "2026-09-08T08:04:43.000001+08:00",
+        "positive": 1,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 175,
+        "neutral_engagement": 25,
+        "negative_engagement": 0,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 200,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "terminal / bench / designed / gemini",
+            "count": 2
+          },
+          {
+            "topic_id": 0,
+            "label": "intel / completed / byd / latest",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Gemini 3.8 Flash and Muse Spark 1.3 are two of the most clearly benchmaxxed models we've seen yet. Despite being comparable to both GPT-6 and Fable 5.1 on Terminal Bench 2.1, their Terminal Bench 4.0 ",
+            "url": "https://x.com/SemiAnalysis_/status/2097112791471522292",
+            "interaction": 175
+          },
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "How is this possible? All of the tasks in Terminal Bench 2.1 are fully public. Though Meta and Google would never train on the tasks directly, they absolutely will buy data from RL env startups that’s",
+            "url": "https://x.com/SemiAnalysis_/status/2097112793598050674",
+            "interaction": 25
+          }
+        ],
+        "net_sentiment_smoothed": 26.7,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-09-08T08:04:43.000001+08:00",
+        "bucket_end": "2026-09-08T08:09:00.142858+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 26.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T08:09:00.142858+08:00",
+        "bucket_end": "2026-09-08T08:13:17.285715+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 3,
+        "neutral_engagement": 0,
+        "negative_engagement": 35,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 38,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "intel / completed / byd / latest",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Intel plans to raise CPU prices another 10% in early October, the latest of several price increases since late 2025 due to strong demand and rising costs, DigiTimes reports, adding the New Intel also ",
+            "url": "https://x.com/dnystedt/status/2097115815430779278",
+            "interaction": 35
+          },
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "BYD Semi also developed its own high speed 8T8R channel MMIC BS1110ALA for 4D MMW radar.  uses self developed MIPI CSI-2 high speed connector & support of different Serdes chips. Completed integration",
+            "url": "https://x.com/tphuang/status/2097115702637613156",
+            "interaction": 3
+          }
+        ],
+        "net_sentiment_smoothed": 6.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T08:13:17.285715+08:00",
+        "bucket_end": "2026-09-08T08:17:34.428572+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T08:17:34.428572+08:00",
+        "bucket_end": "2026-09-08T08:21:51.571429+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 6,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 6,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "intel / completed / byd / latest",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "英特爾( Intel )傳2026年10月5日左右再調漲PC CPU約10%，延續2025年底以來多次漲價。低毛利Small Core產品線可能EOL，策略改為拉高毛利率，不再殺價搶市佔。執行長陳立武同步精簡組織，管理層從12層降至6層，員工約7.5萬人。",
+            "url": "https://x.com/QQ_Timmy/status/2097117613243695486",
+            "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T08:21:51.571429+08:00",
+        "bucket_end": "2026-09-08T08:26:08.714286+08:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 26,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 26,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "intel / completed / byd / latest",
             "count": 2
           }
         ],
@@ -87,261 +386,15 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "For around a decade the rich Scandinavian state, once feted as an all but ideal society, suffered more fatal shootings per capita than any other country in western Europe.  But the numbers are now in ",
-            "url": "https://x.com/FT/status/2096893804942942486",
+            "text": "Good morning, Asia. While you were sleeping, our most-read article was about the latest exit from the UK by a high-profile financier amid fears over tax rises under the Labour government.  https:// ft",
+            "url": "https://x.com/FT/status/2097118522023235654",
             "interaction": 16
           },
           {
-            "handle": "FT",
+            "handle": "QQ_Timmy",
             "platform": "X",
-            "text": "Finding ways to reduce your taxable estate to below your death duty threshold has become a burning issue — but advisers urge clients to keep a cool head:  https:// ft.trib.al/e56gBiM",
-            "url": "https://x.com/FT/status/2096893811947377057",
-            "interaction": 13
-          }
-        ],
-        "net_sentiment_smoothed": -33.3,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-09-07T17:30:35.142859+08:00",
-        "bucket_end": "2026-09-07T17:34:52.285716+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -25.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-07T17:34:52.285716+08:00",
-        "bucket_end": "2026-09-07T17:39:09.428573+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "endowments / outperform / index / fear",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "兩大記憶體龍頭庫存跌破十天大關！截至第三季，三星與 SK 海力士庫存水位急遽消耗，預警明年恐面臨可供銷售產品耗盡窘境。 #記憶體庫存 #三星電子 #SK海力士 #庫存告急 #供需失衡",
-            "url": "https://x.com/technews_tw/status/2096894974537466220",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-07T17:39:09.428573+08:00",
-        "bucket_end": "2026-09-07T17:43:26.571430+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-07T17:43:26.571430+08:00",
-        "bucket_end": "2026-09-07T17:47:43.714287+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-07T17:47:43.714287+08:00",
-        "bucket_end": "2026-09-07T17:52:00.857144+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-07T17:52:00.857144+08:00",
-        "bucket_end": "2026-09-07T17:56:18.000001+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-07T17:56:18.000001+08:00",
-        "bucket_end": "2026-09-07T18:00:35.142858+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-07T18:00:35.142858+08:00",
-        "bucket_end": "2026-09-07T18:04:52.285715+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-07T18:04:52.285715+08:00",
-        "bucket_end": "2026-09-07T18:09:09.428572+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-07T18:09:09.428572+08:00",
-        "bucket_end": "2026-09-07T18:13:26.571429+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-07T18:13:26.571429+08:00",
-        "bucket_end": "2026-09-07T18:17:43.714286+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 29,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 29,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "endowments / outperform / index / fear",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Anak Krakatau, located between Java and Sumatra, has been erupting since late on Friday, spewing plumes of smoke tens of thousands of feet into the air and sending volcanic ash across Indonesia’s two ",
-            "url": "https://x.com/FT/status/2096905092515442884",
-            "interaction": 29
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-07T18:17:43.714286+08:00",
-        "bucket_end": "2026-09-07T18:22:00.857143+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 10,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 10,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "endowments / outperform / index / fear",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Big US university endowments outperform S&P 500 index",
-            "url": "https://x.com/FT/status/2096906255122026533",
+            "text": "早安！9/8 外電綜合整理  - 2455全新：美系升目標 美系券商最新house view 上修2026–28E 全球光收發模組出貨量。分別上調 21%／31%／31%，將 800G+ 出貨量預估分別上調 31%／39%／36%，並將 1.6T+ 出貨量預估分別上調 29%／61%／50%。  全新8月營收大幅優於美系預期，反映 AI",
+            "url": "https://x.com/QQ_Timmy/status/2097118838412484879",
             "interaction": 10
           }
         ],
@@ -349,8 +402,25 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-07T18:22:00.857143+08:00",
-        "bucket_end": "2026-09-07T18:26:18+08:00",
+        "bucket_start": "2026-09-08T08:26:08.714286+08:00",
+        "bucket_end": "2026-09-08T08:30:25.857143+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T08:30:25.857143+08:00",
+        "bucket_end": "2026-09-08T08:34:43+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -369,8 +439,40 @@
     "topic_sentiment_heatmap": [
       {
         "topic_id": 0,
-        "label": "endowments / outperform / index / fear",
+        "label": "intel / completed / byd / latest",
         "cells": [
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
           {
             "net_sentiment": 0.0,
             "volume": 2
@@ -380,48 +482,78 @@
             "volume": 0
           },
           {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 1
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "terminal / bench / designed / gemini",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -434,50 +566,99 @@
       {
         "handle": "technews_tw",
         "top_topic_id": 0,
-        "top_topic_label": "endowments / outperform / index / fear",
+        "top_topic_label": "intel / completed / byd / latest",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 0,
+        "top_topic_label": "intel / completed / byd / latest",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 0,
+        "top_topic_label": "intel / completed / byd / latest",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 0,
+        "top_topic_label": "intel / completed / byd / latest",
+        "focus_share": 1.0,
+        "post_count": 3,
+        "unclustered_posts": 0
+      },
+      {
         "handle": "FT",
         "top_topic_id": 0,
-        "top_topic_label": "endowments / outperform / index / fear",
+        "top_topic_label": "intel / completed / byd / latest",
         "focus_share": 1.0,
-        "post_count": 5,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 0,
+        "top_topic_label": "intel / completed / byd / latest",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 1,
+        "top_topic_label": "terminal / bench / designed / gemini",
+        "focus_share": 1.0,
+        "post_count": 2,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 0,
-        "label": "endowments / outperform / index / fear",
-        "total_engagement": 77,
-        "post_count": 6,
-        "top_account": "FT",
-        "top_account_engagement": 77,
+        "label": "intel / completed / byd / latest",
+        "total_engagement": 214,
+        "post_count": 10,
+        "top_account": "jukan05",
+        "top_account_engagement": 101,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "terminal / bench / designed / gemini",
+        "total_engagement": 200,
+        "post_count": 2,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 200,
         "is_catchall": false
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
+          "post_count": 12,
+          "likes": 336,
+          "engagement": 414,
+          "avg_engagement": 34.5
+        },
+        "afternoon": {
           "post_count": 0,
           "likes": 0,
           "engagement": 0,
           "avg_engagement": 0.0
         },
-        "afternoon": {
-          "post_count": 3,
-          "likes": 19,
-          "engagement": 29,
-          "avg_engagement": 9.7
-        },
         "evening": {
-          "post_count": 3,
-          "likes": 25,
-          "engagement": 48,
-          "avg_engagement": 16.0
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "late_night": {
           "post_count": 0,
@@ -486,7 +667,7 @@
           "avg_engagement": 0.0
         }
       },
-      "peak_slot": "afternoon"
+      "peak_slot": "morning"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,

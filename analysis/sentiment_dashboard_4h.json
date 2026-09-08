@@ -1,176 +1,90 @@
 {
-  "generated_at": "2026-09-08T03:30:11+08:00",
+  "generated_at": "2026-09-08T08:34:43+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-09-07T23:30:11+08:00",
-    "end_utc": "2026-09-08T03:30:11+08:00",
-    "start_tw": "Sep 07, 23:30",
-    "end_tw": "Sep 08, 03:30"
+    "start_utc": "2026-09-08T04:34:43+08:00",
+    "end_utc": "2026-09-08T08:34:43+08:00",
+    "start_tw": "Sep 08, 04:34",
+    "end_tw": "Sep 08, 08:34"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 14,
+      "total_posts": 18,
       "sentiment_counts": {
-        "positive": 5,
-        "negative": 5,
-        "neutral": 4
+        "positive": 8,
+        "neutral": 7,
+        "negative": 3
       },
       "sentiment_share": {
-        "positive": 0.357,
-        "negative": 0.357,
-        "neutral": 0.286
+        "positive": 0.444,
+        "neutral": 0.389,
+        "negative": 0.167
       },
       "top_terms": [
-        "germany",
-        "alternative",
-        "saxony",
-        "anhalt",
-        "dram",
-        "revenue",
-        "jumped",
-        "qoq",
-        "prioritize",
-        "server"
+        "最新",
+        "latest",
+        "intel",
+        "core",
+        "cpu",
+        "gemini",
+        "模型",
+        "收大",
+        "大幅",
+        "收大幅"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "germany",
+        "topic_id": 1,
+        "label": "intel / cpu / digitimes / raise",
         "heat": 90.0,
-        "volume": 12,
-        "engagement": 1537,
-        "entities": [],
+        "volume": 3,
+        "engagement": 221,
+        "entities": [
+          "英特爾",
+          "毛利",
+          "陳立武"
+        ],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "saxony / anhalt / alternative / germany",
+        "topic_id": 0,
+        "label": "byd / semi / auto / designed",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 100,
+        "engagement": 9,
         "entities": [],
         "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "其他（未分群，13 篇）",
+        "heat": 10.0,
+        "volume": 13,
+        "engagement": 962,
+        "entities": [],
+        "is_catchall": true
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "英特爾",
+        "count": 1
+      },
+      {
+        "entity": "毛利",
+        "count": 1
+      },
+      {
+        "entity": "陳立武",
+        "count": 1
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-07T23:30:10.999994+08:00",
-        "bucket_end": "2026-09-07T23:47:19.571423+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 133,
-        "negative_engagement": 89,
-        "net_sentiment": -50.0,
-        "post_count": 2,
-        "engagement": 222,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "germany",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Law schools tell students to put AI away  https:// ft.trib.al/YfYlkAr  | opinion",
-            "url": "https://x.com/FT/status/2096984911739494468",
-            "interaction": 133
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Deutsche Bank has settled a €152mn claim with one of its former bankers, who alleged the lender had unfairly shifted the blame for an Italian accounting scandal.  https:// ft.trib.al/hIhCuvQ",
-            "url": "https://x.com/FT/status/2096984390303711323",
-            "interaction": 89
-          }
-        ],
-        "net_sentiment_smoothed": -50.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-07T23:47:19.571423+08:00",
-        "bucket_end": "2026-09-08T00:04:28.142852+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 4,
-        "neutral_engagement": 34,
-        "negative_engagement": 382,
-        "net_sentiment": 0.0,
-        "post_count": 3,
-        "engagement": 420,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "germany",
-            "count": 2
-          },
-          {
-            "topic_id": 1,
-            "label": "saxony / anhalt / alternative / germany",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Oil closes in on $100 as renewed supply crunch looms",
-            "url": "https://x.com/FT/status/2096991714896470473",
-            "interaction": 382
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "What next for Alternative for Germany after its victory in Saxony-Anhalt?",
-            "url": "https://x.com/FT/status/2096991201660428516",
-            "interaction": 34
-          }
-        ],
-        "net_sentiment_smoothed": -37.5,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-09-08T00:04:28.142852+08:00",
-        "bucket_end": "2026-09-08T00:21:36.714281+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 266,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 266,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "germany",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Billionaire trader Rokos to leave UK for Greece",
-            "url": "https://x.com/FT/status/2096995675095416873",
-            "interaction": 266
-          }
-        ],
-        "net_sentiment_smoothed": -30.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-08T00:21:36.714281+08:00",
-        "bucket_end": "2026-09-08T00:38:45.285710+08:00",
+        "bucket_start": "2026-09-08T04:34:42.999994+08:00",
+        "bucket_end": "2026-09-08T04:51:51.571423+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -186,8 +100,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T00:38:45.285710+08:00",
-        "bucket_end": "2026-09-08T00:55:53.857139+08:00",
+        "bucket_start": "2026-09-08T04:51:51.571423+08:00",
+        "bucket_end": "2026-09-08T05:09:00.142852+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -203,21 +117,269 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T00:55:53.857139+08:00",
-        "bucket_end": "2026-09-08T01:13:02.428568+08:00",
+        "bucket_start": "2026-09-08T05:09:00.142852+08:00",
+        "bucket_end": "2026-09-08T05:26:08.714281+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T05:26:08.714281+08:00",
+        "bucket_end": "2026-09-08T05:43:17.285710+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T05:43:17.285710+08:00",
+        "bucket_end": "2026-09-08T06:00:25.857139+08:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 242,
+        "positive_engagement": 408,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 100.0,
         "post_count": 1,
-        "engagement": 242,
+        "engagement": 408,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "We are excited to bring the first open benchmarking of Google's TPUs to the world Running every day, on many models + scenarios $/token is better than B200 and B300 Huge shout-out to Google  @inferact",
+            "url": "https://x.com/dylan522p/status/2097079157301600275",
+            "interaction": 408
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T06:00:25.857139+08:00",
+        "bucket_end": "2026-09-08T06:17:34.428568+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T06:17:34.428568+08:00",
+        "bucket_end": "2026-09-08T06:34:42.999997+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 115,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 115,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "UK set to announce trade ban on Israeli settlements in the West Bank",
+            "url": "https://x.com/FT/status/2097088443486486951",
+            "interaction": 115
+          }
+        ],
+        "net_sentiment_smoothed": 6.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T06:34:42.999997+08:00",
+        "bucket_end": "2026-09-08T06:51:51.571426+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -13.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T06:51:51.571426+08:00",
+        "bucket_end": "2026-09-08T07:09:00.142855+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 75,
+        "neutral_engagement": 0,
+        "negative_engagement": 180,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 255,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "intel / cpu / digitimes / raise",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "DIGITIMES' latest report on Intel:  Intel will raise prices on PC CPUs by another 10% in October.  At the same time, the Small Core product line, which carries lower gross margins, may be headed towar",
+            "url": "https://x.com/jukan05/status/2097098974209675740",
+            "interaction": 180
+          },
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "DeepSeek will easily have 500k chips, likely closer to 1m chips once its DC is fully built out.  Curious part is this order px that got reported. I've always expected HW chips to be cheaper than Nvidi",
+            "url": "https://x.com/tphuang/status/2097098391289495825",
+            "interaction": 60
+          }
+        ],
+        "net_sentiment_smoothed": -3.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T07:09:00.142855+08:00",
+        "bucket_end": "2026-09-08T07:26:08.714284+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 26.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T07:26:08.714284+08:00",
+        "bucket_end": "2026-09-08T07:43:17.285713+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 37,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 37,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "China seems to find this stepped tapering of unmanned aircraft a good compromise bw range/weight & rear aspect stealth.  As a twin-engine aircraft, this is likely the upper limit of how large WZ-X can",
+            "url": "https://x.com/tphuang/status/2097107013897777524",
+            "interaction": 37
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "MIT 與 Motional 破解自駕車「黑箱」決策！最新 CW-Net（概念包裝網路）技術能將 AI 規劃器的內部推論，即時翻譯成人類看得懂的駕駛概念。 #MIT #Motional #CWNet #自駕車 #可解釋AI #Nature",
+            "url": "https://x.com/technews_tw/status/2097105494041296944",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 30.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T07:43:17.285713+08:00",
+        "bucket_end": "2026-09-08T08:00:25.857142+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 6,
+        "neutral_engagement": 101,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 107,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "germany",
+            "label": "byd / semi / auto / designed",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Rumor: CXMT and YMTC have completed Apple’s product qualification process.  However, large-scale adoption still hinges on the U.S. administration.",
+            "url": "https://x.com/jukan05/status/2097111391056577001",
+            "interaction": 101
+          },
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "BYD Semi unveils V305B SiC Power Module packaging designed for 1000V auto platform w/ peak 1500V support.  This is the mass produced module supporting different type of SiC chips including 1500V + 140",
+            "url": "https://x.com/tphuang/status/2097112697116786900",
+            "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": 24.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-08T08:00:25.857142+08:00",
+        "bucket_end": "2026-09-08T08:17:34.428571+08:00",
+        "positive": 2,
+        "neutral": 2,
+        "negative": 1,
+        "positive_engagement": 178,
+        "neutral_engagement": 25,
+        "negative_engagement": 35,
+        "net_sentiment": 20.0,
+        "post_count": 5,
+        "engagement": 238,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "byd / semi / auto / designed",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "intel / cpu / digitimes / raise",
             "count": 1
           }
         ],
@@ -225,179 +387,37 @@
           {
             "handle": "SemiAnalysis_",
             "platform": "X",
-            "text": "ALERT🚨: AMD INCREASED  @vllm_project  PERFORMANCE BY 11x IN LESS THAN 19 DAYS ON MI355X AGENTIC WORKLOADS on the modern MiniMax M3 model!  This was done entirely through software optimizations, mainly",
-            "url": "https://x.com/SemiAnalysis_/status/2097007346421531008",
-            "interaction": 242
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-08T01:13:02.428568+08:00",
-        "bucket_end": "2026-09-08T01:30:10.999997+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-08T01:30:10.999997+08:00",
-        "bucket_end": "2026-09-08T01:47:19.571426+08:00",
-        "positive": 0,
-        "neutral": 2,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 57,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 57,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "germany",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Germany’s Merz is running out of time  https:// ft.trib.al/WeaNEHh  | opinion",
-            "url": "https://x.com/FT/status/2097015903044931792",
-            "interaction": 42
+            "text": "Gemini 3.8 Flash and Muse Spark 1.3 are two of the most clearly benchmaxxed models we've seen yet. Despite being comparable to both GPT-6 and Fable 5.1 on Terminal Bench 2.1, their Terminal Bench 4.0 ",
+            "url": "https://x.com/SemiAnalysis_/status/2097112791471522292",
+            "interaction": 175
           },
           {
-            "handle": "FT",
+            "handle": "dnystedt",
             "platform": "X",
-            "text": "Pricey oil is laying the groundwork for its own decline  https:// ft.trib.al/DtebIoO  | opinion",
-            "url": "https://x.com/FT/status/2097015892223611035",
-            "interaction": 15
+            "text": "Intel plans to raise CPU prices another 10% in early October, the latest of several price increases since late 2025 due to strong demand and rising costs, DigiTimes reports, adding the New Intel also ",
+            "url": "https://x.com/dnystedt/status/2097115815430779278",
+            "interaction": 35
           }
         ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": true
       },
       {
-        "bucket_start": "2026-09-08T01:47:19.571426+08:00",
-        "bucket_end": "2026-09-08T02:04:28.142855+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 29,
-        "neutral_engagement": 0,
-        "negative_engagement": 8,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 37,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "germany",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "A number of big US university endowments are on track to match or outpace the broad stock market, as large weightings in tech groups such as SpaceX and OpenAI help them snap several years of underperf",
-            "url": "https://x.com/FT/status/2097022107355955270",
-            "interaction": 29
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "What to do about the UK’s mental health crisis  https:// ft.trib.al/jlGs3Sb  | opinion",
-            "url": "https://x.com/FT/status/2097019380248842673",
-            "interaction": 8
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-08T02:04:28.142855+08:00",
-        "bucket_end": "2026-09-08T02:21:36.714284+08:00",
+        "bucket_start": "2026-09-08T08:17:34.428571+08:00",
+        "bucket_end": "2026-09-08T08:34:43+08:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 3,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 32,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-08T02:21:36.714284+08:00",
-        "bucket_end": "2026-09-08T02:38:45.285713+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-08T02:38:45.285713+08:00",
-        "bucket_end": "2026-09-08T02:55:53.857142+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-08T02:55:53.857142+08:00",
-        "bucket_end": "2026-09-08T03:13:02.428571+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 175,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 2,
-        "engagement": 175,
+        "post_count": 3,
+        "engagement": 32,
         "top_topics": [
           {
             "topic_id": 1,
-            "label": "saxony / anhalt / alternative / germany",
-            "count": 1
-          },
-          {
-            "topic_id": 0,
-            "label": "germany",
+            "label": "intel / cpu / digitimes / raise",
             "count": 1
           }
         ],
@@ -405,51 +425,58 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Russian gold shipments to Hong Kong have surged this year as the Chinese territory becomes a top trading centre for bullion placed under sanctions by the west.  https:// ft.trib.al/QLTzvCH",
-            "url": "https://x.com/FT/status/2097037201171165598",
-            "interaction": 109
+            "text": "Good morning, Asia. While you were sleeping, our most-read article was about the latest exit from the UK by a high-profile financier amid fears over tax rises under the Labour government.  https:// ft",
+            "url": "https://x.com/FT/status/2097118522023235654",
+            "interaction": 16
           },
           {
-            "handle": "FT",
+            "handle": "QQ_Timmy",
             "platform": "X",
-            "text": "Opinion: It is rare for provincial German elections to be watched all over the world. But the huge surge in support for the Alternative for Germany party in Saxony-Anhalt on Sunday is truly an event o",
-            "url": "https://x.com/FT/status/2097037216937619953",
-            "interaction": 66
+            "text": "早安！9/8 外電綜合整理  - 2455全新：美系升目標 美系券商最新house view 上修2026–28E 全球光收發模組出貨量。分別上調 21%／31%／31%，將 800G+ 出貨量預估分別上調 31%／39%／36%，並將 1.6T+ 出貨量預估分別上調 29%／61%／50%。  全新8月營收大幅優於美系預期，反映 AI",
+            "url": "https://x.com/QQ_Timmy/status/2097118838412484879",
+            "interaction": 10
           }
         ],
-        "net_sentiment_smoothed": 25.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-08T03:13:02.428571+08:00",
-        "bucket_end": "2026-09-08T03:30:11+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 33.3,
+        "net_sentiment_smoothed": 23.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "germany",
+        "topic_id": 1,
+        "label": "intel / cpu / digitimes / raise",
         "cells": [
           {
-            "net_sentiment": -50.0,
-            "volume": 2
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
-            "volume": 2
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": -100.0,
@@ -464,46 +491,22 @@
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
             "volume": 1
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 1,
-        "label": "saxony / anhalt / alternative / germany",
+        "topic_id": 0,
+        "label": "byd / semi / auto / designed",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -511,47 +514,47 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
             "net_sentiment": 100.0,
@@ -566,57 +569,106 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "TrendForce",
-        "top_topic_id": 0,
-        "top_topic_label": "germany",
+        "handle": "technews_tw",
+        "top_topic_id": 2,
+        "top_topic_label": "其他（未分群，13 篇）",
+        "focus_share": 1.0,
+        "post_count": 3,
+        "unclustered_posts": 3
+      },
+      {
+        "handle": "dylan522p",
+        "top_topic_id": 2,
+        "top_topic_label": "其他（未分群，13 篇）",
         "focus_share": 1.0,
         "post_count": 1,
-        "unclustered_posts": 0
+        "unclustered_posts": 1
       },
       {
         "handle": "SemiAnalysis_",
-        "top_topic_id": 0,
-        "top_topic_label": "germany",
+        "top_topic_id": 2,
+        "top_topic_label": "其他（未分群，13 篇）",
         "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
+        "post_count": 2,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 1,
+        "top_topic_label": "intel / cpu / digitimes / raise",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 1,
+        "top_topic_label": "intel / cpu / digitimes / raise",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 0,
+        "top_topic_label": "byd / semi / auto / designed",
+        "focus_share": 1.0,
+        "post_count": 5,
+        "unclustered_posts": 3
       },
       {
         "handle": "FT",
-        "top_topic_id": 0,
-        "top_topic_label": "germany",
-        "focus_share": 0.833,
-        "post_count": 12,
+        "top_topic_id": 2,
+        "top_topic_label": "其他（未分群，13 篇）",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 1,
+        "top_topic_label": "intel / cpu / digitimes / raise",
+        "focus_share": 1.0,
+        "post_count": 1,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "germany",
-        "total_engagement": 1537,
-        "post_count": 12,
-        "top_account": "FT",
-        "top_account_engagement": 1291,
+        "topic_id": 1,
+        "label": "intel / cpu / digitimes / raise",
+        "total_engagement": 221,
+        "post_count": 3,
+        "top_account": "jukan05",
+        "top_account_engagement": 180,
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "saxony / anhalt / alternative / germany",
-        "total_engagement": 100,
+        "topic_id": 0,
+        "label": "byd / semi / auto / designed",
+        "total_engagement": 9,
         "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 100,
+        "top_account": "tphuang",
+        "top_account_engagement": 9,
         "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "其他（未分群，13 篇）",
+        "total_engagement": 962,
+        "post_count": 13,
+        "top_account": "dylan522p",
+        "top_account_engagement": 408,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 17,
+          "likes": 624,
+          "engagement": 784,
+          "avg_engagement": 46.1
         },
         "afternoon": {
           "post_count": 0,
@@ -625,19 +677,19 @@
           "avg_engagement": 0.0
         },
         "evening": {
-          "post_count": 4,
-          "likes": 451,
-          "engagement": 638,
-          "avg_engagement": 159.5
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 10,
-          "likes": 717,
-          "engagement": 999,
-          "avg_engagement": 99.9
+          "post_count": 1,
+          "likes": 370,
+          "engagement": 408,
+          "avg_engagement": 408.0
         }
       },
-      "peak_slot": "late_night"
+      "peak_slot": "morning"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
