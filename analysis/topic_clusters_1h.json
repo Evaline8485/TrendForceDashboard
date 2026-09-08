@@ -3,53 +3,169 @@
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 3,
+      "size": 7,
       "accounts": {
         "technews_tw": 1,
-        "jukan05": 1,
-        "TrendForce.tw": 1
+        "TrendForce.tw": 1,
+        "technewsinside": 3,
+        "ctee.fans": 2
       },
       "engagement_by_account": {
         "technews_tw": 0,
-        "jukan05": 101,
-        "TrendForce.tw": 20
+        "TrendForce.tw": 20,
+        "technewsinside": 188,
+        "ctee.fans": 73
       }
     },
     {
       "id": "F",
       "label": "晶圓代工 / 先進製程",
-      "size": 2,
+      "size": 7,
       "accounts": {
         "QQ_Timmy": 1,
-        "dnystedt": 1
+        "dnystedt": 1,
+        "technewsinside": 1,
+        "ctee.fans": 4
       },
       "engagement_by_account": {
         "QQ_Timmy": 6,
-        "dnystedt": 35
+        "dnystedt": 35,
+        "technewsinside": 14,
+        "ctee.fans": 113
       }
     },
     {
       "id": "K",
       "label": "AI 模型 / 應用",
-      "size": 2,
+      "size": 7,
       "accounts": {
         "technews_tw": 1,
-        "SemiAnalysis_": 1
+        "SemiAnalysis_": 1,
+        "technewsinside": 4,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
         "technews_tw": 0,
-        "SemiAnalysis_": 175
+        "SemiAnalysis_": 175,
+        "technewsinside": 55,
+        "ctee.fans": 100
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 7,
+      "accounts": {
+        "technewsinside": 4,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 91,
+        "ctee.fans": 41
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 6,
+      "accounts": {
+        "ctee.fans": 6
+      },
+      "engagement_by_account": {
+        "ctee.fans": 150
       }
     },
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 1,
+      "size": 5,
       "accounts": {
-        "SemiAnalysis_": 1
+        "SemiAnalysis_": 1,
+        "technewsinside": 2,
+        "ctee.fans": 1,
+        "yutinghaosfinance": 1
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 25
+        "SemiAnalysis_": 25,
+        "technewsinside": 47,
+        "ctee.fans": 35,
+        "yutinghaosfinance": 314
+      }
+    },
+    {
+      "id": "G",
+      "label": "IC 設計",
+      "size": 4,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 14,
+        "ctee.fans": 102
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 3,
+      "accounts": {
+        "technewsinside": 2,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 43,
+        "ctee.fans": 123
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 15,
+        "ctee.fans": 8
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 14,
+        "ctee.fans": 0
+      }
+    },
+    {
+      "id": "L",
+      "label": "總經 / Fed",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 80,
+        "ctee.fans": 11
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 0
       }
     },
     {
@@ -68,30 +184,348 @@
       "label": "電源 / 電力設備",
       "size": 1,
       "accounts": {
-        "tphuang": 1
+        "technewsinside": 1
       },
       "engagement_by_account": {
-        "tphuang": 6
+        "technewsinside": 19
       }
     },
     {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
+      "id": "R",
+      "label": "散熱 / HVAC",
       "size": 1,
       "accounts": {
-        "jukan05": 1
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "jukan05": 101
+        "ctee.fans": 8
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 1,
+      "competitor_count": 6,
+      "competitor_engagement": 154,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "dnystedt",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股兆元俱樂部 台積領銜22檔衝鋒 4檔金融股入列】\n台股自前波低點39,384點一路狂飆至47K，持續朝收盤歷史新高47,741點邁進。隨股價走高，「兆元俱樂部」持續壯大，共有22檔總市值突破兆元；另統計近一個多月以來，有43檔個股總市值增加逾千億元，其中台積電（2330）市值攀升至66.13兆元、聯發科（2454）達7.63兆元…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02Z94kaY1A4LEMKBYGHyYPMjbXTnNvE3ft1mZDdyRQuDsC6hCb42iMPmzLdDzdQddql?__cft__[0]=AZgYWmlKv9vbI7VsLq76Y2tq2zR2NL3fgGOI8Lt1_juVW8obj965ewa9aboar6LW1ZvGilhiQp-MgDHHQ64iIGfVOmy2HDY0w3MI_AhwPKOExWdEFo9xWCofjWvhZ8BpJKLcRITP-7hyvakMGeIKiPzlZ7DuZWBQq4aTbGknv7KSuylqwvEnfAjt4WY",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股50K要來了嗎？法人最新看法出爐】\nAI潮帶動半導體需求旺，台積電、聯發科及聯電等半導體三雄7日股價開趴、火力全開，貢獻指數約617點、占指數大漲775點的8成，助攻台股站上47K收47,326點，收盤指數及市值雙寫歷史次高。法人齊看多台股戰48,218點指日可待，年底高點至少50,000點，高喊「對高點不預設立場」。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0brYi41ELCRhx2b5V8eXC9HXVTT25zx2mkpZ3Uu3wUaMrzwjTKWuLdQVPJsovxi2xl?__cft__[0]=AZhm338ZBUqEq85C5tidftzcK0Jvxs08y4WOU94_vhO8TMqsVQvZLa_W8uCI_Pb25nv53Gn-MVxW_zGYBi0v661J9bIvZVoFYcgTL5ACUhAPtWp7foSGKCOaIIca9OuLGSamA8LYjmPkGuCeSU3y26dscnZBC4gfrQht2yPP-2rXlwR1xLpmGc-l4kk",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 38
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Intel plans to raise CPU prices another 10% in early October, the latest of several price increases since late 2025 due to strong demand and rising costs, DigiTimes reports, adding the New Intel also plans to kill off low-margin “small core” CPU products as its shrinks its",
+          "url": "https://x.com/dnystedt/status/2097115815430779278",
+          "timestamp": "2026-09-08T08:12:27.000+08:00",
+          "interaction": 35
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【9／7台股雷達｜聯電飆漲停 聯發科、台虹題材撐盤原因一次看】\n今（7）日聯電、聯發科、台虹等個股在買盤點火下放量上漲，反觀大立光、長興等個股股價受挫...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02zdsy8rsP7NvnFkwvsXBRNtYK77DYzGacuovBivyWNN3tsbo1u2AfStcJXhS6A39yl?__cft__[0]=AZgVG0HwTUK7TEsjmHUrkUy1tx2QTPt09Za-nyoz3dr7bDbl0QRKVocjr3HBEQzJMQfu-vEEagVm-KuPsezocy0EGJIKQnrlHgfXXg2dhc8wUEnkGbbGK-df-mXkpEYp9QobSG6C3SXEMxiJKpfM8G3BiCUIaKPnjCyDz-LxK844sX4Y3_mzcrCXW_8",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 17
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股逐洞賽│美CPI將公布牽動Fed決策 半導體族群人氣回升】\n近期AI、高速運算、半導體及伺服器相關族群仍是資金關注核心。隨美國科技股表現回穩，加上台積電等權值股維持強勢，台股指數短線仍有機會延續多方格局...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02noAc4V6XX8FodP7bg8mMDgDznhiAXWvvRtuDmS9iVrhMK1oPrnEqM3e7FPSf7jHtl?__cft__[0]=AZgsz7ZVYc-Ec6VPReTzYUChX_fcZuJuXqR2FIRdJgCdrk6hRdko4aTBPdOztZ7nKlUTc2Fz2ScX1W3LWkZNogGOZsJJXz8HnMJX_N75G2ifDeYxqgNymF0Ym_oifEOMlkJ9ICYi3T0vzeAk0N2C9re0gi8k7XtVXXkvWnIY9H2jJ3YWKNtj8Y2FtNw",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 11
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "英特爾( Intel )傳2026年10月5日左右再調漲PC CPU約10%，延續2025年底以來多次漲價。低毛利Small Core產品線可能EOL，策略改為拉高毛利率，不再殺價搶市佔。執行長陳立武同步精簡組織，管理層從12層降至6層，員工約7.5萬人。",
+          "url": "https://x.com/QQ_Timmy/status/2097117613243695486",
+          "timestamp": "2026-09-08T08:19:36.000+08:00",
+          "interaction": 6
+        }
+      ]
+    },
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 6,
+      "competitor_engagement": 150,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股兆元俱樂部 台積領銜22檔衝鋒 4檔金融股入列】\n台股自前波低點39,384點一路狂飆至47K，持續朝收盤歷史新高47,741點邁進。隨股價走高，「兆元俱樂部」持續壯大，共有22檔總市值突破兆元；另統計近一個多月以來，有43檔個股總市值增加逾千億元，其中台積電（2330）市值攀升至66.13兆元、聯發科（2454）達7.63兆元…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02Z94kaY1A4LEMKBYGHyYPMjbXTnNvE3ft1mZDdyRQuDsC6hCb42iMPmzLdDzdQddql?__cft__[0]=AZgYWmlKv9vbI7VsLq76Y2tq2zR2NL3fgGOI8Lt1_juVW8obj965ewa9aboar6LW1ZvGilhiQp-MgDHHQ64iIGfVOmy2HDY0w3MI_AhwPKOExWdEFo9xWCofjWvhZ8BpJKLcRITP-7hyvakMGeIKiPzlZ7DuZWBQq4aTbGknv7KSuylqwvEnfAjt4WY",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股50K要來了嗎？法人最新看法出爐】\nAI潮帶動半導體需求旺，台積電、聯發科及聯電等半導體三雄7日股價開趴、火力全開，貢獻指數約617點、占指數大漲775點的8成，助攻台股站上47K收47,326點，收盤指數及市值雙寫歷史次高。法人齊看多台股戰48,218點指日可待，年底高點至少50,000點，高喊「對高點不預設立場」。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0brYi41ELCRhx2b5V8eXC9HXVTT25zx2mkpZ3Uu3wUaMrzwjTKWuLdQVPJsovxi2xl?__cft__[0]=AZhm338ZBUqEq85C5tidftzcK0Jvxs08y4WOU94_vhO8TMqsVQvZLa_W8uCI_Pb25nv53Gn-MVxW_zGYBi0v661J9bIvZVoFYcgTL5ACUhAPtWp7foSGKCOaIIca9OuLGSamA8LYjmPkGuCeSU3y26dscnZBC4gfrQht2yPP-2rXlwR1xLpmGc-l4kk",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 38
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "新台幣兌美元匯率回歸反硬資金面，隨7日台股大漲帶動，新台幣同步大幅走揚，盤中距離31.5元關卡剩下半步，隨資金匯入延續，短線持續挑戰此重要信心關卡...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid025JHVs88d2PPR9ao9FMTQfPB4KgkW96KjZg1uFYGmpfZVyTMc3pLhsfBzcQdq5V6Dl?__cft__[0]=AZj51Jt6p0aMXym5yTAIfFso1dqkwdAh88EH7BPsE_seJpeToABJHd-aeKKvrsmq0wGlvkcqmXPKqplyTP9OeptiYm6PCUU8CFeAS2cp9cFcw5GJAJIVQAIr8XrWTTktxm2GnrAGurFQjxKMfzAdknY1lan1FkThZfjRZIwkyN6d5_JztSh_P9dkHTs",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 24
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【9／7台股雷達｜聯電飆漲停 聯發科、台虹題材撐盤原因一次看】\n今（7）日聯電、聯發科、台虹等個股在買盤點火下放量上漲，反觀大立光、長興等個股股價受挫...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02zdsy8rsP7NvnFkwvsXBRNtYK77DYzGacuovBivyWNN3tsbo1u2AfStcJXhS6A39yl?__cft__[0]=AZgVG0HwTUK7TEsjmHUrkUy1tx2QTPt09Za-nyoz3dr7bDbl0QRKVocjr3HBEQzJMQfu-vEEagVm-KuPsezocy0EGJIKQnrlHgfXXg2dhc8wUEnkGbbGK-df-mXkpEYp9QobSG6C3SXEMxiJKpfM8G3BiCUIaKPnjCyDz-LxK844sX4Y3_mzcrCXW_8",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 17
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【9／8盤前｜記憶體兌現 11檔營收翻倍】\n法人：台股年底登5萬點…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02SkQXLgS5Az7jS1W7N9CN9BGy8T1mDaAVPemnZPsrsr5SqE8yqCoTYx3himS1XdJTl?__cft__[0]=AZiKWinhKQ4iCEP3SEMqQ9jtnl-rwf9Q2vsgLkD5xUwE0yhFHoL3oK5bjj9zzwmu_10HBQXc2C8uptJlGAMNycUlpTkiuFk2pRgOKvFRZIqUAQ8V8mn4O8rH_yQjwIDsczTDOMtUhI915V0OPbyU5ti3HuVzYw7GqzDz02WKwhRZ1ur5eLQ9B7LEMv4",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 13
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股逐洞賽│美CPI將公布牽動Fed決策 半導體族群人氣回升】\n近期AI、高速運算、半導體及伺服器相關族群仍是資金關注核心。隨美國科技股表現回穩，加上台積電等權值股維持強勢，台股指數短線仍有機會延續多方格局...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02noAc4V6XX8FodP7bg8mMDgDznhiAXWvvRtuDmS9iVrhMK1oPrnEqM3e7FPSf7jHtl?__cft__[0]=AZgsz7ZVYc-Ec6VPReTzYUChX_fcZuJuXqR2FIRdJgCdrk6hRdko4aTBPdOztZ7nKlUTc2Fz2ScX1W3LWkZNogGOZsJJXz8HnMJX_N75G2ifDeYxqgNymF0Ym_oifEOMlkJ9ICYi3T0vzeAk0N2C9re0gi8k7XtVXXkvWnIY9H2jJ3YWKNtj8Y2FtNw",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 11
+        }
+      ]
+    },
+    {
+      "cluster_id": "G",
+      "label": "IC 設計",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 102,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股兆元俱樂部 台積領銜22檔衝鋒 4檔金融股入列】\n台股自前波低點39,384點一路狂飆至47K，持續朝收盤歷史新高47,741點邁進。隨股價走高，「兆元俱樂部」持續壯大，共有22檔總市值突破兆元；另統計近一個多月以來，有43檔個股總市值增加逾千億元，其中台積電（2330）市值攀升至66.13兆元、聯發科（2454）達7.63兆元…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02Z94kaY1A4LEMKBYGHyYPMjbXTnNvE3ft1mZDdyRQuDsC6hCb42iMPmzLdDzdQddql?__cft__[0]=AZgYWmlKv9vbI7VsLq76Y2tq2zR2NL3fgGOI8Lt1_juVW8obj965ewa9aboar6LW1ZvGilhiQp-MgDHHQ64iIGfVOmy2HDY0w3MI_AhwPKOExWdEFo9xWCofjWvhZ8BpJKLcRITP-7hyvakMGeIKiPzlZ7DuZWBQq4aTbGknv7KSuylqwvEnfAjt4WY",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股50K要來了嗎？法人最新看法出爐】\nAI潮帶動半導體需求旺，台積電、聯發科及聯電等半導體三雄7日股價開趴、火力全開，貢獻指數約617點、占指數大漲775點的8成，助攻台股站上47K收47,326點，收盤指數及市值雙寫歷史次高。法人齊看多台股戰48,218點指日可待，年底高點至少50,000點，高喊「對高點不預設立場」。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0brYi41ELCRhx2b5V8eXC9HXVTT25zx2mkpZ3Uu3wUaMrzwjTKWuLdQVPJsovxi2xl?__cft__[0]=AZhm338ZBUqEq85C5tidftzcK0Jvxs08y4WOU94_vhO8TMqsVQvZLa_W8uCI_Pb25nv53Gn-MVxW_zGYBi0v661J9bIvZVoFYcgTL5ACUhAPtWp7foSGKCOaIIca9OuLGSamA8LYjmPkGuCeSU3y26dscnZBC4gfrQht2yPP-2rXlwR1xLpmGc-l4kk",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 38
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【9／7台股雷達｜聯電飆漲停 聯發科、台虹題材撐盤原因一次看】\n今（7）日聯電、聯發科、台虹等個股在買盤點火下放量上漲，反觀大立光、長興等個股股價受挫...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02zdsy8rsP7NvnFkwvsXBRNtYK77DYzGacuovBivyWNN3tsbo1u2AfStcJXhS6A39yl?__cft__[0]=AZgVG0HwTUK7TEsjmHUrkUy1tx2QTPt09Za-nyoz3dr7bDbl0QRKVocjr3HBEQzJMQfu-vEEagVm-KuPsezocy0EGJIKQnrlHgfXXg2dhc8wUEnkGbbGK-df-mXkpEYp9QobSG6C3SXEMxiJKpfM8G3BiCUIaKPnjCyDz-LxK844sX4Y3_mzcrCXW_8",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 17
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 1,
+      "competitor_count": 6,
+      "competitor_engagement": 154,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "dnystedt",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股兆元俱樂部 台積領銜22檔衝鋒 4檔金融股入列】\n台股自前波低點39,384點一路狂飆至47K，持續朝收盤歷史新高47,741點邁進。隨股價走高，「兆元俱樂部」持續壯大，共有22檔總市值突破兆元；另統計近一個多月以來，有43檔個股總市值增加逾千億元，其中台積電（2330）市值攀升至66.13兆元、聯發科（2454）達7.63兆元…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02Z94kaY1A4LEMKBYGHyYPMjbXTnNvE3ft1mZDdyRQuDsC6hCb42iMPmzLdDzdQddql?__cft__[0]=AZgYWmlKv9vbI7VsLq76Y2tq2zR2NL3fgGOI8Lt1_juVW8obj965ewa9aboar6LW1ZvGilhiQp-MgDHHQ64iIGfVOmy2HDY0w3MI_AhwPKOExWdEFo9xWCofjWvhZ8BpJKLcRITP-7hyvakMGeIKiPzlZ7DuZWBQq4aTbGknv7KSuylqwvEnfAjt4WY",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股50K要來了嗎？法人最新看法出爐】\nAI潮帶動半導體需求旺，台積電、聯發科及聯電等半導體三雄7日股價開趴、火力全開，貢獻指數約617點、占指數大漲775點的8成，助攻台股站上47K收47,326點，收盤指數及市值雙寫歷史次高。法人齊看多台股戰48,218點指日可待，年底高點至少50,000點，高喊「對高點不預設立場」。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0brYi41ELCRhx2b5V8eXC9HXVTT25zx2mkpZ3Uu3wUaMrzwjTKWuLdQVPJsovxi2xl?__cft__[0]=AZhm338ZBUqEq85C5tidftzcK0Jvxs08y4WOU94_vhO8TMqsVQvZLa_W8uCI_Pb25nv53Gn-MVxW_zGYBi0v661J9bIvZVoFYcgTL5ACUhAPtWp7foSGKCOaIIca9OuLGSamA8LYjmPkGuCeSU3y26dscnZBC4gfrQht2yPP-2rXlwR1xLpmGc-l4kk",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 38
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Intel plans to raise CPU prices another 10% in early October, the latest of several price increases since late 2025 due to strong demand and rising costs, DigiTimes reports, adding the New Intel also plans to kill off low-margin “small core” CPU products as its shrinks its",
+          "url": "https://x.com/dnystedt/status/2097115815430779278",
+          "timestamp": "2026-09-08T08:12:27.000+08:00",
+          "interaction": 35
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【9／7台股雷達｜聯電飆漲停 聯發科、台虹題材撐盤原因一次看】\n今（7）日聯電、聯發科、台虹等個股在買盤點火下放量上漲，反觀大立光、長興等個股股價受挫...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02zdsy8rsP7NvnFkwvsXBRNtYK77DYzGacuovBivyWNN3tsbo1u2AfStcJXhS6A39yl?__cft__[0]=AZgVG0HwTUK7TEsjmHUrkUy1tx2QTPt09Za-nyoz3dr7bDbl0QRKVocjr3HBEQzJMQfu-vEEagVm-KuPsezocy0EGJIKQnrlHgfXXg2dhc8wUEnkGbbGK-df-mXkpEYp9QobSG6C3SXEMxiJKpfM8G3BiCUIaKPnjCyDz-LxK844sX4Y3_mzcrCXW_8",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 17
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股逐洞賽│美CPI將公布牽動Fed決策 半導體族群人氣回升】\n近期AI、高速運算、半導體及伺服器相關族群仍是資金關注核心。隨美國科技股表現回穩，加上台積電等權值股維持強勢，台股指數短線仍有機會延續多方格局...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02noAc4V6XX8FodP7bg8mMDgDznhiAXWvvRtuDmS9iVrhMK1oPrnEqM3e7FPSf7jHtl?__cft__[0]=AZgsz7ZVYc-Ec6VPReTzYUChX_fcZuJuXqR2FIRdJgCdrk6hRdko4aTBPdOztZ7nKlUTc2Fz2ScX1W3LWkZNogGOZsJJXz8HnMJX_N75G2ifDeYxqgNymF0Ym_oifEOMlkJ9ICYi3T0vzeAk0N2C9re0gi8k7XtVXXkvWnIY9H2jJ3YWKNtj8Y2FtNw",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 11
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "英特爾( Intel )傳2026年10月5日左右再調漲PC CPU約10%，延續2025年底以來多次漲價。低毛利Small Core產品線可能EOL，策略改為拉高毛利率，不再殺價搶市佔。執行長陳立武同步精簡組織，管理層從12層降至6層，員工約7.5萬人。",
+          "url": "https://x.com/QQ_Timmy/status/2097117613243695486",
+          "timestamp": "2026-09-08T08:19:36.000+08:00",
+          "interaction": 6
+        }
+      ]
+    },
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 6,
+      "competitor_engagement": 150,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股兆元俱樂部 台積領銜22檔衝鋒 4檔金融股入列】\n台股自前波低點39,384點一路狂飆至47K，持續朝收盤歷史新高47,741點邁進。隨股價走高，「兆元俱樂部」持續壯大，共有22檔總市值突破兆元；另統計近一個多月以來，有43檔個股總市值增加逾千億元，其中台積電（2330）市值攀升至66.13兆元、聯發科（2454）達7.63兆元…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02Z94kaY1A4LEMKBYGHyYPMjbXTnNvE3ft1mZDdyRQuDsC6hCb42iMPmzLdDzdQddql?__cft__[0]=AZgYWmlKv9vbI7VsLq76Y2tq2zR2NL3fgGOI8Lt1_juVW8obj965ewa9aboar6LW1ZvGilhiQp-MgDHHQ64iIGfVOmy2HDY0w3MI_AhwPKOExWdEFo9xWCofjWvhZ8BpJKLcRITP-7hyvakMGeIKiPzlZ7DuZWBQq4aTbGknv7KSuylqwvEnfAjt4WY",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股50K要來了嗎？法人最新看法出爐】\nAI潮帶動半導體需求旺，台積電、聯發科及聯電等半導體三雄7日股價開趴、火力全開，貢獻指數約617點、占指數大漲775點的8成，助攻台股站上47K收47,326點，收盤指數及市值雙寫歷史次高。法人齊看多台股戰48,218點指日可待，年底高點至少50,000點，高喊「對高點不預設立場」。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0brYi41ELCRhx2b5V8eXC9HXVTT25zx2mkpZ3Uu3wUaMrzwjTKWuLdQVPJsovxi2xl?__cft__[0]=AZhm338ZBUqEq85C5tidftzcK0Jvxs08y4WOU94_vhO8TMqsVQvZLa_W8uCI_Pb25nv53Gn-MVxW_zGYBi0v661J9bIvZVoFYcgTL5ACUhAPtWp7foSGKCOaIIca9OuLGSamA8LYjmPkGuCeSU3y26dscnZBC4gfrQht2yPP-2rXlwR1xLpmGc-l4kk",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 38
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "新台幣兌美元匯率回歸反硬資金面，隨7日台股大漲帶動，新台幣同步大幅走揚，盤中距離31.5元關卡剩下半步，隨資金匯入延續，短線持續挑戰此重要信心關卡...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid025JHVs88d2PPR9ao9FMTQfPB4KgkW96KjZg1uFYGmpfZVyTMc3pLhsfBzcQdq5V6Dl?__cft__[0]=AZj51Jt6p0aMXym5yTAIfFso1dqkwdAh88EH7BPsE_seJpeToABJHd-aeKKvrsmq0wGlvkcqmXPKqplyTP9OeptiYm6PCUU8CFeAS2cp9cFcw5GJAJIVQAIr8XrWTTktxm2GnrAGurFQjxKMfzAdknY1lan1FkThZfjRZIwkyN6d5_JztSh_P9dkHTs",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 24
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【9／7台股雷達｜聯電飆漲停 聯發科、台虹題材撐盤原因一次看】\n今（7）日聯電、聯發科、台虹等個股在買盤點火下放量上漲，反觀大立光、長興等個股股價受挫...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02zdsy8rsP7NvnFkwvsXBRNtYK77DYzGacuovBivyWNN3tsbo1u2AfStcJXhS6A39yl?__cft__[0]=AZgVG0HwTUK7TEsjmHUrkUy1tx2QTPt09Za-nyoz3dr7bDbl0QRKVocjr3HBEQzJMQfu-vEEagVm-KuPsezocy0EGJIKQnrlHgfXXg2dhc8wUEnkGbbGK-df-mXkpEYp9QobSG6C3SXEMxiJKpfM8G3BiCUIaKPnjCyDz-LxK844sX4Y3_mzcrCXW_8",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 17
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【9／8盤前｜記憶體兌現 11檔營收翻倍】\n法人：台股年底登5萬點…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02SkQXLgS5Az7jS1W7N9CN9BGy8T1mDaAVPemnZPsrsr5SqE8yqCoTYx3himS1XdJTl?__cft__[0]=AZiKWinhKQ4iCEP3SEMqQ9jtnl-rwf9Q2vsgLkD5xUwE0yhFHoL3oK5bjj9zzwmu_10HBQXc2C8uptJlGAMNycUlpTkiuFk2pRgOKvFRZIqUAQ8V8mn4O8rH_yQjwIDsczTDOMtUhI915V0OPbyU5ti3HuVzYw7GqzDz02WKwhRZ1ur5eLQ9B7LEMv4",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 13
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股逐洞賽│美CPI將公布牽動Fed決策 半導體族群人氣回升】\n近期AI、高速運算、半導體及伺服器相關族群仍是資金關注核心。隨美國科技股表現回穩，加上台積電等權值股維持強勢，台股指數短線仍有機會延續多方格局...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02noAc4V6XX8FodP7bg8mMDgDznhiAXWvvRtuDmS9iVrhMK1oPrnEqM3e7FPSf7jHtl?__cft__[0]=AZgsz7ZVYc-Ec6VPReTzYUChX_fcZuJuXqR2FIRdJgCdrk6hRdko4aTBPdOztZ7nKlUTc2Fz2ScX1W3LWkZNogGOZsJJXz8HnMJX_N75G2ifDeYxqgNymF0Ym_oifEOMlkJ9ICYi3T0vzeAk0N2C9re0gi8k7XtVXXkvWnIY9H2jJ3YWKNtj8Y2FtNw",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 11
+        }
+      ]
+    },
+    {
+      "cluster_id": "G",
+      "label": "IC 設計",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 102,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股兆元俱樂部 台積領銜22檔衝鋒 4檔金融股入列】\n台股自前波低點39,384點一路狂飆至47K，持續朝收盤歷史新高47,741點邁進。隨股價走高，「兆元俱樂部」持續壯大，共有22檔總市值突破兆元；另統計近一個多月以來，有43檔個股總市值增加逾千億元，其中台積電（2330）市值攀升至66.13兆元、聯發科（2454）達7.63兆元…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02Z94kaY1A4LEMKBYGHyYPMjbXTnNvE3ft1mZDdyRQuDsC6hCb42iMPmzLdDzdQddql?__cft__[0]=AZgYWmlKv9vbI7VsLq76Y2tq2zR2NL3fgGOI8Lt1_juVW8obj965ewa9aboar6LW1ZvGilhiQp-MgDHHQ64iIGfVOmy2HDY0w3MI_AhwPKOExWdEFo9xWCofjWvhZ8BpJKLcRITP-7hyvakMGeIKiPzlZ7DuZWBQq4aTbGknv7KSuylqwvEnfAjt4WY",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股50K要來了嗎？法人最新看法出爐】\nAI潮帶動半導體需求旺，台積電、聯發科及聯電等半導體三雄7日股價開趴、火力全開，貢獻指數約617點、占指數大漲775點的8成，助攻台股站上47K收47,326點，收盤指數及市值雙寫歷史次高。法人齊看多台股戰48,218點指日可待，年底高點至少50,000點，高喊「對高點不預設立場」。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0brYi41ELCRhx2b5V8eXC9HXVTT25zx2mkpZ3Uu3wUaMrzwjTKWuLdQVPJsovxi2xl?__cft__[0]=AZhm338ZBUqEq85C5tidftzcK0Jvxs08y4WOU94_vhO8TMqsVQvZLa_W8uCI_Pb25nv53Gn-MVxW_zGYBi0v661J9bIvZVoFYcgTL5ACUhAPtWp7foSGKCOaIIca9OuLGSamA8LYjmPkGuCeSU3y26dscnZBC4gfrQht2yPP-2rXlwR1xLpmGc-l4kk",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 38
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【9／7台股雷達｜聯電飆漲停 聯發科、台虹題材撐盤原因一次看】\n今（7）日聯電、聯發科、台虹等個股在買盤點火下放量上漲，反觀大立光、長興等個股股價受挫...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02zdsy8rsP7NvnFkwvsXBRNtYK77DYzGacuovBivyWNN3tsbo1u2AfStcJXhS6A39yl?__cft__[0]=AZgVG0HwTUK7TEsjmHUrkUy1tx2QTPt09Za-nyoz3dr7bDbl0QRKVocjr3HBEQzJMQfu-vEEagVm-KuPsezocy0EGJIKQnrlHgfXXg2dhc8wUEnkGbbGK-df-mXkpEYp9QobSG6C3SXEMxiJKpfM8G3BiCUIaKPnjCyDz-LxK844sX4Y3_mzcrCXW_8",
+          "timestamp": "2026-09-08T00:57:42.360428+00:00",
+          "interaction": 17
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-09-07T23:49:56.201539+00:00",
-    "end_utc": "2026-09-08T00:49:56.201539+00:00",
-    "start_tw": "Sep 08, 07:49",
-    "end_tw": "Sep 08, 08:49"
+    "start_utc": "2026-09-08T00:00:18.994064+00:00",
+    "end_utc": "2026-09-08T01:00:18.994064+00:00",
+    "start_tw": "Sep 08, 08:00",
+    "end_tw": "Sep 08, 09:00"
   }
 }

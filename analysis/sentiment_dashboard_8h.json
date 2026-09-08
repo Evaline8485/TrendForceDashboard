@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-09-08T08:34:43+08:00",
+  "generated_at": "2026-09-08T00:49:56.201539+00:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-09-08T00:34:43+08:00",
-    "end_utc": "2026-09-08T08:34:43+08:00",
-    "start_tw": "Sep 08, 00:34",
-    "end_tw": "Sep 08, 08:34"
+    "start_utc": "2026-09-07T16:49:56.201539+00:00",
+    "end_utc": "2026-09-08T00:49:56.201539+00:00",
+    "start_tw": "Sep 08, 00:49",
+    "end_tw": "Sep 08, 08:49"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 28,
+      "total_posts": 29,
       "sentiment_counts": {
-        "positive": 13,
+        "positive": 14,
         "neutral": 9,
         "negative": 6
       },
       "sentiment_share": {
-        "positive": 0.464,
-        "neutral": 0.321,
-        "negative": 0.214
+        "positive": 0.483,
+        "neutral": 0.31,
+        "negative": 0.207
       },
       "top_terms": [
+        "大幅",
         "最新",
         "latest",
         "intel",
@@ -30,15 +31,14 @@
         "openai",
         "gemini",
         "模型",
-        "llm",
-        "收大"
+        "dram"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "intel / cpu / raise / prices",
-        "heat": 84.9,
+        "topic_id": 4,
+        "label": "intel / cpu / core / digitimes",
+        "heat": 90.0,
         "volume": 3,
         "engagement": 221,
         "entities": [
@@ -50,17 +50,8 @@
       },
       {
         "topic_id": 3,
-        "label": "llm",
-        "heat": 50.0,
-        "volume": 2,
-        "engagement": 475,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
         "label": "auto / byd / semi / designed",
-        "heat": 50.0,
+        "heat": 51.6,
         "volume": 3,
         "engagement": 24,
         "entities": [],
@@ -69,18 +60,29 @@
       {
         "topic_id": 1,
         "label": "germany",
-        "heat": 10.0,
+        "heat": 25.3,
         "volume": 2,
         "engagement": 159,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，18 篇）",
+        "topic_id": 2,
+        "label": "dram / llm",
         "heat": 10.0,
-        "volume": 18,
-        "engagement": 1906,
+        "volume": 2,
+        "engagement": 20,
+        "entities": [
+          "台廠"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，19 篇）",
+        "heat": 10.0,
+        "volume": 19,
+        "engagement": 2381,
         "entities": [],
         "is_catchall": true
       }
@@ -97,12 +99,16 @@
       {
         "entity": "陳立武",
         "count": 1
+      },
+      {
+        "entity": "台廠",
+        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-08T00:34:43.000002+08:00",
-        "bucket_end": "2026-09-08T01:09:00.142859+08:00",
+        "bucket_start": "2026-09-07T16:49:56.201541+00:00",
+        "bucket_end": "2026-09-07T17:24:13.344398+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -112,13 +118,7 @@
         "net_sentiment": 100.0,
         "post_count": 1,
         "engagement": 475,
-        "top_topics": [
-          {
-            "topic_id": 3,
-            "label": "llm",
-            "count": 1
-          }
-        ],
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "SemiAnalysis_",
@@ -128,21 +128,21 @@
             "interaction": 475
           }
         ],
-        "net_sentiment_smoothed": 33.3,
+        "net_sentiment_smoothed": 55.6,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T01:09:00.142859+08:00",
-        "bucket_end": "2026-09-08T01:43:17.285716+08:00",
+        "bucket_start": "2026-09-07T17:24:13.344398+00:00",
+        "bucket_end": "2026-09-07T17:58:30.487255+00:00",
         "positive": 0,
         "neutral": 2,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 87,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 87,
+        "negative_engagement": 14,
+        "net_sentiment": -33.3,
+        "post_count": 3,
+        "engagement": 101,
         "top_topics": [
           {
             "topic_id": 1,
@@ -166,21 +166,21 @@
             "interaction": 22
           }
         ],
-        "net_sentiment_smoothed": 25.0,
+        "net_sentiment_smoothed": 66.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T01:43:17.285716+08:00",
-        "bucket_end": "2026-09-08T02:17:34.428573+08:00",
+        "bucket_start": "2026-09-07T17:58:30.487255+00:00",
+        "bucket_end": "2026-09-07T18:32:47.630112+00:00",
         "positive": 1,
         "neutral": 0,
-        "negative": 1,
+        "negative": 0,
         "positive_engagement": 46,
         "neutral_engagement": 0,
-        "negative_engagement": 14,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 60,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 46,
         "top_topics": [],
         "top_posts": [
           {
@@ -189,38 +189,14 @@
             "text": "A number of big US university endowments are on track to match or outpace the broad stock market, as large weightings in tech groups such as SpaceX and OpenAI help them snap several years of underperf",
             "url": "https://x.com/FT/status/2097022107355955270",
             "interaction": 46
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "What to do about the UK’s mental health crisis  https:// ft.trib.al/jlGs3Sb  | opinion",
-            "url": "https://x.com/FT/status/2097019380248842673",
-            "interaction": 14
           }
         ],
-        "net_sentiment_smoothed": 40.0,
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T02:17:34.428573+08:00",
-        "bucket_end": "2026-09-08T02:51:51.571430+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-08T02:51:51.571430+08:00",
-        "bucket_end": "2026-09-08T03:26:08.714287+08:00",
+        "bucket_start": "2026-09-07T18:32:47.630112+00:00",
+        "bucket_end": "2026-09-07T19:07:04.772969+00:00",
         "positive": 2,
         "neutral": 0,
         "negative": 0,
@@ -253,12 +229,12 @@
             "interaction": 94
           }
         ],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T03:26:08.714287+08:00",
-        "bucket_end": "2026-09-08T04:00:25.857144+08:00",
+        "bucket_start": "2026-09-07T19:07:04.772969+00:00",
+        "bucket_end": "2026-09-07T19:41:21.915826+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -278,21 +254,21 @@
             "interaction": 408
           }
         ],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T04:00:25.857144+08:00",
-        "bucket_end": "2026-09-08T04:34:43.000001+08:00",
+        "bucket_start": "2026-09-07T19:41:21.915826+00:00",
+        "bucket_end": "2026-09-07T20:15:39.058683+00:00",
         "positive": 1,
         "neutral": 0,
-        "negative": 1,
+        "negative": 0,
         "positive_engagement": 245,
         "neutral_engagement": 0,
-        "negative_engagement": 58,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 303,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 245,
         "top_topics": [],
         "top_posts": [
           {
@@ -301,7 +277,25 @@
             "text": "TPU Inference Externalization Full Steam Ahead - InferenceX,  Up to 50% Better Performance per Dollar, Rapid Externalization of TPU stack, Growing Customer Base, Ironwood, TPUv8i, Reducing CUDA Moat",
             "url": "https://x.com/SemiAnalysis_/status/2097054644258103448",
             "interaction": 245
-          },
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-07T20:15:39.058683+00:00",
+        "bucket_end": "2026-09-07T20:49:56.201540+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 58,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 58,
+        "top_topics": [],
+        "top_posts": [
           {
             "handle": "HyperTechInvest",
             "platform": "X",
@@ -314,8 +308,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T04:34:43.000001+08:00",
-        "bucket_end": "2026-09-08T05:09:00.142858+08:00",
+        "bucket_start": "2026-09-07T20:49:56.201540+00:00",
+        "bucket_end": "2026-09-07T21:24:13.344397+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -331,25 +325,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T05:09:00.142858+08:00",
-        "bucket_end": "2026-09-08T05:43:17.285715+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-08T05:43:17.285715+08:00",
-        "bucket_end": "2026-09-08T06:17:34.428572+08:00",
+        "bucket_start": "2026-09-07T21:24:13.344397+00:00",
+        "bucket_end": "2026-09-07T21:58:30.487254+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -369,12 +346,12 @@
             "interaction": 408
           }
         ],
-        "net_sentiment_smoothed": 6.7,
+        "net_sentiment_smoothed": -13.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T06:17:34.428572+08:00",
-        "bucket_end": "2026-09-08T06:51:51.571429+08:00",
+        "bucket_start": "2026-09-07T21:58:30.487254+00:00",
+        "bucket_end": "2026-09-07T22:32:47.630111+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -398,8 +375,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T06:51:51.571429+08:00",
-        "bucket_end": "2026-09-08T07:26:08.714286+08:00",
+        "bucket_start": "2026-09-07T22:32:47.630111+00:00",
+        "bucket_end": "2026-09-07T23:07:04.772968+00:00",
         "positive": 2,
         "neutral": 0,
         "negative": 1,
@@ -411,12 +388,12 @@
         "engagement": 255,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "intel / cpu / raise / prices",
+            "topic_id": 4,
+            "label": "intel / cpu / core / digitimes",
             "count": 1
           },
           {
-            "topic_id": 4,
+            "topic_id": 3,
             "label": "auto / byd / semi / designed",
             "count": 1
           }
@@ -437,73 +414,67 @@
             "interaction": 60
           }
         ],
-        "net_sentiment_smoothed": 19.2,
+        "net_sentiment_smoothed": 22.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T07:26:08.714286+08:00",
-        "bucket_end": "2026-09-08T08:00:25.857143+08:00",
-        "positive": 2,
-        "neutral": 2,
+        "bucket_start": "2026-09-07T23:07:04.772968+00:00",
+        "bucket_end": "2026-09-07T23:41:21.915825+00:00",
+        "positive": 1,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 43,
-        "neutral_engagement": 101,
+        "positive_engagement": 37,
+        "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 50.0,
-        "post_count": 4,
-        "engagement": 144,
-        "top_topics": [
-          {
-            "topic_id": 4,
-            "label": "auto / byd / semi / designed",
-            "count": 1
-          }
-        ],
+        "post_count": 2,
+        "engagement": 37,
+        "top_topics": [],
         "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "Rumor: CXMT and YMTC have completed Apple’s product qualification process.  However, large-scale adoption still hinges on the U.S. administration.",
-            "url": "https://x.com/jukan05/status/2097111391056577001",
-            "interaction": 101
-          },
           {
             "handle": "tphuang",
             "platform": "X",
             "text": "China seems to find this stepped tapering of unmanned aircraft a good compromise bw range/weight & rear aspect stealth.  As a twin-engine aircraft, this is likely the upper limit of how large WZ-X can",
             "url": "https://x.com/tphuang/status/2097107013897777524",
             "interaction": 37
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "MIT 與 Motional 破解自駕車「黑箱」決策！最新 CW-Net（概念包裝網路）技術能將 AI 規劃器的內部推論，即時翻譯成人類看得懂的駕駛概念。 #MIT #Motional #CWNet #自駕車 #可解釋AI #Nature",
+            "url": "https://x.com/technews_tw/status/2097105494041296944",
+            "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": -1.1,
+        "net_sentiment_smoothed": 7.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-08T08:00:25.857143+08:00",
-        "bucket_end": "2026-09-08T08:34:43+08:00",
-        "positive": 2,
-        "neutral": 5,
+        "bucket_start": "2026-09-07T23:41:21.915825+00:00",
+        "bucket_end": "2026-09-08T00:15:39.058682+00:00",
+        "positive": 3,
+        "neutral": 3,
         "negative": 1,
-        "positive_engagement": 178,
-        "neutral_engagement": 57,
+        "positive_engagement": 184,
+        "neutral_engagement": 126,
         "negative_engagement": 35,
-        "net_sentiment": 12.5,
-        "post_count": 8,
-        "engagement": 270,
+        "net_sentiment": 28.6,
+        "post_count": 7,
+        "engagement": 345,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "intel / cpu / raise / prices",
+            "topic_id": 3,
+            "label": "auto / byd / semi / designed",
             "count": 2
           },
           {
-            "topic_id": 3,
-            "label": "llm",
+            "topic_id": 2,
+            "label": "dram / llm",
             "count": 1
           },
           {
             "topic_id": 4,
-            "label": "auto / byd / semi / designed",
+            "label": "intel / cpu / core / digitimes",
             "count": 1
           }
         ],
@@ -516,26 +487,60 @@
             "interaction": 175
           },
           {
-            "handle": "dnystedt",
+            "handle": "jukan05",
             "platform": "X",
-            "text": "Intel plans to raise CPU prices another 10% in early October, the latest of several price increases since late 2025 due to strong demand and rising costs, DigiTimes reports, adding the New Intel also ",
-            "url": "https://x.com/dnystedt/status/2097115815430779278",
-            "interaction": 35
+            "text": "Rumor: CXMT and YMTC have completed Apple’s product qualification process.  However, large-scale adoption still hinges on the U.S. administration.",
+            "url": "https://x.com/jukan05/status/2097111391056577001",
+            "interaction": 101
           }
         ],
-        "net_sentiment_smoothed": 31.9,
+        "net_sentiment_smoothed": 34.2,
         "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-09-08T00:15:39.058682+00:00",
+        "bucket_end": "2026-09-08T00:49:56.201539+00:00",
+        "positive": 1,
+        "neutral": 3,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 32,
+        "negative_engagement": 0,
+        "net_sentiment": 25.0,
+        "post_count": 4,
+        "engagement": 32,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "intel / cpu / core / digitimes",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Good morning, Asia. While you were sleeping, our most-read article was about the latest exit from the UK by a high-profile financier amid fears over tax rises under the Labour government.  https:// ft",
+            "url": "https://x.com/FT/status/2097118522023235654",
+            "interaction": 16
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "早安！9/8 外電綜合整理  - 2455全新：美系升目標 美系券商最新house view 上修2026–28E 全球光收發模組出貨量。分別上調 21%／31%／31%，將 800G+ 出貨量預估分別上調 31%／39%／36%，並將 1.6T+ 出貨量預估分別上調 29%／61%／50%。  全新8月營收大幅優於美系預期，反映 AI",
+            "url": "https://x.com/QQ_Timmy/status/2097118838412484879",
+            "interaction": 10
+          }
+        ],
+        "net_sentiment_smoothed": 34.5,
+        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
-        "label": "intel / cpu / raise / prices",
+        "topic_id": 4,
+        "label": "intel / cpu / core / digitimes",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -585,13 +590,17 @@
             "volume": 0
           },
           {
-            "net_sentiment": -50.0,
-            "volume": 2
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
           }
         ]
       },
       {
-        "topic_id": 4,
+        "topic_id": 3,
         "label": "auto / byd / semi / designed",
         "cells": [
           {
@@ -635,32 +644,28 @@
             "volume": 0
           },
           {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
             "net_sentiment": 100.0,
-            "volume": 1
+            "volume": 2
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 3,
-        "label": "llm",
+        "topic_id": 2,
+        "label": "dram / llm",
         "cells": [
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           },
@@ -711,6 +716,10 @@
           {
             "net_sentiment": 0.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
@@ -731,12 +740,12 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": 100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -780,8 +789,8 @@
     "coverage_focus_ranking": [
       {
         "handle": "technews_tw",
-        "top_topic_id": 3,
-        "top_topic_label": "llm",
+        "top_topic_id": 2,
+        "top_topic_label": "dram / llm",
         "focus_share": 1.0,
         "post_count": 3,
         "unclustered_posts": 2
@@ -789,38 +798,38 @@
       {
         "handle": "dylan522p",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，18 篇）",
+        "top_topic_label": "其他（未分群，19 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
       },
       {
         "handle": "SemiAnalysis_",
-        "top_topic_id": 3,
-        "top_topic_label": "llm",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，19 篇）",
         "focus_share": 1.0,
         "post_count": 4,
-        "unclustered_posts": 3
+        "unclustered_posts": 4
       },
       {
         "handle": "jukan05",
-        "top_topic_id": 2,
-        "top_topic_label": "intel / cpu / raise / prices",
+        "top_topic_id": 4,
+        "top_topic_label": "intel / cpu / core / digitimes",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 1
       },
       {
         "handle": "QQ_Timmy",
-        "top_topic_id": 2,
-        "top_topic_label": "intel / cpu / raise / prices",
+        "top_topic_id": 4,
+        "top_topic_label": "intel / cpu / core / digitimes",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 1
       },
       {
         "handle": "tphuang",
-        "top_topic_id": 4,
+        "top_topic_id": 3,
         "top_topic_label": "auto / byd / semi / designed",
         "focus_share": 1.0,
         "post_count": 5,
@@ -837,15 +846,23 @@
       {
         "handle": "HyperTechInvest",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，18 篇）",
+        "top_topic_label": "其他（未分群，19 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
       },
       {
-        "handle": "dnystedt",
+        "handle": "TrendForce.tw",
         "top_topic_id": 2,
-        "top_topic_label": "intel / cpu / raise / prices",
+        "top_topic_label": "dram / llm",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 4,
+        "top_topic_label": "intel / cpu / core / digitimes",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
@@ -853,17 +870,8 @@
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 3,
-        "label": "llm",
-        "total_engagement": 475,
-        "post_count": 2,
-        "top_account": "SemiAnalysis_",
-        "top_account_engagement": 475,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 2,
-        "label": "intel / cpu / raise / prices",
+        "topic_id": 4,
+        "label": "intel / cpu / core / digitimes",
         "total_engagement": 221,
         "post_count": 3,
         "top_account": "jukan05",
@@ -880,7 +888,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 4,
+        "topic_id": 3,
         "label": "auto / byd / semi / designed",
         "total_engagement": 24,
         "post_count": 3,
@@ -889,22 +897,31 @@
         "is_catchall": false
       },
       {
+        "topic_id": 2,
+        "label": "dram / llm",
+        "total_engagement": 20,
+        "post_count": 2,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 20,
+        "is_catchall": false
+      },
+      {
         "topic_id": 0,
-        "label": "其他（未分群，18 篇）",
-        "total_engagement": 1906,
-        "post_count": 18,
-        "top_account": "FT",
-        "top_account_engagement": 787,
+        "label": "其他（未分群，19 篇）",
+        "total_engagement": 2381,
+        "post_count": 19,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 920,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 17,
-          "likes": 624,
-          "engagement": 784,
-          "avg_engagement": 46.1
+          "post_count": 18,
+          "likes": 644,
+          "engagement": 804,
+          "avg_engagement": 44.7
         },
         "afternoon": {
           "post_count": 0,
