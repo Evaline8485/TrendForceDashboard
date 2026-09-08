@@ -1,14 +1,70 @@
 {
   "clusters": [
     {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 1,
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 3,
       "accounts": {
-        "TrendForce": 1
+        "jukan05": 1,
+        "QQ_Timmy": 1,
+        "dnystedt": 1
       },
       "engagement_by_account": {
-        "TrendForce": 4
+        "jukan05": 180,
+        "QQ_Timmy": 6,
+        "dnystedt": 35
+      }
+    },
+    {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 2,
+      "accounts": {
+        "technews_tw": 1,
+        "jukan05": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 0,
+        "jukan05": 101
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 2,
+      "accounts": {
+        "dylan522p": 1,
+        "SemiAnalysis_": 1
+      },
+      "engagement_by_account": {
+        "dylan522p": 408,
+        "SemiAnalysis_": 25
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 2,
+      "accounts": {
+        "technews_tw": 1,
+        "SemiAnalysis_": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 0,
+        "SemiAnalysis_": 175
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 2,
+      "accounts": {
+        "technews_tw": 1,
+        "jukan05": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 0,
+        "jukan05": 101
       }
     },
     {
@@ -16,30 +72,130 @@
       "label": "GPU / AI 加速器",
       "size": 1,
       "accounts": {
-        "SemiAnalysis_": 1
+        "tphuang": 1
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 242
+        "tphuang": 60
       }
     },
     {
-      "id": "K",
-      "label": "AI 模型 / 應用",
+      "id": "G",
+      "label": "IC 設計",
       "size": 1,
       "accounts": {
-        "FT": 1
+        "jukan05": 1
       },
       "engagement_by_account": {
-        "FT": 29
+        "jukan05": 180
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 10
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 1,
+      "accounts": {
+        "tphuang": 1
+      },
+      "engagement_by_account": {
+        "tphuang": 6
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 221,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy",
+        "dnystedt"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "DIGITIMES' latest report on Intel:  Intel will raise prices on PC CPUs by another 10% in October.  At the same time, the Small Core product line, which carries lower gross margins, may be headed toward EOL (End of Life).  This would open an opportunity for Qualcomm and MediaTek",
+          "url": "https://x.com/jukan05/status/2097098974209675740",
+          "timestamp": "2026-09-08T07:05:32.000+08:00",
+          "interaction": 180
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Intel plans to raise CPU prices another 10% in early October, the latest of several price increases since late 2025 due to strong demand and rising costs, DigiTimes reports, adding the New Intel also plans to kill off low-margin “small core” CPU products as its shrinks its",
+          "url": "https://x.com/dnystedt/status/2097115815430779278",
+          "timestamp": "2026-09-08T08:12:27.000+08:00",
+          "interaction": 35
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "英特爾( Intel )傳2026年10月5日左右再調漲PC CPU約10%，延續2025年底以來多次漲價。低毛利Small Core產品線可能EOL，策略改為拉高毛利率，不再殺價搶市佔。執行長陳立武同步精簡組織，管理層從12層降至6層，員工約7.5萬人。",
+          "url": "https://x.com/QQ_Timmy/status/2097117613243695486",
+          "timestamp": "2026-09-08T08:19:36.000+08:00",
+          "interaction": 6
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 221,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy",
+        "dnystedt"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "DIGITIMES' latest report on Intel:  Intel will raise prices on PC CPUs by another 10% in October.  At the same time, the Small Core product line, which carries lower gross margins, may be headed toward EOL (End of Life).  This would open an opportunity for Qualcomm and MediaTek",
+          "url": "https://x.com/jukan05/status/2097098974209675740",
+          "timestamp": "2026-09-08T07:05:32.000+08:00",
+          "interaction": 180
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Intel plans to raise CPU prices another 10% in early October, the latest of several price increases since late 2025 due to strong demand and rising costs, DigiTimes reports, adding the New Intel also plans to kill off low-margin “small core” CPU products as its shrinks its",
+          "url": "https://x.com/dnystedt/status/2097115815430779278",
+          "timestamp": "2026-09-08T08:12:27.000+08:00",
+          "interaction": 35
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "英特爾( Intel )傳2026年10月5日左右再調漲PC CPU約10%，延續2025年底以來多次漲價。低毛利Small Core產品線可能EOL，策略改為拉高毛利率，不再殺價搶市佔。執行長陳立武同步精簡組織，管理層從12層降至6層，員工約7.5萬人。",
+          "url": "https://x.com/QQ_Timmy/status/2097117613243695486",
+          "timestamp": "2026-09-08T08:19:36.000+08:00",
+          "interaction": 6
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-09-07T23:30:11+08:00",
-    "end_utc": "2026-09-08T03:30:11+08:00",
-    "start_tw": "Sep 07, 23:30",
-    "end_tw": "Sep 08, 03:30"
+    "start_utc": "2026-09-08T04:34:43+08:00",
+    "end_utc": "2026-09-08T08:34:43+08:00",
+    "start_tw": "Sep 08, 04:34",
+    "end_tw": "Sep 08, 08:34"
   }
 }
