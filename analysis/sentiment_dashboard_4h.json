@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-09T23:10:22.166763+00:00",
+  "generated_at": "2026-09-10T01:39:02.841560+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-09-09T19:10:22.166763+00:00",
-    "end_utc": "2026-09-09T23:10:22.166763+00:00",
-    "start_tw": "Sep 10, 03:10",
-    "end_tw": "Sep 10, 07:10"
+    "start_utc": "2026-09-09T21:39:02.841560+00:00",
+    "end_utc": "2026-09-10T01:39:02.841560+00:00",
+    "start_tw": "Sep 10, 05:39",
+    "end_tw": "Sep 10, 09:39"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 42,
+      "total_posts": 137,
       "sentiment_counts": {
-        "positive": 18,
-        "neutral": 14,
-        "negative": 10
+        "neutral": 35,
+        "negative": 36,
+        "positive": 66
       },
       "sentiment_share": {
-        "positive": 0.429,
-        "neutral": 0.333,
-        "negative": 0.238
+        "neutral": 0.255,
+        "negative": 0.263,
+        "positive": 0.482
       },
       "top_terms": [
         "查看",
@@ -27,20 +27,38 @@
         "更多",
         "查看更",
         "看更多",
-        "成長",
-        "蘋果",
-        "登場",
-        "iphone",
-        "首度"
+        "memory",
+        "samsung",
+        "demand",
+        "nvidia",
+        "dram"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "iphone / duo / 蘋果",
-        "heat": 90.0,
+        "topic_id": 5,
+        "label": "nvidia / rubin / capacity / infrastructure",
+        "heat": 76.5,
+        "volume": 6,
+        "engagement": 204,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "蘋果 / 秋季新品一次看 / 摺疊機來了",
+        "heat": 70.0,
         "volume": 3,
-        "engagement": 147,
+        "engagement": 617,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "iphone / duo / 蘋果 / gb",
+        "heat": 61.5,
+        "volume": 4,
+        "engagement": 397,
         "entities": [
           "終於",
           "台灣"
@@ -48,9 +66,97 @@
         "is_catchall": false
       },
       {
-        "topic_id": 4,
+        "topic_id": 14,
+        "label": "uber也首次進入歐元債市 / ai發債潮擠爆美國市場 / 亞馬遜準備首次發行英鎊債券 / 家美國企業赴歐洲籌資",
+        "heat": 39.2,
+        "volume": 2,
+        "engagement": 534,
+        "entities": [
+          "美國",
+          "歐洲",
+          "歐元"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "hbm / 長鑫存儲 / 晶片無法通過檢測 / 遭遇瓶頸",
+        "heat": 35.8,
+        "volume": 5,
+        "engagement": 26,
+        "entities": [
+          "高達"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "openai / anthropic / samsung / gen",
+        "heat": 13.7,
+        "volume": 3,
+        "engagement": 35,
+        "entities": [
+          "智慧"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "tech / meta / models / google",
+        "heat": 13.3,
+        "volume": 3,
+        "engagement": 30,
+        "entities": [
+          "財務長"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "台積電 / iphone / 市占率穩居龍頭 / 新機備貨",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 20,
+        "entities": [
+          "台積電",
+          "貢獻營"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "mass / presents / nm",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 18,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "ipo",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 42,
+        "entities": [
+          "宇樹",
+          "上市"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 19,
+        "label": "tsmc / nm / fab / nvidia",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 26,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 26,
         "label": "群聯",
-        "heat": 74.5,
+        "heat": 10.0,
         "volume": 2,
         "engagement": 121,
         "entities": [
@@ -59,76 +165,162 @@
         "is_catchall": false
       },
       {
-        "topic_id": 3,
-        "label": "openai",
-        "heat": 32.1,
-        "volume": 2,
-        "engagement": 50,
-        "entities": [
-          "智慧",
-          "財務長"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "蘋果",
-        "heat": 10.6,
-        "volume": 2,
-        "engagement": 14,
+        "topic_id": 18,
+        "label": "nand / spot / prices / tlc",
+        "heat": 10.0,
+        "volume": 3,
+        "engagement": 0,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "晶片與 / 奈米 / iphone",
+        "topic_id": 11,
+        "label": "ddr / spot / branded / gx",
         "heat": 10.0,
-        "volume": 1,
-        "engagement": 13,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 6,
-        "label": "奈米",
-        "heat": 10.0,
-        "volume": 1,
-        "engagement": 14,
+        "volume": 2,
+        "engagement": 0,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 7,
-        "label": "晶片與",
+        "label": "euv / na / samsung / tsmc",
         "heat": 10.0,
-        "volume": 1,
-        "engagement": 27,
+        "volume": 3,
+        "engagement": 0,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，30 篇）",
+        "topic_id": 20,
+        "label": "cxmt / lpddr / talent / yoy",
         "heat": 10.0,
-        "volume": 30,
-        "engagement": 5352,
+        "volume": 4,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 16,
+        "label": "revenue / foundry / qoq / dram",
+        "heat": 10.0,
+        "volume": 4,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "maker / micron / krw / display",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 21,
+        "label": "fab / taylor / tesla / broadcom",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "mediatek / nvidia / computing / partnership",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 24,
+        "label": "smartphone / units / reached / decline",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 23,
+        "label": "photonics / silicon / testing / samsung",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 25,
+        "label": "starksemi / micro / gan / catl",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "duv / huawei / smic / underway",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "huawei / kirin / logicfolding / xiaomi",
+        "heat": 10.0,
+        "volume": 4,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
+        "label": "soi / micro / ymtc / chipmaking",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "其他（未分群，65 篇）",
+        "heat": 10.0,
+        "volume": 65,
+        "engagement": 6620,
         "entities": [
+          "台灣",
           "美國",
           "川普",
-          "台灣",
-          "歐洲",
-          "泰國"
+          "伺服器",
+          "亞洲"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
       {
+        "entity": "美國",
+        "count": 8
+      },
+      {
         "entity": "台灣",
+        "count": 7
+      },
+      {
+        "entity": "台積電",
         "count": 5
       },
       {
-        "entity": "美國",
+        "entity": "歐洲",
         "count": 5
       },
       {
@@ -136,16 +328,36 @@
         "count": 4
       },
       {
+        "entity": "伺服器",
+        "count": 3
+      },
+      {
         "entity": "群聯",
         "count": 3
       },
       {
-        "entity": "歐洲",
+        "entity": "亞洲",
         "count": 3
       },
       {
         "entity": "泰國",
         "count": 3
+      },
+      {
+        "entity": "貢獻營",
+        "count": 2
+      },
+      {
+        "entity": "高達",
+        "count": 2
+      },
+      {
+        "entity": "緯創",
+        "count": 2
+      },
+      {
+        "entity": "終於",
+        "count": 2
       },
       {
         "entity": "上市",
@@ -154,225 +366,36 @@
       {
         "entity": "中科",
         "count": 2
-      },
-      {
-        "entity": "日本",
-        "count": 2
-      },
-      {
-        "entity": "印度",
-        "count": 2
-      },
-      {
-        "entity": "中國",
-        "count": 2
-      },
-      {
-        "entity": "亞洲",
-        "count": 2
-      },
-      {
-        "entity": "加拿大",
-        "count": 2
-      },
-      {
-        "entity": "波蘭",
-        "count": 2
-      },
-      {
-        "entity": "終於",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-09T19:10:22.166757+00:00",
-        "bucket_end": "2026-09-09T19:27:30.738186+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-09T19:27:30.738186+00:00",
-        "bucket_end": "2026-09-09T19:44:39.309615+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-09T19:44:39.309615+00:00",
-        "bucket_end": "2026-09-09T20:01:47.881044+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-09T20:01:47.881044+00:00",
-        "bucket_end": "2026-09-09T20:18:56.452473+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-09T20:18:56.452473+00:00",
-        "bucket_end": "2026-09-09T20:36:05.023902+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-09T20:36:05.023902+00:00",
-        "bucket_end": "2026-09-09T20:53:13.595331+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-09T20:53:13.595331+00:00",
-        "bucket_end": "2026-09-09T21:10:22.166760+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-09T21:10:22.166760+00:00",
-        "bucket_end": "2026-09-09T21:27:30.738189+00:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 20,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 20,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "TrendForce.tw",
-            "platform": "Facebook",
-            "text": "AI HPC 需求推升全球前十大晶圓代工廠第二季產值季增 11.5%，逼近 535 億美元再創新高。當 AI 需求由先進製程外溢至成熟製程，晶圓代工的成長動能將如何重新分配？TrendForce 分析 2026 第二季晶圓代工營收排名：\nhttps://buff.ly/i97V226",
-            "url": "https://www.facebook.com/TrendForce.tw/posts/pfbid0ukbDv4uTsWTzR1t8MteGtqnzGbESeQkvsdqsMPwFavxLHj8bhxRdgmDVT51F4nJjl?__cft__[0]=AZg_LP44Qp41OuG9ife9wGoSjwT9xvZoZce4JbAXg2J7FDJJdXJH1Zg7DclrG6DR0KgJHAeGKG3t3hct5PWzSfKDlfODe5v2kMEd33RNzJIBGaY29KDyhxvE7ax-_WMKdlbWLNqF2kxP_1Iw9MqczTy19VA4QVQT4xlGPRJhMIBD73AxB92u7ikJLEs",
-            "interaction": 20
-          }
-        ],
-        "net_sentiment_smoothed": 19.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-09T21:27:30.738189+00:00",
-        "bucket_end": "2026-09-09T21:44:39.309618+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 19.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-09T21:44:39.309618+00:00",
-        "bucket_end": "2026-09-09T22:01:47.881047+00:00",
-        "positive": 5,
+        "bucket_start": "2026-09-09T21:39:02.841554+00:00",
+        "bucket_end": "2026-09-09T21:56:11.412983+00:00",
+        "positive": 6,
         "neutral": 9,
-        "negative": 6,
-        "positive_engagement": 109,
+        "negative": 7,
+        "positive_engagement": 134,
         "neutral_engagement": 330,
-        "negative_engagement": 234,
-        "net_sentiment": -5.0,
-        "post_count": 20,
-        "engagement": 673,
+        "negative_engagement": 278,
+        "net_sentiment": -4.5,
+        "post_count": 22,
+        "engagement": 742,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "iphone / duo / 蘋果",
+            "topic_id": 6,
+            "label": "iphone / duo / 蘋果 / gb",
             "count": 3
           },
           {
-            "topic_id": 1,
-            "label": "蘋果",
+            "topic_id": 9,
+            "label": "蘋果 / 秋季新品一次看 / 摺疊機來了",
             "count": 2
           },
           {
             "topic_id": 3,
-            "label": "openai",
-            "count": 2
+            "label": "openai / anthropic / samsung / gen",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -391,12 +414,12 @@
             "interaction": 114
           }
         ],
-        "net_sentiment_smoothed": 30.7,
-        "is_anomaly": true
+        "net_sentiment_smoothed": 17.9,
+        "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-09T22:01:47.881047+00:00",
-        "bucket_end": "2026-09-09T22:18:56.452476+00:00",
+        "bucket_start": "2026-09-09T21:56:11.412983+00:00",
+        "bucket_end": "2026-09-09T22:13:19.984412+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -408,12 +431,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 10.7,
+        "net_sentiment_smoothed": -11.6,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-09T22:18:56.452476+00:00",
-        "bucket_end": "2026-09-09T22:36:05.023905+00:00",
+        "bucket_start": "2026-09-09T22:13:19.984412+00:00",
+        "bucket_end": "2026-09-09T22:30:28.555841+00:00",
         "positive": 8,
         "neutral": 3,
         "negative": 1,
@@ -425,7 +448,7 @@
         "engagement": 458,
         "top_topics": [
           {
-            "topic_id": 4,
+            "topic_id": 26,
             "label": "群聯",
             "count": 1
           }
@@ -446,12 +469,137 @@
             "interaction": 63
           }
         ],
-        "net_sentiment_smoothed": 10.7,
+        "net_sentiment_smoothed": -29.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-09T22:36:05.023905+00:00",
-        "bucket_end": "2026-09-09T22:53:13.595334+00:00",
+        "bucket_start": "2026-09-09T22:30:28.555841+00:00",
+        "bucket_end": "2026-09-09T22:47:37.127270+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 55,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 55,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Hunter Biden’s laptop generated years of political fodder, but his memecoin crashed in a flash, losing 98% of its value within minutes of its launch.  https:// ft.trib.al/KewnpLO",
+            "url": "https://x.com/FT/status/2097815349936771147",
+            "interaction": 55
+          }
+        ],
+        "net_sentiment_smoothed": -28.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-09T22:47:37.127270+00:00",
+        "bucket_end": "2026-09-09T23:04:45.698699+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 250,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 250,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "iphone / duo / 蘋果 / gb",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "First impressions of the iPhone Duo: Why is it so ugly?",
+            "url": "https://x.com/jukan05/status/2097822355141857590",
+            "interaction": 250
+          }
+        ],
+        "net_sentiment_smoothed": -8.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-09T23:04:45.698699+00:00",
+        "bucket_end": "2026-09-09T23:21:54.270128+00:00",
+        "positive": 4,
+        "neutral": 2,
+        "negative": 4,
+        "positive_engagement": 1153,
+        "neutral_engagement": 2429,
+        "negative_engagement": 1078,
+        "net_sentiment": 0.0,
+        "post_count": 10,
+        "engagement": 4660,
+        "top_topics": [
+          {
+            "topic_id": 14,
+            "label": "uber也首次進入歐元債市 / ai發債潮擠爆美國市場 / 亞馬遜準備首次發行英鎊債券 / 家美國企業赴歐洲籌資",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "yutinghaosfinance",
+            "platform": "Facebook",
+            "text": "根據國發會人口推估，台灣人口50年腰斬，到時每兩人就有一位老人。目前預估2045年，台灣人口就可能跌破2,000萬人，50年後更將從目前約2,360萬人，一路降到約1,175萬人。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid021YjrBsymPjUowHbVDvLgBiYrbiShfMuEQhtgucgrGuYceeU5dQw8vDMuYTRQ8oj7l?__cft__[0]=AZhYYJ6It1g6n6bITcxKSPMu0GRn1NaEd3GWVuUscr2-VmIKQ0mQXYrFUc9JbOGwzv1_r5XbDnrWleKPf1166n7_F_XrTzOWDJ5FH7JhGlqCySWCpqneQoTn72QQ7BeY2e5Lh9KEzeylaMizk6FWUoeP77E0TOseEZfzYS8HGsRDe2adE6bL0K0wB7g",
+            "interaction": 1245
+          },
+          {
+            "handle": "yutinghaosfinance",
+            "platform": "Facebook",
+            "text": "泰國陷入未富先老，國內陷入大通縮。多數經濟學家認為，泰國現在正成為亞洲最典型的1990年日本化國家，也就是長期低成長、低通膨、低利率。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02kBuokG4sQfn3DMCXSU2SyvsMxxFbPPGFaKBHTxTTZ4F7BTdiP8Naybm4vnH5EaYLl?__cft__[0]=AZjujl174qS85jNrAS2VOitdLhMmYOZRo6l3QIP9pbDoq5gje4EVzICSgZrOn9BnFD3l0c5AEcwIQO0Pl2w2bOQsDcFfVylEv5qJ_qM5j-f20CQXQ5eB6D9tjZyr8AJb4cc8tI-HrPgn_2dBd00JeZroPIyXzWdYl1jofWu5IEae8srW33VP6v-5bp4",
+            "interaction": 1184
+          }
+        ],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-09T23:21:54.270128+00:00",
+        "bucket_end": "2026-09-09T23:39:02.841557+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 13,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 13,
+        "top_topics": [
+          {
+            "topic_id": 22,
+            "label": "tech / meta / models / google",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "Alright, so American big tech farm this type of data collection to Indian companies & Chinese companies just force it on their own employees. Not too different from what Meta is doing TBF",
+            "url": "https://x.com/tphuang/status/2097831676529320194",
+            "interaction": 13
+          }
+        ],
+        "net_sentiment_smoothed": -10.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-09T23:39:02.841557+00:00",
+        "bucket_end": "2026-09-09T23:56:11.412986+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -463,31 +611,272 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 14.6,
+        "net_sentiment_smoothed": 15.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-09T22:53:13.595334+00:00",
-        "bucket_end": "2026-09-09T23:10:22.166763+00:00",
+        "bucket_start": "2026-09-09T23:56:11.412986+00:00",
+        "bucket_end": "2026-09-10T00:13:19.984415+00:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 0,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 2,
+        "negative_engagement": 0,
+        "net_sentiment": -50.0,
+        "post_count": 2,
+        "engagement": 2,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "hbm / 長鑫存儲 / 晶片無法通過檢測 / 遭遇瓶頸",
+            "count": 1
+          },
+          {
+            "topic_id": 22,
+            "label": "tech / meta / models / google",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tengyanAI",
+            "platform": "X",
+            "text": "been doing so many “bake-offs” a day with the different models, you’d think i’ve quit tech and opened a bakery",
+            "url": "https://x.com/tengyanAI/status/2097840634921169219",
+            "interaction": 2
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#長鑫存儲 衝刺高頻寬記憶體 HBM 遭遇瓶頸！其 8 層堆疊 HBM3 產線良率卡在 25% 至 30% 低點，每批次高達 80% 晶片無法通過檢測。",
+            "url": "https://x.com/technews_tw/status/2097838667213746645",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 5.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-10T00:13:19.984415+00:00",
+        "bucket_end": "2026-09-10T00:30:28.555844+00:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 118,
+        "neutral_engagement": 17,
+        "negative_engagement": 26,
+        "net_sentiment": 25.0,
+        "post_count": 4,
+        "engagement": 161,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "nvidia / rubin / capacity / infrastructure",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "nvidianewsroom",
+            "platform": "X",
+            "text": "NEWS: NVIDIA and Australia’s AI infrastructure ecosystem are expanding land, power and shell capacity to host AI factories, supporting the nation’s growing demand for AI compute.   Built on NVIDIA DSX",
+            "url": "https://x.com/nvidianewsroom/status/2097841460477403188",
+            "interaction": 107
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Real FeRAM work, and a strong Intel/Micron/Berkeley/Cornell team. The pitch is AI memory without EUV. I’ll believe it when the parts qualify. Too many “next memory” stories die on yield, volume, and i",
+            "url": "https://x.com/dnystedt/status/2097841302092288330",
+            "interaction": 26
+          }
+        ],
+        "net_sentiment_smoothed": -7.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-10T00:30:28.555844+00:00",
+        "bucket_end": "2026-09-10T00:47:37.127273+00:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 19.4,
+        "negative_engagement": 15,
+        "net_sentiment": -50.0,
+        "post_count": 2,
+        "engagement": 15,
+        "top_topics": [
+          {
+            "topic_id": 13,
+            "label": "台積電 / iphone / 市占率穩居龍頭 / 新機備貨",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "ByteDance alone is building 5-6 GW AIDC in Ulanqab. This increases AIDC capacity there by 40 to 50%  Cost 800-960B RMB, so 160B RMB per GW or $22B. BD is battling Ali & Tencent for consumer app & work",
+            "url": "https://x.com/tphuang/status/2097845934721826843",
+            "interaction": 15
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "2026 年第二季全球晶圓代工產值季增 11.5%，飆破 534.9 億美元再創新高！#台積電 以 72.5% 市占率穩居龍頭，受惠 AI 與 iPhone 新機備貨，2nm 首度貢獻營收。",
+            "url": "https://x.com/technews_tw/status/2097845540168016331",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 0.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-10T00:47:37.127273+00:00",
+        "bucket_end": "2026-09-10T01:04:45.698702+00:00",
+        "positive": 3,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 27,
+        "neutral_engagement": 78,
+        "negative_engagement": 12,
+        "net_sentiment": 40.0,
+        "post_count": 5,
+        "engagement": 117,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "nvidia / rubin / capacity / infrastructure",
+            "count": 3
+          },
+          {
+            "topic_id": 12,
+            "label": "ipo",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Taiwanese media reported that NVIDIA has been paying hefty premiums to lock up probe card and test socket capacity from test interface suppliers.",
+            "url": "https://x.com/jukan05/status/2097850670716223529",
+            "interaction": 78
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$NVDA  PARTNERS WITH  $IREN  ON AUSTRALIAN DATA CENTER BUILDOUT  NVIDIA is working with Australian infrastructure providers, including IREN, to support up to 2 GW of AI infrastructure capacity by 2027",
+            "url": "https://x.com/HyperTechInvest/status/2097851554154131922",
+            "interaction": 14
+          }
+        ],
+        "net_sentiment_smoothed": 8.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-10T01:04:45.698702+00:00",
+        "bucket_end": "2026-09-10T01:21:54.270131+00:00",
+        "positive": 38,
+        "neutral": 10,
+        "negative": 15,
+        "positive_engagement": 26,
+        "neutral_engagement": 13,
+        "negative_engagement": 5,
+        "net_sentiment": 36.5,
+        "post_count": 63,
+        "engagement": 44,
+        "top_topics": [
+          {
+            "topic_id": 20,
+            "label": "cxmt / lpddr / talent / yoy",
+            "count": 4
+          },
+          {
+            "topic_id": 16,
+            "label": "revenue / foundry / qoq / dram",
+            "count": 4
+          },
+          {
+            "topic_id": 10,
+            "label": "huawei / kirin / logicfolding / xiaomi",
+            "count": 4
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "TSMC may be in 1.4nm mass production by end-2027, a year earlier than planned, media report, adding the chip giant could begin commissioning equipment by April. Construction on its 1.4nm fab cluster n",
+            "url": "https://x.com/dnystedt/status/2097853828079182305",
+            "interaction": 26
+          },
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Mass production of 1.4nm by the end of 2027??",
+            "url": "https://x.com/jukan05/status/2097855233921892542",
+            "interaction": 13
+          }
+        ],
+        "net_sentiment_smoothed": 4.5,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-09-10T01:21:54.270131+00:00",
+        "bucket_end": "2026-09-10T01:39:02.841560+00:00",
+        "positive": 2,
+        "neutral": 7,
+        "negative": 3,
+        "positive_engagement": 11,
+        "neutral_engagement": 1568,
+        "negative_engagement": 100,
+        "net_sentiment": -8.3,
+        "post_count": 12,
+        "engagement": 1679,
+        "top_topics": [
+          {
+            "topic_id": 13,
+            "label": "台積電 / iphone / 市占率穩居龍頭 / 新機備貨",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "hbm / 長鑫存儲 / 晶片無法通過檢測 / 遭遇瓶頸",
+            "count": 1
+          },
+          {
+            "topic_id": 9,
+            "label": "蘋果 / 秋季新品一次看 / 摺疊機來了",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "你有想像過一支手機超過十萬是什麼樣子嗎？\n#首款摺疊iPhone終於亮相\n…… \n查看更多",
+            "url": "https://www.facebook.com/reel/2836929133349736/?__cft__[0]=AZgPYt3yl31vwgtmXV8jX-d1wp2x5LhqBU-11R6bWn6Q-3LMmShD5vIrtGQrjZzWr3tjGvUwmyDl9ENdlYK78qkKT4CSQaXV0GzQ7LG_gCEaMH9BjFMNk6vCMSjyFzP3TFe7KeLQVbx34wh9L2BCPYadDUXlA0-SKee1TYAzgAbmNbAHIp5knzaa7UAWWSclykQw7vw",
+            "interaction": 796
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "摺疊機來了！\n#蘋果2026秋季新品一次看\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid0fKw2FRt3ddDpeFihLcAd9LjB5z4VBAixYNXtXvDE6tf3p5PiWCxcUUWYSKmWFJ8pl?__cft__[0]=AZhf8lwjoK2lqPQD1ELbpkdt638xP45dPqRe6reeGucPB44bvLtjrj66b-zijrB4xf6IKd1N4zWtAFQqYJ0VqivJ3gwZL9jqHJFW1Vzm74Lm2sxdiYLDhrCv-2BSYw6oCRcXJzBqUuPxDHRdDzD4vh9i4NK4kdlymzBLEJNdwUUDZjGwXQGQC96YsMs",
+            "interaction": 603
+          }
+        ],
+        "net_sentiment_smoothed": 22.7,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
-        "label": "iphone / duo / 蘋果",
+        "topic_id": 5,
+        "label": "nvidia / rubin / capacity / infrastructure",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -526,20 +915,20 @@
             "volume": 0
           },
           {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
             "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 66.7,
             "volume": 3
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -549,74 +938,8 @@
       },
       {
         "topic_id": 1,
-        "label": "蘋果",
+        "label": "hbm / 長鑫存儲 / 晶片無法通過檢測 / 遭遇瓶頸",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "openai",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -651,130 +974,6 @@
           },
           {
             "net_sentiment": -100.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 4,
-        "label": "群聯",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 5,
-        "label": "晶片與 / 奈米 / iphone",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
             "volume": 1
           },
           {
@@ -790,14 +989,80 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 33.3,
+            "volume": 3
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
           }
         ]
       },
       {
         "topic_id": 6,
-        "label": "奈米",
+        "label": "iphone / duo / 蘋果 / gb",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 3
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 20,
+        "label": "cxmt / lpddr / talent / yoy",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -837,7 +1102,41 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 4
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 16,
+        "label": "revenue / foundry / qoq / dram",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -850,6 +1149,96 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 4
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 10,
+        "label": "huawei / kirin / logicfolding / xiaomi",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -25.0,
+            "volume": 4
           },
           {
             "net_sentiment": 0.0,
@@ -860,50 +1249,149 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "TrendForce.tw",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，30 篇）",
+        "handle": "QQ_Timmy",
+        "top_topic_id": 5,
+        "top_topic_label": "nvidia / rubin / capacity / infrastructure",
         "focus_share": 1.0,
-        "post_count": 1,
+        "post_count": 2,
         "unclustered_posts": 1
       },
       {
+        "handle": "nvidianewsroom",
+        "top_topic_id": 5,
+        "top_topic_label": "nvidia / rubin / capacity / infrastructure",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "HyperTechInvest",
+        "top_topic_id": 5,
+        "top_topic_label": "nvidia / rubin / capacity / infrastructure",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 22,
+        "top_topic_label": "tech / meta / models / google",
+        "focus_share": 1.0,
+        "post_count": 3,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 12,
+        "top_topic_label": "ipo",
+        "focus_share": 1.0,
+        "post_count": 6,
+        "unclustered_posts": 5
+      },
+      {
         "handle": "ctee.fans",
-        "top_topic_id": 4,
+        "top_topic_id": 26,
         "top_topic_label": "群聯",
         "focus_share": 1.0,
-        "post_count": 12,
-        "unclustered_posts": 11
+        "post_count": 19,
+        "unclustered_posts": 18
       },
       {
         "handle": "yutinghaosfinance",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，30 篇）",
+        "top_topic_id": 14,
+        "top_topic_label": "uber也首次進入歐元債市 / ai發債潮擠爆美國市場 / 亞馬遜準備首次發行英鎊債券 / 家美國企業赴歐洲籌資",
         "focus_share": 1.0,
-        "post_count": 9,
+        "post_count": 11,
         "unclustered_posts": 9
       },
       {
+        "handle": "tengyanAI",
+        "top_topic_id": 22,
+        "top_topic_label": "tech / meta / models / google",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "technews_tw",
+        "top_topic_id": 13,
+        "top_topic_label": "台積電 / iphone / 市占率穩居龍頭 / 新機備貨",
+        "focus_share": 0.5,
+        "post_count": 2,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 0,
+        "top_topic_label": "mass / presents / nm",
+        "focus_share": 0.5,
+        "post_count": 3,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 0,
+        "top_topic_label": "mass / presents / nm",
+        "focus_share": 0.333,
+        "post_count": 3,
+        "unclustered_posts": 0
+      },
+      {
         "handle": "technewsinside",
-        "top_topic_id": 2,
-        "top_topic_label": "iphone / duo / 蘋果",
-        "focus_share": 0.273,
-        "post_count": 20,
-        "unclustered_posts": 9
+        "top_topic_id": 6,
+        "top_topic_label": "iphone / duo / 蘋果 / gb",
+        "focus_share": 0.25,
+        "post_count": 25,
+        "unclustered_posts": 13
+      },
+      {
+        "handle": "TrendForce",
+        "top_topic_id": 20,
+        "top_topic_label": "cxmt / lpddr / talent / yoy",
+        "focus_share": 0.091,
+        "post_count": 60,
+        "unclustered_posts": 16
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
-        "label": "iphone / duo / 蘋果",
-        "total_engagement": 147,
+        "topic_id": 9,
+        "label": "蘋果 / 秋季新品一次看 / 摺疊機來了",
+        "total_engagement": 617,
         "post_count": 3,
         "top_account": "technewsinside",
-        "top_account_engagement": 147,
+        "top_account_engagement": 617,
         "is_catchall": false
       },
       {
-        "topic_id": 4,
+        "topic_id": 14,
+        "label": "uber也首次進入歐元債市 / ai發債潮擠爆美國市場 / 亞馬遜準備首次發行英鎊債券 / 家美國企業赴歐洲籌資",
+        "total_engagement": 534,
+        "post_count": 2,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 534,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "iphone / duo / 蘋果 / gb",
+        "total_engagement": 397,
+        "post_count": 4,
+        "top_account": "jukan05",
+        "top_account_engagement": 250,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "nvidia / rubin / capacity / infrastructure",
+        "total_engagement": 204,
+        "post_count": 6,
+        "top_account": "nvidianewsroom",
+        "top_account_engagement": 107,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 26,
         "label": "群聯",
         "total_engagement": 121,
         "post_count": 2,
@@ -912,67 +1400,211 @@
         "is_catchall": false
       },
       {
-        "topic_id": 3,
-        "label": "openai",
-        "total_engagement": 50,
+        "topic_id": 12,
+        "label": "ipo",
+        "total_engagement": 42,
         "post_count": 2,
         "top_account": "technewsinside",
-        "top_account_engagement": 50,
+        "top_account_engagement": 30,
         "is_catchall": false
       },
       {
-        "topic_id": 7,
-        "label": "晶片與",
-        "total_engagement": 27,
-        "post_count": 1,
+        "topic_id": 3,
+        "label": "openai / anthropic / samsung / gen",
+        "total_engagement": 35,
+        "post_count": 3,
         "top_account": "technewsinside",
-        "top_account_engagement": 27,
+        "top_account_engagement": 35,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "tech / meta / models / google",
+        "total_engagement": 30,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 15,
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "蘋果",
-        "total_engagement": 14,
+        "label": "hbm / 長鑫存儲 / 晶片無法通過檢測 / 遭遇瓶頸",
+        "total_engagement": 26,
+        "post_count": 5,
+        "top_account": "technewsinside",
+        "top_account_engagement": 26,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 19,
+        "label": "tsmc / nm / fab / nvidia",
+        "total_engagement": 26,
+        "post_count": 2,
+        "top_account": "dnystedt",
+        "top_account_engagement": 26,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "台積電 / iphone / 市占率穩居龍頭 / 新機備貨",
+        "total_engagement": 20,
         "post_count": 2,
         "top_account": "technewsinside",
-        "top_account_engagement": 14,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 6,
-        "label": "奈米",
-        "total_engagement": 14,
-        "post_count": 1,
-        "top_account": "technewsinside",
-        "top_account_engagement": 14,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 5,
-        "label": "晶片與 / 奈米 / iphone",
-        "total_engagement": 13,
-        "post_count": 1,
-        "top_account": "technewsinside",
-        "top_account_engagement": 13,
+        "top_account_engagement": 20,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，30 篇）",
-        "total_engagement": 5352,
-        "post_count": 30,
+        "label": "mass / presents / nm",
+        "total_engagement": 18,
+        "post_count": 2,
+        "top_account": "jukan05",
+        "top_account_engagement": 13,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 18,
+        "label": "nand / spot / prices / tlc",
+        "total_engagement": 0,
+        "post_count": 3,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 11,
+        "label": "ddr / spot / branded / gx",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "euv / na / samsung / tsmc",
+        "total_engagement": 0,
+        "post_count": 3,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 20,
+        "label": "cxmt / lpddr / talent / yoy",
+        "total_engagement": 0,
+        "post_count": 4,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 16,
+        "label": "revenue / foundry / qoq / dram",
+        "total_engagement": 0,
+        "post_count": 4,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "maker / micron / krw / display",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 21,
+        "label": "fab / taylor / tesla / broadcom",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "mediatek / nvidia / computing / partnership",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 24,
+        "label": "smartphone / units / reached / decline",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 23,
+        "label": "photonics / silicon / testing / samsung",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 25,
+        "label": "starksemi / micro / gan / catl",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "duv / huawei / smic / underway",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "huawei / kirin / logicfolding / xiaomi",
+        "total_engagement": 0,
+        "post_count": 4,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
+        "label": "soi / micro / ymtc / chipmaking",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "其他（未分群，65 篇）",
+        "total_engagement": 6620,
+        "post_count": 65,
         "top_account": "yutinghaosfinance",
-        "top_account_engagement": 4587,
+        "top_account_engagement": 4547,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 21,
-          "likes": 5045,
-          "engagement": 5045,
-          "avg_engagement": 240.2
+          "post_count": 115,
+          "likes": 7768,
+          "engagement": 7948,
+          "avg_engagement": 69.1
         },
         "afternoon": {
           "post_count": 0,
@@ -987,10 +1619,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 21,
-          "likes": 693,
-          "engagement": 693,
-          "avg_engagement": 33.0
+          "post_count": 22,
+          "likes": 720,
+          "engagement": 742,
+          "avg_engagement": 33.7
         }
       },
       "peak_slot": "morning"
