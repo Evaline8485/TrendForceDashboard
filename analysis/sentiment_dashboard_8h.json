@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-12T20:38:21.496824+00:00",
+  "generated_at": "2026-09-13T02:13:16.343115+00:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-09-12T12:38:21.496824+00:00",
-    "end_utc": "2026-09-12T20:38:21.496824+00:00",
-    "start_tw": "Sep 12, 20:38",
-    "end_tw": "Sep 13, 04:38"
+    "start_utc": "2026-09-12T18:13:16.343115+00:00",
+    "end_utc": "2026-09-13T02:13:16.343115+00:00",
+    "start_tw": "Sep 13, 02:13",
+    "end_tw": "Sep 13, 10:13"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 26,
+      "total_posts": 42,
       "sentiment_counts": {
-        "neutral": 7,
-        "positive": 10,
+        "neutral": 18,
+        "positive": 15,
         "negative": 9
       },
       "sentiment_share": {
-        "neutral": 0.269,
-        "positive": 0.385,
-        "negative": 0.346
+        "neutral": 0.429,
+        "positive": 0.357,
+        "negative": 0.214
       },
       "top_terms": [
         "查看",
@@ -27,49 +27,106 @@
         "更多",
         "查看更",
         "看更多",
+        "輝達",
         "智慧",
-        "業者",
-        "大幅",
-        "風險",
+        "計畫",
+        "google",
         "晶片"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "製程 / 台積電",
+        "topic_id": 5,
+        "label": "大摩",
         "heat": 90.0,
         "volume": 2,
-        "engagement": 81,
+        "engagement": 261,
+        "entities": [
+          "大摩",
+          "玉晶"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "cowos / 台積電 / 先進封裝 / semicon",
+        "heat": 65.3,
+        "volume": 2,
+        "engagement": 107,
         "entities": [
           "台積電",
-          "曝光",
-          "中科"
+          "英特爾"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "openai",
+        "heat": 64.6,
+        "volume": 2,
+        "engagement": 103,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "google / tpu / vahdat / amin",
+        "heat": 52.9,
+        "volume": 2,
+        "engagement": 39,
+        "entities": [
+          "輝達",
+          "聯發科",
+          "台灣"
         ],
         "is_catchall": false
       },
       {
         "topic_id": 2,
-        "label": "solutions",
-        "heat": 10.0,
+        "label": "氣候變遷",
+        "heat": 50.0,
         "volume": 2,
-        "engagement": 18,
+        "engagement": 23,
         "entities": [
-          "智慧"
+          "尼泊爾",
+          "湖泊",
+          "北極",
+          "印度",
+          "中國"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，22 篇）",
+        "topic_id": 6,
+        "label": "google",
+        "heat": 50.0,
+        "volume": 1,
+        "engagement": 461,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "輝達",
         "heat": 10.0,
-        "volume": 22,
-        "engagement": 9354,
+        "volume": 1,
+        "engagement": 60,
         "entities": [
-          "輝達",
+          "輝達"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，30 篇）",
+        "heat": 10.0,
+        "volume": 30,
+        "engagement": 12567,
+        "entities": [
           "智慧",
-          "日本",
           "美國",
+          "輝達",
+          "日本",
           "台灣"
         ],
         "is_catchall": true
@@ -77,15 +134,31 @@
     ],
     "named_entities": [
       {
-        "entity": "智慧",
-        "count": 5
+        "entity": "輝達",
+        "count": 7
       },
       {
         "entity": "台積電",
         "count": 4
       },
       {
-        "entity": "輝達",
+        "entity": "智慧",
+        "count": 4
+      },
+      {
+        "entity": "美國",
+        "count": 4
+      },
+      {
+        "entity": "台灣",
+        "count": 3
+      },
+      {
+        "entity": "大摩",
+        "count": 3
+      },
+      {
+        "entity": "中國",
         "count": 3
       },
       {
@@ -93,54 +166,38 @@
         "count": 3
       },
       {
-        "entity": "美國",
-        "count": 3
-      },
-      {
-        "entity": "台灣",
+        "entity": "尼泊爾",
         "count": 2
       },
       {
-        "entity": "騰訊",
+        "entity": "聯發科",
         "count": 2
       },
       {
-        "entity": "伊朗",
+        "entity": "賓州",
         "count": 2
       },
       {
-        "entity": "愛丁堡",
-        "count": 1
+        "entity": "安永",
+        "count": 2
       },
       {
-        "entity": "黃仁勳",
-        "count": 1
+        "entity": "德州",
+        "count": 2
       },
       {
-        "entity": "仁來",
-        "count": 1
+        "entity": "台達電",
+        "count": 2
       },
       {
-        "entity": "英雄崇拜",
-        "count": 1
-      },
-      {
-        "entity": "抗衡",
-        "count": 1
-      },
-      {
-        "entity": "美國參議員",
-        "count": 1
-      },
-      {
-        "entity": "桑德斯",
-        "count": 1
+        "entity": "音樂產業",
+        "count": 2
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-12T12:38:21.496826+00:00",
-        "bucket_end": "2026-09-12T13:12:38.639683+00:00",
+        "bucket_start": "2026-09-12T18:13:16.343117+00:00",
+        "bucket_end": "2026-09-12T18:47:33.485974+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -156,8 +213,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-12T13:12:38.639683+00:00",
-        "bucket_end": "2026-09-12T13:46:55.782540+00:00",
+        "bucket_start": "2026-09-12T18:47:33.485974+00:00",
+        "bucket_end": "2026-09-12T19:21:50.628831+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -169,12 +226,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 1.6,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-12T13:46:55.782540+00:00",
-        "bucket_end": "2026-09-12T14:21:12.925397+00:00",
+        "bucket_start": "2026-09-12T19:21:50.628831+00:00",
+        "bucket_end": "2026-09-12T19:56:07.771688+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -186,89 +243,61 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 1.2,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-12T14:21:12.925397+00:00",
-        "bucket_end": "2026-09-12T14:55:30.068254+00:00",
-        "positive": 7,
-        "neutral": 3,
-        "negative": 6,
-        "positive_engagement": 90,
-        "neutral_engagement": 89,
-        "negative_engagement": 289,
-        "net_sentiment": 6.2,
-        "post_count": 16,
-        "engagement": 468,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "solutions",
-            "count": 2
-          },
-          {
-            "topic_id": 1,
-            "label": "製程 / 台積電",
-            "count": 2
-          }
-        ],
+        "bucket_start": "2026-09-12T19:56:07.771688+00:00",
+        "bucket_end": "2026-09-12T20:30:24.914545+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-12T20:30:24.914545+00:00",
+        "bucket_end": "2026-09-12T21:04:42.057402+00:00",
+        "positive": 3,
+        "neutral": 4,
+        "negative": 3,
+        "positive_engagement": 4353,
+        "neutral_engagement": 3534,
+        "negative_engagement": 1098,
+        "net_sentiment": 0.0,
+        "post_count": 10,
+        "engagement": 8985,
+        "top_topics": [],
         "top_posts": [
           {
-            "handle": "technewsinside",
+            "handle": "yutinghaosfinance",
             "platform": "Facebook",
-            "text": "中芯國際與三星市占差距縮小！\n#2Q26全球晶圓代工前十大業者營收排名\n…… \n查看更多",
-            "url": "https://www.facebook.com/technewsinside/posts/pfbid02J4J4vaQzrRdDZf6XbTESP6ixDPu7zNXbDgihLYbhXQBZCZvUUhczQvpM9cZH6VwYl?__cft__[0]=AZj_k0EXKPgpFH6MQO2is_Z-Wdg_LfknEPTygosmmg3j_kSsLoZvsbR0mPpdv5vG_donldE9jnihpjumNRX6hlhIncqIVkbdyVUH_G8VEIP57PeTJ7b42J6x3G-xOGqLmCd45wPYVPoDBgO0TJDgeG71jAgoubXnG_2hP3tYaqNGpcUtaRgNcmG95uo",
-            "interaction": 233
+            "text": "少子化是多重因素組成。根據衛福部數據，女性生育意願也有多重因子，過去十年，經濟負擔依然排第一，但其他疑慮也普遍升高，包括擔心影響工作、健康因素、缺乏理想托育服務，以及照顧責任可能出現性別不公平等。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid09QFu5NSJQiUPqEJMiHPZNHGs7tnJoFfYTm1RfUYG5Su6xXhvNm8cLUq94QkNFrgml?__cft__[0]=AZiMmhr3eWHfszUq-ObMsMiGWjEWu8s5pCNAvfbyjf9y0ykklhkfmEuwrnccRihXABMB7TB6Z_24qZz3N1VdQsKoUVhy8AW8zKXtTtvQY0v2fFgHVOmBp6GeiLAeye10SAWoBsEXrbHy-BtgHhKGhZGuwfQRXYJ_5-ItSN5_HTFDVUjK4KrHbajD4-U",
+            "interaction": 3064
           },
           {
-            "handle": "technewsinside",
+            "handle": "yutinghaosfinance",
             "platform": "Facebook",
-            "text": "台積電中科 1.4 奈米建廠進度大幅超前！預計最快 2027 年 4 月展開試產，同年 10 月啟動商業化量產，較原先規劃提早整整一年。\n#台積電\n \n#A14製程\n \n#14奈米\n \n#先進製程",
-            "url": "https://www.facebook.com/technewsinside/posts/pfbid02amKJYrBGH38stCEJBvgtqDbV6AZZkrn282mP9dhHqMkgUuraZdnpHcBme8NSAvmal?__cft__[0]=AZjpiLc3aBmCU2ZNg0WxW2_-8lNuD2l0o9IBIms0ctK1Kt4WnUhRG-CcJI1C52D2fFIGMmDDLvUo5KmhGTPJmkmGJKJ-jhdYPgJWVztFDhlVnB18tabK_eP6HpMJWzd9Wk8Pw7Oaj7qAfbyxs594ff0pkICNPhQ7A7tumL8n3xcJJdqNLEoEvpXo-zA",
-            "interaction": 57
+            "text": "智慧手機，正在改寫全球生育率？…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0oSjoG56sBtKRxQtuLiNfCXsh84UKjgTDjCnLn6oap1BgbiXiwPSYhfyA9a61PmJBl?__cft__[0]=AZhW4Lhgbe9388XO1UeEfO5XnqFn_Fkg9t5qfLzht0sUOEORSwniSv5AzXAH3yVfmPVsRzGAOjsiH19qRDWKMCRArZ3WMYCkQyEO7XzN8a3sScLkrvYu1_7BAOfQRsNjWkthbb0OP-pGA-XpHbXvWSz7SDeLhfFg7IahSqcWIiVbcwGo6gRwj2E9IJE",
+            "interaction": 2632
           }
         ],
-        "net_sentiment_smoothed": 1.2,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-09-12T14:55:30.068254+00:00",
-        "bucket_end": "2026-09-12T15:29:47.211111+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 1.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-12T15:29:47.211111+00:00",
-        "bucket_end": "2026-09-12T16:04:04.353968+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 1.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-12T16:04:04.353968+00:00",
-        "bucket_end": "2026-09-12T16:38:21.496825+00:00",
+        "bucket_start": "2026-09-12T21:04:42.057402+00:00",
+        "bucket_end": "2026-09-12T21:38:59.200259+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -284,8 +313,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-12T16:38:21.496825+00:00",
-        "bucket_end": "2026-09-12T17:12:38.639682+00:00",
+        "bucket_start": "2026-09-12T21:38:59.200259+00:00",
+        "bucket_end": "2026-09-12T22:13:16.343116+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -301,8 +330,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-12T17:12:38.639682+00:00",
-        "bucket_end": "2026-09-12T17:46:55.782539+00:00",
+        "bucket_start": "2026-09-12T22:13:16.343116+00:00",
+        "bucket_end": "2026-09-12T22:47:33.485973+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -318,8 +347,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-12T17:46:55.782539+00:00",
-        "bucket_end": "2026-09-12T18:21:12.925396+00:00",
+        "bucket_start": "2026-09-12T22:47:33.485973+00:00",
+        "bucket_end": "2026-09-12T23:21:50.628830+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -335,8 +364,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-12T18:21:12.925396+00:00",
-        "bucket_end": "2026-09-12T18:55:30.068253+00:00",
+        "bucket_start": "2026-09-12T23:21:50.628830+00:00",
+        "bucket_end": "2026-09-12T23:56:07.771687+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -352,8 +381,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-12T18:55:30.068253+00:00",
-        "bucket_end": "2026-09-12T19:29:47.211110+00:00",
+        "bucket_start": "2026-09-12T23:56:07.771687+00:00",
+        "bucket_end": "2026-09-13T00:30:24.914544+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -369,8 +398,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-12T19:29:47.211110+00:00",
-        "bucket_end": "2026-09-12T20:04:04.353967+00:00",
+        "bucket_start": "2026-09-13T00:30:24.914544+00:00",
+        "bucket_end": "2026-09-13T01:04:42.057401+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -386,8 +415,25 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-12T20:04:04.353967+00:00",
-        "bucket_end": "2026-09-12T20:38:21.496824+00:00",
+        "bucket_start": "2026-09-13T01:04:42.057401+00:00",
+        "bucket_end": "2026-09-13T01:38:59.200258+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-13T01:38:59.200258+00:00",
+        "bucket_end": "2026-09-13T02:13:16.343115+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -406,7 +452,7 @@
     "topic_sentiment_heatmap": [
       {
         "topic_id": 2,
-        "label": "solutions",
+        "label": "氣候變遷",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -422,7 +468,7 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 2
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -467,8 +513,8 @@
         ]
       },
       {
-        "topic_id": 1,
-        "label": "製程 / 台積電",
+        "topic_id": 0,
+        "label": "google / tpu / vahdat / amin",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -484,7 +530,255 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 2
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "cowos / 台積電 / 先進封裝 / semicon",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "大摩",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "openai",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "google",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -531,17 +825,9 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "TrendForce.tw",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，22 篇）",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
-      },
-      {
         "handle": "yutinghaosfinance",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，22 篇）",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，30 篇）",
         "focus_share": 1.0,
         "post_count": 10,
         "unclustered_posts": 10
@@ -549,36 +835,81 @@
       {
         "handle": "technewsinside",
         "top_topic_id": 2,
-        "top_topic_label": "solutions",
-        "focus_share": 0.5,
-        "post_count": 15,
-        "unclustered_posts": 11
+        "top_topic_label": "氣候變遷",
+        "focus_share": 0.167,
+        "post_count": 32,
+        "unclustered_posts": 20
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "製程 / 台積電",
-        "total_engagement": 81,
-        "post_count": 2,
+        "topic_id": 6,
+        "label": "google",
+        "total_engagement": 461,
+        "post_count": 1,
         "top_account": "technewsinside",
-        "top_account_engagement": 81,
+        "top_account_engagement": 461,
         "is_catchall": false
       },
       {
-        "topic_id": 2,
-        "label": "solutions",
-        "total_engagement": 18,
+        "topic_id": 5,
+        "label": "大摩",
+        "total_engagement": 261,
         "post_count": 2,
         "top_account": "technewsinside",
-        "top_account_engagement": 18,
+        "top_account_engagement": 261,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "cowos / 台積電 / 先進封裝 / semicon",
+        "total_engagement": 107,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 107,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "openai",
+        "total_engagement": 103,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 103,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "輝達",
+        "total_engagement": 60,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 60,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，22 篇）",
-        "total_engagement": 9354,
-        "post_count": 22,
+        "label": "google / tpu / vahdat / amin",
+        "total_engagement": 39,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 39,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "氣候變遷",
+        "total_engagement": 23,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 23,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，30 篇）",
+        "total_engagement": 12567,
+        "post_count": 30,
         "top_account": "yutinghaosfinance",
         "top_account_engagement": 8985,
         "is_catchall": true
