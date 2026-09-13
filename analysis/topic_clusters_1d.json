@@ -3,13 +3,13 @@
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 46,
+      "size": 47,
       "accounts": {
         "technews_tw": 2,
         "SemiAnalysis_": 2,
         "QQ_Timmy": 2,
         "FT": 1,
-        "technewsinside": 11,
+        "technewsinside": 12,
         "ctee.fans": 3,
         "subhash-km-6b5443123": 11,
         "josepozophotonics": 14
@@ -19,7 +19,7 @@
         "SemiAnalysis_": 282,
         "QQ_Timmy": 176,
         "FT": 442,
-        "technewsinside": 676,
+        "technewsinside": 688,
         "ctee.fans": 41,
         "subhash-km-6b5443123": 0,
         "josepozophotonics": 0
@@ -47,6 +47,31 @@
       }
     },
     {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 40,
+      "accounts": {
+        "TrendForce": 1,
+        "technews_tw": 1,
+        "tphuang": 1,
+        "TrendForce.tw": 1,
+        "technewsinside": 14,
+        "ctee.fans": 6,
+        "subhash-km-6b5443123": 7,
+        "josepozophotonics": 9
+      },
+      "engagement_by_account": {
+        "TrendForce": 3,
+        "technews_tw": 1,
+        "tphuang": 56,
+        "TrendForce.tw": 3,
+        "technewsinside": 2211,
+        "ctee.fans": 121,
+        "subhash-km-6b5443123": 0,
+        "josepozophotonics": 0
+      }
+    },
+    {
       "id": "A",
       "label": "記憶體 / HBM",
       "size": 39,
@@ -61,6 +86,25 @@
         "technews_tw": 39,
         "technewsinside": 159,
         "ctee.fans": 112,
+        "subhash-km-6b5443123": 0,
+        "josepozophotonics": 0
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 38,
+      "accounts": {
+        "technews_tw": 2,
+        "technewsinside": 11,
+        "ctee.fans": 5,
+        "subhash-km-6b5443123": 8,
+        "josepozophotonics": 12
+      },
+      "engagement_by_account": {
+        "technews_tw": 6,
+        "technewsinside": 1028,
+        "ctee.fans": 308,
         "subhash-km-6b5443123": 0,
         "josepozophotonics": 0
       }
@@ -112,50 +156,6 @@
       }
     },
     {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
-      "size": 38,
-      "accounts": {
-        "TrendForce": 1,
-        "technews_tw": 1,
-        "tphuang": 1,
-        "TrendForce.tw": 1,
-        "technewsinside": 13,
-        "ctee.fans": 5,
-        "subhash-km-6b5443123": 7,
-        "josepozophotonics": 9
-      },
-      "engagement_by_account": {
-        "TrendForce": 3,
-        "technews_tw": 1,
-        "tphuang": 56,
-        "TrendForce.tw": 3,
-        "technewsinside": 2181,
-        "ctee.fans": 68,
-        "subhash-km-6b5443123": 0,
-        "josepozophotonics": 0
-      }
-    },
-    {
-      "id": "F",
-      "label": "晶圓代工 / 先進製程",
-      "size": 36,
-      "accounts": {
-        "technews_tw": 2,
-        "technewsinside": 9,
-        "ctee.fans": 5,
-        "subhash-km-6b5443123": 8,
-        "josepozophotonics": 12
-      },
-      "engagement_by_account": {
-        "technews_tw": 6,
-        "technewsinside": 885,
-        "ctee.fans": 308,
-        "subhash-km-6b5443123": 0,
-        "josepozophotonics": 0
-      }
-    },
-    {
       "id": "C",
       "label": "ASIC / 自研晶片",
       "size": 23,
@@ -177,14 +177,14 @@
     {
       "id": "M",
       "label": "台股市場",
-      "size": 15,
+      "size": 16,
       "accounts": {
         "technewsinside": 1,
-        "ctee.fans": 14
+        "ctee.fans": 15
       },
       "engagement_by_account": {
         "technewsinside": 152,
-        "ctee.fans": 693
+        "ctee.fans": 734
       }
     },
     {
@@ -256,13 +256,13 @@
     {
       "id": "L",
       "label": "總經 / Fed",
-      "size": 9,
+      "size": 10,
       "accounts": {
-        "ctee.fans": 8,
+        "ctee.fans": 9,
         "josepozophotonics": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 631,
+        "ctee.fans": 638,
         "josepozophotonics": 0
       }
     },
@@ -408,6 +408,82 @@
       ]
     },
     {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 1,
+      "competitor_count": 15,
+      "competitor_engagement": 734,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "若以台積電今天收2,450元，與鉅額交易2,710元相較，未來台積電股價隱含有260元上漲空間，以台積電每漲5元對指數貢獻約8元來看，若台積電股價衝上2,710元，指數可推升2,080點，加上其他權值股齊漲，台股指數上看5萬點大關。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02xpbzA8nM37vk4jJnmpLXgkHq4TwWGjDL7kHU6Eo6fqomvuSYVaMbEqJiNAZZ8sHTl?__cft__[0]=AZiAA1L6vBnUahooWEzQhcUW-wFm4SdpjboisEnFu7TUZ93tMsa5Wv0eHV6EDDbzSRFjo7mGIaSetdcwoeP4cYxogdHR-XdF6av3y26oWy0LwhsEtrras_e-I1DfoNPeNU29s8MVLnCY1-9U8029EK-fm08Of0YTC-FMLlPKn2HPU-2kabd1c5zX-9o",
+          "timestamp": "2026-09-13T03:20:29.340946+00:00",
+          "interaction": 158
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "凱基金控表示，8月在市場對AI需求與科技產業基本面信心回升，帶動半導體及AI供應鏈權值股走強，外資同步回補買盤，台股呈現...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0pWsx5PYdS1r9ArrvG6bs6JbSViBYJgkXMtUaTmufJNoupb163NhHSsCsp5MtAxtWl?__cft__[0]=AZjHmKzAnG4UXwQoBc9GLdRAuoejbmJQfWBn-S6UKsW3fUSNCHyqcjaXid7QBUCftKq70gHX0ydBwpz6X1WTy-JwhXjrmsVf1BvHKgJwoDWIyZten1LIXizmdDrOu-QymEPdeVprkfcDAS_b_B841Yy0fst-D7EEIfbRui5ozJS_VXxEU9uzOyZmvjo",
+          "timestamp": "2026-09-13T03:20:29.340946+00:00",
+          "interaction": 149
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "預期美國消費者物價指數上揚，台股11日拉回整理，下殺近千點後低接買盤進場，守住大盤46K、月線雙關卡。法人認為，短線面臨籌碼修正壓力...…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0eTNPkXzo9qdBcWy3xVQa8sDcPzqSmSmvKVdp7VysyjHcAPAZ8uUSDB9yyKE7b2tPl?__cft__[0]=AZjksDdtmISrVfLZpEUo8R6QNda09G9nnLoAn6RVAP3_7-QpVlbVMJ8d_DWX5urSimmm_ZE-yVqItTX4evLoZM50bU-YudTw951RjIarEKoKpqgIC_TkxafUZogI2xQfXmNJY0KGy8ybr02rRe8WbZJVoIoXiGe8k-IJGXTALBl6P_AfiYpv_1TYoIQ",
+          "timestamp": "2026-09-13T03:20:29.340946+00:00",
+          "interaction": 72
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "杜金龍原先預期，台股明年5月會進入「末升段」，但今年上市公司獲利預估成長約60%、明年仍有約39%，加上今年GDP預估達11%、明年仍有6%，基本面與資金力道都比原先預期強...…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0aKsXG5s3EkJD1uv6UpYxPwL2eaTBDvuV1ESSxyeH3UDAebTyt1pSWm2CukdnfPPal?__cft__[0]=AZhea0wMtKgHUbVBMk45dv-9jyKH4GbEXDhL_wuA-sfzJM-0Hv_JzV-KW4w2qqMR3Of8gpY-jzrLWXPuyn7QQMCaypHquVKk91ETaBnJqXI8xBXIHxD_gL5Xe5GCrOoJuNCjEwwjLuBnJWtM-mg8Bp7S243HK4Vf5UAGCpI_EiExbN4x9L_Qit4yR3k",
+          "timestamp": "2026-09-13T02:16:06.834876+00:00",
+          "interaction": 68
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股護身符來了！法人卡位15檔集團作帳股 這檔金控股最受寵】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02FvZTeBwSrGLSn39RviSbg1esPW5zxy1p8FtHSRgrgu1xCtKeyueBG1BwfYhYVJfnl?__cft__[0]=AZiMEogPBcZodE-pkRzYyCW_2JnOIbDaOPG6YAsV7Y-jGECEYofbUjtGiVj44zbGXUW5ln0GT9ONg3YpPc4UvtpkEzbjniLD3TXzaI_ViEuxGUHiVrmWBO-PeNj0hJ4MSkP2pGiBbOIMmmg8Og_21erUz1G1wtsa3qrecmBt2Xxnn3fEzaUlorNfUS0",
+          "timestamp": "2026-09-13T02:16:06.834876+00:00",
+          "interaction": 55
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "金融股近期成為台股熱門焦點，但13家上市金控雖然都被歸類為「金融股」，實際賺錢方式卻大不相同。有些金控主要依靠銀行放款及財富管理，有些獲利容易受到壽險投資收益與匯率影響，還有金控高度仰賴台股成交量及ETF市場。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid04HKFEKK6B7fADn4APiezAWLDrHX859c93DD11T9bCFxix4apGm5AnyjnNuXTe2Gml?__cft__[0]=AZhrqQtURJXjYj30nAAuErVtD2U0vILaJrmlwYku-Z0peQHt21CuCJFsDp3dhF_uzqY87Uvg2lXAr_E9lB0Pz_rVvc1S6E7w6jLTislkBZ2LnkXurSmfEVbMDgFmEpe9skBZd5fITFZpgotCsUgixMcsJn1q2lYziZADVYrpjMFkFPTB0eq8cp9aaJg",
+          "timestamp": "2026-09-13T02:16:06.834876+00:00",
+          "interaction": 42
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【檔檔報酬率突破100％！台股主被動ETF績效前10強名單出爐】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02R1cGVVvu18CsZyGLbRckG1bLy9Dqr4NsusGi9jDCizVxeVnX4twPCUjGjH7D2dL2l?__cft__[0]=AZhwF66MZ6ZzT3FSQJPwwgEdOVQCwnJ6Wt4VAkjDCJXRWn28qjbI5a3ODeb4BOwvu4e21o0Axn1YApBb9lKPoUAjiFhmKfmrsxKTzKuPF4O4xwdURt4fX9zzT66ZVepYMSp9s3pC4kkWEUNTSbkMsha8TMj6AYM-fb3Wa66KQxAZt6L7E_i2-KLTl3I",
+          "timestamp": "2026-09-13T16:52:16.461082+00:00",
+          "interaction": 41
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美伊戰火升溫、油價續漲，引發市場對通膨及經濟衝擊的擔憂，美股四大指數收黑，台灣股匯同步下殺，台股一度重挫近千點，終場收跌逾700點，新台幣兌美元同步重貶，午盤後貶幅加深至...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid09Ac8E36UN1cHu3AgYL2Xqjfi8mHVLtk5WFWEw1CBRwEcpcvm5RBGRfP3i26i7Q8Fl?__cft__[0]=AZhOVyw2xBqhAJ_07Jo8ArhsasKZm2ugU6wQVna0RE4nDyyYWANCNk9J-M2RGq5ouOsqSUnVPnwX-rRyEQm2RUnL_84p6Zxm9A2aXni10OqPxBcrQv8KnVup34GGq58GlF-WYlTtxOue7snYCYjc0hZr3imP_chI0nJ8IjY2O6nlASGjg7QjfaCnIsk",
+          "timestamp": "2026-09-13T03:20:29.340946+00:00",
+          "interaction": 35
+        }
+      ]
+    },
+    {
       "cluster_id": "J",
       "label": "PCB / 載板 / 被動元件",
       "own_count": 0,
@@ -485,87 +561,11 @@
       ]
     },
     {
-      "cluster_id": "M",
-      "label": "台股市場",
-      "own_count": 1,
-      "competitor_count": 14,
-      "competitor_engagement": 693,
-      "competitors_covering": [
-        "ctee.fans"
-      ],
-      "sample_posts": [
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "若以台積電今天收2,450元，與鉅額交易2,710元相較，未來台積電股價隱含有260元上漲空間，以台積電每漲5元對指數貢獻約8元來看，若台積電股價衝上2,710元，指數可推升2,080點，加上其他權值股齊漲，台股指數上看5萬點大關。",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02xpbzA8nM37vk4jJnmpLXgkHq4TwWGjDL7kHU6Eo6fqomvuSYVaMbEqJiNAZZ8sHTl?__cft__[0]=AZiAA1L6vBnUahooWEzQhcUW-wFm4SdpjboisEnFu7TUZ93tMsa5Wv0eHV6EDDbzSRFjo7mGIaSetdcwoeP4cYxogdHR-XdF6av3y26oWy0LwhsEtrras_e-I1DfoNPeNU29s8MVLnCY1-9U8029EK-fm08Of0YTC-FMLlPKn2HPU-2kabd1c5zX-9o",
-          "timestamp": "2026-09-13T03:20:29.340946+00:00",
-          "interaction": 158
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "凱基金控表示，8月在市場對AI需求與科技產業基本面信心回升，帶動半導體及AI供應鏈權值股走強，外資同步回補買盤，台股呈現...",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0pWsx5PYdS1r9ArrvG6bs6JbSViBYJgkXMtUaTmufJNoupb163NhHSsCsp5MtAxtWl?__cft__[0]=AZjHmKzAnG4UXwQoBc9GLdRAuoejbmJQfWBn-S6UKsW3fUSNCHyqcjaXid7QBUCftKq70gHX0ydBwpz6X1WTy-JwhXjrmsVf1BvHKgJwoDWIyZten1LIXizmdDrOu-QymEPdeVprkfcDAS_b_B841Yy0fst-D7EEIfbRui5ozJS_VXxEU9uzOyZmvjo",
-          "timestamp": "2026-09-13T03:20:29.340946+00:00",
-          "interaction": 149
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "預期美國消費者物價指數上揚，台股11日拉回整理，下殺近千點後低接買盤進場，守住大盤46K、月線雙關卡。法人認為，短線面臨籌碼修正壓力...…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0eTNPkXzo9qdBcWy3xVQa8sDcPzqSmSmvKVdp7VysyjHcAPAZ8uUSDB9yyKE7b2tPl?__cft__[0]=AZjksDdtmISrVfLZpEUo8R6QNda09G9nnLoAn6RVAP3_7-QpVlbVMJ8d_DWX5urSimmm_ZE-yVqItTX4evLoZM50bU-YudTw951RjIarEKoKpqgIC_TkxafUZogI2xQfXmNJY0KGy8ybr02rRe8WbZJVoIoXiGe8k-IJGXTALBl6P_AfiYpv_1TYoIQ",
-          "timestamp": "2026-09-13T03:20:29.340946+00:00",
-          "interaction": 72
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "杜金龍原先預期，台股明年5月會進入「末升段」，但今年上市公司獲利預估成長約60%、明年仍有約39%，加上今年GDP預估達11%、明年仍有6%，基本面與資金力道都比原先預期強...…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0aKsXG5s3EkJD1uv6UpYxPwL2eaTBDvuV1ESSxyeH3UDAebTyt1pSWm2CukdnfPPal?__cft__[0]=AZhea0wMtKgHUbVBMk45dv-9jyKH4GbEXDhL_wuA-sfzJM-0Hv_JzV-KW4w2qqMR3Of8gpY-jzrLWXPuyn7QQMCaypHquVKk91ETaBnJqXI8xBXIHxD_gL5Xe5GCrOoJuNCjEwwjLuBnJWtM-mg8Bp7S243HK4Vf5UAGCpI_EiExbN4x9L_Qit4yR3k",
-          "timestamp": "2026-09-13T02:16:06.834876+00:00",
-          "interaction": 68
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "【台股護身符來了！法人卡位15檔集團作帳股 這檔金控股最受寵】…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02FvZTeBwSrGLSn39RviSbg1esPW5zxy1p8FtHSRgrgu1xCtKeyueBG1BwfYhYVJfnl?__cft__[0]=AZiMEogPBcZodE-pkRzYyCW_2JnOIbDaOPG6YAsV7Y-jGECEYofbUjtGiVj44zbGXUW5ln0GT9ONg3YpPc4UvtpkEzbjniLD3TXzaI_ViEuxGUHiVrmWBO-PeNj0hJ4MSkP2pGiBbOIMmmg8Og_21erUz1G1wtsa3qrecmBt2Xxnn3fEzaUlorNfUS0",
-          "timestamp": "2026-09-13T02:16:06.834876+00:00",
-          "interaction": 55
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "金融股近期成為台股熱門焦點，但13家上市金控雖然都被歸類為「金融股」，實際賺錢方式卻大不相同。有些金控主要依靠銀行放款及財富管理，有些獲利容易受到壽險投資收益與匯率影響，還有金控高度仰賴台股成交量及ETF市場。…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid04HKFEKK6B7fADn4APiezAWLDrHX859c93DD11T9bCFxix4apGm5AnyjnNuXTe2Gml?__cft__[0]=AZhrqQtURJXjYj30nAAuErVtD2U0vILaJrmlwYku-Z0peQHt21CuCJFsDp3dhF_uzqY87Uvg2lXAr_E9lB0Pz_rVvc1S6E7w6jLTislkBZ2LnkXurSmfEVbMDgFmEpe9skBZd5fITFZpgotCsUgixMcsJn1q2lYziZADVYrpjMFkFPTB0eq8cp9aaJg",
-          "timestamp": "2026-09-13T02:16:06.834876+00:00",
-          "interaction": 42
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "美伊戰火升溫、油價續漲，引發市場對通膨及經濟衝擊的擔憂，美股四大指數收黑，台灣股匯同步下殺，台股一度重挫近千點，終場收跌逾700點，新台幣兌美元同步重貶，午盤後貶幅加深至...",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid09Ac8E36UN1cHu3AgYL2Xqjfi8mHVLtk5WFWEw1CBRwEcpcvm5RBGRfP3i26i7Q8Fl?__cft__[0]=AZhOVyw2xBqhAJ_07Jo8ArhsasKZm2ugU6wQVna0RE4nDyyYWANCNk9J-M2RGq5ouOsqSUnVPnwX-rRyEQm2RUnL_84p6Zxm9A2aXni10OqPxBcrQv8KnVup34GGq58GlF-WYlTtxOue7snYCYjc0hZr3imP_chI0nJ8IjY2O6nlASGjg7QjfaCnIsk",
-          "timestamp": "2026-09-13T03:20:29.340946+00:00",
-          "interaction": 35
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "近期生技股吹起一股「拆股」風潮，隨著康霈過去拆股後股價大漲的市場記憶猶存，「高價股變便宜」的心理效應再度發酵...\n#台股\n \n#拆股",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0dDi6MP6F3DfSHMVBmDXZMLFek4ikRjCzWi1ymYCnZAaLjjEajgoyKY1eAqDmnJal?__cft__[0]=AZjD-Fl3DWHTAtrTt2VNmtp028KGSyl57G-9gpnGBcyUdA13D-22-8knv8T-2CsQ3iZnMpkuHZdZB88R9vgAMohXTpAH2yPEYbK8rSKjVdeALtui9bDczAU3oeVen7CQb74nOluLu7Ugj--UQUxHJMDrCTTNZ9SFZm5BAiviT_N_fIw381VKNelWMqA",
-          "timestamp": "2026-09-13T02:16:06.834876+00:00",
-          "interaction": 24
-        }
-      ]
-    },
-    {
       "cluster_id": "L",
       "label": "總經 / Fed",
       "own_count": 0,
-      "competitor_count": 9,
-      "competitor_engagement": 631,
+      "competitor_count": 10,
+      "competitor_engagement": 638,
       "competitors_covering": [
         "ctee.fans",
         "josepozophotonics"
@@ -954,6 +954,82 @@
       ]
     },
     {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 1,
+      "competitor_count": 15,
+      "competitor_engagement": 734,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "若以台積電今天收2,450元，與鉅額交易2,710元相較，未來台積電股價隱含有260元上漲空間，以台積電每漲5元對指數貢獻約8元來看，若台積電股價衝上2,710元，指數可推升2,080點，加上其他權值股齊漲，台股指數上看5萬點大關。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02xpbzA8nM37vk4jJnmpLXgkHq4TwWGjDL7kHU6Eo6fqomvuSYVaMbEqJiNAZZ8sHTl?__cft__[0]=AZiAA1L6vBnUahooWEzQhcUW-wFm4SdpjboisEnFu7TUZ93tMsa5Wv0eHV6EDDbzSRFjo7mGIaSetdcwoeP4cYxogdHR-XdF6av3y26oWy0LwhsEtrras_e-I1DfoNPeNU29s8MVLnCY1-9U8029EK-fm08Of0YTC-FMLlPKn2HPU-2kabd1c5zX-9o",
+          "timestamp": "2026-09-13T03:20:29.340946+00:00",
+          "interaction": 158
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "凱基金控表示，8月在市場對AI需求與科技產業基本面信心回升，帶動半導體及AI供應鏈權值股走強，外資同步回補買盤，台股呈現...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0pWsx5PYdS1r9ArrvG6bs6JbSViBYJgkXMtUaTmufJNoupb163NhHSsCsp5MtAxtWl?__cft__[0]=AZjHmKzAnG4UXwQoBc9GLdRAuoejbmJQfWBn-S6UKsW3fUSNCHyqcjaXid7QBUCftKq70gHX0ydBwpz6X1WTy-JwhXjrmsVf1BvHKgJwoDWIyZten1LIXizmdDrOu-QymEPdeVprkfcDAS_b_B841Yy0fst-D7EEIfbRui5ozJS_VXxEU9uzOyZmvjo",
+          "timestamp": "2026-09-13T03:20:29.340946+00:00",
+          "interaction": 149
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "預期美國消費者物價指數上揚，台股11日拉回整理，下殺近千點後低接買盤進場，守住大盤46K、月線雙關卡。法人認為，短線面臨籌碼修正壓力...…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0eTNPkXzo9qdBcWy3xVQa8sDcPzqSmSmvKVdp7VysyjHcAPAZ8uUSDB9yyKE7b2tPl?__cft__[0]=AZjksDdtmISrVfLZpEUo8R6QNda09G9nnLoAn6RVAP3_7-QpVlbVMJ8d_DWX5urSimmm_ZE-yVqItTX4evLoZM50bU-YudTw951RjIarEKoKpqgIC_TkxafUZogI2xQfXmNJY0KGy8ybr02rRe8WbZJVoIoXiGe8k-IJGXTALBl6P_AfiYpv_1TYoIQ",
+          "timestamp": "2026-09-13T03:20:29.340946+00:00",
+          "interaction": 72
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "杜金龍原先預期，台股明年5月會進入「末升段」，但今年上市公司獲利預估成長約60%、明年仍有約39%，加上今年GDP預估達11%、明年仍有6%，基本面與資金力道都比原先預期強...…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0aKsXG5s3EkJD1uv6UpYxPwL2eaTBDvuV1ESSxyeH3UDAebTyt1pSWm2CukdnfPPal?__cft__[0]=AZhea0wMtKgHUbVBMk45dv-9jyKH4GbEXDhL_wuA-sfzJM-0Hv_JzV-KW4w2qqMR3Of8gpY-jzrLWXPuyn7QQMCaypHquVKk91ETaBnJqXI8xBXIHxD_gL5Xe5GCrOoJuNCjEwwjLuBnJWtM-mg8Bp7S243HK4Vf5UAGCpI_EiExbN4x9L_Qit4yR3k",
+          "timestamp": "2026-09-13T02:16:06.834876+00:00",
+          "interaction": 68
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股護身符來了！法人卡位15檔集團作帳股 這檔金控股最受寵】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02FvZTeBwSrGLSn39RviSbg1esPW5zxy1p8FtHSRgrgu1xCtKeyueBG1BwfYhYVJfnl?__cft__[0]=AZiMEogPBcZodE-pkRzYyCW_2JnOIbDaOPG6YAsV7Y-jGECEYofbUjtGiVj44zbGXUW5ln0GT9ONg3YpPc4UvtpkEzbjniLD3TXzaI_ViEuxGUHiVrmWBO-PeNj0hJ4MSkP2pGiBbOIMmmg8Og_21erUz1G1wtsa3qrecmBt2Xxnn3fEzaUlorNfUS0",
+          "timestamp": "2026-09-13T02:16:06.834876+00:00",
+          "interaction": 55
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "金融股近期成為台股熱門焦點，但13家上市金控雖然都被歸類為「金融股」，實際賺錢方式卻大不相同。有些金控主要依靠銀行放款及財富管理，有些獲利容易受到壽險投資收益與匯率影響，還有金控高度仰賴台股成交量及ETF市場。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid04HKFEKK6B7fADn4APiezAWLDrHX859c93DD11T9bCFxix4apGm5AnyjnNuXTe2Gml?__cft__[0]=AZhrqQtURJXjYj30nAAuErVtD2U0vILaJrmlwYku-Z0peQHt21CuCJFsDp3dhF_uzqY87Uvg2lXAr_E9lB0Pz_rVvc1S6E7w6jLTislkBZ2LnkXurSmfEVbMDgFmEpe9skBZd5fITFZpgotCsUgixMcsJn1q2lYziZADVYrpjMFkFPTB0eq8cp9aaJg",
+          "timestamp": "2026-09-13T02:16:06.834876+00:00",
+          "interaction": 42
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【檔檔報酬率突破100％！台股主被動ETF績效前10強名單出爐】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02R1cGVVvu18CsZyGLbRckG1bLy9Dqr4NsusGi9jDCizVxeVnX4twPCUjGjH7D2dL2l?__cft__[0]=AZhwF66MZ6ZzT3FSQJPwwgEdOVQCwnJ6Wt4VAkjDCJXRWn28qjbI5a3ODeb4BOwvu4e21o0Axn1YApBb9lKPoUAjiFhmKfmrsxKTzKuPF4O4xwdURt4fX9zzT66ZVepYMSp9s3pC4kkWEUNTSbkMsha8TMj6AYM-fb3Wa66KQxAZt6L7E_i2-KLTl3I",
+          "timestamp": "2026-09-13T16:52:16.461082+00:00",
+          "interaction": 41
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美伊戰火升溫、油價續漲，引發市場對通膨及經濟衝擊的擔憂，美股四大指數收黑，台灣股匯同步下殺，台股一度重挫近千點，終場收跌逾700點，新台幣兌美元同步重貶，午盤後貶幅加深至...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid09Ac8E36UN1cHu3AgYL2Xqjfi8mHVLtk5WFWEw1CBRwEcpcvm5RBGRfP3i26i7Q8Fl?__cft__[0]=AZhOVyw2xBqhAJ_07Jo8ArhsasKZm2ugU6wQVna0RE4nDyyYWANCNk9J-M2RGq5ouOsqSUnVPnwX-rRyEQm2RUnL_84p6Zxm9A2aXni10OqPxBcrQv8KnVup34GGq58GlF-WYlTtxOue7snYCYjc0hZr3imP_chI0nJ8IjY2O6nlASGjg7QjfaCnIsk",
+          "timestamp": "2026-09-13T03:20:29.340946+00:00",
+          "interaction": 35
+        }
+      ]
+    },
+    {
       "cluster_id": "J",
       "label": "PCB / 載板 / 被動元件",
       "own_count": 0,
@@ -1031,87 +1107,11 @@
       ]
     },
     {
-      "cluster_id": "M",
-      "label": "台股市場",
-      "own_count": 1,
-      "competitor_count": 14,
-      "competitor_engagement": 693,
-      "competitors_covering": [
-        "ctee.fans"
-      ],
-      "sample_posts": [
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "若以台積電今天收2,450元，與鉅額交易2,710元相較，未來台積電股價隱含有260元上漲空間，以台積電每漲5元對指數貢獻約8元來看，若台積電股價衝上2,710元，指數可推升2,080點，加上其他權值股齊漲，台股指數上看5萬點大關。",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02xpbzA8nM37vk4jJnmpLXgkHq4TwWGjDL7kHU6Eo6fqomvuSYVaMbEqJiNAZZ8sHTl?__cft__[0]=AZiAA1L6vBnUahooWEzQhcUW-wFm4SdpjboisEnFu7TUZ93tMsa5Wv0eHV6EDDbzSRFjo7mGIaSetdcwoeP4cYxogdHR-XdF6av3y26oWy0LwhsEtrras_e-I1DfoNPeNU29s8MVLnCY1-9U8029EK-fm08Of0YTC-FMLlPKn2HPU-2kabd1c5zX-9o",
-          "timestamp": "2026-09-13T03:20:29.340946+00:00",
-          "interaction": 158
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "凱基金控表示，8月在市場對AI需求與科技產業基本面信心回升，帶動半導體及AI供應鏈權值股走強，外資同步回補買盤，台股呈現...",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0pWsx5PYdS1r9ArrvG6bs6JbSViBYJgkXMtUaTmufJNoupb163NhHSsCsp5MtAxtWl?__cft__[0]=AZjHmKzAnG4UXwQoBc9GLdRAuoejbmJQfWBn-S6UKsW3fUSNCHyqcjaXid7QBUCftKq70gHX0ydBwpz6X1WTy-JwhXjrmsVf1BvHKgJwoDWIyZten1LIXizmdDrOu-QymEPdeVprkfcDAS_b_B841Yy0fst-D7EEIfbRui5ozJS_VXxEU9uzOyZmvjo",
-          "timestamp": "2026-09-13T03:20:29.340946+00:00",
-          "interaction": 149
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "預期美國消費者物價指數上揚，台股11日拉回整理，下殺近千點後低接買盤進場，守住大盤46K、月線雙關卡。法人認為，短線面臨籌碼修正壓力...…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0eTNPkXzo9qdBcWy3xVQa8sDcPzqSmSmvKVdp7VysyjHcAPAZ8uUSDB9yyKE7b2tPl?__cft__[0]=AZjksDdtmISrVfLZpEUo8R6QNda09G9nnLoAn6RVAP3_7-QpVlbVMJ8d_DWX5urSimmm_ZE-yVqItTX4evLoZM50bU-YudTw951RjIarEKoKpqgIC_TkxafUZogI2xQfXmNJY0KGy8ybr02rRe8WbZJVoIoXiGe8k-IJGXTALBl6P_AfiYpv_1TYoIQ",
-          "timestamp": "2026-09-13T03:20:29.340946+00:00",
-          "interaction": 72
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "杜金龍原先預期，台股明年5月會進入「末升段」，但今年上市公司獲利預估成長約60%、明年仍有約39%，加上今年GDP預估達11%、明年仍有6%，基本面與資金力道都比原先預期強...…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0aKsXG5s3EkJD1uv6UpYxPwL2eaTBDvuV1ESSxyeH3UDAebTyt1pSWm2CukdnfPPal?__cft__[0]=AZhea0wMtKgHUbVBMk45dv-9jyKH4GbEXDhL_wuA-sfzJM-0Hv_JzV-KW4w2qqMR3Of8gpY-jzrLWXPuyn7QQMCaypHquVKk91ETaBnJqXI8xBXIHxD_gL5Xe5GCrOoJuNCjEwwjLuBnJWtM-mg8Bp7S243HK4Vf5UAGCpI_EiExbN4x9L_Qit4yR3k",
-          "timestamp": "2026-09-13T02:16:06.834876+00:00",
-          "interaction": 68
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "【台股護身符來了！法人卡位15檔集團作帳股 這檔金控股最受寵】…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02FvZTeBwSrGLSn39RviSbg1esPW5zxy1p8FtHSRgrgu1xCtKeyueBG1BwfYhYVJfnl?__cft__[0]=AZiMEogPBcZodE-pkRzYyCW_2JnOIbDaOPG6YAsV7Y-jGECEYofbUjtGiVj44zbGXUW5ln0GT9ONg3YpPc4UvtpkEzbjniLD3TXzaI_ViEuxGUHiVrmWBO-PeNj0hJ4MSkP2pGiBbOIMmmg8Og_21erUz1G1wtsa3qrecmBt2Xxnn3fEzaUlorNfUS0",
-          "timestamp": "2026-09-13T02:16:06.834876+00:00",
-          "interaction": 55
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "金融股近期成為台股熱門焦點，但13家上市金控雖然都被歸類為「金融股」，實際賺錢方式卻大不相同。有些金控主要依靠銀行放款及財富管理，有些獲利容易受到壽險投資收益與匯率影響，還有金控高度仰賴台股成交量及ETF市場。…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid04HKFEKK6B7fADn4APiezAWLDrHX859c93DD11T9bCFxix4apGm5AnyjnNuXTe2Gml?__cft__[0]=AZhrqQtURJXjYj30nAAuErVtD2U0vILaJrmlwYku-Z0peQHt21CuCJFsDp3dhF_uzqY87Uvg2lXAr_E9lB0Pz_rVvc1S6E7w6jLTislkBZ2LnkXurSmfEVbMDgFmEpe9skBZd5fITFZpgotCsUgixMcsJn1q2lYziZADVYrpjMFkFPTB0eq8cp9aaJg",
-          "timestamp": "2026-09-13T02:16:06.834876+00:00",
-          "interaction": 42
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "美伊戰火升溫、油價續漲，引發市場對通膨及經濟衝擊的擔憂，美股四大指數收黑，台灣股匯同步下殺，台股一度重挫近千點，終場收跌逾700點，新台幣兌美元同步重貶，午盤後貶幅加深至...",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid09Ac8E36UN1cHu3AgYL2Xqjfi8mHVLtk5WFWEw1CBRwEcpcvm5RBGRfP3i26i7Q8Fl?__cft__[0]=AZhOVyw2xBqhAJ_07Jo8ArhsasKZm2ugU6wQVna0RE4nDyyYWANCNk9J-M2RGq5ouOsqSUnVPnwX-rRyEQm2RUnL_84p6Zxm9A2aXni10OqPxBcrQv8KnVup34GGq58GlF-WYlTtxOue7snYCYjc0hZr3imP_chI0nJ8IjY2O6nlASGjg7QjfaCnIsk",
-          "timestamp": "2026-09-13T03:20:29.340946+00:00",
-          "interaction": 35
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "近期生技股吹起一股「拆股」風潮，隨著康霈過去拆股後股價大漲的市場記憶猶存，「高價股變便宜」的心理效應再度發酵...\n#台股\n \n#拆股",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0dDi6MP6F3DfSHMVBmDXZMLFek4ikRjCzWi1ymYCnZAaLjjEajgoyKY1eAqDmnJal?__cft__[0]=AZjD-Fl3DWHTAtrTt2VNmtp028KGSyl57G-9gpnGBcyUdA13D-22-8knv8T-2CsQ3iZnMpkuHZdZB88R9vgAMohXTpAH2yPEYbK8rSKjVdeALtui9bDczAU3oeVen7CQb74nOluLu7Ugj--UQUxHJMDrCTTNZ9SFZm5BAiviT_N_fIw381VKNelWMqA",
-          "timestamp": "2026-09-13T02:16:06.834876+00:00",
-          "interaction": 24
-        }
-      ]
-    },
-    {
       "cluster_id": "L",
       "label": "總經 / Fed",
       "own_count": 0,
-      "competitor_count": 9,
-      "competitor_engagement": 631,
+      "competitor_count": 10,
+      "competitor_engagement": 638,
       "competitors_covering": [
         "ctee.fans",
         "josepozophotonics"
@@ -1264,9 +1264,9 @@
     }
   ],
   "window": {
-    "start_utc": "2026-09-13T00:27:13+08:00",
-    "end_utc": "2026-09-14T00:27:13+08:00",
-    "start_tw": "Sep 13, 00:27",
-    "end_tw": "Sep 14, 00:27"
+    "start_utc": "2026-09-12T16:54:56.855378+00:00",
+    "end_utc": "2026-09-13T16:54:56.855378+00:00",
+    "start_tw": "Sep 13, 00:54",
+    "end_tw": "Sep 14, 00:54"
   }
 }
