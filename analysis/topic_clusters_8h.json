@@ -3,16 +3,18 @@
     {
       "id": "F",
       "label": "晶圓代工 / 先進製程",
-      "size": 5,
+      "size": 6,
       "accounts": {
         "tphuang": 1,
         "dnystedt": 1,
-        "technewsinside": 3
+        "technewsinside": 1,
+        "ctee.fans": 3
       },
       "engagement_by_account": {
         "tphuang": 33,
         "dnystedt": 26,
-        "technewsinside": 272
+        "technewsinside": 129,
+        "ctee.fans": 113
       }
     },
     {
@@ -46,29 +48,31 @@
       }
     },
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
-      "size": 3,
-      "accounts": {
-        "dnystedt": 1,
-        "technewsinside": 2
-      },
-      "engagement_by_account": {
-        "dnystedt": 46,
-        "technewsinside": 33
-      }
-    },
-    {
       "id": "E",
       "label": "AI 伺服器供應鏈",
-      "size": 2,
+      "size": 3,
       "accounts": {
         "jukan05": 1,
-        "FT": 1
+        "FT": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
         "jukan05": 52,
-        "FT": 41
+        "FT": 41,
+        "ctee.fans": 89
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 2,
+      "accounts": {
+        "dnystedt": 1,
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "dnystedt": 46,
+        "technewsinside": 21
       }
     },
     {
@@ -85,16 +89,25 @@
       }
     },
     {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
+      "id": "L",
+      "label": "總經 / Fed",
       "size": 2,
       "accounts": {
-        "technewsinside": 1,
-        "ctee.fans": 1
+        "ctee.fans": 2
       },
       "engagement_by_account": {
-        "technewsinside": 30,
-        "ctee.fans": 53
+        "ctee.fans": 12
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 26
       }
     },
     {
@@ -109,25 +122,25 @@
       }
     },
     {
-      "id": "L",
-      "label": "總經 / Fed",
+      "id": "H",
+      "label": "網通 / 光通訊",
       "size": 1,
       "accounts": {
         "ctee.fans": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 7
+        "ctee.fans": 16
       }
     },
     {
-      "id": "M",
-      "label": "台股市場",
+      "id": "I",
+      "label": "電源 / 電力設備",
       "size": 1,
       "accounts": {
         "ctee.fans": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 41
+        "ctee.fans": 89
       }
     }
   ],
@@ -166,6 +179,98 @@
           "url": "https://x.com/FT/status/2099266801523736883",
           "timestamp": "2026-09-14T06:39:42.000+08:00",
           "interaction": 98
+        }
+      ]
+    },
+    {
+      "cluster_id": "E",
+      "label": "AI 伺服器供應鏈",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 182,
+      "competitors_covering": [
+        "jukan05",
+        "FT",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【外資狂賣千億！官股308億掃貨15檔 台積電、台達電、緯創上榜】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02wd38kGf1WKaQUEyTzx3iREon5xaNfUoS2uxjYAEXUxcmcDLp6dFfJPKdWDoyV9Psl?__cft__[0]=AZh6VZECk706_HbLix8-feD-mDGE-q5dAbYDJPsgEacNafOGC0Ojctby1tnaCKtZHbF0UR-mPjvZhJBoA9qugYmRYIjfW9xQRpoHnKgWChJ0rAjOm5VcAz-1a5fdW5c5tzQTIyRgmYHAXF7jwM69eknVR6pkPXjZAb8VKdcTC2DflK5vNybZFSYiS_M",
+          "timestamp": "2026-09-14T01:26:08.022351+00:00",
+          "interaction": 89
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Interview with Murata's Vice President on MLCC Market Demand Outlook and Future Strategy (Nikkei)  Q) What is your outlook for the MLCC market?  - MLCC content per AI server is rising, and alongside small size and high capacitance, demand for high heat resistance MLCC is also",
+          "url": "https://x.com/jukan05/status/2099288460695941189",
+          "timestamp": "2026-09-14T08:05:46.000+08:00",
+          "interaction": 52
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Michael Dell’s family office nears deal to take insurance broker private",
+          "url": "https://x.com/FT/status/2099265126238994730",
+          "timestamp": "2026-09-14T06:33:03.000+08:00",
+          "interaction": 41
+        }
+      ]
+    },
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 1,
+      "competitor_count": 5,
+      "competitor_engagement": 172,
+      "competitors_covering": [
+        "tphuang",
+        "dnystedt",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【外資狂賣千億！官股308億掃貨15檔 台積電、台達電、緯創上榜】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02wd38kGf1WKaQUEyTzx3iREon5xaNfUoS2uxjYAEXUxcmcDLp6dFfJPKdWDoyV9Psl?__cft__[0]=AZh6VZECk706_HbLix8-feD-mDGE-q5dAbYDJPsgEacNafOGC0Ojctby1tnaCKtZHbF0UR-mPjvZhJBoA9qugYmRYIjfW9xQRpoHnKgWChJ0rAjOm5VcAz-1a5fdW5c5tzQTIyRgmYHAXF7jwM69eknVR6pkPXjZAb8VKdcTC2DflK5vNybZFSYiS_M",
+          "timestamp": "2026-09-14T01:26:08.022351+00:00",
+          "interaction": 89
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "Kirin 9050 is a huge upgrade over 9030 Pro in GPU (2.2 TFLOPS vs 1.4 TFLOPS)  See this in various gaming performance: Genshin Impact & 2 other games Mate XT2 vs XT vs Samsung Galaxy Z Trifold XT2 had the higher fps than Galaxy Z despite using SMIC process vs TSMC N3  This is the",
+          "url": "https://x.com/tphuang/status/2099271082402304012",
+          "timestamp": "2026-09-14T06:56:43.000+08:00",
+          "interaction": 33
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "TSMC 2nm and 3nm capacity expansion shows why revenue will hit new record highs in 2027, media report: - 2nm capacity to rise 22% to 110,000 wafers per month (wpm) by mid-2027, from 90,000 at end-2026 - 3nm capacity will rise ~70% to 210,000wpm by mid-2027 vs end-2025:  2026-end:",
+          "url": "https://x.com/dnystedt/status/2099279154671960407",
+          "timestamp": "2026-09-14T07:28:47.000+08:00",
+          "interaction": 26
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【9／14盤前｜台積電點火CPO 新成長曲線浮現 台廠九條好漢摩拳擦掌】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02TH6dPWdYm36XoCLkLFtohMFvTess1YK5VRK8nwjDeS2xgtsiTFjMdSEiFDepaTLel?__cft__[0]=AZhEOd8RRbGSiMfxAFA4uNZrgDRjo8JXwR3fUREMIWBfvPF1tmFqb9BsT3_9q-_DuThN7nC4DrvW6xbZlGsz338VMcPuYX7nzqIBL55kbRhwfIrJixpc3l9XJj9rXerONDw1tO8q9SWsMR2pJF5l5e43ZLvH2Eo5AC9g5xcIPzOXMBpA-4fecv8cmdo",
+          "timestamp": "2026-09-14T01:26:08.022351+00:00",
+          "interaction": 16
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "#名家評論\n 台灣半導體產業站在全球科技產業浪頭，從晶圓製造、先進封裝到AI應用，成台灣經濟成長的重要引擎，遺憾的是，與半導體業相關的台灣機械、工具機及精密製造業，卻未能分享這波AI高科技紅利；如何把半導體的技術需求與設備投資動能，轉化為機械製造業升級的力量，半導體設備國產化或許可成為政府進一步布局的突破口。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid032NuHiD7iZxUVSPvSE5fwBed7VxnU6nWK9S4DZ8c5QckjTdf4FYut36ApNvMb4UT3l?comment_id=1416571983735340",
+          "timestamp": "2026-09-14T01:26:08.022351+00:00",
+          "interaction": 8
         }
       ]
     }
@@ -207,12 +312,104 @@
           "interaction": 98
         }
       ]
+    },
+    {
+      "cluster_id": "E",
+      "label": "AI 伺服器供應鏈",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 182,
+      "competitors_covering": [
+        "jukan05",
+        "FT",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【外資狂賣千億！官股308億掃貨15檔 台積電、台達電、緯創上榜】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02wd38kGf1WKaQUEyTzx3iREon5xaNfUoS2uxjYAEXUxcmcDLp6dFfJPKdWDoyV9Psl?__cft__[0]=AZh6VZECk706_HbLix8-feD-mDGE-q5dAbYDJPsgEacNafOGC0Ojctby1tnaCKtZHbF0UR-mPjvZhJBoA9qugYmRYIjfW9xQRpoHnKgWChJ0rAjOm5VcAz-1a5fdW5c5tzQTIyRgmYHAXF7jwM69eknVR6pkPXjZAb8VKdcTC2DflK5vNybZFSYiS_M",
+          "timestamp": "2026-09-14T01:26:08.022351+00:00",
+          "interaction": 89
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Interview with Murata's Vice President on MLCC Market Demand Outlook and Future Strategy (Nikkei)  Q) What is your outlook for the MLCC market?  - MLCC content per AI server is rising, and alongside small size and high capacitance, demand for high heat resistance MLCC is also",
+          "url": "https://x.com/jukan05/status/2099288460695941189",
+          "timestamp": "2026-09-14T08:05:46.000+08:00",
+          "interaction": 52
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Michael Dell’s family office nears deal to take insurance broker private",
+          "url": "https://x.com/FT/status/2099265126238994730",
+          "timestamp": "2026-09-14T06:33:03.000+08:00",
+          "interaction": 41
+        }
+      ]
+    },
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 1,
+      "competitor_count": 5,
+      "competitor_engagement": 172,
+      "competitors_covering": [
+        "tphuang",
+        "dnystedt",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【外資狂賣千億！官股308億掃貨15檔 台積電、台達電、緯創上榜】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02wd38kGf1WKaQUEyTzx3iREon5xaNfUoS2uxjYAEXUxcmcDLp6dFfJPKdWDoyV9Psl?__cft__[0]=AZh6VZECk706_HbLix8-feD-mDGE-q5dAbYDJPsgEacNafOGC0Ojctby1tnaCKtZHbF0UR-mPjvZhJBoA9qugYmRYIjfW9xQRpoHnKgWChJ0rAjOm5VcAz-1a5fdW5c5tzQTIyRgmYHAXF7jwM69eknVR6pkPXjZAb8VKdcTC2DflK5vNybZFSYiS_M",
+          "timestamp": "2026-09-14T01:26:08.022351+00:00",
+          "interaction": 89
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "Kirin 9050 is a huge upgrade over 9030 Pro in GPU (2.2 TFLOPS vs 1.4 TFLOPS)  See this in various gaming performance: Genshin Impact & 2 other games Mate XT2 vs XT vs Samsung Galaxy Z Trifold XT2 had the higher fps than Galaxy Z despite using SMIC process vs TSMC N3  This is the",
+          "url": "https://x.com/tphuang/status/2099271082402304012",
+          "timestamp": "2026-09-14T06:56:43.000+08:00",
+          "interaction": 33
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "TSMC 2nm and 3nm capacity expansion shows why revenue will hit new record highs in 2027, media report: - 2nm capacity to rise 22% to 110,000 wafers per month (wpm) by mid-2027, from 90,000 at end-2026 - 3nm capacity will rise ~70% to 210,000wpm by mid-2027 vs end-2025:  2026-end:",
+          "url": "https://x.com/dnystedt/status/2099279154671960407",
+          "timestamp": "2026-09-14T07:28:47.000+08:00",
+          "interaction": 26
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【9／14盤前｜台積電點火CPO 新成長曲線浮現 台廠九條好漢摩拳擦掌】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02TH6dPWdYm36XoCLkLFtohMFvTess1YK5VRK8nwjDeS2xgtsiTFjMdSEiFDepaTLel?__cft__[0]=AZhEOd8RRbGSiMfxAFA4uNZrgDRjo8JXwR3fUREMIWBfvPF1tmFqb9BsT3_9q-_DuThN7nC4DrvW6xbZlGsz338VMcPuYX7nzqIBL55kbRhwfIrJixpc3l9XJj9rXerONDw1tO8q9SWsMR2pJF5l5e43ZLvH2Eo5AC9g5xcIPzOXMBpA-4fecv8cmdo",
+          "timestamp": "2026-09-14T01:26:08.022351+00:00",
+          "interaction": 16
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "#名家評論\n 台灣半導體產業站在全球科技產業浪頭，從晶圓製造、先進封裝到AI應用，成台灣經濟成長的重要引擎，遺憾的是，與半導體業相關的台灣機械、工具機及精密製造業，卻未能分享這波AI高科技紅利；如何把半導體的技術需求與設備投資動能，轉化為機械製造業升級的力量，半導體設備國產化或許可成為政府進一步布局的突破口。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid032NuHiD7iZxUVSPvSE5fwBed7VxnU6nWK9S4DZ8c5QckjTdf4FYut36ApNvMb4UT3l?comment_id=1416571983735340",
+          "timestamp": "2026-09-14T01:26:08.022351+00:00",
+          "interaction": 8
+        }
+      ]
     }
   ],
   "window": {
-    "start_utc": "2026-09-14T00:33:46+08:00",
-    "end_utc": "2026-09-14T08:33:46+08:00",
-    "start_tw": "Sep 14, 00:33",
-    "end_tw": "Sep 14, 08:33"
+    "start_utc": "2026-09-13T17:28:35.465835+00:00",
+    "end_utc": "2026-09-14T01:28:35.465835+00:00",
+    "start_tw": "Sep 14, 01:28",
+    "end_tw": "Sep 14, 09:28"
   }
 }

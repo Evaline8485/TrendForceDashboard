@@ -1,62 +1,53 @@
 {
-  "generated_at": "2026-09-14T08:33:46+08:00",
+  "generated_at": "2026-09-14T01:28:35.465835+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-09-14T04:33:46+08:00",
-    "end_utc": "2026-09-14T08:33:46+08:00",
-    "start_tw": "Sep 14, 04:33",
-    "end_tw": "Sep 14, 08:33"
+    "start_utc": "2026-09-13T21:28:35.465835+00:00",
+    "end_utc": "2026-09-14T01:28:35.465835+00:00",
+    "start_tw": "Sep 14, 05:28",
+    "end_tw": "Sep 14, 09:28"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 20,
+      "total_posts": 28,
       "sentiment_counts": {
-        "negative": 5,
-        "neutral": 8,
-        "positive": 7
+        "negative": 6,
+        "neutral": 12,
+        "positive": 10
       },
       "sentiment_share": {
-        "negative": 0.25,
-        "neutral": 0.4,
-        "positive": 0.35
+        "negative": 0.214,
+        "neutral": 0.429,
+        "positive": 0.357
       },
       "top_terms": [
-        "anthropic",
-        "server",
-        "revenue",
-        "investors",
-        "先進",
-        "kirin",
-        "tsmc",
         "查看",
         "看更",
-        "更多"
+        "更多",
+        "查看更",
+        "看更多",
+        "anthropic",
+        "先進",
+        "台積",
+        "積電",
+        "台積電"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "investors / anthropic",
-        "heat": 50.0,
-        "volume": 2,
-        "engagement": 497,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
         "topic_id": 3,
         "label": "vs / tsmc / kirin / revenue",
-        "heat": 50.0,
+        "heat": 90.0,
         "volume": 3,
         "engagement": 81,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
+        "topic_id": 2,
         "label": "server",
-        "heat": 10.0,
+        "heat": 50.0,
         "volume": 2,
         "engagement": 98,
         "entities": [],
@@ -64,16 +55,37 @@
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，13 篇）",
+        "label": "怕ai害你失業",
         "heat": 10.0,
-        "volume": 13,
-        "engagement": 1779,
+        "volume": 2,
+        "engagement": 11,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "台股超級變數周來了",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 26,
+        "entities": [
+          "聯準會",
+          "台股三大"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，19 篇）",
+        "heat": 10.0,
+        "volume": 19,
+        "engagement": 2431,
         "entities": [
           "金居",
           "甲骨文",
-          "SK海力士",
-          "仁荷",
-          "台光"
+          "台灣",
+          "台積電",
+          "SK海力士"
         ],
         "is_catchall": true
       }
@@ -85,6 +97,14 @@
       },
       {
         "entity": "甲骨文",
+        "count": 2
+      },
+      {
+        "entity": "台灣",
+        "count": 2
+      },
+      {
+        "entity": "台積電",
         "count": 2
       },
       {
@@ -106,79 +126,36 @@
       {
         "entity": "埃里森",
         "count": 1
+      },
+      {
+        "entity": "聯準會",
+        "count": 1
+      },
+      {
+        "entity": "台股三大",
+        "count": 1
+      },
+      {
+        "entity": "成台灣",
+        "count": 1
+      },
+      {
+        "entity": "高科技",
+        "count": 1
+      },
+      {
+        "entity": "紅利",
+        "count": 1
+      },
+      {
+        "entity": "台廠",
+        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-14T04:33:45.999994+08:00",
-        "bucket_end": "2026-09-14T04:50:54.571423+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T04:50:54.571423+08:00",
-        "bucket_end": "2026-09-14T05:08:03.142852+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 77,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 77,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Just published: front page of the Financial Times, international edition, Monday 14 September     https:// ft.trib.al/QCix5EI",
-            "url": "https://x.com/FT/status/2099241741819789360",
-            "interaction": 77
-          }
-        ],
-        "net_sentiment_smoothed": -25.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T05:08:03.142852+08:00",
-        "bucket_end": "2026-09-14T05:25:11.714281+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 145,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 145,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Trump scraps tariffs on Irish whiskey during visit to country",
-            "url": "https://x.com/FT/status/2099246999170175210",
-            "interaction": 145
-          }
-        ],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T05:25:11.714281+08:00",
-        "bucket_end": "2026-09-14T05:42:20.285710+08:00",
+        "bucket_start": "2026-09-13T21:28:35.465829+00:00",
+        "bucket_end": "2026-09-13T21:45:44.037258+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -198,12 +175,12 @@
             "interaction": 80
           }
         ],
-        "net_sentiment_smoothed": -20.0,
+        "net_sentiment_smoothed": -33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T05:42:20.285710+08:00",
-        "bucket_end": "2026-09-14T05:59:28.857139+08:00",
+        "bucket_start": "2026-09-13T21:45:44.037258+00:00",
+        "bucket_end": "2026-09-13T22:02:52.608687+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -215,12 +192,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
+        "net_sentiment_smoothed": -25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T05:59:28.857139+08:00",
-        "bucket_end": "2026-09-14T06:16:37.428568+08:00",
+        "bucket_start": "2026-09-13T22:02:52.608687+00:00",
+        "bucket_end": "2026-09-13T22:20:01.180116+00:00",
         "positive": 1,
         "neutral": 1,
         "negative": 1,
@@ -251,8 +228,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T06:16:37.428568+08:00",
-        "bucket_end": "2026-09-14T06:33:45.999997+08:00",
+        "bucket_start": "2026-09-13T22:20:01.180116+00:00",
+        "bucket_end": "2026-09-13T22:37:09.751545+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
@@ -276,8 +253,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T06:33:45.999997+08:00",
-        "bucket_end": "2026-09-14T06:50:54.571426+08:00",
+        "bucket_start": "2026-09-13T22:37:09.751545+00:00",
+        "bucket_end": "2026-09-13T22:54:18.322974+00:00",
         "positive": 3,
         "neutral": 0,
         "negative": 1,
@@ -289,9 +266,9 @@
         "engagement": 1734,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "investors / anthropic",
-            "count": 2
+            "topic_id": 0,
+            "label": "怕ai害你失業",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -311,11 +288,11 @@
           }
         ],
         "net_sentiment_smoothed": 23.3,
-        "is_anomaly": true
+        "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T06:50:54.571426+08:00",
-        "bucket_end": "2026-09-14T07:08:03.142855+08:00",
+        "bucket_start": "2026-09-13T22:54:18.322974+00:00",
+        "bucket_end": "2026-09-13T23:11:26.894403+00:00",
         "positive": 2,
         "neutral": 1,
         "negative": 0,
@@ -352,8 +329,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T07:08:03.142855+08:00",
-        "bucket_end": "2026-09-14T07:25:11.714284+08:00",
+        "bucket_start": "2026-09-13T23:11:26.894403+00:00",
+        "bucket_end": "2026-09-13T23:28:35.465832+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -365,12 +342,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 23.3,
+        "net_sentiment_smoothed": 3.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T07:25:11.714284+08:00",
-        "bucket_end": "2026-09-14T07:42:20.285713+08:00",
+        "bucket_start": "2026-09-13T23:28:35.465832+00:00",
+        "bucket_end": "2026-09-13T23:45:44.037261+00:00",
         "positive": 0,
         "neutral": 2,
         "negative": 0,
@@ -382,7 +359,7 @@
         "engagement": 72,
         "top_topics": [
           {
-            "topic_id": 1,
+            "topic_id": 2,
             "label": "server",
             "count": 1
           },
@@ -408,41 +385,49 @@
             "interaction": 26
           }
         ],
-        "net_sentiment_smoothed": -6.7,
+        "net_sentiment_smoothed": -26.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T07:42:20.285713+08:00",
-        "bucket_end": "2026-09-14T07:59:28.857142+08:00",
+        "bucket_start": "2026-09-13T23:45:44.037261+00:00",
+        "bucket_end": "2026-09-14T00:02:52.608690+00:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T07:59:28.857142+08:00",
-        "bucket_end": "2026-09-14T08:16:37.428571+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 53,
+        "negative_engagement": 1,
         "net_sentiment": -100.0,
-        "post_count": 2,
-        "engagement": 53,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "混合鍵合為基礎技術！ #SK海力士拆解HybridBonding路線圖 SK 海力士 8 月 25 日在官方新聞室刊出仁荷大學教授 Seunghwan Joo 撰寫的專欄，將混合鍵合定位為 AI 時代封裝的基礎技術，直言 HBM 邁向 20 層以上時，微凸塊接合已逼近物理極限。 #HybridBonding技術原理…",
+            "url": "https://x.com/technews_tw/status/2099287352166502864",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": -30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T00:02:52.608690+00:00",
+        "bucket_end": "2026-09-14T00:20:01.180119+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 52,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 52,
         "top_topics": [
           {
-            "topic_id": 1,
+            "topic_id": 2,
             "label": "server",
             "count": 1
           }
@@ -454,32 +439,32 @@
             "text": "Interview with Murata's Vice President on MLCC Market Demand Outlook and Future Strategy (Nikkei)  Q) What is your outlook for the MLCC market?  - MLCC content per AI server is rising, and alongside s",
             "url": "https://x.com/jukan05/status/2099288460695941189",
             "interaction": 52
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "混合鍵合為基礎技術！ #SK海力士拆解HybridBonding路線圖 SK 海力士 8 月 25 日在官方新聞室刊出仁荷大學教授 Seunghwan Joo 撰寫的專欄，將混合鍵合定位為 AI 時代封裝的基礎技術，直言 HBM 邁向 20 層以上時，微凸塊接合已逼近物理極限。 #HybridBonding技術原理…",
-            "url": "https://x.com/technews_tw/status/2099287352166502864",
-            "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -30.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T08:16:37.428571+08:00",
-        "bucket_end": "2026-09-14T08:33:46+08:00",
+        "bucket_start": "2026-09-14T00:20:01.180119+00:00",
+        "bucket_end": "2026-09-14T00:37:09.751548+00:00",
         "positive": 1,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 7,
-        "neutral_engagement": 0,
+        "neutral_engagement": 13,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 7,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 20,
         "top_topics": [],
         "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "SoftBank -11%",
+            "url": "https://x.com/jukan05/status/2099295506086379582",
+            "interaction": 13
+          },
           {
             "handle": "QQ_Timmy",
             "platform": "X",
@@ -488,8 +473,85 @@
             "interaction": 7
           }
         ],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -30.0,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T00:37:09.751548+00:00",
+        "bucket_end": "2026-09-14T00:54:18.322977+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -5.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T00:54:18.322977+00:00",
+        "bucket_end": "2026-09-14T01:11:26.894406+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 18.1,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T01:11:26.894406+00:00",
+        "bucket_end": "2026-09-14T01:28:35.465835+00:00",
+        "positive": 3,
+        "neutral": 5,
+        "negative": 1,
+        "positive_engagement": 24,
+        "neutral_engagement": 163,
+        "negative_engagement": 11,
+        "net_sentiment": 22.2,
+        "post_count": 9,
+        "engagement": 198,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "台股超級變數周來了",
+            "count": 2
+          },
+          {
+            "topic_id": 0,
+            "label": "怕ai害你失業",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "【外資狂賣千億！官股308億掃貨15檔 台積電、台達電、緯創上榜】…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02wd38kGf1WKaQUEyTzx3iREon5xaNfUoS2uxjYAEXUxcmcDLp6dFfJPKdWDoyV9Psl?__cft__[0]=AZh6VZECk706_HbLix8-feD-mDGE-q5dAbYDJPsgEacNafOGC0Ojctby1tnaCKtZHbF0UR-mPjvZhJBoA9qugYmRYIjfW9xQRpoHnKgWChJ0rAjOm5VcAz-1a5fdW5c5tzQTIyRgmYHAXF7jwM69eknVR6pkPXjZAb8VKdcTC2DflK5vNybZFSYiS_M",
+            "interaction": 89
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "台股超級變數周來了！…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid03uFmLcViUxcT1syeeP4viP7FRaKWZLKNKc5RgGZ7KgMkEuahGiYEuM32WTZ7jwWul?__cft__[0]=AZiYMhpfIyiiFCV7dq3wBgpZRPKQc-zKsEshd4dB0qGIjiSWFV5uRekwuKDSTVLW38kN6qvc-tDroqXFa_TypW1b6S74zJe_i5L7gYYQ3wQHI9iY4qHhsronEKHjvNJrhbe0Gr2vpqPBdWn0-TE36cB7yrcJTv1AaLoNKc_SqJCXlfNAt7YPZL2acuI",
+            "interaction": 26
+          }
+        ],
+        "net_sentiment_smoothed": 7.4,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
@@ -497,18 +559,6 @@
         "topic_id": 3,
         "label": "vs / tsmc / kirin / revenue",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -552,25 +602,25 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 1,
+        "topic_id": 2,
         "label": "server",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -614,12 +664,86 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 2,
-        "label": "investors / anthropic",
+        "topic_id": 0,
+        "label": "怕ai害你失業",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "台股超級變數周來了",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -650,32 +774,32 @@
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
             "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           }
         ]
       }
@@ -683,40 +807,48 @@
     "coverage_focus_ranking": [
       {
         "handle": "technews_tw",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，13 篇）",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，19 篇）",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 2
       },
       {
+        "handle": "jukan05",
+        "top_topic_id": 2,
+        "top_topic_label": "server",
+        "focus_share": 1.0,
+        "post_count": 4,
+        "unclustered_posts": 3
+      },
+      {
         "handle": "QQ_Timmy",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，13 篇）",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，19 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
       },
       {
         "handle": "FT",
-        "top_topic_id": 2,
-        "top_topic_label": "investors / anthropic",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，19 篇）",
         "focus_share": 1.0,
-        "post_count": 6,
-        "unclustered_posts": 5
+        "post_count": 4,
+        "unclustered_posts": 4
       },
       {
         "handle": "technewsinside",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，13 篇）",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，19 篇）",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 2
       },
       {
-        "handle": "ctee.fans",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，13 篇）",
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，19 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
@@ -730,16 +862,16 @@
         "unclustered_posts": 0
       },
       {
-        "handle": "jukan05",
-        "top_topic_id": 1,
-        "top_topic_label": "server",
+        "handle": "ctee.fans",
+        "top_topic_id": 0,
+        "top_topic_label": "怕ai害你失業",
         "focus_share": 0.5,
-        "post_count": 4,
-        "unclustered_posts": 2
+        "post_count": 10,
+        "unclustered_posts": 6
       },
       {
         "handle": "dnystedt",
-        "top_topic_id": 1,
+        "top_topic_id": 2,
         "top_topic_label": "server",
         "focus_share": 0.5,
         "post_count": 2,
@@ -749,15 +881,6 @@
     "top_engagement_ranking": [
       {
         "topic_id": 2,
-        "label": "investors / anthropic",
-        "total_engagement": 497,
-        "post_count": 2,
-        "top_account": "jukan05",
-        "top_account_engagement": 399,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 1,
         "label": "server",
         "total_engagement": 98,
         "post_count": 2,
@@ -775,22 +898,40 @@
         "is_catchall": false
       },
       {
+        "topic_id": 4,
+        "label": "台股超級變數周來了",
+        "total_engagement": 26,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 26,
+        "is_catchall": false
+      },
+      {
         "topic_id": 0,
-        "label": "其他（未分群，13 篇）",
-        "total_engagement": 1779,
-        "post_count": 13,
+        "label": "怕ai害你失業",
+        "total_engagement": 11,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 11,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，19 篇）",
+        "total_engagement": 2431,
+        "post_count": 19,
         "top_account": "jukan05",
-        "top_account_engagement": 1250,
+        "top_account_engagement": 1649,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 17,
-          "likes": 1798,
-          "engagement": 2153,
-          "avg_engagement": 126.6
+          "post_count": 27,
+          "likes": 2212,
+          "engagement": 2567,
+          "avg_engagement": 95.1
         },
         "afternoon": {
           "post_count": 0,
@@ -805,10 +946,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 3,
-          "likes": 200,
-          "engagement": 302,
-          "avg_engagement": 100.7
+          "post_count": 1,
+          "likes": 50,
+          "engagement": 80,
+          "avg_engagement": 80.0
         }
       },
       "peak_slot": "morning"
