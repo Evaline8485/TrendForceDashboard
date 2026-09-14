@@ -1,34 +1,313 @@
 {
   "clusters": [
     {
-      "id": "L",
-      "label": "總經 / Fed",
-      "size": 1,
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 4,
       "accounts": {
-        "FT": 1
+        "technewsinside": 1,
+        "ctee.fans": 3
       },
       "engagement_by_account": {
-        "FT": 18
+        "technewsinside": 26,
+        "ctee.fans": 127
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 4,
+      "accounts": {
+        "technewsinside": 3,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 66,
+        "yutinghaosfinance": 281
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 4,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 12,
+        "ctee.fans": 145
+      }
+    },
+    {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 3,
+      "accounts": {
+        "QQ_Timmy": 1,
+        "technewsinside": 2
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 2,
+        "technewsinside": 123
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 3,
+      "accounts": {
+        "technewsinside": 2,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 33,
+        "ctee.fans": 42
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 37,
+        "ctee.fans": 9
       }
     },
     {
       "id": "O",
       "label": "邊緣 AI / 新終端",
-      "size": 1,
+      "size": 2,
       "accounts": {
-        "technews_tw": 1
+        "technewsinside": 2
       },
       "engagement_by_account": {
-        "technews_tw": 0
+        "technewsinside": 26
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 2
+      }
+    },
+    {
+      "id": "G",
+      "label": "IC 設計",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 24
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 57
+      }
+    },
+    {
+      "id": "L",
+      "label": "總經 / Fed",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 10
+      }
+    },
+    {
+      "id": "Q",
+      "label": "機器人 / Robotics",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 14
+      }
+    },
+    {
+      "id": "S",
+      "label": "電網 / 能源基礎設施",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 7
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 145,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【418億活水！27檔台股ETF除息秀敲鑼 00919、00981A都入列 單次殖利率最高5.19%】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02vmg5ifWst724XL9hSK5XGW7nEFcWirWz5DQjCu6iVhtCKFg2Kjg1reznPswmJvAQl?__cft__[0]=AZh6U7CAfpGW010an-Qzd2lO1sOnU80swAnU9lWNnWvOxtusqEiE1gJ38QhJ-p3qhdDxCscSMEQsbWRAVWjcBiZdA34H5swKgkbbzRJ5GLqqYx7WkhcAPkUgqVUpHJmq7WBhYM5DhQqgThF-Di5ZSWpaayvmH3vwIZGymknzYrZMr_CEv2-HjaAEzx8",
+          "timestamp": "2026-09-14T08:53:36.224411+00:00",
+          "interaction": 112
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美股上周五（11日）四大指數齊揚，台指期夜盤上漲逾400點，眼見情勢一片大好，然周末期間科技巨頭輪番發言籲AI暫踩煞車，加上中東局面仍無進展，美歐期貨下跌，日、韓股市走低，台股今（14）日開盤跳水近800點，台積電、記憶體、面板、被動元件、光學等族群全面走弱，盤中在聯發科、聯電、金融股支撐下跌幅收斂，收盤報45,862.52點，下跌3…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0b3NYALJVrjCLM7YtoLK8SJM2wGZrKPn5SCqUeJBSVv3HyrLdnS53Qep61eyS95jEl?__cft__[0]=AZiYEB9nVNJVIMMWXGTaYDQ5rJNyEqtoGfH6kNsbRw_hCDsZy77_un8DFDg1pNLoP6AxAsrKuVcggExyWCIjOlZG_Z5Mt10rzgSOVFGkQOsaCNc3XpNcqoMAKo1snK83dJRS3ZfAvOln8R91Q4z-BZZxAt63A-cE-1J4p2jd59NmyUXjdrpRrWVo9RU",
+          "timestamp": "2026-09-14T08:53:36.224411+00:00",
+          "interaction": 24
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【9／14盤中熱門焦點股】\n✓黃仁勳一句話帶飛資安股！中華資安、伊雲谷亮紅燈 這兩檔再飆第2根漲停…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid06cBzRr3rYp8DHvjLmG68yFMJr6Z9sT4PUdJfsJXfwonYQVY2zMdPbwUKbL7ER61Hl?__cft__[0]=AZiusJYIca637DDAtnsyyJ7SCOIiAlrk51edv-omCq3hiMB8rGWrINOcwQGxz7XA6QPFr44RvnDRaVce-NOOOPoNfDdpCH6Yo58_FB3Nr8vbRJkbgDabRYz8NWMU-j427mVhMPo5xNkAi2E5mxsEK3hi7UGPxTv3Op9FxbBlDY8CsaJ69zKt-BL_R10",
+          "timestamp": "2026-09-14T08:53:36.224411+00:00",
+          "interaction": 9
+        }
+      ]
+    },
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 127,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "CPO也「摩爾定律」！台積電點火助攻 打造新成長曲線 5台廠商機浮現…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid09FrDUEbrc1Zg57aZRNYrprNnbVRowZ7BC1QhFyMuEevVuJCud6rmqA4cXJPjm7iVl?__cft__[0]=AZizou7Jve2lKpqtKLozltvpMxwo91XEyp2w66jfTwHJvl01Fi3H9RsqzRg2er3oS_KZfNjt_SIbK-2rtUgVytGEygb2DDbCi9yPmNFtemGMn93j29r5Uf4xPkP_ZBvYZ_635zHQhFjtFhqPW5RVzuCYiTZGQG7eD595nUK-PC-FV-FLjoIQfOhI6yg",
+          "timestamp": "2026-09-14T08:53:36.224411+00:00",
+          "interaction": 57
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台積電將除息！…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0HbsL4Tb18zYQa9ZHJv392yyWGNyVWVfq3nvZh2RMegCeJ2nP1YDH1JbvU9BbuZhbl?__cft__[0]=AZhUlY48mQurHfts8T7DCHbYuP4AsBNR0GOAYxMWqBjZOYYTjKk044dcZg6bNcFa4pHTm2_vLerxak5DWBba8eLXPoIjMN2VoX09IVm2NFixekeetm_pOQl1LfHlG34nsmpK1PU_xLd_sWkb1bczqvzbIVHfgd6z9nhZKrCa3nWtiwXRawjBI_Lrv6Q",
+          "timestamp": "2026-09-14T08:53:36.224411+00:00",
+          "interaction": 46
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美股上周五（11日）四大指數齊揚，台指期夜盤上漲逾400點，眼見情勢一片大好，然周末期間科技巨頭輪番發言籲AI暫踩煞車，加上中東局面仍無進展，美歐期貨下跌，日、韓股市走低，台股今（14）日開盤跳水近800點，台積電、記憶體、面板、被動元件、光學等族群全面走弱，盤中在聯發科、聯電、金融股支撐下跌幅收斂，收盤報45,862.52點，下跌3…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0b3NYALJVrjCLM7YtoLK8SJM2wGZrKPn5SCqUeJBSVv3HyrLdnS53Qep61eyS95jEl?__cft__[0]=AZiYEB9nVNJVIMMWXGTaYDQ5rJNyEqtoGfH6kNsbRw_hCDsZy77_un8DFDg1pNLoP6AxAsrKuVcggExyWCIjOlZG_Z5Mt10rzgSOVFGkQOsaCNc3XpNcqoMAKo1snK83dJRS3ZfAvOln8R91Q4z-BZZxAt63A-cE-1J4p2jd59NmyUXjdrpRrWVo9RU",
+          "timestamp": "2026-09-14T08:53:36.224411+00:00",
+          "interaction": 24
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 145,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【418億活水！27檔台股ETF除息秀敲鑼 00919、00981A都入列 單次殖利率最高5.19%】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02vmg5ifWst724XL9hSK5XGW7nEFcWirWz5DQjCu6iVhtCKFg2Kjg1reznPswmJvAQl?__cft__[0]=AZh6U7CAfpGW010an-Qzd2lO1sOnU80swAnU9lWNnWvOxtusqEiE1gJ38QhJ-p3qhdDxCscSMEQsbWRAVWjcBiZdA34H5swKgkbbzRJ5GLqqYx7WkhcAPkUgqVUpHJmq7WBhYM5DhQqgThF-Di5ZSWpaayvmH3vwIZGymknzYrZMr_CEv2-HjaAEzx8",
+          "timestamp": "2026-09-14T08:53:36.224411+00:00",
+          "interaction": 112
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美股上周五（11日）四大指數齊揚，台指期夜盤上漲逾400點，眼見情勢一片大好，然周末期間科技巨頭輪番發言籲AI暫踩煞車，加上中東局面仍無進展，美歐期貨下跌，日、韓股市走低，台股今（14）日開盤跳水近800點，台積電、記憶體、面板、被動元件、光學等族群全面走弱，盤中在聯發科、聯電、金融股支撐下跌幅收斂，收盤報45,862.52點，下跌3…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0b3NYALJVrjCLM7YtoLK8SJM2wGZrKPn5SCqUeJBSVv3HyrLdnS53Qep61eyS95jEl?__cft__[0]=AZiYEB9nVNJVIMMWXGTaYDQ5rJNyEqtoGfH6kNsbRw_hCDsZy77_un8DFDg1pNLoP6AxAsrKuVcggExyWCIjOlZG_Z5Mt10rzgSOVFGkQOsaCNc3XpNcqoMAKo1snK83dJRS3ZfAvOln8R91Q4z-BZZxAt63A-cE-1J4p2jd59NmyUXjdrpRrWVo9RU",
+          "timestamp": "2026-09-14T08:53:36.224411+00:00",
+          "interaction": 24
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【9／14盤中熱門焦點股】\n✓黃仁勳一句話帶飛資安股！中華資安、伊雲谷亮紅燈 這兩檔再飆第2根漲停…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid06cBzRr3rYp8DHvjLmG68yFMJr6Z9sT4PUdJfsJXfwonYQVY2zMdPbwUKbL7ER61Hl?__cft__[0]=AZiusJYIca637DDAtnsyyJ7SCOIiAlrk51edv-omCq3hiMB8rGWrINOcwQGxz7XA6QPFr44RvnDRaVce-NOOOPoNfDdpCH6Yo58_FB3Nr8vbRJkbgDabRYz8NWMU-j427mVhMPo5xNkAi2E5mxsEK3hi7UGPxTv3Op9FxbBlDY8CsaJ69zKt-BL_R10",
+          "timestamp": "2026-09-14T08:53:36.224411+00:00",
+          "interaction": 9
+        }
+      ]
+    },
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 127,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "CPO也「摩爾定律」！台積電點火助攻 打造新成長曲線 5台廠商機浮現…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid09FrDUEbrc1Zg57aZRNYrprNnbVRowZ7BC1QhFyMuEevVuJCud6rmqA4cXJPjm7iVl?__cft__[0]=AZizou7Jve2lKpqtKLozltvpMxwo91XEyp2w66jfTwHJvl01Fi3H9RsqzRg2er3oS_KZfNjt_SIbK-2rtUgVytGEygb2DDbCi9yPmNFtemGMn93j29r5Uf4xPkP_ZBvYZ_635zHQhFjtFhqPW5RVzuCYiTZGQG7eD595nUK-PC-FV-FLjoIQfOhI6yg",
+          "timestamp": "2026-09-14T08:53:36.224411+00:00",
+          "interaction": 57
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台積電將除息！…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0HbsL4Tb18zYQa9ZHJv392yyWGNyVWVfq3nvZh2RMegCeJ2nP1YDH1JbvU9BbuZhbl?__cft__[0]=AZhUlY48mQurHfts8T7DCHbYuP4AsBNR0GOAYxMWqBjZOYYTjKk044dcZg6bNcFa4pHTm2_vLerxak5DWBba8eLXPoIjMN2VoX09IVm2NFixekeetm_pOQl1LfHlG34nsmpK1PU_xLd_sWkb1bczqvzbIVHfgd6z9nhZKrCa3nWtiwXRawjBI_Lrv6Q",
+          "timestamp": "2026-09-14T08:53:36.224411+00:00",
+          "interaction": 46
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美股上周五（11日）四大指數齊揚，台指期夜盤上漲逾400點，眼見情勢一片大好，然周末期間科技巨頭輪番發言籲AI暫踩煞車，加上中東局面仍無進展，美歐期貨下跌，日、韓股市走低，台股今（14）日開盤跳水近800點，台積電、記憶體、面板、被動元件、光學等族群全面走弱，盤中在聯發科、聯電、金融股支撐下跌幅收斂，收盤報45,862.52點，下跌3…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0b3NYALJVrjCLM7YtoLK8SJM2wGZrKPn5SCqUeJBSVv3HyrLdnS53Qep61eyS95jEl?__cft__[0]=AZiYEB9nVNJVIMMWXGTaYDQ5rJNyEqtoGfH6kNsbRw_hCDsZy77_un8DFDg1pNLoP6AxAsrKuVcggExyWCIjOlZG_Z5Mt10rzgSOVFGkQOsaCNc3XpNcqoMAKo1snK83dJRS3ZfAvOln8R91Q4z-BZZxAt63A-cE-1J4p2jd59NmyUXjdrpRrWVo9RU",
+          "timestamp": "2026-09-14T08:53:36.224411+00:00",
+          "interaction": 24
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-09-14T11:44:43+08:00",
-    "end_utc": "2026-09-14T12:44:43+08:00",
-    "start_tw": "Sep 14, 11:44",
-    "end_tw": "Sep 14, 12:44"
+    "start_utc": "2026-09-14T07:56:07.794612+00:00",
+    "end_utc": "2026-09-14T08:56:07.794612+00:00",
+    "start_tw": "Sep 14, 15:56",
+    "end_tw": "Sep 14, 16:56"
   }
 }

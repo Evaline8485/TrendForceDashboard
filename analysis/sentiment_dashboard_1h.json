@@ -1,64 +1,220 @@
 {
-  "generated_at": "2026-09-14T12:44:43+08:00",
+  "generated_at": "2026-09-14T08:56:07.794612+00:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-09-14T11:44:43+08:00",
-    "end_utc": "2026-09-14T12:44:43+08:00",
-    "start_tw": "Sep 14, 11:44",
-    "end_tw": "Sep 14, 12:44"
+    "start_utc": "2026-09-14T07:56:07.794612+00:00",
+    "end_utc": "2026-09-14T08:56:07.794612+00:00",
+    "start_tw": "Sep 14, 15:56",
+    "end_tw": "Sep 14, 16:56"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 11,
+      "total_posts": 61,
       "sentiment_counts": {
-        "positive": 4,
-        "neutral": 4,
-        "negative": 3
+        "neutral": 29,
+        "positive": 14,
+        "negative": 18
       },
       "sentiment_share": {
-        "positive": 0.364,
-        "neutral": 0.364,
-        "negative": 0.273
+        "neutral": 0.475,
+        "positive": 0.23,
+        "negative": 0.295
       },
       "top_terms": [
-        "rates",
-        "擺脫",
-        "穿戴",
-        "戴裝",
-        "裝置",
-        "置的",
-        "的隱",
-        "隱私",
-        "私疑",
-        "疑慮"
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
+        "半導",
+        "導體",
+        "半導體",
+        "關鍵",
+        "面臨"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "Misc topic 0",
+        "topic_id": 1,
+        "label": "倍以上",
         "heat": 90.0,
-        "volume": 9,
-        "engagement": 43,
+        "volume": 2,
+        "engagement": 106,
+        "entities": [
+          "美國",
+          "全美",
+          "英國",
+          "章魚",
+          "北移"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "openai / anthropic",
+        "heat": 73.4,
+        "volume": 2,
+        "engagement": 31,
+        "entities": [
+          "馬斯克",
+          "中國",
+          "論戰",
+          "代爾"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "還不夠 / 科技產業變化這麼快 / 只看新聞",
+        "heat": 50.8,
+        "volume": 2,
+        "engagement": 1,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "rates",
+        "topic_id": 4,
+        "label": "應用材料 / 晶片微縮技術逼近極限 / 新材料成為半導體競爭的核心關鍵 / 技術加速材料篩選",
         "heat": 10.0,
-        "volume": 2,
-        "engagement": 21,
+        "volume": 1,
+        "engagement": 0,
+        "entities": [
+          "日本"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "記憶體",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 2,
         "entities": [],
         "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "晶片微縮技術逼近極限 / 新材料成為半導體競爭的核心關鍵 / 技術加速材料篩選 / 應用材料",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 7,
+        "entities": [
+          "日本"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "台積電",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 26,
+        "entities": [
+          "富士通",
+          "日本",
+          "台積電",
+          "超微"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "記憶體 / 台積電",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 24,
+        "entities": [
+          "中東",
+          "美歐",
+          "台積電",
+          "聯發科",
+          "聯電"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，50 篇）",
+        "heat": 10.0,
+        "volume": 50,
+        "engagement": 2270,
+        "entities": [
+          "美國",
+          "東京",
+          "中國",
+          "SK海力士",
+          "伺服器"
+        ],
+        "is_catchall": true
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "日本",
+        "count": 5
+      },
+      {
+        "entity": "美國",
+        "count": 5
+      },
+      {
+        "entity": "台積電",
+        "count": 4
+      },
+      {
+        "entity": "東京",
+        "count": 4
+      },
+      {
+        "entity": "中國",
+        "count": 3
+      },
+      {
+        "entity": "馬斯克",
+        "count": 2
+      },
+      {
+        "entity": "SK海力士",
+        "count": 2
+      },
+      {
+        "entity": "伺服器",
+        "count": 2
+      },
+      {
+        "entity": "富士通",
+        "count": 2
+      },
+      {
+        "entity": "黃仁勳",
+        "count": 2
+      },
+      {
+        "entity": "台灣",
+        "count": 2
+      },
+      {
+        "entity": "衛福部",
+        "count": 2
+      },
+      {
+        "entity": "輝達",
+        "count": 1
+      },
+      {
+        "entity": "上路",
+        "count": 1
+      },
+      {
+        "entity": "陸委會",
+        "count": 1
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-14T11:44:43.000002+08:00",
-        "bucket_end": "2026-09-14T11:49:00.142859+08:00",
+        "bucket_start": "2026-09-14T07:56:07.794614+00:00",
+        "bucket_end": "2026-09-14T08:00:24.937471+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -70,135 +226,43 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T11:49:00.142859+08:00",
-        "bucket_end": "2026-09-14T11:53:17.285716+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T11:53:17.285716+08:00",
-        "bucket_end": "2026-09-14T11:57:34.428573+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T11:57:34.428573+08:00",
-        "bucket_end": "2026-09-14T12:01:51.571430+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T12:01:51.571430+08:00",
-        "bucket_end": "2026-09-14T12:06:08.714287+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T12:06:08.714287+08:00",
-        "bucket_end": "2026-09-14T12:10:25.857144+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T12:10:25.857144+08:00",
-        "bucket_end": "2026-09-14T12:14:43.000001+08:00",
+        "bucket_start": "2026-09-14T08:00:24.937471+00:00",
+        "bucket_end": "2026-09-14T08:04:42.080328+00:00",
         "positive": 1,
-        "neutral": 2,
+        "neutral": 0,
         "negative": 0,
-        "positive_engagement": 6,
-        "neutral_engagement": 13,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 33.3,
-        "post_count": 3,
-        "engagement": 19,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 0,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "Misc topic 0",
-            "count": 3
+            "topic_id": 2,
+            "label": "還不夠 / 科技產業變化這麼快 / 只看新聞",
+            "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
+            "handle": "technews_tw",
             "platform": "X",
-            "text": "Pokémon is increasingly catching up with the established sports card market, analysts and dealers say, with a vintage Pikachu Illustrator card from 1998 selling for a record $16.5mn earlier this year.",
-            "url": "https://x.com/FT/status/2099351088184897809",
-            "interaction": 12
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "A ‘lucky’ chancellor must also be a resolute one  https:// ft.trib.al/wzlU87g  | opinion",
-            "url": "https://x.com/FT/status/2099351108661420050",
-            "interaction": 6
+            "text": "科技產業變化這麼快， 只看新聞，還不夠。 從先進製程、AI 到半導體產業， 看懂關鍵趨勢，才能掌握下一步。 TechNews VIP｜給想比別人早 一步看懂產業的人 中秋限時優惠 🎁 訂閱年方案即贈 $200 量販即享券 9.14 → 10.2 立即升級 VIP ＞",
+            "url": "https://x.com/technews_tw/status/2099408783470649443",
+            "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 13.3,
+        "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T12:14:43.000001+08:00",
-        "bucket_end": "2026-09-14T12:19:00.142858+08:00",
+        "bucket_start": "2026-09-14T08:04:42.080328+00:00",
+        "bucket_end": "2026-09-14T08:08:59.223185+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -210,50 +274,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 13.3,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T12:19:00.142858+08:00",
-        "bucket_end": "2026-09-14T12:23:17.285715+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 6,
-        "neutral_engagement": 0,
-        "negative_engagement": 8,
-        "net_sentiment": 33.3,
-        "post_count": 3,
-        "engagement": 14,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "Misc topic 0",
-            "count": 3
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Global AI stocks slip on concerns over risks",
-            "url": "https://x.com/FT/status/2099352814459781524",
-            "interaction": 8
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "How high might natural gas prices go?  https:// ft.trib.al/v3i8Pzr  | opinion",
-            "url": "https://x.com/FT/status/2099353236205424641",
-            "interaction": 6
-          }
-        ],
-        "net_sentiment_smoothed": 8.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T12:23:17.285715+08:00",
-        "bucket_end": "2026-09-14T12:27:34.428572+08:00",
+        "bucket_start": "2026-09-14T08:08:59.223185+00:00",
+        "bucket_end": "2026-09-14T08:13:16.366042+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -265,108 +291,326 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 1.7,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T12:27:34.428572+08:00",
-        "bucket_end": "2026-09-14T12:31:51.571429+08:00",
-        "positive": 1,
+        "bucket_start": "2026-09-14T08:13:16.366042+00:00",
+        "bucket_end": "2026-09-14T08:17:33.508899+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T08:17:33.508899+00:00",
+        "bucket_end": "2026-09-14T08:21:50.651756+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T08:21:50.651756+00:00",
+        "bucket_end": "2026-09-14T08:26:07.794613+00:00",
+        "positive": 0,
         "neutral": 1,
-        "negative": 2,
-        "positive_engagement": 5,
-        "neutral_engagement": 3,
-        "negative_engagement": 22,
-        "net_sentiment": -25.0,
-        "post_count": 4,
-        "engagement": 30,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 0,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "rates",
-            "count": 2
-          },
-          {
-            "topic_id": 0,
-            "label": "Misc topic 0",
-            "count": 2
+            "topic_id": 4,
+            "label": "應用材料 / 晶片微縮技術逼近極限 / 新材料成為半導體競爭的核心關鍵 / 技術加速材料篩選",
+            "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
+            "handle": "technews_tw",
             "platform": "X",
-            "text": "Warsh and Trump on collision course as investors expect Fed to raise rates",
-            "url": "https://x.com/FT/status/2099354723077718311",
-            "interaction": 18
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "European capitals barter over Christine Lagarde’s successor at ECB",
-            "url": "https://x.com/FT/status/2099354714433356051",
-            "interaction": 5
+            "text": "晶片微縮技術逼近極限，新材料成為半導體競爭的核心關鍵！#應用材料 導入 AI 技術加速材料篩選，並結合日本完備的產業鏈合作。",
+            "url": "https://x.com/technews_tw/status/2099413580257120741",
+            "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 1.7,
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T08:26:07.794613+00:00",
+        "bucket_end": "2026-09-14T08:30:24.937470+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T08:30:24.937470+00:00",
+        "bucket_end": "2026-09-14T08:34:42.080327+00:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 2,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 2,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "記憶體",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "記憶體：資料中心 HBM 不太可能改用 4-Hi  我們認同 TrendForce 的看法，降規改用 4-Hi 的機率很低，市場擔心 4-Hi 能以更少晶片達到相同頻寬、降低推論成本並緩解 DRAM 供應緊張，但實際可能性不高。  兩大關鍵原因說明資料中心 AI 不太可能採用 4-Hi： - 每堆疊容量太小（HBM5/HBM4E 約 16GB）→",
+            "url": "https://x.com/QQ_Timmy/status/2099415811089924510",
+            "interaction": 2
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T08:34:42.080327+00:00",
+        "bucket_end": "2026-09-14T08:38:59.223184+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T08:38:59.223184+00:00",
+        "bucket_end": "2026-09-14T08:43:16.366041+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -0.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T08:43:16.366041+00:00",
+        "bucket_end": "2026-09-14T08:47:33.508898+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -0.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T08:47:33.508898+00:00",
+        "bucket_end": "2026-09-14T08:51:50.651755+00:00",
+        "positive": 8,
+        "neutral": 12,
+        "negative": 9,
+        "positive_engagement": 119,
+        "neutral_engagement": 279,
+        "negative_engagement": 117,
+        "net_sentiment": -3.4,
+        "post_count": 29,
+        "engagement": 515,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "openai / anthropic",
+            "count": 2
+          },
+          {
+            "topic_id": 8,
+            "label": "晶片微縮技術逼近極限 / 新材料成為半導體競爭的核心關鍵 / 技術加速材料篩選 / 應用材料",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
+            "label": "還不夠 / 科技產業變化這麼快 / 只看新聞",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "混合鍵合為基礎技術！\n#SK海力士拆解HybridBonding路線圖\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02tHByhme9VMjs29mE8L2PzcGqX9GuDMc5Npp8322xzhc18z5Bb1B3q8UbLVmTreFdl?__cft__[0]=AZgoBKgnWeX5PEQ6rvpy9CdfqdMup4FZltWFhcQbQRBpiuOF3LPLnkqL-O-DYl_eapi5wntY36UXx7RzHoRcs38llywYnixPzYlmu1IO87Vj744V68IQBiqHmUvaMSDaFeSbpQM7eBgSLoKx0OakX0ZAkXxeQxtXAgJ3LapxvyGZ9aJbcv2CW-ZOp80",
+            "interaction": 116
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "#黃仁勳\n 獨特的「台灣父母式」嚴格管理引發熱議！他坦言對員工成果要求極高、隨時提出批評，且幾乎沒有工作與生活平衡。",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02bmCUJjU1zdAdevKpNUEFtQaL8E8TBQaivbsWdVRCzgqH3b4ew3Y5UFA2X3qEaSTel?__cft__[0]=AZjvmRGUree_WbiyBMGhkb5AJgIDzr_N9a9IdmlD-cUBWmsbazHV-HZo4Lu2hG8fQwAitHvJ3dtHZcD4T4w3f92Hd4miOLXDR7MkUXMZBRkGioa-ELLy4X6wmOFSXj10k67Yt3yAhBSO9NgsnYI2pypE7HUNsc-tSzP8MWIO7XaAIBwKKIQ1BwD8FZw",
+            "interaction": 37
+          }
+        ],
+        "net_sentiment_smoothed": -0.8,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-09-14T12:31:51.571429+08:00",
-        "bucket_end": "2026-09-14T12:36:08.714286+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
+        "bucket_start": "2026-09-14T08:51:50.651755+00:00",
+        "bucket_end": "2026-09-14T08:56:07.794612+00:00",
+        "positive": 4,
+        "neutral": 13,
+        "negative": 4,
+        "positive_engagement": 218,
+        "neutral_engagement": 444,
+        "negative_engagement": 128,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -5.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T12:36:08.714286+08:00",
-        "bucket_end": "2026-09-14T12:40:25.857143+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -6.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T12:40:25.857143+08:00",
-        "bucket_end": "2026-09-14T12:44:43+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "post_count": 21,
+        "engagement": 790,
+        "top_topics": [
+          {
+            "topic_id": 7,
+            "label": "記憶體 / 台積電",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "【418億活水！27檔台股ETF除息秀敲鑼 00919、00981A都入列 單次殖利率最高5.19%】…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02vmg5ifWst724XL9hSK5XGW7nEFcWirWz5DQjCu6iVhtCKFg2Kjg1reznPswmJvAQl?__cft__[0]=AZh6U7CAfpGW010an-Qzd2lO1sOnU80swAnU9lWNnWvOxtusqEiE1gJ38QhJ-p3qhdDxCscSMEQsbWRAVWjcBiZdA34H5swKgkbbzRJ5GLqqYx7WkhcAPkUgqVUpHJmq7WBhYM5DhQqgThF-Di5ZSWpaayvmH3vwIZGymknzYrZMr_CEv2-HjaAEzx8",
+            "interaction": 112
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "跌成一片...…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02ZjUF5VW53x7t6nYvgYkGQZYigbNRd98itwFXimVRbqfAzpSwCbhnQzkBdjr3NjZ2l?__cft__[0]=AZhvmL1w6r33_aroqghisH0ZUfh4cloYA2gcrI29Ko43avGizVwPFvkps6k0IUJ9mmCiVMQTM3AaeiTGQSXaRTOoSf6w6Nh9TrzKLA7qxEbH1Ciu3NJ6Zdi85SQKuF-DkFTYyLdfnZ8lq1boUyMGhB11l35J3Ofn1P2g7v6Oa0mcbi1d6iDyInv8lfI",
+            "interaction": 110
+          }
+        ],
+        "net_sentiment_smoothed": -1.1,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "Misc topic 0",
+        "topic_id": 2,
+        "label": "還不夠 / 科技產業變化這麼快 / 只看新聞",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "openai / anthropic",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -393,16 +637,24 @@
             "volume": 0
           },
           {
-            "net_sentiment": 33.3,
-            "volume": 3
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 33.3,
-            "volume": 3
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -411,6 +663,60 @@
           {
             "net_sentiment": 0.0,
             "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "倍以上",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -427,8 +733,132 @@
         ]
       },
       {
-        "topic_id": 1,
-        "label": "rates",
+        "topic_id": 4,
+        "label": "應用材料 / 晶片微縮技術逼近極限 / 新材料成為半導體競爭的核心關鍵 / 技術加速材料篩選",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "記憶體",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 8,
+        "label": "晶片微縮技術逼近極限 / 新材料成為半導體競爭的核心關鍵 / 技術加速材料篩選 / 應用材料",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -471,16 +901,16 @@
             "volume": 0
           },
           {
-            "net_sentiment": -50.0,
-            "volume": 2
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -491,40 +921,135 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "technews_tw",
-        "top_topic_id": 0,
-        "top_topic_label": "Misc topic 0",
+        "handle": "QQ_Timmy",
+        "top_topic_id": 5,
+        "top_topic_label": "記憶體",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
-        "handle": "FT",
+        "handle": "TrendForce.tw",
         "top_topic_id": 0,
-        "top_topic_label": "Misc topic 0",
-        "focus_share": 0.8,
-        "post_count": 10,
+        "top_topic_label": "其他（未分群，50 篇）",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 7,
+        "top_topic_label": "記憶體 / 台積電",
+        "focus_share": 1.0,
+        "post_count": 21,
+        "unclustered_posts": 20
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 1,
+        "top_topic_label": "倍以上",
+        "focus_share": 1.0,
+        "post_count": 8,
+        "unclustered_posts": 6
+      },
+      {
+        "handle": "technews_tw",
+        "top_topic_id": 4,
+        "top_topic_label": "應用材料 / 晶片微縮技術逼近極限 / 新材料成為半導體競爭的核心關鍵 / 技術加速材料篩選",
+        "focus_share": 0.5,
+        "post_count": 2,
         "unclustered_posts": 0
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 3,
+        "top_topic_label": "openai / anthropic",
+        "focus_share": 0.4,
+        "post_count": 27,
+        "unclustered_posts": 22
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "Misc topic 0",
-        "total_engagement": 43,
-        "post_count": 9,
-        "top_account": "FT",
-        "top_account_engagement": 43,
+        "topic_id": 1,
+        "label": "倍以上",
+        "total_engagement": 106,
+        "post_count": 2,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 106,
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "rates",
-        "total_engagement": 21,
+        "topic_id": 3,
+        "label": "openai / anthropic",
+        "total_engagement": 31,
         "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 21,
+        "top_account": "technewsinside",
+        "top_account_engagement": 31,
         "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "台積電",
+        "total_engagement": 26,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 26,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "記憶體 / 台積電",
+        "total_engagement": 24,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 24,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "晶片微縮技術逼近極限 / 新材料成為半導體競爭的核心關鍵 / 技術加速材料篩選 / 應用材料",
+        "total_engagement": 7,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 7,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "記憶體",
+        "total_engagement": 2,
+        "post_count": 1,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 2,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "還不夠 / 科技產業變化這麼快 / 只看新聞",
+        "total_engagement": 1,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 1,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "應用材料 / 晶片微縮技術逼近極限 / 新材料成為半導體競爭的核心關鍵 / 技術加速材料篩選",
+        "total_engagement": 0,
+        "post_count": 1,
+        "top_account": "technews_tw",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，50 篇）",
+        "total_engagement": 2270,
+        "post_count": 50,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 1054,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
@@ -536,10 +1061,10 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 11,
-          "likes": 41,
-          "engagement": 64,
-          "avg_engagement": 5.8
+          "post_count": 61,
+          "likes": 2467,
+          "engagement": 2467,
+          "avg_engagement": 40.4
         },
         "evening": {
           "post_count": 0,
