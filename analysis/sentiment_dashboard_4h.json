@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-09-14T22:28:09.712078+00:00",
+  "generated_at": "2026-09-15T01:03:30.131674+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-09-14T18:28:09.712078+00:00",
-    "end_utc": "2026-09-14T22:28:09.712078+00:00",
-    "start_tw": "Sep 15, 02:28",
-    "end_tw": "Sep 15, 06:28"
+    "start_utc": "2026-09-14T21:03:30.131674+00:00",
+    "end_utc": "2026-09-15T01:03:30.131674+00:00",
+    "start_tw": "Sep 15, 05:03",
+    "end_tw": "Sep 15, 09:03"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 33,
+      "total_posts": 31,
       "sentiment_counts": {
-        "neutral": 14,
         "negative": 6,
-        "positive": 13
+        "positive": 13,
+        "neutral": 12
       },
       "sentiment_share": {
-        "neutral": 0.424,
-        "negative": 0.182,
-        "positive": 0.394
+        "negative": 0.194,
+        "positive": 0.419,
+        "neutral": 0.387
       },
       "top_terms": [
+        "trump",
         "查看",
         "看更",
         "更多",
@@ -29,59 +30,40 @@
         "看更多",
         "稅後",
         "累計",
-        "處分",
-        "升溫",
-        "全新"
+        "金控",
+        "前八"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 1,
-        "label": "openai",
+        "label": "trump",
         "heat": 90.0,
-        "volume": 1,
-        "engagement": 42,
-        "entities": [
-          "美國",
-          "白宮",
-          "顧問薩"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
-        "label": "ipo",
-        "heat": 15.3,
-        "volume": 1,
-        "engagement": 14,
-        "entities": [
-          "波士"
-        ],
+        "volume": 3,
+        "engagement": 433,
+        "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 2,
-        "label": "openai / ipo",
+        "label": "mail / trump",
         "heat": 10.0,
-        "volume": 1,
-        "engagement": 12,
-        "entities": [
-          "美中",
-          "顧問薩"
-        ],
+        "volume": 2,
+        "engagement": 22,
+        "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，30 篇）",
+        "label": "其他（未分群，26 篇）",
         "heat": 10.0,
-        "volume": 30,
-        "engagement": 1099,
+        "volume": 26,
+        "engagement": 868,
         "entities": [
+          "台積電",
           "台灣",
-          "美國",
-          "雙虎",
-          "國泰",
+          "伺服器",
+          "季增",
           "中東"
         ],
         "is_catchall": true
@@ -89,28 +71,40 @@
     ],
     "named_entities": [
       {
+        "entity": "台積電",
+        "count": 3
+      },
+      {
         "entity": "台灣",
-        "count": 6
+        "count": 3
       },
       {
-        "entity": "美國",
-        "count": 4
-      },
-      {
-        "entity": "雙虎",
+        "entity": "伺服器",
         "count": 2
       },
       {
-        "entity": "顧問薩",
-        "count": 2
-      },
-      {
-        "entity": "國泰",
+        "entity": "季增",
         "count": 2
       },
       {
         "entity": "中東",
         "count": 2
+      },
+      {
+        "entity": "有多",
+        "count": 1
+      },
+      {
+        "entity": "何軍",
+        "count": 1
+      },
+      {
+        "entity": "高峰",
+        "count": 1
+      },
+      {
+        "entity": "美系大行",
+        "count": 1
       },
       {
         "entity": "小鵬",
@@ -121,239 +115,400 @@
         "count": 1
       },
       {
-        "entity": "海洋",
+        "entity": "公允",
         "count": 1
       },
       {
-        "entity": "高度集中",
+        "entity": "台新",
         "count": 1
       },
       {
-        "entity": "洪峰",
+        "entity": "上路",
         "count": 1
       },
       {
-        "entity": "美中",
-        "count": 1
-      },
-      {
-        "entity": "黑海",
-        "count": 1
-      },
-      {
-        "entity": "烏克蘭",
-        "count": 1
-      },
-      {
-        "entity": "海戰",
+        "entity": "中華",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-14T18:28:09.712072+00:00",
-        "bucket_end": "2026-09-14T18:45:18.283501+00:00",
+        "bucket_start": "2026-09-14T21:03:30.131668+00:00",
+        "bucket_end": "2026-09-14T21:20:38.703097+00:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 0,
+        "neutral": 1,
+        "negative": 1,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T18:45:18.283501+00:00",
-        "bucket_end": "2026-09-14T19:02:26.854930+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T19:02:26.854930+00:00",
-        "bucket_end": "2026-09-14T19:19:35.426359+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T19:19:35.426359+00:00",
-        "bucket_end": "2026-09-14T19:36:43.997788+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T19:36:43.997788+00:00",
-        "bucket_end": "2026-09-14T19:53:52.569217+00:00",
-        "positive": 6,
-        "neutral": 8,
-        "negative": 6,
-        "positive_engagement": 213,
-        "neutral_engagement": 272,
-        "negative_engagement": 291,
-        "net_sentiment": 0.0,
-        "post_count": 20,
-        "engagement": 776,
+        "neutral_engagement": 24,
+        "negative_engagement": 352,
+        "net_sentiment": -50.0,
+        "post_count": 2,
+        "engagement": 376,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "openai / ipo",
-            "count": 1
+            "topic_id": 1,
+            "label": "trump",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "In an interview with the FT, Canada's prime minister said deeper ties with Europe will make both sides 'more resilient' amid Trump turmoil.  https:// ft.trib.al/2ErdRAU",
+            "url": "https://x.com/FT/status/2099605305961144502",
+            "interaction": 352
           },
           {
-            "topic_id": 3,
-            "label": "ipo",
-            "count": 1
+            "handle": "FT",
+            "platform": "X",
+            "text": "Trump to scrap Biden-era climate protections on power plant pollution",
+            "url": "https://x.com/FT/status/2099607408465055835",
+            "interaction": 24
+          }
+        ],
+        "net_sentiment_smoothed": -16.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T21:20:38.703097+00:00",
+        "bucket_end": "2026-09-14T21:37:47.274526+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -12.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T21:37:47.274526+00:00",
+        "bucket_end": "2026-09-14T21:54:55.845955+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T21:54:55.845955+00:00",
+        "bucket_end": "2026-09-14T22:12:04.417384+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 17,
+        "neutral_engagement": 0,
+        "negative_engagement": 63,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 80,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "TrendForce: “The GPU isn’t the bottleneck.”  DRAM, HDDs, and ABF are where shortages are preventing more HPC chips from being shipped",
+            "url": "https://x.com/HyperTechInvest/status/2099620055172677862",
+            "interaction": 63
           },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$NVDA  Off-Balance-Sheet Commitments Are Exploding  SemiAnalysis estimates Nvidia could have $2.5T of liabilities and contractual commitments by FY31, including $800B of supply and capacity commitment",
+            "url": "https://x.com/HyperTechInvest/status/2099621347790102943",
+            "interaction": 17
+          }
+        ],
+        "net_sentiment_smoothed": 10.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T22:12:04.417384+00:00",
+        "bucket_end": "2026-09-14T22:29:12.988813+00:00",
+        "positive": 8,
+        "neutral": 7,
+        "negative": 0,
+        "positive_engagement": 308,
+        "neutral_engagement": 217,
+        "negative_engagement": 0,
+        "net_sentiment": 53.3,
+        "post_count": 15,
+        "engagement": 525,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Vera Rubin NVL72 Agentic Inference:  67x better Performance per Dollar Jensen Sandbagging Performance Again, 2x more Annual Profit Per GigaWatt, The More you Buy, The More you Earn, AgentX, InferenceX",
+            "url": "https://x.com/SemiAnalysis_/status/2099623968936484963",
+            "interaction": 117
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "美股14日開盤走低，AI產業領袖接連呼籲放慢先進AI發展，加上中東局勢升溫推動油價重新突破每桶100美元，市場同時面臨科技股估值疑慮與通膨升溫壓力，投資人風險偏好明顯降溫。",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02XK2WE6Z11EXMimQsi52R7GqUe3fnKWfqUa6JQgkNryz9YQqAswSqr7S6ZCYMotsxl?__cft__[0]=AZhLTghbMTrjpsRcDq5jidqIfroNvJXk2rx0hsh2Ck2jl0kogAKpRs7Vk_NkR0lbC11ZecyGwJ7WtkwdvhaSKkxuO27hOZz-5GgpKXJxotukJvTe5FdnGmUHldxHHs4jNMh8bbxwcUEo9M9B7NUGJD7kfsur04buSZM2kz-WFQlRZp22W-Nabt6QgZs",
+            "interaction": 89
+          }
+        ],
+        "net_sentiment_smoothed": 10.7,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-09-14T22:29:12.988813+00:00",
+        "bucket_end": "2026-09-14T22:46:21.560242+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 54,
+        "neutral_engagement": 0,
+        "negative_engagement": 57,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 111,
+        "top_topics": [
           {
             "topic_id": 1,
-            "label": "openai",
+            "label": "trump",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "technewsinside",
-            "platform": "Facebook",
-            "text": "史上第一場無人艇對無人艇的海戰，在黑海打完了！\n#烏克蘭Sargan3000擊沉俄軍無人艇史上第一場無人艇海戰\n…… \n查看更多",
-            "url": "https://www.facebook.com/reel/1876664487048323/?__cft__[0]=AZiQnMtcxt5y-cfMAwx9X58XPK2C28B5sy5MGs-7MYyllXAI7_FCa4VEhEtbtp_lDizU9ytbypWY-9kokdpeLbrElbsmlCBQAOJ664JccWaTWanx9EERsxViZaD7AK5iVQGtkCI7paTS0LlbkAT7Wz8tCUzPPrD8IgAsxJFJZo-Grmfs5jommlsQt0ZHiRcRz05k34s",
-            "interaction": 164
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "U.S. not willing to defend Saudis against Houthis, so no recycling petrodollar for treasuries.  BOJ has to sell its holdings to prop up JPY in the face of higher crude px.  UK is getting sovereignty t",
+            "url": "https://x.com/tphuang/status/2099630490118496751",
+            "interaction": 57
           },
           {
-            "handle": "technewsinside",
-            "platform": "Facebook",
-            "text": "NOR Flash 市場正經歷近十年來最重要的供需結構轉變！\n#NORFlash下半年可能再漲最高110\n%…… \n查看更多",
-            "url": "https://www.facebook.com/technewsinside/posts/pfbid02REH4LF7rXr3nkL3bFYU7ziabJtozmz7TBLRadqYbKFtJTGMyZ6mHcnjnfW1J2Gwtl?__cft__[0]=AZjGG8sszyIQWPN5tB3qHs2PV-1nC3XQoASXwTiH-6gA1fcuPfKmh34M6j9xoPxYo4E_M7ZMnLK3giGKB8IxjRNdeiUr7pgWFTiNZAwZ35SF_jLOgM-kg75rJ9jLAttXPURWBZpFWhDuxiQMeMH_0wsb1nQHN7ambexopHGmUJNFtS189lXbItPmnd0",
-            "interaction": 118
+            "handle": "nvidianewsroom",
+            "platform": "X",
+            "text": "U.S. AI leadership depends on open innovation, strong competition, and technology the world chooses to use.   At #AllInSummit,  @JensenHuang  discussed how open models, sensible regulation and continu",
+            "url": "https://x.com/nvidianewsroom/status/2099629752810144190",
+            "interaction": 54
+          }
+        ],
+        "net_sentiment_smoothed": 30.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T22:46:21.560242+00:00",
+        "bucket_end": "2026-09-14T23:03:30.131671+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 10.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T23:03:30.131671+00:00",
+        "bucket_end": "2026-09-14T23:20:38.703100+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 1,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#AI 與航太通訊需求強勁，推升 NOR Flash 市場迎來近十年重大轉折。自 2026 年下半年起供需持續失衡，單台 AI 伺服器對 NOR 的需求高達傳統伺服器的 3 至 5 倍。",
+            "url": "https://x.com/technews_tw/status/2099635619291152872",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 10.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-14T23:20:38.703100+00:00",
+        "bucket_end": "2026-09-14T23:37:47.274529+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 49,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 49,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "US military reveals it has weapons in space",
+            "url": "https://x.com/FT/status/2099641022657577428",
+            "interaction": 49
           }
         ],
         "net_sentiment_smoothed": 0.0,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-09-14T19:53:52.569217+00:00",
-        "bucket_end": "2026-09-14T20:11:01.140646+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T20:11:01.140646+00:00",
-        "bucket_end": "2026-09-14T20:28:09.712075+00:00",
-        "positive": 0,
-        "neutral": 0,
+        "bucket_start": "2026-09-14T23:37:47.274529+00:00",
+        "bucket_end": "2026-09-14T23:54:55.845958+00:00",
+        "positive": 1,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "positive_engagement": 15,
+        "neutral_engagement": 75,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 90,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "I opened a $1 subscription option. I haven't posted any announcement about it... and already, more than 50 of you have subscribed.",
+            "url": "https://x.com/jukan05/status/2099647929158185040",
+            "interaction": 75
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Dogs join diners as Hong Kong bets on the pet economy  https:// ft.trib.al/UUX1iQt  | opinion",
+            "url": "https://x.com/FT/status/2099647827165032690",
+            "interaction": 15
+          }
+        ],
+        "net_sentiment_smoothed": 10.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T20:28:09.712075+00:00",
-        "bucket_end": "2026-09-14T20:45:18.283504+00:00",
+        "bucket_start": "2026-09-14T23:54:55.845958+00:00",
+        "bucket_end": "2026-09-15T00:12:04.417387+00:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 0,
+        "neutral": 1,
+        "negative": 1,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "neutral_engagement": 21,
+        "negative_engagement": 2,
+        "net_sentiment": -50.0,
+        "post_count": 2,
+        "engagement": 23,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "There are rumors that Intel has landed Anthropic a…",
+            "url": "https://x.com/jukan05/status/2099649541914186113",
+            "interaction": 21
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "先進封裝有多複雜？ #台積電3DFabric一張圖看懂 台積電先進封裝技術暨服務副總經理何軍在 OCP APAC 高峰會直言，3DFabric 封裝已推到技術極限：相較傳統覆晶，CoWoS 有效晶粒面積放大逾 5 倍、接點數暴增 100 倍，封裝愈大，微小缺陷對良率的衝擊愈被放大。…  https:// dlvr.it/TVTbWD",
+            "url": "https://x.com/technews_tw/status/2099650298562453799",
+            "interaction": 2
+          }
+        ],
+        "net_sentiment_smoothed": -30.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T20:45:18.283504+00:00",
-        "bucket_end": "2026-09-14T21:02:26.854933+00:00",
-        "positive": 0,
-        "neutral": 0,
+        "bucket_start": "2026-09-15T00:12:04.417387+00:00",
+        "bucket_end": "2026-09-15T00:29:12.988816+00:00",
+        "positive": 1,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "positive_engagement": 22,
+        "neutral_engagement": 5,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 27,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "mail / trump",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Supreme Court rejects Trump’s mail-in ballot restrictions",
+            "url": "https://x.com/FT/status/2099653912861000162",
+            "interaction": 22
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "早安！9/15 外電綜合整理  - iPhone:  美系大行維持iPhone 3Q26生產量預估不變，為 5400萬支（季增4%、年減2%）。首次公4Q26的iPhone 生產量預估為 7300萬支（季增35%、年增4%）。預期2H26的iPhone Duo 生產量為 700萬支。不過，2H26全新 iPhone",
+            "url": "https://x.com/QQ_Timmy/status/2099654741945131349",
+            "interaction": 5
+          }
+        ],
+        "net_sentiment_smoothed": -10.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T21:02:26.854933+00:00",
-        "bucket_end": "2026-09-14T21:19:35.426362+00:00",
+        "bucket_start": "2026-09-15T00:29:12.988816+00:00",
+        "bucket_end": "2026-09-15T00:46:21.560245+00:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
+        "net_sentiment": -100.0,
+        "post_count": 1,
         "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "mail / trump",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The country’s highest court has rejected Donald Trump’s attempt to restrict mail-in ballots ahead of November’s midterm elections in a blow to the president.  https:// ft.trib.al/y1kL32L",
+            "url": "https://x.com/FT/status/2099657932249923632",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": -25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-14T21:19:35.426362+00:00",
-        "bucket_end": "2026-09-14T21:36:43.997791+00:00",
+        "bucket_start": "2026-09-15T00:46:21.560245+00:00",
+        "bucket_end": "2026-09-15T01:03:30.131674+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -365,190 +520,19 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T21:36:43.997791+00:00",
-        "bucket_end": "2026-09-14T21:53:52.569220+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T21:53:52.569220+00:00",
-        "bucket_end": "2026-09-14T22:11:01.140649+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-14T22:11:01.140649+00:00",
-        "bucket_end": "2026-09-14T22:28:09.712078+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -16.7,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
-        "label": "openai / ipo",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "ipo",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
         "topic_id": 1,
-        "label": "openai",
+        "label": "trump",
         "cells": [
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -600,6 +584,64 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "mail / trump",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -610,67 +652,122 @@
     ],
     "coverage_focus_ranking": [
       {
+        "handle": "technews_tw",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，26 篇）",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，26 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，26 篇）",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，26 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "nvidianewsroom",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，26 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "HyperTechInvest",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，26 篇）",
+        "focus_share": 1.0,
+        "post_count": 3,
+        "unclustered_posts": 3
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，26 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
         "handle": "ctee.fans",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，30 篇）",
+        "top_topic_label": "其他（未分群，26 篇）",
         "focus_share": 1.0,
         "post_count": 13,
         "unclustered_posts": 13
       },
       {
-        "handle": "technewsinside",
-        "top_topic_id": 2,
-        "top_topic_label": "openai / ipo",
-        "focus_share": 0.333,
-        "post_count": 20,
-        "unclustered_posts": 17
+        "handle": "tphuang",
+        "top_topic_id": 1,
+        "top_topic_label": "trump",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 1,
+        "top_topic_label": "trump",
+        "focus_share": 0.5,
+        "post_count": 6,
+        "unclustered_posts": 2
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 1,
-        "label": "openai",
-        "total_engagement": 42,
-        "post_count": 1,
-        "top_account": "technewsinside",
-        "top_account_engagement": 42,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
-        "label": "ipo",
-        "total_engagement": 14,
-        "post_count": 1,
-        "top_account": "technewsinside",
-        "top_account_engagement": 14,
+        "label": "trump",
+        "total_engagement": 433,
+        "post_count": 3,
+        "top_account": "FT",
+        "top_account_engagement": 376,
         "is_catchall": false
       },
       {
         "topic_id": 2,
-        "label": "openai / ipo",
-        "total_engagement": 12,
-        "post_count": 1,
-        "top_account": "technewsinside",
-        "top_account_engagement": 12,
+        "label": "mail / trump",
+        "total_engagement": 22,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 22,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，30 篇）",
-        "total_engagement": 1099,
-        "post_count": 30,
-        "top_account": "technewsinside",
-        "top_account_engagement": 708,
+        "label": "其他（未分群，26 篇）",
+        "total_engagement": 868,
+        "post_count": 26,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 391,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 13,
-          "likes": 391,
-          "engagement": 391,
-          "avg_engagement": 30.1
+          "post_count": 29,
+          "likes": 823,
+          "engagement": 947,
+          "avg_engagement": 32.7
         },
         "afternoon": {
           "post_count": 0,
@@ -685,13 +782,13 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 20,
-          "likes": 776,
-          "engagement": 776,
-          "avg_engagement": 38.8
+          "post_count": 2,
+          "likes": 274,
+          "engagement": 376,
+          "avg_engagement": 188.0
         }
       },
-      "peak_slot": "late_night"
+      "peak_slot": "morning"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
