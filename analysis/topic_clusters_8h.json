@@ -1,56 +1,79 @@
 {
   "clusters": [
     {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 7,
+      "accounts": {
+        "SemiAnalysis_": 2,
+        "nvidianewsroom": 2,
+        "HyperTechInvest": 2,
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "SemiAnalysis_": 148,
+        "nvidianewsroom": 140,
+        "HyperTechInvest": 80,
+        "technewsinside": 26
+      }
+    },
+    {
       "id": "F",
       "label": "晶圓代工 / 先進製程",
-      "size": 4,
+      "size": 6,
       "accounts": {
-        "statementdog": 1,
+        "technews_tw": 1,
+        "jukan05": 1,
+        "HyperTechInvest": 1,
         "technewsinside": 2,
         "ctee.fans": 1
       },
       "engagement_by_account": {
-        "statementdog": 3,
+        "technews_tw": 2,
+        "jukan05": 21,
+        "HyperTechInvest": 27,
         "technewsinside": 110,
         "ctee.fans": 10
       }
     },
     {
-      "id": "Q",
-      "label": "機器人 / Robotics",
-      "size": 3,
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 5,
       "accounts": {
-        "tphuang": 1,
-        "technewsinside": 1,
-        "ctee.fans": 1
+        "SemiAnalysis_": 2,
+        "HyperTechInvest": 3
       },
       "engagement_by_account": {
-        "tphuang": 12,
-        "technewsinside": 14,
-        "ctee.fans": 10
+        "SemiAnalysis_": 117,
+        "HyperTechInvest": 115
       }
     },
     {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 2,
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 4,
       "accounts": {
-        "TrendForce": 1,
-        "technewsinside": 1
+        "jukan05": 1,
+        "FT": 1,
+        "technewsinside": 2
       },
       "engagement_by_account": {
-        "TrendForce": 4,
-        "technewsinside": 26
+        "jukan05": 21,
+        "FT": 68,
+        "technewsinside": 54
       }
     },
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 2,
+      "size": 3,
       "accounts": {
+        "HyperTechInvest": 1,
         "technewsinside": 2
       },
       "engagement_by_account": {
+        "HyperTechInvest": 25,
         "technewsinside": 22
       }
     },
@@ -65,17 +88,6 @@
       "engagement_by_account": {
         "technewsinside": 90,
         "ctee.fans": 64
-      }
-    },
-    {
-      "id": "K",
-      "label": "AI 模型 / 應用",
-      "size": 2,
-      "accounts": {
-        "technewsinside": 2
-      },
-      "engagement_by_account": {
-        "technewsinside": 54
       }
     },
     {
@@ -96,54 +108,277 @@
       "label": "邊緣 AI / 新終端",
       "size": 2,
       "accounts": {
-        "TrendForce.tw": 1,
+        "FT": 1,
         "technewsinside": 1
       },
       "engagement_by_account": {
-        "TrendForce.tw": 4,
+        "FT": 137,
         "technewsinside": 16
       }
     },
     {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 1,
+      "id": "Q",
+      "label": "機器人 / Robotics",
+      "size": 2,
       "accounts": {
-        "TrendForce.tw": 1
+        "technewsinside": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "TrendForce.tw": 4
+        "technewsinside": 14,
+        "ctee.fans": 10
       }
     },
     {
-      "id": "G",
-      "label": "IC 設計",
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
       "size": 1,
       "accounts": {
-        "statementdog": 1
+        "tphuang": 1
       },
       "engagement_by_account": {
-        "statementdog": 3
-      }
-    },
-    {
-      "id": "L",
-      "label": "總經 / Fed",
-      "size": 1,
-      "accounts": {
-        "FT": 1
-      },
-      "engagement_by_account": {
-        "FT": 43
+        "tphuang": 43
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 1,
+      "competitor_count": 6,
+      "competitor_engagement": 368,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "nvidianewsroom",
+        "HyperTechInvest"
+      ],
+      "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Vera Rubin NVL72 Agentic Inference:  67x better Performance per Dollar Jensen Sandbagging Performance Again, 2x more Annual Profit Per GigaWatt, The More you Buy, The More you Earn, AgentX, InferenceX, Extreme Co-Design",
+          "url": "https://x.com/SemiAnalysis_/status/2099623968936484963",
+          "timestamp": "2026-09-15T06:18:57.000+08:00",
+          "interaction": 117
+        },
+        {
+          "handle": "nvidianewsroom",
+          "platform": "X",
+          "text": "For the second straight year,  @TIME  and Statista ranked NVIDIA No. 1 on the 2026 World’s Best Companies list.  Teams across NVIDIA are advancing AI and accelerated computing to transform industries and help tackle the greatest challenges of our time.",
+          "url": "https://x.com/nvidianewsroom/status/2099599911146635524",
+          "timestamp": "2026-09-15T04:43:22.000+08:00",
+          "interaction": 91
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "TrendForce: “The GPU isn’t the bottleneck.”  DRAM, HDDs, and ABF are where shortages are preventing more HPC chips from being shipped",
+          "url": "https://x.com/HyperTechInvest/status/2099620055172677862",
+          "timestamp": "2026-09-15T06:03:24.000+08:00",
+          "interaction": 63
+        },
+        {
+          "handle": "nvidianewsroom",
+          "platform": "X",
+          "text": "We’re expanding our collaboration with  @Pinterest  to scale AI that understands images and words together.  With NVIDIA, Pinterest Assistant can process 25× more visual context per request — enabling smarter, more personalized discovery.",
+          "url": "https://x.com/nvidianewsroom/status/2099553943244193926",
+          "timestamp": "2026-09-15T01:40:42.000+08:00",
+          "interaction": 49
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Myron Xie joins  @JordanNanos  on why NVDA's Rubin Ultra preview had 1TB of HBM per package vs the 192GB that ships.  It comes down to supply and not performance, why 4-HI more than doubles the cubes you can harvest per wafer, why the loudest calls for less memory are coming from",
+          "url": "https://x.com/SemiAnalysis_/status/2099576102909882776",
+          "timestamp": "2026-09-15T03:08:45.000+08:00",
+          "interaction": 31
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "$NVDA  Off-Balance-Sheet Commitments Are Exploding  SemiAnalysis estimates Nvidia could have $2.5T of liabilities and contractual commitments by FY31, including $800B of supply and capacity commitments  Much of this stays off balance sheet because it consists of future purchase",
+          "url": "https://x.com/HyperTechInvest/status/2099621347790102943",
+          "timestamp": "2026-09-15T06:08:33.000+08:00",
+          "interaction": 17
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 232,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "HyperTechInvest"
+      ],
+      "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "A Brain Too Big to Carry — On-Device vs Datacenter Inference Robot Models, Silicon & DRAM Efficiency, Jetson Thor vs. B300 TCO, Deployments, The Network Wall",
+          "url": "https://x.com/SemiAnalysis_/status/2099548057821982752",
+          "timestamp": "2026-09-15T01:17:19.000+08:00",
+          "interaction": 86
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "TrendForce: “The GPU isn’t the bottleneck.”  DRAM, HDDs, and ABF are where shortages are preventing more HPC chips from being shipped",
+          "url": "https://x.com/HyperTechInvest/status/2099620055172677862",
+          "timestamp": "2026-09-15T06:03:24.000+08:00",
+          "interaction": 63
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Myron Xie joins  @JordanNanos  on why NVDA's Rubin Ultra preview had 1TB of HBM per package vs the 192GB that ships.  It comes down to supply and not performance, why 4-HI more than doubles the cubes you can harvest per wafer, why the loudest calls for less memory are coming from",
+          "url": "https://x.com/SemiAnalysis_/status/2099576102909882776",
+          "timestamp": "2026-09-15T03:08:45.000+08:00",
+          "interaction": 31
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "FOPLP is coming, and here are the plans for the major advanced packaging providers:  ·  Powertech (PTI): 510 × 515 mm. Ramp-up: 2027  ·   $ASX : 310 × 310 mm. Ramp-up: 2027  ·   $TSM : 310 × 310 mm. Ramp-up: 2028  ·  Samsung: 415 × 510 mm. Ramp-up: 2028  ·  Rapidus: 600 × 600 mm.",
+          "url": "https://x.com/HyperTechInvest/status/2099573450906169817",
+          "timestamp": "2026-09-15T02:58:13.000+08:00",
+          "interaction": 27
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "$KIOXIA is preparing a U.S. ADR listing for April–June 2027  Kioxia wants to take advantage of the strength in the memory market to attract foreign capital  Kioxia is discussing long-term agreements with data center and enterprise customers, some extending beyond 2029, and wants",
+          "url": "https://x.com/HyperTechInvest/status/2099570866246013335",
+          "timestamp": "2026-09-15T02:47:57.000+08:00",
+          "interaction": 25
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 1,
+      "competitor_count": 6,
+      "competitor_engagement": 368,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "nvidianewsroom",
+        "HyperTechInvest"
+      ],
+      "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Vera Rubin NVL72 Agentic Inference:  67x better Performance per Dollar Jensen Sandbagging Performance Again, 2x more Annual Profit Per GigaWatt, The More you Buy, The More you Earn, AgentX, InferenceX, Extreme Co-Design",
+          "url": "https://x.com/SemiAnalysis_/status/2099623968936484963",
+          "timestamp": "2026-09-15T06:18:57.000+08:00",
+          "interaction": 117
+        },
+        {
+          "handle": "nvidianewsroom",
+          "platform": "X",
+          "text": "For the second straight year,  @TIME  and Statista ranked NVIDIA No. 1 on the 2026 World’s Best Companies list.  Teams across NVIDIA are advancing AI and accelerated computing to transform industries and help tackle the greatest challenges of our time.",
+          "url": "https://x.com/nvidianewsroom/status/2099599911146635524",
+          "timestamp": "2026-09-15T04:43:22.000+08:00",
+          "interaction": 91
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "TrendForce: “The GPU isn’t the bottleneck.”  DRAM, HDDs, and ABF are where shortages are preventing more HPC chips from being shipped",
+          "url": "https://x.com/HyperTechInvest/status/2099620055172677862",
+          "timestamp": "2026-09-15T06:03:24.000+08:00",
+          "interaction": 63
+        },
+        {
+          "handle": "nvidianewsroom",
+          "platform": "X",
+          "text": "We’re expanding our collaboration with  @Pinterest  to scale AI that understands images and words together.  With NVIDIA, Pinterest Assistant can process 25× more visual context per request — enabling smarter, more personalized discovery.",
+          "url": "https://x.com/nvidianewsroom/status/2099553943244193926",
+          "timestamp": "2026-09-15T01:40:42.000+08:00",
+          "interaction": 49
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Myron Xie joins  @JordanNanos  on why NVDA's Rubin Ultra preview had 1TB of HBM per package vs the 192GB that ships.  It comes down to supply and not performance, why 4-HI more than doubles the cubes you can harvest per wafer, why the loudest calls for less memory are coming from",
+          "url": "https://x.com/SemiAnalysis_/status/2099576102909882776",
+          "timestamp": "2026-09-15T03:08:45.000+08:00",
+          "interaction": 31
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "$NVDA  Off-Balance-Sheet Commitments Are Exploding  SemiAnalysis estimates Nvidia could have $2.5T of liabilities and contractual commitments by FY31, including $800B of supply and capacity commitments  Much of this stays off balance sheet because it consists of future purchase",
+          "url": "https://x.com/HyperTechInvest/status/2099621347790102943",
+          "timestamp": "2026-09-15T06:08:33.000+08:00",
+          "interaction": 17
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 232,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "HyperTechInvest"
+      ],
+      "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "A Brain Too Big to Carry — On-Device vs Datacenter Inference Robot Models, Silicon & DRAM Efficiency, Jetson Thor vs. B300 TCO, Deployments, The Network Wall",
+          "url": "https://x.com/SemiAnalysis_/status/2099548057821982752",
+          "timestamp": "2026-09-15T01:17:19.000+08:00",
+          "interaction": 86
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "TrendForce: “The GPU isn’t the bottleneck.”  DRAM, HDDs, and ABF are where shortages are preventing more HPC chips from being shipped",
+          "url": "https://x.com/HyperTechInvest/status/2099620055172677862",
+          "timestamp": "2026-09-15T06:03:24.000+08:00",
+          "interaction": 63
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Myron Xie joins  @JordanNanos  on why NVDA's Rubin Ultra preview had 1TB of HBM per package vs the 192GB that ships.  It comes down to supply and not performance, why 4-HI more than doubles the cubes you can harvest per wafer, why the loudest calls for less memory are coming from",
+          "url": "https://x.com/SemiAnalysis_/status/2099576102909882776",
+          "timestamp": "2026-09-15T03:08:45.000+08:00",
+          "interaction": 31
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "FOPLP is coming, and here are the plans for the major advanced packaging providers:  ·  Powertech (PTI): 510 × 515 mm. Ramp-up: 2027  ·   $ASX : 310 × 310 mm. Ramp-up: 2027  ·   $TSM : 310 × 310 mm. Ramp-up: 2028  ·  Samsung: 415 × 510 mm. Ramp-up: 2028  ·  Rapidus: 600 × 600 mm.",
+          "url": "https://x.com/HyperTechInvest/status/2099573450906169817",
+          "timestamp": "2026-09-15T02:58:13.000+08:00",
+          "interaction": 27
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "$KIOXIA is preparing a U.S. ADR listing for April–June 2027  Kioxia wants to take advantage of the strength in the memory market to attract foreign capital  Kioxia is discussing long-term agreements with data center and enterprise customers, some extending beyond 2029, and wants",
+          "url": "https://x.com/HyperTechInvest/status/2099570866246013335",
+          "timestamp": "2026-09-15T02:47:57.000+08:00",
+          "interaction": 25
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-09-14T14:28:09.712078+00:00",
-    "end_utc": "2026-09-14T22:28:09.712078+00:00",
-    "start_tw": "Sep 14, 22:28",
-    "end_tw": "Sep 15, 06:28"
+    "start_utc": "2026-09-14T17:03:30.131674+00:00",
+    "end_utc": "2026-09-15T01:03:30.131674+00:00",
+    "start_tw": "Sep 15, 01:03",
+    "end_tw": "Sep 15, 09:03"
   }
 }
