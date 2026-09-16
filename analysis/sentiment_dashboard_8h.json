@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-16T01:21:43.698092+00:00",
+  "generated_at": "2026-09-16T01:24:14.651990+00:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-09-15T17:21:43.698092+00:00",
-    "end_utc": "2026-09-16T01:21:43.698092+00:00",
-    "start_tw": "Sep 16, 01:21",
-    "end_tw": "Sep 16, 09:21"
+    "start_utc": "2026-09-15T17:24:14.651990+00:00",
+    "end_utc": "2026-09-16T01:24:14.651990+00:00",
+    "start_tw": "Sep 16, 01:24",
+    "end_tw": "Sep 16, 09:24"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 19,
+      "total_posts": 32,
       "sentiment_counts": {
-        "positive": 8,
-        "negative": 5,
-        "neutral": 6
+        "positive": 12,
+        "negative": 8,
+        "neutral": 12
       },
       "sentiment_share": {
-        "positive": 0.421,
-        "negative": 0.263,
-        "neutral": 0.316
+        "positive": 0.375,
+        "negative": 0.25,
+        "neutral": 0.375
       },
       "top_terms": [
         "查看",
@@ -27,11 +27,11 @@
         "更多",
         "查看更",
         "看更多",
-        "商品",
         "台股",
-        "隨著",
-        "灣保",
-        "保險"
+        "面對",
+        "商品",
+        "川普",
+        "多年"
       ]
     },
     "temperature_bar": [
@@ -60,16 +60,16 @@
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，17 篇）",
+        "label": "其他（未分群，30 篇）",
         "heat": 10.0,
-        "volume": 17,
-        "engagement": 467,
+        "volume": 30,
+        "engagement": 6946,
         "entities": [
-          "台灣",
           "美國",
-          "美國聯準會",
-          "瑞銀證券",
-          "寶科"
+          "台灣",
+          "中國",
+          "俄羅斯",
+          "烏克蘭"
         ],
         "is_catchall": true
       }
@@ -77,10 +77,26 @@
     "named_entities": [
       {
         "entity": "台灣",
-        "count": 6
+        "count": 11
       },
       {
         "entity": "美國",
+        "count": 8
+      },
+      {
+        "entity": "中國",
+        "count": 5
+      },
+      {
+        "entity": "俄羅斯",
+        "count": 3
+      },
+      {
+        "entity": "烏克蘭",
+        "count": 2
+      },
+      {
+        "entity": "太陽",
         "count": 2
       },
       {
@@ -118,28 +134,12 @@
       {
         "entity": "中美",
         "count": 1
-      },
-      {
-        "entity": "國輸美",
-        "count": 1
-      },
-      {
-        "entity": "聯準會",
-        "count": 1
-      },
-      {
-        "entity": "亞洲",
-        "count": 1
-      },
-      {
-        "entity": "台南",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-15T17:21:43.698094+00:00",
-        "bucket_end": "2026-09-15T17:56:00.840951+00:00",
+        "bucket_start": "2026-09-15T17:24:14.651992+00:00",
+        "bucket_end": "2026-09-15T17:58:31.794849+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -155,8 +155,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-15T17:56:00.840951+00:00",
-        "bucket_end": "2026-09-15T18:30:17.983808+00:00",
+        "bucket_start": "2026-09-15T17:58:31.794849+00:00",
+        "bucket_end": "2026-09-15T18:32:48.937706+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -172,8 +172,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-15T18:30:17.983808+00:00",
-        "bucket_end": "2026-09-15T19:04:35.126665+00:00",
+        "bucket_start": "2026-09-15T18:32:48.937706+00:00",
+        "bucket_end": "2026-09-15T19:07:06.080563+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -194,194 +194,220 @@
           }
         ],
         "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-15T19:07:06.080563+00:00",
+        "bucket_end": "2026-09-15T19:41:23.223420+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-15T19:41:23.223420+00:00",
+        "bucket_end": "2026-09-15T20:15:40.366277+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-15T20:15:40.366277+00:00",
+        "bucket_end": "2026-09-15T20:49:57.509134+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-15T20:49:57.509134+00:00",
+        "bucket_end": "2026-09-15T21:24:14.651991+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-15T21:24:14.651991+00:00",
+        "bucket_end": "2026-09-15T21:58:31.794848+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-15T21:58:31.794848+00:00",
+        "bucket_end": "2026-09-15T22:32:48.937705+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-15T22:32:48.937705+00:00",
+        "bucket_end": "2026-09-15T23:07:06.080562+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-15T23:07:06.080562+00:00",
+        "bucket_end": "2026-09-15T23:41:23.223419+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-15T23:41:23.223419+00:00",
+        "bucket_end": "2026-09-16T00:15:40.366276+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 2.2,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-16T00:15:40.366276+00:00",
+        "bucket_end": "2026-09-16T00:49:57.509133+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 2.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-16T00:49:57.509133+00:00",
+        "bucket_end": "2026-09-16T01:24:14.651990+00:00",
+        "positive": 7,
+        "neutral": 6,
+        "negative": 5,
+        "positive_engagement": 183,
+        "neutral_engagement": 200,
+        "negative_engagement": 86,
+        "net_sentiment": 11.1,
+        "post_count": 18,
+        "engagement": 469,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "台灣保險發展論壇 / 線上直播",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "線上直播 / 台灣保險發展論壇",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "AI浪潮加速產業與人才結構重塑，台積電董事長魏哲家15日表示，面對快速變化的科技產業，「人」始終是最重要的關鍵，年輕世代除要具備解決問題的能力，更應保持謙虛、持續聆聽不同意見。他並以自身多年職涯體悟勉勵青年，「積極做事、謙虛做人」，才能在快速變動的產業環境中持續成長。",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02PTHwnN3UvDxEz6VMmgVrn9sjaAfmCkKYvEQkGyvbLc4bEUmouTTEtTB5bCs6iN56l?__cft__[0]=AZja-R6hGbSyA9tnsIBekfyeB7NEcIDTDnE7Lf3MH7P6cSmhysE7XhvPHqsK1SdWOITwIzLObADJwAtVW6b6W3aw4AOA_Ga37mjAwV7pG2l-DSihSzaFTB97PaLMZ6t-yEq_glbPJlviYunNprtm6CWsa5tyITkmFChthpkyd6LNZ271enLwuQYha6U",
+            "interaction": 128
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "這是否代表明年手機價格又要....…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02Mw3wuqrgdpuTRPg7u8zWDVCATV5u9gzFgqjU2fgdzrRvkXoGXoUV7zTNYUQxYmSal?__cft__[0]=AZhDLEdBRmQvkgMUqeofRri4hhGjwZV2IiTjIiYoUFCvWYhJoKkGRUXpR7EcpT9bKBDmw7Dh9dheVZxYqJn63ECYBsN3UOGOz3Qc4XvI8mfikC5VB31l60xocT9xlccuwB3VHDK137jDr0jpfkSkD7YdIwTFi52FFbxRgPwHIUGzWUqRTsDeiBTdETY",
+            "interaction": 95
+          }
+        ],
+        "net_sentiment_smoothed": 3.7,
         "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-09-15T19:04:35.126665+00:00",
-        "bucket_end": "2026-09-15T19:38:52.269522+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-15T19:38:52.269522+00:00",
-        "bucket_end": "2026-09-15T20:13:09.412379+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-15T20:13:09.412379+00:00",
-        "bucket_end": "2026-09-15T20:47:26.555236+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-15T20:47:26.555236+00:00",
-        "bucket_end": "2026-09-15T21:21:43.698093+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-15T21:21:43.698093+00:00",
-        "bucket_end": "2026-09-15T21:56:00.840950+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-15T21:56:00.840950+00:00",
-        "bucket_end": "2026-09-15T22:30:17.983807+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-15T22:30:17.983807+00:00",
-        "bucket_end": "2026-09-15T23:04:35.126664+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-15T23:04:35.126664+00:00",
-        "bucket_end": "2026-09-15T23:38:52.269521+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-15T23:38:52.269521+00:00",
-        "bucket_end": "2026-09-16T00:13:09.412378+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-16T00:13:09.412378+00:00",
-        "bucket_end": "2026-09-16T00:47:26.555235+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-16T00:47:26.555235+00:00",
-        "bucket_end": "2026-09-16T01:21:43.698092+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
@@ -442,8 +468,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           }
         ]
       },
@@ -504,8 +530,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           }
         ]
       }
@@ -514,10 +540,18 @@
       {
         "handle": "TrendForce.tw",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，17 篇）",
+        "top_topic_label": "其他（未分群，30 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，30 篇）",
+        "focus_share": 1.0,
+        "post_count": 13,
+        "unclustered_posts": 13
       },
       {
         "handle": "ctee.fans",
@@ -549,21 +583,21 @@
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，17 篇）",
-        "total_engagement": 467,
-        "post_count": 17,
-        "top_account": "ctee.fans",
-        "top_account_engagement": 462,
+        "label": "其他（未分群，30 篇）",
+        "total_engagement": 6946,
+        "post_count": 30,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 6479,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 18,
-          "likes": 469,
-          "engagement": 469,
-          "avg_engagement": 26.1
+          "post_count": 31,
+          "likes": 6948,
+          "engagement": 6948,
+          "avg_engagement": 224.1
         },
         "afternoon": {
           "post_count": 0,
