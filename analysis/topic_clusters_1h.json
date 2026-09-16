@@ -1,14 +1,62 @@
 {
   "clusters": [
     {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 1,
+      "id": "M",
+      "label": "台股市場",
+      "size": 4,
       "accounts": {
-        "technews_tw": 1
+        "ctee.fans": 3,
+        "yutinghaosfinance": 1
       },
       "engagement_by_account": {
-        "technews_tw": 2
+        "ctee.fans": 74,
+        "yutinghaosfinance": 140
+      }
+    },
+    {
+      "id": "L",
+      "label": "總經 / Fed",
+      "size": 3,
+      "accounts": {
+        "ctee.fans": 2,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 36,
+        "yutinghaosfinance": 124
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 151
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 41
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 18
       }
     },
     {
@@ -16,30 +64,185 @@
       "label": "地緣政治 / 政策",
       "size": 1,
       "accounts": {
-        "QQ_Timmy": 1
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 9
-      }
-    },
-    {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
-      "size": 1,
-      "accounts": {
-        "technews_tw": 1
-      },
-      "engagement_by_account": {
-        "technews_tw": 0
+        "ctee.fans": 23
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 214,
+      "competitors_covering": [
+        "ctee.fans",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "全球交易所搶著延長交易，韓股開到晚上8點、台股今年確定不跟，…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0eb1rrRkKfCaSLS2sArB4DA6n5brCve1pW6mLwn5GnHthUbccSbf9KrUGdHVqD5GAl?__cft__[0]=AZhNj3szmeSV49RtHJCC3FwiIuWV0tX_5fhY80OzdKxfIZ64Clkv4_ovH0DAeC2ZL5oJ5OP_qDLoJ7Sjpr1qVFHj-vwvAuAAuXW5044tafGuK-NWy4uSePPHUEM35nhsMMGonW_QzCLgDOkTC1jojGmoRxRNndIaWQVI_l7K9iEjjjokw_21oEAmMpU",
+          "timestamp": "2026-09-16T01:24:14.651990+00:00",
+          "interaction": 140
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【外資調節台股2千億元 逆勢加碼防禦性標的 「這檔牛皮股」最重倉】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02der4wv93bXkQLZTMJMBebGBncuaKfDjjoqEgFT95qGWUSJogZWyYKhCTvnpkhRxJl?__cft__[0]=AZjwLbNBZT2KEWux6gZ9Q8Y7Ywwh_EV1ZbbylGEGmd8xv9NNiEBnlbVBnTsZ5hLRnPaLV0TcPdy3i372yga-5XXVqgAsL5fiOpIrb5dFB7TJhjGO_PSLA9XEdjPaFmqyRXoKyYksvh6h3fGGkF7_r1weRcV7HYyn06ZFvV5peOxWLyqlfdRknK2Gzlk",
+          "timestamp": "2026-09-16T01:21:43.698092+00:00",
+          "interaction": 45
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股就算反彈也恐拉回...…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02kEY3rEwNFAnp8T1h2dnPGqzN3L8LrxBmbJEG8B9vhjgULQkqKtaiuLjDWGvUeWLtl?__cft__[0]=AZjggT17xCUJP-I5VawYgShXvbqHBI-UgeiEc6JyQGOwXUXnDW0ccd7lSmrBWlnAkiRkM0QQ2eXNCc3GL2NHdV-8eMwOQRtRD0dkViYBVWcCm2Grce50ztjVuJe6Uh4jesHYFLluCy1yKQChEDvZYqDqvfnxscZnrCqtCFtdtzSuiXcQT2B740Oi92Y",
+          "timestamp": "2026-09-16T01:21:43.698092+00:00",
+          "interaction": 19
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股逐洞賽｜台股高檔震盪 留意權值股動向】\n加權指數下跌351點，跌幅0.77%，收在45,511點…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0YmzZWzdpi7bfivvppBe1KDEaGiTpKY1MWytJZCKAWAQAPgKNHwaJhGFKqPTFuRWxl?__cft__[0]=AZhnsZDa1m8rkoQAxdq2UGdNnJiGPwoilkcJSxTePWiFNrgEnHvn98BRYoUfvGvcbeIPEEZvUVkROpjPf9ABjMIrVP02zbq_ER2RiUFnzoSt8Abm6FkivLqQHSosbNt6i2nUrLI5uK0Ljltsa-WmhwcKP7K-LQDvkMgeEZ2YkeH1lHFNrx29E7n59xQ",
+          "timestamp": "2026-09-16T01:21:43.698092+00:00",
+          "interaction": 10
+        }
+      ]
+    },
+    {
+      "cluster_id": "L",
+      "label": "總經 / Fed",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 160,
+      "competitors_covering": [
+        "ctee.fans",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "2026/9/16(三)股市還在撐 債市先崩?2026最難一局 Fed升息後 誰先投降？【早晨財經速解讀】…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/videos/1079348721756770/?__cft__[0]=AZiI-Os6ZJRo1eujGZEQj79HJj1olLrH6ttqxDlpgKfUVlak1JxKXw2Q_ak484LLlaGLQC13XfRxQ240WWYXXoAo-93d58n5GcgaGB-a2GtE4vnD9T606zcRDWFeeopFiANakK1Gw_d70N2LbzaBomfc4XPgMWPNOf9Ig0nK_LsS0LyRnjXI94vUCpLgSSEfpwvqeA",
+          "timestamp": "2026-09-16T01:24:14.651990+00:00",
+          "interaction": 124
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台灣時間17日凌晨美國聯準會將公布利率決議，市場憂心升息動盪之際，外資力薦二檔基本面強壓外部總經不確定性。野村證券指出，頎邦（6147）矽光子需求穩健，未來商機可期，升評「買進」；瑞銀證券更初次將光寶科（2301）納入研究範圍喊買，看好在AI電源領域競爭力日益增強。",
+          "url": "",
+          "timestamp": "2026-09-16T01:21:43.698092+00:00",
+          "interaction": 18
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "投資人聚焦聯準會本周利率決策，同時美國10年期公債殖利率一度升至5.041％，創2007年以來新高，加上油價持續攀升，市場對通膨及利率維持高檔的疑慮升溫...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0i7ZpHG1JLR8K3ZNraA2UeHbAvcFTUxmTA4TkH5q1dpPZcBQJVQMBhVAq6yqdh2d3l?__cft__[0]=AZj6XnERk0bvl6_QR7d0VxiF-Mi3-GO1B8CC1El83TNqtKmCovfdUy-TfXwuoicgTrvPLMUlFlFigxE_p2yVh0-_eD7Yw1HI8QDoWjo8qrdaCETnpU-DWq5DxVyatFP9qa2O4wR9YMvJIQhPTjVGwHPdG5O9r6_BcwlBUVxvfZ81fzB1oJgrWm0wMNk",
+          "timestamp": "2026-09-16T01:21:43.698092+00:00",
+          "interaction": 18
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 214,
+      "competitors_covering": [
+        "ctee.fans",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "全球交易所搶著延長交易，韓股開到晚上8點、台股今年確定不跟，…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0eb1rrRkKfCaSLS2sArB4DA6n5brCve1pW6mLwn5GnHthUbccSbf9KrUGdHVqD5GAl?__cft__[0]=AZhNj3szmeSV49RtHJCC3FwiIuWV0tX_5fhY80OzdKxfIZ64Clkv4_ovH0DAeC2ZL5oJ5OP_qDLoJ7Sjpr1qVFHj-vwvAuAAuXW5044tafGuK-NWy4uSePPHUEM35nhsMMGonW_QzCLgDOkTC1jojGmoRxRNndIaWQVI_l7K9iEjjjokw_21oEAmMpU",
+          "timestamp": "2026-09-16T01:24:14.651990+00:00",
+          "interaction": 140
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【外資調節台股2千億元 逆勢加碼防禦性標的 「這檔牛皮股」最重倉】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02der4wv93bXkQLZTMJMBebGBncuaKfDjjoqEgFT95qGWUSJogZWyYKhCTvnpkhRxJl?__cft__[0]=AZjwLbNBZT2KEWux6gZ9Q8Y7Ywwh_EV1ZbbylGEGmd8xv9NNiEBnlbVBnTsZ5hLRnPaLV0TcPdy3i372yga-5XXVqgAsL5fiOpIrb5dFB7TJhjGO_PSLA9XEdjPaFmqyRXoKyYksvh6h3fGGkF7_r1weRcV7HYyn06ZFvV5peOxWLyqlfdRknK2Gzlk",
+          "timestamp": "2026-09-16T01:21:43.698092+00:00",
+          "interaction": 45
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股就算反彈也恐拉回...…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02kEY3rEwNFAnp8T1h2dnPGqzN3L8LrxBmbJEG8B9vhjgULQkqKtaiuLjDWGvUeWLtl?__cft__[0]=AZjggT17xCUJP-I5VawYgShXvbqHBI-UgeiEc6JyQGOwXUXnDW0ccd7lSmrBWlnAkiRkM0QQ2eXNCc3GL2NHdV-8eMwOQRtRD0dkViYBVWcCm2Grce50ztjVuJe6Uh4jesHYFLluCy1yKQChEDvZYqDqvfnxscZnrCqtCFtdtzSuiXcQT2B740Oi92Y",
+          "timestamp": "2026-09-16T01:21:43.698092+00:00",
+          "interaction": 19
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股逐洞賽｜台股高檔震盪 留意權值股動向】\n加權指數下跌351點，跌幅0.77%，收在45,511點…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0YmzZWzdpi7bfivvppBe1KDEaGiTpKY1MWytJZCKAWAQAPgKNHwaJhGFKqPTFuRWxl?__cft__[0]=AZhnsZDa1m8rkoQAxdq2UGdNnJiGPwoilkcJSxTePWiFNrgEnHvn98BRYoUfvGvcbeIPEEZvUVkROpjPf9ABjMIrVP02zbq_ER2RiUFnzoSt8Abm6FkivLqQHSosbNt6i2nUrLI5uK0Ljltsa-WmhwcKP7K-LQDvkMgeEZ2YkeH1lHFNrx29E7n59xQ",
+          "timestamp": "2026-09-16T01:21:43.698092+00:00",
+          "interaction": 10
+        }
+      ]
+    },
+    {
+      "cluster_id": "L",
+      "label": "總經 / Fed",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 160,
+      "competitors_covering": [
+        "ctee.fans",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "2026/9/16(三)股市還在撐 債市先崩?2026最難一局 Fed升息後 誰先投降？【早晨財經速解讀】…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/videos/1079348721756770/?__cft__[0]=AZiI-Os6ZJRo1eujGZEQj79HJj1olLrH6ttqxDlpgKfUVlak1JxKXw2Q_ak484LLlaGLQC13XfRxQ240WWYXXoAo-93d58n5GcgaGB-a2GtE4vnD9T606zcRDWFeeopFiANakK1Gw_d70N2LbzaBomfc4XPgMWPNOf9Ig0nK_LsS0LyRnjXI94vUCpLgSSEfpwvqeA",
+          "timestamp": "2026-09-16T01:24:14.651990+00:00",
+          "interaction": 124
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台灣時間17日凌晨美國聯準會將公布利率決議，市場憂心升息動盪之際，外資力薦二檔基本面強壓外部總經不確定性。野村證券指出，頎邦（6147）矽光子需求穩健，未來商機可期，升評「買進」；瑞銀證券更初次將光寶科（2301）納入研究範圍喊買，看好在AI電源領域競爭力日益增強。",
+          "url": "",
+          "timestamp": "2026-09-16T01:21:43.698092+00:00",
+          "interaction": 18
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "投資人聚焦聯準會本周利率決策，同時美國10年期公債殖利率一度升至5.041％，創2007年以來新高，加上油價持續攀升，市場對通膨及利率維持高檔的疑慮升溫...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0i7ZpHG1JLR8K3ZNraA2UeHbAvcFTUxmTA4TkH5q1dpPZcBQJVQMBhVAq6yqdh2d3l?__cft__[0]=AZj6XnERk0bvl6_QR7d0VxiF-Mi3-GO1B8CC1El83TNqtKmCovfdUy-TfXwuoicgTrvPLMUlFlFigxE_p2yVh0-_eD7Yw1HI8QDoWjo8qrdaCETnpU-DWq5DxVyatFP9qa2O4wR9YMvJIQhPTjVGwHPdG5O9r6_BcwlBUVxvfZ81fzB1oJgrWm0wMNk",
+          "timestamp": "2026-09-16T01:21:43.698092+00:00",
+          "interaction": 18
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-09-15T11:54:00+08:00",
-    "end_utc": "2026-09-15T12:54:00+08:00",
-    "start_tw": "Sep 15, 11:54",
-    "end_tw": "Sep 15, 12:54"
+    "start_utc": "2026-09-16T00:24:14.651990+00:00",
+    "end_utc": "2026-09-16T01:24:14.651990+00:00",
+    "start_tw": "Sep 16, 08:24",
+    "end_tw": "Sep 16, 09:24"
   }
 }
