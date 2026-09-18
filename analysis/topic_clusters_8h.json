@@ -1,18 +1,63 @@
 {
   "clusters": [
     {
-      "id": "K",
-      "label": "AI 模型 / 應用",
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 10,
+      "accounts": {
+        "TrendForce": 1,
+        "technews_tw": 2,
+        "jukan05": 4,
+        "QQ_Timmy": 3
+      },
+      "engagement_by_account": {
+        "TrendForce": 8,
+        "technews_tw": 1,
+        "jukan05": 746,
+        "QQ_Timmy": 44
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 8,
+      "accounts": {
+        "technews_tw": 6,
+        "QQ_Timmy": 2
+      },
+      "engagement_by_account": {
+        "technews_tw": 16,
+        "QQ_Timmy": 27
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
       "size": 6,
       "accounts": {
-        "technews_tw": 2,
+        "technews_tw": 1,
         "SemiAnalysis_": 1,
+        "QQ_Timmy": 2,
+        "statementdog": 2
+      },
+      "engagement_by_account": {
+        "technews_tw": 11,
+        "SemiAnalysis_": 20,
+        "QQ_Timmy": 44,
+        "statementdog": 20
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 5,
+      "accounts": {
+        "technews_tw": 2,
         "FT": 3
       },
       "engagement_by_account": {
-        "technews_tw": 2,
-        "SemiAnalysis_": 107,
-        "FT": 82
+        "technews_tw": 3,
+        "FT": 209
       }
     },
     {
@@ -20,69 +65,49 @@
       "label": "晶圓代工 / 先進製程",
       "size": 4,
       "accounts": {
-        "technews_tw": 3,
-        "dnystedt": 1
+        "technews_tw": 4
       },
       "engagement_by_account": {
-        "technews_tw": 4,
-        "dnystedt": 29
+        "technews_tw": 4
       }
     },
     {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 3,
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 4,
       "accounts": {
-        "technews_tw": 3
+        "technews_tw": 1,
+        "QQ_Timmy": 3
       },
       "engagement_by_account": {
-        "technews_tw": 2
-      }
-    },
-    {
-      "id": "J",
-      "label": "PCB / 載板 / 被動元件",
-      "size": 3,
-      "accounts": {
-        "QQ_Timmy": 1,
-        "statementdog": 2
-      },
-      "engagement_by_account": {
-        "QQ_Timmy": 32,
-        "statementdog": 5
-      }
-    },
-    {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
-      "size": 2,
-      "accounts": {
-        "technews_tw": 2
-      },
-      "engagement_by_account": {
-        "technews_tw": 12
-      }
-    },
-    {
-      "id": "C",
-      "label": "ASIC / 自研晶片",
-      "size": 1,
-      "accounts": {
-        "QQ_Timmy": 1
-      },
-      "engagement_by_account": {
-        "QQ_Timmy": 32
+        "technews_tw": 11,
+        "QQ_Timmy": 62
       }
     },
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 1,
+      "size": 3,
       "accounts": {
+        "jukan05": 1,
+        "QQ_Timmy": 1,
         "statementdog": 1
       },
       "engagement_by_account": {
-        "statementdog": 3
+        "jukan05": 55,
+        "QQ_Timmy": 2,
+        "statementdog": 4
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 2,
+      "accounts": {
+        "QQ_Timmy": 2
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 60
       }
     },
     {
@@ -93,18 +118,7 @@
         "statementdog": 1
       },
       "engagement_by_account": {
-        "statementdog": 6
-      }
-    },
-    {
-      "id": "H",
-      "label": "網通 / 光通訊",
-      "size": 1,
-      "accounts": {
-        "QQ_Timmy": 1
-      },
-      "engagement_by_account": {
-        "QQ_Timmy": 32
+        "statementdog": 7
       }
     },
     {
@@ -123,10 +137,10 @@
       "label": "地緣政治 / 政策",
       "size": 1,
       "accounts": {
-        "dnystedt": 1
+        "technews_tw": 1
       },
       "engagement_by_account": {
-        "dnystedt": 41
+        "technews_tw": 1
       }
     },
     {
@@ -137,7 +151,7 @@
         "QQ_Timmy": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 32
+        "QQ_Timmy": 42
       }
     }
   ],
@@ -145,10 +159,11 @@
     {
       "cluster_id": "J",
       "label": "PCB / 載板 / 被動元件",
-      "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 37,
+      "own_count": 1,
+      "competitor_count": 5,
+      "competitor_engagement": 84,
       "competitors_covering": [
+        "SemiAnalysis_",
         "QQ_Timmy",
         "statementdog"
       ],
@@ -159,15 +174,15 @@
           "text": "早安！7/18 外電綜合整理  - CCL: 美系重申正向 美系大行表示CPO是否可能衝擊高階 CCL 的需求不是一個新的爭論議題。券商重申高階 CCL 供應吃緊的看法；以及正面的基本面想法不變。  - 奇鋐、雙鴻: 美系升目標 美系券商預估3017奇鋐3、4季營收將分別季增 18%／12%，主要由目前 ASIC",
           "url": "https://x.com/QQ_Timmy/status/2100745897579786705",
           "timestamp": "2026-09-18T08:37:06.000+08:00",
-          "interaction": 32
+          "interaction": 42
         },
         {
-          "handle": "statementdog",
+          "handle": "SemiAnalysis_",
           "platform": "X",
-          "text": "Doosan plans to invest about $700 million to expand CCL capacity for growing AI data center demand.  Some of its South Korean copper-clad laminate plants ran above 100% utilization in H1 2026. The company says the expansion is based on key customers’ medium- and long-term demand.",
-          "url": "https://x.com/statementdog/status/2100760791003881726",
-          "timestamp": "2026-09-18T09:36:17.000+08:00",
-          "interaction": 3
+          "text": "VICTORY LAP!  🟠 We called out Eternal Precision Mechanics ($7795.TW) in this post last week as part of the substrate story: 🟠 Yesterday Unimicron announced a USD $55.2m order!   https:// x.com/SemiAnalysis_/ status/2098169376285307111?s=20 …",
+          "url": "https://x.com/SemiAnalysis_/status/2100857912524505221",
+          "timestamp": "2026-09-18T16:02:13.000+08:00",
+          "interaction": 20
         },
         {
           "handle": "statementdog",
@@ -175,6 +190,96 @@
           "text": "Eternal Precision, an equipment supplier to ABF substrate makers, now has delivery slots booked into 2031, according to Goldman Sachs. Some customers are even willing to pay a premium for earlier delivery.  Most of those offers are coming from Chinese substrate makers. Even so,",
           "url": "https://x.com/statementdog/status/2100787439698842096",
           "timestamp": "2026-09-18T11:22:11.000+08:00",
+          "interaction": 16
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Doosan plans to invest about $700 million to expand CCL capacity for growing AI data center demand.  Some of its South Korean copper-clad laminate plants ran above 100% utilization in H1 2026. The company says the expansion is based on key customers’ medium- and long-term demand.",
+          "url": "https://x.com/statementdog/status/2100760791003881726",
+          "timestamp": "2026-09-18T09:36:17.000+08:00",
+          "interaction": 4
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "斗山宣布投資約9700億韓元（歷來最大規模），在韓中擴增高階覆銅板（CCL）產能，因應AI資料中心需求爆發。  韓國投入4200億擴建光模組用CCL產線，中國投入5500億新建AI加速器與網路交換器用工廠。投資分三年至2028年執行，新產線預計2028年下半年陸續投產。",
+          "url": "https://x.com/QQ_Timmy/status/2100817219290845223",
+          "timestamp": "2026-09-18T13:20:31.000+08:00",
+          "interaction": 2
+        }
+      ]
+    },
+    {
+      "cluster_id": "H",
+      "label": "網通 / 光通訊",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 62,
+      "competitors_covering": [
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "早安！7/18 外電綜合整理  - CCL: 美系重申正向 美系大行表示CPO是否可能衝擊高階 CCL 的需求不是一個新的爭論議題。券商重申高階 CCL 供應吃緊的看法；以及正面的基本面想法不變。  - 奇鋐、雙鴻: 美系升目標 美系券商預估3017奇鋐3、4季營收將分別季增 18%／12%，主要由目前 ASIC",
+          "url": "https://x.com/QQ_Timmy/status/2100745897579786705",
+          "timestamp": "2026-09-18T08:37:06.000+08:00",
+          "interaction": 42
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "欣銓（3264）  純測試廠，正從車用／工控轉向 AI ASIC 晶圓針測（CP）+ 矽光子。近期設備訂單與法說、券商報告方向一致：龍潭廠擴產是主軸。  近期設備訂單 - 9/8：Advantest 測試機約 1,900 萬美元 - 9/17：Accretech 探針台約 NT$5.59 億（約 1,800 萬美元） - 這兩筆主要是 龍潭二樓 設備，交期約",
+          "url": "https://x.com/QQ_Timmy/status/2100822172361179544",
+          "timestamp": "2026-09-18T13:40:11.000+08:00",
+          "interaction": 18
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "斗山宣布投資約9700億韓元（歷來最大規模），在韓中擴增高階覆銅板（CCL）產能，因應AI資料中心需求爆發。  韓國投入4200億擴建光模組用CCL產線，中國投入5500億新建AI加速器與網路交換器用工廠。投資分三年至2028年執行，新產線預計2028年下半年陸續投產。",
+          "url": "https://x.com/QQ_Timmy/status/2100817219290845223",
+          "timestamp": "2026-09-18T13:20:31.000+08:00",
+          "interaction": 2
+        }
+      ]
+    },
+    {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 61,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy",
+        "statementdog"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "According to Taiwanese supply chain rumors, Google…",
+          "url": "https://x.com/jukan05/status/2100837240058618102",
+          "timestamp": "2026-09-18T14:40:04.000+08:00",
+          "interaction": 55
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Doosan plans to invest about $700 million to expand CCL capacity for growing AI data center demand.  Some of its South Korean copper-clad laminate plants ran above 100% utilization in H1 2026. The company says the expansion is based on key customers’ medium- and long-term demand.",
+          "url": "https://x.com/statementdog/status/2100760791003881726",
+          "timestamp": "2026-09-18T09:36:17.000+08:00",
+          "interaction": 4
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "斗山宣布投資約9700億韓元（歷來最大規模），在韓中擴增高階覆銅板（CCL）產能，因應AI資料中心需求爆發。  韓國投入4200億擴建光模組用CCL產線，中國投入5500億新建AI加速器與網路交換器用工廠。投資分三年至2028年執行，新產線預計2028年下半年陸續投產。",
+          "url": "https://x.com/QQ_Timmy/status/2100817219290845223",
+          "timestamp": "2026-09-18T13:20:31.000+08:00",
           "interaction": 2
         }
       ]
@@ -184,10 +289,11 @@
     {
       "cluster_id": "J",
       "label": "PCB / 載板 / 被動元件",
-      "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 37,
+      "own_count": 1,
+      "competitor_count": 5,
+      "competitor_engagement": 84,
       "competitors_covering": [
+        "SemiAnalysis_",
         "QQ_Timmy",
         "statementdog"
       ],
@@ -198,15 +304,15 @@
           "text": "早安！7/18 外電綜合整理  - CCL: 美系重申正向 美系大行表示CPO是否可能衝擊高階 CCL 的需求不是一個新的爭論議題。券商重申高階 CCL 供應吃緊的看法；以及正面的基本面想法不變。  - 奇鋐、雙鴻: 美系升目標 美系券商預估3017奇鋐3、4季營收將分別季增 18%／12%，主要由目前 ASIC",
           "url": "https://x.com/QQ_Timmy/status/2100745897579786705",
           "timestamp": "2026-09-18T08:37:06.000+08:00",
-          "interaction": 32
+          "interaction": 42
         },
         {
-          "handle": "statementdog",
+          "handle": "SemiAnalysis_",
           "platform": "X",
-          "text": "Doosan plans to invest about $700 million to expand CCL capacity for growing AI data center demand.  Some of its South Korean copper-clad laminate plants ran above 100% utilization in H1 2026. The company says the expansion is based on key customers’ medium- and long-term demand.",
-          "url": "https://x.com/statementdog/status/2100760791003881726",
-          "timestamp": "2026-09-18T09:36:17.000+08:00",
-          "interaction": 3
+          "text": "VICTORY LAP!  🟠 We called out Eternal Precision Mechanics ($7795.TW) in this post last week as part of the substrate story: 🟠 Yesterday Unimicron announced a USD $55.2m order!   https:// x.com/SemiAnalysis_/ status/2098169376285307111?s=20 …",
+          "url": "https://x.com/SemiAnalysis_/status/2100857912524505221",
+          "timestamp": "2026-09-18T16:02:13.000+08:00",
+          "interaction": 20
         },
         {
           "handle": "statementdog",
@@ -214,15 +320,105 @@
           "text": "Eternal Precision, an equipment supplier to ABF substrate makers, now has delivery slots booked into 2031, according to Goldman Sachs. Some customers are even willing to pay a premium for earlier delivery.  Most of those offers are coming from Chinese substrate makers. Even so,",
           "url": "https://x.com/statementdog/status/2100787439698842096",
           "timestamp": "2026-09-18T11:22:11.000+08:00",
+          "interaction": 16
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Doosan plans to invest about $700 million to expand CCL capacity for growing AI data center demand.  Some of its South Korean copper-clad laminate plants ran above 100% utilization in H1 2026. The company says the expansion is based on key customers’ medium- and long-term demand.",
+          "url": "https://x.com/statementdog/status/2100760791003881726",
+          "timestamp": "2026-09-18T09:36:17.000+08:00",
+          "interaction": 4
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "斗山宣布投資約9700億韓元（歷來最大規模），在韓中擴增高階覆銅板（CCL）產能，因應AI資料中心需求爆發。  韓國投入4200億擴建光模組用CCL產線，中國投入5500億新建AI加速器與網路交換器用工廠。投資分三年至2028年執行，新產線預計2028年下半年陸續投產。",
+          "url": "https://x.com/QQ_Timmy/status/2100817219290845223",
+          "timestamp": "2026-09-18T13:20:31.000+08:00",
+          "interaction": 2
+        }
+      ]
+    },
+    {
+      "cluster_id": "H",
+      "label": "網通 / 光通訊",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 62,
+      "competitors_covering": [
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "早安！7/18 外電綜合整理  - CCL: 美系重申正向 美系大行表示CPO是否可能衝擊高階 CCL 的需求不是一個新的爭論議題。券商重申高階 CCL 供應吃緊的看法；以及正面的基本面想法不變。  - 奇鋐、雙鴻: 美系升目標 美系券商預估3017奇鋐3、4季營收將分別季增 18%／12%，主要由目前 ASIC",
+          "url": "https://x.com/QQ_Timmy/status/2100745897579786705",
+          "timestamp": "2026-09-18T08:37:06.000+08:00",
+          "interaction": 42
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "欣銓（3264）  純測試廠，正從車用／工控轉向 AI ASIC 晶圓針測（CP）+ 矽光子。近期設備訂單與法說、券商報告方向一致：龍潭廠擴產是主軸。  近期設備訂單 - 9/8：Advantest 測試機約 1,900 萬美元 - 9/17：Accretech 探針台約 NT$5.59 億（約 1,800 萬美元） - 這兩筆主要是 龍潭二樓 設備，交期約",
+          "url": "https://x.com/QQ_Timmy/status/2100822172361179544",
+          "timestamp": "2026-09-18T13:40:11.000+08:00",
+          "interaction": 18
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "斗山宣布投資約9700億韓元（歷來最大規模），在韓中擴增高階覆銅板（CCL）產能，因應AI資料中心需求爆發。  韓國投入4200億擴建光模組用CCL產線，中國投入5500億新建AI加速器與網路交換器用工廠。投資分三年至2028年執行，新產線預計2028年下半年陸續投產。",
+          "url": "https://x.com/QQ_Timmy/status/2100817219290845223",
+          "timestamp": "2026-09-18T13:20:31.000+08:00",
+          "interaction": 2
+        }
+      ]
+    },
+    {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 61,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy",
+        "statementdog"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "According to Taiwanese supply chain rumors, Google…",
+          "url": "https://x.com/jukan05/status/2100837240058618102",
+          "timestamp": "2026-09-18T14:40:04.000+08:00",
+          "interaction": 55
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Doosan plans to invest about $700 million to expand CCL capacity for growing AI data center demand.  Some of its South Korean copper-clad laminate plants ran above 100% utilization in H1 2026. The company says the expansion is based on key customers’ medium- and long-term demand.",
+          "url": "https://x.com/statementdog/status/2100760791003881726",
+          "timestamp": "2026-09-18T09:36:17.000+08:00",
+          "interaction": 4
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "斗山宣布投資約9700億韓元（歷來最大規模），在韓中擴增高階覆銅板（CCL）產能，因應AI資料中心需求爆發。  韓國投入4200億擴建光模組用CCL產線，中國投入5500億新建AI加速器與網路交換器用工廠。投資分三年至2028年執行，新產線預計2028年下半年陸續投產。",
+          "url": "https://x.com/QQ_Timmy/status/2100817219290845223",
+          "timestamp": "2026-09-18T13:20:31.000+08:00",
           "interaction": 2
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-09-18T04:25:45+08:00",
-    "end_utc": "2026-09-18T12:25:45+08:00",
-    "start_tw": "Sep 18, 04:25",
-    "end_tw": "Sep 18, 12:25"
+    "start_utc": "2026-09-18T08:30:10+08:00",
+    "end_utc": "2026-09-18T16:30:10+08:00",
+    "start_tw": "Sep 18, 08:30",
+    "end_tw": "Sep 18, 16:30"
   }
 }
