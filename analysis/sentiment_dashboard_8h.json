@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-17T08:55:18.440975+00:00",
+  "generated_at": "2026-09-17T21:17:40.796000+08:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-09-17T00:55:18.440975+00:00",
-    "end_utc": "2026-09-17T08:55:18.440975+00:00",
-    "start_tw": "Sep 17, 08:55",
-    "end_tw": "Sep 17, 16:55"
+    "start_utc": "2026-09-17T13:17:40.796000+08:00",
+    "end_utc": "2026-09-17T21:17:40.796000+08:00",
+    "start_tw": "Sep 17, 13:17",
+    "end_tw": "Sep 17, 21:17"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 117,
+      "total_posts": 135,
       "sentiment_counts": {
-        "neutral": 39,
-        "positive": 48,
+        "neutral": 41,
+        "positive": 64,
         "negative": 30
       },
       "sentiment_share": {
-        "neutral": 0.333,
-        "positive": 0.41,
-        "negative": 0.256
+        "neutral": 0.304,
+        "positive": 0.474,
+        "negative": 0.222
       },
       "top_terms": [
         "查看",
@@ -27,27 +27,45 @@
         "更多",
         "查看更",
         "看更多",
-        "升息",
-        "聯準",
-        "準會",
-        "聯準會",
-        "晶片"
+        "apple",
+        "flash",
+        "nvidia",
+        "memory",
+        "samsung"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 20,
-        "label": "google / alphabet / 資源配置 / googlecloud",
-        "heat": 90.0,
-        "volume": 3,
-        "engagement": 103,
-        "entities": [],
+        "topic_id": 8,
+        "label": "nvidia / apple / nvlink / ultra",
+        "heat": 71.4,
+        "volume": 5,
+        "engagement": 68,
+        "entities": [
+          "輝達",
+          "伺服器",
+          "顯卡",
+          "串聯",
+          "藉此"
+        ],
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 5,
+        "label": "flash / capacity / norflash / winbond",
+        "heat": 70.2,
+        "volume": 6,
+        "engagement": 33,
+        "entities": [
+          "華邦電",
+          "英飛凌"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 24,
         "label": "flash與f / ram事業 / 華邦電 / 股權",
-        "heat": 90.0,
+        "heat": 70.0,
         "volume": 3,
         "engagement": 131,
         "entities": [
@@ -60,51 +78,95 @@
         "is_catchall": false
       },
       {
-        "topic_id": 9,
-        "label": "貨幣政策 / 聯準會 / 升息 / 區間",
-        "heat": 75.2,
-        "volume": 3,
-        "engagement": 44,
-        "entities": [
-          "華許",
-          "聯準會",
-          "高通"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 18,
-        "label": "flash / norflash / 英飛凌 / fram",
-        "heat": 68.3,
-        "volume": 3,
-        "engagement": 33,
-        "entities": [
-          "華邦電",
-          "英飛凌"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 5,
+        "topic_id": 4,
         "label": "threats",
-        "heat": 35.5,
+        "heat": 36.0,
         "volume": 2,
         "engagement": 108,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 7,
-        "label": "japan",
-        "heat": 10.3,
-        "volume": 2,
-        "engagement": 68,
+        "topic_id": 17,
+        "label": "eda / empyrean / tau / task",
+        "heat": 28.6,
+        "volume": 3,
+        "engagement": 63,
         "entities": [],
         "is_catchall": false
       },
       {
+        "topic_id": 10,
+        "label": "升息 / 聯準會 / 區間 / 貨幣政策",
+        "heat": 25.9,
+        "volume": 3,
+        "engagement": 57,
+        "entities": [
+          "聯準會",
+          "華許",
+          "高通"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "iphone / apple / duo / foldable",
+        "heat": 18.5,
+        "volume": 4,
+        "engagement": 14,
+        "entities": [
+          "摩根士丹利",
+          "換機"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "勞工婚假 / 人口對策 / 軍公教比照 / 天婚假",
+        "heat": 17.6,
+        "volume": 3,
+        "engagement": 20,
+        "entities": [
+          "福利"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 19,
+        "label": "ai安全 / reidhoffman / 前沿ai / anthropic",
+        "heat": 16.6,
+        "volume": 3,
+        "engagement": 16,
+        "entities": [
+          "霍夫曼",
+          "約書亞",
+          "班吉"
+        ],
+        "is_catchall": false
+      },
+      {
         "topic_id": 14,
-        "label": "天啟四騎士 / 原油價格 / 全球經濟 / 通膨危機",
+        "label": "huawei / ascend / roadmap / tech",
+        "heat": 14.7,
+        "volume": 3,
+        "engagement": 10,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "安全數位底片 / 照片真偽 / 數位驗證 / 防竄改",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 5,
+        "entities": [
+          "加密"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 21,
+        "label": "天啟四騎士 / 通膨危機 / 原油價格 / 全球經濟",
         "heat": 10.0,
         "volume": 2,
         "engagement": 7,
@@ -117,8 +179,17 @@
         "is_catchall": false
       },
       {
-        "topic_id": 21,
-        "label": "湯家鳳 / 母語學習 / 社群熱議 / 教育辯論",
+        "topic_id": 20,
+        "label": "cowork / claude / anthropic / 生產力工具",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 9,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 26,
+        "label": "英語必修 / 教育辯論 / 母語學習 / 湯家鳳",
         "heat": 10.0,
         "volume": 2,
         "engagement": 4,
@@ -130,19 +201,8 @@
         "is_catchall": false
       },
       {
-        "topic_id": 17,
-        "label": "reidhoffman / 前沿ai / ai安全 / openai",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 4,
-        "entities": [
-          "霍夫曼"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 22,
-        "label": "貿易逆差 / 歐盟 / 范德賴恩 / 貿易衝擊",
+        "topic_id": 3,
+        "label": "歐盟 / 貿易逆差 / 范德賴恩 / 貿易衝擊",
         "heat": 10.0,
         "volume": 2,
         "engagement": 17,
@@ -156,7 +216,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 19,
+        "topic_id": 9,
         "label": "ascend / superpod / 近封裝光學 / 華為",
         "heat": 10.0,
         "volume": 2,
@@ -165,106 +225,25 @@
         "is_catchall": false
       },
       {
-        "topic_id": 12,
-        "label": "luna / meta / 智慧眼鏡 / 隱私保護",
+        "topic_id": 25,
+        "label": "google / 資源配置 / googlecloud / alphabet",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 14,
-        "entities": [
-          "智慧"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 11,
-        "label": "生成式ai / ai基礎設施 / gartner / ai支出",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 10,
+        "engagement": 15,
         "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "nhtsa / cybercab / 特斯拉 / 自動駕駛",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 35,
-        "entities": [
-          "聯邦"
-        ],
         "is_catchall": false
       },
       {
         "topic_id": 13,
-        "label": "amd / nvidia / rdna / 顯卡延期",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 34,
-        "entities": [
-          "顯卡"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 10,
-        "label": "黃仁勳 / 半導體國產化 / 晶片自主 / 供應鏈",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 25,
-        "entities": [
-          "黃仁勳",
-          "中國",
-          "輝達",
-          "曝光"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 15,
-        "label": "arm / 資料中心 / 安謀 / 供應鏈",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 11,
-        "entities": [
-          "安謀"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 16,
-        "label": "aema / google / 輝達 / 能源管理",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 8,
-        "entities": [
-          "輝達",
-          "聯盟"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 8,
-        "label": "lg / 透過原廠直營售後服務 / 與純價格競爭者做出明確區隔 / 總經理羅時景針對中系品牌低價切入台灣大型家電市場做出回應",
+        "label": "gartner / 科技趨勢 / ai基礎設施 / ai支出",
         "heat": 10.0,
         "volume": 2,
         "engagement": 10,
-        "entities": [
-          "台灣"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 6,
-        "label": "rise",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 24,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 3,
+        "topic_id": 23,
         "label": "美國聯準會 / fed",
         "heat": 10.0,
         "volume": 2,
@@ -277,7 +256,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 4,
+        "topic_id": 16,
         "label": "台股今",
         "heat": 10.0,
         "volume": 2,
@@ -290,48 +269,98 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，69 篇）",
+        "topic_id": 15,
+        "label": "spot / prices / tlc / weak",
         "heat": 10.0,
-        "volume": 69,
-        "engagement": 2427,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "intel / emib / packaging / mechanics",
+        "heat": 10.0,
+        "volume": 4,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 11,
+        "label": "cxmt / apple / lpddr / server",
+        "heat": 10.0,
+        "volume": 3,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "nm / tsmc / mediatek / dimensity",
+        "heat": 10.0,
+        "volume": 4,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 18,
+        "label": "samsung / capacity / hbm / cheonan",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "hbm / micron / radar / driving",
+        "heat": 10.0,
+        "volume": 3,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "其他（未分群，62 篇）",
+        "heat": 10.0,
+        "volume": 62,
+        "engagement": 871,
         "entities": [
-          "福利",
-          "安葆",
-          "伺服器",
+          "智慧",
+          "中國",
           "輝達",
-          "聯準會"
+          "黃仁勳",
+          "安葆"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
       {
-        "entity": "中國",
-        "count": 14
-      },
-      {
         "entity": "華邦電",
         "count": 13
       },
       {
-        "entity": "輝達",
-        "count": 13
-      },
-      {
-        "entity": "聯準會",
-        "count": 10
+        "entity": "中國",
+        "count": 12
       },
       {
         "entity": "英飛凌",
         "count": 9
       },
       {
+        "entity": "輝達",
+        "count": 8
+      },
+      {
         "entity": "智慧",
         "count": 6
       },
       {
-        "entity": "華許",
+        "entity": "聯準會",
         "count": 6
       },
       {
@@ -355,362 +384,44 @@
         "count": 5
       },
       {
-        "entity": "黃仁勳",
-        "count": 5
-      },
-      {
-        "entity": "安葆",
-        "count": 5
-      },
-      {
         "entity": "伺服器",
         "count": 5
+      },
+      {
+        "entity": "美國聯準會",
+        "count": 4
+      },
+      {
+        "entity": "湯家鳳",
+        "count": 3
+      },
+      {
+        "entity": "華許",
+        "count": 3
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-17T00:55:18.440977+00:00",
-        "bucket_end": "2026-09-17T01:29:35.583834+00:00",
-        "positive": 0,
-        "neutral": 2,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 251,
-        "negative_engagement": 239,
-        "net_sentiment": -50.0,
-        "post_count": 4,
-        "engagement": 490,
-        "top_topics": [
-          {
-            "topic_id": 20,
-            "label": "google / alphabet / 資源配置 / googlecloud",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "yutinghaosfinance",
-            "platform": "Facebook",
-            "text": "2026/9/17(四)三年首度升息!這只是剛開始?升息循環開啟 美股漲得動嗎?【早晨財經速解讀】…… \n查看更多",
-            "url": "https://www.facebook.com/yutinghaosfinance/videos/1582985866152826/?__cft__[0]=AZj0KNLXdStyYFsuJAf-dhNGX1TYQtixEfScnafzbU8PaYRBV2ToA7nez_LQdn_UDNt4XZBLTU97OIIavnkcvMzYgfIOhrYR5vyHckorlIvUjprDLS_ijpAU4e72MybWfvLxibjw8Fc1ElOOCc9imUzq65u6djtPIe4VyvT3-r1Iee0zMp6J378i5AuvPJtYPuZP7g",
-            "interaction": 163
-          },
-          {
-            "handle": "yutinghaosfinance",
-            "platform": "Facebook",
-            "text": "日本大學市場正迎來結構性反轉。文部科學省估計，2025年大學升學人數約65萬人，但到2050年將減少三成至42萬人。…… \n查看更多",
-            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0dDBctkKGhTyZQdPwBjALLqoMRh9YuY9ehHqjFYn8ecKXG3yT5toAdJNWGE5QQqQAl?__cft__[0]=AZgN4yLZkhppD5Eh1jt_9bzZlh8prR4qI46eGWXrLk6i-euy09uPjYj-NHQdoxJDtHIfzkg1aMcI_HAIws66qiEO4zXiblkvn3SvT96VWogN9n0LXQHbT3z_U9it2CCTGDgteSb88mQELxvBYcZQ5FwyaxKa0aeyvdfawGsa8fu6jeC0J0BGWk1Wmz0",
-            "interaction": 155
-          }
-        ],
-        "net_sentiment_smoothed": -3.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-17T01:29:35.583834+00:00",
-        "bucket_end": "2026-09-17T02:03:52.726691+00:00",
-        "positive": 3,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 137,
-        "neutral_engagement": 5,
-        "negative_engagement": 41,
-        "net_sentiment": 40.0,
-        "post_count": 5,
-        "engagement": 183,
-        "top_topics": [
-          {
-            "topic_id": 8,
-            "label": "lg / 透過原廠直營售後服務 / 與純價格競爭者做出明確區隔 / 總經理羅時景針對中系品牌低價切入台灣大型家電市場做出回應",
-            "count": 1
-          },
-          {
-            "topic_id": 6,
-            "label": "rise",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Good morning, Asia. While you were sleeping, one of our most-read stories was about the US central bank’s decision to lift the benchmark federal funds rate by a quarter point.  https:// ft.trib.al/reo",
-            "url": "https://x.com/FT/status/2100401630113866021",
-            "interaction": 126
-          },
-          {
-            "handle": "SemiAnalysis_",
-            "platform": "X",
-            "text": "Regulating AI matters. On either side of the table, the question is no longer whether it happens. It is who gets to say they did it first.  \"I think it's totally possible Trump regulates AI too.\"  \"Th",
-            "url": "https://x.com/SemiAnalysis_/status/2100403373803528245",
-            "interaction": 41
-          }
-        ],
-        "net_sentiment_smoothed": 10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-17T02:03:52.726691+00:00",
-        "bucket_end": "2026-09-17T02:38:09.869548+00:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 2,
-        "positive_engagement": 11,
-        "neutral_engagement": 0,
-        "negative_engagement": 265,
-        "net_sentiment": 0.0,
-        "post_count": 4,
-        "engagement": 276,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "‘If they do that, if I think it’s at all a hostile act, I will put very serious tariffs or stop trading with Europe on many things,’ the US president said after Ursula von der Leyen backed Mark Carney",
-            "url": "https://x.com/FT/status/2100411935434879090",
-            "interaction": 255
-          },
-          {
-            "handle": "TrendForce",
-            "platform": "X",
-            "text": "#Winbond’s acquisition of #Infineon’s NOR Flash and F-RAM businesses, together with the revival of the Spansion brand as an independently operated business after an 11-year hiatus, is expected to rais",
-            "url": "https://x.com/trendforce/status/2100408769062846473",
-            "interaction": 10
-          }
-        ],
-        "net_sentiment_smoothed": -2.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-17T02:38:09.869548+00:00",
-        "bucket_end": "2026-09-17T03:12:27.012405+00:00",
+        "bucket_start": "2026-09-17T13:17:40.796002+08:00",
+        "bucket_end": "2026-09-17T13:51:57.938859+08:00",
         "positive": 1,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 1,
-        "neutral_engagement": 2,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 3,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "摩根士丹利看好 iPhone 18 Pro 系列需求強於預期，搭配 AI 技術帶動換機週期縮短，有望助蘋果股價延續強勢。 #蘋果 #iPhone18 #AppleIntelligence #換機潮 #美股",
-            "url": "https://x.com/technews_tw/status/2100415734522544589",
-            "interaction": 2
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "【AI Agent 進駐 EDA 核心流程｜CadenceLIVE Taiwan 直擊】 當晶片設計從 2D 邁向 3D 堆疊，EDA 工程複雜度也同步飆升。Cadence 端出 AI Super Agent「InnoStack」，實測將ECO 設計時間從 28 小時縮至 20 小時，時序違規最高改善 58%。 當工程師人力追不上晶片複雜度，AI…",
-            "url": "https://x.com/technews_tw/status/2100420389830861256",
-            "interaction": 1
-          }
-        ],
-        "net_sentiment_smoothed": 23.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-17T03:12:27.012405+00:00",
-        "bucket_end": "2026-09-17T03:46:44.155262+00:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 1,
-        "negative_engagement": 203,
-        "net_sentiment": -50.0,
-        "post_count": 2,
-        "engagement": 204,
-        "top_topics": [
-          {
-            "topic_id": 16,
-            "label": "aema / google / 輝達 / 能源管理",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The US Federal Reserve has raised rates for the first time since 2023 and signalled that it is prepared to take further steps to curb inflation as chair Kevin Warsh defies Donald Trump’s calls for low",
-            "url": "https://x.com/FT/status/2100431219708047528",
-            "interaction": 203
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "輝達、Google 與 Emerald AI 成立「AI 能源管理聯盟」（AEMA），推動 AI 資料中心動態調整電力負載以紓解全球電網瓶頸。 #AEMA #輝達 #Google #AI資料中心 #能源管理",
-            "url": "https://x.com/technews_tw/status/2100425029314068762",
-            "interaction": 1
-          }
-        ],
-        "net_sentiment_smoothed": 15.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-17T03:46:44.155262+00:00",
-        "bucket_end": "2026-09-17T04:21:01.298119+00:00",
-        "positive": 3,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 11,
-        "neutral_engagement": 1,
-        "negative_engagement": 0,
-        "net_sentiment": 75.0,
-        "post_count": 4,
-        "engagement": 12,
-        "top_topics": [
-          {
-            "topic_id": 13,
-            "label": "amd / nvidia / rdna / 顯卡延期",
-            "count": 1
-          },
-          {
-            "topic_id": 10,
-            "label": "黃仁勳 / 半導體國產化 / 晶片自主 / 供應鏈",
-            "count": 1
-          },
-          {
-            "topic_id": 15,
-            "label": "arm / 資料中心 / 安謀 / 供應鏈",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tengyanAI",
-            "platform": "X",
-            "text": "the ironic part about all this is that the main API use case (coding agents) actually reduces the switching costs. even more so as the models get better.  i can ask claude/astra to evaluate and switch",
-            "url": "https://x.com/tengyanAI/status/2100436952474607987",
-            "interaction": 8
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "黃仁勳看好中國半導體大規模生產能力！預測中國只需三至四年即可開發出自己的先進曝光設備。 #黃仁勳 #輝達 #半導體國產化 #晶片自主 #供應鏈",
-            "url": "https://x.com/technews_tw/status/2100435418768617500",
-            "interaction": 2
-          }
-        ],
-        "net_sentiment_smoothed": 15.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-17T04:21:01.298119+00:00",
-        "bucket_end": "2026-09-17T04:55:18.440976+00:00",
-        "positive": 5,
         "neutral": 3,
-        "negative": 5,
-        "positive_engagement": 172,
-        "neutral_engagement": 44,
-        "negative_engagement": 147,
-        "net_sentiment": 0.0,
-        "post_count": 13,
-        "engagement": 363,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "nhtsa / cybercab / 特斯拉 / 自動駕駛",
-            "count": 1
-          },
-          {
-            "topic_id": 9,
-            "label": "貨幣政策 / 聯準會 / 升息 / 區間",
-            "count": 1
-          },
-          {
-            "topic_id": 6,
-            "label": "rise",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Trump fails to bend the Fed to his will",
-            "url": "https://x.com/FT/status/2100440318097207314",
-            "interaction": 79
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Why Carney’s romance with Europe can only go so far",
-            "url": "https://x.com/FT/status/2100440769249034486",
-            "interaction": 77
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-17T04:55:18.440976+00:00",
-        "bucket_end": "2026-09-17T05:29:35.583833+00:00",
-        "positive": 1,
-        "neutral": 2,
         "negative": 1,
-        "positive_engagement": 41,
-        "neutral_engagement": 86,
-        "negative_engagement": 1,
-        "net_sentiment": 0.0,
-        "post_count": 4,
-        "engagement": 128,
-        "top_topics": [
-          {
-            "topic_id": 7,
-            "label": "japan",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Barclays hit by staff backlash over return-to-office rules",
-            "url": "https://x.com/FT/status/2100448697993625966",
-            "interaction": 84
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The yen fell past ¥156 per dollar, undermining progress in recent weeks by the US and Japan to support the currency, and putting more pressure on the Bank of Japan ahead of its own interest rate decis",
-            "url": "https://x.com/FT/status/2100449349486391754",
-            "interaction": 41
-          }
-        ],
-        "net_sentiment_smoothed": 16.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-17T05:29:35.583833+00:00",
-        "bucket_end": "2026-09-17T06:03:52.726690+00:00",
-        "positive": 1,
-        "neutral": 4,
-        "negative": 3,
         "positive_engagement": 88,
         "neutral_engagement": 68,
-        "negative_engagement": 180,
-        "net_sentiment": -25.0,
-        "post_count": 8,
-        "engagement": 336,
+        "negative_engagement": 133,
+        "net_sentiment": 0.0,
+        "post_count": 5,
+        "engagement": 289,
         "top_topics": [
           {
             "topic_id": 5,
-            "label": "threats",
-            "count": 2
-          },
-          {
-            "topic_id": 11,
-            "label": "生成式ai / ai基礎設施 / gartner / ai支出",
+            "label": "flash / capacity / norflash / winbond",
             "count": 1
           },
           {
-            "topic_id": 18,
-            "label": "flash / norflash / 英飛凌 / fram",
+            "topic_id": 4,
+            "label": "threats",
             "count": 1
           }
         ],
@@ -730,30 +441,73 @@
             "interaction": 88
           }
         ],
-        "net_sentiment_smoothed": 9.7,
+        "net_sentiment_smoothed": 3.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-17T06:03:52.726690+00:00",
-        "bucket_end": "2026-09-17T06:38:09.869547+00:00",
-        "positive": 1,
+        "bucket_start": "2026-09-17T13:51:57.938859+08:00",
+        "bucket_end": "2026-09-17T14:26:15.081716+08:00",
+        "positive": 0,
         "neutral": 2,
-        "negative": 0,
+        "negative": 2,
         "positive_engagement": 0,
-        "neutral_engagement": 30,
-        "negative_engagement": 0,
-        "net_sentiment": 33.3,
-        "post_count": 3,
-        "engagement": 30,
+        "neutral_engagement": 0,
+        "negative_engagement": 47,
+        "net_sentiment": -50.0,
+        "post_count": 4,
+        "engagement": 47,
         "top_topics": [
           {
-            "topic_id": 12,
-            "label": "luna / meta / 智慧眼鏡 / 隱私保護",
+            "topic_id": 25,
+            "label": "google / 資源配置 / googlecloud / alphabet",
             "count": 1
           },
           {
-            "topic_id": 20,
-            "label": "google / alphabet / 資源配置 / googlecloud",
+            "topic_id": 13,
+            "label": "gartner / 科技趨勢 / ai基礎設施 / ai支出",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "threats",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "村田明年量產AI晶片用iPaS電源基板  村田計劃明年量產整合封裝解決方案iPaS，將電容、電感功能做進超小型多層基板，可陣列客製電容值、特性與線路。表面可佈線、內部過孔垂直傳電，減少被動元件佔位，讓電源模組直接放在AI加速器下方，實現垂直供電（VPD），縮短路徑、降低損耗。",
+            "url": "https://x.com/QQ_Timmy/status/2100464916507566200",
+            "interaction": 27
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Gore downplays AI threats and touts its climate potential",
+            "url": "https://x.com/FT/status/2100464531369496927",
+            "interaction": 20
+          }
+        ],
+        "net_sentiment_smoothed": 2.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-17T14:26:15.081716+08:00",
+        "bucket_end": "2026-09-17T15:00:32.224573+08:00",
+        "positive": 3,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 36,
+        "neutral_engagement": 30,
+        "negative_engagement": 0,
+        "net_sentiment": 60.0,
+        "post_count": 5,
+        "engagement": 66,
+        "top_topics": [
+          {
+            "topic_id": 9,
+            "label": "ascend / superpod / 近封裝光學 / 華為",
             "count": 1
           }
         ],
@@ -766,37 +520,42 @@
             "interaction": 30
           },
           {
-            "handle": "technews_tw",
+            "handle": "QQ_Timmy",
             "platform": "X",
-            "text": "傳聞 Meta 正在開發無鏡頭的智慧眼鏡「Luna」，將移除攝影功能以回應隱私疑慮，並把產品核心聚焦於語音互動與 AI 服務。 #Meta #Luna #智慧眼鏡 #MetaAI #隱私保護",
-            "url": "https://x.com/technews_tw/status/2100473459256312033",
-            "interaction": 0
+            "text": "力成（6239）  一、近期營運數字 - 2026 上半年：營收約 444 億（去年同期約 333 億）；Q2 營收 231 億（QoQ +8.5%、YoY +28%）。 - 7、8 月：7 月 82 億、8 月 85.6 億；Q3 前兩個月合計約 167 億，距離 Q2 的 231 億不遠，公司認為 Q3 優於 Q2、Q4 再優於 Q3 機會高。 - 獲利：Q2 毛利率",
+            "url": "https://x.com/QQ_Timmy/status/2100475514112930293",
+            "interaction": 26
           }
         ],
-        "net_sentiment_smoothed": 9.7,
+        "net_sentiment_smoothed": -4.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-17T06:38:09.869547+00:00",
-        "bucket_end": "2026-09-17T07:12:27.012404+00:00",
-        "positive": 3,
-        "neutral": 1,
+        "bucket_start": "2026-09-17T15:00:32.224573+08:00",
+        "bucket_end": "2026-09-17T15:34:49.367430+08:00",
+        "positive": 1,
+        "neutral": 3,
         "negative": 1,
-        "positive_engagement": 87,
-        "neutral_engagement": 0,
+        "positive_engagement": 51,
+        "neutral_engagement": 10,
         "negative_engagement": 0,
-        "net_sentiment": 40.0,
+        "net_sentiment": 0.0,
         "post_count": 5,
-        "engagement": 87,
+        "engagement": 61,
         "top_topics": [
           {
-            "topic_id": 22,
-            "label": "貿易逆差 / 歐盟 / 范德賴恩 / 貿易衝擊",
+            "topic_id": 14,
+            "label": "huawei / ascend / roadmap / tech",
+            "count": 1
+          },
+          {
+            "topic_id": 26,
+            "label": "英語必修 / 教育辯論 / 母語學習 / 湯家鳳",
             "count": 1
           },
           {
             "topic_id": 19,
-            "label": "ascend / superpod / 近封裝光學 / 華為",
+            "label": "ai安全 / reidhoffman / 前沿ai / anthropic",
             "count": 1
           }
         ],
@@ -809,75 +568,37 @@
             "interaction": 51
           },
           {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "力成（6239）  一、近期營運數字 - 2026 上半年：營收約 444 億（去年同期約 333 億）；Q2 營收 231 億（QoQ +8.5%、YoY +28%）。 - 7、8 月：7 月 82 億、8 月 85.6 億；Q3 前兩個月合計約 167 億，距離 Q2 的 231 億不遠，公司認為 Q3 優於 Q2、Q4 再優於 Q3 機會高。 - 獲利：Q2 毛利率",
-            "url": "https://x.com/QQ_Timmy/status/2100475514112930293",
-            "interaction": 26
-          }
-        ],
-        "net_sentiment_smoothed": 9.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-17T07:12:27.012404+00:00",
-        "bucket_end": "2026-09-17T07:46:44.155261+00:00",
-        "positive": 0,
-        "neutral": 4,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 10,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 4,
-        "engagement": 10,
-        "top_topics": [
-          {
-            "topic_id": 21,
-            "label": "湯家鳳 / 母語學習 / 社群熱議 / 教育辯論",
-            "count": 1
-          },
-          {
-            "topic_id": 17,
-            "label": "reidhoffman / 前沿ai / ai安全 / openai",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
             "handle": "TrendForce",
             "platform": "X",
             "text": "#Huawei isn’t just fast-tracking its AI chip roadmap—it’s packing five AI accelerators into a three-year sprint from 2026 to 2028.",
             "url": "https://x.com/trendforce/status/2100485700168917015",
             "interaction": 10
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "Anthropic 宣布將旗下 Claude 的 Chat 與 Cowork 功能正式合併，使用者未來無須自行選擇模式，系統會根據任務需求自動切換 Agent 能力並執行多步驟任務。 #Anthropic #Claude #Cowork #AIAgent #生產力工具",
-            "url": "https://x.com/technews_tw/status/2100490672331767933",
-            "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 19.0,
+        "net_sentiment_smoothed": 15.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-17T07:46:44.155261+00:00",
-        "bucket_end": "2026-09-17T08:21:01.298118+00:00",
-        "positive": 1,
-        "neutral": 1,
+        "bucket_start": "2026-09-17T15:34:49.367430+08:00",
+        "bucket_end": "2026-09-17T16:09:06.510287+08:00",
+        "positive": 0,
+        "neutral": 2,
         "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 22,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
+        "net_sentiment": -33.3,
         "post_count": 3,
         "engagement": 22,
         "top_topics": [
           {
-            "topic_id": 14,
-            "label": "天啟四騎士 / 原油價格 / 全球經濟 / 通膨危機",
+            "topic_id": 21,
+            "label": "天啟四騎士 / 通膨危機 / 原油價格 / 全球經濟",
+            "count": 1
+          },
+          {
+            "topic_id": 20,
+            "label": "cowork / claude / anthropic / 生產力工具",
             "count": 1
           }
         ],
@@ -892,41 +613,84 @@
           {
             "handle": "technews_tw",
             "platform": "X",
+            "text": "美國聯準會因經濟與通膨強勁升息一碼，英媒警告伊朗戰爭、俄烏戰爭、極端氣候與 AI 熱潮猶如「天啟四騎士」，恐透過能源與資源爭奪相互放大，引發全球經濟的完美風暴。 #全球經濟 #通膨危機 #天啟四騎士 #原油價格 #AI投資",
+            "url": "https://x.com/technews_tw/status/2100495138187530674",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 30.1,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-17T16:09:06.510287+08:00",
+        "bucket_end": "2026-09-17T16:43:23.653144+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 7,
+            "label": "安全數位底片 / 照片真偽 / 數位驗證 / 防竄改",
+            "count": 1
+          },
+          {
+            "topic_id": 12,
+            "label": "勞工婚假 / 人口對策 / 軍公教比照 / 天婚假",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "蘋果發表適用於 iPhone 18 Pro 與 Pro Max 的「Apple Reference Image」防偽功能，首創「安全數位底片」打包像素資料與時間戳記！透過加密時間戳記建立可驗證的時間窗，徹底防止手動時間造假。 #安全數位底片 #時間戳記 #防竄改 #數位驗證 #照片真偽",
+            "url": "https://x.com/technews_tw/status/2100501009466621992",
+            "interaction": 0
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
             "text": "勞工婚假 10 月 1 日起比照軍公教正式延長至 14 天！為響應政府人口新戰略，大幅升級勞工婚假福利。 #婚假新制 #14天婚假 #人口對策 #勞工福利 #軍公教比照",
             "url": "https://x.com/technews_tw/status/2100498768873582644",
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 15.5,
+        "net_sentiment_smoothed": 18.1,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-17T08:21:01.298118+00:00",
-        "bucket_end": "2026-09-17T08:55:18.440975+00:00",
-        "positive": 15,
-        "neutral": 9,
-        "negative": 8,
-        "positive_engagement": 186,
-        "neutral_engagement": 151,
-        "negative_engagement": 149,
-        "net_sentiment": 21.9,
-        "post_count": 32,
-        "engagement": 486,
+        "bucket_start": "2026-09-17T16:43:23.653144+08:00",
+        "bucket_end": "2026-09-17T17:17:40.796001+08:00",
+        "positive": 26,
+        "neutral": 16,
+        "negative": 13,
+        "positive_engagement": 490,
+        "neutral_engagement": 299,
+        "negative_engagement": 234,
+        "net_sentiment": 23.6,
+        "post_count": 55,
+        "engagement": 1023,
         "top_topics": [
           {
-            "topic_id": 18,
-            "label": "flash / norflash / 英飛凌 / fram",
-            "count": 2
+            "topic_id": 10,
+            "label": "升息 / 聯準會 / 區間 / 貨幣政策",
+            "count": 3
           },
           {
-            "topic_id": 9,
-            "label": "貨幣政策 / 聯準會 / 升息 / 區間",
-            "count": 2
+            "topic_id": 8,
+            "label": "nvidia / apple / nvlink / ultra",
+            "count": 3
           },
           {
-            "topic_id": 14,
-            "label": "天啟四騎士 / 原油價格 / 全球經濟 / 通膨危機",
-            "count": 1
+            "topic_id": 24,
+            "label": "flash與f / ram事業 / 華邦電 / 股權",
+            "count": 3
           }
         ],
         "top_posts": [
@@ -938,21 +702,171 @@
             "interaction": 63
           },
           {
-            "handle": "technewsinside",
+            "handle": "ctee.fans",
             "platform": "Facebook",
-            "text": "傳出 AMD 與 NVIDIA 下世代顯卡延期亮相，2027 年可能僅有單一中階卡鋪路，完整次世代產品線預估延至 2028 年問世。\n#顯卡延期\n \n#NVIDIA\n \n#AMD\n \n#RDNA5\n \n#RTX60",
-            "url": "https://www.facebook.com/technewsinside/posts/pfbid0vhRCzvYEU6utR1RTkNjbUXRRUWR3HgLxqZ9J62GczTNMUL3PpJNWP88LDfcs3nQZl?__cft__[0]=AZju1QLzbT33bawKEPr13V_szpzPeo--Nr9bzYsjFp31vcfOfQeUr-PSsTlvALA2p_jgR-gE8UBeg6W4mK2DCy2erpXUjis3eKZyAkGjiI0fA7ZROeSXNsUmddsuzU7JA2la4otdk901coR6stUNRSfcIUjrbkiAY7ZSgeJevwigFo6SkNlfVqldSJI",
-            "interaction": 33
+            "text": "華邦電四大成長關鍵密碼揭曉…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02W5VfMpUpc3Agjbky1QbdD1ynvG9JAd5w7GDU96UJDxYoEVMvNmVuLQ4pfJnFyb5Ll?__cft__[0]=AZjQkDm8FtXDBvUUayQVaRLx3Dg9e5XKCDUoNfCkbbj4jYMKwCuUHENeQPTKltwh6cPCar-shPdnkYuoVI89JDVl4_IV01LVnw5Qf9H4DnYwwf5K4kBg3gJKgR-_TObAJR_Lf73Y0Ejo7CeMe9uiB5REPd-yBcARBHgP9tezcbICwhl0UH1QkenYrSk",
+            "interaction": 53
           }
         ],
-        "net_sentiment_smoothed": 7.3,
+        "net_sentiment_smoothed": 18.1,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-09-17T17:17:40.796001+08:00",
+        "bucket_end": "2026-09-17T17:51:57.938858+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 24.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-17T17:51:57.938858+08:00",
+        "bucket_end": "2026-09-17T18:26:15.081715+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 4.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-17T18:26:15.081715+08:00",
+        "bucket_end": "2026-09-17T19:00:32.224572+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-17T19:00:32.224572+08:00",
+        "bucket_end": "2026-09-17T19:34:49.367429+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-17T19:34:49.367429+08:00",
+        "bucket_end": "2026-09-17T20:09:06.510286+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 6.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-17T20:09:06.510286+08:00",
+        "bucket_end": "2026-09-17T20:43:23.653143+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 8.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-17T20:43:23.653143+08:00",
+        "bucket_end": "2026-09-17T21:17:40.796000+08:00",
+        "positive": 27,
+        "neutral": 13,
+        "negative": 10,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 34.0,
+        "post_count": 50,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "intel / emib / packaging / mechanics",
+            "count": 4
+          },
+          {
+            "topic_id": 1,
+            "label": "iphone / apple / duo / foldable",
+            "count": 3
+          },
+          {
+            "topic_id": 11,
+            "label": "cxmt / apple / lpddr / server",
+            "count": 3
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "LinkedIn",
+            "text": "🚀 Huawei is hitting fast-forward on its AI chip roadmap: the Ascend 960DT jumps ahead three quarters to 1Q27, while the 960PR moves up one quarter to 3Q27—as the Chinese tech giant races to narrow the",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505921099222753280/",
+            "interaction": 0
+          },
+          {
+            "handle": "TrendForce",
+            "platform": "LinkedIn",
+            "text": "📢 An unexpected $1.12B deal in the memory market: Winbond is buying Infineon’s NOR Flash and F-RAM business in cash, a move that could boost its global NOR Flash share to 34% and widen its lead.  📈 Th",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505913537932967937/",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 11.3,
         "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 20,
-        "label": "google / alphabet / 資源配置 / googlecloud",
+        "topic_id": 5,
+        "label": "flash / capacity / norflash / winbond",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -980,7 +894,7 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -992,7 +906,7 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -1013,8 +927,8 @@
         ]
       },
       {
-        "topic_id": 18,
-        "label": "flash / norflash / 英飛凌 / fram",
+        "topic_id": 8,
+        "label": "nvidia / apple / nvlink / ultra",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -1024,6 +938,60 @@
             "net_sentiment": 0.0,
             "volume": 0
           },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 33.3,
+            "volume": 3
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "iphone / apple / duo / foldable",
+        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -1070,75 +1038,21 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 2
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 33.3,
+            "volume": 3
           }
         ]
       },
       {
-        "topic_id": 9,
-        "label": "貨幣政策 / 聯準會 / 升息 / 區間",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 2
-          }
-        ]
-      },
-      {
-        "topic_id": 2,
-        "label": "flash與f / ram事業 / 華邦電 / 股權",
+        "topic_id": 6,
+        "label": "intel / emib / packaging / mechanics",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -1193,14 +1107,76 @@
             "volume": 0
           },
           {
+            "net_sentiment": 50.0,
+            "volume": 4
+          }
+        ]
+      },
+      {
+        "topic_id": 22,
+        "label": "nm / tsmc / mediatek / dimensity",
+        "cells": [
+          {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 66.7,
+            "volume": 3
           }
         ]
       },
       {
         "topic_id": 14,
-        "label": "天啟四騎士 / 原油價格 / 全球經濟 / 通膨危機",
+        "label": "huawei / ascend / roadmap / tech",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -1216,100 +1192,6 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          }
-        ]
-      },
-      {
-        "topic_id": 21,
-        "label": "湯家鳳 / 母語學習 / 社群熱議 / 教育辯論",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 1
           },
           {
@@ -1318,104 +1200,96 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "TrendForce",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，69 篇）",
-        "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 3
-      },
-      {
-        "handle": "SemiAnalysis_",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，69 篇）",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 2
-      },
-      {
         "handle": "QQ_Timmy",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，69 篇）",
+        "top_topic_id": 2,
+        "top_topic_label": "其他（未分群，62 篇）",
         "focus_share": 1.0,
         "post_count": 3,
         "unclustered_posts": 3
-      },
-      {
-        "handle": "tengyanAI",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，69 篇）",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "statementdog",
-        "top_topic_id": 6,
-        "top_topic_label": "rise",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "yutinghaosfinance",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，69 篇）",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 2
-      },
-      {
-        "handle": "jukan05",
-        "top_topic_id": 20,
-        "top_topic_label": "google / alphabet / 資源配置 / googlecloud",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "ctee.fans",
-        "top_topic_id": 2,
-        "top_topic_label": "flash與f / ram事業 / 華邦電 / 股權",
-        "focus_share": 0.429,
-        "post_count": 24,
-        "unclustered_posts": 17
       },
       {
         "handle": "FT",
-        "top_topic_id": 5,
+        "top_topic_id": 4,
         "top_topic_label": "threats",
-        "focus_share": 0.4,
+        "focus_share": 1.0,
+        "post_count": 7,
+        "unclustered_posts": 5
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 24,
+        "top_topic_label": "flash與f / ram事業 / 華邦電 / 股權",
+        "focus_share": 0.333,
         "post_count": 24,
-        "unclustered_posts": 19
+        "unclustered_posts": 15
       },
       {
         "handle": "technewsinside",
-        "top_topic_id": 18,
-        "top_topic_label": "flash / norflash / 英飛凌 / fram",
-        "focus_share": 0.111,
+        "top_topic_id": 10,
+        "top_topic_label": "升息 / 聯準會 / 區間 / 貨幣政策",
+        "focus_share": 0.15,
         "post_count": 31,
-        "unclustered_posts": 13
+        "unclustered_posts": 11
+      },
+      {
+        "handle": "TrendForce",
+        "top_topic_id": 6,
+        "top_topic_label": "intel / emib / packaging / mechanics",
+        "focus_share": 0.129,
+        "post_count": 58,
+        "unclustered_posts": 27
       },
       {
         "handle": "technews_tw",
-        "top_topic_id": 14,
-        "top_topic_label": "天啟四騎士 / 原油價格 / 全球經濟 / 通膨危機",
-        "focus_share": 0.062,
-        "post_count": 24,
-        "unclustered_posts": 8
+        "top_topic_id": 7,
+        "top_topic_label": "安全數位底片 / 照片真偽 / 數位驗證 / 防竄改",
+        "focus_share": 0.091,
+        "post_count": 12,
+        "unclustered_posts": 1
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
+        "topic_id": 24,
         "label": "flash與f / ram事業 / 華邦電 / 股權",
         "total_engagement": 131,
         "post_count": 3,
@@ -1424,7 +1298,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 5,
+        "topic_id": 4,
         "label": "threats",
         "total_engagement": 108,
         "post_count": 2,
@@ -1433,61 +1307,43 @@
         "is_catchall": false
       },
       {
-        "topic_id": 20,
-        "label": "google / alphabet / 資源配置 / googlecloud",
-        "total_engagement": 103,
-        "post_count": 3,
-        "top_account": "jukan05",
-        "top_account_engagement": 88,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 7,
-        "label": "japan",
+        "topic_id": 8,
+        "label": "nvidia / apple / nvlink / ultra",
         "total_engagement": 68,
-        "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 68,
+        "post_count": 5,
+        "top_account": "technewsinside",
+        "top_account_engagement": 55,
         "is_catchall": false
       },
       {
-        "topic_id": 9,
-        "label": "貨幣政策 / 聯準會 / 升息 / 區間",
-        "total_engagement": 44,
+        "topic_id": 17,
+        "label": "eda / empyrean / tau / task",
+        "total_engagement": 63,
         "post_count": 3,
         "top_account": "technewsinside",
-        "top_account_engagement": 43,
+        "top_account_engagement": 63,
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "nhtsa / cybercab / 特斯拉 / 自動駕駛",
-        "total_engagement": 35,
-        "post_count": 2,
+        "topic_id": 10,
+        "label": "升息 / 聯準會 / 區間 / 貨幣政策",
+        "total_engagement": 57,
+        "post_count": 3,
         "top_account": "technewsinside",
-        "top_account_engagement": 31,
+        "top_account_engagement": 57,
         "is_catchall": false
       },
       {
-        "topic_id": 13,
-        "label": "amd / nvidia / rdna / 顯卡延期",
-        "total_engagement": 34,
-        "post_count": 2,
-        "top_account": "technewsinside",
-        "top_account_engagement": 33,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 18,
-        "label": "flash / norflash / 英飛凌 / fram",
+        "topic_id": 5,
+        "label": "flash / capacity / norflash / winbond",
         "total_engagement": 33,
-        "post_count": 3,
+        "post_count": 6,
         "top_account": "technewsinside",
         "top_account_engagement": 30,
         "is_catchall": false
       },
       {
-        "topic_id": 4,
+        "topic_id": 16,
         "label": "台股今",
         "total_engagement": 32,
         "post_count": 2,
@@ -1496,26 +1352,17 @@
         "is_catchall": false
       },
       {
-        "topic_id": 10,
-        "label": "黃仁勳 / 半導體國產化 / 晶片自主 / 供應鏈",
-        "total_engagement": 25,
-        "post_count": 2,
+        "topic_id": 12,
+        "label": "勞工婚假 / 人口對策 / 軍公教比照 / 天婚假",
+        "total_engagement": 20,
+        "post_count": 3,
         "top_account": "technewsinside",
-        "top_account_engagement": 23,
+        "top_account_engagement": 13,
         "is_catchall": false
       },
       {
-        "topic_id": 6,
-        "label": "rise",
-        "total_engagement": 24,
-        "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 16,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 22,
-        "label": "貿易逆差 / 歐盟 / 范德賴恩 / 貿易衝擊",
+        "topic_id": 3,
+        "label": "歐盟 / 貿易逆差 / 范德賴恩 / 貿易衝擊",
         "total_engagement": 17,
         "post_count": 2,
         "top_account": "technewsinside",
@@ -1523,16 +1370,34 @@
         "is_catchall": false
       },
       {
-        "topic_id": 12,
-        "label": "luna / meta / 智慧眼鏡 / 隱私保護",
-        "total_engagement": 14,
+        "topic_id": 19,
+        "label": "ai安全 / reidhoffman / 前沿ai / anthropic",
+        "total_engagement": 16,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 16,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 25,
+        "label": "google / 資源配置 / googlecloud / alphabet",
+        "total_engagement": 15,
         "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 15,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "iphone / apple / duo / foldable",
+        "total_engagement": 14,
+        "post_count": 4,
         "top_account": "technewsinside",
         "top_account_engagement": 14,
         "is_catchall": false
       },
       {
-        "topic_id": 3,
+        "topic_id": 23,
         "label": "美國聯準會 / fed",
         "total_engagement": 12,
         "post_count": 2,
@@ -1541,44 +1406,35 @@
         "is_catchall": false
       },
       {
-        "topic_id": 15,
-        "label": "arm / 資料中心 / 安謀 / 供應鏈",
-        "total_engagement": 11,
-        "post_count": 2,
-        "top_account": "technewsinside",
-        "top_account_engagement": 10,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 11,
-        "label": "生成式ai / ai基礎設施 / gartner / ai支出",
-        "total_engagement": 10,
-        "post_count": 2,
-        "top_account": "technewsinside",
-        "top_account_engagement": 10,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 8,
-        "label": "lg / 透過原廠直營售後服務 / 與純價格競爭者做出明確區隔 / 總經理羅時景針對中系品牌低價切入台灣大型家電市場做出回應",
-        "total_engagement": 10,
-        "post_count": 2,
-        "top_account": "technewsinside",
-        "top_account_engagement": 7,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 16,
-        "label": "aema / google / 輝達 / 能源管理",
-        "total_engagement": 8,
-        "post_count": 2,
-        "top_account": "technewsinside",
-        "top_account_engagement": 7,
-        "is_catchall": false
-      },
-      {
         "topic_id": 14,
-        "label": "天啟四騎士 / 原油價格 / 全球經濟 / 通膨危機",
+        "label": "huawei / ascend / roadmap / tech",
+        "total_engagement": 10,
+        "post_count": 3,
+        "top_account": "TrendForce",
+        "top_account_engagement": 10,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "gartner / 科技趨勢 / ai基礎設施 / ai支出",
+        "total_engagement": 10,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 10,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 20,
+        "label": "cowork / claude / anthropic / 生產力工具",
+        "total_engagement": 9,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 9,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 21,
+        "label": "天啟四騎士 / 通膨危機 / 原油價格 / 全球經濟",
         "total_engagement": 7,
         "post_count": 2,
         "top_account": "technewsinside",
@@ -1586,7 +1442,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 19,
+        "topic_id": 9,
         "label": "ascend / superpod / 近封裝光學 / 華為",
         "total_engagement": 6,
         "post_count": 2,
@@ -1595,8 +1451,17 @@
         "is_catchall": false
       },
       {
-        "topic_id": 21,
-        "label": "湯家鳳 / 母語學習 / 社群熱議 / 教育辯論",
+        "topic_id": 7,
+        "label": "安全數位底片 / 照片真偽 / 數位驗證 / 防竄改",
+        "total_engagement": 5,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 5,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 26,
+        "label": "英語必修 / 教育辯論 / 母語學習 / 湯家鳳",
         "total_engagement": 4,
         "post_count": 2,
         "top_account": "technewsinside",
@@ -1604,40 +1469,85 @@
         "is_catchall": false
       },
       {
-        "topic_id": 17,
-        "label": "reidhoffman / 前沿ai / ai安全 / openai",
-        "total_engagement": 4,
+        "topic_id": 15,
+        "label": "spot / prices / tlc / weak",
+        "total_engagement": 0,
         "post_count": 2,
-        "top_account": "technewsinside",
-        "top_account_engagement": 4,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "intel / emib / packaging / mechanics",
+        "total_engagement": 0,
+        "post_count": 4,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 11,
+        "label": "cxmt / apple / lpddr / server",
+        "total_engagement": 0,
+        "post_count": 3,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "nm / tsmc / mediatek / dimensity",
+        "total_engagement": 0,
+        "post_count": 4,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 18,
+        "label": "samsung / capacity / hbm / cheonan",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，69 篇）",
-        "total_engagement": 2427,
-        "post_count": 69,
-        "top_account": "FT",
-        "top_account_engagement": 1338,
+        "label": "hbm / micron / radar / driving",
+        "total_engagement": 0,
+        "post_count": 3,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "其他（未分群，62 篇）",
+        "total_engagement": 871,
+        "post_count": 62,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 342,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 18,
-          "likes": 871,
-          "engagement": 1157,
-          "avg_engagement": 64.3
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 99,
-          "likes": 1719,
-          "engagement": 2010,
-          "avg_engagement": 20.3
+          "post_count": 79,
+          "likes": 1377,
+          "engagement": 1508,
+          "avg_engagement": 19.1
         },
         "evening": {
-          "post_count": 0,
+          "post_count": 56,
           "likes": 0,
           "engagement": 0,
           "avg_engagement": 0.0
