@@ -26,11 +26,13 @@
     {
       "id": "F",
       "label": "晶圓代工 / 先進製程",
-      "size": 28,
+      "size": 33,
       "accounts": {
         "SemiAnalysis_": 1,
         "dnystedt": 9,
         "technewsinside": 3,
+        "ctee.fans": 4,
+        "yutinghaosfinance": 1,
         "subhash-km-6b5443123": 7,
         "josepozophotonics": 8
       },
@@ -38,6 +40,8 @@
         "SemiAnalysis_": 66,
         "dnystedt": 340,
         "technewsinside": 147,
+        "ctee.fans": 224,
+        "yutinghaosfinance": 1379,
         "subhash-km-6b5443123": 0,
         "josepozophotonics": 0
       }
@@ -45,13 +49,14 @@
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 25,
+      "size": 29,
       "accounts": {
         "jukan05": 1,
         "tphuang": 1,
         "statementdog": 1,
         "dnystedt": 1,
         "technewsinside": 3,
+        "ctee.fans": 4,
         "subhash-km-6b5443123": 8,
         "josepozophotonics": 10
       },
@@ -61,6 +66,7 @@
         "statementdog": 22,
         "dnystedt": 23,
         "technewsinside": 72,
+        "ctee.fans": 435,
         "subhash-km-6b5443123": 0,
         "josepozophotonics": 0
       }
@@ -83,14 +89,35 @@
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 16,
+      "size": 17,
       "accounts": {
         "technewsinside": 3,
+        "yutinghaosfinance": 1,
         "subhash-km-6b5443123": 5,
         "josepozophotonics": 8
       },
       "engagement_by_account": {
         "technewsinside": 40,
+        "yutinghaosfinance": 765,
+        "subhash-km-6b5443123": 0,
+        "josepozophotonics": 0
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 13,
+      "accounts": {
+        "technewsinside": 3,
+        "ctee.fans": 1,
+        "yutinghaosfinance": 1,
+        "subhash-km-6b5443123": 7,
+        "josepozophotonics": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 36,
+        "ctee.fans": 27,
+        "yutinghaosfinance": 627,
         "subhash-km-6b5443123": 0,
         "josepozophotonics": 0
       }
@@ -106,21 +133,6 @@
       },
       "engagement_by_account": {
         "technewsinside": 16,
-        "subhash-km-6b5443123": 0,
-        "josepozophotonics": 0
-      }
-    },
-    {
-      "id": "K",
-      "label": "AI 模型 / 應用",
-      "size": 11,
-      "accounts": {
-        "technewsinside": 3,
-        "subhash-km-6b5443123": 7,
-        "josepozophotonics": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 36,
         "subhash-km-6b5443123": 0,
         "josepozophotonics": 0
       }
@@ -154,12 +166,14 @@
     {
       "id": "O",
       "label": "邊緣 AI / 新終端",
-      "size": 7,
+      "size": 8,
       "accounts": {
+        "ctee.fans": 1,
         "subhash-km-6b5443123": 2,
         "josepozophotonics": 5
       },
       "engagement_by_account": {
+        "ctee.fans": 37,
         "subhash-km-6b5443123": 0,
         "josepozophotonics": 0
       }
@@ -195,14 +209,29 @@
     {
       "id": "E",
       "label": "AI 伺服器供應鏈",
-      "size": 4,
+      "size": 5,
       "accounts": {
         "technewsinside": 2,
+        "ctee.fans": 1,
         "josepozophotonics": 2
       },
       "engagement_by_account": {
         "technewsinside": 29,
+        "ctee.fans": 40,
         "josepozophotonics": 0
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 5,
+      "accounts": {
+        "technewsinside": 2,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 26,
+        "ctee.fans": 210
       }
     },
     {
@@ -216,17 +245,6 @@
       "engagement_by_account": {
         "technewsinside": 9,
         "josepozophotonics": 0
-      }
-    },
-    {
-      "id": "M",
-      "label": "台股市場",
-      "size": 2,
-      "accounts": {
-        "technewsinside": 2
-      },
-      "engagement_by_account": {
-        "technewsinside": 26
       }
     },
     {
@@ -253,6 +271,169 @@
     }
   ],
   "gaps": [
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 3,
+      "competitor_count": 30,
+      "competitor_engagement": 2009,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "dnystedt",
+        "ctee.fans",
+        "yutinghaosfinance",
+        "subhash-km-6b5443123",
+        "josepozophotonics"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "台積電海外布局，正在改變台灣大學的角色。陽明交大提出第四代大學概念：第一代大學負責教學、第二代投入研究、第三代推動研究成果商業化，第四代則進一步成為生態系整合者，不只是自己培養人才，而是把大學、企業、政府與海外學研機構串在一起。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid036rVsZ4surpBtJ55jfVa1YPtAXk8eGnU5XqCzh1LBuAzUzvkYCrbAQCyA9j3CvGgdl?__cft__[0]=AZib59j9FVXP_KUPxUNdFzJf7NK-RENYmJohEZcoqlgaO1x2AtpBeQH4Hx-m1hM2eHlE8hhR30CkI3TZaWMbxM213OJWsTbSC0BGlijwelLjHbTeE6QQUkRExIP9PV4HLNqDf85N9QtytlRgIIzpI_fWXfPaLMBVW91lznGPx6pqViIfCLjsJg94bi0",
+          "timestamp": "2026-09-21T09:00:29.416303+00:00",
+          "interaction": 1379
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股拚攻48K！法人加碼15檔「三率三升」績優股 聯電、南亞科、群聯入列】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02SsWfcrN8neS6S7JTJAZFjjLtkAXthzbS3nUVR6cQtvsuujZChz2M51oNxqQT3Acel?__cft__[0]=AZhF2iM4QSc0mWCnK7lrCFP7xi6rpMWv7RExEGOTK6NfYv6xkJRbuFIZZPSlY3t48bXC1YgsqyvlNp-zeFZ8gFH1VRU6P-T1fum8npAqSjbNqVRS5X1T9ZgtSDlE_XDyteNYWyMhNbiBHebtTJ350BgVPuh7MHLRDU0d2284eiB5uJCQvIYYKxYSQz8",
+          "timestamp": "2026-09-21T08:57:47.254353+00:00",
+          "interaction": 161
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Intel is in talks with Taiwan’s AUO for advanced packaging aimed at CPO (co-packaged optics), due to AUO’s work on Micro LED technology, media report, a project that also uses glass substrates. The two may also work together on advanced packaging for high-density compute.  $INTC",
+          "url": "https://x.com/dnystedt/status/2101817510681260446",
+          "timestamp": "2026-09-21T07:35:19.000+08:00",
+          "interaction": 76
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "We took the silicon out of the silicon. Quick turn from SemiAnalysis STEEL Teardown Lab: iPhone 18 Pro Max, A20 silicon on TSMC N2. more to follow...",
+          "url": "https://x.com/SemiAnalysis_/status/2101757943351783908",
+          "timestamp": "2026-09-21T03:38:37.000+08:00",
+          "interaction": 66
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "TSMC will have four new 1.4nm fabs in mass production of 120,000 to 140,000 wafers-per-month (wpm) by the 2nd quarter of 2028 in the Central Taiwan Science Park near the city of Taichung, media report, assuming a price-per-wafer of US$35,000 each. Construction has sped up so that",
+          "url": "https://x.com/dnystedt/status/2101811725108699157",
+          "timestamp": "2026-09-21T07:12:19.000+08:00",
+          "interaction": 55
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Headline: TSMC prices are up 10%, prompting AMD to hike Q4 chip prices. (Note this story cites last week’s news that AMD will raise prices 10% in response to higher supply chain prices to mean that TSMC has raised prices 10%. Not news.)  $TSM   $AMD",
+          "url": "https://x.com/dnystedt/status/2101811956671971637",
+          "timestamp": "2026-09-21T07:13:14.000+08:00",
+          "interaction": 45
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "UMC and Powerchip are planning big price hikes for mature chip production amid continued strong demand and transfer orders as TSMC phases out older fabs, media report, with UMC planning a “substantial” price hike and Powerchip looking at up to a 40% hike. Vanguard (VIS) has also",
+          "url": "https://x.com/dnystedt/status/2101828662182212087",
+          "timestamp": "2026-09-21T08:19:37.000+08:00",
+          "interaction": 44
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "TSMC plans to build advanced semiconductor fabs in the proposed Shalun science park in Tainan, south Taiwan, which is focused on semiconductors and AI, media report, adding the park would hold 248.77-hectares of land, create 35,000 jobs, and aims to hit an annual output value of",
+          "url": "https://x.com/dnystedt/status/2101835768838918196",
+          "timestamp": "2026-09-21T08:47:52.000+08:00",
+          "interaction": 36
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 3,
+      "competitor_count": 26,
+      "competitor_engagement": 909,
+      "competitors_covering": [
+        "jukan05",
+        "tphuang",
+        "statementdog",
+        "dnystedt",
+        "ctee.fans",
+        "subhash-km-6b5443123",
+        "josepozophotonics"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "BofA's Simon Woo has put out a report, and there's some interesting content in it. To quote a portion:  - Recent checks with memory makers, spot market distributors, and OEMs point to firm 3Q ASPs: despite a rising LTA mix, 3Q ASPs for most DRAM products rose 20 to 30% quarter on",
+          "url": "https://x.com/jukan05/status/2101655940038565898",
+          "timestamp": "2026-09-20T20:53:17.000+08:00",
+          "interaction": 270
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI掀起全球記憶體搶貨潮，記憶體產業走向「長約化」。三星電子、SK海力士、美光三大記憶體原廠陸續與客戶洽簽3～5年長期供貨協議（LTA），美光更導入Take-or-Pay（照付不議）機制。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid05a8SEjLpLo5PwzWctwaYKLMJGLLHtghTajabr6vADcrKz9z5okrxykSdG4gVdVtwl?__cft__[0]=AZhds9maiPe6vwsLwBeHWbVeBUlWRws9Nkgkq98t4i-sjpk5mdo5JEbGapCfI9mA1SREUv67IEaYGMnMJFD6u3M5cn2grCwDLet_QN98b6q-oF0p07Jyl3qnRhh7yv7ghZGzuKf1k0eiO0SehjClOVk3zGzDLaz5e4F5x0NSitRO7rG91KTWhWmkda4",
+          "timestamp": "2026-09-21T08:57:47.254353+00:00",
+          "interaction": 197
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股拚攻48K！法人加碼15檔「三率三升」績優股 聯電、南亞科、群聯入列】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02SsWfcrN8neS6S7JTJAZFjjLtkAXthzbS3nUVR6cQtvsuujZChz2M51oNxqQT3Acel?__cft__[0]=AZhF2iM4QSc0mWCnK7lrCFP7xi6rpMWv7RExEGOTK6NfYv6xkJRbuFIZZPSlY3t48bXC1YgsqyvlNp-zeFZ8gFH1VRU6P-T1fum8npAqSjbNqVRS5X1T9ZgtSDlE_XDyteNYWyMhNbiBHebtTJ350BgVPuh7MHLRDU0d2284eiB5uJCQvIYYKxYSQz8",
+          "timestamp": "2026-09-21T08:57:47.254353+00:00",
+          "interaction": 161
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "CXMT announces G5 platform as a 12nm product. Storage-capacitor aspect ratio 45:1, DRAM-adapted HKMG, core functional-area height down to 6,762nm, plus a full-lifecycle digital-twin R&D line that reportedly cut new-process development time by ~40%.  This is smaller than Micron's",
+          "url": "https://x.com/tphuang/status/2101631685720703317",
+          "timestamp": "2026-09-20T19:16:54.000+08:00",
+          "interaction": 159
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI伺服器需求持續爆發，記憶體供應緊張局面仍未明顯緩解，甚至連大型雲端服務商都提前鎖定明年更高價格，美銀證券最新報告指出，管道調查顯示2026年第三季DRAM平均售價（ASP）季增20～30%，NAND價格漲幅也超過15%，在供給吃緊及OEM、大型科技公司積極搶料下，將2027～2028年DRAM均價預期上調8～12%，NAND同步上…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02J8ZNe4tKJ3NB1MXakKA179nRV6QE3DSjhKwQZBBQwnLLxE2LYsdwK6tBj3urX5cDl?__cft__[0]=AZii7vXkNhvsQqU-s9j6HuDl1iBci7oOMguH8jbfkbkKe3aRhOhlpbYPkFtTexZQPRADV2OAyTSHiyvuFsHAaEI3SWdADebwEmUTC1yzbjhpbXGutlW1lBUORuufQ7naKtjEge97A7XhPtjljOz8n-0djuCgxDTzRQ0xjzbscre2zHCf6LxecYJSBfA",
+          "timestamp": "2026-09-21T08:57:47.254353+00:00",
+          "interaction": 40
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "宏碁董事長陳俊聖拋出「記憶體已不缺」震撼彈、長鑫存儲又爆G5量產，產出將增逾五成，雙利空再度挑動記憶體漲價的敏感神經，選在今日除息的威剛（3260）雖天時不利，但仍勉力朝填息路前進，不僅以385.5元、上漲7元開出，若以早盤高點387元、上漲8.5元，與上半年息值18.0077元進行換算，填息率已達47.2％。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid028bQkAnnvwjZcAE2bLahWUgNGC83Ad9GEPrszDu81YKPQvniwKoVXfPUmE5Nh21rQl?__cft__[0]=AZiEUlGHXJsn48zqH_FSkcmADVwwTzwsuvlhidAgy7-x-2Z_hsVOrPCWb31aYE3TRwSRrsIpjLhHLxAsWFV0GPikIlnnGai988NAR9wLhfsKd7m-x-fGzGUC39-S5L8YMREvw4MdDAINXwVfsj_PIH55XK4lfckCC4l0fbQo6o_ToU4LZsQ_fF36vmg",
+          "timestamp": "2026-09-21T08:57:47.254353+00:00",
+          "interaction": 37
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Micron described talks with Taiwan union leaders on Friday (9/18) as “constructive”, adding they would hold a second mediation with government officials on Tuesday (9/22), media report. Topics ranged from the bonus system and overall compensation to non-retaliation provisions and",
+          "url": "https://x.com/dnystedt/status/2101817905528885602",
+          "timestamp": "2026-09-21T07:36:53.000+08:00",
+          "interaction": 23
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "CXMT says its fifth-generation DRAM platform is now in mass production, along with two 24Gb LPDDR5X products built on it.  The company says the platform has an 11.95nm half-pitch in the memory array’s active area, uses quadruple patterning, and has capacitors with a 45-to-1",
+          "url": "https://x.com/statementdog/status/2101604817651241175",
+          "timestamp": "2026-09-20T17:30:09.000+08:00",
+          "interaction": 22
+        }
+      ]
+    },
     {
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
@@ -335,162 +516,80 @@
       ]
     },
     {
-      "cluster_id": "A",
-      "label": "記憶體 / HBM",
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
       "own_count": 3,
-      "competitor_count": 22,
-      "competitor_engagement": 474,
+      "competitor_count": 14,
+      "competitor_engagement": 765,
       "competitors_covering": [
-        "jukan05",
-        "tphuang",
-        "statementdog",
-        "dnystedt",
+        "yutinghaosfinance",
         "subhash-km-6b5443123",
         "josepozophotonics"
       ],
       "sample_posts": [
         {
-          "handle": "jukan05",
-          "platform": "X",
-          "text": "BofA's Simon Woo has put out a report, and there's some interesting content in it. To quote a portion:  - Recent checks with memory makers, spot market distributors, and OEMs point to firm 3Q ASPs: despite a rising LTA mix, 3Q ASPs for most DRAM products rose 20 to 30% quarter on",
-          "url": "https://x.com/jukan05/status/2101655940038565898",
-          "timestamp": "2026-09-20T20:53:17.000+08:00",
-          "interaction": 270
-        },
-        {
-          "handle": "tphuang",
-          "platform": "X",
-          "text": "CXMT announces G5 platform as a 12nm product. Storage-capacitor aspect ratio 45:1, DRAM-adapted HKMG, core functional-area height down to 6,762nm, plus a full-lifecycle digital-twin R&D line that reportedly cut new-process development time by ~40%.  This is smaller than Micron's",
-          "url": "https://x.com/tphuang/status/2101631685720703317",
-          "timestamp": "2026-09-20T19:16:54.000+08:00",
-          "interaction": 159
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "Micron described talks with Taiwan union leaders on Friday (9/18) as “constructive”, adding they would hold a second mediation with government officials on Tuesday (9/22), media report. Topics ranged from the bonus system and overall compensation to non-retaliation provisions and",
-          "url": "https://x.com/dnystedt/status/2101817905528885602",
-          "timestamp": "2026-09-21T07:36:53.000+08:00",
-          "interaction": 23
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "CXMT says its fifth-generation DRAM platform is now in mass production, along with two 24Gb LPDDR5X products built on it.  The company says the platform has an 11.95nm half-pitch in the memory array’s active area, uses quadruple patterning, and has capacitors with a 45-to-1",
-          "url": "https://x.com/statementdog/status/2101604817651241175",
-          "timestamp": "2026-09-20T17:30:09.000+08:00",
-          "interaction": 22
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "甲骨文AI資料中心踩煞車。原本高達3,000億美元算力合約的重要基礎建設，去年底取得約180億美元銀行貸款，但隨著市場擔心Oracle舉債規模過大、信用風險升高，相關貸款目前報價，已跌到每1美元面額僅約0.89至0.91美元。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02PV9oLTMMaSnjjxHbLdtarAhgts9wr9YyjXy5ugo7R9Mqr4eHUaiivFnCScmtfS3jl?__cft__[0]=AZj2R_6fEd2YD7JrkwbWiCxjA9OI2ctexs6ptwjrmMvDQq3QeWNZLTbmTN749dpxrOOuEbBAyytxhay-BEJjrRXktEm18l7M7h9EFovXpwN7fUTcMkCOLrCKxZ3P9iMNDF5Y05adgtPuhjuCIDb0Br3vdUXlrpJIkAMcdmWgav0-2vMvNJHLQOg8j4c",
+          "timestamp": "2026-09-21T09:00:29.416303+00:00",
+          "interaction": 765
         },
         {
           "handle": "subhash-km-6b5443123",
           "platform": "LinkedIn",
-          "text": "📱 iPhone Chip Evolution — Who Made What 💡   🔵 A4 | 2010 | 45nm | Samsung 🔵 A6 | 2012 | 32nm | Samsung 🔵 A7 | 2013 | 28nm | Samsung 🔴 A8 | 2014 | 20nm | TSMC 🔴 A9 | 2015 | 14nm | TSMC + Samsung (dual-sourced) 🔴 A10 | 2016 | 16nm | TSMC 🔴 A11 | 2017 | 10nm | TSMC 🔴 A12 | 2018 | 7nm | TSMC 🔴 A14 | 2020",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507438994910007296/",
-          "timestamp": "2026-09-20T22:17:59.567+08:00",
+          "text": "Money spent on building data centers in the US has grown 5-fold since late 2022. 💡   The United States is home to thousands of data centers. They are part of the infrastructure that powers many digital services, including email, gaming, streaming, social media, and, increasingly, artificial intellig",
+          "url": "",
+          "timestamp": "2026-09-20T22:18:37.357+08:00",
           "interaction": 0
         },
         {
           "handle": "subhash-km-6b5443123",
           "platform": "LinkedIn",
-          "text": "Nvidia Market cap: $10 trillion by 2030. 💡   Samsung marketcap ~4 trillion  SK Hynix marketcap ~3 trillion  Micron marketcap ~3 trillion   The BOM of HBM in AI chips will be >65% by 2030.",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507415862161620992/",
-          "timestamp": "2026-09-20T22:17:59.567+08:00",
+          "text": "Nvidia has now committed more than $70B across AI labs, public equities, infrastructure and supply-chain partners. 💡   Its public-market holdings alone are worth $55B+  Here’s the full map of where $NVDA's money is going:  • Intel: ~$25B • SpaceX: ~$21B • CoreWeave: ~$4.7B • Nokia: ~$2.2B • Synopsys",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506555440332193792/",
+          "timestamp": "2026-09-20T22:19:24.920+08:00",
           "interaction": 0
         },
         {
           "handle": "subhash-km-6b5443123",
           "platform": "LinkedIn",
-          "text": "Intel and SK Hynix are in talks for SK Hynix to manufacture its memory chips in the US.  📈 $SKHY +3.31% 📈 $INTC +3.08%",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506416688784109568/",
-          "timestamp": "2026-09-20T22:19:34.056+08:00",
+          "text": "Nvidia is expected to have 58% share in HBM demand in 2026E, falling to 41% in 2027E.   Google and AMD expected to see a large jump in HBM demand in 2027E.   Google: 18% --> 31% AMD: 7% --> 12%",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506268450474921984/",
+          "timestamp": "2026-09-20T22:19:53.180+08:00",
           "interaction": 0
         },
         {
           "handle": "subhash-km-6b5443123",
           "platform": "LinkedIn",
-          "text": "The GPU isn’t the bottleneck 💡   DRAM, HDDs, and ABF are where shortages are preventing more HPC chips from being shipped. 🤔",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506329321465249792/",
-          "timestamp": "2026-09-20T22:19:43.510+08:00",
+          "text": "Where does $100 of AI capex flow? 💡  Semi chips take 50% of AI capex spent. 💲💵",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506148672720691200/",
+          "timestamp": "2026-09-20T22:20:12.702+08:00",
           "interaction": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "F",
-      "label": "晶圓代工 / 先進製程",
-      "own_count": 3,
-      "competitor_count": 25,
-      "competitor_engagement": 406,
-      "competitors_covering": [
-        "SemiAnalysis_",
-        "dnystedt",
-        "subhash-km-6b5443123",
-        "josepozophotonics"
-      ],
-      "sample_posts": [
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "Intel is in talks with Taiwan’s AUO for advanced packaging aimed at CPO (co-packaged optics), due to AUO’s work on Micro LED technology, media report, a project that also uses glass substrates. The two may also work together on advanced packaging for high-density compute.  $INTC",
-          "url": "https://x.com/dnystedt/status/2101817510681260446",
-          "timestamp": "2026-09-21T07:35:19.000+08:00",
-          "interaction": 76
         },
         {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "We took the silicon out of the silicon. Quick turn from SemiAnalysis STEEL Teardown Lab: iPhone 18 Pro Max, A20 silicon on TSMC N2. more to follow...",
-          "url": "https://x.com/SemiAnalysis_/status/2101757943351783908",
-          "timestamp": "2026-09-21T03:38:37.000+08:00",
-          "interaction": 66
+          "handle": "subhash-km-6b5443123",
+          "platform": "LinkedIn",
+          "text": "Money spent on building data centers in the US has grown 5-fold since late 2022. 💡   The United States is home to thousands of data centers. They are part of the infrastructure that powers many digital services, including email, gaming, streaming, social media, and, increasingly, artificial intellig",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506962828478529536/",
+          "timestamp": "2026-09-21T13:22:08.919+08:00",
+          "interaction": 0
         },
         {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "TSMC will have four new 1.4nm fabs in mass production of 120,000 to 140,000 wafers-per-month (wpm) by the 2nd quarter of 2028 in the Central Taiwan Science Park near the city of Taichung, media report, assuming a price-per-wafer of US$35,000 each. Construction has sped up so that",
-          "url": "https://x.com/dnystedt/status/2101811725108699157",
-          "timestamp": "2026-09-21T07:12:19.000+08:00",
-          "interaction": 55
+          "handle": "josepozophotonics",
+          "platform": "LinkedIn",
+          "text": "CO-PACKAGED OPTICS WILL NOT MAKE THE BOARD CHEAPER A view has circulated that once co-packaged optics shortens the electrical path, AI server boards can step down from high-grade laminates. The supply chain says no.  電子時報 reported on 18 September that supply chain sources reject the downgrade thesis",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507038562643595264/",
+          "timestamp": "2026-09-20T22:15:29.830+08:00",
+          "interaction": 0
         },
         {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "Headline: TSMC prices are up 10%, prompting AMD to hike Q4 chip prices. (Note this story cites last week’s news that AMD will raise prices 10% in response to higher supply chain prices to mean that TSMC has raised prices 10%. Not news.)  $TSM   $AMD",
-          "url": "https://x.com/dnystedt/status/2101811956671971637",
-          "timestamp": "2026-09-21T07:13:14.000+08:00",
-          "interaction": 45
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "UMC and Powerchip are planning big price hikes for mature chip production amid continued strong demand and transfer orders as TSMC phases out older fabs, media report, with UMC planning a “substantial” price hike and Powerchip looking at up to a 40% hike. Vanguard (VIS) has also",
-          "url": "https://x.com/dnystedt/status/2101828662182212087",
-          "timestamp": "2026-09-21T08:19:37.000+08:00",
-          "interaction": 44
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "TSMC plans to build advanced semiconductor fabs in the proposed Shalun science park in Tainan, south Taiwan, which is focused on semiconductors and AI, media report, adding the park would hold 248.77-hectares of land, create 35,000 jobs, and aims to hit an annual output value of",
-          "url": "https://x.com/dnystedt/status/2101835768838918196",
-          "timestamp": "2026-09-21T08:47:52.000+08:00",
-          "interaction": 36
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "TSMC has inspected two AUO plants in the Central Taiwan Science Park for possible purchase and transformation into advanced semiconductor packaging facilities, media report, noting both plants are near TSMC facilities. AUO has sold 3 plants so far this year for a total NT$34.7",
-          "url": "https://x.com/dnystedt/status/2101817719150850430",
-          "timestamp": "2026-09-21T07:36:08.000+08:00",
-          "interaction": 27
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "TSMC will be on hand at the groundbreaking for the Baipu Industrial Park in Kaohsiung, south Taiwan today as it plans to turn part of the park into a proving ground for advanced packaging equipment, media report, adding the 88.73-hectare park is fully booked, with TSMC taking the",
-          "url": "https://x.com/dnystedt/status/2101829018136006920",
-          "timestamp": "2026-09-21T08:21:02.000+08:00",
-          "interaction": 26
+          "handle": "josepozophotonics",
+          "platform": "LinkedIn",
+          "text": "LATEST PECC SUMMIT DETAILS: THE CONSTRAINT IN AI INFRASTRUCTURE HAS MOVED. IT IS NOW AN OPTICS PROBLEM. For a decade, the question was how many FLOPS you could buy. Now it is whether you can move data between them fast enough, inside a power budget the grid will actually give you.   That is why the ",
+          "url": "",
+          "timestamp": "2026-09-20T22:15:48.224+08:00",
+          "interaction": 0
         }
       ]
     },
@@ -573,6 +672,84 @@
       ]
     },
     {
+      "cluster_id": "O",
+      "label": "邊緣 AI / 新終端",
+      "own_count": 0,
+      "competitor_count": 8,
+      "competitor_engagement": 37,
+      "competitors_covering": [
+        "ctee.fans",
+        "subhash-km-6b5443123",
+        "josepozophotonics"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "宏碁董事長陳俊聖拋出「記憶體已不缺」震撼彈、長鑫存儲又爆G5量產，產出將增逾五成，雙利空再度挑動記憶體漲價的敏感神經，選在今日除息的威剛（3260）雖天時不利，但仍勉力朝填息路前進，不僅以385.5元、上漲7元開出，若以早盤高點387元、上漲8.5元，與上半年息值18.0077元進行換算，填息率已達47.2％。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid028bQkAnnvwjZcAE2bLahWUgNGC83Ad9GEPrszDu81YKPQvniwKoVXfPUmE5Nh21rQl?__cft__[0]=AZiEUlGHXJsn48zqH_FSkcmADVwwTzwsuvlhidAgy7-x-2Z_hsVOrPCWb31aYE3TRwSRrsIpjLhHLxAsWFV0GPikIlnnGai988NAR9wLhfsKd7m-x-fGzGUC39-S5L8YMREvw4MdDAINXwVfsj_PIH55XK4lfckCC4l0fbQo6o_ToU4LZsQ_fF36vmg",
+          "timestamp": "2026-09-21T08:57:47.254353+00:00",
+          "interaction": 37
+        },
+        {
+          "handle": "subhash-km-6b5443123",
+          "platform": "LinkedIn",
+          "text": "APPLE STOCK OUTPERFORMED THE S&P 500 UNDER TIM COOK. 💡   Apple stock was up by 2,736% 🟢 while Tim Cook was CEO of the company  During the same time period the S&P 500 Index was up 769% and the Nasdaq 100 Index was up by 1,512%  The gain puts Apple among the 40 best performers in the S&P 500 over tha",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506352310394974209/",
+          "timestamp": "2026-09-20T22:19:43.510+08:00",
+          "interaction": 0
+        },
+        {
+          "handle": "subhash-km-6b5443123",
+          "platform": "LinkedIn",
+          "text": "Apple Weighs Return to Server Market with NVIDIA Networking Technology. 💡   Nvidia Networking is the actual moat. 🔥",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506298723228913665/",
+          "timestamp": "2026-09-20T22:19:43.510+08:00",
+          "interaction": 0
+        },
+        {
+          "handle": "josepozophotonics",
+          "platform": "LinkedIn",
+          "text": "PHOTONICS IS NOW ON THE COMPUTE ROADMAP, NOT NEXT TO IT Two days in Leuven this week with imec, on the external advisory board that reviews their compute technology and systems strategy: logic, memory, 3D integration, and the connectivity that ties it together. We're concluding as I type.   That is ",
+          "url": "",
+          "timestamp": "2026-09-20T22:15:48.224+08:00",
+          "interaction": 0
+        },
+        {
+          "handle": "josepozophotonics",
+          "platform": "LinkedIn",
+          "text": "IMPORTANT UPDATE: NLM Photonics closes an investment round led by new investors Pangaea Ventures and Mitsubishi Chemical’s Diamond Edge Ventures NLM Photonics, the Seattle developer of Selerion organic electro-optic materials (and Optica corporate member), said on 8 September 2026 that it has added ",
+          "url": "",
+          "timestamp": "2026-09-20T22:15:48.224+08:00",
+          "interaction": 0
+        },
+        {
+          "handle": "josepozophotonics",
+          "platform": "LinkedIn",
+          "text": "WHY IonQ TOOK THE OPTICS OUT OF ITS MOST IMPORTANT OPERATION Mihir Bhaskar opened his keynote at the recent Optica Quantum Industry Summit in Glasgow with a line that should stop a photonics audience. IonQ has moved the two-qubit gate, the hardest operation in a trapped ion computer, off the lasers ",
+          "url": "",
+          "timestamp": "2026-09-20T22:16:07.027+08:00",
+          "interaction": 0
+        },
+        {
+          "handle": "josepozophotonics",
+          "platform": "LinkedIn",
+          "text": "Xanadu, Project OPTIMISM LANDS AND ITS IMPACT ON THE GLOBAL QUANTUM SUPPLY CHAIN  In June, at the Optica Quantum Industry Summit in Glasgow, Xanadu's Chief Operating Officer told the room the company was setting up a 160,000 square foot facility in Toronto to bring heterogeneous integration in-house",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7499458300435009536/",
+          "timestamp": "2026-09-20T22:16:25.935+08:00",
+          "interaction": 0
+        },
+        {
+          "handle": "josepozophotonics",
+          "platform": "LinkedIn",
+          "text": "LASERS ARE THE QUIET HEART OF THE Einstein Telescope Last week I sat down with Stefan Hild, Project Director of ET Pathfinder, at the test facility in  #Maastricht. What I saw changed how I think about the next generation of gravitational wave detectors, and about the role industry plays in getting ",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7486091979521556480/",
+          "timestamp": "2026-09-20T22:17:23.197+08:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "C",
       "label": "ASIC / 自研晶片",
       "own_count": 1,
@@ -645,83 +822,6 @@
           "text": "EXPLORING PUBLIC CPO FOUNDRY ROADMAPS  Only four foundries have put a real co-packaged optics roadmap in public: TSMC, Intel, Samsung and GlobalFoundries. Tom's Hardware has broken all four down, and it is worth your weekend or holiday catch-up having a look.  The useful part is that these are not f",
           "url": "https://www.linkedin.com/feed/update/urn:li:activity:7490766324281786368/",
           "timestamp": "2026-09-20T22:17:13.514+08:00",
-          "interaction": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "D",
-      "label": "CSP / 資料中心",
-      "own_count": 3,
-      "competitor_count": 13,
-      "competitor_engagement": 0,
-      "competitors_covering": [
-        "subhash-km-6b5443123",
-        "josepozophotonics"
-      ],
-      "sample_posts": [
-        {
-          "handle": "subhash-km-6b5443123",
-          "platform": "LinkedIn",
-          "text": "Money spent on building data centers in the US has grown 5-fold since late 2022. 💡   The United States is home to thousands of data centers. They are part of the infrastructure that powers many digital services, including email, gaming, streaming, social media, and, increasingly, artificial intellig",
-          "url": "",
-          "timestamp": "2026-09-20T22:18:37.357+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "subhash-km-6b5443123",
-          "platform": "LinkedIn",
-          "text": "Nvidia has now committed more than $70B across AI labs, public equities, infrastructure and supply-chain partners. 💡   Its public-market holdings alone are worth $55B+  Here’s the full map of where $NVDA's money is going:  • Intel: ~$25B • SpaceX: ~$21B • CoreWeave: ~$4.7B • Nokia: ~$2.2B • Synopsys",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506555440332193792/",
-          "timestamp": "2026-09-20T22:19:24.920+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "subhash-km-6b5443123",
-          "platform": "LinkedIn",
-          "text": "Nvidia is expected to have 58% share in HBM demand in 2026E, falling to 41% in 2027E.   Google and AMD expected to see a large jump in HBM demand in 2027E.   Google: 18% --> 31% AMD: 7% --> 12%",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506268450474921984/",
-          "timestamp": "2026-09-20T22:19:53.180+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "subhash-km-6b5443123",
-          "platform": "LinkedIn",
-          "text": "Where does $100 of AI capex flow? 💡  Semi chips take 50% of AI capex spent. 💲💵",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506148672720691200/",
-          "timestamp": "2026-09-20T22:20:12.702+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "subhash-km-6b5443123",
-          "platform": "LinkedIn",
-          "text": "Money spent on building data centers in the US has grown 5-fold since late 2022. 💡   The United States is home to thousands of data centers. They are part of the infrastructure that powers many digital services, including email, gaming, streaming, social media, and, increasingly, artificial intellig",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506962828478529536/",
-          "timestamp": "2026-09-21T13:22:08.919+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "CO-PACKAGED OPTICS WILL NOT MAKE THE BOARD CHEAPER A view has circulated that once co-packaged optics shortens the electrical path, AI server boards can step down from high-grade laminates. The supply chain says no.  電子時報 reported on 18 September that supply chain sources reject the downgrade thesis",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507038562643595264/",
-          "timestamp": "2026-09-20T22:15:29.830+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "LATEST PECC SUMMIT DETAILS: THE CONSTRAINT IN AI INFRASTRUCTURE HAS MOVED. IT IS NOW AN OPTICS PROBLEM. For a decade, the question was how many FLOPS you could buy. Now it is whether you can move data between them fast enough, inside a power budget the grid will actually give you.   That is why the ",
-          "url": "",
-          "timestamp": "2026-09-20T22:15:48.224+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "BREAKING: NVIDIA JUST BACKED A SPANISH OPTICAL SWITCH COMPANY. THE INTERESTING PART IS WHICH KIND OF SWITCH. iPRONICS , a Valencia spin-off from Universitat Politècnica de València (UPV), has raised $125 million in a Series B co-led by Maverick Silicon and Light Street Capital, with NVIDIA in the ro",
-          "url": "",
-          "timestamp": "2026-09-20T22:15:57.609+08:00",
           "interaction": 0
         }
       ]
@@ -856,75 +956,6 @@
       ]
     },
     {
-      "cluster_id": "O",
-      "label": "邊緣 AI / 新終端",
-      "own_count": 0,
-      "competitor_count": 7,
-      "competitor_engagement": 0,
-      "competitors_covering": [
-        "subhash-km-6b5443123",
-        "josepozophotonics"
-      ],
-      "sample_posts": [
-        {
-          "handle": "subhash-km-6b5443123",
-          "platform": "LinkedIn",
-          "text": "APPLE STOCK OUTPERFORMED THE S&P 500 UNDER TIM COOK. 💡   Apple stock was up by 2,736% 🟢 while Tim Cook was CEO of the company  During the same time period the S&P 500 Index was up 769% and the Nasdaq 100 Index was up by 1,512%  The gain puts Apple among the 40 best performers in the S&P 500 over tha",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506352310394974209/",
-          "timestamp": "2026-09-20T22:19:43.510+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "subhash-km-6b5443123",
-          "platform": "LinkedIn",
-          "text": "Apple Weighs Return to Server Market with NVIDIA Networking Technology. 💡   Nvidia Networking is the actual moat. 🔥",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506298723228913665/",
-          "timestamp": "2026-09-20T22:19:43.510+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "PHOTONICS IS NOW ON THE COMPUTE ROADMAP, NOT NEXT TO IT Two days in Leuven this week with imec, on the external advisory board that reviews their compute technology and systems strategy: logic, memory, 3D integration, and the connectivity that ties it together. We're concluding as I type.   That is ",
-          "url": "",
-          "timestamp": "2026-09-20T22:15:48.224+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "IMPORTANT UPDATE: NLM Photonics closes an investment round led by new investors Pangaea Ventures and Mitsubishi Chemical’s Diamond Edge Ventures NLM Photonics, the Seattle developer of Selerion organic electro-optic materials (and Optica corporate member), said on 8 September 2026 that it has added ",
-          "url": "",
-          "timestamp": "2026-09-20T22:15:48.224+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "WHY IonQ TOOK THE OPTICS OUT OF ITS MOST IMPORTANT OPERATION Mihir Bhaskar opened his keynote at the recent Optica Quantum Industry Summit in Glasgow with a line that should stop a photonics audience. IonQ has moved the two-qubit gate, the hardest operation in a trapped ion computer, off the lasers ",
-          "url": "",
-          "timestamp": "2026-09-20T22:16:07.027+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "Xanadu, Project OPTIMISM LANDS AND ITS IMPACT ON THE GLOBAL QUANTUM SUPPLY CHAIN  In June, at the Optica Quantum Industry Summit in Glasgow, Xanadu's Chief Operating Officer told the room the company was setting up a 160,000 square foot facility in Toronto to bring heterogeneous integration in-house",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7499458300435009536/",
-          "timestamp": "2026-09-20T22:16:25.935+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "LASERS ARE THE QUIET HEART OF THE Einstein Telescope Last week I sat down with Stefan Hild, Project Director of ET Pathfinder, at the test facility in  #Maastricht. What I saw changed how I think about the next generation of gravitational wave detectors, and about the role industry plays in getting ",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7486091979521556480/",
-          "timestamp": "2026-09-20T22:17:23.197+08:00",
-          "interaction": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "Q",
       "label": "機器人 / Robotics",
       "own_count": 1,
@@ -979,6 +1010,169 @@
     }
   ],
   "suggested_entry_points": [
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 3,
+      "competitor_count": 30,
+      "competitor_engagement": 2009,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "dnystedt",
+        "ctee.fans",
+        "yutinghaosfinance",
+        "subhash-km-6b5443123",
+        "josepozophotonics"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "台積電海外布局，正在改變台灣大學的角色。陽明交大提出第四代大學概念：第一代大學負責教學、第二代投入研究、第三代推動研究成果商業化，第四代則進一步成為生態系整合者，不只是自己培養人才，而是把大學、企業、政府與海外學研機構串在一起。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid036rVsZ4surpBtJ55jfVa1YPtAXk8eGnU5XqCzh1LBuAzUzvkYCrbAQCyA9j3CvGgdl?__cft__[0]=AZib59j9FVXP_KUPxUNdFzJf7NK-RENYmJohEZcoqlgaO1x2AtpBeQH4Hx-m1hM2eHlE8hhR30CkI3TZaWMbxM213OJWsTbSC0BGlijwelLjHbTeE6QQUkRExIP9PV4HLNqDf85N9QtytlRgIIzpI_fWXfPaLMBVW91lznGPx6pqViIfCLjsJg94bi0",
+          "timestamp": "2026-09-21T09:00:29.416303+00:00",
+          "interaction": 1379
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股拚攻48K！法人加碼15檔「三率三升」績優股 聯電、南亞科、群聯入列】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02SsWfcrN8neS6S7JTJAZFjjLtkAXthzbS3nUVR6cQtvsuujZChz2M51oNxqQT3Acel?__cft__[0]=AZhF2iM4QSc0mWCnK7lrCFP7xi6rpMWv7RExEGOTK6NfYv6xkJRbuFIZZPSlY3t48bXC1YgsqyvlNp-zeFZ8gFH1VRU6P-T1fum8npAqSjbNqVRS5X1T9ZgtSDlE_XDyteNYWyMhNbiBHebtTJ350BgVPuh7MHLRDU0d2284eiB5uJCQvIYYKxYSQz8",
+          "timestamp": "2026-09-21T08:57:47.254353+00:00",
+          "interaction": 161
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Intel is in talks with Taiwan’s AUO for advanced packaging aimed at CPO (co-packaged optics), due to AUO’s work on Micro LED technology, media report, a project that also uses glass substrates. The two may also work together on advanced packaging for high-density compute.  $INTC",
+          "url": "https://x.com/dnystedt/status/2101817510681260446",
+          "timestamp": "2026-09-21T07:35:19.000+08:00",
+          "interaction": 76
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "We took the silicon out of the silicon. Quick turn from SemiAnalysis STEEL Teardown Lab: iPhone 18 Pro Max, A20 silicon on TSMC N2. more to follow...",
+          "url": "https://x.com/SemiAnalysis_/status/2101757943351783908",
+          "timestamp": "2026-09-21T03:38:37.000+08:00",
+          "interaction": 66
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "TSMC will have four new 1.4nm fabs in mass production of 120,000 to 140,000 wafers-per-month (wpm) by the 2nd quarter of 2028 in the Central Taiwan Science Park near the city of Taichung, media report, assuming a price-per-wafer of US$35,000 each. Construction has sped up so that",
+          "url": "https://x.com/dnystedt/status/2101811725108699157",
+          "timestamp": "2026-09-21T07:12:19.000+08:00",
+          "interaction": 55
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Headline: TSMC prices are up 10%, prompting AMD to hike Q4 chip prices. (Note this story cites last week’s news that AMD will raise prices 10% in response to higher supply chain prices to mean that TSMC has raised prices 10%. Not news.)  $TSM   $AMD",
+          "url": "https://x.com/dnystedt/status/2101811956671971637",
+          "timestamp": "2026-09-21T07:13:14.000+08:00",
+          "interaction": 45
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "UMC and Powerchip are planning big price hikes for mature chip production amid continued strong demand and transfer orders as TSMC phases out older fabs, media report, with UMC planning a “substantial” price hike and Powerchip looking at up to a 40% hike. Vanguard (VIS) has also",
+          "url": "https://x.com/dnystedt/status/2101828662182212087",
+          "timestamp": "2026-09-21T08:19:37.000+08:00",
+          "interaction": 44
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "TSMC plans to build advanced semiconductor fabs in the proposed Shalun science park in Tainan, south Taiwan, which is focused on semiconductors and AI, media report, adding the park would hold 248.77-hectares of land, create 35,000 jobs, and aims to hit an annual output value of",
+          "url": "https://x.com/dnystedt/status/2101835768838918196",
+          "timestamp": "2026-09-21T08:47:52.000+08:00",
+          "interaction": 36
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 3,
+      "competitor_count": 26,
+      "competitor_engagement": 909,
+      "competitors_covering": [
+        "jukan05",
+        "tphuang",
+        "statementdog",
+        "dnystedt",
+        "ctee.fans",
+        "subhash-km-6b5443123",
+        "josepozophotonics"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "BofA's Simon Woo has put out a report, and there's some interesting content in it. To quote a portion:  - Recent checks with memory makers, spot market distributors, and OEMs point to firm 3Q ASPs: despite a rising LTA mix, 3Q ASPs for most DRAM products rose 20 to 30% quarter on",
+          "url": "https://x.com/jukan05/status/2101655940038565898",
+          "timestamp": "2026-09-20T20:53:17.000+08:00",
+          "interaction": 270
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI掀起全球記憶體搶貨潮，記憶體產業走向「長約化」。三星電子、SK海力士、美光三大記憶體原廠陸續與客戶洽簽3～5年長期供貨協議（LTA），美光更導入Take-or-Pay（照付不議）機制。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid05a8SEjLpLo5PwzWctwaYKLMJGLLHtghTajabr6vADcrKz9z5okrxykSdG4gVdVtwl?__cft__[0]=AZhds9maiPe6vwsLwBeHWbVeBUlWRws9Nkgkq98t4i-sjpk5mdo5JEbGapCfI9mA1SREUv67IEaYGMnMJFD6u3M5cn2grCwDLet_QN98b6q-oF0p07Jyl3qnRhh7yv7ghZGzuKf1k0eiO0SehjClOVk3zGzDLaz5e4F5x0NSitRO7rG91KTWhWmkda4",
+          "timestamp": "2026-09-21T08:57:47.254353+00:00",
+          "interaction": 197
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股拚攻48K！法人加碼15檔「三率三升」績優股 聯電、南亞科、群聯入列】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02SsWfcrN8neS6S7JTJAZFjjLtkAXthzbS3nUVR6cQtvsuujZChz2M51oNxqQT3Acel?__cft__[0]=AZhF2iM4QSc0mWCnK7lrCFP7xi6rpMWv7RExEGOTK6NfYv6xkJRbuFIZZPSlY3t48bXC1YgsqyvlNp-zeFZ8gFH1VRU6P-T1fum8npAqSjbNqVRS5X1T9ZgtSDlE_XDyteNYWyMhNbiBHebtTJ350BgVPuh7MHLRDU0d2284eiB5uJCQvIYYKxYSQz8",
+          "timestamp": "2026-09-21T08:57:47.254353+00:00",
+          "interaction": 161
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "CXMT announces G5 platform as a 12nm product. Storage-capacitor aspect ratio 45:1, DRAM-adapted HKMG, core functional-area height down to 6,762nm, plus a full-lifecycle digital-twin R&D line that reportedly cut new-process development time by ~40%.  This is smaller than Micron's",
+          "url": "https://x.com/tphuang/status/2101631685720703317",
+          "timestamp": "2026-09-20T19:16:54.000+08:00",
+          "interaction": 159
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI伺服器需求持續爆發，記憶體供應緊張局面仍未明顯緩解，甚至連大型雲端服務商都提前鎖定明年更高價格，美銀證券最新報告指出，管道調查顯示2026年第三季DRAM平均售價（ASP）季增20～30%，NAND價格漲幅也超過15%，在供給吃緊及OEM、大型科技公司積極搶料下，將2027～2028年DRAM均價預期上調8～12%，NAND同步上…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02J8ZNe4tKJ3NB1MXakKA179nRV6QE3DSjhKwQZBBQwnLLxE2LYsdwK6tBj3urX5cDl?__cft__[0]=AZii7vXkNhvsQqU-s9j6HuDl1iBci7oOMguH8jbfkbkKe3aRhOhlpbYPkFtTexZQPRADV2OAyTSHiyvuFsHAaEI3SWdADebwEmUTC1yzbjhpbXGutlW1lBUORuufQ7naKtjEge97A7XhPtjljOz8n-0djuCgxDTzRQ0xjzbscre2zHCf6LxecYJSBfA",
+          "timestamp": "2026-09-21T08:57:47.254353+00:00",
+          "interaction": 40
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "宏碁董事長陳俊聖拋出「記憶體已不缺」震撼彈、長鑫存儲又爆G5量產，產出將增逾五成，雙利空再度挑動記憶體漲價的敏感神經，選在今日除息的威剛（3260）雖天時不利，但仍勉力朝填息路前進，不僅以385.5元、上漲7元開出，若以早盤高點387元、上漲8.5元，與上半年息值18.0077元進行換算，填息率已達47.2％。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid028bQkAnnvwjZcAE2bLahWUgNGC83Ad9GEPrszDu81YKPQvniwKoVXfPUmE5Nh21rQl?__cft__[0]=AZiEUlGHXJsn48zqH_FSkcmADVwwTzwsuvlhidAgy7-x-2Z_hsVOrPCWb31aYE3TRwSRrsIpjLhHLxAsWFV0GPikIlnnGai988NAR9wLhfsKd7m-x-fGzGUC39-S5L8YMREvw4MdDAINXwVfsj_PIH55XK4lfckCC4l0fbQo6o_ToU4LZsQ_fF36vmg",
+          "timestamp": "2026-09-21T08:57:47.254353+00:00",
+          "interaction": 37
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Micron described talks with Taiwan union leaders on Friday (9/18) as “constructive”, adding they would hold a second mediation with government officials on Tuesday (9/22), media report. Topics ranged from the bonus system and overall compensation to non-retaliation provisions and",
+          "url": "https://x.com/dnystedt/status/2101817905528885602",
+          "timestamp": "2026-09-21T07:36:53.000+08:00",
+          "interaction": 23
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "CXMT says its fifth-generation DRAM platform is now in mass production, along with two 24Gb LPDDR5X products built on it.  The company says the platform has an 11.95nm half-pitch in the memory array’s active area, uses quadruple patterning, and has capacitors with a 45-to-1",
+          "url": "https://x.com/statementdog/status/2101604817651241175",
+          "timestamp": "2026-09-20T17:30:09.000+08:00",
+          "interaction": 22
+        }
+      ]
+    },
     {
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
@@ -1061,162 +1255,80 @@
       ]
     },
     {
-      "cluster_id": "A",
-      "label": "記憶體 / HBM",
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
       "own_count": 3,
-      "competitor_count": 22,
-      "competitor_engagement": 474,
+      "competitor_count": 14,
+      "competitor_engagement": 765,
       "competitors_covering": [
-        "jukan05",
-        "tphuang",
-        "statementdog",
-        "dnystedt",
+        "yutinghaosfinance",
         "subhash-km-6b5443123",
         "josepozophotonics"
       ],
       "sample_posts": [
         {
-          "handle": "jukan05",
-          "platform": "X",
-          "text": "BofA's Simon Woo has put out a report, and there's some interesting content in it. To quote a portion:  - Recent checks with memory makers, spot market distributors, and OEMs point to firm 3Q ASPs: despite a rising LTA mix, 3Q ASPs for most DRAM products rose 20 to 30% quarter on",
-          "url": "https://x.com/jukan05/status/2101655940038565898",
-          "timestamp": "2026-09-20T20:53:17.000+08:00",
-          "interaction": 270
-        },
-        {
-          "handle": "tphuang",
-          "platform": "X",
-          "text": "CXMT announces G5 platform as a 12nm product. Storage-capacitor aspect ratio 45:1, DRAM-adapted HKMG, core functional-area height down to 6,762nm, plus a full-lifecycle digital-twin R&D line that reportedly cut new-process development time by ~40%.  This is smaller than Micron's",
-          "url": "https://x.com/tphuang/status/2101631685720703317",
-          "timestamp": "2026-09-20T19:16:54.000+08:00",
-          "interaction": 159
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "Micron described talks with Taiwan union leaders on Friday (9/18) as “constructive”, adding they would hold a second mediation with government officials on Tuesday (9/22), media report. Topics ranged from the bonus system and overall compensation to non-retaliation provisions and",
-          "url": "https://x.com/dnystedt/status/2101817905528885602",
-          "timestamp": "2026-09-21T07:36:53.000+08:00",
-          "interaction": 23
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "CXMT says its fifth-generation DRAM platform is now in mass production, along with two 24Gb LPDDR5X products built on it.  The company says the platform has an 11.95nm half-pitch in the memory array’s active area, uses quadruple patterning, and has capacitors with a 45-to-1",
-          "url": "https://x.com/statementdog/status/2101604817651241175",
-          "timestamp": "2026-09-20T17:30:09.000+08:00",
-          "interaction": 22
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "甲骨文AI資料中心踩煞車。原本高達3,000億美元算力合約的重要基礎建設，去年底取得約180億美元銀行貸款，但隨著市場擔心Oracle舉債規模過大、信用風險升高，相關貸款目前報價，已跌到每1美元面額僅約0.89至0.91美元。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02PV9oLTMMaSnjjxHbLdtarAhgts9wr9YyjXy5ugo7R9Mqr4eHUaiivFnCScmtfS3jl?__cft__[0]=AZj2R_6fEd2YD7JrkwbWiCxjA9OI2ctexs6ptwjrmMvDQq3QeWNZLTbmTN749dpxrOOuEbBAyytxhay-BEJjrRXktEm18l7M7h9EFovXpwN7fUTcMkCOLrCKxZ3P9iMNDF5Y05adgtPuhjuCIDb0Br3vdUXlrpJIkAMcdmWgav0-2vMvNJHLQOg8j4c",
+          "timestamp": "2026-09-21T09:00:29.416303+00:00",
+          "interaction": 765
         },
         {
           "handle": "subhash-km-6b5443123",
           "platform": "LinkedIn",
-          "text": "📱 iPhone Chip Evolution — Who Made What 💡   🔵 A4 | 2010 | 45nm | Samsung 🔵 A6 | 2012 | 32nm | Samsung 🔵 A7 | 2013 | 28nm | Samsung 🔴 A8 | 2014 | 20nm | TSMC 🔴 A9 | 2015 | 14nm | TSMC + Samsung (dual-sourced) 🔴 A10 | 2016 | 16nm | TSMC 🔴 A11 | 2017 | 10nm | TSMC 🔴 A12 | 2018 | 7nm | TSMC 🔴 A14 | 2020",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507438994910007296/",
-          "timestamp": "2026-09-20T22:17:59.567+08:00",
+          "text": "Money spent on building data centers in the US has grown 5-fold since late 2022. 💡   The United States is home to thousands of data centers. They are part of the infrastructure that powers many digital services, including email, gaming, streaming, social media, and, increasingly, artificial intellig",
+          "url": "",
+          "timestamp": "2026-09-20T22:18:37.357+08:00",
           "interaction": 0
         },
         {
           "handle": "subhash-km-6b5443123",
           "platform": "LinkedIn",
-          "text": "Nvidia Market cap: $10 trillion by 2030. 💡   Samsung marketcap ~4 trillion  SK Hynix marketcap ~3 trillion  Micron marketcap ~3 trillion   The BOM of HBM in AI chips will be >65% by 2030.",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507415862161620992/",
-          "timestamp": "2026-09-20T22:17:59.567+08:00",
+          "text": "Nvidia has now committed more than $70B across AI labs, public equities, infrastructure and supply-chain partners. 💡   Its public-market holdings alone are worth $55B+  Here’s the full map of where $NVDA's money is going:  • Intel: ~$25B • SpaceX: ~$21B • CoreWeave: ~$4.7B • Nokia: ~$2.2B • Synopsys",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506555440332193792/",
+          "timestamp": "2026-09-20T22:19:24.920+08:00",
           "interaction": 0
         },
         {
           "handle": "subhash-km-6b5443123",
           "platform": "LinkedIn",
-          "text": "Intel and SK Hynix are in talks for SK Hynix to manufacture its memory chips in the US.  📈 $SKHY +3.31% 📈 $INTC +3.08%",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506416688784109568/",
-          "timestamp": "2026-09-20T22:19:34.056+08:00",
+          "text": "Nvidia is expected to have 58% share in HBM demand in 2026E, falling to 41% in 2027E.   Google and AMD expected to see a large jump in HBM demand in 2027E.   Google: 18% --> 31% AMD: 7% --> 12%",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506268450474921984/",
+          "timestamp": "2026-09-20T22:19:53.180+08:00",
           "interaction": 0
         },
         {
           "handle": "subhash-km-6b5443123",
           "platform": "LinkedIn",
-          "text": "The GPU isn’t the bottleneck 💡   DRAM, HDDs, and ABF are where shortages are preventing more HPC chips from being shipped. 🤔",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506329321465249792/",
-          "timestamp": "2026-09-20T22:19:43.510+08:00",
+          "text": "Where does $100 of AI capex flow? 💡  Semi chips take 50% of AI capex spent. 💲💵",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506148672720691200/",
+          "timestamp": "2026-09-20T22:20:12.702+08:00",
           "interaction": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "F",
-      "label": "晶圓代工 / 先進製程",
-      "own_count": 3,
-      "competitor_count": 25,
-      "competitor_engagement": 406,
-      "competitors_covering": [
-        "SemiAnalysis_",
-        "dnystedt",
-        "subhash-km-6b5443123",
-        "josepozophotonics"
-      ],
-      "sample_posts": [
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "Intel is in talks with Taiwan’s AUO for advanced packaging aimed at CPO (co-packaged optics), due to AUO’s work on Micro LED technology, media report, a project that also uses glass substrates. The two may also work together on advanced packaging for high-density compute.  $INTC",
-          "url": "https://x.com/dnystedt/status/2101817510681260446",
-          "timestamp": "2026-09-21T07:35:19.000+08:00",
-          "interaction": 76
         },
         {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "We took the silicon out of the silicon. Quick turn from SemiAnalysis STEEL Teardown Lab: iPhone 18 Pro Max, A20 silicon on TSMC N2. more to follow...",
-          "url": "https://x.com/SemiAnalysis_/status/2101757943351783908",
-          "timestamp": "2026-09-21T03:38:37.000+08:00",
-          "interaction": 66
+          "handle": "subhash-km-6b5443123",
+          "platform": "LinkedIn",
+          "text": "Money spent on building data centers in the US has grown 5-fold since late 2022. 💡   The United States is home to thousands of data centers. They are part of the infrastructure that powers many digital services, including email, gaming, streaming, social media, and, increasingly, artificial intellig",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506962828478529536/",
+          "timestamp": "2026-09-21T13:22:08.919+08:00",
+          "interaction": 0
         },
         {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "TSMC will have four new 1.4nm fabs in mass production of 120,000 to 140,000 wafers-per-month (wpm) by the 2nd quarter of 2028 in the Central Taiwan Science Park near the city of Taichung, media report, assuming a price-per-wafer of US$35,000 each. Construction has sped up so that",
-          "url": "https://x.com/dnystedt/status/2101811725108699157",
-          "timestamp": "2026-09-21T07:12:19.000+08:00",
-          "interaction": 55
+          "handle": "josepozophotonics",
+          "platform": "LinkedIn",
+          "text": "CO-PACKAGED OPTICS WILL NOT MAKE THE BOARD CHEAPER A view has circulated that once co-packaged optics shortens the electrical path, AI server boards can step down from high-grade laminates. The supply chain says no.  電子時報 reported on 18 September that supply chain sources reject the downgrade thesis",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507038562643595264/",
+          "timestamp": "2026-09-20T22:15:29.830+08:00",
+          "interaction": 0
         },
         {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "Headline: TSMC prices are up 10%, prompting AMD to hike Q4 chip prices. (Note this story cites last week’s news that AMD will raise prices 10% in response to higher supply chain prices to mean that TSMC has raised prices 10%. Not news.)  $TSM   $AMD",
-          "url": "https://x.com/dnystedt/status/2101811956671971637",
-          "timestamp": "2026-09-21T07:13:14.000+08:00",
-          "interaction": 45
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "UMC and Powerchip are planning big price hikes for mature chip production amid continued strong demand and transfer orders as TSMC phases out older fabs, media report, with UMC planning a “substantial” price hike and Powerchip looking at up to a 40% hike. Vanguard (VIS) has also",
-          "url": "https://x.com/dnystedt/status/2101828662182212087",
-          "timestamp": "2026-09-21T08:19:37.000+08:00",
-          "interaction": 44
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "TSMC plans to build advanced semiconductor fabs in the proposed Shalun science park in Tainan, south Taiwan, which is focused on semiconductors and AI, media report, adding the park would hold 248.77-hectares of land, create 35,000 jobs, and aims to hit an annual output value of",
-          "url": "https://x.com/dnystedt/status/2101835768838918196",
-          "timestamp": "2026-09-21T08:47:52.000+08:00",
-          "interaction": 36
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "TSMC has inspected two AUO plants in the Central Taiwan Science Park for possible purchase and transformation into advanced semiconductor packaging facilities, media report, noting both plants are near TSMC facilities. AUO has sold 3 plants so far this year for a total NT$34.7",
-          "url": "https://x.com/dnystedt/status/2101817719150850430",
-          "timestamp": "2026-09-21T07:36:08.000+08:00",
-          "interaction": 27
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "TSMC will be on hand at the groundbreaking for the Baipu Industrial Park in Kaohsiung, south Taiwan today as it plans to turn part of the park into a proving ground for advanced packaging equipment, media report, adding the 88.73-hectare park is fully booked, with TSMC taking the",
-          "url": "https://x.com/dnystedt/status/2101829018136006920",
-          "timestamp": "2026-09-21T08:21:02.000+08:00",
-          "interaction": 26
+          "handle": "josepozophotonics",
+          "platform": "LinkedIn",
+          "text": "LATEST PECC SUMMIT DETAILS: THE CONSTRAINT IN AI INFRASTRUCTURE HAS MOVED. IT IS NOW AN OPTICS PROBLEM. For a decade, the question was how many FLOPS you could buy. Now it is whether you can move data between them fast enough, inside a power budget the grid will actually give you.   That is why the ",
+          "url": "",
+          "timestamp": "2026-09-20T22:15:48.224+08:00",
+          "interaction": 0
         }
       ]
     },
@@ -1297,89 +1409,12 @@
           "interaction": 0
         }
       ]
-    },
-    {
-      "cluster_id": "C",
-      "label": "ASIC / 自研晶片",
-      "own_count": 1,
-      "competitor_count": 10,
-      "competitor_engagement": 0,
-      "competitors_covering": [
-        "subhash-km-6b5443123",
-        "josepozophotonics"
-      ],
-      "sample_posts": [
-        {
-          "handle": "subhash-km-6b5443123",
-          "platform": "LinkedIn",
-          "text": "Nvidia has now committed more than $70B across AI labs, public equities, infrastructure and supply-chain partners. 💡   Its public-market holdings alone are worth $55B+  Here’s the full map of where $NVDA's money is going:  • Intel: ~$25B • SpaceX: ~$21B • CoreWeave: ~$4.7B • Nokia: ~$2.2B • Synopsys",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506555440332193792/",
-          "timestamp": "2026-09-20T22:19:24.920+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "subhash-km-6b5443123",
-          "platform": "LinkedIn",
-          "text": "🏢 Companies That Make Billions Without Selling Directly to Consumers. 💡   🇳🇱 ASML — sells advanced lithography systems to chipmakers, not everyday shoppers.  🇹🇼 TSMC — manufactures chips for hundreds of business customers under its pure-play foundry model.  🇺🇸 Visa — earns from operating a payments ",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507461092919398400/",
-          "timestamp": "2026-09-21T11:27:04.941+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "CO-PACKAGED OPTICS WILL NOT MAKE THE BOARD CHEAPER A view has circulated that once co-packaged optics shortens the electrical path, AI server boards can step down from high-grade laminates. The supply chain says no.  電子時報 reported on 18 September that supply chain sources reject the downgrade thesis",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507038562643595264/",
-          "timestamp": "2026-09-20T22:15:29.830+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "THE CONSTRAINT ON AI OPTICS IS NOT BANDWIDTH. IT IS A MATERIAL. We are reposting our second OFC conversation today, a converation with Rafik Ward SVP, Chief Strategy Officer and Chief Marketing Officer at Lumentum, because six months on it reads better than it did in March. Let's look at what has ch",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506752251353481216/",
-          "timestamp": "2026-09-20T22:15:29.830+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "PHOTONICS IS NOW ON THE COMPUTE ROADMAP, NOT NEXT TO IT Two days in Leuven this week with imec, on the external advisory board that reviews their compute technology and systems strategy: logic, memory, 3D integration, and the connectivity that ties it together. We're concluding as I type.   That is ",
-          "url": "",
-          "timestamp": "2026-09-20T22:15:48.224+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "LATEST PECC SUMMIT DETAILS: THE CONSTRAINT IN AI INFRASTRUCTURE HAS MOVED. IT IS NOW AN OPTICS PROBLEM. For a decade, the question was how many FLOPS you could buy. Now it is whether you can move data between them fast enough, inside a power budget the grid will actually give you.   That is why the ",
-          "url": "",
-          "timestamp": "2026-09-20T22:15:48.224+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "BREAKING: NVIDIA JUST BACKED A SPANISH OPTICAL SWITCH COMPANY. THE INTERESTING PART IS WHICH KIND OF SWITCH. iPRONICS , a Valencia spin-off from Universitat Politècnica de València (UPV), has raised $125 million in a Series B co-led by Maverick Silicon and Light Street Capital, with NVIDIA in the ro",
-          "url": "",
-          "timestamp": "2026-09-20T22:15:57.609+08:00",
-          "interaction": 0
-        },
-        {
-          "handle": "josepozophotonics",
-          "platform": "LinkedIn",
-          "text": "EXPLORING PUBLIC CPO FOUNDRY ROADMAPS  Only four foundries have put a real co-packaged optics roadmap in public: TSMC, Intel, Samsung and GlobalFoundries. Tom's Hardware has broken all four down, and it is worth your weekend or holiday catch-up having a look.  The useful part is that these are not f",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7490766324281786368/",
-          "timestamp": "2026-09-20T22:17:13.514+08:00",
-          "interaction": 0
-        }
-      ]
     }
   ],
   "window": {
-    "start_utc": "2026-09-20T08:54:55.897541+00:00",
-    "end_utc": "2026-09-21T08:54:55.897541+00:00",
-    "start_tw": "Sep 20, 16:54",
-    "end_tw": "Sep 21, 16:54"
+    "start_utc": "2026-09-20T09:00:29.416303+00:00",
+    "end_utc": "2026-09-21T09:00:29.416303+00:00",
+    "start_tw": "Sep 20, 17:00",
+    "end_tw": "Sep 21, 17:00"
   }
 }
