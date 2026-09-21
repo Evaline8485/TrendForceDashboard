@@ -1,133 +1,288 @@
 {
-  "generated_at": "2026-09-21T09:32:22+08:00",
+  "generated_at": "2026-09-21T08:54:55.897541+00:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-09-21T01:32:22+08:00",
-    "end_utc": "2026-09-21T09:32:22+08:00",
-    "start_tw": "Sep 21, 01:32",
-    "end_tw": "Sep 21, 09:32"
+    "start_utc": "2026-09-21T00:54:55.897541+00:00",
+    "end_utc": "2026-09-21T08:54:55.897541+00:00",
+    "start_tw": "Sep 21, 08:54",
+    "end_tw": "Sep 21, 16:54"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 11,
+      "total_posts": 55,
       "sentiment_counts": {
-        "neutral": 5,
-        "negative": 2,
-        "positive": 4
+        "positive": 28,
+        "neutral": 16,
+        "negative": 11
       },
       "sentiment_share": {
-        "neutral": 0.455,
-        "negative": 0.182,
-        "positive": 0.364
+        "positive": 0.509,
+        "neutral": 0.291,
+        "negative": 0.2
       },
       "top_terms": [
-        "battery",
-        "yoy",
-        "trump",
-        "germany",
-        "monday",
-        "silicon",
-        "quick",
-        "semianalysis",
-        "steel",
-        "teardown"
+        "最新",
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
+        "半導",
+        "導體",
+        "半導體",
+        "jensen"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "monday / germany / battery / yoy",
+        "topic_id": 9,
+        "label": "英特爾 / 台積電 / tsmc",
         "heat": 90.0,
-        "volume": 9,
-        "engagement": 864,
+        "volume": 3,
+        "engagement": 147,
+        "entities": [
+          "英特爾",
+          "台積電",
+          "亞利",
+          "桑那州",
+          "美國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "gb / memory / iphone",
+        "heat": 72.9,
+        "volume": 3,
+        "engagement": 42,
+        "entities": [
+          "換新",
+          "中國長鑫",
+          "曝光"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "tsmc / revenue / samsung / stock",
+        "heat": 63.6,
+        "volume": 3,
+        "engagement": 25,
         "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "ceo / huang / jensen / nvidia",
+        "heat": 50.0,
+        "volume": 3,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "ccl / 產能 / ai伺服器",
+        "heat": 11.4,
+        "volume": 2,
+        "engagement": 76,
+        "entities": [
+          "斗山",
+          "台光電台",
+          "韓國",
+          "韓中",
+          "大摩"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "ssd / enterprise",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 8,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "iphone",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 2,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "openai",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 35,
+        "entities": [
+          "甲骨文",
+          "新墨西哥州"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "asml",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 38,
+        "entities": [
+          "雷射",
+          "馬斯克"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "sk / samsung / nvidia",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 17,
+        "entities": [
+          "紐約州",
+          "美國",
+          "SK海力士"
+        ],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "trump",
+        "label": "其他（未分群，31 篇）",
         "heat": 10.0,
-        "volume": 2,
-        "engagement": 97,
-        "entities": [],
-        "is_catchall": false
+        "volume": 31,
+        "engagement": 364,
+        "entities": [
+          "川普",
+          "伺服器",
+          "台灣",
+          "美光",
+          "沙皇"
+        ],
+        "is_catchall": true
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "伺服器",
+        "count": 5
+      },
+      {
+        "entity": "川普",
+        "count": 4
+      },
+      {
+        "entity": "斗山",
+        "count": 4
+      },
+      {
+        "entity": "美國",
+        "count": 3
+      },
+      {
+        "entity": "台灣",
+        "count": 3
+      },
+      {
+        "entity": "美光",
+        "count": 3
+      },
+      {
+        "entity": "沙皇",
+        "count": 2
+      },
+      {
+        "entity": "智慧",
+        "count": 2
+      },
+      {
+        "entity": "安森美",
+        "count": 2
+      },
+      {
+        "entity": "國防",
+        "count": 2
+      },
+      {
+        "entity": "甲骨文",
+        "count": 2
+      },
+      {
+        "entity": "英特爾",
+        "count": 2
+      },
+      {
+        "entity": "格陵蘭",
+        "count": 2
+      },
+      {
+        "entity": "波克夏",
+        "count": 2
+      },
+      {
+        "entity": "小泉",
+        "count": 2
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-21T01:32:22.000002+08:00",
-        "bucket_end": "2026-09-21T02:06:39.142859+08:00",
+        "bucket_start": "2026-09-21T00:54:55.897543+00:00",
+        "bucket_end": "2026-09-21T01:29:13.040400+00:00",
         "positive": 1,
         "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 26,
-        "neutral_engagement": 0,
-        "negative_engagement": 33,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 59,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "monday / germany / battery / yoy",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "CABIA figure for Battery export. Up 87.5% YoY in August to 42.4 GWh (259 so far in 2026, up 49.6^ YoY)  Breaks down to 58% auto & 42% ESS. BESS is increasingly high % of battery demand & export.  58.1",
-            "url": "https://x.com/tphuang/status/2101727355123187951",
-            "interaction": 33
-          },
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "See here for battery installation size - 69.0 kWh per NEV (up 27.9% YoY). 64.2 for BEV & 41.2 for PHEV pax vehicles, remaining growth down to much higher trucking electrification)  Avg truck 217 kWh, ",
-            "url": "https://x.com/tphuang/status/2101726877735882941",
-            "interaction": 26
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-21T02:06:39.142859+08:00",
-        "bucket_end": "2026-09-21T02:40:56.285716+08:00",
-        "positive": 0,
-        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 97,
+        "positive_engagement": 49,
+        "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
+        "net_sentiment": 100.0,
         "post_count": 1,
-        "engagement": 97,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "monday / germany / battery / yoy",
-            "count": 1
-          }
-        ],
+        "engagement": 49,
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
-            "text": "A UN gathering notable for its absences",
-            "url": "https://x.com/FT/status/2101742029055140302",
-            "interaction": 97
+            "text": "US and China agree to dialogue on AI ahead of Trump-Xi meeting",
+            "url": "https://x.com/FT/status/2101843418041212987",
+            "interaction": 49
           }
         ],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 66.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-21T02:40:56.285716+08:00",
-        "bucket_end": "2026-09-21T03:15:13.428573+08:00",
+        "bucket_start": "2026-09-21T01:29:13.040400+00:00",
+        "bucket_end": "2026-09-21T02:03:30.183257+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 44,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 44,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "US Treasury secretary Scott Bessent said the US had proposed creating a ‘notification mechanism’ to deal with AI incidents related to national security, following talks with Chinese vice-premier He Li",
+            "url": "https://x.com/FT/status/2101846969815568863",
+            "interaction": 44
+          }
+        ],
+        "net_sentiment_smoothed": 50.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-21T02:03:30.183257+00:00",
+        "bucket_end": "2026-09-21T02:37:47.326114+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -139,143 +294,220 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 44.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-21T03:15:13.428573+08:00",
-        "bucket_end": "2026-09-21T03:49:30.571430+08:00",
+        "bucket_start": "2026-09-21T02:37:47.326114+00:00",
+        "bucket_end": "2026-09-21T03:12:04.468971+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 66,
+        "neutral_engagement": 25,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
         "post_count": 1,
-        "engagement": 66,
+        "engagement": 25,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "monday / germany / battery / yoy",
+            "topic_id": 3,
+            "label": "tsmc / revenue / samsung / stock",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "SemiAnalysis_",
+            "handle": "dnystedt",
             "platform": "X",
-            "text": "We took the silicon out of the silicon. Quick turn from SemiAnalysis STEEL Teardown Lab: iPhone 18 Pro Max, A20 silicon on TSMC N2. more to follow...",
-            "url": "https://x.com/SemiAnalysis_/status/2101757943351783908",
-            "interaction": 66
+            "text": "TSMC could see a monthly record high NT$520 billion in September revenue, a catalyst to propel the Taiwan Stock Exchange in early October, media report, citing institutional analysts. TSMC reports Sep",
+            "url": "https://x.com/dnystedt/status/2101863500348039388",
+            "interaction": 25
           }
         ],
-        "net_sentiment_smoothed": -20.0,
+        "net_sentiment_smoothed": 29.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-21T03:49:30.571430+08:00",
-        "bucket_end": "2026-09-21T04:23:47.714287+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 218,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 218,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "monday / germany / battery / yoy",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Just published: front page of the Financial Times, UK edition, Monday 21 September     https:// ft.trib.al/TswSwgR",
-            "url": "https://x.com/FT/status/2101763367698362512",
-            "interaction": 218
-          }
-        ],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-21T04:23:47.714287+08:00",
-        "bucket_end": "2026-09-21T04:58:04.857144+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 48,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 48,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "trump",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Trump’s regulatory rollback puts $400mn in US audit fees at risk",
-            "url": "https://x.com/FT/status/2101774277770903617",
-            "interaction": 48
-          }
-        ],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-21T04:58:04.857144+08:00",
-        "bucket_end": "2026-09-21T05:32:22.000001+08:00",
-        "positive": 0,
+        "bucket_start": "2026-09-21T03:12:04.468971+00:00",
+        "bucket_end": "2026-09-21T03:46:21.611828+00:00",
+        "positive": 2,
         "neutral": 2,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
-        "neutral_engagement": 330,
+        "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 330,
+        "net_sentiment": 20.0,
+        "post_count": 5,
+        "engagement": 0,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "monday / germany / battery / yoy",
-            "count": 2
+            "topic_id": 5,
+            "label": "iphone",
+            "count": 1
+          },
+          {
+            "topic_id": 3,
+            "label": "tsmc / revenue / samsung / stock",
+            "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Just published: front page of the Financial Times, international edition, Monday 21 September     https:// ft.trib.al/DElR3u6",
-            "url": "https://x.com/FT/status/2101778460691546324",
-            "interaction": 251
+            "handle": "subhash-km-6b5443123",
+            "platform": "LinkedIn",
+            "text": "It's the beginning of Jensen's law.  and it's about the FLOPS not Transistors!",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507619687418085378/",
+            "interaction": 0
           },
           {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Germany’s Merz stands his ground but for how long?  https:// ft.trib.al/vCKV0EH  | opinion",
-            "url": "https://x.com/FT/status/2101780564348977507",
-            "interaction": 79
+            "handle": "subhash-km-6b5443123",
+            "platform": "LinkedIn",
+            "text": "Workdays Needed to Buy an iPhone 17 Pro, by Country 📱",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507596970832822272/",
+            "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": -20.0,
+        "net_sentiment_smoothed": 17.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-21T05:32:22.000001+08:00",
-        "bucket_end": "2026-09-21T06:06:39.142858+08:00",
+        "bucket_start": "2026-09-21T03:46:21.611828+00:00",
+        "bucket_end": "2026-09-21T04:20:38.754685+00:00",
+        "positive": 1,
+        "neutral": 3,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 25.0,
+        "post_count": 4,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 7,
+            "label": "sk / samsung / nvidia",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "asml",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "ceo / huang / jensen / nvidia",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "subhash-km-6b5443123",
+            "platform": "LinkedIn",
+            "text": "Nvidia Market cap: $10 trillion by 2030. 💡   Samsung marketcap ~4 trillion  SK Hynix marketcap ~3 trillion  Micron marketcap ~3 trillion   The BOM of HBM in AI chips will be >65% by 2030.",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507415862161620992/",
+            "interaction": 0
+          },
+          {
+            "handle": "subhash-km-6b5443123",
+            "platform": "LinkedIn",
+            "text": "ASML is so goated in the AI stack. 🔥",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507385581845266432/",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 33.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-21T04:20:38.754685+00:00",
+        "bucket_end": "2026-09-21T04:54:55.897542+00:00",
+        "positive": 3,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 40.0,
+        "post_count": 5,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "tsmc / revenue / samsung / stock",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "ceo / huang / jensen / nvidia",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "subhash-km-6b5443123",
+            "platform": "LinkedIn",
+            "text": "I think Token pricing should not exceed <$1/M tokens. 💡   Anything more than >$1/M tokens is expensive.  I am dam sure, token pricing will behave like Moore's law.   This metric will be a total game c",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507257456465735680/",
+            "interaction": 0
+          },
+          {
+            "handle": "subhash-km-6b5443123",
+            "platform": "LinkedIn",
+            "text": "Time it took to reach $1 billion in revenue: 💵💲📈",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507234656036003840/",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 33.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-21T04:54:55.897542+00:00",
+        "bucket_end": "2026-09-21T05:29:13.040399+00:00",
+        "positive": 4,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 80.0,
+        "post_count": 5,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 10,
+            "label": "gb / memory / iphone",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "ceo / huang / jensen / nvidia",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "subhash-km-6b5443123",
+            "platform": "LinkedIn",
+            "text": "Huawei brings huge inference boost with its next-gen Ascend 960 chips in 2027, while 2028's Ascend 970 pushes memory to 288 GB and Ascend 980 pushes memory to 384 GB in 2029. 📈",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507023237055238144/",
+            "interaction": 0
+          },
+          {
+            "handle": "subhash-km-6b5443123",
+            "platform": "LinkedIn",
+            "text": "Nvidia CEO Jensen Huang:   \"I expect $NVDA to sell twice as many chips this next year as we do this year. And the reason for that is because AI has has so much contribution to the benefits of differen",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506993150431797248/",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 29.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-21T05:29:13.040399+00:00",
+        "bucket_end": "2026-09-21T06:03:30.183256+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -287,12 +519,29 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
+        "net_sentiment_smoothed": 24.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-21T06:06:39.142858+08:00",
-        "bucket_end": "2026-09-21T06:40:56.285715+08:00",
+        "bucket_start": "2026-09-21T06:03:30.183256+00:00",
+        "bucket_end": "2026-09-21T06:37:47.326113+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 16.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-21T06:37:47.326113+00:00",
+        "bucket_end": "2026-09-21T07:12:04.468970+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -308,25 +557,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-21T06:40:56.285715+08:00",
-        "bucket_end": "2026-09-21T07:15:13.428572+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-21T07:15:13.428572+08:00",
-        "bucket_end": "2026-09-21T07:49:30.571429+08:00",
+        "bucket_start": "2026-09-21T07:12:04.468970+00:00",
+        "bucket_end": "2026-09-21T07:46:21.611827+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -342,8 +574,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-21T07:49:30.571429+08:00",
-        "bucket_end": "2026-09-21T08:23:47.714286+08:00",
+        "bucket_start": "2026-09-21T07:46:21.611827+00:00",
+        "bucket_end": "2026-09-21T08:20:38.754684+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -355,80 +587,61 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
+        "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-21T08:23:47.714286+08:00",
-        "bucket_end": "2026-09-21T08:58:04.857143+08:00",
+        "bucket_start": "2026-09-21T08:20:38.754684+00:00",
+        "bucket_end": "2026-09-21T08:54:55.897541+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 50,
+        "positive_engagement": 4,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 100.0,
         "post_count": 1,
-        "engagement": 50,
+        "engagement": 4,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "monday / germany / battery / yoy",
+            "topic_id": 8,
+            "label": "ssd / enterprise",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Good morning, Asia. While you were sleeping, our most-read story was about the latest polls in Germany, where the CDU is heading for its worst state election result in postwar history as support surge",
-            "url": "https://x.com/FT/status/2101831512031137882",
-            "interaction": 50
+            "handle": "TrendForce.tw",
+            "platform": "Facebook",
+            "text": "美系雲端大廠 Enterprise SSD 拉貨力道增強！過去兩週需求上修，尤其 QLC 產品成長動能最為強勁，滲透率持續提升。\n#TrendForce\n 分析 AI 儲存市場最新趨勢：\nhttps://buff.ly/xTaRjn4",
+            "url": "https://www.facebook.com/TrendForce.tw/posts/pfbid02AMXBf3q78Tw4wuptDvnDbGgp14Kmt1FUyFA1DgkYeGcmMAnf9kVJxn698g95MHu8l?__cft__[0]=AZjxgjQt7tKJFnLdaKMKpUP7g8ugHW-yAsx4xpESwwgouFQj1R3VhTg-rcU6hPLeXy8e7ccZE31Rknt5DUt2wGvX6hFq8socxdK335u8ftSHBemUmpVsphXVFtczSFo35QaQexd8kgmXTzNyizOYO0hAheuJTHVN6eTUfsJg8QpWc1yd1EviLDHsoRo",
+            "interaction": 4
           }
         ],
-        "net_sentiment_smoothed": 50.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-21T08:58:04.857143+08:00",
-        "bucket_end": "2026-09-21T09:32:22+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 49,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 49,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "trump",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "US and China agree to dialogue on AI ahead of Trump-Xi meeting",
-            "url": "https://x.com/FT/status/2101843418041212987",
-            "interaction": 49
-          }
-        ],
-        "net_sentiment_smoothed": 66.7,
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "monday / germany / battery / yoy",
+        "topic_id": 3,
+        "label": "tsmc / revenue / samsung / stock",
         "cells": [
           {
             "net_sentiment": 0.0,
-            "volume": 2
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -444,15 +657,7 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -473,10 +678,6 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -485,8 +686,8 @@
         ]
       },
       {
-        "topic_id": 0,
-        "label": "trump",
+        "topic_id": 9,
+        "label": "英特爾 / 台積電 / tsmc",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -509,8 +710,194 @@
             "volume": 0
           },
           {
-            "net_sentiment": -100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 10,
+        "label": "gb / memory / iphone",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "ceo / huang / jensen / nvidia",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 8,
+        "label": "ssd / enterprise",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -543,69 +930,228 @@
           {
             "net_sentiment": 100.0,
             "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "iphone",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "SemiAnalysis_",
-        "top_topic_id": 1,
-        "top_topic_label": "monday / germany / battery / yoy",
+        "handle": "FT",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，31 篇）",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 3,
+        "top_topic_label": "tsmc / revenue / samsung / stock",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
-        "handle": "tphuang",
-        "top_topic_id": 1,
-        "top_topic_label": "monday / germany / battery / yoy",
+        "handle": "TrendForce.tw",
+        "top_topic_id": 8,
+        "top_topic_label": "ssd / enterprise",
         "focus_share": 1.0,
-        "post_count": 2,
+        "post_count": 1,
         "unclustered_posts": 0
       },
       {
-        "handle": "FT",
+        "handle": "subhash-km-6b5443123",
         "top_topic_id": 1,
-        "top_topic_label": "monday / germany / battery / yoy",
-        "focus_share": 0.75,
-        "post_count": 8,
-        "unclustered_posts": 0
+        "top_topic_label": "ceo / huang / jensen / nvidia",
+        "focus_share": 0.333,
+        "post_count": 19,
+        "unclustered_posts": 10
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 9,
+        "top_topic_label": "英特爾 / 台積電 / tsmc",
+        "focus_share": 0.231,
+        "post_count": 32,
+        "unclustered_posts": 19
       }
     ],
     "top_engagement_ranking": [
       {
+        "topic_id": 9,
+        "label": "英特爾 / 台積電 / tsmc",
+        "total_engagement": 147,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 147,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "ccl / 產能 / ai伺服器",
+        "total_engagement": 76,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 76,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "gb / memory / iphone",
+        "total_engagement": 42,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 42,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "asml",
+        "total_engagement": 38,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 38,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "openai",
+        "total_engagement": 35,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 35,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "tsmc / revenue / samsung / stock",
+        "total_engagement": 25,
+        "post_count": 3,
+        "top_account": "dnystedt",
+        "top_account_engagement": 25,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "sk / samsung / nvidia",
+        "total_engagement": 17,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 17,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "ssd / enterprise",
+        "total_engagement": 8,
+        "post_count": 2,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 4,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "iphone",
+        "total_engagement": 2,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 2,
+        "is_catchall": false
+      },
+      {
         "topic_id": 1,
-        "label": "monday / germany / battery / yoy",
-        "total_engagement": 864,
-        "post_count": 9,
-        "top_account": "FT",
-        "top_account_engagement": 739,
+        "label": "ceo / huang / jensen / nvidia",
+        "total_engagement": 0,
+        "post_count": 3,
+        "top_account": "subhash-km-6b5443123",
+        "top_account_engagement": 0,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "trump",
-        "total_engagement": 97,
-        "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 97,
-        "is_catchall": false
+        "label": "其他（未分群，31 篇）",
+        "total_engagement": 364,
+        "post_count": 31,
+        "top_account": "technewsinside",
+        "top_account_engagement": 271,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 3,
-          "likes": 89,
-          "engagement": 143,
-          "avg_engagement": 47.7
+          "post_count": 8,
+          "likes": 79,
+          "engagement": 118,
+          "avg_engagement": 14.8
         },
         "afternoon": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 47,
+          "likes": 636,
+          "engagement": 636,
+          "avg_engagement": 13.5
         },
         "evening": {
           "post_count": 0,
@@ -614,13 +1160,13 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 8,
-          "likes": 596,
-          "engagement": 818,
-          "avg_engagement": 102.2
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         }
       },
-      "peak_slot": "late_night"
+      "peak_slot": "afternoon"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
