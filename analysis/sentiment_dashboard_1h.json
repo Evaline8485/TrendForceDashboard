@@ -1,278 +1,177 @@
 {
-  "generated_at": "2026-09-22T18:14:45+08:00",
+  "generated_at": "2026-09-22T12:44:33.709766+00:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-09-22T17:14:45+08:00",
-    "end_utc": "2026-09-22T18:14:45+08:00",
-    "start_tw": "Sep 22, 17:14",
-    "end_tw": "Sep 22, 18:14"
+    "start_utc": "2026-09-22T11:44:33.709766+00:00",
+    "end_utc": "2026-09-22T12:44:33.709766+00:00",
+    "start_tw": "Sep 22, 19:44",
+    "end_tw": "Sep 22, 20:44"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 8,
+      "total_posts": 107,
       "sentiment_counts": {
-        "positive": 3,
-        "negative": 4,
-        "neutral": 1
+        "positive": 44,
+        "neutral": 38,
+        "negative": 25
       },
       "sentiment_share": {
-        "positive": 0.375,
-        "negative": 0.5,
-        "neutral": 0.125
+        "positive": 0.411,
+        "neutral": 0.355,
+        "negative": 0.234
       },
       "top_terms": [
-        "demand",
-        "capacity",
-        "remains",
-        "requirements",
-        "computing",
-        "platforms",
-        "prompting",
-        "dram",
-        "suppliers",
-        "aggressively"
+        "更多",
+        "查看",
+        "看更",
+        "查看更",
+        "看更多",
+        "台股",
+        "川普",
+        "升息",
+        "成長",
+        "個股"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "demand / capacity / requirements / remains",
-        "heat": 50.0,
-        "volume": 8,
-        "engagement": 215,
-        "entities": [],
+        "topic_id": 2,
+        "label": "cnn",
+        "heat": 90.0,
+        "volume": 2,
+        "engagement": 301,
+        "entities": [
+          "美國總統川普",
+          "美國",
+          "白宮",
+          "川普"
+        ],
         "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "萬張",
+        "heat": 30.1,
+        "volume": 2,
+        "engagement": 86,
+        "entities": [
+          "友達",
+          "英特爾",
+          "中科",
+          "台積電",
+          "光鼎"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "美國財政部長貝森特 / scott / bessent",
+        "heat": 17.0,
+        "volume": 2,
+        "engagement": 39,
+        "entities": [
+          "美國財政部",
+          "紐約",
+          "何立峰",
+          "中國國務院",
+          "長達"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "台股逐洞賽",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 14,
+        "entities": [
+          "台積電"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，99 篇）",
+        "heat": 10.0,
+        "volume": 99,
+        "engagement": 7350,
+        "entities": [
+          "美國",
+          "台灣",
+          "中國",
+          "上市",
+          "台積電"
+        ],
+        "is_catchall": true
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "美國",
+        "count": 15
+      },
+      {
+        "entity": "台灣",
+        "count": 9
+      },
+      {
+        "entity": "中國",
+        "count": 9
+      },
+      {
+        "entity": "台積電",
+        "count": 7
+      },
+      {
+        "entity": "上市",
+        "count": 6
+      },
+      {
+        "entity": "友達",
+        "count": 5
+      },
+      {
+        "entity": "輝達",
+        "count": 4
+      },
+      {
+        "entity": "伺服器",
+        "count": 4
+      },
+      {
+        "entity": "中東",
+        "count": 4
+      },
+      {
+        "entity": "美國總統川普",
+        "count": 4
+      },
+      {
+        "entity": "白宮",
+        "count": 4
+      },
+      {
+        "entity": "伊朗",
+        "count": 4
+      },
+      {
+        "entity": "衛福部",
+        "count": 3
+      },
+      {
+        "entity": "利雅德",
+        "count": 3
+      },
+      {
+        "entity": "吳大",
+        "count": 2
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-22T17:14:45.000002+08:00",
-        "bucket_end": "2026-09-22T17:19:02.142859+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 59,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 59,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "demand / capacity / requirements / remains",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "US satellite maker Planet Labs opens Berlin factory as military demand booms",
-            "url": "https://x.com/FT/status/2102326407120507126",
-            "interaction": 59
-          }
-        ],
-        "net_sentiment_smoothed": -66.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T17:19:02.142859+08:00",
-        "bucket_end": "2026-09-22T17:23:19.285716+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -25.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T17:23:19.285716+08:00",
-        "bucket_end": "2026-09-22T17:27:36.428573+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 20,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 20,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "demand / capacity / requirements / remains",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "HyperTechInvest",
-            "platform": "X",
-            "text": "China's SiC Shortage Pushes Orders Toward Taiwan  6-inch SiC production is particularly constrained, with some manufacturers operating at full utilization. China's 8-inch capacity expansion remains li",
-            "url": "https://x.com/HyperTechInvest/status/2102327968853029189",
-            "interaction": 20
-          }
-        ],
-        "net_sentiment_smoothed": -40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T17:27:36.428573+08:00",
-        "bucket_end": "2026-09-22T17:31:53.571430+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 25,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 25,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "demand / capacity / requirements / remains",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Opinion: To lose our taste for effort would not just risk an intellectual slide backwards. It would also mean the loss of one of life’s truest joys: succeeding at something you found really hard to do",
-            "url": "https://x.com/FT/status/2102329595764617485",
-            "interaction": 25
-          }
-        ],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T17:31:53.571430+08:00",
-        "bucket_end": "2026-09-22T17:36:10.714287+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 20,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 20,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "demand / capacity / requirements / remains",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "HyperTechInvest",
-            "platform": "X",
-            "text": "TrendForce: US Data Centers Could Face a 170GW Power Gap by 2030  TrendForce projects global data center power demand capacity to triple from 161GW in 2026 to 490GW by 2030, driven by accelerating AI ",
-            "url": "https://x.com/HyperTechInvest/status/2102330212323369073",
-            "interaction": 20
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T17:36:10.714287+08:00",
-        "bucket_end": "2026-09-22T17:40:27.857144+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T17:40:27.857144+08:00",
-        "bucket_end": "2026-09-22T17:44:45.000001+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 14,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 14,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "demand / capacity / requirements / remains",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "X",
-            "text": "Demand for AI computing platforms remains strong, prompting the three major #DRAM suppliers to aggressively expand their #HBM capacity. HBM base dies are also transitioning from DRAM processes to adva",
-            "url": "https://x.com/trendforce/status/2102332261102436411",
-            "interaction": 14
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T17:44:45.000001+08:00",
-        "bucket_end": "2026-09-22T17:49:02.142858+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T17:49:02.142858+08:00",
-        "bucket_end": "2026-09-22T17:53:19.285715+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T17:53:19.285715+08:00",
-        "bucket_end": "2026-09-22T17:57:36.428572+08:00",
+        "bucket_start": "2026-09-22T11:44:33.709768+00:00",
+        "bucket_end": "2026-09-22T11:48:50.852625+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -288,39 +187,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T17:57:36.428572+08:00",
-        "bucket_end": "2026-09-22T18:01:53.571429+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 61,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 61,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "demand / capacity / requirements / remains",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "More than 90 schools have closed since 2019.  https:// ft.trib.al/94p1DCs",
-            "url": "https://x.com/FT/status/2102337150201024832",
-            "interaction": 61
-          }
-        ],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T18:01:53.571429+08:00",
-        "bucket_end": "2026-09-22T18:06:10.714286+08:00",
+        "bucket_start": "2026-09-22T11:48:50.852625+00:00",
+        "bucket_end": "2026-09-22T11:53:07.995482+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -332,43 +200,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T18:06:10.714286+08:00",
-        "bucket_end": "2026-09-22T18:10:27.857143+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 15,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 15,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "demand / capacity / requirements / remains",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Banks and fintechs gear up for fight over funding of high street hubs",
-            "url": "https://x.com/FT/status/2102338832435724386",
-            "interaction": 15
-          }
-        ],
-        "net_sentiment_smoothed": -25.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T18:10:27.857143+08:00",
-        "bucket_end": "2026-09-22T18:14:45+08:00",
+        "bucket_start": "2026-09-22T11:53:07.995482+00:00",
+        "bucket_end": "2026-09-22T11:57:25.138339+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -380,30 +217,434 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -33.3,
+        "net_sentiment_smoothed": 3.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T11:57:25.138339+00:00",
+        "bucket_end": "2026-09-22T12:01:42.281196+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 3.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T12:01:42.281196+00:00",
+        "bucket_end": "2026-09-22T12:05:59.424053+00:00",
+        "positive": 40,
+        "neutral": 36,
+        "negative": 21,
+        "positive_engagement": 1200,
+        "neutral_engagement": 2040,
+        "negative_engagement": 1199,
+        "net_sentiment": 19.6,
+        "post_count": 97,
+        "engagement": 4439,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "台股逐洞賽",
+            "count": 2
+          },
+          {
+            "topic_id": 1,
+            "label": "美國財政部長貝森特 / scott / bessent",
+            "count": 2
+          },
+          {
+            "topic_id": 3,
+            "label": "萬張",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "中秋禮金資格與入帳時間一次看！…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0gg8hJJWHn4MMkbztHPkbeKoiryPRaaTXuoZ5egwkKbFqLg2BWc4VX8tn8MAyGj6El?__cft__[0]=AZiClTjXgwTD6GFAHDaEZcebmfNy_6AcFLAE7CxMoc6237UvZ_dege01DPhVbm01FrYlVYkz4DVRdobfwHvabnobll5sCBnk0EBIBXLgJcsPaJEEqe68pmG_tWzhW9iDDGMk7nE5ddOifAz8yk5NmjCJ4i8362DOYFd9kESG32mlFcE7HuuX51kp56Y",
+            "interaction": 366
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "【投信強力助攻！台股今年大漲62％ 18檔季底作帳潛力股出列】…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02SiSyiW13QrWxHitNaouSW5HAcdDjSDWiJHBZapJBV34hJZeTSw1bGfR4fYoG1Hkcl?__cft__[0]=AZjGtG8DY3o0VzIOkSG3TURCe7eQY8Jk_NVKF31-E47saNWKVbHAUq1dXfYgWPS0HuvfZBU-7zBtLCO3-UCytoHXqDrmIGXueT30LU0XXa0F5ok15ULffCGvvSj4DQnRXQJvCGvcbpmqAOPfsBLuOf1J-Jp77qAysT1yTJA94zHp_RC8g0J5NNRks7M",
+            "interaction": 364
+          }
+        ],
+        "net_sentiment_smoothed": 3.9,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-09-22T12:05:59.424053+00:00",
+        "bucket_end": "2026-09-22T12:10:16.566910+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 3.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T12:10:16.566910+00:00",
+        "bucket_end": "2026-09-22T12:14:33.709767+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 3.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T12:14:33.709767+00:00",
+        "bucket_end": "2026-09-22T12:18:50.852624+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T12:18:50.852624+00:00",
+        "bucket_end": "2026-09-22T12:23:07.995481+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T12:23:07.995481+00:00",
+        "bucket_end": "2026-09-22T12:27:25.138338+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T12:27:25.138338+00:00",
+        "bucket_end": "2026-09-22T12:31:42.281195+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T12:31:42.281195+00:00",
+        "bucket_end": "2026-09-22T12:35:59.424052+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T12:35:59.424052+00:00",
+        "bucket_end": "2026-09-22T12:40:16.566909+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T12:40:16.566909+00:00",
+        "bucket_end": "2026-09-22T12:44:33.709766+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "demand / capacity / requirements / remains",
+        "topic_id": 4,
+        "label": "台股逐洞賽",
         "cells": [
           {
-            "net_sentiment": -100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": -100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "美國財政部長貝森特 / scott / bessent",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 100.0,
-            "volume": 1
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "萬張",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "cnn",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": -100.0,
@@ -414,8 +655,16 @@
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -431,15 +680,7 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -450,47 +691,67 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "TrendForce",
-        "top_topic_id": 0,
-        "top_topic_label": "demand / capacity / requirements / remains",
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 2,
+        "top_topic_label": "cnn",
         "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
+        "post_count": 10,
+        "unclustered_posts": 9
       },
       {
-        "handle": "FT",
-        "top_topic_id": 0,
-        "top_topic_label": "demand / capacity / requirements / remains",
-        "focus_share": 1.0,
-        "post_count": 4,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "statementdog",
-        "top_topic_id": 0,
-        "top_topic_label": "demand / capacity / requirements / remains",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "HyperTechInvest",
-        "top_topic_id": 0,
-        "top_topic_label": "demand / capacity / requirements / remains",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 0
+        "handle": "ctee.fans",
+        "top_topic_id": 4,
+        "top_topic_label": "台股逐洞賽",
+        "focus_share": 0.286,
+        "post_count": 97,
+        "unclustered_posts": 90
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "demand / capacity / requirements / remains",
-        "total_engagement": 215,
-        "post_count": 8,
-        "top_account": "FT",
-        "top_account_engagement": 160,
+        "topic_id": 2,
+        "label": "cnn",
+        "total_engagement": 301,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 187,
         "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "萬張",
+        "total_engagement": 86,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 86,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "美國財政部長貝森特 / scott / bessent",
+        "total_engagement": 39,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 39,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "台股逐洞賽",
+        "total_engagement": 14,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 14,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，99 篇）",
+        "total_engagement": 7350,
+        "post_count": 99,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 4113,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
@@ -502,16 +763,16 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 5,
-          "likes": 98,
-          "engagement": 138,
-          "avg_engagement": 27.6
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "evening": {
-          "post_count": 3,
-          "likes": 58,
-          "engagement": 77,
-          "avg_engagement": 25.7
+          "post_count": 107,
+          "likes": 7790,
+          "engagement": 7790,
+          "avg_engagement": 72.8
         },
         "late_night": {
           "post_count": 0,
@@ -520,7 +781,7 @@
           "avg_engagement": 0.0
         }
       },
-      "peak_slot": "afternoon"
+      "peak_slot": "evening"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
