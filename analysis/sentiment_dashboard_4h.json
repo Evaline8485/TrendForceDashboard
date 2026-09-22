@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-22T08:41:42.335495+00:00",
+  "generated_at": "2026-09-22T18:14:45+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-09-22T04:41:42.335495+00:00",
-    "end_utc": "2026-09-22T08:41:42.335495+00:00",
-    "start_tw": "Sep 22, 12:41",
-    "end_tw": "Sep 22, 16:41"
+    "start_utc": "2026-09-22T14:14:45+08:00",
+    "end_utc": "2026-09-22T18:14:45+08:00",
+    "start_tw": "Sep 22, 14:14",
+    "end_tw": "Sep 22, 18:14"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 23,
+      "total_posts": 54,
       "sentiment_counts": {
-        "positive": 12,
-        "neutral": 8,
-        "negative": 3
+        "positive": 23,
+        "neutral": 17,
+        "negative": 14
       },
       "sentiment_share": {
-        "positive": 0.522,
-        "neutral": 0.348,
-        "negative": 0.13
+        "positive": 0.426,
+        "neutral": 0.315,
+        "negative": 0.259
       },
       "top_terms": [
         "查看",
@@ -28,29 +28,26 @@
         "查看更",
         "看更多",
         "台股",
+        "demand",
         "上漲",
-        "同步",
-        "個股",
-        "強勁"
+        "capacity",
+        "晶片"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "月底",
-        "heat": 50.0,
+        "topic_id": 6,
+        "label": "hbm / dram / demand / dies",
+        "heat": 66.8,
         "volume": 2,
-        "engagement": 98,
-        "entities": [
-          "大國",
-          "中東戰爭"
-        ],
+        "engagement": 274,
+        "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 0,
+        "topic_id": 1,
         "label": "終場上漲 / 台股",
-        "heat": 50.0,
+        "heat": 62.8,
         "volume": 3,
         "engagement": 62,
         "entities": [
@@ -63,29 +60,123 @@
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "其他（未分群，18 篇）",
-        "heat": 10.0,
-        "volume": 18,
-        "engagement": 330,
+        "topic_id": 8,
+        "label": "amid",
+        "heat": 50.0,
+        "volume": 1,
+        "engagement": 386,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "月底",
+        "heat": 30.3,
+        "volume": 2,
+        "engagement": 98,
         "entities": [
-          "美國",
-          "中美",
-          "王信驊",
-          "韓國",
-          "台灣"
+          "大國",
+          "中東戰爭"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "demand / global / capacity",
+        "heat": 26.4,
+        "volume": 2,
+        "engagement": 79,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "dram / customer / prices / demand",
+        "heat": 13.5,
+        "volume": 2,
+        "engagement": 17,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "global",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 88,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "suppliers",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "computing",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 13,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，39 篇）",
+        "heat": 10.0,
+        "volume": 39,
+        "engagement": 674,
+        "entities": [
+          "智慧",
+          "通訊",
+          "康寧",
+          "中國",
+          "梁文鋒"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
       {
+        "entity": "智慧",
+        "count": 5
+      },
+      {
         "entity": "美國",
+        "count": 4
+      },
+      {
+        "entity": "通訊",
+        "count": 4
+      },
+      {
+        "entity": "康寧",
+        "count": 4
+      },
+      {
+        "entity": "中國",
+        "count": 3
+      },
+      {
+        "entity": "梁文鋒",
+        "count": 3
+      },
+      {
+        "entity": "高通",
         "count": 3
       },
       {
         "entity": "聯發科",
         "count": 3
+      },
+      {
+        "entity": "中國商務部",
+        "count": 2
       },
       {
         "entity": "中美",
@@ -110,125 +201,183 @@
       {
         "entity": "台積電",
         "count": 2
-      },
-      {
-        "entity": "超微",
-        "count": 1
-      },
-      {
-        "entity": "輝達",
-        "count": 1
-      },
-      {
-        "entity": "博通",
-        "count": 1
-      },
-      {
-        "entity": "美光",
-        "count": 1
-      },
-      {
-        "entity": "景碩",
-        "count": 1
-      },
-      {
-        "entity": "大跳水",
-        "count": 1
-      },
-      {
-        "entity": "伺服器",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-22T04:41:42.335489+00:00",
-        "bucket_end": "2026-09-22T04:58:50.906918+00:00",
-        "positive": 0,
-        "neutral": 0,
+        "bucket_start": "2026-09-22T14:14:44.999994+08:00",
+        "bucket_end": "2026-09-22T14:31:53.571423+08:00",
+        "positive": 1,
+        "neutral": 2,
         "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "positive_engagement": 1,
+        "neutral_engagement": 101,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 102,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "UK government borrowing surged to £18bn in August",
+            "url": "https://x.com/FT/status/2102280584940667138",
+            "interaction": 100
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "中國智慧眼鏡銷量同增逾一倍！心電圖監測設備及運動相機銷量亦分別大增 75% 與 27%，反映智慧健康與新型消費動能極速爆發。 #智慧眼鏡 #心電圖監測 #運動相機 #中國商務部 #新型消費",
+            "url": "https://x.com/technews_tw/status/2102282593932886361",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 16.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T04:58:50.906918+00:00",
-        "bucket_end": "2026-09-22T05:15:59.478347+00:00",
-        "positive": 0,
-        "neutral": 0,
+        "bucket_start": "2026-09-22T14:31:53.571423+08:00",
+        "bucket_end": "2026-09-22T14:49:02.142852+08:00",
+        "positive": 1,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "positive_engagement": 260,
+        "neutral_engagement": 3,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 263,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "hbm / dram / demand / dies",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Korean media reports that Samsung is considering expanding its 4nm capacity and investing in a new 2nm production line to meet surging demand for HBM4 base dies and prepare for HBM5.  Amid strong dema",
+            "url": "https://x.com/jukan05/status/2102285095336096033",
+            "interaction": 260
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "Google 出資資助 Vogtle 與 Hatch 核電廠提升功率！預計可增加約 96 MW 淨發電容量。 #Google #Vogtle #Hatch #核能發電 #低碳電力",
+            "url": "https://x.com/technews_tw/status/2102287675806118375",
+            "interaction": 3
+          }
+        ],
+        "net_sentiment_smoothed": 12.5,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T05:15:59.478347+00:00",
-        "bucket_end": "2026-09-22T05:33:08.049776+00:00",
-        "positive": 0,
+        "bucket_start": "2026-09-22T14:49:02.142852+08:00",
+        "bucket_end": "2026-09-22T15:06:10.714281+08:00",
+        "positive": 1,
         "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
+        "negative": 2,
+        "positive_engagement": 22,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "negative_engagement": 1,
+        "net_sentiment": -33.3,
+        "post_count": 3,
+        "engagement": 23,
+        "top_topics": [
+          {
+            "topic_id": 7,
+            "label": "suppliers",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "AI optimism lifts Asian stocks after Nasdaq ends at record high",
+            "url": "https://x.com/FT/status/2102291373873357098",
+            "interaction": 22
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "量產單價預計壓至 40 萬至 70 萬美元！相較戰斧飛彈 360 萬美元大幅降低美軍長期採購與庫存負擔。 #聖歌飛彈 #戰斧飛彈 #國防預算 #降低成本 #軍事採購",
+            "url": "https://x.com/technews_tw/status/2102292351016489163",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 15.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T05:33:08.049776+00:00",
-        "bucket_end": "2026-09-22T05:50:16.621205+00:00",
+        "bucket_start": "2026-09-22T15:06:10.714281+08:00",
+        "bucket_end": "2026-09-22T15:23:19.285710+08:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 38,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "post_count": 1,
+        "engagement": 38,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Almost half of 25- to 34-year-olds say they regularly make purchases online between midnight and 2am, according to Moneysupermarket. Claer Barrett explores why the pull of late-night shopping has beco",
+            "url": "https://x.com/FT/status/2102294405650555233",
+            "interaction": 38
+          }
+        ],
+        "net_sentiment_smoothed": 8.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T05:50:16.621205+00:00",
-        "bucket_end": "2026-09-22T06:07:25.192634+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "bucket_start": "2026-09-22T15:23:19.285710+08:00",
+        "bucket_end": "2026-09-22T15:40:27.857139+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 26,
+        "neutral_engagement": 1,
+        "negative_engagement": 17,
+        "net_sentiment": 25.0,
+        "post_count": 4,
+        "engagement": 44,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "dram / customer / prices / demand",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Quiet please, the currencies are sleeping  https:// ft.trib.al/y2vk45V  | opinion",
+            "url": "https://x.com/FT/status/2102298664613871667",
+            "interaction": 25
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Nanya Technology (2408 TT) can meet only 50% to 60% of customer demand for its DRAM, with several large customers receiving no allocation, according to UBS. More than 60% of its bit volume is already ",
+            "url": "https://x.com/statementdog/status/2102299184921764139",
+            "interaction": 17
+          }
+        ],
+        "net_sentiment_smoothed": 18.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T06:07:25.192634+00:00",
-        "bucket_end": "2026-09-22T06:24:33.764063+00:00",
+        "bucket_start": "2026-09-22T15:40:27.857139+08:00",
+        "bucket_end": "2026-09-22T15:57:36.428568+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -240,149 +389,307 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 10.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T06:24:33.764063+00:00",
-        "bucket_end": "2026-09-22T06:41:42.335492+00:00",
-        "positive": 0,
+        "bucket_start": "2026-09-22T15:57:36.428568+08:00",
+        "bucket_end": "2026-09-22T16:14:44.999997+08:00",
+        "positive": 2,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 89,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 89,
+        "top_topics": [
+          {
+            "topic_id": 9,
+            "label": "global",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "FT Exclusive: Multiple staff at the UK’s AI Safety Institute, the global leader in the independent testing of frontier AI models, have been signed off work with stress and are undergoing counselling, ",
+            "url": "https://x.com/FT/status/2102306942127366591",
+            "interaction": 88
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "📡點亮次世代通訊，串聯新未來架構的關鍵時刻！ 當陸海空通訊全域覆蓋成為智慧物聯的核心基礎，從非地面網路（NTN）、毫米波與波束成型天線到次世代海事通訊， 產業合作新格局正加速推進！10/21 專家齊聚，帶您剖析次世代無線通訊技術的無限商機！ ✨ 兩大主軸・技術應用 ×…",
+            "url": "https://x.com/technews_tw/status/2102307199041331608",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 16.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T06:41:42.335492+00:00",
-        "bucket_end": "2026-09-22T06:58:50.906921+00:00",
+        "bucket_start": "2026-09-22T16:14:44.999997+08:00",
+        "bucket_end": "2026-09-22T16:31:53.571426+08:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 0,
+        "neutral": 1,
+        "negative": 3,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "neutral_engagement": 13,
+        "negative_engagement": 403,
+        "net_sentiment": -75.0,
+        "post_count": 4,
+        "engagement": 416,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "amid",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
+            "label": "computing",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "China has spent a record sum importing more than 1,000 tonnes of gold this year as the central bank and local investors pour cash into bullion amid rising geopolitical tensions abroad and poor returns",
+            "url": "https://x.com/FT/status/2102314491392253987",
+            "interaction": 386
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$MU  Taiwan Union Moves Toward Strike Vote  Micron’s Taiwan labor dispute is escalating after a second mediation meeting failed on September 21. The Taoyuan union plans to hold a strike vote over disa",
+            "url": "https://x.com/HyperTechInvest/status/2102313405214503248",
+            "interaction": 15
+          }
+        ],
+        "net_sentiment_smoothed": 21.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T06:58:50.906921+00:00",
-        "bucket_end": "2026-09-22T07:15:59.478350+00:00",
-        "positive": 0,
-        "neutral": 0,
+        "bucket_start": "2026-09-22T16:31:53.571426+08:00",
+        "bucket_end": "2026-09-22T16:49:02.142855+08:00",
+        "positive": 12,
+        "neutral": 9,
+        "negative": 4,
+        "positive_engagement": 219,
+        "neutral_engagement": 222,
+        "negative_engagement": 60,
+        "net_sentiment": 32.0,
+        "post_count": 25,
+        "engagement": 501,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "終場上漲 / 台股",
+            "count": 3
+          },
+          {
+            "topic_id": 3,
+            "label": "月底",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "9月底5大國防展接力登場！…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02QoGkax3NVVZrMTS63nwgsE5axjyiXcRujPWhiKY4Vbjufd3QtoqPWxch5d8TJQXRl?__cft__[0]=AZiFaa63yL1CUZPk7Iz6wMcMC7ILRDPAIWMrL5MYdlPiTS_1HjPpk8nQWtXFbndAiwRWoBoujuH8OnCPbO2g0Ty87t08HKoqPouEYaw8mb1DugoM_LYmhz6CgYUJSPwrHgMTnuVEHEkC07Ey7Dw0blUF8rd7xgK4bDfYPaorCRk1byrJjxju58kumwY",
+            "interaction": 63
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "AI算力競賽推動先進製程由「奈米」加速跨入「埃」世代！…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0qsjXgY97nnPMsw9Pr6K9EKsZPMjzGS7FpHYVgo2ro77BUWzXvY1JtJ8S6aUCaeDol?__cft__[0]=AZidl_rlVDZzaIj7bGC7s7mF6ivd3PZcl9OQwwPno66kvn5qFlZL4K5EiINK-gGRMWkaejSqziRYX6qJnaYvEZ5T0QgIQGtRlGPSn9APwDsIWJcq8GakO7J2vxo1d6QMntbdr8sZ6v4uPXhCmGq7_9giV54k6kqFH4mbbvTfagGA6xu3qnI4YRkp6NE",
+            "interaction": 36
+          }
+        ],
+        "net_sentiment_smoothed": 1.4,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-09-22T16:49:02.142855+08:00",
+        "bucket_end": "2026-09-22T17:06:10.714284+08:00",
+        "positive": 1,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
         "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "dram / customer / prices / demand",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "特斯拉、日立能源與 LG 儲能率先入列！輝達宣布推出 DSX Ready 認證計畫，首波聚焦電池儲能系統（BESS）與冷卻液分配單元（CDU）。 #NVIDIA #DSXReady #BESS #CDU #液冷散熱",
+            "url": "https://x.com/technews_tw/status/2102323168707023145",
+            "interaction": 0
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "金士頓以 62% 市占率穩居全球 DRAM 模組龍頭！  #DRAM #TrendForce #金士頓 #記憶體模組 #DDR5",
+            "url": "https://x.com/technews_tw/status/2102320295961108826",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": -25.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T07:15:59.478350+00:00",
-        "bucket_end": "2026-09-22T07:33:08.049779+00:00",
+        "bucket_start": "2026-09-22T17:06:10.714284+08:00",
+        "bucket_end": "2026-09-22T17:23:19.285713+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "negative_engagement": 59,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 59,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "demand / global / capacity",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "US satellite maker Planet Labs opens Berlin factory as military demand booms",
+            "url": "https://x.com/FT/status/2102326407120507126",
+            "interaction": 59
+          }
+        ],
+        "net_sentiment_smoothed": 9.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T07:33:08.049779+00:00",
-        "bucket_end": "2026-09-22T07:50:16.621208+00:00",
-        "positive": 0,
+        "bucket_start": "2026-09-22T17:23:19.285713+08:00",
+        "bucket_end": "2026-09-22T17:40:27.857142+08:00",
+        "positive": 1,
         "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
+        "negative": 2,
+        "positive_engagement": 25,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "negative_engagement": 40,
+        "net_sentiment": -33.3,
+        "post_count": 3,
+        "engagement": 65,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "demand / global / capacity",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Opinion: To lose our taste for effort would not just risk an intellectual slide backwards. It would also mean the loss of one of life’s truest joys: succeeding at something you found really hard to do",
+            "url": "https://x.com/FT/status/2102329595764617485",
+            "interaction": 25
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "TrendForce: US Data Centers Could Face a 170GW Power Gap by 2030  TrendForce projects global data center power demand capacity to triple from 161GW in 2026 to 490GW by 2030, driven by accelerating AI ",
+            "url": "https://x.com/HyperTechInvest/status/2102330212323369073",
+            "interaction": 20
+          }
+        ],
+        "net_sentiment_smoothed": -6.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T07:50:16.621208+00:00",
-        "bucket_end": "2026-09-22T08:07:25.192637+00:00",
-        "positive": 0,
+        "bucket_start": "2026-09-22T17:40:27.857142+08:00",
+        "bucket_end": "2026-09-22T17:57:36.428571+08:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 14,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 14,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "hbm / dram / demand / dies",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "Demand for AI computing platforms remains strong, prompting the three major #DRAM suppliers to aggressively expand their #HBM capacity. HBM base dies are also transitioning from DRAM processes to adva",
+            "url": "https://x.com/trendforce/status/2102332261102436411",
+            "interaction": 14
+          }
+        ],
+        "net_sentiment_smoothed": -20.8,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T08:07:25.192637+00:00",
-        "bucket_end": "2026-09-22T08:24:33.764066+00:00",
+        "bucket_start": "2026-09-22T17:57:36.428571+08:00",
+        "bucket_end": "2026-09-22T18:14:45+08:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 0,
+        "neutral": 1,
+        "negative": 1,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "neutral_engagement": 61,
+        "negative_engagement": 15,
+        "net_sentiment": -50.0,
+        "post_count": 2,
+        "engagement": 76,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T08:24:33.764066+00:00",
-        "bucket_end": "2026-09-22T08:41:42.335495+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "More than 90 schools have closed since 2019.  https:// ft.trib.al/94p1DCs",
+            "url": "https://x.com/FT/status/2102337150201024832",
+            "interaction": 61
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Banks and fintechs gear up for fight over funding of high street hubs",
+            "url": "https://x.com/FT/status/2102338832435724386",
+            "interaction": 15
+          }
+        ],
+        "net_sentiment_smoothed": 5.6,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
+        "topic_id": 1,
         "label": "終場上漲 / 台股",
         "cells": [
           {
@@ -418,8 +725,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 66.7,
+            "volume": 3
           },
           {
             "net_sentiment": 0.0,
@@ -444,7 +751,193 @@
         ]
       },
       {
-        "topic_id": 2,
+        "topic_id": 6,
+        "label": "hbm / dram / demand / dies",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "dram / customer / prices / demand",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "demand / global / capacity",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
         "label": "月底",
         "cells": [
           {
@@ -478,6 +971,68 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 8,
+        "label": "amid",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -508,17 +1063,83 @@
     ],
     "coverage_focus_ranking": [
       {
+        "handle": "TrendForce",
+        "top_topic_id": 6,
+        "top_topic_label": "hbm / dram / demand / dies",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 6,
+        "top_topic_label": "hbm / dram / demand / dies",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "technews_tw",
+        "top_topic_id": 4,
+        "top_topic_label": "dram / customer / prices / demand",
+        "focus_share": 1.0,
+        "post_count": 11,
+        "unclustered_posts": 10
+      },
+      {
         "handle": "ctee.fans",
-        "top_topic_id": 0,
+        "top_topic_id": 1,
         "top_topic_label": "終場上漲 / 台股",
         "focus_share": 0.6,
         "post_count": 23,
         "unclustered_posts": 18
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 4,
+        "top_topic_label": "dram / customer / prices / demand",
+        "focus_share": 0.5,
+        "post_count": 3,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "HyperTechInvest",
+        "top_topic_id": 5,
+        "top_topic_label": "demand / global / capacity",
+        "focus_share": 0.5,
+        "post_count": 4,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 5,
+        "top_topic_label": "demand / global / capacity",
+        "focus_share": 0.333,
+        "post_count": 11,
+        "unclustered_posts": 8
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
+        "topic_id": 8,
+        "label": "amid",
+        "total_engagement": 386,
+        "post_count": 1,
+        "top_account": "FT",
+        "top_account_engagement": 386,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "hbm / dram / demand / dies",
+        "total_engagement": 274,
+        "post_count": 2,
+        "top_account": "jukan05",
+        "top_account_engagement": 260,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
         "label": "月底",
         "total_engagement": 98,
         "post_count": 2,
@@ -527,7 +1148,25 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
+        "topic_id": 9,
+        "label": "global",
+        "total_engagement": 88,
+        "post_count": 1,
+        "top_account": "FT",
+        "top_account_engagement": 88,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "demand / global / capacity",
+        "total_engagement": 79,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 59,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
         "label": "終場上漲 / 台股",
         "total_engagement": 62,
         "post_count": 3,
@@ -536,10 +1175,37 @@
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "其他（未分群，18 篇）",
-        "total_engagement": 330,
-        "post_count": 18,
+        "topic_id": 4,
+        "label": "dram / customer / prices / demand",
+        "total_engagement": 17,
+        "post_count": 2,
+        "top_account": "statementdog",
+        "top_account_engagement": 17,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "computing",
+        "total_engagement": 13,
+        "post_count": 1,
+        "top_account": "HyperTechInvest",
+        "top_account_engagement": 13,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "suppliers",
+        "total_engagement": 0,
+        "post_count": 1,
+        "top_account": "statementdog",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，39 篇）",
+        "total_engagement": 674,
+        "post_count": 39,
         "top_account": "ctee.fans",
         "top_account_engagement": 330,
         "is_catchall": true
@@ -554,16 +1220,16 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 23,
-          "likes": 490,
-          "engagement": 490,
-          "avg_engagement": 21.3
+          "post_count": 51,
+          "likes": 1307,
+          "engagement": 1614,
+          "avg_engagement": 31.6
         },
         "evening": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 3,
+          "likes": 58,
+          "engagement": 77,
+          "avg_engagement": 25.7
         },
         "late_night": {
           "post_count": 0,

@@ -1,149 +1,278 @@
 {
-  "generated_at": "2026-09-22T08:41:42.335495+00:00",
+  "generated_at": "2026-09-22T18:14:45+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-09-22T07:41:42.335495+00:00",
-    "end_utc": "2026-09-22T08:41:42.335495+00:00",
-    "start_tw": "Sep 22, 15:41",
-    "end_tw": "Sep 22, 16:41"
+    "start_utc": "2026-09-22T17:14:45+08:00",
+    "end_utc": "2026-09-22T18:14:45+08:00",
+    "start_tw": "Sep 22, 17:14",
+    "end_tw": "Sep 22, 18:14"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 23,
+      "total_posts": 8,
       "sentiment_counts": {
-        "positive": 12,
-        "neutral": 8,
-        "negative": 3
+        "positive": 3,
+        "negative": 4,
+        "neutral": 1
       },
       "sentiment_share": {
-        "positive": 0.522,
-        "neutral": 0.348,
-        "negative": 0.13
+        "positive": 0.375,
+        "negative": 0.5,
+        "neutral": 0.125
       },
       "top_terms": [
-        "查看",
-        "看更",
-        "更多",
-        "查看更",
-        "看更多",
-        "台股",
-        "上漲",
-        "同步",
-        "個股",
-        "強勁"
+        "demand",
+        "capacity",
+        "remains",
+        "requirements",
+        "computing",
+        "platforms",
+        "prompting",
+        "dram",
+        "suppliers",
+        "aggressively"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "月底",
-        "heat": 50.0,
-        "volume": 2,
-        "engagement": 98,
-        "entities": [
-          "大國",
-          "中東戰爭"
-        ],
-        "is_catchall": false
-      },
-      {
         "topic_id": 0,
-        "label": "終場上漲 / 台股",
+        "label": "demand / capacity / requirements / remains",
         "heat": 50.0,
-        "volume": 3,
-        "engagement": 62,
-        "entities": [
-          "台積電",
-          "聯發科",
-          "台達電",
-          "美國",
-          "川普"
-        ],
+        "volume": 8,
+        "engagement": 215,
+        "entities": [],
         "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "其他（未分群，18 篇）",
-        "heat": 10.0,
-        "volume": 18,
-        "engagement": 330,
-        "entities": [
-          "美國",
-          "中美",
-          "王信驊",
-          "韓國",
-          "台灣"
-        ],
-        "is_catchall": true
       }
     ],
-    "named_entities": [
-      {
-        "entity": "美國",
-        "count": 3
-      },
-      {
-        "entity": "聯發科",
-        "count": 3
-      },
-      {
-        "entity": "中美",
-        "count": 2
-      },
-      {
-        "entity": "王信驊",
-        "count": 2
-      },
-      {
-        "entity": "韓國",
-        "count": 2
-      },
-      {
-        "entity": "台灣",
-        "count": 2
-      },
-      {
-        "entity": "聯準會",
-        "count": 2
-      },
-      {
-        "entity": "台積電",
-        "count": 2
-      },
-      {
-        "entity": "超微",
-        "count": 1
-      },
-      {
-        "entity": "輝達",
-        "count": 1
-      },
-      {
-        "entity": "博通",
-        "count": 1
-      },
-      {
-        "entity": "美光",
-        "count": 1
-      },
-      {
-        "entity": "景碩",
-        "count": 1
-      },
-      {
-        "entity": "大跳水",
-        "count": 1
-      },
-      {
-        "entity": "伺服器",
-        "count": 1
-      }
-    ],
+    "named_entities": [],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-22T07:41:42.335497+00:00",
-        "bucket_end": "2026-09-22T07:45:59.478354+00:00",
+        "bucket_start": "2026-09-22T17:14:45.000002+08:00",
+        "bucket_end": "2026-09-22T17:19:02.142859+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 59,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 59,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "demand / capacity / requirements / remains",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "US satellite maker Planet Labs opens Berlin factory as military demand booms",
+            "url": "https://x.com/FT/status/2102326407120507126",
+            "interaction": 59
+          }
+        ],
+        "net_sentiment_smoothed": -66.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T17:19:02.142859+08:00",
+        "bucket_end": "2026-09-22T17:23:19.285716+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -25.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T17:23:19.285716+08:00",
+        "bucket_end": "2026-09-22T17:27:36.428573+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 20,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 20,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "demand / capacity / requirements / remains",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "China's SiC Shortage Pushes Orders Toward Taiwan  6-inch SiC production is particularly constrained, with some manufacturers operating at full utilization. China's 8-inch capacity expansion remains li",
+            "url": "https://x.com/HyperTechInvest/status/2102327968853029189",
+            "interaction": 20
+          }
+        ],
+        "net_sentiment_smoothed": -40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T17:27:36.428573+08:00",
+        "bucket_end": "2026-09-22T17:31:53.571430+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 25,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 25,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "demand / capacity / requirements / remains",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Opinion: To lose our taste for effort would not just risk an intellectual slide backwards. It would also mean the loss of one of life’s truest joys: succeeding at something you found really hard to do",
+            "url": "https://x.com/FT/status/2102329595764617485",
+            "interaction": 25
+          }
+        ],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T17:31:53.571430+08:00",
+        "bucket_end": "2026-09-22T17:36:10.714287+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 20,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 20,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "demand / capacity / requirements / remains",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "TrendForce: US Data Centers Could Face a 170GW Power Gap by 2030  TrendForce projects global data center power demand capacity to triple from 161GW in 2026 to 490GW by 2030, driven by accelerating AI ",
+            "url": "https://x.com/HyperTechInvest/status/2102330212323369073",
+            "interaction": 20
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T17:36:10.714287+08:00",
+        "bucket_end": "2026-09-22T17:40:27.857144+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T17:40:27.857144+08:00",
+        "bucket_end": "2026-09-22T17:44:45.000001+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 14,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 14,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "demand / capacity / requirements / remains",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "Demand for AI computing platforms remains strong, prompting the three major #DRAM suppliers to aggressively expand their #HBM capacity. HBM base dies are also transitioning from DRAM processes to adva",
+            "url": "https://x.com/trendforce/status/2102332261102436411",
+            "interaction": 14
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T17:44:45.000001+08:00",
+        "bucket_end": "2026-09-22T17:49:02.142858+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T17:49:02.142858+08:00",
+        "bucket_end": "2026-09-22T17:53:19.285715+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-22T17:53:19.285715+08:00",
+        "bucket_end": "2026-09-22T17:57:36.428572+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -159,25 +288,39 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T07:45:59.478354+00:00",
-        "bucket_end": "2026-09-22T07:50:16.621211+00:00",
+        "bucket_start": "2026-09-22T17:57:36.428572+08:00",
+        "bucket_end": "2026-09-22T18:01:53.571429+08:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 61,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "post_count": 1,
+        "engagement": 61,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "demand / capacity / requirements / remains",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "More than 90 schools have closed since 2019.  https:// ft.trib.al/94p1DCs",
+            "url": "https://x.com/FT/status/2102337150201024832",
+            "interaction": 61
+          }
+        ],
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T07:50:16.621211+00:00",
-        "bucket_end": "2026-09-22T07:54:33.764068+00:00",
+        "bucket_start": "2026-09-22T18:01:53.571429+08:00",
+        "bucket_end": "2026-09-22T18:06:10.714286+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -189,29 +332,43 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T07:54:33.764068+00:00",
-        "bucket_end": "2026-09-22T07:58:50.906925+00:00",
+        "bucket_start": "2026-09-22T18:06:10.714286+08:00",
+        "bucket_end": "2026-09-22T18:10:27.857143+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "negative_engagement": 15,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 15,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "demand / capacity / requirements / remains",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Banks and fintechs gear up for fight over funding of high street hubs",
+            "url": "https://x.com/FT/status/2102338832435724386",
+            "interaction": 15
+          }
+        ],
+        "net_sentiment_smoothed": -25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-22T07:58:50.906925+00:00",
-        "bucket_end": "2026-09-22T08:03:08.049782+00:00",
+        "bucket_start": "2026-09-22T18:10:27.857143+08:00",
+        "bucket_end": "2026-09-22T18:14:45+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -223,171 +380,42 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T08:03:08.049782+00:00",
-        "bucket_end": "2026-09-22T08:07:25.192639+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T08:07:25.192639+00:00",
-        "bucket_end": "2026-09-22T08:11:42.335496+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T08:11:42.335496+00:00",
-        "bucket_end": "2026-09-22T08:15:59.478353+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T08:15:59.478353+00:00",
-        "bucket_end": "2026-09-22T08:20:16.621210+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T08:20:16.621210+00:00",
-        "bucket_end": "2026-09-22T08:24:33.764067+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T08:24:33.764067+00:00",
-        "bucket_end": "2026-09-22T08:28:50.906924+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T08:28:50.906924+00:00",
-        "bucket_end": "2026-09-22T08:33:08.049781+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T08:33:08.049781+00:00",
-        "bucket_end": "2026-09-22T08:37:25.192638+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-22T08:37:25.192638+00:00",
-        "bucket_end": "2026-09-22T08:41:42.335495+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -33.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
         "topic_id": 0,
-        "label": "終場上漲 / 台股",
+        "label": "demand / capacity / requirements / remains",
         "cells": [
           {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -403,101 +431,15 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 2,
-        "label": "月底",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": -100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -508,41 +450,47 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "ctee.fans",
+        "handle": "TrendForce",
         "top_topic_id": 0,
-        "top_topic_label": "終場上漲 / 台股",
-        "focus_share": 0.6,
-        "post_count": 23,
-        "unclustered_posts": 18
+        "top_topic_label": "demand / capacity / requirements / remains",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 0,
+        "top_topic_label": "demand / capacity / requirements / remains",
+        "focus_share": 1.0,
+        "post_count": 4,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 0,
+        "top_topic_label": "demand / capacity / requirements / remains",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "HyperTechInvest",
+        "top_topic_id": 0,
+        "top_topic_label": "demand / capacity / requirements / remains",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
-        "label": "月底",
-        "total_engagement": 98,
-        "post_count": 2,
-        "top_account": "ctee.fans",
-        "top_account_engagement": 98,
-        "is_catchall": false
-      },
-      {
         "topic_id": 0,
-        "label": "終場上漲 / 台股",
-        "total_engagement": 62,
-        "post_count": 3,
-        "top_account": "ctee.fans",
-        "top_account_engagement": 62,
+        "label": "demand / capacity / requirements / remains",
+        "total_engagement": 215,
+        "post_count": 8,
+        "top_account": "FT",
+        "top_account_engagement": 160,
         "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "其他（未分群，18 篇）",
-        "total_engagement": 330,
-        "post_count": 18,
-        "top_account": "ctee.fans",
-        "top_account_engagement": 330,
-        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
@@ -554,16 +502,16 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 23,
-          "likes": 490,
-          "engagement": 490,
-          "avg_engagement": 21.3
+          "post_count": 5,
+          "likes": 98,
+          "engagement": 138,
+          "avg_engagement": 27.6
         },
         "evening": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 3,
+          "likes": 58,
+          "engagement": 77,
+          "avg_engagement": 25.7
         },
         "late_night": {
           "post_count": 0,
