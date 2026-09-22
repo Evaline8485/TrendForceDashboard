@@ -1,18 +1,79 @@
 {
   "clusters": [
     {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 11,
+      "accounts": {
+        "TrendForce": 1,
+        "technews_tw": 4,
+        "jukan05": 1,
+        "statementdog": 2,
+        "HyperTechInvest": 1,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "TrendForce": 14,
+        "technews_tw": 4,
+        "jukan05": 260,
+        "statementdog": 17,
+        "HyperTechInvest": 15,
+        "ctee.fans": 22
+      }
+    },
+    {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 8,
+      "size": 11,
       "accounts": {
-        "dnystedt": 2,
+        "technews_tw": 4,
+        "HyperTechInvest": 1,
         "technewsinside": 4,
         "ctee.fans": 2
       },
       "engagement_by_account": {
-        "dnystedt": 30,
+        "technews_tw": 4,
+        "HyperTechInvest": 20,
         "technewsinside": 91,
         "ctee.fans": 31
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 9,
+      "accounts": {
+        "TrendForce": 1,
+        "technews_tw": 1,
+        "QQ_Timmy": 2,
+        "technewsinside": 3,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "TrendForce": 12,
+        "technews_tw": 0,
+        "QQ_Timmy": 70,
+        "technewsinside": 70,
+        "ctee.fans": 50
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 8,
+      "accounts": {
+        "technews_tw": 2,
+        "QQ_Timmy": 1,
+        "HyperTechInvest": 1,
+        "technewsinside": 2,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "technews_tw": 0,
+        "QQ_Timmy": 35,
+        "HyperTechInvest": 20,
+        "technewsinside": 188,
+        "ctee.fans": 56
       }
     },
     {
@@ -29,51 +90,104 @@
       }
     },
     {
-      "id": "F",
-      "label": "晶圓代工 / 先進製程",
-      "size": 5,
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 8,
       "accounts": {
-        "technewsinside": 3,
-        "ctee.fans": 2
+        "technews_tw": 5,
+        "technewsinside": 3
       },
       "engagement_by_account": {
-        "technewsinside": 70,
-        "ctee.fans": 50
-      }
-    },
-    {
-      "id": "K",
-      "label": "AI 模型 / 應用",
-      "size": 5,
-      "accounts": {
-        "technewsinside": 5
-      },
-      "engagement_by_account": {
-        "technewsinside": 67
+        "technews_tw": 4,
+        "technewsinside": 73
       }
     },
     {
       "id": "G",
       "label": "IC 設計",
-      "size": 4,
+      "size": 6,
       "accounts": {
+        "technews_tw": 2,
         "ctee.fans": 4
       },
       "engagement_by_account": {
+        "technews_tw": 1,
         "ctee.fans": 92
       }
     },
     {
-      "id": "I",
-      "label": "電源 / 電力設備",
-      "size": 4,
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 6,
       "accounts": {
-        "technewsinside": 2,
-        "ctee.fans": 2
+        "technews_tw": 1,
+        "technewsinside": 5
       },
       "engagement_by_account": {
-        "technewsinside": 188,
-        "ctee.fans": 56
+        "technews_tw": 1,
+        "technewsinside": 67
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 5,
+      "accounts": {
+        "technews_tw": 1,
+        "QQ_Timmy": 2,
+        "statementdog": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 4,
+        "QQ_Timmy": 70,
+        "statementdog": 16,
+        "ctee.fans": 0
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 5,
+      "accounts": {
+        "technews_tw": 1,
+        "QQ_Timmy": 1,
+        "HyperTechInvest": 1,
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 1,
+        "QQ_Timmy": 35,
+        "HyperTechInvest": 20,
+        "technewsinside": 26,
+        "ctee.fans": 16
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 3,
+      "accounts": {
+        "technews_tw": 2,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 1,
+        "ctee.fans": 0
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 3,
+      "accounts": {
+        "technews_tw": 2,
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 5,
+        "statementdog": 16
       }
     },
     {
@@ -88,38 +202,18 @@
       }
     },
     {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
+      "id": "Q",
+      "label": "機器人 / Robotics",
       "size": 3,
       "accounts": {
-        "technewsinside": 3
+        "technews_tw": 1,
+        "HyperTechInvest": 1,
+        "technewsinside": 1
       },
       "engagement_by_account": {
-        "technewsinside": 73
-      }
-    },
-    {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 2,
-      "accounts": {
-        "ctee.fans": 2
-      },
-      "engagement_by_account": {
-        "ctee.fans": 22
-      }
-    },
-    {
-      "id": "E",
-      "label": "AI 伺服器供應鏈",
-      "size": 2,
-      "accounts": {
-        "technewsinside": 1,
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 26,
-        "ctee.fans": 16
+        "technews_tw": 1,
+        "HyperTechInvest": 13,
+        "technewsinside": 14
       }
     },
     {
@@ -134,47 +228,40 @@
       }
     },
     {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 1,
-      "accounts": {
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "ctee.fans": 0
-      }
-    },
-    {
-      "id": "C",
-      "label": "ASIC / 自研晶片",
-      "size": 1,
-      "accounts": {
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "ctee.fans": 0
-      }
-    },
-    {
       "id": "N",
       "label": "地緣政治 / 政策",
-      "size": 1,
+      "size": 2,
       "accounts": {
+        "technews_tw": 1,
         "ctee.fans": 1
       },
       "engagement_by_account": {
+        "technews_tw": 1,
         "ctee.fans": 14
       }
     },
     {
-      "id": "Q",
-      "label": "機器人 / Robotics",
-      "size": 1,
+      "id": "R",
+      "label": "散熱 / HVAC",
+      "size": 2,
       "accounts": {
-        "technewsinside": 1
+        "technews_tw": 1,
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "technewsinside": 14
+        "technews_tw": 0,
+        "statementdog": 16
+      }
+    },
+    {
+      "id": "S",
+      "label": "電網 / 能源基礎設施",
+      "size": 1,
+      "accounts": {
+        "technews_tw": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 0
       }
     }
   ],
@@ -248,46 +335,48 @@
       ]
     },
     {
-      "cluster_id": "G",
-      "label": "IC 設計",
-      "own_count": 0,
+      "cluster_id": "C",
+      "label": "ASIC / 自研晶片",
+      "own_count": 1,
       "competitor_count": 4,
-      "competitor_engagement": 92,
+      "competitor_engagement": 86,
       "competitors_covering": [
+        "QQ_Timmy",
+        "statementdog",
         "ctee.fans"
       ],
       "sample_posts": [
         {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "權值三王台積電、聯發科及台達電領軍大漲貢獻441點，帶動台股21日表現秋高氣爽，終場上漲538點或1.14％收47,718點，寫史上收盤第二高，台指期則領先台股攻上48K到48,077點，期現貨正價差並擴大至358.16點，創8月以來新高，醞釀台股補漲動能。",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02fqRZfTMYT5cysTEWzqBvNTmuradUzgBgcbdYUuxBtKNACxuTJ5sSrMv1mqLsM84Kl?__cft__[0]=AZhmn6HSNitLoYuA2S9GGcW0f0dYXOdOlKKyUUqQuGBk8GPHYKUQTJmLveOM-bRNprpHmIF8lsv1ez53xVYLo4XbR-BCJE5mT5e3SiZV_L7RYgF5Oj0J0SaEUME8Wa-3kwvIP9hgKJZgqabYA9HlxkEq28f36dJ4-16nu1IqW9xVvZOF-BVFlfKSMnI",
-          "timestamp": "2026-09-22T08:41:42.335495+00:00",
-          "interaction": 35
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "創意電子（GUC）2026年9月22日宣布，採用台積電N2P（2奈米）製程與CoWoS-L封裝的HBM4E PHY與Controller IP已完成設計定案，並獲客戶AI ASIC採用。該IP延續已通過矽驗證的N3P 12Gbps",
+          "url": "https://x.com/QQ_Timmy/status/2102276713959031172",
+          "timestamp": "2026-09-22T14:00:01.000+08:00",
+          "interaction": 54
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Aletheia Capital 首次覆蓋創意電子（GUC），評等「買進」，目標價 12,000 元，較現價 7,615 元有約 58% 上漲空間，風險評為高。  代理型 AI 工作負載擴增、運算成本上升，促使 CSP 與 AI 實驗室加速自研 ASIC。創意電子受惠於先進封裝 IP、統包服務，以及與台積電 DTP 的緊密關係。產品線已從",
+          "url": "https://x.com/QQ_Timmy/status/2102276204761870671",
+          "timestamp": "2026-09-22T13:58:00.000+08:00",
+          "interaction": 16
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "UBS expects one of the Trainium 3 models Accton (2345 TT) builds for Amazon  $AMZN  to switch from air to liquid cooling, with a roughly 20% higher ASP. The bank expects all Trainium 4 models to be liquid-cooled.  Accton is also expanding in-house production of liquid-cooling",
+          "url": "https://x.com/statementdog/status/2102269784314585186",
+          "timestamp": "2026-09-22T13:32:29.000+08:00",
+          "interaction": 16
         },
         {
           "handle": "ctee.fans",
           "platform": "Facebook",
-          "text": "千金、萬金高價股21日表現亮眼，股王信驊（5274）終場收19,820元，隨時挑戰飛越20,000元整數大關，將締造台股單一個股股價新紀錄…",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0BrteEsoAwEiXPN8ai2z4vGq1G7G8jenopiXKm2jsKmVMvJgAF1jPndiwZyuitbLcl?__cft__[0]=AZiZkcr6ANpsR4rjkEnORvrJv_4TpGR8a1vEyCbb_02GGjdElIwK9S_pMt0-wWDG84apsvptYcA0lbfa5C0NWsT1Y3aZSIBFclIINMb_3M2_ITJ4Zbca5XEZyIiQk0KXvonUCjcDbWM4xhztjyt4TApZKYVJTN1BeY1XjKjdOyKLYJ9HJQ3laz4yR-k",
+          "text": "人工智慧（AI）代理熱潮引爆科技股強勁漲勢，超微（AMD）股價21日飆近10％，市值首度突破1兆美元大關，股價寫下歷史新高，成為繼輝達、博通及美光後，第四家市值突破1兆美元的美國晶片商。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid031ZQAYQCm82t7Drvduud4RAjLQpzSfKa6URojAtHryBDthtzPGr5hnZVh55rj1Ybol?__cft__[0]=AZgFN6QcYSXFl5PmF1ClJ2uCjt0oVmdILYlwogMfCT9PLH0zpyX6VRzGbvuBkwMFaCoDbiZePkwIln8JFbomfPDWBdc7JxQzM2bsDfkmxHUA5zGBmGBGtxTc2QllwDqUDSy6qMNEjpfQVNy-SfmRJ77LiLj9Xj7yUYsnkaiWNMHGwPvdn6WckeFZwIo",
           "timestamp": "2026-09-22T08:41:42.335495+00:00",
-          "interaction": 27
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "史上第一檔「2萬元股王誕生」！台股股王信驊今天股價衝破20,000元關卡，達到21,800元，創下新天價，上漲1,980元，個股股價和上漲金額皆創下台股新高紀錄。…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02bwoADyiGHEyz2Two3qtyiEV1QVn6ocn6Qz9pe3VEqjzNjU5TCDZsiLscNaS7b1bal?__cft__[0]=AZiIjAhHwQDCVcaZSVn8W1kdYyLkqQSPgPOWdO8pcnITRfdYwonNBr-N81bLim2UYsngJXErZMoOrQrBqepu0KwrdVyZF0Hu9Jk837G4Zwv4w-A4KWSMZIQWYV6IASwozR_zbPXhIcT_mMc1LgI8I9svgDwKAYRheXO_oR7TDjxXfwyJ9gjqlL8UEuU",
-          "timestamp": "2026-09-22T08:41:42.335495+00:00",
-          "interaction": 15
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "聯發科加速拓展AI個人運算版圖。聯發科22日宣布推出全新Dimensity個人運算（Compute Experiences；CX）系列首款旗艦晶片Dimensity CX C10 Max，採用台積電3奈米製程，搭配最高55 TOPS的AI運算效能，鎖定即將上市的高階、超便攜Googlebook，深化與Google合作，搶攻終端AI與高階筆電商機。",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid09VHZuWq9BwVnzVwWsqwmLf55fc6x1Rdse51FNsxBzZKfQTyrRvvf36FXAgMU4SQWl?__cft__[0]=AZjdWHZ6kcIUYG2p32kMclGwZ2YFKMN61zZpdZrEIBwQjuqSwrJECBR30Ha9_o3DmAIie13IlotAtqDGbVoMiNrEp7rnjdBJq6jsbhELfYvEi3siiyejyd2d8Iud1cHPHlkEziF1EqXgL-XnyCVzd50lZspR3rpiq98065DnQcQ4CUZwWDTceixE88g",
-          "timestamp": "2026-09-22T08:41:42.335495+00:00",
-          "interaction": 15
+          "interaction": 0
         }
       ]
     },
@@ -398,46 +487,48 @@
       ]
     },
     {
-      "cluster_id": "G",
-      "label": "IC 設計",
-      "own_count": 0,
+      "cluster_id": "C",
+      "label": "ASIC / 自研晶片",
+      "own_count": 1,
       "competitor_count": 4,
-      "competitor_engagement": 92,
+      "competitor_engagement": 86,
       "competitors_covering": [
+        "QQ_Timmy",
+        "statementdog",
         "ctee.fans"
       ],
       "sample_posts": [
         {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "權值三王台積電、聯發科及台達電領軍大漲貢獻441點，帶動台股21日表現秋高氣爽，終場上漲538點或1.14％收47,718點，寫史上收盤第二高，台指期則領先台股攻上48K到48,077點，期現貨正價差並擴大至358.16點，創8月以來新高，醞釀台股補漲動能。",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02fqRZfTMYT5cysTEWzqBvNTmuradUzgBgcbdYUuxBtKNACxuTJ5sSrMv1mqLsM84Kl?__cft__[0]=AZhmn6HSNitLoYuA2S9GGcW0f0dYXOdOlKKyUUqQuGBk8GPHYKUQTJmLveOM-bRNprpHmIF8lsv1ez53xVYLo4XbR-BCJE5mT5e3SiZV_L7RYgF5Oj0J0SaEUME8Wa-3kwvIP9hgKJZgqabYA9HlxkEq28f36dJ4-16nu1IqW9xVvZOF-BVFlfKSMnI",
-          "timestamp": "2026-09-22T08:41:42.335495+00:00",
-          "interaction": 35
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "創意電子（GUC）2026年9月22日宣布，採用台積電N2P（2奈米）製程與CoWoS-L封裝的HBM4E PHY與Controller IP已完成設計定案，並獲客戶AI ASIC採用。該IP延續已通過矽驗證的N3P 12Gbps",
+          "url": "https://x.com/QQ_Timmy/status/2102276713959031172",
+          "timestamp": "2026-09-22T14:00:01.000+08:00",
+          "interaction": 54
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Aletheia Capital 首次覆蓋創意電子（GUC），評等「買進」，目標價 12,000 元，較現價 7,615 元有約 58% 上漲空間，風險評為高。  代理型 AI 工作負載擴增、運算成本上升，促使 CSP 與 AI 實驗室加速自研 ASIC。創意電子受惠於先進封裝 IP、統包服務，以及與台積電 DTP 的緊密關係。產品線已從",
+          "url": "https://x.com/QQ_Timmy/status/2102276204761870671",
+          "timestamp": "2026-09-22T13:58:00.000+08:00",
+          "interaction": 16
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "UBS expects one of the Trainium 3 models Accton (2345 TT) builds for Amazon  $AMZN  to switch from air to liquid cooling, with a roughly 20% higher ASP. The bank expects all Trainium 4 models to be liquid-cooled.  Accton is also expanding in-house production of liquid-cooling",
+          "url": "https://x.com/statementdog/status/2102269784314585186",
+          "timestamp": "2026-09-22T13:32:29.000+08:00",
+          "interaction": 16
         },
         {
           "handle": "ctee.fans",
           "platform": "Facebook",
-          "text": "千金、萬金高價股21日表現亮眼，股王信驊（5274）終場收19,820元，隨時挑戰飛越20,000元整數大關，將締造台股單一個股股價新紀錄…",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0BrteEsoAwEiXPN8ai2z4vGq1G7G8jenopiXKm2jsKmVMvJgAF1jPndiwZyuitbLcl?__cft__[0]=AZiZkcr6ANpsR4rjkEnORvrJv_4TpGR8a1vEyCbb_02GGjdElIwK9S_pMt0-wWDG84apsvptYcA0lbfa5C0NWsT1Y3aZSIBFclIINMb_3M2_ITJ4Zbca5XEZyIiQk0KXvonUCjcDbWM4xhztjyt4TApZKYVJTN1BeY1XjKjdOyKLYJ9HJQ3laz4yR-k",
+          "text": "人工智慧（AI）代理熱潮引爆科技股強勁漲勢，超微（AMD）股價21日飆近10％，市值首度突破1兆美元大關，股價寫下歷史新高，成為繼輝達、博通及美光後，第四家市值突破1兆美元的美國晶片商。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid031ZQAYQCm82t7Drvduud4RAjLQpzSfKa6URojAtHryBDthtzPGr5hnZVh55rj1Ybol?__cft__[0]=AZgFN6QcYSXFl5PmF1ClJ2uCjt0oVmdILYlwogMfCT9PLH0zpyX6VRzGbvuBkwMFaCoDbiZePkwIln8JFbomfPDWBdc7JxQzM2bsDfkmxHUA5zGBmGBGtxTc2QllwDqUDSy6qMNEjpfQVNy-SfmRJ77LiLj9Xj7yUYsnkaiWNMHGwPvdn6WckeFZwIo",
           "timestamp": "2026-09-22T08:41:42.335495+00:00",
-          "interaction": 27
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "史上第一檔「2萬元股王誕生」！台股股王信驊今天股價衝破20,000元關卡，達到21,800元，創下新天價，上漲1,980元，個股股價和上漲金額皆創下台股新高紀錄。…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02bwoADyiGHEyz2Two3qtyiEV1QVn6ocn6Qz9pe3VEqjzNjU5TCDZsiLscNaS7b1bal?__cft__[0]=AZiIjAhHwQDCVcaZSVn8W1kdYyLkqQSPgPOWdO8pcnITRfdYwonNBr-N81bLim2UYsngJXErZMoOrQrBqepu0KwrdVyZF0Hu9Jk837G4Zwv4w-A4KWSMZIQWYV6IASwozR_zbPXhIcT_mMc1LgI8I9svgDwKAYRheXO_oR7TDjxXfwyJ9gjqlL8UEuU",
-          "timestamp": "2026-09-22T08:41:42.335495+00:00",
-          "interaction": 15
-        },
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "聯發科加速拓展AI個人運算版圖。聯發科22日宣布推出全新Dimensity個人運算（Compute Experiences；CX）系列首款旗艦晶片Dimensity CX C10 Max，採用台積電3奈米製程，搭配最高55 TOPS的AI運算效能，鎖定即將上市的高階、超便攜Googlebook，深化與Google合作，搶攻終端AI與高階筆電商機。",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid09VHZuWq9BwVnzVwWsqwmLf55fc6x1Rdse51FNsxBzZKfQTyrRvvf36FXAgMU4SQWl?__cft__[0]=AZjdWHZ6kcIUYG2p32kMclGwZ2YFKMN61zZpdZrEIBwQjuqSwrJECBR30Ha9_o3DmAIie13IlotAtqDGbVoMiNrEp7rnjdBJq6jsbhELfYvEi3siiyejyd2d8Iud1cHPHlkEziF1EqXgL-XnyCVzd50lZspR3rpiq98065DnQcQ4CUZwWDTceixE88g",
-          "timestamp": "2026-09-22T08:41:42.335495+00:00",
-          "interaction": 15
+          "interaction": 0
         }
       ]
     },
@@ -479,9 +570,9 @@
     }
   ],
   "window": {
-    "start_utc": "2026-09-22T00:41:42.335495+00:00",
-    "end_utc": "2026-09-22T08:41:42.335495+00:00",
-    "start_tw": "Sep 22, 08:41",
-    "end_tw": "Sep 22, 16:41"
+    "start_utc": "2026-09-22T10:14:45+08:00",
+    "end_utc": "2026-09-22T18:14:45+08:00",
+    "start_tw": "Sep 22, 10:14",
+    "end_tw": "Sep 22, 18:14"
   }
 }

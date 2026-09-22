@@ -1,6 +1,27 @@
 {
   "clusters": [
     {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 8,
+      "accounts": {
+        "TrendForce": 1,
+        "technews_tw": 1,
+        "jukan05": 1,
+        "statementdog": 2,
+        "HyperTechInvest": 1,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "TrendForce": 14,
+        "technews_tw": 0,
+        "jukan05": 260,
+        "statementdog": 17,
+        "HyperTechInvest": 15,
+        "ctee.fans": 22
+      }
+    },
+    {
       "id": "M",
       "label": "台股市場",
       "size": 7,
@@ -14,12 +35,59 @@
     {
       "id": "G",
       "label": "IC 設計",
-      "size": 4,
+      "size": 5,
       "accounts": {
+        "technews_tw": 1,
         "ctee.fans": 4
       },
       "engagement_by_account": {
+        "technews_tw": 1,
         "ctee.fans": 92
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 5,
+      "accounts": {
+        "technews_tw": 2,
+        "HyperTechInvest": 1,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "technews_tw": 0,
+        "HyperTechInvest": 20,
+        "ctee.fans": 56
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 4,
+      "accounts": {
+        "technews_tw": 1,
+        "HyperTechInvest": 1,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "technews_tw": 3,
+        "HyperTechInvest": 20,
+        "ctee.fans": 31
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 3,
+      "accounts": {
+        "technews_tw": 1,
+        "HyperTechInvest": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 1,
+        "HyperTechInvest": 20,
+        "ctee.fans": 16
       }
     },
     {
@@ -34,25 +102,16 @@
       }
     },
     {
-      "id": "A",
-      "label": "記憶體 / HBM",
+      "id": "B",
+      "label": "GPU / AI 加速器",
       "size": 2,
       "accounts": {
-        "ctee.fans": 2
+        "technews_tw": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 22
-      }
-    },
-    {
-      "id": "D",
-      "label": "CSP / 資料中心",
-      "size": 2,
-      "accounts": {
-        "ctee.fans": 2
-      },
-      "engagement_by_account": {
-        "ctee.fans": 31
+        "technews_tw": 0,
+        "ctee.fans": 0
       }
     },
     {
@@ -67,17 +126,6 @@
       }
     },
     {
-      "id": "I",
-      "label": "電源 / 電力設備",
-      "size": 2,
-      "accounts": {
-        "ctee.fans": 2
-      },
-      "engagement_by_account": {
-        "ctee.fans": 56
-      }
-    },
-    {
       "id": "L",
       "label": "總經 / Fed",
       "size": 2,
@@ -89,14 +137,27 @@
       }
     },
     {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 1,
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 2,
       "accounts": {
-        "ctee.fans": 1
+        "technews_tw": 2
       },
       "engagement_by_account": {
-        "ctee.fans": 0
+        "technews_tw": 1
+      }
+    },
+    {
+      "id": "Q",
+      "label": "機器人 / Robotics",
+      "size": 2,
+      "accounts": {
+        "technews_tw": 1,
+        "HyperTechInvest": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 1,
+        "HyperTechInvest": 13
       }
     },
     {
@@ -111,14 +172,25 @@
       }
     },
     {
-      "id": "E",
-      "label": "AI 伺服器供應鏈",
+      "id": "H",
+      "label": "網通 / 光通訊",
       "size": 1,
       "accounts": {
-        "ctee.fans": 1
+        "technews_tw": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 16
+        "technews_tw": 1
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 1,
+      "accounts": {
+        "technews_tw": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 1
       }
     },
     {
@@ -130,6 +202,28 @@
       },
       "engagement_by_account": {
         "ctee.fans": 14
+      }
+    },
+    {
+      "id": "R",
+      "label": "散熱 / HVAC",
+      "size": 1,
+      "accounts": {
+        "technews_tw": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 0
+      }
+    },
+    {
+      "id": "S",
+      "label": "電網 / 能源基礎設施",
+      "size": 1,
+      "accounts": {
+        "technews_tw": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 0
       }
     }
   ],
@@ -205,7 +299,7 @@
     {
       "cluster_id": "G",
       "label": "IC 設計",
-      "own_count": 0,
+      "own_count": 1,
       "competitor_count": 4,
       "competitor_engagement": 92,
       "competitors_covering": [
@@ -279,6 +373,43 @@
           "url": "https://www.facebook.com/ctee.fans/posts/pfbid03kJcJM1CkXhuqSC2KmW92ciyQadVd6PwPRLuxSqe4z1twKTg8vJMG5fEbXUN4xLPl?__cft__[0]=AZimJtHWkFM0J9ZsE8nqFXMjg1Kp96Up0b_63Yu2u6IgAEFkWXlgAEtQpq_gq_P2wh1oljJz1HYr1wZ-Jrf9mRf3OBYu40X-VzV7c5CaQjz0R3OBnmDMTAoP9ZHBt5o5ycYSOVpnHT2yDuk7mg4bkhHW8vk-lfBsXcnCkZcMjiyq47PytkYDvKsTJBw",
           "timestamp": "2026-09-22T08:41:42.335495+00:00",
           "interaction": 16
+        }
+      ]
+    },
+    {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 51,
+      "competitors_covering": [
+        "HyperTechInvest",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "TrendForce: US Data Centers Could Face a 170GW Power Gap by 2030  TrendForce projects global data center power demand capacity to triple from 161GW in 2026 to 490GW by 2030, driven by accelerating AI server deployments  AI servers are expected to account for 54% of total demand",
+          "url": "https://x.com/HyperTechInvest/status/2102330212323369073",
+          "timestamp": "2026-09-22T17:32:36.000+08:00",
+          "interaction": 20
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI伺服器、高速交換器需求強勁，全球高階銅箔基板（CCL）掀起擴產競賽。韓國斗山（Doosan）宣布斥資9,700億韓元，在韓國及中國大陸同步擴充高階CCL產能；台灣CCL三雄台光電、台燿、聯茂今年也全面加碼資本支出，提前卡位AI帶動的高速材料商機。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid03kJcJM1CkXhuqSC2KmW92ciyQadVd6PwPRLuxSqe4z1twKTg8vJMG5fEbXUN4xLPl?__cft__[0]=AZimJtHWkFM0J9ZsE8nqFXMjg1Kp96Up0b_63Yu2u6IgAEFkWXlgAEtQpq_gq_P2wh1oljJz1HYr1wZ-Jrf9mRf3OBYu40X-VzV7c5CaQjz0R3OBnmDMTAoP9ZHBt5o5ycYSOVpnHT2yDuk7mg4bkhHW8vk-lfBsXcnCkZcMjiyq47PytkYDvKsTJBw",
+          "timestamp": "2026-09-22T08:41:42.335495+00:00",
+          "interaction": 16
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "聯發科加速拓展AI個人運算版圖。聯發科22日宣布推出全新Dimensity個人運算（Compute Experiences；CX）系列首款旗艦晶片Dimensity CX C10 Max，採用台積電3奈米製程，搭配最高55 TOPS的AI運算效能，鎖定即將上市的高階、超便攜Googlebook，深化與Google合作，搶攻終端AI與高階筆電商機。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid09VHZuWq9BwVnzVwWsqwmLf55fc6x1Rdse51FNsxBzZKfQTyrRvvf36FXAgMU4SQWl?__cft__[0]=AZjdWHZ6kcIUYG2p32kMclGwZ2YFKMN61zZpdZrEIBwQjuqSwrJECBR30Ha9_o3DmAIie13IlotAtqDGbVoMiNrEp7rnjdBJq6jsbhELfYvEi3siiyejyd2d8Iud1cHPHlkEziF1EqXgL-XnyCVzd50lZspR3rpiq98065DnQcQ4CUZwWDTceixE88g",
+          "timestamp": "2026-09-22T08:41:42.335495+00:00",
+          "interaction": 15
         }
       ]
     }
@@ -355,7 +486,7 @@
     {
       "cluster_id": "G",
       "label": "IC 設計",
-      "own_count": 0,
+      "own_count": 1,
       "competitor_count": 4,
       "competitor_engagement": 92,
       "competitors_covering": [
@@ -431,12 +562,49 @@
           "interaction": 16
         }
       ]
+    },
+    {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 51,
+      "competitors_covering": [
+        "HyperTechInvest",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "TrendForce: US Data Centers Could Face a 170GW Power Gap by 2030  TrendForce projects global data center power demand capacity to triple from 161GW in 2026 to 490GW by 2030, driven by accelerating AI server deployments  AI servers are expected to account for 54% of total demand",
+          "url": "https://x.com/HyperTechInvest/status/2102330212323369073",
+          "timestamp": "2026-09-22T17:32:36.000+08:00",
+          "interaction": 20
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI伺服器、高速交換器需求強勁，全球高階銅箔基板（CCL）掀起擴產競賽。韓國斗山（Doosan）宣布斥資9,700億韓元，在韓國及中國大陸同步擴充高階CCL產能；台灣CCL三雄台光電、台燿、聯茂今年也全面加碼資本支出，提前卡位AI帶動的高速材料商機。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid03kJcJM1CkXhuqSC2KmW92ciyQadVd6PwPRLuxSqe4z1twKTg8vJMG5fEbXUN4xLPl?__cft__[0]=AZimJtHWkFM0J9ZsE8nqFXMjg1Kp96Up0b_63Yu2u6IgAEFkWXlgAEtQpq_gq_P2wh1oljJz1HYr1wZ-Jrf9mRf3OBYu40X-VzV7c5CaQjz0R3OBnmDMTAoP9ZHBt5o5ycYSOVpnHT2yDuk7mg4bkhHW8vk-lfBsXcnCkZcMjiyq47PytkYDvKsTJBw",
+          "timestamp": "2026-09-22T08:41:42.335495+00:00",
+          "interaction": 16
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "聯發科加速拓展AI個人運算版圖。聯發科22日宣布推出全新Dimensity個人運算（Compute Experiences；CX）系列首款旗艦晶片Dimensity CX C10 Max，採用台積電3奈米製程，搭配最高55 TOPS的AI運算效能，鎖定即將上市的高階、超便攜Googlebook，深化與Google合作，搶攻終端AI與高階筆電商機。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid09VHZuWq9BwVnzVwWsqwmLf55fc6x1Rdse51FNsxBzZKfQTyrRvvf36FXAgMU4SQWl?__cft__[0]=AZjdWHZ6kcIUYG2p32kMclGwZ2YFKMN61zZpdZrEIBwQjuqSwrJECBR30Ha9_o3DmAIie13IlotAtqDGbVoMiNrEp7rnjdBJq6jsbhELfYvEi3siiyejyd2d8Iud1cHPHlkEziF1EqXgL-XnyCVzd50lZspR3rpiq98065DnQcQ4CUZwWDTceixE88g",
+          "timestamp": "2026-09-22T08:41:42.335495+00:00",
+          "interaction": 15
+        }
+      ]
     }
   ],
   "window": {
-    "start_utc": "2026-09-22T04:41:42.335495+00:00",
-    "end_utc": "2026-09-22T08:41:42.335495+00:00",
-    "start_tw": "Sep 22, 12:41",
-    "end_tw": "Sep 22, 16:41"
+    "start_utc": "2026-09-22T14:14:45+08:00",
+    "end_utc": "2026-09-22T18:14:45+08:00",
+    "start_tw": "Sep 22, 14:14",
+    "end_tw": "Sep 22, 18:14"
   }
 }
