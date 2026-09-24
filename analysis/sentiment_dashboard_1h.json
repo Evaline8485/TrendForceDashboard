@@ -1,102 +1,340 @@
 {
-  "generated_at": "2026-09-23T09:16:00+08:00",
+  "generated_at": "2026-09-23T17:01:33+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-09-23T08:16:00+08:00",
-    "end_utc": "2026-09-23T09:16:00+08:00",
-    "start_tw": "Sep 23, 08:16",
-    "end_tw": "Sep 23, 09:16"
+    "start_utc": "2026-09-23T16:01:33+08:00",
+    "end_utc": "2026-09-23T17:01:33+08:00",
+    "start_tw": "Sep 23, 16:01",
+    "end_tw": "Sep 23, 17:01"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 12,
+      "total_posts": 45,
       "sentiment_counts": {
-        "positive": 7,
-        "neutral": 4,
-        "negative": 1
+        "negative": 13,
+        "neutral": 16,
+        "positive": 16
       },
       "sentiment_share": {
-        "positive": 0.583,
-        "neutral": 0.333,
-        "negative": 0.083
+        "negative": 0.289,
+        "neutral": 0.356,
+        "positive": 0.356
       },
       "top_terms": [
-        "demand",
-        "taiwan",
-        "snapdragon",
-        "elite",
-        "gen",
-        "qualcomm",
-        "prices",
-        "iphone",
-        "surge",
-        "links"
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
+        "成本",
+        "降低",
+        "旗艦",
+        "晶片",
+        "智慧"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "prices / demand / qualcomm / iphone",
+        "topic_id": 2,
+        "label": "muse / meta / 助理 / metamuse",
         "heat": 90.0,
-        "volume": 10,
-        "engagement": 125,
+        "volume": 3,
+        "engagement": 46,
         "entities": [
-          "納斯達克"
+          "祖克柏",
+          "入口",
+          "登美國",
+          "登頂美國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "川普",
+        "heat": 72.2,
+        "volume": 2,
+        "engagement": 38,
+        "entities": [
+          "川普",
+          "美國",
+          "智慧",
+          "高達",
+          "微軟"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "spot / prices",
+        "heat": 58.9,
+        "volume": 2,
+        "engagement": 32,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "pc",
+        "heat": 30.0,
+        "volume": 2,
+        "engagement": 19,
+        "entities": [
+          "德國",
+          "陳俊聖"
         ],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "tw / ctee / links / taiwan",
+        "label": "蘋果 / iphone",
+        "heat": 21.1,
+        "volume": 2,
+        "engagement": 15,
+        "entities": [
+          "台灣大哥大",
+          "智慧型",
+          "聯發科",
+          "高通"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "vivo / vivox",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 1,
+        "engagement": 10,
+        "entities": [
+          "蔡司",
+          "高峰"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "cpu",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 16,
         "entities": [],
         "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "iphone",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 16,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，30 篇）",
+        "heat": 10.0,
+        "volume": 30,
+        "engagement": 930,
+        "entities": [
+          "中國",
+          "美國",
+          "博通",
+          "烏克蘭",
+          "榮耀"
+        ],
+        "is_catchall": true
       }
     ],
     "named_entities": [
       {
-        "entity": "納斯達克",
+        "entity": "美國",
+        "count": 7
+      },
+      {
+        "entity": "中國",
+        "count": 5
+      },
+      {
+        "entity": "德國",
+        "count": 4
+      },
+      {
+        "entity": "川普",
         "count": 3
+      },
+      {
+        "entity": "高通",
+        "count": 3
+      },
+      {
+        "entity": "智慧",
+        "count": 3
+      },
+      {
+        "entity": "博通",
+        "count": 2
+      },
+      {
+        "entity": "烏克蘭",
+        "count": 2
+      },
+      {
+        "entity": "榮耀",
+        "count": 2
+      },
+      {
+        "entity": "英國",
+        "count": 2
+      },
+      {
+        "entity": "蔡司",
+        "count": 2
+      },
+      {
+        "entity": "高峰",
+        "count": 2
+      },
+      {
+        "entity": "巴塞隆",
+        "count": 2
+      },
+      {
+        "entity": "納大學",
+        "count": 2
+      },
+      {
+        "entity": "納斯達克",
+        "count": 2
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-23T08:16:00.000002+08:00",
-        "bucket_end": "2026-09-23T08:20:17.142859+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 18,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 18,
+        "bucket_start": "2026-09-23T16:01:33.000002+08:00",
+        "bucket_end": "2026-09-23T16:05:50.142859+08:00",
+        "positive": 15,
+        "neutral": 14,
+        "negative": 11,
+        "positive_engagement": 238,
+        "neutral_engagement": 701,
+        "negative_engagement": 149,
+        "net_sentiment": 10.0,
+        "post_count": 40,
+        "engagement": 1088,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "prices / demand / qualcomm / iphone",
-            "count": 1
+            "topic_id": 2,
+            "label": "muse / meta / 助理 / metamuse",
+            "count": 3
+          },
+          {
+            "topic_id": 3,
+            "label": "pc",
+            "count": 2
+          },
+          {
+            "topic_id": 1,
+            "label": "蘋果 / iphone",
+            "count": 2
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "川普把 AI 改名 SI，美國所有文件改稱超級智慧！\n#川普聯大宣布美國文件AI改稱SI\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02S7PjGgNVFB7FGrhr9Qt6LJm4Ai9er8YWUE2LvrQYK4P6amucuKoEmoNw9ZRUadm1l?__cft__[0]=AZjsEwMmix_KL7ovYCOtPLG2GL3BF8u3JU9d-jMKt4vOJggq1CoeLQcRbGcOki3NCulDj52vbJhgpHizj3F_Lhl0R3fBvOJn-FWjXsbV_kngiKY1Lacq-h66Xzjbo8VjFhTX2Zd_V7GqPQgkOLsy4sZ2Ijag6l9M8KRKKtdSP5Oq344FxCH9lmrrZOM",
+            "interaction": 283
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "五項零組件交期全超標，ABF 最久要等 56 週！\n#TrendForce供應鏈雷達周周追交期\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02K9eF3R7h4fpCP8KeaBszQYh5u4j5h6roWNpQTfrnSooMd3xPfyAksXdNacRDf2d9l?__cft__[0]=AZjVUCzkrDkylOnc53YGLR-IaZNggYI6dsNCRyy0xuyPy-4n1Qqq6o6luKlI37VvT-U6790V_mZUCKeyWu2EsoXVbWSPvUTzrS3dFuz8MJu85dPipys5gXnKbQi_qmyUGpVWhhcdSs4llQfstg6pYxO9uMROym0_GftFtaBIGCb6a2fwc0IlfsuWlXg",
+            "interaction": 166
+          }
+        ],
+        "net_sentiment_smoothed": 3.3,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-09-23T16:05:50.142859+08:00",
+        "bucket_end": "2026-09-23T16:10:07.285716+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 2.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-23T16:10:07.285716+08:00",
+        "bucket_end": "2026-09-23T16:14:24.428573+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 22.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-23T16:14:24.428573+08:00",
+        "bucket_end": "2026-09-23T16:18:41.571430+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-23T16:18:41.571430+08:00",
+        "bucket_end": "2026-09-23T16:22:58.714287+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
             "platform": "X",
-            "text": "Qantas pushes ahead with new ultra-long flights despite high fuel prices",
-            "url": "https://x.com/FT/status/2102552837787914513",
-            "interaction": 18
+            "text": "#榮耀 將於 9/30 在台發表首款摺疊旗艦手機！全新機型 Magic V6 補齊旗下高階產品線布局。",
+            "url": "https://x.com/technews_tw/status/2102674456196047148",
+            "interaction": 0
           }
         ],
         "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-23T08:20:17.142859+08:00",
-        "bucket_end": "2026-09-23T08:24:34.285716+08:00",
+        "bucket_start": "2026-09-23T16:22:58.714287+08:00",
+        "bucket_end": "2026-09-23T16:27:15.857144+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -108,358 +346,252 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 25.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-23T08:24:34.285716+08:00",
-        "bucket_end": "2026-09-23T08:28:51.428573+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "prices / demand / qualcomm / iphone",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "高通 Snapdragon 8 Elite Gen 6 性能提升 10%！採用客製化 Oryon CPU 且能效提升 37%。 #Qualcomm #高通晶片 #手機處理器",
-            "url": "https://x.com/technews_tw/status/2102554755147170010",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-23T08:28:51.428573+08:00",
-        "bucket_end": "2026-09-23T08:33:08.571430+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 44,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 2,
-        "engagement": 44,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "prices / demand / qualcomm / iphone",
-            "count": 1
-          },
-          {
-            "topic_id": 1,
-            "label": "tw / ctee / links / taiwan",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "dnystedt",
-            "platform": "X",
-            "text": "Taiwan’s August export orders soared 71.4% year-on-year to a fresh record high US$102.96 billion, media report, beating the 63% growth expected. AI-related demand led, but a surge in custom ASIC chip ",
-            "url": "https://x.com/dnystedt/status/2102556551378846092",
-            "interaction": 44
-          },
-          {
-            "handle": "dnystedt",
-            "platform": "X",
-            "text": "Links:   https:// ctee.com.tw/news/202609237 00060-430102 …   https:// money.udn.com/money/story/10 869/9771681?from=edn_maintab_index …  Taiwan Govt:  https:// moea.gov.tw/MNS/populace/n ews/News.asp",
-            "url": "https://x.com/dnystedt/status/2102556781297979840",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-23T08:33:08.571430+08:00",
-        "bucket_end": "2026-09-23T08:37:25.714287+08:00",
+        "bucket_start": "2026-09-23T16:27:15.857144+08:00",
+        "bucket_end": "2026-09-23T16:31:33.000001+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 60.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-23T08:37:25.714287+08:00",
-        "bucket_end": "2026-09-23T08:41:42.857144+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 11,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 11,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "prices / demand / qualcomm / iphone",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tengyanAI",
-            "platform": "X",
-            "text": "Anthropic showing that it’s still the frontier leader: - better at agentic coding than Fable 5.1 or Astra - cut frontier model pricing from $25 to $20 while the industry has mostly moved the other way",
-            "url": "https://x.com/tengyanAI/status/2102558767120568371",
-            "interaction": 11
-          }
-        ],
-        "net_sentiment_smoothed": 80.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-23T08:41:42.857144+08:00",
-        "bucket_end": "2026-09-23T08:46:00.000001+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "prices / demand / qualcomm / iphone",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "AI 樂觀情緒升溫帶動半導體股全面大漲！納斯達克綜合指數開盤後一度觸及 27,250 點歷史新高。 #納斯達克 #半導體 #美股",
-            "url": "https://x.com/technews_tw/status/2102559170524508607",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 60.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-23T08:46:00.000001+08:00",
-        "bucket_end": "2026-09-23T08:50:17.142858+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 8,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 8,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "prices / demand / qualcomm / iphone",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Why EU companies are now helping Chinese ones expand into Europe  https:// ft.trib.al/6PfS2ny  | opinion",
-            "url": "https://x.com/FT/status/2102560176758825216",
-            "interaction": 8
-          }
-        ],
-        "net_sentiment_smoothed": 60.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-23T08:50:17.142858+08:00",
-        "bucket_end": "2026-09-23T08:54:34.285715+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 9,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 9,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "prices / demand / qualcomm / iphone",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "dnystedt",
-            "platform": "X",
-            "text": "TSMC-made 2nm chips have already hit the market in Apple iPhone 18 Pro series phones, while more are on the way soon, media report:  Xiaomi 18 Pro series (Qualcomm Snapdragon 8 Elite Gen 6 inside, 2nm",
-            "url": "https://x.com/dnystedt/status/2102561166044369129",
-            "interaction": 9
-          }
-        ],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-23T08:54:34.285715+08:00",
-        "bucket_end": "2026-09-23T08:58:51.428572+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-23T08:58:51.428572+08:00",
-        "bucket_end": "2026-09-23T09:03:08.571429+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-23T09:03:08.571429+08:00",
-        "bucket_end": "2026-09-23T09:07:25.714286+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 14,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 14,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "prices / demand / qualcomm / iphone",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Good morning, Asia. While you were sleeping, one of our most-read stories was about the US president saying senior officials had a ‘good meeting’ with the Iranian delegation, just hours after a combat",
-            "url": "https://x.com/FT/status/2102565344548180235",
-            "interaction": 14
-          }
-        ],
-        "net_sentiment_smoothed": 10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-23T09:07:25.714286+08:00",
-        "bucket_end": "2026-09-23T09:11:42.857143+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 12.5,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-23T09:11:42.857143+08:00",
-        "bucket_end": "2026-09-23T09:16:00+08:00",
-        "positive": 0,
-        "neutral": 1,
         "negative": 1,
         "positive_engagement": 0,
-        "neutral_engagement": 1,
-        "negative_engagement": 16,
-        "net_sentiment": -50.0,
-        "post_count": 2,
-        "engagement": 17,
+        "neutral_engagement": 0,
+        "negative_engagement": 22,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 22,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "prices / demand / qualcomm / iphone",
-            "count": 1
-          },
-          {
-            "topic_id": 1,
-            "label": "tw / ctee / links / taiwan",
+            "topic_id": 6,
+            "label": "spot / prices",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "dnystedt",
+            "handle": "TrendForce",
             "platform": "X",
-            "text": "Taiwan sees “crazy demand” for iPhone 18 Pro series, media report, as two of the top 3 telcos, Taiwan Mobile and Far Eastone, reported a 70% year-on-year surge in the first 3-days of sales. Chunghwa T",
-            "url": "https://x.com/dnystedt/status/2102567422503129263",
-            "interaction": 16
-          },
+            "text": "【DRAM Spot Buying Stays Cautious; DDR4 2Gx8 Prices Decline】  In the DRAM spot market, procurement momentum has remained cautious and watchful this week, with price trends diverging across segments. Sp",
+            "url": "https://x.com/trendforce/status/2102676865550860781",
+            "interaction": 22
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-23T16:31:33.000001+08:00",
+        "bucket_end": "2026-09-23T16:35:50.142858+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-23T16:35:50.142858+08:00",
+        "bucket_end": "2026-09-23T16:40:07.285715+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-23T16:40:07.285715+08:00",
+        "bucket_end": "2026-09-23T16:44:24.428572+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 1,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [],
+        "top_posts": [
           {
-            "handle": "dnystedt",
+            "handle": "technews_tw",
             "platform": "X",
-            "text": "Links:  https:// ctee.com.tw/news/202609237 00193-430502 …   https:// ctee.com.tw/news/202609227 01503-430502 …   https:// cardu.com.tw/news/detail.ph p?65600 …",
-            "url": "https://x.com/dnystedt/status/2102567453066998146",
+            "text": "#台泥 收購 #烏克蘭 水泥巨頭！荷蘭子公司獲授權以不超過 7.5 億歐元企業價值推進交易。",
+            "url": "https://x.com/technews_tw/status/2102680299301912693",
             "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": 16.7,
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-23T16:44:24.428572+08:00",
+        "bucket_end": "2026-09-23T16:48:41.571429+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-23T16:48:41.571429+08:00",
+        "bucket_end": "2026-09-23T16:52:58.714286+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-23T16:52:58.714286+08:00",
+        "bucket_end": "2026-09-23T16:57:15.857143+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -25.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-23T16:57:15.857143+08:00",
+        "bucket_end": "2026-09-23T17:01:33+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 10,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 10,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "spot / prices",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "【Chinese Supplier Capacity Releases Keep NAND Spot Supply Ample; 512Gb TLC Wafer Prices Fall 1%】  Restricted by persistently weak consumer end-demand and capacity releases from Chinese suppliers, over",
+            "url": "https://x.com/trendforce/status/2102684420809412794",
+            "interaction": 10
+          }
+        ],
+        "net_sentiment_smoothed": -33.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "prices / demand / qualcomm / iphone",
+        "topic_id": 2,
+        "label": "muse / meta / 助理 / metamuse",
+        "cells": [
+          {
+            "net_sentiment": 100.0,
+            "volume": 3
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "spot / prices",
         "cells": [
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -467,30 +599,22 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
             "volume": 1
           },
           {
@@ -502,8 +626,16 @@
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -516,11 +648,19 @@
         ]
       },
       {
-        "topic_id": 1,
-        "label": "tw / ctee / links / taiwan",
+        "topic_id": 3,
+        "label": "pc",
         "cells": [
           {
             "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 0
           },
           {
@@ -531,9 +671,175 @@
             "net_sentiment": 0.0,
             "volume": 0
           },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "蘋果 / iphone",
+        "cells": [
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "川普",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "vivo / vivox",
+        "cells": [
           {
             "net_sentiment": 100.0,
-            "volume": 1
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -573,78 +879,145 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "technews_tw",
-        "top_topic_id": 0,
-        "top_topic_label": "prices / demand / qualcomm / iphone",
+        "handle": "TrendForce",
+        "top_topic_id": 6,
+        "top_topic_label": "spot / prices",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 0
       },
       {
-        "handle": "tengyanAI",
+        "handle": "technews_tw",
         "top_topic_id": 0,
-        "top_topic_label": "prices / demand / qualcomm / iphone",
+        "top_topic_label": "其他（未分群，30 篇）",
         "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
+        "post_count": 4,
+        "unclustered_posts": 4
       },
       {
-        "handle": "FT",
-        "top_topic_id": 0,
-        "top_topic_label": "prices / demand / qualcomm / iphone",
-        "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "dnystedt",
-        "top_topic_id": 0,
-        "top_topic_label": "prices / demand / qualcomm / iphone",
-        "focus_share": 0.667,
-        "post_count": 6,
-        "unclustered_posts": 0
+        "handle": "technewsinside",
+        "top_topic_id": 2,
+        "top_topic_label": "muse / meta / 助理 / metamuse",
+        "focus_share": 0.231,
+        "post_count": 39,
+        "unclustered_posts": 26
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "prices / demand / qualcomm / iphone",
-        "total_engagement": 125,
-        "post_count": 10,
-        "top_account": "dnystedt",
-        "top_account_engagement": 74,
+        "topic_id": 2,
+        "label": "muse / meta / 助理 / metamuse",
+        "total_engagement": 46,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 46,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "川普",
+        "total_engagement": 38,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 38,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "spot / prices",
+        "total_engagement": 32,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 32,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "pc",
+        "total_engagement": 19,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 19,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "cpu",
+        "total_engagement": 16,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 16,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "iphone",
+        "total_engagement": 16,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 16,
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "tw / ctee / links / taiwan",
-        "total_engagement": 1,
+        "label": "蘋果 / iphone",
+        "total_engagement": 15,
         "post_count": 2,
-        "top_account": "dnystedt",
-        "top_account_engagement": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 15,
         "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "vivo / vivox",
+        "total_engagement": 10,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 10,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，30 篇）",
+        "total_engagement": 930,
+        "post_count": 30,
+        "top_account": "technewsinside",
+        "top_account_engagement": 928,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 12,
-          "likes": 92,
-          "engagement": 126,
-          "avg_engagement": 10.5
-        },
-        "afternoon": {
           "post_count": 0,
           "likes": 0,
           "engagement": 0,
           "avg_engagement": 0.0
+        },
+        "afternoon": {
+          "post_count": 45,
+          "likes": 1111,
+          "engagement": 1122,
+          "avg_engagement": 24.9
         },
         "evening": {
           "post_count": 0,
@@ -659,7 +1032,7 @@
           "avg_engagement": 0.0
         }
       },
-      "peak_slot": "morning"
+      "peak_slot": "afternoon"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
