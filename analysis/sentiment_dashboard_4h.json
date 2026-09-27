@@ -1,161 +1,183 @@
 {
-  "generated_at": "2026-09-27T16:32:11+08:00",
+  "generated_at": "2026-09-27T09:04:31.754714+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-09-27T12:32:11+08:00",
-    "end_utc": "2026-09-27T16:32:11+08:00",
-    "start_tw": "Sep 27, 12:32",
-    "end_tw": "Sep 27, 16:32"
+    "start_utc": "2026-09-27T05:04:31.754714+00:00",
+    "end_utc": "2026-09-27T09:04:31.754714+00:00",
+    "start_tw": "Sep 27, 13:04",
+    "end_tw": "Sep 27, 17:04"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 16,
+      "total_posts": 61,
       "sentiment_counts": {
-        "negative": 6,
-        "positive": 8,
-        "neutral": 2
+        "negative": 22,
+        "positive": 22,
+        "neutral": 17
       },
       "sentiment_share": {
-        "negative": 0.375,
-        "positive": 0.5,
-        "neutral": 0.125
+        "negative": 0.361,
+        "positive": 0.361,
+        "neutral": 0.279
       },
       "top_terms": [
-        "bofa",
-        "不只",
-        "bets",
-        "noctua",
-        "forced",
-        "physics",
-        "dct",
-        "jouleforce",
-        "布與",
-        "宣布與"
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
+        "川普",
+        "習近",
+        "近平",
+        "習近平",
+        "維持"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 1,
-        "label": "bets",
-        "heat": 90.0,
+        "label": "值得注意的是",
+        "heat": 50.0,
         "volume": 2,
-        "engagement": 66,
+        "engagement": 10,
+        "entities": [
+          "白宮",
+          "美國",
+          "習川",
+          "中國國家",
+          "習近平"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "日至",
+        "heat": 50.0,
+        "volume": 1,
+        "engagement": 31,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 2,
-        "label": "bofa",
+        "label": "trump / donald",
         "heat": 10.0,
-        "volume": 2,
-        "engagement": 43,
+        "volume": 1,
+        "engagement": 19,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "川普 / trump / donald",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 13,
         "entities": [
-          "普及",
-          "拉長"
+          "高市",
+          "美國總統川普",
+          "川普"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "日至 / 川普",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 12,
+        "entities": [
+          "美東",
+          "中國國家",
+          "習近平",
+          "美國",
+          "兩國"
         ],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，12 篇）",
+        "label": "其他（未分群，55 篇）",
         "heat": 10.0,
-        "volume": 12,
-        "engagement": 214,
-        "entities": [],
+        "volume": 55,
+        "engagement": 9987,
+        "entities": [
+          "台灣",
+          "美國",
+          "川普",
+          "日本",
+          "中國"
+        ],
         "is_catchall": true
       }
     ],
     "named_entities": [
       {
-        "entity": "普及",
-        "count": 1
+        "entity": "美國",
+        "count": 12
       },
       {
-        "entity": "拉長",
-        "count": 1
+        "entity": "台灣",
+        "count": 10
+      },
+      {
+        "entity": "川普",
+        "count": 9
+      },
+      {
+        "entity": "中國",
+        "count": 5
+      },
+      {
+        "entity": "日本",
+        "count": 4
+      },
+      {
+        "entity": "北京",
+        "count": 3
+      },
+      {
+        "entity": "美東",
+        "count": 3
+      },
+      {
+        "entity": "習近平",
+        "count": 3
+      },
+      {
+        "entity": "白宮",
+        "count": 3
+      },
+      {
+        "entity": "習川",
+        "count": 2
+      },
+      {
+        "entity": "中國國家",
+        "count": 2
+      },
+      {
+        "entity": "美中",
+        "count": 2
+      },
+      {
+        "entity": "兩國",
+        "count": 2
+      },
+      {
+        "entity": "輝達",
+        "count": 2
+      },
+      {
+        "entity": "高市",
+        "count": 2
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-09-27T12:32:10.999994+08:00",
-        "bucket_end": "2026-09-27T12:49:19.571423+08:00",
-        "positive": 3,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 103,
-        "neutral_engagement": 32,
-        "negative_engagement": 45,
-        "net_sentiment": 40.0,
-        "post_count": 5,
-        "engagement": 180,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "bets",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Private credit turmoil eases as investor withdrawals slow",
-            "url": "https://x.com/FT/status/2104070323930853433",
-            "interaction": 46
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Big companies warn lack of ‘AI openness’ could hit investment in Europe",
-            "url": "https://x.com/FT/status/2104070323825942865",
-            "interaction": 45
-          }
-        ],
-        "net_sentiment_smoothed": 24.5,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-09-27T12:49:19.571423+08:00",
-        "bucket_end": "2026-09-27T13:06:28.142852+08:00",
-        "positive": 2,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 50,
-        "neutral_engagement": 1,
-        "negative_engagement": 0,
-        "net_sentiment": 66.7,
-        "post_count": 3,
-        "engagement": 51,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "bofa",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "BofA 專家訪談：KV cache、記憶體層級、模型選擇  代理式 AI（Agentic AI）愈普及，推論階段的記憶體需求會結構性上升，不只看 GPU 數量，更要看 KV cache 放哪、搬得多快。  1. 為什麼記憶體需求變大 - 上下文拉長：約 12.8 萬 token 往 100 萬 token 走。 多代理同時做事，要共用任務脈絡。 - KV",
-            "url": "https://x.com/QQ_Timmy/status/2104074232443621645",
-            "interaction": 26
-          },
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "Goldman Framing the Battery Backup Unit Opportunity: $50bn by 2030  生成式 AI 資料中心的供電波動極大，機架級分散式備援電池（BBU） 不只做備援，更承擔 削峰（peak shaving）。長期還會與 CBU（電容備援單元） 並用。  兩大驅動： 1. 全球資料中心 GPU 用電量 CAGR +62%（2025：13,510 M",
-            "url": "https://x.com/QQ_Timmy/status/2104072321208320174",
-            "interaction": 24
-          }
-        ],
-        "net_sentiment_smoothed": 18.4,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-09-27T13:06:28.142852+08:00",
-        "bucket_end": "2026-09-27T13:23:36.714281+08:00",
+        "bucket_start": "2026-09-27T05:04:31.754708+00:00",
+        "bucket_end": "2026-09-27T05:21:40.326137+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 2,
@@ -165,13 +187,7 @@
         "net_sentiment": -33.3,
         "post_count": 3,
         "engagement": 50,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "bofa",
-            "count": 1
-          }
-        ],
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "QQ_Timmy",
@@ -188,12 +204,12 @@
             "interaction": 17
           }
         ],
-        "net_sentiment_smoothed": 34.7,
+        "net_sentiment_smoothed": 22.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-27T13:23:36.714281+08:00",
-        "bucket_end": "2026-09-27T13:40:45.285710+08:00",
+        "bucket_start": "2026-09-27T05:21:40.326137+00:00",
+        "bucket_end": "2026-09-27T05:38:48.897566+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -205,12 +221,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 26.7,
+        "net_sentiment_smoothed": 16.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-27T13:40:45.285710+08:00",
-        "bucket_end": "2026-09-27T13:57:53.857139+08:00",
+        "bucket_start": "2026-09-27T05:38:48.897566+00:00",
+        "bucket_end": "2026-09-27T05:55:57.468995+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -234,8 +250,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-27T13:57:53.857139+08:00",
-        "bucket_end": "2026-09-27T14:15:02.428568+08:00",
+        "bucket_start": "2026-09-27T05:55:57.468995+00:00",
+        "bucket_end": "2026-09-27T06:13:06.040424+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -251,8 +267,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-27T14:15:02.428568+08:00",
-        "bucket_end": "2026-09-27T14:32:10.999997+08:00",
+        "bucket_start": "2026-09-27T06:13:06.040424+00:00",
+        "bucket_end": "2026-09-27T06:30:14.611853+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -268,8 +284,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-27T14:32:10.999997+08:00",
-        "bucket_end": "2026-09-27T14:49:19.571426+08:00",
+        "bucket_start": "2026-09-27T06:30:14.611853+00:00",
+        "bucket_end": "2026-09-27T06:47:23.183282+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -285,8 +301,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-27T14:49:19.571426+08:00",
-        "bucket_end": "2026-09-27T15:06:28.142855+08:00",
+        "bucket_start": "2026-09-27T06:47:23.183282+00:00",
+        "bucket_end": "2026-09-27T07:04:31.754711+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -302,8 +318,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-27T15:06:28.142855+08:00",
-        "bucket_end": "2026-09-27T15:23:36.714284+08:00",
+        "bucket_start": "2026-09-27T07:04:31.754711+00:00",
+        "bucket_end": "2026-09-27T07:21:40.326140+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -327,8 +343,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-27T15:23:36.714284+08:00",
-        "bucket_end": "2026-09-27T15:40:45.285713+08:00",
+        "bucket_start": "2026-09-27T07:21:40.326140+00:00",
+        "bucket_end": "2026-09-27T07:38:48.897569+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -352,8 +368,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-27T15:40:45.285713+08:00",
-        "bucket_end": "2026-09-27T15:57:53.857142+08:00",
+        "bucket_start": "2026-09-27T07:38:48.897569+00:00",
+        "bucket_end": "2026-09-27T07:55:57.468998+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -369,8 +385,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-27T15:57:53.857142+08:00",
-        "bucket_end": "2026-09-27T16:15:02.428571+08:00",
+        "bucket_start": "2026-09-27T07:55:57.468998+00:00",
+        "bucket_end": "2026-09-27T08:13:06.040427+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -382,12 +398,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-09-27T16:15:02.428571+08:00",
-        "bucket_end": "2026-09-27T16:32:11+08:00",
+        "bucket_start": "2026-09-27T08:13:06.040427+00:00",
+        "bucket_end": "2026-09-27T08:30:14.611856+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -407,28 +423,93 @@
             "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": -33.3,
+        "net_sentiment_smoothed": -39.4,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-27T08:30:14.611856+00:00",
+        "bucket_end": "2026-09-27T08:47:23.183285+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 2,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 2,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The west London high street fighting against bookies and chicken shops",
+            "url": "https://x.com/FT/status/2104126945357189483",
+            "interaction": 2
+          }
+        ],
+        "net_sentiment_smoothed": -49.2,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-09-27T08:47:23.183285+00:00",
+        "bucket_end": "2026-09-27T09:04:31.754714+00:00",
+        "positive": 10,
+        "neutral": 14,
+        "negative": 9,
+        "positive_engagement": 203,
+        "neutral_engagement": 422,
+        "negative_engagement": 130,
+        "net_sentiment": 3.0,
+        "post_count": 33,
+        "engagement": 755,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "值得注意的是",
+            "count": 2
+          },
+          {
+            "topic_id": 2,
+            "label": "trump / donald",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "川普 / trump / donald",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "【面面俱道 廣達、大聯大等16檔內外資同步加碼 扮台股急先鋒】…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0SQ73V5wfuwim8y5fszmj362gRxJ2qJk7zVYa4inytdh5qQnCfxgGSUdtyMxgLgT9l?__cft__[0]=AZiHEuDnm0a_V4FodeUP2kJvN439HTkRBnjLrYFgYRy9ZZNge31Qn1luIIjMzPmuail4aJX4IzJhx3dOFmlkkZTI84snH9-hdR1cNYVkYvWR_bkIC7n_pOlm569q6b_ze85jkyzshJEH0k2L11OUD3MbPJRDaP0vEZuaoFNTnZHLEnIO05j8QMRj-I8",
+            "interaction": 164
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "輝達執行長黃仁勳受訪時談及加州擬議中的「億萬富豪稅」，表示如果提案獲得通過，他不介意因此多繳納數十億美元稅款。他甚至直言，自己不怕繳稅，真正害怕的是變得貧窮。…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid035RcSvMnsnGd6APh5YQ2sfFAWDv1Tfo5D8iDdzY6qSrpW2Nj1ML2sZNNmksjayYR7l?__cft__[0]=AZgboqIs7dV63loS1jw2XJGa_f-pxi2vj4h2uVu919i8bqUgnz-VODueO5rYIOBjVpbiNA_4qZLeOcacweuLhgX-dOycNM13YxIalzc0UVVGt2NrWVmWSz47mtQp4ZnadW51T1PUMeQu-xxlEhn-9Fu9Im6syr5RzJsYpZ8tZ2wxqUSsIcg27-5iT6Y",
+            "interaction": 62
+          }
+        ],
+        "net_sentiment_smoothed": -65.7,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
-        "label": "bofa",
+        "topic_id": 1,
+        "label": "值得注意的是",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           },
@@ -471,17 +552,83 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
           }
         ]
       },
       {
-        "topic_id": 1,
-        "label": "bets",
+        "topic_id": 2,
+        "label": "trump / donald",
         "cells": [
           {
-            "net_sentiment": 50.0,
-            "volume": 2
+            "net_sentiment": 0.0,
+            "volume": 0
           },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "川普 / trump / donald",
+        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -533,6 +680,134 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "日至",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "日至 / 川普",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           }
         ]
       }
@@ -540,55 +815,98 @@
     "coverage_focus_ranking": [
       {
         "handle": "QQ_Timmy",
-        "top_topic_id": 2,
-        "top_topic_label": "bofa",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，55 篇）",
         "focus_share": 1.0,
-        "post_count": 5,
-        "unclustered_posts": 3
+        "post_count": 2,
+        "unclustered_posts": 2
       },
       {
         "handle": "FT",
-        "top_topic_id": 1,
-        "top_topic_label": "bets",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，55 篇）",
         "focus_share": 1.0,
-        "post_count": 9,
-        "unclustered_posts": 7
+        "post_count": 4,
+        "unclustered_posts": 4
       },
       {
         "handle": "statementdog",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，12 篇）",
+        "top_topic_label": "其他（未分群，55 篇）",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 2
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，55 篇）",
+        "focus_share": 1.0,
+        "post_count": 20,
+        "unclustered_posts": 20
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 1,
+        "top_topic_label": "值得注意的是",
+        "focus_share": 0.333,
+        "post_count": 33,
+        "unclustered_posts": 27
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "bets",
-        "total_engagement": 66,
-        "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 66,
+        "topic_id": 5,
+        "label": "日至",
+        "total_engagement": 31,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 31,
         "is_catchall": false
       },
       {
         "topic_id": 2,
-        "label": "bofa",
-        "total_engagement": 43,
+        "label": "trump / donald",
+        "total_engagement": 19,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 19,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "川普 / trump / donald",
+        "total_engagement": 13,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 13,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "日至 / 川普",
+        "total_engagement": 12,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 12,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "值得注意的是",
+        "total_engagement": 10,
         "post_count": 2,
-        "top_account": "QQ_Timmy",
-        "top_account_engagement": 43,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 10,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，12 篇）",
-        "total_engagement": 214,
-        "post_count": 12,
-        "top_account": "FT",
-        "top_account_engagement": 169,
+        "label": "其他（未分群，55 篇）",
+        "total_engagement": 9987,
+        "post_count": 55,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 9225,
         "is_catchall": true
       }
     ],

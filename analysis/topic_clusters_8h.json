@@ -3,38 +3,79 @@
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 3,
+      "size": 4,
       "accounts": {
         "QQ_Timmy": 2,
-        "HyperTechInvest": 1
+        "HyperTechInvest": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
         "QQ_Timmy": 50,
-        "HyperTechInvest": 49
+        "HyperTechInvest": 49,
+        "ctee.fans": 62
       }
     },
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 2,
+      "size": 3,
       "accounts": {
         "SemiAnalysis_": 1,
-        "QQ_Timmy": 1
+        "QQ_Timmy": 1,
+        "yutinghaosfinance": 1
       },
       "engagement_by_account": {
         "SemiAnalysis_": 69,
-        "QQ_Timmy": 24
+        "QQ_Timmy": 24,
+        "yutinghaosfinance": 720
+      }
+    },
+    {
+      "id": "N",
+      "label": "地緣政治 / 政策",
+      "size": 3,
+      "accounts": {
+        "ctee.fans": 1,
+        "yutinghaosfinance": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 0,
+        "yutinghaosfinance": 507
       }
     },
     {
       "id": "F",
       "label": "晶圓代工 / 先進製程",
-      "size": 1,
+      "size": 2,
       "accounts": {
-        "statementdog": 1
+        "statementdog": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "statementdog": 1
+        "statementdog": 1,
+        "ctee.fans": 14
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 184
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 164
       }
     },
     {
@@ -49,6 +90,17 @@
       }
     },
     {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 40
+      }
+    },
+    {
       "id": "K",
       "label": "AI 模型 / 應用",
       "size": 1,
@@ -57,6 +109,28 @@
       },
       "engagement_by_account": {
         "SemiAnalysis_": 69
+      }
+    },
+    {
+      "id": "L",
+      "label": "總經 / Fed",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 19
+      }
+    },
+    {
+      "id": "Q",
+      "label": "機器人 / Robotics",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 12
       }
     },
     {
@@ -73,16 +147,100 @@
   ],
   "gaps": [
     {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 813,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "QQ_Timmy",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "Google DeepMind正在出現一波重量級人才外流，這批人離開後不是退休，還直接拿著DeepMind的招牌去創業。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0jk9Zt4ZY4J4UMjQr55NcwesRQ95DvjpkG1CcoypcpzVxutNJV8GTnSC5HUB9HBEgl?__cft__[0]=AZiBwLYhq1hkyjiJDL5pvJ33Zw-JBV_B5bco3NETHGp7cHyaNOD6-DCK90HAMsfqbU0xEB_z_cpC4rEu81GUFXyJ48b1Yk_rDZYYW-c0LAAVSCkxaEhrEpdNJvvbrKyFjTZYGS52CgkPK91gk43qtjjjQXiAYTxHniW4LZPPCMZ65BroW4hFFU8dtwI",
+          "timestamp": "2026-09-27T09:04:31.754714+00:00",
+          "interaction": 720
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Happy to announce that SemiAnalysis AgentX has been integrated into ModelScope, an eval framework widely used in China. We are incredibly excited that AgentX has become an industry standard & has been adopted globally, including OpenAI, Meta, Inferact, RadixArk, MiniMax, Alibaba",
+          "url": "https://x.com/SemiAnalysis_/status/2104043521699119320",
+          "timestamp": "2026-09-27T11:00:41.000+08:00",
+          "interaction": 69
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Goldman Framing the Battery Backup Unit Opportunity: $50bn by 2030  生成式 AI 資料中心的供電波動極大，機架級分散式備援電池（BBU） 不只做備援，更承擔 削峰（peak shaving）。長期還會與 CBU（電容備援單元） 並用。  兩大驅動： 1. 全球資料中心 GPU 用電量 CAGR +62%（2025：13,510 MW →",
+          "url": "https://x.com/QQ_Timmy/status/2104072321208320174",
+          "timestamp": "2026-09-27T12:55:07.000+08:00",
+          "interaction": 24
+        }
+      ]
+    },
+    {
+      "cluster_id": "N",
+      "label": "地緣政治 / 政策",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 507,
+      "competitors_covering": [
+        "ctee.fans",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "川普的關稅政策原本希望，逼企業把生產搬回美國，但冰島自行車商 Lauf Cycles 的案例，卻呈現相反效果。Lauf把組裝廠搬到維吉尼亞，因此可以避開最高48.5%的整車進口關稅。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0bKYSeZWxNWYHMET5RcFmkYiPb8rAJjN5QdRwT7wS6YxPgnGNnWTW1Fhk5X1Vgncpl?__cft__[0]=AZj2H9H0oATHeFsvympH5upZ0yJFhh-etiN8qXiQGlSKctNDZEL-K5lL7-BSSFBhrR9BHCQ9s3CcedNx4-i-pWOLtlIU2oACMyt1RoHU2m3aWEEW5PE5AHF-edbRRH8H590dyi786FQegww-DhViFz0dBoOP3YkuHJ4oxcJon6fs5eH1omMX2VeZjXA",
+          "timestamp": "2026-09-27T09:04:31.754714+00:00",
+          "interaction": 336
+        },
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "川普重返白宮後，一度任命盧比歐、拉特克利夫等多名對中強硬派進入核心團隊，但真正改變政策方向的轉折點，是2025年的關稅戰。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02ny1KpqeruNge4gjXgkg9kPZRRSmDcQYmMcaeR2rJen9MnFYx76khnSuanhSmqc87l?__cft__[0]=AZhAF0zBPi4cv1C-8ctEgIeOlnVYJa3egsSxu2jbQvbYoJVaoW1QgHpraiAkZHdvmRmYwBVvbsvxSy-S7OvqEUS4JiTLkh58IQTwDx8qu586EIG6hKyOsIf4uRUpVnPkW782tr482hqISD720uUm5TJGdH7q6wFHPDWA3OsmLnThytcwV9xvWET4g1Y",
+          "timestamp": "2026-09-27T09:04:31.754714+00:00",
+          "interaction": 171
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【習川會成果揭曉 雙方各自公布 哪些一樣？哪些不一樣？】\n中國國家主席習近平已結束對美訪問回到北京。\n●白宮在當地時間25日深夜發布習近平訪美的事實清單，內容聚焦美中經貿進展，包括就雙方各300億美元的非敏感商品、給予更優惠關稅待遇的建議達成共識。\n●新華社則於26日公布達成8項成果共識，包括兩國元首今年有望再會面兩次、11月舉行中美AI對話、推動300億美元對等降稅安排等。內容並未提及台灣。\n值得注意的是，美國白宮事實清單（Fact Sheet）和中方不同的是，其中列出中國承諾在2027年和2028年，向美國購買至少各1,000萬噸煤炭，以及其他採購項目。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0Si1shZMp1RNNnej7GNBhZRenaYqp4H9JK1yTsGqgj2foPeihJNQcxAYELGxxPuYzl?__tn__=%2CO",
+          "timestamp": "2026-09-27T09:01:58.391033+00:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
       "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 99,
+      "competitor_count": 4,
+      "competitor_engagement": 161,
       "competitors_covering": [
         "QQ_Timmy",
-        "HyperTechInvest"
+        "HyperTechInvest",
+        "ctee.fans"
       ],
       "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "輝達執行長黃仁勳受訪時談及加州擬議中的「億萬富豪稅」，表示如果提案獲得通過，他不介意因此多繳納數十億美元稅款。他甚至直言，自己不怕繳稅，真正害怕的是變得貧窮。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid035RcSvMnsnGd6APh5YQ2sfFAWDv1Tfo5D8iDdzY6qSrpW2Nj1ML2sZNNmksjayYR7l?__cft__[0]=AZgboqIs7dV63loS1jw2XJGa_f-pxi2vj4h2uVu919i8bqUgnz-VODueO5rYIOBjVpbiNA_4qZLeOcacweuLhgX-dOycNM13YxIalzc0UVVGt2NrWVmWSz47mtQp4ZnadW51T1PUMeQu-xxlEhn-9Fu9Im6syr5RzJsYpZ8tZ2wxqUSsIcg27-5iT6Y",
+          "timestamp": "2026-09-27T09:01:58.391033+00:00",
+          "interaction": 62
+        },
         {
           "handle": "HyperTechInvest",
           "platform": "X",
@@ -112,16 +270,100 @@
   ],
   "suggested_entry_points": [
     {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 813,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "QQ_Timmy",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "Google DeepMind正在出現一波重量級人才外流，這批人離開後不是退休，還直接拿著DeepMind的招牌去創業。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0jk9Zt4ZY4J4UMjQr55NcwesRQ95DvjpkG1CcoypcpzVxutNJV8GTnSC5HUB9HBEgl?__cft__[0]=AZiBwLYhq1hkyjiJDL5pvJ33Zw-JBV_B5bco3NETHGp7cHyaNOD6-DCK90HAMsfqbU0xEB_z_cpC4rEu81GUFXyJ48b1Yk_rDZYYW-c0LAAVSCkxaEhrEpdNJvvbrKyFjTZYGS52CgkPK91gk43qtjjjQXiAYTxHniW4LZPPCMZ65BroW4hFFU8dtwI",
+          "timestamp": "2026-09-27T09:04:31.754714+00:00",
+          "interaction": 720
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Happy to announce that SemiAnalysis AgentX has been integrated into ModelScope, an eval framework widely used in China. We are incredibly excited that AgentX has become an industry standard & has been adopted globally, including OpenAI, Meta, Inferact, RadixArk, MiniMax, Alibaba",
+          "url": "https://x.com/SemiAnalysis_/status/2104043521699119320",
+          "timestamp": "2026-09-27T11:00:41.000+08:00",
+          "interaction": 69
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Goldman Framing the Battery Backup Unit Opportunity: $50bn by 2030  生成式 AI 資料中心的供電波動極大，機架級分散式備援電池（BBU） 不只做備援，更承擔 削峰（peak shaving）。長期還會與 CBU（電容備援單元） 並用。  兩大驅動： 1. 全球資料中心 GPU 用電量 CAGR +62%（2025：13,510 MW →",
+          "url": "https://x.com/QQ_Timmy/status/2104072321208320174",
+          "timestamp": "2026-09-27T12:55:07.000+08:00",
+          "interaction": 24
+        }
+      ]
+    },
+    {
+      "cluster_id": "N",
+      "label": "地緣政治 / 政策",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 507,
+      "competitors_covering": [
+        "ctee.fans",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "川普的關稅政策原本希望，逼企業把生產搬回美國，但冰島自行車商 Lauf Cycles 的案例，卻呈現相反效果。Lauf把組裝廠搬到維吉尼亞，因此可以避開最高48.5%的整車進口關稅。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0bKYSeZWxNWYHMET5RcFmkYiPb8rAJjN5QdRwT7wS6YxPgnGNnWTW1Fhk5X1Vgncpl?__cft__[0]=AZj2H9H0oATHeFsvympH5upZ0yJFhh-etiN8qXiQGlSKctNDZEL-K5lL7-BSSFBhrR9BHCQ9s3CcedNx4-i-pWOLtlIU2oACMyt1RoHU2m3aWEEW5PE5AHF-edbRRH8H590dyi786FQegww-DhViFz0dBoOP3YkuHJ4oxcJon6fs5eH1omMX2VeZjXA",
+          "timestamp": "2026-09-27T09:04:31.754714+00:00",
+          "interaction": 336
+        },
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "川普重返白宮後，一度任命盧比歐、拉特克利夫等多名對中強硬派進入核心團隊，但真正改變政策方向的轉折點，是2025年的關稅戰。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02ny1KpqeruNge4gjXgkg9kPZRRSmDcQYmMcaeR2rJen9MnFYx76khnSuanhSmqc87l?__cft__[0]=AZhAF0zBPi4cv1C-8ctEgIeOlnVYJa3egsSxu2jbQvbYoJVaoW1QgHpraiAkZHdvmRmYwBVvbsvxSy-S7OvqEUS4JiTLkh58IQTwDx8qu586EIG6hKyOsIf4uRUpVnPkW782tr482hqISD720uUm5TJGdH7q6wFHPDWA3OsmLnThytcwV9xvWET4g1Y",
+          "timestamp": "2026-09-27T09:04:31.754714+00:00",
+          "interaction": 171
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【習川會成果揭曉 雙方各自公布 哪些一樣？哪些不一樣？】\n中國國家主席習近平已結束對美訪問回到北京。\n●白宮在當地時間25日深夜發布習近平訪美的事實清單，內容聚焦美中經貿進展，包括就雙方各300億美元的非敏感商品、給予更優惠關稅待遇的建議達成共識。\n●新華社則於26日公布達成8項成果共識，包括兩國元首今年有望再會面兩次、11月舉行中美AI對話、推動300億美元對等降稅安排等。內容並未提及台灣。\n值得注意的是，美國白宮事實清單（Fact Sheet）和中方不同的是，其中列出中國承諾在2027年和2028年，向美國購買至少各1,000萬噸煤炭，以及其他採購項目。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0Si1shZMp1RNNnej7GNBhZRenaYqp4H9JK1yTsGqgj2foPeihJNQcxAYELGxxPuYzl?__tn__=%2CO",
+          "timestamp": "2026-09-27T09:01:58.391033+00:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
       "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 99,
+      "competitor_count": 4,
+      "competitor_engagement": 161,
       "competitors_covering": [
         "QQ_Timmy",
-        "HyperTechInvest"
+        "HyperTechInvest",
+        "ctee.fans"
       ],
       "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "輝達執行長黃仁勳受訪時談及加州擬議中的「億萬富豪稅」，表示如果提案獲得通過，他不介意因此多繳納數十億美元稅款。他甚至直言，自己不怕繳稅，真正害怕的是變得貧窮。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid035RcSvMnsnGd6APh5YQ2sfFAWDv1Tfo5D8iDdzY6qSrpW2Nj1ML2sZNNmksjayYR7l?__cft__[0]=AZgboqIs7dV63loS1jw2XJGa_f-pxi2vj4h2uVu919i8bqUgnz-VODueO5rYIOBjVpbiNA_4qZLeOcacweuLhgX-dOycNM13YxIalzc0UVVGt2NrWVmWSz47mtQp4ZnadW51T1PUMeQu-xxlEhn-9Fu9Im6syr5RzJsYpZ8tZ2wxqUSsIcg27-5iT6Y",
+          "timestamp": "2026-09-27T09:01:58.391033+00:00",
+          "interaction": 62
+        },
         {
           "handle": "HyperTechInvest",
           "platform": "X",
@@ -150,9 +392,9 @@
     }
   ],
   "window": {
-    "start_utc": "2026-09-27T08:32:11+08:00",
-    "end_utc": "2026-09-27T16:32:11+08:00",
-    "start_tw": "Sep 27, 08:32",
-    "end_tw": "Sep 27, 16:32"
+    "start_utc": "2026-09-27T01:04:31.754714+00:00",
+    "end_utc": "2026-09-27T09:04:31.754714+00:00",
+    "start_tw": "Sep 27, 09:04",
+    "end_tw": "Sep 27, 17:04"
   }
 }

@@ -3,12 +3,11 @@
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 8,
+      "size": 7,
       "accounts": {
         "TrendForce": 1,
         "dylan522p": 1,
         "jukan05": 3,
-        "QQ_Timmy": 1,
         "tphuang": 1,
         "HyperTechInvest": 1
       },
@@ -16,7 +15,6 @@
         "TrendForce": 22,
         "dylan522p": 141,
         "jukan05": 434,
-        "QQ_Timmy": 56,
         "tphuang": 76,
         "HyperTechInvest": 14
       }
@@ -24,37 +22,41 @@
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 5,
+      "size": 6,
       "accounts": {
         "dylan522p": 1,
         "SemiAnalysis_": 1,
         "QQ_Timmy": 2,
-        "HyperTechInvest": 1
+        "HyperTechInvest": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
         "dylan522p": 141,
         "SemiAnalysis_": 377,
         "QQ_Timmy": 50,
-        "HyperTechInvest": 49
+        "HyperTechInvest": 49,
+        "ctee.fans": 62
       }
     },
     {
       "id": "F",
       "label": "晶圓代工 / 先進製程",
-      "size": 5,
+      "size": 6,
       "accounts": {
         "SemiAnalysis_": 1,
         "jukan05": 1,
         "tengyanAI": 1,
         "statementdog": 1,
-        "HyperTechInvest": 1
+        "HyperTechInvest": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
         "SemiAnalysis_": 150,
         "jukan05": 173,
         "tengyanAI": 195,
         "statementdog": 1,
-        "HyperTechInvest": 107
+        "HyperTechInvest": 107,
+        "ctee.fans": 14
       }
     },
     {
@@ -73,14 +75,29 @@
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 2,
+      "size": 3,
       "accounts": {
         "SemiAnalysis_": 1,
-        "QQ_Timmy": 1
+        "QQ_Timmy": 1,
+        "yutinghaosfinance": 1
       },
       "engagement_by_account": {
         "SemiAnalysis_": 69,
-        "QQ_Timmy": 24
+        "QQ_Timmy": 24,
+        "yutinghaosfinance": 720
+      }
+    },
+    {
+      "id": "N",
+      "label": "地緣政治 / 政策",
+      "size": 3,
+      "accounts": {
+        "ctee.fans": 1,
+        "yutinghaosfinance": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 0,
+        "yutinghaosfinance": 507
       }
     },
     {
@@ -97,16 +114,27 @@
       }
     },
     {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
+      "id": "L",
+      "label": "總經 / Fed",
       "size": 2,
       "accounts": {
-        "QQ_Timmy": 1,
-        "HyperTechInvest": 1
+        "jukan05": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 56,
-        "HyperTechInvest": 14
+        "jukan05": 64,
+        "ctee.fans": 19
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 184
       }
     },
     {
@@ -121,6 +149,17 @@
       }
     },
     {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 164
+      }
+    },
+    {
       "id": "I",
       "label": "電源 / 電力設備",
       "size": 1,
@@ -132,14 +171,36 @@
       }
     },
     {
-      "id": "L",
-      "label": "總經 / Fed",
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
       "size": 1,
       "accounts": {
-        "jukan05": 1
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "jukan05": 64
+        "ctee.fans": 40
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 1,
+      "accounts": {
+        "HyperTechInvest": 1
+      },
+      "engagement_by_account": {
+        "HyperTechInvest": 14
+      }
+    },
+    {
+      "id": "Q",
+      "label": "機器人 / Robotics",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 12
       }
     },
     {
@@ -156,15 +217,116 @@
   ],
   "gaps": [
     {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 813,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "QQ_Timmy",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "Google DeepMind正在出現一波重量級人才外流，這批人離開後不是退休，還直接拿著DeepMind的招牌去創業。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0jk9Zt4ZY4J4UMjQr55NcwesRQ95DvjpkG1CcoypcpzVxutNJV8GTnSC5HUB9HBEgl?__cft__[0]=AZiBwLYhq1hkyjiJDL5pvJ33Zw-JBV_B5bco3NETHGp7cHyaNOD6-DCK90HAMsfqbU0xEB_z_cpC4rEu81GUFXyJ48b1Yk_rDZYYW-c0LAAVSCkxaEhrEpdNJvvbrKyFjTZYGS52CgkPK91gk43qtjjjQXiAYTxHniW4LZPPCMZ65BroW4hFFU8dtwI",
+          "timestamp": "2026-09-27T09:04:31.754714+00:00",
+          "interaction": 720
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Happy to announce that SemiAnalysis AgentX has been integrated into ModelScope, an eval framework widely used in China. We are incredibly excited that AgentX has become an industry standard & has been adopted globally, including OpenAI, Meta, Inferact, RadixArk, MiniMax, Alibaba",
+          "url": "https://x.com/SemiAnalysis_/status/2104043521699119320",
+          "timestamp": "2026-09-27T11:00:41.000+08:00",
+          "interaction": 69
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Goldman Framing the Battery Backup Unit Opportunity: $50bn by 2030  生成式 AI 資料中心的供電波動極大，機架級分散式備援電池（BBU） 不只做備援，更承擔 削峰（peak shaving）。長期還會與 CBU（電容備援單元） 並用。  兩大驅動： 1. 全球資料中心 GPU 用電量 CAGR +62%（2025：13,510 MW →",
+          "url": "https://x.com/QQ_Timmy/status/2104072321208320174",
+          "timestamp": "2026-09-27T12:55:07.000+08:00",
+          "interaction": 24
+        }
+      ]
+    },
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 6,
+      "competitor_engagement": 679,
+      "competitors_covering": [
+        "dylan522p",
+        "SemiAnalysis_",
+        "QQ_Timmy",
+        "HyperTechInvest",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "DRAMA ALERT🚨: In the YouTube comment section of the NVIDIA Chief Scientist Computer Museum panel, OpenAI Head of Jalapeno replies, saying that Jalapeno has already demonstrated on the SemiAnalysis InferenceX benchmark that Jalapeno is already running very fast (which, btw, beats",
+          "url": "https://x.com/SemiAnalysis_/status/2103922839812272220",
+          "timestamp": "2026-09-27T03:01:08.000+08:00",
+          "interaction": 377
+        },
+        {
+          "handle": "dylan522p",
+          "platform": "X",
+          "text": "Rubin HBM Despec = Nvidia cutting coke",
+          "url": "https://x.com/dylan522p/status/2103883333067485599",
+          "timestamp": "2026-09-27T00:24:09.000+08:00",
+          "interaction": 141
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "輝達執行長黃仁勳受訪時談及加州擬議中的「億萬富豪稅」，表示如果提案獲得通過，他不介意因此多繳納數十億美元稅款。他甚至直言，自己不怕繳稅，真正害怕的是變得貧窮。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid035RcSvMnsnGd6APh5YQ2sfFAWDv1Tfo5D8iDdzY6qSrpW2Nj1ML2sZNNmksjayYR7l?__cft__[0]=AZgboqIs7dV63loS1jw2XJGa_f-pxi2vj4h2uVu919i8bqUgnz-VODueO5rYIOBjVpbiNA_4qZLeOcacweuLhgX-dOycNM13YxIalzc0UVVGt2NrWVmWSz47mtQp4ZnadW51T1PUMeQu-xxlEhn-9Fu9Im6syr5RzJsYpZ8tZ2wxqUSsIcg27-5iT6Y",
+          "timestamp": "2026-09-27T09:01:58.391033+00:00",
+          "interaction": 62
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "Lisa Su turned  $AMD  from a $2B market cap company into a $1T company in just 12 years  She is the most underrated CEO in the world",
+          "url": "https://x.com/HyperTechInvest/status/2104056908952809632",
+          "timestamp": "2026-09-27T11:53:53.000+08:00",
+          "interaction": 49
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "BofA 專家訪談：KV cache、記憶體層級、模型選擇  代理式 AI（Agentic AI）愈普及，推論階段的記憶體需求會結構性上升，不只看 GPU 數量，更要看 KV cache 放哪、搬得多快。  1. 為什麼記憶體需求變大 - 上下文拉長：約 12.8 萬 token 往 100 萬 token 走。 多代理同時做事，要共用任務脈絡。 - KV",
+          "url": "https://x.com/QQ_Timmy/status/2104074232443621645",
+          "timestamp": "2026-09-27T13:02:43.000+08:00",
+          "interaction": 26
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Goldman Framing the Battery Backup Unit Opportunity: $50bn by 2030  生成式 AI 資料中心的供電波動極大，機架級分散式備援電池（BBU） 不只做備援，更承擔 削峰（peak shaving）。長期還會與 CBU（電容備援單元） 並用。  兩大驅動： 1. 全球資料中心 GPU 用電量 CAGR +62%（2025：13,510 MW →",
+          "url": "https://x.com/QQ_Timmy/status/2104072321208320174",
+          "timestamp": "2026-09-27T12:55:07.000+08:00",
+          "interaction": 24
+        }
+      ]
+    },
+    {
       "cluster_id": "A",
       "label": "記憶體 / HBM",
       "own_count": 1,
-      "competitor_count": 7,
-      "competitor_engagement": 721,
+      "competitor_count": 6,
+      "competitor_engagement": 665,
       "competitors_covering": [
         "dylan522p",
         "jukan05",
-        "QQ_Timmy",
         "tphuang",
         "HyperTechInvest"
       ],
@@ -202,14 +364,6 @@
           "interaction": 76
         },
         {
-          "handle": "QQ_Timmy",
-          "platform": "X",
-          "text": "財報狗 — 567.【財經時事放大鏡】記憶體不缺 x 功率不漲 x JEV 不work？  @statementdog    1. 記憶體：陳俊聖那句話怎麼讀 宏碁陳俊聖說「記憶體沒想像中缺」。節目認為這比較像： - 向原廠喊話：快給貨 - 或宏碁看的是 PC 規格＋自身庫存，不是全球每一種 DRAM  節目自己的供需判斷： - 明年 AI",
-          "url": "https://x.com/QQ_Timmy/status/2103764868709199924",
-          "timestamp": "2026-09-26T16:33:25.000+08:00",
-          "interaction": 56
-        },
-        {
           "handle": "jukan05",
           "platform": "X",
           "text": "I wonder when NAND controllers will start using DDR5.",
@@ -231,14 +385,15 @@
       "cluster_id": "F",
       "label": "晶圓代工 / 先進製程",
       "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 626,
+      "competitor_count": 6,
+      "competitor_engagement": 640,
       "competitors_covering": [
         "SemiAnalysis_",
         "jukan05",
         "tengyanAI",
         "statementdog",
-        "HyperTechInvest"
+        "HyperTechInvest",
+        "ctee.fans"
       ],
       "sample_posts": [
         {
@@ -274,6 +429,14 @@
           "interaction": 107
         },
         {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "惠來產業園區位處中彰產業核心軸線，鄰近中部科學園區、台中精密機械科技創新園區及台中工業區，並可快速串聯台74線、高速公路與高鐵台中站，具備交通、物流及產業聚落優勢。\n#台積電\n \n#惠來產業園區",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02fhTLmJjhZPKvzJuLDwtfA6UECcFT7okqzcmDGamyebd2eJepnUwKj85wYYCFaR6hl?__cft__[0]=AZgG507bxAl-Y9SF42T8ciV67asTP0EVcN6JSX63QCD4bPrB-J5NjXx-d_SHg9-KNaon-im_B9LP8TuoQBPsAjNoDj5ey_EKWDtGHG_BZamsJV1WG6gLrJOZwB9jse4tNzYYzCxQB7mmqR0ILlKVds_w1qa31s2YOvim9kbvHV3XwjUJ8G_VHuaQBf0",
+          "timestamp": "2026-09-27T09:01:58.391033+00:00",
+          "interaction": 14
+        },
+        {
           "handle": "statementdog",
           "platform": "X",
           "text": "San Fu Chemical’s (4755 TT) new production line for CoWoS photoresist stripper passed qualification this year, the Economic Daily News reports. It began shipping its stripper for wafer-level multi-chip modules (WMCM) in July. Its SoIC etchant passed qualification in April–May and",
@@ -284,57 +447,39 @@
       ]
     },
     {
-      "cluster_id": "B",
-      "label": "GPU / AI 加速器",
+      "cluster_id": "N",
+      "label": "地緣政治 / 政策",
       "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 617,
+      "competitor_count": 3,
+      "competitor_engagement": 507,
       "competitors_covering": [
-        "dylan522p",
-        "SemiAnalysis_",
-        "QQ_Timmy",
-        "HyperTechInvest"
+        "ctee.fans",
+        "yutinghaosfinance"
       ],
       "sample_posts": [
         {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "DRAMA ALERT🚨: In the YouTube comment section of the NVIDIA Chief Scientist Computer Museum panel, OpenAI Head of Jalapeno replies, saying that Jalapeno has already demonstrated on the SemiAnalysis InferenceX benchmark that Jalapeno is already running very fast (which, btw, beats",
-          "url": "https://x.com/SemiAnalysis_/status/2103922839812272220",
-          "timestamp": "2026-09-27T03:01:08.000+08:00",
-          "interaction": 377
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "川普的關稅政策原本希望，逼企業把生產搬回美國，但冰島自行車商 Lauf Cycles 的案例，卻呈現相反效果。Lauf把組裝廠搬到維吉尼亞，因此可以避開最高48.5%的整車進口關稅。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0bKYSeZWxNWYHMET5RcFmkYiPb8rAJjN5QdRwT7wS6YxPgnGNnWTW1Fhk5X1Vgncpl?__cft__[0]=AZj2H9H0oATHeFsvympH5upZ0yJFhh-etiN8qXiQGlSKctNDZEL-K5lL7-BSSFBhrR9BHCQ9s3CcedNx4-i-pWOLtlIU2oACMyt1RoHU2m3aWEEW5PE5AHF-edbRRH8H590dyi786FQegww-DhViFz0dBoOP3YkuHJ4oxcJon6fs5eH1omMX2VeZjXA",
+          "timestamp": "2026-09-27T09:04:31.754714+00:00",
+          "interaction": 336
         },
         {
-          "handle": "dylan522p",
-          "platform": "X",
-          "text": "Rubin HBM Despec = Nvidia cutting coke",
-          "url": "https://x.com/dylan522p/status/2103883333067485599",
-          "timestamp": "2026-09-27T00:24:09.000+08:00",
-          "interaction": 141
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "川普重返白宮後，一度任命盧比歐、拉特克利夫等多名對中強硬派進入核心團隊，但真正改變政策方向的轉折點，是2025年的關稅戰。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02ny1KpqeruNge4gjXgkg9kPZRRSmDcQYmMcaeR2rJen9MnFYx76khnSuanhSmqc87l?__cft__[0]=AZhAF0zBPi4cv1C-8ctEgIeOlnVYJa3egsSxu2jbQvbYoJVaoW1QgHpraiAkZHdvmRmYwBVvbsvxSy-S7OvqEUS4JiTLkh58IQTwDx8qu586EIG6hKyOsIf4uRUpVnPkW782tr482hqISD720uUm5TJGdH7q6wFHPDWA3OsmLnThytcwV9xvWET4g1Y",
+          "timestamp": "2026-09-27T09:04:31.754714+00:00",
+          "interaction": 171
         },
         {
-          "handle": "HyperTechInvest",
-          "platform": "X",
-          "text": "Lisa Su turned  $AMD  from a $2B market cap company into a $1T company in just 12 years  She is the most underrated CEO in the world",
-          "url": "https://x.com/HyperTechInvest/status/2104056908952809632",
-          "timestamp": "2026-09-27T11:53:53.000+08:00",
-          "interaction": 49
-        },
-        {
-          "handle": "QQ_Timmy",
-          "platform": "X",
-          "text": "BofA 專家訪談：KV cache、記憶體層級、模型選擇  代理式 AI（Agentic AI）愈普及，推論階段的記憶體需求會結構性上升，不只看 GPU 數量，更要看 KV cache 放哪、搬得多快。  1. 為什麼記憶體需求變大 - 上下文拉長：約 12.8 萬 token 往 100 萬 token 走。 多代理同時做事，要共用任務脈絡。 - KV",
-          "url": "https://x.com/QQ_Timmy/status/2104074232443621645",
-          "timestamp": "2026-09-27T13:02:43.000+08:00",
-          "interaction": 26
-        },
-        {
-          "handle": "QQ_Timmy",
-          "platform": "X",
-          "text": "Goldman Framing the Battery Backup Unit Opportunity: $50bn by 2030  生成式 AI 資料中心的供電波動極大，機架級分散式備援電池（BBU） 不只做備援，更承擔 削峰（peak shaving）。長期還會與 CBU（電容備援單元） 並用。  兩大驅動： 1. 全球資料中心 GPU 用電量 CAGR +62%（2025：13,510 MW →",
-          "url": "https://x.com/QQ_Timmy/status/2104072321208320174",
-          "timestamp": "2026-09-27T12:55:07.000+08:00",
-          "interaction": 24
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【習川會成果揭曉 雙方各自公布 哪些一樣？哪些不一樣？】\n中國國家主席習近平已結束對美訪問回到北京。\n●白宮在當地時間25日深夜發布習近平訪美的事實清單，內容聚焦美中經貿進展，包括就雙方各300億美元的非敏感商品、給予更優惠關稅待遇的建議達成共識。\n●新華社則於26日公布達成8項成果共識，包括兩國元首今年有望再會面兩次、11月舉行中美AI對話、推動300億美元對等降稅安排等。內容並未提及台灣。\n值得注意的是，美國白宮事實清單（Fact Sheet）和中方不同的是，其中列出中國承諾在2027年和2028年，向美國購買至少各1,000萬噸煤炭，以及其他採購項目。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0Si1shZMp1RNNnej7GNBhZRenaYqp4H9JK1yTsGqgj2foPeihJNQcxAYELGxxPuYzl?__tn__=%2CO",
+          "timestamp": "2026-09-27T09:01:58.391033+00:00",
+          "interaction": 0
         }
       ]
     },
@@ -386,15 +531,116 @@
   ],
   "suggested_entry_points": [
     {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 813,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "QQ_Timmy",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "Google DeepMind正在出現一波重量級人才外流，這批人離開後不是退休，還直接拿著DeepMind的招牌去創業。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0jk9Zt4ZY4J4UMjQr55NcwesRQ95DvjpkG1CcoypcpzVxutNJV8GTnSC5HUB9HBEgl?__cft__[0]=AZiBwLYhq1hkyjiJDL5pvJ33Zw-JBV_B5bco3NETHGp7cHyaNOD6-DCK90HAMsfqbU0xEB_z_cpC4rEu81GUFXyJ48b1Yk_rDZYYW-c0LAAVSCkxaEhrEpdNJvvbrKyFjTZYGS52CgkPK91gk43qtjjjQXiAYTxHniW4LZPPCMZ65BroW4hFFU8dtwI",
+          "timestamp": "2026-09-27T09:04:31.754714+00:00",
+          "interaction": 720
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Happy to announce that SemiAnalysis AgentX has been integrated into ModelScope, an eval framework widely used in China. We are incredibly excited that AgentX has become an industry standard & has been adopted globally, including OpenAI, Meta, Inferact, RadixArk, MiniMax, Alibaba",
+          "url": "https://x.com/SemiAnalysis_/status/2104043521699119320",
+          "timestamp": "2026-09-27T11:00:41.000+08:00",
+          "interaction": 69
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Goldman Framing the Battery Backup Unit Opportunity: $50bn by 2030  生成式 AI 資料中心的供電波動極大，機架級分散式備援電池（BBU） 不只做備援，更承擔 削峰（peak shaving）。長期還會與 CBU（電容備援單元） 並用。  兩大驅動： 1. 全球資料中心 GPU 用電量 CAGR +62%（2025：13,510 MW →",
+          "url": "https://x.com/QQ_Timmy/status/2104072321208320174",
+          "timestamp": "2026-09-27T12:55:07.000+08:00",
+          "interaction": 24
+        }
+      ]
+    },
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 6,
+      "competitor_engagement": 679,
+      "competitors_covering": [
+        "dylan522p",
+        "SemiAnalysis_",
+        "QQ_Timmy",
+        "HyperTechInvest",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "DRAMA ALERT🚨: In the YouTube comment section of the NVIDIA Chief Scientist Computer Museum panel, OpenAI Head of Jalapeno replies, saying that Jalapeno has already demonstrated on the SemiAnalysis InferenceX benchmark that Jalapeno is already running very fast (which, btw, beats",
+          "url": "https://x.com/SemiAnalysis_/status/2103922839812272220",
+          "timestamp": "2026-09-27T03:01:08.000+08:00",
+          "interaction": 377
+        },
+        {
+          "handle": "dylan522p",
+          "platform": "X",
+          "text": "Rubin HBM Despec = Nvidia cutting coke",
+          "url": "https://x.com/dylan522p/status/2103883333067485599",
+          "timestamp": "2026-09-27T00:24:09.000+08:00",
+          "interaction": 141
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "輝達執行長黃仁勳受訪時談及加州擬議中的「億萬富豪稅」，表示如果提案獲得通過，他不介意因此多繳納數十億美元稅款。他甚至直言，自己不怕繳稅，真正害怕的是變得貧窮。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid035RcSvMnsnGd6APh5YQ2sfFAWDv1Tfo5D8iDdzY6qSrpW2Nj1ML2sZNNmksjayYR7l?__cft__[0]=AZgboqIs7dV63loS1jw2XJGa_f-pxi2vj4h2uVu919i8bqUgnz-VODueO5rYIOBjVpbiNA_4qZLeOcacweuLhgX-dOycNM13YxIalzc0UVVGt2NrWVmWSz47mtQp4ZnadW51T1PUMeQu-xxlEhn-9Fu9Im6syr5RzJsYpZ8tZ2wxqUSsIcg27-5iT6Y",
+          "timestamp": "2026-09-27T09:01:58.391033+00:00",
+          "interaction": 62
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "Lisa Su turned  $AMD  from a $2B market cap company into a $1T company in just 12 years  She is the most underrated CEO in the world",
+          "url": "https://x.com/HyperTechInvest/status/2104056908952809632",
+          "timestamp": "2026-09-27T11:53:53.000+08:00",
+          "interaction": 49
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "BofA 專家訪談：KV cache、記憶體層級、模型選擇  代理式 AI（Agentic AI）愈普及，推論階段的記憶體需求會結構性上升，不只看 GPU 數量，更要看 KV cache 放哪、搬得多快。  1. 為什麼記憶體需求變大 - 上下文拉長：約 12.8 萬 token 往 100 萬 token 走。 多代理同時做事，要共用任務脈絡。 - KV",
+          "url": "https://x.com/QQ_Timmy/status/2104074232443621645",
+          "timestamp": "2026-09-27T13:02:43.000+08:00",
+          "interaction": 26
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Goldman Framing the Battery Backup Unit Opportunity: $50bn by 2030  生成式 AI 資料中心的供電波動極大，機架級分散式備援電池（BBU） 不只做備援，更承擔 削峰（peak shaving）。長期還會與 CBU（電容備援單元） 並用。  兩大驅動： 1. 全球資料中心 GPU 用電量 CAGR +62%（2025：13,510 MW →",
+          "url": "https://x.com/QQ_Timmy/status/2104072321208320174",
+          "timestamp": "2026-09-27T12:55:07.000+08:00",
+          "interaction": 24
+        }
+      ]
+    },
+    {
       "cluster_id": "A",
       "label": "記憶體 / HBM",
       "own_count": 1,
-      "competitor_count": 7,
-      "competitor_engagement": 721,
+      "competitor_count": 6,
+      "competitor_engagement": 665,
       "competitors_covering": [
         "dylan522p",
         "jukan05",
-        "QQ_Timmy",
         "tphuang",
         "HyperTechInvest"
       ],
@@ -432,14 +678,6 @@
           "interaction": 76
         },
         {
-          "handle": "QQ_Timmy",
-          "platform": "X",
-          "text": "財報狗 — 567.【財經時事放大鏡】記憶體不缺 x 功率不漲 x JEV 不work？  @statementdog    1. 記憶體：陳俊聖那句話怎麼讀 宏碁陳俊聖說「記憶體沒想像中缺」。節目認為這比較像： - 向原廠喊話：快給貨 - 或宏碁看的是 PC 規格＋自身庫存，不是全球每一種 DRAM  節目自己的供需判斷： - 明年 AI",
-          "url": "https://x.com/QQ_Timmy/status/2103764868709199924",
-          "timestamp": "2026-09-26T16:33:25.000+08:00",
-          "interaction": 56
-        },
-        {
           "handle": "jukan05",
           "platform": "X",
           "text": "I wonder when NAND controllers will start using DDR5.",
@@ -461,14 +699,15 @@
       "cluster_id": "F",
       "label": "晶圓代工 / 先進製程",
       "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 626,
+      "competitor_count": 6,
+      "competitor_engagement": 640,
       "competitors_covering": [
         "SemiAnalysis_",
         "jukan05",
         "tengyanAI",
         "statementdog",
-        "HyperTechInvest"
+        "HyperTechInvest",
+        "ctee.fans"
       ],
       "sample_posts": [
         {
@@ -504,6 +743,14 @@
           "interaction": 107
         },
         {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "惠來產業園區位處中彰產業核心軸線，鄰近中部科學園區、台中精密機械科技創新園區及台中工業區，並可快速串聯台74線、高速公路與高鐵台中站，具備交通、物流及產業聚落優勢。\n#台積電\n \n#惠來產業園區",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02fhTLmJjhZPKvzJuLDwtfA6UECcFT7okqzcmDGamyebd2eJepnUwKj85wYYCFaR6hl?__cft__[0]=AZgG507bxAl-Y9SF42T8ciV67asTP0EVcN6JSX63QCD4bPrB-J5NjXx-d_SHg9-KNaon-im_B9LP8TuoQBPsAjNoDj5ey_EKWDtGHG_BZamsJV1WG6gLrJOZwB9jse4tNzYYzCxQB7mmqR0ILlKVds_w1qa31s2YOvim9kbvHV3XwjUJ8G_VHuaQBf0",
+          "timestamp": "2026-09-27T09:01:58.391033+00:00",
+          "interaction": 14
+        },
+        {
           "handle": "statementdog",
           "platform": "X",
           "text": "San Fu Chemical’s (4755 TT) new production line for CoWoS photoresist stripper passed qualification this year, the Economic Daily News reports. It began shipping its stripper for wafer-level multi-chip modules (WMCM) in July. Its SoIC etchant passed qualification in April–May and",
@@ -514,110 +761,47 @@
       ]
     },
     {
-      "cluster_id": "B",
-      "label": "GPU / AI 加速器",
+      "cluster_id": "N",
+      "label": "地緣政治 / 政策",
       "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 617,
+      "competitor_count": 3,
+      "competitor_engagement": 507,
       "competitors_covering": [
-        "dylan522p",
-        "SemiAnalysis_",
-        "QQ_Timmy",
-        "HyperTechInvest"
+        "ctee.fans",
+        "yutinghaosfinance"
       ],
       "sample_posts": [
         {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "DRAMA ALERT🚨: In the YouTube comment section of the NVIDIA Chief Scientist Computer Museum panel, OpenAI Head of Jalapeno replies, saying that Jalapeno has already demonstrated on the SemiAnalysis InferenceX benchmark that Jalapeno is already running very fast (which, btw, beats",
-          "url": "https://x.com/SemiAnalysis_/status/2103922839812272220",
-          "timestamp": "2026-09-27T03:01:08.000+08:00",
-          "interaction": 377
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "川普的關稅政策原本希望，逼企業把生產搬回美國，但冰島自行車商 Lauf Cycles 的案例，卻呈現相反效果。Lauf把組裝廠搬到維吉尼亞，因此可以避開最高48.5%的整車進口關稅。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0bKYSeZWxNWYHMET5RcFmkYiPb8rAJjN5QdRwT7wS6YxPgnGNnWTW1Fhk5X1Vgncpl?__cft__[0]=AZj2H9H0oATHeFsvympH5upZ0yJFhh-etiN8qXiQGlSKctNDZEL-K5lL7-BSSFBhrR9BHCQ9s3CcedNx4-i-pWOLtlIU2oACMyt1RoHU2m3aWEEW5PE5AHF-edbRRH8H590dyi786FQegww-DhViFz0dBoOP3YkuHJ4oxcJon6fs5eH1omMX2VeZjXA",
+          "timestamp": "2026-09-27T09:04:31.754714+00:00",
+          "interaction": 336
         },
         {
-          "handle": "dylan522p",
-          "platform": "X",
-          "text": "Rubin HBM Despec = Nvidia cutting coke",
-          "url": "https://x.com/dylan522p/status/2103883333067485599",
-          "timestamp": "2026-09-27T00:24:09.000+08:00",
-          "interaction": 141
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "川普重返白宮後，一度任命盧比歐、拉特克利夫等多名對中強硬派進入核心團隊，但真正改變政策方向的轉折點，是2025年的關稅戰。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02ny1KpqeruNge4gjXgkg9kPZRRSmDcQYmMcaeR2rJen9MnFYx76khnSuanhSmqc87l?__cft__[0]=AZhAF0zBPi4cv1C-8ctEgIeOlnVYJa3egsSxu2jbQvbYoJVaoW1QgHpraiAkZHdvmRmYwBVvbsvxSy-S7OvqEUS4JiTLkh58IQTwDx8qu586EIG6hKyOsIf4uRUpVnPkW782tr482hqISD720uUm5TJGdH7q6wFHPDWA3OsmLnThytcwV9xvWET4g1Y",
+          "timestamp": "2026-09-27T09:04:31.754714+00:00",
+          "interaction": 171
         },
         {
-          "handle": "HyperTechInvest",
-          "platform": "X",
-          "text": "Lisa Su turned  $AMD  from a $2B market cap company into a $1T company in just 12 years  She is the most underrated CEO in the world",
-          "url": "https://x.com/HyperTechInvest/status/2104056908952809632",
-          "timestamp": "2026-09-27T11:53:53.000+08:00",
-          "interaction": 49
-        },
-        {
-          "handle": "QQ_Timmy",
-          "platform": "X",
-          "text": "BofA 專家訪談：KV cache、記憶體層級、模型選擇  代理式 AI（Agentic AI）愈普及，推論階段的記憶體需求會結構性上升，不只看 GPU 數量，更要看 KV cache 放哪、搬得多快。  1. 為什麼記憶體需求變大 - 上下文拉長：約 12.8 萬 token 往 100 萬 token 走。 多代理同時做事，要共用任務脈絡。 - KV",
-          "url": "https://x.com/QQ_Timmy/status/2104074232443621645",
-          "timestamp": "2026-09-27T13:02:43.000+08:00",
-          "interaction": 26
-        },
-        {
-          "handle": "QQ_Timmy",
-          "platform": "X",
-          "text": "Goldman Framing the Battery Backup Unit Opportunity: $50bn by 2030  生成式 AI 資料中心的供電波動極大，機架級分散式備援電池（BBU） 不只做備援，更承擔 削峰（peak shaving）。長期還會與 CBU（電容備援單元） 並用。  兩大驅動： 1. 全球資料中心 GPU 用電量 CAGR +62%（2025：13,510 MW →",
-          "url": "https://x.com/QQ_Timmy/status/2104072321208320174",
-          "timestamp": "2026-09-27T12:55:07.000+08:00",
-          "interaction": 24
-        }
-      ]
-    },
-    {
-      "cluster_id": "K",
-      "label": "AI 模型 / 應用",
-      "own_count": 0,
-      "competitor_count": 4,
-      "competitor_engagement": 465,
-      "competitors_covering": [
-        "SemiAnalysis_",
-        "HyperTechInvest"
-      ],
-      "sample_posts": [
-        {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "DRAMA ALERT🚨: In the YouTube comment section of the NVIDIA Chief Scientist Computer Museum panel, OpenAI Head of Jalapeno replies, saying that Jalapeno has already demonstrated on the SemiAnalysis InferenceX benchmark that Jalapeno is already running very fast (which, btw, beats",
-          "url": "https://x.com/SemiAnalysis_/status/2103922839812272220",
-          "timestamp": "2026-09-27T03:01:08.000+08:00",
-          "interaction": 377
-        },
-        {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "Happy to announce that SemiAnalysis AgentX has been integrated into ModelScope, an eval framework widely used in China. We are incredibly excited that AgentX has become an industry standard & has been adopted globally, including OpenAI, Meta, Inferact, RadixArk, MiniMax, Alibaba",
-          "url": "https://x.com/SemiAnalysis_/status/2104043521699119320",
-          "timestamp": "2026-09-27T11:00:41.000+08:00",
-          "interaction": 69
-        },
-        {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "During clustermax testing we run two jobs via torchtitan: llama 3.1 8B pretraining on the C4 dataset with FSDP, and GPT-OSS MoE training via torchtitan with expert parallelism. (2/3)",
-          "url": "https://x.com/SemiAnalysis_/status/2103983077676486949",
-          "timestamp": "2026-09-27T07:00:30.000+08:00",
-          "interaction": 10
-        },
-        {
-          "handle": "HyperTechInvest",
-          "platform": "X",
-          "text": "I was so excited to hear that Claude had stopped being cringey  So I said, alright, let’s try this Opus 5.5  First phrase I get:  “Three takeover bids, all dead.”  For fuck’s sake, was this trained on an edgy teen?",
-          "url": "https://x.com/HyperTechInvest/status/2103804852518445253",
-          "timestamp": "2026-09-26T19:12:18.000+08:00",
-          "interaction": 9
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【習川會成果揭曉 雙方各自公布 哪些一樣？哪些不一樣？】\n中國國家主席習近平已結束對美訪問回到北京。\n●白宮在當地時間25日深夜發布習近平訪美的事實清單，內容聚焦美中經貿進展，包括就雙方各300億美元的非敏感商品、給予更優惠關稅待遇的建議達成共識。\n●新華社則於26日公布達成8項成果共識，包括兩國元首今年有望再會面兩次、11月舉行中美AI對話、推動300億美元對等降稅安排等。內容並未提及台灣。\n值得注意的是，美國白宮事實清單（Fact Sheet）和中方不同的是，其中列出中國承諾在2027年和2028年，向美國購買至少各1,000萬噸煤炭，以及其他採購項目。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0Si1shZMp1RNNnej7GNBhZRenaYqp4H9JK1yTsGqgj2foPeihJNQcxAYELGxxPuYzl?__tn__=%2CO",
+          "timestamp": "2026-09-27T09:01:58.391033+00:00",
+          "interaction": 0
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-09-26T16:32:11+08:00",
-    "end_utc": "2026-09-27T16:32:11+08:00",
-    "start_tw": "Sep 26, 16:32",
-    "end_tw": "Sep 27, 16:32"
+    "start_utc": "2026-09-26T09:04:31.754714+00:00",
+    "end_utc": "2026-09-27T09:04:31.754714+00:00",
+    "start_tw": "Sep 26, 17:04",
+    "end_tw": "Sep 27, 17:04"
   }
 }
