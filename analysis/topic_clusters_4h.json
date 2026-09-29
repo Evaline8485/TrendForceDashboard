@@ -1,45 +1,471 @@
 {
   "clusters": [
     {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 1,
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 5,
       "accounts": {
-        "jukan05": 1
+        "QQ_Timmy": 5
       },
       "engagement_by_account": {
-        "jukan05": 31
+        "QQ_Timmy": 63
       }
     },
     {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 1,
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 4,
       "accounts": {
-        "FT": 1
+        "QQ_Timmy": 4
       },
       "engagement_by_account": {
-        "FT": 53
+        "QQ_Timmy": 26
       }
     },
     {
       "id": "F",
       "label": "晶圓代工 / 先進製程",
-      "size": 1,
+      "size": 4,
       "accounts": {
-        "TrendForce": 1
+        "jukan05": 1,
+        "QQ_Timmy": 3
       },
       "engagement_by_account": {
-        "TrendForce": 4
+        "jukan05": 157,
+        "QQ_Timmy": 36
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 3,
+      "accounts": {
+        "QQ_Timmy": 3
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 40
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 2,
+      "accounts": {
+        "QQ_Timmy": 2
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 41
+      }
+    },
+    {
+      "id": "G",
+      "label": "IC 設計",
+      "size": 2,
+      "accounts": {
+        "QQ_Timmy": 2
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 33
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 2,
+      "accounts": {
+        "QQ_Timmy": 1,
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 26,
+        "statementdog": 0
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 2,
+      "accounts": {
+        "QQ_Timmy": 2
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 39
+      }
+    },
+    {
+      "id": "Q",
+      "label": "機器人 / Robotics",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 6
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 193,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Taiwanese media report that TSMC is looking to build additional semiconductor fabs in Texas, alongside its Arizona operations. The proposed project would include six advanced fabs, with total investment potentially exceeding that in Arizona.",
+          "url": "https://x.com/jukan05/status/2104821869690163581",
+          "timestamp": "2026-09-29T14:33:34.000+08:00",
+          "interaction": 157
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "聯發科（ https:// 2454.TW）  當前辯論：EMIB-T 夠不夠？ 市場擔心 Intel EMIB-T 基板成為 2028 Humufish（TPU v9）瓶頸。 - 摩開始估 Google 需求可支撐 300 萬顆，但 2028 EMIB-T 基板僅約 200 萬片、約 4–4.5 萬片 12 吋當量。 - 這與 Digitimes「Google 因良率落後考慮 CoWoS 備援」相符。",
+          "url": "https://x.com/QQ_Timmy/status/2104860460231389519",
+          "timestamp": "2026-09-29T17:06:54.000+08:00",
+          "interaction": 18
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "台積電傳擴大美國製造，評估德州建第二園區  半導體設備業界傳出，台積電擬在亞利桑那州之後啟動美國第二園區，再蓋六座先進晶圓廠，達拉斯呼聲高。總投資額估將超越亞利桑那州的2,650億美元，串起「美南半導體雙核走廊」。截稿前台積電尚未回應。",
+          "url": "https://x.com/QQ_Timmy/status/2104829917909373120",
+          "timestamp": "2026-09-29T15:05:32.000+08:00",
+          "interaction": 11
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Disco（6146）  SMBC日興將Disco評級由「中立」上調至「優於大盤」，目標價由81,000日圓下修至68,000日圓（上漲空間約25%）。理由是股價自6月高點已跌約40%，本益比已充分修正，風險報酬改善。  HBM（高頻寬記憶體）與先進封裝相關資本支出仍維持高檔，這將持續帶動 Disco",
+          "url": "https://x.com/QQ_Timmy/status/2104822171952640375",
+          "timestamp": "2026-09-29T14:34:46.000+08:00",
+          "interaction": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 63,
+      "competitors_covering": [
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "聯發科（ https:// 2454.TW）  當前辯論：EMIB-T 夠不夠？ 市場擔心 Intel EMIB-T 基板成為 2028 Humufish（TPU v9）瓶頸。 - 摩開始估 Google 需求可支撐 300 萬顆，但 2028 EMIB-T 基板僅約 200 萬片、約 4–4.5 萬片 12 吋當量。 - 這與 Digitimes「Google 因良率落後考慮 CoWoS 備援」相符。",
+          "url": "https://x.com/QQ_Timmy/status/2104860460231389519",
+          "timestamp": "2026-09-29T17:06:54.000+08:00",
+          "interaction": 18
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "現在的資本支出熱潮，不是全面景氣復甦，而是高度集中在「資料中心 + 半導體」。  1. 資料中心最多 2026 年 capex 年增約 92%，2025–29 年複合成長率約 43%。 而且 2026 年的支出已經來到前一次高峰的 192%，等於遠超舊高。  2. 半導體緊接在後 2026 年年增約 57%，中期 CAGR 約 29%。 2026",
+          "url": "https://x.com/QQ_Timmy/status/2104853422625493374",
+          "timestamp": "2026-09-29T16:38:56.000+08:00",
+          "interaction": 17
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "信驊 ASPEED（5274）  公司定位 信驊是全球 BMC（基板管理控制器）龍頭，專做伺服器遠端監控、管理晶片，不碰 GPU。  核心產品還包含 SMC／Bridge IC、PFR 安全晶片、I/O Expander。2015 年併購博通 Emulex Pilot 後拿下市佔領先，現在市佔約 70% 到 80%。  主要客戶是 AWS、Google、Meta、Microsoft",
+          "url": "https://x.com/QQ_Timmy/status/2104855406019596327",
+          "timestamp": "2026-09-29T16:46:49.000+08:00",
+          "interaction": 15
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Disco（6146）  SMBC日興將Disco評級由「中立」上調至「優於大盤」，目標價由81,000日圓下修至68,000日圓（上漲空間約25%）。理由是股價自6月高點已跌約40%，本益比已充分修正，風險報酬改善。  HBM（高頻寬記憶體）與先進封裝相關資本支出仍維持高檔，這將持續帶動 Disco",
+          "url": "https://x.com/QQ_Timmy/status/2104822171952640375",
+          "timestamp": "2026-09-29T14:34:46.000+08:00",
+          "interaction": 7
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "太陽誘電（6976）於2026年9月29日與TDK簽署業務提攜基本合意書。 雙方將以AI資料中心及實體AI所需最先端MLCC、電感器等電子零件之共同開發為主軸，並研議製造、採購合作，以及未來資本提攜可能性。",
+          "url": "https://x.com/QQ_Timmy/status/2104866219237290371",
+          "timestamp": "2026-09-29T17:29:47.000+08:00",
+          "interaction": 6
+        }
+      ]
+    },
+    {
+      "cluster_id": "C",
+      "label": "ASIC / 自研晶片",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 40,
+      "competitors_covering": [
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "聯發科（ https:// 2454.TW）  當前辯論：EMIB-T 夠不夠？ 市場擔心 Intel EMIB-T 基板成為 2028 Humufish（TPU v9）瓶頸。 - 摩開始估 Google 需求可支撐 300 萬顆，但 2028 EMIB-T 基板僅約 200 萬片、約 4–4.5 萬片 12 吋當量。 - 這與 Digitimes「Google 因良率落後考慮 CoWoS 備援」相符。",
+          "url": "https://x.com/QQ_Timmy/status/2104860460231389519",
+          "timestamp": "2026-09-29T17:06:54.000+08:00",
+          "interaction": 18
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "信驊 ASPEED（5274）  公司定位 信驊是全球 BMC（基板管理控制器）龍頭，專做伺服器遠端監控、管理晶片，不碰 GPU。  核心產品還包含 SMC／Bridge IC、PFR 安全晶片、I/O Expander。2015 年併購博通 Emulex Pilot 後拿下市佔領先，現在市佔約 70% 到 80%。  主要客戶是 AWS、Google、Meta、Microsoft",
+          "url": "https://x.com/QQ_Timmy/status/2104855406019596327",
+          "timestamp": "2026-09-29T16:46:49.000+08:00",
+          "interaction": 15
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Toppan Holdings 與 Broadcom 合資的 Advanced Substrate Technologies（AST），2026年9月29日宣布新加坡首座高階 FC-BGA（覆晶球柵陣列）基板廠正式開幕，也是 Toppan 在日本以外的第一座同類工廠。廠址位於裕廊湖區，面積約9.5萬平方米，較原訂時程提早約三個月。  FC-BGA",
+          "url": "https://x.com/QQ_Timmy/status/2104867243662172253",
+          "timestamp": "2026-09-29T17:33:52.000+08:00",
+          "interaction": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 26,
+      "competitors_covering": [
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "三星集團六家公司宣布，合計向美國 AI 基礎設施企業 Helix Digital Infrastructure 投資 10 億美元。三星電子出資 5 億美元，三星物產、SDS、SDI、人壽與火災海上保險共出資 5 億美元，並成為 Helix 創始投資人。  Helix 由 KKR 於 2026 年 6 月成立，由前 AWS 執行長 Adam Selipsky",
+          "url": "https://x.com/QQ_Timmy/status/2104832248969367993",
+          "timestamp": "2026-09-29T15:14:48.000+08:00",
+          "interaction": 8
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "母公司皆為 三星電機 / Samsung Electro-Mechanics（韓股 009150）。  一、新設施投資等  https:// dart.fss.or.kr/dsaf001/main.d o?rcpNo=20260928800810 … 2026年9月28日",
+          "url": "https://x.com/QQ_Timmy/status/2104834993872855226",
+          "timestamp": "2026-09-29T15:25:43.000+08:00",
+          "interaction": 7
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Disco（6146）  SMBC日興將Disco評級由「中立」上調至「優於大盤」，目標價由81,000日圓下修至68,000日圓（上漲空間約25%）。理由是股價自6月高點已跌約40%，本益比已充分修正，風險報酬改善。  HBM（高頻寬記憶體）與先進封裝相關資本支出仍維持高檔，這將持續帶動 Disco",
+          "url": "https://x.com/QQ_Timmy/status/2104822171952640375",
+          "timestamp": "2026-09-29T14:34:46.000+08:00",
+          "interaction": 7
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "長鑫科技 CXMT（688825）  投資計畫",
+          "url": "https://x.com/QQ_Timmy/status/2104871052753129722",
+          "timestamp": "2026-09-29T17:49:00.000+08:00",
+          "interaction": 4
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 193,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Taiwanese media report that TSMC is looking to build additional semiconductor fabs in Texas, alongside its Arizona operations. The proposed project would include six advanced fabs, with total investment potentially exceeding that in Arizona.",
+          "url": "https://x.com/jukan05/status/2104821869690163581",
+          "timestamp": "2026-09-29T14:33:34.000+08:00",
+          "interaction": 157
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "聯發科（ https:// 2454.TW）  當前辯論：EMIB-T 夠不夠？ 市場擔心 Intel EMIB-T 基板成為 2028 Humufish（TPU v9）瓶頸。 - 摩開始估 Google 需求可支撐 300 萬顆，但 2028 EMIB-T 基板僅約 200 萬片、約 4–4.5 萬片 12 吋當量。 - 這與 Digitimes「Google 因良率落後考慮 CoWoS 備援」相符。",
+          "url": "https://x.com/QQ_Timmy/status/2104860460231389519",
+          "timestamp": "2026-09-29T17:06:54.000+08:00",
+          "interaction": 18
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "台積電傳擴大美國製造，評估德州建第二園區  半導體設備業界傳出，台積電擬在亞利桑那州之後啟動美國第二園區，再蓋六座先進晶圓廠，達拉斯呼聲高。總投資額估將超越亞利桑那州的2,650億美元，串起「美南半導體雙核走廊」。截稿前台積電尚未回應。",
+          "url": "https://x.com/QQ_Timmy/status/2104829917909373120",
+          "timestamp": "2026-09-29T15:05:32.000+08:00",
+          "interaction": 11
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Disco（6146）  SMBC日興將Disco評級由「中立」上調至「優於大盤」，目標價由81,000日圓下修至68,000日圓（上漲空間約25%）。理由是股價自6月高點已跌約40%，本益比已充分修正，風險報酬改善。  HBM（高頻寬記憶體）與先進封裝相關資本支出仍維持高檔，這將持續帶動 Disco",
+          "url": "https://x.com/QQ_Timmy/status/2104822171952640375",
+          "timestamp": "2026-09-29T14:34:46.000+08:00",
+          "interaction": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 63,
+      "competitors_covering": [
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "聯發科（ https:// 2454.TW）  當前辯論：EMIB-T 夠不夠？ 市場擔心 Intel EMIB-T 基板成為 2028 Humufish（TPU v9）瓶頸。 - 摩開始估 Google 需求可支撐 300 萬顆，但 2028 EMIB-T 基板僅約 200 萬片、約 4–4.5 萬片 12 吋當量。 - 這與 Digitimes「Google 因良率落後考慮 CoWoS 備援」相符。",
+          "url": "https://x.com/QQ_Timmy/status/2104860460231389519",
+          "timestamp": "2026-09-29T17:06:54.000+08:00",
+          "interaction": 18
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "現在的資本支出熱潮，不是全面景氣復甦，而是高度集中在「資料中心 + 半導體」。  1. 資料中心最多 2026 年 capex 年增約 92%，2025–29 年複合成長率約 43%。 而且 2026 年的支出已經來到前一次高峰的 192%，等於遠超舊高。  2. 半導體緊接在後 2026 年年增約 57%，中期 CAGR 約 29%。 2026",
+          "url": "https://x.com/QQ_Timmy/status/2104853422625493374",
+          "timestamp": "2026-09-29T16:38:56.000+08:00",
+          "interaction": 17
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "信驊 ASPEED（5274）  公司定位 信驊是全球 BMC（基板管理控制器）龍頭，專做伺服器遠端監控、管理晶片，不碰 GPU。  核心產品還包含 SMC／Bridge IC、PFR 安全晶片、I/O Expander。2015 年併購博通 Emulex Pilot 後拿下市佔領先，現在市佔約 70% 到 80%。  主要客戶是 AWS、Google、Meta、Microsoft",
+          "url": "https://x.com/QQ_Timmy/status/2104855406019596327",
+          "timestamp": "2026-09-29T16:46:49.000+08:00",
+          "interaction": 15
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Disco（6146）  SMBC日興將Disco評級由「中立」上調至「優於大盤」，目標價由81,000日圓下修至68,000日圓（上漲空間約25%）。理由是股價自6月高點已跌約40%，本益比已充分修正，風險報酬改善。  HBM（高頻寬記憶體）與先進封裝相關資本支出仍維持高檔，這將持續帶動 Disco",
+          "url": "https://x.com/QQ_Timmy/status/2104822171952640375",
+          "timestamp": "2026-09-29T14:34:46.000+08:00",
+          "interaction": 7
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "太陽誘電（6976）於2026年9月29日與TDK簽署業務提攜基本合意書。 雙方將以AI資料中心及實體AI所需最先端MLCC、電感器等電子零件之共同開發為主軸，並研議製造、採購合作，以及未來資本提攜可能性。",
+          "url": "https://x.com/QQ_Timmy/status/2104866219237290371",
+          "timestamp": "2026-09-29T17:29:47.000+08:00",
+          "interaction": 6
+        }
+      ]
+    },
+    {
+      "cluster_id": "C",
+      "label": "ASIC / 自研晶片",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 40,
+      "competitors_covering": [
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "聯發科（ https:// 2454.TW）  當前辯論：EMIB-T 夠不夠？ 市場擔心 Intel EMIB-T 基板成為 2028 Humufish（TPU v9）瓶頸。 - 摩開始估 Google 需求可支撐 300 萬顆，但 2028 EMIB-T 基板僅約 200 萬片、約 4–4.5 萬片 12 吋當量。 - 這與 Digitimes「Google 因良率落後考慮 CoWoS 備援」相符。",
+          "url": "https://x.com/QQ_Timmy/status/2104860460231389519",
+          "timestamp": "2026-09-29T17:06:54.000+08:00",
+          "interaction": 18
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "信驊 ASPEED（5274）  公司定位 信驊是全球 BMC（基板管理控制器）龍頭，專做伺服器遠端監控、管理晶片，不碰 GPU。  核心產品還包含 SMC／Bridge IC、PFR 安全晶片、I/O Expander。2015 年併購博通 Emulex Pilot 後拿下市佔領先，現在市佔約 70% 到 80%。  主要客戶是 AWS、Google、Meta、Microsoft",
+          "url": "https://x.com/QQ_Timmy/status/2104855406019596327",
+          "timestamp": "2026-09-29T16:46:49.000+08:00",
+          "interaction": 15
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Toppan Holdings 與 Broadcom 合資的 Advanced Substrate Technologies（AST），2026年9月29日宣布新加坡首座高階 FC-BGA（覆晶球柵陣列）基板廠正式開幕，也是 Toppan 在日本以外的第一座同類工廠。廠址位於裕廊湖區，面積約9.5萬平方米，較原訂時程提早約三個月。  FC-BGA",
+          "url": "https://x.com/QQ_Timmy/status/2104867243662172253",
+          "timestamp": "2026-09-29T17:33:52.000+08:00",
+          "interaction": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 26,
+      "competitors_covering": [
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "三星集團六家公司宣布，合計向美國 AI 基礎設施企業 Helix Digital Infrastructure 投資 10 億美元。三星電子出資 5 億美元，三星物產、SDS、SDI、人壽與火災海上保險共出資 5 億美元，並成為 Helix 創始投資人。  Helix 由 KKR 於 2026 年 6 月成立，由前 AWS 執行長 Adam Selipsky",
+          "url": "https://x.com/QQ_Timmy/status/2104832248969367993",
+          "timestamp": "2026-09-29T15:14:48.000+08:00",
+          "interaction": 8
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "母公司皆為 三星電機 / Samsung Electro-Mechanics（韓股 009150）。  一、新設施投資等  https:// dart.fss.or.kr/dsaf001/main.d o?rcpNo=20260928800810 … 2026年9月28日",
+          "url": "https://x.com/QQ_Timmy/status/2104834993872855226",
+          "timestamp": "2026-09-29T15:25:43.000+08:00",
+          "interaction": 7
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Disco（6146）  SMBC日興將Disco評級由「中立」上調至「優於大盤」，目標價由81,000日圓下修至68,000日圓（上漲空間約25%）。理由是股價自6月高點已跌約40%，本益比已充分修正，風險報酬改善。  HBM（高頻寬記憶體）與先進封裝相關資本支出仍維持高檔，這將持續帶動 Disco",
+          "url": "https://x.com/QQ_Timmy/status/2104822171952640375",
+          "timestamp": "2026-09-29T14:34:46.000+08:00",
+          "interaction": 7
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "長鑫科技 CXMT（688825）  投資計畫",
+          "url": "https://x.com/QQ_Timmy/status/2104871052753129722",
+          "timestamp": "2026-09-29T17:49:00.000+08:00",
+          "interaction": 4
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-09-29T11:55:26+08:00",
-    "end_utc": "2026-09-29T15:55:26+08:00",
-    "start_tw": "Sep 29, 11:55",
-    "end_tw": "Sep 29, 15:55"
+    "start_utc": "2026-09-29T14:32:30+08:00",
+    "end_utc": "2026-09-29T18:32:30+08:00",
+    "start_tw": "Sep 29, 14:32",
+    "end_tw": "Sep 29, 18:32"
   }
 }
