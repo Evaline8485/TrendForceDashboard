@@ -1,270 +1,179 @@
 {
-  "generated_at": "2026-10-01T12:28:59+08:00",
+  "generated_at": "2026-10-01T16:27:46+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-01T08:28:59+08:00",
-    "end_utc": "2026-10-01T12:28:59+08:00",
-    "start_tw": "Oct 01, 08:28",
-    "end_tw": "Oct 01, 12:28"
+    "start_utc": "2026-10-01T12:27:46+08:00",
+    "end_utc": "2026-10-01T16:27:46+08:00",
+    "start_tw": "Oct 01, 12:27",
+    "end_tw": "Oct 01, 16:27"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 15,
+      "total_posts": 37,
       "sentiment_counts": {
-        "positive": 4,
-        "neutral": 8,
-        "negative": 3
+        "positive": 14,
+        "negative": 10,
+        "neutral": 13
       },
       "sentiment_share": {
-        "positive": 0.267,
-        "neutral": 0.533,
-        "negative": 0.2
+        "positive": 0.378,
+        "negative": 0.27,
+        "neutral": 0.351
       },
       "top_terms": [
-        "oracle",
-        "tencent",
-        "chair",
-        "immunity",
-        "qualcomm",
-        "announced",
-        "implement",
-        "flexcache",
-        "snapdragon",
-        "elite"
+        "tvk",
+        "micron",
+        "global",
+        "sell",
+        "yields",
+        "yield",
+        "flydubai",
+        "bond",
+        "revenue",
+        "demand"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "tencent / oracle",
-        "heat": 90.0,
+        "topic_id": 4,
+        "label": "ubs / link / 三星 / asic",
+        "heat": 78.6,
+        "volume": 16,
+        "engagement": 256,
+        "entities": [
+          "三星",
+          "美國",
+          "韓國",
+          "大福",
+          "華碩"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "averted / disaster / pilot / flydubai",
+        "heat": 50.0,
         "volume": 2,
-        "engagement": 419,
+        "engagement": 717,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "micron / revenue / tighter / demand",
+        "heat": 49.2,
+        "volume": 3,
+        "engagement": 657,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "sell / yields / yield / global",
+        "heat": 15.0,
+        "volume": 3,
+        "engagement": 333,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "immunity / chair",
+        "label": "tvk",
+        "heat": 10.1,
+        "volume": 9,
+        "engagement": 1,
+        "entities": [
+          "美國",
+          "林普",
+          "徐直軍",
+          "輝達",
+          "牧德"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "google / tvk",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 36,
+        "engagement": 0,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，11 篇）",
+        "label": "remove",
         "heat": 10.0,
-        "volume": 11,
-        "engagement": 162,
+        "volume": 2,
+        "engagement": 92,
         "entities": [],
-        "is_catchall": true
+        "is_catchall": false
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "美國",
+        "count": 5
+      },
+      {
+        "entity": "三星",
+        "count": 4
+      },
+      {
+        "entity": "林普",
+        "count": 2
+      },
+      {
+        "entity": "徐直軍",
+        "count": 2
+      },
+      {
+        "entity": "輝達",
+        "count": 2
+      },
+      {
+        "entity": "牧德",
+        "count": 2
+      },
+      {
+        "entity": "韓國",
+        "count": 2
+      },
+      {
+        "entity": "大福",
+        "count": 2
+      },
+      {
+        "entity": "中國",
+        "count": 1
+      },
+      {
+        "entity": "華碩",
+        "count": 1
+      },
+      {
+        "entity": "台灣",
+        "count": 1
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-01T08:28:58.999994+08:00",
-        "bucket_end": "2026-10-01T08:46:07.571423+08:00",
+        "bucket_start": "2026-10-01T12:27:45.999994+08:00",
+        "bucket_end": "2026-10-01T12:44:54.571423+08:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 22,
+        "neutral_engagement": 117,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
         "post_count": 1,
-        "engagement": 22,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "Google could come close to Nvidia in high-end cloud AI accelerator shipments in 2027, according to a DIGITIMES forecast cited by the Economic Daily News.  The forecast puts Google at 8.009 million chi",
-            "url": "https://x.com/statementdog/status/2105456706776113408",
-            "interaction": 22
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T08:46:07.571423+08:00",
-        "bucket_end": "2026-10-01T09:03:16.142852+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T09:03:16.142852+08:00",
-        "bucket_end": "2026-10-01T09:20:24.714281+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T09:20:24.714281+08:00",
-        "bucket_end": "2026-10-01T09:37:33.285710+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T09:37:33.285710+08:00",
-        "bucket_end": "2026-10-01T09:54:41.857139+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T09:54:41.857139+08:00",
-        "bucket_end": "2026-10-01T10:11:50.428568+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T10:11:50.428568+08:00",
-        "bucket_end": "2026-10-01T10:28:58.999997+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 26.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T10:28:58.999997+08:00",
-        "bucket_end": "2026-10-01T10:46:07.571426+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 42,
-        "neutral_engagement": 0,
-        "negative_engagement": 18,
-        "net_sentiment": 33.3,
-        "post_count": 3,
-        "engagement": 60,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Good morning, Asia. While you were sleeping, this was our most-read story:  https:// ft.trib.al/YRlORq0",
-            "url": "https://x.com/FT/status/2105486084247343421",
-            "interaction": 38
-          },
-          {
-            "handle": "HyperTechInvest",
-            "platform": "X",
-            "text": "Beating and raising is not enough anymore for  $MU    We’re increasingly seeing that unless you’re an underappreciated AI story, it’s really hard not to simply follow broader macro market dynamics",
-            "url": "https://x.com/HyperTechInvest/status/2105488557104369941",
-            "interaction": 18
-          }
-        ],
-        "net_sentiment_smoothed": 26.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T10:46:07.571426+08:00",
-        "bucket_end": "2026-10-01T11:03:16.142855+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 46,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 46,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "SemiAnalysis_",
-            "platform": "X",
-            "text": "While Qualcomm announced a month ago that it would implement FlexCache in its Snapdragon 8 Elite Gen 6 processors, Apple has already done the same in their M6 chip without much fanfare. For the first ",
-            "url": "https://x.com/SemiAnalysis_/status/2105493010842607755",
-            "interaction": 46
-          }
-        ],
-        "net_sentiment_smoothed": 26.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T11:03:16.142855+08:00",
-        "bucket_end": "2026-10-01T11:20:24.714284+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 38,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 38,
+        "engagement": 117,
         "top_topics": [
           {
             "topic_id": 2,
-            "label": "tencent / oracle",
+            "label": "sell / yields / yield / global",
             "count": 1
           }
         ],
@@ -272,30 +181,186 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Tencent leases 100,000 chips from Oracle to accelerate AI push",
-            "url": "https://x.com/FT/status/2105496203160936807",
-            "interaction": 38
+            "text": "Global bond sell-off deepens as Japanese yields jump",
+            "url": "https://x.com/FT/status/2105515296375152829",
+            "interaction": 117
           }
         ],
-        "net_sentiment_smoothed": 26.7,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-01T11:20:24.714284+08:00",
-        "bucket_end": "2026-10-01T11:37:33.285713+08:00",
+        "bucket_start": "2026-10-01T12:44:54.571423+08:00",
+        "bucket_end": "2026-10-01T13:02:03.142852+08:00",
         "positive": 0,
-        "neutral": 1,
+        "neutral": 0,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 381,
+        "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 25.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T13:02:03.142852+08:00",
+        "bucket_end": "2026-10-01T13:19:11.714281+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 16.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T13:19:11.714281+08:00",
+        "bucket_end": "2026-10-01T13:36:20.285710+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 10,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
         "post_count": 1,
-        "engagement": 381,
+        "engagement": 10,
         "top_topics": [
           {
+            "topic_id": 4,
+            "label": "ubs / link / 三星 / asic",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Shinko Electric says larger AI chip substrates with more layers are putting greater demands on its factories.  The Japanese company has agreed to buy Japan Display’s former LCD plant in Mobara and tur",
+            "url": "https://x.com/statementdog/status/2105529403157762230",
+            "interaction": 10
+          }
+        ],
+        "net_sentiment_smoothed": 19.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T13:36:20.285710+08:00",
+        "bucket_end": "2026-10-01T13:53:28.857139+08:00",
+        "positive": 1,
+        "neutral": 2,
+        "negative": 2,
+        "positive_engagement": 11,
+        "neutral_engagement": 53,
+        "negative_engagement": 717,
+        "net_sentiment": -20.0,
+        "post_count": 5,
+        "engagement": 781,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "ubs / link / 三星 / asic",
+            "count": 3
+          },
+          {
+            "topic_id": 6,
+            "label": "averted / disaster / pilot / flydubai",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Captain Smit Machchhar, who was stabbed while fighting off his co-pilot during a mid-air brawl on a Flydubai flight, was hailed as a hero by the leaders of India and Israel, who said his actions avert",
+            "url": "https://x.com/FT/status/2105532900737196233",
+            "interaction": 546
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Indian Flydubai pilot praised after disaster averted",
+            "url": "https://x.com/FT/status/2105535674858275299",
+            "interaction": 171
+          }
+        ],
+        "net_sentiment_smoothed": 39.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T13:53:28.857139+08:00",
+        "bucket_end": "2026-10-01T14:10:37.428568+08:00",
+        "positive": 2,
+        "neutral": 3,
+        "negative": 1,
+        "positive_engagement": 84,
+        "neutral_engagement": 80,
+        "negative_engagement": 207,
+        "net_sentiment": 16.7,
+        "post_count": 6,
+        "engagement": 371,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "ubs / link / 三星 / asic",
+            "count": 3
+          },
+          {
+            "topic_id": 0,
+            "label": "remove",
+            "count": 2
+          },
+          {
             "topic_id": 2,
-            "label": "tencent / oracle",
+            "label": "sell / yields / yield / global",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Global government bond markets came under renewed pressure as yields in Japan and Australia approached multi-decade highs following a sell-off that pushed US Treasuries to their worst month in four ye",
+            "url": "https://x.com/FT/status/2105539804729360605",
+            "interaction": 207
+          },
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "I was surprised by how easily GPT can remove watermarks.",
+            "url": "https://x.com/jukan05/status/2105539289451008348",
+            "interaction": 71
+          }
+        ],
+        "net_sentiment_smoothed": 19.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T14:10:37.428568+08:00",
+        "bucket_end": "2026-10-01T14:27:45.999997+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 638,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 638,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "micron / revenue / tighter / demand",
             "count": 1
           }
         ],
@@ -303,105 +368,311 @@
           {
             "handle": "jukan05",
             "platform": "X",
-            "text": "FT: Oracle signs $7 billion deal to lease computing capacity to Tencent.",
-            "url": "https://x.com/jukan05/status/2105498127189107048",
-            "interaction": 381
+            "text": "The most valuable comment from the Micron call is probably that they expect supply in 2028 to be even tighter than in 2026.  Some Anal-ysts are claiming there will be oversupply in 2028. That's absurd",
+            "url": "https://x.com/jukan05/status/2105544291800297587",
+            "interaction": 638
           }
         ],
-        "net_sentiment_smoothed": 40.0,
+        "net_sentiment_smoothed": -20.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-01T11:37:33.285713+08:00",
-        "bucket_end": "2026-10-01T11:54:41.857142+08:00",
+        "bucket_start": "2026-10-01T14:27:45.999997+08:00",
+        "bucket_end": "2026-10-01T14:44:54.571426+08:00",
         "positive": 0,
         "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 12,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 12,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "micron / revenue / tighter / demand",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "Micron Posts Record FY2026 Revenue; CEO Expects Supply-Demand Conditions to Tighten Further  Micron Technology released its fiscal fourth-quarter and full-year 2026 results on September 30, with surgi",
+            "url": "https://x.com/trendforce/status/2105546228343664709",
+            "interaction": 12
+          }
+        ],
+        "net_sentiment_smoothed": -9.2,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T14:44:54.571426+08:00",
+        "bucket_end": "2026-10-01T15:02:03.142855+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "ubs / link / 三星 / asic",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#美國 內政部長談 #韓國 投資與能源戰略！指出管線完工後，台灣等盟友都能依賴美方能源。 dlvr.​it/TVk4zB",
+            "url": "https://x.com/technews_tw/status/2105553796705497185",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": -12.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T15:02:03.142855+08:00",
+        "bucket_end": "2026-10-01T15:19:11.714284+08:00",
+        "positive": 3,
+        "neutral": 5,
         "negative": 0,
+        "positive_engagement": 1,
+        "neutral_engagement": 38,
+        "negative_engagement": 0,
+        "net_sentiment": 37.5,
+        "post_count": 8,
+        "engagement": 39,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "tvk",
+            "count": 4
+          },
+          {
+            "topic_id": 4,
+            "label": "ubs / link / 三星 / asic",
+            "count": 3
+          },
+          {
+            "topic_id": 5,
+            "label": "google / tvk",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Why are young less-educated men falling behind economically and socially? John Burn-Murdoch examines what is behind their struggles, and what might help.  To read the full article, visit this link:  h",
+            "url": "https://x.com/FT/status/2105556652174799036",
+            "interaction": 38
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#路由器 銷美出現兩樣情！華碩取得豁免一路有效至 2028 年 3 月，TP-Link 新機遭禁。 dlvr.​it/TVk6H5",
+            "url": "https://x.com/technews_tw/status/2105555681839632673",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": -32.5,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-10-01T15:19:11.714284+08:00",
+        "bucket_end": "2026-10-01T15:36:20.285713+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
+        "post_count": 3,
         "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 13.3,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "tvk",
+            "count": 1
+          },
+          {
+            "topic_id": 5,
+            "label": "google / tvk",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "ubs / link / 三星 / asic",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#藍源 首度向外部籌資！執行長 #林普 證實過去全由創辦人資助，如今正尋求外界資金。 dlvr.​it/TVk7Qt",
+            "url": "https://x.com/technews_tw/status/2105559477764452368",
+            "interaction": 0
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#Google 推出 #AI 搜尋分潤試驗！邀約百家出版商加入計畫，網站內容被採用即可按月領取款項。 dlvr.​it/TVk7Pf",
+            "url": "https://x.com/technews_tw/status/2105559351444574330",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 7.5,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-01T11:54:41.857142+08:00",
-        "bucket_end": "2026-10-01T12:11:50.428571+08:00",
+        "bucket_start": "2026-10-01T15:36:20.285713+08:00",
+        "bucket_end": "2026-10-01T15:53:28.857142+08:00",
         "positive": 1,
         "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 29,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 29,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "tvk",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "ubs / link / 三星 / asic",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$MU  sees stronger demand in 2027 and 2028 than in 2026, and the stock trades at 10x 2026 EPS  “We expect memory and storage supply-demand conditions to be much tighter in calendar 2027 and 2028 than ",
+            "url": "https://x.com/HyperTechInvest/status/2105563703173370309",
+            "interaction": 29
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#Meta 將 #資料中心 列研發節稅！2024 與 2025 年累計減少 59 億美元稅負。 dlvr.​it/TVk8Dk",
+            "url": "https://x.com/technews_tw/status/2105563961160827157",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 27.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T15:53:28.857142+08:00",
+        "bucket_end": "2026-10-01T16:10:37.428571+08:00",
+        "positive": 2,
+        "neutral": 0,
         "negative": 0,
-        "positive_engagement": 28,
+        "positive_engagement": 22,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 100.0,
-        "post_count": 1,
+        "post_count": 2,
+        "engagement": 22,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "tvk",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "ubs / link / 三星 / asic",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "FT exclusive: OpenAI’s models took data from 55 websites belonging to businesses, non-profits and government agencies including the US Centers for Disease Control and Prevention, the US Securities and",
+            "url": "https://x.com/FT/status/2105569727611351304",
+            "interaction": 22
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#好奇號 達成第 5,000 個火星日！登陸至今運作逾 14 年，大幅超越原始 2 年壽命。 dlvr.​it/TVk99R",
+            "url": "https://x.com/technews_tw/status/2105569646397337864",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 25.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T16:10:37.428571+08:00",
+        "bucket_end": "2026-10-01T16:27:46+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 2,
+        "positive_engagement": 8,
+        "neutral_engagement": 0,
+        "negative_engagement": 20,
+        "net_sentiment": 0.0,
+        "post_count": 5,
         "engagement": 28,
         "top_topics": [
           {
             "topic_id": 1,
-            "label": "immunity / chair",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "FT exclusive: The Premier League football club’s Emirati chair, Khaldoon al-Mubarak, was granted immunity six years ago in a move that could complicate any legal action resulting from findings that it",
-            "url": "https://x.com/FT/status/2105510069521506407",
-            "interaction": 28
-          }
-        ],
-        "net_sentiment_smoothed": 16.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T12:11:50.428571+08:00",
-        "bucket_end": "2026-10-01T12:28:59+08:00",
-        "positive": 0,
-        "neutral": 4,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 23,
-        "negative_engagement": 13,
-        "net_sentiment": -33.3,
-        "post_count": 6,
-        "engagement": 36,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "immunity / chair",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "How Europe can stall Russia’s hybrid war",
-            "url": "https://x.com/FT/status/2105513765475098988",
-            "interaction": 9
+            "label": "tvk",
+            "count": 2
           },
           {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Manchester City chair shielded by diplomatic immunity",
-            "url": "https://x.com/FT/status/2105513763755409856",
-            "interaction": 8
+            "topic_id": 4,
+            "label": "ubs / link / 三星 / asic",
+            "count": 2
+          },
+          {
+            "topic_id": 3,
+            "label": "micron / revenue / tighter / demand",
+            "count": 1
           }
         ],
-        "net_sentiment_smoothed": 22.2,
-        "is_anomaly": true
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "UAE investigates if Flydubai attack was ‘terrorist activity’",
+            "url": "https://x.com/FT/status/2105574698608144418",
+            "interaction": 18
+          },
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "#Micron posted FQ4 revenue of $54.2 billion, up 31% QoQ. However, with contract prices rising from an already high base, sequential DRAM ASP growth eased to the high-teens percentage range. Meanwhile,",
+            "url": "https://x.com/trendforce/status/2105572716925653065",
+            "interaction": 7
+          }
+        ],
+        "net_sentiment_smoothed": 33.3,
+        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
-        "label": "tencent / oracle",
+        "topic_id": 4,
+        "label": "ubs / link / 三星 / asic",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -416,8 +687,16 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 33.3,
+            "volume": 3
+          },
+          {
+            "net_sentiment": 33.3,
+            "volume": 3
           },
           {
             "net_sentiment": 0.0,
@@ -428,42 +707,34 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": -100.0,
+            "volume": 1
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 33.3,
+            "volume": 3
           },
           {
             "net_sentiment": 0.0,
             "volume": 1
           },
           {
-            "net_sentiment": 0.0,
+            "net_sentiment": 100.0,
             "volume": 1
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": -100.0,
+            "volume": 2
           }
         ]
       },
       {
         "topic_id": 1,
-        "label": "immunity / chair",
+        "label": "tvk",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -489,6 +760,44 @@
             "net_sentiment": 0.0,
             "volume": 0
           },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 4
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "micron / revenue / tighter / demand",
+        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -518,96 +827,358 @@
             "volume": 1
           },
           {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "sell / yields / yield / global",
+        "cells": [
+          {
             "net_sentiment": 0.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "google / tvk",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "remove",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "SemiAnalysis_",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，11 篇）",
+        "handle": "TrendForce",
+        "top_topic_id": 3,
+        "top_topic_label": "micron / revenue / tighter / demand",
         "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
+        "post_count": 2,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 4,
+        "top_topic_label": "ubs / link / 三星 / asic",
+        "focus_share": 1.0,
+        "post_count": 4,
+        "unclustered_posts": 0
       },
       {
         "handle": "statementdog",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，11 篇）",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 2
-      },
-      {
-        "handle": "HyperTechInvest",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，11 篇）",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "jukan05",
-        "top_topic_id": 2,
-        "top_topic_label": "tencent / oracle",
+        "top_topic_id": 4,
+        "top_topic_label": "ubs / link / 三星 / asic",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
-        "handle": "FT",
-        "top_topic_id": 1,
-        "top_topic_label": "immunity / chair",
+        "handle": "HyperTechInvest",
+        "top_topic_id": 4,
+        "top_topic_label": "ubs / link / 三星 / asic",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 0,
+        "top_topic_label": "remove",
         "focus_share": 0.667,
-        "post_count": 10,
-        "unclustered_posts": 7
+        "post_count": 3,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "technews_tw",
+        "top_topic_id": 1,
+        "top_topic_label": "tvk",
+        "focus_share": 0.6,
+        "post_count": 15,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 4,
+        "top_topic_label": "ubs / link / 三星 / asic",
+        "focus_share": 0.545,
+        "post_count": 11,
+        "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
-        "label": "tencent / oracle",
-        "total_engagement": 419,
+        "topic_id": 6,
+        "label": "averted / disaster / pilot / flydubai",
+        "total_engagement": 717,
         "post_count": 2,
-        "top_account": "jukan05",
-        "top_account_engagement": 381,
+        "top_account": "FT",
+        "top_account_engagement": 717,
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "immunity / chair",
-        "total_engagement": 36,
-        "post_count": 2,
+        "topic_id": 3,
+        "label": "micron / revenue / tighter / demand",
+        "total_engagement": 657,
+        "post_count": 3,
+        "top_account": "jukan05",
+        "top_account_engagement": 638,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "sell / yields / yield / global",
+        "total_engagement": 333,
+        "post_count": 3,
         "top_account": "FT",
-        "top_account_engagement": 36,
+        "top_account_engagement": 333,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "ubs / link / 三星 / asic",
+        "total_engagement": 256,
+        "post_count": 16,
+        "top_account": "FT",
+        "top_account_engagement": 111,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，11 篇）",
-        "total_engagement": 162,
-        "post_count": 11,
-        "top_account": "FT",
-        "top_account_engagement": 72,
-        "is_catchall": true
+        "label": "remove",
+        "total_engagement": 92,
+        "post_count": 2,
+        "top_account": "jukan05",
+        "top_account_engagement": 92,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "tvk",
+        "total_engagement": 1,
+        "post_count": 9,
+        "top_account": "technews_tw",
+        "top_account_engagement": 1,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "google / tvk",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "technews_tw",
+        "top_account_engagement": 0,
+        "is_catchall": false
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 7,
-          "likes": 455,
-          "engagement": 547,
-          "avg_engagement": 78.1
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 8,
-          "likes": 31,
-          "engagement": 70,
-          "avg_engagement": 8.8
+          "post_count": 37,
+          "likes": 1630,
+          "engagement": 2056,
+          "avg_engagement": 55.6
         },
         "evening": {
           "post_count": 0,

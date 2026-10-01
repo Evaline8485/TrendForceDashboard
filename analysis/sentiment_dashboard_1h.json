@@ -1,55 +1,77 @@
 {
-  "generated_at": "2026-10-01T12:28:59+08:00",
+  "generated_at": "2026-10-01T16:27:46+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-10-01T11:28:59+08:00",
-    "end_utc": "2026-10-01T12:28:59+08:00",
-    "start_tw": "Oct 01, 11:28",
-    "end_tw": "Oct 01, 12:28"
+    "start_utc": "2026-10-01T15:27:46+08:00",
+    "end_utc": "2026-10-01T16:27:46+08:00",
+    "start_tw": "Oct 01, 15:27",
+    "end_tw": "Oct 01, 16:27"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 8,
+      "total_posts": 10,
       "sentiment_counts": {
-        "neutral": 5,
-        "negative": 2,
-        "positive": 1
+        "positive": 5,
+        "neutral": 1,
+        "negative": 4
       },
       "sentiment_share": {
-        "neutral": 0.625,
-        "negative": 0.25,
-        "positive": 0.125
+        "positive": 0.5,
+        "neutral": 0.1,
+        "negative": 0.4
       },
       "top_terms": [
-        "chair",
-        "immunity",
-        "global",
-        "bond",
-        "sell",
-        "deepens",
-        "japanese",
-        "yields",
-        "jump",
-        "yield"
+        "tvk",
+        "micron",
+        "posted",
+        "revenue",
+        "qoq",
+        "prices",
+        "rising",
+        "sequential",
+        "dram",
+        "asp"
       ]
     },
     "temperature_bar": [
       {
+        "topic_id": 1,
+        "label": "大福",
+        "heat": 90.0,
+        "volume": 6,
+        "engagement": 87,
+        "entities": [
+          "大福"
+        ],
+        "is_catchall": false
+      },
+      {
         "topic_id": 0,
-        "label": "immunity / chair",
-        "heat": 50.0,
-        "volume": 8,
-        "engagement": 70,
-        "entities": [],
+        "label": "tvk",
+        "heat": 10.0,
+        "volume": 4,
+        "engagement": 1,
+        "entities": [
+          "美國"
+        ],
         "is_catchall": false
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "大福",
+        "count": 2
+      },
+      {
+        "entity": "美國",
+        "count": 1
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-01T11:28:59.000002+08:00",
-        "bucket_end": "2026-10-01T11:33:16.142859+08:00",
+        "bucket_start": "2026-10-01T15:27:46.000002+08:00",
+        "bucket_end": "2026-10-01T15:32:03.142859+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -65,8 +87,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-01T11:33:16.142859+08:00",
-        "bucket_end": "2026-10-01T11:37:33.285716+08:00",
+        "bucket_start": "2026-10-01T15:32:03.142859+08:00",
+        "bucket_end": "2026-10-01T15:36:20.285716+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -82,8 +104,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-01T11:37:33.285716+08:00",
-        "bucket_end": "2026-10-01T11:41:50.428573+08:00",
+        "bucket_start": "2026-10-01T15:36:20.285716+08:00",
+        "bucket_end": "2026-10-01T15:40:37.428573+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -99,123 +121,137 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-01T11:41:50.428573+08:00",
-        "bucket_end": "2026-10-01T11:46:07.571430+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T11:46:07.571430+08:00",
-        "bucket_end": "2026-10-01T11:50:24.714287+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T11:50:24.714287+08:00",
-        "bucket_end": "2026-10-01T11:54:41.857144+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T11:54:41.857144+08:00",
-        "bucket_end": "2026-10-01T11:58:59.000001+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T11:58:59.000001+08:00",
-        "bucket_end": "2026-10-01T12:03:16.142858+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T12:03:16.142858+08:00",
-        "bucket_end": "2026-10-01T12:07:33.285715+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T12:07:33.285715+08:00",
-        "bucket_end": "2026-10-01T12:11:50.428572+08:00",
+        "bucket_start": "2026-10-01T15:40:37.428573+08:00",
+        "bucket_end": "2026-10-01T15:44:54.571430+08:00",
         "positive": 1,
         "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 28,
+        "negative": 1,
+        "positive_engagement": 29,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 28,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 29,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "immunity / chair",
+            "label": "tvk",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "大福",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$MU  sees stronger demand in 2027 and 2028 than in 2026, and the stock trades at 10x 2026 EPS  “We expect memory and storage supply-demand conditions to be much tighter in calendar 2027 and 2028 than ",
+            "url": "https://x.com/HyperTechInvest/status/2105563703173370309",
+            "interaction": 29
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#Meta 將 #資料中心 列研發節稅！2024 與 2025 年累計減少 59 億美元稅負。 dlvr.​it/TVk8Dk",
+            "url": "https://x.com/technews_tw/status/2105563961160827157",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T15:44:54.571430+08:00",
+        "bucket_end": "2026-10-01T15:49:11.714287+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T15:49:11.714287+08:00",
+        "bucket_end": "2026-10-01T15:53:28.857144+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T15:53:28.857144+08:00",
+        "bucket_end": "2026-10-01T15:57:46.000001+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T15:57:46.000001+08:00",
+        "bucket_end": "2026-10-01T16:02:03.142858+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T16:02:03.142858+08:00",
+        "bucket_end": "2026-10-01T16:06:20.285715+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 22,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 22,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "tvk",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "大福",
             "count": 1
           }
         ],
@@ -223,136 +259,174 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "FT exclusive: The Premier League football club’s Emirati chair, Khaldoon al-Mubarak, was granted immunity six years ago in a move that could complicate any legal action resulting from findings that it",
-            "url": "https://x.com/FT/status/2105510069521506407",
-            "interaction": 28
+            "text": "FT exclusive: OpenAI’s models took data from 55 websites belonging to businesses, non-profits and government agencies including the US Centers for Disease Control and Prevention, the US Securities and",
+            "url": "https://x.com/FT/status/2105569727611351304",
+            "interaction": 22
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#好奇號 達成第 5,000 個火星日！登陸至今運作逾 14 年，大幅超越原始 2 年壽命。 dlvr.​it/TVk99R",
+            "url": "https://x.com/technews_tw/status/2105569646397337864",
+            "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-01T12:11:50.428572+08:00",
-        "bucket_end": "2026-10-01T12:16:07.571429+08:00",
+        "bucket_start": "2026-10-01T16:06:20.285715+08:00",
+        "bucket_end": "2026-10-01T16:10:37.428572+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T16:10:37.428572+08:00",
+        "bucket_end": "2026-10-01T16:14:54.571429+08:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 7,
+        "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
         "post_count": 1,
-        "engagement": 7,
+        "engagement": 0,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "immunity / chair",
+            "label": "tvk",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
+            "handle": "technews_tw",
             "platform": "X",
-            "text": "Why we can thumb our noses at AI",
-            "url": "https://x.com/FT/status/2105511324620874029",
-            "interaction": 7
+            "text": "#亞馬遜 簽署 20 年購電協議擴大 #核能 布局！預計帶動逾 30 億美元投資，新增 190 MW 容量。 dlvr.​it/TVk9Vv",
+            "url": "https://x.com/technews_tw/status/2105571862311043149",
+            "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": -5.0,
+        "net_sentiment_smoothed": 40.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-01T12:16:07.571429+08:00",
-        "bucket_end": "2026-10-01T12:20:24.714286+08:00",
-        "positive": 0,
+        "bucket_start": "2026-10-01T16:14:54.571429+08:00",
+        "bucket_end": "2026-10-01T16:19:11.714286+08:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 1,
-        "positive_engagement": 0,
+        "positive_engagement": 7,
         "neutral_engagement": 0,
-        "negative_engagement": 4,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 4,
+        "negative_engagement": 2,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 9,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "immunity / chair",
-            "count": 1
+            "topic_id": 1,
+            "label": "大福",
+            "count": 2
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
+            "handle": "TrendForce",
             "platform": "X",
-            "text": "King’s bank Coutts hit with new lawsuit after ‘debanking’",
-            "url": "https://x.com/FT/status/2105512445519249833",
-            "interaction": 4
-          }
-        ],
-        "net_sentiment_smoothed": -5.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-01T12:20:24.714286+08:00",
-        "bucket_end": "2026-10-01T12:24:41.857143+08:00",
-        "positive": 0,
-        "neutral": 3,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 16,
-        "negative_engagement": 9,
-        "net_sentiment": -25.0,
-        "post_count": 4,
-        "engagement": 25,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "immunity / chair",
-            "count": 4
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "How Europe can stall Russia’s hybrid war",
-            "url": "https://x.com/FT/status/2105513765475098988",
-            "interaction": 9
+            "text": "#Micron posted FQ4 revenue of $54.2 billion, up 31% QoQ. However, with contract prices rising from an already high base, sequential DRAM ASP growth eased to the high-teens percentage range. Meanwhile,",
+            "url": "https://x.com/trendforce/status/2105572716925653065",
+            "interaction": 7
           },
           {
-            "handle": "FT",
+            "handle": "QQ_Timmy",
             "platform": "X",
-            "text": "Manchester City chair shielded by diplomatic immunity",
-            "url": "https://x.com/FT/status/2105513763755409856",
-            "interaction": 8
+            "text": "大福 Daifuku（6383）UBS  UBS維持大福「買入」評級，目標價8,920日圓（當時股價約5,510日圓），認為股價因半導體資本支出疑慮被過度壓抑，估值吸引力提升。",
+            "url": "https://x.com/QQ_Timmy/status/2105572752069677333",
+            "interaction": 2
           }
         ],
-        "net_sentiment_smoothed": -31.2,
-        "is_anomaly": true
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-01T12:24:41.857143+08:00",
-        "bucket_end": "2026-10-01T12:28:59+08:00",
-        "positive": 0,
+        "bucket_start": "2026-10-01T16:19:11.714286+08:00",
+        "bucket_end": "2026-10-01T16:23:28.857143+08:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 1,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -41.7,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "tvk",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#Instagram 在旗下剪輯軟體加入 #AI 助理！即日起開放給美國使用者，主打提供個人化分析建議。 dlvr.​it/TVk9s9",
+            "url": "https://x.com/technews_tw/status/2105574107945554031",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-01T16:23:28.857143+08:00",
+        "bucket_end": "2026-10-01T16:27:46+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 18,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 18,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "大福",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "UAE investigates if Flydubai attack was ‘terrorist activity’",
+            "url": "https://x.com/FT/status/2105574698608144418",
+            "interaction": 18
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "immunity / chair",
+        "topic_id": 1,
+        "label": "大福",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -367,12 +441,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -396,15 +466,81 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
             "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "tvk",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": -100.0,
             "volume": 1
           },
           {
-            "net_sentiment": -25.0,
-            "volume": 4
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -415,22 +551,63 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "FT",
-        "top_topic_id": 0,
-        "top_topic_label": "immunity / chair",
+        "handle": "TrendForce",
+        "top_topic_id": 1,
+        "top_topic_label": "大福",
         "focus_share": 1.0,
-        "post_count": 8,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 1,
+        "top_topic_label": "大福",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 1,
+        "top_topic_label": "大福",
+        "focus_share": 1.0,
+        "post_count": 3,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "HyperTechInvest",
+        "top_topic_id": 1,
+        "top_topic_label": "大福",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "technews_tw",
+        "top_topic_id": 0,
+        "top_topic_label": "tvk",
+        "focus_share": 1.0,
+        "post_count": 4,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "immunity / chair",
-        "total_engagement": 70,
-        "post_count": 8,
+        "topic_id": 1,
+        "label": "大福",
+        "total_engagement": 87,
+        "post_count": 6,
         "top_account": "FT",
-        "top_account_engagement": 70,
+        "top_account_engagement": 49,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "tvk",
+        "total_engagement": 1,
+        "post_count": 4,
+        "top_account": "technews_tw",
+        "top_account_engagement": 1,
         "is_catchall": false
       }
     ],
@@ -443,9 +620,9 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 8,
-          "likes": 31,
-          "engagement": 70,
+          "post_count": 10,
+          "likes": 51,
+          "engagement": 88,
           "avg_engagement": 8.8
         },
         "evening": {

@@ -3,18 +3,20 @@
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 5,
+      "size": 7,
       "accounts": {
+        "technews_tw": 3,
         "jukan05": 1,
         "QQ_Timmy": 1,
-        "FT": 2,
+        "FT": 1,
         "statementdog": 1
       },
       "engagement_by_account": {
-        "jukan05": 381,
-        "QQ_Timmy": 10,
-        "FT": 331,
-        "statementdog": 22
+        "technews_tw": 0,
+        "jukan05": 824,
+        "QQ_Timmy": 2,
+        "FT": 131,
+        "statementdog": 29
       }
     },
     {
@@ -22,16 +24,14 @@
       "label": "記憶體 / HBM",
       "size": 4,
       "accounts": {
-        "QQ_Timmy": 1,
-        "tengyanAI": 1,
-        "statementdog": 1,
-        "technewsinside": 1
+        "TrendForce": 2,
+        "jukan05": 1,
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 36,
-        "tengyanAI": 46,
-        "statementdog": 4,
-        "technewsinside": 10
+        "TrendForce": 19,
+        "jukan05": 638,
+        "statementdog": 9
       }
     },
     {
@@ -39,14 +39,14 @@
       "label": "AI 模型 / 應用",
       "size": 4,
       "accounts": {
-        "QQ_Timmy": 1,
-        "FT": 2,
-        "technewsinside": 1
+        "technews_tw": 1,
+        "jukan05": 1,
+        "FT": 2
       },
       "engagement_by_account": {
-        "QQ_Timmy": 15,
-        "FT": 297,
-        "technewsinside": 13
+        "technews_tw": 0,
+        "jukan05": 21,
+        "FT": 76
       }
     },
     {
@@ -54,40 +54,23 @@
       "label": "GPU / AI 加速器",
       "size": 3,
       "accounts": {
-        "SemiAnalysis_": 1,
-        "statementdog": 1,
-        "technewsinside": 1
+        "QQ_Timmy": 2,
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 146,
-        "statementdog": 22,
-        "technewsinside": 2086
+        "QQ_Timmy": 99,
+        "statementdog": 29
       }
     },
     {
-      "id": "G",
-      "label": "IC 設計",
+      "id": "C",
+      "label": "ASIC / 自研晶片",
       "size": 2,
       "accounts": {
-        "SemiAnalysis_": 1,
-        "QQ_Timmy": 1
+        "QQ_Timmy": 2
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 46,
-        "QQ_Timmy": 15
-      }
-    },
-    {
-      "id": "J",
-      "label": "PCB / 載板 / 被動元件",
-      "size": 2,
-      "accounts": {
-        "jukan05": 1,
-        "QQ_Timmy": 1
-      },
-      "engagement_by_account": {
-        "jukan05": 143,
-        "QQ_Timmy": 35
+        "QQ_Timmy": 99
       }
     },
     {
@@ -95,85 +78,75 @@
       "label": "邊緣 AI / 新終端",
       "size": 2,
       "accounts": {
-        "SemiAnalysis_": 1,
-        "technewsinside": 1
+        "technews_tw": 1,
+        "SemiAnalysis_": 1
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 46,
-        "technewsinside": 32
+        "technews_tw": 1,
+        "SemiAnalysis_": 121
       }
     },
     {
-      "id": "L",
-      "label": "總經 / Fed",
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
       "size": 1,
       "accounts": {
-        "FT": 1
+        "QQ_Timmy": 1
       },
       "engagement_by_account": {
-        "FT": 47
+        "QQ_Timmy": 55
       }
     },
     {
-      "id": "N",
-      "label": "地緣政治 / 政策",
+      "id": "G",
+      "label": "IC 設計",
       "size": 1,
       "accounts": {
-        "technewsinside": 1
+        "SemiAnalysis_": 1
       },
       "engagement_by_account": {
-        "technewsinside": 36
+        "SemiAnalysis_": 121
       }
     },
     {
-      "id": "Q",
-      "label": "機器人 / Robotics",
+      "id": "R",
+      "label": "散熱 / HVAC",
       "size": 1,
       "accounts": {
-        "technewsinside": 1
+        "QQ_Timmy": 1
       },
       "engagement_by_account": {
-        "technewsinside": 16
+        "QQ_Timmy": 55
       }
     }
   ],
   "gaps": [
     {
-      "cluster_id": "D",
-      "label": "CSP / 資料中心",
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
       "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 744,
+      "competitor_count": 3,
+      "competitor_engagement": 128,
       "competitors_covering": [
-        "jukan05",
         "QQ_Timmy",
-        "FT",
         "statementdog"
       ],
       "sample_posts": [
         {
-          "handle": "jukan05",
+          "handle": "QQ_Timmy",
           "platform": "X",
-          "text": "FT: Oracle signs $7 billion deal to lease computing capacity to Tencent.",
-          "url": "https://x.com/jukan05/status/2105498127189107048",
-          "timestamp": "2026-10-01T11:20:46.000+08:00",
-          "interaction": 381
+          "text": "J.P. Morgan：NVIDIA Vera Rubin Ultra 與 AWS Trainium 3 液冷機櫃冷卻內容大幅提升  根據報告，NVIDIA 與 AWS 新一代液冷機櫃的冷卻零組件金額明顯上升，主因不是單純「降規」，而是 GPU／ASIC 功耗提高、冷板設計更複雜，以及快拆接頭（QD）規格升級。  一、NVIDIA NVL72 機櫃冷卻內容  不含 CDU",
+          "url": "https://x.com/QQ_Timmy/status/2105537759360524366",
+          "timestamp": "2026-10-01T13:58:15.000+08:00",
+          "interaction": 55
         },
         {
-          "handle": "FT",
+          "handle": "QQ_Timmy",
           "platform": "X",
-          "text": "Google releases most advanced Gemini AI model",
-          "url": "https://x.com/FT/status/2105400520261189826",
-          "timestamp": "2026-10-01T04:52:55.000+08:00",
-          "interaction": 293
-        },
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "Tencent leases 100,000 chips from Oracle to accelerate AI push",
-          "url": "https://x.com/FT/status/2105496203160936807",
-          "timestamp": "2026-10-01T11:13:07.000+08:00",
-          "interaction": 38
+          "text": "AMD Helios（部分共同設計）：AMD 首次公開揭露 TH6 scale-up 交換器設計。如果仔細看，可以發現從背板進入交換器 ASIC 的飛線（flyover cables）旁邊，全部都是 Broadcom 乙太網路 retimer。  這個設計顯示 AMD 並沒有完整的矽產品組合，特別是缺少 scale-up 交換器，而這對 scale-up",
+          "url": "https://x.com/QQ_Timmy/status/2105535023193743515",
+          "timestamp": "2026-10-01T13:47:23.000+08:00",
+          "interaction": 44
         },
         {
           "handle": "statementdog",
@@ -181,15 +154,7 @@
           "text": "Google could come close to Nvidia in high-end cloud AI accelerator shipments in 2027, according to a DIGITIMES forecast cited by the Economic Daily News.  The forecast puts Google at 8.009 million chips and Nvidia at 9.096 million, which would account for 30.9% and 35.1% of unit",
           "url": "https://x.com/statementdog/status/2105456706776113408",
           "timestamp": "2026-10-01T08:36:11.000+08:00",
-          "interaction": 22
-        },
-        {
-          "handle": "QQ_Timmy",
-          "platform": "X",
-          "text": "首爾與華府週三在華盛頓公布三項美國能源計畫  德州燃氣電廠（星辰計畫） 韓美公布首個落地案：在德州 Encinal 興建約 6,472 兆瓦燃氣複循環電廠，投資 223 億美元，供電給 AI 資料中心。 第一階段約 1,952 兆瓦預定 2029 年商轉，全廠目標 2032",
-          "url": "https://x.com/QQ_Timmy/status/2105444801994952887",
-          "timestamp": "2026-10-01T07:48:52.000+08:00",
-          "interaction": 10
+          "interaction": 29
         }
       ]
     },
@@ -198,114 +163,66 @@
       "label": "AI 模型 / 應用",
       "own_count": 1,
       "competitor_count": 3,
-      "competitor_engagement": 312,
+      "competitor_engagement": 97,
       "competitors_covering": [
-        "QQ_Timmy",
+        "jukan05",
         "FT"
       ],
       "sample_posts": [
         {
           "handle": "FT",
           "platform": "X",
-          "text": "Google releases most advanced Gemini AI model",
-          "url": "https://x.com/FT/status/2105400520261189826",
-          "timestamp": "2026-10-01T04:52:55.000+08:00",
-          "interaction": 293
-        },
-        {
-          "handle": "QQ_Timmy",
-          "platform": "X",
-          "text": "新思科技（Synopsys,  $SNPS ）與 OpenAI 於 2026 年 9 月 30 日宣布簽署多年期約束性協議，作為優先合作夥伴，聯合開發 GPT-Synopsys。這是一款專為半導體設計打造的專業模型，結合 OpenAI 前沿人工智能與新思 EDA 工具及芯片設計經驗。OpenAI 將獲得新思 EDA",
-          "url": "https://x.com/QQ_Timmy/status/2105417727695565068",
-          "timestamp": "2026-10-01T06:01:17.000+08:00",
-          "interaction": 15
+          "text": "OpenAI’s agents obscured hacking activity in government site breaches",
+          "url": "https://x.com/FT/status/2105514178895028294",
+          "timestamp": "2026-10-01T12:24:33.000+08:00",
+          "interaction": 54
         },
         {
           "handle": "FT",
           "platform": "X",
-          "text": "OpenAI’s agents obscured hacking activity in government site breaches",
-          "url": "https://x.com/FT/status/2105514178895028294",
-          "timestamp": "2026-10-01T12:24:33.000+08:00",
-          "interaction": 4
-        }
-      ]
-    },
-    {
-      "cluster_id": "A",
-      "label": "記憶體 / HBM",
-      "own_count": 1,
-      "competitor_count": 3,
-      "competitor_engagement": 86,
-      "competitors_covering": [
-        "QQ_Timmy",
-        "tengyanAI",
-        "statementdog"
-      ],
-      "sample_posts": [
-        {
-          "handle": "tengyanAI",
-          "platform": "X",
-          "text": "BEFORE Micron reported, we put 80% on revenue beating every analyst estimate (~$52B)  Actual: $54.23B   our own central estimate was $54.5B. our model scenario was $56.2B. ( @tessara_ai )  but if you skip the headline numbers, you'll find the most useful details in  $MU 's earnings",
-          "url": "https://x.com/tengyanAI/status/2105443778148675616",
-          "timestamp": "2026-10-01T07:44:48.000+08:00",
-          "interaction": 46
+          "text": "FT exclusive: OpenAI’s models took data from 55 websites belonging to businesses, non-profits and government agencies including the US Centers for Disease Control and Prevention, the US Securities and Exchange Commission and the International Energy Agency  https:// ft.trib.al/AC1uyE5",
+          "url": "https://x.com/FT/status/2105569727611351304",
+          "timestamp": "2026-10-01T16:05:17.000+08:00",
+          "interaction": 22
         },
         {
-          "handle": "QQ_Timmy",
+          "handle": "jukan05",
           "platform": "X",
-          "text": "Micron  $MU  ：  市場展望（1/2） - 我們預期記憶體與儲存的供需狀況，在 2027 與 2028 年曆年會比 2026 年明顯更緊。  - NAND 方面，2026 年曆年我們預期產業位元出貨量成長約落在低 20% 區間，略高於先前預期。  - 我們預期美光 NAND 供給成長，在 2026 年曆年會低於產業供給成長。  - 2027 與 2028",
-          "url": "https://x.com/QQ_Timmy/status/2105415422439010656",
-          "timestamp": "2026-10-01T05:52:08.000+08:00",
-          "interaction": 36
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "Micron  $MU  says more than 75% of its 2027 output is already committed to customers.  CEO Sanjay Mehrotra said on the earnings call that this includes customers with and without long-term supply agreements. Most discussions with customers now focus on 2028, he added.  Micron has",
-          "url": "https://x.com/statementdog/status/2105485682282250428",
-          "timestamp": "2026-10-01T10:31:19.000+08:00",
-          "interaction": 4
+          "text": "The most extreme case I’ve seen was someone using ChatGPT to remove Netflix’s DRM.",
+          "url": "https://x.com/jukan05/status/2105539528626970741",
+          "timestamp": "2026-10-01T14:05:17.000+08:00",
+          "interaction": 21
         }
       ]
     }
   ],
   "suggested_entry_points": [
     {
-      "cluster_id": "D",
-      "label": "CSP / 資料中心",
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
       "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 744,
+      "competitor_count": 3,
+      "competitor_engagement": 128,
       "competitors_covering": [
-        "jukan05",
         "QQ_Timmy",
-        "FT",
         "statementdog"
       ],
       "sample_posts": [
         {
-          "handle": "jukan05",
+          "handle": "QQ_Timmy",
           "platform": "X",
-          "text": "FT: Oracle signs $7 billion deal to lease computing capacity to Tencent.",
-          "url": "https://x.com/jukan05/status/2105498127189107048",
-          "timestamp": "2026-10-01T11:20:46.000+08:00",
-          "interaction": 381
+          "text": "J.P. Morgan：NVIDIA Vera Rubin Ultra 與 AWS Trainium 3 液冷機櫃冷卻內容大幅提升  根據報告，NVIDIA 與 AWS 新一代液冷機櫃的冷卻零組件金額明顯上升，主因不是單純「降規」，而是 GPU／ASIC 功耗提高、冷板設計更複雜，以及快拆接頭（QD）規格升級。  一、NVIDIA NVL72 機櫃冷卻內容  不含 CDU",
+          "url": "https://x.com/QQ_Timmy/status/2105537759360524366",
+          "timestamp": "2026-10-01T13:58:15.000+08:00",
+          "interaction": 55
         },
         {
-          "handle": "FT",
+          "handle": "QQ_Timmy",
           "platform": "X",
-          "text": "Google releases most advanced Gemini AI model",
-          "url": "https://x.com/FT/status/2105400520261189826",
-          "timestamp": "2026-10-01T04:52:55.000+08:00",
-          "interaction": 293
-        },
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "Tencent leases 100,000 chips from Oracle to accelerate AI push",
-          "url": "https://x.com/FT/status/2105496203160936807",
-          "timestamp": "2026-10-01T11:13:07.000+08:00",
-          "interaction": 38
+          "text": "AMD Helios（部分共同設計）：AMD 首次公開揭露 TH6 scale-up 交換器設計。如果仔細看，可以發現從背板進入交換器 ASIC 的飛線（flyover cables）旁邊，全部都是 Broadcom 乙太網路 retimer。  這個設計顯示 AMD 並沒有完整的矽產品組合，特別是缺少 scale-up 交換器，而這對 scale-up",
+          "url": "https://x.com/QQ_Timmy/status/2105535023193743515",
+          "timestamp": "2026-10-01T13:47:23.000+08:00",
+          "interaction": 44
         },
         {
           "handle": "statementdog",
@@ -313,15 +230,7 @@
           "text": "Google could come close to Nvidia in high-end cloud AI accelerator shipments in 2027, according to a DIGITIMES forecast cited by the Economic Daily News.  The forecast puts Google at 8.009 million chips and Nvidia at 9.096 million, which would account for 30.9% and 35.1% of unit",
           "url": "https://x.com/statementdog/status/2105456706776113408",
           "timestamp": "2026-10-01T08:36:11.000+08:00",
-          "interaction": 22
-        },
-        {
-          "handle": "QQ_Timmy",
-          "platform": "X",
-          "text": "首爾與華府週三在華盛頓公布三項美國能源計畫  德州燃氣電廠（星辰計畫） 韓美公布首個落地案：在德州 Encinal 興建約 6,472 兆瓦燃氣複循環電廠，投資 223 億美元，供電給 AI 資料中心。 第一階段約 1,952 兆瓦預定 2029 年商轉，全廠目標 2032",
-          "url": "https://x.com/QQ_Timmy/status/2105444801994952887",
-          "timestamp": "2026-10-01T07:48:52.000+08:00",
-          "interaction": 10
+          "interaction": 29
         }
       ]
     },
@@ -330,81 +239,43 @@
       "label": "AI 模型 / 應用",
       "own_count": 1,
       "competitor_count": 3,
-      "competitor_engagement": 312,
+      "competitor_engagement": 97,
       "competitors_covering": [
-        "QQ_Timmy",
+        "jukan05",
         "FT"
       ],
       "sample_posts": [
         {
           "handle": "FT",
           "platform": "X",
-          "text": "Google releases most advanced Gemini AI model",
-          "url": "https://x.com/FT/status/2105400520261189826",
-          "timestamp": "2026-10-01T04:52:55.000+08:00",
-          "interaction": 293
-        },
-        {
-          "handle": "QQ_Timmy",
-          "platform": "X",
-          "text": "新思科技（Synopsys,  $SNPS ）與 OpenAI 於 2026 年 9 月 30 日宣布簽署多年期約束性協議，作為優先合作夥伴，聯合開發 GPT-Synopsys。這是一款專為半導體設計打造的專業模型，結合 OpenAI 前沿人工智能與新思 EDA 工具及芯片設計經驗。OpenAI 將獲得新思 EDA",
-          "url": "https://x.com/QQ_Timmy/status/2105417727695565068",
-          "timestamp": "2026-10-01T06:01:17.000+08:00",
-          "interaction": 15
+          "text": "OpenAI’s agents obscured hacking activity in government site breaches",
+          "url": "https://x.com/FT/status/2105514178895028294",
+          "timestamp": "2026-10-01T12:24:33.000+08:00",
+          "interaction": 54
         },
         {
           "handle": "FT",
           "platform": "X",
-          "text": "OpenAI’s agents obscured hacking activity in government site breaches",
-          "url": "https://x.com/FT/status/2105514178895028294",
-          "timestamp": "2026-10-01T12:24:33.000+08:00",
-          "interaction": 4
-        }
-      ]
-    },
-    {
-      "cluster_id": "A",
-      "label": "記憶體 / HBM",
-      "own_count": 1,
-      "competitor_count": 3,
-      "competitor_engagement": 86,
-      "competitors_covering": [
-        "QQ_Timmy",
-        "tengyanAI",
-        "statementdog"
-      ],
-      "sample_posts": [
-        {
-          "handle": "tengyanAI",
-          "platform": "X",
-          "text": "BEFORE Micron reported, we put 80% on revenue beating every analyst estimate (~$52B)  Actual: $54.23B   our own central estimate was $54.5B. our model scenario was $56.2B. ( @tessara_ai )  but if you skip the headline numbers, you'll find the most useful details in  $MU 's earnings",
-          "url": "https://x.com/tengyanAI/status/2105443778148675616",
-          "timestamp": "2026-10-01T07:44:48.000+08:00",
-          "interaction": 46
+          "text": "FT exclusive: OpenAI’s models took data from 55 websites belonging to businesses, non-profits and government agencies including the US Centers for Disease Control and Prevention, the US Securities and Exchange Commission and the International Energy Agency  https:// ft.trib.al/AC1uyE5",
+          "url": "https://x.com/FT/status/2105569727611351304",
+          "timestamp": "2026-10-01T16:05:17.000+08:00",
+          "interaction": 22
         },
         {
-          "handle": "QQ_Timmy",
+          "handle": "jukan05",
           "platform": "X",
-          "text": "Micron  $MU  ：  市場展望（1/2） - 我們預期記憶體與儲存的供需狀況，在 2027 與 2028 年曆年會比 2026 年明顯更緊。  - NAND 方面，2026 年曆年我們預期產業位元出貨量成長約落在低 20% 區間，略高於先前預期。  - 我們預期美光 NAND 供給成長，在 2026 年曆年會低於產業供給成長。  - 2027 與 2028",
-          "url": "https://x.com/QQ_Timmy/status/2105415422439010656",
-          "timestamp": "2026-10-01T05:52:08.000+08:00",
-          "interaction": 36
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "Micron  $MU  says more than 75% of its 2027 output is already committed to customers.  CEO Sanjay Mehrotra said on the earnings call that this includes customers with and without long-term supply agreements. Most discussions with customers now focus on 2028, he added.  Micron has",
-          "url": "https://x.com/statementdog/status/2105485682282250428",
-          "timestamp": "2026-10-01T10:31:19.000+08:00",
-          "interaction": 4
+          "text": "The most extreme case I’ve seen was someone using ChatGPT to remove Netflix’s DRM.",
+          "url": "https://x.com/jukan05/status/2105539528626970741",
+          "timestamp": "2026-10-01T14:05:17.000+08:00",
+          "interaction": 21
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-10-01T04:28:59+08:00",
-    "end_utc": "2026-10-01T12:28:59+08:00",
-    "start_tw": "Oct 01, 04:28",
-    "end_tw": "Oct 01, 12:28"
+    "start_utc": "2026-10-01T08:27:46+08:00",
+    "end_utc": "2026-10-01T16:27:46+08:00",
+    "start_tw": "Oct 01, 08:27",
+    "end_tw": "Oct 01, 16:27"
   }
 }
