@@ -1,55 +1,101 @@
 {
   "clusters": [
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
-      "size": 4,
-      "accounts": {
-        "technews_tw": 3,
-        "QQ_Timmy": 1
-      },
-      "engagement_by_account": {
-        "technews_tw": 0,
-        "QQ_Timmy": 2
-      }
-    },
-    {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 3,
+      "size": 13,
       "accounts": {
         "TrendForce": 2,
-        "jukan05": 1
+        "jukan05": 1,
+        "TrendForce.tw": 1,
+        "technewsinside": 5,
+        "ctee.fans": 4
       },
       "engagement_by_account": {
         "TrendForce": 19,
-        "jukan05": 638
+        "jukan05": 638,
+        "TrendForce.tw": 12,
+        "technewsinside": 278,
+        "ctee.fans": 141
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 9,
+      "accounts": {
+        "technews_tw": 3,
+        "QQ_Timmy": 1,
+        "technewsinside": 4,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 0,
+        "QQ_Timmy": 2,
+        "technewsinside": 38,
+        "yutinghaosfinance": 16
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 5,
+      "accounts": {
+        "technewsinside": 3,
+        "ctee.fans": 1,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 133,
+        "ctee.fans": 48,
+        "yutinghaosfinance": 730
       }
     },
     {
       "id": "K",
       "label": "AI 模型 / 應用",
-      "size": 3,
+      "size": 5,
       "accounts": {
         "technews_tw": 1,
         "jukan05": 1,
-        "FT": 1
+        "FT": 1,
+        "technewsinside": 2
       },
       "engagement_by_account": {
         "technews_tw": 0,
         "jukan05": 21,
-        "FT": 22
+        "FT": 22,
+        "technewsinside": 16
       }
     },
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 2,
+      "size": 4,
       "accounts": {
-        "QQ_Timmy": 2
+        "QQ_Timmy": 2,
+        "technewsinside": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 99
+        "QQ_Timmy": 99,
+        "technewsinside": 21,
+        "ctee.fans": 48
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 4,
+      "accounts": {
+        "technews_tw": 1,
+        "technewsinside": 2,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 1,
+        "technewsinside": 40,
+        "yutinghaosfinance": 16
       }
     },
     {
@@ -66,23 +112,73 @@
     {
       "id": "E",
       "label": "AI 伺服器供應鏈",
-      "size": 1,
+      "size": 2,
       "accounts": {
-        "QQ_Timmy": 1
+        "QQ_Timmy": 1,
+        "yutinghaosfinance": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 55
+        "QQ_Timmy": 55,
+        "yutinghaosfinance": 16
       }
     },
     {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
-      "size": 1,
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 2,
       "accounts": {
-        "technews_tw": 1
+        "technewsinside": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "technews_tw": 1
+        "technewsinside": 30,
+        "ctee.fans": 49
+      }
+    },
+    {
+      "id": "L",
+      "label": "總經 / Fed",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 1,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 11,
+        "yutinghaosfinance": 115
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 56
+      }
+    },
+    {
+      "id": "G",
+      "label": "IC 設計",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 13
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 22
       }
     },
     {
@@ -97,12 +193,88 @@
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 147,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "J.P. Morgan：NVIDIA Vera Rubin Ultra 與 AWS Trainium 3 液冷機櫃冷卻內容大幅提升  根據報告，NVIDIA 與 AWS 新一代液冷機櫃的冷卻零組件金額明顯上升，主因不是單純「降規」，而是 GPU／ASIC 功耗提高、冷板設計更複雜，以及快拆接頭（QD）規格升級。  一、NVIDIA NVL72 機櫃冷卻內容  不含 CDU",
+          "url": "https://x.com/QQ_Timmy/status/2105537759360524366",
+          "timestamp": "2026-10-01T13:58:15.000+08:00",
+          "interaction": 55
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "輝達（NVIDIA）評估將玻璃基板導入下一代AI晶片封裝的消息再度引爆市場想像，台股玻璃基板概念股近期成為資金追逐焦點，悅城（6405）也因過去具備光電玻璃薄化、研磨及拋光等相關技術，30日股價亮燈漲停，市場進一步將公司與先進封裝玻璃載板商機連結。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02hhTVvSbRJjc3xhtBRmM42qLr2rikoJRCDs29j8gpjWTt8TU3ku7b8JwKgNLLrn9l?__cft__[0]=AZighr_DWVNfn5rxRPYCWuGI64X1YYTguRyP1r_WhSauK9pZYXrbbtDVenH-snVw6Uq729L-wzaHuoR7BDVRQJIwzsR3HuiuCL4lWHdYl-NzcjyLtqlhAQ7iIHf6TC0I8W5Fw-1hTnAiOh9F4GIdT-FsGFx9bQZR_S4A02lBEMf-02JT_YO_LzDcsIg",
+          "timestamp": "2026-10-01T08:53:36.400942+00:00",
+          "interaction": 48
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "AMD Helios（部分共同設計）：AMD 首次公開揭露 TH6 scale-up 交換器設計。如果仔細看，可以發現從背板進入交換器 ASIC 的飛線（flyover cables）旁邊，全部都是 Broadcom 乙太網路 retimer。  這個設計顯示 AMD 並沒有完整的矽產品組合，特別是缺少 scale-up 交換器，而這對 scale-up",
+          "url": "https://x.com/QQ_Timmy/status/2105535023193743515",
+          "timestamp": "2026-10-01T13:47:23.000+08:00",
+          "interaction": 44
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 147,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "J.P. Morgan：NVIDIA Vera Rubin Ultra 與 AWS Trainium 3 液冷機櫃冷卻內容大幅提升  根據報告，NVIDIA 與 AWS 新一代液冷機櫃的冷卻零組件金額明顯上升，主因不是單純「降規」，而是 GPU／ASIC 功耗提高、冷板設計更複雜，以及快拆接頭（QD）規格升級。  一、NVIDIA NVL72 機櫃冷卻內容  不含 CDU",
+          "url": "https://x.com/QQ_Timmy/status/2105537759360524366",
+          "timestamp": "2026-10-01T13:58:15.000+08:00",
+          "interaction": 55
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "輝達（NVIDIA）評估將玻璃基板導入下一代AI晶片封裝的消息再度引爆市場想像，台股玻璃基板概念股近期成為資金追逐焦點，悅城（6405）也因過去具備光電玻璃薄化、研磨及拋光等相關技術，30日股價亮燈漲停，市場進一步將公司與先進封裝玻璃載板商機連結。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02hhTVvSbRJjc3xhtBRmM42qLr2rikoJRCDs29j8gpjWTt8TU3ku7b8JwKgNLLrn9l?__cft__[0]=AZighr_DWVNfn5rxRPYCWuGI64X1YYTguRyP1r_WhSauK9pZYXrbbtDVenH-snVw6Uq729L-wzaHuoR7BDVRQJIwzsR3HuiuCL4lWHdYl-NzcjyLtqlhAQ7iIHf6TC0I8W5Fw-1hTnAiOh9F4GIdT-FsGFx9bQZR_S4A02lBEMf-02JT_YO_LzDcsIg",
+          "timestamp": "2026-10-01T08:53:36.400942+00:00",
+          "interaction": 48
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "AMD Helios（部分共同設計）：AMD 首次公開揭露 TH6 scale-up 交換器設計。如果仔細看，可以發現從背板進入交換器 ASIC 的飛線（flyover cables）旁邊，全部都是 Broadcom 乙太網路 retimer。  這個設計顯示 AMD 並沒有完整的矽產品組合，特別是缺少 scale-up 交換器，而這對 scale-up",
+          "url": "https://x.com/QQ_Timmy/status/2105535023193743515",
+          "timestamp": "2026-10-01T13:47:23.000+08:00",
+          "interaction": 44
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-01T12:27:46+08:00",
-    "end_utc": "2026-10-01T16:27:46+08:00",
-    "start_tw": "Oct 01, 12:27",
-    "end_tw": "Oct 01, 16:27"
+    "start_utc": "2026-10-01T04:56:17.144999+00:00",
+    "end_utc": "2026-10-01T08:56:17.144999+00:00",
+    "start_tw": "Oct 01, 12:56",
+    "end_tw": "Oct 01, 16:56"
   }
 }

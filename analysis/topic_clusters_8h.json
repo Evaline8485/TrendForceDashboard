@@ -1,65 +1,109 @@
 {
   "clusters": [
     {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 14,
+      "accounts": {
+        "TrendForce": 2,
+        "jukan05": 1,
+        "statementdog": 1,
+        "TrendForce.tw": 1,
+        "technewsinside": 5,
+        "ctee.fans": 4
+      },
+      "engagement_by_account": {
+        "TrendForce": 19,
+        "jukan05": 638,
+        "statementdog": 9,
+        "TrendForce.tw": 12,
+        "technewsinside": 278,
+        "ctee.fans": 141
+      }
+    },
+    {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 7,
+      "size": 11,
       "accounts": {
         "technews_tw": 3,
         "jukan05": 1,
         "QQ_Timmy": 1,
         "FT": 1,
-        "statementdog": 1
+        "technewsinside": 4,
+        "yutinghaosfinance": 1
       },
       "engagement_by_account": {
         "technews_tw": 0,
         "jukan05": 824,
         "QQ_Timmy": 2,
         "FT": 131,
-        "statementdog": 29
-      }
-    },
-    {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 4,
-      "accounts": {
-        "TrendForce": 2,
-        "jukan05": 1,
-        "statementdog": 1
-      },
-      "engagement_by_account": {
-        "TrendForce": 19,
-        "jukan05": 638,
-        "statementdog": 9
+        "technewsinside": 38,
+        "yutinghaosfinance": 16
       }
     },
     {
       "id": "K",
       "label": "AI 模型 / 應用",
-      "size": 4,
+      "size": 6,
       "accounts": {
         "technews_tw": 1,
         "jukan05": 1,
-        "FT": 2
+        "FT": 2,
+        "technewsinside": 2
       },
       "engagement_by_account": {
         "technews_tw": 0,
         "jukan05": 21,
-        "FT": 76
+        "FT": 76,
+        "technewsinside": 16
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 5,
+      "accounts": {
+        "technewsinside": 3,
+        "ctee.fans": 1,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 133,
+        "ctee.fans": 48,
+        "yutinghaosfinance": 730
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 5,
+      "accounts": {
+        "technews_tw": 1,
+        "SemiAnalysis_": 1,
+        "technewsinside": 2,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 1,
+        "SemiAnalysis_": 121,
+        "technewsinside": 40,
+        "yutinghaosfinance": 16
       }
     },
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 3,
+      "size": 4,
       "accounts": {
         "QQ_Timmy": 2,
-        "statementdog": 1
+        "technewsinside": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
         "QQ_Timmy": 99,
-        "statementdog": 29
+        "technewsinside": 21,
+        "ctee.fans": 48
       }
     },
     {
@@ -74,38 +118,77 @@
       }
     },
     {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
-      "size": 2,
-      "accounts": {
-        "technews_tw": 1,
-        "SemiAnalysis_": 1
-      },
-      "engagement_by_account": {
-        "technews_tw": 1,
-        "SemiAnalysis_": 121
-      }
-    },
-    {
       "id": "E",
       "label": "AI 伺服器供應鏈",
-      "size": 1,
+      "size": 2,
       "accounts": {
-        "QQ_Timmy": 1
+        "QQ_Timmy": 1,
+        "yutinghaosfinance": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 55
+        "QQ_Timmy": 55,
+        "yutinghaosfinance": 16
       }
     },
     {
       "id": "G",
       "label": "IC 設計",
-      "size": 1,
+      "size": 2,
       "accounts": {
-        "SemiAnalysis_": 1
+        "SemiAnalysis_": 1,
+        "technewsinside": 1
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 121
+        "SemiAnalysis_": 121,
+        "technewsinside": 13
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 30,
+        "ctee.fans": 49
+      }
+    },
+    {
+      "id": "L",
+      "label": "總經 / Fed",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 1,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 11,
+        "yutinghaosfinance": 115
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 56
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 22
       }
     },
     {
@@ -124,12 +207,12 @@
     {
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
-      "own_count": 0,
+      "own_count": 1,
       "competitor_count": 3,
-      "competitor_engagement": 128,
+      "competitor_engagement": 147,
       "competitors_covering": [
         "QQ_Timmy",
-        "statementdog"
+        "ctee.fans"
       ],
       "sample_posts": [
         {
@@ -141,57 +224,20 @@
           "interaction": 55
         },
         {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "輝達（NVIDIA）評估將玻璃基板導入下一代AI晶片封裝的消息再度引爆市場想像，台股玻璃基板概念股近期成為資金追逐焦點，悅城（6405）也因過去具備光電玻璃薄化、研磨及拋光等相關技術，30日股價亮燈漲停，市場進一步將公司與先進封裝玻璃載板商機連結。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02hhTVvSbRJjc3xhtBRmM42qLr2rikoJRCDs29j8gpjWTt8TU3ku7b8JwKgNLLrn9l?__cft__[0]=AZighr_DWVNfn5rxRPYCWuGI64X1YYTguRyP1r_WhSauK9pZYXrbbtDVenH-snVw6Uq729L-wzaHuoR7BDVRQJIwzsR3HuiuCL4lWHdYl-NzcjyLtqlhAQ7iIHf6TC0I8W5Fw-1hTnAiOh9F4GIdT-FsGFx9bQZR_S4A02lBEMf-02JT_YO_LzDcsIg",
+          "timestamp": "2026-10-01T08:53:36.400942+00:00",
+          "interaction": 48
+        },
+        {
           "handle": "QQ_Timmy",
           "platform": "X",
           "text": "AMD Helios（部分共同設計）：AMD 首次公開揭露 TH6 scale-up 交換器設計。如果仔細看，可以發現從背板進入交換器 ASIC 的飛線（flyover cables）旁邊，全部都是 Broadcom 乙太網路 retimer。  這個設計顯示 AMD 並沒有完整的矽產品組合，特別是缺少 scale-up 交換器，而這對 scale-up",
           "url": "https://x.com/QQ_Timmy/status/2105535023193743515",
           "timestamp": "2026-10-01T13:47:23.000+08:00",
           "interaction": 44
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "Google could come close to Nvidia in high-end cloud AI accelerator shipments in 2027, according to a DIGITIMES forecast cited by the Economic Daily News.  The forecast puts Google at 8.009 million chips and Nvidia at 9.096 million, which would account for 30.9% and 35.1% of unit",
-          "url": "https://x.com/statementdog/status/2105456706776113408",
-          "timestamp": "2026-10-01T08:36:11.000+08:00",
-          "interaction": 29
-        }
-      ]
-    },
-    {
-      "cluster_id": "K",
-      "label": "AI 模型 / 應用",
-      "own_count": 1,
-      "competitor_count": 3,
-      "competitor_engagement": 97,
-      "competitors_covering": [
-        "jukan05",
-        "FT"
-      ],
-      "sample_posts": [
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "OpenAI’s agents obscured hacking activity in government site breaches",
-          "url": "https://x.com/FT/status/2105514178895028294",
-          "timestamp": "2026-10-01T12:24:33.000+08:00",
-          "interaction": 54
-        },
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "FT exclusive: OpenAI’s models took data from 55 websites belonging to businesses, non-profits and government agencies including the US Centers for Disease Control and Prevention, the US Securities and Exchange Commission and the International Energy Agency  https:// ft.trib.al/AC1uyE5",
-          "url": "https://x.com/FT/status/2105569727611351304",
-          "timestamp": "2026-10-01T16:05:17.000+08:00",
-          "interaction": 22
-        },
-        {
-          "handle": "jukan05",
-          "platform": "X",
-          "text": "The most extreme case I’ve seen was someone using ChatGPT to remove Netflix’s DRM.",
-          "url": "https://x.com/jukan05/status/2105539528626970741",
-          "timestamp": "2026-10-01T14:05:17.000+08:00",
-          "interaction": 21
         }
       ]
     }
@@ -200,12 +246,12 @@
     {
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
-      "own_count": 0,
+      "own_count": 1,
       "competitor_count": 3,
-      "competitor_engagement": 128,
+      "competitor_engagement": 147,
       "competitors_covering": [
         "QQ_Timmy",
-        "statementdog"
+        "ctee.fans"
       ],
       "sample_posts": [
         {
@@ -217,65 +263,28 @@
           "interaction": 55
         },
         {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "輝達（NVIDIA）評估將玻璃基板導入下一代AI晶片封裝的消息再度引爆市場想像，台股玻璃基板概念股近期成為資金追逐焦點，悅城（6405）也因過去具備光電玻璃薄化、研磨及拋光等相關技術，30日股價亮燈漲停，市場進一步將公司與先進封裝玻璃載板商機連結。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02hhTVvSbRJjc3xhtBRmM42qLr2rikoJRCDs29j8gpjWTt8TU3ku7b8JwKgNLLrn9l?__cft__[0]=AZighr_DWVNfn5rxRPYCWuGI64X1YYTguRyP1r_WhSauK9pZYXrbbtDVenH-snVw6Uq729L-wzaHuoR7BDVRQJIwzsR3HuiuCL4lWHdYl-NzcjyLtqlhAQ7iIHf6TC0I8W5Fw-1hTnAiOh9F4GIdT-FsGFx9bQZR_S4A02lBEMf-02JT_YO_LzDcsIg",
+          "timestamp": "2026-10-01T08:53:36.400942+00:00",
+          "interaction": 48
+        },
+        {
           "handle": "QQ_Timmy",
           "platform": "X",
           "text": "AMD Helios（部分共同設計）：AMD 首次公開揭露 TH6 scale-up 交換器設計。如果仔細看，可以發現從背板進入交換器 ASIC 的飛線（flyover cables）旁邊，全部都是 Broadcom 乙太網路 retimer。  這個設計顯示 AMD 並沒有完整的矽產品組合，特別是缺少 scale-up 交換器，而這對 scale-up",
           "url": "https://x.com/QQ_Timmy/status/2105535023193743515",
           "timestamp": "2026-10-01T13:47:23.000+08:00",
           "interaction": 44
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "Google could come close to Nvidia in high-end cloud AI accelerator shipments in 2027, according to a DIGITIMES forecast cited by the Economic Daily News.  The forecast puts Google at 8.009 million chips and Nvidia at 9.096 million, which would account for 30.9% and 35.1% of unit",
-          "url": "https://x.com/statementdog/status/2105456706776113408",
-          "timestamp": "2026-10-01T08:36:11.000+08:00",
-          "interaction": 29
-        }
-      ]
-    },
-    {
-      "cluster_id": "K",
-      "label": "AI 模型 / 應用",
-      "own_count": 1,
-      "competitor_count": 3,
-      "competitor_engagement": 97,
-      "competitors_covering": [
-        "jukan05",
-        "FT"
-      ],
-      "sample_posts": [
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "OpenAI’s agents obscured hacking activity in government site breaches",
-          "url": "https://x.com/FT/status/2105514178895028294",
-          "timestamp": "2026-10-01T12:24:33.000+08:00",
-          "interaction": 54
-        },
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "FT exclusive: OpenAI’s models took data from 55 websites belonging to businesses, non-profits and government agencies including the US Centers for Disease Control and Prevention, the US Securities and Exchange Commission and the International Energy Agency  https:// ft.trib.al/AC1uyE5",
-          "url": "https://x.com/FT/status/2105569727611351304",
-          "timestamp": "2026-10-01T16:05:17.000+08:00",
-          "interaction": 22
-        },
-        {
-          "handle": "jukan05",
-          "platform": "X",
-          "text": "The most extreme case I’ve seen was someone using ChatGPT to remove Netflix’s DRM.",
-          "url": "https://x.com/jukan05/status/2105539528626970741",
-          "timestamp": "2026-10-01T14:05:17.000+08:00",
-          "interaction": 21
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-10-01T08:27:46+08:00",
-    "end_utc": "2026-10-01T16:27:46+08:00",
-    "start_tw": "Oct 01, 08:27",
-    "end_tw": "Oct 01, 16:27"
+    "start_utc": "2026-10-01T00:56:17.144999+00:00",
+    "end_utc": "2026-10-01T08:56:17.144999+00:00",
+    "start_tw": "Oct 01, 08:56",
+    "end_tw": "Oct 01, 16:56"
   }
 }
