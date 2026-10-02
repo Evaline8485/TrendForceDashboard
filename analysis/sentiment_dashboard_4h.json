@@ -1,117 +1,105 @@
 {
-  "generated_at": "2026-10-02T12:55:09+08:00",
+  "generated_at": "2026-10-02T16:21:34+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-02T08:55:09+08:00",
-    "end_utc": "2026-10-02T12:55:09+08:00",
-    "start_tw": "Oct 02, 08:55",
-    "end_tw": "Oct 02, 12:55"
+    "start_utc": "2026-10-02T12:21:34+08:00",
+    "end_utc": "2026-10-02T16:21:34+08:00",
+    "start_tw": "Oct 02, 12:21",
+    "end_tw": "Oct 02, 16:21"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 14,
+      "total_posts": 21,
       "sentiment_counts": {
+        "positive": 10,
         "negative": 6,
-        "positive": 8
+        "neutral": 5
       },
       "sentiment_share": {
-        "negative": 0.429,
-        "positive": 0.571
+        "positive": 0.476,
+        "negative": 0.286,
+        "neutral": 0.238
       },
       "top_terms": [
-        "reports",
-        "ruthenium",
-        "expand",
-        "capacity",
-        "nev",
-        "zelenskyy",
-        "digitimes",
-        "risen",
-        "ounce",
-        "dealer"
+        "tvl",
+        "透過",
+        "microled",
+        "oled",
+        "英特",
+        "特爾",
+        "英特爾",
+        "專利",
+        "發光",
+        "封裝"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 0,
-        "label": "zelenskyy / nev / reports / expand",
+        "label": "ipo / rates / investors / sell",
         "heat": 90.0,
-        "volume": 12,
-        "engagement": 345,
+        "volume": 11,
+        "engagement": 532,
         "entities": [
-          "東芝",
-          "菲律賓",
+          "華盛頓",
+          "聯邦通訊委員會"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "zelenskyy",
+        "heat": 50.0,
+        "volume": 2,
+        "engagement": 597,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "tvl / oled",
+        "heat": 10.0,
+        "volume": 6,
+        "engagement": 5,
+        "entities": [
+          "英特爾",
           "美國"
         ],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "ruthenium",
+        "label": "donald",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 46,
+        "engagement": 30,
         "entities": [],
         "is_catchall": false
       }
     ],
     "named_entities": [
       {
-        "entity": "東芝",
-        "count": 2
-      },
-      {
-        "entity": "菲律賓",
-        "count": 1
+        "entity": "英特爾",
+        "count": 6
       },
       {
         "entity": "美國",
+        "count": 2
+      },
+      {
+        "entity": "華盛頓",
+        "count": 1
+      },
+      {
+        "entity": "聯邦通訊委員會",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-02T08:55:08.999994+08:00",
-        "bucket_end": "2026-10-02T09:12:17.571423+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 34,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 2,
-        "engagement": 34,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "zelenskyy / nev / reports / expand",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "Now on electrification of trucking. Dongfeng reports its NEV light trucks grew 348.5% YoY thru Sep. It is also seeing 115.6% growth in oversea sales.  Showing again that there is a huge shift happenin",
-            "url": "https://x.com/tphuang/status/2105828063074197585",
-            "interaction": 18
-          },
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "Monthly NEV Sales of BYD, Leapmotor, Geely & NIO from 2024/1 until now. Leapmotor is clearly the fastest grower. BYD has increased very slowly in past 3 yrs. Geely really rose last yr but has flattene",
-            "url": "https://x.com/tphuang/status/2105827592817254824",
-            "interaction": 16
-          }
-        ],
-        "net_sentiment_smoothed": 66.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-02T09:12:17.571423+08:00",
-        "bucket_end": "2026-10-02T09:29:26.142852+08:00",
+        "bucket_start": "2026-10-02T12:21:33.999994+08:00",
+        "bucket_end": "2026-10-02T12:38:42.571423+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -123,175 +111,50 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 50.0,
+        "net_sentiment_smoothed": -33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-02T09:29:26.142852+08:00",
-        "bucket_end": "2026-10-02T09:46:34.714281+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 14,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 2,
-        "engagement": 14,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "zelenskyy / nev / reports / expand",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "東芝計畫在2027年度內，把供應人工智慧（AI）資料中心的硬碟機（HDD）產能提高一倍，並將投入約600億日圓擴充菲律賓工廠，以穩定供應AI基礎設施所需的關鍵零件。  半導體記憶體採購困難，推升資料中心對HDD的需求。目前HDD市場由美國Western Digital、Seagate Technology與東芝三家寡占。",
-            "url": "https://x.com/QQ_Timmy/status/2105836618389340267",
-            "interaction": 11
-          },
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "Micron’s  $MU  construction spending over the next few years could put it in the same league as the world’s top five construction firms, excluding some Chinese companies.  Micron Taiwan chairman Dongh",
-            "url": "https://x.com/statementdog/status/2105833832096403635",
-            "interaction": 3
-          }
-        ],
-        "net_sentiment_smoothed": 60.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-02T09:46:34.714281+08:00",
-        "bucket_end": "2026-10-02T10:03:43.285710+08:00",
+        "bucket_start": "2026-10-02T12:38:42.571423+08:00",
+        "bucket_end": "2026-10-02T12:55:51.142852+08:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-02T10:03:43.285710+08:00",
-        "bucket_end": "2026-10-02T10:20:51.857139+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 108,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 108,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "zelenskyy / nev / reports / expand",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "Japan’s Nikkei reports that Toshiba plans to invest approximately ¥60 billion to expand its factory in the Philippines and double its production capacity for HDDs used in AI data centers during fiscal",
-            "url": "https://x.com/jukan05/status/2105841682466136469",
-            "interaction": 108
-          }
-        ],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-02T10:20:51.857139+08:00",
-        "bucket_end": "2026-10-02T10:38:00.428568+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 13.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-02T10:38:00.428568+08:00",
-        "bucket_end": "2026-10-02T10:55:08.999997+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 13.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-02T10:55:08.999997+08:00",
-        "bucket_end": "2026-10-02T11:12:17.571426+08:00",
-        "positive": 1,
         "neutral": 0,
         "negative": 2,
-        "positive_engagement": 62,
+        "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 46,
-        "net_sentiment": -33.3,
-        "post_count": 3,
-        "engagement": 108,
+        "negative_engagement": 597,
+        "net_sentiment": -100.0,
+        "post_count": 2,
+        "engagement": 597,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "ruthenium",
+            "topic_id": 3,
+            "label": "zelenskyy",
             "count": 2
-          },
-          {
-            "topic_id": 0,
-            "label": "zelenskyy / nev / reports / expand",
-            "count": 1
           }
         ],
         "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Good morning, Asia. While you were sleeping, one of our most-read stories was about US mortgage rates jumping to their highest level since late 2023, coming weeks after the Federal Reserve lifted borr",
-            "url": "https://x.com/FT/status/2105855246320763014",
-            "interaction": 62
+            "text": "Speaking in a bomb shelter inside a school that had just been hit by a drone, President Volodymyr Zelenskyy said Moscow’s attacks are intended not simply to destroy infrastructure but to instil fear t",
+            "url": "https://x.com/FT/status/2105883391140704350",
+            "interaction": 341
           },
           {
-            "handle": "SemiAnalysis_",
+            "handle": "FT",
             "platform": "X",
-            "text": "Ruthenium has risen from about $560 an ounce in early 2025 to dealer quotes near $1,950 this September. It is a key material in hard drives, with new use cases also emerging. (1/5)🧵",
-            "url": "https://x.com/SemiAnalysis_/status/2105855431138484620",
-            "interaction": 33
+            "text": "Putin has told military leaders to abandon rules of war, Zelenskyy says",
+            "url": "https://x.com/FT/status/2105884266873643147",
+            "interaction": 256
           }
         ],
-        "net_sentiment_smoothed": -6.7,
-        "is_anomaly": true
+        "net_sentiment_smoothed": -25.0,
+        "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-02T11:12:17.571426+08:00",
-        "bucket_end": "2026-10-02T11:29:26.142855+08:00",
+        "bucket_start": "2026-10-02T12:55:51.142852+08:00",
+        "bucket_end": "2026-10-02T13:12:59.714281+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -303,88 +166,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -6.7,
+        "net_sentiment_smoothed": -40.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-02T11:29:26.142855+08:00",
-        "bucket_end": "2026-10-02T11:46:34.714284+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 45,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 45,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "zelenskyy / nev / reports / expand",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The US Treasury has designated A7 a transnational criminal organisation, saying it would freeze its assets in the country and prohibit Americans from doing business with oligarch Ilan Shor’s payments ",
-            "url": "https://x.com/FT/status/2105865640640684059",
-            "interaction": 45
-          },
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "Machvision is expanding production capacity for its inspection equipment, but securing machined parts has become its biggest challenge, DIGITIMES reports.  The Taiwanese company says component lead ti",
-            "url": "https://x.com/statementdog/status/2105866502595629252",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": -6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-02T11:46:34.714284+08:00",
-        "bucket_end": "2026-10-02T12:03:43.285713+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 14,
-        "neutral_engagement": 0,
-        "negative_engagement": 31,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 45,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "zelenskyy / nev / reports / expand",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "South Korea brings powerful prosecution agency to heel",
-            "url": "https://x.com/FT/status/2105867316894236792",
-            "interaction": 31
-          },
-          {
-            "handle": "HyperTechInvest",
-            "platform": "X",
-            "text": "ASIC Shipments to Surpass GPUs in 2027  DIGITIMES expects ASIC shipments to surpass GPUs in 2027, driven by  $GOOG ,  $AMZN , and Huawei, while Nvidia and Google emerge as the two dominant forces in h",
-            "url": "https://x.com/HyperTechInvest/status/2105870404334367076",
-            "interaction": 14
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-02T12:03:43.285713+08:00",
-        "bucket_end": "2026-10-02T12:20:51.857142+08:00",
+        "bucket_start": "2026-10-02T13:12:59.714281+08:00",
+        "bucket_end": "2026-10-02T13:30:08.285710+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -400,8 +187,70 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-02T12:20:51.857142+08:00",
-        "bucket_end": "2026-10-02T12:38:00.428571+08:00",
+        "bucket_start": "2026-10-02T13:30:08.285710+08:00",
+        "bucket_end": "2026-10-02T13:47:16.857139+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 14,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 14,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "ipo / rates / investors / sell",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "華盛頓，2026年9月30日——聯邦通訊委員會（FCC）今日通過規則，釋出大量額外頻譜，用於次世代連線。透過「衛星頻譜豐裕」命令，委員會將在 12 GHz 與 42 GHz 頻段釋出超過 1,000 MHz 頻譜，支援包括更快衛星寬頻在內的多種連線服務。  具體來說，委員會將在 12.7 GHz 與 42 GHz 頻段釋出超過 1,000 MHz",
+            "url": "https://x.com/QQ_Timmy/status/2105897195887284348",
+            "interaction": 14
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-02T13:47:16.857139+08:00",
+        "bucket_end": "2026-10-02T14:04:25.428568+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 52,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 52,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "ipo / rates / investors / sell",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Quant hedge funds reap big gains from global bond sell-off",
+            "url": "https://x.com/FT/status/2105898952109248796",
+            "interaction": 52
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-02T14:04:25.428568+08:00",
+        "bucket_end": "2026-10-02T14:21:33.999997+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -413,25 +262,56 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -25.0,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-02T12:38:00.428571+08:00",
-        "bucket_end": "2026-10-02T12:55:09+08:00",
+        "bucket_start": "2026-10-02T14:21:33.999997+08:00",
+        "bucket_end": "2026-10-02T14:38:42.571426+08:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 1,
+        "neutral": 1,
+        "negative": 0,
         "positive_engagement": 0,
+        "neutral_engagement": 347,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 347,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "ipo / rates / investors / sell",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "KOREAN LOCAL MEDIA: SAMSUNG IS QUOTING A PRICE IN THE MID-TO-HIGH $4 RANGE PER GIGABIT IN ONGOING HBM4 PRICE NEGOTIATIONS WITH MAJOR CUSTOMERS.  KOREAN LOCAL MEDIA: THIS IS MORE THAN THREE TIMES THE $",
+            "url": "https://x.com/jukan05/status/2105907093291299105",
+            "interaction": 347
+          }
+        ],
+        "net_sentiment_smoothed": 60.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-02T14:38:42.571426+08:00",
+        "bucket_end": "2026-10-02T14:55:51.142855+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 22,
         "neutral_engagement": 0,
-        "negative_engagement": 22,
-        "net_sentiment": -100.0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
         "post_count": 1,
         "engagement": 22,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "zelenskyy / nev / reports / expand",
+            "topic_id": 1,
+            "label": "donald",
             "count": 1
           }
         ],
@@ -439,63 +319,218 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Speaking in a bomb shelter inside a school that had just been hit by a drone, President Volodymyr Zelenskyy said Moscow’s attacks are intended not simply to destroy infrastructure but to instil fear t",
-            "url": "https://x.com/FT/status/2105883391140704350",
+            "text": "US President Donald Trump is boasting of a new deal that he says gives Washington ‘permanent control over security and all other needs’ in Greenland.  What does the agreement mean for the Arctic terri",
+            "url": "https://x.com/FT/status/2105914322467672533",
             "interaction": 22
           }
         ],
-        "net_sentiment_smoothed": -33.3,
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-02T14:55:51.142855+08:00",
+        "bucket_end": "2026-10-02T15:12:59.714284+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "tvl / oled",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#F15EX 戰機評估加裝預警系統！單價逾 1 億美元，美國空軍盼補強對紅外線飛彈偵測能力。 dlvr.​it/TVl2p2",
+            "url": "https://x.com/technews_tw/status/2105916656883286115",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 44.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-02T15:12:59.714284+08:00",
+        "bucket_end": "2026-10-02T15:30:08.285713+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 1,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "tvl / oled",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#SpaceX 協助 #NASA 展開太空實驗！四名太空人將在軌道製造幹細胞組織以支援醫療。 dlvr.​it/TVl3X0",
+            "url": "https://x.com/technews_tw/status/2105921280545529890",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 44.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-02T15:30:08.285713+08:00",
+        "bucket_end": "2026-10-02T15:47:16.857142+08:00",
+        "positive": 2,
+        "neutral": 2,
+        "negative": 1,
+        "positive_engagement": 41,
+        "neutral_engagement": 9,
+        "negative_engagement": 3,
+        "net_sentiment": 20.0,
+        "post_count": 5,
+        "engagement": 53,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "tvl / oled",
+            "count": 2
+          },
+          {
+            "topic_id": 0,
+            "label": "ipo / rates / investors / sell",
+            "count": 2
+          },
+          {
+            "topic_id": 1,
+            "label": "donald",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Emerging markets are weathering the global sell-off in bond markets better than developed world peers, as investors bet that many countries are now less vulnerable to the threat of higher US interest ",
+            "url": "https://x.com/FT/status/2105926871225389252",
+            "interaction": 34
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Donald Quintin: ‘We’re entering a different market now’  https:// ft.trib.al/5JH3peS  | opinion",
+            "url": "https://x.com/FT/status/2105927099651416501",
+            "interaction": 8
+          }
+        ],
+        "net_sentiment_smoothed": 44.0,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-10-02T15:47:16.857142+08:00",
+        "bucket_end": "2026-10-02T16:04:25.428571+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 2,
+        "positive_engagement": 8,
+        "neutral_engagement": 19,
+        "negative_engagement": 39,
+        "net_sentiment": 0.0,
+        "post_count": 5,
+        "engagement": 66,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "ipo / rates / investors / sell",
+            "count": 4
+          },
+          {
+            "topic_id": 2,
+            "label": "tvl / oled",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Khaldoon al-Mubarak, one of Abu Dhabi’s most powerful non-royals, must battle to defend both the club and his own reputation in the face of a football finance scandal.  https:// ft.trib.al/PXF8Ifs",
+            "url": "https://x.com/FT/status/2105930829939503424",
+            "interaction": 23
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Australia’s banks show how to prepare for cable blackouts  https:// ft.trib.al/imnzxbb  | opinion",
+            "url": "https://x.com/FT/status/2105931321230897515",
+            "interaction": 19
+          }
+        ],
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-10-02T16:04:25.428571+08:00",
+        "bucket_end": "2026-10-02T16:21:34+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 12,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 12,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "ipo / rates / investors / sell",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "EG Group delays IPO plans and draws takeover interest",
+            "url": "https://x.com/FT/status/2105934471836868739",
+            "interaction": 10
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Investors are ready for the weekend, but the U.S. jobs report comes first.  Today’s numbers could shift expectations for interest rates and move stocks. So much for a quiet Friday.",
+            "url": "https://x.com/statementdog/status/2105933650290425857",
+            "interaction": 2
+          }
+        ],
+        "net_sentiment_smoothed": 40.0,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
         "topic_id": 0,
-        "label": "zelenskyy / nev / reports / expand",
+        "label": "ipo / rates / investors / sell",
         "cells": [
           {
-            "net_sentiment": 100.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -508,12 +543,110 @@
           {
             "net_sentiment": -100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": -25.0,
+            "volume": 4
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "tvl / oled",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
         "topic_id": 1,
-        "label": "ruthenium",
+        "label": "donald",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -544,8 +677,70 @@
             "volume": 0
           },
           {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "zelenskyy",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": -100.0,
             "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -576,17 +771,17 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "SemiAnalysis_",
-        "top_topic_id": 1,
-        "top_topic_label": "ruthenium",
+        "handle": "technews_tw",
+        "top_topic_id": 2,
+        "top_topic_label": "tvl / oled",
         "focus_share": 1.0,
-        "post_count": 2,
+        "post_count": 6,
         "unclustered_posts": 0
       },
       {
         "handle": "jukan05",
         "top_topic_id": 0,
-        "top_topic_label": "zelenskyy / nev / reports / expand",
+        "top_topic_label": "ipo / rates / investors / sell",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
@@ -594,77 +789,79 @@
       {
         "handle": "QQ_Timmy",
         "top_topic_id": 0,
-        "top_topic_label": "zelenskyy / nev / reports / expand",
+        "top_topic_label": "ipo / rates / investors / sell",
         "focus_share": 1.0,
         "post_count": 1,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "tphuang",
-        "top_topic_id": 0,
-        "top_topic_label": "zelenskyy / nev / reports / expand",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "FT",
-        "top_topic_id": 0,
-        "top_topic_label": "zelenskyy / nev / reports / expand",
-        "focus_share": 1.0,
-        "post_count": 5,
         "unclustered_posts": 0
       },
       {
         "handle": "statementdog",
         "top_topic_id": 0,
-        "top_topic_label": "zelenskyy / nev / reports / expand",
+        "top_topic_label": "ipo / rates / investors / sell",
         "focus_share": 1.0,
-        "post_count": 2,
+        "post_count": 1,
         "unclustered_posts": 0
       },
       {
-        "handle": "HyperTechInvest",
+        "handle": "FT",
         "top_topic_id": 0,
-        "top_topic_label": "zelenskyy / nev / reports / expand",
-        "focus_share": 1.0,
-        "post_count": 1,
+        "top_topic_label": "ipo / rates / investors / sell",
+        "focus_share": 0.667,
+        "post_count": 12,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "zelenskyy / nev / reports / expand",
-        "total_engagement": 345,
-        "post_count": 12,
+        "topic_id": 3,
+        "label": "zelenskyy",
+        "total_engagement": 597,
+        "post_count": 2,
         "top_account": "FT",
-        "top_account_engagement": 175,
+        "top_account_engagement": 597,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "ipo / rates / investors / sell",
+        "total_engagement": 532,
+        "post_count": 11,
+        "top_account": "jukan05",
+        "top_account_engagement": 347,
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "ruthenium",
-        "total_engagement": 46,
+        "label": "donald",
+        "total_engagement": 30,
         "post_count": 2,
-        "top_account": "SemiAnalysis_",
-        "top_account_engagement": 46,
+        "top_account": "FT",
+        "top_account_engagement": 30,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "tvl / oled",
+        "total_engagement": 5,
+        "post_count": 6,
+        "top_account": "technews_tw",
+        "top_account_engagement": 5,
         "is_catchall": false
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 11,
-          "likes": 258,
-          "engagement": 340,
-          "avg_engagement": 30.9
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 3,
-          "likes": 20,
-          "engagement": 51,
-          "avg_engagement": 17.0
+          "post_count": 21,
+          "likes": 835,
+          "engagement": 1164,
+          "avg_engagement": 55.4
         },
         "evening": {
           "post_count": 0,
@@ -679,7 +876,7 @@
           "avg_engagement": 0.0
         }
       },
-      "peak_slot": "morning"
+      "peak_slot": "afternoon"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
