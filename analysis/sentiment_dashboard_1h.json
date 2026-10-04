@@ -1,395 +1,139 @@
 {
-  "generated_at": "2026-10-04T11:33:42.616000+08:00",
+  "generated_at": "2026-10-04T12:11:46+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-10-04T10:33:42.616000+08:00",
-    "end_utc": "2026-10-04T11:33:42.616000+08:00",
-    "start_tw": "Oct 04, 10:33",
-    "end_tw": "Oct 04, 11:33"
+    "start_utc": "2026-10-04T11:11:46+08:00",
+    "end_utc": "2026-10-04T12:11:46+08:00",
+    "start_tw": "Oct 04, 11:11",
+    "end_tw": "Oct 04, 12:11"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 55,
+      "total_posts": 46,
       "sentiment_counts": {
-        "neutral": 12,
-        "positive": 33,
-        "negative": 10
+        "positive": 27,
+        "neutral": 10,
+        "negative": 9
       },
       "sentiment_share": {
-        "neutral": 0.218,
-        "positive": 0.6,
-        "negative": 0.182
+        "positive": 0.587,
+        "neutral": 0.217,
+        "negative": 0.196
       },
       "top_terms": [
-        "demand",
         "memory",
         "capacity",
-        "dram",
+        "demand",
         "samsung",
-        "suppliers",
+        "dram",
+        "optical",
+        "hbm",
+        "mass",
         "prices",
-        "tight",
-        "yoy",
-        "optical"
+        "pushing"
       ]
     },
     "temperature_bar": [
       {
+        "topic_id": 7,
+        "label": "listing / battery / ipo / scale",
+        "heat": 90.0,
+        "volume": 10,
+        "engagement": 5,
+        "entities": [
+          "馬斯克",
+          "台積電"
+        ],
+        "is_catchall": false
+      },
+      {
         "topic_id": 3,
-        "label": "glass / nvidia / suppliers / substrates",
-        "heat": 71.7,
+        "label": "hdd / capacity / demand / toshiba",
+        "heat": 90.0,
         "volume": 6,
-        "engagement": 74,
+        "engagement": 10,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 10,
-        "label": "muse / snapdragon / qualcomm / charm",
-        "heat": 66.0,
-        "volume": 4,
-        "engagement": 109,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 8,
-        "label": "hdd / balanced / ssd / demand",
-        "heat": 50.0,
-        "volume": 8,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "hbm / samsung / yoy / foundry",
-        "heat": 34.0,
+        "topic_id": 2,
+        "label": "hbm / samsung / dram / foundry",
+        "heat": 20.0,
         "volume": 7,
         "engagement": 0,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 2,
-        "label": "lpddr / nm / samsung / tesla",
-        "heat": 18.0,
-        "volume": 6,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 5,
-        "label": "google / anthropic / ipo / valuation",
-        "heat": 10.0,
-        "volume": 4,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
         "topic_id": 4,
-        "label": "grid / server / explore / selectedtopics",
-        "heat": 10.0,
-        "volume": 5,
+        "label": "flash / prices / outlook / memory",
+        "heat": 20.0,
+        "volume": 7,
         "engagement": 0,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 9,
-        "label": "flash / prices / outlook / surge",
+        "topic_id": 1,
+        "label": "lpddr / tesla / nm / cxmt",
         "heat": 10.0,
         "volume": 4,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 7,
-        "label": "optical / micro / cioe / viewtrix",
-        "heat": 10.0,
-        "volume": 5,
-        "engagement": 0,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 0,
-        "label": "battery / targets / solid / initial",
-        "heat": 10.0,
-        "volume": 3,
         "engagement": 0,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 6,
-        "label": "silicon / photonics / wuhan / rmb",
+        "label": "glass / suppliers / adoption / taiwan",
         "heat": 10.0,
         "volume": 3,
         "engagement": 0,
         "entities": [],
         "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "silicon / photonics / mass / hyper",
+        "heat": 10.0,
+        "volume": 5,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "oracle / tencent / asia / southeast",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "micro / cioe / optical / interconnects",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "馬斯克",
+        "count": 2
+      },
+      {
+        "entity": "台積電",
+        "count": 2
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-04T10:33:42.616002+08:00",
-        "bucket_end": "2026-10-04T10:37:59.758859+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-04T10:37:59.758859+08:00",
-        "bucket_end": "2026-10-04T10:42:16.901716+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-04T10:42:16.901716+08:00",
-        "bucket_end": "2026-10-04T10:46:34.044573+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 16.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-04T10:46:34.044573+08:00",
-        "bucket_end": "2026-10-04T10:50:51.187430+08:00",
-        "positive": 4,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 74,
-        "negative_engagement": 0,
-        "net_sentiment": 80.0,
-        "post_count": 5,
-        "engagement": 74,
-        "top_topics": [
-          {
-            "topic_id": 3,
-            "label": "glass / nvidia / suppliers / substrates",
-            "count": 2
-          },
-          {
-            "topic_id": 8,
-            "label": "hdd / balanced / ssd / demand",
-            "count": 2
-          },
-          {
-            "topic_id": 4,
-            "label": "grid / server / explore / selectedtopics",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "According to Korean media reports, Japan’s Toppan Holdings and DNP are expected to place orders for glass-substrate manufacturing equipment with Korean companies this month.  Toppan Holdings plans to ",
-            "url": "https://x.com/jukan05/status/2106577689809424537",
-            "interaction": 74
-          },
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "Meta’s Muse has put server CPUs back in focus.  As agentic AI raises questions about how much compute demand will land on CPUs,  #CPU joins this week’s Weekly Radar with lead times at 25–30 weeks, ver",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508733297124941824/",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 26.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-04T10:50:51.187430+08:00",
-        "bucket_end": "2026-10-04T10:55:08.330287+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 46.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-04T10:55:08.330287+08:00",
-        "bucket_end": "2026-10-04T10:59:25.473144+08:00",
-        "positive": 3,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 4,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 4,
-            "label": "grid / server / explore / selectedtopics",
-            "count": 1
-          },
-          {
-            "topic_id": 8,
-            "label": "hdd / balanced / ssd / demand",
-            "count": 1
-          },
-          {
-            "topic_id": 9,
-            "label": "flash / prices / outlook / surge",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "📡 Base Station Batteries Are Now Revenue-Generating Grid Assets. AI and data centers are driving per-site energy consumption at base stations sharply higher. Operators are adopting SMRs, green hydroge",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508526327508107264/",
-            "interaction": 0
-          },
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "【Chinese Supplier Capacity Releases Keep NAND Spot Supply Ample; 512Gb TLC Wafer Prices Fall 1%】  Restricted by persistently weak consumer end-demand and capacity releases from Chinese suppliers, over",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508450200630333440/",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 46.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-04T10:59:25.473144+08:00",
-        "bucket_end": "2026-10-04T11:03:42.616001+08:00",
-        "positive": 3,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 109,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 3,
-        "engagement": 109,
-        "top_topics": [
-          {
-            "topic_id": 10,
-            "label": "muse / snapdragon / qualcomm / charm",
-            "count": 3
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "SemiAnalysis: The Muse charm will be powered by Qualcomm’s Snapdragon.  I recall CA saying that Qualcomm was working with OpenAI as well as Meta.   $QCOM",
-            "url": "https://x.com/jukan05/status/2106580842797826068",
-            "interaction": 64
-          },
-          {
-            "handle": "SemiAnalysis_",
-            "platform": "X",
-            "text": "Meta unveiled Muse Charm at Connect. Tamagotchi for 2026. Our Snapdragon Summit note sees personal AI devices as a new growth market. We expect Snapdragon inside Muse Charm, though Meta has not disclo",
-            "url": "https://x.com/SemiAnalysis_/status/2106580164565983614",
-            "interaction": 40
-          }
-        ],
-        "net_sentiment_smoothed": 30.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-04T11:03:42.616001+08:00",
-        "bucket_end": "2026-10-04T11:07:59.758858+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 5,
-            "label": "google / anthropic / ipo / valuation",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "#Google 推出迴轉輸送帶 #鍵盤！讓 116 顆按鍵在軌道上流動，使用者只需等待字母轉到眼前。 dlvr.​it/TVmN11",
-            "url": "https://x.com/technews_tw/status/2106581312131957210",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 45.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-04T11:07:59.758858+08:00",
-        "bucket_end": "2026-10-04T11:12:16.901715+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 35.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-04T11:12:16.901715+08:00",
-        "bucket_end": "2026-10-04T11:16:34.044572+08:00",
+        "bucket_start": "2026-10-04T11:11:46.000002+08:00",
+        "bucket_end": "2026-10-04T11:16:03.142859+08:00",
         "positive": 3,
         "neutral": 1,
         "negative": 0,
@@ -401,18 +145,18 @@
         "engagement": 0,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "lpddr / nm / samsung / tesla",
-            "count": 2
-          },
-          {
-            "topic_id": 3,
-            "label": "glass / nvidia / suppliers / substrates",
+            "topic_id": 1,
+            "label": "lpddr / tesla / nm / cxmt",
             "count": 1
           },
           {
-            "topic_id": 4,
-            "label": "grid / server / explore / selectedtopics",
+            "topic_id": 6,
+            "label": "glass / suppliers / adoption / taiwan",
+            "count": 1
+          },
+          {
+            "topic_id": 3,
+            "label": "hdd / capacity / demand / toshiba",
             "count": 1
           }
         ],
@@ -432,12 +176,12 @@
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 15.0,
+        "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-04T11:16:34.044572+08:00",
-        "bucket_end": "2026-10-04T11:20:51.187429+08:00",
+        "bucket_start": "2026-10-04T11:16:03.142859+08:00",
+        "bucket_end": "2026-10-04T11:20:20.285716+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -449,12 +193,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 15.0,
+        "net_sentiment_smoothed": 18.8,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-04T11:20:51.187429+08:00",
-        "bucket_end": "2026-10-04T11:25:08.330286+08:00",
+        "bucket_start": "2026-10-04T11:20:20.285716+08:00",
+        "bucket_end": "2026-10-04T11:24:37.428573+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -466,12 +210,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 21.9,
+        "net_sentiment_smoothed": 17.9,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-04T11:25:08.330286+08:00",
-        "bucket_end": "2026-10-04T11:29:25.473143+08:00",
+        "bucket_start": "2026-10-04T11:24:37.428573+08:00",
+        "bucket_end": "2026-10-04T11:28:54.571430+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -483,36 +227,36 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 8.6,
+        "net_sentiment_smoothed": 9.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-04T11:29:25.473143+08:00",
-        "bucket_end": "2026-10-04T11:33:42.616000+08:00",
-        "positive": 17,
-        "neutral": 5,
-        "negative": 7,
+        "bucket_start": "2026-10-04T11:28:54.571430+08:00",
+        "bucket_end": "2026-10-04T11:33:11.714287+08:00",
+        "positive": 4,
+        "neutral": 0,
+        "negative": 3,
         "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 34.5,
-        "post_count": 29,
+        "net_sentiment": 14.3,
+        "post_count": 7,
         "engagement": 0,
         "top_topics": [
           {
             "topic_id": 1,
-            "label": "hbm / samsung / yoy / foundry",
-            "count": 5
+            "label": "lpddr / tesla / nm / cxmt",
+            "count": 2
           },
           {
-            "topic_id": 2,
-            "label": "lpddr / nm / samsung / tesla",
-            "count": 4
+            "topic_id": 3,
+            "label": "hdd / capacity / demand / toshiba",
+            "count": 2
           },
           {
-            "topic_id": 8,
-            "label": "hdd / balanced / ssd / demand",
-            "count": 4
+            "topic_id": 7,
+            "label": "listing / battery / ipo / scale",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -531,15 +275,245 @@
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 11.5,
+        "net_sentiment_smoothed": 9.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-04T11:33:11.714287+08:00",
+        "bucket_end": "2026-10-04T11:37:28.857144+08:00",
+        "positive": 16,
+        "neutral": 9,
+        "negative": 6,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 32.3,
+        "post_count": 31,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 7,
+            "label": "listing / battery / ipo / scale",
+            "count": 6
+          },
+          {
+            "topic_id": 2,
+            "label": "hbm / samsung / dram / foundry",
+            "count": 6
+          },
+          {
+            "topic_id": 4,
+            "label": "flash / prices / outlook / memory",
+            "count": 6
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "LinkedIn",
+            "text": "AI storage is seeing severe supply pinches.  Driven by surging demand, suppliers are reallocating NAND capacity toward enterprise SSDs, pushing  #eSSD lead times to 16 weeks, double the 8-week balance",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507642365495468032/",
+            "interaction": 0
+          },
+          {
+            "handle": "TrendForce",
+            "platform": "LinkedIn",
+            "text": "🚀 From displays to AI interconnects: China’s largest AMOLED DDIC designer Viewtrix is setting up two subsidiaries focused on optical I/O and UCIe IP, targeting both rack-scale (Scale Up) and chip-to-c",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511409779647438848/",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 9.3,
         "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-10-04T11:37:28.857144+08:00",
+        "bucket_end": "2026-10-04T11:41:46.000001+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 9.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-04T11:41:46.000001+08:00",
+        "bucket_end": "2026-10-04T11:46:03.142858+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 6.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-04T11:46:03.142858+08:00",
+        "bucket_end": "2026-10-04T11:50:20.285715+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-04T11:50:20.285715+08:00",
+        "bucket_end": "2026-10-04T11:54:37.428572+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-04T11:54:37.428572+08:00",
+        "bucket_end": "2026-10-04T11:58:54.571429+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-04T11:58:54.571429+08:00",
+        "bucket_end": "2026-10-04T12:03:11.714286+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 4,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 4,
+        "top_topics": [
+          {
+            "topic_id": 7,
+            "label": "listing / battery / ipo / scale",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Do you want to understand just how crazy the post-COVID bubble was?   $EH , a Chinese eVTOL play, reached a $7 billion market cap  It’s now down 96% from its highest close and 99% from its all-time hi",
+            "url": "https://x.com/HyperTechInvest/status/2106594932253491369",
+            "interaction": 4
+          }
+        ],
+        "net_sentiment_smoothed": 60.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-04T12:03:11.714286+08:00",
+        "bucket_end": "2026-10-04T12:07:28.857143+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 0,
+        "top_topics": [
+          {
+            "topic_id": 7,
+            "label": "listing / battery / ipo / scale",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#馬斯克 親口證實正與 #台積電 洽談專屬晶圓廠計畫！ dlvr.​it/TVmNm7",
+            "url": "https://x.com/technews_tw/status/2106596121628086554",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 75.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-04T12:07:28.857143+08:00",
+        "bucket_end": "2026-10-04T12:11:46+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 10,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 10,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "hdd / capacity / demand / toshiba",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "I’m more of an AI investor myself  But drone stocks are getting very interesting right now  Down from their yearly peaks:  Swarmer |  $SWMR  | 86% ZenaTech |  $ZENA  | 85% EHang |  $EH  | 84%  AIRO Gr",
+            "url": "https://x.com/HyperTechInvest/status/2106597606004584933",
+            "interaction": 10
+          }
+        ],
+        "net_sentiment_smoothed": 100.0,
+        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 8,
-        "label": "hdd / balanced / ssd / demand",
+        "topic_id": 7,
+        "label": "listing / battery / ipo / scale",
         "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -554,131 +528,11 @@
           },
           {
             "net_sentiment": 100.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
             "volume": 1
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 4
-          }
-        ]
-      },
-      {
-        "topic_id": 1,
-        "label": "hbm / samsung / yoy / foundry",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -20.0,
-            "volume": 5
-          }
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "glass / nvidia / suppliers / substrates",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 2
+            "net_sentiment": 100.0,
+            "volume": 6
           },
           {
             "net_sentiment": 0.0,
@@ -705,30 +559,42 @@
             "volume": 1
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 66.7,
-            "volume": 3
           }
         ]
       },
       {
         "topic_id": 2,
-        "label": "lpddr / nm / samsung / tesla",
+        "label": "hbm / samsung / dram / foundry",
         "cells": [
           {
             "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 16.7,
+            "volume": 6
           },
           {
             "net_sentiment": 0.0,
@@ -761,72 +627,16 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 4
           }
         ]
       },
       {
         "topic_id": 4,
-        "label": "grid / server / explore / selectedtopics",
+        "label": "flash / prices / outlook / memory",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -843,12 +653,110 @@
           {
             "net_sentiment": -100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 6
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 7,
-        "label": "optical / micro / cioe / viewtrix",
+        "topic_id": 3,
+        "label": "hdd / capacity / demand / toshiba",
+        "cells": [
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "silicon / photonics / mass / hyper",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -867,8 +775,70 @@
             "volume": 0
           },
           {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 4
+          },
+          {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "lpddr / tesla / nm / cxmt",
+        "cells": [
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
           },
           {
             "net_sentiment": 100.0,
@@ -903,8 +873,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 2
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       }
@@ -912,113 +882,69 @@
     "coverage_focus_ranking": [
       {
         "handle": "technews_tw",
-        "top_topic_id": 5,
-        "top_topic_label": "google / anthropic / ipo / valuation",
+        "top_topic_id": 7,
+        "top_topic_label": "listing / battery / ipo / scale",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
-        "handle": "SemiAnalysis_",
-        "top_topic_id": 10,
-        "top_topic_label": "muse / snapdragon / qualcomm / charm",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "jukan05",
-        "top_topic_id": 10,
-        "top_topic_label": "muse / snapdragon / qualcomm / charm",
-        "focus_share": 0.5,
-        "post_count": 2,
+        "handle": "HyperTechInvest",
+        "top_topic_id": 7,
+        "top_topic_label": "listing / battery / ipo / scale",
+        "focus_share": 0.667,
+        "post_count": 3,
         "unclustered_posts": 0
       },
       {
         "handle": "TrendForce",
-        "top_topic_id": 8,
-        "top_topic_label": "hdd / balanced / ssd / demand",
-        "focus_share": 0.16,
-        "post_count": 50,
+        "top_topic_id": 7,
+        "top_topic_label": "listing / battery / ipo / scale",
+        "focus_share": 0.167,
+        "post_count": 42,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 10,
-        "label": "muse / snapdragon / qualcomm / charm",
-        "total_engagement": 109,
-        "post_count": 4,
-        "top_account": "jukan05",
-        "top_account_engagement": 64,
-        "is_catchall": false
-      },
-      {
         "topic_id": 3,
-        "label": "glass / nvidia / suppliers / substrates",
-        "total_engagement": 74,
+        "label": "hdd / capacity / demand / toshiba",
+        "total_engagement": 10,
         "post_count": 6,
-        "top_account": "jukan05",
-        "top_account_engagement": 74,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 5,
-        "label": "google / anthropic / ipo / valuation",
-        "total_engagement": 0,
-        "post_count": 4,
-        "top_account": "technews_tw",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 8,
-        "label": "hdd / balanced / ssd / demand",
-        "total_engagement": 0,
-        "post_count": 8,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
-        "label": "grid / server / explore / selectedtopics",
-        "total_engagement": 0,
-        "post_count": 5,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 9,
-        "label": "flash / prices / outlook / surge",
-        "total_engagement": 0,
-        "post_count": 4,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0,
+        "top_account": "HyperTechInvest",
+        "top_account_engagement": 10,
         "is_catchall": false
       },
       {
         "topic_id": 7,
-        "label": "optical / micro / cioe / viewtrix",
+        "label": "listing / battery / ipo / scale",
+        "total_engagement": 5,
+        "post_count": 10,
+        "top_account": "HyperTechInvest",
+        "top_account_engagement": 5,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "lpddr / tesla / nm / cxmt",
         "total_engagement": 0,
-        "post_count": 5,
+        "post_count": 4,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "glass / suppliers / adoption / taiwan",
+        "total_engagement": 0,
+        "post_count": 3,
         "top_account": "TrendForce",
         "top_account_engagement": 0,
         "is_catchall": false
       },
       {
         "topic_id": 2,
-        "label": "lpddr / nm / samsung / tesla",
-        "total_engagement": 0,
-        "post_count": 6,
-        "top_account": "TrendForce",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "hbm / samsung / yoy / foundry",
+        "label": "hbm / samsung / dram / foundry",
         "total_engagement": 0,
         "post_count": 7,
         "top_account": "TrendForce",
@@ -1026,19 +952,37 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "battery / targets / solid / initial",
+        "topic_id": 4,
+        "label": "flash / prices / outlook / memory",
         "total_engagement": 0,
-        "post_count": 3,
+        "post_count": 7,
         "top_account": "TrendForce",
         "top_account_engagement": 0,
         "is_catchall": false
       },
       {
-        "topic_id": 6,
-        "label": "silicon / photonics / wuhan / rmb",
+        "topic_id": 5,
+        "label": "silicon / photonics / mass / hyper",
         "total_engagement": 0,
-        "post_count": 3,
+        "post_count": 5,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "oracle / tencent / asia / southeast",
+        "total_engagement": 0,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "micro / cioe / optical / interconnects",
+        "total_engagement": 0,
+        "post_count": 2,
         "top_account": "TrendForce",
         "top_account_engagement": 0,
         "is_catchall": false
