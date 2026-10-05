@@ -1,62 +1,83 @@
 {
-  "generated_at": "2026-10-05T13:16:40+08:00",
+  "generated_at": "2026-10-05T16:24:26+08:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-10-05T05:16:40+08:00",
-    "end_utc": "2026-10-05T13:16:40+08:00",
-    "start_tw": "Oct 05, 05:16",
-    "end_tw": "Oct 05, 13:16"
+    "start_utc": "2026-10-05T08:24:26+08:00",
+    "end_utc": "2026-10-05T16:24:26+08:00",
+    "start_tw": "Oct 05, 08:24",
+    "end_tw": "Oct 05, 16:24"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 49,
+      "total_posts": 65,
       "sentiment_counts": {
-        "positive": 14,
-        "negative": 21,
-        "neutral": 14
+        "positive": 20,
+        "neutral": 16,
+        "negative": 29
       },
       "sentiment_share": {
-        "positive": 0.286,
-        "negative": 0.429,
-        "neutral": 0.286
+        "positive": 0.308,
+        "neutral": 0.246,
+        "negative": 0.446
       },
       "top_terms": [
-        "東芝",
-        "馬斯",
-        "斯克",
-        "馬斯克",
+        "tvn",
         "核心",
-        "確認",
-        "nand",
-        "托盤",
-        "spcx",
-        "earnings"
+        "google",
+        "台積",
+        "積電",
+        "台積電",
+        "行長",
+        "執行長",
+        "智慧",
+        "東芝"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 8,
-        "label": "spcx / rack / optical / tpu",
-        "heat": 90.0,
-        "volume": 4,
-        "engagement": 1907,
+        "topic_id": 7,
+        "label": "spcx / rack",
+        "heat": 70.0,
+        "volume": 3,
+        "engagement": 2403,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 3,
-        "label": "nand / earnings / boom / maker",
-        "heat": 29.0,
-        "volume": 3,
-        "engagement": 456,
+        "topic_id": 2,
+        "label": "tvn",
+        "heat": 50.0,
+        "volume": 6,
+        "engagement": 1,
         "entities": [
-          "美光",
-          "愛達荷",
-          "台灣",
-          "日本",
-          "廣島"
+          "蘇姿丰",
+          "孫正義",
+          "松山"
         ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "台積電 / terafab / fab / tvn",
+        "heat": 10.3,
+        "volume": 3,
+        "engagement": 9,
+        "entities": [
+          "台積電",
+          "高盛",
+          "馬斯克",
+          "英特爾"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "tsmc / taiwan / fab / oct",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 216,
+        "entities": [],
         "is_catchall": false
       },
       {
@@ -64,7 +85,7 @@
         "label": "東芝",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 3,
+        "engagement": 4,
         "entities": [
           "東芝",
           "美國"
@@ -72,20 +93,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "南電",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 44,
-        "entities": [
-          "外電",
-          "昆山",
-          "季增"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 2,
+        "topic_id": 11,
         "label": "馬斯克 / 執行長",
         "heat": 10.0,
         "volume": 2,
@@ -98,52 +106,87 @@
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "nvidia",
+        "topic_id": 0,
+        "label": "rapidus / collaborative",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 119,
+        "engagement": 5,
         "entities": [
-          "鴻海",
-          "伺服器"
+          "東芝",
+          "藉由"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 4,
-        "label": "bolsonaro",
+        "topic_id": 12,
+        "label": "tpu / rack / aletheia / ccl",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 761,
+        "engagement": 86,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 7,
-        "label": "server / reports / digitimes / talks",
+        "topic_id": 3,
+        "label": "silva / lula / cio / luiz",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 7,
+        "engagement": 534,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，30 篇）",
+        "topic_id": 5,
+        "label": "pedro / prime / spanish / snap",
         "heat": 10.0,
-        "volume": 30,
-        "engagement": 1266,
+        "volume": 2,
+        "engagement": 268,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "fairford / bombers / raf / officials",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 147,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "server / digitimes / reports / talks",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 15,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，35 篇）",
+        "heat": 10.0,
+        "volume": 35,
+        "engagement": 3409,
         "entities": [
-          "台積電",
-          "中國",
           "美國",
-          "貝森特",
-          "台灣"
+          "中國",
+          "美國海軍",
+          "輝達",
+          "黃仁勳"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
+      {
+        "entity": "台積電",
+        "count": 6
+      },
+      {
+        "entity": "美國",
+        "count": 5
+      },
       {
         "entity": "東芝",
         "count": 5
@@ -153,11 +196,7 @@
         "count": 5
       },
       {
-        "entity": "美國",
-        "count": 4
-      },
-      {
-        "entity": "台積電",
+        "entity": "智慧",
         "count": 4
       },
       {
@@ -165,240 +204,70 @@
         "count": 3
       },
       {
-        "entity": "台灣",
-        "count": 3
+        "entity": "蘇姿丰",
+        "count": 2
       },
       {
-        "entity": "智慧",
-        "count": 3
+        "entity": "孫正義",
+        "count": 2
       },
       {
-        "entity": "日本",
-        "count": 3
+        "entity": "美國海軍",
+        "count": 2
+      },
+      {
+        "entity": "輝達",
+        "count": 2
+      },
+      {
+        "entity": "黃仁勳",
+        "count": 2
+      },
+      {
+        "entity": "川普",
+        "count": 2
+      },
+      {
+        "entity": "克雷頓",
+        "count": 2
       },
       {
         "entity": "貝森特",
         "count": 2
       },
       {
-        "entity": "沃旭",
-        "count": 2
-      },
-      {
-        "entity": "伺服器",
-        "count": 2
-      },
-      {
-        "entity": "美光",
-        "count": 2
-      },
-      {
-        "entity": "愛達荷",
-        "count": 2
-      },
-      {
-        "entity": "鴻海",
-        "count": 2
-      },
-      {
-        "entity": "外電",
+        "entity": "台灣",
         "count": 2
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-05T05:16:40.000002+08:00",
-        "bucket_end": "2026-10-05T05:50:57.142859+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 82,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 82,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "HCT/星辰技术 put in operation China's 1st 3D advanced packaging production line when phase 2 of its project in optical valley entered production 11 months after construction kicked off.  DFSX's DF1000 3D ",
-            "url": "https://x.com/tphuang/status/2106856529768915105",
-            "interaction": 82
-          }
-        ],
-        "net_sentiment_smoothed": 33.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-05T05:50:57.142859+08:00",
-        "bucket_end": "2026-10-05T06:25:14.285716+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 41.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-05T06:25:14.285716+08:00",
-        "bucket_end": "2026-10-05T06:59:31.428573+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 33.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-05T06:59:31.428573+08:00",
-        "bucket_end": "2026-10-05T07:33:48.571430+08:00",
-        "positive": 2,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 63,
-        "neutral_engagement": 2,
-        "negative_engagement": 0,
-        "net_sentiment": 66.7,
-        "post_count": 3,
-        "engagement": 65,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "nvidia",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "China's energy summary from 2026H1: > 4 TW in total installation, 2.455TW renewables (60.7% of total installation & 73.9% of new installation) 1.951TW solar + wind (1.274 Solar) 24.6% total power gen ",
-            "url": "https://x.com/tphuang/status/2106887180706849257",
-            "interaction": 44
-          },
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "Top City NOA suppliers from Jan to Aug: HW has been the top for all except Feb/March. Momenta has mostly been 2nd (MMT supplies BYD for CNOA) DeepRoute/元戎 has been 3rd mostly, except reaching 2nd in A",
-            "url": "https://x.com/tphuang/status/2106887895101358174",
-            "interaction": 19
-          }
-        ],
-        "net_sentiment_smoothed": 23.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-05T07:33:48.571430+08:00",
-        "bucket_end": "2026-10-05T08:08:05.714287+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 10,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 10,
-        "top_topics": [
-          {
-            "topic_id": 3,
-            "label": "nand / earnings / boom / maker",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "新產能集中 2028 年底報到！ #記憶體三大原廠最新投產時程表 Schulz Research 整理三大原廠投產時程指出，2027 年中僅美光愛達荷 ID1 與台灣新廠量產，大批新產能要到 2028 年底才會集中開出。 其中，美光愛達荷 ID2、日本廣島擴建與新加坡 NAND 廠，加上 SK 海力士清州 M17 都落在… dlvr.​it/TVmtPn",
-            "url": "https://x.com/technews_tw/status/2106898427686908408",
-            "interaction": 10
-          }
-        ],
-        "net_sentiment_smoothed": 7.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-05T08:08:05.714287+08:00",
-        "bucket_end": "2026-10-05T08:42:22.857144+08:00",
+        "bucket_start": "2026-10-05T08:24:26.000002+08:00",
+        "bucket_end": "2026-10-05T08:58:43.142859+08:00",
         "positive": 3,
-        "neutral": 3,
-        "negative": 0,
-        "positive_engagement": 675,
-        "neutral_engagement": 107,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 6,
-        "engagement": 782,
+        "neutral": 4,
+        "negative": 7,
+        "positive_engagement": 903,
+        "neutral_engagement": 637,
+        "negative_engagement": 3118,
+        "net_sentiment": -28.6,
+        "post_count": 14,
+        "engagement": 4658,
         "top_topics": [
           {
-            "topic_id": 5,
-            "label": "南電",
-            "count": 1
-          },
-          {
-            "topic_id": 8,
-            "label": "spcx / rack / optical / tpu",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tengyanAI",
-            "platform": "X",
-            "text": "my (crying) little bundle of joy arrived this weekend.  first-time dad. v happy, v sleep deprived. suddenly a little more worried about the future. i hope he grows up healthy, curious and kind",
-            "url": "https://x.com/tengyanAI/status/2106904318331006977",
-            "interaction": 618
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Good morning, Asia. While you were sleeping, one of our most-read stories was an exclusive piece about the French industrial conglomerate’s largest acquisition ever.  https:// ft.trib.al/oXbegNC",
-            "url": "https://x.com/FT/status/2106904443052495293",
-            "interaction": 56
-          }
-        ],
-        "net_sentiment_smoothed": 7.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-05T08:42:22.857144+08:00",
-        "bucket_end": "2026-10-05T09:16:40.000001+08:00",
-        "positive": 0,
-        "neutral": 2,
-        "negative": 8,
-        "positive_engagement": 0,
-        "neutral_engagement": 446,
-        "negative_engagement": 2411,
-        "net_sentiment": -80.0,
-        "post_count": 10,
-        "engagement": 2857,
-        "top_topics": [
-          {
-            "topic_id": 8,
-            "label": "spcx / rack / optical / tpu",
+            "topic_id": 7,
+            "label": "spcx / rack",
             "count": 3
           },
           {
-            "topic_id": 4,
-            "label": "bolsonaro",
+            "topic_id": 12,
+            "label": "tpu / rack / aletheia / ccl",
             "count": 2
+          },
+          {
+            "topic_id": 8,
+            "label": "fairford / bombers / raf / officials",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -407,34 +276,34 @@
             "platform": "X",
             "text": "SPCX is aggressively pushing reverse engineering to get around bottlenecks...  Racks, chillers, etc...  So they're going to vertically integrate everything they possibly can.  How do they get around p",
             "url": "https://x.com/jukan05/status/2106910342983057576",
-            "interaction": 750
+            "interaction": 970
           },
           {
             "handle": "jukan05",
             "platform": "X",
             "text": "WTF. SPCX is developing its own optical fiber too?",
             "url": "https://x.com/jukan05/status/2106909462141542687",
-            "interaction": 680
+            "interaction": 892
           }
         ],
-        "net_sentiment_smoothed": -26.0,
+        "net_sentiment_smoothed": -9.5,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-10-05T09:16:40.000001+08:00",
-        "bucket_end": "2026-10-05T09:50:57.142858+08:00",
-        "positive": 1,
+        "bucket_start": "2026-10-05T08:58:43.142859+08:00",
+        "bucket_end": "2026-10-05T09:33:00.285716+08:00",
+        "positive": 0,
         "neutral": 0,
-        "negative": 1,
+        "negative": 2,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
+        "negative_engagement": 16,
+        "net_sentiment": -100.0,
         "post_count": 2,
-        "engagement": 0,
+        "engagement": 16,
         "top_topics": [
           {
-            "topic_id": 2,
+            "topic_id": 11,
             "label": "馬斯克 / 執行長",
             "count": 1
           }
@@ -443,9 +312,9 @@
           {
             "handle": "technews_tw",
             "platform": "X",
-            "text": "#Rapidus 合作東芝等 17 家企業！協助潛在客戶進行晶片設計，藉由建立一貫體制爭取訂單。 dlvr.​it/TVmvmm",
-            "url": "https://x.com/technews_tw/status/2106923392612135100",
-            "interaction": 0
+            "text": "做汽車安全氣囊起家的台灣廠商，竟救援了百年日本大廠！面對 AI 伺服器液冷散熱的複雜製程，日本古河集團尋遍十多家全球供應商皆碰壁，最終由時碩工業破解難題。 dlvr.​it/TVmvDL",
+            "url": "https://x.com/technews_tw/status/2106913165401551216",
+            "interaction": 16
           },
           {
             "handle": "technews_tw",
@@ -455,29 +324,66 @@
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": -36.0,
+        "net_sentiment_smoothed": -32.1,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-05T09:50:57.142858+08:00",
-        "bucket_end": "2026-10-05T10:25:14.285715+08:00",
+        "bucket_start": "2026-10-05T09:33:00.285716+08:00",
+        "bucket_end": "2026-10-05T10:07:17.428573+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 2,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 2,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "rapidus / collaborative",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#Rapidus 合作東芝等 17 家企業！協助潛在客戶進行晶片設計，藉由建立一貫體制爭取訂單。 dlvr.​it/TVmvmm",
+            "url": "https://x.com/technews_tw/status/2106923392612135100",
+            "interaction": 2
+          }
+        ],
+        "net_sentiment_smoothed": -30.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-05T10:07:17.428573+08:00",
+        "bucket_end": "2026-10-05T10:41:34.571430+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 3,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 47,
+        "negative_engagement": 87,
         "net_sentiment": -100.0,
         "post_count": 3,
-        "engagement": 47,
-        "top_topics": [],
+        "engagement": 87,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "fairford / bombers / raf / officials",
+            "count": 1
+          }
+        ],
         "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
             "text": "The US has withdrawn B-1 bombers deployed to RAF Fairford after UK and American officials have claimed Iran was involved in an incident last week in which five British men were arrested.  https:// ft.",
             "url": "https://x.com/FT/status/2106931863273054379",
-            "interaction": 45
+            "interaction": 85
           },
           {
             "handle": "technews_tw",
@@ -487,30 +393,25 @@
             "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": -51.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-05T10:25:14.285715+08:00",
-        "bucket_end": "2026-10-05T10:59:31.428572+08:00",
-        "positive": 0,
+        "bucket_start": "2026-10-05T10:41:34.571430+08:00",
+        "bucket_end": "2026-10-05T11:15:51.714287+08:00",
+        "positive": 1,
         "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 0,
+        "negative": 2,
+        "positive_engagement": 221,
         "neutral_engagement": 3,
-        "negative_engagement": 437,
-        "net_sentiment": -50.0,
-        "post_count": 2,
-        "engagement": 440,
+        "negative_engagement": 616,
+        "net_sentiment": -25.0,
+        "post_count": 4,
+        "engagement": 840,
         "top_topics": [
           {
-            "topic_id": 2,
+            "topic_id": 11,
             "label": "馬斯克 / 執行長",
-            "count": 1
-          },
-          {
-            "topic_id": 3,
-            "label": "nand / earnings / boom / maker",
             "count": 1
           }
         ],
@@ -520,78 +421,45 @@
             "platform": "X",
             "text": "According to The Wire China, China's YMTC expects this NAND shortage to last another three years.  Folks, even YMTC, a Chinese NAND maker, thinks this boom will run for three more years. And you're st",
             "url": "https://x.com/jukan05/status/2106940458761089227",
-            "interaction": 437
+            "interaction": 615
           },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "#SpaceX 執行長 #馬斯克 挺 #超級智慧！確認旗下 AI 部門預計改名。 dlvr.​it/TVmwTj",
-            "url": "https://x.com/technews_tw/status/2106938240632816107",
-            "interaction": 3
-          }
-        ],
-        "net_sentiment_smoothed": -15.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-05T10:59:31.428572+08:00",
-        "bucket_end": "2026-10-05T11:33:48.571429+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 2,
-        "positive_engagement": 117,
-        "neutral_engagement": 1,
-        "negative_engagement": 5,
-        "net_sentiment": -25.0,
-        "post_count": 4,
-        "engagement": 123,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "nvidia",
-            "count": 1
-          },
-          {
-            "topic_id": 7,
-            "label": "server / reports / digitimes / talks",
-            "count": 1
-          }
-        ],
-        "top_posts": [
           {
             "handle": "SemiAnalysis_",
             "platform": "X",
             "text": "Ever since NVIDIA acquired SLURM/SchedMD, their support for non-NVIDIA chips has gotten worse, such that AMD created their own popular competitor called \"spur\" that is way better than SLURM in many wa",
             "url": "https://x.com/SemiAnalysis_/status/2106942597532963194",
-            "interaction": 117
-          },
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "Quanta reportedly halted production of HP notebooks for about a week in September after pricing talks stalled amid rising component costs.  Production resumed after HP executives traveled to Thailand ",
-            "url": "https://x.com/statementdog/status/2106949797685117415",
-            "interaction": 4
+            "interaction": 221
           }
         ],
-        "net_sentiment_smoothed": -21.7,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-05T11:33:48.571429+08:00",
-        "bucket_end": "2026-10-05T12:08:05.714286+08:00",
-        "positive": 3,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 8,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 3,
-        "engagement": 8,
+        "bucket_start": "2026-10-05T11:15:51.714287+08:00",
+        "bucket_end": "2026-10-05T11:50:08.857144+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 16,
+        "neutral_engagement": 1,
+        "negative_engagement": 8,
+        "net_sentiment": 25.0,
+        "post_count": 4,
+        "engagement": 25,
         "top_topics": [
           {
-            "topic_id": 5,
-            "label": "南電",
+            "topic_id": 10,
+            "label": "tsmc / taiwan / fab / oct",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "台積電 / terafab / fab / tvn",
+            "count": 1
+          },
+          {
+            "topic_id": 9,
+            "label": "server / digitimes / reports / talks",
             "count": 1
           }
         ],
@@ -601,40 +469,35 @@
             "platform": "X",
             "text": "#TSMC’s Oct. 15 earnings call just got more interesting, with Terafab talks adding a fresh twist.",
             "url": "https://x.com/trendforce/status/2106954525039075727",
-            "interaction": 4
+            "interaction": 10
           },
           {
-            "handle": "technews_tw",
+            "handle": "statementdog",
             "platform": "X",
-            "text": "#台積電 獲馬斯克尋求合作！Terafab 轉向洽談，英特爾 14A 製程位置恐面臨邊緣化。 dlvr.​it/TVmxdW",
-            "url": "https://x.com/technews_tw/status/2106958716721615280",
-            "interaction": 2
+            "text": "Quanta reportedly halted production of HP notebooks for about a week in September after pricing talks stalled amid rising component costs.  Production resumed after HP executives traveled to Thailand ",
+            "url": "https://x.com/statementdog/status/2106949797685117415",
+            "interaction": 8
           }
         ],
-        "net_sentiment_smoothed": 3.3,
+        "net_sentiment_smoothed": -35.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-05T12:08:05.714286+08:00",
-        "bucket_end": "2026-10-05T12:42:22.857143+08:00",
-        "positive": 1,
+        "bucket_start": "2026-10-05T11:50:08.857144+08:00",
+        "bucket_end": "2026-10-05T12:24:26.000001+08:00",
+        "positive": 2,
         "neutral": 4,
-        "negative": 4,
-        "positive_engagement": 19,
-        "neutral_engagement": 28,
-        "negative_engagement": 68,
-        "net_sentiment": -33.3,
-        "post_count": 9,
-        "engagement": 115,
+        "negative": 2,
+        "positive_engagement": 43,
+        "neutral_engagement": 88,
+        "negative_engagement": 155,
+        "net_sentiment": 0.0,
+        "post_count": 8,
+        "engagement": 286,
         "top_topics": [
           {
-            "topic_id": 6,
-            "label": "東芝",
-            "count": 1
-          },
-          {
-            "topic_id": 7,
-            "label": "server / reports / digitimes / talks",
+            "topic_id": 4,
+            "label": "台積電 / terafab / fab / tvn",
             "count": 1
           }
         ],
@@ -644,31 +507,31 @@
             "platform": "X",
             "text": "Russia’s new drive to crush Ukraine",
             "url": "https://x.com/FT/status/2106962097720442970",
-            "interaction": 49
+            "interaction": 122
           },
           {
-            "handle": "QQ_Timmy",
+            "handle": "FT",
             "platform": "X",
-            "text": "對 PTFE 與 HC 的看法摘要  核心結論 PTFE 混壓仍是英偉達 VR300 NVL576 交換托盤（switch tray）目前測試進度最領先、也最可能採用的方案。市場部分觀點認為會以碳氫樹脂（HC）取代 PTFE，但依據不足。最終方案預計 2026 年底確定。  HC 新方案 - 原 PTFE 混壓中的 PTFE",
-            "url": "https://x.com/QQ_Timmy/status/2106962854096298327",
-            "interaction": 19
+            "text": "UK businessman given senior role at group linked to Kremlin money-laundering operation",
+            "url": "https://x.com/FT/status/2106962663666336086",
+            "interaction": 70
           }
         ],
-        "net_sentiment_smoothed": 16.7,
+        "net_sentiment_smoothed": -8.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-05T12:42:22.857143+08:00",
-        "bucket_end": "2026-10-05T13:16:40+08:00",
-        "positive": 2,
+        "bucket_start": "2026-10-05T12:24:26.000001+08:00",
+        "bucket_end": "2026-10-05T12:58:43.142858+08:00",
+        "positive": 0,
         "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 9,
-        "neutral_engagement": 0,
-        "negative_engagement": 28,
-        "net_sentiment": 25.0,
+        "negative": 3,
+        "positive_engagement": 0,
+        "neutral_engagement": 1,
+        "negative_engagement": 372,
+        "net_sentiment": -75.0,
         "post_count": 4,
-        "engagement": 37,
+        "engagement": 373,
         "top_topics": [
           {
             "topic_id": 6,
@@ -676,8 +539,8 @@
             "count": 1
           },
           {
-            "topic_id": 3,
-            "label": "nand / earnings / boom / maker",
+            "topic_id": 9,
+            "label": "server / digitimes / reports / talks",
             "count": 1
           }
         ],
@@ -687,24 +550,333 @@
             "platform": "X",
             "text": "The Baltic state is preparing to carry out deep strikes inside its neighbour, as officials fear an opportunistic gamble by the Kremlin and say that neither they nor Nato are deterring such a scenario ",
             "url": "https://x.com/FT/status/2106969346085974033",
-            "interaction": 28
+            "interaction": 362
           },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Wiwynn expects to recoup its investment in collaborative robots at its US plant within a year, DIGITIMES reports.  The AI server maker is deploying robots from Teradyne-owned Universal Robots at its p",
+            "url": "https://x.com/statementdog/status/2106966285385183681",
+            "interaction": 7
+          }
+        ],
+        "net_sentiment_smoothed": -3.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-05T12:58:43.142858+08:00",
+        "bucket_end": "2026-10-05T13:33:00.285715+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 14,
+        "neutral_engagement": 0,
+        "negative_engagement": 3,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 17,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "東芝",
+            "count": 1
+          }
+        ],
+        "top_posts": [
           {
             "handle": "statementdog",
             "platform": "X",
             "text": "Micron’s data center SSD revenue reached nearly $10 billion in fiscal Q4 2026, the company said on its Sept. 30 earnings call. That was more than 10 times the year-earlier level and accounted for over",
             "url": "https://x.com/statementdog/status/2106972654456492537",
-            "interaction": 9
+            "interaction": 13
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#DUV 設備暴露 #出口管制 漏洞！智庫建議全面禁止向中國出售浸潤式設備。 dlvr.​it/TVmyry",
+            "url": "https://x.com/technews_tw/status/2106976846365790568",
+            "interaction": 3
           }
         ],
-        "net_sentiment_smoothed": 30.6,
+        "net_sentiment_smoothed": -8.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-05T13:33:00.285715+08:00",
+        "bucket_end": "2026-10-05T14:07:17.428572+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 2,
+        "positive_engagement": 3,
+        "neutral_engagement": 1,
+        "negative_engagement": 114,
+        "net_sentiment": 0.0,
+        "post_count": 5,
+        "engagement": 118,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Euro hits 17-month low against dollar",
+            "url": "https://x.com/FT/status/2106981916444397995",
+            "interaction": 113
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Barclays sees upside to its $370 billion forecast for Nvidia’s 2027 revenue from hyperscalers. Analyst Tom O’Malley’s calculations imply $401 billion, with $417 billion in a more optimistic scenario, ",
+            "url": "https://x.com/statementdog/status/2106987755293032581",
+            "interaction": 2
+          }
+        ],
+        "net_sentiment_smoothed": -8.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-05T14:07:17.428572+08:00",
+        "bucket_end": "2026-10-05T14:41:34.571429+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 15,
+        "neutral_engagement": 1,
+        "negative_engagement": 17,
+        "net_sentiment": 0.0,
+        "post_count": 3,
+        "engagement": 33,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "tvn",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "聯電（UMC， https:// 2303.TT）  市場擔憂 vs. 對重新評價的看法 - 擔憂：2026 下半年沒有普遍漲價。 - 看法：2026 下半年漲價針對特定客戶（例如聯發科 8 吋）；全面性漲價在 2027 年第一季，幅度約 10–30%。  漲價動能由 2026 下半年延續至 2027 上半年（12 吋、8 吋約 10–30%），2027",
+            "url": "https://x.com/QQ_Timmy/status/2106996054998782383",
+            "interaction": 17
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The jobs market is still fine  https:// ft.trib.al/xx5L8h3  | opinion",
+            "url": "https://x.com/FT/status/2106992663253709222",
+            "interaction": 15
+          }
+        ],
+        "net_sentiment_smoothed": 2.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-05T14:41:34.571429+08:00",
+        "bucket_end": "2026-10-05T15:15:51.714286+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 2,
+        "positive_engagement": 211,
+        "neutral_engagement": 0,
+        "negative_engagement": 14,
+        "net_sentiment": 0.0,
+        "post_count": 4,
+        "engagement": 225,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "台積電 / terafab / fab / tvn",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
+            "label": "tvn",
+            "count": 1
+          },
+          {
+            "topic_id": 10,
+            "label": "tsmc / taiwan / fab / oct",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Alert: TSMC’s Taiwan-listed shares hit a new all-time high today.   $TSM",
+            "url": "https://x.com/jukan05/status/2107000187046810015",
+            "interaction": 206
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "BT buys struggling rival TalkTalk out of administration",
+            "url": "https://x.com/FT/status/2107001169394466932",
+            "interaction": 14
+          }
+        ],
+        "net_sentiment_smoothed": 6.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-05T15:15:51.714286+08:00",
+        "bucket_end": "2026-10-05T15:50:08.857143+08:00",
+        "positive": 1,
+        "neutral": 2,
+        "negative": 2,
+        "positive_engagement": 129,
+        "neutral_engagement": 149,
+        "negative_engagement": 120,
+        "net_sentiment": -20.0,
+        "post_count": 5,
+        "engagement": 398,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "pedro / prime / spanish / snap",
+            "count": 2
+          },
+          {
+            "topic_id": 2,
+            "label": "tvn",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Spanish prime minister Pedro Sánchez calls snap election",
+            "url": "https://x.com/FT/status/2107009068376195183",
+            "interaction": 149
+          },
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Taiwanese media report that AMD CEO Lisa Su personally visited Taiwan today to secure the company’s packaging, testing, and substrate supply chain.",
+            "url": "https://x.com/jukan05/status/2107010100737302575",
+            "interaction": 129
+          }
+        ],
+        "net_sentiment_smoothed": 7.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-05T15:50:08.857143+08:00",
+        "bucket_end": "2026-10-05T16:24:26+08:00",
+        "positive": 3,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 22,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 4,
+        "engagement": 22,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "tvn",
+            "count": 2
+          },
+          {
+            "topic_id": 0,
+            "label": "rapidus / collaborative",
+            "count": 1
+          },
+          {
+            "topic_id": 3,
+            "label": "silva / lula / cio / luiz",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Flávio Bolsonaro built a strong lead in Sunday’s first round of voting over incumbent Luiz Inácio Lula da Silva.  https:// ft.trib.al/7VEfbcp",
+            "url": "https://x.com/FT/status/2107018306364244018",
+            "interaction": 19
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Rapidus 於 2026 年 10 月 5 日宣布建立全球生態系框架 Rapidus CORE（Rapidus Collaborative Open Rapid Ecosystem），第一階段先成立設計支援聯盟 Design Solution Associates，與 17 家企業合作。  配合北海道千歲廠 2 奈米 GAA 量產目標（2027 年度下半年），降低客戶進入門檻、爭取訂單。",
+            "url": "https://x.com/QQ_Timmy/status/2107017446041235926",
+            "interaction": 3
+          }
+        ],
+        "net_sentiment_smoothed": 10.0,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 8,
-        "label": "spcx / rack / optical / tpu",
+        "topic_id": 2,
+        "label": "tvn",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "台積電 / terafab / fab / tvn",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -730,6 +902,44 @@
             "net_sentiment": 0.0,
             "volume": 1
           },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "spcx / rack",
+        "cells": [
           {
             "net_sentiment": -100.0,
             "volume": 3
@@ -761,12 +971,36 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 3,
-        "label": "nand / earnings / boom / maker",
+        "topic_id": 10,
+        "label": "tsmc / taiwan / fab / oct",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -786,6 +1020,10 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
             "volume": 1
           },
           {
@@ -795,18 +1033,6 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -823,6 +1049,14 @@
           {
             "net_sentiment": 100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
@@ -859,42 +1093,12 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": -100.0,
             "volume": 1
           },
           {
             "net_sentiment": 100.0,
             "volume": 1
-          }
-        ]
-      },
-      {
-        "topic_id": 5,
-        "label": "南電",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -907,38 +1111,6 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -951,7 +1123,7 @@
         ]
       },
       {
-        "topic_id": 2,
+        "topic_id": 11,
         "label": "馬斯克 / 執行長",
         "cells": [
           {
@@ -959,30 +1131,6 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": -100.0,
             "volume": 1
           },
@@ -992,40 +1140,6 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 1,
-        "label": "nvidia",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 0
           },
           {
@@ -1055,10 +1169,6 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -1078,143 +1188,162 @@
     "coverage_focus_ranking": [
       {
         "handle": "TrendForce",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，30 篇）",
+        "top_topic_id": 10,
+        "top_topic_label": "tsmc / taiwan / fab / oct",
         "focus_share": 1.0,
         "post_count": 1,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 5,
-        "top_topic_label": "南電",
-        "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 2
-      },
-      {
-        "handle": "tphuang",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，30 篇）",
-        "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 3
-      },
-      {
-        "handle": "tengyanAI",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，30 篇）",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "FT",
-        "top_topic_id": 4,
-        "top_topic_label": "bolsonaro",
-        "focus_share": 1.0,
-        "post_count": 14,
-        "unclustered_posts": 12
+        "unclustered_posts": 0
       },
       {
         "handle": "SemiAnalysis_",
         "top_topic_id": 1,
-        "top_topic_label": "nvidia",
+        "top_topic_label": "其他（未分群，35 篇）",
         "focus_share": 1.0,
         "post_count": 1,
-        "unclustered_posts": 0
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "tengyanAI",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，35 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
       },
       {
         "handle": "jukan05",
-        "top_topic_id": 8,
-        "top_topic_label": "spcx / rack / optical / tpu",
+        "top_topic_id": 7,
+        "top_topic_label": "spcx / rack",
         "focus_share": 0.75,
-        "post_count": 4,
-        "unclustered_posts": 0
+        "post_count": 6,
+        "unclustered_posts": 2
       },
       {
         "handle": "statementdog",
-        "top_topic_id": 7,
-        "top_topic_label": "server / reports / digitimes / talks",
+        "top_topic_id": 9,
+        "top_topic_label": "server / digitimes / reports / talks",
+        "focus_share": 0.667,
+        "post_count": 5,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 0,
+        "top_topic_label": "rapidus / collaborative",
         "focus_share": 0.5,
         "post_count": 4,
-        "unclustered_posts": 0
+        "unclustered_posts": 2
       },
       {
         "handle": "technews_tw",
-        "top_topic_id": 6,
-        "top_topic_label": "東芝",
-        "focus_share": 0.286,
-        "post_count": 18,
-        "unclustered_posts": 11
+        "top_topic_id": 2,
+        "top_topic_label": "tvn",
+        "focus_share": 0.429,
+        "post_count": 27,
+        "unclustered_posts": 13
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 3,
+        "top_topic_label": "silva / lula / cio / luiz",
+        "focus_share": 0.333,
+        "post_count": 20,
+        "unclustered_posts": 14
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 8,
-        "label": "spcx / rack / optical / tpu",
-        "total_engagement": 1907,
-        "post_count": 4,
+        "topic_id": 7,
+        "label": "spcx / rack",
+        "total_engagement": 2403,
+        "post_count": 3,
         "top_account": "jukan05",
-        "top_account_engagement": 1884,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
-        "label": "bolsonaro",
-        "total_engagement": 761,
-        "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 761,
+        "top_account_engagement": 2403,
         "is_catchall": false
       },
       {
         "topic_id": 3,
-        "label": "nand / earnings / boom / maker",
-        "total_engagement": 456,
-        "post_count": 3,
-        "top_account": "jukan05",
-        "top_account_engagement": 437,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "nvidia",
-        "total_engagement": 119,
+        "label": "silva / lula / cio / luiz",
+        "total_engagement": 534,
         "post_count": 2,
-        "top_account": "SemiAnalysis_",
-        "top_account_engagement": 117,
+        "top_account": "FT",
+        "top_account_engagement": 534,
         "is_catchall": false
       },
       {
         "topic_id": 5,
-        "label": "南電",
-        "total_engagement": 44,
+        "label": "pedro / prime / spanish / snap",
+        "total_engagement": 268,
         "post_count": 2,
-        "top_account": "QQ_Timmy",
-        "top_account_engagement": 42,
+        "top_account": "FT",
+        "top_account_engagement": 268,
         "is_catchall": false
       },
       {
-        "topic_id": 7,
-        "label": "server / reports / digitimes / talks",
-        "total_engagement": 7,
+        "topic_id": 10,
+        "label": "tsmc / taiwan / fab / oct",
+        "total_engagement": 216,
+        "post_count": 2,
+        "top_account": "jukan05",
+        "top_account_engagement": 206,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "fairford / bombers / raf / officials",
+        "total_engagement": 147,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 147,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "tpu / rack / aletheia / ccl",
+        "total_engagement": 86,
+        "post_count": 2,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 57,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "server / digitimes / reports / talks",
+        "total_engagement": 15,
         "post_count": 2,
         "top_account": "statementdog",
-        "top_account_engagement": 7,
+        "top_account_engagement": 15,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "台積電 / terafab / fab / tvn",
+        "total_engagement": 9,
+        "post_count": 3,
+        "top_account": "technews_tw",
+        "top_account_engagement": 9,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "rapidus / collaborative",
+        "total_engagement": 5,
+        "post_count": 2,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 3,
         "is_catchall": false
       },
       {
         "topic_id": 6,
         "label": "東芝",
-        "total_engagement": 3,
+        "total_engagement": 4,
         "post_count": 2,
         "top_account": "technews_tw",
-        "top_account_engagement": 3,
+        "top_account_engagement": 4,
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 11,
         "label": "馬斯克 / 執行長",
         "total_engagement": 3,
         "post_count": 2,
@@ -1223,28 +1352,37 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，30 篇）",
-        "total_engagement": 1266,
-        "post_count": 30,
-        "top_account": "tengyanAI",
-        "top_account_engagement": 618,
+        "topic_id": 2,
+        "label": "tvn",
+        "total_engagement": 1,
+        "post_count": 6,
+        "top_account": "technews_tw",
+        "top_account_engagement": 1,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，35 篇）",
+        "total_engagement": 3409,
+        "post_count": 35,
+        "top_account": "FT",
+        "top_account_engagement": 1540,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 33,
-          "likes": 3655,
-          "engagement": 4330,
-          "avg_engagement": 131.2
+          "post_count": 28,
+          "likes": 4729,
+          "engagement": 5628,
+          "avg_engagement": 201.0
         },
         "afternoon": {
-          "post_count": 15,
-          "likes": 103,
-          "engagement": 154,
-          "avg_engagement": 10.3
+          "post_count": 37,
+          "likes": 1078,
+          "engagement": 1472,
+          "avg_engagement": 39.8
         },
         "evening": {
           "post_count": 0,
@@ -1253,13 +1391,13 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 1,
-          "likes": 65,
-          "engagement": 82,
-          "avg_engagement": 82.0
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         }
       },
-      "peak_slot": "morning"
+      "peak_slot": "afternoon"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,

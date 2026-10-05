@@ -1,62 +1,79 @@
 {
   "clusters": [
     {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 4,
+      "accounts": {
+        "technews_tw": 2,
+        "jukan05": 1,
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 1,
+        "jukan05": 129,
+        "statementdog": 2
+      }
+    },
+    {
       "id": "F",
       "label": "晶圓代工 / 先進製程",
       "size": 4,
       "accounts": {
-        "TrendForce": 1,
-        "technews_tw": 3
+        "technews_tw": 1,
+        "jukan05": 1,
+        "QQ_Timmy": 2
       },
       "engagement_by_account": {
-        "TrendForce": 4,
-        "technews_tw": 3
+        "technews_tw": 5,
+        "jukan05": 206,
+        "QQ_Timmy": 20
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 2,
+      "accounts": {
+        "technews_tw": 1,
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "technews_tw": 1,
+        "statementdog": 13
       }
     },
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 2,
+      "size": 1,
       "accounts": {
-        "jukan05": 1,
         "statementdog": 1
       },
       "engagement_by_account": {
-        "jukan05": 437,
-        "statementdog": 9
+        "statementdog": 13
       }
     },
     {
       "id": "E",
       "label": "AI 伺服器供應鏈",
-      "size": 2,
+      "size": 1,
       "accounts": {
-        "statementdog": 2
+        "statementdog": 1
       },
       "engagement_by_account": {
         "statementdog": 7
       }
     },
     {
-      "id": "B",
-      "label": "GPU / AI 加速器",
+      "id": "G",
+      "label": "IC 設計",
       "size": 1,
       "accounts": {
-        "SemiAnalysis_": 1
+        "QQ_Timmy": 1
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 117
-      }
-    },
-    {
-      "id": "D",
-      "label": "CSP / 資料中心",
-      "size": 1,
-      "accounts": {
-        "statementdog": 1
-      },
-      "engagement_by_account": {
-        "statementdog": 9
+        "QQ_Timmy": 17
       }
     },
     {
@@ -67,29 +84,18 @@
         "technews_tw": 1
       },
       "engagement_by_account": {
+        "technews_tw": 1
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 1,
+      "accounts": {
+        "technews_tw": 1
+      },
+      "engagement_by_account": {
         "technews_tw": 0
-      }
-    },
-    {
-      "id": "J",
-      "label": "PCB / 載板 / 被動元件",
-      "size": 1,
-      "accounts": {
-        "technews_tw": 1
-      },
-      "engagement_by_account": {
-        "technews_tw": 2
-      }
-    },
-    {
-      "id": "M",
-      "label": "台股市場",
-      "size": 1,
-      "accounts": {
-        "technews_tw": 1
-      },
-      "engagement_by_account": {
-        "technews_tw": 1
       }
     },
     {
@@ -100,12 +106,12 @@
         "technews_tw": 1
       },
       "engagement_by_account": {
-        "technews_tw": 0
+        "technews_tw": 3
       }
     },
     {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
+      "id": "Q",
+      "label": "機器人 / Robotics",
       "size": 1,
       "accounts": {
         "technews_tw": 1
@@ -115,12 +121,88 @@
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 226,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Alert: TSMC’s Taiwan-listed shares hit a new all-time high today.   $TSM",
+          "url": "https://x.com/jukan05/status/2107000187046810015",
+          "timestamp": "2026-10-05T14:49:25.000+08:00",
+          "interaction": 206
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "聯電（UMC， https:// 2303.TT）  市場擔憂 vs. 對重新評價的看法 - 擔憂：2026 下半年沒有普遍漲價。 - 看法：2026 下半年漲價針對特定客戶（例如聯發科 8 吋）；全面性漲價在 2027 年第一季，幅度約 10–30%。  漲價動能由 2026 下半年延續至 2027 上半年（12 吋、8 吋約 10–30%），2027",
+          "url": "https://x.com/QQ_Timmy/status/2106996054998782383",
+          "timestamp": "2026-10-05T14:33:00.000+08:00",
+          "interaction": 17
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Rapidus 於 2026 年 10 月 5 日宣布建立全球生態系框架 Rapidus CORE（Rapidus Collaborative Open Rapid Ecosystem），第一階段先成立設計支援聯盟 Design Solution Associates，與 17 家企業合作。  配合北海道千歲廠 2 奈米 GAA 量產目標（2027 年度下半年），降低客戶進入門檻、爭取訂單。",
+          "url": "https://x.com/QQ_Timmy/status/2107017446041235926",
+          "timestamp": "2026-10-05T15:58:00.000+08:00",
+          "interaction": 3
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 226,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Alert: TSMC’s Taiwan-listed shares hit a new all-time high today.   $TSM",
+          "url": "https://x.com/jukan05/status/2107000187046810015",
+          "timestamp": "2026-10-05T14:49:25.000+08:00",
+          "interaction": 206
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "聯電（UMC， https:// 2303.TT）  市場擔憂 vs. 對重新評價的看法 - 擔憂：2026 下半年沒有普遍漲價。 - 看法：2026 下半年漲價針對特定客戶（例如聯發科 8 吋）；全面性漲價在 2027 年第一季，幅度約 10–30%。  漲價動能由 2026 下半年延續至 2027 上半年（12 吋、8 吋約 10–30%），2027",
+          "url": "https://x.com/QQ_Timmy/status/2106996054998782383",
+          "timestamp": "2026-10-05T14:33:00.000+08:00",
+          "interaction": 17
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "Rapidus 於 2026 年 10 月 5 日宣布建立全球生態系框架 Rapidus CORE（Rapidus Collaborative Open Rapid Ecosystem），第一階段先成立設計支援聯盟 Design Solution Associates，與 17 家企業合作。  配合北海道千歲廠 2 奈米 GAA 量產目標（2027 年度下半年），降低客戶進入門檻、爭取訂單。",
+          "url": "https://x.com/QQ_Timmy/status/2107017446041235926",
+          "timestamp": "2026-10-05T15:58:00.000+08:00",
+          "interaction": 3
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-05T09:16:40+08:00",
-    "end_utc": "2026-10-05T13:16:40+08:00",
-    "start_tw": "Oct 05, 09:16",
-    "end_tw": "Oct 05, 13:16"
+    "start_utc": "2026-10-05T12:24:26+08:00",
+    "end_utc": "2026-10-05T16:24:26+08:00",
+    "start_tw": "Oct 05, 12:24",
+    "end_tw": "Oct 05, 16:24"
   }
 }
