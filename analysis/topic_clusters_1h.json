@@ -1,23 +1,147 @@
 {
   "clusters": [
     {
-      "id": "E",
-      "label": "AI 伺服器供應鏈",
-      "size": 1,
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 3,
       "accounts": {
-        "statementdog": 1
+        "jukan05": 1,
+        "HyperTechInvest": 2
       },
       "engagement_by_account": {
-        "statementdog": 4
+        "jukan05": 82,
+        "HyperTechInvest": 14
+      }
+    },
+    {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 2,
+      "accounts": {
+        "jukan05": 1,
+        "HyperTechInvest": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 82,
+        "HyperTechInvest": 7
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 1,
+      "accounts": {
+        "HyperTechInvest": 1
+      },
+      "engagement_by_account": {
+        "HyperTechInvest": 7
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 1,
+      "accounts": {
+        "HyperTechInvest": 1
+      },
+      "engagement_by_account": {
+        "HyperTechInvest": 9
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 1,
+      "accounts": {
+        "HyperTechInvest": 1
+      },
+      "engagement_by_account": {
+        "HyperTechInvest": 7
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 96,
+      "competitors_covering": [
+        "jukan05",
+        "HyperTechInvest"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "SOUTH KOREAN MEDIA: SAMSUNG’S 12-HIGH HBM4E PASSES QUALIFICATION TESTS AT NVIDIA AND OTHER CUSTOMERS",
+          "url": "https://x.com/jukan05/status/2107746212946518313",
+          "timestamp": "2026-10-07T16:13:51.000+08:00",
+          "interaction": 82
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "They also increased their financial targets by 2x in like six months  The market isn’t looking just at what  $AMD  says, but at where things are going with agents  Meta and OpenAI are key customers, and they’re entering an arms race in agents  Agents need lots of CPUs.  $AMD  has the",
+          "url": "https://x.com/HyperTechInvest/status/2107750368050348198",
+          "timestamp": "2026-10-07T16:30:22.000+08:00",
+          "interaction": 7
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "HBM Growth Pushes Memory Offload Toward New Use Cases  HBM growth is pushing memory offload toward larger-memory and legacy-GPU use cases rather than eliminating it  Next-gen accelerators keep increasing native HBM, from 180GB on Nvidia’s B200 to 288GB on B300/Rubin and 432GB on",
+          "url": "https://x.com/HyperTechInvest/status/2107746840590590263",
+          "timestamp": "2026-10-07T16:16:21.000+08:00",
+          "interaction": 7
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 96,
+      "competitors_covering": [
+        "jukan05",
+        "HyperTechInvest"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "SOUTH KOREAN MEDIA: SAMSUNG’S 12-HIGH HBM4E PASSES QUALIFICATION TESTS AT NVIDIA AND OTHER CUSTOMERS",
+          "url": "https://x.com/jukan05/status/2107746212946518313",
+          "timestamp": "2026-10-07T16:13:51.000+08:00",
+          "interaction": 82
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "They also increased their financial targets by 2x in like six months  The market isn’t looking just at what  $AMD  says, but at where things are going with agents  Meta and OpenAI are key customers, and they’re entering an arms race in agents  Agents need lots of CPUs.  $AMD  has the",
+          "url": "https://x.com/HyperTechInvest/status/2107750368050348198",
+          "timestamp": "2026-10-07T16:30:22.000+08:00",
+          "interaction": 7
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "HBM Growth Pushes Memory Offload Toward New Use Cases  HBM growth is pushing memory offload toward larger-memory and legacy-GPU use cases rather than eliminating it  Next-gen accelerators keep increasing native HBM, from 180GB on Nvidia’s B200 to 288GB on B300/Rubin and 432GB on",
+          "url": "https://x.com/HyperTechInvest/status/2107746840590590263",
+          "timestamp": "2026-10-07T16:16:21.000+08:00",
+          "interaction": 7
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-07T11:27:43+08:00",
-    "end_utc": "2026-10-07T12:27:43+08:00",
-    "start_tw": "Oct 07, 11:27",
-    "end_tw": "Oct 07, 12:27"
+    "start_utc": "2026-10-07T15:30:22+08:00",
+    "end_utc": "2026-10-07T16:30:22+08:00",
+    "start_tw": "Oct 07, 15:30",
+    "end_tw": "Oct 07, 16:30"
   }
 }
