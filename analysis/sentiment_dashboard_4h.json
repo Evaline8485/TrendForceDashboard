@@ -1,351 +1,391 @@
 {
-  "generated_at": "2026-10-10T00:49:02.864592+00:00",
+  "generated_at": "2026-10-10T16:19:06+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-09T20:49:02.864592+00:00",
-    "end_utc": "2026-10-10T00:49:02.864592+00:00",
-    "start_tw": "Oct 10, 04:49",
-    "end_tw": "Oct 10, 08:49"
+    "start_utc": "2026-10-10T12:19:06+08:00",
+    "end_utc": "2026-10-10T16:19:06+08:00",
+    "start_tw": "Oct 10, 12:19",
+    "end_tw": "Oct 10, 16:19"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 12,
+      "total_posts": 27,
       "sentiment_counts": {
-        "positive": 8,
-        "neutral": 2,
-        "negative": 2
+        "neutral": 9,
+        "positive": 9,
+        "negative": 9
       },
       "sentiment_share": {
-        "positive": 0.667,
-        "neutral": 0.167,
-        "negative": 0.167
+        "neutral": 0.333,
+        "positive": 0.333,
+        "negative": 0.333
       },
       "top_terms": [
-        "increased",
-        "openai",
-        "revenue",
-        "giant",
-        "lite",
-        "plant",
-        "server",
-        "reports",
-        "sources",
-        "responding"
+        "供應",
+        "組件",
+        "應商",
+        "供應商",
+        "hynix",
+        "rtx",
+        "discontinued",
+        "supplied",
+        "exclusively",
+        "lineup"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "server / increased / nt / lite",
+        "topic_id": 0,
+        "label": "上市 / 美銀報 / 台光",
         "heat": 90.0,
-        "volume": 10,
-        "engagement": 469,
+        "volume": 25,
+        "engagement": 1188,
         "entities": [
-          "和碩"
+          "上市",
+          "美銀報",
+          "台光",
+          "伺服器"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "openai / revenue",
+        "topic_id": 1,
+        "label": "hynix / sk",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 47,
+        "engagement": 24,
         "entities": [],
         "is_catchall": false
       }
     ],
     "named_entities": [
       {
-        "entity": "和碩",
+        "entity": "上市",
+        "count": 1
+      },
+      {
+        "entity": "美銀報",
+        "count": 1
+      },
+      {
+        "entity": "台光",
+        "count": 1
+      },
+      {
+        "entity": "伺服器",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-09T20:49:02.864586+00:00",
-        "bucket_end": "2026-10-09T21:06:11.436015+00:00",
-        "positive": 3,
+        "bucket_start": "2026-10-10T12:19:05.999994+08:00",
+        "bucket_end": "2026-10-10T12:36:14.571423+08:00",
+        "positive": 0,
         "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 68,
-        "neutral_engagement": 25,
-        "negative_engagement": 0,
-        "net_sentiment": 75.0,
-        "post_count": 4,
-        "engagement": 93,
+        "negative": 2,
+        "positive_engagement": 0,
+        "neutral_engagement": 12,
+        "negative_engagement": 406,
+        "net_sentiment": -66.7,
+        "post_count": 3,
+        "engagement": 418,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "server / increased / nt / lite",
+            "topic_id": 0,
+            "label": "上市 / 美銀報 / 台光",
             "count": 3
-          },
-          {
-            "topic_id": 0,
-            "label": "openai / revenue",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "dnystedt",
-            "platform": "X",
-            "text": "The start of Nvidia Vera Rubin server production, mass Blackwell GB300 and B300 server production are fueling record high revenue at AI server giant Wistron, and AMD CEO Lisa Su’s recent visit to a ne",
-            "url": "https://x.com/dnystedt/status/2108661841631252767",
-            "interaction": 36
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The hazy OpenAI growth metric driving Wall Street",
-            "url": "https://x.com/FT/status/2108664932111614397",
-            "interaction": 27
-          }
-        ],
-        "net_sentiment_smoothed": 25.0,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-10-09T21:06:11.436015+00:00",
-        "bucket_end": "2026-10-09T21:23:20.007444+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -6.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-09T21:23:20.007444+00:00",
-        "bucket_end": "2026-10-09T21:40:28.578873+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 15.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-09T21:40:28.578873+00:00",
-        "bucket_end": "2026-10-09T21:57:37.150302+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 21,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 21,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "server / increased / nt / lite",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "Sugon-8000 cluster for the AI4S data center has been used in developing reusable rocket for multi-engine exhaust plume interference. Used in 3D high-precision simulation (ultra-HD CT scan of the exhau",
-            "url": "https://x.com/tphuang/status/2108674689585594657",
-            "interaction": 21
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-09T21:57:37.150302+00:00",
-        "bucket_end": "2026-10-09T22:14:45.721731+00:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 20,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 20,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "openai / revenue",
-            "count": 1
           }
         ],
         "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Why OpenAI’s revenue numbers really matter",
-            "url": "https://x.com/FT/status/2108681259597636023",
-            "interaction": 20
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-09T22:14:45.721731+00:00",
-        "bucket_end": "2026-10-09T22:31:54.293160+00:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 19,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 19,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "server / increased / nt / lite",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "As I said yesterday, I think issues with EU are resolvable. China is not fighting European countries on AI supply chain stuff or green fuel. Producing more cars & batteries in Europe was always the pl",
-            "url": "https://x.com/tphuang/status/2108686075384508850",
-            "interaction": 19
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-09T22:31:54.293160+00:00",
-        "bucket_end": "2026-10-09T22:49:02.864589+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-09T22:49:02.864589+00:00",
-        "bucket_end": "2026-10-09T23:06:11.436018+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 30.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-09T23:06:11.436018+00:00",
-        "bucket_end": "2026-10-09T23:23:20.007447+00:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 241,
-        "neutral_engagement": 0,
-        "negative_engagement": 21,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 262,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "server / increased / nt / lite",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "I love Apple, and I’m going to buy up its new products launching this month like crazy.  But I don’t want to own the stock. I’m hearing Apple still hasn’t signed any long-term memory supply agreements",
-            "url": "https://x.com/jukan05/status/2108696044280463478",
-            "interaction": 241
+            "text": "Ukraine strikes Russian tech giant’s data centres",
+            "url": "https://x.com/FT/status/2108774696476889399",
+            "interaction": 377
           },
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Northern Ireland’s Drumcree parade banned",
-            "url": "https://x.com/FT/status/2108698241843761176",
-            "interaction": 21
+            "text": "The danger of pessimism fatigue",
+            "url": "https://x.com/FT/status/2108776391953076597",
+            "interaction": 29
           }
         ],
-        "net_sentiment_smoothed": 10.0,
+        "net_sentiment_smoothed": 8.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-09T23:23:20.007447+00:00",
-        "bucket_end": "2026-10-09T23:40:28.578876+00:00",
+        "bucket_start": "2026-10-10T12:36:14.571423+08:00",
+        "bucket_end": "2026-10-10T12:53:23.142852+08:00",
         "positive": 1,
         "neutral": 1,
         "negative": 0,
-        "positive_engagement": 62,
-        "neutral_engagement": 10,
+        "positive_engagement": 348,
+        "neutral_engagement": 19,
         "negative_engagement": 0,
         "net_sentiment": 50.0,
         "post_count": 2,
-        "engagement": 72,
+        "engagement": 367,
         "top_topics": [
           {
+            "topic_id": 0,
+            "label": "上市 / 美銀報 / 台光",
+            "count": 1
+          },
+          {
             "topic_id": 1,
-            "label": "server / increased / nt / lite",
-            "count": 2
+            "label": "hynix / sk",
+            "count": 1
           }
         ],
         "top_posts": [
           {
             "handle": "jukan05",
             "platform": "X",
-            "text": "According to Chinese media reports, supply chain sources responding to Nikkei’s report of iPhone 18 Pro series order cuts said that orders for the iPhone 18 Pro had declined slightly, while Pro Max or",
-            "url": "https://x.com/jukan05/status/2108701926632341933",
-            "interaction": 62
+            "text": "IMO, Netflix needs to invest heavily in AI video generation ASAP. Otherwise, it’s going to get eaten alive by AI-generated short-form dramas made with Chinese video generation models.",
+            "url": "https://x.com/jukan05/status/2108782164016079257",
+            "interaction": 348
           },
           {
-            "handle": "tphuang",
+            "handle": "QQ_Timmy",
             "platform": "X",
-            "text": "Agibot X2 was in hundreds of 爱仕达/ASD stores over 9/28-30 & got live broadcast of them doing various roles.  I did not walk into any Beijing store this yr served by humanoid robot, but maybe that will ",
-            "url": "https://x.com/tphuang/status/2108701896676610311",
+            "text": "記憶體供應商承認 HBM 去規格化，D2W Hybrid Bonding 前景轉弱  記憶體供應商終於開始承認 SemiAnalysis 先前提出的 HBM「去規格化」（de-spec）觀點。SK Hynix 公開表示 16-hi 堆疊相當困難，市場當前的優先考量已從容量轉向頻寬。Hybrid bonding 在 HBM",
+            "url": "https://x.com/QQ_Timmy/status/2108779053398516056",
+            "interaction": 19
+          }
+        ],
+        "net_sentiment_smoothed": 2.4,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-10T12:53:23.142852+08:00",
+        "bucket_end": "2026-10-10T13:10:31.714281+08:00",
+        "positive": 4,
+        "neutral": 2,
+        "negative": 1,
+        "positive_engagement": 39,
+        "neutral_engagement": 48,
+        "negative_engagement": 20,
+        "net_sentiment": 42.9,
+        "post_count": 7,
+        "engagement": 107,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "上市 / 美銀報 / 台光",
+            "count": 7
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Our 1990s nostalgia is far too rose-tinted  https:// ft.trib.al/vT0ICfM  | opinion",
+            "url": "https://x.com/FT/status/2108783766936162757",
+            "interaction": 27
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Caribbean cruises are going cheap, and so are operators’ shares  https:// ft.trib.al/ny87VBb  | opinion",
+            "url": "https://x.com/FT/status/2108783766999093395",
+            "interaction": 22
+          }
+        ],
+        "net_sentiment_smoothed": 1.9,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-10-10T13:10:31.714281+08:00",
+        "bucket_end": "2026-10-10T13:27:40.285710+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 3,
+        "positive_engagement": 41,
+        "neutral_engagement": 10,
+        "negative_engagement": 25,
+        "net_sentiment": -16.7,
+        "post_count": 6,
+        "engagement": 76,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "上市 / 美銀報 / 台光",
+            "count": 6
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Hannah Arendt and why friendship matters more than truth  https:// ft.trib.al/WGbiWMM  | opinion",
+            "url": "https://x.com/FT/status/2108788397309407619",
+            "interaction": 21
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "美銀報告 台光電 EMC  - 產品組合升級：M7 級及以上高階覆銅板（CCL）營收占比將從 2026 年的 73%，提升至 2027 年的 85%、2028 年的 92%。  - 毛利率同步改善：受高階產品占比提升帶動，毛利率預計從 2026 年的 34.0%，升至 2027 年的 35.8%、2028 年的 36.7%。  - 主要驅動力：AI",
+            "url": "https://x.com/QQ_Timmy/status/2108788868082508119",
+            "interaction": 20
+          }
+        ],
+        "net_sentiment_smoothed": 15.2,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-10T13:27:40.285710+08:00",
+        "bucket_end": "2026-10-10T13:44:48.857139+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -14.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-10T13:44:48.857139+08:00",
+        "bucket_end": "2026-10-10T14:01:57.428568+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 33,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 33,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "上市 / 美銀報 / 台光",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Exhibit 3：CPO Insertion Test Flow   圖為 Co-Packaged Optics（CPO）的測試流程，從晶圓級一路做到模組級，並標示產品時程與相關供應商。  產品時程 - 2025–2026 年：主要針對 Scale-out CPO switch（Spectrum + Quantum）產品。 - 2027 年後：擴展至 Scale-out + Scale-up C",
+            "url": "https://x.com/QQ_Timmy/status/2108798012306993250",
+            "interaction": 33
+          }
+        ],
+        "net_sentiment_smoothed": -23.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-10T14:01:57.428568+08:00",
+        "bucket_end": "2026-10-10T14:19:05.999997+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 11,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 11,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "上市 / 美銀報 / 台光",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Morgan Stanley   蘋果(  $AAPL  )已在 iPhone 18 Pro／Pro Max 上市僅約 4 週後，就開始削減零組件訂單，顯示早期需求明顯弱於預期，原本的樂觀情境（bull case）很可能已快速消失。  主要發現 - 供應鏈確認削減：自身供應鏈檢查證實近期確實有 iPhone 零組件訂單削減。 -",
+            "url": "https://x.com/QQ_Timmy/status/2108801702640099702",
+            "interaction": 11
+          }
+        ],
+        "net_sentiment_smoothed": -33.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-10T14:19:05.999997+08:00",
+        "bucket_end": "2026-10-10T14:36:14.571426+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 10,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 10,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "上市 / 美銀報 / 台光",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Inside the ‘robot gyms’ training machines for the real world",
+            "url": "https://x.com/FT/status/2108808110093574442",
             "interaction": 10
           }
         ],
-        "net_sentiment_smoothed": 10.0,
+        "net_sentiment_smoothed": -33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-09T23:40:28.578876+00:00",
-        "bucket_end": "2026-10-09T23:57:37.150305+00:00",
+        "bucket_start": "2026-10-10T14:36:14.571426+08:00",
+        "bucket_end": "2026-10-10T14:53:23.142855+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 2,
+        "positive_engagement": 0,
+        "neutral_engagement": 52,
+        "negative_engagement": 95,
+        "net_sentiment": -66.7,
+        "post_count": 3,
+        "engagement": 147,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "上市 / 美銀報 / 台光",
+            "count": 3
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The world of one trade — AI",
+            "url": "https://x.com/FT/status/2108810927881507074",
+            "interaction": 52
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Saudi flagship summits under pressure after deadly airport attacks",
+            "url": "https://x.com/FT/status/2108810927889870893",
+            "interaction": 50
+          }
+        ],
+        "net_sentiment_smoothed": -33.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-10T14:53:23.142855+08:00",
+        "bucket_end": "2026-10-10T15:10:31.714284+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -357,12 +397,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 10.0,
+        "net_sentiment_smoothed": 6.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-09T23:57:37.150305+00:00",
-        "bucket_end": "2026-10-10T00:14:45.721734+00:00",
+        "bucket_start": "2026-10-10T15:10:31.714284+08:00",
+        "bucket_end": "2026-10-10T15:27:40.285713+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -374,12 +414,43 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 10.0,
+        "net_sentiment_smoothed": 6.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T00:14:45.721734+00:00",
-        "bucket_end": "2026-10-10T00:31:54.293163+00:00",
+        "bucket_start": "2026-10-10T15:27:40.285713+08:00",
+        "bucket_end": "2026-10-10T15:44:48.857142+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 5,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 5,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "hynix / sk",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Samsung and SK hynix face higher costs to keep their fabs running. The Elec reports that ASML will raise spare-parts prices by 10% from January 2027.",
+            "url": "https://x.com/statementdog/status/2108823084379918707",
+            "interaction": 5
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-10T15:44:48.857142+08:00",
+        "bucket_end": "2026-10-10T16:01:57.428571+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -391,34 +462,80 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T00:31:54.293163+00:00",
-        "bucket_end": "2026-10-10T00:49:02.864592+00:00",
+        "bucket_start": "2026-10-10T16:01:57.428571+08:00",
+        "bucket_end": "2026-10-10T16:19:06+08:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 26,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "post_count": 1,
+        "engagement": 26,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "上市 / 美銀報 / 台光",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "The RTX 5090 has been discontinued. GB202 will now be supplied exclusively to the RTX Pro lineup.  It’s over.",
+            "url": "https://x.com/jukan05/status/2108834190372528595",
+            "interaction": 26
+          }
+        ],
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "server / increased / nt / lite",
+        "topic_id": 0,
+        "label": "上市 / 美銀報 / 台光",
         "cells": [
           {
-            "net_sentiment": 66.7,
+            "net_sentiment": -66.7,
+            "volume": 3
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 42.9,
+            "volume": 7
+          },
+          {
+            "net_sentiment": -16.7,
+            "volume": 6
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -66.7,
             "volume": 3
           },
           {
@@ -430,57 +547,29 @@
             "volume": 0
           },
           {
-            "net_sentiment": -100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 0,
-        "label": "openai / revenue",
+        "topic_id": 1,
+        "label": "hynix / sk",
         "cells": [
           {
-            "net_sentiment": 100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 1
           },
           {
@@ -496,36 +585,32 @@
             "volume": 0
           },
           {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": 100.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -541,62 +626,54 @@
     "coverage_focus_ranking": [
       {
         "handle": "jukan05",
-        "top_topic_id": 1,
-        "top_topic_label": "server / increased / nt / lite",
+        "top_topic_id": 0,
+        "top_topic_label": "上市 / 美銀報 / 台光",
         "focus_share": 1.0,
         "post_count": 2,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "tphuang",
-        "top_topic_id": 1,
-        "top_topic_label": "server / increased / nt / lite",
-        "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "dnystedt",
-        "top_topic_id": 1,
-        "top_topic_label": "server / increased / nt / lite",
-        "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "technewsinside",
-        "top_topic_id": 1,
-        "top_topic_label": "server / increased / nt / lite",
-        "focus_share": 1.0,
-        "post_count": 1,
         "unclustered_posts": 0
       },
       {
         "handle": "FT",
         "top_topic_id": 0,
-        "top_topic_label": "openai / revenue",
-        "focus_share": 0.667,
-        "post_count": 3,
+        "top_topic_label": "上市 / 美銀報 / 台光",
+        "focus_share": 1.0,
+        "post_count": 17,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 0,
+        "top_topic_label": "上市 / 美銀報 / 台光",
+        "focus_share": 0.833,
+        "post_count": 6,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 0,
+        "top_topic_label": "上市 / 美銀報 / 台光",
+        "focus_share": 0.5,
+        "post_count": 2,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "server / increased / nt / lite",
-        "total_engagement": 469,
-        "post_count": 10,
-        "top_account": "jukan05",
-        "top_account_engagement": 303,
+        "topic_id": 0,
+        "label": "上市 / 美銀報 / 台光",
+        "total_engagement": 1188,
+        "post_count": 25,
+        "top_account": "FT",
+        "top_account_engagement": 724,
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "openai / revenue",
-        "total_engagement": 47,
+        "topic_id": 1,
+        "label": "hynix / sk",
+        "total_engagement": 24,
         "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 47,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 19,
         "is_catchall": false
       }
     ],
