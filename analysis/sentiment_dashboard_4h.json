@@ -1,65 +1,211 @@
 {
-  "generated_at": "2026-10-10T16:19:06+08:00",
+  "generated_at": "2026-10-10T08:53:23.900800+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-10T12:19:06+08:00",
-    "end_utc": "2026-10-10T16:19:06+08:00",
-    "start_tw": "Oct 10, 12:19",
-    "end_tw": "Oct 10, 16:19"
+    "start_utc": "2026-10-10T04:53:23.900800+00:00",
+    "end_utc": "2026-10-10T08:53:23.900800+00:00",
+    "start_tw": "Oct 10, 12:53",
+    "end_tw": "Oct 10, 16:53"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 27,
+      "total_posts": 73,
       "sentiment_counts": {
-        "neutral": 9,
-        "positive": 9,
-        "negative": 9
+        "neutral": 22,
+        "negative": 24,
+        "positive": 27
       },
       "sentiment_share": {
-        "neutral": 0.333,
-        "positive": 0.333,
-        "negative": 0.333
+        "neutral": 0.301,
+        "negative": 0.329,
+        "positive": 0.37
       },
       "top_terms": [
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
         "供應",
-        "組件",
-        "應商",
-        "供應商",
-        "hynix",
-        "rtx",
-        "discontinued",
-        "supplied",
-        "exclusively",
-        "lineup"
+        "伺服",
+        "服器",
+        "伺服器",
+        "帶動"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "上市 / 美銀報 / 台光",
+        "topic_id": 3,
+        "label": "trump / donald",
         "heat": 90.0,
-        "volume": 25,
-        "engagement": 1188,
+        "volume": 2,
+        "engagement": 125,
         "entities": [
-          "上市",
-          "美銀報",
-          "台光",
+          "美國總統川普",
+          "俄羅斯",
+          "美國",
+          "伊朗",
+          "華爾街"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "ai代理",
+        "heat": 54.9,
+        "volume": 2,
+        "engagement": 18,
+        "entities": [
+          "克瑞莫",
+          "中關",
           "伺服器"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "hynix / sk",
-        "heat": 10.0,
+        "topic_id": 2,
+        "label": "usitc",
+        "heat": 51.4,
         "volume": 2,
-        "engagement": 24,
+        "engagement": 13,
+        "entities": [
+          "美國國際貿易委員會",
+          "美東",
+          "伺服器"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "iphone / 蘋果 / max",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 11,
+        "entities": [
+          "上市"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "cpu",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 20,
+        "entities": [
+          "伺服器"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "iphone / max",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 43,
         "entities": [],
         "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "蘋果",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 25,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "micro / cpu",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 44,
+        "entities": [
+          "英特爾"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "micro",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 27,
+        "entities": [
+          "超微",
+          "輝達",
+          "伺服器",
+          "中國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，61 篇）",
+        "heat": 10.0,
+        "volume": 61,
+        "engagement": 2858,
+        "entities": [
+          "美國",
+          "台灣",
+          "台積電",
+          "馬斯克",
+          "黃仁勳"
+        ],
+        "is_catchall": true
       }
     ],
     "named_entities": [
+      {
+        "entity": "美國",
+        "count": 8
+      },
+      {
+        "entity": "伺服器",
+        "count": 6
+      },
+      {
+        "entity": "台灣",
+        "count": 4
+      },
+      {
+        "entity": "輝達",
+        "count": 3
+      },
+      {
+        "entity": "中國",
+        "count": 3
+      },
+      {
+        "entity": "台積電",
+        "count": 3
+      },
+      {
+        "entity": "馬斯克",
+        "count": 2
+      },
+      {
+        "entity": "黃仁勳",
+        "count": 2
+      },
+      {
+        "entity": "超微",
+        "count": 2
+      },
+      {
+        "entity": "川普",
+        "count": 2
+      },
+      {
+        "entity": "伊朗",
+        "count": 2
+      },
+      {
+        "entity": "美國總統川普",
+        "count": 2
+      },
       {
         "entity": "上市",
         "count": 1
@@ -71,97 +217,12 @@
       {
         "entity": "台光",
         "count": 1
-      },
-      {
-        "entity": "伺服器",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-10T12:19:05.999994+08:00",
-        "bucket_end": "2026-10-10T12:36:14.571423+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 12,
-        "negative_engagement": 406,
-        "net_sentiment": -66.7,
-        "post_count": 3,
-        "engagement": 418,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "上市 / 美銀報 / 台光",
-            "count": 3
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Ukraine strikes Russian tech giant’s data centres",
-            "url": "https://x.com/FT/status/2108774696476889399",
-            "interaction": 377
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The danger of pessimism fatigue",
-            "url": "https://x.com/FT/status/2108776391953076597",
-            "interaction": 29
-          }
-        ],
-        "net_sentiment_smoothed": 8.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-10T12:36:14.571423+08:00",
-        "bucket_end": "2026-10-10T12:53:23.142852+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 348,
-        "neutral_engagement": 19,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 367,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "上市 / 美銀報 / 台光",
-            "count": 1
-          },
-          {
-            "topic_id": 1,
-            "label": "hynix / sk",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "IMO, Netflix needs to invest heavily in AI video generation ASAP. Otherwise, it’s going to get eaten alive by AI-generated short-form dramas made with Chinese video generation models.",
-            "url": "https://x.com/jukan05/status/2108782164016079257",
-            "interaction": 348
-          },
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "記憶體供應商承認 HBM 去規格化，D2W Hybrid Bonding 前景轉弱  記憶體供應商終於開始承認 SemiAnalysis 先前提出的 HBM「去規格化」（de-spec）觀點。SK Hynix 公開表示 16-hi 堆疊相當困難，市場當前的優先考量已從容量轉向頻寬。Hybrid bonding 在 HBM",
-            "url": "https://x.com/QQ_Timmy/status/2108779053398516056",
-            "interaction": 19
-          }
-        ],
-        "net_sentiment_smoothed": 2.4,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-10T12:53:23.142852+08:00",
-        "bucket_end": "2026-10-10T13:10:31.714281+08:00",
+        "bucket_start": "2026-10-10T04:53:23.900794+00:00",
+        "bucket_end": "2026-10-10T05:10:32.472223+00:00",
         "positive": 4,
         "neutral": 2,
         "negative": 1,
@@ -173,9 +234,14 @@
         "engagement": 107,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "上市 / 美銀報 / 台光",
-            "count": 7
+            "topic_id": 4,
+            "label": "cpu",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
+            "label": "usitc",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -194,12 +260,12 @@
             "interaction": 22
           }
         ],
-        "net_sentiment_smoothed": 1.9,
-        "is_anomaly": true
+        "net_sentiment_smoothed": 8.7,
+        "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T13:10:31.714281+08:00",
-        "bucket_end": "2026-10-10T13:27:40.285710+08:00",
+        "bucket_start": "2026-10-10T05:10:32.472223+00:00",
+        "bucket_end": "2026-10-10T05:27:41.043652+00:00",
         "positive": 2,
         "neutral": 1,
         "negative": 3,
@@ -209,13 +275,7 @@
         "net_sentiment": -16.7,
         "post_count": 6,
         "engagement": 76,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "上市 / 美銀報 / 台光",
-            "count": 6
-          }
-        ],
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "FT",
@@ -232,12 +292,12 @@
             "interaction": 20
           }
         ],
-        "net_sentiment_smoothed": 15.2,
+        "net_sentiment_smoothed": 6.5,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T13:27:40.285710+08:00",
-        "bucket_end": "2026-10-10T13:44:48.857139+08:00",
+        "bucket_start": "2026-10-10T05:27:41.043652+00:00",
+        "bucket_end": "2026-10-10T05:44:49.615081+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -253,8 +313,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T13:44:48.857139+08:00",
-        "bucket_end": "2026-10-10T14:01:57.428568+08:00",
+        "bucket_start": "2026-10-10T05:44:49.615081+00:00",
+        "bucket_end": "2026-10-10T06:01:58.186510+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
@@ -264,13 +324,7 @@
         "net_sentiment": 0.0,
         "post_count": 1,
         "engagement": 33,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "上市 / 美銀報 / 台光",
-            "count": 1
-          }
-        ],
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "QQ_Timmy",
@@ -284,8 +338,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T14:01:57.428568+08:00",
-        "bucket_end": "2026-10-10T14:19:05.999997+08:00",
+        "bucket_start": "2026-10-10T06:01:58.186510+00:00",
+        "bucket_end": "2026-10-10T06:19:06.757939+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -297,8 +351,8 @@
         "engagement": 11,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "上市 / 美銀報 / 台光",
+            "topic_id": 9,
+            "label": "iphone / 蘋果 / max",
             "count": 1
           }
         ],
@@ -315,8 +369,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T14:19:05.999997+08:00",
-        "bucket_end": "2026-10-10T14:36:14.571426+08:00",
+        "bucket_start": "2026-10-10T06:19:06.757939+00:00",
+        "bucket_end": "2026-10-10T06:36:15.329368+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
@@ -326,13 +380,7 @@
         "net_sentiment": 0.0,
         "post_count": 1,
         "engagement": 10,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "上市 / 美銀報 / 台光",
-            "count": 1
-          }
-        ],
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "FT",
@@ -346,8 +394,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T14:36:14.571426+08:00",
-        "bucket_end": "2026-10-10T14:53:23.142855+08:00",
+        "bucket_start": "2026-10-10T06:36:15.329368+00:00",
+        "bucket_end": "2026-10-10T06:53:23.900797+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 2,
@@ -357,13 +405,7 @@
         "net_sentiment": -66.7,
         "post_count": 3,
         "engagement": 147,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "上市 / 美銀報 / 台光",
-            "count": 3
-          }
-        ],
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "FT",
@@ -384,8 +426,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T14:53:23.142855+08:00",
-        "bucket_end": "2026-10-10T15:10:31.714284+08:00",
+        "bucket_start": "2026-10-10T06:53:23.900797+00:00",
+        "bucket_end": "2026-10-10T07:10:32.472226+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -401,8 +443,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T15:10:31.714284+08:00",
-        "bucket_end": "2026-10-10T15:27:40.285713+08:00",
+        "bucket_start": "2026-10-10T07:10:32.472226+00:00",
+        "bucket_end": "2026-10-10T07:27:41.043655+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -418,8 +460,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T15:27:40.285713+08:00",
-        "bucket_end": "2026-10-10T15:44:48.857142+08:00",
+        "bucket_start": "2026-10-10T07:27:41.043655+00:00",
+        "bucket_end": "2026-10-10T07:44:49.615084+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -429,13 +471,7 @@
         "net_sentiment": 100.0,
         "post_count": 1,
         "engagement": 5,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "hynix / sk",
-            "count": 1
-          }
-        ],
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "statementdog",
@@ -445,12 +481,12 @@
             "interaction": 5
           }
         ],
-        "net_sentiment_smoothed": 20.0,
+        "net_sentiment_smoothed": 30.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T15:44:48.857142+08:00",
-        "bucket_end": "2026-10-10T16:01:57.428571+08:00",
+        "bucket_start": "2026-10-10T07:44:49.615084+00:00",
+        "bucket_end": "2026-10-10T08:01:58.186513+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -462,28 +498,22 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 25.0,
+        "net_sentiment_smoothed": 30.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T16:01:57.428571+08:00",
-        "bucket_end": "2026-10-10T16:19:06+08:00",
-        "positive": 0,
+        "bucket_start": "2026-10-10T08:01:58.186513+00:00",
+        "bucket_end": "2026-10-10T08:19:06.757942+00:00",
+        "positive": 1,
         "neutral": 1,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 12,
         "neutral_engagement": 26,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 26,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "上市 / 美銀報 / 台光",
-            "count": 1
-          }
-        ],
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 38,
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "jukan05",
@@ -491,32 +521,92 @@
             "text": "The RTX 5090 has been discontinued. GB202 will now be supplied exclusively to the RTX Pro lineup.  It’s over.",
             "url": "https://x.com/jukan05/status/2108834190372528595",
             "interaction": 26
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Infantino will probably survive, according to Simon Kuper. In fact, he writes, he might be exactly the Fifa president that most of the world’s football associations want:  https:// ft.trib.al/gzdypOz",
+            "url": "https://x.com/FT/status/2108834694842261933",
+            "interaction": 12
           }
         ],
-        "net_sentiment_smoothed": 33.3,
+        "net_sentiment_smoothed": 34.8,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-10T08:19:06.757942+00:00",
+        "bucket_end": "2026-10-10T08:36:15.329371+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 18.4,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-10T08:36:15.329371+00:00",
+        "bucket_end": "2026-10-10T08:53:23.900800+00:00",
+        "positive": 11,
+        "neutral": 4,
+        "negative": 6,
+        "positive_engagement": 1122,
+        "neutral_engagement": 277,
+        "negative_engagement": 98,
+        "net_sentiment": 23.8,
+        "post_count": 21,
+        "engagement": 1497,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "ai代理",
+            "count": 2
+          },
+          {
+            "topic_id": 0,
+            "label": "iphone / max",
+            "count": 1
+          },
+          {
+            "topic_id": 7,
+            "label": "蘋果",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "父母到場見證共享榮耀！\n#黃仁勳獲川普頒最高科學榮譽\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02KXAd2WsWRRhqV4V9M1dKp4VBKjEcYCE6ZVoZUZRqVYu3zLCc14PfXN9xGWt7aVMwl?__cft__[0]=AZgBDulFbEKu6LtJPXMaF3bsL_TNtp6G7X4cUzOXBeqscsjMxHUHymhHawbterNgDuCfua2qVSZ5Y9CV0tqWA5svpAiJc7IwtP6JpRa5B4K-_ibw79ulrXole_geoGOgQGMItevCUMWcbqamqiKlPYexP67jfEVejHrRltQCdArfJdid-GPZlr5nFJg",
+            "interaction": 689
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "川普稱讚馬斯克是現代愛迪生！\n#黃仁勳蘇姿丰與馬斯克同獲殊榮川普頒發美國國家科學獎章\n…… \n查看更多",
+            "url": "https://www.facebook.com/reel/2134850897103403/?__cft__[0]=AZiPSMSDFaURDHgZcbUjqd6aBIDOwq0jXeaOcdPMBo11HmqqM8HR6ApSZ0HoRYmpzE-7-NLY05zVoO6hX5q99T-f_X3F3Dtf7WGADUKXk9Cgh_VlK8lXu3cEWrmoP5h6fwfIQEHFfNMpV1zfQ8kbcOShuJDuNS_ZI1uGVHJ2D23rmVxX7W0ASuRjo2nwZwfA86d_Bks",
+            "interaction": 217
+          }
+        ],
+        "net_sentiment_smoothed": 24.6,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "上市 / 美銀報 / 台光",
+        "topic_id": 2,
+        "label": "usitc",
         "cells": [
-          {
-            "net_sentiment": -66.7,
-            "volume": 3
-          },
           {
             "net_sentiment": 100.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 42.9,
-            "volume": 7
-          },
-          {
-            "net_sentiment": -16.7,
-            "volume": 6
           },
           {
             "net_sentiment": 0.0,
@@ -524,7 +614,197 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "ai代理",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "trump / donald",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 9,
+        "label": "iphone / 蘋果 / max",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": -100.0,
@@ -532,11 +812,19 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
           },
           {
-            "net_sentiment": -66.7,
-            "volume": 3
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -556,13 +844,75 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 1,
-        "label": "hynix / sk",
+        "topic_id": 4,
+        "label": "cpu",
+        "cells": [
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "iphone / max",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -570,55 +920,55 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           }
         ]
       }
@@ -626,55 +976,143 @@
     "coverage_focus_ranking": [
       {
         "handle": "jukan05",
-        "top_topic_id": 0,
-        "top_topic_label": "上市 / 美銀報 / 台光",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，61 篇）",
         "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 0
+        "post_count": 1,
+        "unclustered_posts": 1
       },
       {
         "handle": "FT",
-        "top_topic_id": 0,
-        "top_topic_label": "上市 / 美銀報 / 台光",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，61 篇）",
         "focus_share": 1.0,
-        "post_count": 17,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 0,
-        "top_topic_label": "上市 / 美銀報 / 台光",
-        "focus_share": 0.833,
-        "post_count": 6,
-        "unclustered_posts": 0
+        "post_count": 14,
+        "unclustered_posts": 14
       },
       {
         "handle": "statementdog",
-        "top_topic_id": 0,
-        "top_topic_label": "上市 / 美銀報 / 台光",
-        "focus_share": 0.5,
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，61 篇）",
+        "focus_share": 1.0,
         "post_count": 2,
-        "unclustered_posts": 0
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 3,
+        "top_topic_label": "trump / donald",
+        "focus_share": 0.5,
+        "post_count": 30,
+        "unclustered_posts": 26
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 5,
+        "top_topic_label": "ai代理",
+        "focus_share": 0.4,
+        "post_count": 21,
+        "unclustered_posts": 16
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 9,
+        "top_topic_label": "iphone / 蘋果 / max",
+        "focus_share": 0.333,
+        "post_count": 5,
+        "unclustered_posts": 2
       }
     ],
     "top_engagement_ranking": [
       {
+        "topic_id": 3,
+        "label": "trump / donald",
+        "total_engagement": 125,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 125,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "micro / cpu",
+        "total_engagement": 44,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 44,
+        "is_catchall": false
+      },
+      {
         "topic_id": 0,
-        "label": "上市 / 美銀報 / 台光",
-        "total_engagement": 1188,
-        "post_count": 25,
-        "top_account": "FT",
-        "top_account_engagement": 724,
+        "label": "iphone / max",
+        "total_engagement": 43,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 43,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "micro",
+        "total_engagement": 27,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 27,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "蘋果",
+        "total_engagement": 25,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 25,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "cpu",
+        "total_engagement": 20,
+        "post_count": 1,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 20,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "ai代理",
+        "total_engagement": 18,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 18,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "usitc",
+        "total_engagement": 13,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 13,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "iphone / 蘋果 / max",
+        "total_engagement": 11,
+        "post_count": 1,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 11,
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "hynix / sk",
-        "total_engagement": 24,
-        "post_count": 2,
-        "top_account": "QQ_Timmy",
-        "top_account_engagement": 19,
-        "is_catchall": false
+        "label": "其他（未分群，61 篇）",
+        "total_engagement": 2858,
+        "post_count": 61,
+        "top_account": "technewsinside",
+        "top_account_engagement": 1367,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {

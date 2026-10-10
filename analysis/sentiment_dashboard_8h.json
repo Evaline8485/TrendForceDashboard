@@ -1,62 +1,68 @@
 {
-  "generated_at": "2026-10-10T16:19:06+08:00",
+  "generated_at": "2026-10-10T08:53:23.900800+00:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-10-10T08:19:06+08:00",
-    "end_utc": "2026-10-10T16:19:06+08:00",
-    "start_tw": "Oct 10, 08:19",
-    "end_tw": "Oct 10, 16:19"
+    "start_utc": "2026-10-10T00:53:23.900800+00:00",
+    "end_utc": "2026-10-10T08:53:23.900800+00:00",
+    "start_tw": "Oct 10, 08:53",
+    "end_tw": "Oct 10, 16:53"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 40,
+      "total_posts": 90,
       "sentiment_counts": {
-        "negative": 11,
-        "positive": 15,
-        "neutral": 14
+        "negative": 28,
+        "positive": 33,
+        "neutral": 29
       },
       "sentiment_share": {
-        "negative": 0.275,
-        "positive": 0.375,
-        "neutral": 0.35
+        "negative": 0.311,
+        "positive": 0.367,
+        "neutral": 0.322
       },
       "top_terms": [
-        "hynix",
+        "更多",
+        "查看",
+        "看更",
+        "查看更",
+        "看更多",
         "供應",
-        "nvidia",
-        "balance",
-        "sheet",
-        "obligations",
-        "commitments",
-        "capacity",
-        "supplied",
-        "asml"
+        "帶動",
+        "伺服",
+        "服器",
+        "伺服器"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 3,
-        "label": "nvidia / commitments / sheet / balance",
+        "topic_id": 2,
+        "label": "asml / hynix / samsung / sk",
         "heat": 90.0,
         "volume": 2,
-        "engagement": 279,
+        "engagement": 257,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "hynix / sk / asml / samsung",
-        "heat": 90.0,
-        "volume": 3,
-        "engagement": 276,
-        "entities": [],
+        "label": "trump / donald",
+        "heat": 88.2,
+        "volume": 2,
+        "engagement": 125,
+        "entities": [
+          "美國總統川普",
+          "俄羅斯",
+          "美國",
+          "伊朗",
+          "華爾街"
+        ],
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 4,
         "label": "cpu / morgan",
-        "heat": 21.2,
+        "heat": 62.0,
         "volume": 2,
         "engagement": 40,
         "entities": [
@@ -65,7 +71,51 @@
         "is_catchall": false
       },
       {
-        "topic_id": 4,
+        "topic_id": 3,
+        "label": "ai代理",
+        "heat": 55.2,
+        "volume": 2,
+        "engagement": 18,
+        "entities": [
+          "克瑞莫",
+          "中關",
+          "伺服器"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "usitc",
+        "heat": 53.7,
+        "volume": 2,
+        "engagement": 13,
+        "entities": [
+          "美國國際貿易委員會",
+          "美東",
+          "伺服器"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "commitments / nvidia / balance / sheet",
+        "heat": 50.0,
+        "volume": 1,
+        "engagement": 261,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
+        "label": "nvidia / balance / sheet / obligations",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 18,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
         "label": "supplied",
         "heat": 10.0,
         "volume": 1,
@@ -75,7 +125,7 @@
       },
       {
         "topic_id": 6,
-        "label": "morgan",
+        "label": "iphone / 蘋果 / max / morgan",
         "heat": 10.0,
         "volume": 1,
         "engagement": 11,
@@ -85,7 +135,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 5,
+        "topic_id": 9,
+        "label": "hynix / semianalysis / sk",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 19,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
         "label": "semianalysis / costs / depend",
         "heat": 10.0,
         "volume": 1,
@@ -94,7 +153,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 7,
+        "topic_id": 13,
+        "label": "depend",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 3,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 11,
         "label": "capacity",
         "heat": 10.0,
         "volume": 1,
@@ -103,24 +171,115 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，29 篇）",
+        "topic_id": 17,
+        "label": "iphone / max",
         "heat": 10.0,
-        "volume": 29,
-        "engagement": 1424,
+        "volume": 1,
+        "engagement": 43,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "蘋果",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 25,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 16,
+        "label": "micro / cpu",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 44,
         "entities": [
-          "石英",
-          "美銀報",
-          "台光",
+          "英特爾"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 14,
+        "label": "micro / nvidia",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 27,
+        "entities": [
+          "超微",
+          "輝達",
+          "伺服器",
+          "中國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，68 篇）",
+        "heat": 10.0,
+        "volume": 68,
+        "engagement": 3854,
+        "entities": [
+          "美國",
+          "台灣",
           "中國",
-          "左移"
+          "台積電",
+          "石英"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
       {
+        "entity": "美國",
+        "count": 8
+      },
+      {
+        "entity": "伺服器",
+        "count": 6
+      },
+      {
+        "entity": "中國",
+        "count": 4
+      },
+      {
+        "entity": "台灣",
+        "count": 4
+      },
+      {
+        "entity": "輝達",
+        "count": 3
+      },
+      {
+        "entity": "台積電",
+        "count": 3
+      },
+      {
         "entity": "石英",
+        "count": 2
+      },
+      {
+        "entity": "馬斯克",
+        "count": 2
+      },
+      {
+        "entity": "黃仁勳",
+        "count": 2
+      },
+      {
+        "entity": "超微",
+        "count": 2
+      },
+      {
+        "entity": "川普",
+        "count": 2
+      },
+      {
+        "entity": "伊朗",
+        "count": 2
+      },
+      {
+        "entity": "美國總統川普",
         "count": 2
       },
       {
@@ -130,57 +289,12 @@
       {
         "entity": "美銀報",
         "count": 1
-      },
-      {
-        "entity": "台光",
-        "count": 1
-      },
-      {
-        "entity": "伺服器",
-        "count": 1
-      },
-      {
-        "entity": "中國",
-        "count": 1
-      },
-      {
-        "entity": "左移",
-        "count": 1
-      },
-      {
-        "entity": "和碩",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-10T08:19:06.000002+08:00",
-        "bucket_end": "2026-10-10T08:53:23.142859+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 29,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 29,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "technewsinside",
-            "platform": "Facebook",
-            "text": "#科技早報\n \n#Solidigm\n 擴大來台釋單！年度訂單規模上看千億元，委託力成與和碩生產固態硬碟。",
-            "url": "https://www.facebook.com/technewsinside/posts/pfbid02xVBPgXU61i2v8cxckbmJBvRiqt8ATMDtSHVB2rgbDYszwTHAKbfpxDqdWG7HSirql?comment_id=1555496643265949",
-            "interaction": 29
-          }
-        ],
-        "net_sentiment_smoothed": 50.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-10T08:53:23.142859+08:00",
-        "bucket_end": "2026-10-10T09:27:40.285716+08:00",
+        "bucket_start": "2026-10-10T00:53:23.900802+00:00",
+        "bucket_end": "2026-10-10T01:27:41.043659+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 1,
@@ -192,9 +306,14 @@
         "engagement": 279,
         "top_topics": [
           {
-            "topic_id": 3,
-            "label": "nvidia / commitments / sheet / balance",
-            "count": 2
+            "topic_id": 8,
+            "label": "commitments / nvidia / balance / sheet",
+            "count": 1
+          },
+          {
+            "topic_id": 15,
+            "label": "nvidia / balance / sheet / obligations",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -213,12 +332,12 @@
             "interaction": 18
           }
         ],
-        "net_sentiment_smoothed": 37.5,
+        "net_sentiment_smoothed": 16.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T09:27:40.285716+08:00",
-        "bucket_end": "2026-10-10T10:01:57.428573+08:00",
+        "bucket_start": "2026-10-10T01:27:41.043659+00:00",
+        "bucket_end": "2026-10-10T02:01:58.186516+00:00",
         "positive": 1,
         "neutral": 1,
         "negative": 0,
@@ -245,12 +364,12 @@
             "interaction": 9
           }
         ],
-        "net_sentiment_smoothed": 20.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T10:01:57.428573+08:00",
-        "bucket_end": "2026-10-10T10:36:14.571430+08:00",
+        "bucket_start": "2026-10-10T02:01:58.186516+00:00",
+        "bucket_end": "2026-10-10T02:36:15.329373+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -266,8 +385,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T10:36:14.571430+08:00",
-        "bucket_end": "2026-10-10T11:10:31.714287+08:00",
+        "bucket_start": "2026-10-10T02:36:15.329373+00:00",
+        "bucket_end": "2026-10-10T03:10:32.472230+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 1,
@@ -279,8 +398,8 @@
         "engagement": 312,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "hynix / sk / asml / samsung",
+            "topic_id": 2,
+            "label": "asml / hynix / samsung / sk",
             "count": 1
           }
         ],
@@ -304,8 +423,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T11:10:31.714287+08:00",
-        "bucket_end": "2026-10-10T11:44:48.857144+08:00",
+        "bucket_start": "2026-10-10T03:10:32.472230+00:00",
+        "bucket_end": "2026-10-10T03:44:49.615087+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
@@ -317,7 +436,7 @@
         "engagement": 20,
         "top_topics": [
           {
-            "topic_id": 2,
+            "topic_id": 4,
             "label": "cpu / morgan",
             "count": 1
           }
@@ -335,8 +454,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T11:44:48.857144+08:00",
-        "bucket_end": "2026-10-10T12:19:06.000001+08:00",
+        "bucket_start": "2026-10-10T03:44:49.615087+00:00",
+        "bucket_end": "2026-10-10T04:19:06.757944+00:00",
         "positive": 3,
         "neutral": 2,
         "negative": 0,
@@ -348,12 +467,17 @@
         "engagement": 172,
         "top_topics": [
           {
-            "topic_id": 5,
+            "topic_id": 12,
             "label": "semianalysis / costs / depend",
             "count": 1
           },
           {
-            "topic_id": 7,
+            "topic_id": 13,
+            "label": "depend",
+            "count": 1
+          },
+          {
+            "topic_id": 11,
             "label": "capacity",
             "count": 1
           }
@@ -378,8 +502,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T12:19:06.000001+08:00",
-        "bucket_end": "2026-10-10T12:53:23.142858+08:00",
+        "bucket_start": "2026-10-10T04:19:06.757944+00:00",
+        "bucket_end": "2026-10-10T04:53:23.900801+00:00",
         "positive": 1,
         "neutral": 2,
         "negative": 2,
@@ -391,8 +515,8 @@
         "engagement": 785,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "hynix / sk / asml / samsung",
+            "topic_id": 9,
+            "label": "hynix / semianalysis / sk",
             "count": 1
           }
         ],
@@ -416,8 +540,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T12:53:23.142858+08:00",
-        "bucket_end": "2026-10-10T13:27:40.285715+08:00",
+        "bucket_start": "2026-10-10T04:53:23.900801+00:00",
+        "bucket_end": "2026-10-10T05:27:41.043658+00:00",
         "positive": 6,
         "neutral": 3,
         "negative": 4,
@@ -429,8 +553,13 @@
         "engagement": 183,
         "top_topics": [
           {
-            "topic_id": 2,
+            "topic_id": 4,
             "label": "cpu / morgan",
+            "count": 1
+          },
+          {
+            "topic_id": 5,
+            "label": "usitc",
             "count": 1
           }
         ],
@@ -451,11 +580,11 @@
           }
         ],
         "net_sentiment_smoothed": 1.1,
-        "is_anomaly": true
+        "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T13:27:40.285715+08:00",
-        "bucket_end": "2026-10-10T14:01:57.428572+08:00",
+        "bucket_start": "2026-10-10T05:27:41.043658+00:00",
+        "bucket_end": "2026-10-10T06:01:58.186515+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
@@ -479,8 +608,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T14:01:57.428572+08:00",
-        "bucket_end": "2026-10-10T14:36:14.571429+08:00",
+        "bucket_start": "2026-10-10T06:01:58.186515+00:00",
+        "bucket_end": "2026-10-10T06:36:15.329372+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 1,
@@ -493,7 +622,7 @@
         "top_topics": [
           {
             "topic_id": 6,
-            "label": "morgan",
+            "label": "iphone / 蘋果 / max / morgan",
             "count": 1
           }
         ],
@@ -517,8 +646,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T14:36:14.571429+08:00",
-        "bucket_end": "2026-10-10T15:10:31.714286+08:00",
+        "bucket_start": "2026-10-10T06:36:15.329372+00:00",
+        "bucket_end": "2026-10-10T07:10:32.472229+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 2,
@@ -545,12 +674,12 @@
             "interaction": 50
           }
         ],
-        "net_sentiment_smoothed": -3.3,
+        "net_sentiment_smoothed": 6.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T15:10:31.714286+08:00",
-        "bucket_end": "2026-10-10T15:44:48.857143+08:00",
+        "bucket_start": "2026-10-10T07:10:32.472229+00:00",
+        "bucket_end": "2026-10-10T07:44:49.615086+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -562,8 +691,8 @@
         "engagement": 5,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "hynix / sk / asml / samsung",
+            "topic_id": 2,
+            "label": "asml / hynix / samsung / sk",
             "count": 1
           }
         ],
@@ -576,24 +705,24 @@
             "interaction": 5
           }
         ],
-        "net_sentiment_smoothed": -4.2,
+        "net_sentiment_smoothed": 11.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-10T15:44:48.857143+08:00",
-        "bucket_end": "2026-10-10T16:19:06+08:00",
-        "positive": 0,
+        "bucket_start": "2026-10-10T07:44:49.615086+00:00",
+        "bucket_end": "2026-10-10T08:19:06.757943+00:00",
+        "positive": 1,
         "neutral": 1,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 12,
         "neutral_engagement": 26,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 26,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 38,
         "top_topics": [
           {
-            "topic_id": 4,
+            "topic_id": 10,
             "label": "supplied",
             "count": 1
           }
@@ -605,16 +734,71 @@
             "text": "The RTX 5090 has been discontinued. GB202 will now be supplied exclusively to the RTX Pro lineup.  It’s over.",
             "url": "https://x.com/jukan05/status/2108834190372528595",
             "interaction": 26
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Infantino will probably survive, according to Simon Kuper. In fact, he writes, he might be exactly the Fifa president that most of the world’s football associations want:  https:// ft.trib.al/gzdypOz",
+            "url": "https://x.com/FT/status/2108834694842261933",
+            "interaction": 12
           }
         ],
-        "net_sentiment_smoothed": 11.1,
+        "net_sentiment_smoothed": 26.8,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-10T08:19:06.757943+00:00",
+        "bucket_end": "2026-10-10T08:53:23.900800+00:00",
+        "positive": 11,
+        "neutral": 4,
+        "negative": 6,
+        "positive_engagement": 1122,
+        "neutral_engagement": 277,
+        "negative_engagement": 98,
+        "net_sentiment": 23.8,
+        "post_count": 21,
+        "engagement": 1497,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "ai代理",
+            "count": 2
+          },
+          {
+            "topic_id": 17,
+            "label": "iphone / max",
+            "count": 1
+          },
+          {
+            "topic_id": 7,
+            "label": "蘋果",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "父母到場見證共享榮耀！\n#黃仁勳獲川普頒最高科學榮譽\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02KXAd2WsWRRhqV4V9M1dKp4VBKjEcYCE6ZVoZUZRqVYu3zLCc14PfXN9xGWt7aVMwl?__cft__[0]=AZgBDulFbEKu6LtJPXMaF3bsL_TNtp6G7X4cUzOXBeqscsjMxHUHymhHawbterNgDuCfua2qVSZ5Y9CV0tqWA5svpAiJc7IwtP6JpRa5B4K-_ibw79ulrXole_geoGOgQGMItevCUMWcbqamqiKlPYexP67jfEVejHrRltQCdArfJdid-GPZlr5nFJg",
+            "interaction": 689
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "川普稱讚馬斯克是現代愛迪生！\n#黃仁勳蘇姿丰與馬斯克同獲殊榮川普頒發美國國家科學獎章\n…… \n查看更多",
+            "url": "https://www.facebook.com/reel/2134850897103403/?__cft__[0]=AZiPSMSDFaURDHgZcbUjqd6aBIDOwq0jXeaOcdPMBo11HmqqM8HR6ApSZ0HoRYmpzE-7-NLY05zVoO6hX5q99T-f_X3F3Dtf7WGADUKXk9Cgh_VlK8lXu3cEWrmoP5h6fwfIQEHFfNMpV1zfQ8kbcOShuJDuNS_ZI1uGVHJ2D23rmVxX7W0ASuRjo2nwZwfA86d_Bks",
+            "interaction": 217
+          }
+        ],
+        "net_sentiment_smoothed": 57.9,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "hynix / sk / asml / samsung",
+        "topic_id": 2,
+        "label": "asml / hynix / samsung / sk",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -630,10 +814,6 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 1
           },
           {
@@ -646,7 +826,7 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -671,64 +851,6 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "nvidia / commitments / sheet / balance",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -737,7 +859,7 @@
         ]
       },
       {
-        "topic_id": 2,
+        "topic_id": 4,
         "label": "cpu / morgan",
         "cells": [
           {
@@ -758,10 +880,6 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 1
           },
           {
@@ -787,126 +905,6 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 4,
-        "label": "supplied",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          }
-        ]
-      },
-      {
-        "topic_id": 6,
-        "label": "morgan",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -924,8 +922,12 @@
       },
       {
         "topic_id": 5,
-        "label": "semianalysis / costs / depend",
+        "label": "usitc",
         "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -953,6 +955,188 @@
           {
             "net_sentiment": 100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "ai代理",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "trump / donald",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 8,
+        "label": "commitments / nvidia / balance / sheet",
+        "cells": [
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -987,75 +1171,110 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "SemiAnalysis_",
-        "top_topic_id": 3,
-        "top_topic_label": "nvidia / commitments / sheet / balance",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 0
-      },
-      {
         "handle": "FT",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，29 篇）",
+        "top_topic_label": "其他（未分群，68 篇）",
         "focus_share": 1.0,
         "post_count": 18,
         "unclustered_posts": 18
       },
       {
-        "handle": "technewsinside",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，29 篇）",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 8,
+        "top_topic_label": "commitments / nvidia / balance / sheet",
+        "focus_share": 0.5,
+        "post_count": 2,
+        "unclustered_posts": 0
       },
       {
         "handle": "jukan05",
-        "top_topic_id": 4,
+        "top_topic_id": 10,
         "top_topic_label": "supplied",
         "focus_share": 0.5,
         "post_count": 4,
         "unclustered_posts": 2
       },
       {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 2,
-        "top_topic_label": "cpu / morgan",
+        "handle": "ctee.fans",
+        "top_topic_id": 1,
+        "top_topic_label": "trump / donald",
         "focus_share": 0.5,
+        "post_count": 30,
+        "unclustered_posts": 26
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 4,
+        "top_topic_label": "cpu / morgan",
+        "focus_share": 0.4,
         "post_count": 10,
-        "unclustered_posts": 6
+        "unclustered_posts": 5
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 3,
+        "top_topic_label": "ai代理",
+        "focus_share": 0.4,
+        "post_count": 21,
+        "unclustered_posts": 16
       },
       {
         "handle": "statementdog",
-        "top_topic_id": 1,
-        "top_topic_label": "hynix / sk / asml / samsung",
-        "focus_share": 0.333,
+        "top_topic_id": 2,
+        "top_topic_label": "asml / hynix / samsung / sk",
+        "focus_share": 0.25,
         "post_count": 5,
-        "unclustered_posts": 2
+        "unclustered_posts": 1
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 3,
-        "label": "nvidia / commitments / sheet / balance",
-        "total_engagement": 279,
-        "post_count": 2,
+        "topic_id": 8,
+        "label": "commitments / nvidia / balance / sheet",
+        "total_engagement": 261,
+        "post_count": 1,
         "top_account": "SemiAnalysis_",
-        "top_account_engagement": 279,
+        "top_account_engagement": 261,
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "hynix / sk / asml / samsung",
-        "total_engagement": 276,
-        "post_count": 3,
+        "topic_id": 2,
+        "label": "asml / hynix / samsung / sk",
+        "total_engagement": 257,
+        "post_count": 2,
         "top_account": "jukan05",
         "top_account_engagement": 252,
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 1,
+        "label": "trump / donald",
+        "total_engagement": 125,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 125,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 16,
+        "label": "micro / cpu",
+        "total_engagement": 44,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 44,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "iphone / max",
+        "total_engagement": 43,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 43,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
         "label": "cpu / morgan",
         "total_engagement": 40,
         "post_count": 2,
@@ -1064,7 +1283,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 4,
+        "topic_id": 14,
+        "label": "micro / nvidia",
+        "total_engagement": 27,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 27,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
         "label": "supplied",
         "total_engagement": 26,
         "post_count": 1,
@@ -1073,8 +1301,53 @@
         "is_catchall": false
       },
       {
+        "topic_id": 7,
+        "label": "蘋果",
+        "total_engagement": 25,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 25,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "hynix / semianalysis / sk",
+        "total_engagement": 19,
+        "post_count": 1,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 19,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
+        "label": "nvidia / balance / sheet / obligations",
+        "total_engagement": 18,
+        "post_count": 1,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 18,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "ai代理",
+        "total_engagement": 18,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 18,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "usitc",
+        "total_engagement": 13,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 13,
+        "is_catchall": false
+      },
+      {
         "topic_id": 6,
-        "label": "morgan",
+        "label": "iphone / 蘋果 / max / morgan",
         "total_engagement": 11,
         "post_count": 1,
         "top_account": "QQ_Timmy",
@@ -1082,7 +1355,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 7,
+        "topic_id": 11,
         "label": "capacity",
         "total_engagement": 6,
         "post_count": 1,
@@ -1091,7 +1364,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 5,
+        "topic_id": 13,
+        "label": "depend",
+        "total_engagement": 3,
+        "post_count": 1,
+        "top_account": "statementdog",
+        "top_account_engagement": 3,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
         "label": "semianalysis / costs / depend",
         "total_engagement": 1,
         "post_count": 1,
@@ -1101,11 +1383,11 @@
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，29 篇）",
-        "total_engagement": 1424,
-        "post_count": 29,
-        "top_account": "FT",
-        "top_account_engagement": 733,
+        "label": "其他（未分群，68 篇）",
+        "total_engagement": 3854,
+        "post_count": 68,
+        "top_account": "technewsinside",
+        "top_account_engagement": 1367,
         "is_catchall": true
       }
     ],
