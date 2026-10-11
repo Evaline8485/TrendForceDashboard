@@ -1,165 +1,159 @@
 {
-  "generated_at": "2026-10-11T16:12:05+08:00",
+  "generated_at": "2026-10-11T08:54:09.993472+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-11T12:12:05+08:00",
-    "end_utc": "2026-10-11T16:12:05+08:00",
-    "start_tw": "Oct 11, 12:12",
-    "end_tw": "Oct 11, 16:12"
+    "start_utc": "2026-10-11T04:54:09.993472+00:00",
+    "end_utc": "2026-10-11T08:54:09.993472+00:00",
+    "start_tw": "Oct 11, 12:54",
+    "end_tw": "Oct 11, 16:54"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 8,
+      "total_posts": 20,
       "sentiment_counts": {
-        "negative": 3,
-        "positive": 4,
-        "neutral": 1
+        "negative": 7,
+        "positive": 6,
+        "neutral": 7
       },
       "sentiment_share": {
-        "negative": 0.375,
-        "positive": 0.5,
-        "neutral": 0.125
+        "negative": 0.35,
+        "positive": 0.3,
+        "neutral": 0.35
       },
       "top_terms": [
-        "worst",
-        "dcs",
-        "diet",
-        "coke",
-        "datacenters",
-        "datacenter",
-        "daishin",
-        "securities",
-        "korea",
-        "discussions"
+        "台積",
+        "積電",
+        "台積電",
+        "伺服",
+        "服器",
+        "伺服器",
+        "突破",
+        "鴻海",
+        "機器",
+        "器人"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "hbm / mediatek / coke / dcs",
-        "heat": 50.0,
-        "volume": 8,
-        "engagement": 372,
+        "topic_id": 1,
+        "label": "鴻海",
+        "heat": 90.0,
+        "volume": 2,
+        "engagement": 53,
         "entities": [
-          "摩根士丹利"
+          "鴻海",
+          "台達電",
+          "美國國際貿易委員會",
+          "廣達",
+          "中國大陸立訊"
         ],
         "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "nvidia / gb",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 4,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "nvidia / gb / 鴻海",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 27,
+        "entities": [
+          "鴻海",
+          "智慧",
+          "伺服器"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，16 篇）",
+        "heat": 10.0,
+        "volume": 16,
+        "engagement": 438,
+        "entities": [
+          "台灣",
+          "台積電",
+          "三星",
+          "馬斯克",
+          "伺服器"
+        ],
+        "is_catchall": true
       }
     ],
     "named_entities": [
       {
-        "entity": "摩根士丹利",
+        "entity": "台灣",
+        "count": 4
+      },
+      {
+        "entity": "鴻海",
+        "count": 4
+      },
+      {
+        "entity": "台積電",
+        "count": 3
+      },
+      {
+        "entity": "伺服器",
+        "count": 3
+      },
+      {
+        "entity": "三星",
+        "count": 3
+      },
+      {
+        "entity": "馬斯克",
+        "count": 2
+      },
+      {
+        "entity": "輝達",
+        "count": 2
+      },
+      {
+        "entity": "台達電",
+        "count": 2
+      },
+      {
+        "entity": "陳立武",
+        "count": 1
+      },
+      {
+        "entity": "英特爾",
+        "count": 1
+      },
+      {
+        "entity": "亞太",
+        "count": 1
+      },
+      {
+        "entity": "亞洲",
+        "count": 1
+      },
+      {
+        "entity": "高峰",
+        "count": 1
+      },
+      {
+        "entity": "坪大店",
+        "count": 1
+      },
+      {
+        "entity": "車麗屋",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-11T12:12:04.999994+08:00",
-        "bucket_end": "2026-10-11T12:29:13.571423+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 22,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 22,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "hbm / mediatek / coke / dcs",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "摩根士丹利  在完整年度模型中，預計成品光引擎出貨量將在2027年從778萬顆激增至1773萬顆（+128%），並在2028年從4860萬顆增至7387萬顆（+52%）。  此次上修完全由良率改善所驅動，而非晶圓產能的增量。這些數字代表機構模型預測，而非已驗證的生產里程碑。",
-            "url": "https://x.com/QQ_Timmy/status/2109135149728399649",
-            "interaction": 22
-          }
-        ],
-        "net_sentiment_smoothed": 66.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-11T12:29:13.571423+08:00",
-        "bucket_end": "2026-10-11T12:46:22.142852+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 232,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 2,
-        "engagement": 232,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "hbm / mediatek / coke / dcs",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "Daishin Securities (Korea): Discussions on mass-producing lower-stack HBM (4-high/6-high) have effectively been called off. The shift from 12-high to 8-high has also been scaled back.",
-            "url": "https://x.com/jukan05/status/2109142036448465111",
-            "interaction": 229
-          },
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "MediaTek says its Filogic 8800 Wi-Fi 8 platform can nearly double overall throughput in tests with devices from different Wi-Fi generations.  The platform adjusts bandwidth allocation and switches cha",
-            "url": "https://x.com/statementdog/status/2109140434983493739",
-            "interaction": 3
-          }
-        ],
-        "net_sentiment_smoothed": 50.0,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-10-11T12:46:22.142852+08:00",
-        "bucket_end": "2026-10-11T13:03:30.714281+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-11T13:03:30.714281+08:00",
-        "bucket_end": "2026-10-11T13:20:39.285710+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-11T13:20:39.285710+08:00",
-        "bucket_end": "2026-10-11T13:37:47.857139+08:00",
+        "bucket_start": "2026-10-11T04:54:09.993466+00:00",
+        "bucket_end": "2026-10-11T05:11:18.564895+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -175,8 +169,25 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T13:37:47.857139+08:00",
-        "bucket_end": "2026-10-11T13:54:56.428568+08:00",
+        "bucket_start": "2026-10-11T05:11:18.564895+00:00",
+        "bucket_end": "2026-10-11T05:28:27.136324+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-11T05:28:27.136324+00:00",
+        "bucket_end": "2026-10-11T05:45:35.707753+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
@@ -186,13 +197,7 @@
         "net_sentiment": 0.0,
         "post_count": 1,
         "engagement": 1,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "hbm / mediatek / coke / dcs",
-            "count": 1
-          }
-        ],
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "statementdog",
@@ -202,12 +207,12 @@
             "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": 20.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T13:54:56.428568+08:00",
-        "bucket_end": "2026-10-11T14:12:04.999997+08:00",
+        "bucket_start": "2026-10-11T05:45:35.707753+00:00",
+        "bucket_end": "2026-10-11T06:02:44.279182+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -223,8 +228,25 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T14:12:04.999997+08:00",
-        "bucket_end": "2026-10-11T14:29:13.571426+08:00",
+        "bucket_start": "2026-10-11T06:02:44.279182+00:00",
+        "bucket_end": "2026-10-11T06:19:52.850611+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-11T06:19:52.850611+00:00",
+        "bucket_end": "2026-10-11T06:37:01.422040+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -236,8 +258,8 @@
         "engagement": 4,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "hbm / mediatek / coke / dcs",
+            "topic_id": 2,
+            "label": "nvidia / gb",
             "count": 1
           }
         ],
@@ -254,8 +276,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T14:29:13.571426+08:00",
-        "bucket_end": "2026-10-11T14:46:22.142855+08:00",
+        "bucket_start": "2026-10-11T06:37:01.422040+00:00",
+        "bucket_end": "2026-10-11T06:54:09.993469+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -267,12 +289,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T14:46:22.142855+08:00",
-        "bucket_end": "2026-10-11T15:03:30.714284+08:00",
+        "bucket_start": "2026-10-11T06:54:09.993469+00:00",
+        "bucket_end": "2026-10-11T07:11:18.564898+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -282,13 +304,7 @@
         "net_sentiment": -100.0,
         "post_count": 1,
         "engagement": 86,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "hbm / mediatek / coke / dcs",
-            "count": 1
-          }
-        ],
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "dylan522p",
@@ -302,25 +318,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T15:03:30.714284+08:00",
-        "bucket_end": "2026-10-11T15:20:39.285713+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-11T15:20:39.285713+08:00",
-        "bucket_end": "2026-10-11T15:37:47.857142+08:00",
+        "bucket_start": "2026-10-11T07:11:18.564898+00:00",
+        "bucket_end": "2026-10-11T07:28:27.136327+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -330,13 +329,7 @@
         "net_sentiment": -100.0,
         "post_count": 1,
         "engagement": 16,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "hbm / mediatek / coke / dcs",
-            "count": 1
-          }
-        ],
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "FT",
@@ -350,8 +343,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T15:37:47.857142+08:00",
-        "bucket_end": "2026-10-11T15:54:56.428571+08:00",
+        "bucket_start": "2026-10-11T07:28:27.136327+00:00",
+        "bucket_end": "2026-10-11T07:45:35.707756+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -363,12 +356,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -25.0,
+        "net_sentiment_smoothed": -60.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T15:54:56.428571+08:00",
-        "bucket_end": "2026-10-11T16:12:05+08:00",
+        "bucket_start": "2026-10-11T07:45:35.707756+00:00",
+        "bucket_end": "2026-10-11T08:02:44.279185+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -380,24 +373,187 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -33.3,
+        "net_sentiment_smoothed": -40.0,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-11T08:02:44.279185+00:00",
+        "bucket_end": "2026-10-11T08:19:52.850614+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 11,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 11,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The Eternal City’s antiquity was its blessing and its curse: beautiful but stuck in the past. But with billions in investment, foreign residents are flocking and the new-builds to cater to them are ri",
+            "url": "https://x.com/FT/status/2109195317069410793",
+            "interaction": 11
+          }
+        ],
+        "net_sentiment_smoothed": -21.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-11T08:19:52.850614+00:00",
+        "bucket_end": "2026-10-11T08:37:01.422043+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -27.1,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-11T08:37:01.422043+00:00",
+        "bucket_end": "2026-10-11T08:54:09.993472+00:00",
+        "positive": 3,
+        "neutral": 5,
+        "negative": 4,
+        "positive_engagement": 85,
+        "neutral_engagement": 131,
+        "negative_engagement": 178,
+        "net_sentiment": -8.3,
+        "post_count": 12,
+        "engagement": 394,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "鴻海",
+            "count": 1
+          },
+          {
+            "topic_id": 3,
+            "label": "nvidia / gb / 鴻海",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "#台積電\n 赴美重金投資 2,650 億美元，帶動台灣設立鳳凰城第 14 個辦事處，竟引發中國強烈反彈並發信警告，指責此舉是為台獨背書！",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid0yEY9ZSdsr72pjm8vcsei5pgjLVxwmfCZspLTT5cPmoWMQ6PdJ4oVzntTdaLvr38kl?__cft__[0]=AZjFis2VL0YXTOPlcw9r_bc-qJFJI00Cs18FHVaqGeDCWoqui2aXzSCanKKr2EQpF9u2ZzhFUxLUsSrAl8NMqWHveogL9Xt_p-uBpcnt6TUkDWjs48YQNtDPIBbk_p1OP--vrnDlGDHd_200-RfTqQyMDsSXjBjKqsp7AXNt5IdPZ-SfZ4kg5uU_8nA",
+            "interaction": 101
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "#鴻海\n 公布 9 月營收高達 1 兆 1,586 億元，成為全台首家單月突破兆元門檻的企業。",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid0FRJscoEjYSXFy1rpRqTSoQ9vxu149ozzJM86K44eaFmcdzH3BcdSH5rrYP9EQQTel?__cft__[0]=AZj4f7vin3E9yqs_oaocepUuxZLnnw0V0ng8wFl1QRtK07WO5t57WpRqmtQDXcuQcHch_yPTyuyJCm-QM3XOeMp8YJ7xISOM8N1iYZaGJ5yjzh3wZfBOjlKC3yAbejRahjtNVTpgb22AaTbDy5n3S80RvmbdDTHof_T0-iajyLcJ7JwomRa0iFrETRc",
+            "interaction": 53
+          }
+        ],
+        "net_sentiment_smoothed": -36.1,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "hbm / mediatek / coke / dcs",
+        "topic_id": 1,
+        "label": "鴻海",
         "cells": [
           {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "nvidia / gb",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": 100.0,
             "volume": 1
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 2
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           },
@@ -411,31 +567,15 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -446,59 +586,156 @@
             "volume": 0
           }
         ]
+      },
+      {
+        "topic_id": 3,
+        "label": "nvidia / gb / 鴻海",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
       }
     ],
     "coverage_focus_ranking": [
       {
         "handle": "dylan522p",
         "top_topic_id": 0,
-        "top_topic_label": "hbm / mediatek / coke / dcs",
+        "top_topic_label": "其他（未分群，16 篇）",
         "focus_share": 1.0,
         "post_count": 1,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "jukan05",
-        "top_topic_id": 0,
-        "top_topic_label": "hbm / mediatek / coke / dcs",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 0,
-        "top_topic_label": "hbm / mediatek / coke / dcs",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
+        "unclustered_posts": 1
       },
       {
         "handle": "FT",
         "top_topic_id": 0,
-        "top_topic_label": "hbm / mediatek / coke / dcs",
+        "top_topic_label": "其他（未分群，16 篇）",
         "focus_share": 1.0,
         "post_count": 2,
-        "unclustered_posts": 0
+        "unclustered_posts": 2
       },
       {
         "handle": "statementdog",
+        "top_topic_id": 2,
+        "top_topic_label": "nvidia / gb",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "TrendForce.tw",
         "top_topic_id": 0,
-        "top_topic_label": "hbm / mediatek / coke / dcs",
+        "top_topic_label": "其他（未分群，16 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 1,
+        "top_topic_label": "鴻海",
         "focus_share": 1.0,
         "post_count": 3,
-        "unclustered_posts": 0
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 1,
+        "top_topic_label": "鴻海",
+        "focus_share": 0.5,
+        "post_count": 11,
+        "unclustered_posts": 9
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "hbm / mediatek / coke / dcs",
-        "total_engagement": 372,
-        "post_count": 8,
-        "top_account": "jukan05",
-        "top_account_engagement": 229,
+        "topic_id": 1,
+        "label": "鴻海",
+        "total_engagement": 53,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 53,
         "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "nvidia / gb / 鴻海",
+        "total_engagement": 27,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 27,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "nvidia / gb",
+        "total_engagement": 4,
+        "post_count": 1,
+        "top_account": "statementdog",
+        "top_account_engagement": 4,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，16 篇）",
+        "total_engagement": 438,
+        "post_count": 16,
+        "top_account": "technewsinside",
+        "top_account_engagement": 309,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {

@@ -1,53 +1,53 @@
 {
-  "generated_at": "2026-10-11T16:12:05+08:00",
+  "generated_at": "2026-10-11T08:54:09.993472+00:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-10-11T08:12:05+08:00",
-    "end_utc": "2026-10-11T16:12:05+08:00",
-    "start_tw": "Oct 11, 08:12",
-    "end_tw": "Oct 11, 16:12"
+    "start_utc": "2026-10-11T00:54:09.993472+00:00",
+    "end_utc": "2026-10-11T08:54:09.993472+00:00",
+    "start_tw": "Oct 11, 08:54",
+    "end_tw": "Oct 11, 16:54"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 22,
+      "total_posts": 31,
       "sentiment_counts": {
-        "negative": 8,
-        "neutral": 4,
-        "positive": 10
+        "negative": 9,
+        "neutral": 9,
+        "positive": 13
       },
       "sentiment_share": {
-        "negative": 0.364,
-        "neutral": 0.182,
-        "positive": 0.455
+        "negative": 0.29,
+        "neutral": 0.29,
+        "positive": 0.419
       },
       "top_terms": [
-        "查看",
-        "mass",
-        "equipment",
-        "intel",
-        "摩根",
-        "此次",
+        "伺服",
+        "服器",
+        "伺服器",
         "產能",
         "半導",
         "導體",
-        "半導體"
+        "半導體",
+        "記憶",
+        "憶體",
+        "記憶體"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "intel / equipment / technologies / mass",
+        "topic_id": 4,
+        "label": "mass / technologies",
         "heat": 90.0,
         "volume": 2,
-        "engagement": 429,
+        "engagement": 231,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 2,
-        "label": "optical / technologies / supporting / equipment",
-        "heat": 73.5,
+        "label": "optical / technologies / supporting",
+        "heat": 90.0,
         "volume": 2,
         "engagement": 128,
         "entities": [],
@@ -55,6 +55,34 @@
       },
       {
         "topic_id": 3,
+        "label": "鴻海",
+        "heat": 67.5,
+        "volume": 2,
+        "engagement": 53,
+        "entities": [
+          "鴻海",
+          "台達電",
+          "美國國際貿易委員會",
+          "廣達",
+          "中國大陸立訊"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "nvidia / gb / 鴻海",
+        "heat": 59.8,
+        "volume": 2,
+        "engagement": 31,
+        "entities": [
+          "鴻海",
+          "智慧",
+          "伺服器"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
         "label": "supporting",
         "heat": 10.0,
         "volume": 1,
@@ -63,22 +91,58 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，17 篇）",
+        "topic_id": 1,
+        "label": "其他（未分群，22 篇）",
         "heat": 10.0,
-        "volume": 17,
-        "engagement": 618,
+        "volume": 22,
+        "engagement": 650,
         "entities": [
-          "摩根士丹利",
-          "富士通",
+          "台灣",
           "伺服器",
-          "美國",
+          "台積電",
+          "三星",
           "中國"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
+      {
+        "entity": "伺服器",
+        "count": 4
+      },
+      {
+        "entity": "台灣",
+        "count": 4
+      },
+      {
+        "entity": "鴻海",
+        "count": 4
+      },
+      {
+        "entity": "台積電",
+        "count": 3
+      },
+      {
+        "entity": "三星",
+        "count": 3
+      },
+      {
+        "entity": "中國",
+        "count": 2
+      },
+      {
+        "entity": "馬斯克",
+        "count": 2
+      },
+      {
+        "entity": "輝達",
+        "count": 2
+      },
+      {
+        "entity": "台達電",
+        "count": 2
+      },
       {
         "entity": "摩根士丹利",
         "count": 1
@@ -88,15 +152,7 @@
         "count": 1
       },
       {
-        "entity": "伺服器",
-        "count": 1
-      },
-      {
         "entity": "美國",
-        "count": 1
-      },
-      {
-        "entity": "中國",
         "count": 1
       },
       {
@@ -108,118 +164,27 @@
         "count": 1
       },
       {
-        "entity": "摩根",
-        "count": 1
-      },
-      {
-        "entity": "大通",
-        "count": 1
-      },
-      {
-        "entity": "戴蒙",
-        "count": 1
-      },
-      {
-        "entity": "安全感",
-        "count": 1
-      },
-      {
-        "entity": "鴻海",
-        "count": 1
-      },
-      {
-        "entity": "台達電",
-        "count": 1
-      },
-      {
-        "entity": "內湖",
-        "count": 1
-      },
-      {
-        "entity": "福利部",
+        "entity": "陳立武",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-11T08:12:05.000002+08:00",
-        "bucket_end": "2026-10-11T08:46:22.142859+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 427,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 427,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "intel / equipment / technologies / mass",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "Elon, this really doesn’t make sense… Why would equipment makers build custom tools specifically for Terafab? They can simply keep selling the tools they already make to Intel, TSMC, and Samsung. Why ",
-            "url": "https://x.com/jukan05/status/2109077117304807722",
-            "interaction": 427
-          }
-        ],
-        "net_sentiment_smoothed": 57.1,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-11T08:46:22.142859+08:00",
-        "bucket_end": "2026-10-11T09:20:39.285716+08:00",
+        "bucket_start": "2026-10-11T00:54:09.993474+00:00",
+        "bucket_end": "2026-10-11T01:28:27.136331+00:00",
         "positive": 2,
-        "neutral": 1,
-        "negative": 4,
-        "positive_engagement": 35,
-        "neutral_engagement": 9,
-        "negative_engagement": 57,
-        "net_sentiment": -28.6,
-        "post_count": 7,
-        "engagement": 101,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "野村《全球AI趨勢追蹤》2026年10月9日 若美國內容佔收發模組BOM成本達65%會怎樣？",
-            "url": "https://x.com/QQ_Timmy/status/2109089851416903849",
-            "interaction": 30
-          },
-          {
-            "handle": "ctee.fans",
-            "platform": "Facebook",
-            "text": "富不過三代是真的？一名男網友分享，外公早年因內湖園區開發賣地進帳2億多元，過世後家人查看財產清冊，發現短短18年竟只剩幾千萬元，讓他忍不住好奇「怎麼花的」，也引發超過30萬人次關注討論，不少擁有類似經驗的網友分享，比起吃喝玩樂，投資、賭博、創業才是讓祖產快速消失的三大原因。",
-            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0tckivW2VUz715kqz5doZtyFwTrByMToJEJiJ1xGumFLUg8uxxcXyv5NjCCEmgYxgl?__cft__[0]=AZij9GKfXMmoV9aan68HuTyUs_p7P2klFS8YNtWbMpS9eVG529qufgaEOqbRwfMHQSLz27AypD_YwZXdxD737KbSnVkELIXg1jdPEIp8lH2tHxxM5fJokl3Dhs6ZjVXwXICQp6XtV_8VxPaUQfcTNHz12O0W230Y7kX9A6YOfRuB-PAVdTiT-152Jrg",
-            "interaction": 23
-          }
-        ],
-        "net_sentiment_smoothed": 42.9,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-10-11T09:20:39.285716+08:00",
-        "bucket_end": "2026-10-11T09:54:56.428573+08:00",
-        "positive": 1,
         "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 126,
+        "negative": 1,
+        "positive_engagement": 138,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 126,
+        "negative_engagement": 30,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 168,
         "top_topics": [
           {
             "topic_id": 2,
-            "label": "optical / technologies / supporting / equipment",
+            "label": "optical / technologies / supporting",
             "count": 1
           }
         ],
@@ -230,14 +195,21 @@
             "text": "Figure 1: 800G Transceiver Module BOM Cost Breakdown  800G EML Transceiver Module 100G EML/LD Chip: 23% DSP/MCU/CDR: 29% TIA: 5% PD Chip: 8% PCB: 10% Other Optical Components: 10% Housing/Structural P",
             "url": "https://x.com/QQ_Timmy/status/2109092368033198560",
             "interaction": 126
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "野村《全球AI趨勢追蹤》2026年10月9日 若美國內容佔收發模組BOM成本達65%會怎樣？",
+            "url": "https://x.com/QQ_Timmy/status/2109089851416903849",
+            "interaction": 30
           }
         ],
-        "net_sentiment_smoothed": 34.3,
+        "net_sentiment_smoothed": 11.1,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T09:54:56.428573+08:00",
-        "bucket_end": "2026-10-11T10:29:13.571430+08:00",
+        "bucket_start": "2026-10-11T01:28:27.136331+00:00",
+        "bucket_end": "2026-10-11T02:02:44.279188+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -249,12 +221,29 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 20.9,
+        "net_sentiment_smoothed": 8.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T10:29:13.571430+08:00",
-        "bucket_end": "2026-10-11T11:03:30.714287+08:00",
+        "bucket_start": "2026-10-11T02:02:44.279188+00:00",
+        "bucket_end": "2026-10-11T02:37:01.422045+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 13.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-11T02:37:01.422045+00:00",
+        "bucket_end": "2026-10-11T03:11:18.564902+00:00",
         "positive": 0,
         "neutral": 2,
         "negative": 0,
@@ -285,8 +274,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T11:03:30.714287+08:00",
-        "bucket_end": "2026-10-11T11:37:47.857144+08:00",
+        "bucket_start": "2026-10-11T03:11:18.564902+00:00",
+        "bucket_end": "2026-10-11T03:45:35.707759+00:00",
         "positive": 2,
         "neutral": 0,
         "negative": 1,
@@ -299,12 +288,12 @@
         "top_topics": [
           {
             "topic_id": 2,
-            "label": "optical / technologies / supporting / equipment",
+            "label": "optical / technologies / supporting",
             "count": 1
           },
           {
-            "topic_id": 1,
-            "label": "intel / equipment / technologies / mass",
+            "topic_id": 4,
+            "label": "mass / technologies",
             "count": 1
           }
         ],
@@ -324,41 +313,54 @@
             "interaction": 2
           }
         ],
-        "net_sentiment_smoothed": 26.7,
+        "net_sentiment_smoothed": 46.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T11:37:47.857144+08:00",
-        "bucket_end": "2026-10-11T12:12:05.000001+08:00",
-        "positive": 0,
+        "bucket_start": "2026-10-11T03:45:35.707759+00:00",
+        "bucket_end": "2026-10-11T04:19:52.850616+00:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 26.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-11T12:12:05.000001+08:00",
-        "bucket_end": "2026-10-11T12:46:22.142858+08:00",
-        "positive": 3,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 254,
+        "positive_engagement": 22,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 100.0,
-        "post_count": 3,
-        "engagement": 254,
+        "post_count": 1,
+        "engagement": 22,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "摩根士丹利  在完整年度模型中，預計成品光引擎出貨量將在2027年從778萬顆激增至1773萬顆（+128%），並在2028年從4860萬顆增至7387萬顆（+52%）。  此次上修完全由良率改善所驅動，而非晶圓產能的增量。這些數字代表機構模型預測，而非已驗證的生產里程碑。",
+            "url": "https://x.com/QQ_Timmy/status/2109135149728399649",
+            "interaction": 22
+          }
+        ],
+        "net_sentiment_smoothed": 46.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-11T04:19:52.850616+00:00",
+        "bucket_end": "2026-10-11T04:54:09.993473+00:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 232,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 232,
         "top_topics": [
           {
-            "topic_id": 3,
+            "topic_id": 4,
+            "label": "mass / technologies",
+            "count": 1
+          },
+          {
+            "topic_id": 5,
             "label": "supporting",
             "count": 1
           }
@@ -372,19 +374,19 @@
             "interaction": 229
           },
           {
-            "handle": "QQ_Timmy",
+            "handle": "statementdog",
             "platform": "X",
-            "text": "摩根士丹利  在完整年度模型中，預計成品光引擎出貨量將在2027年從778萬顆激增至1773萬顆（+128%），並在2028年從4860萬顆增至7387萬顆（+52%）。  此次上修完全由良率改善所驅動，而非晶圓產能的增量。這些數字代表機構模型預測，而非已驗證的生產里程碑。",
-            "url": "https://x.com/QQ_Timmy/status/2109135149728399649",
-            "interaction": 22
+            "text": "MediaTek says its Filogic 8800 Wi-Fi 8 platform can nearly double overall throughput in tests with devices from different Wi-Fi generations.  The platform adjusts bandwidth allocation and switches cha",
+            "url": "https://x.com/statementdog/status/2109140434983493739",
+            "interaction": 3
           }
         ],
-        "net_sentiment_smoothed": 26.7,
+        "net_sentiment_smoothed": 46.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T12:46:22.142858+08:00",
-        "bucket_end": "2026-10-11T13:20:39.285715+08:00",
+        "bucket_start": "2026-10-11T04:54:09.993473+00:00",
+        "bucket_end": "2026-10-11T05:28:27.136330+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -396,12 +398,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
+        "net_sentiment_smoothed": 60.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T13:20:39.285715+08:00",
-        "bucket_end": "2026-10-11T13:54:56.428572+08:00",
+        "bucket_start": "2026-10-11T05:28:27.136330+00:00",
+        "bucket_end": "2026-10-11T06:02:44.279187+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
@@ -425,8 +427,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T13:54:56.428572+08:00",
-        "bucket_end": "2026-10-11T14:29:13.571429+08:00",
+        "bucket_start": "2026-10-11T06:02:44.279187+00:00",
+        "bucket_end": "2026-10-11T06:37:01.422044+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -436,7 +438,13 @@
         "net_sentiment": 100.0,
         "post_count": 1,
         "engagement": 4,
-        "top_topics": [],
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "nvidia / gb / 鴻海",
+            "count": 1
+          }
+        ],
         "top_posts": [
           {
             "handle": "statementdog",
@@ -450,8 +458,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T14:29:13.571429+08:00",
-        "bucket_end": "2026-10-11T15:03:30.714286+08:00",
+        "bucket_start": "2026-10-11T06:37:01.422044+00:00",
+        "bucket_end": "2026-10-11T07:11:18.564901+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -471,12 +479,12 @@
             "interaction": 86
           }
         ],
-        "net_sentiment_smoothed": -20.0,
+        "net_sentiment_smoothed": -40.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T15:03:30.714286+08:00",
-        "bucket_end": "2026-10-11T15:37:47.857143+08:00",
+        "bucket_start": "2026-10-11T07:11:18.564901+00:00",
+        "bucket_end": "2026-10-11T07:45:35.707758+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -496,37 +504,84 @@
             "interaction": 16
           }
         ],
-        "net_sentiment_smoothed": -25.0,
+        "net_sentiment_smoothed": -41.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-11T15:37:47.857143+08:00",
-        "bucket_end": "2026-10-11T16:12:05+08:00",
+        "bucket_start": "2026-10-11T07:45:35.707758+00:00",
+        "bucket_end": "2026-10-11T08:19:52.850615+00:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "negative_engagement": 11,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 11,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -66.7,
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The Eternal City’s antiquity was its blessing and its curse: beautiful but stuck in the past. But with billions in investment, foreign residents are flocking and the new-builds to cater to them are ri",
+            "url": "https://x.com/FT/status/2109195317069410793",
+            "interaction": 11
+          }
+        ],
+        "net_sentiment_smoothed": -77.1,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-11T08:19:52.850615+00:00",
+        "bucket_end": "2026-10-11T08:54:09.993472+00:00",
+        "positive": 3,
+        "neutral": 5,
+        "negative": 4,
+        "positive_engagement": 85,
+        "neutral_engagement": 131,
+        "negative_engagement": 178,
+        "net_sentiment": -8.3,
+        "post_count": 12,
+        "engagement": 394,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "鴻海",
+            "count": 1
+          },
+          {
+            "topic_id": 0,
+            "label": "nvidia / gb / 鴻海",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "#台積電\n 赴美重金投資 2,650 億美元，帶動台灣設立鳳凰城第 14 個辦事處，竟引發中國強烈反彈並發信警告，指責此舉是為台獨背書！",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid0yEY9ZSdsr72pjm8vcsei5pgjLVxwmfCZspLTT5cPmoWMQ6PdJ4oVzntTdaLvr38kl?__cft__[0]=AZjFis2VL0YXTOPlcw9r_bc-qJFJI00Cs18FHVaqGeDCWoqui2aXzSCanKKr2EQpF9u2ZzhFUxLUsSrAl8NMqWHveogL9Xt_p-uBpcnt6TUkDWjs48YQNtDPIBbk_p1OP--vrnDlGDHd_200-RfTqQyMDsSXjBjKqsp7AXNt5IdPZ-SfZ4kg5uU_8nA",
+            "interaction": 101
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "#鴻海\n 公布 9 月營收高達 1 兆 1,586 億元，成為全台首家單月突破兆元門檻的企業。",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid0FRJscoEjYSXFy1rpRqTSoQ9vxu149ozzJM86K44eaFmcdzH3BcdSH5rrYP9EQQTel?__cft__[0]=AZj4f7vin3E9yqs_oaocepUuxZLnnw0V0ng8wFl1QRtK07WO5t57WpRqmtQDXcuQcHch_yPTyuyJCm-QM3XOeMp8YJ7xISOM8N1iYZaGJ5yjzh3wZfBOjlKC3yAbejRahjtNVTpgb22AaTbDy5n3S80RvmbdDTHof_T0-iajyLcJ7JwomRa0iFrETRc",
+            "interaction": 53
+          }
+        ],
+        "net_sentiment_smoothed": -69.4,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "intel / equipment / technologies / mass",
+        "topic_id": 4,
+        "label": "mass / technologies",
         "cells": [
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           },
@@ -549,6 +604,10 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -582,9 +641,17 @@
       },
       {
         "topic_id": 2,
-        "label": "optical / technologies / supporting / equipment",
+        "label": "optical / technologies / supporting",
         "cells": [
           {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": 0.0,
             "volume": 0
           },
@@ -599,14 +666,6 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -643,9 +702,17 @@
         ]
       },
       {
-        "topic_id": 3,
-        "label": "supporting",
+        "topic_id": 0,
+        "label": "nvidia / gb / 鴻海",
         "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -677,6 +744,122 @@
           {
             "net_sentiment": 100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "鴻海",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "supporting",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -708,82 +891,90 @@
     "coverage_focus_ranking": [
       {
         "handle": "dylan522p",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，17 篇）",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，22 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
       },
       {
         "handle": "SemiAnalysis_",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，17 篇）",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，22 篇）",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 2
       },
       {
-        "handle": "jukan05",
-        "top_topic_id": 1,
-        "top_topic_label": "intel / equipment / technologies / mass",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 1
-      },
-      {
         "handle": "QQ_Timmy",
         "top_topic_id": 2,
-        "top_topic_label": "optical / technologies / supporting / equipment",
+        "top_topic_label": "optical / technologies / supporting",
         "focus_share": 1.0,
         "post_count": 5,
         "unclustered_posts": 4
       },
       {
         "handle": "FT",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，17 篇）",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，22 篇）",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 2
       },
       {
-        "handle": "technewsinside",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，17 篇）",
+        "handle": "TrendForce.tw",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，22 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
       },
       {
         "handle": "ctee.fans",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，17 篇）",
+        "top_topic_id": 3,
+        "top_topic_label": "鴻海",
         "focus_share": 1.0,
-        "post_count": 4,
-        "unclustered_posts": 4
+        "post_count": 3,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 4,
+        "top_topic_label": "mass / technologies",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 0,
+        "top_topic_label": "nvidia / gb / 鴻海",
+        "focus_share": 0.5,
+        "post_count": 11,
+        "unclustered_posts": 9
       },
       {
         "handle": "statementdog",
-        "top_topic_id": 1,
-        "top_topic_label": "intel / equipment / technologies / mass",
-        "focus_share": 0.333,
+        "top_topic_id": 4,
+        "top_topic_label": "mass / technologies",
+        "focus_share": 0.25,
         "post_count": 5,
-        "unclustered_posts": 2
+        "unclustered_posts": 1
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "intel / equipment / technologies / mass",
-        "total_engagement": 429,
+        "topic_id": 4,
+        "label": "mass / technologies",
+        "total_engagement": 231,
         "post_count": 2,
         "top_account": "jukan05",
-        "top_account_engagement": 427,
+        "top_account_engagement": 229,
         "is_catchall": false
       },
       {
         "topic_id": 2,
-        "label": "optical / technologies / supporting / equipment",
+        "label": "optical / technologies / supporting",
         "total_engagement": 128,
         "post_count": 2,
         "top_account": "QQ_Timmy",
@@ -792,6 +983,24 @@
       },
       {
         "topic_id": 3,
+        "label": "鴻海",
+        "total_engagement": 53,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 53,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "nvidia / gb / 鴻海",
+        "total_engagement": 31,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 27,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
         "label": "supporting",
         "total_engagement": 3,
         "post_count": 1,
@@ -800,12 +1009,12 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，17 篇）",
-        "total_engagement": 618,
-        "post_count": 17,
-        "top_account": "jukan05",
-        "top_account_engagement": 229,
+        "topic_id": 1,
+        "label": "其他（未分群，22 篇）",
+        "total_engagement": 650,
+        "post_count": 22,
+        "top_account": "technewsinside",
+        "top_account_engagement": 309,
         "is_catchall": true
       }
     ],
