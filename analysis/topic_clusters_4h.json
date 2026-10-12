@@ -3,55 +3,53 @@
     {
       "id": "E",
       "label": "AI 伺服器供應鏈",
+      "size": 6,
+      "accounts": {
+        "technewsinside": 3,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 430,
+        "ctee.fans": 216
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 4,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 34,
+        "ctee.fans": 130
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
       "size": 3,
       "accounts": {
         "technewsinside": 2,
         "ctee.fans": 1
       },
       "engagement_by_account": {
-        "technewsinside": 80,
-        "ctee.fans": 0
+        "technewsinside": 63,
+        "ctee.fans": 13
       }
     },
     {
-      "id": "F",
-      "label": "晶圓代工 / 先進製程",
+      "id": "M",
+      "label": "台股市場",
       "size": 3,
       "accounts": {
-        "TrendForce.tw": 1,
         "technewsinside": 1,
-        "ctee.fans": 1
+        "ctee.fans": 2
       },
       "engagement_by_account": {
-        "TrendForce.tw": 5,
-        "technewsinside": 101,
-        "ctee.fans": 0
-      }
-    },
-    {
-      "id": "Q",
-      "label": "機器人 / Robotics",
-      "size": 3,
-      "accounts": {
-        "technewsinside": 2,
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 71,
-        "ctee.fans": 0
-      }
-    },
-    {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 2,
-      "accounts": {
-        "technewsinside": 1,
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 51,
-        "ctee.fans": 10
+        "technewsinside": 34,
+        "ctee.fans": 46
       }
     },
     {
@@ -59,89 +57,141 @@
       "label": "GPU / AI 加速器",
       "size": 2,
       "accounts": {
-        "statementdog": 1,
-        "technewsinside": 1
+        "technewsinside": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "statementdog": 4,
-        "technewsinside": 27
+        "technewsinside": 64,
+        "ctee.fans": 13
       }
     },
     {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
       "size": 2,
       "accounts": {
-        "statementdog": 1,
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 3,
+        "ctee.fans": 37
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 170
+      }
+    },
+    {
+      "id": "N",
+      "label": "地緣政治 / 政策",
+      "size": 1,
+      "accounts": {
         "technewsinside": 1
       },
       "engagement_by_account": {
-        "statementdog": 4,
-        "technewsinside": 44
+        "technewsinside": 19
       }
     },
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
+      "id": "Q",
+      "label": "機器人 / Robotics",
       "size": 1,
       "accounts": {
-        "ctee.fans": 1
+        "technewsinside": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 10
-      }
-    },
-    {
-      "id": "H",
-      "label": "網通 / 光通訊",
-      "size": 1,
-      "accounts": {
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "ctee.fans": 0
-      }
-    },
-    {
-      "id": "I",
-      "label": "電源 / 電力設備",
-      "size": 1,
-      "accounts": {
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "ctee.fans": 0
-      }
-    },
-    {
-      "id": "M",
-      "label": "台股市場",
-      "size": 1,
-      "accounts": {
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "ctee.fans": 0
-      }
-    },
-    {
-      "id": "S",
-      "label": "電網 / 能源基礎設施",
-      "size": 1,
-      "accounts": {
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "ctee.fans": 0
+        "technewsinside": 62
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "I",
+      "label": "電源 / 電力設備",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 130,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美國國際貿易委員會（USITC）針對「特定垂直電力傳輸系統、其組件及含有該系統的運算系統」啟動337調查，台達電（2308）及旗下美國關係企業名列被調查對象。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid032RsE9PAMhTmhJJcaG5mXiNGG3LczR6FH9xPwyfDWSaHoRdkdtZLDyGdBctJCyAW2l?__cft__[0]=AZgQkSn5BQO3HO6AJ3PNvBUajAs6ewmvIO3e2YOBD-ApFFY0-48G7wKez-jMBPbOjN_MBXGWoEvwaTv3BFcbXvex79tgFO-TgTa9BgKbnFWhhyTX5HGu8dWpnLadn6MMA_TUY0_Z6_txX4yfPF0YVA3a5ZHYqsofpPdfVXYCdqCX1wlc65A0dgDiV2A",
+          "timestamp": "2026-10-11T23:26:30.836328+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美國國際貿易委員會（USITC）針對「特定垂直電力傳輸系統、其組件及含有該系統的運算系統」啟動337調查，台廠方面包含鴻海、台達電、廣達等指標企業被點名。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0WLudj9GRoS8n8hLcpM1Rz65L52fUnVAEm7MqQMnyMiuEhUvar8fxAF19Nr3RShral?__cft__[0]=AZh1knEBoM083Y8TlOAWot6dCJ3GB5D2iZlu7C__BNGI0MnAs1ul3_1vd2GjWXPkTL-dTBn6SaNDDQxedkDRM5krDCJuGnaTa-sxuqyMqQcN5XosmS8wkzuww_TUOixHts3vqoDhzUdgRtDP4CYF9zCrEEanXgkFYXZtTDUC5__EzLqJUqdN_pBPCZA",
+          "timestamp": "2026-10-11T23:26:30.836328+00:00",
+          "interaction": 44
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "鴻海今（11）日回應，表示公司近日獲悉USITC於美國時間2026年10月9日，就美國Vicor Corporation提出之專利侵權主張，正式啟動337調查。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0BKT3Jd4hPm7AMMxtyqDUm6ahrA53gHWM4nqd8nD4BAEDqt7fUZMAzZGth5Zp8u8Bl?__cft__[0]=AZg8j6SDlILXCNDXK6a3FCDR_WLH002m9CwU3wg3CGsPTc5ZxKnKuXxLRHrWijOEDM9PorH5Bq95SfkerlijJB3ipVOAYVbDPv_pVFYkVGxDbGJac2gYClkPDiDyimZYXQoXPlzns2qKISa_yQ-CCOgt1FwZE8_6PyfTwj6f6jVTvcumvZ1iLIUSKyI",
+          "timestamp": "2026-10-11T23:26:30.836328+00:00",
+          "interaction": 39
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "I",
+      "label": "電源 / 電力設備",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 130,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美國國際貿易委員會（USITC）針對「特定垂直電力傳輸系統、其組件及含有該系統的運算系統」啟動337調查，台達電（2308）及旗下美國關係企業名列被調查對象。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid032RsE9PAMhTmhJJcaG5mXiNGG3LczR6FH9xPwyfDWSaHoRdkdtZLDyGdBctJCyAW2l?__cft__[0]=AZgQkSn5BQO3HO6AJ3PNvBUajAs6ewmvIO3e2YOBD-ApFFY0-48G7wKez-jMBPbOjN_MBXGWoEvwaTv3BFcbXvex79tgFO-TgTa9BgKbnFWhhyTX5HGu8dWpnLadn6MMA_TUY0_Z6_txX4yfPF0YVA3a5ZHYqsofpPdfVXYCdqCX1wlc65A0dgDiV2A",
+          "timestamp": "2026-10-11T23:26:30.836328+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美國國際貿易委員會（USITC）針對「特定垂直電力傳輸系統、其組件及含有該系統的運算系統」啟動337調查，台廠方面包含鴻海、台達電、廣達等指標企業被點名。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0WLudj9GRoS8n8hLcpM1Rz65L52fUnVAEm7MqQMnyMiuEhUvar8fxAF19Nr3RShral?__cft__[0]=AZh1knEBoM083Y8TlOAWot6dCJ3GB5D2iZlu7C__BNGI0MnAs1ul3_1vd2GjWXPkTL-dTBn6SaNDDQxedkDRM5krDCJuGnaTa-sxuqyMqQcN5XosmS8wkzuww_TUOixHts3vqoDhzUdgRtDP4CYF9zCrEEanXgkFYXZtTDUC5__EzLqJUqdN_pBPCZA",
+          "timestamp": "2026-10-11T23:26:30.836328+00:00",
+          "interaction": 44
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "鴻海今（11）日回應，表示公司近日獲悉USITC於美國時間2026年10月9日，就美國Vicor Corporation提出之專利侵權主張，正式啟動337調查。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0BKT3Jd4hPm7AMMxtyqDUm6ahrA53gHWM4nqd8nD4BAEDqt7fUZMAzZGth5Zp8u8Bl?__cft__[0]=AZg8j6SDlILXCNDXK6a3FCDR_WLH002m9CwU3wg3CGsPTc5ZxKnKuXxLRHrWijOEDM9PorH5Bq95SfkerlijJB3ipVOAYVbDPv_pVFYkVGxDbGJac2gYClkPDiDyimZYXQoXPlzns2qKISa_yQ-CCOgt1FwZE8_6PyfTwj6f6jVTvcumvZ1iLIUSKyI",
+          "timestamp": "2026-10-11T23:26:30.836328+00:00",
+          "interaction": 39
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-11T04:54:09.993472+00:00",
-    "end_utc": "2026-10-11T08:54:09.993472+00:00",
-    "start_tw": "Oct 11, 12:54",
-    "end_tw": "Oct 11, 16:54"
+    "start_utc": "2026-10-11T21:17:41.586265+00:00",
+    "end_utc": "2026-10-12T01:17:41.586265+00:00",
+    "start_tw": "Oct 12, 05:17",
+    "end_tw": "Oct 12, 09:17"
   }
 }
