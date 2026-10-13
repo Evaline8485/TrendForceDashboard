@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-13T02:37:16.313760+00:00",
+  "generated_at": "2026-10-13T11:56:08+08:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-10-12T18:37:16.313760+00:00",
-    "end_utc": "2026-10-13T02:37:16.313760+00:00",
-    "start_tw": "Oct 13, 02:37",
-    "end_tw": "Oct 13, 10:37"
+    "start_utc": "2026-10-13T03:56:08+08:00",
+    "end_utc": "2026-10-13T11:56:08+08:00",
+    "start_tw": "Oct 13, 03:56",
+    "end_tw": "Oct 13, 11:56"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 62,
+      "total_posts": 63,
       "sentiment_counts": {
+        "negative": 24,
         "neutral": 25,
-        "negative": 23,
         "positive": 14
       },
       "sentiment_share": {
-        "neutral": 0.403,
-        "negative": 0.371,
-        "positive": 0.226
+        "negative": 0.381,
+        "neutral": 0.397,
+        "positive": 0.222
       },
       "top_terms": [
         "更多",
@@ -36,7 +36,7 @@
     },
     "temperature_bar": [
       {
-        "topic_id": 7,
+        "topic_id": 1,
         "label": "標普",
         "heat": 90.0,
         "volume": 2,
@@ -47,9 +47,9 @@
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 5,
         "label": "微軟 / maia",
-        "heat": 58.9,
+        "heat": 59.2,
         "volume": 2,
         "engagement": 108,
         "entities": [
@@ -59,9 +59,9 @@
         "is_catchall": false
       },
       {
-        "topic_id": 8,
+        "topic_id": 4,
         "label": "chatgpt",
-        "heat": 52.3,
+        "heat": 52.7,
         "volume": 2,
         "engagement": 36,
         "entities": [
@@ -71,9 +71,24 @@
         "is_catchall": false
       },
       {
-        "topic_id": 3,
+        "topic_id": 6,
+        "label": "coo / 蘋果",
+        "heat": 52.5,
+        "volume": 2,
+        "engagement": 34,
+        "entities": [
+          "鴻海",
+          "河南",
+          "鄭州",
+          "富士康",
+          "生產線重點"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
         "label": "大立光",
-        "heat": 52.1,
+        "heat": 52.5,
         "volume": 2,
         "engagement": 34,
         "entities": [
@@ -86,9 +101,9 @@
         "is_catchall": false
       },
       {
-        "topic_id": 6,
+        "topic_id": 3,
         "label": "台電",
-        "heat": 51.7,
+        "heat": 52.0,
         "volume": 2,
         "engagement": 29,
         "entities": [
@@ -99,42 +114,25 @@
         "is_catchall": false
       },
       {
-        "topic_id": 4,
+        "topic_id": 2,
         "label": "openai / anthropic",
-        "heat": 51.4,
+        "heat": 51.7,
         "volume": 2,
         "engagement": 26,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "輝達",
-        "heat": 51.4,
-        "volume": 2,
-        "engagement": 26,
-        "entities": [
-          "輝達",
-          "美國",
-          "荷西",
-          "高峰",
-          "台灣"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 0,
-        "label": "蘋果 / coo",
+        "topic_id": 9,
+        "label": "ocp / maia",
         "heat": 10.0,
         "volume": 1,
-        "engagement": 16,
-        "entities": [
-          "鴻海"
-        ],
+        "engagement": 7,
+        "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 10,
+        "topic_id": 11,
         "label": "蘋果",
         "heat": 10.0,
         "volume": 1,
@@ -146,21 +144,33 @@
         "is_catchall": false
       },
       {
-        "topic_id": 9,
-        "label": "coo",
+        "topic_id": 8,
+        "label": "輝達",
         "heat": 10.0,
         "volume": 1,
-        "engagement": 18,
+        "engagement": 14,
         "entities": [
-          "河南",
-          "鄭州",
-          "富士康",
-          "生產線重點"
+          "輝達"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
+        "topic_id": 10,
+        "label": "輝達 / ocp",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 12,
+        "entities": [
+          "輝達",
+          "美國",
+          "荷西",
+          "高峰",
+          "台灣"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
         "label": "其他（未分群，45 篇）",
         "heat": 10.0,
         "volume": 45,
@@ -239,8 +249,8 @@
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-12T18:37:16.313762+00:00",
-        "bucket_end": "2026-10-12T19:11:33.456619+00:00",
+        "bucket_start": "2026-10-13T03:56:08.000002+08:00",
+        "bucket_end": "2026-10-13T04:30:25.142859+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -256,8 +266,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-12T19:11:33.456619+00:00",
-        "bucket_end": "2026-10-12T19:45:50.599476+00:00",
+        "bucket_start": "2026-10-13T04:30:25.142859+08:00",
+        "bucket_end": "2026-10-13T05:04:42.285716+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -273,8 +283,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-12T19:45:50.599476+00:00",
-        "bucket_end": "2026-10-12T20:20:07.742333+00:00",
+        "bucket_start": "2026-10-13T05:04:42.285716+08:00",
+        "bucket_end": "2026-10-13T05:38:59.428573+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -290,8 +300,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-12T20:20:07.742333+00:00",
-        "bucket_end": "2026-10-12T20:54:24.885190+00:00",
+        "bucket_start": "2026-10-13T05:38:59.428573+08:00",
+        "bucket_end": "2026-10-13T06:13:16.571430+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -307,8 +317,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-12T20:54:24.885190+00:00",
-        "bucket_end": "2026-10-12T21:28:42.028047+00:00",
+        "bucket_start": "2026-10-13T06:13:16.571430+08:00",
+        "bucket_end": "2026-10-13T06:47:33.714287+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -324,8 +334,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-12T21:28:42.028047+00:00",
-        "bucket_end": "2026-10-12T22:02:59.170904+00:00",
+        "bucket_start": "2026-10-13T06:47:33.714287+08:00",
+        "bucket_end": "2026-10-13T07:21:50.857144+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -341,42 +351,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-12T22:02:59.170904+00:00",
-        "bucket_end": "2026-10-12T22:37:16.313761+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-12T22:37:16.313761+00:00",
-        "bucket_end": "2026-10-12T23:11:33.456618+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-12T23:11:33.456618+00:00",
-        "bucket_end": "2026-10-12T23:45:50.599475+00:00",
+        "bucket_start": "2026-10-13T07:21:50.857144+08:00",
+        "bucket_end": "2026-10-13T07:56:08.000001+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -392,8 +368,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-12T23:45:50.599475+00:00",
-        "bucket_end": "2026-10-13T00:20:07.742332+00:00",
+        "bucket_start": "2026-10-13T07:56:08.000001+08:00",
+        "bucket_end": "2026-10-13T08:30:25.142858+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -409,8 +385,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-13T00:20:07.742332+00:00",
-        "bucket_end": "2026-10-13T00:54:24.885189+00:00",
+        "bucket_start": "2026-10-13T08:30:25.142858+08:00",
+        "bucket_end": "2026-10-13T09:04:42.285715+08:00",
         "positive": 8,
         "neutral": 9,
         "negative": 9,
@@ -422,18 +398,18 @@
         "engagement": 4392,
         "top_topics": [
           {
-            "topic_id": 3,
+            "topic_id": 7,
             "label": "大立光",
             "count": 2
           },
           {
-            "topic_id": 7,
+            "topic_id": 1,
             "label": "標普",
             "count": 2
           },
           {
-            "topic_id": 5,
-            "label": "輝達",
+            "topic_id": 10,
+            "label": "輝達 / ocp",
             "count": 1
           }
         ],
@@ -457,8 +433,8 @@
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-10-13T00:54:24.885189+00:00",
-        "bucket_end": "2026-10-13T01:28:42.028046+00:00",
+        "bucket_start": "2026-10-13T09:04:42.285715+08:00",
+        "bucket_end": "2026-10-13T09:38:59.428572+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -470,12 +446,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -7.0,
+        "net_sentiment_smoothed": -4.1,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-13T01:28:42.028046+00:00",
-        "bucket_end": "2026-10-13T02:02:59.170903+00:00",
+        "bucket_start": "2026-10-13T09:38:59.428572+08:00",
+        "bucket_end": "2026-10-13T10:13:16.571429+08:00",
         "positive": 4,
         "neutral": 12,
         "negative": 13,
@@ -487,17 +463,17 @@
         "engagement": 3272,
         "top_topics": [
           {
-            "topic_id": 2,
+            "topic_id": 5,
             "label": "微軟 / maia",
             "count": 2
           },
           {
-            "topic_id": 4,
+            "topic_id": 2,
             "label": "openai / anthropic",
             "count": 2
           },
           {
-            "topic_id": 8,
+            "topic_id": 4,
             "label": "chatgpt",
             "count": 2
           }
@@ -518,12 +494,50 @@
             "interaction": 568
           }
         ],
-        "net_sentiment_smoothed": -8.7,
+        "net_sentiment_smoothed": -4.1,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-10-13T02:02:59.170903+00:00",
-        "bucket_end": "2026-10-13T02:37:16.313760+00:00",
+        "bucket_start": "2026-10-13T10:13:16.571429+08:00",
+        "bucket_end": "2026-10-13T10:47:33.714286+08:00",
+        "positive": 2,
+        "neutral": 4,
+        "negative": 1,
+        "positive_engagement": 23,
+        "neutral_engagement": 529,
+        "negative_engagement": 14,
+        "net_sentiment": 14.3,
+        "post_count": 7,
+        "engagement": 566,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "台電",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "【台股總統牌來了！法人點名17檔指標股 看下一波行情從50K開始】…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0CGvre3kQgmLtWp33rY19MD8yswmof3AXKJz4Pt2ZUaorg18ZizDYk5SUsmYqtB7gl?__cft__[0]=AZhjlr9Mva7w9kcYQeVkpCxI2qNkw3hVQeRdYhwfhm_qVgataiTfWGr1by-4rCK91xKu0ppuWAPm-JD011guOP48mx3k7puyBXNhYP717tjC4L4naEqCFe3UuU0XeZ4xzePHrUjw6LY7H__jlvbqG46iRC7GUlZqmIssxBvVMnWPyu3sWf0Lie2j9Jo",
+            "interaction": 474
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "【業績增增日上股法人狂敲 重金載板四本柱、記憶體雙雄 「這檔」豪砸逾2百億元】…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0HW6ZJetmqhfF9hcwG8MKqq2Sx65AuvnxqkySQJBqzf9UX2T2Akhdhz9FYouWH7eHl?__cft__[0]=AZhBaCNxd5kWVPnuYz_Z-t4laqspl7rN8vdLk1P1jtNlgBHJLl2UmXbAe3Kl5NQMTTNFRlY4sJQqFo0HvJG5YUaH0eujwLegP7oy7V57xIvtDA5nAwZvoCYNTzw7xt7PNu1NL_-X7LYNGRfw11grzS5b5srAjYVSpXFYKnBC2OW0GUfs0X7X3ptaBAw",
+            "interaction": 42
+          }
+        ],
+        "net_sentiment_smoothed": -3.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-13T10:47:33.714286+08:00",
+        "bucket_end": "2026-10-13T11:21:50.857143+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -535,13 +549,30 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -10.3,
+        "net_sentiment_smoothed": -4.2,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-13T11:21:50.857143+08:00",
+        "bucket_end": "2026-10-13T11:56:08+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 4.8,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
+        "topic_id": 5,
         "label": "微軟 / maia",
         "cells": [
           {
@@ -586,15 +617,15 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -603,7 +634,7 @@
         ]
       },
       {
-        "topic_id": 4,
+        "topic_id": 2,
         "label": "openai / anthropic",
         "cells": [
           {
@@ -647,16 +678,16 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": -100.0,
             "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -665,7 +696,7 @@
         ]
       },
       {
-        "topic_id": 8,
+        "topic_id": 4,
         "label": "chatgpt",
         "cells": [
           {
@@ -709,16 +740,16 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": -100.0,
             "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -727,7 +758,7 @@
         ]
       },
       {
-        "topic_id": 6,
+        "topic_id": 3,
         "label": "台電",
         "cells": [
           {
@@ -771,12 +802,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 100.0,
@@ -785,12 +812,16 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 5,
-        "label": "輝達",
+        "topic_id": 6,
+        "label": "coo / 蘋果",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -825,14 +856,6 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": 100.0,
             "volume": 1
           },
@@ -841,8 +864,16 @@
             "volume": 0
           },
           {
-            "net_sentiment": -100.0,
+            "net_sentiment": 0.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -851,17 +882,9 @@
         ]
       },
       {
-        "topic_id": 3,
+        "topic_id": 7,
         "label": "大立光",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -909,14 +932,30 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
+        "handle": "TrendForce",
+        "top_topic_id": 9,
+        "top_topic_label": "ocp / maia",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
         "handle": "yutinghaosfinance",
-        "top_topic_id": 7,
+        "top_topic_id": 1,
         "top_topic_label": "標普",
         "focus_share": 1.0,
         "post_count": 11,
@@ -924,7 +963,7 @@
       },
       {
         "handle": "ctee.fans",
-        "top_topic_id": 3,
+        "top_topic_id": 7,
         "top_topic_label": "大立光",
         "focus_share": 0.4,
         "post_count": 22,
@@ -932,7 +971,7 @@
       },
       {
         "handle": "technewsinside",
-        "top_topic_id": 2,
+        "top_topic_id": 5,
         "top_topic_label": "微軟 / maia",
         "focus_share": 0.2,
         "post_count": 29,
@@ -941,7 +980,7 @@
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 7,
+        "topic_id": 1,
         "label": "標普",
         "total_engagement": 881,
         "post_count": 2,
@@ -950,7 +989,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 5,
         "label": "微軟 / maia",
         "total_engagement": 108,
         "post_count": 2,
@@ -959,7 +998,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 8,
+        "topic_id": 4,
         "label": "chatgpt",
         "total_engagement": 36,
         "post_count": 2,
@@ -968,7 +1007,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 3,
+        "topic_id": 6,
+        "label": "coo / 蘋果",
+        "total_engagement": 34,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 18,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
         "label": "大立光",
         "total_engagement": 34,
         "post_count": 2,
@@ -977,7 +1025,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 6,
+        "topic_id": 3,
         "label": "台電",
         "total_engagement": 29,
         "post_count": 2,
@@ -986,7 +1034,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 4,
+        "topic_id": 2,
         "label": "openai / anthropic",
         "total_engagement": 26,
         "post_count": 2,
@@ -995,34 +1043,25 @@
         "is_catchall": false
       },
       {
-        "topic_id": 5,
+        "topic_id": 8,
         "label": "輝達",
-        "total_engagement": 26,
-        "post_count": 2,
+        "total_engagement": 14,
+        "post_count": 1,
         "top_account": "technewsinside",
         "top_account_engagement": 14,
         "is_catchall": false
       },
       {
-        "topic_id": 9,
-        "label": "coo",
-        "total_engagement": 18,
+        "topic_id": 10,
+        "label": "輝達 / ocp",
+        "total_engagement": 12,
         "post_count": 1,
         "top_account": "ctee.fans",
-        "top_account_engagement": 18,
+        "top_account_engagement": 12,
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "蘋果 / coo",
-        "total_engagement": 16,
-        "post_count": 1,
-        "top_account": "technewsinside",
-        "top_account_engagement": 16,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 10,
+        "topic_id": 11,
         "label": "蘋果",
         "total_engagement": 11,
         "post_count": 1,
@@ -1031,7 +1070,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 1,
+        "topic_id": 9,
+        "label": "ocp / maia",
+        "total_engagement": 7,
+        "post_count": 1,
+        "top_account": "TrendForce",
+        "top_account_engagement": 7,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
         "label": "其他（未分群，45 篇）",
         "total_engagement": 7045,
         "post_count": 45,
@@ -1043,10 +1091,10 @@
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 62,
-          "likes": 8230,
-          "engagement": 8230,
-          "avg_engagement": 132.7
+          "post_count": 63,
+          "likes": 8236,
+          "engagement": 8237,
+          "avg_engagement": 130.7
         },
         "afternoon": {
           "post_count": 0,
