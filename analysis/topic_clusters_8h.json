@@ -3,31 +3,44 @@
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 6,
+      "size": 10,
       "accounts": {
-        "TrendForce": 1,
-        "jukan05": 2,
-        "tengyanAI": 1,
+        "TrendForce": 3,
+        "jukan05": 3,
+        "tengyanAI": 2,
         "statementdog": 2
       },
       "engagement_by_account": {
-        "TrendForce": 6,
-        "jukan05": 534,
-        "tengyanAI": 42,
-        "statementdog": 1
+        "TrendForce": 61,
+        "jukan05": 739,
+        "tengyanAI": 106,
+        "statementdog": 5
       }
     },
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 3,
+      "size": 5,
       "accounts": {
         "SemiAnalysis_": 2,
+        "nvidianewsroom": 2,
         "statementdog": 1
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 120,
-        "statementdog": 1
+        "SemiAnalysis_": 198,
+        "nvidianewsroom": 81,
+        "statementdog": 7
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 3,
+      "accounts": {
+        "statementdog": 3
+      },
+      "engagement_by_account": {
+        "statementdog": 11
       }
     },
     {
@@ -35,34 +48,23 @@
       "label": "晶圓代工 / 先進製程",
       "size": 2,
       "accounts": {
-        "tphuang": 1,
+        "TrendForce": 1,
         "statementdog": 1
       },
       "engagement_by_account": {
-        "tphuang": 61,
-        "statementdog": 1
+        "TrendForce": 10,
+        "statementdog": 7
       }
     },
     {
-      "id": "K",
-      "label": "AI 模型 / 應用",
+      "id": "H",
+      "label": "網通 / 光通訊",
       "size": 2,
       "accounts": {
-        "FT": 2
+        "statementdog": 2
       },
       "engagement_by_account": {
-        "FT": 683
-      }
-    },
-    {
-      "id": "C",
-      "label": "ASIC / 自研晶片",
-      "size": 1,
-      "accounts": {
-        "statementdog": 1
-      },
-      "engagement_by_account": {
-        "statementdog": 0
+        "statementdog": 9
       }
     },
     {
@@ -70,98 +72,34 @@
       "label": "AI 伺服器供應鏈",
       "size": 1,
       "accounts": {
-        "jukan05": 1
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "jukan05": 352
+        "statementdog": 5
       }
     },
     {
-      "id": "H",
-      "label": "網通 / 光通訊",
+      "id": "K",
+      "label": "AI 模型 / 應用",
       "size": 1,
       "accounts": {
-        "QQ_Timmy": 1
+        "nvidianewsroom": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 53
-      }
-    },
-    {
-      "id": "R",
-      "label": "散熱 / HVAC",
-      "size": 1,
-      "accounts": {
-        "tphuang": 1
-      },
-      "engagement_by_account": {
-        "tphuang": 33
+        "nvidianewsroom": 43
       }
     }
   ],
   "gaps": [
     {
-      "cluster_id": "A",
-      "label": "記憶體 / HBM",
-      "own_count": 1,
-      "competitor_count": 5,
-      "competitor_engagement": 577,
-      "competitors_covering": [
-        "jukan05",
-        "tengyanAI",
-        "statementdog"
-      ],
-      "sample_posts": [
-        {
-          "handle": "jukan05",
-          "platform": "X",
-          "text": "Korean media report that a party affiliated with Michael Dell, founder and chairman of Dell Technologies, has been identified as the buyer of a stake in SK Inc., the holding company of SK Group, the parent conglomerate of SK hynix. SK Group chairman Chey Tae-won decided to sell",
-          "url": "https://x.com/jukan05/status/2110129209331097717",
-          "timestamp": "2026-10-14T06:03:02.000+08:00",
-          "interaction": 352
-        },
-        {
-          "handle": "jukan05",
-          "platform": "X",
-          "text": "From Nanya Technology’s earnings call:  Q: How likely is AI to drive a prolonged structural DRAM shortage? A: We believe this is highly likely. Long lead times for new fabs, equipment, and process transitions make it difficult to resolve the shortage through 2027 and into early",
-          "url": "https://x.com/jukan05/status/2110181190271738015",
-          "timestamp": "2026-10-14T09:29:35.000+08:00",
-          "interaction": 182
-        },
-        {
-          "handle": "tengyanAI",
-          "platform": "X",
-          "text": "elon didn't name anyone else, but the numbers line up with what he said about micron being \"reasonable\" and others \"extortionate\".  over the three quarters to june, samsung's own realized DRAM price rose ~4x. sk hynix's rose 2.5-3x.  micron set its long term deals up differently:",
-          "url": "https://x.com/tengyanAI/status/2110180947639615708",
-          "timestamp": "2026-10-14T09:28:37.000+08:00",
-          "interaction": 42
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "$AMAT  is targeting share gains and higher non-GAAP margins by 2030, with advanced logic, DRAM, packaging and services driving the plan.",
-          "url": "https://x.com/statementdog/status/2110217031299854705",
-          "timestamp": "2026-10-14T11:52:00.000+08:00",
-          "interaction": 1
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "SK hynix has unveiled an SSD controller design that distributes routine storage tasks across about 100 small H-TPU processors, The Elec reports, citing an Oct. 12 presentation.  A general-purpose CPU handles more complex work, such as error recovery. SK hynix plans to use the",
-          "url": "https://x.com/statementdog/status/2110208486110114004",
-          "timestamp": "2026-10-14T11:18:03.000+08:00",
-          "interaction": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
       "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 121,
+      "competitor_count": 5,
+      "competitor_engagement": 286,
       "competitors_covering": [
         "SemiAnalysis_",
+        "nvidianewsroom",
         "statementdog"
       ],
       "sample_posts": [
@@ -171,7 +109,23 @@
           "text": "ALERT🚨: NVIDIA SGLANG INFERENCE RUBIN IS 4.23x BETTER 🚀 PERF PER DOLLAR THAN EVEN GB300 NVL72. This is on the widely used production LLM engine called  @sgl_project . (1/2)🧵",
           "url": "https://x.com/SemiAnalysis_/status/2110203976293466498",
           "timestamp": "2026-10-14T11:00:08.000+08:00",
-          "interaction": 114
+          "interaction": 183
+        },
+        {
+          "handle": "nvidianewsroom",
+          "platform": "X",
+          "text": "NVIDIA is committing $250 million worth of computing access over five years to UK research on AI agent safety and security.  More computing power to test AI systems and develop safeguards as their capabilities grow.  Read the release:  https:// nvidianews.nvidia.com/news/nvidia-co mmits-250-million-",
+          "url": "https://x.com/nvidianewsroom/status/2110253256291098923",
+          "timestamp": "2026-10-14T14:15:57.000+08:00",
+          "interaction": 43
+        },
+        {
+          "handle": "nvidianewsroom",
+          "platform": "X",
+          "text": "NVIDIA is joining the  @EarthshotPrize  as a Global Alliance Founding Partner, bringing AI technology, computing resources, and engineering support to its Finalists.  The partnership will enable environmental leaders to model, test, and deploy solutions to address some of the",
+          "url": "https://x.com/nvidianewsroom/status/2110258028167549008",
+          "timestamp": "2026-10-14T14:34:55.000+08:00",
+          "interaction": 38
         },
         {
           "handle": "SemiAnalysis_",
@@ -179,7 +133,7 @@
           "text": "Currently, this is just an InferenceX Preview submission on the smaller Qwen3.8 Flash Next 180B model with 6B active, though we are excited for the full public SGLang Rubin NVL72 InferenceX submission coming soon, which will have larger models like the GLM5.3 series!  Great work",
           "url": "https://x.com/SemiAnalysis_/status/2110203978369601646",
           "timestamp": "2026-10-14T11:00:08.000+08:00",
-          "interaction": 6
+          "interaction": 15
         },
         {
           "handle": "statementdog",
@@ -187,74 +141,57 @@
           "text": "KYEC, a Taiwanese chip-testing company, says its board has approved a prepayment agreement with Nvidia to support plans to build testing capacity in the US.  Under the agreement, Nvidia will make advance payments, while KYEC and its wholly owned US subsidiary, AeternZ",
           "url": "https://x.com/statementdog/status/2110212952674693533",
           "timestamp": "2026-10-14T11:35:48.000+08:00",
-          "interaction": 1
+          "interaction": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": "C",
+      "label": "ASIC / 自研晶片",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 11,
+      "competitors_covering": [
+        "statementdog"
+      ],
+      "sample_posts": [
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "CPO adoption will depend on how easily customers can monitor, cool and service the optical hardware. Wiwynn, Ayar Labs and GUC are testing those practical requirements in a working server.",
+          "url": "https://x.com/statementdog/status/2110249240962412616",
+          "timestamp": "2026-10-14T14:00:00.000+08:00",
+          "interaction": 5
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Marvell says its second-generation Alaska A 1.6T copper-link chip supports cable runs of more than six meters, twice the reach of its predecessor.  The digital signal processor (DSP) uses a 3nm process. Marvell lists its power consumption at 12.8 watts.  Marvell announced the",
+          "url": "https://x.com/statementdog/status/2110270739777790376",
+          "timestamp": "2026-10-14T15:25:25.000+08:00",
+          "interaction": 4
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "SK hynix has unveiled an SSD controller design that distributes routine storage tasks across about 100 small H-TPU processors, The Elec reports, citing an Oct. 12 presentation.  A general-purpose CPU handles more complex work, such as error recovery. SK hynix plans to use the",
+          "url": "https://x.com/statementdog/status/2110208486110114004",
+          "timestamp": "2026-10-14T11:18:03.000+08:00",
+          "interaction": 2
         }
       ]
     }
   ],
   "suggested_entry_points": [
     {
-      "cluster_id": "A",
-      "label": "記憶體 / HBM",
-      "own_count": 1,
-      "competitor_count": 5,
-      "competitor_engagement": 577,
-      "competitors_covering": [
-        "jukan05",
-        "tengyanAI",
-        "statementdog"
-      ],
-      "sample_posts": [
-        {
-          "handle": "jukan05",
-          "platform": "X",
-          "text": "Korean media report that a party affiliated with Michael Dell, founder and chairman of Dell Technologies, has been identified as the buyer of a stake in SK Inc., the holding company of SK Group, the parent conglomerate of SK hynix. SK Group chairman Chey Tae-won decided to sell",
-          "url": "https://x.com/jukan05/status/2110129209331097717",
-          "timestamp": "2026-10-14T06:03:02.000+08:00",
-          "interaction": 352
-        },
-        {
-          "handle": "jukan05",
-          "platform": "X",
-          "text": "From Nanya Technology’s earnings call:  Q: How likely is AI to drive a prolonged structural DRAM shortage? A: We believe this is highly likely. Long lead times for new fabs, equipment, and process transitions make it difficult to resolve the shortage through 2027 and into early",
-          "url": "https://x.com/jukan05/status/2110181190271738015",
-          "timestamp": "2026-10-14T09:29:35.000+08:00",
-          "interaction": 182
-        },
-        {
-          "handle": "tengyanAI",
-          "platform": "X",
-          "text": "elon didn't name anyone else, but the numbers line up with what he said about micron being \"reasonable\" and others \"extortionate\".  over the three quarters to june, samsung's own realized DRAM price rose ~4x. sk hynix's rose 2.5-3x.  micron set its long term deals up differently:",
-          "url": "https://x.com/tengyanAI/status/2110180947639615708",
-          "timestamp": "2026-10-14T09:28:37.000+08:00",
-          "interaction": 42
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "$AMAT  is targeting share gains and higher non-GAAP margins by 2030, with advanced logic, DRAM, packaging and services driving the plan.",
-          "url": "https://x.com/statementdog/status/2110217031299854705",
-          "timestamp": "2026-10-14T11:52:00.000+08:00",
-          "interaction": 1
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "SK hynix has unveiled an SSD controller design that distributes routine storage tasks across about 100 small H-TPU processors, The Elec reports, citing an Oct. 12 presentation.  A general-purpose CPU handles more complex work, such as error recovery. SK hynix plans to use the",
-          "url": "https://x.com/statementdog/status/2110208486110114004",
-          "timestamp": "2026-10-14T11:18:03.000+08:00",
-          "interaction": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
       "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 121,
+      "competitor_count": 5,
+      "competitor_engagement": 286,
       "competitors_covering": [
         "SemiAnalysis_",
+        "nvidianewsroom",
         "statementdog"
       ],
       "sample_posts": [
@@ -264,7 +201,23 @@
           "text": "ALERT🚨: NVIDIA SGLANG INFERENCE RUBIN IS 4.23x BETTER 🚀 PERF PER DOLLAR THAN EVEN GB300 NVL72. This is on the widely used production LLM engine called  @sgl_project . (1/2)🧵",
           "url": "https://x.com/SemiAnalysis_/status/2110203976293466498",
           "timestamp": "2026-10-14T11:00:08.000+08:00",
-          "interaction": 114
+          "interaction": 183
+        },
+        {
+          "handle": "nvidianewsroom",
+          "platform": "X",
+          "text": "NVIDIA is committing $250 million worth of computing access over five years to UK research on AI agent safety and security.  More computing power to test AI systems and develop safeguards as their capabilities grow.  Read the release:  https:// nvidianews.nvidia.com/news/nvidia-co mmits-250-million-",
+          "url": "https://x.com/nvidianewsroom/status/2110253256291098923",
+          "timestamp": "2026-10-14T14:15:57.000+08:00",
+          "interaction": 43
+        },
+        {
+          "handle": "nvidianewsroom",
+          "platform": "X",
+          "text": "NVIDIA is joining the  @EarthshotPrize  as a Global Alliance Founding Partner, bringing AI technology, computing resources, and engineering support to its Finalists.  The partnership will enable environmental leaders to model, test, and deploy solutions to address some of the",
+          "url": "https://x.com/nvidianewsroom/status/2110258028167549008",
+          "timestamp": "2026-10-14T14:34:55.000+08:00",
+          "interaction": 38
         },
         {
           "handle": "SemiAnalysis_",
@@ -272,7 +225,7 @@
           "text": "Currently, this is just an InferenceX Preview submission on the smaller Qwen3.8 Flash Next 180B model with 6B active, though we are excited for the full public SGLang Rubin NVL72 InferenceX submission coming soon, which will have larger models like the GLM5.3 series!  Great work",
           "url": "https://x.com/SemiAnalysis_/status/2110203978369601646",
           "timestamp": "2026-10-14T11:00:08.000+08:00",
-          "interaction": 6
+          "interaction": 15
         },
         {
           "handle": "statementdog",
@@ -280,15 +233,51 @@
           "text": "KYEC, a Taiwanese chip-testing company, says its board has approved a prepayment agreement with Nvidia to support plans to build testing capacity in the US.  Under the agreement, Nvidia will make advance payments, while KYEC and its wholly owned US subsidiary, AeternZ",
           "url": "https://x.com/statementdog/status/2110212952674693533",
           "timestamp": "2026-10-14T11:35:48.000+08:00",
-          "interaction": 1
+          "interaction": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": "C",
+      "label": "ASIC / 自研晶片",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 11,
+      "competitors_covering": [
+        "statementdog"
+      ],
+      "sample_posts": [
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "CPO adoption will depend on how easily customers can monitor, cool and service the optical hardware. Wiwynn, Ayar Labs and GUC are testing those practical requirements in a working server.",
+          "url": "https://x.com/statementdog/status/2110249240962412616",
+          "timestamp": "2026-10-14T14:00:00.000+08:00",
+          "interaction": 5
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Marvell says its second-generation Alaska A 1.6T copper-link chip supports cable runs of more than six meters, twice the reach of its predecessor.  The digital signal processor (DSP) uses a 3nm process. Marvell lists its power consumption at 12.8 watts.  Marvell announced the",
+          "url": "https://x.com/statementdog/status/2110270739777790376",
+          "timestamp": "2026-10-14T15:25:25.000+08:00",
+          "interaction": 4
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "SK hynix has unveiled an SSD controller design that distributes routine storage tasks across about 100 small H-TPU processors, The Elec reports, citing an Oct. 12 presentation.  A general-purpose CPU handles more complex work, such as error recovery. SK hynix plans to use the",
+          "url": "https://x.com/statementdog/status/2110208486110114004",
+          "timestamp": "2026-10-14T11:18:03.000+08:00",
+          "interaction": 2
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-10-14T04:32:54+08:00",
-    "end_utc": "2026-10-14T12:32:54+08:00",
-    "start_tw": "Oct 14, 04:32",
-    "end_tw": "Oct 14, 12:32"
+    "start_utc": "2026-10-14T08:25:46+08:00",
+    "end_utc": "2026-10-14T16:25:46+08:00",
+    "start_tw": "Oct 14, 08:25",
+    "end_tw": "Oct 14, 16:25"
   }
 }

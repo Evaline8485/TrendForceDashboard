@@ -1,73 +1,91 @@
 {
-  "generated_at": "2026-10-14T12:32:54+08:00",
+  "generated_at": "2026-10-14T16:25:46+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-14T08:32:54+08:00",
-    "end_utc": "2026-10-14T12:32:54+08:00",
-    "start_tw": "Oct 14, 08:32",
-    "end_tw": "Oct 14, 12:32"
+    "start_utc": "2026-10-14T12:25:46+08:00",
+    "end_utc": "2026-10-14T16:25:46+08:00",
+    "start_tw": "Oct 14, 12:25",
+    "end_tw": "Oct 14, 16:25"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 22,
+      "total_posts": 33,
       "sentiment_counts": {
-        "neutral": 6,
-        "positive": 9,
-        "negative": 7
+        "negative": 11,
+        "positive": 14,
+        "neutral": 8
       },
       "sentiment_share": {
-        "neutral": 0.273,
-        "positive": 0.409,
-        "negative": 0.318
+        "negative": 0.333,
+        "positive": 0.424,
+        "neutral": 0.242
       },
       "top_terms": [
-        "hynix",
-        "dram",
+        "asml",
         "equipment",
-        "extortionate",
-        "micron",
-        "samsung",
-        "nvidia",
-        "sglang",
-        "inference",
-        "rubin"
+        "raised",
+        "demand",
+        "hbm",
+        "prices",
+        "earnings",
+        "weekly",
+        "spot",
+        "dram"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 0,
-        "label": "hynix / sk / micron / samsung",
-        "heat": 68.1,
-        "volume": 3,
-        "engagement": 48,
+        "label": "asml / demand / installed / earnings",
+        "heat": 59.6,
+        "volume": 5,
+        "engagement": 98,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 2,
-        "label": "inference / sglang / rubin / nvl",
+        "label": "hynix / hbm / sk / equipment",
         "heat": 50.0,
         "volume": 2,
-        "engagement": 120,
+        "engagement": 500,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "nvidia / computing / global",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 81,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 3,
-        "label": "marine / le / eu / pen",
+        "label": "ukraine",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 27,
+        "engagement": 43,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "puts",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 97,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "其他（未分群，15 篇）",
+        "label": "其他（未分群，20 篇）",
         "heat": 10.0,
-        "volume": 15,
-        "engagement": 357,
+        "volume": 20,
+        "engagement": 781,
         "entities": [],
         "is_catchall": true
       }
@@ -75,8 +93,147 @@
     "named_entities": [],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-14T08:32:53.999994+08:00",
-        "bucket_end": "2026-10-14T08:50:02.571423+08:00",
+        "bucket_start": "2026-10-14T12:25:45.999994+08:00",
+        "bucket_end": "2026-10-14T12:42:54.571423+08:00",
+        "positive": 4,
+        "neutral": 2,
+        "negative": 2,
+        "positive_engagement": 80,
+        "neutral_engagement": 40,
+        "negative_engagement": 169,
+        "net_sentiment": 25.0,
+        "post_count": 8,
+        "engagement": 289,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "puts",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Germany puts Ukrainian ex-officer in the dock over Nord Stream sabotage",
+            "url": "https://x.com/FT/status/2110227317683331318",
+            "interaction": 91
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The global economy and the art of living dangerously",
+            "url": "https://x.com/FT/status/2110226180230054305",
+            "interaction": 78
+          }
+        ],
+        "net_sentiment_smoothed": -13.9,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-10-14T12:42:54.571423+08:00",
+        "bucket_end": "2026-10-14T13:00:03.142852+08:00",
+        "positive": 1,
+        "neutral": 2,
+        "negative": 1,
+        "positive_engagement": 133,
+        "neutral_engagement": 311,
+        "negative_engagement": 221,
+        "net_sentiment": 0.0,
+        "post_count": 4,
+        "engagement": 665,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "hynix / hbm / sk / equipment",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "LOCAL KOREAN MEDIA: SK HYNIX DELAYS HBM4 PACKAGING EQUIPMENT ORDERS UNTIL NEXT YEAR",
+            "url": "https://x.com/jukan05/status/2110230962328264986",
+            "interaction": 279
+          },
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "“Some speculate that SK hynix may have encountered technical issues in its HBM4 back-end processing. However, no direct link between the equipment investment schedule and product quality issues has be",
+            "url": "https://x.com/jukan05/status/2110231865084747868",
+            "interaction": 221
+          }
+        ],
+        "net_sentiment_smoothed": 14.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-14T13:00:03.142852+08:00",
+        "bucket_end": "2026-10-14T13:17:11.714281+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 2,
+        "positive_engagement": 0,
+        "neutral_engagement": 6,
+        "negative_engagement": 22,
+        "net_sentiment": -66.7,
+        "post_count": 3,
+        "engagement": 28,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "puts",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Celebrity lawyer accused of participating in ‘outright plunder’ of BHS",
+            "url": "https://x.com/FT/status/2110236197503066333",
+            "interaction": 12
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The battle over the AI-led future of banking has begun  https:// ft.trib.al/HTechDr  | opinion",
+            "url": "https://x.com/FT/status/2110234241942323270",
+            "interaction": 10
+          }
+        ],
+        "net_sentiment_smoothed": 11.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-14T13:17:11.714281+08:00",
+        "bucket_end": "2026-10-14T13:34:20.285710+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 25,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 25,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "Weekly Average Spot Price of #DRAM from #TrendForce.  📖 Related news:  https:// buff.ly/TMzbfOr 🔗 📊 For more on DRAM Price:  https:// buff.ly/4Fakgn2 🔗",
+            "url": "https://x.com/trendforce/status/2110241692024770768",
+            "interaction": 25
+          }
+        ],
+        "net_sentiment_smoothed": 16.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-14T13:34:20.285710+08:00",
+        "bucket_end": "2026-10-14T13:51:28.857139+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -92,95 +249,246 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-14T08:50:02.571423+08:00",
-        "bucket_end": "2026-10-14T09:07:11.142852+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 20,
-        "neutral_engagement": 15,
-        "negative_engagement": 0,
+        "bucket_start": "2026-10-14T13:51:28.857139+08:00",
+        "bucket_end": "2026-10-14T14:08:37.428568+08:00",
+        "positive": 3,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 76,
+        "neutral_engagement": 0,
+        "negative_engagement": 243,
         "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 35,
+        "post_count": 4,
+        "engagement": 319,
         "top_topics": [],
         "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Good morning, Asia. While you were sleeping, one of our most-read stories reported that around 7,730 investors had more than £1mn in their Isas at the end of April 2024, up from the 5,070 in the previ",
-            "url": "https://x.com/FT/status/2110173494788923607",
-            "interaction": 20
+            "text": "Kyiv’s attacks have disrupted services ranging from email and taxi apps to dating sites and even electronic key fobs for apartment buildings, exposing vulnerabilities created by Moscow’s drive to cent",
+            "url": "https://x.com/FT/status/2110250056196493357",
+            "interaction": 243
           },
           {
-            "handle": "FT",
+            "handle": "QQ_Timmy",
             "platform": "X",
-            "text": "Business backlash over sweeping halal rules in world’s biggest Muslim nation",
-            "url": "https://x.com/FT/status/2110175214470340931",
-            "interaction": 15
+            "text": "I. - Flexium (Tajun) - Kinwong (Jingwang) - SCC (Shennan) - SYTECH (Shengyi) - Taiflex (Taihong) - TTM - VGT (Sheng Hong)  II. - Amphenol (Amphenol) - Foxconn (Hon Hai) - Lead Wealth (Ling Yi) - LOTES",
+            "url": "https://x.com/QQ_Timmy/status/2110249492695986358",
+            "interaction": 53
           }
         ],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 50.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-14T09:07:11.142852+08:00",
-        "bucket_end": "2026-10-14T09:24:19.714281+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-14T09:24:19.714281+08:00",
-        "bucket_end": "2026-10-14T09:41:28.285710+08:00",
-        "positive": 0,
+        "bucket_start": "2026-10-14T14:08:37.428568+08:00",
+        "bucket_end": "2026-10-14T14:25:45.999997+08:00",
+        "positive": 1,
         "neutral": 1,
         "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 42,
-        "negative_engagement": 182,
-        "net_sentiment": -50.0,
-        "post_count": 2,
-        "engagement": 224,
+        "positive_engagement": 43,
+        "neutral_engagement": 18,
+        "negative_engagement": 15,
+        "net_sentiment": 0.0,
+        "post_count": 3,
+        "engagement": 76,
         "top_topics": [
           {
             "topic_id": 0,
-            "label": "hynix / sk / micron / samsung",
+            "label": "asml / demand / installed / earnings",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "nvidia / computing / global",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "jukan05",
+            "handle": "nvidianewsroom",
             "platform": "X",
-            "text": "From Nanya Technology’s earnings call:  Q: How likely is AI to drive a prolonged structural DRAM shortage? A: We believe this is highly likely. Long lead times for new fabs, equipment, and process tra",
-            "url": "https://x.com/jukan05/status/2110181190271738015",
-            "interaction": 182
+            "text": "NVIDIA is committing $250 million worth of computing access over five years to UK research on AI agent safety and security.  More computing power to test AI systems and develop safeguards as their cap",
+            "url": "https://x.com/nvidianewsroom/status/2110253256291098923",
+            "interaction": 43
           },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The rollout of 24-hour* trading  https:// ft.trib.al/51qv7EY  | opinion",
+            "url": "https://x.com/FT/status/2110252210571362565",
+            "interaction": 18
+          }
+        ],
+        "net_sentiment_smoothed": 50.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-14T14:25:45.999997+08:00",
+        "bucket_end": "2026-10-14T14:42:54.571426+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 38,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 38,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "nvidia / computing / global",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "nvidianewsroom",
+            "platform": "X",
+            "text": "NVIDIA is joining the  @EarthshotPrize  as a Global Alliance Founding Partner, bringing AI technology, computing resources, and engineering support to its Finalists.  The partnership will enable envir",
+            "url": "https://x.com/nvidianewsroom/status/2110258028167549008",
+            "interaction": 38
+          }
+        ],
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-14T14:42:54.571426+08:00",
+        "bucket_end": "2026-10-14T15:00:03.142855+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 5,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 5,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "asml / demand / installed / earnings",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "ASML is exploring ways to expand capacity in 2028 beyond the 30% increase it previously outlined for low-NA EUV and DUV immersion systems.  The Dutch lithography equipment maker said in its Oct. 14 ea",
+            "url": "https://x.com/statementdog/status/2110263408230810098",
+            "interaction": 5
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-14T15:00:03.142855+08:00",
+        "bucket_end": "2026-10-14T15:17:11.714284+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 46,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 46,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "asml / demand / installed / earnings",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "AI demand to exceed supply for 2 more years, says ASML",
+            "url": "https://x.com/FT/status/2110264685966528901",
+            "interaction": 46
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-14T15:17:11.714284+08:00",
+        "bucket_end": "2026-10-14T15:34:20.285713+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 4,
+        "neutral_engagement": 0,
+        "negative_engagement": 26,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 30,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Australian cigarettes are now the most expensive in the world as the country has tried to tax smoking into extinction. But has its war on nicotine backfired?  Nic Fildes examines how the policy has he",
+            "url": "https://x.com/FT/status/2110271237926596761",
+            "interaction": 26
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Marvell says its second-generation Alaska A 1.6T copper-link chip supports cable runs of more than six meters, twice the reach of its predecessor.  The digital signal processor (DSP) uses a 3nm proces",
+            "url": "https://x.com/statementdog/status/2110270739777790376",
+            "interaction": 4
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-14T15:34:20.285713+08:00",
+        "bucket_end": "2026-10-14T15:51:28.857142+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 4,
+        "neutral_engagement": 22,
+        "negative_engagement": 10,
+        "net_sentiment": 0.0,
+        "post_count": 3,
+        "engagement": 36,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "asml / demand / installed / earnings",
+            "count": 2
+          }
+        ],
+        "top_posts": [
           {
             "handle": "tengyanAI",
             "platform": "X",
-            "text": "elon didn't name anyone else, but the numbers line up with what he said about micron being \"reasonable\" and others \"extortionate\".  over the three quarters to june, samsung's own realized DRAM price r",
-            "url": "https://x.com/tengyanAI/status/2110180947639615708",
-            "interaction": 42
+            "text": "so  $ASML 's installed base revenue came in at €3.3B against a ~€2.9B guide.  Q2 beat by ~€0.3B. Q3 by ~€0.4B.  this is the line I said to watch.. system prices get locked in years ahead. ASML's CFO s",
+            "url": "https://x.com/tengyanAI/status/2110273825124597766",
+            "interaction": 22
+          },
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "#ASML raised its 2026 outlook for the 3rd time and warns demand will outrun supply in 2027–28. Bullish read-through for #TSMC’s earnings tomorrow.",
+            "url": "https://x.com/trendforce/status/2110275520898433052",
+            "interaction": 10
           }
         ],
         "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-14T09:41:28.285710+08:00",
-        "bucket_end": "2026-10-14T09:58:36.857139+08:00",
+        "bucket_start": "2026-10-14T15:51:28.857142+08:00",
+        "bucket_end": "2026-10-14T16:08:37.428571+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -192,291 +500,49 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -30.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-14T09:58:36.857139+08:00",
-        "bucket_end": "2026-10-14T10:15:45.428568+08:00",
+        "bucket_start": "2026-10-14T16:08:37.428571+08:00",
+        "bucket_end": "2026-10-14T16:25:46+08:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 47,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 47,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "A correspondent for a Japanese newspaper has been detained for allegedly spying, the first arrest of a foreign reporter in Russia since the release of The Wall Street Journal's Evan Gershkovich in 202",
-            "url": "https://x.com/FT/status/2110189562639024273",
-            "interaction": 47
-          }
-        ],
-        "net_sentiment_smoothed": -30.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-14T10:15:45.428568+08:00",
-        "bucket_end": "2026-10-14T10:32:53.999997+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-14T10:32:53.999997+08:00",
-        "bucket_end": "2026-10-14T10:50:02.571426+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -26.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-14T10:50:02.571426+08:00",
-        "bucket_end": "2026-10-14T11:07:11.142855+08:00",
-        "positive": 2,
         "neutral": 1,
         "negative": 0,
-        "positive_engagement": 120,
-        "neutral_engagement": 68,
-        "negative_engagement": 0,
-        "net_sentiment": 66.7,
-        "post_count": 3,
-        "engagement": 188,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "inference / sglang / rubin / nvl",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "SemiAnalysis_",
-            "platform": "X",
-            "text": "ALERT🚨: NVIDIA SGLANG INFERENCE RUBIN IS 4.23x BETTER 🚀 PERF PER DOLLAR THAN EVEN GB300 NVL72. This is on the widely used production LLM engine called  @sgl_project . (1/2)🧵",
-            "url": "https://x.com/SemiAnalysis_/status/2110203976293466498",
-            "interaction": 114
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "China’s exports surge 36% as AI-related shipments boom",
-            "url": "https://x.com/FT/status/2110204072225616109",
-            "interaction": 68
-          }
-        ],
-        "net_sentiment_smoothed": 13.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-14T11:07:11.142855+08:00",
-        "bucket_end": "2026-10-14T11:24:19.714284+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 33,
         "negative_engagement": 0,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "hynix / sk / micron / samsung",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "SK hynix has unveiled an SSD controller design that distributes routine storage tasks across about 100 small H-TPU processors, The Elec reports, citing an Oct. 12 presentation.  A general-purpose CPU ",
-            "url": "https://x.com/statementdog/status/2110208486110114004",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 23.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-14T11:24:19.714284+08:00",
-        "bucket_end": "2026-10-14T11:41:28.285713+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 1,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 1,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "KYEC, a Taiwanese chip-testing company, says its board has approved a prepayment agreement with Nvidia to support plans to build testing capacity in the US.  Under the agreement, Nvidia will make adva",
-            "url": "https://x.com/statementdog/status/2110212952674693533",
-            "interaction": 1
-          }
-        ],
-        "net_sentiment_smoothed": 23.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-14T11:41:28.285713+08:00",
-        "bucket_end": "2026-10-14T11:58:36.857142+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 1,
-        "neutral_engagement": 6,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 7,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "hynix / sk / micron / samsung",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "X",
-            "text": "💰 Musk calls some memory pricing “extortionate.” But how are Micron, Samsung and SK hynix locking in supply and prices? A closer look at the Big Three’s LTAs.",
-            "url": "https://x.com/trendforce/status/2110216618064363586",
-            "interaction": 6
-          },
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "$AMAT  is targeting share gains and higher non-GAAP margins by 2030, with advanced logic, DRAM, packaging and services driving the plan.",
-            "url": "https://x.com/statementdog/status/2110217031299854705",
-            "interaction": 1
-          }
-        ],
-        "net_sentiment_smoothed": 6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-14T11:58:36.857142+08:00",
-        "bucket_end": "2026-10-14T12:15:45.428571+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 2,
-        "neutral_engagement": 11,
-        "negative_engagement": 16,
         "net_sentiment": 0.0,
-        "post_count": 3,
-        "engagement": 29,
+        "post_count": 1,
+        "engagement": 33,
         "top_topics": [
           {
             "topic_id": 3,
-            "label": "marine / le / eu / pen",
-            "count": 2
+            "label": "ukraine",
+            "count": 1
           }
         ],
         "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
-            "text": "France’s Marine Le Pen gears up for fight with EU",
-            "url": "https://x.com/FT/status/2110221630660129233",
-            "interaction": 16
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Marine Le Pen, France's far-right leader and the frontrunner in April's elections, shows that her ambitions to transform the EU from within are undimmed  https:// ft.trib.al/QH0psO9",
-            "url": "https://x.com/FT/status/2110220768562847930",
-            "interaction": 11
+            "text": "Ukraine blindsided by Starlink restrictions and intelligence gaps during Russian attack",
+            "url": "https://x.com/FT/status/2110283669692727425",
+            "interaction": 33
           }
         ],
-        "net_sentiment_smoothed": 33.3,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-14T12:15:45.428571+08:00",
-        "bucket_end": "2026-10-14T12:32:54+08:00",
-        "positive": 2,
-        "neutral": 1,
-        "negative": 3,
-        "positive_engagement": 3,
-        "neutral_engagement": 5,
-        "negative_engagement": 12,
-        "net_sentiment": -16.7,
-        "post_count": 6,
-        "engagement": 20,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The global economy and the art of living dangerously",
-            "url": "https://x.com/FT/status/2110226180230054305",
-            "interaction": 10
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "How I used AI to become a chess grandmaster at 16",
-            "url": "https://x.com/FT/status/2110226190241812789",
-            "interaction": 5
-          }
-        ],
-        "net_sentiment_smoothed": 11.1,
-        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
         "topic_id": 0,
-        "label": "hynix / sk / micron / samsung",
+        "label": "asml / demand / installed / earnings",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -507,8 +573,20 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
+            "net_sentiment": 100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -522,16 +600,70 @@
       },
       {
         "topic_id": 2,
-        "label": "inference / sglang / rubin / nvl",
+        "label": "hynix / hbm / sk / equipment",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
+          {
             "net_sentiment": 0.0,
             "volume": 0
           },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "nvidia / computing / global",
+        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -558,7 +690,15 @@
           },
           {
             "net_sentiment": 100.0,
-            "volume": 2
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -584,7 +724,7 @@
       },
       {
         "topic_id": 3,
-        "label": "marine / le / eu / pen",
+        "label": "ukraine",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -635,8 +775,70 @@
             "volume": 0
           },
           {
-            "net_sentiment": -50.0,
-            "volume": 2
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "puts",
+        "cells": [
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -649,103 +851,129 @@
       {
         "handle": "TrendForce",
         "top_topic_id": 0,
-        "top_topic_label": "hynix / sk / micron / samsung",
+        "top_topic_label": "asml / demand / installed / earnings",
         "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
+        "post_count": 3,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 0,
+        "top_topic_label": "asml / demand / installed / earnings",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 1
       },
       {
         "handle": "tengyanAI",
         "top_topic_id": 0,
-        "top_topic_label": "hynix / sk / micron / samsung",
+        "top_topic_label": "asml / demand / installed / earnings",
         "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
+        "post_count": 2,
+        "unclustered_posts": 1
       },
       {
         "handle": "statementdog",
         "top_topic_id": 0,
-        "top_topic_label": "hynix / sk / micron / samsung",
+        "top_topic_label": "asml / demand / installed / earnings",
         "focus_share": 1.0,
         "post_count": 5,
         "unclustered_posts": 4
       },
       {
-        "handle": "SemiAnalysis_",
+        "handle": "jukan05",
         "top_topic_id": 2,
-        "top_topic_label": "inference / sglang / rubin / nvl",
+        "top_topic_label": "hynix / hbm / sk / equipment",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 0
       },
       {
-        "handle": "jukan05",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，15 篇）",
+        "handle": "nvidianewsroom",
+        "top_topic_id": 4,
+        "top_topic_label": "nvidia / computing / global",
         "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
+        "post_count": 2,
+        "unclustered_posts": 0
       },
       {
         "handle": "FT",
         "top_topic_id": 3,
-        "top_topic_label": "marine / le / eu / pen",
-        "focus_share": 1.0,
-        "post_count": 12,
-        "unclustered_posts": 10
+        "top_topic_label": "ukraine",
+        "focus_share": 0.4,
+        "post_count": 17,
+        "unclustered_posts": 12
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 2,
-        "label": "inference / sglang / rubin / nvl",
-        "total_engagement": 120,
+        "label": "hynix / hbm / sk / equipment",
+        "total_engagement": 500,
         "post_count": 2,
-        "top_account": "SemiAnalysis_",
-        "top_account_engagement": 120,
+        "top_account": "jukan05",
+        "top_account_engagement": 500,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "hynix / sk / micron / samsung",
-        "total_engagement": 48,
-        "post_count": 3,
-        "top_account": "tengyanAI",
-        "top_account_engagement": 42,
+        "label": "asml / demand / installed / earnings",
+        "total_engagement": 98,
+        "post_count": 5,
+        "top_account": "FT",
+        "top_account_engagement": 46,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "puts",
+        "total_engagement": 97,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 97,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "nvidia / computing / global",
+        "total_engagement": 81,
+        "post_count": 2,
+        "top_account": "nvidianewsroom",
+        "top_account_engagement": 81,
         "is_catchall": false
       },
       {
         "topic_id": 3,
-        "label": "marine / le / eu / pen",
-        "total_engagement": 27,
+        "label": "ukraine",
+        "total_engagement": 43,
         "post_count": 2,
         "top_account": "FT",
-        "top_account_engagement": 27,
+        "top_account_engagement": 43,
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "其他（未分群，15 篇）",
-        "total_engagement": 357,
-        "post_count": 15,
-        "top_account": "jukan05",
-        "top_account_engagement": 182,
+        "label": "其他（未分群，20 篇）",
+        "total_engagement": 781,
+        "post_count": 20,
+        "top_account": "FT",
+        "top_account_engagement": 617,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 12,
-          "likes": 381,
-          "engagement": 502,
-          "avg_engagement": 41.8
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 10,
-          "likes": 27,
-          "engagement": 50,
-          "avg_engagement": 5.0
+          "post_count": 33,
+          "likes": 1154,
+          "engagement": 1600,
+          "avg_engagement": 48.5
         },
         "evening": {
           "post_count": 0,
@@ -760,7 +988,7 @@
           "avg_engagement": 0.0
         }
       },
-      "peak_slot": "morning"
+      "peak_slot": "afternoon"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
