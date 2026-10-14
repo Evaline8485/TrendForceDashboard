@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-13T17:27:17+08:00",
+  "generated_at": "2026-10-14T06:00:11+08:00",
   "time_range": "1d",
   "window": {
-    "start_utc": "2026-10-12T17:27:17+08:00",
-    "end_utc": "2026-10-13T17:27:17+08:00",
-    "start_tw": "Oct 12, 17:27",
-    "end_tw": "Oct 13, 17:27"
+    "start_utc": "2026-10-13T06:00:11+08:00",
+    "end_utc": "2026-10-14T06:00:11+08:00",
+    "start_tw": "Oct 13, 06:00",
+    "end_tw": "Oct 14, 06:00"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 106,
+      "total_posts": 119,
       "sentiment_counts": {
-        "negative": 32,
-        "positive": 42,
-        "neutral": 32
+        "positive": 50,
+        "neutral": 38,
+        "negative": 31
       },
       "sentiment_share": {
-        "negative": 0.302,
-        "positive": 0.396,
-        "neutral": 0.302
+        "positive": 0.42,
+        "neutral": 0.319,
+        "negative": 0.261
       },
       "top_terms": [
         "更多",
@@ -27,18 +27,33 @@
         "看更",
         "查看更",
         "看更多",
+        "demand",
         "maia",
-        "dram",
-        "revenue",
-        "晶片",
-        "計畫"
+        "nvidia",
+        "valued",
+        "晶片"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 13,
+        "topic_id": 18,
+        "label": "nvidia / accelerator / customer / amd",
+        "heat": 90.0,
+        "volume": 6,
+        "engagement": 1042,
+        "entities": [
+          "輝達",
+          "美國",
+          "荷西",
+          "高峰",
+          "台灣"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
         "label": "標普",
-        "heat": 76.7,
+        "heat": 37.3,
         "volume": 2,
         "engagement": 881,
         "entities": [
@@ -47,45 +62,66 @@
         "is_catchall": false
       },
       {
-        "topic_id": 8,
-        "label": "nvidia / customer / feature / upstream",
-        "heat": 68.0,
+        "topic_id": 15,
+        "label": "dear / valued / notice / adjustment",
+        "heat": 19.1,
+        "volume": 4,
+        "engagement": 142,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "cpo / testing / mass / centers",
+        "heat": 15.6,
         "volume": 3,
-        "engagement": 497,
+        "engagement": 125,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 12,
-        "label": "microsoft / maia / hbm / inference",
-        "heat": 55.4,
-        "volume": 4,
-        "engagement": 80,
-        "entities": [],
+        "label": "maia / 微軟 / azure / microsoft",
+        "heat": 15.1,
+        "volume": 3,
+        "engagement": 113,
+        "entities": [
+          "微軟",
+          "台積電"
+        ],
         "is_catchall": false
       },
       {
-        "topic_id": 10,
-        "label": "copper / material / packaging / conductivity",
-        "heat": 41.8,
+        "topic_id": 20,
+        "label": "hbm / maia / microsoft / tsmc",
+        "heat": 13.6,
         "volume": 3,
-        "engagement": 162,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 18,
-        "label": "notice / dear / valued / customers",
-        "heat": 29.5,
-        "volume": 3,
-        "engagement": 55,
+        "engagement": 81,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "蘋果 / coo",
-        "heat": 27.8,
+        "label": "vs / tech / developing / export",
+        "heat": 13.3,
+        "volume": 3,
+        "engagement": 76,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "labs / don / product / valued",
+        "heat": 13.1,
+        "volume": 3,
+        "engagement": 73,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 16,
+        "label": "coo / 蘋果 / app",
+        "heat": 11.4,
         "volume": 3,
         "engagement": 45,
         "entities": [
@@ -98,59 +134,101 @@
         "is_catchall": false
       },
       {
-        "topic_id": 6,
-        "label": "tw",
-        "heat": 25.6,
+        "topic_id": 3,
+        "label": "tw / links",
+        "heat": 10.6,
         "volume": 3,
-        "engagement": 33,
+        "engagement": 34,
         "entities": [
           "馬斯克"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "server / memory / nt / ddr",
-        "heat": 25.6,
-        "volume": 3,
-        "engagement": 33,
+        "topic_id": 17,
+        "label": "dram / memory / architecture / cxmt",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 28,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 15,
-        "label": "微軟 / maia / azure",
-        "heat": 15.7,
+        "topic_id": 21,
+        "label": "coherent / multi / developing / components",
+        "heat": 10.0,
         "volume": 2,
-        "engagement": 108,
-        "entities": [
-          "微軟",
-          "台積電"
-        ],
+        "engagement": 30,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "copper / conventional / material / electrical",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 114,
+        "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 4,
-        "label": "quarter / dram / margin / rose",
-        "heat": 13.6,
+        "label": "firms / expectations / nanya / target",
+        "heat": 10.0,
         "volume": 2,
-        "engagement": 69,
+        "engagement": 204,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 11,
-        "label": "smartphone / lens / fiber / optical",
-        "heat": 13.5,
+        "topic_id": 22,
+        "label": "mediatek / yield / tsmc / mass",
+        "heat": 10.0,
         "volume": 2,
-        "engagement": 68,
+        "engagement": 144,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 17,
+        "topic_id": 7,
+        "label": "byd / platform",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 84,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 14,
+        "label": "hynix / samsung / sk / tsmc",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 167,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 19,
+        "label": "nt / rose / dram / prices",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 76,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "anthropic / openai",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 26,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
         "label": "chatgpt",
-        "heat": 11.2,
+        "heat": 10.0,
         "volume": 2,
         "engagement": 36,
         "entities": [
@@ -160,18 +238,22 @@
         "is_catchall": false
       },
       {
-        "topic_id": 9,
-        "label": "firms / reports / expectations / hikes",
-        "heat": 11.1,
+        "topic_id": 8,
+        "label": "台電",
+        "heat": 10.0,
         "volume": 2,
-        "engagement": 35,
-        "entities": [],
+        "engagement": 29,
+        "entities": [
+          "搶電大戰",
+          "中興",
+          "華城"
+        ],
         "is_catchall": false
       },
       {
-        "topic_id": 19,
+        "topic_id": 11,
         "label": "大立光",
-        "heat": 11.1,
+        "heat": 10.0,
         "volume": 2,
         "engagement": 34,
         "entities": [
@@ -184,75 +266,11 @@
         "is_catchall": false
       },
       {
-        "topic_id": 2,
-        "label": "台電",
-        "heat": 10.6,
-        "volume": 2,
-        "engagement": 29,
-        "entities": [
-          "搶電大戰",
-          "中興",
-          "華城"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
-        "label": "openai / anthropic",
-        "heat": 10.4,
-        "volume": 2,
-        "engagement": 26,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 7,
-        "label": "輝達 / ocp / nvidia",
-        "heat": 10.4,
-        "volume": 2,
-        "engagement": 26,
-        "entities": [
-          "輝達",
-          "美國",
-          "荷西",
-          "高峰",
-          "台灣"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 14,
-        "label": "dram / server / remain / consumer",
-        "heat": 10.0,
-        "volume": 1,
-        "engagement": 107,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 20,
-        "label": "amid / shortages / shortage / capacity",
-        "heat": 10.0,
-        "volume": 1,
-        "engagement": 23,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 16,
-        "label": "mediatek / yield / mass / expectations",
-        "heat": 10.0,
-        "volume": 1,
-        "engagement": 22,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
         "topic_id": 1,
-        "label": "其他（未分群，61 篇）",
+        "label": "其他（未分群，62 篇）",
         "heat": 10.0,
-        "volume": 61,
-        "engagement": 8147,
+        "volume": 62,
+        "engagement": 8298,
         "entities": [
           "馬斯克",
           "美國",
@@ -327,270 +345,31 @@
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-12T17:27:17.000006+08:00",
-        "bucket_end": "2026-10-12T19:10:08.428577+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 23,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 23,
-        "top_topics": [
-          {
-            "topic_id": 20,
-            "label": "amid / shortages / shortage / capacity",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "X",
-            "text": "Toshiba to double HDD production capacity amid devastating shortages. 📰 News Source:  https:// buff.ly/bvvAOMB",
-            "url": "https://x.com/trendforce/status/2109585097485615307",
-            "interaction": 23
-          }
-        ],
-        "net_sentiment_smoothed": -11.1,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-12T19:10:08.428577+08:00",
-        "bucket_end": "2026-10-12T20:52:59.857148+08:00",
+        "bucket_start": "2026-10-13T06:00:11.000006+08:00",
+        "bucket_end": "2026-10-13T07:43:02.428577+08:00",
         "positive": 4,
         "neutral": 2,
-        "negative": 0,
-        "positive_engagement": 51,
-        "neutral_engagement": 113,
-        "negative_engagement": 0,
-        "net_sentiment": 66.7,
-        "post_count": 6,
-        "engagement": 164,
-        "top_topics": [
-          {
-            "topic_id": 14,
-            "label": "dram / server / remain / consumer",
-            "count": 1
-          },
-          {
-            "topic_id": 9,
-            "label": "firms / reports / expectations / hikes",
-            "count": 1
-          },
-          {
-            "topic_id": 11,
-            "label": "smartphone / lens / fiber / optical",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "X",
-            "text": "Two components are telling us something about the consumer side.  For DRAM, suppliers are shifting more bit supply from PC DRAM toward server DRAM. Lead times remain Very Tight at 20 weeks against a b",
-            "url": "https://x.com/trendforce/status/2109615076571238741",
-            "interaction": 107
-          },
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "Genius Electronic Optical (3406 TT), a Taiwanese smartphone lens maker, has likely secured an order for fiber-optic connector ferrules, according to Nomura. The bank’s channel checks point to shipment",
-            "url": "https://x.com/statementdog/status/2109615370659365123",
-            "interaction": 18
-          }
-        ],
-        "net_sentiment_smoothed": 8.4,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-12T20:52:59.857148+08:00",
-        "bucket_end": "2026-10-12T22:35:51.285719+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 33,
-        "neutral_engagement": 0,
-        "negative_engagement": 5,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 38,
-        "top_topics": [
-          {
-            "topic_id": 5,
-            "label": "server / memory / nt / ddr",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "X",
-            "text": "#CPU prices are heating up as #TSMC raises foundry prices! #Intel's high-end Panther Lake reportedly faces 15–20% hikes, while #Qualcomm's Snapdragon X/X2 Elite see increases of around 10%.💡More:  htt",
-            "url": "https://x.com/trendforce/status/2109630319158550741",
-            "interaction": 33
-          },
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "Pegatron’s September revenue reached a record NT$214.75 billion, up 143.2% from August and 86.9% year over year, Anue reported on Oct. 8. AI server shipments and new handset launches helped drive the ",
-            "url": "https://x.com/statementdog/status/2109629658589458460",
-            "interaction": 5
-          }
-        ],
-        "net_sentiment_smoothed": 16.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-12T22:35:51.285719+08:00",
-        "bucket_end": "2026-10-13T00:18:42.714290+08:00",
-        "positive": 5,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 270,
-        "neutral_engagement": 0,
-        "negative_engagement": 12,
-        "net_sentiment": 66.7,
-        "post_count": 6,
-        "engagement": 282,
-        "top_topics": [
-          {
-            "topic_id": 10,
-            "label": "copper / material / packaging / conductivity",
-            "count": 1
-          },
-          {
-            "topic_id": 8,
-            "label": "nvidia / customer / feature / upstream",
-            "count": 1
-          },
-          {
-            "topic_id": 11,
-            "label": "smartphone / lens / fiber / optical",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "SemiAnalysis_",
-            "platform": "X",
-            "text": "As industry attention turns to substrates, Japanese and Taiwanese ASP charts look like they're telling completely different stories.  Japan pricing is increasing, but is not up nearly as sharply as th",
-            "url": "https://x.com/SemiAnalysis_/status/2109660707755077654",
-            "interaction": 108
-          },
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "Copper's Limit: In advanced packaging, the thermal conductivity of pure copper is approximately 400 W/m·K, which is gradually becoming insufficient to meet demands.  New Material Debuts: Cu/Diamond (c",
-            "url": "https://x.com/QQ_Timmy/status/2109678983700959719",
-            "interaction": 54
-          }
-        ],
-        "net_sentiment_smoothed": 56.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-13T00:18:42.714290+08:00",
-        "bucket_end": "2026-10-13T02:01:34.142861+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 116,
-        "neutral_engagement": 549,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 665,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "Meta Is Back",
-            "url": "https://x.com/jukan05/status/2109691320113770575",
-            "interaction": 549
-          },
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "Honestly, this is the first time I’ve come across a podcast like this—in more ways than one.",
-            "url": "https://x.com/jukan05/status/2109685012216033345",
-            "interaction": 116
-          }
-        ],
-        "net_sentiment_smoothed": 43.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-13T02:01:34.142861+08:00",
-        "bucket_end": "2026-10-13T03:44:25.571432+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 116,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 116,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "SemiAnalysis_",
-            "platform": "X",
-            "text": "BSPD breaks a lot of the toolbox used for yield, fault isolation, inspection. BSPD adds new challenges for teardowns too, but we're getting pretty good at it. We present: Wildcat Lake, Intel 18A.  Are",
-            "url": "https://x.com/SemiAnalysis_/status/2109720997888655601",
-            "interaction": 116
-          }
-        ],
-        "net_sentiment_smoothed": 46.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-13T03:44:25.571432+08:00",
-        "bucket_end": "2026-10-13T05:27:17.000003+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 33.6,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-13T05:27:17.000003+08:00",
-        "bucket_end": "2026-10-13T07:10:08.428574+08:00",
-        "positive": 3,
-        "neutral": 2,
         "negative": 2,
-        "positive_engagement": 38,
+        "positive_engagement": 80,
         "neutral_engagement": 49,
-        "negative_engagement": 158,
-        "net_sentiment": 14.3,
-        "post_count": 7,
-        "engagement": 245,
+        "negative_engagement": 164,
+        "net_sentiment": 25.0,
+        "post_count": 8,
+        "engagement": 293,
         "top_topics": [
           {
-            "topic_id": 10,
-            "label": "copper / material / packaging / conductivity",
+            "topic_id": 13,
+            "label": "copper / conventional / material / electrical",
             "count": 2
           },
           {
-            "topic_id": 12,
-            "label": "microsoft / maia / hbm / inference",
-            "count": 2
+            "topic_id": 7,
+            "label": "byd / platform",
+            "count": 1
           },
           {
-            "topic_id": 5,
-            "label": "server / memory / nt / ddr",
+            "topic_id": 19,
+            "label": "nt / rose / dram / prices",
             "count": 1
           }
         ],
@@ -600,7 +379,7 @@
             "platform": "X",
             "text": "HVLP (High Very Low Profile) is an electrodeposited copper foil engineered with an extraordinarily smooth bonding surface on the side that attaches to the resin or dielectric layer, departing from the",
             "url": "https://x.com/SemiAnalysis_/status/2109781638322299135",
-            "interaction": 101
+            "interaction": 107
           },
           {
             "handle": "dnystedt",
@@ -610,35 +389,35 @@
             "interaction": 57
           }
         ],
-        "net_sentiment_smoothed": 17.4,
+        "net_sentiment_smoothed": 6.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-13T07:10:08.428574+08:00",
-        "bucket_end": "2026-10-13T08:52:59.857145+08:00",
+        "bucket_start": "2026-10-13T07:43:02.428577+08:00",
+        "bucket_end": "2026-10-13T09:25:53.857148+08:00",
         "positive": 10,
         "neutral": 9,
         "negative": 9,
-        "positive_engagement": 805,
+        "positive_engagement": 839,
         "neutral_engagement": 1410,
         "negative_engagement": 2267,
         "net_sentiment": 3.6,
         "post_count": 28,
-        "engagement": 4482,
+        "engagement": 4516,
         "top_topics": [
           {
-            "topic_id": 19,
+            "topic_id": 11,
             "label": "大立光",
             "count": 2
           },
           {
-            "topic_id": 13,
+            "topic_id": 2,
             "label": "標普",
             "count": 2
           },
           {
-            "topic_id": 9,
-            "label": "firms / reports / expectations / hikes",
+            "topic_id": 22,
+            "label": "mediatek / yield / tsmc / mass",
             "count": 1
           }
         ],
@@ -658,34 +437,34 @@
             "interaction": 772
           }
         ],
-        "net_sentiment_smoothed": 5.4,
-        "is_anomaly": true
+        "net_sentiment_smoothed": 15.4,
+        "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-13T08:52:59.857145+08:00",
-        "bucket_end": "2026-10-13T10:35:51.285716+08:00",
-        "positive": 4,
-        "neutral": 12,
-        "negative": 13,
-        "positive_engagement": 133,
-        "neutral_engagement": 1502,
-        "negative_engagement": 1637,
-        "net_sentiment": -31.0,
-        "post_count": 29,
-        "engagement": 3272,
+        "bucket_start": "2026-10-13T09:25:53.857148+08:00",
+        "bucket_end": "2026-10-13T11:08:45.285719+08:00",
+        "positive": 10,
+        "neutral": 17,
+        "negative": 14,
+        "positive_engagement": 1151,
+        "neutral_engagement": 2042,
+        "negative_engagement": 1651,
+        "net_sentiment": -9.8,
+        "post_count": 41,
+        "engagement": 4844,
         "top_topics": [
           {
-            "topic_id": 15,
-            "label": "微軟 / maia / azure",
+            "topic_id": 12,
+            "label": "maia / 微軟 / azure / microsoft",
             "count": 2
           },
           {
-            "topic_id": 3,
-            "label": "openai / anthropic",
+            "topic_id": 5,
+            "label": "anthropic / openai",
             "count": 2
           },
           {
-            "topic_id": 17,
+            "topic_id": 10,
             "label": "chatgpt",
             "count": 2
           }
@@ -699,175 +478,789 @@
             "interaction": 1187
           },
           {
-            "handle": "technewsinside",
-            "platform": "Facebook",
-            "text": "南亞科預期 Q4 毛利率仍有上升空間！\n#DRAM缺貨潮延續南亞科看好Q4毛利率再迎高峰ASIC專案已少量出貨\n…… \n查看更多",
-            "url": "https://www.facebook.com/reel/1583663873443857/?__cft__[0]=AZi1LMfb2h1GkrKoNV2puUX7d2mw7Ezkpesvfo-y2_6J3KOe9oiucLe1uKl_FUQnYMNDAtehTUZr1ovUAxqp0eT99z1y88RM6I0ZoITWJ9BklpPff5UJGPlObaVG3U03kaxyQoBiA-TQBsmBvMrMnLlOEO-B1gWGGxn0SSTOZ9-iJIQWAjw8NwovYJC0oc90YZbDR04",
-            "interaction": 568
-          }
-        ],
-        "net_sentiment_smoothed": 5.4,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-10-13T10:35:51.285716+08:00",
-        "bucket_end": "2026-10-13T12:18:42.714287+08:00",
-        "positive": 8,
-        "neutral": 5,
-        "negative": 2,
-        "positive_engagement": 533,
-        "neutral_engagement": 540,
-        "negative_engagement": 30,
-        "net_sentiment": 40.0,
-        "post_count": 15,
-        "engagement": 1103,
-        "top_topics": [
-          {
-            "topic_id": 18,
-            "label": "notice / dear / valued / customers",
-            "count": 3
-          },
-          {
-            "topic_id": 12,
-            "label": "microsoft / maia / hbm / inference",
-            "count": 2
-          },
-          {
-            "topic_id": 8,
-            "label": "nvidia / customer / feature / upstream",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "ctee.fans",
-            "platform": "Facebook",
-            "text": "【台股總統牌來了！法人點名17檔指標股 看下一波行情從50K開始】…… \n查看更多",
-            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0CGvre3kQgmLtWp33rY19MD8yswmof3AXKJz4Pt2ZUaorg18ZizDYk5SUsmYqtB7gl?__cft__[0]=AZhjlr9Mva7w9kcYQeVkpCxI2qNkw3hVQeRdYhwfhm_qVgataiTfWGr1by-4rCK91xKu0ppuWAPm-JD011guOP48mx3k7puyBXNhYP717tjC4L4naEqCFe3UuU0XeZ4xzePHrUjw6LY7H__jlvbqG46iRC7GUlZqmIssxBvVMnWPyu3sWf0Lie2j9Jo",
-            "interaction": 474
-          },
-          {
             "handle": "SemiAnalysis_",
             "platform": "X",
             "text": "ALERT🚨: AMD JUST LANDED SUPPORT FOR MEGAKERNEL DECODE IN UPSTREAM VLLM WELL BEFORE NVIDIA. This marks one of the first times that a major vLLM feature is only supported on ROCm and not on CUDA yet.  M",
             "url": "https://x.com/SemiAnalysis_/status/2109841575547211955",
-            "interaction": 431
+            "interaction": 727
           }
         ],
-        "net_sentiment_smoothed": 6.5,
-        "is_anomaly": false
+        "net_sentiment_smoothed": 19.0,
+        "is_anomaly": true
       },
       {
-        "bucket_start": "2026-10-13T12:18:42.714287+08:00",
-        "bucket_end": "2026-10-13T14:01:34.142858+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 9,
-        "neutral_engagement": 0,
-        "negative_engagement": 8,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 17,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "Lead times for ESI’s laser drilling systems now exceed 18 months as substrate makers expand capacity for AI chips, DIGITIMES reports. The MKS  $MKSI  unit is already in talks over orders for delivery ",
-            "url": "https://x.com/statementdog/status/2109883367831597102",
-            "interaction": 9
-          },
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "The US International Trade Commission opened an investigation on Oct. 9 following a patent complaint by Vicor. The case covers vertical power-delivery components and the computing systems that use the",
-            "url": "https://x.com/statementdog/status/2109869488833524104",
-            "interaction": 8
-          }
-        ],
-        "net_sentiment_smoothed": 25.8,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-13T14:01:34.142858+08:00",
-        "bucket_end": "2026-10-13T15:44:25.571429+08:00",
-        "positive": 3,
+        "bucket_start": "2026-10-13T11:08:45.285719+08:00",
+        "bucket_end": "2026-10-13T12:51:36.714290+08:00",
+        "positive": 5,
         "neutral": 0,
         "negative": 2,
-        "positive_engagement": 45,
+        "positive_engagement": 144,
         "neutral_engagement": 0,
-        "negative_engagement": 47,
-        "net_sentiment": 20.0,
-        "post_count": 5,
-        "engagement": 92,
+        "negative_engagement": 30,
+        "net_sentiment": 42.9,
+        "post_count": 7,
+        "engagement": 174,
         "top_topics": [
           {
-            "topic_id": 8,
-            "label": "nvidia / customer / feature / upstream",
+            "topic_id": 15,
+            "label": "dear / valued / notice / adjustment",
+            "count": 3
+          },
+          {
+            "topic_id": 20,
+            "label": "hbm / maia / microsoft / tsmc",
             "count": 1
           },
           {
             "topic_id": 6,
-            "label": "tw",
-            "count": 1
-          },
-          {
-            "topic_id": 16,
-            "label": "mediatek / yield / mass / expectations",
+            "label": "labs / don / product / valued",
             "count": 1
           }
         ],
         "top_posts": [
+          {
+            "handle": "tengyanAI",
+            "platform": "X",
+            "text": "so 0.00006% of the world's population get to see the future before the rest of us...  the other 99.9999% of us wait for the next model release and react to it  don't get me wrong.. i love what the lab",
+            "url": "https://x.com/tengyanAI/status/2109851222039736468",
+            "interaction": 51
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Guangdong Kingboard Laminate Co., Ltd.   Price Increase Notice    Dear Valued Customers:   We sincerely thank you for your long-term support of Kingboard!   Due to the strong market demand for thin fa",
+            "url": "https://x.com/QQ_Timmy/status/2109846187805458599",
+            "interaction": 45
+          }
+        ],
+        "net_sentiment_smoothed": 20.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-13T12:51:36.714290+08:00",
+        "bucket_end": "2026-10-13T14:34:28.142861+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 67,
+        "neutral_engagement": 0,
+        "negative_engagement": 44,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 111,
+        "top_topics": [
+          {
+            "topic_id": 22,
+            "label": "mediatek / yield / tsmc / mass",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "UBS MediaTek/EMIB-T   EMIB-T Execution Exceeds Expectations  - Ibiden yield improvement progress ahead of schedule, already reaching approximately 50% of mass production target.  Market's Main Concern",
+            "url": "https://x.com/QQ_Timmy/status/2109892893078958407",
+            "interaction": 58
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "ASIC Update: TPU v9 Timeline and v10 Opportunities  TPU v9 (Humufish) Timeline Update - Google Core A design delayed by about 3 weeks (suspected redesign), which in turn affects MTK's Core B and I/O. ",
+            "url": "https://x.com/QQ_Timmy/status/2109892137856680435",
+            "interaction": 44
+          }
+        ],
+        "net_sentiment_smoothed": 29.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-13T14:34:28.142861+08:00",
+        "bucket_end": "2026-10-13T16:17:19.571432+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 78,
+        "neutral_engagement": 0,
+        "negative_engagement": 29,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 107,
+        "top_topics": [
+          {
+            "topic_id": 18,
+            "label": "nvidia / accelerator / customer / amd",
+            "count": 1
+          },
+          {
+            "topic_id": 3,
+            "label": "tw / links",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "2449 King Yuan Electronics   115/10/13   Subject: Announcement of Board Resolution Approving the Signing of Customer Advance Payment Agreement with Customer    Description:   - Date of Occurrence: 115",
+            "url": "https://x.com/QQ_Timmy/status/2109896576219181297",
+            "interaction": 77
+          },
           {
             "handle": "HyperTechInvest",
             "platform": "X",
             "text": "2020 had Cathie Wood  2021 had Chamath  2022 had SBF  2023 had Michael Burry  2024 had Michael Saylor  2025 had Tom Lee  2026 had Leopold  Now we have Gavin Baker  Not sure how to feel about this, but",
             "url": "https://x.com/HyperTechInvest/status/2109907660418269610",
             "interaction": 29
-          },
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "2449 King Yuan Electronics   115/10/13   Subject: Announcement of Board Resolution Approving the Signing of Customer Advance Payment Agreement with Customer    Description:   - Date of Occurrence: 115",
-            "url": "https://x.com/QQ_Timmy/status/2109896576219181297",
-            "interaction": 23
           }
         ],
-        "net_sentiment_smoothed": 40.0,
+        "net_sentiment_smoothed": 51.9,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-13T15:44:25.571429+08:00",
-        "bucket_end": "2026-10-13T17:27:17+08:00",
+        "bucket_start": "2026-10-13T16:17:19.571432+08:00",
+        "bucket_end": "2026-10-13T18:00:11.000003+08:00",
+        "positive": 2,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 69,
+        "neutral_engagement": 28,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 4,
+        "engagement": 97,
+        "top_topics": [
+          {
+            "topic_id": 17,
+            "label": "dram / memory / architecture / cxmt",
+            "count": 2
+          },
+          {
+            "topic_id": 15,
+            "label": "dear / valued / notice / adjustment",
+            "count": 1
+          },
+          {
+            "topic_id": 6,
+            "label": "labs / don / product / valued",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Panasonic INDUSTRY Dear Valued Customer  October 2026 Panasonic Industry Co., Ltd. Electronic Materials Business Division, Sales Headquarters  Notification Regarding Adjustment of Electronic Circuit B",
+            "url": "https://x.com/QQ_Timmy/status/2109931625639481781",
+            "interaction": 54
+          },
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "A Vertical Channel Transistor (#VCT) architecture enables a transition from the current 6F² architecture to a smaller 4F² cell structure, significantly increasing #DRAM storage density per unit area. ",
+            "url": "https://x.com/trendforce/status/2109937131007475911",
+            "interaction": 26
+          }
+        ],
+        "net_sentiment_smoothed": 43.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-13T18:00:11.000003+08:00",
+        "bucket_end": "2026-10-13T19:43:02.428574+08:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 15,
+        "positive_engagement": 42,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 100.0,
         "post_count": 1,
-        "engagement": 15,
-        "top_topics": [],
-        "top_posts": [
+        "engagement": 42,
+        "top_topics": [
           {
-            "handle": "HyperTechInvest",
-            "platform": "X",
-            "text": "Anduril is valued at $100B and they don’t have a single battlefield-proven product  Yet they keep unveiling new products, and people treat them as the absolute leaders in defense  Shows how important ",
-            "url": "https://x.com/HyperTechInvest/status/2109929087469015477",
-            "interaction": 15
+            "topic_id": 7,
+            "label": "byd / platform",
+            "count": 1
           }
         ],
-        "net_sentiment_smoothed": 40.0,
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "BYD high end brands Sep retail sales: FangChengBao hit 37k including 27k for Tai-7, 5k Ta-3 & 3289 for Bao-5 Denza had 5000+ D9, 4045 N8L, 3743 Z9 & 990 N9",
+            "url": "https://x.com/tphuang/status/2109947536488210889",
+            "interaction": 42
+          }
+        ],
+        "net_sentiment_smoothed": 36.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-13T19:43:02.428574+08:00",
+        "bucket_end": "2026-10-13T21:25:53.857145+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 15,
+        "neutral_engagement": 24,
+        "negative_engagement": 107,
+        "net_sentiment": 0.0,
+        "post_count": 3,
+        "engagement": 146,
+        "top_topics": [
+          {
+            "topic_id": 21,
+            "label": "coherent / multi / developing / components",
+            "count": 1
+          },
+          {
+            "topic_id": 9,
+            "label": "cpo / testing / mass / centers",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "TrendForce: Optical Testing Platform Becomes Key to CPO Mass Production, Testing Equipment Supply Chain Landscape Set to Usher in New Shifts  AI data centers are driving demand for high-speed transmis",
+            "url": "https://x.com/QQ_Timmy/status/2109987269503598703",
+            "interaction": 107
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "BizLink (3665) Joins Open CPX MSA  What is Open CPX MSA?   An international organization established in March 2026 by Ciena, Coherent, Marvell, Molex, Samtec, TeraHop, and others, with the goal of dev",
+            "url": "https://x.com/QQ_Timmy/status/2109997281042939927",
+            "interaction": 24
+          }
+        ],
+        "net_sentiment_smoothed": 37.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-13T21:25:53.857145+08:00",
+        "bucket_end": "2026-10-13T23:08:45.285716+08:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 155,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 155,
+        "top_topics": [
+          {
+            "topic_id": 18,
+            "label": "nvidia / accelerator / customer / amd",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "As interposers and substrates approach their scaling limits, 2.5D packaging is moving toward 3.5D, with tighter D2D pitch, higher bandwidth density, and lower energy per bit to overcome reticle-driven",
+            "url": "https://x.com/SemiAnalysis_/status/2110023395949629847",
+            "interaction": 90
+          },
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "IDC's estimate on China's AI accelerator mkt in Chinese AI Data Center in 2026H1:  Take this for what you will, but it estimates 2m total chip & 33.8% for Nvidia & 28.5% for HW.  Some # here look very",
+            "url": "https://x.com/tphuang/status/2110007616709501382",
+            "interaction": 65
+          }
+        ],
+        "net_sentiment_smoothed": 47.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-13T23:08:45.285716+08:00",
+        "bucket_end": "2026-10-14T00:51:36.714287+08:00",
+        "positive": 4,
+        "neutral": 3,
+        "negative": 1,
+        "positive_engagement": 63,
+        "neutral_engagement": 193,
+        "negative_engagement": 11,
+        "net_sentiment": 37.5,
+        "post_count": 8,
+        "engagement": 267,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "vs / tech / developing / export",
+            "count": 2
+          },
+          {
+            "topic_id": 9,
+            "label": "cpo / testing / mass / centers",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "firms / expectations / nanya / target",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "The hotel’s breakfast restaurant has been fully booked out by sell-side firms, so I can’t even get breakfast…",
+            "url": "https://x.com/jukan05/status/2110035788843098248",
+            "interaction": 166
+          },
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "In light of the recent movement of CNY vs USD, I graphed it out vs a basket of global currencies going back to 2024/1, 2022/6 (when it started draconian lockdown) & 2015/1 (1st CNY hill).  In general,",
+            "url": "https://x.com/tphuang/status/2110034583282422223",
+            "interaction": 27
+          }
+        ],
+        "net_sentiment_smoothed": 40.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-14T00:51:36.714287+08:00",
+        "bucket_end": "2026-10-14T02:34:28.142858+08:00",
+        "positive": 4,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 228,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 4,
+        "engagement": 228,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "vs / tech / developing / export",
+            "count": 1
+          },
+          {
+            "topic_id": 18,
+            "label": "nvidia / accelerator / customer / amd",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "nvidianewsroom",
+            "platform": "X",
+            "text": "“We need to make sure that AI can be developed and deployed safely and securely.”   @JensenHuang  speaks to media in Paris about NVIDIA OpenShell.",
+            "url": "https://x.com/nvidianewsroom/status/2110060648021299624",
+            "interaction": 89
+          },
+          {
+            "handle": "nvidianewsroom",
+            "platform": "X",
+            "text": ". @JensenHuang  joined France’s AI community in Paris as the country expands its ability to build and run AI with its own data and expertise, putting that capability to work for businesses, researcher",
+            "url": "https://x.com/nvidianewsroom/status/2110062044468981816",
+            "interaction": 66
+          }
+        ],
+        "net_sentiment_smoothed": 40.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-14T02:34:28.142858+08:00",
+        "bucket_end": "2026-10-14T04:17:19.571429+08:00",
+        "positive": 4,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 842,
+        "neutral_engagement": 55,
+        "negative_engagement": 0,
+        "net_sentiment": 66.7,
+        "post_count": 6,
+        "engagement": 897,
+        "top_topics": [
+          {
+            "topic_id": 21,
+            "label": "coherent / multi / developing / components",
+            "count": 1
+          },
+          {
+            "topic_id": 18,
+            "label": "nvidia / accelerator / customer / amd",
+            "count": 1
+          },
+          {
+            "topic_id": 9,
+            "label": "cpo / testing / mass / centers",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Watching people freak out over CXMT's 4F² and claim that CXMT has caught up with Western memory technology is honestly laughable.  CXMT has hit the limits of DUV scaling. What it is trying to do is mo",
+            "url": "https://x.com/jukan05/status/2110081442579623979",
+            "interaction": 729
+          },
+          {
+            "handle": "nvidianewsroom",
+            "platform": "X",
+            "text": "Tonight Jensen met with President  @EmmanuelMacron  to discuss NVIDIA’s contribution to France’s thriving AI ecosystem through investments spanning startups, AI-native companies, and computing infrast",
+            "url": "https://x.com/nvidianewsroom/status/2110092314198626792",
+            "interaction": 72
+          }
+        ],
+        "net_sentiment_smoothed": 51.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-14T04:17:19.571429+08:00",
+        "bucket_end": "2026-10-14T06:00:11+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 55.6,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 12,
-        "label": "microsoft / maia / hbm / inference",
+        "topic_id": 18,
+        "label": "nvidia / accelerator / customer / amd",
         "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 15,
+        "label": "dear / valued / notice / adjustment",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 3
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 9,
+        "label": "cpo / testing / mass / centers",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 20,
+        "label": "hbm / maia / microsoft / tsmc",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "tw / links",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "vs / tech / developing / export",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -901,330 +1294,8 @@
             "volume": 2
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -50.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 8,
-        "label": "nvidia / customer / feature / upstream",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": 100.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 10,
-        "label": "copper / material / packaging / conductivity",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 6,
-        "label": "tw",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 18,
-        "label": "notice / dear / valued / customers",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 3
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 5,
-        "label": "server / memory / nt / ddr",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -1239,81 +1310,113 @@
     ],
     "coverage_focus_ranking": [
       {
+        "handle": "TrendForce.tw",
+        "top_topic_id": 9,
+        "top_topic_label": "cpo / testing / mass / centers",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
         "handle": "jukan05",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，61 篇）",
+        "top_topic_id": 4,
+        "top_topic_label": "firms / expectations / nanya / target",
         "focus_share": 1.0,
         "post_count": 2,
-        "unclustered_posts": 2
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "nvidianewsroom",
+        "top_topic_id": 18,
+        "top_topic_label": "nvidia / accelerator / customer / amd",
+        "focus_share": 1.0,
+        "post_count": 3,
+        "unclustered_posts": 1
       },
       {
         "handle": "HyperTechInvest",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，61 篇）",
+        "top_topic_id": 6,
+        "top_topic_label": "labs / don / product / valued",
         "focus_share": 1.0,
         "post_count": 2,
-        "unclustered_posts": 2
+        "unclustered_posts": 1
       },
       {
         "handle": "yutinghaosfinance",
-        "top_topic_id": 13,
+        "top_topic_id": 2,
         "top_topic_label": "標普",
         "focus_share": 1.0,
         "post_count": 11,
         "unclustered_posts": 9
       },
       {
-        "handle": "SemiAnalysis_",
-        "top_topic_id": 10,
-        "top_topic_label": "copper / material / packaging / conductivity",
+        "handle": "tengyanAI",
+        "top_topic_id": 14,
+        "top_topic_label": "hynix / samsung / sk / tsmc",
         "focus_share": 0.667,
-        "post_count": 6,
-        "unclustered_posts": 3
-      },
-      {
-        "handle": "dnystedt",
-        "top_topic_id": 12,
-        "top_topic_label": "microsoft / maia / hbm / inference",
-        "focus_share": 0.4,
-        "post_count": 5,
+        "post_count": 3,
         "unclustered_posts": 0
       },
       {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 13,
+        "top_topic_label": "copper / conventional / material / electrical",
+        "focus_share": 0.5,
+        "post_count": 6,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 0,
+        "top_topic_label": "vs / tech / developing / export",
+        "focus_share": 0.5,
+        "post_count": 10,
+        "unclustered_posts": 4
+      },
+      {
         "handle": "ctee.fans",
-        "top_topic_id": 19,
+        "top_topic_id": 11,
         "top_topic_label": "大立光",
         "focus_share": 0.4,
         "post_count": 22,
         "unclustered_posts": 17
       },
       {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 15,
+        "top_topic_label": "dear / valued / notice / adjustment",
+        "focus_share": 0.364,
+        "post_count": 15,
+        "unclustered_posts": 4
+      },
+      {
         "handle": "TrendForce",
-        "top_topic_id": 12,
-        "top_topic_label": "microsoft / maia / hbm / inference",
+        "top_topic_id": 9,
+        "top_topic_label": "cpo / testing / mass / centers",
         "focus_share": 0.333,
-        "post_count": 5,
-        "unclustered_posts": 2
+        "post_count": 4,
+        "unclustered_posts": 1
       },
       {
         "handle": "statementdog",
-        "top_topic_id": 5,
-        "top_topic_label": "server / memory / nt / ddr",
+        "top_topic_id": 17,
+        "top_topic_label": "dram / memory / architecture / cxmt",
         "focus_share": 0.333,
-        "post_count": 12,
-        "unclustered_posts": 6
+        "post_count": 6,
+        "unclustered_posts": 3
       },
       {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 18,
-        "top_topic_label": "notice / dear / valued / customers",
-        "focus_share": 0.3,
-        "post_count": 12,
-        "unclustered_posts": 2
+        "handle": "dnystedt",
+        "top_topic_id": 20,
+        "top_topic_label": "hbm / maia / microsoft / tsmc",
+        "focus_share": 0.25,
+        "post_count": 5,
+        "unclustered_posts": 1
       },
       {
         "handle": "technewsinside",
-        "top_topic_id": 15,
-        "top_topic_label": "微軟 / maia / azure",
+        "top_topic_id": 12,
+        "top_topic_label": "maia / 微軟 / azure / microsoft",
         "focus_share": 0.182,
         "post_count": 29,
         "unclustered_posts": 18
@@ -1321,7 +1424,16 @@
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 13,
+        "topic_id": 18,
+        "label": "nvidia / accelerator / customer / amd",
+        "total_engagement": 1042,
+        "post_count": 6,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 727,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
         "label": "標普",
         "total_engagement": 881,
         "post_count": 2,
@@ -1330,80 +1442,116 @@
         "is_catchall": false
       },
       {
-        "topic_id": 8,
-        "label": "nvidia / customer / feature / upstream",
-        "total_engagement": 497,
-        "post_count": 3,
-        "top_account": "SemiAnalysis_",
-        "top_account_engagement": 431,
+        "topic_id": 4,
+        "label": "firms / expectations / nanya / target",
+        "total_engagement": 204,
+        "post_count": 2,
+        "top_account": "jukan05",
+        "top_account_engagement": 166,
         "is_catchall": false
       },
       {
-        "topic_id": 10,
-        "label": "copper / material / packaging / conductivity",
-        "total_engagement": 162,
-        "post_count": 3,
-        "top_account": "SemiAnalysis_",
-        "top_account_engagement": 108,
+        "topic_id": 14,
+        "label": "hynix / samsung / sk / tsmc",
+        "total_engagement": 167,
+        "post_count": 2,
+        "top_account": "tengyanAI",
+        "top_account_engagement": 167,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "mediatek / yield / tsmc / mass",
+        "total_engagement": 144,
+        "post_count": 2,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 144,
         "is_catchall": false
       },
       {
         "topic_id": 15,
-        "label": "微軟 / maia / azure",
-        "total_engagement": 108,
+        "label": "dear / valued / notice / adjustment",
+        "total_engagement": 142,
+        "post_count": 4,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 142,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "cpo / testing / mass / centers",
+        "total_engagement": 125,
+        "post_count": 3,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 107,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "copper / conventional / material / electrical",
+        "total_engagement": 114,
         "post_count": 2,
+        "top_account": "SemiAnalysis_",
+        "top_account_engagement": 114,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "maia / 微軟 / azure / microsoft",
+        "total_engagement": 113,
+        "post_count": 3,
         "top_account": "technewsinside",
         "top_account_engagement": 108,
         "is_catchall": false
       },
       {
-        "topic_id": 14,
-        "label": "dram / server / remain / consumer",
-        "total_engagement": 107,
-        "post_count": 1,
-        "top_account": "TrendForce",
-        "top_account_engagement": 107,
+        "topic_id": 7,
+        "label": "byd / platform",
+        "total_engagement": 84,
+        "post_count": 2,
+        "top_account": "tphuang",
+        "top_account_engagement": 84,
         "is_catchall": false
       },
       {
-        "topic_id": 12,
-        "label": "microsoft / maia / hbm / inference",
-        "total_engagement": 80,
-        "post_count": 4,
+        "topic_id": 20,
+        "label": "hbm / maia / microsoft / tsmc",
+        "total_engagement": 81,
+        "post_count": 3,
         "top_account": "dnystedt",
-        "top_account_engagement": 53,
+        "top_account_engagement": 48,
         "is_catchall": false
       },
       {
-        "topic_id": 4,
-        "label": "quarter / dram / margin / rose",
-        "total_engagement": 69,
+        "topic_id": 0,
+        "label": "vs / tech / developing / export",
+        "total_engagement": 76,
+        "post_count": 3,
+        "top_account": "tphuang",
+        "top_account_engagement": 76,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 19,
+        "label": "nt / rose / dram / prices",
+        "total_engagement": 76,
         "post_count": 2,
         "top_account": "dnystedt",
         "top_account_engagement": 57,
         "is_catchall": false
       },
       {
-        "topic_id": 11,
-        "label": "smartphone / lens / fiber / optical",
-        "total_engagement": 68,
-        "post_count": 2,
-        "top_account": "QQ_Timmy",
-        "top_account_engagement": 50,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 18,
-        "label": "notice / dear / valued / customers",
-        "total_engagement": 55,
+        "topic_id": 6,
+        "label": "labs / don / product / valued",
+        "total_engagement": 73,
         "post_count": 3,
-        "top_account": "QQ_Timmy",
-        "top_account_engagement": 55,
+        "top_account": "tengyanAI",
+        "top_account_engagement": 51,
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "蘋果 / coo",
+        "topic_id": 16,
+        "label": "coo / 蘋果 / app",
         "total_engagement": 45,
         "post_count": 3,
         "top_account": "technewsinside",
@@ -1411,7 +1559,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 17,
+        "topic_id": 10,
         "label": "chatgpt",
         "total_engagement": 36,
         "post_count": 2,
@@ -1420,16 +1568,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 9,
-        "label": "firms / reports / expectations / hikes",
-        "total_engagement": 35,
-        "post_count": 2,
-        "top_account": "QQ_Timmy",
-        "top_account_engagement": 29,
+        "topic_id": 3,
+        "label": "tw / links",
+        "total_engagement": 34,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 32,
         "is_catchall": false
       },
       {
-        "topic_id": 19,
+        "topic_id": 11,
         "label": "大立光",
         "total_engagement": 34,
         "post_count": 2,
@@ -1438,25 +1586,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 6,
-        "label": "tw",
-        "total_engagement": 33,
-        "post_count": 3,
-        "top_account": "technewsinside",
-        "top_account_engagement": 32,
+        "topic_id": 21,
+        "label": "coherent / multi / developing / components",
+        "total_engagement": 30,
+        "post_count": 2,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 24,
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "server / memory / nt / ddr",
-        "total_engagement": 33,
-        "post_count": 3,
-        "top_account": "dnystedt",
-        "top_account_engagement": 26,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 2,
+        "topic_id": 8,
         "label": "台電",
         "total_engagement": 29,
         "post_count": 2,
@@ -1465,8 +1604,17 @@
         "is_catchall": false
       },
       {
-        "topic_id": 3,
-        "label": "openai / anthropic",
+        "topic_id": 17,
+        "label": "dram / memory / architecture / cxmt",
+        "total_engagement": 28,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 26,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "anthropic / openai",
         "total_engagement": 26,
         "post_count": 2,
         "top_account": "technewsinside",
@@ -1474,37 +1622,10 @@
         "is_catchall": false
       },
       {
-        "topic_id": 7,
-        "label": "輝達 / ocp / nvidia",
-        "total_engagement": 26,
-        "post_count": 2,
-        "top_account": "technewsinside",
-        "top_account_engagement": 14,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 20,
-        "label": "amid / shortages / shortage / capacity",
-        "total_engagement": 23,
-        "post_count": 1,
-        "top_account": "TrendForce",
-        "top_account_engagement": 23,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 16,
-        "label": "mediatek / yield / mass / expectations",
-        "total_engagement": 22,
-        "post_count": 1,
-        "top_account": "QQ_Timmy",
-        "top_account_engagement": 22,
-        "is_catchall": false
-      },
-      {
         "topic_id": 1,
-        "label": "其他（未分群，61 篇）",
-        "total_engagement": 8147,
-        "post_count": 61,
+        "label": "其他（未分群，62 篇）",
+        "total_engagement": 8298,
+        "post_count": 62,
         "top_account": "yutinghaosfinance",
         "top_account_engagement": 3193,
         "is_catchall": true
@@ -1513,28 +1634,28 @@
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 79,
-          "likes": 8973,
-          "engagement": 9102,
-          "avg_engagement": 115.2
+          "post_count": 84,
+          "likes": 9570,
+          "engagement": 9824,
+          "avg_engagement": 117.0
         },
         "afternoon": {
-          "post_count": 9,
-          "likes": 116,
-          "engagement": 126,
-          "avg_engagement": 14.0
+          "post_count": 11,
+          "likes": 296,
+          "engagement": 323,
+          "avg_engagement": 29.4
         },
         "evening": {
           "post_count": 13,
-          "likes": 331,
-          "engagement": 410,
-          "avg_engagement": 31.5
+          "likes": 520,
+          "engagement": 606,
+          "avg_engagement": 46.6
         },
         "late_night": {
-          "post_count": 5,
-          "likes": 781,
-          "engagement": 878,
-          "avg_engagement": 175.6
+          "post_count": 11,
+          "likes": 906,
+          "engagement": 1129,
+          "avg_engagement": 102.6
         }
       },
       "peak_slot": "morning"
