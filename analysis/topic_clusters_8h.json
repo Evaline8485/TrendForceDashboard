@@ -16,25 +16,86 @@
       }
     },
     {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 1,
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 3,
       "accounts": {
-        "jukan05": 1
+        "nvidianewsroom": 2,
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "jukan05": 729
+        "nvidianewsroom": 161,
+        "statementdog": 4
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 3,
+      "accounts": {
+        "FT": 3
+      },
+      "engagement_by_account": {
+        "FT": 621
+      }
+    },
+    {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 2,
+      "accounts": {
+        "jukan05": 1,
+        "tengyanAI": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 729,
+        "tengyanAI": 23
       }
     },
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 1,
+      "size": 2,
       "accounts": {
+        "HyperTechInvest": 1,
         "TrendForce.tw": 1
       },
       "engagement_by_account": {
+        "HyperTechInvest": 27,
         "TrendForce.tw": 14
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 1,
+      "accounts": {
+        "tengyanAI": 1
+      },
+      "engagement_by_account": {
+        "tengyanAI": 23
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 1,
+      "accounts": {
+        "HyperTechInvest": 1
+      },
+      "engagement_by_account": {
+        "HyperTechInvest": 27
+      }
+    },
+    {
+      "id": "Q",
+      "label": "機器人 / Robotics",
+      "size": 1,
+      "accounts": {
+        "FT": 1
+      },
+      "engagement_by_account": {
+        "FT": 45
       }
     },
     {
@@ -49,12 +110,160 @@
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "K",
+      "label": "AI 模型 / 應用",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 621,
+      "competitors_covering": [
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Breaking news: A Saudi national working for OpenAI has been arrested for allegedly planting a recording device in the company’s offices, after the ChatGPT maker reported them to the FBI.  https:// ft.trib.al/vJQjrmR",
+          "url": "https://x.com/FT/status/2110116133303201909",
+          "timestamp": "2026-10-14T05:11:04.000+08:00",
+          "interaction": 371
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "The developer of chatbot Claude warned that rogue 'AI worms' will soon be able to hijack smart devices such as ovens and TVs.  https:// ft.trib.al/j012nEx",
+          "url": "https://x.com/FT/status/2110031260177297413",
+          "timestamp": "2026-10-13T23:33:49.000+08:00",
+          "interaction": 188
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "US indicts Saudi employee of OpenAI for allegedly bugging its offices",
+          "url": "https://x.com/FT/status/2110115729559150865",
+          "timestamp": "2026-10-14T05:09:28.000+08:00",
+          "interaction": 62
+        }
+      ]
+    },
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 165,
+      "competitors_covering": [
+        "nvidianewsroom",
+        "statementdog"
+      ],
+      "sample_posts": [
+        {
+          "handle": "nvidianewsroom",
+          "platform": "X",
+          "text": "“We need to make sure that AI can be developed and deployed safely and securely.”   @JensenHuang  speaks to media in Paris about NVIDIA OpenShell.",
+          "url": "https://x.com/nvidianewsroom/status/2110060648021299624",
+          "timestamp": "2026-10-14T01:30:36.000+08:00",
+          "interaction": 89
+        },
+        {
+          "handle": "nvidianewsroom",
+          "platform": "X",
+          "text": "Tonight Jensen met with President  @EmmanuelMacron  to discuss NVIDIA’s contribution to France’s thriving AI ecosystem through investments spanning startups, AI-native companies, and computing infrastructure.  They also covered AI safety and our recently launched Open Agent Safety",
+          "url": "https://x.com/nvidianewsroom/status/2110092314198626792",
+          "timestamp": "2026-10-14T03:36:25.000+08:00",
+          "interaction": 72
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "AMD’s new Helion rack architecture is designed to let cloud operators dedicate CPU resources to running AI agents while handling model inference on separate systems.  The CPU-only configuration supports up to 32,768 EPYC cores per rack. An all-in-one version combines EPYC CPUs,",
+          "url": "https://x.com/statementdog/status/2110038839427555382",
+          "timestamp": "2026-10-14T00:03:56.000+08:00",
+          "interaction": 4
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "K",
+      "label": "AI 模型 / 應用",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 621,
+      "competitors_covering": [
+        "FT"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Breaking news: A Saudi national working for OpenAI has been arrested for allegedly planting a recording device in the company’s offices, after the ChatGPT maker reported them to the FBI.  https:// ft.trib.al/vJQjrmR",
+          "url": "https://x.com/FT/status/2110116133303201909",
+          "timestamp": "2026-10-14T05:11:04.000+08:00",
+          "interaction": 371
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "The developer of chatbot Claude warned that rogue 'AI worms' will soon be able to hijack smart devices such as ovens and TVs.  https:// ft.trib.al/j012nEx",
+          "url": "https://x.com/FT/status/2110031260177297413",
+          "timestamp": "2026-10-13T23:33:49.000+08:00",
+          "interaction": 188
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "US indicts Saudi employee of OpenAI for allegedly bugging its offices",
+          "url": "https://x.com/FT/status/2110115729559150865",
+          "timestamp": "2026-10-14T05:09:28.000+08:00",
+          "interaction": 62
+        }
+      ]
+    },
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 165,
+      "competitors_covering": [
+        "nvidianewsroom",
+        "statementdog"
+      ],
+      "sample_posts": [
+        {
+          "handle": "nvidianewsroom",
+          "platform": "X",
+          "text": "“We need to make sure that AI can be developed and deployed safely and securely.”   @JensenHuang  speaks to media in Paris about NVIDIA OpenShell.",
+          "url": "https://x.com/nvidianewsroom/status/2110060648021299624",
+          "timestamp": "2026-10-14T01:30:36.000+08:00",
+          "interaction": 89
+        },
+        {
+          "handle": "nvidianewsroom",
+          "platform": "X",
+          "text": "Tonight Jensen met with President  @EmmanuelMacron  to discuss NVIDIA’s contribution to France’s thriving AI ecosystem through investments spanning startups, AI-native companies, and computing infrastructure.  They also covered AI safety and our recently launched Open Agent Safety",
+          "url": "https://x.com/nvidianewsroom/status/2110092314198626792",
+          "timestamp": "2026-10-14T03:36:25.000+08:00",
+          "interaction": 72
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "AMD’s new Helion rack architecture is designed to let cloud operators dedicate CPU resources to running AI agents while handling model inference on separate systems.  The CPU-only configuration supports up to 32,768 EPYC cores per rack. An all-in-one version combines EPYC CPUs,",
+          "url": "https://x.com/statementdog/status/2110038839427555382",
+          "timestamp": "2026-10-14T00:03:56.000+08:00",
+          "interaction": 4
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-13T22:00:11+08:00",
-    "end_utc": "2026-10-14T06:00:11+08:00",
-    "start_tw": "Oct 13, 22:00",
-    "end_tw": "Oct 14, 06:00"
+    "start_utc": "2026-10-13T23:04:18+08:00",
+    "end_utc": "2026-10-14T07:04:18+08:00",
+    "start_tw": "Oct 13, 23:04",
+    "end_tw": "Oct 14, 07:04"
   }
 }
