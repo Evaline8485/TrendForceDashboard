@@ -1,64 +1,237 @@
 {
-  "generated_at": "2026-10-15T12:51:08+08:00",
+  "generated_at": "2026-10-16T10:17:00.773732+00:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-10-15T11:51:08+08:00",
-    "end_utc": "2026-10-15T12:51:08+08:00",
-    "start_tw": "Oct 15, 11:51",
-    "end_tw": "Oct 15, 12:51"
+    "start_utc": "2026-10-16T09:17:00.773732+00:00",
+    "end_utc": "2026-10-16T10:17:00.773732+00:00",
+    "start_tw": "Oct 16, 17:17",
+    "end_tw": "Oct 16, 18:17"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 14,
+      "total_posts": 65,
       "sentiment_counts": {
-        "neutral": 5,
-        "negative": 4,
-        "positive": 5
+        "positive": 30,
+        "neutral": 24,
+        "negative": 11
       },
       "sentiment_share": {
-        "neutral": 0.357,
-        "negative": 0.286,
-        "positive": 0.357
+        "positive": 0.462,
+        "neutral": 0.369,
+        "negative": 0.169
       },
       "top_terms": [
-        "refineries",
-        "investors",
-        "predict",
-        "carmakers",
-        "bet",
-        "nostalgia",
-        "evs",
-        "arm",
-        "pitch",
-        "aur"
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
+        "台積",
+        "積電",
+        "台積電",
+        "台股",
+        "外資"
       ]
     },
     "temperature_bar": [
       {
+        "topic_id": 8,
+        "label": "roadster",
+        "heat": 90.0,
+        "volume": 2,
+        "engagement": 7804,
+        "entities": [
+          "馬斯克",
+          "車子飛"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "cpo / 輝達",
+        "heat": 11.4,
+        "volume": 2,
+        "engagement": 150,
+        "entities": [
+          "輝達"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "輝達",
+        "heat": 10.9,
+        "volume": 2,
+        "engagement": 97,
+        "entities": [
+          "輝達",
+          "黃仁勳",
+          "美國"
+        ],
+        "is_catchall": false
+      },
+      {
         "topic_id": 0,
-        "label": "Misc topic 0",
-        "heat": 50.0,
-        "volume": 12,
-        "engagement": 79,
-        "entities": [],
+        "label": "台積電",
+        "heat": 10.6,
+        "volume": 2,
+        "engagement": 65,
+        "entities": [
+          "台積電",
+          "單季營",
+          "花旗",
+          "高盛"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "台股",
+        "heat": 10.6,
+        "volume": 2,
+        "engagement": 73,
+        "entities": [
+          "瑤池",
+          "陳釧瑤",
+          "三雄",
+          "美國",
+          "摩根士丹利"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "eps",
+        "heat": 10.6,
+        "volume": 2,
+        "engagement": 68,
+        "entities": [
+          "台積電",
+          "毛利",
+          "季增",
+          "長暨",
+          "魏哲家"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "nand",
+        "heat": 10.4,
+        "volume": 2,
+        "engagement": 49,
+        "entities": [
+          "SK海力士"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "美國陸軍",
+        "heat": 10.2,
+        "volume": 2,
+        "engagement": 30,
+        "entities": [
+          "美國陸軍",
+          "澳洲",
+          "雷射"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "高層 / 蘋果 / 而非競相推出模型 / 策略",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 11,
+        "entities": [
+          "特努斯"
+        ],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "refineries",
-        "heat": 50.0,
-        "volume": 2,
-        "engagement": 1187,
-        "entities": [],
-        "is_catchall": false
+        "label": "其他（未分群，47 篇）",
+        "heat": 10.0,
+        "volume": 47,
+        "engagement": 3895,
+        "entities": [
+          "台灣",
+          "魏哲家",
+          "台積電",
+          "賴清德",
+          "美國"
+        ],
+        "is_catchall": true
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "台積電",
+        "count": 12
+      },
+      {
+        "entity": "魏哲家",
+        "count": 6
+      },
+      {
+        "entity": "台灣",
+        "count": 6
+      },
+      {
+        "entity": "美國",
+        "count": 5
+      },
+      {
+        "entity": "輝達",
+        "count": 5
+      },
+      {
+        "entity": "賴清德",
+        "count": 5
+      },
+      {
+        "entity": "美國陸軍",
+        "count": 2
+      },
+      {
+        "entity": "SK海力士",
+        "count": 2
+      },
+      {
+        "entity": "特努斯",
+        "count": 2
+      },
+      {
+        "entity": "英特爾",
+        "count": 2
+      },
+      {
+        "entity": "伺服器",
+        "count": 2
+      },
+      {
+        "entity": "富世達",
+        "count": 2
+      },
+      {
+        "entity": "修正",
+        "count": 2
+      },
+      {
+        "entity": "華許",
+        "count": 2
+      },
+      {
+        "entity": "台北",
+        "count": 2
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-15T11:51:08.000002+08:00",
-        "bucket_end": "2026-10-15T11:55:25.142859+08:00",
+        "bucket_start": "2026-10-16T09:17:00.773734+00:00",
+        "bucket_end": "2026-10-16T09:21:17.916591+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -74,8 +247,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-15T11:55:25.142859+08:00",
-        "bucket_end": "2026-10-15T11:59:42.285716+08:00",
+        "bucket_start": "2026-10-16T09:21:17.916591+00:00",
+        "bucket_end": "2026-10-16T09:25:35.059448+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -87,12 +260,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 8.3,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-15T11:59:42.285716+08:00",
-        "bucket_end": "2026-10-15T12:03:59.428573+08:00",
+        "bucket_start": "2026-10-16T09:25:35.059448+00:00",
+        "bucket_end": "2026-10-16T09:29:52.202305+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -104,193 +277,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 26.7,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-15T12:03:59.428573+08:00",
-        "bucket_end": "2026-10-15T12:08:16.571430+08:00",
-        "positive": 1,
-        "neutral": 2,
-        "negative": 0,
-        "positive_engagement": 8,
-        "neutral_engagement": 5,
-        "negative_engagement": 0,
-        "net_sentiment": 33.3,
-        "post_count": 3,
-        "engagement": 13,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "Misc topic 0",
-            "count": 3
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "London’s gold market enjoys the Trump effect  https:// ft.trib.al/PFm84OW  | opinion",
-            "url": "https://x.com/FT/status/2110582973539971312",
-            "interaction": 8
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Inheritance tax toll is mounting on UK family companies  https:// ft.trib.al/iXw215C  | opinion",
-            "url": "https://x.com/FT/status/2110583245683171836",
-            "interaction": 4
-          }
-        ],
-        "net_sentiment_smoothed": 16.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-15T12:08:16.571430+08:00",
-        "bucket_end": "2026-10-15T12:12:33.714287+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 10,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 10,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "Misc topic 0",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Investor appetite for data centre IPOs is reaching its limit  https:// ft.trib.al/Hkbnt9B  | opinion",
-            "url": "https://x.com/FT/status/2110584282422944045",
-            "interaction": 10
-          }
-        ],
-        "net_sentiment_smoothed": 30.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-15T12:12:33.714287+08:00",
-        "bucket_end": "2026-10-15T12:16:50.857144+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 4,
-        "negative_engagement": 873,
-        "net_sentiment": -50.0,
-        "post_count": 2,
-        "engagement": 877,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "Misc topic 0",
-            "count": 1
-          },
-          {
-            "topic_id": 1,
-            "label": "refineries",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Ukraine to resume strikes on Russian refineries, Zelenskyy says",
-            "url": "https://x.com/FT/status/2110584771503866038",
-            "interaction": 873
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Is the K-shaped economy really more of an E?  https:// ft.trib.al/zt1FOkk  | opinion",
-            "url": "https://x.com/FT/status/2110584780177707420",
-            "interaction": 4
-          }
-        ],
-        "net_sentiment_smoothed": 10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-15T12:16:50.857144+08:00",
-        "bucket_end": "2026-10-15T12:21:08.000001+08:00",
-        "positive": 2,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 16,
-        "neutral_engagement": 5,
-        "negative_engagement": 0,
-        "net_sentiment": 66.7,
-        "post_count": 3,
-        "engagement": 21,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "Misc topic 0",
-            "count": 3
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Private credit funds target English football clubs with player-backed loans",
-            "url": "https://x.com/FT/status/2110585802535153700",
-            "interaction": 10
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Marsh to shoulder biggest chunk of Greensill settlement with Credit Suisse",
-            "url": "https://x.com/FT/status/2110586466485116980",
-            "interaction": 6
-          }
-        ],
-        "net_sentiment_smoothed": 3.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-15T12:21:08.000001+08:00",
-        "bucket_end": "2026-10-15T12:25:25.142858+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 314,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 314,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "refineries",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "‘The block [on attacking refineries] is out. We’re done,’ the Ukrainian president said in an interview with the FT in which he expressed anger at the ‘dangerous’ withdrawal of US intelligence sharing ",
-            "url": "https://x.com/FT/status/2110587707508367866",
-            "interaction": 314
-          }
-        ],
-        "net_sentiment_smoothed": -16.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-15T12:25:25.142858+08:00",
-        "bucket_end": "2026-10-15T12:29:42.285715+08:00",
+        "bucket_start": "2026-10-16T09:29:52.202305+00:00",
+        "bucket_end": "2026-10-16T09:34:09.345162+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -302,12 +294,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -6.7,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-15T12:29:42.285715+08:00",
-        "bucket_end": "2026-10-15T12:33:59.428572+08:00",
+        "bucket_start": "2026-10-16T09:34:09.345162+00:00",
+        "bucket_end": "2026-10-16T09:38:26.488019+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -319,117 +311,229 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-15T12:33:59.428572+08:00",
-        "bucket_end": "2026-10-15T12:38:16.571429+08:00",
-        "positive": 1,
+        "bucket_start": "2026-10-16T09:38:26.488019+00:00",
+        "bucket_end": "2026-10-16T09:42:43.630876+00:00",
+        "positive": 0,
         "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 3,
+        "negative": 0,
+        "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 3,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-16T09:42:43.630876+00:00",
+        "bucket_end": "2026-10-16T09:47:00.773733+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-16T09:47:00.773733+00:00",
+        "bucket_end": "2026-10-16T09:51:17.916590+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-16T09:51:17.916590+00:00",
+        "bucket_end": "2026-10-16T09:55:35.059447+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-16T09:55:35.059447+00:00",
+        "bucket_end": "2026-10-16T09:59:52.202304+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-16T09:59:52.202304+00:00",
+        "bucket_end": "2026-10-16T10:04:09.345161+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 10.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-16T10:04:09.345161+00:00",
+        "bucket_end": "2026-10-16T10:08:26.488018+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 10.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-16T10:08:26.488018+00:00",
+        "bucket_end": "2026-10-16T10:12:43.630875+00:00",
+        "positive": 20,
+        "neutral": 13,
+        "negative": 2,
+        "positive_engagement": 8306,
+        "neutral_engagement": 480,
+        "negative_engagement": 20,
+        "net_sentiment": 51.4,
+        "post_count": 35,
+        "engagement": 8806,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "Misc topic 0",
+            "topic_id": 5,
+            "label": "美國陸軍",
+            "count": 2
+          },
+          {
+            "topic_id": 4,
+            "label": "nand",
+            "count": 2
+          },
+          {
+            "topic_id": 6,
+            "label": "高層 / 蘋果 / 而非競相推出模型 / 策略",
             "count": 2
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Why the people matter more than the pitch for growth companies  https:// ft.trib.al/z25AUR7  | opinion",
-            "url": "https://x.com/FT/status/2110590522200826212",
-            "interaction": 3
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "Tesla Roadster 2 正式亮相！馬斯克讓跑車「原地起飛」",
+            "url": "https://www.facebook.com/reel/1636843297934119/?__cft__[0]=AZhr_6dVds0VWMQDj513dykw5oFzxua3dOqb37_tpib32FCbD1U3cXb2NhJpl-nfR0MZoYLtpZ7g4ghYRLCXeGg8pbUqIXdqwBmm6uXEpURLRQjgfjhGIZIM1kmIyQAMQMaN1C9EqRpX_eGg44_dFHAuitt_24TokWc_5oiKdvCGaBJwmlxxpznBrDa4O3itvtGuqIs",
+            "interaction": 7710
           },
           {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Want to guide your fortune from beyond the grave? Try a letter of wishes  https:// ft.trib.al/pDGDmBJ  | opinion",
-            "url": "https://x.com/FT/status/2110590522133774700",
-            "interaction": 0
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "台積電財報亮眼，外資紛紛喊買！\n#台積電第三季成績亮眼外資按讚最高目標價上看5000元\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid0YNRPfrqdc1oRaxnbJU9XoBrKuy3gg74HVLWokYS32TKrQBAe37KCnDZjtpHpwtaXl?__cft__[0]=AZhE1vRIMUk1Sc9NT3IOFZ3Sd6oGyHe_HrjfW4ZaVt5aXb7Ib9kYUk1eeoAEVBw13V-ILWQPyem-66bBJBRQo8sQBBg53fZmG6PlVhPZl8qyBfl_M7k8S1MrEH6bmJtRndOD2H3Fl_DztCylmAo5N-EqxqVYZ6x_gIHTMHMKintc5XsDjyR_rei3WwI",
+            "interaction": 242
           }
         ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
+        "net_sentiment_smoothed": 12.8,
+        "is_anomaly": true
       },
       {
-        "bucket_start": "2026-10-15T12:38:16.571429+08:00",
-        "bucket_end": "2026-10-15T12:42:33.714286+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
+        "bucket_start": "2026-10-16T10:12:43.630875+00:00",
+        "bucket_end": "2026-10-16T10:17:00.773732+00:00",
+        "positive": 9,
+        "neutral": 10,
+        "negative": 9,
+        "positive_engagement": 259,
+        "neutral_engagement": 179,
+        "negative_engagement": 222,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-15T12:42:33.714286+08:00",
-        "bucket_end": "2026-10-15T12:46:50.857143+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -25.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-15T12:46:50.857143+08:00",
-        "bucket_end": "2026-10-15T12:51:08+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 10,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 10,
+        "post_count": 28,
+        "engagement": 660,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "Misc topic 0",
+            "topic_id": 3,
+            "label": "台股",
+            "count": 2
+          },
+          {
+            "topic_id": 7,
+            "label": "eps",
+            "count": 2
+          },
+          {
+            "topic_id": 2,
+            "label": "輝達",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
-            "platform": "X",
-            "text": "EU carmakers bet on nostalgia to fight Chinese EVs",
-            "url": "https://x.com/FT/status/2110593721355907390",
-            "interaction": 10
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "總統賴清德今天（17日）本上午接受財經節目主持人游庭皓專訪指出，不因意識形態排除任何能源；核電須符合安全無虞、核廢有解、社會有共識，讓程序進行，交由專業判斷。他說明政府已將經濟成長與AI算力需求納入供電規劃。",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02FQeyu1HdRM5X4a9dEK2wPo9DktrrEf25hRZJjhpM8sgxP4h36WtbEeTSErnFH9UXl?__cft__[0]=AZi3xheYDNfWQzbcwnbik8xZko9oqy21HCGlBT4VfqcVufUoJAtM8qP3hLrJ_M14ZZTH1P-t4BXRH7ZqR0byEARZwEUcrxXujFS3ayMEPn01xMyc1xBvOw-OmBw0I8Tbr1vCMXbR0EpcU6Gm2KaYlz6lx2pXKwXzyoO4lChMtAac3vOHT9Ftnhx3nBI",
+            "interaction": 69
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "AI需求推升台積電營運天際線。台積電董事長暨總裁魏哲家15日強調，「台積電獲利沒有天花板」，儘管獲利能力不會一夕大幅提高，但第四季營收將再創高、先進製程與封裝產能供不應求帶動。法人預估，台積電今年全年每股稅後純益（EPS）突破百元，首度賺逾十個股本。",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid026b7eqi7Gw8QeBbWSajjHEHd8uCoZMBMjwNg3CRy2Ncr7mwpFjgkv8LPxLA9QpNdSl?__cft__[0]=AZjD8_Y7iQpDwm07WIUifVN2PUm2k5wY4iap0OWfcJyfFR5TU_U5VQ2QDztZWrFCsJGQwAjM9jNcqVgn0UFhMK6adcACrkgcehOhrWjEfOk_yxOKSlMYI84I_kSocwBQ5p2UkkYh5yH1lwXM08PK5CcK0kgwxdT-IvZCoiG3gsWlpWBMGS2ALxeP9ic",
+            "interaction": 51
           }
         ],
-        "net_sentiment_smoothed": -33.3,
-        "is_anomaly": false
+        "net_sentiment_smoothed": 17.1,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "Misc topic 0",
+        "topic_id": 5,
+        "label": "美國陸軍",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -444,20 +548,276 @@
             "volume": 0
           },
           {
-            "net_sentiment": 33.3,
-            "volume": 3
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "nand",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "輝達",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 100.0,
             "volume": 1
           },
           {
-            "net_sentiment": 0.0,
+            "net_sentiment": -100.0,
             "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "高層 / 蘋果 / 而非競相推出模型 / 策略",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
-            "net_sentiment": 66.7,
-            "volume": 3
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 9,
+        "label": "cpo / 輝達",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -478,20 +838,12 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
           }
         ]
       },
       {
-        "topic_id": 1,
-        "label": "refineries",
+        "topic_id": 0,
+        "label": "台積電",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -514,16 +866,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -544,6 +888,14 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -554,32 +906,120 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "FT",
-        "top_topic_id": 0,
-        "top_topic_label": "Misc topic 0",
-        "focus_share": 0.857,
-        "post_count": 14,
-        "unclustered_posts": 0
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，47 篇）",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 3,
+        "top_topic_label": "台股",
+        "focus_share": 0.4,
+        "post_count": 28,
+        "unclustered_posts": 23
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 5,
+        "top_topic_label": "美國陸軍",
+        "focus_share": 0.154,
+        "post_count": 35,
+        "unclustered_posts": 22
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "refineries",
-        "total_engagement": 1187,
+        "topic_id": 8,
+        "label": "roadster",
+        "total_engagement": 7804,
         "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 1187,
+        "top_account": "technewsinside",
+        "top_account_engagement": 7804,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "cpo / 輝達",
+        "total_engagement": 150,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 150,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "輝達",
+        "total_engagement": 97,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 50,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "台股",
+        "total_engagement": 73,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 73,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "eps",
+        "total_engagement": 68,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 68,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "Misc topic 0",
-        "total_engagement": 79,
-        "post_count": 12,
-        "top_account": "FT",
-        "top_account_engagement": 79,
+        "label": "台積電",
+        "total_engagement": 65,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 65,
         "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "nand",
+        "total_engagement": 49,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 49,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "美國陸軍",
+        "total_engagement": 30,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 30,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "高層 / 蘋果 / 而非競相推出模型 / 策略",
+        "total_engagement": 11,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 11,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，47 篇）",
+        "total_engagement": 3895,
+        "post_count": 47,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 2776,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
@@ -591,16 +1031,16 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 14,
-          "likes": 924,
-          "engagement": 1266,
-          "avg_engagement": 90.4
-        },
-        "evening": {
           "post_count": 0,
           "likes": 0,
           "engagement": 0,
           "avg_engagement": 0.0
+        },
+        "evening": {
+          "post_count": 65,
+          "likes": 12242,
+          "engagement": 12242,
+          "avg_engagement": 188.3
         },
         "late_night": {
           "post_count": 0,
@@ -609,7 +1049,7 @@
           "avg_engagement": 0.0
         }
       },
-      "peak_slot": "afternoon"
+      "peak_slot": "evening"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
