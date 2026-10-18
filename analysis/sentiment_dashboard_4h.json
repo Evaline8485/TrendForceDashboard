@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-18T01:37:01.655711+00:00",
+  "generated_at": "2026-10-18T12:27:01+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-17T21:37:01.655711+00:00",
-    "end_utc": "2026-10-18T01:37:01.655711+00:00",
-    "start_tw": "Oct 18, 05:37",
-    "end_tw": "Oct 18, 09:37"
+    "start_utc": "2026-10-18T08:27:01+08:00",
+    "end_utc": "2026-10-18T12:27:01+08:00",
+    "start_tw": "Oct 18, 08:27",
+    "end_tw": "Oct 18, 12:27"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 14,
+      "total_posts": 27,
       "sentiment_counts": {
-        "positive": 7,
-        "negative": 3,
-        "neutral": 4
+        "positive": 14,
+        "neutral": 9,
+        "negative": 4
       },
       "sentiment_share": {
-        "positive": 0.5,
-        "negative": 0.214,
-        "neutral": 0.286
+        "positive": 0.519,
+        "neutral": 0.333,
+        "negative": 0.148
       },
       "top_terms": [
         "查看",
@@ -36,30 +36,37 @@
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "賴清德總統談年輕人困境 / 賴清德總統談美光勞資爭議 / 賴清德總統談失聯移工問題 / 賴清德總統談核電立場",
+        "topic_id": 2,
+        "label": "blackstone / finance / anthropic",
         "heat": 90.0,
-        "volume": 13,
-        "engagement": 10551,
+        "volume": 1,
+        "engagement": 40,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "blackstone / anthropic / finance",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 3,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，25 篇）",
+        "heat": 10.0,
+        "volume": 25,
+        "engagement": 11522,
         "entities": [
           "賴清德",
           "台灣",
           "簡稱納",
           "寶劍",
-          "永遠寧"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "台股震盪加劇q / 檔成資金新焦點 / 怎麼辦 / 法人喊基本面",
-        "heat": 10.0,
-        "volume": 1,
-        "engagement": 23,
-        "entities": [
           "宜鼎"
         ],
-        "is_catchall": false
+        "is_catchall": true
       }
     ],
     "named_entities": [
@@ -114,8 +121,8 @@
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-17T21:37:01.655705+00:00",
-        "bucket_end": "2026-10-17T21:54:10.227134+00:00",
+        "bucket_start": "2026-10-18T08:27:00.999994+08:00",
+        "bucket_end": "2026-10-18T08:44:09.571423+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -127,12 +134,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-17T21:54:10.227134+00:00",
-        "bucket_end": "2026-10-17T22:11:18.798563+00:00",
+        "bucket_start": "2026-10-18T08:44:09.571423+08:00",
+        "bucket_end": "2026-10-18T09:01:18.142852+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -144,199 +151,50 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 35.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-17T22:11:18.798563+00:00",
-        "bucket_end": "2026-10-17T22:28:27.369992+00:00",
-        "positive": 0,
+        "bucket_start": "2026-10-18T09:01:18.142852+08:00",
+        "bucket_end": "2026-10-18T09:18:26.714281+08:00",
+        "positive": 2,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 710,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 710,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "blackstone / anthropic / finance",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "BREAKING NEWS🚨: NVIDIA has just achieved 423 tok/s/user 🚀 on the 2.8T Parameter Kimi K3 model via a new upstream vLLM optimization. 1.68x Faster on the Same Hardware!  This was done by NVIDIA CentML's",
+            "url": "https://x.com/SemiAnalysis_/status/2111627094878790023",
+            "interaction": 707
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Anthropic is offering Blackstone a yield above 10% to help finance a chip deal, according to a Financial Times report cited by Reuters.  Funds managed by Blackstone would invest $9 billion in debt bac",
+            "url": "https://x.com/statementdog/status/2111625985833726176",
+            "interaction": 3
+          }
+        ],
+        "net_sentiment_smoothed": 33.5,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-17T22:28:27.369992+00:00",
-        "bucket_end": "2026-10-17T22:45:35.941421+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-17T22:45:35.941421+00:00",
-        "bucket_end": "2026-10-17T23:02:44.512850+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-17T23:02:44.512850+00:00",
-        "bucket_end": "2026-10-17T23:19:53.084279+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-17T23:19:53.084279+00:00",
-        "bucket_end": "2026-10-17T23:37:01.655708+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-17T23:37:01.655708+00:00",
-        "bucket_end": "2026-10-17T23:54:10.227137+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-17T23:54:10.227137+00:00",
-        "bucket_end": "2026-10-18T00:11:18.798566+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-18T00:11:18.798566+00:00",
-        "bucket_end": "2026-10-18T00:28:27.369995+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-18T00:28:27.369995+00:00",
-        "bucket_end": "2026-10-18T00:45:35.941424+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-18T00:45:35.941424+00:00",
-        "bucket_end": "2026-10-18T01:02:44.512853+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 8.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-18T01:02:44.512853+00:00",
-        "bucket_end": "2026-10-18T01:19:53.084282+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-18T01:19:53.084282+00:00",
-        "bucket_end": "2026-10-18T01:37:01.655711+00:00",
+        "bucket_start": "2026-10-18T09:18:26.714281+08:00",
+        "bucket_end": "2026-10-18T09:35:35.285710+08:00",
         "positive": 3,
         "neutral": 1,
         "negative": 1,
@@ -346,18 +204,7 @@
         "net_sentiment": 40.0,
         "post_count": 5,
         "engagement": 45,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "賴清德總統談年輕人困境 / 賴清德總統談美光勞資爭議 / 賴清德總統談失聯移工問題 / 賴清德總統談核電立場",
-            "count": 4
-          },
-          {
-            "topic_id": 1,
-            "label": "台股震盪加劇q / 檔成資金新焦點 / 怎麼辦 / 法人喊基本面",
-            "count": 1
-          }
-        ],
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "ctee.fans",
@@ -374,14 +221,251 @@
             "interaction": 9
           }
         ],
-        "net_sentiment_smoothed": 13.3,
+        "net_sentiment_smoothed": 33.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-18T09:35:35.285710+08:00",
+        "bucket_end": "2026-10-18T09:52:43.857139+08:00",
+        "positive": 5,
+        "neutral": 4,
+        "negative": 2,
+        "positive_engagement": 4019,
+        "neutral_engagement": 3633,
+        "negative_engagement": 3024,
+        "net_sentiment": 27.3,
+        "post_count": 11,
+        "engagement": 10676,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "blackstone / finance / anthropic",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "yutinghaosfinance",
+            "platform": "Facebook",
+            "text": "台灣人口僅2300萬人，出口規模卻即將超越日本。主計總處預估，2026年出口將達9,036億美元，經濟成長率達11.05%，政府期待，台灣全球出口排名能從去年第12名，躍升至第5名，領先日韓等國。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0hn332rmsRBqPKWxxgkBbfWWgpo38CNsw3VjYCPHUhFqveZYkQQDwPQh4Ce2EgTB8l?__cft__[0]=AZgKANXh0bXIo1kCYPYZmEv6n9Q2XZhvBRhVsoYdG2wb5CtL3xH_sPYG2lpUEvwJHwxekYxc9aXowYI1UlIjDbYmK64vYN8WTZ5ILSqTKJ-0Fg17e_Lk8AGZzfG9yfU-a3nVc6CsY99__PC9lzs5uOOAoZo7J5PQPIKhV9RoFUmQxzMMeCMQtolk7wE",
+            "interaction": 2343
+          },
+          {
+            "handle": "yutinghaosfinance",
+            "platform": "Facebook",
+            "text": "銀行開始拒絕承擔AI晶片貸款風險，新成立的雲端運算公司Volta計畫籌資約50億美元，用於挪威資料中心建設，及購買約3.6萬顆輝達繪圖處理器。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02wrAMGB1Vh9niVvUdZQAGpmx1d4BGo7ZexRryEmrHNN8q7wcR8t8r9K2KUeYC9L5vl?__cft__[0]=AZjNUcfEXpzG3anMDnvN98GHDWPnesvheCm2VK90YcA5aCA3pucA1aDRE0kHHjXobdntnBAFBwMe5XxYKrF9WhZggrDS_iR8r0pHDce8cOTGTUkoKYKbKopKjoN_wjQOP2AJacnSAo5lnGZdn3AVdt7tiliClCHju51wuVc6EZpsEuZxZDftZL2uRSk",
+            "interaction": 2333
+          }
+        ],
+        "net_sentiment_smoothed": 53.5,
         "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-10-18T09:52:43.857139+08:00",
+        "bucket_end": "2026-10-18T10:09:52.428568+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 53.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-18T10:09:52.428568+08:00",
+        "bucket_end": "2026-10-18T10:27:00.999997+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 22,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 22,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Listings in south-east Asia gain momentum with $1bn IPO",
+            "url": "https://x.com/FT/status/2111641411804176713",
+            "interaction": 22
+          }
+        ],
+        "net_sentiment_smoothed": 45.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-18T10:27:00.999997+08:00",
+        "bucket_end": "2026-10-18T10:44:09.571426+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 40,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 40,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "BofA Optical/NPO   Core Trends - NPO (Near-Packaged Optics) adoption is accelerating, as copper cables have shrunk transmission distances to about 1–3 meters under 100G+ SerDes, scale-up domains expan",
+            "url": "https://x.com/QQ_Timmy/status/2111645356605977018",
+            "interaction": 40
+          }
+        ],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-18T10:44:09.571426+08:00",
+        "bucket_end": "2026-10-18T11:01:18.142855+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-18T11:01:18.142855+08:00",
+        "bucket_end": "2026-10-18T11:18:26.714284+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-18T11:18:26.714284+08:00",
+        "bucket_end": "2026-10-18T11:35:35.285713+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -6.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-18T11:35:35.285713+08:00",
+        "bucket_end": "2026-10-18T11:52:43.857142+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 6.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-18T11:52:43.857142+08:00",
+        "bucket_end": "2026-10-18T12:09:52.428571+08:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 38,
+        "negative_engagement": 0,
+        "net_sentiment": -33.3,
+        "post_count": 3,
+        "engagement": 38,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The Trump administration has entered its utter shambles era  https:// ft.trib.al/WoHZABJ  | opinion",
+            "url": "https://x.com/FT/status/2111670842488709350",
+            "interaction": 25
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Why we just can’t quit the site formerly known as Twitter  https:// ft.trib.al/u15tiqo  | opinion",
+            "url": "https://x.com/FT/status/2111670857995071716",
+            "interaction": 13
+          }
+        ],
+        "net_sentiment_smoothed": 8.4,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-18T12:09:52.428571+08:00",
+        "bucket_end": "2026-10-18T12:27:01+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 14,
+        "neutral_engagement": 9,
+        "negative_engagement": 0,
+        "net_sentiment": 66.7,
+        "post_count": 3,
+        "engagement": 23,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Europe must liberate Belgium from its huge Russian assets risk  https:// ft.trib.al/phaWM4E  | opinion",
+            "url": "https://x.com/FT/status/2111673020989190585",
+            "interaction": 9
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The US needs a social compact on data centres  https:// ft.trib.al/ol0c0lO  | opinion",
+            "url": "https://x.com/FT/status/2111672522743685535",
+            "interaction": 9
+          }
+        ],
+        "net_sentiment_smoothed": 11.1,
+        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "賴清德總統談年輕人困境 / 賴清德總統談美光勞資爭議 / 賴清德總統談失聯移工問題 / 賴清德總統談核電立場",
+        "topic_id": 2,
+        "label": "blackstone / finance / anthropic",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -400,8 +484,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -436,14 +520,14 @@
             "volume": 0
           },
           {
-            "net_sentiment": 75.0,
-            "volume": 4
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
         "topic_id": 1,
-        "label": "台股震盪加劇q / 檔成資金新焦點 / 怎麼辦 / 法人喊基本面",
+        "label": "blackstone / anthropic / finance",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -454,92 +538,149 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
+            "net_sentiment": 100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "yutinghaosfinance",
+        "handle": "SemiAnalysis_",
         "top_topic_id": 0,
-        "top_topic_label": "賴清德總統談年輕人困境 / 賴清德總統談美光勞資爭議 / 賴清德總統談失聯移工問題 / 賴清德總統談核電立場",
+        "top_topic_label": "其他（未分群，25 篇）",
         "focus_share": 1.0,
-        "post_count": 9,
-        "unclustered_posts": 0
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，25 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，25 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，25 篇）",
+        "focus_share": 1.0,
+        "post_count": 7,
+        "unclustered_posts": 7
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 1,
+        "top_topic_label": "blackstone / anthropic / finance",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 1
       },
       {
         "handle": "ctee.fans",
         "top_topic_id": 0,
-        "top_topic_label": "賴清德總統談年輕人困境 / 賴清德總統談美光勞資爭議 / 賴清德總統談失聯移工問題 / 賴清德總統談核電立場",
-        "focus_share": 0.8,
+        "top_topic_label": "其他（未分群，25 篇）",
+        "focus_share": 1.0,
         "post_count": 5,
+        "unclustered_posts": 5
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，25 篇）",
+        "focus_share": 1.0,
+        "post_count": 9,
+        "unclustered_posts": 9
+      },
+      {
+        "handle": "tengyanAI",
+        "top_topic_id": 2,
+        "top_topic_label": "blackstone / finance / anthropic",
+        "focus_share": 1.0,
+        "post_count": 1,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "賴清德總統談年輕人困境 / 賴清德總統談美光勞資爭議 / 賴清德總統談失聯移工問題 / 賴清德總統談核電立場",
-        "total_engagement": 10551,
-        "post_count": 13,
-        "top_account": "yutinghaosfinance",
-        "top_account_engagement": 10529,
+        "topic_id": 2,
+        "label": "blackstone / finance / anthropic",
+        "total_engagement": 40,
+        "post_count": 1,
+        "top_account": "tengyanAI",
+        "top_account_engagement": 40,
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "台股震盪加劇q / 檔成資金新焦點 / 怎麼辦 / 法人喊基本面",
-        "total_engagement": 23,
+        "label": "blackstone / anthropic / finance",
+        "total_engagement": 3,
         "post_count": 1,
-        "top_account": "ctee.fans",
-        "top_account_engagement": 23,
+        "top_account": "statementdog",
+        "top_account_engagement": 3,
         "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，25 篇）",
+        "total_engagement": 11522,
+        "post_count": 25,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 10529,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {

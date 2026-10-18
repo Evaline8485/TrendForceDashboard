@@ -3,25 +3,148 @@
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 2,
+      "size": 5,
       "accounts": {
         "TrendForce": 1,
+        "jukan05": 1,
+        "QQ_Timmy": 1,
+        "statementdog": 1,
         "yutinghaosfinance": 1
       },
       "engagement_by_account": {
-        "TrendForce": 11,
+        "TrendForce": 12,
+        "jukan05": 107,
+        "QQ_Timmy": 16,
+        "statementdog": 7,
         "yutinghaosfinance": 301
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 5,
+      "accounts": {
+        "tphuang": 2,
+        "tengyanAI": 1,
+        "statementdog": 1,
+        "HyperTechInvest": 1
+      },
+      "engagement_by_account": {
+        "tphuang": 194,
+        "tengyanAI": 40,
+        "statementdog": 3,
+        "HyperTechInvest": 2278
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 4,
+      "accounts": {
+        "SemiAnalysis_": 3,
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "SemiAnalysis_": 1475,
+        "statementdog": 6
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 3,
+      "accounts": {
+        "QQ_Timmy": 1,
+        "tengyanAI": 2
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 82,
+        "tengyanAI": 76
       }
     },
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 1,
+      "size": 3,
       "accounts": {
+        "QQ_Timmy": 1,
+        "tengyanAI": 1,
         "yutinghaosfinance": 1
       },
       "engagement_by_account": {
+        "QQ_Timmy": 43,
+        "tengyanAI": 40,
         "yutinghaosfinance": 2333
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 2,
+      "accounts": {
+        "QQ_Timmy": 1,
+        "tengyanAI": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 37,
+        "tengyanAI": 36
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 2,
+      "accounts": {
+        "jukan05": 1,
+        "tphuang": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 169,
+        "tphuang": 69
+      }
+    },
+    {
+      "id": "G",
+      "label": "IC 設計",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 9
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 1,
+      "accounts": {
+        "tengyanAI": 1
+      },
+      "engagement_by_account": {
+        "tengyanAI": 36
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 1,
+      "accounts": {
+        "jukan05": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 107
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 1,
+      "accounts": {
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "statementdog": 0
       }
     },
     {
@@ -34,14 +157,471 @@
       "engagement_by_account": {
         "ctee.fans": 23
       }
+    },
+    {
+      "id": "Q",
+      "label": "機器人 / Robotics",
+      "size": 1,
+      "accounts": {
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "statementdog": 7
+      }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "K",
+      "label": "AI 模型 / 應用",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 2515,
+      "competitors_covering": [
+        "tphuang",
+        "tengyanAI",
+        "statementdog",
+        "HyperTechInvest"
+      ],
+      "sample_posts": [
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "We went from:  > Anthropic could wipe out humanity > Astra is AGI > Software is worthless  To:  > AI isn’t even that useful > Anthropic’s growth is disappointing > OpenAI has zero moat  In like a month.  Crazy how the human mind works, huh?",
+          "url": "https://x.com/HyperTechInvest/status/2111389682500243802",
+          "timestamp": "2026-10-17T17:31:42.000+08:00",
+          "interaction": 2278
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "Anthropic is doing so well financially that it's charitably offering junk bond type of yield to Blackstone!  How nice of them. Instead of raising cash from a lower IPO px than they wanted (bc of \"safety concerns\"), they are giving us 10+% yield instead.  But I'm sure they are",
+          "url": "https://x.com/tphuang/status/2111411406461415495",
+          "timestamp": "2026-10-17T18:58:02.000+08:00",
+          "interaction": 173
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "anthropic offered blackstone a 10% coupon to finance its google chips. for reference - borrowers with similar ratings pay about 7% in public bonds.  broadcom, which helps google build those chips, backs the $42B senior tier.   blackstone takes $9B of the $18B junior tier, with",
+          "url": "https://x.com/tengyanAI/status/2111635776719262092",
+          "timestamp": "2026-10-18T09:49:36.000+08:00",
+          "interaction": 40
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "Agreed 100% here w/ Chamath. Don't listen to the AI boosters like Dan Ives. What OpenAI & Ant need are cash. We are headed for a stock mkt bloodbath & liquidity will dry up. Pausing IPO bc valuation is not $2T is just so silly.",
+          "url": "https://x.com/tphuang/status/2111414819559543144",
+          "timestamp": "2026-10-17T19:11:35.000+08:00",
+          "interaction": 21
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Anthropic is offering Blackstone a yield above 10% to help finance a chip deal, according to a Financial Times report cited by Reuters.  Funds managed by Blackstone would invest $9 billion in debt backed by five years of Anthropic’s chip-lease payments, the FT reported, citing",
+          "url": "https://x.com/statementdog/status/2111625985833726176",
+          "timestamp": "2026-10-18T09:10:41.000+08:00",
+          "interaction": 3
+        }
+      ]
+    },
+    {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 2416,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "tengyanAI",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "銀行開始拒絕承擔AI晶片貸款風險，新成立的雲端運算公司Volta計畫籌資約50億美元，用於挪威資料中心建設，及購買約3.6萬顆輝達繪圖處理器。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02wrAMGB1Vh9niVvUdZQAGpmx1d4BGo7ZexRryEmrHNN8q7wcR8t8r9K2KUeYC9L5vl?__cft__[0]=AZjNUcfEXpzG3anMDnvN98GHDWPnesvheCm2VK90YcA5aCA3pucA1aDRE0kHHjXobdntnBAFBwMe5XxYKrF9WhZggrDS_iR8r0pHDce8cOTGTUkoKYKbKopKjoN_wjQOP2AJacnSAo5lnGZdn3AVdt7tiliClCHju51wuVc6EZpsEuZxZDftZL2uRSk",
+          "timestamp": "2026-10-18T01:37:01.655711+00:00",
+          "interaction": 2333
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "JP Morgan Revises Upward Data Center Capital Expenditure Forecast  Core Forecast - 2026: Data center capital expenditure YoY growth revised upward to +85% (previously +80%), with an incremental increase exceeding $27 billion, marking the largest annual increase on record. - 2027:",
+          "url": "https://x.com/QQ_Timmy/status/2111481863030345779",
+          "timestamp": "2026-10-17T23:38:00.000+08:00",
+          "interaction": 43
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "anthropic offered blackstone a 10% coupon to finance its google chips. for reference - borrowers with similar ratings pay about 7% in public bonds.  broadcom, which helps google build those chips, backs the $42B senior tier.   blackstone takes $9B of the $18B junior tier, with",
+          "url": "https://x.com/tengyanAI/status/2111635776719262092",
+          "timestamp": "2026-10-18T09:49:36.000+08:00",
+          "interaction": 40
+        }
+      ]
+    },
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 1481,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "statementdog"
+      ],
+      "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "BREAKING NEWS🚨: NVIDIA has just achieved 423 tok/s/user 🚀 on the 2.8T Parameter Kimi K3 model via a new upstream vLLM optimization. 1.68x Faster on the Same Hardware!  This was done by NVIDIA CentML's Benjamin, who wrote NVIDIA's new decode-specialized kernels in Cute DSL via",
+          "url": "https://x.com/SemiAnalysis_/status/2111627094878790023",
+          "timestamp": "2026-10-18T09:15:06.000+08:00",
+          "interaction": 707
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "GLM 5.3’s biggest leap came from post-training alone.  “GLM 5.3 was built entirely by post-training the previous model. For me, that was a wake-up call.”  “Post-training is far more GPU-efficient than pre-training from scratch. Plenty of companies can’t afford to train a model",
+          "url": "https://x.com/SemiAnalysis_/status/2111596468528087078",
+          "timestamp": "2026-10-18T07:13:24.000+08:00",
+          "interaction": 466
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "NVIDIA is not the only company that applies pressure tactics at their events",
+          "url": "https://x.com/SemiAnalysis_/status/2111362756569919914",
+          "timestamp": "2026-10-17T15:44:43.000+08:00",
+          "interaction": 302
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "If KeyBanc’s checks are right, AMD’s Helios ramp depends on more than GPU availability. Board and connector reliability could determine how quickly ODMs can ship complete racks.",
+          "url": "https://x.com/statementdog/status/2111425350911893558",
+          "timestamp": "2026-10-17T19:53:26.000+08:00",
+          "interaction": 6
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 1,
+      "competitor_count": 4,
+      "competitor_engagement": 431,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy",
+        "statementdog",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "賴清德總統談美光勞資爭議",
+          "url": "https://www.facebook.com/reel/1479970953947930/?__cft__[0]=AZiWu7mVq_W3Fv6zZnOHbzXlWyNdy7Id6HXetEk7HLezTjfJ-wc6Jah0C1cxtbn3Xr4yz_Poe23WotsncofoH2KePPESUPl7PLEkgbYSd5iv3ufma4t_nlC2w-t8btAG7LJ5C-VnES0iihIFstu1rURJT1OWe6HcxcRcyE1NJMVE3w6muXnbGBo4_5N6T86gG8HzP5M",
+          "timestamp": "2026-10-18T01:37:01.655711+00:00",
+          "interaction": 301
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Korean media report that Chinese semiconductor equipment maker AMEC is conducting equipment trials with South Korean power semiconductor companies.  AMEC is reportedly testing its metal-organic chemical vapor deposition (MOCVD) equipment with SK keyfoundry, an SK hynix",
+          "url": "https://x.com/jukan05/status/2111636142810653158",
+          "timestamp": "2026-10-18T09:51:03.000+08:00",
+          "interaction": 107
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "SK hynix 3D FeNAND Analog Compute-in-Memory (A-CiM)  Technical Core - 3D FeNAND: 3D NAND integrating ferroelectric properties (HZO material), using the polarization states of ferroelectric materials to store data and control multi-level currents, suitable for directly performing",
+          "url": "https://x.com/QQ_Timmy/status/2111458366191280494",
+          "timestamp": "2026-10-17T22:04:38.000+08:00",
+          "interaction": 16
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Micron is developing a new type of memory for robots and other physical AI systems, The Elec reports.  Called edge inference memory (EIM), the design would stack low-power DRAM on a logic die to boost bandwidth and reduce latency. Micron is exploring the use of LPDDR6.  At SEDEX",
+          "url": "https://x.com/statementdog/status/2111527687546343666",
+          "timestamp": "2026-10-18T02:40:05.000+08:00",
+          "interaction": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": "C",
+      "label": "ASIC / 自研晶片",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 158,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "tengyanAI"
+      ],
+      "sample_posts": [
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "According to the packaging analysis by Bernstein and Broadcom, traditional switch front-panel pluggable optical transceivers impose a significant burden on the system: each module requires approximately 15–20W of DSP power consumption, along with about $150 in component costs.",
+          "url": "https://x.com/QQ_Timmy/status/2111468591120032241",
+          "timestamp": "2026-10-17T22:45:15.000+08:00",
+          "interaction": 82
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "anthropic offered blackstone a 10% coupon to finance its google chips. for reference - borrowers with similar ratings pay about 7% in public bonds.  broadcom, which helps google build those chips, backs the $42B senior tier.   blackstone takes $9B of the $18B junior tier, with",
+          "url": "https://x.com/tengyanAI/status/2111635776719262092",
+          "timestamp": "2026-10-18T09:49:36.000+08:00",
+          "interaction": 40
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "AI optics/networking just had a rough week. in five sessions  $AAOI  fell ~31%, ciena ~26%,  $COHR  ~25%  some of it is a money worry. at the dbs conference in singapore on oct 12, broadcom and intel both named the cost of capital as the top constraint. then cpi came in hot, 3.7% vs",
+          "url": "https://x.com/tengyanAI/status/2111475800994422880",
+          "timestamp": "2026-10-17T23:13:54.000+08:00",
+          "interaction": 36
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "K",
+      "label": "AI 模型 / 應用",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 2515,
+      "competitors_covering": [
+        "tphuang",
+        "tengyanAI",
+        "statementdog",
+        "HyperTechInvest"
+      ],
+      "sample_posts": [
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "We went from:  > Anthropic could wipe out humanity > Astra is AGI > Software is worthless  To:  > AI isn’t even that useful > Anthropic’s growth is disappointing > OpenAI has zero moat  In like a month.  Crazy how the human mind works, huh?",
+          "url": "https://x.com/HyperTechInvest/status/2111389682500243802",
+          "timestamp": "2026-10-17T17:31:42.000+08:00",
+          "interaction": 2278
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "Anthropic is doing so well financially that it's charitably offering junk bond type of yield to Blackstone!  How nice of them. Instead of raising cash from a lower IPO px than they wanted (bc of \"safety concerns\"), they are giving us 10+% yield instead.  But I'm sure they are",
+          "url": "https://x.com/tphuang/status/2111411406461415495",
+          "timestamp": "2026-10-17T18:58:02.000+08:00",
+          "interaction": 173
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "anthropic offered blackstone a 10% coupon to finance its google chips. for reference - borrowers with similar ratings pay about 7% in public bonds.  broadcom, which helps google build those chips, backs the $42B senior tier.   blackstone takes $9B of the $18B junior tier, with",
+          "url": "https://x.com/tengyanAI/status/2111635776719262092",
+          "timestamp": "2026-10-18T09:49:36.000+08:00",
+          "interaction": 40
+        },
+        {
+          "handle": "tphuang",
+          "platform": "X",
+          "text": "Agreed 100% here w/ Chamath. Don't listen to the AI boosters like Dan Ives. What OpenAI & Ant need are cash. We are headed for a stock mkt bloodbath & liquidity will dry up. Pausing IPO bc valuation is not $2T is just so silly.",
+          "url": "https://x.com/tphuang/status/2111414819559543144",
+          "timestamp": "2026-10-17T19:11:35.000+08:00",
+          "interaction": 21
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Anthropic is offering Blackstone a yield above 10% to help finance a chip deal, according to a Financial Times report cited by Reuters.  Funds managed by Blackstone would invest $9 billion in debt backed by five years of Anthropic’s chip-lease payments, the FT reported, citing",
+          "url": "https://x.com/statementdog/status/2111625985833726176",
+          "timestamp": "2026-10-18T09:10:41.000+08:00",
+          "interaction": 3
+        }
+      ]
+    },
+    {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 2416,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "tengyanAI",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "銀行開始拒絕承擔AI晶片貸款風險，新成立的雲端運算公司Volta計畫籌資約50億美元，用於挪威資料中心建設，及購買約3.6萬顆輝達繪圖處理器。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02wrAMGB1Vh9niVvUdZQAGpmx1d4BGo7ZexRryEmrHNN8q7wcR8t8r9K2KUeYC9L5vl?__cft__[0]=AZjNUcfEXpzG3anMDnvN98GHDWPnesvheCm2VK90YcA5aCA3pucA1aDRE0kHHjXobdntnBAFBwMe5XxYKrF9WhZggrDS_iR8r0pHDce8cOTGTUkoKYKbKopKjoN_wjQOP2AJacnSAo5lnGZdn3AVdt7tiliClCHju51wuVc6EZpsEuZxZDftZL2uRSk",
+          "timestamp": "2026-10-18T01:37:01.655711+00:00",
+          "interaction": 2333
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "JP Morgan Revises Upward Data Center Capital Expenditure Forecast  Core Forecast - 2026: Data center capital expenditure YoY growth revised upward to +85% (previously +80%), with an incremental increase exceeding $27 billion, marking the largest annual increase on record. - 2027:",
+          "url": "https://x.com/QQ_Timmy/status/2111481863030345779",
+          "timestamp": "2026-10-17T23:38:00.000+08:00",
+          "interaction": 43
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "anthropic offered blackstone a 10% coupon to finance its google chips. for reference - borrowers with similar ratings pay about 7% in public bonds.  broadcom, which helps google build those chips, backs the $42B senior tier.   blackstone takes $9B of the $18B junior tier, with",
+          "url": "https://x.com/tengyanAI/status/2111635776719262092",
+          "timestamp": "2026-10-18T09:49:36.000+08:00",
+          "interaction": 40
+        }
+      ]
+    },
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 1481,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "statementdog"
+      ],
+      "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "BREAKING NEWS🚨: NVIDIA has just achieved 423 tok/s/user 🚀 on the 2.8T Parameter Kimi K3 model via a new upstream vLLM optimization. 1.68x Faster on the Same Hardware!  This was done by NVIDIA CentML's Benjamin, who wrote NVIDIA's new decode-specialized kernels in Cute DSL via",
+          "url": "https://x.com/SemiAnalysis_/status/2111627094878790023",
+          "timestamp": "2026-10-18T09:15:06.000+08:00",
+          "interaction": 707
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "GLM 5.3’s biggest leap came from post-training alone.  “GLM 5.3 was built entirely by post-training the previous model. For me, that was a wake-up call.”  “Post-training is far more GPU-efficient than pre-training from scratch. Plenty of companies can’t afford to train a model",
+          "url": "https://x.com/SemiAnalysis_/status/2111596468528087078",
+          "timestamp": "2026-10-18T07:13:24.000+08:00",
+          "interaction": 466
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "NVIDIA is not the only company that applies pressure tactics at their events",
+          "url": "https://x.com/SemiAnalysis_/status/2111362756569919914",
+          "timestamp": "2026-10-17T15:44:43.000+08:00",
+          "interaction": 302
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "If KeyBanc’s checks are right, AMD’s Helios ramp depends on more than GPU availability. Board and connector reliability could determine how quickly ODMs can ship complete racks.",
+          "url": "https://x.com/statementdog/status/2111425350911893558",
+          "timestamp": "2026-10-17T19:53:26.000+08:00",
+          "interaction": 6
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 1,
+      "competitor_count": 4,
+      "competitor_engagement": 431,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy",
+        "statementdog",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "賴清德總統談美光勞資爭議",
+          "url": "https://www.facebook.com/reel/1479970953947930/?__cft__[0]=AZiWu7mVq_W3Fv6zZnOHbzXlWyNdy7Id6HXetEk7HLezTjfJ-wc6Jah0C1cxtbn3Xr4yz_Poe23WotsncofoH2KePPESUPl7PLEkgbYSd5iv3ufma4t_nlC2w-t8btAG7LJ5C-VnES0iihIFstu1rURJT1OWe6HcxcRcyE1NJMVE3w6muXnbGBo4_5N6T86gG8HzP5M",
+          "timestamp": "2026-10-18T01:37:01.655711+00:00",
+          "interaction": 301
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Korean media report that Chinese semiconductor equipment maker AMEC is conducting equipment trials with South Korean power semiconductor companies.  AMEC is reportedly testing its metal-organic chemical vapor deposition (MOCVD) equipment with SK keyfoundry, an SK hynix",
+          "url": "https://x.com/jukan05/status/2111636142810653158",
+          "timestamp": "2026-10-18T09:51:03.000+08:00",
+          "interaction": 107
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "SK hynix 3D FeNAND Analog Compute-in-Memory (A-CiM)  Technical Core - 3D FeNAND: 3D NAND integrating ferroelectric properties (HZO material), using the polarization states of ferroelectric materials to store data and control multi-level currents, suitable for directly performing",
+          "url": "https://x.com/QQ_Timmy/status/2111458366191280494",
+          "timestamp": "2026-10-17T22:04:38.000+08:00",
+          "interaction": 16
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Micron is developing a new type of memory for robots and other physical AI systems, The Elec reports.  Called edge inference memory (EIM), the design would stack low-power DRAM on a logic die to boost bandwidth and reduce latency. Micron is exploring the use of LPDDR6.  At SEDEX",
+          "url": "https://x.com/statementdog/status/2111527687546343666",
+          "timestamp": "2026-10-18T02:40:05.000+08:00",
+          "interaction": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": "C",
+      "label": "ASIC / 自研晶片",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 158,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "tengyanAI"
+      ],
+      "sample_posts": [
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "According to the packaging analysis by Bernstein and Broadcom, traditional switch front-panel pluggable optical transceivers impose a significant burden on the system: each module requires approximately 15–20W of DSP power consumption, along with about $150 in component costs.",
+          "url": "https://x.com/QQ_Timmy/status/2111468591120032241",
+          "timestamp": "2026-10-17T22:45:15.000+08:00",
+          "interaction": 82
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "anthropic offered blackstone a 10% coupon to finance its google chips. for reference - borrowers with similar ratings pay about 7% in public bonds.  broadcom, which helps google build those chips, backs the $42B senior tier.   blackstone takes $9B of the $18B junior tier, with",
+          "url": "https://x.com/tengyanAI/status/2111635776719262092",
+          "timestamp": "2026-10-18T09:49:36.000+08:00",
+          "interaction": 40
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "AI optics/networking just had a rough week. in five sessions  $AAOI  fell ~31%, ciena ~26%,  $COHR  ~25%  some of it is a money worry. at the dbs conference in singapore on oct 12, broadcom and intel both named the cost of capital as the top constraint. then cpi came in hot, 3.7% vs",
+          "url": "https://x.com/tengyanAI/status/2111475800994422880",
+          "timestamp": "2026-10-17T23:13:54.000+08:00",
+          "interaction": 36
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-17T01:37:01.655711+00:00",
-    "end_utc": "2026-10-18T01:37:01.655711+00:00",
-    "start_tw": "Oct 17, 09:37",
-    "end_tw": "Oct 18, 09:37"
+    "start_utc": "2026-10-17T12:27:01+08:00",
+    "end_utc": "2026-10-18T12:27:01+08:00",
+    "start_tw": "Oct 17, 12:27",
+    "end_tw": "Oct 18, 12:27"
   }
 }
