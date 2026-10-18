@@ -1,27 +1,100 @@
 {
   "clusters": [
     {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 7,
+      "accounts": {
+        "technewsinside": 6,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 476,
+        "ctee.fans": 0
+      }
+    },
+    {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 2,
+      "size": 6,
       "accounts": {
         "jukan05": 1,
+        "TrendForce.tw": 1,
+        "technewsinside": 3,
         "yutinghaosfinance": 1
       },
       "engagement_by_account": {
         "jukan05": 107,
+        "TrendForce.tw": 5,
+        "technewsinside": 461,
         "yutinghaosfinance": 301
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 5,
+      "accounts": {
+        "technewsinside": 3,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "technewsinside": 70,
+        "ctee.fans": 14
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 4,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 18,
+        "ctee.fans": 60
       }
     },
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 2,
+      "size": 3,
       "accounts": {
-        "SemiAnalysis_": 2
+        "SemiAnalysis_": 1,
+        "technewsinside": 2
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 1173
+        "SemiAnalysis_": 707,
+        "technewsinside": 1461
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 3,
+      "accounts": {
+        "statementdog": 1,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "statementdog": 0,
+        "ctee.fans": 70
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 3,
+      "accounts": {
+        "tengyanAI": 1,
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "tengyanAI": 40,
+        "technewsinside": 110,
+        "ctee.fans": 12
       }
     },
     {
@@ -38,16 +111,29 @@
       }
     },
     {
-      "id": "K",
-      "label": "AI 模型 / 應用",
+      "id": "I",
+      "label": "電源 / 電力設備",
       "size": 2,
       "accounts": {
-        "tengyanAI": 1,
-        "statementdog": 1
+        "jukan05": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "tengyanAI": 40,
-        "statementdog": 3
+        "jukan05": 107,
+        "ctee.fans": 14
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 1355,
+        "ctee.fans": 14
       }
     },
     {
@@ -62,45 +148,193 @@
       }
     },
     {
-      "id": "I",
-      "label": "電源 / 電力設備",
-      "size": 1,
-      "accounts": {
-        "jukan05": 1
-      },
-      "engagement_by_account": {
-        "jukan05": 107
-      }
-    },
-    {
-      "id": "J",
-      "label": "PCB / 載板 / 被動元件",
-      "size": 1,
-      "accounts": {
-        "statementdog": 1
-      },
-      "engagement_by_account": {
-        "statementdog": 0
-      }
-    },
-    {
-      "id": "M",
-      "label": "台股市場",
+      "id": "H",
+      "label": "網通 / 光通訊",
       "size": 1,
       "accounts": {
         "ctee.fans": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 23
+        "ctee.fans": 0
+      }
+    },
+    {
+      "id": "L",
+      "label": "總經 / Fed",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 29
+      }
+    },
+    {
+      "id": "Q",
+      "label": "機器人 / Robotics",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 102
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 70,
+      "competitors_covering": [
+        "statementdog",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "銅箔基板（CCL）漲價潮再起！陸系龍頭建滔宣布薄型材料即日起調漲15％，為今年第八度調價；日系松下也將自2027年1月起，大幅調漲部分一般多層板用CCL價格。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid022JfTGM1JQzyLEamStKSTi15Bzbhce7kcmJmstJWgoYRCikm6BguzgTR7jwQ5Hc2Sl?__cft__[0]=AZib6P6LTy1t28K1JEWBNqov-aRx7T7-1eA3VV17y1BkFuG4OpWb3_lcuxytOV2A8L-gBqyfUbGiKRqtYH0c03wvj8TK_KFt1E22AnpClL4wESJFZQBhtbS0TC0G4xti-rBND3l3x4NlZesm9axAlu-G8fk6UQ87JUuDCxjb4tbCKDmTxTKPugD1R84",
+          "timestamp": "2026-10-18T09:12:06.959954+00:00",
+          "interaction": 70
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Even if server board volumes stay flat, shifting to PTFE could still drive up demand for PCB drilling capacity.  As Sky pointed out in EP570, PTFE could slow down the drilling process. If each machine processes fewer boards per hour, PCB makers may need more drilling machines to",
+          "url": "https://x.com/statementdog/status/2111669995428347975",
+          "timestamp": "2026-10-18T12:05:34.000+08:00",
+          "interaction": 0
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "銅箔基板（CCL）漲價潮再起！陸系龍頭建滔宣布薄型材料即日起調漲15％，為今年第八度調價；日系松下也將自2027年1月起，大幅調漲部分一般多層板用CCL價格。\n法人認為，兩大廠接連漲價，反映上游原料供應吃緊，加上AI伺服器、800G及1.6T光通訊需求升溫，CCL產業可望同步受惠漲價、轉單與產品升級；在台廠方面，法人首選台光電（2383）目標價上調至7,400元；騰輝電子-KY（6672）也調升至815元，聯茂（6213）則受惠通用伺服器需求回溫。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid022JfTGM1JQzyLEamStKSTi15Bzbhce7kcmJmstJWgoYRCikm6BguzgTR7jwQ5Hc2Sl?__tn__=%2CO",
+          "timestamp": "2026-10-18T09:12:06.959954+00:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 60,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美股科技股賣壓持續擴大，台指期夜盤重挫1,144點，引發市場擔憂台股是否再度複製今年7月股災，台股周一（19日）開盤走勢備受市場關注。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02KZuFPAmysH1YyMXESxCde2E9V3qmmW16HdGvxECgmkShDB1sYMZ5FPcGd9sqhHH1l?__cft__[0]=AZg3XR46FBcY7UoGP7Lkv9-JS6f_zT2DrFghAtgEIGbB-XG5XY6fv8_1ypuz7dCzT6X-GJDfrpGhghbZ0SCHS1kFUt69f-LDUD0rQwOiIIEyCmegOYPehQ7Qfv0AxFLNrKKAZdx5rm2rf9nA64MRm1qWbusSDp3C8JlxkmcgFYG_vHsgKLFcjk4ZmdM",
+          "timestamp": "2026-10-18T09:12:06.959954+00:00",
+          "interaction": 37
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股震盪加劇Q4怎麼辦？法人喊基本面「完全沒問題」 宜鼎等16檔成資金新焦點】…… \n查看更多",
+          "url": "",
+          "timestamp": "2026-10-18T01:34:28.233064+00:00",
+          "interaction": 23
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股震盪加劇Q4怎麼辦？法人喊基本面「完全沒問題」 宜鼎等16檔成資金新焦點】\n國際政經情勢一日數變，台股短線震盪加劇，惟隨上市櫃9月營收、台積電法說會陸續揭曉，市場關注焦點重回基本面，加上美股超級財報周接棒登場，有機會為第四季行情增添動能。\n法人看好企業獲利持續上修，預估今年台股獲利成長率上修至50％，2027年同步上修至26％，基本面是支撐台股的堅實後盾，包括宜鼎、萬潤、長榮等16檔營收連月成長、第四季展望續佳，並獲三大法人單周買超股，可望成為資金追捧的新焦點。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02eUGAnzCZc9N27E51v7ZTUtqzsirysD71KKfYmvbXn16V3hx3xJgzLGQdv8bf77WEl?__tn__=%2CO",
+          "timestamp": "2026-10-18T09:12:06.959954+00:00",
+          "interaction": 0
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 70,
+      "competitors_covering": [
+        "statementdog",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "銅箔基板（CCL）漲價潮再起！陸系龍頭建滔宣布薄型材料即日起調漲15％，為今年第八度調價；日系松下也將自2027年1月起，大幅調漲部分一般多層板用CCL價格。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid022JfTGM1JQzyLEamStKSTi15Bzbhce7kcmJmstJWgoYRCikm6BguzgTR7jwQ5Hc2Sl?__cft__[0]=AZib6P6LTy1t28K1JEWBNqov-aRx7T7-1eA3VV17y1BkFuG4OpWb3_lcuxytOV2A8L-gBqyfUbGiKRqtYH0c03wvj8TK_KFt1E22AnpClL4wESJFZQBhtbS0TC0G4xti-rBND3l3x4NlZesm9axAlu-G8fk6UQ87JUuDCxjb4tbCKDmTxTKPugD1R84",
+          "timestamp": "2026-10-18T09:12:06.959954+00:00",
+          "interaction": 70
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Even if server board volumes stay flat, shifting to PTFE could still drive up demand for PCB drilling capacity.  As Sky pointed out in EP570, PTFE could slow down the drilling process. If each machine processes fewer boards per hour, PCB makers may need more drilling machines to",
+          "url": "https://x.com/statementdog/status/2111669995428347975",
+          "timestamp": "2026-10-18T12:05:34.000+08:00",
+          "interaction": 0
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "銅箔基板（CCL）漲價潮再起！陸系龍頭建滔宣布薄型材料即日起調漲15％，為今年第八度調價；日系松下也將自2027年1月起，大幅調漲部分一般多層板用CCL價格。\n法人認為，兩大廠接連漲價，反映上游原料供應吃緊，加上AI伺服器、800G及1.6T光通訊需求升溫，CCL產業可望同步受惠漲價、轉單與產品升級；在台廠方面，法人首選台光電（2383）目標價上調至7,400元；騰輝電子-KY（6672）也調升至815元，聯茂（6213）則受惠通用伺服器需求回溫。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid022JfTGM1JQzyLEamStKSTi15Bzbhce7kcmJmstJWgoYRCikm6BguzgTR7jwQ5Hc2Sl?__tn__=%2CO",
+          "timestamp": "2026-10-18T09:12:06.959954+00:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 60,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美股科技股賣壓持續擴大，台指期夜盤重挫1,144點，引發市場擔憂台股是否再度複製今年7月股災，台股周一（19日）開盤走勢備受市場關注。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02KZuFPAmysH1YyMXESxCde2E9V3qmmW16HdGvxECgmkShDB1sYMZ5FPcGd9sqhHH1l?__cft__[0]=AZg3XR46FBcY7UoGP7Lkv9-JS6f_zT2DrFghAtgEIGbB-XG5XY6fv8_1ypuz7dCzT6X-GJDfrpGhghbZ0SCHS1kFUt69f-LDUD0rQwOiIIEyCmegOYPehQ7Qfv0AxFLNrKKAZdx5rm2rf9nA64MRm1qWbusSDp3C8JlxkmcgFYG_vHsgKLFcjk4ZmdM",
+          "timestamp": "2026-10-18T09:12:06.959954+00:00",
+          "interaction": 37
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股震盪加劇Q4怎麼辦？法人喊基本面「完全沒問題」 宜鼎等16檔成資金新焦點】…… \n查看更多",
+          "url": "",
+          "timestamp": "2026-10-18T01:34:28.233064+00:00",
+          "interaction": 23
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股震盪加劇Q4怎麼辦？法人喊基本面「完全沒問題」 宜鼎等16檔成資金新焦點】\n國際政經情勢一日數變，台股短線震盪加劇，惟隨上市櫃9月營收、台積電法說會陸續揭曉，市場關注焦點重回基本面，加上美股超級財報周接棒登場，有機會為第四季行情增添動能。\n法人看好企業獲利持續上修，預估今年台股獲利成長率上修至50％，2027年同步上修至26％，基本面是支撐台股的堅實後盾，包括宜鼎、萬潤、長榮等16檔營收連月成長、第四季展望續佳，並獲三大法人單周買超股，可望成為資金追捧的新焦點。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02eUGAnzCZc9N27E51v7ZTUtqzsirysD71KKfYmvbXn16V3hx3xJgzLGQdv8bf77WEl?__tn__=%2CO",
+          "timestamp": "2026-10-18T09:12:06.959954+00:00",
+          "interaction": 0
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-18T04:27:01+08:00",
-    "end_utc": "2026-10-18T12:27:01+08:00",
-    "start_tw": "Oct 18, 04:27",
-    "end_tw": "Oct 18, 12:27"
+    "start_utc": "2026-10-18T01:12:06.959954+00:00",
+    "end_utc": "2026-10-18T09:12:06.959954+00:00",
+    "start_tw": "Oct 18, 09:12",
+    "end_tw": "Oct 18, 17:12"
   }
 }
