@@ -1,269 +1,163 @@
 {
-  "generated_at": "2026-10-19T11:53:18+08:00",
+  "generated_at": "2026-10-19T16:00:10+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-19T07:53:18+08:00",
-    "end_utc": "2026-10-19T11:53:18+08:00",
-    "start_tw": "Oct 19, 07:53",
-    "end_tw": "Oct 19, 11:53"
+    "start_utc": "2026-10-19T12:00:10+08:00",
+    "end_utc": "2026-10-19T16:00:10+08:00",
+    "start_tw": "Oct 19, 12:00",
+    "end_tw": "Oct 19, 16:00"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 24,
+      "total_posts": 23,
       "sentiment_counts": {
-        "positive": 7,
-        "negative": 8,
-        "neutral": 9
+        "negative": 7,
+        "positive": 10,
+        "neutral": 6
       },
       "sentiment_share": {
-        "positive": 0.292,
-        "negative": 0.333,
-        "neutral": 0.375
+        "negative": 0.304,
+        "positive": 0.435,
+        "neutral": 0.261
       },
       "top_terms": [
-        "查看",
-        "看更",
-        "更多",
-        "查看更",
-        "看更多",
-        "賴清",
-        "清德",
-        "德總",
-        "統談",
-        "賴清德"
+        "intel",
+        "orders",
+        "semianalysis",
+        "asia",
+        "amd",
+        "exclusive",
+        "capacity",
+        "target",
+        "morgan",
+        "stock"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 0,
-        "label": "賴清德 / 中國 / 三星",
-        "heat": 90.0,
-        "volume": 22,
-        "engagement": 7600,
-        "entities": [
-          "賴清德",
-          "中國",
-          "三星",
-          "烏克蘭",
-          "歐洲"
-        ],
+        "label": "intel / stock / amd / exclusive",
+        "heat": 50.0,
+        "volume": 3,
+        "engagement": 32,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "planet",
+        "heat": 50.0,
+        "volume": 2,
+        "engagement": 85,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "boe / exclusive",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 50,
+        "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "iphone",
+        "label": "其他（未分群，16 篇）",
         "heat": 10.0,
-        "volume": 2,
-        "engagement": 1056,
-        "entities": [
-          "美國",
-          "土耳其",
-          "高達",
-          "比美",
-          "巴西"
-        ],
-        "is_catchall": false
+        "volume": 16,
+        "engagement": 466,
+        "entities": [],
+        "is_catchall": true
       }
     ],
-    "named_entities": [
-      {
-        "entity": "賴清德",
-        "count": 6
-      },
-      {
-        "entity": "中國",
-        "count": 3
-      },
-      {
-        "entity": "三星",
-        "count": 2
-      },
-      {
-        "entity": "烏克蘭",
-        "count": 2
-      },
-      {
-        "entity": "歐洲",
-        "count": 2
-      },
-      {
-        "entity": "台灣",
-        "count": 1
-      },
-      {
-        "entity": "從高雄",
-        "count": 1
-      },
-      {
-        "entity": "亞洲",
-        "count": 1
-      },
-      {
-        "entity": "家族",
-        "count": 1
-      },
-      {
-        "entity": "台版",
-        "count": 1
-      },
-      {
-        "entity": "台南市",
-        "count": 1
-      },
-      {
-        "entity": "龐大",
-        "count": 1
-      },
-      {
-        "entity": "乙烷",
-        "count": 1
-      },
-      {
-        "entity": "南亞",
-        "count": 1
-      },
-      {
-        "entity": "聯發科",
-        "count": 1
-      }
-    ],
+    "named_entities": [],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-19T07:53:17.999994+08:00",
-        "bucket_end": "2026-10-19T08:10:26.571423+08:00",
+        "bucket_start": "2026-10-19T12:00:09.999994+08:00",
+        "bucket_end": "2026-10-19T12:17:18.571423+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 28,
+        "neutral_engagement": 7,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 35,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "boe / exclusive",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "BoE scrutinises Barclays over claim traders misrepresented private credit exposure",
+            "url": "https://x.com/FT/status/2112034846600020106",
+            "interaction": 28
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "A cheap light source doesn’t automatically mean a cheap optical link.  As Sky noted in EP570, LED-based optical links can pair inexpensive emitters with pricey fiber.  Different light sources can requ",
+            "url": "https://x.com/statementdog/status/2112031807546048872",
+            "interaction": 7
+          }
+        ],
+        "net_sentiment_smoothed": 16.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-19T12:17:18.571423+08:00",
+        "bucket_end": "2026-10-19T12:34:27.142852+08:00",
         "positive": 2,
-        "neutral": 5,
-        "negative": 6,
-        "positive_engagement": 413,
-        "neutral_engagement": 2020,
-        "negative_engagement": 6109,
-        "net_sentiment": -30.8,
-        "post_count": 13,
-        "engagement": 8542,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "賴清德 / 中國 / 三星",
-            "count": 11
-          },
-          {
-            "topic_id": 1,
-            "label": "iphone",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "yutinghaosfinance",
-            "platform": "Facebook",
-            "text": "澤倫斯基警告，烏克蘭若戰敗，恐有2,000萬難民湧入歐洲，規模將遠遠超過2015年的歐洲難民危機。他強調，俄羅斯的軍事攻擊仍未停止，烏克蘭人民持續被迫離開家園。…… \n查看更多",
-            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0gTG8McqQcYFRH7NkBcb73Pu8WWgpXBgyQY4mnPY2hHXr7X2rZCsoc9FFc2GQuudel?__cft__[0]=AZheRAF6pi_iBHskqXxOcPQzkMZoow8BnfSIf6paECrAwSpb-DaJq4CbRFr4ptSn8ikrXIwmRx253hPfP2p-tfzLTf3swks_XjGQOMQDcWMNrkbqkgodbYElPtkUuLdn7No79vR0Bwr4eyAblVtQC6lkM0ONHLtMGHiIyi51O54jPr4g0eeTp9H5aBQ",
-            "interaction": 1394
-          },
-          {
-            "handle": "yutinghaosfinance",
-            "platform": "Facebook",
-            "text": "賴清德總統談居住問題",
-            "url": "https://www.facebook.com/reel/2390341208439226/?__cft__[0]=AZjbm9uEinIRZF2ulT9L5n2GD9hcCSEsxEolT41-wXwPeVwxI12AkQOn2677b3uTcdxsFGTSn33reyZL2N1KhGFG5Kl_SidQeBOZ9RiqZ8g2Q8PkBBkfHggxLJTG8oD3LJ0IEn2Y4ZM5QlX6Gs6_FzfVQ21w0M9jbp_WFr1JUO57hjGVpBD_pmGtubCBK-t8BiL0_fQ",
-            "interaction": 1158
-          }
-        ],
-        "net_sentiment_smoothed": -10.3,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-10-19T08:10:26.571423+08:00",
-        "bucket_end": "2026-10-19T08:27:35.142852+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -7.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T08:27:35.142852+08:00",
-        "bucket_end": "2026-10-19T08:44:43.714281+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -2.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T08:44:43.714281+08:00",
-        "bucket_end": "2026-10-19T09:01:52.285710+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 4.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T09:01:52.285710+08:00",
-        "bucket_end": "2026-10-19T09:19:00.857139+08:00",
-        "positive": 4,
-        "neutral": 4,
+        "neutral": 2,
         "negative": 2,
-        "positive_engagement": 32,
-        "neutral_engagement": 61,
-        "negative_engagement": 17,
-        "net_sentiment": 20.0,
-        "post_count": 10,
-        "engagement": 110,
+        "positive_engagement": 63,
+        "neutral_engagement": 40,
+        "negative_engagement": 81,
+        "net_sentiment": 0.0,
+        "post_count": 6,
+        "engagement": 184,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "賴清德 / 中國 / 三星",
-            "count": 10
+            "topic_id": 3,
+            "label": "planet",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
+            "label": "boe / exclusive",
+            "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "ctee.fans",
-            "platform": "Facebook",
-            "text": "【台股更大賣壓來了？台指期夜盤崩千點 專家盤點4大「止跌訊號」】\n市場擔憂AI投資變現能力，美股16日收黑，台指期夜盤大跌1,144點、至46,140點，觸及季線，法人表示，目前盤面利空因素大於利多因素，本周加權指數將面臨較大賣壓，不過，由於下方仍具基本面支撐，預估將會先展開季線保衛戰，止跌關鍵需觀察四大指標。",
-            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0BiH7E6ZVyty5NPz6nPf5UEzR2jG1e82V1vZ2wx5h6iM6nz6aEecA9oyA1yP9s9BSl?__cft__[0]=AZivyOsg5dFaV0Gc1o_rEEW1nMiuxm5suRs4fUsCYyC4aZ6jg8pbs7qd12BvSQA98fyLWA9SDu7fp2jZkN_F6M9M_dz0QbnxehhojmPfhy_MJMMom6j683SAi7P_PBJdL50rMiMtG4xo-KUa92XVgKUR7yHvmdbSa954uHlw0z7q8ioyP50R_3nZJ2M",
-            "interaction": 29
+            "handle": "FT",
+            "platform": "X",
+            "text": "Hollywood recasts tech tycoons as bad billionaires",
+            "url": "https://x.com/FT/status/2112036766681108971",
+            "interaction": 47
           },
           {
-            "handle": "ctee.fans",
-            "platform": "Facebook",
-            "text": "【優化本業還不夠！台塑四寶跨足AI 半導體、CCL帶動獲利衝】\n台塑四寶透過差異化、高值化策略推展，讓塑化本業營運改善、提振，加上適時掌握美伊衝突掀起的油價、石化攀揚行情，獲利動能大舉回穩、翻倍推進。明年伴隨石化產業需求增幅有望優於供給，加上台塑化乙烷進料、南亞電子材料高階升級出貨，及半導體等新事業布局，營運轉型能量蓄勢發揮。",
-            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02BeM3Qp8Yy2LFdtxfq9XVjJqJPSHLZzfh5xjuTprZMreN41cATWwjLteME88f6RhXl?__cft__[0]=AZgeg5LRscW0SMQAl3tTZd-O4FDMST_EoNww08RyaSAfgVi0WJGy39OYwYl3ivqoAX3KYEcgBpe2tIK6xv9zJ0eeEMejHVODQOeBHQ3UaRS93M4Fi_Sy3By3Bd_sPn_1QU4bgQX4GR9Hz3aKylAVkwygZohD2Iq2i3ozcoKxQLAUBzk3pjSK-ZwwhRA",
-            "interaction": 15
+            "handle": "FT",
+            "platform": "X",
+            "text": "Which is worse for the planet, your kitchen extension or your 4x4?  https:// ft.trib.al/NsTsgiu  | opinion",
+            "url": "https://x.com/FT/status/2112039451601826024",
+            "interaction": 34
           }
         ],
-        "net_sentiment_smoothed": 4.0,
+        "net_sentiment_smoothed": 12.5,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-10-19T09:19:00.857139+08:00",
-        "bucket_end": "2026-10-19T09:36:09.428568+08:00",
+        "bucket_start": "2026-10-19T12:34:27.142852+08:00",
+        "bucket_end": "2026-10-19T12:51:35.714281+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -275,12 +169,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 4.0,
+        "net_sentiment_smoothed": 10.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-19T09:36:09.428568+08:00",
-        "bucket_end": "2026-10-19T09:53:17.999997+08:00",
+        "bucket_start": "2026-10-19T12:51:35.714281+08:00",
+        "bucket_end": "2026-10-19T13:08:44.285710+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -292,12 +186,75 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 4.0,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-19T09:53:17.999997+08:00",
-        "bucket_end": "2026-10-19T10:10:26.571426+08:00",
+        "bucket_start": "2026-10-19T13:08:44.285710+08:00",
+        "bucket_end": "2026-10-19T13:25:52.857139+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 3,
+        "neutral_engagement": 0,
+        "negative_engagement": 8,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 11,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "P Equity’s follow-up suggests Morgan Stanley’s Asia team was bringing its AMD shipment forecasts closer to the U.S. team’s estimates. The 43% cut is to projected GPU volumes for 2026–2030. It doesn’t ",
+            "url": "https://x.com/statementdog/status/2112048597504258315",
+            "interaction": 8
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Samsung has lowered its forecast for Q4 smartphone component orders by 20%–30% from the figures it shared with suppliers before the Chuseok holiday in late September, ZDNet Korea reported on Oct. 15. ",
+            "url": "https://x.com/statementdog/status/2112050669263983010",
+            "interaction": 3
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-19T13:25:52.857139+08:00",
+        "bucket_end": "2026-10-19T13:43:01.428568+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 51,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 51,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "planet",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The so-called MMX expedition is set to launch early on Tuesday in Japan to make a five-year voyage that promises to reveal vital data on the red planet’s secrets and the feasibility of human travel th",
+            "url": "https://x.com/FT/status/2112056666422165932",
+            "interaction": 51
+          }
+        ],
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-19T13:43:01.428568+08:00",
+        "bucket_end": "2026-10-19T14:00:09.999997+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -309,29 +266,120 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-19T14:00:09.999997+08:00",
+        "bucket_end": "2026-10-19T14:17:18.571426+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 8,
+        "neutral_engagement": 7,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 15,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "intel / stock / amd / exclusive",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "J.P. Morgan〈Intel: Upgraded to Neutral: Stock price approaching $85 price target; transformation will still take several years, but management execution is steady, and our confidence is building; AI w",
+            "url": "https://x.com/QQ_Timmy/status/2112061683912814802",
+            "interaction": 8
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Counterpoint Research, TrendForce 集邦科技〈China's CXMT DRAM capacity expected to surge 31% in 2027, potentially nearly doubling by 2028〉18th  - Capacity target: CXMT ( http:// 688825.SS) monthly DRAM waf",
+            "url": "https://x.com/QQ_Timmy/status/2112065206834610592",
+            "interaction": 7
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-19T14:17:18.571426+08:00",
+        "bucket_end": "2026-10-19T14:34:27.142855+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 14,
+        "neutral_engagement": 15,
+        "negative_engagement": 2,
+        "net_sentiment": 0.0,
+        "post_count": 3,
+        "engagement": 31,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "intel / stock / amd / exclusive",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "FTSE as Hedge  https:// ft.trib.al/2IU7P4c  | opinion",
+            "url": "https://x.com/FT/status/2112069463294050576",
+            "interaction": 15
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "〈Intel CEO Lip-Bu Tan Exclusive Interview〉2026-10-18  - US-China Technology Gap: Intel (INTC) CEO Lip-Bu Tan was asked if China could catch up to the US in 5 to 10 years, and he replied, \"Even now, th",
+            "url": "https://x.com/QQ_Timmy/status/2112069736892895464",
+            "interaction": 14
+          }
+        ],
         "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-19T10:10:26.571426+08:00",
-        "bucket_end": "2026-10-19T10:27:35.142855+08:00",
+        "bucket_start": "2026-10-19T14:34:27.142855+08:00",
+        "bucket_end": "2026-10-19T14:51:35.714284+08:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 0,
+        "neutral": 1,
+        "negative": 1,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "neutral_engagement": 41,
+        "negative_engagement": 161,
+        "net_sentiment": -50.0,
+        "post_count": 2,
+        "engagement": 202,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Datacenters 2027: The Year of Acceleration,  +50GW in a Single Year 60GW Under Construction, SemiAnalysis Leading Indicators, 1.3T of Lease Contracts Signed YTD, The Shortage Could Move to Chips",
+            "url": "https://x.com/SemiAnalysis_/status/2112069964131713517",
+            "interaction": 161
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "US stocks set for rebound after AI sell-off",
+            "url": "https://x.com/FT/status/2112073425007104388",
+            "interaction": 41
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-19T10:27:35.142855+08:00",
-        "bucket_end": "2026-10-19T10:44:43.714284+08:00",
+        "bucket_start": "2026-10-19T14:51:35.714284+08:00",
+        "bucket_end": "2026-10-19T15:08:44.285713+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -343,86 +391,114 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -10.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-19T10:44:43.714284+08:00",
-        "bucket_end": "2026-10-19T11:01:52.285713+08:00",
-        "positive": 0,
+        "bucket_start": "2026-10-19T15:08:44.285713+08:00",
+        "bucket_end": "2026-10-19T15:25:52.857142+08:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 42,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 42,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "For days this month New Delhi was effectively under lockdown to prevent protests, with scores of security personnel deployed to fend off the youth-led Cockroach Janta Party.  The FT’s Andres Schipani ",
+            "url": "https://x.com/FT/status/2112082285906235395",
+            "interaction": 42
+          }
+        ],
+        "net_sentiment_smoothed": 10.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-19T11:01:52.285713+08:00",
-        "bucket_end": "2026-10-19T11:19:00.857142+08:00",
+        "bucket_start": "2026-10-19T15:25:52.857142+08:00",
+        "bucket_end": "2026-10-19T15:43:01.428571+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 2,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "negative_engagement": 49,
+        "net_sentiment": -100.0,
+        "post_count": 2,
+        "engagement": 49,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "intel / stock / amd / exclusive",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "SemiAnalysis has raised its 2027 data center capacity forecast from +43 GW to +50 GW  This comes just days after Jensen Huang appeared doubtful about the previous figure when asked about it 👀",
+            "url": "https://x.com/HyperTechInvest/status/2112085836724629721",
+            "interaction": 39
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "《From \"Potential Termination\" to \"The Big Six Knocking on the Door\": 1.4nm Becomes Intel Foundry's Do-or-Die Gamble》  https:// m.eccn.com/consultation/d esign/2026101812432068.html … KeyBanc Analyst A",
+            "url": "https://x.com/QQ_Timmy/status/2112083327234846881",
+            "interaction": 10
+          }
+        ],
+        "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-19T11:19:00.857142+08:00",
-        "bucket_end": "2026-10-19T11:36:09.428571+08:00",
-        "positive": 0,
+        "bucket_start": "2026-10-19T15:43:01.428571+08:00",
+        "bucket_end": "2026-10-19T16:00:10+08:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 3,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 3,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T11:36:09.428571+08:00",
-        "bucket_end": "2026-10-19T11:53:18+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Jason really is a contrarian, huh?  Interesting picks, to say the least",
+            "url": "https://x.com/HyperTechInvest/status/2112087656679235834",
+            "interaction": 3
+          }
+        ],
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
         "topic_id": 0,
-        "label": "賴清德 / 中國 / 三星",
+        "label": "intel / stock / amd / exclusive",
         "cells": [
           {
-            "net_sentiment": -36.4,
-            "volume": 11
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -437,12 +513,66 @@
             "volume": 0
           },
           {
-            "net_sentiment": 20.0,
-            "volume": 10
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "planet",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -479,16 +609,16 @@
         ]
       },
       {
-        "topic_id": 1,
-        "label": "iphone",
+        "topic_id": 2,
+        "label": "boe / exclusive",
         "cells": [
           {
-            "net_sentiment": 0.0,
-            "volume": 2
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -543,63 +673,97 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "TrendForce",
-        "top_topic_id": 0,
-        "top_topic_label": "賴清德 / 中國 / 三星",
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，16 篇）",
         "focus_share": 1.0,
         "post_count": 1,
-        "unclustered_posts": 0
+        "unclustered_posts": 1
       },
       {
-        "handle": "ctee.fans",
+        "handle": "QQ_Timmy",
         "top_topic_id": 0,
-        "top_topic_label": "賴清德 / 中國 / 三星",
+        "top_topic_label": "intel / stock / amd / exclusive",
         "focus_share": 1.0,
-        "post_count": 10,
-        "unclustered_posts": 0
+        "post_count": 4,
+        "unclustered_posts": 1
       },
       {
-        "handle": "yutinghaosfinance",
-        "top_topic_id": 0,
-        "top_topic_label": "賴清德 / 中國 / 三星",
-        "focus_share": 0.846,
-        "post_count": 13,
-        "unclustered_posts": 0
+        "handle": "statementdog",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，16 篇）",
+        "focus_share": 1.0,
+        "post_count": 4,
+        "unclustered_posts": 4
+      },
+      {
+        "handle": "HyperTechInvest",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，16 篇）",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 3,
+        "top_topic_label": "planet",
+        "focus_share": 0.5,
+        "post_count": 12,
+        "unclustered_posts": 8
       }
     ],
     "top_engagement_ranking": [
       {
+        "topic_id": 3,
+        "label": "planet",
+        "total_engagement": 85,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 85,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "boe / exclusive",
+        "total_engagement": 50,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 50,
+        "is_catchall": false
+      },
+      {
         "topic_id": 0,
-        "label": "賴清德 / 中國 / 三星",
-        "total_engagement": 7600,
-        "post_count": 22,
-        "top_account": "yutinghaosfinance",
-        "top_account_engagement": 7486,
+        "label": "intel / stock / amd / exclusive",
+        "total_engagement": 32,
+        "post_count": 3,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 32,
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "iphone",
-        "total_engagement": 1056,
-        "post_count": 2,
-        "top_account": "yutinghaosfinance",
-        "top_account_engagement": 1056,
-        "is_catchall": false
+        "label": "其他（未分群，16 篇）",
+        "total_engagement": 466,
+        "post_count": 16,
+        "top_account": "FT",
+        "top_account_engagement": 236,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 24,
-          "likes": 8654,
-          "engagement": 8656,
-          "avg_engagement": 360.7
-        },
-        "afternoon": {
           "post_count": 0,
           "likes": 0,
           "engagement": 0,
           "avg_engagement": 0.0
+        },
+        "afternoon": {
+          "post_count": 23,
+          "likes": 428,
+          "engagement": 633,
+          "avg_engagement": 27.5
         },
         "evening": {
           "post_count": 0,
@@ -614,7 +778,7 @@
           "avg_engagement": 0.0
         }
       },
-      "peak_slot": "morning"
+      "peak_slot": "afternoon"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
