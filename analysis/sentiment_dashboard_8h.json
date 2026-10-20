@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-19T23:24:57.507060+00:00",
+  "generated_at": "2026-10-20T12:30:00+08:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-10-19T15:24:57.507060+00:00",
-    "end_utc": "2026-10-19T23:24:57.507060+00:00",
-    "start_tw": "Oct 19, 23:24",
-    "end_tw": "Oct 20, 07:24"
+    "start_utc": "2026-10-20T04:30:00+08:00",
+    "end_utc": "2026-10-20T12:30:00+08:00",
+    "start_tw": "Oct 20, 04:30",
+    "end_tw": "Oct 20, 12:30"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 34,
+      "total_posts": 79,
       "sentiment_counts": {
-        "positive": 10,
-        "negative": 14,
-        "neutral": 10
+        "neutral": 20,
+        "positive": 33,
+        "negative": 26
       },
       "sentiment_share": {
-        "positive": 0.294,
-        "negative": 0.412,
-        "neutral": 0.294
+        "neutral": 0.253,
+        "positive": 0.418,
+        "negative": 0.329
       },
       "top_terms": [
         "查看",
@@ -27,33 +27,76 @@
         "更多",
         "查看更",
         "看更多",
+        "reports",
         "三星",
         "台股",
-        "業者",
-        "指數",
-        "上漲"
+        "dollar",
+        "amd"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "美國 / 俄羅斯 / 三星",
+        "topic_id": 4,
+        "label": "amd / sglang / momentum / increasing",
         "heat": 90.0,
-        "volume": 32,
-        "engagement": 6608,
+        "volume": 3,
+        "engagement": 516,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "sk / micron / samsung / substrates",
+        "heat": 90.0,
+        "volume": 3,
+        "engagement": 456,
         "entities": [
-          "美國",
-          "俄羅斯",
-          "三星",
-          "韓國",
-          "友達"
+          "韓國"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
+        "topic_id": 2,
+        "label": "google / tpu / mediatek / shipments",
+        "heat": 90.0,
+        "volume": 3,
+        "engagement": 379,
+        "entities": [
+          "王座"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "ukraine / talks / latest / crisis",
+        "heat": 84.6,
+        "volume": 3,
+        "engagement": 226,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "equity / firm",
+        "heat": 58.5,
+        "volume": 2,
+        "engagement": 315,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 11,
+        "label": "global / demand / originally / agreements",
+        "heat": 52.2,
+        "volume": 3,
+        "engagement": 19,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
         "label": "輝達",
-        "heat": 10.0,
+        "heat": 50.2,
         "volume": 2,
         "engagement": 262,
         "entities": [
@@ -64,6 +107,84 @@
           "彭博"
         ],
         "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "tuesday",
+        "heat": 32.7,
+        "volume": 2,
+        "engagement": 150,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "flash / dsh / opencode / approach",
+        "heat": 15.2,
+        "volume": 2,
+        "engagement": 38,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "surge / shipments",
+        "heat": 10.8,
+        "volume": 2,
+        "engagement": 10,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "vs",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 6,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "crisis",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 80,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "taiwan / dollar",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 5,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 14,
+        "label": "asia / reports",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 87,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，49 篇）",
+        "heat": 10.0,
+        "volume": 49,
+        "engagement": 7230,
+        "entities": [
+          "美國",
+          "俄羅斯",
+          "三星",
+          "友達",
+          "加拿大"
+        ],
+        "is_catchall": true
       }
     ],
     "named_entities": [
@@ -130,274 +251,538 @@
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-19T15:24:57.507062+00:00",
-        "bucket_end": "2026-10-19T15:59:14.649919+00:00",
+        "bucket_start": "2026-10-20T04:30:00.000002+08:00",
+        "bucket_end": "2026-10-20T05:04:17.142859+08:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 0,
+        "neutral": 2,
+        "negative": 1,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T15:59:14.649919+00:00",
-        "bucket_end": "2026-10-19T16:33:31.792776+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T16:33:31.792776+00:00",
-        "bucket_end": "2026-10-19T17:07:48.935633+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T17:07:48.935633+00:00",
-        "bucket_end": "2026-10-19T17:42:06.078490+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T17:42:06.078490+00:00",
-        "bucket_end": "2026-10-19T18:16:23.221347+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T18:16:23.221347+00:00",
-        "bucket_end": "2026-10-19T18:50:40.364204+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T18:50:40.364204+00:00",
-        "bucket_end": "2026-10-19T19:24:57.507061+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T19:24:57.507061+00:00",
-        "bucket_end": "2026-10-19T19:59:14.649918+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T19:59:14.649918+00:00",
-        "bucket_end": "2026-10-19T20:33:31.792775+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T20:33:31.792775+00:00",
-        "bucket_end": "2026-10-19T21:07:48.935632+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T21:07:48.935632+00:00",
-        "bucket_end": "2026-10-19T21:42:06.078489+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T21:42:06.078489+00:00",
-        "bucket_end": "2026-10-19T22:16:23.221346+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.9,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T22:16:23.221346+00:00",
-        "bucket_end": "2026-10-19T22:50:40.364203+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 1.1,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-19T22:50:40.364203+00:00",
-        "bucket_end": "2026-10-19T23:24:57.507060+00:00",
-        "positive": 8,
-        "neutral": 7,
-        "negative": 7,
-        "positive_engagement": 321,
-        "neutral_engagement": 559,
-        "negative_engagement": 337,
-        "net_sentiment": 4.5,
-        "post_count": 22,
-        "engagement": 1217,
+        "neutral_engagement": 150,
+        "negative_engagement": 80,
+        "net_sentiment": -33.3,
+        "post_count": 3,
+        "engagement": 230,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "美國 / 俄羅斯 / 三星",
-            "count": 21
+            "topic_id": 13,
+            "label": "tuesday",
+            "count": 2
           },
           {
-            "topic_id": 1,
+            "topic_id": 3,
+            "label": "crisis",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Just published: front page of the Financial Times, UK edition, Tuesday October 20  https:// ft.trib.al/BHOOzLn",
+            "url": "https://x.com/FT/status/2112280404472349108",
+            "interaction": 90
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The FT View: Shocking violence highlights deepening social division, fiscal constraints and a crisis of leadership.  https:// ft.trib.al/cv7lqCB",
+            "url": "https://x.com/FT/status/2112288099145290219",
+            "interaction": 80
+          }
+        ],
+        "net_sentiment_smoothed": 22.2,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T05:04:17.142859+08:00",
+        "bucket_end": "2026-10-20T05:38:34.285716+08:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 315,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 315,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "equity / firm",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "In 2025 and 2026, US prosecutors said, the 35-year-old Saudi Arabian national — whose salary at OpenAI was $385,000-a-year plus a $2.2mn equity package — had exchanged 'frequent' WhatsApp messages wit",
+            "url": "https://x.com/FT/status/2112297270007808078",
+            "interaction": 254
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "New York pensions chief says private equity firm sought to expense jet use",
+            "url": "https://x.com/FT/status/2112295666173018112",
+            "interaction": 61
+          }
+        ],
+        "net_sentiment_smoothed": 41.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T05:38:34.285716+08:00",
+        "bucket_end": "2026-10-20T06:12:51.428573+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 252,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 252,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "google / tpu / mediatek / shipments",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "There are so many rumors about TPU v10.  North American analysts say AVGO is the sole supplier, while Asian analysts say MediaTek has gained the upper hand.  When I looked into why Sunfish Ultra volum",
+            "url": "https://x.com/jukan05/status/2112305644019843388",
+            "interaction": 252
+          }
+        ],
+        "net_sentiment_smoothed": 35.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T06:12:51.428573+08:00",
+        "bucket_end": "2026-10-20T06:47:08.571430+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 36,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 36,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Healey rules out increasing capital gains tax in the Budget",
+            "url": "https://x.com/FT/status/2112312156993507457",
+            "interaction": 36
+          }
+        ],
+        "net_sentiment_smoothed": 42.4,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T06:47:08.571430+08:00",
+        "bucket_end": "2026-10-20T07:21:25.714287+08:00",
+        "positive": 10,
+        "neutral": 8,
+        "negative": 7,
+        "positive_engagement": 733,
+        "neutral_engagement": 581,
+        "negative_engagement": 337,
+        "net_sentiment": 12.0,
+        "post_count": 25,
+        "engagement": 1651,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "amd / sglang / momentum / increasing",
+            "count": 1
+          },
+          {
+            "topic_id": 7,
+            "label": "sk / micron / samsung / substrates",
+            "count": 1
+          },
+          {
+            "topic_id": 9,
             "label": "輝達",
             "count": 1
           }
         ],
         "top_posts": [
           {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "It looks like AMD’s Arm-based SoC could be coming soon...👀",
+            "url": "https://x.com/jukan05/status/2112315225085214806",
+            "interaction": 353
+          },
+          {
             "handle": "technewsinside",
             "platform": "Facebook",
             "text": "在無塵室想保命，全靠這套超級抽風系統！",
             "url": "https://www.facebook.com/reel/1104068482014059/?__cft__[0]=AZgu4bHvIdlCGVfRkpQS7P0G7BaaZ4WM3jLTspTQP67xBHkHMDY9H7JVAWYdqxR05JFZ74Xm6CRfLq7TUQuAxdjEvi5TcgMlxjFdd4SSY9rdvz1RfnNQ3BgdGESqBKlJWNIxmttEbixQ4hTo8QDN7uq5IqzaeKkGKSJNktHxjTncMniyyshTcJR6JLuMZcwPGKvIRRY",
             "interaction": 343
-          },
-          {
-            "handle": "technewsinside",
-            "platform": "Facebook",
-            "text": "破天荒跨界合作！\n#三星HBM首度採台積電3nm\n…… \n查看更多",
-            "url": "https://www.facebook.com/technewsinside/posts/pfbid02YT1VTKqWMwa6VwxkdS7VpUvG2UsG34RpaJAwnvH53CEoAoPYvdKRqEWQ3dfdWH7Tl?__cft__[0]=AZjpsbGc25Ds-kEBJZMbRmcLLmhtmCIRMpd1oPDJ8PFOZdeipBLO1Fk0-ysdr_7LOerAHl-ztkRXJmkaXrCnBc6CrIUdNLIE1Ky6y7NMmn7RKrfw03mXSjz2DMRjS8w-AqSNrH6uerkHb0tfhNF3f4pL2cmgBIqDPBkRY0fOpQU3eQy4bmXqFgYFkSM",
-            "interaction": 227
           }
         ],
-        "net_sentiment_smoothed": 1.5,
+        "net_sentiment_smoothed": 62.4,
         "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-10-20T07:21:25.714287+08:00",
+        "bucket_end": "2026-10-20T07:55:42.857144+08:00",
+        "positive": 7,
+        "neutral": 4,
+        "negative": 7,
+        "positive_engagement": 1006,
+        "neutral_engagement": 1729,
+        "negative_engagement": 3597,
+        "net_sentiment": 0.0,
+        "post_count": 18,
+        "engagement": 6332,
+        "top_topics": [
+          {
+            "topic_id": 7,
+            "label": "sk / micron / samsung / substrates",
+            "count": 1
+          },
+          {
+            "topic_id": 14,
+            "label": "asia / reports",
+            "count": 1
+          },
+          {
+            "topic_id": 11,
+            "label": "global / demand / originally / agreements",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "yutinghaosfinance",
+            "platform": "Facebook",
+            "text": "第三次世界大戰正在逼近？全球65場衝突創二戰後新高。、根據國際危機組織統計，目前全球共有65場持續中的武裝衝突，創下第二次世界大戰結束以來最高紀錄。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02VWrq3Zxdxq2VcabWLqyUzTRrnWRPSUYUvTGYHDiH3XtUN38up386AnFQEN9Par66l?__cft__[0]=AZhbJmav4VY3pRynr3otwCGR-ErK2SRWfle9XwpTcu56jE3KPKSu5hjGQEpyWxEsYPJFIG4rcFErI5rU1DZWLkOd_WoUql3OE45rFnlJMxCTgBDNNilrjKC2EDo7gNyA5DhJta2s1T5ypXdKJ9roResv6KR6o1h2pygPldyhU-vdyKTo4EQApj1-DKk",
+            "interaction": 1029
+          },
+          {
+            "handle": "yutinghaosfinance",
+            "platform": "Facebook",
+            "text": "俄羅斯恐再強徵30萬大軍，引發國內男性提前出逃，早在四年前，2022年9月普丁宣布部分動員後，約有40萬名俄羅斯男性逃往海外，如今即使克里姆林宮尚未正式宣布徵兵，仍有數千人開始離境。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid036fhkdB79hED5CNFBYEPKHRwcf7ifQGrkoyEo9PeL2y2zvGAQnhrr3VUmyRLdwQ4tl?comment_id=1089621620726891",
+            "interaction": 1018
+          }
+        ],
+        "net_sentiment_smoothed": 35.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T07:55:42.857144+08:00",
+        "bucket_end": "2026-10-20T08:30:00.000001+08:00",
+        "positive": 5,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 177,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 5,
+        "engagement": 177,
+        "top_topics": [
+          {
+            "topic_id": 10,
+            "label": "flash / dsh / opencode / approach",
+            "count": 2
+          },
+          {
+            "topic_id": 4,
+            "label": "amd / sglang / momentum / increasing",
+            "count": 1
+          },
+          {
+            "topic_id": 6,
+            "label": "ukraine / talks / latest / crisis",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Trump envoys to hold fresh Ukraine talks as energy crunch looms over midterms",
+            "url": "https://x.com/FT/status/2112338094305185820",
+            "interaction": 69
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "BYD is playing the long game in Japan  https:// ft.trib.al/FxCKJzv  | opinion",
+            "url": "https://x.com/FT/status/2112335950063796731",
+            "interaction": 46
+          }
+        ],
+        "net_sentiment_smoothed": 35.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T08:30:00.000001+08:00",
+        "bucket_end": "2026-10-20T09:04:17.142858+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 2,
+        "positive_engagement": 139,
+        "neutral_engagement": 0,
+        "negative_engagement": 53,
+        "net_sentiment": -33.3,
+        "post_count": 3,
+        "engagement": 192,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "amd / sglang / momentum / increasing",
+            "count": 1
+          },
+          {
+            "topic_id": 6,
+            "label": "ukraine / talks / latest / crisis",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "ALERT🚨: SGLANG JUST MERGED MEGAKERNEL SUPPORT, GETTING CLOSE TO 1000 tok/s/user on the GB300 NVL72 AgentX Harness & increasing interactivity by 1.5x on MI355X too! Great work by the SGLang, RadixArk, ",
+            "url": "https://x.com/SemiAnalysis_/status/2112347284713148746",
+            "interaction": 139
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Good morning, Asia. While you were sleeping, one of our most-read articles was an opinion piece about the latest crisis in US-Ukraine relations. Things look different and an important shift is under w",
+            "url": "https://x.com/FT/status/2112341587795526126",
+            "interaction": 37
+          }
+        ],
+        "net_sentiment_smoothed": 13.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T09:04:17.142858+08:00",
+        "bucket_end": "2026-10-20T09:38:34.285715+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 5,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 5,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "surge / shipments",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "ASML Shipments to China Surge to 23% of System Sales in Q3 2026. 📰 News Source:  https:// buff.ly/PTDqgtj",
+            "url": "https://x.com/trendforce/status/2112353776493293916",
+            "interaction": 5
+          }
+        ],
+        "net_sentiment_smoothed": 33.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T09:38:34.285715+08:00",
+        "bucket_end": "2026-10-20T10:12:51.428572+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 120,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 120,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "ukraine / talks / latest / crisis",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Steve Witkoff and Jared Kushner are expected to travel to Norway this week for the latest round of talks with Volodymyr Zelenskyy seeking to end the war in Ukraine  https:// ft.trib.al/SfuPhNw",
+            "url": "https://x.com/FT/status/2112360033425998213",
+            "interaction": 120
+          }
+        ],
+        "net_sentiment_smoothed": 13.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T10:12:51.428572+08:00",
+        "bucket_end": "2026-10-20T10:47:08.571429+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 201,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 201,
+        "top_topics": [
+          {
+            "topic_id": 7,
+            "label": "sk / micron / samsung / substrates",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "A few friends have asked me whether the strike at Micron is bullish for the memory sector. My answer is that it should be good news for Samsung and SK hynix, but it’s likely bad news for Micron.  You’",
+            "url": "https://x.com/jukan05/status/2112368399078797614",
+            "interaction": 201
+          }
+        ],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T10:47:08.571429+08:00",
+        "bucket_end": "2026-10-20T11:21:25.714286+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 2,
+        "positive_engagement": 197,
+        "neutral_engagement": 0,
+        "negative_engagement": 25,
+        "net_sentiment": 0.0,
+        "post_count": 4,
+        "engagement": 222,
+        "top_topics": [
+          {
+            "topic_id": 11,
+            "label": "global / demand / originally / agreements",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "ALERT🚨: Vera Rubin NVL72 is up to 7.3x better in perf per dollar than GB300 NVL72 for 1 million context length agentic inference workloads!  THE MORE U BUY, THE MORE U EARN 👇️(1/3)🧵",
+            "url": "https://x.com/SemiAnalysis_/status/2112379877621919877",
+            "interaction": 183
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "One of Australia’s largest banks is cutting 6% of its workforce with the majority of roles to be shed by the end of the year, as it also moves to reduce spending on consultants and contractors  https:",
+            "url": "https://x.com/FT/status/2112378054919995548",
+            "interaction": 24
+          }
+        ],
+        "net_sentiment_smoothed": 13.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T11:21:25.714286+08:00",
+        "bucket_end": "2026-10-20T11:55:42.857143+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Meta’s Prometheus example calls for 37,656 GPUs to support a 32,768-GPU training job, including spares. How much useful training that investment delivers also depends on reliable networking, power man",
+            "url": "https://x.com/statementdog/status/2112390852622627082",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": 41.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T11:55:42.857143+08:00",
+        "bucket_end": "2026-10-20T12:30:00+08:00",
+        "positive": 2,
+        "neutral": 4,
+        "negative": 6,
+        "positive_engagement": 10,
+        "neutral_engagement": 15,
+        "negative_engagement": 20,
+        "net_sentiment": -33.3,
+        "post_count": 12,
+        "engagement": 45,
+        "top_topics": [
+          {
+            "topic_id": 11,
+            "label": "global / demand / originally / agreements",
+            "count": 1
+          },
+          {
+            "topic_id": 5,
+            "label": "surge / shipments",
+            "count": 1
+          },
+          {
+            "topic_id": 12,
+            "label": "vs",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Why the UK government is living on borrowed time  https:// ft.trib.al/NPPu1R0  | opinion",
+            "url": "https://x.com/FT/status/2112397819612930093",
+            "interaction": 6
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Musk vs the Swedish unions — who won?  https:// ft.trib.al/e4Rmpym  | opinion",
+            "url": "https://x.com/FT/status/2112396975815414161",
+            "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": 22.2,
+        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "美國 / 俄羅斯 / 三星",
+        "topic_id": 4,
+        "label": "amd / sglang / momentum / increasing",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -416,8 +801,20 @@
             "volume": 0
           },
           {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -442,24 +839,12 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 4.8,
-            "volume": 21
           }
         ]
       },
       {
-        "topic_id": 1,
-        "label": "輝達",
+        "topic_id": 7,
+        "label": "sk / micron / samsung / substrates",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -478,8 +863,12 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -498,8 +887,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -508,6 +897,28 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "google / tpu / mediatek / shipments",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -516,77 +927,480 @@
           {
             "net_sentiment": 0.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 11,
+        "label": "global / demand / originally / agreements",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "ukraine / talks / latest / crisis",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "surge / shipments",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
+        "handle": "TrendForce",
+        "top_topic_id": 5,
+        "top_topic_label": "surge / shipments",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 4,
+        "top_topic_label": "amd / sglang / momentum / increasing",
+        "focus_share": 1.0,
+        "post_count": 4,
+        "unclustered_posts": 3
+      },
+      {
         "handle": "TrendForce.tw",
         "top_topic_id": 0,
-        "top_topic_label": "美國 / 俄羅斯 / 三星",
+        "top_topic_label": "其他（未分群，49 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，49 篇）",
+        "focus_share": 1.0,
+        "post_count": 11,
+        "unclustered_posts": 11
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 9,
+        "top_topic_label": "輝達",
+        "focus_share": 1.0,
+        "post_count": 12,
+        "unclustered_posts": 11
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 4,
+        "top_topic_label": "amd / sglang / momentum / increasing",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
-        "handle": "ctee.fans",
-        "top_topic_id": 0,
-        "top_topic_label": "美國 / 俄羅斯 / 三星",
+        "handle": "tphuang",
+        "top_topic_id": 10,
+        "top_topic_label": "flash / dsh / opencode / approach",
         "focus_share": 1.0,
-        "post_count": 11,
+        "post_count": 2,
         "unclustered_posts": 0
       },
       {
-        "handle": "yutinghaosfinance",
-        "top_topic_id": 0,
-        "top_topic_label": "美國 / 俄羅斯 / 三星",
-        "focus_share": 0.917,
-        "post_count": 12,
-        "unclustered_posts": 0
+        "handle": "statementdog",
+        "top_topic_id": 1,
+        "top_topic_label": "taiwan / dollar",
+        "focus_share": 0.667,
+        "post_count": 4,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 7,
+        "top_topic_label": "sk / micron / samsung / substrates",
+        "focus_share": 0.5,
+        "post_count": 5,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 2,
+        "top_topic_label": "google / tpu / mediatek / shipments",
+        "focus_share": 0.333,
+        "post_count": 4,
+        "unclustered_posts": 1
       },
       {
         "handle": "technewsinside",
-        "top_topic_id": 0,
-        "top_topic_label": "美國 / 俄羅斯 / 三星",
-        "focus_share": 0.9,
+        "top_topic_id": 7,
+        "top_topic_label": "sk / micron / samsung / substrates",
+        "focus_share": 0.333,
         "post_count": 10,
-        "unclustered_posts": 0
+        "unclustered_posts": 7
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 6,
+        "top_topic_label": "ukraine / talks / latest / crisis",
+        "focus_share": 0.273,
+        "post_count": 23,
+        "unclustered_posts": 12
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "美國 / 俄羅斯 / 三星",
-        "total_engagement": 6608,
-        "post_count": 32,
-        "top_account": "yutinghaosfinance",
-        "top_account_engagement": 5462,
+        "topic_id": 4,
+        "label": "amd / sglang / momentum / increasing",
+        "total_engagement": 516,
+        "post_count": 3,
+        "top_account": "jukan05",
+        "top_account_engagement": 353,
         "is_catchall": false
       },
       {
-        "topic_id": 1,
+        "topic_id": 7,
+        "label": "sk / micron / samsung / substrates",
+        "total_engagement": 456,
+        "post_count": 3,
+        "top_account": "jukan05",
+        "top_account_engagement": 455,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "google / tpu / mediatek / shipments",
+        "total_engagement": 379,
+        "post_count": 3,
+        "top_account": "jukan05",
+        "top_account_engagement": 252,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "equity / firm",
+        "total_engagement": 315,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 315,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
         "label": "輝達",
         "total_engagement": 262,
         "post_count": 2,
         "top_account": "yutinghaosfinance",
         "top_account_engagement": 191,
         "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "ukraine / talks / latest / crisis",
+        "total_engagement": 226,
+        "post_count": 3,
+        "top_account": "FT",
+        "top_account_engagement": 226,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "tuesday",
+        "total_engagement": 150,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 150,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 14,
+        "label": "asia / reports",
+        "total_engagement": 87,
+        "post_count": 1,
+        "top_account": "dnystedt",
+        "top_account_engagement": 87,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "crisis",
+        "total_engagement": 80,
+        "post_count": 1,
+        "top_account": "FT",
+        "top_account_engagement": 80,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "flash / dsh / opencode / approach",
+        "total_engagement": 38,
+        "post_count": 2,
+        "top_account": "tphuang",
+        "top_account_engagement": 38,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 11,
+        "label": "global / demand / originally / agreements",
+        "total_engagement": 19,
+        "post_count": 3,
+        "top_account": "dnystedt",
+        "top_account_engagement": 13,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "surge / shipments",
+        "total_engagement": 10,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 5,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "vs",
+        "total_engagement": 6,
+        "post_count": 1,
+        "top_account": "FT",
+        "top_account_engagement": 6,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "taiwan / dollar",
+        "total_engagement": 5,
+        "post_count": 2,
+        "top_account": "statementdog",
+        "top_account_engagement": 5,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，49 篇）",
+        "total_engagement": 7230,
+        "post_count": 49,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 5462,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 34,
-          "likes": 6870,
-          "engagement": 6870,
-          "avg_engagement": 202.1
+          "post_count": 61,
+          "likes": 8707,
+          "engagement": 9188,
+          "avg_engagement": 150.6
         },
         "afternoon": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 13,
+          "likes": 18,
+          "engagement": 46,
+          "avg_engagement": 3.5
         },
         "evening": {
           "post_count": 0,
@@ -595,10 +1409,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 5,
+          "likes": 366,
+          "engagement": 545,
+          "avg_engagement": 109.0
         }
       },
       "peak_slot": "morning"
