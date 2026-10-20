@@ -1,73 +1,82 @@
 {
-  "generated_at": "2026-10-20T12:30:00+08:00",
+  "generated_at": "2026-10-20T16:19:30+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-20T08:30:00+08:00",
-    "end_utc": "2026-10-20T12:30:00+08:00",
-    "start_tw": "Oct 20, 08:30",
-    "end_tw": "Oct 20, 12:30"
+    "start_utc": "2026-10-20T12:19:30+08:00",
+    "end_utc": "2026-10-20T16:19:30+08:00",
+    "start_tw": "Oct 20, 12:19",
+    "end_tw": "Oct 20, 16:19"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 24,
+      "total_posts": 29,
       "sentiment_counts": {
-        "neutral": 4,
-        "positive": 9,
+        "positive": 10,
+        "neutral": 8,
         "negative": 11
       },
       "sentiment_share": {
-        "neutral": 0.167,
-        "positive": 0.375,
-        "negative": 0.458
+        "positive": 0.345,
+        "neutral": 0.276,
+        "negative": 0.379
       },
       "top_terms": [
-        "surge",
-        "alert",
-        "nvl",
-        "dollar",
-        "context",
-        "agentic",
-        "agentx",
-        "user",
-        "global",
-        "latest"
+        "canada",
+        "micron",
+        "taiwan",
+        "increasingly",
+        "potentially",
+        "korean",
+        "asking",
+        "fab",
+        "economy",
+        "global"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 3,
-        "label": "ukraine / latest",
-        "heat": 90.0,
-        "volume": 2,
-        "engagement": 157,
+        "topic_id": 1,
+        "label": "micron / oct / taichung / strike",
+        "heat": 52.3,
+        "volume": 3,
+        "engagement": 26,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 2,
-        "label": "surge",
-        "heat": 12.1,
+        "label": "korean / trading / asking / fab",
+        "heat": 50.0,
         "volume": 2,
-        "engagement": 10,
+        "engagement": 398,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "global",
+        "topic_id": 4,
+        "label": "shareholders",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 6,
+        "engagement": 15,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "amazon",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 151,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，18 篇）",
+        "label": "其他（未分群，20 篇）",
         "heat": 10.0,
-        "volume": 18,
-        "engagement": 613,
+        "volume": 20,
+        "engagement": 1175,
         "entities": [],
         "is_catchall": true
       }
@@ -75,132 +84,58 @@
     "named_entities": [],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-20T08:29:59.999994+08:00",
-        "bucket_end": "2026-10-20T08:47:08.571423+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 53,
-        "net_sentiment": -100.0,
-        "post_count": 2,
-        "engagement": 53,
-        "top_topics": [
-          {
-            "topic_id": 3,
-            "label": "ukraine / latest",
-            "count": 1
-          }
-        ],
+        "bucket_start": "2026-10-20T12:19:29.999994+08:00",
+        "bucket_end": "2026-10-20T12:36:38.571423+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 5,
+        "positive_engagement": 6,
+        "neutral_engagement": 108,
+        "negative_engagement": 217,
+        "net_sentiment": -57.1,
+        "post_count": 7,
+        "engagement": 331,
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Good morning, Asia. While you were sleeping, one of our most-read articles was an opinion piece about the latest crisis in US-Ukraine relations. Things look different and an important shift is under w",
-            "url": "https://x.com/FT/status/2112341587795526126",
-            "interaction": 37
+            "text": "Iran war tilts balance of global oil power towards Americas",
+            "url": "https://x.com/FT/status/2112399945563009138",
+            "interaction": 120
           },
           {
             "handle": "FT",
             "platform": "X",
-            "text": "China’s villages pay the price for Beijing’s AI ambitions",
-            "url": "https://x.com/FT/status/2112341502437253206",
-            "interaction": 16
+            "text": "Can Africa outgrow China?",
+            "url": "https://x.com/FT/status/2112399941486207390",
+            "interaction": 108
           }
         ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
+        "net_sentiment_smoothed": -7.9,
+        "is_anomaly": true
       },
       {
-        "bucket_start": "2026-10-20T08:47:08.571423+08:00",
-        "bucket_end": "2026-10-20T09:04:17.142852+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 139,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 139,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "SemiAnalysis_",
-            "platform": "X",
-            "text": "ALERT🚨: SGLANG JUST MERGED MEGAKERNEL SUPPORT, GETTING CLOSE TO 1000 tok/s/user on the GB300 NVL72 AgentX Harness & increasing interactivity by 1.5x on MI355X too! Great work by the SGLang, RadixArk, ",
-            "url": "https://x.com/SemiAnalysis_/status/2112347284713148746",
-            "interaction": 139
-          }
-        ],
-        "net_sentiment_smoothed": 25.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-20T09:04:17.142852+08:00",
-        "bucket_end": "2026-10-20T09:21:25.714281+08:00",
+        "bucket_start": "2026-10-20T12:36:38.571423+08:00",
+        "bucket_end": "2026-10-20T12:53:47.142852+08:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 0,
+        "neutral": 1,
+        "negative": 2,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-20T09:21:25.714281+08:00",
-        "bucket_end": "2026-10-20T09:38:34.285710+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 5,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 5,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "surge",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "X",
-            "text": "ASML Shipments to China Surge to 23% of System Sales in Q3 2026. 📰 News Source:  https:// buff.ly/PTDqgtj",
-            "url": "https://x.com/trendforce/status/2112353776493293916",
-            "interaction": 5
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-20T09:38:34.285710+08:00",
-        "bucket_end": "2026-10-20T09:55:42.857139+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 120,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 120,
+        "neutral_engagement": 9,
+        "negative_engagement": 289,
+        "net_sentiment": -66.7,
+        "post_count": 3,
+        "engagement": 298,
         "top_topics": [
           {
             "topic_id": 3,
-            "label": "ukraine / latest",
+            "label": "amazon",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "micron / oct / taichung / strike",
             "count": 1
           }
         ],
@@ -208,17 +143,55 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Steve Witkoff and Jared Kushner are expected to travel to Norway this week for the latest round of talks with Volodymyr Zelenskyy seeking to end the war in Ukraine  https:// ft.trib.al/SfuPhNw",
-            "url": "https://x.com/FT/status/2112360033425998213",
-            "interaction": 120
+            "text": "Authorities are now working to stop stolen goods being resold online through platforms such as Vinted, Amazon and eBay, after a weekend of rioting and looting across France  https:// ft.trib.al/2kUx68",
+            "url": "https://x.com/FT/status/2112404813518348696",
+            "interaction": 145
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Private jet charter costs from Saudi Arabia soar after Houthi attacks",
+            "url": "https://x.com/FT/status/2112406538778231159",
+            "interaction": 144
           }
         ],
-        "net_sentiment_smoothed": 20.0,
+        "net_sentiment_smoothed": -6.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-20T09:55:42.857139+08:00",
-        "bucket_end": "2026-10-20T10:12:51.428568+08:00",
+        "bucket_start": "2026-10-20T12:53:47.142852+08:00",
+        "bucket_end": "2026-10-20T13:10:55.714281+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 6,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 6,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "amazon",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "3M  $MMM  has issued an Amazon subsidiary a warrant to buy up to 3.16 million shares, with vesting largely tied to purchases of 3M’s data-center products.  The seven-year warrant has an exercise price",
+            "url": "https://x.com/statementdog/status/2112406966974951933",
+            "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": -4.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T13:10:55.714281+08:00",
+        "bucket_end": "2026-10-20T13:28:04.285710+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -234,205 +207,268 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-20T10:12:51.428568+08:00",
-        "bucket_end": "2026-10-20T10:29:59.999997+08:00",
-        "positive": 1,
+        "bucket_start": "2026-10-20T13:28:04.285710+08:00",
+        "bucket_end": "2026-10-20T13:45:12.857139+08:00",
+        "positive": 0,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 201,
+        "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 201,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 33.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T13:45:12.857139+08:00",
+        "bucket_end": "2026-10-20T14:02:21.428568+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 45,
+        "neutral_engagement": 344,
+        "negative_engagement": 0,
+        "net_sentiment": 66.7,
+        "post_count": 3,
+        "engagement": 389,
         "top_topics": [],
         "top_posts": [
           {
             "handle": "jukan05",
             "platform": "X",
-            "text": "A few friends have asked me whether the strike at Micron is bullish for the memory sector. My answer is that it should be good news for Samsung and SK hynix, but it’s likely bad news for Micron.  You’",
-            "url": "https://x.com/jukan05/status/2112368399078797614",
-            "interaction": 201
+            "text": "LEE HYOUNG-IL, SOUTH KOREA’S DEPUTY PRIME MINISTER AND MINISTER OF FINANCE AND ECONOMY: WE ARE PREPARING TO DEPLOY MARKET STABILIZATION MEASURES IF STOCK MARKET VOLATILITY INCREASES.  WE WILL DECIDE W",
+            "url": "https://x.com/jukan05/status/2112422553918775647",
+            "interaction": 344
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Countries from Canada to Argentina have seen a surge in investment and set production records this year, as buyers rush to secure reliable supply amid the Hormuz disruption  https:// ft.trib.al/2C1g9w",
+            "url": "https://x.com/FT/status/2112420822186868764",
+            "interaction": 35
           }
         ],
+        "net_sentiment_smoothed": 23.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T14:02:21.428568+08:00",
+        "bucket_end": "2026-10-20T14:19:29.999997+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 2,
+        "positive_engagement": 385,
+        "neutral_engagement": 31,
+        "negative_engagement": 174,
+        "net_sentiment": 0.0,
+        "post_count": 5,
+        "engagement": 590,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "korean / trading / asking / fab",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Exclusive reporting by Korean media on Terafab:  Terafab is excluding Chinese suppliers entirely. It wants to work with Korean suppliers because Japanese products are expensive. However, it is asking ",
+            "url": "https://x.com/jukan05/status/2112425673600250164",
+            "interaction": 367
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Alberta voters set to reject separation from Canada, early results show",
+            "url": "https://x.com/FT/status/2112425972527944116",
+            "interaction": 151
+          }
+        ],
+        "net_sentiment_smoothed": 43.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T14:19:29.999997+08:00",
+        "bucket_end": "2026-10-20T14:36:38.571426+08:00",
+        "positive": 2,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 31,
+        "neutral_engagement": 33,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 4,
+        "engagement": 64,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "micron / oct / taichung / strike",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Nomura Securities (Nomura) <AI Market Concerns and Memory Outlook> 2026-10-19  - Nomura maintains a positive view on memory, believing that supply constraints will persist at least until 2028. Nomura ",
+            "url": "https://x.com/QQ_Timmy/status/2112430957986811999",
+            "interaction": 23
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "What has actually battered the bond market?",
+            "url": "https://x.com/FT/status/2112432585825476710",
+            "interaction": 18
+          }
+        ],
+        "net_sentiment_smoothed": 43.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T14:36:38.571426+08:00",
+        "bucket_end": "2026-10-20T14:53:47.142855+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 22,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 22,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "micron / oct / taichung / strike",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "BofA Global Fund Manager Survey (October 2026)  Asking global fund managers: \"At what 10-year U.S. Treasury yield would you consider shifting assets from stocks to bonds?\"  The overall average trigger",
+            "url": "https://x.com/QQ_Timmy/status/2112434518342946954",
+            "interaction": 13
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Union workers from Micron’s Taoyuan, Taiwan fab will go on a sympathy strike Thursday (10/22) to support the Micron Taichung union during its 2nd round of negotiations with management over bonus pay t",
+            "url": "https://x.com/dnystedt/status/2112433699258351730",
+            "interaction": 9
+          }
+        ],
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T14:53:47.142855+08:00",
+        "bucket_end": "2026-10-20T15:10:55.714284+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T15:10:55.714284+08:00",
+        "bucket_end": "2026-10-20T15:28:04.285713+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 28,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 28,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "From booking train tickets to making doctor’s appointments, everyday life is becoming increasingly digital, with many older people struggling to keep pace.  Claer Barrett explains why banks and busine",
+            "url": "https://x.com/FT/status/2112443308580446377",
+            "interaction": 28
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-20T15:28:04.285713+08:00",
+        "bucket_end": "2026-10-20T15:45:12.857142+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
         "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-20T10:29:59.999997+08:00",
-        "bucket_end": "2026-10-20T10:47:08.571426+08:00",
+        "bucket_start": "2026-10-20T15:45:12.857142+08:00",
+        "bucket_end": "2026-10-20T16:02:21.428571+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-20T10:47:08.571426+08:00",
-        "bucket_end": "2026-10-20T11:04:17.142855+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 25,
+        "negative_engagement": 22,
         "net_sentiment": -100.0,
-        "post_count": 2,
-        "engagement": 25,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "global",
-            "count": 1
-          }
-        ],
+        "post_count": 1,
+        "engagement": 22,
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
-            "text": "One of Australia’s largest banks is cutting 6% of its workforce with the majority of roles to be shed by the end of the year, as it also moves to reduce spending on consultants and contractors  https:",
-            "url": "https://x.com/FT/status/2112378054919995548",
-            "interaction": 24
-          },
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "AI data-center demand is tightening optical fiber supply and pushing telecom operators toward long-term supply agreements, TrendForce says.  The firm estimates a global shortfall of 180 million fiber-",
-            "url": "https://x.com/statementdog/status/2112379001515954575",
-            "interaction": 1
+            "text": "Alberta looks set to remain part of Canada rather than back a separation process that would plunge the country into a crisis at a time when President Donald Trump has threatened to make it the 51st US",
+            "url": "https://x.com/FT/status/2112453806537490641",
+            "interaction": 22
           }
         ],
-        "net_sentiment_smoothed": 20.0,
+        "net_sentiment_smoothed": -25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-20T11:04:17.142855+08:00",
-        "bucket_end": "2026-10-20T11:21:25.714284+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 197,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 2,
-        "engagement": 197,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "SemiAnalysis_",
-            "platform": "X",
-            "text": "ALERT🚨: Vera Rubin NVL72 is up to 7.3x better in perf per dollar than GB300 NVL72 for 1 million context length agentic inference workloads!  THE MORE U BUY, THE MORE U EARN 👇️(1/3)🧵",
-            "url": "https://x.com/SemiAnalysis_/status/2112379877621919877",
-            "interaction": 183
-          },
-          {
-            "handle": "SemiAnalysis_",
-            "platform": "X",
-            "text": "AgentX captures the four elements of an agentic workload:  🟠 Multi-turn: A session includes many user/assistant interactions (tens or hundreds) compared to a handful in a chatbot scenario. 🟠 1 million",
-            "url": "https://x.com/SemiAnalysis_/status/2112379879119364156",
-            "interaction": 14
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-20T11:21:25.714284+08:00",
-        "bucket_end": "2026-10-20T11:38:34.285713+08:00",
+        "bucket_start": "2026-10-20T16:02:21.428571+08:00",
+        "bucket_end": "2026-10-20T16:19:30+08:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 10,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-20T11:38:34.285713+08:00",
-        "bucket_end": "2026-10-20T11:55:42.857142+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
         "post_count": 1,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "Meta’s Prometheus example calls for 37,656 GPUs to support a 32,768-GPU training job, including spares. How much useful training that investment delivers also depends on reliable networking, power man",
-            "url": "https://x.com/statementdog/status/2112390852622627082",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 50.9,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-20T11:55:42.857142+08:00",
-        "bucket_end": "2026-10-20T12:12:51.428571+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 4,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 4,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "Solar and storage players are now pitching all-in-one power systems tailored for AI data centers, Sky observed at Taiwan’s energy expo.  Bundling power generation, batteries, distribution, and energy ",
-            "url": "https://x.com/statementdog/status/2112394480364216625",
-            "interaction": 4
-          }
-        ],
-        "net_sentiment_smoothed": 38.6,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-20T12:12:51.428571+08:00",
-        "bucket_end": "2026-10-20T12:30:00+08:00",
-        "positive": 1,
-        "neutral": 4,
-        "negative": 6,
-        "positive_engagement": 6,
-        "neutral_engagement": 15,
-        "negative_engagement": 20,
-        "net_sentiment": -45.5,
-        "post_count": 11,
-        "engagement": 41,
+        "engagement": 10,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "global",
-            "count": 1
-          },
-          {
-            "topic_id": 2,
-            "label": "surge",
+            "topic_id": 4,
+            "label": "shareholders",
             "count": 1
           }
         ],
@@ -440,26 +476,19 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Why the UK government is living on borrowed time  https:// ft.trib.al/NPPu1R0  | opinion",
-            "url": "https://x.com/FT/status/2112397819612930093",
-            "interaction": 6
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Musk vs the Swedish unions — who won?  https:// ft.trib.al/e4Rmpym  | opinion",
-            "url": "https://x.com/FT/status/2112396975815414161",
-            "interaction": 6
+            "text": "It’s time to give individual shareholders direct votes on climate change  https:// ft.trib.al/dEVbqPc  | opinion",
+            "url": "https://x.com/FT/status/2112454578968887648",
+            "interaction": 10
           }
         ],
-        "net_sentiment_smoothed": 51.5,
-        "is_anomaly": true
+        "net_sentiment_smoothed": -33.3,
+        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
-        "label": "surge",
+        "topic_id": 1,
+        "label": "micron / oct / taichung / strike",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -467,11 +496,31 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 100.0,
@@ -496,32 +545,74 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
           }
         ]
       },
       {
-        "topic_id": 1,
-        "label": "global",
+        "topic_id": 2,
+        "label": "korean / trading / asking / fab",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "shareholders",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -556,10 +647,6 @@
             "volume": 0
           },
           {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           },
@@ -576,17 +663,29 @@
             "volume": 0
           },
           {
-            "net_sentiment": -100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 1
           }
         ]
       },
       {
         "topic_id": 3,
-        "label": "ukraine / latest",
+        "label": "amazon",
         "cells": [
           {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
             "volume": 1
           },
           {
@@ -596,14 +695,6 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -647,96 +738,121 @@
     "coverage_focus_ranking": [
       {
         "handle": "TrendForce",
-        "top_topic_id": 2,
-        "top_topic_label": "surge",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "SemiAnalysis_",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，18 篇）",
-        "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 3
-      },
-      {
-        "handle": "jukan05",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，18 篇）",
+        "top_topic_label": "其他（未分群，20 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
       },
       {
-        "handle": "statementdog",
-        "top_topic_id": 1,
-        "top_topic_label": "global",
+        "handle": "jukan05",
+        "top_topic_id": 2,
+        "top_topic_label": "korean / trading / asking / fab",
         "focus_share": 1.0,
-        "post_count": 4,
+        "post_count": 2,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，20 篇）",
+        "focus_share": 1.0,
+        "post_count": 3,
         "unclustered_posts": 3
       },
       {
+        "handle": "HyperTechInvest",
+        "top_topic_id": 4,
+        "top_topic_label": "shareholders",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 1,
+        "top_topic_label": "micron / oct / taichung / strike",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 1,
+        "top_topic_label": "micron / oct / taichung / strike",
+        "focus_share": 0.667,
+        "post_count": 4,
+        "unclustered_posts": 1
+      },
+      {
         "handle": "FT",
-        "top_topic_id": 3,
-        "top_topic_label": "ukraine / latest",
-        "focus_share": 0.5,
-        "post_count": 14,
-        "unclustered_posts": 10
+        "top_topic_id": 2,
+        "top_topic_label": "korean / trading / asking / fab",
+        "focus_share": 0.333,
+        "post_count": 17,
+        "unclustered_posts": 14
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 3,
-        "label": "ukraine / latest",
-        "total_engagement": 157,
+        "topic_id": 2,
+        "label": "korean / trading / asking / fab",
+        "total_engagement": 398,
         "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 157,
+        "top_account": "jukan05",
+        "top_account_engagement": 367,
         "is_catchall": false
       },
       {
-        "topic_id": 2,
-        "label": "surge",
-        "total_engagement": 10,
+        "topic_id": 3,
+        "label": "amazon",
+        "total_engagement": 151,
         "post_count": 2,
-        "top_account": "TrendForce",
-        "top_account_engagement": 5,
+        "top_account": "FT",
+        "top_account_engagement": 145,
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "global",
-        "total_engagement": 6,
+        "label": "micron / oct / taichung / strike",
+        "total_engagement": 26,
+        "post_count": 3,
+        "top_account": "statementdog",
+        "top_account_engagement": 17,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "shareholders",
+        "total_engagement": 15,
         "post_count": 2,
         "top_account": "FT",
-        "top_account_engagement": 5,
+        "top_account_engagement": 10,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，18 篇）",
-        "total_engagement": 613,
-        "post_count": 18,
-        "top_account": "SemiAnalysis_",
-        "top_account_engagement": 336,
+        "label": "其他（未分群，20 篇）",
+        "total_engagement": 1175,
+        "post_count": 20,
+        "top_account": "FT",
+        "top_account_engagement": 748,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 11,
-          "likes": 541,
-          "engagement": 740,
-          "avg_engagement": 67.3
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 13,
-          "likes": 18,
-          "engagement": 46,
-          "avg_engagement": 3.5
+          "post_count": 29,
+          "likes": 1293,
+          "engagement": 1765,
+          "avg_engagement": 60.9
         },
         "evening": {
           "post_count": 0,

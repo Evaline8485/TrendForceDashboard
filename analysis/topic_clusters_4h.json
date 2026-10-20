@@ -1,201 +1,129 @@
 {
   "clusters": [
     {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 3,
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 4,
       "accounts": {
-        "SemiAnalysis_": 2,
+        "TrendForce": 1,
+        "QQ_Timmy": 1,
+        "statementdog": 1,
+        "dnystedt": 1
+      },
+      "engagement_by_account": {
+        "TrendForce": 18,
+        "QQ_Timmy": 23,
+        "statementdog": 8,
+        "dnystedt": 9
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 1,
+      "accounts": {
         "statementdog": 1
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 322,
-        "statementdog": 0
+        "statementdog": 9
       }
     },
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
-      "size": 3,
+      "id": "L",
+      "label": "總經 / Fed",
+      "size": 1,
       "accounts": {
-        "FT": 1,
-        "statementdog": 2
+        "QQ_Timmy": 1
       },
       "engagement_by_account": {
-        "FT": 3,
-        "statementdog": 4
-      }
-    },
-    {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 2,
-      "accounts": {
-        "TrendForce": 1,
-        "jukan05": 1
-      },
-      "engagement_by_account": {
-        "TrendForce": 3,
-        "jukan05": 201
+        "QQ_Timmy": 13
       }
     }
   ],
   "gaps": [
     {
-      "cluster_id": "B",
-      "label": "GPU / AI 加速器",
-      "own_count": 0,
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 1,
       "competitor_count": 3,
-      "competitor_engagement": 322,
+      "competitor_engagement": 40,
       "competitors_covering": [
-        "SemiAnalysis_",
-        "statementdog"
+        "QQ_Timmy",
+        "statementdog",
+        "dnystedt"
       ],
       "sample_posts": [
         {
-          "handle": "SemiAnalysis_",
+          "handle": "QQ_Timmy",
           "platform": "X",
-          "text": "ALERT🚨: Vera Rubin NVL72 is up to 7.3x better in perf per dollar than GB300 NVL72 for 1 million context length agentic inference workloads!  THE MORE U BUY, THE MORE U EARN 👇️(1/3)🧵",
-          "url": "https://x.com/SemiAnalysis_/status/2112379877621919877",
-          "timestamp": "2026-10-20T11:06:23.000+08:00",
-          "interaction": 183
+          "text": "Nomura Securities (Nomura) <AI Market Concerns and Memory Outlook> 2026-10-19  - Nomura maintains a positive view on memory, believing that supply constraints will persist at least until 2028. Nomura believes the market's concerns about CXMT ( http:// 688825.SS)",
+          "url": "https://x.com/QQ_Timmy/status/2112430957986811999",
+          "timestamp": "2026-10-20T14:29:22.000+08:00",
+          "interaction": 23
         },
         {
-          "handle": "SemiAnalysis_",
+          "handle": "dnystedt",
           "platform": "X",
-          "text": "ALERT🚨: SGLANG JUST MERGED MEGAKERNEL SUPPORT, GETTING CLOSE TO 1000 tok/s/user on the GB300 NVL72 AgentX Harness & increasing interactivity by 1.5x on MI355X too! Great work by the SGLang, RadixArk, NVIDIA, and AMD teams!  Best of all, this already works out of the box on",
-          "url": "https://x.com/SemiAnalysis_/status/2112347284713148746",
-          "timestamp": "2026-10-20T08:56:52.000+08:00",
-          "interaction": 139
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "Meta’s Prometheus example calls for 37,656 GPUs to support a 32,768-GPU training job, including spares. How much useful training that investment delivers also depends on reliable networking, power management and fast recovery from failures.",
-          "url": "https://x.com/statementdog/status/2112390852622627082",
-          "timestamp": "2026-10-20T11:50:00.000+08:00",
-          "interaction": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "D",
-      "label": "CSP / 資料中心",
-      "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 7,
-      "competitors_covering": [
-        "FT",
-        "statementdog"
-      ],
-      "sample_posts": [
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "Solar and storage players are now pitching all-in-one power systems tailored for AI data centers, Sky observed at Taiwan’s energy expo.  Bundling power generation, batteries, distribution, and energy management lets suppliers take on more of a data center’s power infrastructure",
-          "url": "https://x.com/statementdog/status/2112394480364216625",
-          "timestamp": "2026-10-20T12:04:25.000+08:00",
-          "interaction": 4
-        },
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "Microsoft gives data centre hopefuls a pre-IPO reality check  https:// ft.trib.al/xlygNS1  | opinion",
-          "url": "https://x.com/FT/status/2112396967653347396",
-          "timestamp": "2026-10-20T12:14:18.000+08:00",
-          "interaction": 3
+          "text": "Union workers from Micron’s Taoyuan, Taiwan fab will go on a sympathy strike Thursday (10/22) to support the Micron Taichung union during its 2nd round of negotiations with management over bonus pay that same day, media report. The Taichung union will not strike Thursday, but has",
+          "url": "https://x.com/dnystedt/status/2112433699258351730",
+          "timestamp": "2026-10-20T14:40:15.000+08:00",
+          "interaction": 9
         },
         {
           "handle": "statementdog",
           "platform": "X",
-          "text": "Meta’s Prometheus example calls for 37,656 GPUs to support a 32,768-GPU training job, including spares. How much useful training that investment delivers also depends on reliable networking, power management and fast recovery from failures.",
-          "url": "https://x.com/statementdog/status/2112390852622627082",
-          "timestamp": "2026-10-20T11:50:00.000+08:00",
-          "interaction": 0
+          "text": "Micron’s Taoyuan union in Taiwan plans to strike on Oct. 22 over a dispute about employee bonuses and profit sharing, Reuters reports.  The action is intended to support a separate union at Micron’s Taichung operations during its mediation meeting with the company. The Taichung",
+          "url": "https://x.com/statementdog/status/2112430111290962296",
+          "timestamp": "2026-10-20T14:26:00.000+08:00",
+          "interaction": 8
         }
       ]
     }
   ],
   "suggested_entry_points": [
     {
-      "cluster_id": "B",
-      "label": "GPU / AI 加速器",
-      "own_count": 0,
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 1,
       "competitor_count": 3,
-      "competitor_engagement": 322,
+      "competitor_engagement": 40,
       "competitors_covering": [
-        "SemiAnalysis_",
-        "statementdog"
+        "QQ_Timmy",
+        "statementdog",
+        "dnystedt"
       ],
       "sample_posts": [
         {
-          "handle": "SemiAnalysis_",
+          "handle": "QQ_Timmy",
           "platform": "X",
-          "text": "ALERT🚨: Vera Rubin NVL72 is up to 7.3x better in perf per dollar than GB300 NVL72 for 1 million context length agentic inference workloads!  THE MORE U BUY, THE MORE U EARN 👇️(1/3)🧵",
-          "url": "https://x.com/SemiAnalysis_/status/2112379877621919877",
-          "timestamp": "2026-10-20T11:06:23.000+08:00",
-          "interaction": 183
+          "text": "Nomura Securities (Nomura) <AI Market Concerns and Memory Outlook> 2026-10-19  - Nomura maintains a positive view on memory, believing that supply constraints will persist at least until 2028. Nomura believes the market's concerns about CXMT ( http:// 688825.SS)",
+          "url": "https://x.com/QQ_Timmy/status/2112430957986811999",
+          "timestamp": "2026-10-20T14:29:22.000+08:00",
+          "interaction": 23
         },
         {
-          "handle": "SemiAnalysis_",
+          "handle": "dnystedt",
           "platform": "X",
-          "text": "ALERT🚨: SGLANG JUST MERGED MEGAKERNEL SUPPORT, GETTING CLOSE TO 1000 tok/s/user on the GB300 NVL72 AgentX Harness & increasing interactivity by 1.5x on MI355X too! Great work by the SGLang, RadixArk, NVIDIA, and AMD teams!  Best of all, this already works out of the box on",
-          "url": "https://x.com/SemiAnalysis_/status/2112347284713148746",
-          "timestamp": "2026-10-20T08:56:52.000+08:00",
-          "interaction": 139
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "Meta’s Prometheus example calls for 37,656 GPUs to support a 32,768-GPU training job, including spares. How much useful training that investment delivers also depends on reliable networking, power management and fast recovery from failures.",
-          "url": "https://x.com/statementdog/status/2112390852622627082",
-          "timestamp": "2026-10-20T11:50:00.000+08:00",
-          "interaction": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "D",
-      "label": "CSP / 資料中心",
-      "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 7,
-      "competitors_covering": [
-        "FT",
-        "statementdog"
-      ],
-      "sample_posts": [
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "Solar and storage players are now pitching all-in-one power systems tailored for AI data centers, Sky observed at Taiwan’s energy expo.  Bundling power generation, batteries, distribution, and energy management lets suppliers take on more of a data center’s power infrastructure",
-          "url": "https://x.com/statementdog/status/2112394480364216625",
-          "timestamp": "2026-10-20T12:04:25.000+08:00",
-          "interaction": 4
-        },
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "Microsoft gives data centre hopefuls a pre-IPO reality check  https:// ft.trib.al/xlygNS1  | opinion",
-          "url": "https://x.com/FT/status/2112396967653347396",
-          "timestamp": "2026-10-20T12:14:18.000+08:00",
-          "interaction": 3
+          "text": "Union workers from Micron’s Taoyuan, Taiwan fab will go on a sympathy strike Thursday (10/22) to support the Micron Taichung union during its 2nd round of negotiations with management over bonus pay that same day, media report. The Taichung union will not strike Thursday, but has",
+          "url": "https://x.com/dnystedt/status/2112433699258351730",
+          "timestamp": "2026-10-20T14:40:15.000+08:00",
+          "interaction": 9
         },
         {
           "handle": "statementdog",
           "platform": "X",
-          "text": "Meta’s Prometheus example calls for 37,656 GPUs to support a 32,768-GPU training job, including spares. How much useful training that investment delivers also depends on reliable networking, power management and fast recovery from failures.",
-          "url": "https://x.com/statementdog/status/2112390852622627082",
-          "timestamp": "2026-10-20T11:50:00.000+08:00",
-          "interaction": 0
+          "text": "Micron’s Taoyuan union in Taiwan plans to strike on Oct. 22 over a dispute about employee bonuses and profit sharing, Reuters reports.  The action is intended to support a separate union at Micron’s Taichung operations during its mediation meeting with the company. The Taichung",
+          "url": "https://x.com/statementdog/status/2112430111290962296",
+          "timestamp": "2026-10-20T14:26:00.000+08:00",
+          "interaction": 8
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-10-20T08:30:00+08:00",
-    "end_utc": "2026-10-20T12:30:00+08:00",
-    "start_tw": "Oct 20, 08:30",
-    "end_tw": "Oct 20, 12:30"
+    "start_utc": "2026-10-20T12:19:30+08:00",
+    "end_utc": "2026-10-20T16:19:30+08:00",
+    "start_tw": "Oct 20, 12:19",
+    "end_tw": "Oct 20, 16:19"
   }
 }
