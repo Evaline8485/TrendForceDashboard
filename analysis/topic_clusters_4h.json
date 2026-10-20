@@ -1,6 +1,56 @@
 {
   "clusters": [
     {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 7,
+      "accounts": {
+        "technewsinside": 6,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 71,
+        "ctee.fans": 1
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 6,
+      "accounts": {
+        "technewsinside": 3,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 60,
+        "ctee.fans": 122
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 6,
+      "accounts": {
+        "technewsinside": 5,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 117,
+        "ctee.fans": 6
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 5,
+      "accounts": {
+        "ctee.fans": 5
+      },
+      "engagement_by_account": {
+        "ctee.fans": 238
+      }
+    },
+    {
       "id": "A",
       "label": "記憶體 / HBM",
       "size": 4,
@@ -18,14 +68,71 @@
       }
     },
     {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 3,
+      "accounts": {
+        "technewsinside": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 26
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 3,
+      "accounts": {
+        "technewsinside": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 32
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 80,
+        "ctee.fans": 26
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 15
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 674
+      }
+    },
+    {
       "id": "J",
       "label": "PCB / 載板 / 被動元件",
       "size": 1,
       "accounts": {
-        "statementdog": 1
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "statementdog": 9
+        "ctee.fans": 16
       }
     },
     {
@@ -38,9 +145,72 @@
       "engagement_by_account": {
         "QQ_Timmy": 13
       }
+    },
+    {
+      "id": "R",
+      "label": "散熱 / HVAC",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 24
+      }
     }
   ],
   "gaps": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 238,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "基富通證券顧問張錫20日受訪時指出，外資今年雖賣超2兆多元，但大家忽略了，外資市值今年增加了20幾兆元、總市值逾70兆元，2兆元比重是很低的，由於台灣基本面強當強勁，台積電股價2028年上看5千元、推算下來台股上7萬點是可預期的。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02NciNSzcQR4f3ZdkbVWXvQNkXe55ZwyT6AhWotb4QipehBNFEwckUqymm3jMiQeZ8l?__cft__[0]=AZhps-mluwqKgpgo2WLFjF1Nj4mMjui_NwC_b_q1lpZR6-py3DAXKgHvlUwPyiclGKvVX8UzCmsz0fzaHA0m0Pz8TwSnZIghmLJwEURLbLt8fcadyYF5We64a4XmGkWkyuq8Q1XWgEf2DOLNwus-sZPda21KNam_iuBvCJ6y6Fz4Cv3z5LMvoMTGLAw",
+          "timestamp": "2026-10-20T08:53:20.489004+00:00",
+          "interaction": 106
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【外資暗藏台股伏兵！分析師點名「這些持股」先轉強】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0NfSm43jqDa925cwEKmwD3e2SUeZvsTrnbRzEPVz7YRd7WJttXodE3NGEGAwEAQSNl?__cft__[0]=AZg8eIRHhFoliF_dKHH9uaVA52XkdeKPJHAo9OB8kb5cXT5IWHSbNvpUVcrDOkZq2txh2cGgSYhRd5VFmIy8gHxblrwVLP6C-YpGsC092QEalcP4c0ttG5WBheL10u7cgXZXFps0udZ7sLliEyl0WbIwmu00J50ozxdvoO3twmiCIs3yR15WNaDyXd8",
+          "timestamp": "2026-10-20T08:53:20.489004+00:00",
+          "interaction": 94
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股守住信心雙關卡 何時再攻高點？法人：待六道東風到齊】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid048441cWBQJwAZyRt1Tboe3cCXgv3NfpktXGA2ezxT2e6e44gommewGR6RVTNWRJsl?__cft__[0]=AZiOruEyd9jR2Gzk1BlD4yrtIMZPfr1mym36xtjTKvrFicjkk3rWG4gOXgxF2bNzSDQFS85phuyUuvpqgmiGXvq6RdcakPEeK-GGXM3quQHx7iKlYWslG5QWJUi5b0wKMY-IhFLPXcb8Eqbpsrn7IFlP3o7vEqc9BxABMlB85lLtJcfdBsKPn6nnhcQ",
+          "timestamp": "2026-10-20T08:53:20.489004+00:00",
+          "interaction": 30
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【10／20盤中熱門焦點股】\n✓面板雙虎逆勢出頭 友達見到成交量第一…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02sRQjAAuYmm7kXMbmQLbhCumyxoonXqhXD4vDWcVFvt51k4DVAMu2x74PgocD8BuYl?__cft__[0]=AZjLHnY-zRMBJveYdSG8XUoGkc-ivJuYrsccUbec8xUHMLntAB4-wykxUGQY-S8FXIIjFWAQIQfWmiz-aVU2fXT4L1BxvSUtqn5WrSwoJBkXMaPbMW99q-BmgIMIxJtUr6jIe2-BI8YDBWcWxpCqQVw5SvRds4F2ESJX726lqlammBI5TmXGCjIAdHU",
+          "timestamp": "2026-10-20T08:53:20.489004+00:00",
+          "interaction": 8
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "基富通證券顧問張錫20日受訪時指出，外資今年雖賣超2兆多元，但大家忽略了，外資市值今年增加了20幾兆元、總市值逾70兆元，2兆元比重是很低的，由於台灣基本面強當強勁，台積電股價2028年上看5千元、推算下來台股上7萬點是可預期的。\n對於新台幣對美元近期有較大的貶幅，張錫認為，不會應貶太多，「台灣市場基本面很強啊！」他認為近期科技業到美國投資主要是台灣電力不夠...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02NciNSzcQR4f3ZdkbVWXvQNkXe55ZwyT6AhWotb4QipehBNFEwckUqymm3jMiQeZ8l?__tn__=%2CO",
+          "timestamp": "2026-10-20T08:53:20.489004+00:00",
+          "interaction": 0
+        }
+      ]
+    },
     {
       "cluster_id": "A",
       "label": "記憶體 / HBM",
@@ -82,6 +252,58 @@
   ],
   "suggested_entry_points": [
     {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 5,
+      "competitor_engagement": 238,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "基富通證券顧問張錫20日受訪時指出，外資今年雖賣超2兆多元，但大家忽略了，外資市值今年增加了20幾兆元、總市值逾70兆元，2兆元比重是很低的，由於台灣基本面強當強勁，台積電股價2028年上看5千元、推算下來台股上7萬點是可預期的。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02NciNSzcQR4f3ZdkbVWXvQNkXe55ZwyT6AhWotb4QipehBNFEwckUqymm3jMiQeZ8l?__cft__[0]=AZhps-mluwqKgpgo2WLFjF1Nj4mMjui_NwC_b_q1lpZR6-py3DAXKgHvlUwPyiclGKvVX8UzCmsz0fzaHA0m0Pz8TwSnZIghmLJwEURLbLt8fcadyYF5We64a4XmGkWkyuq8Q1XWgEf2DOLNwus-sZPda21KNam_iuBvCJ6y6Fz4Cv3z5LMvoMTGLAw",
+          "timestamp": "2026-10-20T08:53:20.489004+00:00",
+          "interaction": 106
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【外資暗藏台股伏兵！分析師點名「這些持股」先轉強】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0NfSm43jqDa925cwEKmwD3e2SUeZvsTrnbRzEPVz7YRd7WJttXodE3NGEGAwEAQSNl?__cft__[0]=AZg8eIRHhFoliF_dKHH9uaVA52XkdeKPJHAo9OB8kb5cXT5IWHSbNvpUVcrDOkZq2txh2cGgSYhRd5VFmIy8gHxblrwVLP6C-YpGsC092QEalcP4c0ttG5WBheL10u7cgXZXFps0udZ7sLliEyl0WbIwmu00J50ozxdvoO3twmiCIs3yR15WNaDyXd8",
+          "timestamp": "2026-10-20T08:53:20.489004+00:00",
+          "interaction": 94
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股守住信心雙關卡 何時再攻高點？法人：待六道東風到齊】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid048441cWBQJwAZyRt1Tboe3cCXgv3NfpktXGA2ezxT2e6e44gommewGR6RVTNWRJsl?__cft__[0]=AZiOruEyd9jR2Gzk1BlD4yrtIMZPfr1mym36xtjTKvrFicjkk3rWG4gOXgxF2bNzSDQFS85phuyUuvpqgmiGXvq6RdcakPEeK-GGXM3quQHx7iKlYWslG5QWJUi5b0wKMY-IhFLPXcb8Eqbpsrn7IFlP3o7vEqc9BxABMlB85lLtJcfdBsKPn6nnhcQ",
+          "timestamp": "2026-10-20T08:53:20.489004+00:00",
+          "interaction": 30
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【10／20盤中熱門焦點股】\n✓面板雙虎逆勢出頭 友達見到成交量第一…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02sRQjAAuYmm7kXMbmQLbhCumyxoonXqhXD4vDWcVFvt51k4DVAMu2x74PgocD8BuYl?__cft__[0]=AZjLHnY-zRMBJveYdSG8XUoGkc-ivJuYrsccUbec8xUHMLntAB4-wykxUGQY-S8FXIIjFWAQIQfWmiz-aVU2fXT4L1BxvSUtqn5WrSwoJBkXMaPbMW99q-BmgIMIxJtUr6jIe2-BI8YDBWcWxpCqQVw5SvRds4F2ESJX726lqlammBI5TmXGCjIAdHU",
+          "timestamp": "2026-10-20T08:53:20.489004+00:00",
+          "interaction": 8
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "基富通證券顧問張錫20日受訪時指出，外資今年雖賣超2兆多元，但大家忽略了，外資市值今年增加了20幾兆元、總市值逾70兆元，2兆元比重是很低的，由於台灣基本面強當強勁，台積電股價2028年上看5千元、推算下來台股上7萬點是可預期的。\n對於新台幣對美元近期有較大的貶幅，張錫認為，不會應貶太多，「台灣市場基本面很強啊！」他認為近期科技業到美國投資主要是台灣電力不夠...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02NciNSzcQR4f3ZdkbVWXvQNkXe55ZwyT6AhWotb4QipehBNFEwckUqymm3jMiQeZ8l?__tn__=%2CO",
+          "timestamp": "2026-10-20T08:53:20.489004+00:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "A",
       "label": "記憶體 / HBM",
       "own_count": 1,
@@ -121,9 +343,9 @@
     }
   ],
   "window": {
-    "start_utc": "2026-10-20T12:19:30+08:00",
-    "end_utc": "2026-10-20T16:19:30+08:00",
-    "start_tw": "Oct 20, 12:19",
-    "end_tw": "Oct 20, 16:19"
+    "start_utc": "2026-10-20T04:55:59.566261+00:00",
+    "end_utc": "2026-10-20T08:55:59.566261+00:00",
+    "start_tw": "Oct 20, 12:55",
+    "end_tw": "Oct 20, 16:55"
   }
 }
