@@ -1,44 +1,70 @@
 {
-  "generated_at": "2026-10-21T16:29:17+08:00",
+  "generated_at": "2026-10-21T08:56:13.204232+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-21T12:29:17+08:00",
-    "end_utc": "2026-10-21T16:29:17+08:00",
-    "start_tw": "Oct 21, 12:29",
-    "end_tw": "Oct 21, 16:29"
+    "start_utc": "2026-10-21T04:56:13.204232+00:00",
+    "end_utc": "2026-10-21T08:56:13.204232+00:00",
+    "start_tw": "Oct 21, 12:56",
+    "end_tw": "Oct 21, 16:56"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 22,
+      "total_posts": 91,
       "sentiment_counts": {
-        "positive": 10,
-        "negative": 7,
-        "neutral": 5
+        "positive": 41,
+        "negative": 31,
+        "neutral": 19
       },
       "sentiment_share": {
-        "positive": 0.455,
-        "negative": 0.318,
-        "neutral": 0.227
+        "positive": 0.451,
+        "negative": 0.341,
+        "neutral": 0.209
       },
       "top_terms": [
-        "demand",
-        "prices",
-        "nand",
-        "hynix",
-        "fab",
-        "weak",
-        "spot",
-        "trading",
-        "netflix",
-        "rose"
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
+        "馬斯",
+        "斯克",
+        "馬斯克",
+        "spacex",
+        "晶片"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "strike",
+        "topic_id": 8,
+        "label": "terafab / 馬斯克 / spacex / fab",
         "heat": 90.0,
+        "volume": 3,
+        "engagement": 291,
+        "entities": [
+          "馬斯克",
+          "台積電",
+          "英特爾"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "ccl / prices",
+        "heat": 78.6,
+        "volume": 3,
+        "engagement": 106,
+        "entities": [
+          "聯茂",
+          "伺服器",
+          "台光"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "strike",
+        "heat": 72.8,
         "volume": 2,
         "engagement": 229,
         "entities": [],
@@ -46,107 +72,238 @@
       },
       {
         "topic_id": 3,
-        "label": "rose / revenue",
-        "heat": 16.9,
+        "label": "spacex",
+        "heat": 65.0,
+        "volume": 2,
+        "engagement": 201,
+        "entities": [
+          "馬斯克"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "rose",
+        "heat": 31.4,
         "volume": 2,
         "engagement": 80,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 2,
-        "label": "netflix",
-        "heat": 10.0,
+        "topic_id": 7,
+        "label": "ddr / dram / weak / trading",
+        "heat": 19.4,
         "volume": 2,
-        "engagement": 66,
+        "engagement": 37,
+        "entities": [
+          "冷清"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "輝達 / 執行長",
+        "heat": 19.4,
+        "volume": 2,
+        "engagement": 37,
+        "entities": [
+          "輝達",
+          "黃仁勳",
+          "富豪",
+          "中國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "meta",
+        "heat": 17.2,
+        "volume": 2,
+        "engagement": 29,
+        "entities": [
+          "卡普蘭"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "蘋果",
+        "heat": 15.3,
+        "volume": 2,
+        "engagement": 22,
+        "entities": [
+          "美國",
+          "台積電",
+          "亞利",
+          "桑那州",
+          "智慧"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 14,
+        "label": "nand / demand / fab / hynix",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 3,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "其他（未分群，16 篇）",
+        "topic_id": 12,
+        "label": "nand / demand / weak / trading",
         "heat": 10.0,
-        "volume": 16,
-        "engagement": 1677,
+        "volume": 1,
+        "engagement": 20,
         "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 16,
+        "label": "hynix / hbm",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 108,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "gb",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 15,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
+        "label": "記憶體 / 執行長 / dram / hbm",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 51,
+        "entities": [
+          "戴爾"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "馬斯克 / 特斯拉 / spacex",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 63,
+        "entities": [
+          "馬斯克",
+          "艾司摩爾"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 11,
+        "label": "記憶體",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 13,
+        "entities": [
+          "闢謠營"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "特斯拉 / tesla / musk",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 10,
+        "entities": [
+          "日對此"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，63 篇）",
+        "heat": 10.0,
+        "volume": 63,
+        "engagement": 5302,
+        "entities": [
+          "台灣",
+          "美國",
+          "美光",
+          "中國",
+          "台積電"
+        ],
         "is_catchall": true
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "台灣",
+        "count": 11
+      },
+      {
+        "entity": "馬斯克",
+        "count": 9
+      },
+      {
+        "entity": "美國",
+        "count": 9
+      },
+      {
+        "entity": "美光",
+        "count": 6
+      },
+      {
+        "entity": "台積電",
+        "count": 6
+      },
+      {
+        "entity": "中國",
+        "count": 6
+      },
+      {
+        "entity": "伺服器",
+        "count": 5
+      },
+      {
+        "entity": "三星",
+        "count": 4
+      },
+      {
+        "entity": "智慧",
+        "count": 4
+      },
+      {
+        "entity": "聯茂",
+        "count": 4
+      },
+      {
+        "entity": "輝達",
+        "count": 3
+      },
+      {
+        "entity": "SK海力士",
+        "count": 3
+      },
+      {
+        "entity": "德國",
+        "count": 3
+      },
+      {
+        "entity": "黃仁勳",
+        "count": 2
+      },
+      {
+        "entity": "戴爾",
+        "count": 2
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-21T12:29:16.999994+08:00",
-        "bucket_end": "2026-10-21T12:46:25.571423+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 10,
-        "neutral_engagement": 0,
-        "negative_engagement": 60,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 70,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "netflix",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Netflix’s $300bn problem: lack of hits piles pressure on streaming giant",
-            "url": "https://x.com/FT/status/2112763247254220967",
-            "interaction": 60
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Can protein craze bulk up retailer THG’s withered share price?  https:// ft.trib.al/WZ8Qllt  | opinion",
-            "url": "https://x.com/FT/status/2112764431708963199",
-            "interaction": 10
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-21T12:46:25.571423+08:00",
-        "bucket_end": "2026-10-21T13:03:34.142852+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 10,
-        "neutral_engagement": 0,
-        "negative_engagement": 1419,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 1429,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "According to security officials, pro-Russian and far-right social media accounts linked to previous disinformation campaigns have spread violent videos in an attempt to sow more chaos  https:// ft.tri",
-            "url": "https://x.com/FT/status/2112769884039905598",
-            "interaction": 1419
-          },
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "Supermicro now expects fiscal Q1 2027 revenue of $18.5–19.5 billion, well above its original guidance of $14.5–15.5 billion. The company cited stronger demand for AI platforms.  Gross margin is expect",
-            "url": "https://x.com/statementdog/status/2112768511252795701",
-            "interaction": 10
-          }
-        ],
-        "net_sentiment_smoothed": -25.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-21T13:03:34.142852+08:00",
-        "bucket_end": "2026-10-21T13:20:42.714281+08:00",
+        "bucket_start": "2026-10-21T04:56:13.204226+00:00",
+        "bucket_end": "2026-10-21T05:13:21.775655+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -158,12 +315,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
+        "net_sentiment_smoothed": -33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T13:20:42.714281+08:00",
-        "bucket_end": "2026-10-21T13:37:51.285710+08:00",
+        "bucket_start": "2026-10-21T05:13:21.775655+00:00",
+        "bucket_end": "2026-10-21T05:30:30.347084+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -173,7 +330,13 @@
         "net_sentiment": -100.0,
         "post_count": 1,
         "engagement": 28,
-        "top_topics": [],
+        "top_topics": [
+          {
+            "topic_id": 7,
+            "label": "ddr / dram / weak / trading",
+            "count": 1
+          }
+        ],
         "top_posts": [
           {
             "handle": "TrendForce",
@@ -183,12 +346,12 @@
             "interaction": 28
           }
         ],
-        "net_sentiment_smoothed": -24.0,
+        "net_sentiment_smoothed": -25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T13:37:51.285710+08:00",
-        "bucket_end": "2026-10-21T13:54:59.857139+08:00",
+        "bucket_start": "2026-10-21T05:30:30.347084+00:00",
+        "bucket_end": "2026-10-21T05:47:38.918513+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -200,25 +363,35 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -14.0,
+        "net_sentiment_smoothed": -40.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T13:54:59.857139+08:00",
-        "bucket_end": "2026-10-21T14:12:08.428568+08:00",
+        "bucket_start": "2026-10-21T05:47:38.918513+00:00",
+        "bucket_end": "2026-10-21T06:04:47.489942+00:00",
         "positive": 2,
         "neutral": 0,
-        "negative": 3,
+        "negative": 2,
         "positive_engagement": 12,
         "neutral_engagement": 0,
-        "negative_engagement": 254,
-        "net_sentiment": -20.0,
-        "post_count": 5,
-        "engagement": 266,
+        "negative_engagement": 246,
+        "net_sentiment": 0.0,
+        "post_count": 4,
+        "engagement": 258,
         "top_topics": [
           {
-            "topic_id": 0,
+            "topic_id": 12,
+            "label": "nand / demand / weak / trading",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
             "label": "strike",
+            "count": 1
+          },
+          {
+            "topic_id": 9,
+            "label": "ccl / prices",
             "count": 1
           }
         ],
@@ -238,12 +411,37 @@
             "interaction": 20
           }
         ],
-        "net_sentiment_smoothed": -14.0,
-        "is_anomaly": true
+        "net_sentiment_smoothed": -30.0,
+        "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T14:12:08.428568+08:00",
-        "bucket_end": "2026-10-21T14:29:16.999997+08:00",
+        "bucket_start": "2026-10-21T06:04:47.489942+00:00",
+        "bucket_end": "2026-10-21T06:21:56.061371+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 8,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 8,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Small caps: not a great AI hedge  https:// ft.trib.al/wZyJGLZ  | opinion",
+            "url": "https://x.com/FT/status/2112787923049336915",
+            "interaction": 8
+          }
+        ],
+        "net_sentiment_smoothed": 10.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-21T06:21:56.061371+00:00",
+        "bucket_end": "2026-10-21T06:39:04.632800+00:00",
         "positive": 1,
         "neutral": 1,
         "negative": 0,
@@ -255,8 +453,8 @@
         "engagement": 88,
         "top_topics": [
           {
-            "topic_id": 3,
-            "label": "rose / revenue",
+            "topic_id": 1,
+            "label": "rose",
             "count": 1
           }
         ],
@@ -276,12 +474,43 @@
             "interaction": 12
           }
         ],
-        "net_sentiment_smoothed": 26.0,
+        "net_sentiment_smoothed": 10.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T14:29:16.999997+08:00",
-        "bucket_end": "2026-10-21T14:46:25.571426+08:00",
+        "bucket_start": "2026-10-21T06:39:04.632800+00:00",
+        "bucket_end": "2026-10-21T06:56:13.204229+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 15,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 15,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "terafab / 馬斯克 / spacex / fab",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Reuters (馬斯克稱，SpaceX 與特斯拉之 Terafab 目標於 2028 年量產晶片)  1. Mass Production Timeline: The chip joint venture Terafab between SpaceX (SPCX) and Tesla (TSLA) aims to achieve mass production before Q3 2028.  ",
+            "url": "https://x.com/QQ_Timmy/status/2112799042346315812",
+            "interaction": 15
+          }
+        ],
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-21T06:56:13.204229+00:00",
+        "bucket_end": "2026-10-21T07:13:21.775658+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -293,37 +522,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 46.0,
+        "net_sentiment_smoothed": 60.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T14:46:25.571426+08:00",
-        "bucket_end": "2026-10-21T15:03:34.142855+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 15,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 15,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "Reuters (馬斯克稱，SpaceX 與特斯拉之 Terafab 目標於 2028 年量產晶片)  1. Mass Production Timeline: The chip joint venture Terafab between SpaceX (SPCX) and Tesla (TSLA) aims to achieve mass production before Q3 2028.  ",
-            "url": "https://x.com/QQ_Timmy/status/2112799042346315812",
-            "interaction": 15
-          }
-        ],
-        "net_sentiment_smoothed": 70.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-21T15:03:34.142855+08:00",
-        "bucket_end": "2026-10-21T15:20:42.714284+08:00",
+        "bucket_start": "2026-10-21T07:13:21.775658+00:00",
+        "bucket_end": "2026-10-21T07:30:30.347087+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -335,8 +539,8 @@
         "engagement": 4,
         "top_topics": [
           {
-            "topic_id": 3,
-            "label": "rose / revenue",
+            "topic_id": 1,
+            "label": "rose",
             "count": 1
           }
         ],
@@ -349,21 +553,21 @@
             "interaction": 4
           }
         ],
-        "net_sentiment_smoothed": 60.0,
+        "net_sentiment_smoothed": 50.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T15:20:42.714284+08:00",
-        "bucket_end": "2026-10-21T15:37:51.285713+08:00",
+        "bucket_start": "2026-10-21T07:30:30.347087+00:00",
+        "bucket_end": "2026-10-21T07:47:38.918516+00:00",
         "positive": 1,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 19,
-        "neutral_engagement": 0,
+        "neutral_engagement": 7,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 19,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 26,
         "top_topics": [],
         "top_posts": [
           {
@@ -372,25 +576,7 @@
             "text": "What time is it on the Moon? That is what a global consortium that includes physics experts is trying to establish. Michael Peel explains what’s behind the plan to set an agreed standard lunar time — ",
             "url": "https://x.com/FT/status/2112810372377804946",
             "interaction": 19
-          }
-        ],
-        "net_sentiment_smoothed": 50.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-21T15:37:51.285713+08:00",
-        "bucket_end": "2026-10-21T15:54:59.857142+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 7,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 7,
-        "top_topics": [],
-        "top_posts": [
+          },
           {
             "handle": "FT",
             "platform": "X",
@@ -399,25 +585,47 @@
             "interaction": 7
           }
         ],
-        "net_sentiment_smoothed": 43.3,
+        "net_sentiment_smoothed": 30.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T15:54:59.857142+08:00",
-        "bucket_end": "2026-10-21T16:12:08.428571+08:00",
+        "bucket_start": "2026-10-21T07:47:38.918516+00:00",
+        "bucket_end": "2026-10-21T08:04:47.489945+00:00",
         "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 36.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-21T08:04:47.489945+00:00",
+        "bucket_end": "2026-10-21T08:21:56.061374+00:00",
+        "positive": 1,
         "neutral": 1,
         "negative": 1,
-        "positive_engagement": 0,
+        "positive_engagement": 3,
         "neutral_engagement": 108,
         "negative_engagement": 6,
-        "net_sentiment": -50.0,
-        "post_count": 2,
-        "engagement": 114,
+        "net_sentiment": 0.0,
+        "post_count": 3,
+        "engagement": 117,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "netflix",
+            "topic_id": 14,
+            "label": "nand / demand / fab / hynix",
+            "count": 1
+          },
+          {
+            "topic_id": 16,
+            "label": "hynix / hbm",
             "count": 1
           }
         ],
@@ -437,24 +645,24 @@
             "interaction": 6
           }
         ],
-        "net_sentiment_smoothed": 29.2,
+        "net_sentiment_smoothed": 18.5,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T16:12:08.428571+08:00",
-        "bucket_end": "2026-10-21T16:29:17+08:00",
-        "positive": 2,
-        "neutral": 1,
+        "bucket_start": "2026-10-21T08:21:56.061374+00:00",
+        "bucket_end": "2026-10-21T08:39:04.632803+00:00",
+        "positive": 1,
+        "neutral": 2,
         "negative": 0,
-        "positive_engagement": 9,
+        "positive_engagement": 6,
         "neutral_engagement": 3,
         "negative_engagement": 0,
-        "net_sentiment": 66.7,
+        "net_sentiment": 33.3,
         "post_count": 3,
-        "engagement": 12,
+        "engagement": 9,
         "top_topics": [
           {
-            "topic_id": 0,
+            "topic_id": 4,
             "label": "strike",
             "count": 1
           }
@@ -468,24 +676,96 @@
             "interaction": 6
           },
           {
-            "handle": "TrendForce",
+            "handle": "dnystedt",
             "platform": "X",
-            "text": "👀 AI demand may be fueling NAND upgrades, but #YMTC is adding pressure. As the Chinese rival closes the technology gap, #Samsung and #SKhynix face a tougher balancing act: keeping their China fabs com",
-            "url": "https://x.com/trendforce/status/2112821247625277747",
+            "text": "Micron Taiwan strike averted? Micron signed a labor agreement with the union for its Taichung operations and cancelled mediation talks set for Thursday (10/22), media report, while the Micron Taoyuan ",
+            "url": "https://x.com/dnystedt/status/2112823443263816009",
             "interaction": 3
           }
         ],
-        "net_sentiment_smoothed": 5.6,
+        "net_sentiment_smoothed": 10.7,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-21T08:39:04.632803+00:00",
+        "bucket_end": "2026-10-21T08:56:13.204232+00:00",
+        "positive": 28,
+        "neutral": 14,
+        "negative": 22,
+        "positive_engagement": 1082,
+        "neutral_engagement": 627,
+        "negative_engagement": 455,
+        "net_sentiment": 9.4,
+        "post_count": 64,
+        "engagement": 2164,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "terafab / 馬斯克 / spacex / fab",
+            "count": 2
+          },
+          {
+            "topic_id": 2,
+            "label": "輝達 / 執行長",
+            "count": 2
+          },
+          {
+            "topic_id": 6,
+            "label": "meta",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "馬斯克盼明年 Terafab 先出測試晶片！\n#SpaceX馬斯克稱Terafab首顆測試晶片明年5至6月運作\n…… \n查看更多",
+            "url": "https://www.facebook.com/reel/28429729226723400/?__cft__[0]=AZgjX_QEfbvKUy4_Uh3tUdu5ySlvnJOgKn8M8mRebq7p1zU0ll_wswNpShFw7EB6UtqWZ5McMdrDnu-LoiMMyUOpNbX3BxX4AxjbF4vihvrpbI33nQb4SCYj2J3liLQPvmFNKZQYlPH-WFB9t071-wMlzC2HDQYVLwZRIS5e8YPcTDdMfvYI5gU8lrD_FR25Pvc3WTA",
+            "interaction": 254
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "光互連、800VDC 齊升級，大摩點名 6 檔台廠！\n#AI算力引爆架構革命光互連800VDC與硬體安全三大關鍵台系供應鏈受惠\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid04tW7gZxevikdhnpmJ54PssEuC5jh3GaMFJ3ZQg4qTgKBp9ZnJVuZd7LBobAxjwJkl?__cft__[0]=AZh_cEQ5dMj7gn01RzTHry_QEBt0vHGdgStKSwGMcvm_0v7IiGs48_bSOBqAK7uAmMQey0BTzjQ35W-d-SInLMK8OJDxpB9kmLmbjYk9NNIgkTbkz_KyiTNyR3Ey9rd9xyg_UpHW-2rbdmTTRG4f5_GsE-bhDEIutNVdf2vhhn2tsAJwte75JlZP1J4",
+            "interaction": 252
+          }
+        ],
+        "net_sentiment_smoothed": 14.2,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
-        "label": "netflix",
+        "topic_id": 8,
+        "label": "terafab / 馬斯克 / spacex / fab",
         "cells": [
           {
-            "net_sentiment": -100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
             "volume": 1
           },
           {
@@ -513,43 +793,139 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 50.0,
+            "volume": 2
           }
         ]
       },
       {
-        "topic_id": 3,
-        "label": "rose / revenue",
+        "topic_id": 9,
+        "label": "ccl / prices",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "ddr / dram / weak / trading",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "rose",
+        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -601,21 +977,17 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 0,
+        "topic_id": 4,
         "label": "strike",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -662,64 +1034,175 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "輝達 / 執行長",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "TrendForce",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，16 篇）",
-        "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 3
-      },
-      {
         "handle": "jukan05",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，16 篇）",
+        "top_topic_id": 16,
+        "top_topic_label": "hynix / hbm",
         "focus_share": 1.0,
         "post_count": 1,
-        "unclustered_posts": 1
+        "unclustered_posts": 0
       },
       {
         "handle": "QQ_Timmy",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，16 篇）",
+        "top_topic_id": 8,
+        "top_topic_label": "terafab / 馬斯克 / spacex / fab",
         "focus_share": 1.0,
         "post_count": 2,
-        "unclustered_posts": 2
-      },
-      {
-        "handle": "statementdog",
-        "top_topic_id": 3,
-        "top_topic_label": "rose / revenue",
-        "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 2
+        "unclustered_posts": 1
       },
       {
         "handle": "dnystedt",
-        "top_topic_id": 0,
+        "top_topic_id": 4,
         "top_topic_label": "strike",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 1
       },
       {
-        "handle": "FT",
-        "top_topic_id": 2,
-        "top_topic_label": "netflix",
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，63 篇）",
+        "focus_share": 1.0,
+        "post_count": 9,
+        "unclustered_posts": 9
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 9,
+        "top_topic_label": "ccl / prices",
+        "focus_share": 0.667,
+        "post_count": 28,
+        "unclustered_posts": 25
+      },
+      {
+        "handle": "TrendForce.tw",
+        "top_topic_id": 7,
+        "top_topic_label": "ddr / dram / weak / trading",
         "focus_share": 0.5,
-        "post_count": 11,
-        "unclustered_posts": 7
+        "post_count": 2,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 1,
+        "top_topic_label": "rose",
+        "focus_share": 0.5,
+        "post_count": 8,
+        "unclustered_posts": 6
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 1,
+        "top_topic_label": "rose",
+        "focus_share": 0.5,
+        "post_count": 2,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "TrendForce",
+        "top_topic_id": 14,
+        "top_topic_label": "nand / demand / fab / hynix",
+        "focus_share": 0.333,
+        "post_count": 3,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 8,
+        "top_topic_label": "terafab / 馬斯克 / spacex / fab",
+        "focus_share": 0.154,
+        "post_count": 34,
+        "unclustered_posts": 21
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
+        "topic_id": 8,
+        "label": "terafab / 馬斯克 / spacex / fab",
+        "total_engagement": 291,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 276,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
         "label": "strike",
         "total_engagement": 229,
         "post_count": 2,
@@ -729,7 +1212,34 @@
       },
       {
         "topic_id": 3,
-        "label": "rose / revenue",
+        "label": "spacex",
+        "total_engagement": 201,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 201,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 16,
+        "label": "hynix / hbm",
+        "total_engagement": 108,
+        "post_count": 1,
+        "top_account": "jukan05",
+        "top_account_engagement": 108,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "ccl / prices",
+        "total_engagement": 106,
+        "post_count": 3,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 103,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "rose",
         "total_engagement": 80,
         "post_count": 2,
         "top_account": "FT",
@@ -737,21 +1247,111 @@
         "is_catchall": false
       },
       {
-        "topic_id": 2,
-        "label": "netflix",
-        "total_engagement": 66,
-        "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 66,
+        "topic_id": 17,
+        "label": "馬斯克 / 特斯拉 / spacex",
+        "total_engagement": 63,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 63,
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "其他（未分群，16 篇）",
-        "total_engagement": 1677,
-        "post_count": 16,
-        "top_account": "FT",
-        "top_account_engagement": 1478,
+        "topic_id": 15,
+        "label": "記憶體 / 執行長 / dram / hbm",
+        "total_engagement": 51,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 51,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "ddr / dram / weak / trading",
+        "total_engagement": 37,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_engagement": 28,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "輝達 / 執行長",
+        "total_engagement": 37,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 37,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "meta",
+        "total_engagement": 29,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 29,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "蘋果",
+        "total_engagement": 22,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 22,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "nand / demand / weak / trading",
+        "total_engagement": 20,
+        "post_count": 1,
+        "top_account": "TrendForce",
+        "top_account_engagement": 20,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "gb",
+        "total_engagement": 15,
+        "post_count": 1,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 15,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 11,
+        "label": "記憶體",
+        "total_engagement": 13,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 13,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "特斯拉 / tesla / musk",
+        "total_engagement": 10,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 10,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 14,
+        "label": "nand / demand / fab / hynix",
+        "total_engagement": 3,
+        "post_count": 1,
+        "top_account": "TrendForce",
+        "top_account_engagement": 3,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，63 篇）",
+        "total_engagement": 5302,
+        "post_count": 63,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 3900,
         "is_catchall": true
       }
     ],
@@ -764,10 +1364,10 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 22,
-          "likes": 1182,
-          "engagement": 2052,
-          "avg_engagement": 93.3
+          "post_count": 91,
+          "likes": 6431,
+          "engagement": 6617,
+          "avg_engagement": 72.7
         },
         "evening": {
           "post_count": 0,
