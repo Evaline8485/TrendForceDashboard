@@ -1,37 +1,18 @@
 {
   "clusters": [
     {
-      "id": "K",
-      "label": "AI 模型 / 應用",
+      "id": "A",
+      "label": "記憶體 / HBM",
       "size": 5,
       "accounts": {
-        "tengyanAI": 1,
-        "FT": 1,
-        "statementdog": 2,
-        "HyperTechInvest": 1
-      },
-      "engagement_by_account": {
-        "tengyanAI": 13,
-        "FT": 43,
-        "statementdog": 5,
-        "HyperTechInvest": 80
-      }
-    },
-    {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 4,
-      "accounts": {
-        "TrendForce": 1,
-        "SemiAnalysis_": 1,
+        "TrendForce": 3,
         "jukan05": 1,
-        "tengyanAI": 1
+        "dnystedt": 1
       },
       "engagement_by_account": {
-        "TrendForce": 9,
-        "SemiAnalysis_": 611,
-        "jukan05": 321,
-        "tengyanAI": 19
+        "TrendForce": 51,
+        "jukan05": 108,
+        "dnystedt": 3
       }
     },
     {
@@ -44,61 +25,63 @@
         "dnystedt": 2
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 139,
+        "SemiAnalysis_": 197,
         "statementdog": 4,
-        "dnystedt": 26
+        "dnystedt": 28
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 4,
+      "accounts": {
+        "tengyanAI": 1,
+        "FT": 1,
+        "statementdog": 2
+      },
+      "engagement_by_account": {
+        "tengyanAI": 19,
+        "FT": 119,
+        "statementdog": 8
       }
     },
     {
       "id": "J",
       "label": "PCB / 載板 / 被動元件",
-      "size": 4,
+      "size": 3,
       "accounts": {
-        "QQ_Timmy": 1,
-        "dnystedt": 3
+        "QQ_Timmy": 2,
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 31,
-        "dnystedt": 40
+        "QQ_Timmy": 67,
+        "statementdog": 3
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 2,
+      "accounts": {
+        "TrendForce": 1,
+        "tengyanAI": 1
+      },
+      "engagement_by_account": {
+        "TrendForce": 17,
+        "tengyanAI": 29
       }
     },
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 3,
-      "accounts": {
-        "SemiAnalysis_": 1,
-        "FT": 1,
-        "statementdog": 1
-      },
-      "engagement_by_account": {
-        "SemiAnalysis_": 354,
-        "FT": 20,
-        "statementdog": 2
-      }
-    },
-    {
-      "id": "I",
-      "label": "電源 / 電力設備",
       "size": 2,
       "accounts": {
-        "tphuang": 1,
+        "SemiAnalysis_": 1,
         "statementdog": 1
       },
       "engagement_by_account": {
-        "tphuang": 52,
-        "statementdog": 7
-      }
-    },
-    {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 1,
-      "accounts": {
-        "jukan05": 1
-      },
-      "engagement_by_account": {
-        "jukan05": 321
+        "SemiAnalysis_": 687,
+        "statementdog": 4
       }
     },
     {
@@ -109,93 +92,50 @@
         "SemiAnalysis_": 1
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 354
+        "SemiAnalysis_": 687
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 1,
+      "accounts": {
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "statementdog": 10
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 1,
+      "accounts": {
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "statementdog": 4
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 15
       }
     }
   ],
   "gaps": [
     {
-      "cluster_id": "B",
-      "label": "GPU / AI 加速器",
-      "own_count": 1,
-      "competitor_count": 3,
-      "competitor_engagement": 951,
-      "competitors_covering": [
-        "SemiAnalysis_",
-        "jukan05",
-        "tengyanAI"
-      ],
-      "sample_posts": [
-        {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "BREAKING NEWS🚨: NVIDIA ENGINEERS AT THE PYTORCH CONFERENCE JUST SAID THAT THE SPEED OF OPTIMIZING CUDA SOFTWARE WITH FRONTIER AI MODELS HAS INCREASED RAPIDLY   October 2025 to August 2026: 5x in 1 year with expert human optimization  September 2026 to October 2026: 2x in 1 month",
-          "url": "https://x.com/SemiAnalysis_/status/2112650722315510047",
-          "timestamp": "2026-10-21T05:02:38.000+08:00",
-          "interaction": 611
-        },
-        {
-          "handle": "jukan05",
-          "platform": "X",
-          "text": "Groq, Acquired by Nvidia, Seeks to Introduce 3D-Stacked DRAM in Next-Generation Chips — ZDNet Korea  LOL  @insane_analyst",
-          "url": "https://x.com/jukan05/status/2112665161194672181",
-          "timestamp": "2026-10-21T06:00:00.000+08:00",
-          "interaction": 321
-        },
-        {
-          "handle": "tengyanAI",
-          "platform": "X",
-          "text": "spacex went looking for spare GPUs at other clouds and found none  it also rents out compute at spot rates.  pretty good conditions for that right now and spcx is milking it: our GPU rental index across 6 providers is up 21% between july-oct  no long contracts cuts both ways",
-          "url": "https://x.com/tengyanAI/status/2112740130612207866",
-          "timestamp": "2026-10-21T10:57:54.000+08:00",
-          "interaction": 19
-        }
-      ]
-    },
-    {
-      "cluster_id": "D",
-      "label": "CSP / 資料中心",
-      "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 376,
-      "competitors_covering": [
-        "SemiAnalysis_",
-        "FT",
-        "statementdog"
-      ],
-      "sample_posts": [
-        {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "BREAKING NEWS🚨🚨: TODAY META CONFIRMS THEY ARE RUNNING TPU INFERENCE IN PRODUCTION. What does this mean for the CUDA moat?  For those who read our public newsletter, this is not a surprise, as on Nov 28, 2025, we publicly wrote that Meta is a TPU customer & has lots of engineers",
-          "url": "https://x.com/SemiAnalysis_/status/2112740274870837443",
-          "timestamp": "2026-10-21T10:58:29.000+08:00",
-          "interaction": 354
-        },
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "Joel Kaplan to step down as Meta global affairs chief",
-          "url": "https://x.com/FT/status/2112660171663016271",
-          "timestamp": "2026-10-21T05:40:10.000+08:00",
-          "interaction": 20
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "3M says it is doubling internal capacity for its Expanded Beam Optical (EBO) connectors as it deploys the technology with Microsoft and AWS, according to its Oct. 20 earnings presentation.  Its contactless design is intended to make fiber connections less sensitive to dust. The",
-          "url": "https://x.com/statementdog/status/2112757267078504522",
-          "timestamp": "2026-10-21T12:06:00.000+08:00",
-          "interaction": 2
-        }
-      ]
-    },
-    {
       "cluster_id": "F",
       "label": "晶圓代工 / 先進製程",
       "own_count": 0,
       "competitor_count": 4,
-      "competitor_engagement": 169,
+      "competitor_engagement": 229,
       "competitors_covering": [
         "SemiAnalysis_",
         "statementdog",
@@ -208,7 +148,7 @@
           "text": "After eight long years, TSMC is finally shrinking their 6T High Density SRAM bitcell for their A14 process! At IEDM, they will present the world's smallest bitcell, <0.017μm2 on their 2028 node. TSMC has been stuck at 0.021μm2 since N5 in 2020. With designs utilizing even more",
           "url": "https://x.com/SemiAnalysis_/status/2112712165777903871",
           "timestamp": "2026-10-21T09:06:47.000+08:00",
-          "interaction": 139
+          "interaction": 197
         },
         {
           "handle": "dnystedt",
@@ -216,7 +156,7 @@
           "text": "TSMC fab construction accident leaves 3 workers dead, one seriously injured: The four were hoisting a steel structure in Phase 4 of TSMC's Fab 22 in Kaohsiung, south Taiwan. Officials suspect they fell after bolts on a 3rd floor exterior steel connecting plate snapped.",
           "url": "https://x.com/dnystedt/status/2112705135667491229",
           "timestamp": "2026-10-21T08:38:51.000+08:00",
-          "interaction": 23
+          "interaction": 25
         },
         {
           "handle": "statementdog",
@@ -240,30 +180,21 @@
       "cluster_id": "K",
       "label": "AI 模型 / 應用",
       "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 141,
+      "competitor_count": 4,
+      "competitor_engagement": 146,
       "competitors_covering": [
         "tengyanAI",
         "FT",
-        "statementdog",
-        "HyperTechInvest"
+        "statementdog"
       ],
       "sample_posts": [
-        {
-          "handle": "HyperTechInvest",
-          "platform": "X",
-          "text": "This is actually not that bad from Anthropic  The improvement in profitability is quite insane. It may actually be worth $1+ trillion after all",
-          "url": "https://x.com/HyperTechInvest/status/2112650237085126854",
-          "timestamp": "2026-10-21T05:00:42.000+08:00",
-          "interaction": 80
-        },
         {
           "handle": "FT",
           "platform": "X",
           "text": "OpenAI ‘agents’ disabled their own monitoring systems",
           "url": "https://x.com/FT/status/2112729596181266836",
           "timestamp": "2026-10-21T10:16:03.000+08:00",
-          "interaction": 43
+          "interaction": 119
         },
         {
           "handle": "tengyanAI",
@@ -271,7 +202,7 @@
           "text": "So....Anthropic’s reported $80.7B H1 loss sounds catastrophic.   but roughly $72B reportedly comes from noncash financing adjustments (ie not operating cash burn). non-cash charges can still carry real economic costs, including dilution.  meanwhile, Anthropic reportedly has",
           "url": "https://x.com/tengyanAI/status/2112746990199284073",
           "timestamp": "2026-10-21T11:25:10.000+08:00",
-          "interaction": 13
+          "interaction": 19
         },
         {
           "handle": "statementdog",
@@ -279,7 +210,7 @@
           "text": "SpaceX’s Super Intelligence (SI) revenue nearly tripled from Q2 to $7.56B in Q3. The segment swung from a $1.26B operating loss to a $431M profit.  SpaceX credited newly activated cloud service agreements, stronger Grok adoption and the Cursor acquisition. SI includes cloud",
           "url": "https://x.com/statementdog/status/2112734204996026564",
           "timestamp": "2026-10-21T10:34:21.000+08:00",
-          "interaction": 4
+          "interaction": 6
         },
         {
           "handle": "statementdog",
@@ -287,7 +218,7 @@
           "text": "Prompt caching is getting more useful for work that spans several days.  OpenAI has added a 12-hour prompt-caching option to the API.  @thsottiaux  also says that signed-in users of Codex and Work get permanent caching, with guaranteed cache hits when they resume an old",
           "url": "https://x.com/statementdog/status/2112741483375976955",
           "timestamp": "2026-10-21T11:03:17.000+08:00",
-          "interaction": 1
+          "interaction": 2
         }
       ]
     },
@@ -295,11 +226,11 @@
       "cluster_id": "J",
       "label": "PCB / 載板 / 被動元件",
       "own_count": 0,
-      "competitor_count": 4,
-      "competitor_engagement": 71,
+      "competitor_count": 3,
+      "competitor_engagement": 70,
       "competitors_covering": [
         "QQ_Timmy",
-        "dnystedt"
+        "statementdog"
       ],
       "sample_posts": [
         {
@@ -308,30 +239,22 @@
           "text": "Nan Ya Plastics ( http:// 1303.TW)  1. Profit Margin Trajectory: Nan Ya CCL's operating profit margin expands from 1.6% in 2024 to 44% in 2027E.    1) 4.1% in 2025A, 17% in 1H26A, 31% in 3Q26A, 39% in 4Q26E.    2) Driven by operational leverage from the vertically",
           "url": "https://x.com/QQ_Timmy/status/2112719987345707141",
           "timestamp": "2026-10-21T09:37:52.000+08:00",
-          "interaction": 31
+          "interaction": 55
         },
         {
-          "handle": "dnystedt",
+          "handle": "QQ_Timmy",
           "platform": "X",
-          "text": "Substrate shortages will remain in 2027 due to shortages of materials and production machinery, said Unimicron Chairman Shan-Chieh Chien, media report. Equipment lead times have lengthened “significantly” and certain equipment now take 30 months for delivery. Lead times for over",
-          "url": "https://x.com/dnystedt/status/2112696024938803696",
-          "timestamp": "2026-10-21T08:02:38.000+08:00",
-          "interaction": 25
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "The AI build-out will keep the boom in high-end CCL (Copper Clad Laminate) going to 2030 said Elite Material (EMC) Chairman Ding Yu Dong, media report, adding EMC is expanding capacity in Taiwan, Malaysia and China to meet demand. EMC may expand its US plant depending on demand",
-          "url": "https://x.com/dnystedt/status/2112696384612905004",
-          "timestamp": "2026-10-21T08:04:04.000+08:00",
+          "text": "iM Securities (iM Securities) <MLCC Lead Times and Price Trends for Each Manufacturer>  1. Lead Times: In October, MLCC lead times for all manufacturers have extended again, marking the fifth consecutive month (June to October) of delays. 1) Covering Murata Manufacturing (Murata",
+          "url": "https://x.com/QQ_Timmy/status/2112791995919835381",
+          "timestamp": "2026-10-21T14:24:00.000+08:00",
           "interaction": 12
         },
         {
-          "handle": "dnystedt",
+          "handle": "statementdog",
           "platform": "X",
-          "text": "Related: The chairman of the world's biggest printed circuit board (PCB) maker, Charles Shen of Zhen Ding Technology (ZDT), said strong AI-related demand has led to product shortages and price increases across substrates, optical modules, high-end PCBs (HDI) - and shows no sign",
-          "url": "https://x.com/dnystedt/status/2112702003302539392",
-          "timestamp": "2026-10-21T08:26:24.000+08:00",
+          "text": "Higher prices for copper-clad laminate (CCL), a base material for circuit boards, are lifting margins in Nan Ya Plastics’ CCL business faster than UBS expected.  Based on Q3 results, UBS estimates that each $1 increase in Nan Ya’s average CCL selling price translates into about",
+          "url": "https://x.com/statementdog/status/2112786208099033455",
+          "timestamp": "2026-10-21T14:01:00.000+08:00",
           "interaction": 3
         }
       ]
@@ -339,87 +262,11 @@
   ],
   "suggested_entry_points": [
     {
-      "cluster_id": "B",
-      "label": "GPU / AI 加速器",
-      "own_count": 1,
-      "competitor_count": 3,
-      "competitor_engagement": 951,
-      "competitors_covering": [
-        "SemiAnalysis_",
-        "jukan05",
-        "tengyanAI"
-      ],
-      "sample_posts": [
-        {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "BREAKING NEWS🚨: NVIDIA ENGINEERS AT THE PYTORCH CONFERENCE JUST SAID THAT THE SPEED OF OPTIMIZING CUDA SOFTWARE WITH FRONTIER AI MODELS HAS INCREASED RAPIDLY   October 2025 to August 2026: 5x in 1 year with expert human optimization  September 2026 to October 2026: 2x in 1 month",
-          "url": "https://x.com/SemiAnalysis_/status/2112650722315510047",
-          "timestamp": "2026-10-21T05:02:38.000+08:00",
-          "interaction": 611
-        },
-        {
-          "handle": "jukan05",
-          "platform": "X",
-          "text": "Groq, Acquired by Nvidia, Seeks to Introduce 3D-Stacked DRAM in Next-Generation Chips — ZDNet Korea  LOL  @insane_analyst",
-          "url": "https://x.com/jukan05/status/2112665161194672181",
-          "timestamp": "2026-10-21T06:00:00.000+08:00",
-          "interaction": 321
-        },
-        {
-          "handle": "tengyanAI",
-          "platform": "X",
-          "text": "spacex went looking for spare GPUs at other clouds and found none  it also rents out compute at spot rates.  pretty good conditions for that right now and spcx is milking it: our GPU rental index across 6 providers is up 21% between july-oct  no long contracts cuts both ways",
-          "url": "https://x.com/tengyanAI/status/2112740130612207866",
-          "timestamp": "2026-10-21T10:57:54.000+08:00",
-          "interaction": 19
-        }
-      ]
-    },
-    {
-      "cluster_id": "D",
-      "label": "CSP / 資料中心",
-      "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 376,
-      "competitors_covering": [
-        "SemiAnalysis_",
-        "FT",
-        "statementdog"
-      ],
-      "sample_posts": [
-        {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "BREAKING NEWS🚨🚨: TODAY META CONFIRMS THEY ARE RUNNING TPU INFERENCE IN PRODUCTION. What does this mean for the CUDA moat?  For those who read our public newsletter, this is not a surprise, as on Nov 28, 2025, we publicly wrote that Meta is a TPU customer & has lots of engineers",
-          "url": "https://x.com/SemiAnalysis_/status/2112740274870837443",
-          "timestamp": "2026-10-21T10:58:29.000+08:00",
-          "interaction": 354
-        },
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "Joel Kaplan to step down as Meta global affairs chief",
-          "url": "https://x.com/FT/status/2112660171663016271",
-          "timestamp": "2026-10-21T05:40:10.000+08:00",
-          "interaction": 20
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "3M says it is doubling internal capacity for its Expanded Beam Optical (EBO) connectors as it deploys the technology with Microsoft and AWS, according to its Oct. 20 earnings presentation.  Its contactless design is intended to make fiber connections less sensitive to dust. The",
-          "url": "https://x.com/statementdog/status/2112757267078504522",
-          "timestamp": "2026-10-21T12:06:00.000+08:00",
-          "interaction": 2
-        }
-      ]
-    },
-    {
       "cluster_id": "F",
       "label": "晶圓代工 / 先進製程",
       "own_count": 0,
       "competitor_count": 4,
-      "competitor_engagement": 169,
+      "competitor_engagement": 229,
       "competitors_covering": [
         "SemiAnalysis_",
         "statementdog",
@@ -432,7 +279,7 @@
           "text": "After eight long years, TSMC is finally shrinking their 6T High Density SRAM bitcell for their A14 process! At IEDM, they will present the world's smallest bitcell, <0.017μm2 on their 2028 node. TSMC has been stuck at 0.021μm2 since N5 in 2020. With designs utilizing even more",
           "url": "https://x.com/SemiAnalysis_/status/2112712165777903871",
           "timestamp": "2026-10-21T09:06:47.000+08:00",
-          "interaction": 139
+          "interaction": 197
         },
         {
           "handle": "dnystedt",
@@ -440,7 +287,7 @@
           "text": "TSMC fab construction accident leaves 3 workers dead, one seriously injured: The four were hoisting a steel structure in Phase 4 of TSMC's Fab 22 in Kaohsiung, south Taiwan. Officials suspect they fell after bolts on a 3rd floor exterior steel connecting plate snapped.",
           "url": "https://x.com/dnystedt/status/2112705135667491229",
           "timestamp": "2026-10-21T08:38:51.000+08:00",
-          "interaction": 23
+          "interaction": 25
         },
         {
           "handle": "statementdog",
@@ -464,30 +311,21 @@
       "cluster_id": "K",
       "label": "AI 模型 / 應用",
       "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 141,
+      "competitor_count": 4,
+      "competitor_engagement": 146,
       "competitors_covering": [
         "tengyanAI",
         "FT",
-        "statementdog",
-        "HyperTechInvest"
+        "statementdog"
       ],
       "sample_posts": [
-        {
-          "handle": "HyperTechInvest",
-          "platform": "X",
-          "text": "This is actually not that bad from Anthropic  The improvement in profitability is quite insane. It may actually be worth $1+ trillion after all",
-          "url": "https://x.com/HyperTechInvest/status/2112650237085126854",
-          "timestamp": "2026-10-21T05:00:42.000+08:00",
-          "interaction": 80
-        },
         {
           "handle": "FT",
           "platform": "X",
           "text": "OpenAI ‘agents’ disabled their own monitoring systems",
           "url": "https://x.com/FT/status/2112729596181266836",
           "timestamp": "2026-10-21T10:16:03.000+08:00",
-          "interaction": 43
+          "interaction": 119
         },
         {
           "handle": "tengyanAI",
@@ -495,7 +333,7 @@
           "text": "So....Anthropic’s reported $80.7B H1 loss sounds catastrophic.   but roughly $72B reportedly comes from noncash financing adjustments (ie not operating cash burn). non-cash charges can still carry real economic costs, including dilution.  meanwhile, Anthropic reportedly has",
           "url": "https://x.com/tengyanAI/status/2112746990199284073",
           "timestamp": "2026-10-21T11:25:10.000+08:00",
-          "interaction": 13
+          "interaction": 19
         },
         {
           "handle": "statementdog",
@@ -503,7 +341,7 @@
           "text": "SpaceX’s Super Intelligence (SI) revenue nearly tripled from Q2 to $7.56B in Q3. The segment swung from a $1.26B operating loss to a $431M profit.  SpaceX credited newly activated cloud service agreements, stronger Grok adoption and the Cursor acquisition. SI includes cloud",
           "url": "https://x.com/statementdog/status/2112734204996026564",
           "timestamp": "2026-10-21T10:34:21.000+08:00",
-          "interaction": 4
+          "interaction": 6
         },
         {
           "handle": "statementdog",
@@ -511,7 +349,7 @@
           "text": "Prompt caching is getting more useful for work that spans several days.  OpenAI has added a 12-hour prompt-caching option to the API.  @thsottiaux  also says that signed-in users of Codex and Work get permanent caching, with guaranteed cache hits when they resume an old",
           "url": "https://x.com/statementdog/status/2112741483375976955",
           "timestamp": "2026-10-21T11:03:17.000+08:00",
-          "interaction": 1
+          "interaction": 2
         }
       ]
     },
@@ -519,11 +357,11 @@
       "cluster_id": "J",
       "label": "PCB / 載板 / 被動元件",
       "own_count": 0,
-      "competitor_count": 4,
-      "competitor_engagement": 71,
+      "competitor_count": 3,
+      "competitor_engagement": 70,
       "competitors_covering": [
         "QQ_Timmy",
-        "dnystedt"
+        "statementdog"
       ],
       "sample_posts": [
         {
@@ -532,39 +370,31 @@
           "text": "Nan Ya Plastics ( http:// 1303.TW)  1. Profit Margin Trajectory: Nan Ya CCL's operating profit margin expands from 1.6% in 2024 to 44% in 2027E.    1) 4.1% in 2025A, 17% in 1H26A, 31% in 3Q26A, 39% in 4Q26E.    2) Driven by operational leverage from the vertically",
           "url": "https://x.com/QQ_Timmy/status/2112719987345707141",
           "timestamp": "2026-10-21T09:37:52.000+08:00",
-          "interaction": 31
+          "interaction": 55
         },
         {
-          "handle": "dnystedt",
+          "handle": "QQ_Timmy",
           "platform": "X",
-          "text": "Substrate shortages will remain in 2027 due to shortages of materials and production machinery, said Unimicron Chairman Shan-Chieh Chien, media report. Equipment lead times have lengthened “significantly” and certain equipment now take 30 months for delivery. Lead times for over",
-          "url": "https://x.com/dnystedt/status/2112696024938803696",
-          "timestamp": "2026-10-21T08:02:38.000+08:00",
-          "interaction": 25
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "The AI build-out will keep the boom in high-end CCL (Copper Clad Laminate) going to 2030 said Elite Material (EMC) Chairman Ding Yu Dong, media report, adding EMC is expanding capacity in Taiwan, Malaysia and China to meet demand. EMC may expand its US plant depending on demand",
-          "url": "https://x.com/dnystedt/status/2112696384612905004",
-          "timestamp": "2026-10-21T08:04:04.000+08:00",
+          "text": "iM Securities (iM Securities) <MLCC Lead Times and Price Trends for Each Manufacturer>  1. Lead Times: In October, MLCC lead times for all manufacturers have extended again, marking the fifth consecutive month (June to October) of delays. 1) Covering Murata Manufacturing (Murata",
+          "url": "https://x.com/QQ_Timmy/status/2112791995919835381",
+          "timestamp": "2026-10-21T14:24:00.000+08:00",
           "interaction": 12
         },
         {
-          "handle": "dnystedt",
+          "handle": "statementdog",
           "platform": "X",
-          "text": "Related: The chairman of the world's biggest printed circuit board (PCB) maker, Charles Shen of Zhen Ding Technology (ZDT), said strong AI-related demand has led to product shortages and price increases across substrates, optical modules, high-end PCBs (HDI) - and shows no sign",
-          "url": "https://x.com/dnystedt/status/2112702003302539392",
-          "timestamp": "2026-10-21T08:26:24.000+08:00",
+          "text": "Higher prices for copper-clad laminate (CCL), a base material for circuit boards, are lifting margins in Nan Ya Plastics’ CCL business faster than UBS expected.  Based on Q3 results, UBS estimates that each $1 increase in Nan Ya’s average CCL selling price translates into about",
+          "url": "https://x.com/statementdog/status/2112786208099033455",
+          "timestamp": "2026-10-21T14:01:00.000+08:00",
           "interaction": 3
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-10-21T04:34:28+08:00",
-    "end_utc": "2026-10-21T12:34:28+08:00",
-    "start_tw": "Oct 21, 04:34",
-    "end_tw": "Oct 21, 12:34"
+    "start_utc": "2026-10-21T08:29:17+08:00",
+    "end_utc": "2026-10-21T16:29:17+08:00",
+    "start_tw": "Oct 21, 08:29",
+    "end_tw": "Oct 21, 16:29"
   }
 }

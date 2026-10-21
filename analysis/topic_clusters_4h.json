@@ -1,276 +1,73 @@
 {
   "clusters": [
     {
-      "id": "F",
-      "label": "晶圓代工 / 先進製程",
-      "size": 4,
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 5,
       "accounts": {
-        "SemiAnalysis_": 1,
-        "statementdog": 1,
-        "dnystedt": 2
+        "TrendForce": 3,
+        "jukan05": 1,
+        "dnystedt": 1
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 139,
-        "statementdog": 4,
-        "dnystedt": 26
-      }
-    },
-    {
-      "id": "K",
-      "label": "AI 模型 / 應用",
-      "size": 4,
-      "accounts": {
-        "tengyanAI": 1,
-        "FT": 1,
-        "statementdog": 2
-      },
-      "engagement_by_account": {
-        "tengyanAI": 13,
-        "FT": 43,
-        "statementdog": 5
-      }
-    },
-    {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 2,
-      "accounts": {
-        "TrendForce": 1,
-        "tengyanAI": 1
-      },
-      "engagement_by_account": {
-        "TrendForce": 9,
-        "tengyanAI": 19
-      }
-    },
-    {
-      "id": "D",
-      "label": "CSP / 資料中心",
-      "size": 2,
-      "accounts": {
-        "SemiAnalysis_": 1,
-        "statementdog": 1
-      },
-      "engagement_by_account": {
-        "SemiAnalysis_": 354,
-        "statementdog": 2
-      }
-    },
-    {
-      "id": "C",
-      "label": "ASIC / 自研晶片",
-      "size": 1,
-      "accounts": {
-        "SemiAnalysis_": 1
-      },
-      "engagement_by_account": {
-        "SemiAnalysis_": 354
+        "TrendForce": 51,
+        "jukan05": 108,
+        "dnystedt": 3
       }
     },
     {
       "id": "J",
       "label": "PCB / 載板 / 被動元件",
+      "size": 2,
+      "accounts": {
+        "QQ_Timmy": 1,
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 12,
+        "statementdog": 3
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 1,
+      "accounts": {
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "statementdog": 10
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 1,
+      "accounts": {
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "statementdog": 4
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
       "size": 1,
       "accounts": {
         "QQ_Timmy": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 31
+        "QQ_Timmy": 15
       }
     }
   ],
-  "gaps": [
-    {
-      "cluster_id": "F",
-      "label": "晶圓代工 / 先進製程",
-      "own_count": 0,
-      "competitor_count": 4,
-      "competitor_engagement": 169,
-      "competitors_covering": [
-        "SemiAnalysis_",
-        "statementdog",
-        "dnystedt"
-      ],
-      "sample_posts": [
-        {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "After eight long years, TSMC is finally shrinking their 6T High Density SRAM bitcell for their A14 process! At IEDM, they will present the world's smallest bitcell, <0.017μm2 on their 2028 node. TSMC has been stuck at 0.021μm2 since N5 in 2020. With designs utilizing even more",
-          "url": "https://x.com/SemiAnalysis_/status/2112712165777903871",
-          "timestamp": "2026-10-21T09:06:47.000+08:00",
-          "interaction": 139
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "TSMC fab construction accident leaves 3 workers dead, one seriously injured: The four were hoisting a steel structure in Phase 4 of TSMC's Fab 22 in Kaohsiung, south Taiwan. Officials suspect they fell after bolts on a 3rd floor exterior steel connecting plate snapped.",
-          "url": "https://x.com/dnystedt/status/2112705135667491229",
-          "timestamp": "2026-10-21T08:38:51.000+08:00",
-          "interaction": 23
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "A14’s smaller SRAM cells could give designers more cache in the same area, or free up space for other logic. The overall density gain will depend on how much SRAM a chip uses. TSMC targets volume production in 2028.",
-          "url": "https://x.com/statementdog/status/2112723374292263344",
-          "timestamp": "2026-10-21T09:51:19.000+08:00",
-          "interaction": 4
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "Fab 22 is TSMC’s main 2nm fab in Kaohsiung, Taiwan  Phase 1 & 2 are in production  P3: Equipment move-in began earlier this year P4 & P5: Under construction",
-          "url": "https://x.com/dnystedt/status/2112706453899538890",
-          "timestamp": "2026-10-21T08:44:05.000+08:00",
-          "interaction": 3
-        }
-      ]
-    },
-    {
-      "cluster_id": "K",
-      "label": "AI 模型 / 應用",
-      "own_count": 0,
-      "competitor_count": 4,
-      "competitor_engagement": 61,
-      "competitors_covering": [
-        "tengyanAI",
-        "FT",
-        "statementdog"
-      ],
-      "sample_posts": [
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "OpenAI ‘agents’ disabled their own monitoring systems",
-          "url": "https://x.com/FT/status/2112729596181266836",
-          "timestamp": "2026-10-21T10:16:03.000+08:00",
-          "interaction": 43
-        },
-        {
-          "handle": "tengyanAI",
-          "platform": "X",
-          "text": "So....Anthropic’s reported $80.7B H1 loss sounds catastrophic.   but roughly $72B reportedly comes from noncash financing adjustments (ie not operating cash burn). non-cash charges can still carry real economic costs, including dilution.  meanwhile, Anthropic reportedly has",
-          "url": "https://x.com/tengyanAI/status/2112746990199284073",
-          "timestamp": "2026-10-21T11:25:10.000+08:00",
-          "interaction": 13
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "SpaceX’s Super Intelligence (SI) revenue nearly tripled from Q2 to $7.56B in Q3. The segment swung from a $1.26B operating loss to a $431M profit.  SpaceX credited newly activated cloud service agreements, stronger Grok adoption and the Cursor acquisition. SI includes cloud",
-          "url": "https://x.com/statementdog/status/2112734204996026564",
-          "timestamp": "2026-10-21T10:34:21.000+08:00",
-          "interaction": 4
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "Prompt caching is getting more useful for work that spans several days.  OpenAI has added a 12-hour prompt-caching option to the API.  @thsottiaux  also says that signed-in users of Codex and Work get permanent caching, with guaranteed cache hits when they resume an old",
-          "url": "https://x.com/statementdog/status/2112741483375976955",
-          "timestamp": "2026-10-21T11:03:17.000+08:00",
-          "interaction": 1
-        }
-      ]
-    }
-  ],
-  "suggested_entry_points": [
-    {
-      "cluster_id": "F",
-      "label": "晶圓代工 / 先進製程",
-      "own_count": 0,
-      "competitor_count": 4,
-      "competitor_engagement": 169,
-      "competitors_covering": [
-        "SemiAnalysis_",
-        "statementdog",
-        "dnystedt"
-      ],
-      "sample_posts": [
-        {
-          "handle": "SemiAnalysis_",
-          "platform": "X",
-          "text": "After eight long years, TSMC is finally shrinking their 6T High Density SRAM bitcell for their A14 process! At IEDM, they will present the world's smallest bitcell, <0.017μm2 on their 2028 node. TSMC has been stuck at 0.021μm2 since N5 in 2020. With designs utilizing even more",
-          "url": "https://x.com/SemiAnalysis_/status/2112712165777903871",
-          "timestamp": "2026-10-21T09:06:47.000+08:00",
-          "interaction": 139
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "TSMC fab construction accident leaves 3 workers dead, one seriously injured: The four were hoisting a steel structure in Phase 4 of TSMC's Fab 22 in Kaohsiung, south Taiwan. Officials suspect they fell after bolts on a 3rd floor exterior steel connecting plate snapped.",
-          "url": "https://x.com/dnystedt/status/2112705135667491229",
-          "timestamp": "2026-10-21T08:38:51.000+08:00",
-          "interaction": 23
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "A14’s smaller SRAM cells could give designers more cache in the same area, or free up space for other logic. The overall density gain will depend on how much SRAM a chip uses. TSMC targets volume production in 2028.",
-          "url": "https://x.com/statementdog/status/2112723374292263344",
-          "timestamp": "2026-10-21T09:51:19.000+08:00",
-          "interaction": 4
-        },
-        {
-          "handle": "dnystedt",
-          "platform": "X",
-          "text": "Fab 22 is TSMC’s main 2nm fab in Kaohsiung, Taiwan  Phase 1 & 2 are in production  P3: Equipment move-in began earlier this year P4 & P5: Under construction",
-          "url": "https://x.com/dnystedt/status/2112706453899538890",
-          "timestamp": "2026-10-21T08:44:05.000+08:00",
-          "interaction": 3
-        }
-      ]
-    },
-    {
-      "cluster_id": "K",
-      "label": "AI 模型 / 應用",
-      "own_count": 0,
-      "competitor_count": 4,
-      "competitor_engagement": 61,
-      "competitors_covering": [
-        "tengyanAI",
-        "FT",
-        "statementdog"
-      ],
-      "sample_posts": [
-        {
-          "handle": "FT",
-          "platform": "X",
-          "text": "OpenAI ‘agents’ disabled their own monitoring systems",
-          "url": "https://x.com/FT/status/2112729596181266836",
-          "timestamp": "2026-10-21T10:16:03.000+08:00",
-          "interaction": 43
-        },
-        {
-          "handle": "tengyanAI",
-          "platform": "X",
-          "text": "So....Anthropic’s reported $80.7B H1 loss sounds catastrophic.   but roughly $72B reportedly comes from noncash financing adjustments (ie not operating cash burn). non-cash charges can still carry real economic costs, including dilution.  meanwhile, Anthropic reportedly has",
-          "url": "https://x.com/tengyanAI/status/2112746990199284073",
-          "timestamp": "2026-10-21T11:25:10.000+08:00",
-          "interaction": 13
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "SpaceX’s Super Intelligence (SI) revenue nearly tripled from Q2 to $7.56B in Q3. The segment swung from a $1.26B operating loss to a $431M profit.  SpaceX credited newly activated cloud service agreements, stronger Grok adoption and the Cursor acquisition. SI includes cloud",
-          "url": "https://x.com/statementdog/status/2112734204996026564",
-          "timestamp": "2026-10-21T10:34:21.000+08:00",
-          "interaction": 4
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "Prompt caching is getting more useful for work that spans several days.  OpenAI has added a 12-hour prompt-caching option to the API.  @thsottiaux  also says that signed-in users of Codex and Work get permanent caching, with guaranteed cache hits when they resume an old",
-          "url": "https://x.com/statementdog/status/2112741483375976955",
-          "timestamp": "2026-10-21T11:03:17.000+08:00",
-          "interaction": 1
-        }
-      ]
-    }
-  ],
+  "gaps": [],
+  "suggested_entry_points": [],
   "window": {
-    "start_utc": "2026-10-21T08:34:28+08:00",
-    "end_utc": "2026-10-21T12:34:28+08:00",
-    "start_tw": "Oct 21, 08:34",
-    "end_tw": "Oct 21, 12:34"
+    "start_utc": "2026-10-21T12:29:17+08:00",
+    "end_utc": "2026-10-21T16:29:17+08:00",
+    "start_tw": "Oct 21, 12:29",
+    "end_tw": "Oct 21, 16:29"
   }
 }
