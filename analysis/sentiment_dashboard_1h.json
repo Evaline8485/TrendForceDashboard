@@ -1,55 +1,219 @@
 {
-  "generated_at": "2026-10-22T00:14:41+08:00",
+  "generated_at": "2026-10-22T08:58:13.597930+00:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-10-21T23:14:41+08:00",
-    "end_utc": "2026-10-22T00:14:41+08:00",
-    "start_tw": "Oct 21, 23:14",
-    "end_tw": "Oct 22, 00:14"
+    "start_utc": "2026-10-22T07:58:13.597930+00:00",
+    "end_utc": "2026-10-22T08:58:13.597930+00:00",
+    "start_tw": "Oct 22, 15:58",
+    "end_tw": "Oct 22, 16:58"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 6,
+      "total_posts": 73,
       "sentiment_counts": {
-        "neutral": 3,
-        "positive": 2,
-        "negative": 1
+        "positive": 31,
+        "neutral": 25,
+        "negative": 17
       },
       "sentiment_share": {
-        "neutral": 0.5,
-        "positive": 0.333,
-        "negative": 0.167
+        "positive": 0.425,
+        "neutral": 0.342,
+        "negative": 0.233
       },
       "top_terms": [
-        "spending",
-        "jensen",
-        "huang",
-        "unveils",
-        "containerized",
-        "berlin",
-        "gtc",
-        "manufacturing",
-        "keynote",
-        "speech"
+        "更多",
+        "查看",
+        "看更",
+        "查看更",
+        "看更多",
+        "輝達",
+        "黃仁",
+        "仁勳",
+        "黃仁勳",
+        "柏林"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "spending",
+        "topic_id": 1,
+        "label": "輝達",
+        "heat": 57.9,
+        "volume": 5,
+        "engagement": 50,
+        "entities": [
+          "輝達",
+          "柏林",
+          "歐洲",
+          "德國",
+          "台積電"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "黃仁勳",
         "heat": 50.0,
-        "volume": 6,
-        "engagement": 87,
+        "volume": 1,
+        "engagement": 449,
+        "entities": [
+          "抗議",
+          "黃仁勳",
+          "柏林",
+          "和平",
+          "輝達"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "研發",
+        "heat": 19.9,
+        "volume": 2,
+        "engagement": 115,
+        "entities": [
+          "SK海力士",
+          "美光"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "黃仁勳 / 執行長 / 輝達",
+        "heat": 17.0,
+        "volume": 2,
+        "engagement": 65,
+        "entities": [
+          "輝達",
+          "黃仁勳",
+          "柏林"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "特斯拉",
+        "heat": 16.3,
+        "volume": 2,
+        "engagement": 57,
+        "entities": [
+          "佛利",
+          "蒙工廠"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "google",
+        "heat": 13.2,
+        "volume": 2,
+        "engagement": 27,
         "entities": [],
         "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "meta / 執行長",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 6,
+        "entities": [
+          "祖克柏",
+          "加州"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "meta",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 15,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，57 篇）",
+        "heat": 10.0,
+        "volume": 57,
+        "engagement": 9426,
+        "entities": [
+          "台灣",
+          "輝達",
+          "黃仁勳",
+          "中華電信",
+          "柏林"
+        ],
+        "is_catchall": true
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "輝達",
+        "count": 16
+      },
+      {
+        "entity": "黃仁勳",
+        "count": 9
+      },
+      {
+        "entity": "台灣",
+        "count": 8
+      },
+      {
+        "entity": "柏林",
+        "count": 7
+      },
+      {
+        "entity": "中華電信",
+        "count": 4
+      },
+      {
+        "entity": "伺服器",
+        "count": 3
+      },
+      {
+        "entity": "美光",
+        "count": 3
+      },
+      {
+        "entity": "每坪",
+        "count": 3
+      },
+      {
+        "entity": "中華",
+        "count": 3
+      },
+      {
+        "entity": "上市",
+        "count": 3
+      },
+      {
+        "entity": "日本",
+        "count": 3
+      },
+      {
+        "entity": "台積電",
+        "count": 2
+      },
+      {
+        "entity": "歐洲",
+        "count": 2
+      },
+      {
+        "entity": "抗議",
+        "count": 2
+      },
+      {
+        "entity": "德國",
+        "count": 2
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-21T23:14:41.000002+08:00",
-        "bucket_end": "2026-10-21T23:18:58.142859+08:00",
+        "bucket_start": "2026-10-22T07:58:13.597932+00:00",
+        "bucket_end": "2026-10-22T08:02:30.740789+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -65,101 +229,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T23:18:58.142859+08:00",
-        "bucket_end": "2026-10-21T23:23:15.285716+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 16,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 16,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "spending",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "TPU v9 Substrate / Yield Discussion  Google TPU v9 delay is not due to cooling demand, but rather inability to produce (substrate yield and design revision stuck). Demand side (Google itself + externa",
-            "url": "https://x.com/QQ_Timmy/status/2112926804944298213",
-            "interaction": 16
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-21T23:23:15.285716+08:00",
-        "bucket_end": "2026-10-21T23:27:32.428573+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 12,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 12,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "spending",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Reform reports ITV to police over undercover documentary",
-            "url": "https://x.com/FT/status/2112928013398474806",
-            "interaction": 12
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-21T23:27:32.428573+08:00",
-        "bucket_end": "2026-10-21T23:31:49.571430+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 19,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 19,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "spending",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "Jensen Huang Unveils Containerized Data Center at Berlin GTC 2026-10-21  1. AI as the New Manufacturing Industry: In his keynote speech at Berlin GTC, Jensen Huang stated that Europe should not only b",
-            "url": "https://x.com/QQ_Timmy/status/2112929455798993309",
-            "interaction": 19
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-21T23:31:49.571430+08:00",
-        "bucket_end": "2026-10-21T23:36:06.714287+08:00",
+        "bucket_start": "2026-10-22T08:02:30.740789+00:00",
+        "bucket_end": "2026-10-22T08:06:47.883646+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -171,12 +242,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T23:36:06.714287+08:00",
-        "bucket_end": "2026-10-21T23:40:23.857144+08:00",
+        "bucket_start": "2026-10-22T08:06:47.883646+00:00",
+        "bucket_end": "2026-10-22T08:11:05.026503+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -192,174 +263,273 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T23:40:23.857144+08:00",
-        "bucket_end": "2026-10-21T23:44:41.000001+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-21T23:44:41.000001+08:00",
-        "bucket_end": "2026-10-21T23:48:58.142858+08:00",
+        "bucket_start": "2026-10-22T08:11:05.026503+00:00",
+        "bucket_end": "2026-10-22T08:15:22.169360+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 8,
+        "positive_engagement": 4,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 100.0,
         "post_count": 1,
-        "engagement": 8,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "spending",
-            "count": 1
-          }
-        ],
+        "engagement": 4,
+        "top_topics": [],
         "top_posts": [
           {
-            "handle": "FT",
+            "handle": "TrendForce",
             "platform": "X",
-            "text": "The budget spending item Britain’s chancellor John Healey will be most keen to get under control is the government’s interest payments bill.  The FT’s economics commentator Chris Giles tells Katie Mar",
-            "url": "https://x.com/FT/status/2112933846920421873",
-            "interaction": 8
+            "text": "#TrendForce notes that #Micron plans to begin mass producing its 1-delta nm process in 2027, which is set to succeed its current mainstream 1-gamma nm process. Beyond this transition, Micron intends t",
+            "url": "https://x.com/trendforce/status/2113182121414308008",
+            "interaction": 4
           }
         ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-22T08:15:22.169360+00:00",
+        "bucket_end": "2026-10-22T08:19:39.312217+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-22T08:19:39.312217+00:00",
+        "bucket_end": "2026-10-22T08:23:56.455074+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-22T08:23:56.455074+00:00",
+        "bucket_end": "2026-10-22T08:28:13.597931+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
         "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-21T23:48:58.142858+08:00",
-        "bucket_end": "2026-10-21T23:53:15.285715+08:00",
+        "bucket_start": "2026-10-22T08:28:13.597931+00:00",
+        "bucket_end": "2026-10-22T08:32:30.740788+00:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 1,
+        "neutral": 1,
+        "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 17,
-        "net_sentiment": -100.0,
+        "neutral_engagement": 5,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
         "post_count": 1,
-        "engagement": 17,
+        "engagement": 5,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Global stocks tumble as oil prices rise",
+            "url": "https://x.com/FT/status/2113186685743669657",
+            "interaction": 5
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-22T08:32:30.740788+00:00",
+        "bucket_end": "2026-10-22T08:36:47.883645+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-22T08:36:47.883645+00:00",
+        "bucket_end": "2026-10-22T08:41:05.026502+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-22T08:41:05.026502+00:00",
+        "bucket_end": "2026-10-22T08:45:22.169359+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 4.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-22T08:45:22.169359+00:00",
+        "bucket_end": "2026-10-22T08:49:39.312216+00:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 264,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 264,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "TrendForce.tw",
+            "platform": "Facebook",
+            "text": "AI 推升晶圓代工擴產潮！TrendForce 整理各地區 8 吋、12 吋產能分布與新建規劃，其中台積電在台灣規劃新增 17 期。\n閱讀更多：\nhttps://buff.ly/s727IDh",
+            "url": "https://www.facebook.com/TrendForce.tw/posts/pfbid0ALfcLXZJPvpEdNvNsaj6gz9RWvn27TXNnPzFmJSbRWGyb9vfE7sTX73A4os3x9fBl?comment_id=2235977220302467",
+            "interaction": 264
+          }
+        ],
+        "net_sentiment_smoothed": 6.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-22T08:49:39.312216+00:00",
+        "bucket_end": "2026-10-22T08:53:56.455073+00:00",
+        "positive": 14,
+        "neutral": 13,
+        "negative": 6,
+        "positive_engagement": 723,
+        "neutral_engagement": 3185,
+        "negative_engagement": 136,
+        "net_sentiment": 24.2,
+        "post_count": 33,
+        "engagement": 4044,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "spending",
+            "topic_id": 1,
+            "label": "輝達",
+            "count": 4
+          },
+          {
+            "topic_id": 4,
+            "label": "google",
+            "count": 2
+          },
+          {
+            "topic_id": 2,
+            "label": "黃仁勳 / 執行長 / 輝達",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "黃仁勳帶機器鴨上台，還幫新創喊下單！\n#黃仁勳台上指揮機器鴨起立睡午覺\n…… \n查看更多",
+            "url": "https://www.facebook.com/reel/28284897894526336/?__cft__[0]=AZixMbmdezY-3A9NvZwJElJ7ubS4_ArqWh05vEXiERpZxesRQd7iKyW_nuYrcEgzqGdH60vTpVlgFot14HQSUNP1zMChLhF9MQEFnVPoIK32rFZ0nqUKm0VAMN3eLXlI2v48wQ-PUBxUvBLk-2dvJefxHU2vApwlHjBQ9NlvdUCt2sySzhmh0SEdze8xe6Q64fm3LaI",
+            "interaction": 2853
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "抗議者站上椅子拉布條，黃仁勳：給她一個機會！\n#黃仁勳柏林GTC演講遭綠色和平抗議打斷布條要輝達清理骯髒生意\n…… \n查看更多",
+            "url": "https://www.facebook.com/reel/1746020666505482/?__cft__[0]=AZinHe4WNaW9VeHViioXdjwkt2wHehhDWU5dX7LFI30qiM_VDHSomgwjW7hejcF1pewCY68fkNn1ULLP5_TQQSm6rEYmHhofgo-E-4rjUYrKe4udJWd5-QQL_xFtSPTRTbFjGNT7Lny-T3wmSEFP9SRSd7QJ6UVwPUUFMXaaxa8o2iEQVH17bxHc3Ie7kYifvescVWE",
+            "interaction": 449
+          }
+        ],
+        "net_sentiment_smoothed": 8.6,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-10-22T08:53:56.455073+00:00",
+        "bucket_end": "2026-10-22T08:58:13.597930+00:00",
+        "positive": 12,
+        "neutral": 9,
+        "negative": 9,
+        "positive_engagement": 193,
+        "neutral_engagement": 412,
+        "negative_engagement": 120,
+        "net_sentiment": 10.0,
+        "post_count": 30,
+        "engagement": 725,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "輝達",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Fridge hackers exploited ‘basic security flaws’ at French retailers",
-            "url": "https://x.com/FT/status/2112934794661130590",
-            "interaction": 17
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "美光與桃園工會21日下午協商未達共識，工會宣布，將於22日上午9時起，在台灣美光桃園公司門口展開24小時罷工，並針對公司提出的方案進行會員投票。",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02zNPySxSKpGctmoUhs8zkKEaqVz1ce4fkVcohXYAKiiSrAb1QaPyzAyHtxeJw6UcYl?__cft__[0]=AZh09wUoYoZeX-gBkCvN59dz-dWt0vpOv8LZAcnx0PHzMeGKCgakraZkFt9VRIlGT2hb1xs5CF7UPeL3T88cC4HSiIu58ws-O3jBXgD7_WgjYgnoaBs_dR0askaLElKhm_dMdIRuNuZJabB6BCa_JlJ2wNZfpJCO8KuwnE-N8ZnwCxf0kQLiNswZITk",
+            "interaction": 110
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "壽險業今年熱銷保單吸金力驚人，「百億神單」的張數與金額可望雙雙刷新歷史新高紀錄。據業界統計，今年前九月，11家壽險公司合計締造16張銷售突破百億元的「神單」，總銷售金額估計逾4,700億元創新高；其中…",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0kVX5eWwVATf9KwbRGaMZFswx7WwZb23kYZkNDSoSZHXYtXwoXzNrMhcd1AsvHdEtl?__cft__[0]=AZhYv1kxRxPhKFkJLMMyrSh8cZgi236t9ZTyYST2-5D5XQdsYGZHHbKa3i3bO2mOlw_FKm6vzlrUqKxm3-zl-6rbzDEcjBo-f3nigmslLBSodNNneWjZ1SWQ5X3mkCyj9QYdbH4MTeBrnHrTKUfWPCZFL3-5358jNEhSOnyji_TIHKjZjyfnEkblGQw",
+            "interaction": 85
           }
         ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-21T23:53:15.285715+08:00",
-        "bucket_end": "2026-10-21T23:57:32.428572+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-21T23:57:32.428572+08:00",
-        "bucket_end": "2026-10-22T00:01:49.571429+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-22T00:01:49.571429+08:00",
-        "bucket_end": "2026-10-22T00:06:06.714286+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-22T00:06:06.714286+08:00",
-        "bucket_end": "2026-10-22T00:10:23.857143+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-22T00:10:23.857143+08:00",
-        "bucket_end": "2026-10-22T00:14:41+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
+        "net_sentiment_smoothed": 11.4,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "spending",
+        "topic_id": 1,
+        "label": "輝達",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -367,15 +537,345 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 75.0,
+            "volume": 4
+          },
+          {
+            "net_sentiment": 100.0,
             "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "google",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "黃仁勳 / 執行長 / 輝達",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "特斯拉",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "研發",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "meta / 執行長",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -394,26 +894,6 @@
             "volume": 1
           },
           {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           }
@@ -422,39 +902,135 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "QQ_Timmy",
+        "handle": "TrendForce",
         "top_topic_id": 0,
-        "top_topic_label": "spending",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "tengyanAI",
-        "top_topic_id": 0,
-        "top_topic_label": "spending",
+        "top_topic_label": "其他（未分群，57 篇）",
         "focus_share": 1.0,
         "post_count": 1,
-        "unclustered_posts": 0
+        "unclustered_posts": 1
       },
       {
         "handle": "FT",
         "top_topic_id": 0,
-        "top_topic_label": "spending",
+        "top_topic_label": "其他（未分群，57 篇）",
         "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 0
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "TrendForce.tw",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，57 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 1,
+        "top_topic_label": "輝達",
+        "focus_share": 1.0,
+        "post_count": 30,
+        "unclustered_posts": 29
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，57 篇）",
+        "focus_share": 1.0,
+        "post_count": 7,
+        "unclustered_posts": 7
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 1,
+        "top_topic_label": "輝達",
+        "focus_share": 0.267,
+        "post_count": 33,
+        "unclustered_posts": 18
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "spending",
-        "total_engagement": 87,
-        "post_count": 6,
-        "top_account": "FT",
-        "top_account_engagement": 37,
+        "topic_id": 7,
+        "label": "黃仁勳",
+        "total_engagement": 449,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 449,
         "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "研發",
+        "total_engagement": 115,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 115,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "黃仁勳 / 執行長 / 輝達",
+        "total_engagement": 65,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 65,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "特斯拉",
+        "total_engagement": 57,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 57,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "輝達",
+        "total_engagement": 50,
+        "post_count": 5,
+        "top_account": "technewsinside",
+        "top_account_engagement": 50,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "google",
+        "total_engagement": 27,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 27,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "meta",
+        "total_engagement": 15,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 15,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "meta / 執行長",
+        "total_engagement": 6,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 6,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，57 篇）",
+        "total_engagement": 9426,
+        "post_count": 57,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 5168,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
@@ -466,25 +1042,25 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
+          "post_count": 73,
+          "likes": 10207,
+          "engagement": 10210,
+          "avg_engagement": 139.9
+        },
+        "evening": {
           "post_count": 0,
           "likes": 0,
           "engagement": 0,
           "avg_engagement": 0.0
         },
-        "evening": {
-          "post_count": 5,
-          "likes": 55,
-          "engagement": 72,
-          "avg_engagement": 14.4
-        },
         "late_night": {
-          "post_count": 1,
-          "likes": 10,
-          "engagement": 15,
-          "avg_engagement": 15.0
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         }
       },
-      "peak_slot": "evening"
+      "peak_slot": "afternoon"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,

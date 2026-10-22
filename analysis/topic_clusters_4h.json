@@ -1,27 +1,155 @@
 {
   "clusters": [
     {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 3,
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 9,
       "accounts": {
-        "TrendForce": 2,
-        "jukan05": 1
+        "technewsinside": 5,
+        "ctee.fans": 3,
+        "yutinghaosfinance": 1
       },
       "engagement_by_account": {
-        "TrendForce": 23,
-        "jukan05": 126
+        "technewsinside": 50,
+        "ctee.fans": 49,
+        "yutinghaosfinance": 303
       }
     },
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 1,
+      "size": 8,
       "accounts": {
-        "jukan05": 1
+        "jukan05": 1,
+        "technewsinside": 5,
+        "ctee.fans": 2
       },
       "engagement_by_account": {
-        "jukan05": 126
+        "jukan05": 126,
+        "technewsinside": 3474,
+        "ctee.fans": 17
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 7,
+      "accounts": {
+        "ctee.fans": 7
+      },
+      "engagement_by_account": {
+        "ctee.fans": 215
+      }
+    },
+    {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 6,
+      "accounts": {
+        "TrendForce": 2,
+        "jukan05": 1,
+        "technewsinside": 2,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "TrendForce": 23,
+        "jukan05": 126,
+        "technewsinside": 115,
+        "ctee.fans": 110
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 5,
+      "accounts": {
+        "jukan05": 1,
+        "technewsinside": 4
+      },
+      "engagement_by_account": {
+        "jukan05": 126,
+        "technewsinside": 74
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 3,
+      "accounts": {
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "ctee.fans": 102
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 3,
+      "accounts": {
+        "TrendForce.tw": 1,
+        "technewsinside": 2
+      },
+      "engagement_by_account": {
+        "TrendForce.tw": 264,
+        "technewsinside": 25
+      }
+    },
+    {
+      "id": "Q",
+      "label": "機器人 / Robotics",
+      "size": 3,
+      "accounts": {
+        "technewsinside": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 59
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 2,
+      "accounts": {
+        "jukan05": 1,
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 126,
+        "technewsinside": 31
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 2
+      },
+      "engagement_by_account": {
+        "technewsinside": 22
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 1,
+      "accounts": {
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "yutinghaosfinance": 876
+      }
+    },
+    {
+      "id": "G",
+      "label": "IC 設計",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 25
       }
     },
     {
@@ -36,34 +164,244 @@
       }
     },
     {
-      "id": "J",
-      "label": "PCB / 載板 / 被動元件",
+      "id": "R",
+      "label": "散熱 / HVAC",
       "size": 1,
       "accounts": {
-        "jukan05": 1
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "jukan05": 126
+        "ctee.fans": 48
       }
     },
     {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
+      "id": "S",
+      "label": "電網 / 能源基礎設施",
       "size": 1,
       "accounts": {
-        "jukan05": 1
+        "technewsinside": 1
       },
       "engagement_by_account": {
-        "jukan05": 126
+        "technewsinside": 2
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 7,
+      "competitor_engagement": 215,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股今（22日）早盤一度大漲逾445點至47,332點，惟盤中賣壓湧現一度翻黑降至46,862點。在大盤高檔震盪之際，被市場封為「瑤池金母」的主動式ETF經理人陳釧瑤操作備受關注。達人表示，00981A呈現連五個交易日「只買不賣」態勢，累計狂砸約117億元加碼；21日再度掃貨AI硬體供應鏈7檔標的，其中欣銓、奇鋐與緯創高居買超金額前三…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid021RtBSHFbvDy7Kk6FA9W9aWiWATqzT7sxBpcr9EJjHd1VHT2Q7qrqGvBX5ioq3qaTl?__cft__[0]=AZi449G3QFlI15mp1m72YJ6FQoMWlNco3t1RxeKuCnn89IYpIsLbPgc8ndErZWyY0ffTLKtSg1lujrq7pORgPGVhvSKsOamZwVFW01QYq2e_B_uf7WN6akZOU3DmREerEwiSuTN_7-0FHUDa44-_YDUCZxjM6AXAcxHPDwrDmrUyr06_JlnkiFXGpIc",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 48
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI伺服器商機引爆高階玻纖布需求，台玻（1802）成為台股資金追逐焦點，今（22）日早盤一度大漲逾9％，最高來到73.4元，成交量衝破15萬張，居台股個股之冠。若從7月底低點42.05元計算，不到3個月漲幅已達74.55％，籌碼面同樣火熱，10月以來截至21日，三大法人合計買超35,125張，其中外資就狂買28,516張。股價強勢飆漲…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid06Be4VErhV9kHEEuFjMcohtTNZhAHtET9rgrZrpWH5ce51gqUcpGrRx8E3N3AcspVl?__cft__[0]=AZg0Ldss9GeCFhG_dgStmauUe-UZODHdlzh700pXg-_vyJoElBBcr3fvyVduKY1IeChpE_Lma8wzvExPm_-0xBh57ZVvfKD8QiQqoRxWdlRIPR5872IvVgeShTPSrCMiASBed4L_rlbm0rlxHEBKxVXCLmpF8r3s2k_jneLQfD_AINWgm-ahlvgH6D8",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股一早受到輝達GTC大會利多激勵，今（22）日一早站回47K大關，惟伴隨光復節連假節前賣壓，加上明天可能休颱風假，引發賣壓提前出籠，加權指數一路向下，從高到低震盪900點。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02LKb57eWSFYLW8MQe3qyTZG2CURaKyo6zHt8FqjUph2qgaZisMx8TGR5zJ79schXgl?__cft__[0]=AZgBIviGHEms3Cls64wQ-KzfgOy0q9ekBj7OTvs5K6gedDtbO0J2QsBjKoh9qhCEus3xzfsjleo4BxF6DnmgbLwOyfD_S6Vbo0Lhr5d4GgOSSmv6IQW6qGCgII4OcZ39ajwVKHuGs9AttL3EDXHAIZY62f1O2vDP3xAagibmWe-IuTL8-UILrovxx0I",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 42
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股反彈後怎麼走？法人揭3觀察指標 本周力拚重返47K】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid027rHkoNu5fJ2s31uvYpmQ11V2MSmi9RjvM4RfcKSmpxayPg3Mb2f8fGaAAjeJbfy1l?__cft__[0]=AZhivZUuczXrftq6p14Zcyq0RSEP-6gIrvCYbZPzSfkwvlYgoHCIwyWgp7iaHJhqGrpOW86rv4xigpU3W_j4ZYedv9B_pNPZ1oSvMPCU56oreWMmTAOBHhqN9JnW8CPSRZY9tqfr7uKnPtiH0ah6qWBQH4he_bZdkvo8VAVEOc0plvHGi4SozNgq-F8",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 33
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美股盤後報喜，激勵台股21日大漲，外資也由賣轉買，並回頭匯入資金，新台幣匯率開低走高，上演大逆轉，盤初資金延續匯出，一度摜破32.7元，最低下探32.704元，但隨外資轉匯入而迅速由貶翻升，終場回到32.4元價位，盤中高低震盪達近3角之多，匯價歷經先前大幅崩跌後波動仍大，後續關鍵仍看外資臉色。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0WiKWHPnmMXRsFZJTVtpAKMoGRSY8TjWR5xo6NmZnMkENjHN1DgTXLMESBon3zNNUl?__cft__[0]=AZhtJnNbEzj0BQRAq7yivAXG0yJ2ld6tkb1Ui4cQ4bVCbLz7dW314STKhpcCQxhTDYFdGNSZFo1vcstNmlyXYNHKOnKzGf244apgsoJ4oQ893BtaKhDgtiiIqIJjjJzMBoNvRdms88-A5y77_uzqeQD_g-aXi7nLb-fU3mQ_d8mfQhefWzC6xvX2DiM",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 22
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "今（21）日華新科、聯茂、運錩等個股在買盤點火下強攻漲停，反觀聯一光等個股出現獲利了結賣壓出籠走勢…\n#台股雷達",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02H1vaHxwxxtUNK6yrX951nHsqCVJEdWK3w93qTVeTNanuZ3xxNmtMKD28pmJ7CvoBl?__cft__[0]=AZjuWDo4lfZDlQ_11K6Uouba4FJDWzaCh2YEhLJxghNpLM9PC2v1rJNydM4RVBE6tTx1lOi53OC_qCM16nl_rEteDVOGFJlc8teNFxUrr91ANvcx3hlZboyKBkXCTplkZKpiUshgnbpZ07KVT_m0MWQf0NT6RaU475nXlveQSe1T0e_-rrE8PKsiOug",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 17
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【10／22盤中熱門焦點股】\n✓ 台玻股價不到3個月狂飆74％！林伯豐曝AI訂單看到2028年…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0WEgvztCge2KUuw3kYJqrXTZ9kw1FGFMchbcf6ApXtUdmY1pKDDypz5ePjegx7ccRl?__cft__[0]=AZhBhPMda-daXQv9RO9FxnyUN-q1rzBepzqwoAOSaPe2evRicNCTrhQ99U8fE7WS3SsspVL-mB0Bu75sp_ZTm9m09oCXOwdi6tvs2f36T7OCgPlfsCHRUr-86ZSwAj8DlZa5dZuCXImEJ0rbXc8XCbYIIopbEYpOkGK3BjiNC6C_GxQvBOHb0LdeeEo",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 6
+        }
+      ]
+    },
+    {
+      "cluster_id": "E",
+      "label": "AI 伺服器供應鏈",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 102,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股今（22日）早盤一度大漲逾445點至47,332點，惟盤中賣壓湧現一度翻黑降至46,862點。在大盤高檔震盪之際，被市場封為「瑤池金母」的主動式ETF經理人陳釧瑤操作備受關注。達人表示，00981A呈現連五個交易日「只買不賣」態勢，累計狂砸約117億元加碼；21日再度掃貨AI硬體供應鏈7檔標的，其中欣銓、奇鋐與緯創高居買超金額前三…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid021RtBSHFbvDy7Kk6FA9W9aWiWATqzT7sxBpcr9EJjHd1VHT2Q7qrqGvBX5ioq3qaTl?__cft__[0]=AZi449G3QFlI15mp1m72YJ6FQoMWlNco3t1RxeKuCnn89IYpIsLbPgc8ndErZWyY0ffTLKtSg1lujrq7pORgPGVhvSKsOamZwVFW01QYq2e_B_uf7WN6akZOU3DmREerEwiSuTN_7-0FHUDa44-_YDUCZxjM6AXAcxHPDwrDmrUyr06_JlnkiFXGpIc",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 48
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI伺服器商機引爆高階玻纖布需求，台玻（1802）成為台股資金追逐焦點，今（22）日早盤一度大漲逾9％，最高來到73.4元，成交量衝破15萬張，居台股個股之冠。若從7月底低點42.05元計算，不到3個月漲幅已達74.55％，籌碼面同樣火熱，10月以來截至21日，三大法人合計買超35,125張，其中外資就狂買28,516張。股價強勢飆漲…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid06Be4VErhV9kHEEuFjMcohtTNZhAHtET9rgrZrpWH5ce51gqUcpGrRx8E3N3AcspVl?__cft__[0]=AZg0Ldss9GeCFhG_dgStmauUe-UZODHdlzh700pXg-_vyJoElBBcr3fvyVduKY1IeChpE_Lma8wzvExPm_-0xBh57ZVvfKD8QiQqoRxWdlRIPR5872IvVgeShTPSrCMiASBed4L_rlbm0rlxHEBKxVXCLmpF8r3s2k_jneLQfD_AINWgm-ahlvgH6D8",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "中華電信長期深耕AI人工智慧與智慧影像領域，為加速推動AI產業發展與智慧應用創新，22日正式成立中華曜智科技公司，中華電信董事長簡志誠表示，未來中華電信每一年至少都要成立一家「新創子公司」，而且子公司包括中華精測、中華資安、中華立鼎光電等都已陸續IPO，期許「金蛋」子公司趕快IPO，成為中華電信小金雞。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02HbtWLzfsgpqMrXG4MAsxG4S4GrqFhw8WnnoSc6v4WedNwW7YcM7ya8FYzNvYawUCl?__cft__[0]=AZj4dvEvb8DTohOcEh35E8QEWO9DKr7GYFAIKgcIDf0uqw5E5o7DCN0-sa79T6_CIU4RKBZQ13bHJ9Iy4McMYEw2aNQQTJrbia_QN9_SlkRZfCyvekCKsTTDX4S_8-GoG675i-_XS_eO-iBJb3YYhgtBUDRKAsFv7Irn0FXM92pKs-IGh0WCN3c9OJA",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 7
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 7,
+      "competitor_engagement": 215,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股今（22日）早盤一度大漲逾445點至47,332點，惟盤中賣壓湧現一度翻黑降至46,862點。在大盤高檔震盪之際，被市場封為「瑤池金母」的主動式ETF經理人陳釧瑤操作備受關注。達人表示，00981A呈現連五個交易日「只買不賣」態勢，累計狂砸約117億元加碼；21日再度掃貨AI硬體供應鏈7檔標的，其中欣銓、奇鋐與緯創高居買超金額前三…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid021RtBSHFbvDy7Kk6FA9W9aWiWATqzT7sxBpcr9EJjHd1VHT2Q7qrqGvBX5ioq3qaTl?__cft__[0]=AZi449G3QFlI15mp1m72YJ6FQoMWlNco3t1RxeKuCnn89IYpIsLbPgc8ndErZWyY0ffTLKtSg1lujrq7pORgPGVhvSKsOamZwVFW01QYq2e_B_uf7WN6akZOU3DmREerEwiSuTN_7-0FHUDa44-_YDUCZxjM6AXAcxHPDwrDmrUyr06_JlnkiFXGpIc",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 48
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI伺服器商機引爆高階玻纖布需求，台玻（1802）成為台股資金追逐焦點，今（22）日早盤一度大漲逾9％，最高來到73.4元，成交量衝破15萬張，居台股個股之冠。若從7月底低點42.05元計算，不到3個月漲幅已達74.55％，籌碼面同樣火熱，10月以來截至21日，三大法人合計買超35,125張，其中外資就狂買28,516張。股價強勢飆漲…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid06Be4VErhV9kHEEuFjMcohtTNZhAHtET9rgrZrpWH5ce51gqUcpGrRx8E3N3AcspVl?__cft__[0]=AZg0Ldss9GeCFhG_dgStmauUe-UZODHdlzh700pXg-_vyJoElBBcr3fvyVduKY1IeChpE_Lma8wzvExPm_-0xBh57ZVvfKD8QiQqoRxWdlRIPR5872IvVgeShTPSrCMiASBed4L_rlbm0rlxHEBKxVXCLmpF8r3s2k_jneLQfD_AINWgm-ahlvgH6D8",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股一早受到輝達GTC大會利多激勵，今（22）日一早站回47K大關，惟伴隨光復節連假節前賣壓，加上明天可能休颱風假，引發賣壓提前出籠，加權指數一路向下，從高到低震盪900點。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02LKb57eWSFYLW8MQe3qyTZG2CURaKyo6zHt8FqjUph2qgaZisMx8TGR5zJ79schXgl?__cft__[0]=AZgBIviGHEms3Cls64wQ-KzfgOy0q9ekBj7OTvs5K6gedDtbO0J2QsBjKoh9qhCEus3xzfsjleo4BxF6DnmgbLwOyfD_S6Vbo0Lhr5d4GgOSSmv6IQW6qGCgII4OcZ39ajwVKHuGs9AttL3EDXHAIZY62f1O2vDP3xAagibmWe-IuTL8-UILrovxx0I",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 42
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股反彈後怎麼走？法人揭3觀察指標 本周力拚重返47K】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid027rHkoNu5fJ2s31uvYpmQ11V2MSmi9RjvM4RfcKSmpxayPg3Mb2f8fGaAAjeJbfy1l?__cft__[0]=AZhivZUuczXrftq6p14Zcyq0RSEP-6gIrvCYbZPzSfkwvlYgoHCIwyWgp7iaHJhqGrpOW86rv4xigpU3W_j4ZYedv9B_pNPZ1oSvMPCU56oreWMmTAOBHhqN9JnW8CPSRZY9tqfr7uKnPtiH0ah6qWBQH4he_bZdkvo8VAVEOc0plvHGi4SozNgq-F8",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 33
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美股盤後報喜，激勵台股21日大漲，外資也由賣轉買，並回頭匯入資金，新台幣匯率開低走高，上演大逆轉，盤初資金延續匯出，一度摜破32.7元，最低下探32.704元，但隨外資轉匯入而迅速由貶翻升，終場回到32.4元價位，盤中高低震盪達近3角之多，匯價歷經先前大幅崩跌後波動仍大，後續關鍵仍看外資臉色。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0WiKWHPnmMXRsFZJTVtpAKMoGRSY8TjWR5xo6NmZnMkENjHN1DgTXLMESBon3zNNUl?__cft__[0]=AZhtJnNbEzj0BQRAq7yivAXG0yJ2ld6tkb1Ui4cQ4bVCbLz7dW314STKhpcCQxhTDYFdGNSZFo1vcstNmlyXYNHKOnKzGf244apgsoJ4oQ893BtaKhDgtiiIqIJjjJzMBoNvRdms88-A5y77_uzqeQD_g-aXi7nLb-fU3mQ_d8mfQhefWzC6xvX2DiM",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 22
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "今（21）日華新科、聯茂、運錩等個股在買盤點火下強攻漲停，反觀聯一光等個股出現獲利了結賣壓出籠走勢…\n#台股雷達",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02H1vaHxwxxtUNK6yrX951nHsqCVJEdWK3w93qTVeTNanuZ3xxNmtMKD28pmJ7CvoBl?__cft__[0]=AZjuWDo4lfZDlQ_11K6Uouba4FJDWzaCh2YEhLJxghNpLM9PC2v1rJNydM4RVBE6tTx1lOi53OC_qCM16nl_rEteDVOGFJlc8teNFxUrr91ANvcx3hlZboyKBkXCTplkZKpiUshgnbpZ07KVT_m0MWQf0NT6RaU475nXlveQSe1T0e_-rrE8PKsiOug",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 17
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【10／22盤中熱門焦點股】\n✓ 台玻股價不到3個月狂飆74％！林伯豐曝AI訂單看到2028年…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0WEgvztCge2KUuw3kYJqrXTZ9kw1FGFMchbcf6ApXtUdmY1pKDDypz5ePjegx7ccRl?__cft__[0]=AZhBhPMda-daXQv9RO9FxnyUN-q1rzBepzqwoAOSaPe2evRicNCTrhQ99U8fE7WS3SsspVL-mB0Bu75sp_ZTm9m09oCXOwdi6tvs2f36T7OCgPlfsCHRUr-86ZSwAj8DlZa5dZuCXImEJ0rbXc8XCbYIIopbEYpOkGK3BjiNC6C_GxQvBOHb0LdeeEo",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 6
+        }
+      ]
+    },
+    {
+      "cluster_id": "E",
+      "label": "AI 伺服器供應鏈",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 102,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股今（22日）早盤一度大漲逾445點至47,332點，惟盤中賣壓湧現一度翻黑降至46,862點。在大盤高檔震盪之際，被市場封為「瑤池金母」的主動式ETF經理人陳釧瑤操作備受關注。達人表示，00981A呈現連五個交易日「只買不賣」態勢，累計狂砸約117億元加碼；21日再度掃貨AI硬體供應鏈7檔標的，其中欣銓、奇鋐與緯創高居買超金額前三…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid021RtBSHFbvDy7Kk6FA9W9aWiWATqzT7sxBpcr9EJjHd1VHT2Q7qrqGvBX5ioq3qaTl?__cft__[0]=AZi449G3QFlI15mp1m72YJ6FQoMWlNco3t1RxeKuCnn89IYpIsLbPgc8ndErZWyY0ffTLKtSg1lujrq7pORgPGVhvSKsOamZwVFW01QYq2e_B_uf7WN6akZOU3DmREerEwiSuTN_7-0FHUDa44-_YDUCZxjM6AXAcxHPDwrDmrUyr06_JlnkiFXGpIc",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 48
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI伺服器商機引爆高階玻纖布需求，台玻（1802）成為台股資金追逐焦點，今（22）日早盤一度大漲逾9％，最高來到73.4元，成交量衝破15萬張，居台股個股之冠。若從7月底低點42.05元計算，不到3個月漲幅已達74.55％，籌碼面同樣火熱，10月以來截至21日，三大法人合計買超35,125張，其中外資就狂買28,516張。股價強勢飆漲…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid06Be4VErhV9kHEEuFjMcohtTNZhAHtET9rgrZrpWH5ce51gqUcpGrRx8E3N3AcspVl?__cft__[0]=AZg0Ldss9GeCFhG_dgStmauUe-UZODHdlzh700pXg-_vyJoElBBcr3fvyVduKY1IeChpE_Lma8wzvExPm_-0xBh57ZVvfKD8QiQqoRxWdlRIPR5872IvVgeShTPSrCMiASBed4L_rlbm0rlxHEBKxVXCLmpF8r3s2k_jneLQfD_AINWgm-ahlvgH6D8",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 47
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "中華電信長期深耕AI人工智慧與智慧影像領域，為加速推動AI產業發展與智慧應用創新，22日正式成立中華曜智科技公司，中華電信董事長簡志誠表示，未來中華電信每一年至少都要成立一家「新創子公司」，而且子公司包括中華精測、中華資安、中華立鼎光電等都已陸續IPO，期許「金蛋」子公司趕快IPO，成為中華電信小金雞。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02HbtWLzfsgpqMrXG4MAsxG4S4GrqFhw8WnnoSc6v4WedNwW7YcM7ya8FYzNvYawUCl?__cft__[0]=AZj4dvEvb8DTohOcEh35E8QEWO9DKr7GYFAIKgcIDf0uqw5E5o7DCN0-sa79T6_CIU4RKBZQ13bHJ9Iy4McMYEw2aNQQTJrbia_QN9_SlkRZfCyvekCKsTTDX4S_8-GoG675i-_XS_eO-iBJb3YYhgtBUDRKAsFv7Irn0FXM92pKs-IGh0WCN3c9OJA",
+          "timestamp": "2026-10-22T08:55:39.233218+00:00",
+          "interaction": 7
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-22T12:32:21+08:00",
-    "end_utc": "2026-10-22T16:32:21+08:00",
-    "start_tw": "Oct 22, 12:32",
-    "end_tw": "Oct 22, 16:32"
+    "start_utc": "2026-10-22T04:58:13.597930+00:00",
+    "end_utc": "2026-10-22T08:58:13.597930+00:00",
+    "start_tw": "Oct 22, 12:58",
+    "end_tw": "Oct 22, 16:58"
   }
 }
