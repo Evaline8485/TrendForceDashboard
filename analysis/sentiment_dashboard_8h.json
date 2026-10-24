@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-24T16:26:07+08:00",
+  "generated_at": "2026-10-24T08:56:15.346984+00:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-10-24T08:26:07+08:00",
-    "end_utc": "2026-10-24T16:26:07+08:00",
-    "start_tw": "Oct 24, 08:26",
-    "end_tw": "Oct 24, 16:26"
+    "start_utc": "2026-10-24T00:56:15.346984+00:00",
+    "end_utc": "2026-10-24T08:56:15.346984+00:00",
+    "start_tw": "Oct 24, 08:56",
+    "end_tw": "Oct 24, 16:56"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 63,
+      "total_posts": 127,
       "sentiment_counts": {
-        "negative": 22,
-        "positive": 20,
-        "neutral": 21
+        "negative": 42,
+        "positive": 40,
+        "neutral": 45
       },
       "sentiment_share": {
-        "negative": 0.349,
-        "positive": 0.317,
-        "neutral": 0.333
+        "negative": 0.331,
+        "positive": 0.315,
+        "neutral": 0.354
       },
       "top_terms": [
         "查看",
@@ -27,43 +27,80 @@
         "更多",
         "查看更",
         "看更多",
+        "台積",
+        "積電",
+        "台積電",
         "記憶",
-        "憶體",
-        "記憶體",
-        "颱風",
-        "薔琵"
+        "憶體"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 4,
+        "topic_id": 2,
         "label": "deepseek / setup",
         "heat": 90.0,
-        "volume": 2,
-        "engagement": 272,
-        "entities": [],
+        "volume": 3,
+        "engagement": 290,
+        "entities": [
+          "中國"
+        ],
         "is_catchall": false
       },
       {
-        "topic_id": 8,
+        "topic_id": 3,
+        "label": "台積電",
+        "heat": 90.0,
+        "volume": 2,
+        "engagement": 299,
+        "entities": [
+          "台積電",
+          "超微",
+          "上市",
+          "聯電",
+          "南亞科"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "iphone",
+        "heat": 26.6,
+        "volume": 2,
+        "engagement": 62,
+        "entities": [
+          "任天堂"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
         "label": "budget",
-        "heat": 56.6,
+        "heat": 19.9,
         "volume": 2,
         "engagement": 37,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 21,
+        "label": "intelligence",
+        "heat": 14.7,
+        "volume": 1,
+        "engagement": 167,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
         "label": "don",
-        "heat": 50.0,
+        "heat": 14.3,
         "volume": 2,
         "engagement": 16,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 5,
+        "topic_id": 16,
         "label": "france",
         "heat": 10.0,
         "volume": 1,
@@ -72,7 +109,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
+        "topic_id": 14,
         "label": "storm",
         "heat": 10.0,
         "volume": 1,
@@ -81,8 +118,8 @@
         "is_catchall": false
       },
       {
-        "topic_id": 6,
-        "label": "storm / france",
+        "topic_id": 4,
+        "label": "france / storm",
         "heat": 10.0,
         "volume": 1,
         "engagement": 114,
@@ -90,17 +127,170 @@
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "其他（未分群，54 篇）",
+        "topic_id": 7,
+        "label": "年量產 / lpddr",
         "heat": 10.0,
-        "volume": 54,
-        "engagement": 1880,
+        "volume": 1,
+        "engagement": 0,
+        "entities": [
+          "美光"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "美股",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 16,
+        "entities": [
+          "道瓊",
+          "中東"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "執行長",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 20,
+        "entities": [
+          "賈西"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 13,
+        "label": "輝達",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 30,
+        "entities": [
+          "輝達"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 19,
+        "label": "年量產",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 23,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "spacex",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 57,
+        "entities": [
+          "加薪"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 11,
+        "label": "spacex / intelligence",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 17,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 20,
+        "label": "輝達 / 執行長",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 55,
+        "entities": [
+          "輝達",
+          "黃仁勳"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "lpddr",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 0,
+        "entities": [
+          "黃仁勳",
+          "攜手長鑫",
+          "輝達",
+          "中國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "美股 / 台積電",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 26,
+        "entities": [
+          "台積電",
+          "台灣",
+          "修正"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
+        "label": "日宣布",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 26,
+        "entities": [
+          "美國聯邦",
+          "美國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "日宣布 / trump",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 132,
         "entities": [
           "美國",
-          "美光",
+          "第一夫人",
+          "俄羅斯",
+          "烏克蘭"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 18,
+        "label": "trump",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 61,
+        "entities": [
+          "伊朗",
+          "中東",
+          "美國總統川普",
+          "美國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，99 篇）",
+        "heat": 10.0,
+        "volume": 99,
+        "engagement": 11000,
+        "entities": [
+          "美國",
           "中國",
-          "上市",
-          "黃仁勳"
+          "美光",
+          "台積電",
+          "亞洲"
         ],
         "is_catchall": true
       }
@@ -108,101 +298,69 @@
     "named_entities": [
       {
         "entity": "美國",
-        "count": 6
-      },
-      {
-        "entity": "美光",
-        "count": 5
+        "count": 18
       },
       {
         "entity": "中國",
-        "count": 3
+        "count": 11
+      },
+      {
+        "entity": "台積電",
+        "count": 8
+      },
+      {
+        "entity": "美光",
+        "count": 6
+      },
+      {
+        "entity": "輝達",
+        "count": 5
+      },
+      {
+        "entity": "伊朗",
+        "count": 5
       },
       {
         "entity": "上市",
+        "count": 4
+      },
+      {
+        "entity": "亞洲",
+        "count": 3
+      },
+      {
+        "entity": "城市",
+        "count": 3
+      },
+      {
+        "entity": "馬斯克",
         "count": 3
       },
       {
         "entity": "黃仁勳",
-        "count": 2
-      },
-      {
-        "entity": "輝達",
-        "count": 2
+        "count": 3
       },
       {
         "entity": "琵颱",
-        "count": 2
-      },
-      {
-        "entity": "台積電",
-        "count": 2
-      },
-      {
-        "entity": "立榮",
-        "count": 2
-      },
-      {
-        "entity": "谷歌",
-        "count": 2
-      },
-      {
-        "entity": "伊朗",
-        "count": 2
-      },
-      {
-        "entity": "攜手長鑫",
-        "count": 1
-      },
-      {
-        "entity": "民眾出國",
-        "count": 1
-      },
-      {
-        "entity": "宗以",
-        "count": 1
+        "count": 3
       },
       {
         "entity": "台灣",
-        "count": 1
+        "count": 3
+      },
+      {
+        "entity": "超微",
+        "count": 2
+      },
+      {
+        "entity": "中東",
+        "count": 2
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-24T08:26:07.000002+08:00",
-        "bucket_end": "2026-10-24T09:00:24.142859+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 28,
-        "neutral_engagement": 495,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 523,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "US executives quit $25bn gas venture over claims of secret Russian control",
-            "url": "https://x.com/FT/status/2113789902248620452",
-            "interaction": 495
-          },
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "Citadel Securities〈Retail Options: One of the Largest Call Buying Days on Record〉2026-10-22  1、Retail call buying hits near 2-year high:   1）On October 22, 2026, call net premium spending ranked as th",
-            "url": "https://x.com/QQ_Timmy/status/2113792401873740189",
-            "interaction": 28
-          }
-        ],
-        "net_sentiment_smoothed": 16.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-24T09:00:24.142859+08:00",
-        "bucket_end": "2026-10-24T09:34:41.285716+08:00",
+        "bucket_start": "2026-10-24T00:56:15.346986+00:00",
+        "bucket_end": "2026-10-24T01:30:32.489843+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -214,12 +372,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 37.5,
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T09:34:41.285716+08:00",
-        "bucket_end": "2026-10-24T10:08:58.428573+08:00",
+        "bucket_start": "2026-10-24T01:30:32.489843+00:00",
+        "bucket_end": "2026-10-24T02:04:49.632700+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 1,
@@ -246,12 +404,12 @@
             "interaction": 2
           }
         ],
-        "net_sentiment_smoothed": 10.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T10:08:58.428573+08:00",
-        "bucket_end": "2026-10-24T10:43:15.571430+08:00",
+        "bucket_start": "2026-10-24T02:04:49.632700+00:00",
+        "bucket_end": "2026-10-24T02:39:06.775557+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -275,8 +433,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T10:43:15.571430+08:00",
-        "bucket_end": "2026-10-24T11:17:32.714287+08:00",
+        "bucket_start": "2026-10-24T02:39:06.775557+00:00",
+        "bucket_end": "2026-10-24T03:13:23.918414+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -286,7 +444,13 @@
         "net_sentiment": -100.0,
         "post_count": 1,
         "engagement": 167,
-        "top_topics": [],
+        "top_topics": [
+          {
+            "topic_id": 21,
+            "label": "intelligence",
+            "count": 1
+          }
+        ],
         "top_posts": [
           {
             "handle": "FT",
@@ -296,12 +460,12 @@
             "interaction": 167
           }
         ],
-        "net_sentiment_smoothed": 6.8,
+        "net_sentiment_smoothed": 4.8,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T11:17:32.714287+08:00",
-        "bucket_end": "2026-10-24T11:51:49.857144+08:00",
+        "bucket_start": "2026-10-24T03:13:23.918414+00:00",
+        "bucket_end": "2026-10-24T03:47:41.061271+00:00",
         "positive": 8,
         "neutral": 10,
         "negative": 13,
@@ -311,7 +475,23 @@
         "net_sentiment": -16.1,
         "post_count": 31,
         "engagement": 714,
-        "top_topics": [],
+        "top_topics": [
+          {
+            "topic_id": 17,
+            "label": "lpddr",
+            "count": 1
+          },
+          {
+            "topic_id": 22,
+            "label": "美股 / 台積電",
+            "count": 1
+          },
+          {
+            "topic_id": 15,
+            "label": "日宣布",
+            "count": 1
+          }
+        ],
         "top_posts": [
           {
             "handle": "ctee.fans",
@@ -328,25 +508,25 @@
             "interaction": 67
           }
         ],
-        "net_sentiment_smoothed": 6.8,
+        "net_sentiment_smoothed": 4.8,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-10-24T11:51:49.857144+08:00",
-        "bucket_end": "2026-10-24T12:26:07.000001+08:00",
-        "positive": 3,
+        "bucket_start": "2026-10-24T03:47:41.061271+00:00",
+        "bucket_end": "2026-10-24T04:21:58.204128+00:00",
+        "positive": 2,
         "neutral": 3,
         "negative": 0,
-        "positive_engagement": 197,
+        "positive_engagement": 109,
         "neutral_engagement": 146,
         "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 6,
-        "engagement": 343,
+        "net_sentiment": 40.0,
+        "post_count": 5,
+        "engagement": 255,
         "top_topics": [
           {
-            "topic_id": 6,
-            "label": "storm / france",
+            "topic_id": 4,
+            "label": "france / storm",
             "count": 1
           }
         ],
@@ -359,36 +539,36 @@
             "interaction": 114
           },
           {
-            "handle": "FT",
+            "handle": "tengyanAI",
             "platform": "X",
-            "text": "Pegasus spyware founder urges governments to trust his tech and ditch US AI",
-            "url": "https://x.com/FT/status/2113848543148401147",
-            "interaction": 88
+            "text": "Nebius is making an interesting bet on the AI boom, which im seeing more ppl consider.  it says it could sell all its 2027 GPU capacity today. but it's deliberately holding some back, betting that cus",
+            "url": "https://x.com/tengyanAI/status/2113847884093538539",
+            "interaction": 83
           }
         ],
-        "net_sentiment_smoothed": -9.9,
+        "net_sentiment_smoothed": -7.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T12:26:07.000001+08:00",
-        "bucket_end": "2026-10-24T13:00:24.142858+08:00",
+        "bucket_start": "2026-10-24T04:21:58.204128+00:00",
+        "bucket_end": "2026-10-24T04:56:15.346985+00:00",
         "positive": 1,
         "neutral": 1,
         "negative": 1,
-        "positive_engagement": 17,
+        "positive_engagement": 88,
         "neutral_engagement": 19,
         "negative_engagement": 255,
         "net_sentiment": 0.0,
         "post_count": 3,
-        "engagement": 291,
+        "engagement": 362,
         "top_topics": [
           {
-            "topic_id": 4,
+            "topic_id": 2,
             "label": "deepseek / setup",
-            "count": 2
+            "count": 1
           },
           {
-            "topic_id": 0,
+            "topic_id": 14,
             "label": "storm",
             "count": 1
           }
@@ -404,35 +584,40 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "A union storm is coming for employers",
-            "url": "https://x.com/FT/status/2113850458661937281",
-            "interaction": 19
+            "text": "Pegasus spyware founder urges governments to trust his tech and ditch US AI",
+            "url": "https://x.com/FT/status/2113848543148401147",
+            "interaction": 88
           }
         ],
-        "net_sentiment_smoothed": 7.6,
+        "net_sentiment_smoothed": 10.8,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T13:00:24.142858+08:00",
-        "bucket_end": "2026-10-24T13:34:41.285715+08:00",
+        "bucket_start": "2026-10-24T04:56:15.346985+00:00",
+        "bucket_end": "2026-10-24T05:30:32.489842+00:00",
         "positive": 3,
         "neutral": 1,
-        "negative": 2,
-        "positive_engagement": 75,
+        "negative": 1,
+        "positive_engagement": 63,
         "neutral_engagement": 8,
-        "negative_engagement": 114,
-        "net_sentiment": 16.7,
-        "post_count": 6,
-        "engagement": 197,
+        "negative_engagement": 106,
+        "net_sentiment": 40.0,
+        "post_count": 5,
+        "engagement": 177,
         "top_topics": [
           {
-            "topic_id": 8,
+            "topic_id": 5,
             "label": "budget",
             "count": 2
           },
           {
-            "topic_id": 5,
+            "topic_id": 16,
             "label": "france",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
+            "label": "deepseek / setup",
             "count": 1
           }
         ],
@@ -447,29 +632,29 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "China’s luxury brands are ready to elbow western rivals aside  https:// ft.trib.al/Hpj9j9T  | opinion",
-            "url": "https://x.com/FT/status/2113866235653898276",
+            "text": "A little bit of luck is lifting UK Budget expectations",
+            "url": "https://x.com/FT/status/2113858932372304304",
             "interaction": 29
           }
         ],
-        "net_sentiment_smoothed": -9.2,
+        "net_sentiment_smoothed": -6.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T13:34:41.285715+08:00",
-        "bucket_end": "2026-10-24T14:08:58.428572+08:00",
-        "positive": 1,
+        "bucket_start": "2026-10-24T05:30:32.489842+00:00",
+        "bucket_end": "2026-10-24T06:04:49.632699+00:00",
+        "positive": 2,
         "neutral": 5,
-        "negative": 2,
-        "positive_engagement": 2,
+        "negative": 3,
+        "positive_engagement": 31,
         "neutral_engagement": 34,
-        "negative_engagement": 16,
-        "net_sentiment": -12.5,
-        "post_count": 8,
-        "engagement": 52,
+        "negative_engagement": 24,
+        "net_sentiment": -10.0,
+        "post_count": 10,
+        "engagement": 89,
         "top_topics": [
           {
-            "topic_id": 2,
+            "topic_id": 6,
             "label": "don",
             "count": 2
           }
@@ -478,24 +663,24 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Reform’s former policy chief steps down from Cambridge management roles",
-            "url": "https://x.com/FT/status/2113872517953687849",
-            "interaction": 15
+            "text": "China’s luxury brands are ready to elbow western rivals aside  https:// ft.trib.al/Hpj9j9T  | opinion",
+            "url": "https://x.com/FT/status/2113866235653898276",
+            "interaction": 29
           },
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Don’t let the future rob you of the present  https:// ft.trib.al/cn7WNs2  | opinion",
-            "url": "https://x.com/FT/status/2113873784432103448",
-            "interaction": 12
+            "text": "Reform’s former policy chief steps down from Cambridge management roles",
+            "url": "https://x.com/FT/status/2113872517953687849",
+            "interaction": 15
           }
         ],
-        "net_sentiment_smoothed": -39.2,
+        "net_sentiment_smoothed": -34.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T14:08:58.428572+08:00",
-        "bucket_end": "2026-10-24T14:43:15.571429+08:00",
+        "bucket_start": "2026-10-24T06:04:49.632699+00:00",
+        "bucket_end": "2026-10-24T06:39:06.775556+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -515,12 +700,12 @@
             "interaction": 4
           }
         ],
-        "net_sentiment_smoothed": -39.2,
+        "net_sentiment_smoothed": -34.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T14:43:15.571429+08:00",
-        "bucket_end": "2026-10-24T15:17:32.714286+08:00",
+        "bucket_start": "2026-10-24T06:39:06.775556+00:00",
+        "bucket_end": "2026-10-24T07:13:23.918413+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -540,12 +725,12 @@
             "interaction": 33
           }
         ],
-        "net_sentiment_smoothed": -42.5,
+        "net_sentiment_smoothed": -42.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T15:17:32.714286+08:00",
-        "bucket_end": "2026-10-24T15:51:49.857143+08:00",
+        "bucket_start": "2026-10-24T07:13:23.918413+00:00",
+        "bucket_end": "2026-10-24T07:47:41.061270+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -557,12 +742,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -50.0,
+        "net_sentiment_smoothed": -38.9,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T15:51:49.857143+08:00",
-        "bucket_end": "2026-10-24T16:26:07+08:00",
+        "bucket_start": "2026-10-24T07:47:41.061270+00:00",
+        "bucket_end": "2026-10-24T08:21:58.204127+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -574,13 +759,61 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -33.3,
+        "net_sentiment_smoothed": -23.7,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-24T08:21:58.204127+00:00",
+        "bucket_end": "2026-10-24T08:56:15.346984+00:00",
+        "positive": 19,
+        "neutral": 22,
+        "negative": 16,
+        "positive_engagement": 774,
+        "neutral_engagement": 1224,
+        "negative_engagement": 603,
+        "net_sentiment": 5.3,
+        "post_count": 57,
+        "engagement": 2601,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "台積電",
+            "count": 2
+          },
+          {
+            "topic_id": 1,
+            "label": "iphone",
+            "count": 2
+          },
+          {
+            "topic_id": 7,
+            "label": "年量產 / lpddr",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "颱風吹掉運動會、吹不掉紅包！\n#台積電運動會史上首度停辦\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02NBNzFPMJ56FU27dzvCfcbJGfTGtFQAngUyRfY8fiJ9nzUGdYFoMawNNkaWh4QMUkl?__cft__[0]=AZiNC2RklJmoBF5Club34fAspxuP-j2Oy_yX-Fbx2e44sxbGwpXj91LRkszpBf1ZCSFUMzwe2EsH5NYfMJR-XtSf6jOaPlvVjvXW4s2WAB5pFEYH-pLTQXLG4OUU71KgTHk3xk-vDviqCuk3xOvW7Xutm-ZL2Bje16lWsH5BTacFu9IjL6tMDa7QP-8",
+            "interaction": 722
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "【外資10月以來大砍台股逾8,200億元】\n。法人指出，短線資金板塊挪移，籌碼浮額洗淨仍需時間，但上市櫃公司基本面強勁，獲利持續增溫，愈跌愈具投資價值，聯電、台積電、南亞科等16檔近期遭外資大舉賣超...…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02KGYLS4Xip1XCQM31hNwoKxkPSJKPDqkDBtcnM6vcrhKNkKGq9i67dc7Z7tUxVTQQl?__cft__[0]=AZiDA5AmVpyAZ8pW2Gb57TQg3t5rZnxCBzoWmr_-6HEBZtmaevTfSCvoHSxCiNX5-leBQehnVTPKaPxpKflA3s52pTMYZXUAmFHhKy11xOxsbuLLlUWsgmHnd-3Z2GvRucHcTmDqZclXyoFQtdAEmgJMLWZwKk0wuZx2DRuVni2wLWhw80vOXjLH9yk",
+            "interaction": 211
+          }
+        ],
+        "net_sentiment_smoothed": 1.8,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 4,
+        "topic_id": 2,
         "label": "deepseek / setup",
         "cells": [
           {
@@ -608,16 +841,12 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": -100.0,
+            "volume": 1
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -638,17 +867,17 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           }
         ]
       },
       {
-        "topic_id": 2,
+        "topic_id": 6,
         "label": "don",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -700,17 +929,17 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 8,
+        "topic_id": 5,
         "label": "budget",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -762,17 +991,141 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 5,
-        "label": "france",
+        "topic_id": 3,
+        "label": "台積電",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "iphone",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 16,
+        "label": "france",
+        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -824,126 +1177,6 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 0,
-        "label": "storm",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 6,
-        "label": "storm / france",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -955,47 +1188,55 @@
     "coverage_focus_ranking": [
       {
         "handle": "SemiAnalysis_",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，54 篇）",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，99 篇）",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 2
       },
       {
         "handle": "QQ_Timmy",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，54 篇）",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，99 篇）",
         "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 3
+        "post_count": 2,
+        "unclustered_posts": 2
       },
       {
         "handle": "tengyanAI",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，54 篇）",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，99 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
       },
       {
         "handle": "statementdog",
-        "top_topic_id": 4,
+        "top_topic_id": 2,
         "top_topic_label": "deepseek / setup",
         "focus_share": 1.0,
         "post_count": 3,
         "unclustered_posts": 2
       },
       {
-        "handle": "ctee.fans",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，54 篇）",
+        "handle": "TrendForce.tw",
+        "top_topic_id": 7,
+        "top_topic_label": "年量產 / lpddr",
         "focus_share": 1.0,
-        "post_count": 31,
-        "unclustered_posts": 31
+        "post_count": 2,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，99 篇）",
+        "focus_share": 1.0,
+        "post_count": 10,
+        "unclustered_posts": 10
       },
       {
         "handle": "jukan05",
-        "top_topic_id": 4,
+        "top_topic_id": 2,
         "top_topic_label": "deepseek / setup",
         "focus_share": 1.0,
         "post_count": 1,
@@ -1003,26 +1244,69 @@
       },
       {
         "handle": "FT",
-        "top_topic_id": 2,
+        "top_topic_id": 6,
         "top_topic_label": "don",
-        "focus_share": 0.286,
-        "post_count": 22,
-        "unclustered_posts": 15
+        "focus_share": 0.25,
+        "post_count": 21,
+        "unclustered_posts": 13
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 1,
+        "top_topic_label": "iphone",
+        "focus_share": 0.182,
+        "post_count": 34,
+        "unclustered_posts": 23
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 3,
+        "top_topic_label": "台積電",
+        "focus_share": 0.167,
+        "post_count": 51,
+        "unclustered_posts": 45
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 4,
-        "label": "deepseek / setup",
-        "total_engagement": 272,
+        "topic_id": 3,
+        "label": "台積電",
+        "total_engagement": 299,
         "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 211,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "deepseek / setup",
+        "total_engagement": 290,
+        "post_count": 3,
         "top_account": "jukan05",
         "top_account_engagement": 255,
         "is_catchall": false
       },
       {
-        "topic_id": 6,
-        "label": "storm / france",
+        "topic_id": 21,
+        "label": "intelligence",
+        "total_engagement": 167,
+        "post_count": 1,
+        "top_account": "FT",
+        "top_account_engagement": 167,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "日宣布 / trump",
+        "total_engagement": 132,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 132,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "france / storm",
         "total_engagement": 114,
         "post_count": 1,
         "top_account": "FT",
@@ -1030,7 +1314,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 5,
+        "topic_id": 16,
         "label": "france",
         "total_engagement": 106,
         "post_count": 1,
@@ -1039,7 +1323,43 @@
         "is_catchall": false
       },
       {
-        "topic_id": 8,
+        "topic_id": 1,
+        "label": "iphone",
+        "total_engagement": 62,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 62,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 18,
+        "label": "trump",
+        "total_engagement": 61,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 61,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "spacex",
+        "total_engagement": 57,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 57,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 20,
+        "label": "輝達 / 執行長",
+        "total_engagement": 55,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 55,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
         "label": "budget",
         "total_engagement": 37,
         "post_count": 2,
@@ -1048,7 +1368,52 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
+        "topic_id": 13,
+        "label": "輝達",
+        "total_engagement": 30,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 30,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "美股 / 台積電",
+        "total_engagement": 26,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 26,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
+        "label": "日宣布",
+        "total_engagement": 26,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 26,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 19,
+        "label": "年量產",
+        "total_engagement": 23,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 23,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "執行長",
+        "total_engagement": 20,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 20,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 14,
         "label": "storm",
         "total_engagement": 19,
         "post_count": 1,
@@ -1057,7 +1422,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 11,
+        "label": "spacex / intelligence",
+        "total_engagement": 17,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 17,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
         "label": "don",
         "total_engagement": 16,
         "post_count": 2,
@@ -1066,12 +1440,39 @@
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "其他（未分群，54 篇）",
-        "total_engagement": 1880,
-        "post_count": 54,
-        "top_account": "FT",
-        "top_account_engagement": 896,
+        "topic_id": 12,
+        "label": "美股",
+        "total_engagement": 16,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 16,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "年量產 / lpddr",
+        "total_engagement": 0,
+        "post_count": 1,
+        "top_account": "TrendForce.tw",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "lpddr",
+        "total_engagement": 0,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，99 篇）",
+        "total_engagement": 11000,
+        "post_count": 99,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 8057,
         "is_catchall": true
       }
     ],

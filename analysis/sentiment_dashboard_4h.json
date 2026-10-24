@@ -1,62 +1,139 @@
 {
-  "generated_at": "2026-10-24T16:26:07+08:00",
+  "generated_at": "2026-10-24T08:56:15.346984+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-24T12:26:07+08:00",
-    "end_utc": "2026-10-24T16:26:07+08:00",
-    "start_tw": "Oct 24, 12:26",
-    "end_tw": "Oct 24, 16:26"
+    "start_utc": "2026-10-24T04:56:15.346984+00:00",
+    "end_utc": "2026-10-24T08:56:15.346984+00:00",
+    "start_tw": "Oct 24, 12:56",
+    "end_tw": "Oct 24, 16:56"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 20,
+      "total_posts": 84,
       "sentiment_counts": {
-        "negative": 7,
-        "positive": 6,
-        "neutral": 7
+        "positive": 27,
+        "negative": 26,
+        "neutral": 31
       },
       "sentiment_share": {
-        "negative": 0.35,
-        "positive": 0.3,
-        "neutral": 0.35
+        "positive": 0.321,
+        "negative": 0.31,
+        "neutral": 0.369
       },
       "top_terms": [
-        "deepseek",
-        "setup",
-        "don",
-        "budget",
-        "zartbotf",
-        "essay",
-        "sourcing",
-        "discussed",
-        "printing",
-        "machine"
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
+        "台積",
+        "積電",
+        "台積電",
+        "團隊",
+        "成長"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "deepseek / setup",
+        "topic_id": 9,
+        "label": "台積電",
         "heat": 90.0,
         "volume": 2,
-        "engagement": 272,
-        "entities": [],
+        "engagement": 299,
+        "entities": [
+          "台積電",
+          "超微",
+          "上市",
+          "聯電",
+          "南亞科"
+        ],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
+        "topic_id": 7,
+        "label": "trump",
+        "heat": 90.0,
+        "volume": 2,
+        "engagement": 193,
+        "entities": [
+          "美國",
+          "伊朗",
+          "第一夫人",
+          "俄羅斯",
+          "烏克蘭"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "spacex",
+        "heat": 66.4,
+        "volume": 2,
+        "engagement": 74,
+        "entities": [
+          "加薪"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "iphone",
+        "heat": 63.0,
+        "volume": 2,
+        "engagement": 62,
+        "entities": [
+          "任天堂"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "輝達 / 執行長",
+        "heat": 59.6,
+        "volume": 2,
+        "engagement": 50,
+        "entities": [
+          "賈西",
+          "輝達"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
         "label": "budget",
-        "heat": 16.6,
+        "heat": 55.9,
         "volume": 2,
         "engagement": 37,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 3,
+        "topic_id": 4,
+        "label": "deepseek",
+        "heat": 55.4,
+        "volume": 2,
+        "engagement": 35,
+        "entities": [
+          "中國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "年量產",
+        "heat": 52.0,
+        "volume": 2,
+        "engagement": 23,
+        "entities": [
+          "美光"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
         "label": "don",
-        "heat": 10.0,
+        "heat": 50.0,
         "volume": 2,
         "engagement": 16,
         "entities": [],
@@ -64,102 +141,117 @@
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，14 篇）",
+        "label": "輝達 / 執行長",
         "heat": 10.0,
-        "volume": 14,
-        "engagement": 258,
-        "entities": [],
+        "volume": 1,
+        "engagement": 55,
+        "entities": [
+          "輝達",
+          "黃仁勳"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，65 篇）",
+        "heat": 10.0,
+        "volume": 65,
+        "engagement": 10117,
+        "entities": [
+          "美國",
+          "中國",
+          "台積電",
+          "城市",
+          "馬斯克"
+        ],
         "is_catchall": true
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "美國",
+        "count": 12
+      },
+      {
+        "entity": "中國",
+        "count": 8
+      },
+      {
+        "entity": "台積電",
+        "count": 6
+      },
+      {
+        "entity": "輝達",
+        "count": 3
+      },
+      {
+        "entity": "城市",
+        "count": 3
+      },
+      {
+        "entity": "馬斯克",
+        "count": 3
+      },
+      {
+        "entity": "伊朗",
+        "count": 3
+      },
+      {
+        "entity": "亞洲",
+        "count": 2
+      },
+      {
+        "entity": "中東",
+        "count": 2
+      },
+      {
+        "entity": "北京",
+        "count": 2
+      },
+      {
+        "entity": "台灣",
+        "count": 2
+      },
+      {
+        "entity": "美光",
+        "count": 1
+      },
+      {
+        "entity": "三星",
+        "count": 1
+      },
+      {
+        "entity": "明星",
+        "count": 1
+      },
+      {
+        "entity": "索比亞",
+        "count": 1
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-24T12:26:06.999994+08:00",
-        "bucket_end": "2026-10-24T12:43:15.571423+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 19,
-        "negative_engagement": 255,
-        "net_sentiment": -50.0,
-        "post_count": 2,
-        "engagement": 274,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "deepseek / setup",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "A new post from  @zartbotF .  It’s an essay on DeepSeek open-sourcing its much-discussed “money-printing machine.” Zartbot argues that DeepSeek’s unique organizational setup is what enabled it to achi",
-            "url": "https://x.com/jukan05/status/2113850503256039664",
-            "interaction": 255
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "A union storm is coming for employers",
-            "url": "https://x.com/FT/status/2113850458661937281",
-            "interaction": 19
-          }
-        ],
-        "net_sentiment_smoothed": 33.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-24T12:43:15.571423+08:00",
-        "bucket_end": "2026-10-24T13:00:24.142852+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 17,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 17,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "deepseek / setup",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "DeepSeek uses SSDs to retain KV cache for days, saving GPU work on repeated prompts. Its disclosed setup uses about 14.4TB of logical cache storage per online GPU. For SSD suppliers, traffic growth, r",
-            "url": "https://x.com/statementdog/status/2113858024955625854",
-            "interaction": 17
-          }
-        ],
-        "net_sentiment_smoothed": 25.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-24T13:00:24.142852+08:00",
-        "bucket_end": "2026-10-24T13:17:32.714281+08:00",
-        "positive": 1,
+        "bucket_start": "2026-10-24T04:56:15.346978+00:00",
+        "bucket_end": "2026-10-24T05:13:23.918407+00:00",
+        "positive": 2,
         "neutral": 1,
         "negative": 0,
-        "positive_engagement": 29,
+        "positive_engagement": 46,
         "neutral_engagement": 8,
         "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 37,
+        "net_sentiment": 66.7,
+        "post_count": 3,
+        "engagement": 54,
         "top_topics": [
           {
-            "topic_id": 1,
+            "topic_id": 2,
             "label": "budget",
             "count": 2
+          },
+          {
+            "topic_id": 4,
+            "label": "deepseek",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -171,28 +263,28 @@
             "interaction": 29
           },
           {
-            "handle": "FT",
+            "handle": "statementdog",
             "platform": "X",
-            "text": "Pubs, pints and the art of the Budget gimmick",
-            "url": "https://x.com/FT/status/2113860619514396746",
-            "interaction": 8
+            "text": "DeepSeek uses SSDs to retain KV cache for days, saving GPU work on repeated prompts. Its disclosed setup uses about 14.4TB of logical cache storage per online GPU. For SSD suppliers, traffic growth, r",
+            "url": "https://x.com/statementdog/status/2113858024955625854",
+            "interaction": 17
           }
         ],
-        "net_sentiment_smoothed": 20.0,
+        "net_sentiment_smoothed": 22.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T13:17:32.714281+08:00",
-        "bucket_end": "2026-10-24T13:34:41.285710+08:00",
-        "positive": 2,
+        "bucket_start": "2026-10-24T05:13:23.918407+00:00",
+        "bucket_end": "2026-10-24T05:30:32.489836+00:00",
+        "positive": 1,
         "neutral": 0,
-        "negative": 2,
-        "positive_engagement": 46,
+        "negative": 1,
+        "positive_engagement": 17,
         "neutral_engagement": 0,
-        "negative_engagement": 114,
+        "negative_engagement": 106,
         "net_sentiment": 0.0,
-        "post_count": 4,
-        "engagement": 160,
+        "post_count": 2,
+        "engagement": 123,
         "top_topics": [],
         "top_posts": [
           {
@@ -205,34 +297,49 @@
           {
             "handle": "FT",
             "platform": "X",
+            "text": "Macron says deadly shooting near Paris was racially motivated",
+            "url": "https://x.com/FT/status/2113864405637050862",
+            "interaction": 17
+          }
+        ],
+        "net_sentiment_smoothed": 13.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-24T05:30:32.489836+00:00",
+        "bucket_end": "2026-10-24T05:47:41.061265+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 29,
+        "neutral_engagement": 0,
+        "negative_engagement": 8,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 37,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
             "text": "China’s luxury brands are ready to elbow western rivals aside  https:// ft.trib.al/Hpj9j9T  | opinion",
             "url": "https://x.com/FT/status/2113866235653898276",
             "interaction": 29
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Tobacco taxes work — even when they give smugglers a windfall  https:// ft.trib.al/nSDrg2x  | opinion",
+            "url": "https://x.com/FT/status/2113866227516834043",
+            "interaction": 8
           }
         ],
-        "net_sentiment_smoothed": 27.5,
+        "net_sentiment_smoothed": -9.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T13:34:41.285710+08:00",
-        "bucket_end": "2026-10-24T13:51:49.857139+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -12.5,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-24T13:51:49.857139+08:00",
-        "bucket_end": "2026-10-24T14:08:58.428568+08:00",
+        "bucket_start": "2026-10-24T05:47:41.061265+00:00",
+        "bucket_end": "2026-10-24T06:04:49.632694+00:00",
         "positive": 1,
         "neutral": 5,
         "negative": 2,
@@ -244,7 +351,7 @@
         "engagement": 52,
         "top_topics": [
           {
-            "topic_id": 3,
+            "topic_id": 6,
             "label": "don",
             "count": 2
           }
@@ -266,11 +373,11 @@
           }
         ],
         "net_sentiment_smoothed": -22.5,
-        "is_anomaly": true
+        "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T14:08:58.428568+08:00",
-        "bucket_end": "2026-10-24T14:26:06.999997+08:00",
+        "bucket_start": "2026-10-24T06:04:49.632694+00:00",
+        "bucket_end": "2026-10-24T06:21:58.204123+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -294,8 +401,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T14:26:06.999997+08:00",
-        "bucket_end": "2026-10-24T14:43:15.571426+08:00",
+        "bucket_start": "2026-10-24T06:21:58.204123+00:00",
+        "bucket_end": "2026-10-24T06:39:06.775552+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -311,8 +418,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T14:43:15.571426+08:00",
-        "bucket_end": "2026-10-24T15:00:24.142855+08:00",
+        "bucket_start": "2026-10-24T06:39:06.775552+00:00",
+        "bucket_end": "2026-10-24T06:56:15.346981+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -336,8 +443,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T15:00:24.142855+08:00",
-        "bucket_end": "2026-10-24T15:17:32.714284+08:00",
+        "bucket_start": "2026-10-24T06:56:15.346981+00:00",
+        "bucket_end": "2026-10-24T07:13:23.918410+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -353,8 +460,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T15:17:32.714284+08:00",
-        "bucket_end": "2026-10-24T15:34:41.285713+08:00",
+        "bucket_start": "2026-10-24T07:13:23.918410+00:00",
+        "bucket_end": "2026-10-24T07:30:32.489839+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -370,8 +477,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T15:34:41.285713+08:00",
-        "bucket_end": "2026-10-24T15:51:49.857142+08:00",
+        "bucket_start": "2026-10-24T07:30:32.489839+00:00",
+        "bucket_end": "2026-10-24T07:47:41.061268+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -387,8 +494,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T15:51:49.857142+08:00",
-        "bucket_end": "2026-10-24T16:08:58.428571+08:00",
+        "bucket_start": "2026-10-24T07:47:41.061268+00:00",
+        "bucket_end": "2026-10-24T08:04:49.632697+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -400,12 +507,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-24T16:08:58.428571+08:00",
-        "bucket_end": "2026-10-24T16:26:07+08:00",
+        "bucket_start": "2026-10-24T08:04:49.632697+00:00",
+        "bucket_end": "2026-10-24T08:21:58.204126+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -417,19 +524,212 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 20.7,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-24T08:21:58.204126+00:00",
+        "bucket_end": "2026-10-24T08:39:06.775555+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 6,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 6,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The novelist and playwright on remaining creative after the fall that left him tetraplegic, the politics of multicultural London and when Elton John turned up at his wedding – over a River Cafe lunch ",
+            "url": "https://x.com/FT/status/2113909893086261637",
+            "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": 25.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-24T08:39:06.775555+00:00",
+        "bucket_end": "2026-10-24T08:56:15.346984+00:00",
+        "positive": 18,
+        "neutral": 22,
+        "negative": 16,
+        "positive_engagement": 768,
+        "neutral_engagement": 1224,
+        "negative_engagement": 603,
+        "net_sentiment": 3.6,
+        "post_count": 56,
+        "engagement": 2595,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "年量產",
+            "count": 2
+          },
+          {
+            "topic_id": 9,
+            "label": "台積電",
+            "count": 2
+          },
+          {
+            "topic_id": 10,
+            "label": "輝達 / 執行長",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "颱風吹掉運動會、吹不掉紅包！\n#台積電運動會史上首度停辦\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02NBNzFPMJ56FU27dzvCfcbJGfTGtFQAngUyRfY8fiJ9nzUGdYFoMawNNkaWh4QMUkl?__cft__[0]=AZiNC2RklJmoBF5Club34fAspxuP-j2Oy_yX-Fbx2e44sxbGwpXj91LRkszpBf1ZCSFUMzwe2EsH5NYfMJR-XtSf6jOaPlvVjvXW4s2WAB5pFEYH-pLTQXLG4OUU71KgTHk3xk-vDviqCuk3xOvW7Xutm-ZL2Bje16lWsH5BTacFu9IjL6tMDa7QP-8",
+            "interaction": 722
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "【外資10月以來大砍台股逾8,200億元】\n。法人指出，短線資金板塊挪移，籌碼浮額洗淨仍需時間，但上市櫃公司基本面強勁，獲利持續增溫，愈跌愈具投資價值，聯電、台積電、南亞科等16檔近期遭外資大舉賣超...…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02KGYLS4Xip1XCQM31hNwoKxkPSJKPDqkDBtcnM6vcrhKNkKGq9i67dc7Z7tUxVTQQl?__cft__[0]=AZiDA5AmVpyAZ8pW2Gb57TQg3t5rZnxCBzoWmr_-6HEBZtmaevTfSCvoHSxCiNX5-leBQehnVTPKaPxpKflA3s52pTMYZXUAmFHhKy11xOxsbuLLlUWsgmHnd-3Z2GvRucHcTmDqZclXyoFQtdAEmgJMLWZwKk0wuZx2DRuVni2wLWhw80vOXjLH9yk",
+            "interaction": 211
+          }
+        ],
+        "net_sentiment_smoothed": 34.5,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
-        "label": "deepseek / setup",
+        "topic_id": 6,
+        "label": "don",
         "cells": [
           {
-            "net_sentiment": -100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
           },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "budget",
+        "cells": [
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "deepseek",
+        "cells": [
           {
             "net_sentiment": 100.0,
             "volume": 1
@@ -481,13 +781,173 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           }
         ]
       },
       {
-        "topic_id": 3,
-        "label": "don",
+        "topic_id": 8,
+        "label": "年量產",
         "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 9,
+        "label": "台積電",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 10,
+        "label": "輝達 / 執行長",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -511,142 +971,117 @@
           {
             "net_sentiment": -50.0,
             "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 1,
-        "label": "budget",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "jukan05",
-        "top_topic_id": 2,
-        "top_topic_label": "deepseek / setup",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
-      },
-      {
         "handle": "statementdog",
-        "top_topic_id": 2,
-        "top_topic_label": "deepseek / setup",
+        "top_topic_id": 4,
+        "top_topic_label": "deepseek",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 1
       },
       {
+        "handle": "TrendForce.tw",
+        "top_topic_id": 8,
+        "top_topic_label": "年量產",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，65 篇）",
+        "focus_share": 1.0,
+        "post_count": 10,
+        "unclustered_posts": 10
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 7,
+        "top_topic_label": "trump",
+        "focus_share": 0.667,
+        "post_count": 20,
+        "unclustered_posts": 17
+      },
+      {
         "handle": "FT",
-        "top_topic_id": 3,
+        "top_topic_id": 6,
         "top_topic_label": "don",
         "focus_share": 0.5,
-        "post_count": 17,
-        "unclustered_posts": 13
+        "post_count": 16,
+        "unclustered_posts": 12
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 10,
+        "top_topic_label": "輝達 / 執行長",
+        "focus_share": 0.2,
+        "post_count": 34,
+        "unclustered_posts": 24
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
-        "label": "deepseek / setup",
-        "total_engagement": 272,
+        "topic_id": 9,
+        "label": "台積電",
+        "total_engagement": 299,
         "post_count": 2,
-        "top_account": "jukan05",
-        "top_account_engagement": 255,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 211,
         "is_catchall": false
       },
       {
-        "topic_id": 1,
+        "topic_id": 7,
+        "label": "trump",
+        "total_engagement": 193,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 193,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "spacex",
+        "total_engagement": 74,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 74,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "iphone",
+        "total_engagement": 62,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 62,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "輝達 / 執行長",
+        "total_engagement": 55,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 55,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "輝達 / 執行長",
+        "total_engagement": 50,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 50,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
         "label": "budget",
         "total_engagement": 37,
         "post_count": 2,
@@ -655,7 +1090,25 @@
         "is_catchall": false
       },
       {
-        "topic_id": 3,
+        "topic_id": 4,
+        "label": "deepseek",
+        "total_engagement": 35,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 18,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "年量產",
+        "total_engagement": 23,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 23,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
         "label": "don",
         "total_engagement": 16,
         "post_count": 2,
@@ -664,12 +1117,12 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，14 篇）",
-        "total_engagement": 258,
-        "post_count": 14,
-        "top_account": "FT",
-        "top_account_engagement": 254,
+        "topic_id": 1,
+        "label": "其他（未分群，65 篇）",
+        "total_engagement": 10117,
+        "post_count": 65,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 8057,
         "is_catchall": true
       }
     ],
