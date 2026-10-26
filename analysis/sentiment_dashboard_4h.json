@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-10-26T16:30:11+08:00",
+  "generated_at": "2026-10-26T08:55:22.613122+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-26T12:30:11+08:00",
-    "end_utc": "2026-10-26T16:30:11+08:00",
-    "start_tw": "Oct 26, 12:30",
-    "end_tw": "Oct 26, 16:30"
+    "start_utc": "2026-10-26T04:55:22.613122+00:00",
+    "end_utc": "2026-10-26T08:55:22.613122+00:00",
+    "start_tw": "Oct 26, 12:55",
+    "end_tw": "Oct 26, 16:55"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 23,
+      "total_posts": 55,
       "sentiment_counts": {
-        "neutral": 13,
-        "positive": 5,
-        "negative": 5
+        "neutral": 24,
+        "positive": 19,
+        "negative": 12
       },
       "sentiment_share": {
-        "neutral": 0.565,
-        "positive": 0.217,
-        "negative": 0.217
+        "neutral": 0.436,
+        "positive": 0.345,
+        "negative": 0.218
       },
       "top_terms": [
-        "financing",
-        "neocloud",
-        "korean",
-        "equipment",
-        "hbm",
-        "rubin",
-        "push",
-        "global",
-        "gavin",
-        "baker"
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
+        "輝達",
+        "料中",
+        "資料中",
+        "料中心",
+        "資料中心"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "hbm / rubin / korean",
+        "topic_id": 6,
+        "label": "hbm / rubin / hynix / nvidia",
         "heat": 90.0,
         "volume": 2,
         "engagement": 175,
@@ -46,8 +46,20 @@
       },
       {
         "topic_id": 2,
+        "label": "輝達",
+        "heat": 90.0,
+        "volume": 3,
+        "engagement": 114,
+        "entities": [
+          "輝達",
+          "甲骨文"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
         "label": "push",
-        "heat": 32.5,
+        "heat": 42.0,
         "volume": 2,
         "engagement": 70,
         "entities": [],
@@ -55,8 +67,19 @@
       },
       {
         "topic_id": 3,
-        "label": "anybody / explains / baker / monetizing",
-        "heat": 10.0,
+        "label": "nvidia",
+        "heat": 32.4,
+        "volume": 2,
+        "engagement": 49,
+        "entities": [
+          "鴻海"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "anybody / baker / renting / blackwell",
+        "heat": 23.3,
         "volume": 2,
         "engagement": 29,
         "entities": [],
@@ -64,77 +87,154 @@
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，17 篇）",
+        "label": "conditions / financing / neocloud",
+        "heat": 18.7,
+        "volume": 2,
+        "engagement": 19,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "equipment / korean",
         "heat": 10.0,
-        "volume": 17,
-        "engagement": 877,
+        "volume": 1,
+        "engagement": 79,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "global",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 12,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "equipment / global",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 4,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "hynix / sk",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 0,
         "entities": [
-          "美國商務部",
-          "商務部",
-          "聯邦研發"
+          "SK海力士",
+          "韓國",
+          "東亞",
+          "日本",
+          "韓元"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，38 篇）",
+        "heat": 10.0,
+        "volume": 38,
+        "engagement": 1671,
+        "entities": [
+          "美國",
+          "台灣",
+          "輝達",
+          "信昌",
+          "伊朗"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
       {
-        "entity": "美國商務部",
+        "entity": "美國",
+        "count": 7
+      },
+      {
+        "entity": "台灣",
+        "count": 7
+      },
+      {
+        "entity": "輝達",
+        "count": 6
+      },
+      {
+        "entity": "信昌",
+        "count": 3
+      },
+      {
+        "entity": "伊朗",
+        "count": 3
+      },
+      {
+        "entity": "SK海力士",
+        "count": 2
+      },
+      {
+        "entity": "日本",
+        "count": 2
+      },
+      {
+        "entity": "友嘉集團",
+        "count": 2
+      },
+      {
+        "entity": "淡江",
+        "count": 2
+      },
+      {
+        "entity": "大橋",
+        "count": 2
+      },
+      {
+        "entity": "中國",
+        "count": 2
+      },
+      {
+        "entity": "英國",
         "count": 1
       },
       {
-        "entity": "商務部",
+        "entity": "三星",
         "count": 1
       },
       {
-        "entity": "聯邦研發",
+        "entity": "北美",
+        "count": 1
+      },
+      {
+        "entity": "非中",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-26T12:30:10.999994+08:00",
-        "bucket_end": "2026-10-26T12:47:19.571423+08:00",
+        "bucket_start": "2026-10-26T04:55:22.613116+00:00",
+        "bucket_end": "2026-10-26T05:12:31.184545+00:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T12:47:19.571423+08:00",
-        "bucket_end": "2026-10-26T13:04:28.142852+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 22,
-        "neutral_engagement": 0,
         "negative_engagement": 4,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 26,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 4,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "hbm / rubin / korean",
+            "topic_id": 6,
+            "label": "hbm / rubin / hynix / nvidia",
             "count": 1
           }
         ],
         "top_posts": [
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "美國商務部〈與四家公司簽署意向書，最高約 3.89 億美元 CHIPS 研發獎勵以強化能源半導體供應鏈〉2026年10月22日  1、依《晶片與科學法》，商務部簽署四份意向書，擬提供最高約 3.89 億美元聯邦研發獎勵，聚焦功率半導體元件、模組與關鍵材料，服務電網現代化、資料中心與能源基礎設施。",
-            "url": "https://x.com/QQ_Timmy/status/2114580486140072336",
-            "interaction": 22
-          },
           {
             "handle": "statementdog",
             "platform": "X",
@@ -147,43 +247,24 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T13:04:28.142852+08:00",
-        "bucket_end": "2026-10-26T13:21:36.714281+08:00",
+        "bucket_start": "2026-10-26T05:12:31.184545+00:00",
+        "bucket_end": "2026-10-26T05:29:39.755974+00:00",
         "positive": 0,
-        "neutral": 1,
+        "neutral": 4,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 34,
+        "neutral_engagement": 98,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 34,
-        "top_topics": [],
-        "top_posts": [
+        "post_count": 4,
+        "engagement": 98,
+        "top_topics": [
           {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The reclusive quant billionaire coming into the light",
-            "url": "https://x.com/FT/status/2114586929521950820",
-            "interaction": 34
+            "topic_id": 8,
+            "label": "global",
+            "count": 1
           }
         ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T13:21:36.714281+08:00",
-        "bucket_end": "2026-10-26T13:38:45.285710+08:00",
-        "positive": 0,
-        "neutral": 3,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 64,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 3,
-        "engagement": 64,
-        "top_topics": [],
         "top_posts": [
           {
             "handle": "FT",
@@ -195,17 +276,17 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "A day in Benjamin Netanyahu’s heartland",
-            "url": "https://x.com/FT/status/2114588646917439665",
-            "interaction": 14
+            "text": "The reclusive quant billionaire coming into the light",
+            "url": "https://x.com/FT/status/2114586929521950820",
+            "interaction": 34
           }
         ],
-        "net_sentiment_smoothed": 20.0,
+        "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T13:38:45.285710+08:00",
-        "bucket_end": "2026-10-26T13:55:53.857139+08:00",
+        "bucket_start": "2026-10-26T05:29:39.755974+00:00",
+        "bucket_end": "2026-10-26T05:46:48.327403+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -225,25 +306,25 @@
             "interaction": 173
           }
         ],
-        "net_sentiment_smoothed": 13.3,
+        "net_sentiment_smoothed": 10.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T13:55:53.857139+08:00",
-        "bucket_end": "2026-10-26T14:13:02.428568+08:00",
+        "bucket_start": "2026-10-26T05:46:48.327403+00:00",
+        "bucket_end": "2026-10-26T06:03:56.898832+00:00",
         "positive": 1,
-        "neutral": 1,
-        "negative": 1,
+        "neutral": 0,
+        "negative": 0,
         "positive_engagement": 171,
-        "neutral_engagement": 25,
-        "negative_engagement": 11,
-        "net_sentiment": 0.0,
-        "post_count": 3,
-        "engagement": 207,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 171,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "hbm / rubin / korean",
+            "topic_id": 6,
+            "label": "hbm / rubin / hynix / nvidia",
             "count": 1
           }
         ],
@@ -254,38 +335,31 @@
             "text": "Korean media report that Samsung Electronics and SK hynix plan to begin mass production and volume shipments of 8-high HBM4 in Q2 next year.  While the reporting outlet identifies Rubin Ultra as the t",
             "url": "https://x.com/jukan05/status/2114598413274882053",
             "interaction": 171
-          },
+          }
+        ],
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-26T06:03:56.898832+00:00",
+        "bucket_end": "2026-10-26T06:21:05.470261+00:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 2,
+        "positive_engagement": 0,
+        "neutral_engagement": 36,
+        "negative_engagement": 33,
+        "net_sentiment": -50.0,
+        "post_count": 4,
+        "engagement": 69,
+        "top_topics": [],
+        "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
             "text": "We need to know if AI agents are accessing British services  https:// ft.trib.al/AhZewVI  | opinion",
             "url": "https://x.com/FT/status/2114601055946158555",
             "interaction": 25
-          }
-        ],
-        "net_sentiment_smoothed": 13.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T14:13:02.428568+08:00",
-        "bucket_end": "2026-10-26T14:30:10.999997+08:00",
-        "positive": 0,
-        "neutral": 2,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 387,
-        "negative_engagement": 22,
-        "net_sentiment": -33.3,
-        "post_count": 3,
-        "engagement": 409,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "How Lula turned his election fortunes around in 3 weeks",
-            "url": "https://x.com/FT/status/2114604517123559539",
-            "interaction": 376
           },
           {
             "handle": "FT",
@@ -295,12 +369,37 @@
             "interaction": 22
           }
         ],
-        "net_sentiment_smoothed": 13.3,
+        "net_sentiment_smoothed": 30.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T14:30:10.999997+08:00",
-        "bucket_end": "2026-10-26T14:47:19.571426+08:00",
+        "bucket_start": "2026-10-26T06:21:05.470261+00:00",
+        "bucket_end": "2026-10-26T06:38:14.041690+00:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 376,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 376,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "How Lula turned his election fortunes around in 3 weeks",
+            "url": "https://x.com/FT/status/2114604517123559539",
+            "interaction": 376
+          }
+        ],
+        "net_sentiment_smoothed": 10.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-26T06:38:14.041690+00:00",
+        "bucket_end": "2026-10-26T06:55:22.613119+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -312,29 +411,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -6.7,
+        "net_sentiment_smoothed": -10.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T14:47:19.571426+08:00",
-        "bucket_end": "2026-10-26T15:04:28.142855+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T15:04:28.142855+08:00",
-        "bucket_end": "2026-10-26T15:21:36.714284+08:00",
+        "bucket_start": "2026-10-26T06:55:22.613119+00:00",
+        "bucket_end": "2026-10-26T07:12:31.184548+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -350,8 +432,25 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T15:21:36.714284+08:00",
-        "bucket_end": "2026-10-26T15:38:45.285713+08:00",
+        "bucket_start": "2026-10-26T07:12:31.184548+00:00",
+        "bucket_end": "2026-10-26T07:29:39.755977+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -6.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-26T07:29:39.755977+00:00",
+        "bucket_end": "2026-10-26T07:46:48.327406+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
@@ -363,7 +462,7 @@
         "engagement": 54,
         "top_topics": [
           {
-            "topic_id": 2,
+            "topic_id": 4,
             "label": "push",
             "count": 1
           }
@@ -377,51 +476,36 @@
             "interaction": 54
           }
         ],
-        "net_sentiment_smoothed": -2.9,
+        "net_sentiment_smoothed": 3.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T15:38:45.285713+08:00",
-        "bucket_end": "2026-10-26T15:55:53.857142+08:00",
+        "bucket_start": "2026-10-26T07:46:48.327406+00:00",
+        "bucket_end": "2026-10-26T08:03:56.898835+00:00",
         "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 11,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 11,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Charlie Nunn, chief executive of Lloyds Banking Group — Britain’s biggest lender — joins the FT’s Patrick Jenkins for a conversation on how modern technology in finance can empower millions of people.",
-            "url": "https://x.com/FT/status/2114626936009900063",
-            "interaction": 11
-          }
-        ],
-        "net_sentiment_smoothed": -2.9,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T15:55:53.857142+08:00",
-        "bucket_end": "2026-10-26T16:13:02.428571+08:00",
-        "positive": 1,
         "neutral": 4,
         "negative": 2,
-        "positive_engagement": 24,
-        "neutral_engagement": 114,
+        "positive_engagement": 0,
+        "neutral_engagement": 120,
         "negative_engagement": 19,
-        "net_sentiment": -14.3,
-        "post_count": 7,
-        "engagement": 157,
+        "net_sentiment": -33.3,
+        "post_count": 6,
+        "engagement": 139,
         "top_topics": [
           {
-            "topic_id": 3,
-            "label": "anybody / explains / baker / monetizing",
+            "topic_id": 0,
+            "label": "conditions / financing / neocloud",
             "count": 2
+          },
+          {
+            "topic_id": 7,
+            "label": "equipment / korean",
+            "count": 1
+          },
+          {
+            "topic_id": 10,
+            "label": "equipment / global",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -440,156 +524,136 @@
             "interaction": 26
           }
         ],
-        "net_sentiment_smoothed": -3.6,
-        "is_anomaly": true
+        "net_sentiment_smoothed": 23.3,
+        "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T16:13:02.428571+08:00",
-        "bucket_end": "2026-10-26T16:30:11+08:00",
-        "positive": 0,
+        "bucket_start": "2026-10-26T08:03:56.898835+00:00",
+        "bucket_end": "2026-10-26T08:21:05.470264+00:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 24,
+        "neutral_engagement": 5,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 29,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "anybody / baker / renting / blackwell",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "Gavin Baker Believes Demand Will Solve Neocloud Financing Issues  \"An open-source model, DeepSeek, said that they are monetizing at $38 per GPU hour. Last time I checked, I hadn't heard of anybody ren",
+            "url": "https://x.com/HyperTechInvest/status/2114630589081059509",
+            "interaction": 24
+          },
+          {
+            "handle": "HyperTechInvest",
+            "platform": "X",
+            "text": "$NVDA  CEO Jensen Huang Is Not Concerned About Neocloud Financing  Gavin Baker   \"An open-source model, DeepSeek, said that they are monetizing at $38 per GPU hour. Last time I checked, I haven't hear",
+            "url": "https://x.com/HyperTechInvest/status/2114629320874631599",
+            "interaction": 5
+          }
+        ],
+        "net_sentiment_smoothed": 31.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-26T08:21:05.470264+00:00",
+        "bucket_end": "2026-10-26T08:38:14.041693+00:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 16,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -4.8,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 16,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "push",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "With an energetic online push and social giveaways, Brazil’s president reignited his campaign between the first and second rounds.  https:// ft.trib.al/JohYakI",
+            "url": "https://x.com/FT/status/2114635692110168379",
+            "interaction": 16
+          }
+        ],
+        "net_sentiment_smoothed": 38.8,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-26T08:38:14.041693+00:00",
+        "bucket_end": "2026-10-26T08:55:22.613122+00:00",
+        "positive": 14,
+        "neutral": 8,
+        "negative": 4,
+        "positive_engagement": 316,
+        "neutral_engagement": 291,
+        "negative_engagement": 88,
+        "net_sentiment": 38.5,
+        "post_count": 26,
+        "engagement": 695,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "nvidia",
+            "count": 2
+          },
+          {
+            "topic_id": 2,
+            "label": "輝達",
+            "count": 2
+          },
+          {
+            "topic_id": 9,
+            "label": "hynix / sk",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "拆晶片變身 AI 伺服器卡！\n#中國大拆解輝達RTX5090顯卡\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02a68jvVgur7B32SLHKR22zoJCTeKE6AFtwqRZ8WWkSdDmb7mf7sYQcCs2wiQCUdqtl?__cft__[0]=AZjhA1RDdInvXwdoGuZytSHPlMdjXlkniMBMmNhfAxiyVaOdiIeK2mIBUJhWywY1RDRLyQkUqHvpFtCF-vslh2xqg8UWZ6g1O_mrAHTyHw80wc-0b6Q9-xfCbzEHn8TFSCNTjWBfh-SZYk3MRBHyeRwEEauKdLuQwAuBq7Ic5F5tmzVjkmaeSTgSDb0",
+            "interaction": 134
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "今年通車的淡江大橋已成台灣新地標與遊憩景點，也是攝影玩家拍照熱點。交通部公路局規畫，10月31日將啟動為期4周的主題光雕輪播展演，期間周末每晚6時至8時播放8大節慶主題燈光，平日則播放四季主題，晚間8時過後則恢復目前秋季燈光模式，邀民眾一同期待淡江大橋夜間光雕的美麗綻放。",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02XMtXg4iaUvCkzdzL19m2xZsucq7oCabCrPEaSfzu3JLSc4GTRyqNK8UsfDFT6hgcl?__cft__[0]=AZhYVxAzle96HIdki5TY3pp51sJwvWBJUTQgRGw_cVL7-ifGj1SHj1DGHgSv-lFNsyfUx4hB1FrkdFvT9ZjBunpZnSJEUCiBfk29J5lx5dW67Dy1-q4Ar5D6Wc6vmPOJyFzzbn9MUdhuqSPvapDleeSqmQjz2bx47DzLznOGjPth1s1h0LFPGx8e9rM",
+            "interaction": 61
+          }
+        ],
+        "net_sentiment_smoothed": 62.8,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "hbm / rubin / korean",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
         "topic_id": 2,
-        "label": "push",
+        "label": "輝達",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "anybody / explains / baker / monetizing",
-        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -641,60 +705,382 @@
           {
             "net_sentiment": 50.0,
             "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "hbm / rubin / hynix / nvidia",
+        "cells": [
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
           }
         ]
+      },
+      {
+        "topic_id": 4,
+        "label": "push",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "anybody / baker / renting / blackwell",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "conditions / financing / neocloud",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "nvidia",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          }
+        ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "jukan05",
-        "top_topic_id": 1,
-        "top_topic_label": "hbm / rubin / korean",
+        "handle": "ctee.fans",
+        "top_topic_id": 9,
+        "top_topic_label": "hynix / sk",
         "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 1
+        "post_count": 18,
+        "unclustered_posts": 17
       },
       {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，17 篇）",
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 2,
+        "top_topic_label": "輝達",
         "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
+        "post_count": 7,
+        "unclustered_posts": 6
       },
       {
         "handle": "FT",
-        "top_topic_id": 2,
+        "top_topic_id": 4,
         "top_topic_label": "push",
-        "focus_share": 1.0,
+        "focus_share": 0.667,
         "post_count": 14,
-        "unclustered_posts": 12
+        "unclustered_posts": 11
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 7,
+        "top_topic_label": "equipment / korean",
+        "focus_share": 0.5,
+        "post_count": 2,
+        "unclustered_posts": 0
       },
       {
         "handle": "statementdog",
-        "top_topic_id": 1,
-        "top_topic_label": "hbm / rubin / korean",
-        "focus_share": 1.0,
+        "top_topic_id": 6,
+        "top_topic_label": "hbm / rubin / hynix / nvidia",
+        "focus_share": 0.5,
         "post_count": 2,
-        "unclustered_posts": 1
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 3,
+        "top_topic_label": "nvidia",
+        "focus_share": 0.5,
+        "post_count": 8,
+        "unclustered_posts": 4
       },
       {
         "handle": "HyperTechInvest",
-        "top_topic_id": 3,
-        "top_topic_label": "anybody / explains / baker / monetizing",
-        "focus_share": 1.0,
+        "top_topic_id": 5,
+        "top_topic_label": "anybody / baker / renting / blackwell",
+        "focus_share": 0.5,
         "post_count": 4,
-        "unclustered_posts": 2
+        "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "hbm / rubin / korean",
+        "topic_id": 6,
+        "label": "hbm / rubin / hynix / nvidia",
         "total_engagement": 175,
         "post_count": 2,
         "top_account": "jukan05",
@@ -703,6 +1089,24 @@
       },
       {
         "topic_id": 2,
+        "label": "輝達",
+        "total_engagement": 114,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 95,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "equipment / korean",
+        "total_engagement": 79,
+        "post_count": 1,
+        "top_account": "jukan05",
+        "top_account_engagement": 79,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
         "label": "push",
         "total_engagement": 70,
         "post_count": 2,
@@ -712,7 +1116,16 @@
       },
       {
         "topic_id": 3,
-        "label": "anybody / explains / baker / monetizing",
+        "label": "nvidia",
+        "total_engagement": 49,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 49,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "anybody / baker / renting / blackwell",
         "total_engagement": 29,
         "post_count": 2,
         "top_account": "HyperTechInvest",
@@ -721,11 +1134,47 @@
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，17 篇）",
-        "total_engagement": 877,
-        "post_count": 17,
+        "label": "conditions / financing / neocloud",
+        "total_engagement": 19,
+        "post_count": 2,
+        "top_account": "HyperTechInvest",
+        "top_account_engagement": 19,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "global",
+        "total_engagement": 12,
+        "post_count": 1,
         "top_account": "FT",
-        "top_account_engagement": 753,
+        "top_account_engagement": 12,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "equipment / global",
+        "total_engagement": 4,
+        "post_count": 1,
+        "top_account": "statementdog",
+        "top_account_engagement": 4,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "hynix / sk",
+        "total_engagement": 0,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，38 篇）",
+        "total_engagement": 1671,
+        "post_count": 38,
+        "top_account": "FT",
+        "top_account_engagement": 741,
         "is_catchall": true
       }
     ],
@@ -738,10 +1187,10 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 23,
-          "likes": 851,
-          "engagement": 1151,
-          "avg_engagement": 50.0
+          "post_count": 55,
+          "likes": 1924,
+          "engagement": 2222,
+          "avg_engagement": 40.4
         },
         "evening": {
           "post_count": 0,
