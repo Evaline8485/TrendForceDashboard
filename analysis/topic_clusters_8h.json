@@ -1,6 +1,70 @@
 {
   "clusters": [
     {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 6,
+      "accounts": {
+        "jukan05": 1,
+        "statementdog": 1,
+        "dnystedt": 2,
+        "HyperTechInvest": 2
+      },
+      "engagement_by_account": {
+        "jukan05": 171,
+        "statementdog": 4,
+        "dnystedt": 149,
+        "HyperTechInvest": 29
+      }
+    },
+    {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 5,
+      "accounts": {
+        "jukan05": 1,
+        "tengyanAI": 2,
+        "statementdog": 1,
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 171,
+        "tengyanAI": 31,
+        "statementdog": 4,
+        "technewsinside": 137
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 5,
+      "accounts": {
+        "QQ_Timmy": 2,
+        "dnystedt": 1,
+        "technewsinside": 2
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 38,
+        "dnystedt": 15,
+        "technewsinside": 113
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 3,
+      "accounts": {
+        "QQ_Timmy": 1,
+        "statementdog": 1,
+        "dnystedt": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 41,
+        "statementdog": 10,
+        "dnystedt": 66
+      }
+    },
+    {
       "id": "K",
       "label": "AI 模型 / 應用",
       "size": 3,
@@ -14,25 +78,14 @@
       }
     },
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
       "size": 2,
       "accounts": {
-        "technewsinside": 2
+        "dnystedt": 2
       },
       "engagement_by_account": {
-        "technewsinside": 113
-      }
-    },
-    {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 1,
-      "accounts": {
-        "technewsinside": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 137
+        "dnystedt": 58
       }
     },
     {
@@ -45,14 +98,343 @@
       "engagement_by_account": {
         "technewsinside": 137
       }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 1,
+      "accounts": {
+        "dnystedt": 1
+      },
+      "engagement_by_account": {
+        "dnystedt": 66
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 22
+      }
+    },
+    {
+      "id": "S",
+      "label": "電網 / 能源基礎設施",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 22
+      }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 6,
+      "competitor_engagement": 353,
+      "competitors_covering": [
+        "jukan05",
+        "statementdog",
+        "dnystedt",
+        "HyperTechInvest"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Korean media report that Samsung Electronics and SK hynix plan to begin mass production and volume shipments of 8-high HBM4 in Q2 next year.  While the reporting outlet identifies Rubin Ultra as the target platform, we believe Vera Rubin will also adopt 8-high HBM4.",
+          "url": "https://x.com/jukan05/status/2114598413274882053",
+          "timestamp": "2026-10-26T14:02:03.000+08:00",
+          "interaction": 171
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "AMD CEO Lisa Su’s dad on raising “Semiconductor Queen” : 2 principles from the Talmud.  Chun Hwai Su (C. H. Su) said his daughter was very bright and often bored in school, so he sought new parenting approaches.   The Talmud: C.H. Su worked as a statistician in the New York City",
+          "url": "https://x.com/dnystedt/status/2114527843761947120",
+          "timestamp": "2026-10-26T09:21:38.000+08:00",
+          "interaction": 83
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Rumor: Nvidia, AMD and Intel have paid over a combined US$5 billion to reserve long term capacity for substrates (ABF, etc.), media report, citing industry rumors, a figure that matches capital expenditure announcements by Taiwan’s top three substrate makers, Unimicron, Kinsus",
+          "url": "https://x.com/dnystedt/status/2114551498860577145",
+          "timestamp": "2026-10-26T10:55:38.000+08:00",
+          "interaction": 66
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "Gavin Baker Believes Demand Will Solve Neocloud Financing Issues  \"An open-source model, DeepSeek, said that they are monetizing at $38 per GPU hour. Last time I checked, I hadn't heard of anybody renting GPUs anywhere near that high. So maybe this explains why Blackwell prices",
+          "url": "https://x.com/HyperTechInvest/status/2114630589081059509",
+          "timestamp": "2026-10-26T16:09:55.000+08:00",
+          "interaction": 24
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "$NVDA  CEO Jensen Huang Is Not Concerned About Neocloud Financing  Gavin Baker   \"An open-source model, DeepSeek, said that they are monetizing at $38 per GPU hour. Last time I checked, I haven't heard anybody renting GPUs anywhere near that high. So maybe this explains Blackwell",
+          "url": "https://x.com/HyperTechInvest/status/2114629320874631599",
+          "timestamp": "2026-10-26T16:04:52.000+08:00",
+          "interaction": 5
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "NVIDIA now lists Rubin’s HBM4 bandwidth at 19.2TB/s, down from the earlier 22TB/s, while memory capacity stays at 288GB. The lower bandwidth could matter more for AI workloads that spend much of their time waiting for data from memory.",
+          "url": "https://x.com/statementdog/status/2114583047685464153",
+          "timestamp": "2026-10-26T13:01:00.000+08:00",
+          "interaction": 4
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 1,
+      "competitor_count": 4,
+      "competitor_engagement": 206,
+      "competitors_covering": [
+        "jukan05",
+        "tengyanAI",
+        "statementdog"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Korean media report that Samsung Electronics and SK hynix plan to begin mass production and volume shipments of 8-high HBM4 in Q2 next year.  While the reporting outlet identifies Rubin Ultra as the target platform, we believe Vera Rubin will also adopt 8-high HBM4.",
+          "url": "https://x.com/jukan05/status/2114598413274882053",
+          "timestamp": "2026-10-26T14:02:03.000+08:00",
+          "interaction": 171
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "the question for  $MU  now is how quickly it can turn its HBM commitments into profitable shipments.  i asked  @tessara_ai  what had actually changed in the recent news. it helped me compare the headlines with earlier disclosures.  2 developments worth watching more closely:  micron",
+          "url": "https://x.com/tengyanAI/status/2114562951520899555",
+          "timestamp": "2026-10-26T11:41:08.000+08:00",
+          "interaction": 31
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "NVIDIA now lists Rubin’s HBM4 bandwidth at 19.2TB/s, down from the earlier 22TB/s, while memory capacity stays at 288GB. The lower bandwidth could matter more for AI workloads that spend much of their time waiting for data from memory.",
+          "url": "https://x.com/statementdog/status/2114583047685464153",
+          "timestamp": "2026-10-26T13:01:00.000+08:00",
+          "interaction": 4
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "here's what's changed in micron in the past 10 days:",
+          "url": "https://x.com/tengyanAI/status/2114563299841044751",
+          "timestamp": "2026-10-26T11:42:32.000+08:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 117,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "statementdog",
+        "dnystedt"
+      ],
+      "sample_posts": [
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Rumor: Nvidia, AMD and Intel have paid over a combined US$5 billion to reserve long term capacity for substrates (ABF, etc.), media report, citing industry rumors, a figure that matches capital expenditure announcements by Taiwan’s top three substrate makers, Unimicron, Kinsus",
+          "url": "https://x.com/dnystedt/status/2114551498860577145",
+          "timestamp": "2026-10-26T10:55:38.000+08:00",
+          "interaction": 66
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "高盛（Goldman Sachs）〈台灣 PCB／CCL 訪查：人工智慧硬體升級周期加速〉  1、訪查結論：人工智慧硬體升級加速；客戶以長期協議／預付款資助供應商擴產更常見。  2、材料與定價： 1）貼文稱 M10 約每張 800 美元，對比台光電（Elite Material,  https:// 2383.TW）整體混合平均售價約 63 美元。",
+          "url": "https://x.com/QQ_Timmy/status/2114557471574651133",
+          "timestamp": "2026-10-26T11:19:22.000+08:00",
+          "interaction": 41
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "PCB equipment lead times could remain above two years and still send investors a warning signal.  In EP571, Sky used a hypothetical drop from 30 months to 25 months to illustrate the risk. A shorter queue could prompt a sharp reassessment of equipment suppliers, even while their",
+          "url": "https://x.com/statementdog/status/2114567700596859345",
+          "timestamp": "2026-10-26T12:00:01.000+08:00",
+          "interaction": 10
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 6,
+      "competitor_engagement": 353,
+      "competitors_covering": [
+        "jukan05",
+        "statementdog",
+        "dnystedt",
+        "HyperTechInvest"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Korean media report that Samsung Electronics and SK hynix plan to begin mass production and volume shipments of 8-high HBM4 in Q2 next year.  While the reporting outlet identifies Rubin Ultra as the target platform, we believe Vera Rubin will also adopt 8-high HBM4.",
+          "url": "https://x.com/jukan05/status/2114598413274882053",
+          "timestamp": "2026-10-26T14:02:03.000+08:00",
+          "interaction": 171
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "AMD CEO Lisa Su’s dad on raising “Semiconductor Queen” : 2 principles from the Talmud.  Chun Hwai Su (C. H. Su) said his daughter was very bright and often bored in school, so he sought new parenting approaches.   The Talmud: C.H. Su worked as a statistician in the New York City",
+          "url": "https://x.com/dnystedt/status/2114527843761947120",
+          "timestamp": "2026-10-26T09:21:38.000+08:00",
+          "interaction": 83
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Rumor: Nvidia, AMD and Intel have paid over a combined US$5 billion to reserve long term capacity for substrates (ABF, etc.), media report, citing industry rumors, a figure that matches capital expenditure announcements by Taiwan’s top three substrate makers, Unimicron, Kinsus",
+          "url": "https://x.com/dnystedt/status/2114551498860577145",
+          "timestamp": "2026-10-26T10:55:38.000+08:00",
+          "interaction": 66
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "Gavin Baker Believes Demand Will Solve Neocloud Financing Issues  \"An open-source model, DeepSeek, said that they are monetizing at $38 per GPU hour. Last time I checked, I hadn't heard of anybody renting GPUs anywhere near that high. So maybe this explains why Blackwell prices",
+          "url": "https://x.com/HyperTechInvest/status/2114630589081059509",
+          "timestamp": "2026-10-26T16:09:55.000+08:00",
+          "interaction": 24
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "$NVDA  CEO Jensen Huang Is Not Concerned About Neocloud Financing  Gavin Baker   \"An open-source model, DeepSeek, said that they are monetizing at $38 per GPU hour. Last time I checked, I haven't heard anybody renting GPUs anywhere near that high. So maybe this explains Blackwell",
+          "url": "https://x.com/HyperTechInvest/status/2114629320874631599",
+          "timestamp": "2026-10-26T16:04:52.000+08:00",
+          "interaction": 5
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "NVIDIA now lists Rubin’s HBM4 bandwidth at 19.2TB/s, down from the earlier 22TB/s, while memory capacity stays at 288GB. The lower bandwidth could matter more for AI workloads that spend much of their time waiting for data from memory.",
+          "url": "https://x.com/statementdog/status/2114583047685464153",
+          "timestamp": "2026-10-26T13:01:00.000+08:00",
+          "interaction": 4
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 1,
+      "competitor_count": 4,
+      "competitor_engagement": 206,
+      "competitors_covering": [
+        "jukan05",
+        "tengyanAI",
+        "statementdog"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Korean media report that Samsung Electronics and SK hynix plan to begin mass production and volume shipments of 8-high HBM4 in Q2 next year.  While the reporting outlet identifies Rubin Ultra as the target platform, we believe Vera Rubin will also adopt 8-high HBM4.",
+          "url": "https://x.com/jukan05/status/2114598413274882053",
+          "timestamp": "2026-10-26T14:02:03.000+08:00",
+          "interaction": 171
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "the question for  $MU  now is how quickly it can turn its HBM commitments into profitable shipments.  i asked  @tessara_ai  what had actually changed in the recent news. it helped me compare the headlines with earlier disclosures.  2 developments worth watching more closely:  micron",
+          "url": "https://x.com/tengyanAI/status/2114562951520899555",
+          "timestamp": "2026-10-26T11:41:08.000+08:00",
+          "interaction": 31
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "NVIDIA now lists Rubin’s HBM4 bandwidth at 19.2TB/s, down from the earlier 22TB/s, while memory capacity stays at 288GB. The lower bandwidth could matter more for AI workloads that spend much of their time waiting for data from memory.",
+          "url": "https://x.com/statementdog/status/2114583047685464153",
+          "timestamp": "2026-10-26T13:01:00.000+08:00",
+          "interaction": 4
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "here's what's changed in micron in the past 10 days:",
+          "url": "https://x.com/tengyanAI/status/2114563299841044751",
+          "timestamp": "2026-10-26T11:42:32.000+08:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 117,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "statementdog",
+        "dnystedt"
+      ],
+      "sample_posts": [
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Rumor: Nvidia, AMD and Intel have paid over a combined US$5 billion to reserve long term capacity for substrates (ABF, etc.), media report, citing industry rumors, a figure that matches capital expenditure announcements by Taiwan’s top three substrate makers, Unimicron, Kinsus",
+          "url": "https://x.com/dnystedt/status/2114551498860577145",
+          "timestamp": "2026-10-26T10:55:38.000+08:00",
+          "interaction": 66
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "高盛（Goldman Sachs）〈台灣 PCB／CCL 訪查：人工智慧硬體升級周期加速〉  1、訪查結論：人工智慧硬體升級加速；客戶以長期協議／預付款資助供應商擴產更常見。  2、材料與定價： 1）貼文稱 M10 約每張 800 美元，對比台光電（Elite Material,  https:// 2383.TW）整體混合平均售價約 63 美元。",
+          "url": "https://x.com/QQ_Timmy/status/2114557471574651133",
+          "timestamp": "2026-10-26T11:19:22.000+08:00",
+          "interaction": 41
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "PCB equipment lead times could remain above two years and still send investors a warning signal.  In EP571, Sky used a hypothetical drop from 30 months to 25 months to illustrate the risk. A shorter queue could prompt a sharp reassessment of equipment suppliers, even while their",
+          "url": "https://x.com/statementdog/status/2114567700596859345",
+          "timestamp": "2026-10-26T12:00:01.000+08:00",
+          "interaction": 10
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-25T18:40:11.010805+00:00",
-    "end_utc": "2026-10-26T02:40:11.010805+00:00",
-    "start_tw": "Oct 26, 02:40",
-    "end_tw": "Oct 26, 10:40"
+    "start_utc": "2026-10-26T08:30:11+08:00",
+    "end_utc": "2026-10-26T16:30:11+08:00",
+    "start_tw": "Oct 26, 08:30",
+    "end_tw": "Oct 26, 16:30"
   }
 }

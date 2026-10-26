@@ -1,58 +1,167 @@
 {
   "clusters": [
     {
-      "id": "K",
-      "label": "AI 模型 / 應用",
-      "size": 3,
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 4,
       "accounts": {
-        "technewsinside": 1,
-        "yutinghaosfinance": 2
+        "jukan05": 1,
+        "statementdog": 1,
+        "HyperTechInvest": 2
       },
       "engagement_by_account": {
-        "technewsinside": 99,
-        "yutinghaosfinance": 1333
-      }
-    },
-    {
-      "id": "D",
-      "label": "CSP / 資料中心",
-      "size": 2,
-      "accounts": {
-        "technewsinside": 2
-      },
-      "engagement_by_account": {
-        "technewsinside": 113
+        "jukan05": 171,
+        "statementdog": 4,
+        "HyperTechInvest": 29
       }
     },
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 1,
+      "size": 2,
       "accounts": {
-        "technewsinside": 1
+        "jukan05": 1,
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "technewsinside": 137
+        "jukan05": 171,
+        "statementdog": 4
       }
     },
     {
-      "id": "E",
-      "label": "AI 伺服器供應鏈",
+      "id": "D",
+      "label": "CSP / 資料中心",
       "size": 1,
       "accounts": {
-        "technewsinside": 1
+        "QQ_Timmy": 1
       },
       "engagement_by_account": {
-        "technewsinside": 137
+        "QQ_Timmy": 22
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 22
+      }
+    },
+    {
+      "id": "S",
+      "label": "電網 / 能源基礎設施",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 22
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 204,
+      "competitors_covering": [
+        "jukan05",
+        "statementdog",
+        "HyperTechInvest"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Korean media report that Samsung Electronics and SK hynix plan to begin mass production and volume shipments of 8-high HBM4 in Q2 next year.  While the reporting outlet identifies Rubin Ultra as the target platform, we believe Vera Rubin will also adopt 8-high HBM4.",
+          "url": "https://x.com/jukan05/status/2114598413274882053",
+          "timestamp": "2026-10-26T14:02:03.000+08:00",
+          "interaction": 171
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "Gavin Baker Believes Demand Will Solve Neocloud Financing Issues  \"An open-source model, DeepSeek, said that they are monetizing at $38 per GPU hour. Last time I checked, I hadn't heard of anybody renting GPUs anywhere near that high. So maybe this explains why Blackwell prices",
+          "url": "https://x.com/HyperTechInvest/status/2114630589081059509",
+          "timestamp": "2026-10-26T16:09:55.000+08:00",
+          "interaction": 24
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "$NVDA  CEO Jensen Huang Is Not Concerned About Neocloud Financing  Gavin Baker   \"An open-source model, DeepSeek, said that they are monetizing at $38 per GPU hour. Last time I checked, I haven't heard anybody renting GPUs anywhere near that high. So maybe this explains Blackwell",
+          "url": "https://x.com/HyperTechInvest/status/2114629320874631599",
+          "timestamp": "2026-10-26T16:04:52.000+08:00",
+          "interaction": 5
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "NVIDIA now lists Rubin’s HBM4 bandwidth at 19.2TB/s, down from the earlier 22TB/s, while memory capacity stays at 288GB. The lower bandwidth could matter more for AI workloads that spend much of their time waiting for data from memory.",
+          "url": "https://x.com/statementdog/status/2114583047685464153",
+          "timestamp": "2026-10-26T13:01:00.000+08:00",
+          "interaction": 4
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 204,
+      "competitors_covering": [
+        "jukan05",
+        "statementdog",
+        "HyperTechInvest"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Korean media report that Samsung Electronics and SK hynix plan to begin mass production and volume shipments of 8-high HBM4 in Q2 next year.  While the reporting outlet identifies Rubin Ultra as the target platform, we believe Vera Rubin will also adopt 8-high HBM4.",
+          "url": "https://x.com/jukan05/status/2114598413274882053",
+          "timestamp": "2026-10-26T14:02:03.000+08:00",
+          "interaction": 171
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "Gavin Baker Believes Demand Will Solve Neocloud Financing Issues  \"An open-source model, DeepSeek, said that they are monetizing at $38 per GPU hour. Last time I checked, I hadn't heard of anybody renting GPUs anywhere near that high. So maybe this explains why Blackwell prices",
+          "url": "https://x.com/HyperTechInvest/status/2114630589081059509",
+          "timestamp": "2026-10-26T16:09:55.000+08:00",
+          "interaction": 24
+        },
+        {
+          "handle": "HyperTechInvest",
+          "platform": "X",
+          "text": "$NVDA  CEO Jensen Huang Is Not Concerned About Neocloud Financing  Gavin Baker   \"An open-source model, DeepSeek, said that they are monetizing at $38 per GPU hour. Last time I checked, I haven't heard anybody renting GPUs anywhere near that high. So maybe this explains Blackwell",
+          "url": "https://x.com/HyperTechInvest/status/2114629320874631599",
+          "timestamp": "2026-10-26T16:04:52.000+08:00",
+          "interaction": 5
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "NVIDIA now lists Rubin’s HBM4 bandwidth at 19.2TB/s, down from the earlier 22TB/s, while memory capacity stays at 288GB. The lower bandwidth could matter more for AI workloads that spend much of their time waiting for data from memory.",
+          "url": "https://x.com/statementdog/status/2114583047685464153",
+          "timestamp": "2026-10-26T13:01:00.000+08:00",
+          "interaction": 4
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-25T22:40:11.010805+00:00",
-    "end_utc": "2026-10-26T02:40:11.010805+00:00",
-    "start_tw": "Oct 26, 06:40",
-    "end_tw": "Oct 26, 10:40"
+    "start_utc": "2026-10-26T12:30:11+08:00",
+    "end_utc": "2026-10-26T16:30:11+08:00",
+    "start_tw": "Oct 26, 12:30",
+    "end_tw": "Oct 26, 16:30"
   }
 }
