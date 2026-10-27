@@ -1,53 +1,53 @@
 {
-  "generated_at": "2026-10-27T00:08:57.875802+00:00",
+  "generated_at": "2026-10-27T00:50:38.318165+00:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-10-26T16:08:57.875802+00:00",
-    "end_utc": "2026-10-27T00:08:57.875802+00:00",
-    "start_tw": "Oct 27, 00:08",
-    "end_tw": "Oct 27, 08:08"
+    "start_utc": "2026-10-26T16:50:38.318165+00:00",
+    "end_utc": "2026-10-27T00:50:38.318165+00:00",
+    "start_tw": "Oct 27, 00:50",
+    "end_tw": "Oct 27, 08:50"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 48,
+      "total_posts": 46,
       "sentiment_counts": {
-        "neutral": 10,
-        "positive": 21,
-        "negative": 17
+        "neutral": 11,
+        "positive": 20,
+        "negative": 15
       },
       "sentiment_share": {
-        "neutral": 0.208,
-        "positive": 0.438,
-        "negative": 0.354
+        "neutral": 0.239,
+        "positive": 0.435,
+        "negative": 0.326
       },
       "top_terms": [
         "anthropic",
-        "trump",
         "ipo",
-        "平均",
-        "cadence",
-        "lula",
         "更多",
         "晶片",
-        "上市",
-        "傳出"
+        "平均",
+        "cadence",
+        "trump",
+        "算力",
+        "查看",
+        "看更"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 4,
-        "label": "lula / victory / brazil / comeback",
+        "topic_id": 2,
+        "label": "trump / catholic",
         "heat": 90.0,
         "volume": 3,
-        "engagement": 1592,
+        "engagement": 465,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 8,
         "label": "ipo / filing / anthropic",
-        "heat": 54.9,
+        "heat": 69.2,
         "volume": 3,
         "engagement": 117,
         "entities": [
@@ -58,16 +58,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "customers / cadence / maestro / tw",
-        "heat": 50.0,
-        "volume": 3,
-        "engagement": 21,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
+        "topic_id": 6,
         "label": "latency",
         "heat": 10.0,
         "volume": 2,
@@ -77,7 +68,7 @@
       },
       {
         "topic_id": 7,
-        "label": "ds / cadence / flash",
+        "label": "ds / cadence",
         "heat": 10.0,
         "volume": 2,
         "engagement": 30,
@@ -85,8 +76,8 @@
         "is_catchall": false
       },
       {
-        "topic_id": 8,
-        "label": "anthropic / puts",
+        "topic_id": 1,
+        "label": "anthropic",
         "heat": 10.0,
         "volume": 2,
         "engagement": 41,
@@ -94,29 +85,40 @@
         "is_catchall": false
       },
       {
-        "topic_id": 6,
-        "label": "catholic / trump",
+        "topic_id": 4,
+        "label": "lula",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 434,
+        "engagement": 173,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "trump / puts",
+        "topic_id": 3,
+        "label": "cadence / maestro / tw",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 60,
+        "engagement": 7,
         "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "輝達",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 31,
+        "entities": [
+          "輝達"
+        ],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，29 篇）",
+        "label": "其他（未分群，28 篇）",
         "heat": 10.0,
-        "volume": 29,
-        "engagement": 1012,
+        "volume": 28,
+        "engagement": 975,
         "entities": [
           "台灣",
           "美國",
@@ -142,6 +144,10 @@
       },
       {
         "entity": "高盛",
+        "count": 2
+      },
+      {
+        "entity": "輝達",
         "count": 2
       },
       {
@@ -183,130 +189,78 @@
       {
         "entity": "麥肯錫",
         "count": 1
-      },
-      {
-        "entity": "麻省理工",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-26T16:08:57.875804+00:00",
-        "bucket_end": "2026-10-26T16:43:15.018661+00:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 2,
-        "positive_engagement": 14,
-        "neutral_engagement": 0,
-        "negative_engagement": 59,
-        "net_sentiment": -33.3,
-        "post_count": 3,
-        "engagement": 73,
-        "top_topics": [
-          {
-            "topic_id": 5,
-            "label": "customers / cadence / maestro / tw",
-            "count": 1
-          },
-          {
-            "topic_id": 1,
-            "label": "trump / puts",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "In the latest episode of my podcast, I invited Han Feizi coming on the show to talk about what China could do in the event of a 2008 type of crisis that would inevitably affect its export mkt. What di",
-            "url": "https://x.com/tphuang/status/2114757941937234109",
-            "interaction": 30
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Trump’s fresh campaign against wind power puts permitting deal in doubt",
-            "url": "https://x.com/FT/status/2114753362264502336",
-            "interaction": 29
-          }
-        ],
-        "net_sentiment_smoothed": -11.1,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T16:43:15.018661+00:00",
-        "bucket_end": "2026-10-26T17:17:32.161518+00:00",
-        "positive": 3,
+        "bucket_start": "2026-10-26T16:50:38.318167+00:00",
+        "bucket_end": "2026-10-26T17:24:55.461024+00:00",
+        "positive": 2,
         "neutral": 2,
-        "negative": 1,
-        "positive_engagement": 72,
+        "negative": 0,
+        "positive_engagement": 18,
         "neutral_engagement": 7,
-        "negative_engagement": 1419,
-        "net_sentiment": 33.3,
-        "post_count": 6,
-        "engagement": 1498,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 4,
+        "engagement": 25,
         "top_topics": [
           {
-            "topic_id": 5,
-            "label": "customers / cadence / maestro / tw",
+            "topic_id": 3,
+            "label": "cadence / maestro / tw",
             "count": 2
           },
           {
             "topic_id": 7,
-            "label": "ds / cadence / flash",
-            "count": 1
-          },
-          {
-            "topic_id": 4,
-            "label": "lula / victory / brazil / comeback",
+            "label": "ds / cadence",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "FT",
+            "handle": "QQ_Timmy",
             "platform": "X",
-            "text": "Brazil's currency and stocks tumbled on Monday as investors bet that Luiz Inácio Lula da Silva's comeback election victory would compound fiscal worries for Latin America's biggest economy.  https:// ",
-            "url": "https://x.com/FT/status/2114760072207241280",
-            "interaction": 1419
+            "text": "高盛證券（Goldman Sachs）  1、高盛台灣 PCB／CCL 查核＝人造智能硬體升級加速；客戶以長約／預付款資助供應商擴產；M10 約800美元／張 vs 台光電（Elite Material,  https:// 2383.TW）綜合平均售價約63美元。  2、附圖：",
+            "url": "https://x.com/QQ_Timmy/status/2114766265856532923",
+            "interaction": 11
           },
           {
             "handle": "tphuang",
             "platform": "X",
-            "text": "Chinese labs have not focused on frontier Math in its LLM development but I've been told Kimi K3 was the 1st Chinese model that was usable for this purpose, so not a surprise to see 3.1 improve on tha",
-            "url": "https://x.com/tphuang/status/2114760038174568868",
-            "interaction": 54
+            "text": "I'd be curious on where K3.1 ends up. should be higher than current DS-Flash at least.  Altho, I would say given DS's rapid improvement here, it could surpass K3.1 w/ another update (if its a major pr",
+            "url": "https://x.com/tphuang/status/2114764199926923475",
+            "interaction": 7
           }
         ],
-        "net_sentiment_smoothed": -4.1,
+        "net_sentiment_smoothed": 16.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T17:17:32.161518+00:00",
-        "bucket_end": "2026-10-26T17:51:49.304375+00:00",
-        "positive": 1,
-        "neutral": 0,
+        "bucket_start": "2026-10-26T17:24:55.461024+00:00",
+        "bucket_end": "2026-10-26T17:59:12.603881+00:00",
+        "positive": 2,
+        "neutral": 1,
         "negative": 2,
-        "positive_engagement": 23,
-        "neutral_engagement": 0,
+        "positive_engagement": 90,
+        "neutral_engagement": 14,
         "negative_engagement": 170,
-        "net_sentiment": -33.3,
-        "post_count": 3,
-        "engagement": 193,
+        "net_sentiment": 0.0,
+        "post_count": 5,
+        "engagement": 274,
         "top_topics": [
           {
+            "topic_id": 8,
+            "label": "ipo / filing / anthropic",
+            "count": 2
+          },
+          {
             "topic_id": 7,
-            "label": "ds / cadence / flash",
+            "label": "ds / cadence",
             "count": 1
           },
           {
             "topic_id": 2,
-            "label": "ipo / filing / anthropic",
-            "count": 1
-          },
-          {
-            "topic_id": 6,
-            "label": "catholic / trump",
+            "label": "trump / catholic",
             "count": 1
           }
         ],
@@ -319,54 +273,6 @@
             "interaction": 148
           },
           {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "TBF, while 0731 was good after 3 months of wait, Pro-0813 wasn't good. Until 4.1 came out, we really didn't know DS was on this fast cadence that got further validated in 1017.  If I could read into f",
-            "url": "https://x.com/tphuang/status/2114771071241007287",
-            "interaction": 23
-          }
-        ],
-        "net_sentiment_smoothed": -3.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T17:51:49.304375+00:00",
-        "bucket_end": "2026-10-26T18:26:06.447232+00:00",
-        "positive": 3,
-        "neutral": 1,
-        "negative": 2,
-        "positive_engagement": 241,
-        "neutral_engagement": 14,
-        "negative_engagement": 34,
-        "net_sentiment": 16.7,
-        "post_count": 6,
-        "engagement": 289,
-        "top_topics": [
-          {
-            "topic_id": 3,
-            "label": "latency",
-            "count": 2
-          },
-          {
-            "topic_id": 4,
-            "label": "lula / victory / brazil / comeback",
-            "count": 1
-          },
-          {
-            "topic_id": 1,
-            "label": "trump / puts",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Lula’s stunning comeback meets fiscal reality  https:// ft.trib.al/wiYffxB  | opinion",
-            "url": "https://x.com/FT/status/2114784490241314989",
-            "interaction": 143
-          },
-          {
             "handle": "FT",
             "platform": "X",
             "text": "‘Bold but sane’: what we learnt from Anthropic’s 240,000-word IPO filing",
@@ -374,25 +280,35 @@
             "interaction": 67
           }
         ],
-        "net_sentiment_smoothed": 23.3,
+        "net_sentiment_smoothed": 12.5,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T18:26:06.447232+00:00",
-        "bucket_end": "2026-10-26T19:00:23.590089+00:00",
-        "positive": 0,
-        "neutral": 2,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 363,
-        "negative_engagement": 0,
+        "bucket_start": "2026-10-26T17:59:12.603881+00:00",
+        "bucket_end": "2026-10-26T18:33:29.746738+00:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 2,
+        "positive_engagement": 174,
+        "neutral_engagement": 286,
+        "negative_engagement": 34,
         "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 363,
+        "post_count": 5,
+        "engagement": 494,
         "top_topics": [
           {
             "topic_id": 6,
-            "label": "catholic / trump",
+            "label": "latency",
+            "count": 2
+          },
+          {
+            "topic_id": 2,
+            "label": "trump / catholic",
+            "count": 2
+          },
+          {
+            "topic_id": 4,
+            "label": "lula",
             "count": 1
           }
         ],
@@ -405,6 +321,31 @@
             "interaction": 286
           },
           {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Lula’s stunning comeback meets fiscal reality  https:// ft.trib.al/wiYffxB  | opinion",
+            "url": "https://x.com/FT/status/2114784490241314989",
+            "interaction": 143
+          }
+        ],
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-26T18:33:29.746738+00:00",
+        "bucket_end": "2026-10-26T19:07:46.889595+00:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 77,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 77,
+        "top_topics": [],
+        "top_posts": [
+          {
             "handle": "SemiAnalysis_",
             "platform": "X",
             "text": "image",
@@ -412,25 +353,30 @@
             "interaction": 77
           }
         ],
-        "net_sentiment_smoothed": 36.7,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T19:00:23.590089+00:00",
-        "bucket_end": "2026-10-26T19:34:40.732946+00:00",
-        "positive": 1,
+        "bucket_start": "2026-10-26T19:07:46.889595+00:00",
+        "bucket_end": "2026-10-26T19:42:04.032452+00:00",
+        "positive": 2,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 30,
+        "positive_engagement": 52,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 30,
+        "post_count": 2,
+        "engagement": 52,
         "top_topics": [
           {
+            "topic_id": 1,
+            "label": "anthropic",
+            "count": 1
+          },
+          {
             "topic_id": 4,
-            "label": "lula / victory / brazil / comeback",
+            "label": "lula",
             "count": 1
           }
         ],
@@ -441,31 +387,7 @@
             "text": "Having secured an election victory, Brazil's Lula now faces two big challenges.⁠  https:// ft.trib.al/tdrWhKl",
             "url": "https://x.com/FT/status/2114802264736924129",
             "interaction": 30
-          }
-        ],
-        "net_sentiment_smoothed": 43.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T19:34:40.732946+00:00",
-        "bucket_end": "2026-10-26T20:08:57.875803+00:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 22,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 22,
-        "top_topics": [
-          {
-            "topic_id": 8,
-            "label": "anthropic / puts",
-            "count": 1
-          }
-        ],
-        "top_posts": [
+          },
           {
             "handle": "FT",
             "platform": "X",
@@ -474,12 +396,12 @@
             "interaction": 22
           }
         ],
-        "net_sentiment_smoothed": 36.2,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T20:08:57.875803+00:00",
-        "bucket_end": "2026-10-26T20:43:15.018660+00:00",
+        "bucket_start": "2026-10-26T19:42:04.032452+00:00",
+        "bucket_end": "2026-10-26T20:16:21.175309+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -491,12 +413,29 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 36.2,
+        "net_sentiment_smoothed": 16.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T20:43:15.018660+00:00",
-        "bucket_end": "2026-10-26T21:17:32.161517+00:00",
+        "bucket_start": "2026-10-26T20:16:21.175309+00:00",
+        "bucket_end": "2026-10-26T20:50:38.318166+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 16.2,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-26T20:50:38.318166+00:00",
+        "bucket_end": "2026-10-26T21:24:55.461023+00:00",
         "positive": 5,
         "neutral": 3,
         "negative": 8,
@@ -508,8 +447,8 @@
         "engagement": 619,
         "top_topics": [
           {
-            "topic_id": 8,
-            "label": "anthropic / puts",
+            "topic_id": 1,
+            "label": "anthropic",
             "count": 1
           }
         ],
@@ -529,12 +468,12 @@
             "interaction": 102
           }
         ],
-        "net_sentiment_smoothed": 16.2,
+        "net_sentiment_smoothed": -3.8,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-10-26T21:17:32.161517+00:00",
-        "bucket_end": "2026-10-26T21:51:49.304374+00:00",
+        "bucket_start": "2026-10-26T21:24:55.461023+00:00",
+        "bucket_end": "2026-10-26T21:59:12.603880+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -550,8 +489,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T21:51:49.304374+00:00",
-        "bucket_end": "2026-10-26T22:26:06.447231+00:00",
+        "bucket_start": "2026-10-26T21:59:12.603880+00:00",
+        "bucket_end": "2026-10-26T22:33:29.746737+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -567,8 +506,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T22:26:06.447231+00:00",
-        "bucket_end": "2026-10-26T23:00:23.590088+00:00",
+        "bucket_start": "2026-10-26T22:33:29.746737+00:00",
+        "bucket_end": "2026-10-26T23:07:46.889594+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -580,12 +519,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 8.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T23:00:23.590088+00:00",
-        "bucket_end": "2026-10-26T23:34:40.732945+00:00",
+        "bucket_start": "2026-10-26T23:07:46.889594+00:00",
+        "bucket_end": "2026-10-26T23:42:04.032451+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -597,12 +536,50 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 8.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T23:34:40.732945+00:00",
-        "bucket_end": "2026-10-27T00:08:57.875802+00:00",
+        "bucket_start": "2026-10-26T23:42:04.032451+00:00",
+        "bucket_end": "2026-10-27T00:16:21.175308+00:00",
+        "positive": 6,
+        "neutral": 2,
+        "negative": 2,
+        "positive_engagement": 153,
+        "neutral_engagement": 68,
+        "negative_engagement": 33,
+        "net_sentiment": 40.0,
+        "post_count": 10,
+        "engagement": 254,
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "ipo / filing / anthropic",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "美國總統川普14日才宣布，台灣承諾採購價值700至800億美元的阿拉斯加液化天然氣（LNG）。然而，他25日受訪時，再提台灣「偷走」了美國的晶片產業...",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0zEeTMCb6NNPfYXkMRT9cQh82FsCudZNAxn4V5BB4iJPxToHSQCJT3SsJCcAw3RVul?__cft__[0]=AZgg4ycXd7NVfo49S5DhwCp78XVefUy-nGP1wg4twW6Tl40yy8eo_wQspsbUFkjC0PbHsL9hP8HpZIppYz2hbeq_QHhnzldDUAvaNo5ifHijl2YnOy5rnQiOZvIhBNhIHKWbWePs5qynCqX0BDIa0wpFkWwbm3UrzAZdp9W9vJWA2azGuOodBmo0e74",
+            "interaction": 63
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "知情人士透露，越南首座半導體廠恐難實現於明年展開試產的目標，且越南尚未與荷蘭艾司摩爾達成晶片製造設備採購協議...",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02RKKnsW22R1oSKtf9d2vYJEMiAAgtsMWnsyjP8RLcj6dYw2QRzgVUCjdTvbeCGeKKl?__cft__[0]=AZiEY94-D7xQd0y6D0Gcq7qZcCzC_SzQk4NgFTUWjaYrjOIrbVl4_hYpoHeJvIg1m6t2f-_b7V4GwGX83iHtAZaH5VDsj9maobvRK7SBAimnCV5tnz869buzXEmX1UHMIvqMcTdwAsq1sNti_lv3q16X8RqBOC851f68xMzSDTf_LoST6wM2fhRRCZM",
+            "interaction": 46
+          }
+        ],
+        "net_sentiment_smoothed": 10.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T00:16:21.175308+00:00",
+        "bucket_end": "2026-10-27T00:50:38.318165+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -614,143 +591,15 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 13.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 5,
-        "label": "customers / cadence / maestro / tw",
-        "cells": [
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 4,
-        "label": "lula / victory / brazil / comeback",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
         "topic_id": 2,
-        "label": "ipo / filing / anthropic",
+        "label": "trump / catholic",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -760,128 +609,8 @@
             "volume": 1
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "latency",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
+            "net_sentiment": -50.0,
             "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 7,
-        "label": "ds / cadence / flash",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -931,7 +660,193 @@
       },
       {
         "topic_id": 8,
-        "label": "anthropic / puts",
+        "label": "ipo / filing / anthropic",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "latency",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "ds / cadence",
+        "cells": [
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "anthropic",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -950,6 +865,52 @@
             "volume": 0
           },
           {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "lula",
+        "cells": [
+          {
             "net_sentiment": 0.0,
             "volume": 0
           },
@@ -968,6 +929,22 @@
           {
             "net_sentiment": 100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -995,7 +972,7 @@
     "coverage_focus_ranking": [
       {
         "handle": "SemiAnalysis_",
-        "top_topic_id": 3,
+        "top_topic_id": 6,
         "top_topic_label": "latency",
         "focus_share": 1.0,
         "post_count": 3,
@@ -1004,81 +981,73 @@
       {
         "handle": "QQ_Timmy",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，29 篇）",
+        "top_topic_label": "其他（未分群，28 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
       },
       {
-        "handle": "tphuang",
-        "top_topic_id": 7,
-        "top_topic_label": "ds / cadence / flash",
-        "focus_share": 1.0,
-        "post_count": 4,
-        "unclustered_posts": 2
-      },
-      {
-        "handle": "technewsinside",
-        "top_topic_id": 8,
-        "top_topic_label": "anthropic / puts",
-        "focus_share": 1.0,
-        "post_count": 14,
-        "unclustered_posts": 13
-      },
-      {
         "handle": "ctee.fans",
-        "top_topic_id": 2,
+        "top_topic_id": 8,
         "top_topic_label": "ipo / filing / anthropic",
         "focus_share": 1.0,
         "post_count": 10,
         "unclustered_posts": 9
       },
       {
-        "handle": "tengyanAI",
-        "top_topic_id": 5,
-        "top_topic_label": "customers / cadence / maestro / tw",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "statementdog",
-        "top_topic_id": 5,
-        "top_topic_label": "customers / cadence / maestro / tw",
+        "handle": "tphuang",
+        "top_topic_id": 7,
+        "top_topic_label": "ds / cadence",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 0
       },
       {
+        "handle": "statementdog",
+        "top_topic_id": 3,
+        "top_topic_label": "cadence / maestro / tw",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 5,
+        "top_topic_label": "輝達",
+        "focus_share": 0.667,
+        "post_count": 17,
+        "unclustered_posts": 14
+      },
+      {
         "handle": "FT",
-        "top_topic_id": 4,
-        "top_topic_label": "lula / victory / brazil / comeback",
-        "focus_share": 0.3,
-        "post_count": 13,
+        "top_topic_id": 2,
+        "top_topic_label": "trump / catholic",
+        "focus_share": 0.375,
+        "post_count": 11,
         "unclustered_posts": 3
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 4,
-        "label": "lula / victory / brazil / comeback",
-        "total_engagement": 1592,
+        "topic_id": 2,
+        "label": "trump / catholic",
+        "total_engagement": 465,
         "post_count": 3,
         "top_account": "FT",
-        "top_account_engagement": 1592,
+        "top_account_engagement": 465,
         "is_catchall": false
       },
       {
-        "topic_id": 6,
-        "label": "catholic / trump",
-        "total_engagement": 434,
+        "topic_id": 4,
+        "label": "lula",
+        "total_engagement": 173,
         "post_count": 2,
         "top_account": "FT",
-        "top_account_engagement": 434,
+        "top_account_engagement": 173,
         "is_catchall": false
       },
       {
-        "topic_id": 2,
+        "topic_id": 8,
         "label": "ipo / filing / anthropic",
         "total_engagement": 117,
         "post_count": 3,
@@ -1088,16 +1057,7 @@
       },
       {
         "topic_id": 1,
-        "label": "trump / puts",
-        "total_engagement": 60,
-        "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 60,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 8,
-        "label": "anthropic / puts",
+        "label": "anthropic",
         "total_engagement": 41,
         "post_count": 2,
         "top_account": "FT",
@@ -1105,7 +1065,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 3,
+        "topic_id": 6,
         "label": "latency",
         "total_engagement": 34,
         "post_count": 2,
@@ -1114,8 +1074,17 @@
         "is_catchall": false
       },
       {
+        "topic_id": 5,
+        "label": "輝達",
+        "total_engagement": 31,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 31,
+        "is_catchall": false
+      },
+      {
         "topic_id": 7,
-        "label": "ds / cadence / flash",
+        "label": "ds / cadence",
         "total_engagement": 30,
         "post_count": 2,
         "top_account": "tphuang",
@@ -1123,31 +1092,31 @@
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "customers / cadence / maestro / tw",
-        "total_engagement": 21,
-        "post_count": 3,
-        "top_account": "tengyanAI",
-        "top_account_engagement": 14,
+        "topic_id": 3,
+        "label": "cadence / maestro / tw",
+        "total_engagement": 7,
+        "post_count": 2,
+        "top_account": "statementdog",
+        "top_account_engagement": 7,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "其他（未分群，29 篇）",
-        "total_engagement": 1012,
-        "post_count": 29,
+        "label": "其他（未分群，28 篇）",
+        "total_engagement": 975,
+        "post_count": 28,
         "top_account": "technewsinside",
-        "top_account_engagement": 579,
+        "top_account_engagement": 626,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 10,
-          "likes": 254,
-          "engagement": 254,
-          "avg_engagement": 25.4
+          "post_count": 13,
+          "likes": 332,
+          "engagement": 332,
+          "avg_engagement": 25.5
         },
         "afternoon": {
           "post_count": 0,
@@ -1162,10 +1131,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 38,
-          "likes": 2305,
-          "engagement": 3087,
-          "avg_engagement": 81.2
+          "post_count": 33,
+          "likes": 1211,
+          "engagement": 1541,
+          "avg_engagement": 46.7
         }
       },
       "peak_slot": "late_night"
