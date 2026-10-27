@@ -1,44 +1,62 @@
 {
-  "generated_at": "2026-10-27T00:55:53.098827+00:00",
+  "generated_at": "2026-10-27T12:35:32+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-26T20:55:53.098827+00:00",
-    "end_utc": "2026-10-27T00:55:53.098827+00:00",
-    "start_tw": "Oct 27, 04:55",
-    "end_tw": "Oct 27, 08:55"
+    "start_utc": "2026-10-27T08:35:32+08:00",
+    "end_utc": "2026-10-27T12:35:32+08:00",
+    "start_tw": "Oct 27, 08:35",
+    "end_tw": "Oct 27, 12:35"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 49,
+      "total_posts": 35,
       "sentiment_counts": {
-        "neutral": 13,
-        "positive": 20,
-        "negative": 16
+        "positive": 16,
+        "negative": 10,
+        "neutral": 9
       },
       "sentiment_share": {
-        "neutral": 0.265,
-        "positive": 0.408,
-        "negative": 0.327
+        "positive": 0.457,
+        "negative": 0.286,
+        "neutral": 0.257
       },
       "top_terms": [
-        "更多",
         "查看",
         "看更",
+        "更多",
         "查看更",
         "看更多",
         "anthropic",
-        "晶片",
-        "上市",
-        "台股",
+        "equipment",
+        "demand",
+        "新一",
         "暴增"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 2,
+        "label": "demand",
+        "heat": 81.2,
+        "volume": 3,
+        "engagement": 317,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "equipment",
+        "heat": 66.8,
+        "volume": 3,
+        "engagement": 185,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
         "label": "暴增至",
-        "heat": 90.0,
+        "heat": 50.0,
         "volume": 2,
         "engagement": 764,
         "entities": [
@@ -48,7 +66,25 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
+        "topic_id": 5,
+        "label": "global",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 55,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "trump",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 339,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
         "label": "輝達",
         "heat": 10.0,
         "volume": 2,
@@ -59,48 +95,32 @@
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "其他（未分群，45 篇）",
+        "topic_id": 0,
+        "label": "其他（未分群，21 篇）",
         "heat": 10.0,
-        "volume": 45,
-        "engagement": 6704,
+        "volume": 21,
+        "engagement": 5851,
         "entities": [
+          "中國",
+          "以色列",
           "美國",
-          "台灣",
           "上市",
-          "越南",
-          "中國"
+          "川普"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
       {
-        "entity": "美國",
-        "count": 6
-      },
-      {
-        "entity": "台灣",
-        "count": 5
-      },
-      {
-        "entity": "上市",
-        "count": 5
-      },
-      {
         "entity": "中國",
         "count": 5
       },
       {
-        "entity": "越南",
-        "count": 4
-      },
-      {
-        "entity": "日本",
+        "entity": "以色列",
         "count": 3
       },
       {
-        "entity": "以色列",
+        "entity": "美國",
         "count": 3
       },
       {
@@ -108,15 +128,7 @@
         "count": 2
       },
       {
-        "entity": "烏克蘭",
-        "count": 2
-      },
-      {
-        "entity": "荷蘭",
-        "count": 2
-      },
-      {
-        "entity": "寶劍",
+        "entity": "上市",
         "count": 2
       },
       {
@@ -128,317 +140,436 @@
         "count": 2
       },
       {
+        "entity": "越南",
+        "count": 2
+      },
+      {
         "entity": "印度",
         "count": 2
       },
       {
-        "entity": "上班族",
+        "entity": "曝光",
+        "count": 1
+      },
+      {
+        "entity": "台積電",
+        "count": 1
+      },
+      {
+        "entity": "新一波",
+        "count": 1
+      },
+      {
+        "entity": "能承諾",
+        "count": 1
+      },
+      {
+        "entity": "高盛",
+        "count": 1
+      },
+      {
+        "entity": "荷蘭",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-26T20:55:53.098821+00:00",
-        "bucket_end": "2026-10-26T21:13:01.670250+00:00",
-        "positive": 5,
-        "neutral": 2,
-        "negative": 8,
-        "positive_engagement": 284,
-        "neutral_engagement": 128,
-        "negative_engagement": 197,
-        "net_sentiment": -20.0,
-        "post_count": 15,
-        "engagement": 609,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "technewsinside",
-            "platform": "Facebook",
-            "text": "全球平均成長僅 3.1%，台灣竟被 IMF 大幅上修至 10.7%，成為全球唯一衝上雙位數的經濟體！",
-            "url": "https://www.facebook.com/technewsinside/posts/pfbid09e9kVWkRAqnihL93gguX41ex2nbkEfasyhxbYGa37jyYCxjy5qP6mzCqaP6moqQNl?__cft__[0]=AZhUabMxgrz52Sef0Z6QcUmu7GLA4Zct7BpkwPaavkS_-9ZxGg5Iafbr4UjrkGm-5FVfFNXsiHNWwXgepteLWyPHI5x0eV_WdgaR8EICxDsWijm5JvCAoKZjwDrLG_igwGXgGgUBxlsEFvt1Ma27Pl6j_WNSY3pgSTQ8ptXXcVtSlcoWlAmJMUUKeMw",
-            "interaction": 229
-          },
-          {
-            "handle": "technewsinside",
-            "platform": "Facebook",
-            "text": "算力沒用也要付錢！\n#Anthropic正式提交IPO申請\n…… \n查看更多",
-            "url": "https://www.facebook.com/technewsinside/posts/pfbid0iwCqF5yNbhGGvKgsU5VbKrRSezwzZebHDyWm3hUSFZaeLpsNDkBzGM5x5JKM7ZQyl?comment_id=1651991372991651",
-            "interaction": 102
-          }
-        ],
-        "net_sentiment_smoothed": -6.7,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-10-26T21:13:01.670250+00:00",
-        "bucket_end": "2026-10-26T21:30:10.241679+00:00",
-        "positive": 0,
+        "bucket_start": "2026-10-27T08:35:31.999994+08:00",
+        "bucket_end": "2026-10-27T08:52:40.571423+08:00",
+        "positive": 2,
         "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 10,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 10,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Microsoft offers buyouts to 60,000 staff",
-            "url": "https://x.com/FT/status/2114828110528917881",
-            "interaction": 10
-          }
-        ],
-        "net_sentiment_smoothed": -5.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T21:30:10.241679+00:00",
-        "bucket_end": "2026-10-26T21:47:18.813108+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -4.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T21:47:18.813108+00:00",
-        "bucket_end": "2026-10-26T22:04:27.384537+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T22:04:27.384537+00:00",
-        "bucket_end": "2026-10-26T22:21:35.955966+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T22:21:35.955966+00:00",
-        "bucket_end": "2026-10-26T22:38:44.527395+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T22:38:44.527395+00:00",
-        "bucket_end": "2026-10-26T22:55:53.098824+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T22:55:53.098824+00:00",
-        "bucket_end": "2026-10-26T23:13:01.670253+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T23:13:01.670253+00:00",
-        "bucket_end": "2026-10-26T23:30:10.241682+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T23:30:10.241682+00:00",
-        "bucket_end": "2026-10-26T23:47:18.813111+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 8.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-26T23:47:18.813111+00:00",
-        "bucket_end": "2026-10-27T00:04:27.384540+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 8.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-27T00:04:27.384540+00:00",
-        "bucket_end": "2026-10-27T00:21:35.955969+00:00",
-        "positive": 6,
-        "neutral": 2,
-        "negative": 2,
-        "positive_engagement": 153,
-        "neutral_engagement": 68,
-        "negative_engagement": 33,
-        "net_sentiment": 40.0,
-        "post_count": 10,
-        "engagement": 254,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "ctee.fans",
-            "platform": "Facebook",
-            "text": "美國總統川普14日才宣布，台灣承諾採購價值700至800億美元的阿拉斯加液化天然氣（LNG）。然而，他25日受訪時，再提台灣「偷走」了美國的晶片產業...",
-            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0zEeTMCb6NNPfYXkMRT9cQh82FsCudZNAxn4V5BB4iJPxToHSQCJT3SsJCcAw3RVul?__cft__[0]=AZgg4ycXd7NVfo49S5DhwCp78XVefUy-nGP1wg4twW6Tl40yy8eo_wQspsbUFkjC0PbHsL9hP8HpZIppYz2hbeq_QHhnzldDUAvaNo5ifHijl2YnOy5rnQiOZvIhBNhIHKWbWePs5qynCqX0BDIa0wpFkWwbm3UrzAZdp9W9vJWA2azGuOodBmo0e74",
-            "interaction": 63
-          },
-          {
-            "handle": "ctee.fans",
-            "platform": "Facebook",
-            "text": "知情人士透露，越南首座半導體廠恐難實現於明年展開試產的目標，且越南尚未與荷蘭艾司摩爾達成晶片製造設備採購協議...",
-            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02RKKnsW22R1oSKtf9d2vYJEMiAAgtsMWnsyjP8RLcj6dYw2QRzgVUCjdTvbeCGeKKl?__cft__[0]=AZiEY94-D7xQd0y6D0Gcq7qZcCzC_SzQk4NgFTUWjaYrjOIrbVl4_hYpoHeJvIg1m6t2f-_b7V4GwGX83iHtAZaH5VDsj9maobvRK7SBAimnCV5tnz869buzXEmX1UHMIvqMcTdwAsq1sNti_lv3q16X8RqBOC851f68xMzSDTf_LoST6wM2fhRRCZM",
-            "interaction": 46
-          }
-        ],
-        "net_sentiment_smoothed": 10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-27T00:21:35.955969+00:00",
-        "bucket_end": "2026-10-27T00:38:44.527398+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 12.5,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-27T00:38:44.527398+00:00",
-        "bucket_end": "2026-10-27T00:55:53.098827+00:00",
-        "positive": 3,
-        "neutral": 5,
-        "negative": 2,
-        "positive_engagement": 64,
-        "neutral_engagement": 86,
-        "negative_engagement": 57,
-        "net_sentiment": 10.0,
-        "post_count": 10,
-        "engagement": 207,
+        "negative": 1,
+        "positive_engagement": 74,
+        "neutral_engagement": 8,
+        "negative_engagement": 47,
+        "net_sentiment": 25.0,
+        "post_count": 4,
+        "engagement": 129,
         "top_topics": [
           {
-            "topic_id": 0,
+            "topic_id": 4,
             "label": "輝達",
             "count": 2
+          },
+          {
+            "topic_id": 2,
+            "label": "demand",
+            "count": 1
           }
         ],
         "top_posts": [
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Taiwan’s semiconductor industry will account for 30% of the nation’s total electricity consumption by 2035, and state-run TaiPower plans to invest NT$30 billion (US$920M) over 15-years to strengthen d",
+            "url": "https://x.com/dnystedt/status/2114878729809973736",
+            "interaction": 51
+          },
           {
             "handle": "technewsinside",
             "platform": "Facebook",
             "text": "上半年算力花掉超過一半營收！\n#Anthropic招股書攤開長期成本帳\n…… \n查看更多",
             "url": "https://www.facebook.com/technewsinside/posts/pfbid02QnraWC61Emk1MKgJd2eu7HGtYHXLzuXEaqQBPGB1cLTWfirGeM8EneHmYdD4ttJnl?__cft__[0]=AZgxmN0_u0BOHs691evll_OgY56hFnVj_c5onwZoUqM6sjLgfm2IFHkNX1p0d3Oj9oJs8pgcNQ-qypIq9lrGMpIoHw_oOXhJVzT6-3zEfnnOl-UFHH80xZuFnQnkkN5FJiXjA9Dq4vGIiT5Bt08oClTxKkLW5NJWQfbW-GtGPxgHcO7Op75tyF9u0tw",
             "interaction": 47
-          },
-          {
-            "handle": "ctee.fans",
-            "platform": "Facebook",
-            "text": "AI晶片搶產能，先進封裝醞釀漲價。供應鏈透露，台積電CoWoS報價醞釀新一波調漲，漲幅上看2成，部分封裝交期已拉長，產能吃緊壓力持續升高。搶產能效應同步延燒設備端，業者直言，客戶已無暇砍價，只要能承諾交期便下單，設備交期最長拉至八個月，供應鏈全面拚交貨、拚擴產。",
-            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02qx1eA36oBkR6qMN8k3S2LmtPvEndHU8FnuqX63SH4Wj5LBymEj5rZbeJF7RgZFGZl?__cft__[0]=AZhTqn--9d_ysDQFTdJcENgd4vZLxFEFkA6i864zmwrOInxHUWKwo8WufBOdbGntIJFCJudfK41khmQVR3zbnUE7H_QVVFYJmZU16Ts_vbSc7PSyUZghfXG9ecjBn8SqLF0XN_oD9_qP64mAaYY7c93DygKaQQyo9r5Mmt8fXHVM0lWJBAluqUuNQGE",
-            "interaction": 46
           }
         ],
-        "net_sentiment_smoothed": 16.7,
+        "net_sentiment_smoothed": -21.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T08:52:40.571423+08:00",
+        "bucket_end": "2026-10-27T09:09:49.142852+08:00",
+        "positive": 8,
+        "neutral": 7,
+        "negative": 6,
+        "positive_engagement": 3661,
+        "neutral_engagement": 673,
+        "negative_engagement": 2232,
+        "net_sentiment": 9.5,
+        "post_count": 21,
+        "engagement": 6566,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "暴增至",
+            "count": 2
+          },
+          {
+            "topic_id": 6,
+            "label": "trump",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "yutinghaosfinance",
+            "platform": "Facebook",
+            "text": "全球變得越來越獨裁，民主越來越倒退。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid025Y5BwiAfjSrMqsHV9i1vAW6Xhk5oDVVG1rZJPD9PQpXfFwZJFQMKZ3UHN8JunwQVl?__cft__[0]=AZhMYzQsA_RYBz3kTN1rgFKUL6kPBsUXDkVR3zhvJKdOKCLKclmS2GzEpwMQVn_7quW-JG-lYeUgAmOhOfoittvmG9dhA1nz99TKfALXN13UU_zw1Zmy2-Ob2V2aMDSELvicZVGBQ4fCfe847sM87jgwHZpVvpFRX6QTzbz6EypH4HiHU1wX-ifb6aI",
+            "interaction": 940
+          },
+          {
+            "handle": "yutinghaosfinance",
+            "platform": "Facebook",
+            "text": "川普公開介選。明天就是以色列國會大選，選前一天，川普開始公開替納坦雅胡拉票，直接向以色列選民喊話，呼籲支持納坦雅胡繼續執政，這是美以關係史上，首次有美國總統公開明確支持以色列大選候選人。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0791eBQM3CsS9FSQHqbLk7YDxgGBP9TumWEdWpgjeFv18FLfoZxTfkykCSZZhWX6Ml?__cft__[0]=AZj-GJmuUWI5JKQodhG95QHpDNCPyASjV9Dh8WxrtQ8iCitr62fqBciXN2J8TnG_Bw3hXBt6nr-GGoK7_OwIkXcszOhR0huTZMgYzUcc_PfcR9eJjyYt67yRXsGh4YuxzVS3HA6TiwSRD8aaMVFmquOG6O8JIxlCX8wJ6k7FzrUCr5yQKVW43GyyddY",
+            "interaction": 904
+          }
+        ],
+        "net_sentiment_smoothed": 8.6,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-10-27T09:09:49.142852+08:00",
+        "bucket_end": "2026-10-27T09:26:57.714281+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 3,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 378,
+        "net_sentiment": -100.0,
+        "post_count": 3,
+        "engagement": 378,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "demand",
+            "count": 1
+          },
+          {
+            "topic_id": 6,
+            "label": "trump",
+            "count": 1
+          },
+          {
+            "topic_id": 5,
+            "label": "global",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Bolsonaro’s Liberal Party accepts defeat in Brazil as Trump calls result ‘rigged’",
+            "url": "https://x.com/FT/status/2114887552935076111",
+            "interaction": 321
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Nvidia has been working with key supplier Foxconn—the world’s biggest AI server and iPhone assembler—to turn its 200+ global manufacturing plants into self-learning smart factories using AI, media rep",
+            "url": "https://x.com/dnystedt/status/2114889332473708834",
+            "interaction": 44
+          }
+        ],
+        "net_sentiment_smoothed": 26.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T09:26:57.714281+08:00",
+        "bucket_end": "2026-10-27T09:44:06.285710+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 15,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 15,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Good morning, Asia. While you were sleeping, this was one of our most-read stories:  https:// ft.trib.al/JFxgG6T",
+            "url": "https://x.com/FT/status/2114892363835310316",
+            "interaction": 15
+          }
+        ],
+        "net_sentiment_smoothed": 21.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T09:44:06.285710+08:00",
+        "bucket_end": "2026-10-27T10:01:14.857139+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 253,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 253,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "demand",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "• SpaceX set to be largest VR200 buyer in 2027E (20k racks on 30k+ demand / ~10GW)  Wow",
+            "url": "https://x.com/jukan05/status/2114897732196573599",
+            "interaction": 253
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T10:01:14.857139+08:00",
+        "bucket_end": "2026-10-27T10:18:23.428568+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T10:18:23.428568+08:00",
+        "bucket_end": "2026-10-27T10:35:31.999997+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T10:35:31.999997+08:00",
+        "bucket_end": "2026-10-27T10:52:40.571426+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T10:52:40.571426+08:00",
+        "bucket_end": "2026-10-27T11:09:49.142855+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 182,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 182,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "equipment",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "What should we be watching in the current supercycle?  Japan’s conservative approach to capacity expansion, and the opportunity it creates for Chinese materials, components, and equipment suppliers to",
+            "url": "https://x.com/jukan05/status/2114914662336868680",
+            "interaction": 182
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T11:09:49.142855+08:00",
+        "bucket_end": "2026-10-27T11:26:57.714284+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T11:26:57.714284+08:00",
+        "bucket_end": "2026-10-27T11:44:06.285713+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T11:44:06.285713+08:00",
+        "bucket_end": "2026-10-27T12:01:14.857142+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 3,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 3,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "equipment",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Broadcom is helping finance AI hardware for Anthropic through a $63 billion deal announced with four financial partners on Oct. 26. Deliveries are expected to start in 2027.  A new special-purpose veh",
+            "url": "https://x.com/statementdog/status/2114930395670347834",
+            "interaction": 2
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Terafab has already ordered and paid for equipment, according to the supply-chain checks Sky discussed in EP571.  Those payments gave him more confidence that substantial work was under way. He was mu",
+            "url": "https://x.com/statementdog/status/2114930084457140354",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T12:01:14.857142+08:00",
+        "bucket_end": "2026-10-27T12:18:23.428571+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 11,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 11,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "global",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Global markets rise as AI trade regains steam",
+            "url": "https://x.com/FT/status/2114931673347346805",
+            "interaction": 11
+          }
+        ],
+        "net_sentiment_smoothed": 25.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T12:18:23.428571+08:00",
+        "bucket_end": "2026-10-27T12:35:32+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "輝達",
+        "topic_id": 3,
+        "label": "equipment",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -473,8 +604,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -485,21 +616,269 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
+            "net_sentiment": 100.0,
             "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
         "topic_id": 2,
+        "label": "demand",
+        "cells": [
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "global",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "trump",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "輝達",
+        "cells": [
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
         "label": "暴增至",
         "cells": [
           {
@@ -507,8 +886,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 50.0,
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -563,41 +942,73 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "FT",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，45 篇）",
+        "handle": "statementdog",
+        "top_topic_id": 3,
+        "top_topic_label": "equipment",
         "focus_share": 1.0,
         "post_count": 2,
-        "unclustered_posts": 2
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 2,
+        "top_topic_label": "demand",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
       },
       {
         "handle": "technewsinside",
-        "top_topic_id": 0,
+        "top_topic_id": 4,
         "top_topic_label": "輝達",
         "focus_share": 1.0,
-        "post_count": 17,
-        "unclustered_posts": 15
+        "post_count": 3,
+        "unclustered_posts": 1
       },
       {
         "handle": "ctee.fans",
-        "top_topic_id": 1,
-        "top_topic_label": "其他（未分群，45 篇）",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，21 篇）",
         "focus_share": 1.0,
-        "post_count": 17,
-        "unclustered_posts": 17
+        "post_count": 7,
+        "unclustered_posts": 7
       },
       {
         "handle": "yutinghaosfinance",
-        "top_topic_id": 2,
+        "top_topic_id": 1,
         "top_topic_label": "暴增至",
         "focus_share": 1.0,
         "post_count": 13,
         "unclustered_posts": 11
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 6,
+        "top_topic_label": "trump",
+        "focus_share": 0.667,
+        "post_count": 5,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 3,
+        "top_topic_label": "equipment",
+        "focus_share": 0.5,
+        "post_count": 2,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 2,
+        "top_topic_label": "demand",
+        "focus_share": 0.5,
+        "post_count": 2,
+        "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
+        "topic_id": 1,
         "label": "暴增至",
         "total_engagement": 764,
         "post_count": 2,
@@ -606,7 +1017,43 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
+        "topic_id": 6,
+        "label": "trump",
+        "total_engagement": 339,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 339,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "demand",
+        "total_engagement": 317,
+        "post_count": 3,
+        "top_account": "jukan05",
+        "top_account_engagement": 253,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "equipment",
+        "total_engagement": 185,
+        "post_count": 3,
+        "top_account": "jukan05",
+        "top_account_engagement": 182,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "global",
+        "total_engagement": 55,
+        "post_count": 2,
+        "top_account": "dnystedt",
+        "top_account_engagement": 44,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
         "label": "輝達",
         "total_engagement": 31,
         "post_count": 2,
@@ -615,10 +1062,10 @@
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "其他（未分群，45 篇）",
-        "total_engagement": 6704,
-        "post_count": 45,
+        "topic_id": 0,
+        "label": "其他（未分群，21 篇）",
+        "total_engagement": 5851,
+        "post_count": 21,
         "top_account": "yutinghaosfinance",
         "top_account_engagement": 5655,
         "is_catchall": true
@@ -627,16 +1074,16 @@
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 33,
-          "likes": 6880,
-          "engagement": 6880,
-          "avg_engagement": 208.5
+          "post_count": 31,
+          "likes": 7302,
+          "engagement": 7523,
+          "avg_engagement": 242.7
         },
         "afternoon": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 4,
+          "likes": 8,
+          "engagement": 19,
+          "avg_engagement": 4.8
         },
         "evening": {
           "post_count": 0,
@@ -645,10 +1092,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 16,
-          "likes": 610,
-          "engagement": 619,
-          "avg_engagement": 38.7
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         }
       },
       "peak_slot": "morning"
