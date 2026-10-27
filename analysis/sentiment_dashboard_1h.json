@@ -1,57 +1,54 @@
 {
-  "generated_at": "2026-10-27T00:50:38.318165+00:00",
+  "generated_at": "2026-10-27T00:55:53.098827+00:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-10-26T23:50:38.318165+00:00",
-    "end_utc": "2026-10-27T00:50:38.318165+00:00",
-    "start_tw": "Oct 27, 07:50",
-    "end_tw": "Oct 27, 08:50"
+    "start_utc": "2026-10-26T23:55:53.098827+00:00",
+    "end_utc": "2026-10-27T00:55:53.098827+00:00",
+    "start_tw": "Oct 27, 07:55",
+    "end_tw": "Oct 27, 08:55"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 13,
+      "total_posts": 33,
       "sentiment_counts": {
-        "neutral": 3,
-        "negative": 3,
-        "positive": 7
+        "neutral": 10,
+        "negative": 8,
+        "positive": 15
       },
       "sentiment_share": {
-        "neutral": 0.231,
-        "negative": 0.231,
-        "positive": 0.538
+        "neutral": 0.303,
+        "negative": 0.242,
+        "positive": 0.455
       },
       "top_terms": [
-        "晶片",
-        "上市",
-        "傳出",
-        "輝達",
-        "光學",
-        "anthropic",
         "查看",
         "看更",
         "更多",
-        "查看更"
+        "查看更",
+        "看更多",
+        "上市",
+        "晶片",
+        "anthropic",
+        "新一",
+        "傳出"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "上市 / 台灣 / 日本",
+        "topic_id": 1,
+        "label": "暴增至",
         "heat": 90.0,
-        "volume": 11,
-        "engagement": 301,
+        "volume": 2,
+        "engagement": 764,
         "entities": [
-          "上市",
-          "台灣",
-          "日本",
-          "烏克蘭",
-          "美國"
+          "中國",
+          "太陽"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
+        "topic_id": 2,
         "label": "輝達",
         "heat": 10.0,
         "volume": 2,
@@ -60,15 +57,50 @@
           "輝達"
         ],
         "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，29 篇）",
+        "heat": 10.0,
+        "volume": 29,
+        "engagement": 6085,
+        "entities": [
+          "上市",
+          "美國",
+          "台灣",
+          "越南",
+          "中國"
+        ],
+        "is_catchall": true
       }
     ],
     "named_entities": [
       {
         "entity": "上市",
-        "count": 3
+        "count": 5
+      },
+      {
+        "entity": "美國",
+        "count": 5
+      },
+      {
+        "entity": "中國",
+        "count": 5
       },
       {
         "entity": "台灣",
+        "count": 4
+      },
+      {
+        "entity": "越南",
+        "count": 4
+      },
+      {
+        "entity": "日本",
+        "count": 3
+      },
+      {
+        "entity": "以色列",
         "count": 3
       },
       {
@@ -76,19 +108,11 @@
         "count": 2
       },
       {
-        "entity": "日本",
-        "count": 2
-      },
-      {
         "entity": "烏克蘭",
         "count": 2
       },
       {
-        "entity": "美國",
-        "count": 2
-      },
-      {
-        "entity": "越南",
+        "entity": "荷蘭",
         "count": 2
       },
       {
@@ -96,38 +120,26 @@
         "count": 2
       },
       {
+        "entity": "川普",
+        "count": 2
+      },
+      {
+        "entity": "納坦雅",
+        "count": 2
+      },
+      {
+        "entity": "印度",
+        "count": 2
+      },
+      {
         "entity": "美國證交會",
-        "count": 1
-      },
-      {
-        "entity": "那斯達克",
-        "count": 1
-      },
-      {
-        "entity": "高達",
-        "count": 1
-      },
-      {
-        "entity": "黃牛",
-        "count": 1
-      },
-      {
-        "entity": "西北",
-        "count": 1
-      },
-      {
-        "entity": "西大",
-        "count": 1
-      },
-      {
-        "entity": "北台",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-26T23:50:38.318167+00:00",
-        "bucket_end": "2026-10-26T23:54:55.461024+00:00",
+        "bucket_start": "2026-10-26T23:55:53.098829+00:00",
+        "bucket_end": "2026-10-27T00:00:10.241686+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -143,8 +155,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T23:54:55.461024+00:00",
-        "bucket_end": "2026-10-26T23:59:12.603881+00:00",
+        "bucket_start": "2026-10-27T00:00:10.241686+00:00",
+        "bucket_end": "2026-10-27T00:04:27.384543+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -156,29 +168,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 10.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-26T23:59:12.603881+00:00",
-        "bucket_end": "2026-10-27T00:03:29.746738+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 8.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-27T00:03:29.746738+00:00",
-        "bucket_end": "2026-10-27T00:07:46.889595+00:00",
+        "bucket_start": "2026-10-27T00:04:27.384543+00:00",
+        "bucket_end": "2026-10-27T00:08:44.527400+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -194,8 +189,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-27T00:07:46.889595+00:00",
-        "bucket_end": "2026-10-27T00:12:04.032452+00:00",
+        "bucket_start": "2026-10-27T00:08:44.527400+00:00",
+        "bucket_end": "2026-10-27T00:13:01.670257+00:00",
         "positive": 6,
         "neutral": 2,
         "negative": 2,
@@ -205,13 +200,7 @@
         "net_sentiment": 40.0,
         "post_count": 10,
         "engagement": 254,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "上市 / 台灣 / 日本",
-            "count": 10
-          }
-        ],
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "ctee.fans",
@@ -232,8 +221,8 @@
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-10-27T00:12:04.032452+00:00",
-        "bucket_end": "2026-10-27T00:16:21.175309+00:00",
+        "bucket_start": "2026-10-27T00:13:01.670257+00:00",
+        "bucket_end": "2026-10-27T00:17:18.813114+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -249,8 +238,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-27T00:16:21.175309+00:00",
-        "bucket_end": "2026-10-27T00:20:38.318166+00:00",
+        "bucket_start": "2026-10-27T00:17:18.813114+00:00",
+        "bucket_end": "2026-10-27T00:21:35.955971+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -266,8 +255,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-27T00:20:38.318166+00:00",
-        "bucket_end": "2026-10-27T00:24:55.461023+00:00",
+        "bucket_start": "2026-10-27T00:21:35.955971+00:00",
+        "bucket_end": "2026-10-27T00:25:53.098828+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -283,8 +272,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-27T00:24:55.461023+00:00",
-        "bucket_end": "2026-10-27T00:29:12.603880+00:00",
+        "bucket_start": "2026-10-27T00:25:53.098828+00:00",
+        "bucket_end": "2026-10-27T00:30:10.241685+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -300,8 +289,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-27T00:29:12.603880+00:00",
-        "bucket_end": "2026-10-27T00:33:29.746737+00:00",
+        "bucket_start": "2026-10-27T00:30:10.241685+00:00",
+        "bucket_end": "2026-10-27T00:34:27.384542+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -317,8 +306,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-27T00:33:29.746737+00:00",
-        "bucket_end": "2026-10-27T00:37:46.889594+00:00",
+        "bucket_start": "2026-10-27T00:34:27.384542+00:00",
+        "bucket_end": "2026-10-27T00:38:44.527399+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -334,8 +323,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-27T00:37:46.889594+00:00",
-        "bucket_end": "2026-10-27T00:42:04.032451+00:00",
+        "bucket_start": "2026-10-27T00:38:44.527399+00:00",
+        "bucket_end": "2026-10-27T00:43:01.670256+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -351,8 +340,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-27T00:42:04.032451+00:00",
-        "bucket_end": "2026-10-27T00:46:21.175308+00:00",
+        "bucket_start": "2026-10-27T00:43:01.670256+00:00",
+        "bucket_end": "2026-10-27T00:47:18.813113+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -364,31 +353,84 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 2.9,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-27T00:46:21.175308+00:00",
-        "bucket_end": "2026-10-27T00:50:38.318165+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
+        "bucket_start": "2026-10-27T00:47:18.813113+00:00",
+        "bucket_end": "2026-10-27T00:51:35.955970+00:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 23,
+        "neutral_engagement": 8,
+        "negative_engagement": 47,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "post_count": 3,
+        "engagement": 78,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "輝達",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "上半年算力花掉超過一半營收！\n#Anthropic招股書攤開長期成本帳\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02QnraWC61Emk1MKgJd2eu7HGtYHXLzuXEaqQBPGB1cLTWfirGeM8EneHmYdD4ttJnl?__cft__[0]=AZgxmN0_u0BOHs691evll_OgY56hFnVj_c5onwZoUqM6sjLgfm2IFHkNX1p0d3Oj9oJs8pgcNQ-qypIq9lrGMpIoHw_oOXhJVzT6-3zEfnnOl-UFHH80xZuFnQnkkN5FJiXjA9Dq4vGIiT5Bt08oClTxKkLW5NJWQfbW-GtGPxgHcO7Op75tyF9u0tw",
+            "interaction": 47
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "#輝達\n 全新 \n#Rubin\n Ultra 平台透過光學互連技術，將 576 顆 GPU 串接為單一運算實體，效能較前代激增 14 倍！",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02ybWkHqSTTLS8W1PjPT3mE5FZAJvxGgZwEdpTzfjkC31FTeEqsr8xgbTS2VmCdLyRl?__cft__[0]=AZgW12VsMZcgkwSXFtwPLGTDqp77xI51zXB039mmdeanphFIThaJVloqOXSH3I0dnhSoSE2QJ7jRZjgejw0LfFOTwJh6nxI2FBBMi6BE3XfPkplx6zeqN7jHrBSmaYehME6xCJRIkpfFklLuZ6tGlnP_LlQtwEw604l80ZpbC9I-gNcffVxUbs3ZvfE",
+            "interaction": 23
+          }
+        ],
+        "net_sentiment_smoothed": 3.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-27T00:51:35.955970+00:00",
+        "bucket_end": "2026-10-27T00:55:53.098827+00:00",
+        "positive": 2,
+        "neutral": 4,
+        "negative": 1,
+        "positive_engagement": 41,
+        "neutral_engagement": 78,
+        "negative_engagement": 10,
+        "net_sentiment": 14.3,
+        "post_count": 7,
+        "engagement": 129,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "AI晶片搶產能，先進封裝醞釀漲價。供應鏈透露，台積電CoWoS報價醞釀新一波調漲，漲幅上看2成，部分封裝交期已拉長，產能吃緊壓力持續升高。搶產能效應同步延燒設備端，業者直言，客戶已無暇砍價，只要能承諾交期便下單，設備交期最長拉至八個月，供應鏈全面拚交貨、拚擴產。",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02qx1eA36oBkR6qMN8k3S2LmtPvEndHU8FnuqX63SH4Wj5LBymEj5rZbeJF7RgZFGZl?__cft__[0]=AZhTqn--9d_ysDQFTdJcENgd4vZLxFEFkA6i864zmwrOInxHUWKwo8WufBOdbGntIJFCJudfK41khmQVR3zbnUE7H_QVVFYJmZU16Ts_vbSc7PSyUZghfXG9ecjBn8SqLF0XN_oD9_qP64mAaYY7c93DygKaQQyo9r5Mmt8fXHVM0lWJBAluqUuNQGE",
+            "interaction": 46
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "台股光輝10月變調，才差點站上5萬點大關，隨後受制國際變數，外資法人本月以來賣超台股逾8,200億元，導致加權指數迅速下挫，不過，高盛證券、凱基投顧等大型研究機構不改長線正面觀點，直指55,000～57,500點才是台股多頭本波段歸宿。",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0G481m31u2xkNugrCscHrkQutnMFLoo64fcGUsQHmBLep7cwPP7Jitf14bWtwNfG5l?__cft__[0]=AZglWEuXIwBX01Y5yGyg7l8SB1YpVUY4lUFN9VkBrhwWoQNqNQXkDJzdrjrAZ-dFScIUHF4mMbQiDNbvr5WCdIFR6b4FLeHTFF85dMzhRj4x0x_vpezW-CQ9pzwD-8BT03ytjMcab8bidz37apiRk9xanv86-keuLfNX_-D9dNWF7vVbuJZGwrxnvIM",
+            "interaction": 32
+          }
+        ],
+        "net_sentiment_smoothed": 4.8,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "上市 / 台灣 / 日本",
+        "topic_id": 2,
+        "label": "輝達",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -407,10 +449,6 @@
             "volume": 0
           },
           {
-            "net_sentiment": 40.0,
-            "volume": 10
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           },
@@ -441,6 +479,10 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -450,7 +492,7 @@
       },
       {
         "topic_id": 1,
-        "label": "輝達",
+        "label": "暴增至",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -513,49 +555,66 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "ctee.fans",
-        "top_topic_id": 0,
-        "top_topic_label": "上市 / 台灣 / 日本",
+        "handle": "technewsinside",
+        "top_topic_id": 2,
+        "top_topic_label": "輝達",
         "focus_share": 1.0,
-        "post_count": 10,
-        "unclustered_posts": 0
+        "post_count": 3,
+        "unclustered_posts": 1
       },
       {
-        "handle": "technewsinside",
+        "handle": "ctee.fans",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，29 篇）",
+        "focus_share": 1.0,
+        "post_count": 17,
+        "unclustered_posts": 17
+      },
+      {
+        "handle": "yutinghaosfinance",
         "top_topic_id": 1,
-        "top_topic_label": "輝達",
-        "focus_share": 0.667,
-        "post_count": 3,
-        "unclustered_posts": 0
+        "top_topic_label": "暴增至",
+        "focus_share": 1.0,
+        "post_count": 13,
+        "unclustered_posts": 11
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "上市 / 台灣 / 日本",
-        "total_engagement": 301,
-        "post_count": 11,
-        "top_account": "ctee.fans",
-        "top_account_engagement": 254,
+        "topic_id": 1,
+        "label": "暴增至",
+        "total_engagement": 764,
+        "post_count": 2,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 764,
         "is_catchall": false
       },
       {
-        "topic_id": 1,
+        "topic_id": 2,
         "label": "輝達",
         "total_engagement": 31,
         "post_count": 2,
         "top_account": "technewsinside",
         "top_account_engagement": 31,
         "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，29 篇）",
+        "total_engagement": 6085,
+        "post_count": 29,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 5655,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 13,
-          "likes": 332,
-          "engagement": 332,
-          "avg_engagement": 25.5
+          "post_count": 33,
+          "likes": 6880,
+          "engagement": 6880,
+          "avg_engagement": 208.5
         },
         "afternoon": {
           "post_count": 0,
