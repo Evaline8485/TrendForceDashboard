@@ -1,6 +1,29 @@
 {
   "clusters": [
     {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 15,
+      "accounts": {
+        "TrendForce": 1,
+        "jukan05": 1,
+        "QQ_Timmy": 3,
+        "statementdog": 2,
+        "dnystedt": 2,
+        "HyperTechInvest": 2,
+        "technewsinside": 4
+      },
+      "engagement_by_account": {
+        "TrendForce": 66,
+        "jukan05": 267,
+        "QQ_Timmy": 68,
+        "statementdog": 15,
+        "dnystedt": 247,
+        "HyperTechInvest": 554,
+        "technewsinside": 129
+      }
+    },
+    {
       "id": "D",
       "label": "CSP / 資料中心",
       "size": 15,
@@ -24,43 +47,20 @@
       }
     },
     {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 14,
-      "accounts": {
-        "TrendForce": 1,
-        "jukan05": 1,
-        "QQ_Timmy": 3,
-        "statementdog": 2,
-        "dnystedt": 2,
-        "HyperTechInvest": 2,
-        "technewsinside": 3
-      },
-      "engagement_by_account": {
-        "TrendForce": 66,
-        "jukan05": 267,
-        "QQ_Timmy": 68,
-        "statementdog": 15,
-        "dnystedt": 247,
-        "HyperTechInvest": 554,
-        "technewsinside": 106
-      }
-    },
-    {
       "id": "K",
       "label": "AI 模型 / 應用",
-      "size": 13,
+      "size": 14,
       "accounts": {
         "FT": 6,
         "statementdog": 1,
-        "technewsinside": 3,
+        "technewsinside": 4,
         "ctee.fans": 1,
         "yutinghaosfinance": 2
       },
       "engagement_by_account": {
         "FT": 395,
         "statementdog": 3,
-        "technewsinside": 220,
+        "technewsinside": 267,
         "ctee.fans": 28,
         "yutinghaosfinance": 1333
       }
@@ -68,9 +68,9 @@
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 11,
+      "size": 10,
       "accounts": {
-        "TrendForce": 2,
+        "TrendForce": 1,
         "jukan05": 3,
         "QQ_Timmy": 1,
         "tengyanAI": 2,
@@ -79,7 +79,7 @@
         "ctee.fans": 1
       },
       "engagement_by_account": {
-        "TrendForce": 58,
+        "TrendForce": 11,
         "jukan05": 1206,
         "QQ_Timmy": 20,
         "tengyanAI": 40,
@@ -168,6 +168,19 @@
       }
     },
     {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 3,
+      "accounts": {
+        "technewsinside": 2,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 45,
+        "ctee.fans": 32
+      }
+    },
+    {
       "id": "I",
       "label": "電源 / 電力設備",
       "size": 3,
@@ -202,19 +215,6 @@
       },
       "engagement_by_account": {
         "technewsinside": 160
-      }
-    },
-    {
-      "id": "H",
-      "label": "網通 / 光通訊",
-      "size": 2,
-      "accounts": {
-        "technewsinside": 1,
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 37,
-        "ctee.fans": 32
       }
     },
     {
@@ -256,6 +256,86 @@
     }
   ],
   "gaps": [
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 2,
+      "competitor_count": 8,
+      "competitor_engagement": 1274,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy",
+        "tengyanAI",
+        "statementdog",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Arguably the most valuable insight from the past few days of memory industry news came from Lam Research CEO Tim Archer.  On the company’s October 21, 2026 earnings call, Archer explained that the growing adoption of SLC NAND for AI could increase the wafer capacity needed to",
+          "url": "https://x.com/jukan05/status/2114640844817060254",
+          "timestamp": "2026-10-26T16:50:40.000+08:00",
+          "interaction": 560
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Korean media report that SK hynix is preparing to announce $38 billion–$45 billion in additional shareholder returns.  Having already carried out substantial share buybacks, the company is expected to return most of the additional capital through special dividends. However, it is",
+          "url": "https://x.com/jukan05/status/2114642724360163417",
+          "timestamp": "2026-10-26T16:58:08.000+08:00",
+          "interaction": 379
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Korean media report that Samsung Electronics and SK hynix plan to begin mass production and volume shipments of 8-high HBM4 in Q2 next year.  While the reporting outlet identifies Rubin Ultra as the target platform, we believe Vera Rubin will also adopt 8-high HBM4.",
+          "url": "https://x.com/jukan05/status/2114598413274882053",
+          "timestamp": "2026-10-26T14:02:03.000+08:00",
+          "interaction": 267
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "the question for  $MU  now is how quickly it can turn its HBM commitments into profitable shipments.  i asked  @tessara_ai  what had actually changed in the recent news. it helped me compare the headlines with earlier disclosures.  2 developments worth watching more closely:  micron",
+          "url": "https://x.com/tengyanAI/status/2114562951520899555",
+          "timestamp": "2026-10-26T11:41:08.000+08:00",
+          "interaction": 40
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "ZDNet Korea〈그록, 차세대 칩에 'D램 3차원 적층' 도입 추진…S램 한계 넘는다〉2026年10月20日  1、貼文：業界消息指Groq擬於次世代晶片導入「3D DRAM堆疊」，日期落在2026年10月20日報導脈絡；作者強調「並非HBM」，並串起Groq瓦片結構等專利，以及先前DRAM記憶體考量、NVIDIA（",
+          "url": "https://x.com/QQ_Timmy/status/2114674185985478853",
+          "timestamp": "2026-10-26T19:03:09.000+08:00",
+          "interaction": 20
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "NVIDIA now lists Rubin’s HBM4 bandwidth at 19.2TB/s, down from the earlier 22TB/s, while memory capacity stays at 288GB. The lower bandwidth could matter more for AI workloads that spend much of their time waiting for data from memory.",
+          "url": "https://x.com/statementdog/status/2114583047685464153",
+          "timestamp": "2026-10-26T13:01:00.000+08:00",
+          "interaction": 8
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "here's what's changed in micron in the past 10 days:",
+          "url": "https://x.com/tengyanAI/status/2114563299841044751",
+          "timestamp": "2026-10-26T11:42:32.000+08:00",
+          "interaction": 0
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI記憶體大廠SK海力士（SK hynix）傳出將祭出史上級別的股東回饋措施！根據韓國媒體《東亞日報》引述投資銀行業知情人士報導，SK海力士計畫將出售日本記憶體晶片製造商鎧俠（Kioxia）股權所獲利潤的約八成，以特別股利形式回饋股東，金額高達16兆韓元，約合121億美元。市場預期，公司最快將於10月28日公布第三季財報時，正式揭露相關計畫。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid022k1ERiW2C2SDr8FmqpcAaXsCCiJYEENmtjpV7BiS9mzdGXbikUofK4eWxhWBCX4kl?__tn__=%2CO",
+          "timestamp": "2026-10-26T08:52:49.301962+00:00",
+          "interaction": 0
+        }
+      ]
+    },
     {
       "cluster_id": "O",
       "label": "邊緣 AI / 新終端",
@@ -513,6 +593,86 @@
   ],
   "suggested_entry_points": [
     {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 2,
+      "competitor_count": 8,
+      "competitor_engagement": 1274,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy",
+        "tengyanAI",
+        "statementdog",
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Arguably the most valuable insight from the past few days of memory industry news came from Lam Research CEO Tim Archer.  On the company’s October 21, 2026 earnings call, Archer explained that the growing adoption of SLC NAND for AI could increase the wafer capacity needed to",
+          "url": "https://x.com/jukan05/status/2114640844817060254",
+          "timestamp": "2026-10-26T16:50:40.000+08:00",
+          "interaction": 560
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Korean media report that SK hynix is preparing to announce $38 billion–$45 billion in additional shareholder returns.  Having already carried out substantial share buybacks, the company is expected to return most of the additional capital through special dividends. However, it is",
+          "url": "https://x.com/jukan05/status/2114642724360163417",
+          "timestamp": "2026-10-26T16:58:08.000+08:00",
+          "interaction": 379
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Korean media report that Samsung Electronics and SK hynix plan to begin mass production and volume shipments of 8-high HBM4 in Q2 next year.  While the reporting outlet identifies Rubin Ultra as the target platform, we believe Vera Rubin will also adopt 8-high HBM4.",
+          "url": "https://x.com/jukan05/status/2114598413274882053",
+          "timestamp": "2026-10-26T14:02:03.000+08:00",
+          "interaction": 267
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "the question for  $MU  now is how quickly it can turn its HBM commitments into profitable shipments.  i asked  @tessara_ai  what had actually changed in the recent news. it helped me compare the headlines with earlier disclosures.  2 developments worth watching more closely:  micron",
+          "url": "https://x.com/tengyanAI/status/2114562951520899555",
+          "timestamp": "2026-10-26T11:41:08.000+08:00",
+          "interaction": 40
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "ZDNet Korea〈그록, 차세대 칩에 'D램 3차원 적층' 도입 추진…S램 한계 넘는다〉2026年10月20日  1、貼文：業界消息指Groq擬於次世代晶片導入「3D DRAM堆疊」，日期落在2026年10月20日報導脈絡；作者強調「並非HBM」，並串起Groq瓦片結構等專利，以及先前DRAM記憶體考量、NVIDIA（",
+          "url": "https://x.com/QQ_Timmy/status/2114674185985478853",
+          "timestamp": "2026-10-26T19:03:09.000+08:00",
+          "interaction": 20
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "NVIDIA now lists Rubin’s HBM4 bandwidth at 19.2TB/s, down from the earlier 22TB/s, while memory capacity stays at 288GB. The lower bandwidth could matter more for AI workloads that spend much of their time waiting for data from memory.",
+          "url": "https://x.com/statementdog/status/2114583047685464153",
+          "timestamp": "2026-10-26T13:01:00.000+08:00",
+          "interaction": 8
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "here's what's changed in micron in the past 10 days:",
+          "url": "https://x.com/tengyanAI/status/2114563299841044751",
+          "timestamp": "2026-10-26T11:42:32.000+08:00",
+          "interaction": 0
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "AI記憶體大廠SK海力士（SK hynix）傳出將祭出史上級別的股東回饋措施！根據韓國媒體《東亞日報》引述投資銀行業知情人士報導，SK海力士計畫將出售日本記憶體晶片製造商鎧俠（Kioxia）股權所獲利潤的約八成，以特別股利形式回饋股東，金額高達16兆韓元，約合121億美元。市場預期，公司最快將於10月28日公布第三季財報時，正式揭露相關計畫。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid022k1ERiW2C2SDr8FmqpcAaXsCCiJYEENmtjpV7BiS9mzdGXbikUofK4eWxhWBCX4kl?__tn__=%2CO",
+          "timestamp": "2026-10-26T08:52:49.301962+00:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "O",
       "label": "邊緣 AI / 新終端",
       "own_count": 0,
@@ -719,58 +879,12 @@
           "interaction": 25
         }
       ]
-    },
-    {
-      "cluster_id": "G",
-      "label": "IC 設計",
-      "own_count": 0,
-      "competitor_count": 4,
-      "competitor_engagement": 55,
-      "competitors_covering": [
-        "tphuang",
-        "statementdog",
-        "ctee.fans"
-      ],
-      "sample_posts": [
-        {
-          "handle": "ctee.fans",
-          "platform": "Facebook",
-          "text": "本周國內金融市場焦點將集中在周二（10/27）立法院會、旺宏法說、周三（10/28）9月景氣對策訊號、聯電法說、周四（10/29）行政院會、台達電、國巨、友達法說、周五（10/30）立法院會、主計處Q3 GDP概估、聯發科、光寶科法說等資訊。…… \n查看更多",
-          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02i3Yhi15p3ksAst1PxhLePmxrxpi61rdYzt7josnyEwFoaHctMvSsn4CkM8ccBiunl?__cft__[0]=AZjBlleai5uzReS5A54BwXyv2Y1wPv566nohFYnpgcDNE860QKimVdhFyjWqjl9pIHuJPQ-LPApzlHE3y7W6JHXaJzQ2yK_23Q84ZZ2BU_I41Atq4nkpDyH4lNexOdRdGCwzswv0X7kG24_8g8amlrjdiP5lBZTagIkTXNPz3emUte67th3G4f7sxhI",
-          "timestamp": "2026-10-26T08:52:49.301962+00:00",
-          "interaction": 25
-        },
-        {
-          "handle": "tphuang",
-          "platform": "X",
-          "text": "TBF, while 0731 was good after 3 months of wait, Pro-0813 wasn't good. Until 4.1 came out, we really didn't know DS was on this fast cadence that got further validated in 1017.  If I could read into future, I would not have upgraded my ZCode plan to $50/month.  Now, I'm paying",
-          "url": "https://x.com/tphuang/status/2114771071241007287",
-          "timestamp": "2026-10-27T01:28:08.000+08:00",
-          "interaction": 23
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "Cadence, which makes software for designing chips, has introduced Maestro, a family of AI models that customers can run in their own data centers.  The portfolio includes NVIDIA Nemotron models and can be further trained on customers’ proprietary designs. Cadence’s engineering",
-          "url": "https://x.com/statementdog/status/2114764001100054746",
-          "timestamp": "2026-10-27T01:00:02.000+08:00",
-          "interaction": 7
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "https:// cadence.com/zh_TW/home/com pany/newsroom/press-releases/pr/2026/cadence-introduces-maestro-a-domain-specialized-ai-model.html …",
-          "url": "https://x.com/statementdog/status/2114765163333365765",
-          "timestamp": "2026-10-27T01:04:40.000+08:00",
-          "interaction": 0
-        }
-      ]
     }
   ],
   "window": {
-    "start_utc": "2026-10-26T00:08:57.875802+00:00",
-    "end_utc": "2026-10-27T00:08:57.875802+00:00",
-    "start_tw": "Oct 26, 08:08",
-    "end_tw": "Oct 27, 08:08"
+    "start_utc": "2026-10-26T00:50:38.318165+00:00",
+    "end_utc": "2026-10-27T00:50:38.318165+00:00",
+    "start_tw": "Oct 26, 08:50",
+    "end_tw": "Oct 27, 08:50"
   }
 }
