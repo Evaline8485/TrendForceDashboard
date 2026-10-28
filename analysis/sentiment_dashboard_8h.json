@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-28T12:23:15+08:00",
+  "generated_at": "2026-10-28T16:00:10+08:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-10-28T04:23:15+08:00",
-    "end_utc": "2026-10-28T12:23:15+08:00",
-    "start_tw": "Oct 28, 04:23",
-    "end_tw": "Oct 28, 12:23"
+    "start_utc": "2026-10-28T08:00:10+08:00",
+    "end_utc": "2026-10-28T16:00:10+08:00",
+    "start_tw": "Oct 28, 08:00",
+    "end_tw": "Oct 28, 16:00"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 150,
+      "total_posts": 152,
       "sentiment_counts": {
-        "positive": 80,
-        "neutral": 30,
-        "negative": 40
+        "negative": 36,
+        "positive": 82,
+        "neutral": 34
       },
       "sentiment_share": {
-        "positive": 0.533,
-        "neutral": 0.2,
-        "negative": 0.267
+        "negative": 0.237,
+        "positive": 0.539,
+        "neutral": 0.224
       },
       "top_terms": [
         "能否",
@@ -27,7 +27,7 @@
         "更多",
         "算力",
         "查看",
-        "hynix",
+        "anthropic",
         "蘋果",
         "看更",
         "查看更",
@@ -36,18 +36,30 @@
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "hynix / sk / revenue / hbm",
+        "topic_id": 9,
+        "label": "hynix / sk / hbm / ltas",
         "heat": 90.0,
-        "volume": 9,
-        "engagement": 3552,
+        "volume": 6,
+        "engagement": 2448,
+        "entities": [
+          "路透",
+          "SK海力士"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 14,
+        "label": "brazil",
+        "heat": 66.0,
+        "volume": 2,
+        "engagement": 2948,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 4,
-        "label": "半導體 / 台積電 / sk海力士 / 受惠",
-        "heat": 23.2,
+        "topic_id": 0,
+        "label": "半導體 / 台積電 / 受惠 / sk海力士",
+        "heat": 53.9,
         "volume": 6,
         "engagement": 151,
         "entities": [
@@ -60,36 +72,9 @@
         "is_catchall": false
       },
       {
-        "topic_id": 24,
-        "label": "tpu / tpus / openai / google",
-        "heat": 19.6,
-        "volume": 3,
-        "engagement": 1611,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 11,
-        "label": "brazil / corruption",
-        "heat": 17.8,
-        "volume": 3,
-        "engagement": 1372,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 10,
-        "label": "krw / hynix / operating / sk",
-        "heat": 16.5,
-        "volume": 3,
-        "engagement": 438,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
         "topic_id": 3,
         "label": "anthropic",
-        "heat": 15.3,
+        "heat": 44.5,
         "volume": 5,
         "engagement": 313,
         "entities": [
@@ -100,11 +85,11 @@
         "is_catchall": false
       },
       {
-        "topic_id": 12,
-        "label": "donald / trump / 人工智慧",
-        "heat": 13.1,
-        "volume": 3,
-        "engagement": 170,
+        "topic_id": 11,
+        "label": "trump / donald / 人工智慧",
+        "heat": 40.2,
+        "volume": 4,
+        "engagement": 680,
         "entities": [
           "美國",
           "美國總統川普",
@@ -115,24 +100,59 @@
         "is_catchall": false
       },
       {
-        "topic_id": 19,
-        "label": "台股 / 南亞科",
-        "heat": 13.1,
-        "volume": 3,
-        "engagement": 169,
+        "topic_id": 4,
+        "label": "輝達 / google",
+        "heat": 38.9,
+        "volume": 5,
+        "engagement": 125,
         "entities": [
-          "南亞科",
-          "華邦電",
-          "美光",
-          "美國",
-          "韓國"
+          "輝達",
+          "城河",
+          "微軟",
+          "黃仁勳",
+          "加州"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 8,
+        "topic_id": 6,
+        "label": "ipo / anthropic / shares / 台積電",
+        "heat": 37.8,
+        "volume": 5,
+        "engagement": 95,
+        "entities": [
+          "台積電",
+          "曝光",
+          "龐大合"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "hbm / hynix / cxmt / skhy",
+        "heat": 30.6,
+        "volume": 4,
+        "engagement": 243,
+        "entities": [
+          "英特爾"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 21,
+        "label": "google / tpu / openai",
+        "heat": 26.8,
+        "volume": 3,
+        "engagement": 871,
+        "entities": [
+          "城河"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
         "label": "蘋果 / openai",
-        "heat": 12.2,
+        "heat": 24.7,
         "volume": 4,
         "engagement": 117,
         "entities": [
@@ -142,207 +162,51 @@
         "is_catchall": false
       },
       {
-        "topic_id": 21,
-        "label": "蘋果 / 升級 / ios / 首款摺疊機",
-        "heat": 11.8,
-        "volume": 4,
-        "engagement": 99,
-        "entities": [
-          "新日興",
-          "多國",
-          "深度",
-          "智慧"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 9,
-        "label": "輝達",
-        "heat": 11.7,
-        "volume": 4,
-        "engagement": 91,
-        "entities": [
-          "輝達",
-          "城河",
-          "黃仁勳",
-          "加州",
-          "富豪"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 17,
-        "label": "electronics / profit / revenue",
-        "heat": 11.6,
-        "volume": 3,
-        "engagement": 85,
+        "topic_id": 16,
+        "label": "shanghai",
+        "heat": 16.1,
+        "volume": 2,
+        "engagement": 334,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "ipo / anthropic / 台積電",
-        "heat": 11.6,
-        "volume": 4,
-        "engagement": 84,
+        "topic_id": 27,
+        "label": "南亞科 / 台股",
+        "heat": 13.4,
+        "volume": 2,
+        "engagement": 158,
         "entities": [
-          "台積電",
-          "曝光",
-          "龐大合"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 26,
-        "label": "下同 / 日公布 / 人工智慧",
-        "heat": 11.5,
-        "volume": 3,
-        "engagement": 83,
-        "entities": [
-          "胡潤",
-          "張一鳴",
-          "中國",
-          "寶座",
-          "山泉"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 13,
-        "label": "微軟",
-        "heat": 10.9,
-        "volume": 3,
-        "engagement": 51,
-        "entities": [
-          "微軟",
-          "藉此"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 7,
-        "label": "hbm / skhy / customers / demand",
-        "heat": 10.5,
-        "volume": 3,
-        "engagement": 34,
-        "entities": [
-          "英特爾"
+          "南亞科",
+          "華邦電",
+          "美光",
+          "韓國",
+          "三星"
         ],
         "is_catchall": false
       },
       {
         "topic_id": 20,
-        "label": "salaries / elite / firms / consulting",
-        "heat": 10.0,
+        "label": "happens / israel",
+        "heat": 13.1,
         "volume": 2,
-        "engagement": 111,
+        "engagement": 143,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 29,
-        "label": "apple / iphone / rack / broken",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 135,
-        "entities": [
-          "法文",
-          "韓文",
-          "葡萄牙文",
-          "西班牙文",
-          "中文"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 25,
-        "label": "arm / healey",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 40,
+        "topic_id": 5,
+        "label": "operating / revenue / hynix / profit",
+        "heat": 12.8,
+        "volume": 3,
+        "engagement": 128,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 22,
-        "label": "wednesday",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 113,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 16,
-        "label": "exit / parliamentary / polls",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 162,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 18,
-        "label": "ve",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 311,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 0,
-        "label": "刷新歷史紀錄 / sk海力士",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 9,
-        "entities": [
-          "韓元",
-          "SK海力士"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 28,
-        "label": "google / 輝達",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 35,
-        "entities": [
-          "城河",
-          "輝達",
-          "微軟"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 23,
-        "label": "資料中心",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 56,
-        "entities": [
-          "台達電",
-          "光寶科",
-          "塔塔通"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 15,
-        "label": "量子運算",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 58,
-        "entities": [
-          "英特爾"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 6,
+        "topic_id": 13,
         "label": "nand / 旺宏",
-        "heat": 10.0,
+        "heat": 12.5,
         "volume": 2,
         "engagement": 116,
         "entities": [
@@ -355,9 +219,111 @@
         "is_catchall": false
       },
       {
-        "topic_id": 27,
+        "topic_id": 12,
+        "label": "markets / gambler / volume",
+        "heat": 11.9,
+        "volume": 3,
+        "engagement": 87,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "electronics / revenue",
+        "heat": 11.8,
+        "volume": 2,
+        "engagement": 80,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 19,
+        "label": "量子運算",
+        "heat": 11.3,
+        "volume": 2,
+        "engagement": 58,
+        "entities": [
+          "英特爾"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 25,
+        "label": "首款摺疊機 / iphoneduo / 蘋果 / ios",
+        "heat": 11.3,
+        "volume": 2,
+        "engagement": 60,
+        "entities": [
+          "新日興",
+          "智慧"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 28,
+        "label": "日公布 / 下同 / 人工智慧",
+        "heat": 11.3,
+        "volume": 2,
+        "engagement": 62,
+        "entities": [
+          "胡潤",
+          "張一鳴",
+          "中國",
+          "寶座",
+          "山泉"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 24,
+        "label": "資料中心",
+        "heat": 11.2,
+        "volume": 2,
+        "engagement": 56,
+        "entities": [
+          "台達電",
+          "光寶科",
+          "塔塔通"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "微軟",
+        "heat": 11.1,
+        "volume": 3,
+        "engagement": 51,
+        "entities": [
+          "微軟",
+          "藉此"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "listing / anthropic",
+        "heat": 10.8,
+        "volume": 2,
+        "engagement": 40,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 23,
+        "label": "升級 / 蘋果 / ios",
+        "heat": 10.8,
+        "volume": 2,
+        "engagement": 39,
+        "entities": [
+          "多國",
+          "深度"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
         "label": "oled / 蘋果",
-        "heat": 10.0,
+        "heat": 10.8,
         "volume": 2,
         "engagement": 38,
         "entities": [
@@ -366,9 +332,20 @@
         "is_catchall": false
       },
       {
-        "topic_id": 14,
+        "topic_id": 18,
+        "label": "ddr / spot / prices / remains",
+        "heat": 10.5,
+        "volume": 2,
+        "engagement": 28,
+        "entities": [
+          "力積電"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
         "label": "名家評論",
-        "heat": 10.0,
+        "heat": 10.5,
         "volume": 2,
         "engagement": 26,
         "entities": [
@@ -378,22 +355,50 @@
         "is_catchall": false
       },
       {
-        "topic_id": 2,
-        "label": "其他（未分群，61 篇）",
+        "topic_id": 26,
+        "label": "刷新歷史紀錄 / sk海力士",
         "heat": 10.0,
-        "volume": 61,
-        "engagement": 3622,
+        "volume": 2,
+        "engagement": 9,
         "entities": [
-          "中國",
+          "韓元",
+          "SK海力士"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 29,
+        "label": "下同",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 21,
+        "entities": [
+          "華西",
+          "都市"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，68 篇）",
+        "heat": 10.0,
+        "volume": 68,
+        "engagement": 3472,
+        "entities": [
           "美國",
+          "韓元",
+          "中國",
           "台灣",
-          "上市",
-          "日本"
+          "上市"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
+      {
+        "entity": "韓元",
+        "count": 10
+      },
       {
         "entity": "台灣",
         "count": 9
@@ -411,7 +416,7 @@
         "count": 7
       },
       {
-        "entity": "韓元",
+        "entity": "SK海力士",
         "count": 6
       },
       {
@@ -435,10 +440,6 @@
         "count": 5
       },
       {
-        "entity": "SK海力士",
-        "count": 4
-      },
-      {
         "entity": "旺宏",
         "count": 4
       },
@@ -447,208 +448,41 @@
         "count": 4
       },
       {
-        "entity": "城河",
+        "entity": "季增",
         "count": 3
       },
       {
-        "entity": "英特爾",
+        "entity": "城河",
         "count": 3
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-28T04:23:15.000002+08:00",
-        "bucket_end": "2026-10-28T04:57:32.142859+08:00",
-        "positive": 2,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 267,
-        "neutral_engagement": 59,
-        "negative_engagement": 32,
-        "net_sentiment": 25.0,
-        "post_count": 4,
-        "engagement": 358,
-        "top_topics": [
-          {
-            "topic_id": 16,
-            "label": "exit / parliamentary / polls",
-            "count": 2
-          },
-          {
-            "topic_id": 20,
-            "label": "salaries / elite / firms / consulting",
-            "count": 1
-          },
-          {
-            "topic_id": 12,
-            "label": "donald / trump / 人工智慧",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The combined shipments of about 140,000 tonnes are the first licensed by US authorities under Donald Trump’s recent deal with Vladimir Putin to exempt Russian diesel from sanctions  https:// ft.trib.a",
-            "url": "https://x.com/FT/status/2115179254182826371",
-            "interaction": 137
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Breaking news: Neither Gadi Eisenkot’s Yashar nor Benjamin Netanyahu’s far-right coalition is on course to win a majority in Israel’s parliamentary election, according to exit polls.  https:// ft.trib",
-            "url": "https://x.com/FT/status/2115180633341198789",
-            "interaction": 130
-          }
-        ],
-        "net_sentiment_smoothed": 31.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-28T04:57:32.142859+08:00",
-        "bucket_end": "2026-10-28T05:31:49.285716+08:00",
-        "positive": 2,
+        "bucket_start": "2026-10-28T08:00:10.000002+08:00",
+        "bucket_end": "2026-10-28T08:34:27.142859+08:00",
+        "positive": 4,
         "neutral": 2,
-        "negative": 1,
-        "positive_engagement": 394,
-        "neutral_engagement": 113,
-        "negative_engagement": 85,
-        "net_sentiment": 20.0,
-        "post_count": 5,
-        "engagement": 592,
-        "top_topics": [
-          {
-            "topic_id": 22,
-            "label": "wednesday",
-            "count": 2
-          },
-          {
-            "topic_id": 18,
-            "label": "ve",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "HyperTechInvest",
-            "platform": "X",
-            "text": "Gavin is quite clearly referring to  $IREN  here  Although he's obviously too influential to mention them directly  It'll be interesting to see whether  $IREN  can overcome these challenges  They've c",
-            "url": "https://x.com/HyperTechInvest/status/2115192305888182283",
-            "interaction": 289
-          },
-          {
-            "handle": "HyperTechInvest",
-            "platform": "X",
-            "text": "Don't trust this relief rally until there's a resolution in Iran  You could get your heart broken otherwise",
-            "url": "https://x.com/HyperTechInvest/status/2115193823475511384",
-            "interaction": 105
-          }
-        ],
-        "net_sentiment_smoothed": -1.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-28T05:31:49.285716+08:00",
-        "bucket_end": "2026-10-28T06:06:06.428573+08:00",
-        "positive": 1,
-        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 22,
-        "neutral_engagement": 907,
+        "positive_engagement": 1008,
+        "neutral_engagement": 821,
         "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 929,
+        "net_sentiment": 66.7,
+        "post_count": 6,
+        "engagement": 1829,
         "top_topics": [
           {
-            "topic_id": 24,
-            "label": "tpu / tpus / openai / google",
+            "topic_id": 9,
+            "label": "hynix / sk / hbm / ltas",
             "count": 1
           },
           {
-            "topic_id": 18,
-            "label": "ve",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "SemiAnalysis_",
-            "platform": "X",
-            "text": "PoV of Jensen after reading TPUs are coming to Oracle Cloud",
-            "url": "https://x.com/SemiAnalysis_/status/2115195793648812162",
-            "interaction": 907
-          },
-          {
-            "handle": "HyperTechInvest",
-            "platform": "X",
-            "text": "There's so much hate on social media  So many people just trying to dunk on others for attention, forcing criticism and exaggerating disagreements for engagement  I genuinely wish the best for all of ",
-            "url": "https://x.com/HyperTechInvest/status/2115197611938648267",
-            "interaction": 22
-          }
-        ],
-        "net_sentiment_smoothed": 5.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-28T06:06:06.428573+08:00",
-        "bucket_end": "2026-10-28T06:40:23.571430+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 73,
-        "net_sentiment": -100.0,
-        "post_count": 2,
-        "engagement": 73,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "hynix / sk / revenue / hbm",
+            "topic_id": 21,
+            "label": "google / tpu / openai",
             "count": 1
           },
           {
-            "topic_id": 11,
-            "label": "brazil / corruption",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Opinion: The difference between today and 2024 is that corruption has entered the conversation. America’s affordability crisis and corruption are now treated as two sides of the same coin  https:// ft",
-            "url": "https://x.com/FT/status/2115209456166285459",
-            "interaction": 39
-          },
-          {
-            "handle": "tengyanAI",
-            "platform": "X",
-            "text": "Since July 1, SK hynix shares have lost nearly half their value, falling roughly 48% by October 27's close.  Yet over that same period, the spot price of the 16Gb DDR5 chip we track in Tessara has ris",
-            "url": "https://x.com/tengyanAI/status/2115208822084227550",
-            "interaction": 34
-          }
-        ],
-        "net_sentiment_smoothed": 9.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-28T06:40:23.571430+08:00",
-        "bucket_end": "2026-10-28T07:14:40.714287+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 247,
-        "neutral_engagement": 0,
-        "negative_engagement": 93,
-        "net_sentiment": 33.3,
-        "post_count": 3,
-        "engagement": 340,
-        "top_topics": [
-          {
-            "topic_id": 25,
-            "label": "arm / healey",
+            "topic_id": 8,
+            "label": "electronics / revenue",
             "count": 1
           }
         ],
@@ -656,138 +490,47 @@
           {
             "handle": "jukan05",
             "platform": "X",
-            "text": "The Korean government announced that the country’s per capita income is all but certain to exceed $40,000 this year.  It’s all thanks to the memory supercycle.",
-            "url": "https://x.com/jukan05/status/2115219546294583324",
-            "interaction": 228
+            "text": "SK HYNIX: WE WILL CONTINUE TO REPURCHASE SHARES ON A QUARTERLY BASIS GOING FORWARD.",
+            "url": "https://x.com/jukan05/status/2115238714976931849",
+            "interaction": 763
           },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Healey to reverse cuts to cash Isa allowances",
-            "url": "https://x.com/FT/status/2115217586954633379",
-            "interaction": 93
-          }
-        ],
-        "net_sentiment_smoothed": 20.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-28T07:14:40.714287+08:00",
-        "bucket_end": "2026-10-28T07:48:57.857144+08:00",
-        "positive": 5,
-        "neutral": 0,
-        "negative": 2,
-        "positive_engagement": 968,
-        "neutral_engagement": 0,
-        "negative_engagement": 1222,
-        "net_sentiment": 42.9,
-        "post_count": 7,
-        "engagement": 2190,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "hynix / sk / revenue / hbm",
-            "count": 2
-          },
-          {
-            "topic_id": 10,
-            "label": "krw / hynix / operating / sk",
-            "count": 2
-          },
-          {
-            "topic_id": 17,
-            "label": "electronics / profit / revenue",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "SK HYNIX: EXPECTS DEMAND TO OUTPACE SUPPLY THROUGH 2030",
-            "url": "https://x.com/jukan05/status/2115226103585644912",
-            "interaction": 1144
-          },
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "SK HYNIX:  - HAS SIGNED LTAS WITH 14 MAJOR CUSTOMERS, INCLUDING LARGE GLOBAL CSPs. - THE STANDARD CONTRACT TERM IS FIVE YEARS, WITH DISCUSSIONS UNDERWAY WITH SOME CUSTOMERS TO EXTEND EXISTING CONTRACT",
-            "url": "https://x.com/jukan05/status/2115226507446804865",
-            "interaction": 527
-          }
-        ],
-        "net_sentiment_smoothed": 22.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-28T07:48:57.857144+08:00",
-        "bucket_end": "2026-10-28T08:23:15.000001+08:00",
-        "positive": 3,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 134,
-        "neutral_engagement": 592,
-        "negative_engagement": 0,
-        "net_sentiment": 75.0,
-        "post_count": 4,
-        "engagement": 726,
-        "top_topics": [
-          {
-            "topic_id": 24,
-            "label": "tpu / tpus / openai / google",
-            "count": 1
-          },
-          {
-            "topic_id": 1,
-            "label": "hynix / sk / revenue / hbm",
-            "count": 1
-          }
-        ],
-        "top_posts": [
           {
             "handle": "jukan05",
             "platform": "X",
             "text": "OPENAI PLANS TO USE GOOGLE’S TPUS — THE INFORMATION.",
             "url": "https://x.com/jukan05/status/2115234582174024045",
-            "interaction": 592
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Good morning, Asia. While you were sleeping, this was our most-read story:  https:// ft.trib.al/BM4ZRFK",
-            "url": "https://x.com/FT/status/2115234177117250022",
-            "interaction": 75
+            "interaction": 736
           }
         ],
-        "net_sentiment_smoothed": 62.2,
+        "net_sentiment_smoothed": 80.6,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-28T08:23:15.000001+08:00",
-        "bucket_end": "2026-10-28T08:57:32.142858+08:00",
+        "bucket_start": "2026-10-28T08:34:27.142859+08:00",
+        "bucket_end": "2026-10-28T09:08:44.285716+08:00",
         "positive": 3,
-        "neutral": 2,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 1509,
-        "neutral_engagement": 164,
+        "positive_engagement": 1567,
+        "neutral_engagement": 134,
         "negative_engagement": 0,
-        "net_sentiment": 60.0,
-        "post_count": 5,
-        "engagement": 1673,
+        "net_sentiment": 75.0,
+        "post_count": 4,
+        "engagement": 1701,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "hynix / sk / revenue / hbm",
+            "topic_id": 9,
+            "label": "hynix / sk / hbm / ltas",
             "count": 2
           },
           {
-            "topic_id": 24,
-            "label": "tpu / tpus / openai / google",
+            "topic_id": 21,
+            "label": "google / tpu / openai",
             "count": 1
           },
           {
-            "topic_id": 17,
-            "label": "electronics / profit / revenue",
+            "topic_id": 2,
+            "label": "hbm / hynix / cxmt / skhy",
             "count": 1
           }
         ],
@@ -797,65 +540,53 @@
             "platform": "X",
             "text": "SK HYNIX:  DRAM AND HBM VOLUMES ARE VIRTUALLY SOLD OUT FOR THE NEXT THREE YEARS THROUGH 2029. APPROXIMATELY 50% OF 2027–2028 CAPACITY IS COVERED BY LONG-TERM AGREEMENTS (LTAS), AND THE COMPANY EXPECTS",
             "url": "https://x.com/jukan05/status/2115243587890041019",
-            "interaction": 880
+            "interaction": 1150
           },
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "SK HYNIX: WE WILL CONTINUE TO REPURCHASE SHARES ON A QUARTERLY BASIS GOING FORWARD.",
-            "url": "https://x.com/jukan05/status/2115238714976931849",
-            "interaction": 589
-          }
-        ],
-        "net_sentiment_smoothed": 55.6,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-28T08:57:32.142858+08:00",
-        "bucket_end": "2026-10-28T09:31:49.285715+08:00",
-        "positive": 3,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 349,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 3,
-        "engagement": 349,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "hynix / sk / revenue / hbm",
-            "count": 2
-          },
-          {
-            "topic_id": 7,
-            "label": "hbm / skhy / customers / demand",
-            "count": 1
-          }
-        ],
-        "top_posts": [
           {
             "handle": "jukan05",
             "platform": "X",
             "text": "SK HYNIX: DESPITE THE HBM SPEC DOWNGRADE, DEMAND REMAINS STRONG, WITH CUSTOMER REQUESTED VOLUMES CURRENTLY EXCEEDING TWICE WHAT WE CAN SUPPLY.",
             "url": "https://x.com/jukan05/status/2115248034619818027",
-            "interaction": 306
-          },
+            "interaction": 401
+          }
+        ],
+        "net_sentiment_smoothed": 60.4,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-28T09:08:44.285716+08:00",
+        "bucket_end": "2026-10-28T09:43:01.428573+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 50,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 50,
+        "top_topics": [
+          {
+            "topic_id": 9,
+            "label": "hynix / sk / hbm / ltas",
+            "count": 1
+          }
+        ],
+        "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
             "text": "SK Hynix profits soar amid roaring AI chip demand",
             "url": "https://x.com/FT/status/2115254150485196823",
-            "interaction": 33
+            "interaction": 50
           }
         ],
-        "net_sentiment_smoothed": 53.7,
+        "net_sentiment_smoothed": 55.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-28T09:31:49.285715+08:00",
-        "bucket_end": "2026-10-28T10:06:06.428572+08:00",
+        "bucket_start": "2026-10-28T09:43:01.428573+08:00",
+        "bucket_end": "2026-10-28T10:17:18.571430+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -867,34 +598,34 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 38.7,
+        "net_sentiment_smoothed": 44.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-28T10:06:06.428572+08:00",
-        "bucket_end": "2026-10-28T10:40:23.571429+08:00",
+        "bucket_start": "2026-10-28T10:17:18.571430+08:00",
+        "bucket_end": "2026-10-28T10:51:35.714287+08:00",
         "positive": 35,
         "neutral": 14,
         "negative": 14,
-        "positive_engagement": 1189,
+        "positive_engagement": 1206,
         "neutral_engagement": 430,
         "negative_engagement": 519,
         "net_sentiment": 33.3,
         "post_count": 63,
-        "engagement": 2138,
+        "engagement": 2155,
         "top_topics": [
           {
-            "topic_id": 4,
-            "label": "半導體 / 台積電 / sk海力士 / 受惠",
+            "topic_id": 0,
+            "label": "半導體 / 台積電 / 受惠 / sk海力士",
             "count": 6
           },
           {
-            "topic_id": 9,
-            "label": "輝達",
-            "count": 4
+            "topic_id": 4,
+            "label": "輝達 / google",
+            "count": 5
           },
           {
-            "topic_id": 8,
+            "topic_id": 10,
             "label": "蘋果 / openai",
             "count": 4
           }
@@ -915,83 +646,35 @@
             "interaction": 132
           }
         ],
-        "net_sentiment_smoothed": 28.8,
+        "net_sentiment_smoothed": 19.2,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-10-28T10:40:23.571429+08:00",
-        "bucket_end": "2026-10-28T11:14:40.714286+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 72,
-        "neutral_engagement": 6,
-        "negative_engagement": 297,
-        "net_sentiment": 0.0,
-        "post_count": 3,
-        "engagement": 375,
+        "bucket_start": "2026-10-28T10:51:35.714287+08:00",
+        "bucket_end": "2026-10-28T11:25:52.857144+08:00",
+        "positive": 23,
+        "neutral": 8,
+        "negative": 17,
+        "positive_engagement": 660,
+        "neutral_engagement": 171,
+        "negative_engagement": 1960,
+        "net_sentiment": 12.5,
+        "post_count": 48,
+        "engagement": 2791,
         "top_topics": [
-          {
-            "topic_id": 10,
-            "label": "krw / hynix / operating / sk",
-            "count": 1
-          },
           {
             "topic_id": 11,
-            "label": "brazil / corruption",
-            "count": 1
+            "label": "trump / donald / 人工智慧",
+            "count": 2
           },
           {
-            "topic_id": 17,
-            "label": "electronics / profit / revenue",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Flávio Bolsonaro flees to US after Brazil election defeat",
-            "url": "https://x.com/FT/status/2115279628902293566",
-            "interaction": 297
+            "topic_id": 27,
+            "label": "南亞科 / 台股",
+            "count": 2
           },
           {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "2026.10.28 11:58:27 Company: Samsung Electro-Mechanics (SEMCO) (Market Cap: KRW 98.2969 trillion) Ticker: A009150 Report: Preliminary Consolidated Operating Results (Fair Disclosure) Revenue: KRW 3.76",
-            "url": "https://x.com/jukan05/status/2115277408781897729",
-            "interaction": 72
-          }
-        ],
-        "net_sentiment_smoothed": 18.8,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-28T11:14:40.714286+08:00",
-        "bucket_end": "2026-10-28T11:48:57.857143+08:00",
-        "positive": 22,
-        "neutral": 7,
-        "negative": 17,
-        "positive_engagement": 564,
-        "neutral_engagement": 162,
-        "negative_engagement": 2545,
-        "net_sentiment": 10.9,
-        "post_count": 46,
-        "engagement": 3271,
-        "top_topics": [
-          {
-            "topic_id": 19,
-            "label": "台股 / 南亞科",
-            "count": 3
-          },
-          {
-            "topic_id": 26,
-            "label": "下同 / 日公布 / 人工智慧",
-            "count": 3
-          },
-          {
-            "topic_id": 12,
-            "label": "donald / trump / 人工智慧",
+            "topic_id": 7,
+            "label": "名家評論",
             "count": 2
           }
         ],
@@ -1006,30 +689,30 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "The rightwing politician and losing candidate in Brazil’s presidential election has landed in the US after fleeing his home country where he is under investigation for corruption and money laundering,",
-            "url": "https://x.com/FT/status/2115284685588660344",
-            "interaction": 1036
+            "text": "Flávio Bolsonaro flees to US after Brazil election defeat",
+            "url": "https://x.com/FT/status/2115279628902293566",
+            "interaction": 451
           }
         ],
-        "net_sentiment_smoothed": 23.6,
+        "net_sentiment_smoothed": -0.8,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-28T11:48:57.857143+08:00",
-        "bucket_end": "2026-10-28T12:23:15+08:00",
-        "positive": 1,
+        "bucket_start": "2026-10-28T11:25:52.857144+08:00",
+        "bucket_end": "2026-10-28T12:00:10.000001+08:00",
+        "positive": 0,
         "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 3,
+        "negative": 1,
+        "positive_engagement": 0,
         "neutral_engagement": 225,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
+        "negative_engagement": 2497,
+        "net_sentiment": -50.0,
         "post_count": 2,
-        "engagement": 228,
+        "engagement": 2722,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "hynix / sk / revenue / hbm",
+            "topic_id": 14,
+            "label": "brazil",
             "count": 1
           },
           {
@@ -1040,54 +723,341 @@
         ],
         "top_posts": [
           {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The rightwing politician and losing candidate in Brazil’s presidential election has landed in the US after fleeing his home country where he is under investigation for corruption and money laundering,",
+            "url": "https://x.com/FT/status/2115284685588660344",
+            "interaction": 2497
+          },
+          {
             "handle": "yutinghaosfinance",
             "platform": "Facebook",
             "text": "2026/10/28(三)川普選情告急!美股將迎政治變局?Anthropic IPO行情 美股買點到了?【早晨財經速解讀】…… \n查看更多",
             "url": "https://www.facebook.com/yutinghaosfinance/videos/1792938922014082/?__cft__[0]=AZgQXXK3RD84wnYW-cGHPO7CBcP7WR35nDSD3s3ikFiToSNIrU8iT9f3pN4XnRdP-Kl91gXAFSEEX1DC9uO9M1WLSmjlgxhwRd9Nb5wdi6NVNrJco9Km_4wJp56R3lrNcKmVyFKCYW03EkVsFSfzStJEs8Wlv0PEL1YbowhjmGnoCBGi3QAKo-7cXf410ApCGErB0g",
             "interaction": 225
+          }
+        ],
+        "net_sentiment_smoothed": 12.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-28T12:00:10.000001+08:00",
+        "bucket_end": "2026-10-28T12:34:27.142858+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 7,
+        "neutral_engagement": 0,
+        "negative_engagement": 54,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 61,
+        "top_topics": [
+          {
+            "topic_id": 12,
+            "label": "markets / gambler / volume",
+            "count": 1
+          },
+          {
+            "topic_id": 5,
+            "label": "operating / revenue / hynix / profit",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "China rushes to shore up struggling markets",
+            "url": "https://x.com/FT/status/2115298325377188236",
+            "interaction": 54
           },
           {
             "handle": "statementdog",
             "platform": "X",
             "text": "SK hynix ( $SKHY ) posted an 80% operating margin in Q3 2026 as higher memory prices and stronger sales of server products drove record revenue and operating profit. Revenue rose 32% from Q2 to ₩104.6",
             "url": "https://x.com/statementdog/status/2115293269680848944",
-            "interaction": 3
+            "interaction": 7
           }
         ],
-        "net_sentiment_smoothed": 20.3,
+        "net_sentiment_smoothed": 13.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-28T12:34:27.142858+08:00",
+        "bucket_end": "2026-10-28T13:08:44.285715+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 84,
+        "neutral_engagement": 186,
+        "negative_engagement": 0,
+        "net_sentiment": 66.7,
+        "post_count": 3,
+        "engagement": 270,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "hbm / hynix / cxmt / skhy",
+            "count": 1
+          },
+          {
+            "topic_id": 9,
+            "label": "hynix / sk / hbm / ltas",
+            "count": 1
+          },
+          {
+            "topic_id": 6,
+            "label": "ipo / anthropic / shares / 台積電",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "RTRS: ACCORDING TO SOURCES, CXMT PLANS TO BEGIN SMALL-SCALE PRODUCTION OF HBM3E WITHIN THE NEXT TWO MONTHS.  RTRS: CXMT’S CURRENT HBM3E YIELD IS 20%.  RTRS: CXMT’S TEST RESULTS SHOWED THAT ITS HBM3E P",
+            "url": "https://x.com/jukan05/status/2115307540494098601",
+            "interaction": 186
+          },
+          {
+            "handle": "tengyanAI",
+            "platform": "X",
+            "text": "a few things i think many ppl skimmed past on the SK Hynix call:  \"sold out through 2029\" isn't all signed. it's LTAs plus demand still being negotiated. the LTAs cover >50% of 2027-28 capacity, and p",
+            "url": "https://x.com/tengyanAI/status/2115301581780598848",
+            "interaction": 73
+          }
+        ],
+        "net_sentiment_smoothed": 18.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-28T13:08:44.285715+08:00",
+        "bucket_end": "2026-10-28T13:43:01.428572+08:00",
+        "positive": 4,
+        "neutral": 6,
+        "negative": 0,
+        "positive_engagement": 169,
+        "neutral_engagement": 688,
+        "negative_engagement": 0,
+        "net_sentiment": 40.0,
+        "post_count": 10,
+        "engagement": 857,
+        "top_topics": [
+          {
+            "topic_id": 20,
+            "label": "happens / israel",
+            "count": 2
+          },
+          {
+            "topic_id": 5,
+            "label": "operating / revenue / hynix / profit",
+            "count": 1
+          },
+          {
+            "topic_id": 11,
+            "label": "trump / donald / 人工智慧",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The Trump sons’ global network: money, influence and the family business",
+            "url": "https://x.com/FT/status/2115312503236264346",
+            "interaction": 631
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "According to exit polls and the vote count so far, neither Prime Minister Benjamin Netanyahu nor his rivals are on course to win an absolute majority in Israel's election — signalling a potential dead",
+            "url": "https://x.com/FT/status/2115317857974170075",
+            "interaction": 120
+          }
+        ],
+        "net_sentiment_smoothed": 48.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-28T13:43:01.428572+08:00",
+        "bucket_end": "2026-10-28T14:17:18.571429+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 27,
+        "neutral_engagement": 0,
+        "negative_engagement": 242,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 269,
+        "top_topics": [
+          {
+            "topic_id": 16,
+            "label": "shanghai",
+            "count": 1
+          },
+          {
+            "topic_id": 12,
+            "label": "markets / gambler / volume",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "I’ll be in Shanghai from November 1 to 5. I had planned to visit several companies, but most of those visits have been canceled…  It’s a shame, but it looks like this trip will mostly be sightseeing.",
+            "url": "https://x.com/jukan05/status/2115320976632430763",
+            "interaction": 242
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Polymarket’s top trader is sports gambler ‘Swiss Tony’",
+            "url": "https://x.com/FT/status/2115320429543887073",
+            "interaction": 17
+          }
+        ],
+        "net_sentiment_smoothed": 61.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-28T14:17:18.571429+08:00",
+        "bucket_end": "2026-10-28T14:51:35.714286+08:00",
+        "positive": 3,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 104,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 3,
+        "engagement": 104,
+        "top_topics": [
+          {
+            "topic_id": 9,
+            "label": "hynix / sk / hbm / ltas",
+            "count": 1
+          },
+          {
+            "topic_id": 22,
+            "label": "listing / anthropic",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "European banks post higher profits in third quarter",
+            "url": "https://x.com/FT/status/2115332247272263742",
+            "interaction": 55
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Anthropic’s seven billionaire co-founders are set to gain collective control over the company following its blockbuster listing, testing whether shared beliefs and personal bonds can withstand the pre",
+            "url": "https://x.com/FT/status/2115334321657516287",
+            "interaction": 38
+          }
+        ],
+        "net_sentiment_smoothed": 54.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-28T14:51:35.714286+08:00",
+        "bucket_end": "2026-10-28T15:25:52.857143+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 114,
+        "neutral_engagement": 22,
+        "negative_engagement": 0,
+        "net_sentiment": 66.7,
+        "post_count": 3,
+        "engagement": 136,
+        "top_topics": [
+          {
+            "topic_id": 16,
+            "label": "shanghai",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "If you’d like to meet up with me in Shanghai, feel free to DM me! Even better if we have lots of mutuals.",
+            "url": "https://x.com/jukan05/status/2115336601144545323",
+            "interaction": 92
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "John Healey to take aim at energy costs in his first Budget",
+            "url": "https://x.com/FT/status/2115341476246757468",
+            "interaction": 22
+          }
+        ],
+        "net_sentiment_smoothed": 58.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-28T15:25:52.857143+08:00",
+        "bucket_end": "2026-10-28T16:00:10+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 32,
+        "neutral_engagement": 0,
+        "negative_engagement": 14,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 46,
+        "top_topics": [
+          {
+            "topic_id": 18,
+            "label": "ddr / spot / prices / remains",
+            "count": 1
+          },
+          {
+            "topic_id": 11,
+            "label": "trump / donald / 人工智慧",
+            "count": 1
+          },
+          {
+            "topic_id": 12,
+            "label": "markets / gambler / volume",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Has US President Donald Trump fulfilled his pledges on the economy, national security, energy and foreign policy? With less than a week to go before Americans give their own verdict in the midterm ele",
+            "url": "https://x.com/FT/status/2115349480442593361",
+            "interaction": 16
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The best-performing gambler on the betting site, an account named ‘swisstony’, pursued high-volume strategies that appear to be algorithmically determined. It took almost 200,000 positions on the plat",
+            "url": "https://x.com/FT/status/2115345302538342619",
+            "interaction": 16
+          }
+        ],
+        "net_sentiment_smoothed": 66.7,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "hynix / sk / revenue / hbm",
+        "topic_id": 9,
+        "label": "hynix / sk / hbm / ltas",
         "cells": [
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
             "net_sentiment": 100.0,
             "volume": 1
           },
@@ -1097,7 +1067,11 @@
           },
           {
             "net_sentiment": 100.0,
-            "volume": 2
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -1118,37 +1092,33 @@
           {
             "net_sentiment": 100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 4,
-        "label": "半導體 / 台積電 / sk海力士 / 受惠",
+        "topic_id": 0,
+        "label": "半導體 / 台積電 / 受惠 / sk海力士",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -1180,12 +1150,36 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 3,
-        "label": "anthropic",
+        "topic_id": 6,
+        "label": "ipo / anthropic / shares / 台積電",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -1205,12 +1199,112 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 4
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "輝達 / google",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 60.0,
+            "volume": 5
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "anthropic",
+        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -1232,54 +1326,54 @@
             "volume": 3
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
             "net_sentiment": -100.0,
             "volume": 1
           },
           {
             "net_sentiment": 0.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
-        "topic_id": 9,
-        "label": "輝達",
+        "topic_id": 2,
+        "label": "hbm / hynix / cxmt / skhy",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -1291,29 +1385,7 @@
           },
           {
             "net_sentiment": 50.0,
-            "volume": 4
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 8,
-        "label": "蘋果 / openai",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -1329,7 +1401,7 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -1338,84 +1410,6 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 75.0,
-            "volume": 4
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 21,
-        "label": "蘋果 / 升級 / ios / 首款摺疊機",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 4
           },
           {
             "net_sentiment": 0.0,
@@ -1434,52 +1428,20 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "TrendForce",
-        "top_topic_id": 7,
-        "top_topic_label": "hbm / skhy / customers / demand",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
-      },
-      {
         "handle": "dylan522p",
-        "top_topic_id": 24,
-        "top_topic_label": "tpu / tpus / openai / google",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "SemiAnalysis_",
-        "top_topic_id": 24,
-        "top_topic_label": "tpu / tpus / openai / google",
+        "top_topic_id": 21,
+        "top_topic_label": "google / tpu / openai",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
         "handle": "tengyanAI",
-        "top_topic_id": 1,
-        "top_topic_label": "hynix / sk / revenue / hbm",
+        "top_topic_id": 9,
+        "top_topic_label": "hynix / sk / hbm / ltas",
         "focus_share": 1.0,
-        "post_count": 2,
+        "post_count": 1,
         "unclustered_posts": 0
-      },
-      {
-        "handle": "tphuang",
-        "top_topic_id": 17,
-        "top_topic_label": "electronics / profit / revenue",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "HyperTechInvest",
-        "top_topic_id": 18,
-        "top_topic_label": "ve",
-        "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 1
       },
       {
         "handle": "yutinghaosfinance",
@@ -1490,89 +1452,106 @@
         "unclustered_posts": 0
       },
       {
-        "handle": "jukan05",
-        "top_topic_id": 1,
-        "top_topic_label": "hynix / sk / revenue / hbm",
-        "focus_share": 0.556,
-        "post_count": 10,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 7,
-        "top_topic_label": "hbm / skhy / customers / demand",
-        "focus_share": 0.5,
-        "post_count": 3,
-        "unclustered_posts": 1
-      },
-      {
         "handle": "statementdog",
-        "top_topic_id": 1,
-        "top_topic_label": "hynix / sk / revenue / hbm",
+        "top_topic_id": 5,
+        "top_topic_label": "operating / revenue / hynix / profit",
         "focus_share": 0.5,
         "post_count": 2,
         "unclustered_posts": 0
       },
       {
-        "handle": "FT",
-        "top_topic_id": 11,
-        "top_topic_label": "brazil / corruption",
-        "focus_share": 0.231,
-        "post_count": 17,
-        "unclustered_posts": 4
+        "handle": "jukan05",
+        "top_topic_id": 9,
+        "top_topic_label": "hynix / sk / hbm / ltas",
+        "focus_share": 0.375,
+        "post_count": 8,
+        "unclustered_posts": 0
       },
       {
-        "handle": "ctee.fans",
-        "top_topic_id": 19,
-        "top_topic_label": "台股 / 南亞科",
-        "focus_share": 0.2,
-        "post_count": 45,
-        "unclustered_posts": 30
+        "handle": "TrendForce",
+        "top_topic_id": 18,
+        "top_topic_label": "ddr / spot / prices / remains",
+        "focus_share": 0.333,
+        "post_count": 4,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 2,
+        "top_topic_label": "hbm / hynix / cxmt / skhy",
+        "focus_share": 0.333,
+        "post_count": 5,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 12,
+        "top_topic_label": "markets / gambler / volume",
+        "focus_share": 0.231,
+        "post_count": 23,
+        "unclustered_posts": 10
       },
       {
         "handle": "technewsinside",
-        "top_topic_id": 4,
-        "top_topic_label": "半導體 / 台積電 / sk海力士 / 受惠",
-        "focus_share": 0.154,
+        "top_topic_id": 0,
+        "top_topic_label": "半導體 / 台積電 / 受惠 / sk海力士",
+        "focus_share": 0.158,
         "post_count": 62,
-        "unclustered_posts": 23
+        "unclustered_posts": 24
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 11,
+        "top_topic_label": "trump / donald / 人工智慧",
+        "focus_share": 0.143,
+        "post_count": 45,
+        "unclustered_posts": 31
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "hynix / sk / revenue / hbm",
-        "total_engagement": 3552,
-        "post_count": 9,
-        "top_account": "jukan05",
-        "top_account_engagement": 3446,
+        "topic_id": 14,
+        "label": "brazil",
+        "total_engagement": 2948,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 2948,
         "is_catchall": false
       },
       {
-        "topic_id": 24,
-        "label": "tpu / tpus / openai / google",
-        "total_engagement": 1611,
+        "topic_id": 9,
+        "label": "hynix / sk / hbm / ltas",
+        "total_engagement": 2448,
+        "post_count": 6,
+        "top_account": "jukan05",
+        "top_account_engagement": 2314,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 21,
+        "label": "google / tpu / openai",
+        "total_engagement": 871,
         "post_count": 3,
-        "top_account": "SemiAnalysis_",
-        "top_account_engagement": 907,
+        "top_account": "jukan05",
+        "top_account_engagement": 736,
         "is_catchall": false
       },
       {
         "topic_id": 11,
-        "label": "brazil / corruption",
-        "total_engagement": 1372,
-        "post_count": 3,
+        "label": "trump / donald / 人工智慧",
+        "total_engagement": 680,
+        "post_count": 4,
         "top_account": "FT",
-        "top_account_engagement": 1372,
+        "top_account_engagement": 647,
         "is_catchall": false
       },
       {
-        "topic_id": 10,
-        "label": "krw / hynix / operating / sk",
-        "total_engagement": 438,
-        "post_count": 3,
+        "topic_id": 16,
+        "label": "shanghai",
+        "total_engagement": 334,
+        "post_count": 2,
         "top_account": "jukan05",
-        "top_account_engagement": 438,
+        "top_account_engagement": 334,
         "is_catchall": false
       },
       {
@@ -1585,44 +1564,26 @@
         "is_catchall": false
       },
       {
-        "topic_id": 18,
-        "label": "ve",
-        "total_engagement": 311,
+        "topic_id": 2,
+        "label": "hbm / hynix / cxmt / skhy",
+        "total_engagement": 243,
+        "post_count": 4,
+        "top_account": "jukan05",
+        "top_account_engagement": 186,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 27,
+        "label": "南亞科 / 台股",
+        "total_engagement": 158,
         "post_count": 2,
-        "top_account": "HyperTechInvest",
-        "top_account_engagement": 311,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 12,
-        "label": "donald / trump / 人工智慧",
-        "total_engagement": 170,
-        "post_count": 3,
-        "top_account": "FT",
-        "top_account_engagement": 137,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 19,
-        "label": "台股 / 南亞科",
-        "total_engagement": 169,
-        "post_count": 3,
         "top_account": "ctee.fans",
-        "top_account_engagement": 169,
+        "top_account_engagement": 158,
         "is_catchall": false
       },
       {
-        "topic_id": 16,
-        "label": "exit / parliamentary / polls",
-        "total_engagement": 162,
-        "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 162,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
-        "label": "半導體 / 台積電 / sk海力士 / 受惠",
+        "topic_id": 0,
+        "label": "半導體 / 台積電 / 受惠 / sk海力士",
         "total_engagement": 151,
         "post_count": 6,
         "top_account": "technewsinside",
@@ -1630,16 +1591,34 @@
         "is_catchall": false
       },
       {
-        "topic_id": 29,
-        "label": "apple / iphone / rack / broken",
-        "total_engagement": 135,
+        "topic_id": 20,
+        "label": "happens / israel",
+        "total_engagement": 143,
         "post_count": 2,
         "top_account": "FT",
-        "top_account_engagement": 78,
+        "top_account_engagement": 143,
         "is_catchall": false
       },
       {
-        "topic_id": 8,
+        "topic_id": 5,
+        "label": "operating / revenue / hynix / profit",
+        "total_engagement": 128,
+        "post_count": 3,
+        "top_account": "jukan05",
+        "top_account_engagement": 96,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "輝達 / google",
+        "total_engagement": 125,
+        "post_count": 5,
+        "top_account": "technewsinside",
+        "top_account_engagement": 125,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
         "label": "蘋果 / openai",
         "total_engagement": 117,
         "post_count": 4,
@@ -1648,7 +1627,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 6,
+        "topic_id": 13,
         "label": "nand / 旺宏",
         "total_engagement": 116,
         "post_count": 2,
@@ -1657,70 +1636,52 @@
         "is_catchall": false
       },
       {
-        "topic_id": 22,
-        "label": "wednesday",
-        "total_engagement": 113,
-        "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 113,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 20,
-        "label": "salaries / elite / firms / consulting",
-        "total_engagement": 111,
-        "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 111,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 21,
-        "label": "蘋果 / 升級 / ios / 首款摺疊機",
-        "total_engagement": 99,
-        "post_count": 4,
-        "top_account": "technewsinside",
-        "top_account_engagement": 99,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 9,
-        "label": "輝達",
-        "total_engagement": 91,
-        "post_count": 4,
-        "top_account": "technewsinside",
-        "top_account_engagement": 91,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 17,
-        "label": "electronics / profit / revenue",
-        "total_engagement": 85,
-        "post_count": 3,
-        "top_account": "QQ_Timmy",
-        "top_account_engagement": 40,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 5,
-        "label": "ipo / anthropic / 台積電",
-        "total_engagement": 84,
-        "post_count": 4,
+        "topic_id": 6,
+        "label": "ipo / anthropic / shares / 台積電",
+        "total_engagement": 95,
+        "post_count": 5,
         "top_account": "technewsinside",
         "top_account_engagement": 84,
         "is_catchall": false
       },
       {
-        "topic_id": 26,
-        "label": "下同 / 日公布 / 人工智慧",
-        "total_engagement": 83,
+        "topic_id": 12,
+        "label": "markets / gambler / volume",
+        "total_engagement": 87,
         "post_count": 3,
-        "top_account": "ctee.fans",
-        "top_account_engagement": 83,
+        "top_account": "FT",
+        "top_account_engagement": 87,
         "is_catchall": false
       },
       {
-        "topic_id": 15,
+        "topic_id": 8,
+        "label": "electronics / revenue",
+        "total_engagement": 80,
+        "post_count": 2,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 71,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 28,
+        "label": "日公布 / 下同 / 人工智慧",
+        "total_engagement": 62,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 62,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 25,
+        "label": "首款摺疊機 / iphoneduo / 蘋果 / ios",
+        "total_engagement": 60,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 60,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 19,
         "label": "量子運算",
         "total_engagement": 58,
         "post_count": 2,
@@ -1729,7 +1690,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 23,
+        "topic_id": 24,
         "label": "資料中心",
         "total_engagement": 56,
         "post_count": 2,
@@ -1738,7 +1699,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 13,
+        "topic_id": 17,
         "label": "微軟",
         "total_engagement": 51,
         "post_count": 3,
@@ -1747,16 +1708,25 @@
         "is_catchall": false
       },
       {
-        "topic_id": 25,
-        "label": "arm / healey",
+        "topic_id": 22,
+        "label": "listing / anthropic",
         "total_engagement": 40,
         "post_count": 2,
-        "top_account": "technewsinside",
-        "top_account_engagement": 21,
+        "top_account": "FT",
+        "top_account_engagement": 40,
         "is_catchall": false
       },
       {
-        "topic_id": 27,
+        "topic_id": 23,
+        "label": "升級 / 蘋果 / ios",
+        "total_engagement": 39,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 39,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
         "label": "oled / 蘋果",
         "total_engagement": 38,
         "post_count": 2,
@@ -1765,25 +1735,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 28,
-        "label": "google / 輝達",
-        "total_engagement": 35,
+        "topic_id": 18,
+        "label": "ddr / spot / prices / remains",
+        "total_engagement": 28,
         "post_count": 2,
-        "top_account": "technewsinside",
-        "top_account_engagement": 35,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 7,
-        "label": "hbm / skhy / customers / demand",
-        "total_engagement": 34,
-        "post_count": 3,
-        "top_account": "technewsinside",
+        "top_account": "TrendForce",
         "top_account_engagement": 14,
         "is_catchall": false
       },
       {
-        "topic_id": 14,
+        "topic_id": 7,
         "label": "名家評論",
         "total_engagement": 26,
         "post_count": 2,
@@ -1792,7 +1753,16 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
+        "topic_id": 29,
+        "label": "下同",
+        "total_engagement": 21,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 21,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 26,
         "label": "刷新歷史紀錄 / sk海力士",
         "total_engagement": 9,
         "post_count": 2,
@@ -1801,28 +1771,28 @@
         "is_catchall": false
       },
       {
-        "topic_id": 2,
-        "label": "其他（未分群，61 篇）",
-        "total_engagement": 3622,
-        "post_count": 61,
+        "topic_id": 1,
+        "label": "其他（未分群，68 篇）",
+        "total_engagement": 3472,
+        "post_count": 68,
         "top_account": "ctee.fans",
-        "top_account_engagement": 1819,
+        "top_account_engagement": 1873,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 137,
-          "likes": 9851,
-          "engagement": 11360,
-          "avg_engagement": 82.9
+          "post_count": 124,
+          "likes": 9293,
+          "engagement": 11248,
+          "avg_engagement": 90.7
         },
         "afternoon": {
-          "post_count": 2,
-          "likes": 5,
-          "engagement": 13,
-          "avg_engagement": 6.5
+          "post_count": 28,
+          "likes": 1191,
+          "engagement": 1749,
+          "avg_engagement": 62.5
         },
         "evening": {
           "post_count": 0,
@@ -1831,10 +1801,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 11,
-          "likes": 1579,
-          "engagement": 1879,
-          "avg_engagement": 170.8
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         }
       },
       "peak_slot": "morning"
