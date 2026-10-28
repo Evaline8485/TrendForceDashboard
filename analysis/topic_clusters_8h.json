@@ -1,27 +1,162 @@
 {
   "clusters": [
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
-      "size": 2,
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 16,
       "accounts": {
-        "yutinghaosfinance": 2
+        "technewsinside": 11,
+        "ctee.fans": 4,
+        "yutinghaosfinance": 1
       },
       "engagement_by_account": {
-        "yutinghaosfinance": 660
+        "technewsinside": 225,
+        "ctee.fans": 71,
+        "yutinghaosfinance": 225
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 15,
+      "accounts": {
+        "technewsinside": 11,
+        "ctee.fans": 4
+      },
+      "engagement_by_account": {
+        "technewsinside": 413,
+        "ctee.fans": 180
       }
     },
     {
       "id": "O",
       "label": "邊緣 AI / 新終端",
-      "size": 2,
+      "size": 15,
       "accounts": {
-        "TrendForce": 1,
-        "yutinghaosfinance": 1
+        "technewsinside": 13,
+        "ctee.fans": 2
       },
       "engagement_by_account": {
-        "TrendForce": 10,
-        "yutinghaosfinance": 566
+        "technewsinside": 389,
+        "ctee.fans": 73
+      }
+    },
+    {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 10,
+      "accounts": {
+        "technewsinside": 5,
+        "ctee.fans": 5
+      },
+      "engagement_by_account": {
+        "technewsinside": 179,
+        "ctee.fans": 189
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 9,
+      "accounts": {
+        "ctee.fans": 9
+      },
+      "engagement_by_account": {
+        "ctee.fans": 278
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 8,
+      "accounts": {
+        "technewsinside": 5,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 129,
+        "ctee.fans": 95
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 4,
+      "accounts": {
+        "technewsinside": 4
+      },
+      "engagement_by_account": {
+        "technewsinside": 114
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 3,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "technewsinside": 28,
+        "ctee.fans": 59
+      }
+    },
+    {
+      "id": "Q",
+      "label": "機器人 / Robotics",
+      "size": 3,
+      "accounts": {
+        "technewsinside": 2,
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 93,
+        "ctee.fans": 18
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 31
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 2,
+      "accounts": {
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "ctee.fans": 71
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 2,
+      "accounts": {
+        "technewsinside": 2
+      },
+      "engagement_by_account": {
+        "technewsinside": 76
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 29
       }
     },
     {
@@ -29,30 +164,195 @@
       "label": "總經 / Fed",
       "size": 1,
       "accounts": {
-        "yutinghaosfinance": 1
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "yutinghaosfinance": 250
+        "ctee.fans": 0
       }
     },
     {
-      "id": "M",
-      "label": "台股市場",
+      "id": "R",
+      "label": "散熱 / HVAC",
       "size": 1,
       "accounts": {
-        "yutinghaosfinance": 1
+        "technewsinside": 1
       },
       "engagement_by_account": {
-        "yutinghaosfinance": 1309
+        "technewsinside": 42
+      }
+    },
+    {
+      "id": "S",
+      "label": "電網 / 能源基礎設施",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 34
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 9,
+      "competitor_engagement": 278,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股記憶體族群今（27）日火力全開，成為盤面最強勢的族群之一！韓國股市早盤大漲逾4%，三星電子股價上漲逾4%，SK海力士更飆漲超過6%，帶動台股相關個股買氣急升，南亞科（2408）盤中一度大漲逾8%，晶豪科（3006）、華邦電（2344）、十銓（4967）、力積電（6770）、愛普*（6531）及旺宏（2337）也同步上漲逾3%。今日…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0wzuVSuF39ZzxXeskuDUzYnEM6VAK54aQou26UYfdKtNMGiF3aKWeYTJUSfvG2deNl?__cft__[0]=AZjVrp4moLUHtMcagpubwK6MM108BtUXAN8jEWycmQ6n4I0npwjLcIs-pxHJVR3iUv-Bvgy_W4D3K9asD52_i0SY0N0lY6UAPt-ufb29ET_2cwPXWLGbPjojvG0J0Ss8C1yjpoi1PLuXHlEXu8fPJXhZfeKRMYO90ddTSwYxk2qFqFzhjMmV7UqUgpg",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 135
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "中央銀行27日公布9月金融情況，與台股相關的三大指標全數締造歷史新高。其中散戶對台股的投資信心指標「證券劃撥存款餘額」連兩升，9月升抵4兆6,981億元創下歷史新高，單月大增1,269億元；股價平均指數46,911點，同樣為歷史新高，單月大增1,786點；股市融資餘額8,343億元，月增754億元，同步締造新高。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02tYwY4bRXsUJJFh1ngW1B2LySSd8RxDg38dRp2dfLGN9yXsDBpxzA2Nm46EcfcLGml?__cft__[0]=AZgSxZalUgOqRUJq135Hzo8303jdYb0cqVjttyHi-YRlM0xwujKo6u60Gz1qFAWaiKciS45QTgJXznyTgbZocWW5pveLTQPkni_fPwen3iEqV58yHnyRg9FL1XbeF4VvSpS0WEnhMV5ASTbodPmhYg_JoMWTF_UbkvqW9lnw6EZUdjq0R2_2E7wxL7U",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 27
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "全球科技股再度籠罩AI投資疑慮雜音而苦陷跌勢風暴，台股加權指數22日失守季線。反觀投信則趁機逢低撿便宜，連10日買超台股，成為盤面重要多頭勢力，力抗外資大額提款。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02ixdAcyAUv9rZAK2thzrxXhNXrJaTkQv2azZ7fPAC8yBzh1oe2XchZtJ59mzwAa1Jl?__cft__[0]=AZjW8V0qnXB_CvkoYLl6ZvkAEF8HebYEUvgdpv57GM_c2lA7Ce43cbupkRmhHvscjtftijhek5d7AT166I_SIlF9uQmMujNJJGnje6Z-yVlOMg81DnhuWQyAymS2WYEN2NC38BD6y4cX1TUQn-SnEBnEcGwdhhlhuEAyj-I-2XcP-p2UX13wqXsAKmY",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 27
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "光復節連假結束，外資對台北股匯市同步縮減賣壓，台股終場上漲54點收46,096點，成交量放大至1.03兆元近六日最多，新台幣匯率先貶後升，終場收在32.452元，升值5.6分，成交量34.36億美元。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0oru7XjdztqA6kG6273b2H3TXdMXdLv3rpwmi38kTkufGU43FKM8PdsfJkzUdYqvXl?__cft__[0]=AZi0bhQvfPcRedKeEVZqSIOOKTIhu9-W1wy2ddsp7CLfIENZIpnPN3QWIB8KBDLn5L635ACnTTACVIJo3VqPnpYZ2itm5R5kfMhmvUISeDEbJ7pnmWI3-MCcHzhL94uJzs1dJ1T_K6YWn6lcZvCoXqh3P4mQpZ1IP7vgEQoB81abvMW4O1IYv7gsyrs",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 25
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【美光重返900美元！台股10檔記憶體股反彈 南亞科、華邦電漲逾5%】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02THT4mkziEqFdcR9BHT59gA8fA1jC6PFizAUsZonoGJ98BTycmKAozCeFSUZYoD8xl?__cft__[0]=AZiNDNmswY9uNclyPWrTJKlmorJ-tKLi7pEURXN1NWekfYxTkvrwhHeRqq-h4RgAVpP0kHDQ67Fpd-2h1EjRetPRVmOLPilLeo9VN8XMGkpDITRsIEL-Y-WguOPRBURFORva_mvQv9Npl2_GAivm5lJQcr6usf_8St9uQ5Kzi3USr1wTy-HzSoT0XOY",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 23
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美國標普發出AI負債風險警告，但科技巨頭仍持續砸下上兆美元布局人工智慧基礎建設，台股能否續攻5萬點，成為市場關注焦點，面對指數高檔震盪、績優股跌破季線，國泰證期顧問分析師郭經緯指出，市場拉回未必只有風險，也可能浮現中長線布局機會，投資人可從基本面高成長、股價評價修正，以及投信認同三大條件切入，尋找跌深黑馬股。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02gYcmJPEWb3FeBhnL9nCAW22tPtd1smSc1969CigRXmyXwNz8aYER3sG7Y9C57aDzl?__cft__[0]=AZj4bU8JXKN6E6Rv35vokEg8BHFvUwGrFgb_woZOivNmaDlDEyq5LgTgRd6uLIxHy47IqtJXrm5L15GNsKI-Y-EoiBQotmLYa-j9hC3Yy6yd2IitHQi-2-7tNCoRSXAAQpkgLcAELlYplQuYE4P_dHmzbNfRHiCLCoBesBYPAMsvY9jZja8ZxNTdH4o",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 19
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股11月行情迎來二大關鍵變數：本周「超級央行周」重磅登場，美、歐、日三大央行利率決策接力出爐，美國11月3日期中選舉也進入倒數，預期台股短線震盪難免，惟選後有望重啟攻勢，年底續拚50,000點大關。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02EGhWD82GH2TYXXXc8mMqiuookUASKCgd2NwzY4Xkv2u3Z2yKwVjadaviPSf6NgEel?__cft__[0]=AZhXCtzbbqP-6vCVqjDnYGOqwdiLkW-jd3fknp0oXTLQqJAzJnK9JCsIzEHGAxtyxvOKaqy5E1KdlWLIU5uu5H04NsvdVrjsjAgMt8tFl1rw45LqczFJSeJYN09WWYRM3mYAyQB8YGJxourKYFb2-gulv0mBJf0DLaWjNi1BU0S-WqsIqNuLrGI3uiE",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 11
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【10／27盤中熱門焦點股】\n✓ 記憶體股噴出！南亞科飆8％、多檔跟著衝…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0ZeULjo9LdYoJsyZNsyC9hwnpAnA6mTcjjomQE3icEByhhfn3tEKSEJCrAHnGC1j8l?__cft__[0]=AZhrhB6L_vNWHZ97bP445InLqQcVP6qAsq7Kha9jBtTjdUSIHmhprxdl9pkw798IstKszv5Aeksu3HpADOquO2AvoqJgL3CqnuuXd-TNBxQUGERyUYF2eICTkj-vDLRgJVotcEpboKDRYCPzik_TddU6KIAOWgvUv674v8usnKge_RYL3Z8depciSQY",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 11
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 9,
+      "competitor_engagement": 278,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股記憶體族群今（27）日火力全開，成為盤面最強勢的族群之一！韓國股市早盤大漲逾4%，三星電子股價上漲逾4%，SK海力士更飆漲超過6%，帶動台股相關個股買氣急升，南亞科（2408）盤中一度大漲逾8%，晶豪科（3006）、華邦電（2344）、十銓（4967）、力積電（6770）、愛普*（6531）及旺宏（2337）也同步上漲逾3%。今日…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0wzuVSuF39ZzxXeskuDUzYnEM6VAK54aQou26UYfdKtNMGiF3aKWeYTJUSfvG2deNl?__cft__[0]=AZjVrp4moLUHtMcagpubwK6MM108BtUXAN8jEWycmQ6n4I0npwjLcIs-pxHJVR3iUv-Bvgy_W4D3K9asD52_i0SY0N0lY6UAPt-ufb29ET_2cwPXWLGbPjojvG0J0Ss8C1yjpoi1PLuXHlEXu8fPJXhZfeKRMYO90ddTSwYxk2qFqFzhjMmV7UqUgpg",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 135
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "中央銀行27日公布9月金融情況，與台股相關的三大指標全數締造歷史新高。其中散戶對台股的投資信心指標「證券劃撥存款餘額」連兩升，9月升抵4兆6,981億元創下歷史新高，單月大增1,269億元；股價平均指數46,911點，同樣為歷史新高，單月大增1,786點；股市融資餘額8,343億元，月增754億元，同步締造新高。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02tYwY4bRXsUJJFh1ngW1B2LySSd8RxDg38dRp2dfLGN9yXsDBpxzA2Nm46EcfcLGml?__cft__[0]=AZgSxZalUgOqRUJq135Hzo8303jdYb0cqVjttyHi-YRlM0xwujKo6u60Gz1qFAWaiKciS45QTgJXznyTgbZocWW5pveLTQPkni_fPwen3iEqV58yHnyRg9FL1XbeF4VvSpS0WEnhMV5ASTbodPmhYg_JoMWTF_UbkvqW9lnw6EZUdjq0R2_2E7wxL7U",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 27
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "全球科技股再度籠罩AI投資疑慮雜音而苦陷跌勢風暴，台股加權指數22日失守季線。反觀投信則趁機逢低撿便宜，連10日買超台股，成為盤面重要多頭勢力，力抗外資大額提款。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02ixdAcyAUv9rZAK2thzrxXhNXrJaTkQv2azZ7fPAC8yBzh1oe2XchZtJ59mzwAa1Jl?__cft__[0]=AZjW8V0qnXB_CvkoYLl6ZvkAEF8HebYEUvgdpv57GM_c2lA7Ce43cbupkRmhHvscjtftijhek5d7AT166I_SIlF9uQmMujNJJGnje6Z-yVlOMg81DnhuWQyAymS2WYEN2NC38BD6y4cX1TUQn-SnEBnEcGwdhhlhuEAyj-I-2XcP-p2UX13wqXsAKmY",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 27
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "光復節連假結束，外資對台北股匯市同步縮減賣壓，台股終場上漲54點收46,096點，成交量放大至1.03兆元近六日最多，新台幣匯率先貶後升，終場收在32.452元，升值5.6分，成交量34.36億美元。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0oru7XjdztqA6kG6273b2H3TXdMXdLv3rpwmi38kTkufGU43FKM8PdsfJkzUdYqvXl?__cft__[0]=AZi0bhQvfPcRedKeEVZqSIOOKTIhu9-W1wy2ddsp7CLfIENZIpnPN3QWIB8KBDLn5L635ACnTTACVIJo3VqPnpYZ2itm5R5kfMhmvUISeDEbJ7pnmWI3-MCcHzhL94uJzs1dJ1T_K6YWn6lcZvCoXqh3P4mQpZ1IP7vgEQoB81abvMW4O1IYv7gsyrs",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 25
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【美光重返900美元！台股10檔記憶體股反彈 南亞科、華邦電漲逾5%】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02THT4mkziEqFdcR9BHT59gA8fA1jC6PFizAUsZonoGJ98BTycmKAozCeFSUZYoD8xl?__cft__[0]=AZiNDNmswY9uNclyPWrTJKlmorJ-tKLi7pEURXN1NWekfYxTkvrwhHeRqq-h4RgAVpP0kHDQ67Fpd-2h1EjRetPRVmOLPilLeo9VN8XMGkpDITRsIEL-Y-WguOPRBURFORva_mvQv9Npl2_GAivm5lJQcr6usf_8St9uQ5Kzi3USr1wTy-HzSoT0XOY",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 23
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美國標普發出AI負債風險警告，但科技巨頭仍持續砸下上兆美元布局人工智慧基礎建設，台股能否續攻5萬點，成為市場關注焦點，面對指數高檔震盪、績優股跌破季線，國泰證期顧問分析師郭經緯指出，市場拉回未必只有風險，也可能浮現中長線布局機會，投資人可從基本面高成長、股價評價修正，以及投信認同三大條件切入，尋找跌深黑馬股。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02gYcmJPEWb3FeBhnL9nCAW22tPtd1smSc1969CigRXmyXwNz8aYER3sG7Y9C57aDzl?__cft__[0]=AZj4bU8JXKN6E6Rv35vokEg8BHFvUwGrFgb_woZOivNmaDlDEyq5LgTgRd6uLIxHy47IqtJXrm5L15GNsKI-Y-EoiBQotmLYa-j9hC3Yy6yd2IitHQi-2-7tNCoRSXAAQpkgLcAELlYplQuYE4P_dHmzbNfRHiCLCoBesBYPAMsvY9jZja8ZxNTdH4o",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 19
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股11月行情迎來二大關鍵變數：本周「超級央行周」重磅登場，美、歐、日三大央行利率決策接力出爐，美國11月3日期中選舉也進入倒數，預期台股短線震盪難免，惟選後有望重啟攻勢，年底續拚50,000點大關。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02EGhWD82GH2TYXXXc8mMqiuookUASKCgd2NwzY4Xkv2u3Z2yKwVjadaviPSf6NgEel?__cft__[0]=AZhXCtzbbqP-6vCVqjDnYGOqwdiLkW-jd3fknp0oXTLQqJAzJnK9JCsIzEHGAxtyxvOKaqy5E1KdlWLIU5uu5H04NsvdVrjsjAgMt8tFl1rw45LqczFJSeJYN09WWYRM3mYAyQB8YGJxourKYFb2-gulv0mBJf0DLaWjNi1BU0S-WqsIqNuLrGI3uiE",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 11
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【10／27盤中熱門焦點股】\n✓ 記憶體股噴出！南亞科飆8％、多檔跟著衝…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0ZeULjo9LdYoJsyZNsyC9hwnpAnA6mTcjjomQE3icEByhhfn3tEKSEJCrAHnGC1j8l?__cft__[0]=AZhrhB6L_vNWHZ97bP445InLqQcVP6qAsq7Kha9jBtTjdUSIHmhprxdl9pkw798IstKszv5Aeksu3HpADOquO2AvoqJgL3CqnuuXd-TNBxQUGERyUYF2eICTkj-vDLRgJVotcEpboKDRYCPzik_TddU6KIAOWgvUv674v8usnKge_RYL3Z8depciSQY",
+          "timestamp": "2026-10-28T03:15:45.142651+00:00",
+          "interaction": 11
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-27T09:38:15.746817+00:00",
-    "end_utc": "2026-10-27T17:38:15.746817+00:00",
-    "start_tw": "Oct 27, 17:38",
-    "end_tw": "Oct 28, 01:38"
+    "start_utc": "2026-10-27T19:55:51.040625+00:00",
+    "end_utc": "2026-10-28T03:55:51.040625+00:00",
+    "start_tw": "Oct 28, 03:55",
+    "end_tw": "Oct 28, 11:55"
   }
 }
