@@ -3,61 +3,18 @@
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 10,
-      "accounts": {
-        "TrendForce": 2,
-        "jukan05": 1,
-        "QQ_Timmy": 2,
-        "technewsinside": 4,
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "TrendForce": 31,
-        "jukan05": 186,
-        "QQ_Timmy": 21,
-        "technewsinside": 79,
-        "ctee.fans": 5
-      }
-    },
-    {
-      "id": "M",
-      "label": "台股市場",
       "size": 6,
       "accounts": {
-        "technewsinside": 2,
-        "ctee.fans": 4
+        "TrendForce": 1,
+        "jukan05": 3,
+        "QQ_Timmy": 1,
+        "dnystedt": 1
       },
       "engagement_by_account": {
-        "technewsinside": 148,
-        "ctee.fans": 70
-      }
-    },
-    {
-      "id": "K",
-      "label": "AI 模型 / 應用",
-      "size": 5,
-      "accounts": {
-        "FT": 1,
-        "technewsinside": 3,
-        "ctee.fans": 1
-      },
-      "engagement_by_account": {
-        "FT": 38,
-        "technewsinside": 118,
-        "ctee.fans": 22
-      }
-    },
-    {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 4,
-      "accounts": {
-        "technewsinside": 2,
-        "ctee.fans": 2
-      },
-      "engagement_by_account": {
-        "technewsinside": 16,
-        "ctee.fans": 79
+        "TrendForce": 18,
+        "jukan05": 2344,
+        "QQ_Timmy": 7,
+        "dnystedt": 16
       }
     },
     {
@@ -65,23 +22,29 @@
       "label": "CSP / 資料中心",
       "size": 4,
       "accounts": {
-        "technewsinside": 3,
-        "ctee.fans": 1
+        "FT": 1,
+        "statementdog": 2,
+        "dnystedt": 1
       },
       "engagement_by_account": {
-        "technewsinside": 46,
-        "ctee.fans": 22
+        "FT": 20,
+        "statementdog": 17,
+        "dnystedt": 16
       }
     },
     {
-      "id": "F",
-      "label": "晶圓代工 / 先進製程",
-      "size": 4,
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 3,
       "accounts": {
-        "technewsinside": 4
+        "TrendForce": 1,
+        "jukan05": 1,
+        "tengyanAI": 1
       },
       "engagement_by_account": {
-        "technewsinside": 37
+        "TrendForce": 10,
+        "jukan05": 123,
+        "tengyanAI": 57
       }
     },
     {
@@ -89,27 +52,27 @@
       "label": "網通 / 光通訊",
       "size": 3,
       "accounts": {
-        "FT": 1,
-        "technewsinside": 1,
-        "ctee.fans": 1
+        "TrendForce": 1,
+        "QQ_Timmy": 1,
+        "tengyanAI": 1
       },
       "engagement_by_account": {
-        "FT": 11,
-        "technewsinside": 4,
-        "ctee.fans": 57
+        "TrendForce": 10,
+        "QQ_Timmy": 7,
+        "tengyanAI": 57
       }
     },
     {
-      "id": "C",
-      "label": "ASIC / 自研晶片",
+      "id": "B",
+      "label": "GPU / AI 加速器",
       "size": 2,
       "accounts": {
-        "technewsinside": 1,
-        "ctee.fans": 1
+        "TrendForce": 1,
+        "QQ_Timmy": 1
       },
       "engagement_by_account": {
-        "technewsinside": 20,
-        "ctee.fans": 22
+        "TrendForce": 10,
+        "QQ_Timmy": 7
       }
     },
     {
@@ -117,43 +80,232 @@
       "label": "邊緣 AI / 新終端",
       "size": 2,
       "accounts": {
-        "TrendForce.tw": 1,
-        "technewsinside": 1
+        "jukan05": 2
       },
       "engagement_by_account": {
-        "TrendForce.tw": 2,
-        "technewsinside": 3
+        "jukan05": 1936
       }
     },
     {
-      "id": "E",
-      "label": "AI 伺服器供應鏈",
+      "id": "L",
+      "label": "總經 / Fed",
       "size": 1,
       "accounts": {
-        "ctee.fans": 1
+        "FT": 1
       },
       "engagement_by_account": {
-        "ctee.fans": 5
-      }
-    },
-    {
-      "id": "G",
-      "label": "IC 設計",
-      "size": 1,
-      "accounts": {
-        "technewsinside": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 26
+        "FT": 17
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 1,
+      "competitor_count": 5,
+      "competitor_engagement": 2367,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy",
+        "dnystedt"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "\"Apple had access to its NAND flash suppliers’ books and reviewed them so often that it even got a discount from Deloitte.\"  LMAO  #BoycottApple",
+          "url": "https://x.com/jukan05/status/2115678663559766229",
+          "timestamp": "2026-10-29T13:34:35.000+08:00",
+          "interaction": 1729
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Samsung’s earnings next year are going to be phenomenal...  Take a look at this comment from Samsung’s earnings call today.  Jaejune Kim, Executive Vice President of the Memory Business in Samsung Electronics’ Device Solutions (DS) division, said on the conference call following",
+          "url": "https://x.com/jukan05/status/2115660598470222036",
+          "timestamp": "2026-10-29T12:22:48.000+08:00",
+          "interaction": 408
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Now you see why Micron hates Apple so much, right?",
+          "url": "https://x.com/jukan05/status/2115679858269593713",
+          "timestamp": "2026-10-29T13:39:20.000+08:00",
+          "interaction": 207
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Samsung Electronics raised its 2026 semiconductor capex plan to ₩76.8 trillion won (US$53 billion), from ₩47.5 trillion last year ($33.4 billion) amid strong AI-related demand expected to continue for years, executives said during its 3rd quarter conference. ₩52.8T has already",
+          "url": "https://x.com/dnystedt/status/2115710814598635769",
+          "timestamp": "2026-10-29T15:42:20.000+08:00",
+          "interaction": 16
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "SK hynix（ $HXSCL, 000660.KS）〈Tech Note：矽光子與CPO打造「光之高速公路」〉  1、核心問題 1）AI工廠效能取決於資料傳輸，而非僅GPU算力；傳輸路徑太窄時GPU會閒置等待資料。 2）GPU越快，記憶體與網路頻寬越成為瓶頸。  2、銅與光分工",
+          "url": "https://x.com/QQ_Timmy/status/2115686043722871087",
+          "timestamp": "2026-10-29T14:03:55.000+08:00",
+          "interaction": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 53,
+      "competitors_covering": [
+        "FT",
+        "statementdog",
+        "dnystedt"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Futures contracts tracking the Nasdaq 100 pointed to the tech-heavy index opening 1.3% lower, after Google parent Alphabet and Microsoft reported lower than expected capex  https:// ft.trib.al/osJeaLp",
+          "url": "https://x.com/FT/status/2115672880214098400",
+          "timestamp": "2026-10-29T13:11:36.000+08:00",
+          "interaction": 20
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Samsung Electronics raised its 2026 semiconductor capex plan to ₩76.8 trillion won (US$53 billion), from ₩47.5 trillion last year ($33.4 billion) amid strong AI-related demand expected to continue for years, executives said during its 3rd quarter conference. ₩52.8T has already",
+          "url": "https://x.com/dnystedt/status/2115710814598635769",
+          "timestamp": "2026-10-29T15:42:20.000+08:00",
+          "interaction": 16
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Google Cloud revenue more than doubled in Q3, while Search advertising continued to grow. Equity investment losses pulled Alphabet’s earnings lower, and higher capital spending left free cash flow negative for a second straight quarter.  Alphabet reported revenue of $127.6",
+          "url": "https://x.com/statementdog/status/2115687627081109525",
+          "timestamp": "2026-10-29T14:10:12.000+08:00",
+          "interaction": 9
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Microsoft’s cloud growth accelerated in the September quarter, but a sharp rise in capital spending squeezed free cash flow.  Revenue rose 19% year over year to $92.3 billion, while operating income increased 21% to $45.9 billion. Microsoft Cloud revenue grew 30% to $63.9",
+          "url": "https://x.com/statementdog/status/2115671139846611389",
+          "timestamp": "2026-10-29T13:04:41.000+08:00",
+          "interaction": 8
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 1,
+      "competitor_count": 5,
+      "competitor_engagement": 2367,
+      "competitors_covering": [
+        "jukan05",
+        "QQ_Timmy",
+        "dnystedt"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "\"Apple had access to its NAND flash suppliers’ books and reviewed them so often that it even got a discount from Deloitte.\"  LMAO  #BoycottApple",
+          "url": "https://x.com/jukan05/status/2115678663559766229",
+          "timestamp": "2026-10-29T13:34:35.000+08:00",
+          "interaction": 1729
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Samsung’s earnings next year are going to be phenomenal...  Take a look at this comment from Samsung’s earnings call today.  Jaejune Kim, Executive Vice President of the Memory Business in Samsung Electronics’ Device Solutions (DS) division, said on the conference call following",
+          "url": "https://x.com/jukan05/status/2115660598470222036",
+          "timestamp": "2026-10-29T12:22:48.000+08:00",
+          "interaction": 408
+        },
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "Now you see why Micron hates Apple so much, right?",
+          "url": "https://x.com/jukan05/status/2115679858269593713",
+          "timestamp": "2026-10-29T13:39:20.000+08:00",
+          "interaction": 207
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Samsung Electronics raised its 2026 semiconductor capex plan to ₩76.8 trillion won (US$53 billion), from ₩47.5 trillion last year ($33.4 billion) amid strong AI-related demand expected to continue for years, executives said during its 3rd quarter conference. ₩52.8T has already",
+          "url": "https://x.com/dnystedt/status/2115710814598635769",
+          "timestamp": "2026-10-29T15:42:20.000+08:00",
+          "interaction": 16
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "SK hynix（ $HXSCL, 000660.KS）〈Tech Note：矽光子與CPO打造「光之高速公路」〉  1、核心問題 1）AI工廠效能取決於資料傳輸，而非僅GPU算力；傳輸路徑太窄時GPU會閒置等待資料。 2）GPU越快，記憶體與網路頻寬越成為瓶頸。  2、銅與光分工",
+          "url": "https://x.com/QQ_Timmy/status/2115686043722871087",
+          "timestamp": "2026-10-29T14:03:55.000+08:00",
+          "interaction": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 53,
+      "competitors_covering": [
+        "FT",
+        "statementdog",
+        "dnystedt"
+      ],
+      "sample_posts": [
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Futures contracts tracking the Nasdaq 100 pointed to the tech-heavy index opening 1.3% lower, after Google parent Alphabet and Microsoft reported lower than expected capex  https:// ft.trib.al/osJeaLp",
+          "url": "https://x.com/FT/status/2115672880214098400",
+          "timestamp": "2026-10-29T13:11:36.000+08:00",
+          "interaction": 20
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Samsung Electronics raised its 2026 semiconductor capex plan to ₩76.8 trillion won (US$53 billion), from ₩47.5 trillion last year ($33.4 billion) amid strong AI-related demand expected to continue for years, executives said during its 3rd quarter conference. ₩52.8T has already",
+          "url": "https://x.com/dnystedt/status/2115710814598635769",
+          "timestamp": "2026-10-29T15:42:20.000+08:00",
+          "interaction": 16
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Google Cloud revenue more than doubled in Q3, while Search advertising continued to grow. Equity investment losses pulled Alphabet’s earnings lower, and higher capital spending left free cash flow negative for a second straight quarter.  Alphabet reported revenue of $127.6",
+          "url": "https://x.com/statementdog/status/2115687627081109525",
+          "timestamp": "2026-10-29T14:10:12.000+08:00",
+          "interaction": 9
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Microsoft’s cloud growth accelerated in the September quarter, but a sharp rise in capital spending squeezed free cash flow.  Revenue rose 19% year over year to $92.3 billion, while operating income increased 21% to $45.9 billion. Microsoft Cloud revenue grew 30% to $63.9",
+          "url": "https://x.com/statementdog/status/2115671139846611389",
+          "timestamp": "2026-10-29T13:04:41.000+08:00",
+          "interaction": 8
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-28T04:58:50.091452+00:00",
-    "end_utc": "2026-10-28T08:58:50.091452+00:00",
-    "start_tw": "Oct 28, 12:58",
-    "end_tw": "Oct 28, 16:58"
+    "start_utc": "2026-10-29T11:42:39+08:00",
+    "end_utc": "2026-10-29T15:42:39+08:00",
+    "start_tw": "Oct 29, 11:42",
+    "end_tw": "Oct 29, 15:42"
   }
 }
