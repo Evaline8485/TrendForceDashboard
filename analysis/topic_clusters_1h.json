@@ -1,45 +1,448 @@
 {
   "clusters": [
     {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 1,
-      "accounts": {
-        "dnystedt": 1
-      },
-      "engagement_by_account": {
-        "dnystedt": 16
-      }
-    },
-    {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 1,
+      "size": 14,
       "accounts": {
-        "dnystedt": 1
+        "technewsinside": 6,
+        "ctee.fans": 4,
+        "yutinghaosfinance": 4
       },
       "engagement_by_account": {
-        "dnystedt": 16
+        "technewsinside": 79,
+        "ctee.fans": 117,
+        "yutinghaosfinance": 910
       }
     },
     {
       "id": "L",
       "label": "總經 / Fed",
-      "size": 1,
+      "size": 7,
       "accounts": {
-        "FT": 1
+        "ctee.fans": 6,
+        "yutinghaosfinance": 1
       },
       "engagement_by_account": {
-        "FT": 17
+        "ctee.fans": 162,
+        "yutinghaosfinance": 287
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 6,
+      "accounts": {
+        "technewsinside": 3,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 197,
+        "ctee.fans": 145
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 6,
+      "accounts": {
+        "ctee.fans": 6
+      },
+      "engagement_by_account": {
+        "ctee.fans": 125
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 6,
+      "accounts": {
+        "technewsinside": 6
+      },
+      "engagement_by_account": {
+        "technewsinside": 208
+      }
+    },
+    {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 5,
+      "accounts": {
+        "TrendForce.tw": 1,
+        "technewsinside": 1,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "TrendForce.tw": 13,
+        "technewsinside": 21,
+        "ctee.fans": 56
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 5,
+      "accounts": {
+        "technewsinside": 2,
+        "ctee.fans": 3
+      },
+      "engagement_by_account": {
+        "technewsinside": 147,
+        "ctee.fans": 90
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 5,
+      "accounts": {
+        "technewsinside": 3,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "technewsinside": 159,
+        "ctee.fans": 49
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 4,
+      "accounts": {
+        "technewsinside": 2,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "technewsinside": 24,
+        "ctee.fans": 58
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 3,
+      "accounts": {
+        "TrendForce.tw": 1,
+        "ctee.fans": 2
+      },
+      "engagement_by_account": {
+        "TrendForce.tw": 4,
+        "ctee.fans": 69
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 2,
+      "accounts": {
+        "TrendForce.tw": 1,
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "TrendForce.tw": 4,
+        "technewsinside": 7
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 72
+      }
+    },
+    {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 0
+      }
+    },
+    {
+      "id": "S",
+      "label": "電網 / 能源基礎設施",
+      "size": 1,
+      "accounts": {
+        "technewsinside": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 12
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "L",
+      "label": "總經 / Fed",
+      "own_count": 0,
+      "competitor_count": 7,
+      "competitor_engagement": 449,
+      "competitors_covering": [
+        "ctee.fans",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "2026/10/29(四)微軟噴谷歌崩 巨頭撐得住?聯準會攤牌 升息還沒完?【早晨財經速解讀】…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/videos/1130785012937586/?__cft__[0]=AZhgRNsvPREZcwSOYOOsVB0xZrtjNX6UcFE0go7spagYM7aS41ya5tHcib0j28B2Q7szQk5RFeu3vpuOMyYbkPFFah79vK2ksVF7tmv2IdbcDhP_WW7EzLfa5wY4kbutBvXvlCihaLSVjeBegWZW0aPzSrST5NT_DoEa5eaJl7mGYm56gNOaU3ToVJzZ4b21k30Qlw",
+          "timestamp": "2026-10-29T09:13:26.669840+00:00",
+          "interaction": 287
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "聯準會宣布按兵不動，將聯邦基金利率維持於3.75%至4%的目標區間，符合市場預期，華爾街股市28日走高，道瓊工業指數盤中最多漲256點，終場漲幅收窄，四大指數全面收紅，投資人轉而聚焦大型科技股即將出爐的財報。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02iBdXmwVY77MVcSNQ2rRAuSUbkrr4SL9ydAPG9CZQ9bv58fv7uL2q9eJDzcXXthe4l?__cft__[0]=AZjR8a9I8huyiQPUDTHOVNIpXrFYtzaogluUNM--UkpWm8nMHWL75SEVrqPHMjiHm91IWZdC8CbEcM64YVqbB6X5c9IrblDhuwMolvXpcNKnXR26SpncXt78EcMhEjHdYWqb_NTdgpy6dzflmtsIvUzhSJyBekp_K10TDQYTHOi1vGaCbkQnFfMq1V4",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 77
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股反彈訊號來了！日KD黃金交叉成關鍵 專家籲短線操作避開這類股】\n美國聯準會公布利率決策前夕，台股強勢反彈，28日收復季線及47,000點整數關卡，且日KD指標站回20以上，短線止跌反彈訊號浮現。不過，氣勢能否延續，仍須觀察K值是否持續向上突破D值、形成黃金交叉，並搭配成交量放大，以及外資延續買超氣勢；至於中期技術面尚有修正壓力，但偏強勢調節，仍待後續觀察。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0tX5wTc8dMmLR4oJT688Bv6NYgmKSig2N9DVjaBwEGrZttvu1Ne7gYN4t1kMTnVVAl?__cft__[0]=AZiSrq7S2FLFX9hzT9o8LMj5y3ipsGYzGfBuC0y9Ovczp9xhUHL1DUBOA5Obs_49ZXQksA99xIzG1ezqLaELVkaC7WmVs-Q0GI3wbclStWjSV0mZNhontMPhBCMCvCKSXNKtDY1YkQzZESbzMDCPRn4iHWlGTfBMwnP3krkS_oTLeU7E8lC-J-aKi2M",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 28
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股吹反攻號角 還有一大考驗】\n美國聯準會29日凌晨公布利率決策，稍早市場預期按兵不動，加上美科技股跌深反彈，季線技術面支撐，台股28日吹反攻號角，加權指數終場大漲939點收47,035點，收復前兩日跌點，站回季線及47,000點關卡，惟成交金額降至7,503億元，為9月17日來新低。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid038AK4QiHdxr5ASpJWs5V9AuchAhBHjHHys8287cVL78n1DVP8S9B8CDYsKNy7XaACl?__cft__[0]=AZhrgXO0xQ1WfVrS_pYubUwDoqbDBuFtsg6oyzjkdgkmZYTg1xMx-4V_bxjh4M2qlZaZJWCuU8GnivfqvpGor9ZJMvAyC8F8AoPreRXjtnZRct7O1pAGjlrJj1UzRSmV8daM2IfkB5JqO1ib0SPp1-e2YC_26JD4AtAMaQlFj4NzI_kO-CifD7wTnlc",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 21
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美國聯準會（Fed）暫停升息，DoubleLine資本創辦人、「新債王」岡拉克（Jeffrey Gundlach）卻批評聯準會「只瞄準卻遲遲不扣板機」，並提出三重示警，能源漲勢恐讓美國通膨重返「4字頭」，AI企業債券也浮現類似次貸危機前夕的信評失真訊號，以及美國財政赤字正以驚人速度膨脹，利率上行壓力難解。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid032YsADXY9aqt9x5brMZsD3Ndku3x8246WhtvDC2MQFUL4tNHBkhXqXLJfPKVBuwp8l?__cft__[0]=AZg__EaULIdkZG1PK1G7L9YQnEW5Mavk_XLKBaor_J30-urx1y35dG7Rl58t9PlUVn4St1vd74r4p1PuRrbVif52lsIFxCQaPgPy4aTwU1DNP28JC-vMm8fbYZKD5LYyvWRquZ_rP_cWmjPU-wjKZ2c8sUThzFzVluEpoWH4JVwTzTB7xvzO-QvxqL8",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 19
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "在美國聯準會（Fed）如預期宣布維持利率不變，且聯準會主席華許（Kevin Warsh）釋出可能減少會議次數並密切關注通膨的言論後，市場對年底前貨幣政策走向充滿不確定性，導致國際金價持續承壓。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02PgCpBvCjATvAuQ6ZubRGPWUEhY9XDQLF8G5PzyaMWarjHqhpjM5jDSKDjKpe2Gfkl?__cft__[0]=AZg9v93s_vZfVuA9y6pinHfFh8xZEa_mK3HcLQ37Jb7SWcBk2RMGOvBIWsNZxIQwECVXwOPMWwsuCTFy7y6r7OGG9_AaWQZL0yZ6oOG3aBkBiTk7njuQLRWlRbGkqM2Lfg-hvPPqWTk0QwtY3qd0nvvkhFrRI6Y0yqhsGf2KhVXPNjtt2A23Y9J6doU",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 17
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美國聯準會於28日結束為期兩日的利率決策會議，會後宣布維持聯邦基金利率不動，符合市場預期。不過，本次會議有兩名官員投下反對票，主張應調升利率，本次會議雖未對12月的利率走向給出明確指引，但留下了繼續升息的伏筆。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02EVNKV6rKeTd2eqWj7SbuiZg6kx78jzhbQKhPVLWtMpaya2PTTpQfLnVeZLhL2sDPl?__tn__=%2CO",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 6,
+      "competitor_engagement": 125,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股今（29）日盤中重挫近千點，砷化鎵晶圓代工大廠穩懋（3105）卻逆勢跳空漲停，成為盤面焦點。穩懋昨（28）日舉行法說會，受惠航太衛星及光通訊需求升溫，第三季營收、獲利同步走強，毛利率更創近19季新高，每股稅後純益（EPS）達4.55元。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02nbQAsMScWVQLH4zpvAupgsHV6WVrvXdAzoxyPmH1eUeV8bTnmkKsdrZRdCDNMGeyl?__cft__[0]=AZgRv_lvrXluw9OCXN8G7xIQhcOdcNVtbP4vxf6EnDbG8syex5brW3JxAim8jt13ch1aJDf2CEJVDJGx-ED8gWGGROgt5UCoNigaNja8yXG_jp8kJH2taAj-xr-iNpALoceezxa4E3lXw4sqLy4lqszcV_lNwJFvsUPBtOgYRSMD_LrUO1xx6PHU-BI",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 43
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股反彈訊號來了！日KD黃金交叉成關鍵 專家籲短線操作避開這類股】\n美國聯準會公布利率決策前夕，台股強勢反彈，28日收復季線及47,000點整數關卡，且日KD指標站回20以上，短線止跌反彈訊號浮現。不過，氣勢能否延續，仍須觀察K值是否持續向上突破D值、形成黃金交叉，並搭配成交量放大，以及外資延續買超氣勢；至於中期技術面尚有修正壓力，但偏強勢調節，仍待後續觀察。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0tX5wTc8dMmLR4oJT688Bv6NYgmKSig2N9DVjaBwEGrZttvu1Ne7gYN4t1kMTnVVAl?__cft__[0]=AZiSrq7S2FLFX9hzT9o8LMj5y3ipsGYzGfBuC0y9Ovczp9xhUHL1DUBOA5Obs_49ZXQksA99xIzG1ezqLaELVkaC7WmVs-Q0GI3wbclStWjSV0mZNhontMPhBCMCvCKSXNKtDY1YkQzZESbzMDCPRn4iHWlGTfBMwnP3krkS_oTLeU7E8lC-J-aKi2M",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 28
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股吹反攻號角 還有一大考驗】\n美國聯準會29日凌晨公布利率決策，稍早市場預期按兵不動，加上美科技股跌深反彈，季線技術面支撐，台股28日吹反攻號角，加權指數終場大漲939點收47,035點，收復前兩日跌點，站回季線及47,000點關卡，惟成交金額降至7,503億元，為9月17日來新低。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid038AK4QiHdxr5ASpJWs5V9AuchAhBHjHHys8287cVL78n1DVP8S9B8CDYsKNy7XaACl?__cft__[0]=AZhrgXO0xQ1WfVrS_pYubUwDoqbDBuFtsg6oyzjkdgkmZYTg1xMx-4V_bxjh4M2qlZaZJWCuU8GnivfqvpGor9ZJMvAyC8F8AoPreRXjtnZRct7O1pAGjlrJj1UzRSmV8daM2IfkB5JqO1ib0SPp1-e2YC_26JD4AtAMaQlFj4NzI_kO-CifD7wTnlc",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 21
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【10／29盤前掃描】\n 台股反攻！短線挑戰48K 最大考驗是「它」…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02jAxykLjDW5X5TjruqVNjZngMd3dMCERh6szMSCsHebS1YDquam6kZxqydfxicD7Ml?__cft__[0]=AZjIOmM43nsx5NrvT6B248INiWsIxqpyZEq_7g_rXp3FXXsPISbhqHwjdgLy2jvDq9hJpyFtH_pUhrHrQtFe7WlUUWvoQfVfII0df54-Pevu4eC7hx0kNA7kotnIeBXomGIzblh1c_7xXSlMvCHHtHgnlXndQ1MYgoecXF-W103Jc2yEL3VUf8AtMRo",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 16
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股高息ETF績效前十強曝光 8檔勝大盤】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0RxTaEa5xrAKXMNKqVP8yjrLvLFpN5jjjK8LZmYdmCZ7VtsmQPj4hWcjMHxYfhJjWl?__cft__[0]=AZiwIcqTHZ5U_i-Dl23fnaHwkM1GvUyFJ6mDc7T9DLIm9Yr_NFwMTuRm0LDvtya-r6BQEyFo8ES6hebP6seY7hRwrp-yhn_IBGXodNN8TH3HosS7i8OdmsI1FEUHXuLtRfKqe2pR_mN4yYQbfYST55eBO1SbrbhBkXlR97q-YjREGzAQTyarDZTgHoA",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 13
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【10／29盤中熱門焦點股】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02KcRJiMjJp5UtwuTrGvCLbUP8nNc5FsCCyhCe1TDVSPs6thQw8MBPZ95N3Kxh8kg3l?__cft__[0]=AZjizcTvY7ylPlmHrHrlTA4sDGm5Zx9ufuZzajI01mch-82nbP4mK1CMw6vbcKmAWoaBT5qf_xLjitbZaI42IO82h_mHH_C6FLD2xthcDOGYmRTO177FMk3-UJEe2zgm1oJ84E12SMGLeuIZTy-XHOAT-7R0mfJuQoEZJUkJCG4X7Toohc_3TuWMerY",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 4
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "L",
+      "label": "總經 / Fed",
+      "own_count": 0,
+      "competitor_count": 7,
+      "competitor_engagement": 449,
+      "competitors_covering": [
+        "ctee.fans",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "2026/10/29(四)微軟噴谷歌崩 巨頭撐得住?聯準會攤牌 升息還沒完?【早晨財經速解讀】…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/videos/1130785012937586/?__cft__[0]=AZhgRNsvPREZcwSOYOOsVB0xZrtjNX6UcFE0go7spagYM7aS41ya5tHcib0j28B2Q7szQk5RFeu3vpuOMyYbkPFFah79vK2ksVF7tmv2IdbcDhP_WW7EzLfa5wY4kbutBvXvlCihaLSVjeBegWZW0aPzSrST5NT_DoEa5eaJl7mGYm56gNOaU3ToVJzZ4b21k30Qlw",
+          "timestamp": "2026-10-29T09:13:26.669840+00:00",
+          "interaction": 287
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "聯準會宣布按兵不動，將聯邦基金利率維持於3.75%至4%的目標區間，符合市場預期，華爾街股市28日走高，道瓊工業指數盤中最多漲256點，終場漲幅收窄，四大指數全面收紅，投資人轉而聚焦大型科技股即將出爐的財報。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02iBdXmwVY77MVcSNQ2rRAuSUbkrr4SL9ydAPG9CZQ9bv58fv7uL2q9eJDzcXXthe4l?__cft__[0]=AZjR8a9I8huyiQPUDTHOVNIpXrFYtzaogluUNM--UkpWm8nMHWL75SEVrqPHMjiHm91IWZdC8CbEcM64YVqbB6X5c9IrblDhuwMolvXpcNKnXR26SpncXt78EcMhEjHdYWqb_NTdgpy6dzflmtsIvUzhSJyBekp_K10TDQYTHOi1vGaCbkQnFfMq1V4",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 77
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股反彈訊號來了！日KD黃金交叉成關鍵 專家籲短線操作避開這類股】\n美國聯準會公布利率決策前夕，台股強勢反彈，28日收復季線及47,000點整數關卡，且日KD指標站回20以上，短線止跌反彈訊號浮現。不過，氣勢能否延續，仍須觀察K值是否持續向上突破D值、形成黃金交叉，並搭配成交量放大，以及外資延續買超氣勢；至於中期技術面尚有修正壓力，但偏強勢調節，仍待後續觀察。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0tX5wTc8dMmLR4oJT688Bv6NYgmKSig2N9DVjaBwEGrZttvu1Ne7gYN4t1kMTnVVAl?__cft__[0]=AZiSrq7S2FLFX9hzT9o8LMj5y3ipsGYzGfBuC0y9Ovczp9xhUHL1DUBOA5Obs_49ZXQksA99xIzG1ezqLaELVkaC7WmVs-Q0GI3wbclStWjSV0mZNhontMPhBCMCvCKSXNKtDY1YkQzZESbzMDCPRn4iHWlGTfBMwnP3krkS_oTLeU7E8lC-J-aKi2M",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 28
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股吹反攻號角 還有一大考驗】\n美國聯準會29日凌晨公布利率決策，稍早市場預期按兵不動，加上美科技股跌深反彈，季線技術面支撐，台股28日吹反攻號角，加權指數終場大漲939點收47,035點，收復前兩日跌點，站回季線及47,000點關卡，惟成交金額降至7,503億元，為9月17日來新低。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid038AK4QiHdxr5ASpJWs5V9AuchAhBHjHHys8287cVL78n1DVP8S9B8CDYsKNy7XaACl?__cft__[0]=AZhrgXO0xQ1WfVrS_pYubUwDoqbDBuFtsg6oyzjkdgkmZYTg1xMx-4V_bxjh4M2qlZaZJWCuU8GnivfqvpGor9ZJMvAyC8F8AoPreRXjtnZRct7O1pAGjlrJj1UzRSmV8daM2IfkB5JqO1ib0SPp1-e2YC_26JD4AtAMaQlFj4NzI_kO-CifD7wTnlc",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 21
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美國聯準會（Fed）暫停升息，DoubleLine資本創辦人、「新債王」岡拉克（Jeffrey Gundlach）卻批評聯準會「只瞄準卻遲遲不扣板機」，並提出三重示警，能源漲勢恐讓美國通膨重返「4字頭」，AI企業債券也浮現類似次貸危機前夕的信評失真訊號，以及美國財政赤字正以驚人速度膨脹，利率上行壓力難解。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid032YsADXY9aqt9x5brMZsD3Ndku3x8246WhtvDC2MQFUL4tNHBkhXqXLJfPKVBuwp8l?__cft__[0]=AZg__EaULIdkZG1PK1G7L9YQnEW5Mavk_XLKBaor_J30-urx1y35dG7Rl58t9PlUVn4St1vd74r4p1PuRrbVif52lsIFxCQaPgPy4aTwU1DNP28JC-vMm8fbYZKD5LYyvWRquZ_rP_cWmjPU-wjKZ2c8sUThzFzVluEpoWH4JVwTzTB7xvzO-QvxqL8",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 19
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "在美國聯準會（Fed）如預期宣布維持利率不變，且聯準會主席華許（Kevin Warsh）釋出可能減少會議次數並密切關注通膨的言論後，市場對年底前貨幣政策走向充滿不確定性，導致國際金價持續承壓。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02PgCpBvCjATvAuQ6ZubRGPWUEhY9XDQLF8G5PzyaMWarjHqhpjM5jDSKDjKpe2Gfkl?__cft__[0]=AZg9v93s_vZfVuA9y6pinHfFh8xZEa_mK3HcLQ37Jb7SWcBk2RMGOvBIWsNZxIQwECVXwOPMWwsuCTFy7y6r7OGG9_AaWQZL0yZ6oOG3aBkBiTk7njuQLRWlRbGkqM2Lfg-hvPPqWTk0QwtY3qd0nvvkhFrRI6Y0yqhsGf2KhVXPNjtt2A23Y9J6doU",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 17
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "美國聯準會於28日結束為期兩日的利率決策會議，會後宣布維持聯邦基金利率不動，符合市場預期。不過，本次會議有兩名官員投下反對票，主張應調升利率，本次會議雖未對12月的利率走向給出明確指引，但留下了繼續升息的伏筆。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02EVNKV6rKeTd2eqWj7SbuiZg6kx78jzhbQKhPVLWtMpaya2PTTpQfLnVeZLhL2sDPl?__tn__=%2CO",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 0,
+      "competitor_count": 6,
+      "competitor_engagement": 125,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股今（29）日盤中重挫近千點，砷化鎵晶圓代工大廠穩懋（3105）卻逆勢跳空漲停，成為盤面焦點。穩懋昨（28）日舉行法說會，受惠航太衛星及光通訊需求升溫，第三季營收、獲利同步走強，毛利率更創近19季新高，每股稅後純益（EPS）達4.55元。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02nbQAsMScWVQLH4zpvAupgsHV6WVrvXdAzoxyPmH1eUeV8bTnmkKsdrZRdCDNMGeyl?__cft__[0]=AZgRv_lvrXluw9OCXN8G7xIQhcOdcNVtbP4vxf6EnDbG8syex5brW3JxAim8jt13ch1aJDf2CEJVDJGx-ED8gWGGROgt5UCoNigaNja8yXG_jp8kJH2taAj-xr-iNpALoceezxa4E3lXw4sqLy4lqszcV_lNwJFvsUPBtOgYRSMD_LrUO1xx6PHU-BI",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 43
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股反彈訊號來了！日KD黃金交叉成關鍵 專家籲短線操作避開這類股】\n美國聯準會公布利率決策前夕，台股強勢反彈，28日收復季線及47,000點整數關卡，且日KD指標站回20以上，短線止跌反彈訊號浮現。不過，氣勢能否延續，仍須觀察K值是否持續向上突破D值、形成黃金交叉，並搭配成交量放大，以及外資延續買超氣勢；至於中期技術面尚有修正壓力，但偏強勢調節，仍待後續觀察。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0tX5wTc8dMmLR4oJT688Bv6NYgmKSig2N9DVjaBwEGrZttvu1Ne7gYN4t1kMTnVVAl?__cft__[0]=AZiSrq7S2FLFX9hzT9o8LMj5y3ipsGYzGfBuC0y9Ovczp9xhUHL1DUBOA5Obs_49ZXQksA99xIzG1ezqLaELVkaC7WmVs-Q0GI3wbclStWjSV0mZNhontMPhBCMCvCKSXNKtDY1YkQzZESbzMDCPRn4iHWlGTfBMwnP3krkS_oTLeU7E8lC-J-aKi2M",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 28
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股吹反攻號角 還有一大考驗】\n美國聯準會29日凌晨公布利率決策，稍早市場預期按兵不動，加上美科技股跌深反彈，季線技術面支撐，台股28日吹反攻號角，加權指數終場大漲939點收47,035點，收復前兩日跌點，站回季線及47,000點關卡，惟成交金額降至7,503億元，為9月17日來新低。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid038AK4QiHdxr5ASpJWs5V9AuchAhBHjHHys8287cVL78n1DVP8S9B8CDYsKNy7XaACl?__cft__[0]=AZhrgXO0xQ1WfVrS_pYubUwDoqbDBuFtsg6oyzjkdgkmZYTg1xMx-4V_bxjh4M2qlZaZJWCuU8GnivfqvpGor9ZJMvAyC8F8AoPreRXjtnZRct7O1pAGjlrJj1UzRSmV8daM2IfkB5JqO1ib0SPp1-e2YC_26JD4AtAMaQlFj4NzI_kO-CifD7wTnlc",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 21
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【10／29盤前掃描】\n 台股反攻！短線挑戰48K 最大考驗是「它」…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02jAxykLjDW5X5TjruqVNjZngMd3dMCERh6szMSCsHebS1YDquam6kZxqydfxicD7Ml?__cft__[0]=AZjIOmM43nsx5NrvT6B248INiWsIxqpyZEq_7g_rXp3FXXsPISbhqHwjdgLy2jvDq9hJpyFtH_pUhrHrQtFe7WlUUWvoQfVfII0df54-Pevu4eC7hx0kNA7kotnIeBXomGIzblh1c_7xXSlMvCHHtHgnlXndQ1MYgoecXF-W103Jc2yEL3VUf8AtMRo",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 16
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股高息ETF績效前十強曝光 8檔勝大盤】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0RxTaEa5xrAKXMNKqVP8yjrLvLFpN5jjjK8LZmYdmCZ7VtsmQPj4hWcjMHxYfhJjWl?__cft__[0]=AZiwIcqTHZ5U_i-Dl23fnaHwkM1GvUyFJ6mDc7T9DLIm9Yr_NFwMTuRm0LDvtya-r6BQEyFo8ES6hebP6seY7hRwrp-yhn_IBGXodNN8TH3HosS7i8OdmsI1FEUHXuLtRfKqe2pR_mN4yYQbfYST55eBO1SbrbhBkXlR97q-YjREGzAQTyarDZTgHoA",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 13
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【10／29盤中熱門焦點股】…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02KcRJiMjJp5UtwuTrGvCLbUP8nNc5FsCCyhCe1TDVSPs6thQw8MBPZ95N3Kxh8kg3l?__cft__[0]=AZjizcTvY7ylPlmHrHrlTA4sDGm5Zx9ufuZzajI01mch-82nbP4mK1CMw6vbcKmAWoaBT5qf_xLjitbZaI42IO82h_mHH_C6FLD2xthcDOGYmRTO177FMk3-UJEe2zgm1oJ84E12SMGLeuIZTy-XHOAT-7R0mfJuQoEZJUkJCG4X7Toohc_3TuWMerY",
+          "timestamp": "2026-10-29T09:10:43.334218+00:00",
+          "interaction": 4
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-29T14:42:39+08:00",
-    "end_utc": "2026-10-29T15:42:39+08:00",
-    "start_tw": "Oct 29, 14:42",
-    "end_tw": "Oct 29, 15:42"
+    "start_utc": "2026-10-29T08:13:26.669840+00:00",
+    "end_utc": "2026-10-29T09:13:26.669840+00:00",
+    "start_tw": "Oct 29, 16:13",
+    "end_tw": "Oct 29, 17:13"
   }
 }
