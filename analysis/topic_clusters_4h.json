@@ -1,18 +1,31 @@
 {
   "clusters": [
     {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 4,
+      "accounts": {
+        "TrendForce": 1,
+        "jukan05": 1,
+        "statementdog": 2
+      },
+      "engagement_by_account": {
+        "TrendForce": 21,
+        "jukan05": 68,
+        "statementdog": 8
+      }
+    },
+    {
       "id": "F",
       "label": "晶圓代工 / 先進製程",
       "size": 3,
       "accounts": {
         "TrendForce": 1,
-        "tengyanAI": 1,
-        "statementdog": 1
+        "statementdog": 2
       },
       "engagement_by_account": {
-        "TrendForce": 7,
-        "tengyanAI": 20,
-        "statementdog": 2
+        "TrendForce": 34,
+        "statementdog": 7
       }
     },
     {
@@ -20,23 +33,36 @@
       "label": "GPU / AI 加速器",
       "size": 2,
       "accounts": {
-        "SemiAnalysis_": 2
+        "QQ_Timmy": 1,
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 142
+        "QQ_Timmy": 9,
+        "statementdog": 2
       }
     },
     {
-      "id": "H",
-      "label": "網通 / 光通訊",
+      "id": "D",
+      "label": "CSP / 資料中心",
       "size": 2,
       "accounts": {
-        "SemiAnalysis_": 1,
-        "QQ_Timmy": 1
+        "TrendForce": 1,
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "SemiAnalysis_": 125,
-        "QQ_Timmy": 10
+        "TrendForce": 34,
+        "statementdog": 2
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 2,
+      "accounts": {
+        "QQ_Timmy": 2
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 21
       }
     },
     {
@@ -44,15 +70,26 @@
       "label": "ASIC / 自研晶片",
       "size": 1,
       "accounts": {
-        "QQ_Timmy": 1
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "QQ_Timmy": 10
+        "statementdog": 2
       }
     },
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
+      "id": "G",
+      "label": "IC 設計",
+      "size": 1,
+      "accounts": {
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "statementdog": 2
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
       "size": 1,
       "accounts": {
         "statementdog": 1
@@ -66,19 +103,128 @@
       "label": "電源 / 電力設備",
       "size": 1,
       "accounts": {
-        "statementdog": 1
+        "QQ_Timmy": 1
       },
       "engagement_by_account": {
-        "statementdog": 7
+        "QQ_Timmy": 7
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 1,
+      "accounts": {
+        "FT": 1
+      },
+      "engagement_by_account": {
+        "FT": 10
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 20
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 7
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 76,
+      "competitors_covering": [
+        "jukan05",
+        "statementdog"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "TrendForce:  - 4Q26 PC DRAM contract price increases confirmed at +13–18% QoQ, moderating from +18–23% in 3Q26. - Most negotiations are expected to conclude in November, with November prices projected to rise slightly further from October.  - Notebook shipments fell 14% QoQ in",
+          "url": "https://x.com/jukan05/status/2116075768539439227",
+          "timestamp": "2026-10-30T15:52:32.000+08:00",
+          "interaction": 68
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Sandisk says some customers are coming back for more NAND than they originally expected to need. Turning those requests into firm commitments would give it a stronger basis for deciding how much supply to add.",
+          "url": "https://x.com/statementdog/status/2116047451178119409",
+          "timestamp": "2026-10-30T14:00:01.000+08:00",
+          "interaction": 5
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Hanmi Semiconductor (042700 KS), which makes bonding equipment for HBM production, reported preliminary Q3 revenue of 181.0 billion won, down 27.9% from Q2. Operating profit fell 30.3% to 90.8 billion won.  Revenue was up 8.9% from a year earlier, while operating profit rose",
+          "url": "https://x.com/statementdog/status/2116037117541560670",
+          "timestamp": "2026-10-30T13:18:57.000+08:00",
+          "interaction": 3
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 76,
+      "competitors_covering": [
+        "jukan05",
+        "statementdog"
+      ],
+      "sample_posts": [
+        {
+          "handle": "jukan05",
+          "platform": "X",
+          "text": "TrendForce:  - 4Q26 PC DRAM contract price increases confirmed at +13–18% QoQ, moderating from +18–23% in 3Q26. - Most negotiations are expected to conclude in November, with November prices projected to rise slightly further from October.  - Notebook shipments fell 14% QoQ in",
+          "url": "https://x.com/jukan05/status/2116075768539439227",
+          "timestamp": "2026-10-30T15:52:32.000+08:00",
+          "interaction": 68
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Sandisk says some customers are coming back for more NAND than they originally expected to need. Turning those requests into firm commitments would give it a stronger basis for deciding how much supply to add.",
+          "url": "https://x.com/statementdog/status/2116047451178119409",
+          "timestamp": "2026-10-30T14:00:01.000+08:00",
+          "interaction": 5
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Hanmi Semiconductor (042700 KS), which makes bonding equipment for HBM production, reported preliminary Q3 revenue of 181.0 billion won, down 27.9% from Q2. Operating profit fell 30.3% to 90.8 billion won.  Revenue was up 8.9% from a year earlier, while operating profit rose",
+          "url": "https://x.com/statementdog/status/2116037117541560670",
+          "timestamp": "2026-10-30T13:18:57.000+08:00",
+          "interaction": 3
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-10-30T08:30:00+08:00",
-    "end_utc": "2026-10-30T12:30:00+08:00",
-    "start_tw": "Oct 30, 08:30",
-    "end_tw": "Oct 30, 12:30"
+    "start_utc": "2026-10-30T12:30:00+08:00",
+    "end_utc": "2026-10-30T16:30:00+08:00",
+    "start_tw": "Oct 30, 12:30",
+    "end_tw": "Oct 30, 16:30"
   }
 }

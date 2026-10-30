@@ -1,371 +1,471 @@
 {
-  "generated_at": "2026-10-30T12:30:00+08:00",
+  "generated_at": "2026-10-30T16:30:00+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-10-30T08:30:00+08:00",
-    "end_utc": "2026-10-30T12:30:00+08:00",
-    "start_tw": "Oct 30, 08:30",
-    "end_tw": "Oct 30, 12:30"
+    "start_utc": "2026-10-30T12:30:00+08:00",
+    "end_utc": "2026-10-30T16:30:00+08:00",
+    "start_tw": "Oct 30, 12:30",
+    "end_tw": "Oct 30, 16:30"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 17,
+      "total_posts": 34,
       "sentiment_counts": {
-        "negative": 6,
-        "neutral": 5,
-        "positive": 6
+        "neutral": 18,
+        "positive": 11,
+        "negative": 5
       },
       "sentiment_share": {
-        "negative": 0.353,
-        "neutral": 0.294,
-        "positive": 0.353
+        "neutral": 0.529,
+        "positive": 0.324,
+        "negative": 0.147
       },
       "top_terms": [
-        "intel",
+        "revenue",
+        "yoy",
+        "trump",
+        "customers",
+        "quarter",
         "earnings",
-        "customer",
-        "weakness",
-        "nvidia",
-        "bandwidth",
-        "units",
-        "crypto",
-        "exchange",
-        "ceo"
+        "memory",
+        "profits",
+        "sandisk",
+        "qoq"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "units / exchange / earnings / customer",
+        "topic_id": 3,
+        "label": "trump",
         "heat": 90.0,
-        "volume": 11,
-        "engagement": 893,
+        "volume": 3,
+        "engagement": 88,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 2,
-        "label": "intel / earnings / crypto / weakness",
-        "heat": 10.0,
-        "volume": 4,
-        "engagement": 77,
+        "label": "taiwan / stocks",
+        "heat": 79.5,
+        "volume": 3,
+        "engagement": 35,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "nvidia / bandwidth",
+        "label": "revenue / equipment / fell / earnings",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 142,
+        "engagement": 37,
         "entities": [],
         "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "optionking / status / fuephi / jfrxfha",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 4,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "customers / sandisk",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 9,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，22 篇）",
+        "heat": 10.0,
+        "volume": 22,
+        "engagement": 448,
+        "entities": [
+          "日本",
+          "商業化",
+          "每克"
+        ],
+        "is_catchall": true
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "日本",
+        "count": 2
+      },
+      {
+        "entity": "商業化",
+        "count": 1
+      },
+      {
+        "entity": "每克",
+        "count": 1
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-10-30T08:29:59.999994+08:00",
-        "bucket_end": "2026-10-30T08:47:08.571423+08:00",
+        "bucket_start": "2026-10-30T12:29:59.999994+08:00",
+        "bucket_end": "2026-10-30T12:47:08.571423+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 4,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 4,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "customers / sandisk",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Plastics used in battery backup units (BBUs) can take months to qualify. Materials supplier Nytex ran roughly 30–40 of its own battery-pack tests in one year during development, excluding tests done w",
+            "url": "https://x.com/statementdog/status/2116024798702899324",
+            "interaction": 4
+          }
+        ],
+        "net_sentiment_smoothed": 44.4,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-30T12:47:08.571423+08:00",
+        "bucket_end": "2026-10-30T13:04:17.142852+08:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 191,
+        "positive_engagement": 21,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 100.0,
         "post_count": 1,
-        "engagement": 191,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "units / exchange / earnings / customer",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The award-winning film and stage actor became a fan favourite for his leading roles in the ‘X-Men’ film series and as Jean-Luc Picard in ‘Star Trek’  https:// ft.trib.al/5PCFKMc",
-            "url": "https://x.com/FT/status/2115967214763356193",
-            "interaction": 191
-          }
-        ],
-        "net_sentiment_smoothed": 33.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-30T08:47:08.571423+08:00",
-        "bucket_end": "2026-10-30T09:04:17.142852+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "engagement": 21,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 25.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-30T09:04:17.142852+08:00",
-        "bucket_end": "2026-10-30T09:21:25.714281+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 118,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 118,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "units / exchange / earnings / customer",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Binance founder says exchange targeted in apparent hack",
-            "url": "https://x.com/FT/status/2115973072284950982",
-            "interaction": 118
-          }
-        ],
-        "net_sentiment_smoothed": 33.3,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-30T09:21:25.714281+08:00",
-        "bucket_end": "2026-10-30T09:38:34.285710+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-30T09:38:34.285710+08:00",
-        "bucket_end": "2026-10-30T09:55:42.857139+08:00",
-        "positive": 2,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 198,
-        "neutral_engagement": 156,
-        "negative_engagement": 0,
-        "net_sentiment": 66.7,
-        "post_count": 3,
-        "engagement": 354,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "units / exchange / earnings / customer",
-            "count": 3
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "Chinese open-source AI developers are nerfing their LLMs’ hacking capabilities before releasing them.  Because there’s just too much hacking going on!",
-            "url": "https://x.com/jukan05/status/2115984378547642656",
-            "interaction": 156
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The world’s biggest crypto exchange said the ‘current verified total frozen amount is around $3 billion’ as it investigates the latest in a string of security breaches across the digital-asset industr",
-            "url": "https://x.com/FT/status/2115984623834448252",
-            "interaction": 135
-          }
-        ],
-        "net_sentiment_smoothed": -6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-30T09:55:42.857139+08:00",
-        "bucket_end": "2026-10-30T10:12:51.428568+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 48,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 48,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "intel / earnings / crypto / weakness",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tengyanAI",
-            "platform": "X",
-            "text": "if you think the crypto / DeFi hacks in the past were terrifying... wait till you see what happens in the next few months.  only going to accelerate with superintelligent AI models and ability to spin",
-            "url": "https://x.com/tengyanAI/status/2115987214375268526",
-            "interaction": 48
-          }
-        ],
-        "net_sentiment_smoothed": -6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-30T10:12:51.428568+08:00",
-        "bucket_end": "2026-10-30T10:29:59.999997+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -6.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-30T10:29:59.999997+08:00",
-        "bucket_end": "2026-10-30T10:47:08.571426+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-30T10:47:08.571426+08:00",
-        "bucket_end": "2026-10-30T11:04:17.142855+08:00",
-        "positive": 1,
-        "neutral": 2,
-        "negative": 1,
-        "positive_engagement": 165,
-        "neutral_engagement": 27,
-        "negative_engagement": 125,
-        "net_sentiment": 0.0,
-        "post_count": 4,
-        "engagement": 317,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "nvidia / bandwidth",
-            "count": 2
-          },
-          {
-            "topic_id": 1,
-            "label": "units / exchange / earnings / customer",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "Davidlee has believed in me since 2024.  When I asked if I could work with him, he said, “Jukan, you’re too famous now. I want the Jukan from 2024.”  Don’t miss this opportunity.",
-            "url": "https://x.com/jukan05/status/2116001185555689478",
-            "interaction": 165
-          },
-          {
-            "handle": "SemiAnalysis_",
-            "platform": "X",
-            "text": "NVIDIA has revised Vera Rubin NVL72’s NVLink bandwidth from 3.6 TB/s to 3.0 TB/s per Rubin GPU package, a ~17% reduction.  Vera Rubin utilizes bidirectional SerDes, with a theoretical full-rate bandwi",
-            "url": "https://x.com/SemiAnalysis_/status/2116003079950602611",
-            "interaction": 125
-          }
-        ],
-        "net_sentiment_smoothed": -40.0,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-10-30T11:04:17.142855+08:00",
-        "bucket_end": "2026-10-30T11:21:25.714284+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 14,
-        "net_sentiment": -100.0,
-        "post_count": 2,
-        "engagement": 14,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "intel / earnings / crypto / weakness",
-            "count": 1
-          },
-          {
-            "topic_id": 1,
-            "label": "units / exchange / earnings / customer",
-            "count": 1
-          }
-        ],
         "top_posts": [
           {
             "handle": "TrendForce",
             "platform": "X",
-            "text": "#Intel CEO Lip-Bu Tan teased potential #EMIB customer announcements over the next two quarters, adding a bright spot to an earnings call marked by PC weakness.",
-            "url": "https://x.com/trendforce/status/2116004614801895646",
-            "interaction": 7
+            "text": "👀 The memory boom is fueling more than record profits—it’s locking in supply for years to come! From #Samsung and #SKhynix to #Micron and #SanDisk, memory giants are racing to secure LTAs. Here’s how ",
+            "url": "https://x.com/trendforce/status/2116031365603033096",
+            "interaction": 21
+          }
+        ],
+        "net_sentiment_smoothed": 43.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-30T13:04:17.142852+08:00",
+        "bucket_end": "2026-10-30T13:21:25.714281+08:00",
+        "positive": 1,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 3,
+        "neutral_engagement": 112,
+        "negative_engagement": 0,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 115,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "revenue / equipment / fell / earnings",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "👀👀",
+            "url": "https://x.com/jukan05/status/2116035479128936625",
+            "interaction": 78
+          },
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "Intel 3Q26 Revenue Hits Three-Year High of $16.5B, with Data Center Revenue Surging 78%  Intel reported 3Q26 revenue of $16.5B, up 20.9% YoY and marking its third consecutive quarter of results above ",
+            "url": "https://x.com/trendforce/status/2116036650090283456",
+            "interaction": 34
+          }
+        ],
+        "net_sentiment_smoothed": 34.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-30T13:21:25.714281+08:00",
+        "bucket_end": "2026-10-30T13:38:34.285710+08:00",
+        "positive": 2,
+        "neutral": 3,
+        "negative": 0,
+        "positive_engagement": 38,
+        "neutral_engagement": 49,
+        "negative_engagement": 0,
+        "net_sentiment": 40.0,
+        "post_count": 5,
+        "engagement": 87,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "trump",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Why Trump’s tech dreams are quietly crumbling",
+            "url": "https://x.com/FT/status/2116038817878519957",
+            "interaction": 29
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "‘A pile of muscle’: Trump closes midterm pitch with surreal messaging",
+            "url": "https://x.com/FT/status/2116038818058973521",
+            "interaction": 23
+          }
+        ],
+        "net_sentiment_smoothed": 42.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-30T13:38:34.285710+08:00",
+        "bucket_end": "2026-10-30T13:55:42.857139+08:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 18,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 18,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "taiwan / stocks",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The story of Anthropic in three numbers  https:// ft.trib.al/4mVa7a0  | opinion",
+            "url": "https://x.com/FT/status/2116045587401355383",
+            "interaction": 10
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "What moves hyperscaler stocks?  https:// ft.trib.al/eliZFkp  | opinion",
+            "url": "https://x.com/FT/status/2116045596708491285",
+            "interaction": 8
+          }
+        ],
+        "net_sentiment_smoothed": 17.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-30T13:55:42.857139+08:00",
+        "bucket_end": "2026-10-30T14:12:51.428568+08:00",
+        "positive": 3,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 27,
+        "neutral_engagement": 17,
+        "negative_engagement": 7,
+        "net_sentiment": 40.0,
+        "post_count": 5,
+        "engagement": 51,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "customers / sandisk",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "How leaders can adapt to an unknowable AI future  https:// ft.trib.al/onIq3o5  | opinion",
+            "url": "https://x.com/FT/status/2116048386587508890",
+            "interaction": 17
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "村田製作所（Murata Manufacturing, 6981.T）〈2027年3月期第2四半期決算短信／說明會〉  1、上半年／第2季 1）上半年營收1兆908億（＋20.8%）、營業利益2,459億（＋48.9%），皆創上半年新高；匯率除外約＋14.2%／＋30.7%。 2）第2季營收約5,885億、營業利益約1,475億（營益率約25.1%）。",
+            "url": "https://x.com/QQ_Timmy/status/2116047090736599071",
+            "interaction": 13
+          }
+        ],
+        "net_sentiment_smoothed": 11.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-30T14:12:51.428568+08:00",
+        "bucket_end": "2026-10-30T14:29:59.999997+08:00",
+        "positive": 0,
+        "neutral": 3,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 16,
+        "negative_engagement": 9,
+        "net_sentiment": -25.0,
+        "post_count": 4,
+        "engagement": 25,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "optionking / status / fuephi / jfrxfha",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "〈台光電／台燿：CCL毛利率跳升、ABF產能與漲價〉  1、台光電（Elite Material／EMC,  https:// 2383.TW） 1）3Q26營收608.85億（QoQ＋29%、YoY＋142%）；毛利率37.7%（QoQ＋380bps），優於分析師／共識約170／160bps；基礎設施占75–80%。",
+            "url": "https://x.com/QQ_Timmy/status/2116054493238546568",
+            "interaction": 12
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "〈日本MLCC出口：Rubin訊號、目的地分流與被動元件〉  1、整體出口（9月） 1）日本MLCC出口日圓／美元計年增34.6%／29.1%；平均附加價值每克1.22美元（紀錄；8月1.13、前年同期1.03）。 2）訊號：組合升級＋8月颱風物流干擾後動能回升。  2、對台與BOM轉換",
+            "url": "https://x.com/QQ_Timmy/status/2116052983309828377",
+            "interaction": 9
+          }
+        ],
+        "net_sentiment_smoothed": -17.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-30T14:29:59.999997+08:00",
+        "bucket_end": "2026-10-30T14:47:08.571426+08:00",
+        "positive": 0,
+        "neutral": 3,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 50,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 3,
+        "engagement": 50,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "taiwan / stocks",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Europe divided over how to influence US-Russia talks",
+            "url": "https://x.com/FT/status/2116057511262376025",
+            "interaction": 28
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "彭博（Bloomberg）〈Taiwan Stocks Head for Correction as Global AI Selloff Deepens〉  1、台股技術性回檔 1）加權指數周五最多下跌約3.5%，創8月25日以來低點；自10月6日歷史高點回落逾10%，逼近技術性修正區間。 2）圖示「Taiwan Stocks Slide Toward",
+            "url": "https://x.com/QQ_Timmy/status/2116057484901380353",
+            "interaction": 20
+          }
+        ],
+        "net_sentiment_smoothed": -7.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-30T14:47:08.571426+08:00",
+        "bucket_end": "2026-10-30T15:04:17.142855+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 75,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 75,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The outgoing ECB president has steered the central bank through the worst pandemic in a century, the bloodiest war in Europe since 1945, the biggest inflation shock in a generation and a US trade war.",
+            "url": "https://x.com/FT/status/2116062635057647826",
+            "interaction": 75
+          }
+        ],
+        "net_sentiment_smoothed": -5.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-30T15:04:17.142855+08:00",
+        "bucket_end": "2026-10-30T15:21:25.714284+08:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 2,
+        "neutral_engagement": 23,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 25,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "French economy contracts 0.1 per cent in third quarter",
+            "url": "https://x.com/FT/status/2116064455653986352",
+            "interaction": 23
           },
           {
             "handle": "statementdog",
             "platform": "X",
-            "text": "Delta (2308 TT) may need to keep inventory buffers above historical levels even after delayed orders ship, as it adjusts to uneven AI deployment schedules.  Component shortages, customer schedule chan",
-            "url": "https://x.com/statementdog/status/2116004840824603115",
-            "interaction": 7
+            "text": "Good point on the PC spillover.  For  $AMD , we’d watch the next Client outlook for signs of memory costs hitting PC demand.  In Q2 2026, Client revenue grew 23% YoY. AMD attributed Gaming’s 31% decli",
+            "url": "https://x.com/statementdog/status/2116067711575081144",
+            "interaction": 2
           }
         ],
-        "net_sentiment_smoothed": -20.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-30T11:21:25.714284+08:00",
-        "bucket_end": "2026-10-30T11:38:34.285713+08:00",
-        "positive": 0,
+        "bucket_start": "2026-10-30T15:21:25.714284+08:00",
+        "bucket_end": "2026-10-30T15:38:34.285713+08:00",
+        "positive": 3,
         "neutral": 0,
         "negative": 1,
-        "positive_engagement": 0,
+        "positive_engagement": 39,
         "neutral_engagement": 0,
-        "negative_engagement": 35,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 35,
+        "negative_engagement": 36,
+        "net_sentiment": 50.0,
+        "post_count": 4,
+        "engagement": 75,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "units / exchange / earnings / customer",
+            "topic_id": 3,
+            "label": "trump",
             "count": 1
           }
         ],
@@ -373,30 +473,62 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Global tech rout deepens after US earnings stoke AI spending fears",
-            "url": "https://x.com/FT/status/2116009304968839663",
-            "interaction": 35
+            "text": "Why is Donald Trump trying to get the International Criminal Court shut down? John Reed explains what’s behind the campaign to dismantle what the US president calls an ‘anti-American tribunal’  https:",
+            "url": "https://x.com/FT/status/2116068349238997442",
+            "interaction": 36
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "BP’s profits surge to record on back of high fuel prices",
+            "url": "https://x.com/FT/status/2116070144225026514",
+            "interaction": 30
           }
         ],
         "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-30T11:38:34.285713+08:00",
-        "bucket_end": "2026-10-30T11:55:42.857142+08:00",
-        "positive": 1,
-        "neutral": 0,
+        "bucket_start": "2026-10-30T15:38:34.285713+08:00",
+        "bucket_end": "2026-10-30T15:55:42.857142+08:00",
+        "positive": 0,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 2,
-        "neutral_engagement": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 68,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
+        "net_sentiment": 0.0,
         "post_count": 1,
-        "engagement": 2,
+        "engagement": 68,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "TrendForce:  - 4Q26 PC DRAM contract price increases confirmed at +13–18% QoQ, moderating from +18–23% in 3Q26. - Most negotiations are expected to conclude in November, with November prices projected",
+            "url": "https://x.com/jukan05/status/2116075768539439227",
+            "interaction": 68
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-10-30T15:55:42.857142+08:00",
+        "bucket_end": "2026-10-30T16:12:51.428571+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 7,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 7,
         "top_topics": [
           {
             "topic_id": 2,
-            "label": "intel / earnings / crypto / weakness",
+            "label": "taiwan / stocks",
             "count": 1
           }
         ],
@@ -404,85 +536,48 @@
           {
             "handle": "statementdog",
             "platform": "X",
-            "text": "Intel ( $INTC ) reported higher Q3 adjusted earnings on strong data center demand, but PC weakness and the Fab 28 shutdown are weighing on Q4.  Q3 2026:  • Revenue: $16.51B, up 21% YoY • Adjusted oper",
-            "url": "https://x.com/statementdog/status/2116012644096451030",
-            "interaction": 2
+            "text": "@sama  is in Taiwan meeting Foxconn chairman today.  Foxconn chairman Young Liu showed up almost three hours late for his press briefing today.  Turns out,  he’d just met with Sam Altman.  Around the ",
+            "url": "https://x.com/statementdog/status/2116078467364295134",
+            "interaction": 7
           }
         ],
-        "net_sentiment_smoothed": -20.0,
+        "net_sentiment_smoothed": 12.5,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-10-30T11:55:42.857142+08:00",
-        "bucket_end": "2026-10-30T12:12:51.428571+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 13,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 13,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "units / exchange / earnings / customer",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "The Japanese central bank has kept its policy rate on hold at 1.25% as expectations mount for a December increase  https:// ft.trib.al/vHKeYWV",
-            "url": "https://x.com/FT/status/2116016758209343954",
-            "interaction": 13
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-10-30T12:12:51.428571+08:00",
-        "bucket_end": "2026-10-30T12:30:00+08:00",
+        "bucket_start": "2026-10-30T16:12:51.428571+08:00",
+        "bucket_end": "2026-10-30T16:30:00+08:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 1,
+        "negative": 0,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 20,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 20,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "intel / earnings / crypto / weakness",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tengyanAI",
-            "platform": "X",
-            "text": "Intel is getting crushed, down ~23% after earnings.  but if you go beyond the headlines, I think the market is missing something v important abt the AI boom.  Intel has too little capacity for its fas",
-            "url": "https://x.com/tengyanAI/status/2116021816900960642",
-            "interaction": 20
-          }
-        ],
-        "net_sentiment_smoothed": 33.3,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "units / exchange / earnings / customer",
+        "topic_id": 2,
+        "label": "taiwan / stocks",
         "cells": [
           {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -497,9 +592,43 @@
             "volume": 0
           },
           {
-            "net_sentiment": 66.7,
-            "volume": 3
+            "net_sentiment": 0.0,
+            "volume": 0
           },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "trump",
+        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -517,31 +646,9 @@
             "volume": 2
           },
           {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 2,
-        "label": "intel / earnings / crypto / weakness",
-        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -577,32 +684,74 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
           }
         ]
       },
       {
         "topic_id": 0,
-        "label": "nvidia / bandwidth",
+        "label": "revenue / equipment / fell / earnings",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "optionking / status / fuephi / jfrxfha",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -630,6 +779,10 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 0
           },
           {
@@ -637,8 +790,66 @@
             "volume": 0
           },
           {
-            "net_sentiment": -50.0,
-            "volume": 2
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "customers / sandisk",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -666,111 +877,114 @@
     "coverage_focus_ranking": [
       {
         "handle": "TrendForce",
-        "top_topic_id": 2,
-        "top_topic_label": "intel / earnings / crypto / weakness",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "tengyanAI",
-        "top_topic_id": 2,
-        "top_topic_label": "intel / earnings / crypto / weakness",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "SemiAnalysis_",
         "top_topic_id": 0,
-        "top_topic_label": "nvidia / bandwidth",
+        "top_topic_label": "revenue / equipment / fell / earnings",
         "focus_share": 1.0,
         "post_count": 2,
-        "unclustered_posts": 0
+        "unclustered_posts": 1
       },
       {
         "handle": "jukan05",
         "top_topic_id": 1,
-        "top_topic_label": "units / exchange / earnings / customer",
+        "top_topic_label": "其他（未分群，22 篇）",
         "focus_share": 1.0,
         "post_count": 2,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 1,
-        "top_topic_label": "units / exchange / earnings / customer",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "tphuang",
-        "top_topic_id": 1,
-        "top_topic_label": "units / exchange / earnings / customer",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
+        "unclustered_posts": 2
       },
       {
         "handle": "FT",
-        "top_topic_id": 1,
-        "top_topic_label": "units / exchange / earnings / customer",
-        "focus_share": 1.0,
-        "post_count": 5,
-        "unclustered_posts": 0
+        "top_topic_id": 3,
+        "top_topic_label": "trump",
+        "focus_share": 0.75,
+        "post_count": 15,
+        "unclustered_posts": 11
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 5,
+        "top_topic_label": "optionking / status / fuephi / jfrxfha",
+        "focus_share": 0.667,
+        "post_count": 7,
+        "unclustered_posts": 4
       },
       {
         "handle": "statementdog",
-        "top_topic_id": 1,
-        "top_topic_label": "units / exchange / earnings / customer",
-        "focus_share": 0.667,
-        "post_count": 3,
-        "unclustered_posts": 0
+        "top_topic_id": 4,
+        "top_topic_label": "customers / sandisk",
+        "focus_share": 0.5,
+        "post_count": 8,
+        "unclustered_posts": 4
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "units / exchange / earnings / customer",
-        "total_engagement": 893,
-        "post_count": 11,
+        "topic_id": 3,
+        "label": "trump",
+        "total_engagement": 88,
+        "post_count": 3,
         "top_account": "FT",
-        "top_account_engagement": 492,
+        "top_account_engagement": 88,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "nvidia / bandwidth",
-        "total_engagement": 142,
+        "label": "revenue / equipment / fell / earnings",
+        "total_engagement": 37,
         "post_count": 2,
-        "top_account": "SemiAnalysis_",
-        "top_account_engagement": 142,
+        "top_account": "TrendForce",
+        "top_account_engagement": 34,
         "is_catchall": false
       },
       {
         "topic_id": 2,
-        "label": "intel / earnings / crypto / weakness",
-        "total_engagement": 77,
-        "post_count": 4,
-        "top_account": "tengyanAI",
-        "top_account_engagement": 68,
+        "label": "taiwan / stocks",
+        "total_engagement": 35,
+        "post_count": 3,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 20,
         "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "customers / sandisk",
+        "total_engagement": 9,
+        "post_count": 2,
+        "top_account": "statementdog",
+        "top_account_engagement": 9,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "optionking / status / fuephi / jfrxfha",
+        "total_engagement": 4,
+        "post_count": 2,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 4,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，22 篇）",
+        "total_engagement": 448,
+        "post_count": 22,
+        "top_account": "FT",
+        "top_account_engagement": 234,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 15,
-          "likes": 860,
-          "engagement": 1092,
-          "avg_engagement": 72.8
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 2,
-          "likes": 12,
-          "engagement": 20,
-          "avg_engagement": 10.0
+          "post_count": 34,
+          "likes": 422,
+          "engagement": 621,
+          "avg_engagement": 18.3
         },
         "evening": {
           "post_count": 0,
@@ -785,7 +999,7 @@
           "avg_engagement": 0.0
         }
       },
-      "peak_slot": "morning"
+      "peak_slot": "afternoon"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
