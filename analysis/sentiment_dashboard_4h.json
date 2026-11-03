@@ -1,61 +1,88 @@
 {
-  "generated_at": "2026-11-03T16:22:08+08:00",
+  "generated_at": "2026-11-03T18:11:10+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-11-03T12:22:08+08:00",
-    "end_utc": "2026-11-03T16:22:08+08:00",
-    "start_tw": "Nov 03, 12:22",
-    "end_tw": "Nov 03, 16:22"
+    "start_utc": "2026-11-03T14:11:10+08:00",
+    "end_utc": "2026-11-03T18:11:10+08:00",
+    "start_tw": "Nov 03, 14:11",
+    "end_tw": "Nov 03, 18:11"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 17,
+      "total_posts": 27,
       "sentiment_counts": {
-        "negative": 5,
-        "positive": 9,
-        "neutral": 3
+        "negative": 8,
+        "positive": 11,
+        "neutral": 8
       },
       "sentiment_share": {
-        "negative": 0.294,
-        "positive": 0.529,
-        "neutral": 0.176
+        "negative": 0.296,
+        "positive": 0.407,
+        "neutral": 0.296
       },
       "top_terms": [
         "反而",
+        "capacity",
+        "winbond",
+        "earnings",
+        "update",
+        "而加",
+        "營運",
+        "反而加",
         "而成",
-        "成了",
-        "反而成",
-        "而成了",
-        "反而成了",
-        "深度",
-        "度綁",
-        "綁定",
-        "深度綁"
+        "成了"
       ]
     },
     "temperature_bar": [
       {
+        "topic_id": 2,
+        "label": "approximately / cloud / expansion / capacity",
+        "heat": 90.0,
+        "volume": 14,
+        "engagement": 689,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
         "topic_id": 0,
         "label": "tw",
-        "heat": 50.0,
-        "volume": 15,
-        "engagement": 6,
+        "heat": 13.1,
+        "volume": 8,
+        "engagement": 2,
         "entities": [
           "輝達",
-          "深度",
           "聯發科",
           "永豐銀行",
-          "非中"
+          "非中",
+          "黑市"
         ],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "qeshm",
-        "heat": 50.0,
+        "label": "revenue / yoy / margin / operating",
+        "heat": 11.0,
         "volume": 2,
-        "engagement": 30,
+        "engagement": 11,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "winbond / module / kaohsiung / update",
+        "heat": 10.7,
+        "volume": 2,
+        "engagement": 8,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "prices",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 29,
         "entities": [],
         "is_catchall": false
       }
@@ -63,11 +90,7 @@
     "named_entities": [
       {
         "entity": "輝達",
-        "count": 3
-      },
-      {
-        "entity": "深度",
-        "count": 3
+        "count": 2
       },
       {
         "entity": "聯發科",
@@ -98,241 +121,14 @@
         "count": 1
       },
       {
-        "entity": "串聯",
-        "count": 1
-      },
-      {
-        "entity": "馬斯克",
-        "count": 1
-      },
-      {
-        "entity": "高昂",
-        "count": 1
-      },
-      {
-        "entity": "南韓",
+        "entity": "深度",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-11-03T12:22:07.999994+08:00",
-        "bucket_end": "2026-11-03T12:39:16.571423+08:00",
-        "positive": 2,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 14,
-        "neutral_engagement": 1,
-        "negative_engagement": 17,
-        "net_sentiment": 25.0,
-        "post_count": 4,
-        "engagement": 32,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw",
-            "count": 2
-          },
-          {
-            "topic_id": 1,
-            "label": "qeshm",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "US strikes Iran’s Qeshm Island on eve of election",
-            "url": "https://x.com/FT/status/2117473067114823855",
-            "interaction": 17
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "US forces hit targets on Qeshm Island in the Strait of Hormuz on Monday night, in what was described by Washington as a defensive move to protect American military assets in the Middle East  https:// ",
-            "url": "https://x.com/FT/status/2117473831111495741",
-            "interaction": 13
-          }
-        ],
-        "net_sentiment_smoothed": 75.0,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-11-03T12:39:16.571423+08:00",
-        "bucket_end": "2026-11-03T12:56:25.142852+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 1,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 1,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "搭上 #AI 記憶體狂潮直逼兆美元出口大關，南韓的外銷奇蹟反而擴大了實體內需的失衡斷層？ dlvr.​it/TW9CbT",
-            "url": "https://x.com/technews_tw/status/2117477104787042307",
-            "interaction": 1
-          }
-        ],
-        "net_sentiment_smoothed": 56.2,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T12:56:25.142852+08:00",
-        "bucket_end": "2026-11-03T13:13:33.714281+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 1,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 1,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "連國家元首出訪機密都遭標價兜售引爆 #Cybersecurity 震撼，嚴密的情報防禦反而容易在外部差旅供應鏈失守？ dlvr.​it/TW9D2C",
-            "url": "https://x.com/technews_tw/status/2117482978993697027",
-            "interaction": 1
-          }
-        ],
-        "net_sentiment_smoothed": 65.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T13:13:33.714281+08:00",
-        "bucket_end": "2026-11-03T13:30:42.285710+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "瞄準資料中心龐大的電力缺口，#BloomEnergy 跨界打造 1 GW 碳捕捉發電案，燃料電池反而更能突破綠電的間歇瓶頸？ dlvr.​it/TW9DNM",
-            "url": "https://x.com/technews_tw/status/2117487593973813748",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T13:30:42.285710+08:00",
-        "bucket_end": "2026-11-03T13:47:50.857139+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "被馬斯克盛讚成長最速的 #Grok 坦承入不敷出並收緊額度，翻倍的推論需求反而提早透支了訂閱制的獲利空間？高昂的基礎設施開銷正加速推動生成式服務告別吃到飽的時代。 dlvr.​it/TW9DqH",
-            "url": "https://x.com/technews_tw/status/2117493126940299466",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T13:47:50.857139+08:00",
-        "bucket_end": "2026-11-03T14:04:59.428568+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "昔日自救會號召者攜 136 億元重返 #PSMC 母公司戰局，串聯散戶股權反而成了外部勢力突襲治理的槓桿？高資本密集的晶圓製造體系，始終禁不起任何來源成謎的股權震盪。 dlvr.​it/TW9F9w",
-            "url": "https://x.com/technews_tw/status/2117497565663088768",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": -20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T14:04:59.428568+08:00",
-        "bucket_end": "2026-11-03T14:22:07.999997+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T14:22:07.999997+08:00",
-        "bucket_end": "2026-11-03T14:39:16.571426+08:00",
+        "bucket_start": "2026-11-03T14:11:09.999994+08:00",
+        "bucket_end": "2026-11-03T14:28:18.571423+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -358,60 +154,27 @@
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": -10.0,
+        "net_sentiment_smoothed": -41.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-03T14:39:16.571426+08:00",
-        "bucket_end": "2026-11-03T14:56:25.142855+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 1,
-        "neutral_engagement": 1,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 2,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "連網銀都沒開卻離奇通過臉部驗證，#永豐銀行 多起十萬盜轉重擊 #FinTech 信任，看似嚴密的生物辨識反而成了授權被繞過的盲區？ dlvr.​it/TW9GS9",
-            "url": "https://x.com/technews_tw/status/2117508958294556957",
-            "interaction": 1
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "#MRAM 助攻日本零件大廠愛信大砍 98% 晶片功耗，車用邊緣辨識的耗電瓶頸反而更受制於記憶體存取架構？ dlvr.​it/TW9GL9",
-            "url": "https://x.com/technews_tw/status/2117507849073177037",
-            "interaction": 1
-          }
-        ],
-        "net_sentiment_smoothed": 30.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T14:56:25.142855+08:00",
-        "bucket_end": "2026-11-03T15:13:33.714284+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
+        "bucket_start": "2026-11-03T14:28:18.571423+08:00",
+        "bucket_end": "2026-11-03T14:45:27.142852+08:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 2,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 0,
+        "neutral_engagement": 18,
+        "negative_engagement": 41,
+        "net_sentiment": -50.0,
+        "post_count": 4,
+        "engagement": 59,
         "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "approximately / cloud / expansion / capacity",
+            "count": 3
+          },
           {
             "topic_id": 0,
             "label": "tw",
@@ -420,19 +183,100 @@
         ],
         "top_posts": [
           {
-            "handle": "technews_tw",
+            "handle": "FT",
             "platform": "X",
-            "text": "創紀錄的抄底資金湧入槓桿商品卻正面撞上 #AI 融資風暴，資本支出增幅觸頂反而促使半導體鏈回歸健康的獲利常軌？營運現金流的實質兌現已正式接管市場的定價話語權。 dlvr.​it/TW9Gm3",
-            "url": "https://x.com/technews_tw/status/2117512452959248487",
-            "interaction": 0
+            "text": "The risk of higher volatility in stocks is rising  https:// ft.trib.al/ABO9Bxl  | opinion",
+            "url": "https://x.com/FT/status/2117508191583903973",
+            "interaction": 23
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "A new threat to the New York-based stock exchanges  https:// ft.trib.al/9aA70YR  | opinion",
+            "url": "https://x.com/FT/status/2117508197443424264",
+            "interaction": 18
           }
         ],
-        "net_sentiment_smoothed": 10.0,
+        "net_sentiment_smoothed": -56.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-03T15:13:33.714284+08:00",
-        "bucket_end": "2026-11-03T15:30:42.285713+08:00",
+        "bucket_start": "2026-11-03T14:45:27.142852+08:00",
+        "bucket_end": "2026-11-03T15:02:35.714281+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 1,
+        "neutral_engagement": 15,
+        "negative_engagement": 17,
+        "net_sentiment": 25.0,
+        "post_count": 4,
+        "engagement": 33,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "tw",
+            "count": 2
+          },
+          {
+            "topic_id": 2,
+            "label": "approximately / cloud / expansion / capacity",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The rulemaking ‘farce’ that has banks and insurers at loggerheads  https:// ft.trib.al/Host4lw  | opinion",
+            "url": "https://x.com/FT/status/2117511455549321529",
+            "interaction": 17
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Britain’s biggest container port rises by the Thames  https:// ft.trib.al/TwBFvqW  | opinion",
+            "url": "https://x.com/FT/status/2117510173757477109",
+            "interaction": 15
+          }
+        ],
+        "net_sentiment_smoothed": -25.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-03T15:02:35.714281+08:00",
+        "bucket_end": "2026-11-03T15:19:44.285710+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 28,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 28,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "approximately / cloud / expansion / capacity",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Four weeks before the US midterms, the FT brought together a group of voters in the Pennsylvania battleground of Bethlehem for a discussion about the issues that will shape their choices at the ballot",
+            "url": "https://x.com/FT/status/2117515975062856050",
+            "interaction": 28
+          }
+        ],
+        "net_sentiment_smoothed": -5.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-03T15:19:44.285710+08:00",
+        "bucket_end": "2026-11-03T15:36:52.857139+08:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -458,29 +302,41 @@
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 50.0,
+        "net_sentiment_smoothed": 11.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-03T15:30:42.285713+08:00",
-        "bucket_end": "2026-11-03T15:47:50.857142+08:00",
-        "positive": 0,
+        "bucket_start": "2026-11-03T15:36:52.857139+08:00",
+        "bucket_end": "2026-11-03T15:54:01.428568+08:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 1,
-        "positive_engagement": 0,
+        "positive_engagement": 29,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 29,
         "top_topics": [
           {
             "topic_id": 0,
             "label": "tw",
             "count": 1
+          },
+          {
+            "topic_id": 3,
+            "label": "prices",
+            "count": 1
           }
         ],
         "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Oil prices steady at $106 after sharp declines on US-Iran hopes",
+            "url": "https://x.com/FT/status/2117522794338496794",
+            "interaction": 29
+          },
           {
             "handle": "technews_tw",
             "platform": "X",
@@ -489,43 +345,177 @@
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 40.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-03T15:47:50.857142+08:00",
-        "bucket_end": "2026-11-03T16:04:59.428571+08:00",
-        "positive": 1,
+        "bucket_start": "2026-11-03T15:54:01.428568+08:00",
+        "bucket_end": "2026-11-03T16:11:09.999997+08:00",
+        "positive": 2,
         "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
+        "negative": 1,
+        "positive_engagement": 4,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 0,
+        "negative_engagement": 6,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 10,
         "top_topics": [
           {
             "topic_id": 0,
             "label": "tw",
             "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "winbond / module / kaohsiung / update",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "revenue / yoy / margin / operating",
+            "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "technews_tw",
+            "handle": "statementdog",
             "platform": "X",
-            "text": "每天打開手機，財經快訊、法人報告、群組消息輪流轟炸 投資最怕的，不是資訊太少，而是雜訊太多 AI 助理能做的，不是替你做投資決定，而是協助你處理資訊 容易衝動？AI 助理幫你重新檢視想法 習慣研究？AI 助理幫你整理不同觀點 資訊太多？AI 助理幫你掌握重要變化… dlvr.​it/TW9JvW",
-            "url": "https://x.com/technews_tw/status/2117528269239226624",
-            "interaction": 0
+            "text": "📊Winbond (2344 TT) earnings call | 3Q26 update #2  Winbond sees further upside in Q4 customized memory contract prices. Its next major expansion, Kaohsiung Module B, is expected to begin limited shipm",
+            "url": "https://x.com/statementdog/status/2117528233499619834",
+            "interaction": 6
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "📊Winbond (2344 TT) earnings call | 3Q26 update #1  Q3 revenue rose 278% YoY and operating profit jumped nearly twelvefold. Higher pricing and a richer product mix drove the gains, with memory gross ma",
+            "url": "https://x.com/statementdog/status/2117528182358434196",
+            "interaction": 4
           }
         ],
-        "net_sentiment_smoothed": 25.0,
+        "net_sentiment_smoothed": 40.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-03T16:04:59.428571+08:00",
-        "bucket_end": "2026-11-03T16:22:08+08:00",
+        "bucket_start": "2026-11-03T16:11:09.999997+08:00",
+        "bucket_end": "2026-11-03T16:28:18.571426+08:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 140,
+        "negative_engagement": 0,
+        "net_sentiment": -33.3,
+        "post_count": 3,
+        "engagement": 140,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "tw",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
+            "label": "approximately / cloud / expansion / capacity",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "winbond / module / kaohsiung / update",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "US, Russia and China discuss trilateral meeting between Trump, Putin and Xi",
+            "url": "https://x.com/FT/status/2117532971141869938",
+            "interaction": 138
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "📊Winbond (2344 TT) earnings call | 3Q26 update #3  Major MLCC suppliers are turning to Winbond’s silicon capacitor foundry service. Management says most of its existing capacity of several thousand wa",
+            "url": "https://x.com/statementdog/status/2117532571839934591",
+            "interaction": 2
+          }
+        ],
+        "net_sentiment_smoothed": 26.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-03T16:28:18.571426+08:00",
+        "bucket_end": "2026-11-03T16:45:27.142855+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 5,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 5,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "approximately / cloud / expansion / capacity",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "TheElec〈Further Expansion Upon Expansion, ISU Petasys Signs Investment Agreement for Seventh Plant〉  1. Seventh Plant Investment: ISU Petasys (007660.KS) signed an MOU with Daegu City and Dalseong Cou",
+            "url": "https://x.com/QQ_Timmy/status/2117535893695455638",
+            "interaction": 5
+          }
+        ],
+        "net_sentiment_smoothed": 26.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-03T16:45:27.142855+08:00",
+        "bucket_end": "2026-11-03T17:02:35.714284+08:00",
+        "positive": 1,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 247,
+        "neutral_engagement": 166,
+        "negative_engagement": 0,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 413,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "approximately / cloud / expansion / capacity",
+            "count": 3
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "KOREAN MEDIA: SK HYNIX SUBSIDIARY SOLIDIGM IS PURSUING PLANS TO BUILD TWO NAND FABS AT THE MARCY NANOCENTER IN NEW YORK AT A TOTAL COST OF $100 BILLION.",
+            "url": "https://x.com/jukan05/status/2117541588184551815",
+            "interaction": 247
+          },
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "\"DeepSeek plans to pretrain its next-generation large AI model, DeepSeek V5, using Huawei Ascend chips.\"  👀",
+            "url": "https://x.com/jukan05/status/2117540499712352336",
+            "interaction": 152
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-03T17:02:35.714284+08:00",
+        "bucket_end": "2026-11-03T17:19:44.285713+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -537,29 +527,190 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 46.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-03T17:19:44.285713+08:00",
+        "bucket_end": "2026-11-03T17:36:52.857142+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 46.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-03T17:36:52.857142+08:00",
+        "bucket_end": "2026-11-03T17:54:01.428571+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 13,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 13,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "revenue / yoy / margin / operating",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
+            "label": "approximately / cloud / expansion / capacity",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Nomura Securities (Nomura) <AI Infrastructure: Cash Flow Timing Gap, Not Profitability Crisis>  1. Cloud Already Highly Profitable:   1) AWS revenue $46 billion, up 39% YoY, operating margin 38.7%.   ",
+            "url": "https://x.com/QQ_Timmy/status/2117555634858000835",
+            "interaction": 7
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Goldman Sachs Revises Up Global Data Center Capacity Forecast  1. Capacity Forecast Revised Upward: Global data center capacity for 2030 raised from 217 GW to 273 GW, a 26% increase, adding approximat",
+            "url": "https://x.com/QQ_Timmy/status/2117554399883190345",
+            "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": 50.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-03T17:54:01.428571+08:00",
+        "bucket_end": "2026-11-03T18:11:10+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 1,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "approximately / cloud / expansion / capacity",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Recent Report Summary  CSP Capital Expenditure Summary: AI Capital Expenditure to Slow from 2028 Onward (November 2) - U.S. top five CSP capital expenditures in 2027 and 2028 are approximately $1.2 tr",
+            "url": "https://x.com/QQ_Timmy/status/2117557469576925311",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 66.7,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "tw",
+        "topic_id": 2,
+        "label": "approximately / cloud / expansion / capacity",
         "cells": [
           {
-            "net_sentiment": 50.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -66.7,
+            "volume": 3
+          },
+          {
+            "net_sentiment": -50.0,
             "volume": 2
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
+            "net_sentiment": -100.0,
             "volume": 1
           },
           {
             "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 33.3,
+            "volume": 3
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "tw",
+        "cells": [
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
             "volume": 1
           },
           {
@@ -575,24 +726,78 @@
             "volume": 0
           },
           {
-            "net_sentiment": -100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
-            "net_sentiment": 50.0,
-            "volume": 2
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "revenue / yoy / margin / operating",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 100.0,
             "volume": 1
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
-            "net_sentiment": -100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 100.0,
@@ -605,12 +810,40 @@
         ]
       },
       {
-        "topic_id": 1,
-        "label": "qeshm",
+        "topic_id": 4,
+        "label": "winbond / module / kaohsiung / update",
         "cells": [
           {
             "net_sentiment": 0.0,
-            "volume": 2
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -631,6 +864,40 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "prices",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -673,35 +940,86 @@
         "top_topic_id": 0,
         "top_topic_label": "tw",
         "focus_share": 1.0,
-        "post_count": 15,
+        "post_count": 8,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 2,
+        "top_topic_label": "approximately / cloud / expansion / capacity",
+        "focus_share": 1.0,
+        "post_count": 2,
         "unclustered_posts": 0
       },
       {
         "handle": "FT",
-        "top_topic_id": 1,
-        "top_topic_label": "qeshm",
-        "focus_share": 1.0,
-        "post_count": 2,
+        "top_topic_id": 2,
+        "top_topic_label": "approximately / cloud / expansion / capacity",
+        "focus_share": 0.889,
+        "post_count": 9,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 2,
+        "top_topic_label": "approximately / cloud / expansion / capacity",
+        "focus_share": 0.8,
+        "post_count": 5,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 4,
+        "top_topic_label": "winbond / module / kaohsiung / update",
+        "focus_share": 0.667,
+        "post_count": 3,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "qeshm",
-        "total_engagement": 30,
-        "post_count": 2,
+        "topic_id": 2,
+        "label": "approximately / cloud / expansion / capacity",
+        "total_engagement": 689,
+        "post_count": 14,
+        "top_account": "jukan05",
+        "top_account_engagement": 399,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "prices",
+        "total_engagement": 29,
+        "post_count": 1,
         "top_account": "FT",
-        "top_account_engagement": 30,
+        "top_account_engagement": 29,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "revenue / yoy / margin / operating",
+        "total_engagement": 11,
+        "post_count": 2,
+        "top_account": "QQ_Timmy",
+        "top_account_engagement": 7,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "winbond / module / kaohsiung / update",
+        "total_engagement": 8,
+        "post_count": 2,
+        "top_account": "statementdog",
+        "top_account_engagement": 8,
         "is_catchall": false
       },
       {
         "topic_id": 0,
         "label": "tw",
-        "total_engagement": 6,
-        "post_count": 15,
+        "total_engagement": 2,
+        "post_count": 8,
         "top_account": "technews_tw",
-        "top_account_engagement": 6,
+        "top_account_engagement": 2,
         "is_catchall": false
       }
     ],
@@ -714,16 +1032,16 @@
           "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 17,
-          "likes": 26,
-          "engagement": 36,
-          "avg_engagement": 2.1
+          "post_count": 25,
+          "likes": 552,
+          "engagement": 730,
+          "avg_engagement": 29.2
         },
         "evening": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 2,
+          "likes": 8,
+          "engagement": 9,
+          "avg_engagement": 4.5
         },
         "late_night": {
           "post_count": 0,
