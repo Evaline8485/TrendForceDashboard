@@ -1,42 +1,51 @@
 {
-  "generated_at": "2026-11-04T16:20:48+08:00",
+  "generated_at": "2026-11-04T09:01:15.534558+00:00",
   "time_range": "8h",
   "window": {
-    "start_utc": "2026-11-04T08:20:48+08:00",
-    "end_utc": "2026-11-04T16:20:48+08:00",
-    "start_tw": "Nov 04, 08:20",
-    "end_tw": "Nov 04, 16:20"
+    "start_utc": "2026-11-04T01:01:15.534558+00:00",
+    "end_utc": "2026-11-04T09:01:15.534558+00:00",
+    "start_tw": "Nov 04, 09:01",
+    "end_tw": "Nov 04, 17:01"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 104,
+      "total_posts": 178,
       "sentiment_counts": {
-        "negative": 27,
-        "positive": 45,
-        "neutral": 32
+        "negative": 52,
+        "positive": 72,
+        "neutral": 54
       },
       "sentiment_share": {
-        "negative": 0.26,
-        "positive": 0.433,
-        "neutral": 0.308
+        "negative": 0.292,
+        "positive": 0.404,
+        "neutral": 0.303
       },
       "top_terms": [
         "twb",
-        "republican",
-        "trump",
-        "反而",
-        "反倒",
-        "democrats",
-        "senate",
-        "硬體",
-        "記憶",
-        "憶體"
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
+        "晶片",
+        "半導",
+        "導體",
+        "半導體"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 9,
+        "topic_id": 5,
+        "label": "trump / donald / democrats / republican",
+        "heat": 90.0,
+        "volume": 8,
+        "engagement": 1359,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
         "label": "democrat / ap / republican / senate",
         "heat": 90.0,
         "volume": 9,
@@ -45,103 +54,123 @@
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "trump / donald / democrats / midterms",
-        "heat": 88.7,
-        "volume": 6,
-        "engagement": 1226,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 6,
-        "label": "semianalysis / frontier / gdpx / wave",
-        "heat": 70.0,
+        "topic_id": 15,
+        "label": "hynix / semianalysis / sk / wave",
+        "heat": 43.7,
         "volume": 3,
-        "engagement": 1247,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "twb",
-        "heat": 50.3,
-        "volume": 9,
-        "engagement": 5,
+        "engagement": 997,
         "entities": [
-          "台灣",
-          "聯發科",
-          "加密",
-          "智原",
-          "義隆"
+          "美國",
+          "SK海力士",
+          "南韓",
+          "紐約州",
+          "中國大連廠"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 8,
-        "label": "半導體 / 華邦電 / twb / 記憶體",
-        "heat": 20.6,
-        "volume": 6,
-        "engagement": 4,
-        "entities": [
-          "華邦電",
-          "環球晶",
-          "台積電",
-          "弘塑",
-          "SK海力士"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 16,
-        "label": "samsung / semianalysis / korean / sk海力士",
-        "heat": 16.7,
-        "volume": 2,
-        "engagement": 442,
+        "topic_id": 13,
+        "label": "materials / applied / korean / samsung",
+        "heat": 40.7,
+        "volume": 4,
+        "engagement": 773,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 19,
-        "label": "latest / rack / tracker / races",
-        "heat": 16.7,
-        "volume": 2,
-        "engagement": 175,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 10,
-        "label": "americans / trump / rebuke / congress",
-        "heat": 15.9,
-        "volume": 3,
-        "engagement": 132,
+        "topic_id": 23,
+        "label": "midterm / elections / takeaways / tracker",
+        "heat": 34.9,
+        "volume": 5,
+        "engagement": 547,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 3,
-        "label": "dram / nt / taiwan / maker",
-        "heat": 14.0,
-        "volume": 2,
-        "engagement": 78,
+        "label": "amd / 資料中心 / 百億併購與產能全面鎖定 / 但在消費端急縮下",
+        "heat": 24.8,
+        "volume": 6,
+        "engagement": 74,
+        "entities": [
+          "伺服器",
+          "百億",
+          "超微",
+          "美國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "nvidia / ic / 輝達 / 晶片",
+        "heat": 21.1,
+        "volume": 6,
+        "engagement": 43,
+        "entities": [
+          "輝達",
+          "中國",
+          "智慧",
+          "美國",
+          "英國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "台股",
+        "heat": 19.3,
+        "volume": 4,
+        "engagement": 297,
+        "entities": [
+          "美國",
+          "上市",
+          "郭哲榮",
+          "台灣",
+          "國泰"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 14,
+        "label": "democratic / victories / elected / americans",
+        "heat": 17.3,
+        "volume": 3,
+        "engagement": 291,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "democrats / writes",
-        "heat": 13.7,
-        "volume": 2,
-        "engagement": 71,
+        "label": "biggest / nanya / dram / nt",
+        "heat": 16.1,
+        "volume": 4,
+        "engagement": 156,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 15,
-        "label": "tsmc / ase / spil / packaging",
-        "heat": 12.7,
-        "volume": 2,
+        "topic_id": 25,
+        "label": "capex / boom / anthropic / adding",
+        "heat": 13.7,
+        "volume": 3,
+        "engagement": 83,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "democrats / writes / editor / midterms",
+        "heat": 13.7,
+        "volume": 3,
+        "engagement": 83,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "tsmc / tw / ase / spil",
+        "heat": 12.3,
+        "volume": 3,
         "engagement": 49,
         "entities": [
           "中科",
@@ -152,248 +181,355 @@
         "is_catchall": false
       },
       {
+        "topic_id": 16,
+        "label": "華爾街見聞 / 川普政府的關稅政策 / 更可能改變未來兩年美國經濟政策與全球金融市場走向 / 伊朗戰事及能源供應風險",
+        "heat": 11.8,
+        "volume": 3,
+        "engagement": 40,
+        "entities": [
+          "美國",
+          "華爾街",
+          "摩根",
+          "大通",
+          "高盛"
+        ],
+        "is_catchall": false
+      },
+      {
         "topic_id": 11,
-        "label": "amd / 半導體 / 資料中心 / nvidia",
-        "heat": 12.1,
-        "volume": 5,
-        "engagement": 32,
+        "label": "mlcc / 華邦電 / hbm / 需求下",
+        "heat": 11.6,
+        "volume": 3,
+        "engagement": 36,
         "entities": [
-          "三星",
-          "德州",
-          "伺服器",
-          "百億"
+          "華邦電",
+          "高昂",
+          "南科高雄園區"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 17,
-        "label": "server / taiwan / component",
-        "heat": 11.9,
-        "volume": 2,
-        "engagement": 32,
-        "entities": [],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 12,
-        "label": "anthropic / capex",
-        "heat": 11.7,
-        "volume": 2,
-        "engagement": 29,
+        "topic_id": 10,
+        "label": "環球晶 / 無懼廠區意外 / 低谷期重金擴充 / soi",
+        "heat": 11.5,
+        "volume": 3,
+        "engagement": 34,
         "entities": [
-          "毛利",
-          "中國",
-          "巨浪"
+          "環球晶",
+          "祝融"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 7,
-        "label": "jp / token / twb",
-        "heat": 10.4,
-        "volume": 2,
-        "engagement": 7,
+        "topic_id": 19,
+        "label": "gb / electronics / windows / 微軟",
+        "heat": 11.1,
+        "volume": 4,
+        "engagement": 25,
+        "entities": [
+          "微軟"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 24,
+        "label": "jp / iphone / 蘋果 / 算力帳單逼至死角",
+        "heat": 10.9,
+        "volume": 3,
+        "engagement": 22,
         "entities": [
           "毛利"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 4,
-        "label": "雲端 / app / twb",
+        "topic_id": 21,
+        "label": "三星 / hbm / amd / nvidia",
+        "heat": 10.5,
+        "volume": 3,
+        "engagement": 15,
+        "entities": [
+          "三星",
+          "德州",
+          "城河"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "anthropic / ipo / 真能填補無底洞般的資本缺口 / 揭露",
         "heat": 10.1,
-        "volume": 2,
-        "engagement": 1,
+        "volume": 3,
+        "engagement": 8,
         "entities": [
-          "中華電信",
-          "永豐銀行"
+          "毛利",
+          "中國",
+          "巨浪",
+          "伺服器"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 13,
-        "label": "nvidia / 晶片 / token / 無視",
+        "topic_id": 29,
+        "label": "ddr / component / delivery",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 0,
+        "engagement": 25,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "中華電信 / google / 雲端 / 將現有",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 9,
         "entities": [
-          "輝達",
-          "智慧"
+          "中華電信"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 14,
-        "label": "科技股 / twb",
+        "topic_id": 34,
+        "label": "deepseek / 華為 / 晶片 / 預訓練擬交由",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 0,
+        "engagement": 8,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 32,
+        "label": "提前展現高一階的職責承擔才是打破瓶頸的核心關鍵 / 太擅長現職反而成為升遷絆腳石 / 單憑頂尖業務表現真能敲開晉升大門 / 在講求敏捷成長的科技業",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 6,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "華芸科技 / 私有雲 / nas / 儲存",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 20,
         "entities": [
-          "華爾",
-          "聯準會"
+          "華碩",
+          "華芸",
+          "冷清"
         ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 20,
+        "label": "familyoffice / 透明對話才是延續資產的解方 / 過度迷信節稅 / 恐掩蓋共識缺乏的隱形風險",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 10,
+        "entities": [
+          "富豪",
+          "達陣"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 31,
+        "label": "更讓昂貴硬體陷入空轉 / 不僅無助擴增效能 / 叢集 / 瓶頸",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 9,
+        "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 18,
-        "label": "資料中心 / twb",
+        "label": "達發科技 / 光通訊 / 聯發科 / 掌握底層傳輸升級",
         "heat": 10.0,
-        "volume": 1,
-        "engagement": 0,
+        "volume": 2,
+        "engagement": 19,
         "entities": [
-          "衛星"
+          "聯發科",
+          "紅海"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 2,
-        "label": "其他（未分群，40 篇）",
+        "topic_id": 30,
+        "label": "加密貨幣 / 駭客 / 幣安 / 爆發最大",
         "heat": 10.0,
-        "volume": 40,
-        "engagement": 7259,
+        "volume": 2,
+        "engagement": 18,
         "entities": [
-          "微軟",
-          "鴻海",
-          "華碩",
-          "華芸",
+          "加密",
+          "若金鑰"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 26,
+        "label": "資安 / 雲端 / 單月內 / 服務接連失守",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 15,
+        "entities": [
           "永豐銀行"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 27,
+        "label": "智原科技 / 機器人 / 反而能規避硬體整合風險 / ip",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 11,
+        "entities": [
+          "智原"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 28,
+        "label": "永豐銀行 / fintech / 爆發未登入即遭盜轉四千萬的異常 / 如何成功繞過後端防禦機制",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 22,
+        "entities": [
+          "永豐銀行"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 17,
+        "label": "drone / 義隆電 / 聯手雷虎投入 / 從源頭洗牌供應鏈反而墊高了平戰載具的量產門檻",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 26,
+        "entities": [
+          "義隆"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 33,
+        "label": "oracle / trump",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 112,
+        "entities": [
+          "甲骨文",
+          "川普",
+          "騰訊",
+          "美國",
+          "中國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，67 篇）",
+        "heat": 10.0,
+        "volume": 67,
+        "engagement": 14823,
+        "entities": [
+          "美國",
+          "台灣",
+          "德州",
+          "台積電",
+          "華邦電"
         ],
         "is_catchall": true
       }
     ],
     "named_entities": [
       {
-        "entity": "華邦電",
-        "count": 6
+        "entity": "美國",
+        "count": 29
       },
       {
         "entity": "台灣",
-        "count": 4
-      },
-      {
-        "entity": "台積電",
-        "count": 4
-      },
-      {
-        "entity": "三星",
-        "count": 4
-      },
-      {
-        "entity": "永豐銀行",
-        "count": 3
-      },
-      {
-        "entity": "輝達",
-        "count": 2
-      },
-      {
-        "entity": "微軟",
-        "count": 2
-      },
-      {
-        "entity": "毛利",
-        "count": 2
+        "count": 12
       },
       {
         "entity": "中國",
-        "count": 2
+        "count": 10
       },
       {
-        "entity": "鴻海",
-        "count": 2
+        "entity": "華邦電",
+        "count": 9
       },
       {
-        "entity": "中華電信",
-        "count": 2
+        "entity": "德州",
+        "count": 8
       },
       {
-        "entity": "衛星",
-        "count": 2
+        "entity": "台積電",
+        "count": 7
       },
       {
-        "entity": "華碩",
-        "count": 2
+        "entity": "永豐銀行",
+        "count": 6
       },
       {
-        "entity": "華芸",
-        "count": 2
+        "entity": "輝達",
+        "count": 5
+      },
+      {
+        "entity": "三星",
+        "count": 5
+      },
+      {
+        "entity": "微軟",
+        "count": 4
+      },
+      {
+        "entity": "毛利",
+        "count": 4
       },
       {
         "entity": "環球晶",
-        "count": 2
+        "count": 4
+      },
+      {
+        "entity": "SK海力士",
+        "count": 4
+      },
+      {
+        "entity": "伺服器",
+        "count": 4
+      },
+      {
+        "entity": "華爾街",
+        "count": 4
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-11-04T08:20:48.000002+08:00",
-        "bucket_end": "2026-11-04T08:55:05.142859+08:00",
-        "positive": 2,
-        "neutral": 2,
-        "negative": 1,
-        "positive_engagement": 274,
-        "neutral_engagement": 14,
-        "negative_engagement": 20,
-        "net_sentiment": 20.0,
-        "post_count": 5,
-        "engagement": 308,
+        "bucket_start": "2026-11-04T01:01:15.534560+00:00",
+        "bucket_end": "2026-11-04T01:35:32.677417+00:00",
+        "positive": 8,
+        "neutral": 6,
+        "negative": 2,
+        "positive_engagement": 178,
+        "neutral_engagement": 559,
+        "negative_engagement": 33,
+        "net_sentiment": 37.5,
+        "post_count": 16,
+        "engagement": 770,
         "top_topics": [
           {
-            "topic_id": 6,
-            "label": "semianalysis / frontier / gdpx / wave",
+            "topic_id": 0,
+            "label": "biggest / nanya / dram / nt",
+            "count": 3
+          },
+          {
+            "topic_id": 2,
+            "label": "democrat / ap / republican / senate",
             "count": 2
           },
           {
-            "topic_id": 8,
-            "label": "半導體 / 華邦電 / twb / 記憶體",
-            "count": 1
-          },
-          {
-            "topic_id": 11,
-            "label": "amd / 半導體 / 資料中心 / nvidia",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "SemiAnalysis_",
-            "platform": "X",
-            "text": "We believe there will be tremendous value created from AI in chip design. This is exactly why we included 34 frontier chip design tasks in GDPx. We are still so early. (1/2)🧵   https:// x.com/theinfor",
-            "url": "https://x.com/SemiAnalysis_/status/2117774796851224855",
-            "interaction": 256
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "How much should you read into what prediction markets are saying about this election? Our US national editor  @EdwardGLuce  offers this warning:  https:// ft.trib.al/fZDMljF",
-            "url": "https://x.com/FT/status/2117778501084258417",
-            "interaction": 20
-          }
-        ],
-        "net_sentiment_smoothed": 36.9,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-04T08:55:05.142859+08:00",
-        "bucket_end": "2026-11-04T09:29:22.285716+08:00",
-        "positive": 6,
-        "neutral": 4,
-        "negative": 0,
-        "positive_engagement": 58,
-        "neutral_engagement": 525,
-        "negative_engagement": 0,
-        "net_sentiment": 60.0,
-        "post_count": 10,
-        "engagement": 583,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "twb",
-            "count": 1
-          },
-          {
-            "topic_id": 3,
-            "label": "dram / nt / taiwan / maker",
-            "count": 1
+            "topic_id": 23,
+            "label": "midterm / elections / takeaways / tracker",
+            "count": 2
           }
         ],
         "top_posts": [
@@ -412,35 +548,35 @@
             "interaction": 164
           }
         ],
-        "net_sentiment_smoothed": 27.7,
+        "net_sentiment_smoothed": 29.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-04T09:29:22.285716+08:00",
-        "bucket_end": "2026-11-04T10:03:39.428573+08:00",
-        "positive": 6,
-        "neutral": 5,
-        "negative": 2,
-        "positive_engagement": 469,
-        "neutral_engagement": 4308,
-        "negative_engagement": 33,
-        "net_sentiment": 30.8,
-        "post_count": 13,
-        "engagement": 4810,
+        "bucket_start": "2026-11-04T01:35:32.677417+00:00",
+        "bucket_end": "2026-11-04T02:09:49.820274+00:00",
+        "positive": 3,
+        "neutral": 3,
+        "negative": 0,
+        "positive_engagement": 336,
+        "neutral_engagement": 4274,
+        "negative_engagement": 0,
+        "net_sentiment": 50.0,
+        "post_count": 6,
+        "engagement": 4610,
         "top_topics": [
           {
-            "topic_id": 8,
-            "label": "半導體 / 華邦電 / twb / 記憶體",
+            "topic_id": 13,
+            "label": "materials / applied / korean / samsung",
             "count": 2
           },
           {
-            "topic_id": 9,
-            "label": "democrat / ap / republican / senate",
-            "count": 2
+            "topic_id": 3,
+            "label": "amd / 資料中心 / 百億併購與產能全面鎖定 / 但在消費端急縮下",
+            "count": 1
           },
           {
             "topic_id": 11,
-            "label": "amd / 半導體 / 資料中心 / nvidia",
+            "label": "mlcc / 華邦電 / hbm / 需求下",
             "count": 1
           }
         ],
@@ -460,29 +596,34 @@
             "interaction": 314
           }
         ],
-        "net_sentiment_smoothed": 22.2,
+        "net_sentiment_smoothed": 21.9,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-04T10:03:39.428573+08:00",
-        "bucket_end": "2026-11-04T10:37:56.571430+08:00",
+        "bucket_start": "2026-11-04T02:09:49.820274+00:00",
+        "bucket_end": "2026-11-04T02:44:06.963131+00:00",
         "positive": 1,
-        "neutral": 1,
+        "neutral": 2,
         "negative": 1,
         "positive_engagement": 462,
-        "neutral_engagement": 144,
+        "neutral_engagement": 145,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 3,
-        "engagement": 606,
+        "post_count": 4,
+        "engagement": 607,
         "top_topics": [
           {
-            "topic_id": 8,
-            "label": "半導體 / 華邦電 / twb / 記憶體",
+            "topic_id": 27,
+            "label": "智原科技 / 機器人 / 反而能規避硬體整合風險 / ip",
             "count": 1
           },
           {
-            "topic_id": 9,
+            "topic_id": 14,
+            "label": "democratic / victories / elected / americans",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
             "label": "democrat / ap / republican / senate",
             "count": 1
           }
@@ -503,30 +644,30 @@
             "interaction": 144
           }
         ],
-        "net_sentiment_smoothed": 30.7,
+        "net_sentiment_smoothed": 29.5,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-04T10:37:56.571430+08:00",
-        "bucket_end": "2026-11-04T11:12:13.714287+08:00",
+        "bucket_start": "2026-11-04T02:44:06.963131+00:00",
+        "bucket_end": "2026-11-04T03:18:24.105988+00:00",
         "positive": 0,
-        "neutral": 3,
+        "neutral": 2,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 3,
+        "neutral_engagement": 2,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 3,
-        "engagement": 3,
+        "post_count": 2,
+        "engagement": 2,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "twb",
-            "count": 2
+            "topic_id": 30,
+            "label": "加密貨幣 / 駭客 / 幣安 / 爆發最大",
+            "count": 1
           },
           {
-            "topic_id": 4,
-            "label": "雲端 / app / twb",
+            "topic_id": 26,
+            "label": "資安 / 雲端 / 單月內 / 服務接連失守",
             "count": 1
           }
         ],
@@ -546,35 +687,35 @@
             "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": 20.5,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-04T11:12:13.714287+08:00",
-        "bucket_end": "2026-11-04T11:46:30.857144+08:00",
-        "positive": 5,
-        "neutral": 3,
+        "bucket_start": "2026-11-04T03:18:24.105988+00:00",
+        "bucket_end": "2026-11-04T03:52:41.248845+00:00",
+        "positive": 6,
+        "neutral": 4,
         "negative": 0,
-        "positive_engagement": 406,
-        "neutral_engagement": 25,
+        "positive_engagement": 435,
+        "neutral_engagement": 53,
         "negative_engagement": 0,
-        "net_sentiment": 62.5,
-        "post_count": 8,
-        "engagement": 431,
+        "net_sentiment": 60.0,
+        "post_count": 10,
+        "engagement": 488,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "twb",
+            "topic_id": 18,
+            "label": "達發科技 / 光通訊 / 聯發科 / 掌握底層傳輸升級",
             "count": 1
           },
           {
-            "topic_id": 11,
-            "label": "amd / 半導體 / 資料中心 / nvidia",
+            "topic_id": 21,
+            "label": "三星 / hbm / amd / nvidia",
             "count": 1
           },
           {
-            "topic_id": 7,
-            "label": "jp / token / twb",
+            "topic_id": 24,
+            "label": "jp / iphone / 蘋果 / 算力帳單逼至死角",
             "count": 1
           }
         ],
@@ -594,35 +735,35 @@
             "interaction": 90
           }
         ],
-        "net_sentiment_smoothed": 1.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-04T11:46:30.857144+08:00",
-        "bucket_end": "2026-11-04T12:20:48.000001+08:00",
-        "positive": 5,
-        "neutral": 2,
-        "negative": 4,
-        "positive_engagement": 149,
-        "neutral_engagement": 29,
-        "negative_engagement": 134,
-        "net_sentiment": 9.1,
-        "post_count": 11,
-        "engagement": 312,
+        "bucket_start": "2026-11-04T03:52:41.248845+00:00",
+        "bucket_end": "2026-11-04T04:26:58.391702+00:00",
+        "positive": 4,
+        "neutral": 1,
+        "negative": 5,
+        "positive_engagement": 120,
+        "neutral_engagement": 1,
+        "negative_engagement": 135,
+        "net_sentiment": -10.0,
+        "post_count": 10,
+        "engagement": 256,
         "top_topics": [
           {
-            "topic_id": 9,
+            "topic_id": 2,
             "label": "democrat / ap / republican / senate",
-            "count": 4
+            "count": 3
           },
           {
-            "topic_id": 11,
-            "label": "amd / 半導體 / 資料中心 / nvidia",
+            "topic_id": 3,
+            "label": "amd / 資料中心 / 百億併購與產能全面鎖定 / 但在消費端急縮下",
             "count": 1
           },
           {
-            "topic_id": 1,
-            "label": "twb",
+            "topic_id": 31,
+            "label": "更讓昂貴硬體陷入空轉 / 不僅無助擴增效能 / 叢集 / 瓶頸",
             "count": 1
           }
         ],
@@ -642,34 +783,29 @@
             "interaction": 62
           }
         ],
-        "net_sentiment_smoothed": -6.5,
+        "net_sentiment_smoothed": -4.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-04T12:20:48.000001+08:00",
-        "bucket_end": "2026-11-04T12:55:05.142858+08:00",
+        "bucket_start": "2026-11-04T04:26:58.391702+00:00",
+        "bucket_end": "2026-11-04T05:01:15.534559+00:00",
         "positive": 0,
         "neutral": 1,
-        "negative": 2,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 1,
-        "negative_engagement": 5,
-        "net_sentiment": -66.7,
-        "post_count": 3,
-        "engagement": 6,
+        "negative_engagement": 4,
+        "net_sentiment": -50.0,
+        "post_count": 2,
+        "engagement": 5,
         "top_topics": [
           {
-            "topic_id": 8,
-            "label": "半導體 / 華邦電 / twb / 記憶體",
+            "topic_id": 10,
+            "label": "環球晶 / 無懼廠區意外 / 低谷期重金擴充 / soi",
             "count": 1
           },
           {
-            "topic_id": 1,
-            "label": "twb",
-            "count": 1
-          },
-          {
-            "topic_id": 9,
+            "topic_id": 2,
             "label": "democrat / ap / republican / senate",
             "count": 1
           }
@@ -690,78 +826,35 @@
             "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": -1.5,
+        "net_sentiment_smoothed": 0.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-04T12:55:05.142858+08:00",
-        "bucket_end": "2026-11-04T13:29:22.285715+08:00",
-        "positive": 1,
-        "neutral": 3,
-        "negative": 4,
-        "positive_engagement": 85,
-        "neutral_engagement": 171,
-        "negative_engagement": 252,
-        "net_sentiment": -37.5,
-        "post_count": 8,
-        "engagement": 508,
-        "top_topics": [
-          {
-            "topic_id": 5,
-            "label": "trump / donald / democrats / midterms",
-            "count": 2
-          },
-          {
-            "topic_id": 1,
-            "label": "twb",
-            "count": 1
-          },
-          {
-            "topic_id": 13,
-            "label": "nvidia / 晶片 / token / 無視",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Accenture accused of publishing AI paper littered with AI hallucinations",
-            "url": "https://x.com/FT/status/2117847968682266810",
-            "interaction": 118
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Oracle cancels $7bn Tencent AI deal under Trump pressure",
-            "url": "https://x.com/FT/status/2117850530273698053",
-            "interaction": 101
-          }
-        ],
-        "net_sentiment_smoothed": -10.4,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-04T13:29:22.285715+08:00",
-        "bucket_end": "2026-11-04T14:03:39.428572+08:00",
-        "positive": 3,
+        "bucket_start": "2026-11-04T05:01:15.534559+00:00",
+        "bucket_end": "2026-11-04T05:35:32.677416+00:00",
+        "positive": 2,
         "neutral": 4,
-        "negative": 1,
-        "positive_engagement": 993,
-        "neutral_engagement": 1271,
-        "negative_engagement": 1,
-        "net_sentiment": 25.0,
-        "post_count": 8,
-        "engagement": 2265,
+        "negative": 4,
+        "positive_engagement": 1062,
+        "neutral_engagement": 685,
+        "negative_engagement": 252,
+        "net_sentiment": -20.0,
+        "post_count": 10,
+        "engagement": 1999,
         "top_topics": [
           {
-            "topic_id": 6,
-            "label": "semianalysis / frontier / gdpx / wave",
+            "topic_id": 20,
+            "label": "familyoffice / 透明對話才是延續資產的解方 / 過度迷信節稅 / 恐掩蓋共識缺乏的隱形風險",
             "count": 1
           },
           {
-            "topic_id": 5,
-            "label": "trump / donald / democrats / midterms",
+            "topic_id": 4,
+            "label": "nvidia / ic / 輝達 / 晶片",
+            "count": 1
+          },
+          {
+            "topic_id": 15,
+            "label": "hynix / semianalysis / sk / wave",
             "count": 1
           }
         ],
@@ -774,42 +867,90 @@
             "interaction": 977
           },
           {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "woke 3.0 is in",
+            "url": "https://x.com/dylan522p/status/2117853086811328685",
+            "interaction": 514
+          }
+        ],
+        "net_sentiment_smoothed": -5.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T05:35:32.677416+00:00",
+        "bucket_end": "2026-11-04T06:09:49.820273+00:00",
+        "positive": 4,
+        "neutral": 3,
+        "negative": 2,
+        "positive_engagement": 453,
+        "neutral_engagement": 757,
+        "negative_engagement": 1,
+        "net_sentiment": 22.2,
+        "post_count": 9,
+        "engagement": 1211,
+        "top_topics": [
+          {
+            "topic_id": 13,
+            "label": "materials / applied / korean / samsung",
+            "count": 2
+          },
+          {
+            "topic_id": 22,
+            "label": "華芸科技 / 私有雲 / nas / 儲存",
+            "count": 1
+          },
+          {
+            "topic_id": 5,
+            "label": "trump / donald / democrats / republican",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
             "handle": "FT",
             "platform": "X",
             "text": "James Talarico’s historic Texas Senate victory deals blow to Elon Musk",
             "url": "https://x.com/FT/status/2117856755304567017",
             "interaction": 579
+          },
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "Korean battery stocks are rallying across the board today.  Samsung SDI: +10.3% LG Energy Solution: +4.5%",
+            "url": "https://x.com/jukan05/status/2117861149660397944",
+            "interaction": 437
           }
         ],
-        "net_sentiment_smoothed": 4.9,
+        "net_sentiment_smoothed": 13.1,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-04T14:03:39.428572+08:00",
-        "bucket_end": "2026-11-04T14:37:56.571429+08:00",
+        "bucket_start": "2026-11-04T06:09:49.820273+00:00",
+        "bucket_end": "2026-11-04T06:44:06.963130+00:00",
         "positive": 6,
         "neutral": 1,
-        "negative": 4,
-        "positive_engagement": 506,
+        "negative": 3,
+        "positive_engagement": 253,
         "neutral_engagement": 15,
         "negative_engagement": 602,
-        "net_sentiment": 18.2,
-        "post_count": 11,
-        "engagement": 1123,
+        "net_sentiment": 30.0,
+        "post_count": 10,
+        "engagement": 870,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "twb",
-            "count": 2
+            "topic_id": 5,
+            "label": "trump / donald / democrats / republican",
+            "count": 3
           },
           {
-            "topic_id": 18,
-            "label": "資料中心 / twb",
+            "topic_id": 32,
+            "label": "提前展現高一階的職責承擔才是打破瓶頸的核心關鍵 / 太擅長現職反而成為升遷絆腳石 / 單憑頂尖業務表現真能敲開晉升大門 / 在講求敏捷成長的科技業",
             "count": 1
           },
           {
-            "topic_id": 14,
-            "label": "科技股 / twb",
+            "topic_id": 24,
+            "label": "jp / iphone / 蘋果 / 算力帳單逼至死角",
             "count": 1
           }
         ],
@@ -822,42 +963,42 @@
             "interaction": 580
           },
           {
-            "handle": "jukan05",
+            "handle": "FT",
             "platform": "X",
-            "text": "Korean battery stocks are rallying across the board today.  Samsung SDI: +10.3% LG Energy Solution: +4.5%",
-            "url": "https://x.com/jukan05/status/2117861149660397944",
-            "interaction": 437
+            "text": "Donald Trump congratulated a 'formidable opponent' in the Democrats after his Republican party was battered in this year’s midterms.  https:// ft.trib.al/IzDAAws",
+            "url": "https://x.com/FT/status/2117869469506654316",
+            "interaction": 173
           }
         ],
-        "net_sentiment_smoothed": 21.6,
+        "net_sentiment_smoothed": 19.8,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-04T14:37:56.571429+08:00",
-        "bucket_end": "2026-11-04T15:12:13.714286+08:00",
-        "positive": 6,
+        "bucket_start": "2026-11-04T06:44:06.963130+00:00",
+        "bucket_end": "2026-11-04T07:18:24.105987+00:00",
+        "positive": 5,
         "neutral": 1,
         "negative": 0,
-        "positive_engagement": 286,
+        "positive_engagement": 102,
         "neutral_engagement": 5,
         "negative_engagement": 0,
-        "net_sentiment": 85.7,
-        "post_count": 7,
-        "engagement": 291,
+        "net_sentiment": 83.3,
+        "post_count": 6,
+        "engagement": 107,
         "top_topics": [
           {
-            "topic_id": 14,
-            "label": "科技股 / twb",
+            "topic_id": 29,
+            "label": "ddr / component / delivery",
             "count": 1
           },
           {
-            "topic_id": 16,
-            "label": "samsung / semianalysis / korean / sk海力士",
+            "topic_id": 6,
+            "label": "中華電信 / google / 雲端 / 將現有",
             "count": 1
           },
           {
-            "topic_id": 5,
-            "label": "trump / donald / democrats / midterms",
+            "topic_id": 34,
+            "label": "deepseek / 華為 / 晶片 / 預訓練擬交由",
             "count": 1
           }
         ],
@@ -865,46 +1006,46 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Donald Trump congratulated a 'formidable opponent' in the Democrats after his Republican party was battered in this year’s midterms.  https:// ft.trib.al/IzDAAws",
-            "url": "https://x.com/FT/status/2117869469506654316",
-            "interaction": 173
-          },
-          {
-            "handle": "FT",
-            "platform": "X",
             "text": "Democratic governors elected on promises to stop data centre building",
             "url": "https://x.com/FT/status/2117875374432424167",
             "interaction": 85
+          },
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "【Mainstream DDR4 Prices Dip 0.09% as Spot Premium Keeps Buyers on Sidelines】  Spot market momentum diverged this week. For DDR5 chips, some buyers raised target procurement prices under delivery press",
+            "url": "https://x.com/trendforce/status/2117874522812448804",
+            "interaction": 17
           }
         ],
-        "net_sentiment_smoothed": 17.7,
+        "net_sentiment_smoothed": 12.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-04T15:12:13.714286+08:00",
-        "bucket_end": "2026-11-04T15:46:30.857143+08:00",
-        "positive": 3,
+        "bucket_start": "2026-11-04T07:18:24.105987+00:00",
+        "bucket_end": "2026-11-04T07:52:41.248844+00:00",
+        "positive": 2,
         "neutral": 1,
-        "negative": 2,
+        "negative": 3,
         "positive_engagement": 158,
         "neutral_engagement": 11,
         "negative_engagement": 227,
-        "net_sentiment": 16.7,
+        "net_sentiment": -16.7,
         "post_count": 6,
         "engagement": 396,
         "top_topics": [
           {
-            "topic_id": 11,
-            "label": "amd / 半導體 / 資料中心 / nvidia",
+            "topic_id": 19,
+            "label": "gb / electronics / windows / 微軟",
             "count": 1
           },
           {
-            "topic_id": 4,
-            "label": "雲端 / app / twb",
+            "topic_id": 3,
+            "label": "amd / 資料中心 / 百億併購與產能全面鎖定 / 但在消費端急縮下",
             "count": 1
           },
           {
-            "topic_id": 9,
+            "topic_id": 2,
             "label": "democrat / ap / republican / senate",
             "count": 1
           }
@@ -925,12 +1066,12 @@
             "interaction": 157
           }
         ],
-        "net_sentiment_smoothed": 15.9,
+        "net_sentiment_smoothed": 7.6,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-04T15:46:30.857143+08:00",
-        "bucket_end": "2026-11-04T16:20:48+08:00",
+        "bucket_start": "2026-11-04T07:52:41.248844+00:00",
+        "bucket_end": "2026-11-04T08:26:58.391701+00:00",
         "positive": 1,
         "neutral": 1,
         "negative": 5,
@@ -942,18 +1083,18 @@
         "engagement": 95,
         "top_topics": [
           {
-            "topic_id": 12,
-            "label": "anthropic / capex",
+            "topic_id": 4,
+            "label": "nvidia / ic / 輝達 / 晶片",
             "count": 1
           },
           {
-            "topic_id": 10,
-            "label": "americans / trump / rebuke / congress",
+            "topic_id": 19,
+            "label": "gb / electronics / windows / 微軟",
             "count": 1
           },
           {
-            "topic_id": 0,
-            "label": "democrats / writes",
+            "topic_id": 8,
+            "label": "anthropic / ipo / 真能填補無底洞般的資本缺口 / 揭露",
             "count": 1
           }
         ],
@@ -973,88 +1114,70 @@
             "interaction": 29
           }
         ],
-        "net_sentiment_smoothed": 15.1,
+        "net_sentiment_smoothed": 2.0,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T08:26:58.391701+00:00",
+        "bucket_end": "2026-11-04T09:01:15.534558+00:00",
+        "positive": 24,
+        "neutral": 20,
+        "negative": 25,
+        "positive_engagement": 449,
+        "neutral_engagement": 469,
+        "negative_engagement": 642,
+        "net_sentiment": -1.4,
+        "post_count": 69,
+        "engagement": 1560,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "nvidia / ic / 輝達 / 晶片",
+            "count": 4
+          },
+          {
+            "topic_id": 9,
+            "label": "台股",
+            "count": 4
+          },
+          {
+            "topic_id": 3,
+            "label": "amd / 資料中心 / 百億併購與產能全面鎖定 / 但在消費端急縮下",
+            "count": 3
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "台股4日盤中跌破42,000點，跌至41,855點急拉，摩爾投顧投資長郭哲榮中午發文表示，已趁指數跌破42,000點時，加碼約5,000萬元買進元大台灣50（0050），連同7月投入的1億元，累計斥資約1.5億元，以實際行動表態看好台股中長線行情。",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0CW3ekxEBbiegar9nF1NCSDfA9Av3fa15rmc92E2WLpk3fyREeKoFniCE6kP83372l?__cft__[0]=AZjyKUVPGz0AuFlkFJ-D19UdXIYnBMbcDbm16RLJodmoOGaYwuxfLR4RmTjnxtS3QIWxf8RptXVI_K-5CU-tUlYdxCckwEFFS67vegmz9wQGtkl0KyKEAMBqFnIlg9Mk9dCltrLFPgvAgfte8jHrRo6smzO5N5OGMrqdfMcCHY70GZgHPUs4V2Q6JtA",
+            "interaction": 176
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "【外資提款千億不手軟 逆勢加碼16檔「倖存者」 「這張布」最香】…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0VnhpHeT2xdaDHtpGrdny7ifzp843nAFMdaqQ41WjniUdHEq3Amn96Pa9iuqC4Keul?__cft__[0]=AZgyk9JYYftXWFQgm5go2zijYQIGP_M2Bxge5aaNjywgAQlJk5YolQSQZmR6P-Sxyx0QSJN6Qm8S6-hvSIBbg3Pgy2M_XJpxIi3lbXCno7m3FCqOtkn86Kq0eNvAP3pvzAf8nZ08S78tyRKPrgb2lR5dmWkraGgpdi8rPz1upF0Fg4NOYSrZ542TUG8",
+            "interaction": 116
+          }
+        ],
+        "net_sentiment_smoothed": -25.1,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "twb",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 9,
+        "topic_id": 2,
         "label": "democrat / ap / republican / senate",
         "cells": [
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 100.0,
@@ -1066,11 +1189,11 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 1
           },
           {
-            "net_sentiment": 25.0,
-            "volume": 4
+            "net_sentiment": 33.3,
+            "volume": 3
           },
           {
             "net_sentiment": -100.0,
@@ -1095,64 +1218,6 @@
           {
             "net_sentiment": -100.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 8,
-        "label": "半導體 / 華邦電 / twb / 記憶體",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 50.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -1166,11 +1231,11 @@
       },
       {
         "topic_id": 5,
-        "label": "trump / donald / democrats / midterms",
+        "label": "trump / donald / democrats / republican",
         "cells": [
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -1198,14 +1263,22 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -50.0,
-            "volume": 2
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 33.3,
+            "volume": 3
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
             "volume": 1
           },
           {
@@ -1213,58 +1286,22 @@
             "volume": 1
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           }
         ]
       },
       {
-        "topic_id": 11,
-        "label": "amd / 半導體 / 資料中心 / nvidia",
+        "topic_id": 3,
+        "label": "amd / 資料中心 / 百億併購與產能全面鎖定 / 但在消費端急縮下",
         "cells": [
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -1285,15 +1322,105 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 66.7,
+            "volume": 3
           }
         ]
       },
       {
-        "topic_id": 6,
-        "label": "semianalysis / frontier / gdpx / wave",
+        "topic_id": 4,
+        "label": "nvidia / ic / 輝達 / 晶片",
         "cells": [
           {
-            "net_sentiment": 50.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -75.0,
+            "volume": 4
+          }
+        ]
+      },
+      {
+        "topic_id": 23,
+        "label": "midterm / elections / takeaways / tracker",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
             "volume": 2
           },
           {
@@ -1309,16 +1436,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -1346,114 +1465,216 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 19,
+        "label": "gb / electronics / windows / 微軟",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "TrendForce",
-        "top_topic_id": 11,
-        "top_topic_label": "amd / 半導體 / 資料中心 / nvidia",
-        "focus_share": 1.0,
-        "post_count": 4,
-        "unclustered_posts": 3
-      },
-      {
         "handle": "dylan522p",
-        "top_topic_id": 2,
-        "top_topic_label": "其他（未分群，40 篇）",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，67 篇）",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 2
       },
       {
         "handle": "SemiAnalysis_",
-        "top_topic_id": 6,
-        "top_topic_label": "semianalysis / frontier / gdpx / wave",
-        "focus_share": 1.0,
-        "post_count": 4,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "jukan05",
-        "top_topic_id": 16,
-        "top_topic_label": "samsung / semianalysis / korean / sk海力士",
+        "top_topic_id": 15,
+        "top_topic_label": "hynix / semianalysis / sk / wave",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 1
       },
       {
         "handle": "statementdog",
-        "top_topic_id": 17,
-        "top_topic_label": "server / taiwan / component",
+        "top_topic_id": 13,
+        "top_topic_label": "materials / applied / korean / samsung",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 1
       },
       {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 16,
-        "top_topic_label": "samsung / semianalysis / korean / sk海力士",
-        "focus_share": 0.5,
-        "post_count": 5,
-        "unclustered_posts": 3
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，67 篇）",
+        "focus_share": 1.0,
+        "post_count": 11,
+        "unclustered_posts": 11
       },
       {
-        "handle": "dnystedt",
-        "top_topic_id": 3,
-        "top_topic_label": "dram / nt / taiwan / maker",
-        "focus_share": 0.5,
-        "post_count": 7,
-        "unclustered_posts": 3
-      },
-      {
-        "handle": "tengyanAI",
-        "top_topic_id": 11,
-        "top_topic_label": "amd / 半導體 / 資料中心 / nvidia",
-        "focus_share": 0.5,
+        "handle": "jukan05",
+        "top_topic_id": 13,
+        "top_topic_label": "materials / applied / korean / samsung",
+        "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 0
       },
       {
-        "handle": "FT",
+        "handle": "tengyanAI",
+        "top_topic_id": 25,
+        "top_topic_label": "capex / boom / anthropic / adding",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 0,
+        "top_topic_label": "biggest / nanya / dram / nt",
+        "focus_share": 0.5,
+        "post_count": 7,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "TrendForce",
+        "top_topic_id": 19,
+        "top_topic_label": "gb / electronics / windows / 微軟",
+        "focus_share": 0.333,
+        "post_count": 3,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "TrendForce.tw",
+        "top_topic_id": 19,
+        "top_topic_label": "gb / electronics / windows / 微軟",
+        "focus_share": 0.333,
+        "post_count": 4,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 15,
+        "top_topic_label": "hynix / semianalysis / sk / wave",
+        "focus_share": 0.333,
+        "post_count": 5,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "ctee.fans",
         "top_topic_id": 9,
+        "top_topic_label": "台股",
+        "focus_share": 0.308,
+        "post_count": 31,
+        "unclustered_posts": 18
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 2,
         "top_topic_label": "democrat / ap / republican / senate",
-        "focus_share": 0.391,
-        "post_count": 42,
-        "unclustered_posts": 19
+        "focus_share": 0.281,
+        "post_count": 41,
+        "unclustered_posts": 9
       },
       {
         "handle": "technews_tw",
-        "top_topic_id": 1,
-        "top_topic_label": "twb",
-        "focus_share": 0.333,
+        "top_topic_id": 3,
+        "top_topic_label": "amd / 資料中心 / 百億併購與產能全面鎖定 / 但在消費端急縮下",
+        "focus_share": 0.087,
+        "post_count": 33,
+        "unclustered_posts": 10
+      },
+      {
+        "handle": "technewsinside",
+        "top_topic_id": 3,
+        "top_topic_label": "amd / 資料中心 / 百億併購與產能全面鎖定 / 但在消費端急縮下",
+        "focus_share": 0.087,
         "post_count": 34,
-        "unclustered_posts": 7
+        "unclustered_posts": 11
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 6,
-        "label": "semianalysis / frontier / gdpx / wave",
-        "total_engagement": 1247,
+        "topic_id": 5,
+        "label": "trump / donald / democrats / republican",
+        "total_engagement": 1359,
+        "post_count": 8,
+        "top_account": "FT",
+        "top_account_engagement": 1359,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 15,
+        "label": "hynix / semianalysis / sk / wave",
+        "total_engagement": 997,
         "post_count": 3,
         "top_account": "SemiAnalysis_",
-        "top_account_engagement": 1247,
+        "top_account_engagement": 977,
         "is_catchall": false
       },
       {
-        "topic_id": 5,
-        "label": "trump / donald / democrats / midterms",
-        "total_engagement": 1226,
-        "post_count": 6,
-        "top_account": "FT",
-        "top_account_engagement": 1226,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 9,
+        "topic_id": 2,
         "label": "democrat / ap / republican / senate",
         "total_engagement": 948,
         "post_count": 9,
@@ -1462,172 +1683,307 @@
         "is_catchall": false
       },
       {
-        "topic_id": 16,
-        "label": "samsung / semianalysis / korean / sk海力士",
-        "total_engagement": 442,
-        "post_count": 2,
+        "topic_id": 13,
+        "label": "materials / applied / korean / samsung",
+        "total_engagement": 773,
+        "post_count": 4,
         "top_account": "jukan05",
-        "top_account_engagement": 437,
+        "top_account_engagement": 751,
         "is_catchall": false
       },
       {
-        "topic_id": 19,
-        "label": "latest / rack / tracker / races",
-        "total_engagement": 175,
-        "post_count": 2,
+        "topic_id": 23,
+        "label": "midterm / elections / takeaways / tracker",
+        "total_engagement": 547,
+        "post_count": 5,
         "top_account": "FT",
-        "top_account_engagement": 175,
+        "top_account_engagement": 547,
         "is_catchall": false
       },
       {
-        "topic_id": 10,
-        "label": "americans / trump / rebuke / congress",
-        "total_engagement": 132,
+        "topic_id": 9,
+        "label": "台股",
+        "total_engagement": 297,
+        "post_count": 4,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 297,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 14,
+        "label": "democratic / victories / elected / americans",
+        "total_engagement": 291,
         "post_count": 3,
         "top_account": "FT",
-        "top_account_engagement": 132,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
-        "label": "dram / nt / taiwan / maker",
-        "total_engagement": 78,
-        "post_count": 2,
-        "top_account": "dnystedt",
-        "top_account_engagement": 78,
+        "top_account_engagement": 291,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "democrats / writes",
-        "total_engagement": 71,
-        "post_count": 2,
-        "top_account": "FT",
-        "top_account_engagement": 71,
+        "label": "biggest / nanya / dram / nt",
+        "total_engagement": 156,
+        "post_count": 4,
+        "top_account": "dnystedt",
+        "top_account_engagement": 79,
         "is_catchall": false
       },
       {
-        "topic_id": 15,
-        "label": "tsmc / ase / spil / packaging",
-        "total_engagement": 49,
+        "topic_id": 33,
+        "label": "oracle / trump",
+        "total_engagement": 112,
         "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 101,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 25,
+        "label": "capex / boom / anthropic / adding",
+        "total_engagement": 83,
+        "post_count": 3,
+        "top_account": "FT",
+        "top_account_engagement": 33,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 12,
+        "label": "democrats / writes / editor / midterms",
+        "total_engagement": 83,
+        "post_count": 3,
+        "top_account": "FT",
+        "top_account_engagement": 83,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "amd / 資料中心 / 百億併購與產能全面鎖定 / 但在消費端急縮下",
+        "total_engagement": 74,
+        "post_count": 6,
+        "top_account": "technewsinside",
+        "top_account_engagement": 36,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "tsmc / tw / ase / spil",
+        "total_engagement": 49,
+        "post_count": 3,
         "top_account": "dnystedt",
         "top_account_engagement": 33,
         "is_catchall": false
       },
       {
+        "topic_id": 4,
+        "label": "nvidia / ic / 輝達 / 晶片",
+        "total_engagement": 43,
+        "post_count": 6,
+        "top_account": "technewsinside",
+        "top_account_engagement": 33,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 16,
+        "label": "華爾街見聞 / 川普政府的關稅政策 / 更可能改變未來兩年美國經濟政策與全球金融市場走向 / 伊朗戰事及能源供應風險",
+        "total_engagement": 40,
+        "post_count": 3,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 40,
+        "is_catchall": false
+      },
+      {
         "topic_id": 11,
-        "label": "amd / 半導體 / 資料中心 / nvidia",
-        "total_engagement": 32,
-        "post_count": 5,
-        "top_account": "tengyanAI",
-        "top_account_engagement": 18,
+        "label": "mlcc / 華邦電 / hbm / 需求下",
+        "total_engagement": 36,
+        "post_count": 3,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 20,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 10,
+        "label": "環球晶 / 無懼廠區意外 / 低谷期重金擴充 / soi",
+        "total_engagement": 34,
+        "post_count": 3,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 17,
         "is_catchall": false
       },
       {
         "topic_id": 17,
-        "label": "server / taiwan / component",
-        "total_engagement": 32,
+        "label": "drone / 義隆電 / 聯手雷虎投入 / 從源頭洗牌供應鏈反而墊高了平戰載具的量產門檻",
+        "total_engagement": 26,
         "post_count": 2,
-        "top_account": "dnystedt",
-        "top_account_engagement": 28,
+        "top_account": "technewsinside",
+        "top_account_engagement": 26,
         "is_catchall": false
       },
       {
-        "topic_id": 12,
-        "label": "anthropic / capex",
-        "total_engagement": 29,
-        "post_count": 2,
-        "top_account": "tengyanAI",
-        "top_account_engagement": 29,
+        "topic_id": 19,
+        "label": "gb / electronics / windows / 微軟",
+        "total_engagement": 25,
+        "post_count": 4,
+        "top_account": "TrendForce",
+        "top_account_engagement": 12,
         "is_catchall": false
       },
       {
-        "topic_id": 7,
-        "label": "jp / token / twb",
-        "total_engagement": 7,
+        "topic_id": 29,
+        "label": "ddr / component / delivery",
+        "total_engagement": 25,
         "post_count": 2,
-        "top_account": "FT",
+        "top_account": "TrendForce",
+        "top_account_engagement": 17,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 24,
+        "label": "jp / iphone / 蘋果 / 算力帳單逼至死角",
+        "total_engagement": 22,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 15,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 28,
+        "label": "永豐銀行 / fintech / 爆發未登入即遭盜轉四千萬的異常 / 如何成功繞過後端防禦機制",
+        "total_engagement": 22,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 22,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 22,
+        "label": "華芸科技 / 私有雲 / nas / 儲存",
+        "total_engagement": 20,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 20,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 18,
+        "label": "達發科技 / 光通訊 / 聯發科 / 掌握底層傳輸升級",
+        "total_engagement": 19,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 18,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 30,
+        "label": "加密貨幣 / 駭客 / 幣安 / 爆發最大",
+        "total_engagement": 18,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 17,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 21,
+        "label": "三星 / hbm / amd / nvidia",
+        "total_engagement": 15,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 13,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 26,
+        "label": "資安 / 雲端 / 單月內 / 服務接連失守",
+        "total_engagement": 15,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 14,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 27,
+        "label": "智原科技 / 機器人 / 反而能規避硬體整合風險 / ip",
+        "total_engagement": 11,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 10,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 20,
+        "label": "familyoffice / 透明對話才是延續資產的解方 / 過度迷信節稅 / 恐掩蓋共識缺乏的隱形風險",
+        "total_engagement": 10,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 10,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "中華電信 / google / 雲端 / 將現有",
+        "total_engagement": 9,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 9,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 31,
+        "label": "更讓昂貴硬體陷入空轉 / 不僅無助擴增效能 / 叢集 / 瓶頸",
+        "total_engagement": 9,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 8,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "anthropic / ipo / 真能填補無底洞般的資本缺口 / 揭露",
+        "total_engagement": 8,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_engagement": 8,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 34,
+        "label": "deepseek / 華為 / 晶片 / 預訓練擬交由",
+        "total_engagement": 8,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_engagement": 8,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 32,
+        "label": "提前展現高一階的職責承擔才是打破瓶頸的核心關鍵 / 太擅長現職反而成為升遷絆腳石 / 單憑頂尖業務表現真能敲開晉升大門 / 在講求敏捷成長的科技業",
+        "total_engagement": 6,
+        "post_count": 2,
+        "top_account": "technewsinside",
         "top_account_engagement": 6,
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "twb",
-        "total_engagement": 5,
-        "post_count": 9,
-        "top_account": "technews_tw",
-        "top_account_engagement": 5,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 8,
-        "label": "半導體 / 華邦電 / twb / 記憶體",
-        "total_engagement": 4,
-        "post_count": 6,
-        "top_account": "technews_tw",
-        "top_account_engagement": 4,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 4,
-        "label": "雲端 / app / twb",
-        "total_engagement": 1,
-        "post_count": 2,
-        "top_account": "technews_tw",
-        "top_account_engagement": 1,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 13,
-        "label": "nvidia / 晶片 / token / 無視",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "technews_tw",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 14,
-        "label": "科技股 / twb",
-        "total_engagement": 0,
-        "post_count": 2,
-        "top_account": "technews_tw",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 18,
-        "label": "資料中心 / twb",
-        "total_engagement": 0,
-        "post_count": 1,
-        "top_account": "technews_tw",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 2,
-        "label": "其他（未分群，40 篇）",
-        "total_engagement": 7259,
-        "post_count": 40,
-        "top_account": "dylan522p",
-        "top_account_engagement": 4786,
+        "label": "其他（未分群，67 篇）",
+        "total_engagement": 14823,
+        "post_count": 67,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 8037,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 47,
-          "likes": 6000,
-          "engagement": 6902,
-          "avg_engagement": 146.9
+          "post_count": 41,
+          "likes": 5741,
+          "engagement": 6581,
+          "avg_engagement": 160.5
         },
         "afternoon": {
-          "post_count": 57,
-          "likes": 3846,
-          "engagement": 4835,
-          "avg_engagement": 84.8
+          "post_count": 137,
+          "likes": 13443,
+          "engagement": 14432,
+          "avg_engagement": 105.3
         },
         "evening": {
           "post_count": 0,
