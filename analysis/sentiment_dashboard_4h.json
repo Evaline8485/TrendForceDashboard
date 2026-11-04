@@ -1,95 +1,183 @@
 {
-  "generated_at": "2026-11-03T18:11:10+08:00",
+  "generated_at": "2026-11-04T12:31:51+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-11-03T14:11:10+08:00",
-    "end_utc": "2026-11-03T18:11:10+08:00",
-    "start_tw": "Nov 03, 14:11",
-    "end_tw": "Nov 03, 18:11"
+    "start_utc": "2026-11-04T08:31:51+08:00",
+    "end_utc": "2026-11-04T12:31:51+08:00",
+    "start_tw": "Nov 04, 08:31",
+    "end_tw": "Nov 04, 12:31"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 27,
+      "total_posts": 53,
       "sentiment_counts": {
-        "negative": 8,
-        "positive": 11,
-        "neutral": 8
+        "positive": 24,
+        "negative": 10,
+        "neutral": 19
       },
       "sentiment_share": {
-        "negative": 0.296,
-        "positive": 0.407,
-        "neutral": 0.296
+        "positive": 0.453,
+        "negative": 0.189,
+        "neutral": 0.358
       },
       "top_terms": [
+        "twb",
+        "republican",
+        "democrat",
+        "senate",
+        "半導",
+        "導體",
+        "半導體",
         "反而",
-        "capacity",
-        "winbond",
-        "earnings",
-        "update",
-        "而加",
-        "營運",
-        "反而加",
-        "而成",
-        "成了"
+        "反倒",
+        "記憶"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 2,
-        "label": "approximately / cloud / expansion / capacity",
-        "heat": 90.0,
-        "volume": 14,
-        "engagement": 689,
+        "topic_id": 0,
+        "label": "twb",
+        "heat": 50.8,
+        "volume": 7,
+        "engagement": 6,
+        "entities": [
+          "台灣",
+          "聯發科",
+          "加密",
+          "智原",
+          "義隆"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "breaking / democrat / ap / georgia",
+        "heat": 50.0,
+        "volume": 2,
+        "engagement": 528,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "tw",
-        "heat": 13.1,
-        "volume": 8,
-        "engagement": 2,
+        "topic_id": 2,
+        "label": "democrat / senate / ap / republican",
+        "heat": 44.6,
+        "volume": 5,
+        "engagement": 162,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "taiwan / dram / nt / maker",
+        "heat": 16.0,
+        "volume": 3,
+        "engagement": 57,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "amd / revenue / twb",
+        "heat": 12.6,
+        "volume": 3,
+        "engagement": 21,
         "entities": [
-          "輝達",
-          "聯發科",
-          "永豐銀行",
-          "非中",
-          "黑市"
+          "伺服器",
+          "百億"
         ],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "revenue / yoy / margin / operating",
-        "heat": 11.0,
-        "volume": 2,
-        "engagement": 11,
-        "entities": [],
+        "label": "hbm / 半導體 / amd / 華邦電",
+        "heat": 10.2,
+        "volume": 3,
+        "engagement": 2,
+        "entities": [
+          "三星",
+          "華邦電",
+          "德州",
+          "高昂",
+          "黑市"
+        ],
         "is_catchall": false
       },
       {
-        "topic_id": 4,
-        "label": "winbond / module / kaohsiung / update",
-        "heat": 10.7,
+        "topic_id": 5,
+        "label": "半導體 / 華邦電 / 記憶體 / twb",
+        "heat": 10.0,
+        "volume": 4,
+        "engagement": 1,
+        "entities": [
+          "華邦電",
+          "台積電",
+          "弘塑",
+          "SK海力士",
+          "卡關"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "app / twb",
+        "heat": 10.0,
         "volume": 2,
-        "engagement": 8,
+        "engagement": 1,
+        "entities": [
+          "永豐銀行"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "cycle / applied / midterm",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 225,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 3,
-        "label": "prices",
+        "label": "其他（未分群，22 篇）",
         "heat": 10.0,
-        "volume": 1,
-        "engagement": 29,
-        "entities": [],
-        "is_catchall": false
+        "volume": 22,
+        "engagement": 4527,
+        "entities": [
+          "三星",
+          "中科",
+          "台積電",
+          "雲端營",
+          "三井"
+        ],
+        "is_catchall": true
       }
     ],
     "named_entities": [
       {
-        "entity": "輝達",
+        "entity": "華邦電",
+        "count": 6
+      },
+      {
+        "entity": "台灣",
+        "count": 4
+      },
+      {
+        "entity": "台積電",
+        "count": 4
+      },
+      {
+        "entity": "三星",
+        "count": 4
+      },
+      {
+        "entity": "永豐銀行",
+        "count": 3
+      },
+      {
+        "entity": "弘塑",
         "count": 2
       },
       {
@@ -97,87 +185,60 @@
         "count": 2
       },
       {
-        "entity": "永豐銀行",
+        "entity": "加密",
         "count": 2
       },
       {
-        "entity": "非中",
-        "count": 1
+        "entity": "智原",
+        "count": 2
       },
       {
-        "entity": "黑市",
-        "count": 1
+        "entity": "伺服器",
+        "count": 2
       },
       {
-        "entity": "財經快訊",
-        "count": 1
+        "entity": "義隆",
+        "count": 2
       },
       {
-        "entity": "千億",
-        "count": 1
+        "entity": "中科",
+        "count": 2
       },
       {
-        "entity": "日本",
-        "count": 1
+        "entity": "雲端營",
+        "count": 2
       },
       {
-        "entity": "深度",
+        "entity": "三井",
+        "count": 2
+      },
+      {
+        "entity": "美國",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-11-03T14:11:09.999994+08:00",
-        "bucket_end": "2026-11-03T14:28:18.571423+08:00",
-        "positive": 0,
-        "neutral": 0,
+        "bucket_start": "2026-11-04T08:31:50.999994+08:00",
+        "bucket_end": "2026-11-04T08:48:59.571423+08:00",
+        "positive": 1,
+        "neutral": 1,
         "negative": 1,
-        "positive_engagement": 0,
+        "positive_engagement": 18,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 0,
+        "negative_engagement": 20,
+        "net_sentiment": 0.0,
+        "post_count": 3,
+        "engagement": 38,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "tw",
+            "topic_id": 5,
+            "label": "半導體 / 華邦電 / 記憶體 / twb",
             "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "才剛收下百萬美元合約，#Anthropic 轉身就推出同質競品跨界搶食，深度綁定頂尖模型反而加速侵蝕了應用層的護城河？ dlvr.​it/TW9Fs7",
-            "url": "https://x.com/technews_tw/status/2117503354666705348",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": -41.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T14:28:18.571423+08:00",
-        "bucket_end": "2026-11-03T14:45:27.142852+08:00",
-        "positive": 0,
-        "neutral": 2,
-        "negative": 2,
-        "positive_engagement": 0,
-        "neutral_engagement": 18,
-        "negative_engagement": 41,
-        "net_sentiment": -50.0,
-        "post_count": 4,
-        "engagement": 59,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "approximately / cloud / expansion / capacity",
-            "count": 3
           },
           {
-            "topic_id": 0,
-            "label": "tw",
+            "topic_id": 6,
+            "label": "amd / revenue / twb",
             "count": 1
           }
         ],
@@ -185,80 +246,74 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "The risk of higher volatility in stocks is rising  https:// ft.trib.al/ABO9Bxl  | opinion",
-            "url": "https://x.com/FT/status/2117508191583903973",
-            "interaction": 23
+            "text": "How much should you read into what prediction markets are saying about this election? Our US national editor  @EdwardGLuce  offers this warning:  https:// ft.trib.al/fZDMljF",
+            "url": "https://x.com/FT/status/2117778501084258417",
+            "interaction": 20
           },
           {
-            "handle": "FT",
+            "handle": "tengyanAI",
             "platform": "X",
-            "text": "A new threat to the New York-based stock exchanges  https:// ft.trib.al/9aA70YR  | opinion",
-            "url": "https://x.com/FT/status/2117508197443424264",
+            "text": "AMD's Q3 revenue +2.9% against their guidance midpoint, a year ago it was beating by 7%.  a great quarter. companies are understanding the supply chains much better, guiding closer to what they can ac",
+            "url": "https://x.com/tengyanAI/status/2117779976439439525",
             "interaction": 18
           }
         ],
-        "net_sentiment_smoothed": -56.2,
+        "net_sentiment_smoothed": 36.1,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-03T14:45:27.142852+08:00",
-        "bucket_end": "2026-11-03T15:02:35.714281+08:00",
-        "positive": 2,
+        "bucket_start": "2026-11-04T08:48:59.571423+08:00",
+        "bucket_end": "2026-11-04T09:06:08.142852+08:00",
+        "positive": 3,
         "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 1,
-        "neutral_engagement": 15,
-        "negative_engagement": 17,
-        "net_sentiment": 25.0,
+        "negative": 0,
+        "positive_engagement": 21,
+        "neutral_engagement": 164,
+        "negative_engagement": 0,
+        "net_sentiment": 75.0,
         "post_count": 4,
-        "engagement": 33,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw",
-            "count": 2
-          },
-          {
-            "topic_id": 2,
-            "label": "approximately / cloud / expansion / capacity",
-            "count": 2
-          }
-        ],
+        "engagement": 185,
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
-            "text": "The rulemaking ‘farce’ that has banks and insurers at loggerheads  https:// ft.trib.al/Host4lw  | opinion",
-            "url": "https://x.com/FT/status/2117511455549321529",
-            "interaction": 17
+            "text": "Breaking news: Democratic senator Jon Ossoff has held on to his seat in Georgia’s midterm elections. The 39-year-old was up against Donald Trump-backed Republican Mike Collins.  https:// ft.trib.al/WQ",
+            "url": "https://x.com/FT/status/2117784538537500755",
+            "interaction": 164
           },
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Britain’s biggest container port rises by the Thames  https:// ft.trib.al/TwBFvqW  | opinion",
-            "url": "https://x.com/FT/status/2117510173757477109",
-            "interaction": 15
+            "text": "Could the Democrats be getting their hopes up too soon? The FT’s US managing editor Brooke Masters shares this about early signs of a strong showing in the US midterms:  https:// ft.trib.al/Tt7nYQU",
+            "url": "https://x.com/FT/status/2117784355749646634",
+            "interaction": 12
           }
         ],
-        "net_sentiment_smoothed": -25.0,
+        "net_sentiment_smoothed": 33.9,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-03T15:02:35.714281+08:00",
-        "bucket_end": "2026-11-03T15:19:44.285710+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
+        "bucket_start": "2026-11-04T09:06:08.142852+08:00",
+        "bucket_end": "2026-11-04T09:23:16.714281+08:00",
+        "positive": 1,
+        "neutral": 2,
+        "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 28,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 28,
+        "neutral_engagement": 361,
+        "negative_engagement": 0,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 361,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "approximately / cloud / expansion / capacity",
+            "topic_id": 0,
+            "label": "twb",
+            "count": 1
+          },
+          {
+            "topic_id": 7,
+            "label": "cycle / applied / midterm",
             "count": 1
           }
         ],
@@ -266,66 +321,171 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Four weeks before the US midterms, the FT brought together a group of voters in the Pennsylvania battleground of Bethlehem for a discussion about the issues that will shape their choices at the ballot",
-            "url": "https://x.com/FT/status/2117515975062856050",
-            "interaction": 28
+            "text": "More money will be spent in this election than in any previous midterm — and Elon Musk's contributions make him the largest individual contributor in an election cycle since Michael Bloomberg contribu",
+            "url": "https://x.com/FT/status/2117786684766970298",
+            "interaction": 209
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Opinion: The US midterm elections will at least turn into Democratic wave night — and possibly a 'tsunami', writes the FT's US national editor Edward Luce.  https:// ft.trib.al/ag6TdZa",
+            "url": "https://x.com/FT/status/2117788306603741473",
+            "interaction": 152
           }
         ],
-        "net_sentiment_smoothed": -5.0,
+        "net_sentiment_smoothed": 47.1,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-03T15:19:44.285710+08:00",
-        "bucket_end": "2026-11-03T15:36:52.857139+08:00",
-        "positive": 1,
+        "bucket_start": "2026-11-04T09:23:16.714281+08:00",
+        "bucket_end": "2026-11-04T09:40:25.285710+08:00",
+        "positive": 5,
+        "neutral": 4,
+        "negative": 2,
+        "positive_engagement": 131,
+        "neutral_engagement": 21,
+        "negative_engagement": 32,
+        "net_sentiment": 27.3,
+        "post_count": 11,
+        "engagement": 184,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "democrat / senate / ap / republican",
+            "count": 2
+          },
+          {
+            "topic_id": 8,
+            "label": "taiwan / dram / nt / maker",
+            "count": 2
+          },
+          {
+            "topic_id": 5,
+            "label": "半導體 / 華邦電 / 記憶體 / twb",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Democrat Chris Pappas has beat Republican John Sununu to win the open Senate seat in New Hampshire, according to a projection from AP.  https:// ft.trib.al/JvdgvPh",
+            "url": "https://x.com/FT/status/2117792697930981620",
+            "interaction": 67
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Democrat Roy Cooper has been elected to the Senate in North Carolina, defeating Republican Michael Whatley, according to AP. Follow our live updates here:  https:// ft.trib.al/3AMNkPG",
+            "url": "https://x.com/FT/status/2117791436787601657",
+            "interaction": 32
+          }
+        ],
+        "net_sentiment_smoothed": 47.1,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-11-04T09:40:25.285710+08:00",
+        "bucket_end": "2026-11-04T09:57:33.857139+08:00",
+        "positive": 3,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 233,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 0,
+        "post_count": 3,
+        "engagement": 233,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "tw",
+            "topic_id": 1,
+            "label": "hbm / 半導體 / amd / 華邦電",
+            "count": 1
+          },
+          {
+            "topic_id": 7,
+            "label": "cycle / applied / midterm",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "technews_tw",
+            "handle": "jukan05",
             "platform": "X",
-            "text": "台股市值衝破 154 兆躍居全球第四，#聯發科 百倍報酬點燃的資本狂熱反而淡化了前瞻研發再投資的急迫性？ dlvr.​it/TW9HhW",
-            "url": "https://x.com/technews_tw/status/2117519077359149148",
-            "interaction": 0
+            "text": "According to Korean media reports, the world’s leading semiconductor equipment suppliers—including Applied Materials, ASML, Lam Research, Tokyo Electron (TEL), and KLA—are nearing the final stages of ",
+            "url": "https://x.com/jukan05/status/2117796874392609013",
+            "interaction": 217
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Rosenblatt〈Five-Year InP Deal Locks Up Supply for Growth; Optical Cycle Intact; Reiterate Buy〉  1、合約內容：雲南鍺業（Yunnan Germanium,  https:// 002428.SZ）子公司雲南鑫耀與 Applied Optoelectronics（  $AAOI ）簽訂五年期InP基板供應",
+            "url": "https://x.com/QQ_Timmy/status/2117796854138298524",
+            "interaction": 16
           }
         ],
-        "net_sentiment_smoothed": 11.7,
+        "net_sentiment_smoothed": 32.1,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-03T15:36:52.857139+08:00",
-        "bucket_end": "2026-11-03T15:54:01.428568+08:00",
+        "bucket_start": "2026-11-04T09:57:33.857139+08:00",
+        "bucket_end": "2026-11-04T10:14:42.428568+08:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 3392,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 3392,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "amd / revenue / twb",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "I am now bullish space datacenters",
+            "url": "https://x.com/dylan522p/status/2117799333164941555",
+            "interaction": 3391
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#AMD 挾代理型 #AI 與 #資料中心 需求讓營收翻倍並重挫對手股價，但在消費端急縮下，單靠伺服器獨撐大局將衍生營運失衡風險？百億併購與產能全面鎖定，已穩固絕對的運算霸權。 dlvr.​it/TWB3Mr",
+            "url": "https://x.com/technews_tw/status/2117799621351412186",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 25.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T10:14:42.428568+08:00",
+        "bucket_end": "2026-11-04T10:31:50.999997+08:00",
         "positive": 1,
         "neutral": 0,
         "negative": 1,
-        "positive_engagement": 29,
+        "positive_engagement": 462,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
         "post_count": 2,
-        "engagement": 29,
+        "engagement": 462,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "tw",
+            "topic_id": 5,
+            "label": "半導體 / 華邦電 / 記憶體 / twb",
             "count": 1
           },
           {
-            "topic_id": 3,
-            "label": "prices",
+            "topic_id": 4,
+            "label": "breaking / democrat / ap / georgia",
             "count": 1
           }
         ],
@@ -333,266 +493,105 @@
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Oil prices steady at $106 after sharp declines on US-Iran hopes",
-            "url": "https://x.com/FT/status/2117522794338496794",
-            "interaction": 29
+            "text": "Breaking news: The US has its first African American female governor. Keisha Lance Bottoms has won in Georgia, according to AP, becoming the first Democrat to win the governor's race since 1998.  http",
+            "url": "https://x.com/FT/status/2117806403159028074",
+            "interaction": 462
           },
           {
             "handle": "technews_tw",
             "platform": "X",
-            "text": "坐擁營收翻倍與千億併購雙重利多，#Lumentum 股價反常重挫近兩成，全股票交易反而成了壓抑獨立估值的枷鎖？長達兩年的交割審查早已讓套利風險蓋過長遠的技術綜效。 dlvr.​it/TW9J7H",
-            "url": "https://x.com/technews_tw/status/2117522512485740566",
+            "text": "#SK海力士 擬砸重金赴美蓋 #半導體 #記憶體 廠，資金竟需大連廠挹注。防堵設備輸中反而卡關美國製造，嚴管無意間拖慢在地化腳步？分散風險與籌資已成跨國企業的難題。 dlvr.​it/TWB3kM",
+            "url": "https://x.com/technews_tw/status/2117805177629814921",
             "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T15:54:01.428568+08:00",
-        "bucket_end": "2026-11-03T16:11:09.999997+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 4,
-        "neutral_engagement": 0,
-        "negative_engagement": 6,
-        "net_sentiment": 33.3,
-        "post_count": 3,
-        "engagement": 10,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw",
-            "count": 1
-          },
-          {
-            "topic_id": 4,
-            "label": "winbond / module / kaohsiung / update",
-            "count": 1
-          },
-          {
-            "topic_id": 1,
-            "label": "revenue / yoy / margin / operating",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "📊Winbond (2344 TT) earnings call | 3Q26 update #2  Winbond sees further upside in Q4 customized memory contract prices. Its next major expansion, Kaohsiung Module B, is expected to begin limited shipm",
-            "url": "https://x.com/statementdog/status/2117528233499619834",
-            "interaction": 6
-          },
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "📊Winbond (2344 TT) earnings call | 3Q26 update #1  Q3 revenue rose 278% YoY and operating profit jumped nearly twelvefold. Higher pricing and a richer product mix drove the gains, with memory gross ma",
-            "url": "https://x.com/statementdog/status/2117528182358434196",
-            "interaction": 4
-          }
-        ],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T16:11:09.999997+08:00",
-        "bucket_end": "2026-11-03T16:28:18.571426+08:00",
-        "positive": 0,
-        "neutral": 2,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 140,
-        "negative_engagement": 0,
-        "net_sentiment": -33.3,
-        "post_count": 3,
-        "engagement": 140,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw",
-            "count": 1
-          },
-          {
-            "topic_id": 2,
-            "label": "approximately / cloud / expansion / capacity",
-            "count": 1
-          },
-          {
-            "topic_id": 4,
-            "label": "winbond / module / kaohsiung / update",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "US, Russia and China discuss trilateral meeting between Trump, Putin and Xi",
-            "url": "https://x.com/FT/status/2117532971141869938",
-            "interaction": 138
-          },
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "📊Winbond (2344 TT) earnings call | 3Q26 update #3  Major MLCC suppliers are turning to Winbond’s silicon capacitor foundry service. Management says most of its existing capacity of several thousand wa",
-            "url": "https://x.com/statementdog/status/2117532571839934591",
-            "interaction": 2
-          }
-        ],
-        "net_sentiment_smoothed": 26.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T16:28:18.571426+08:00",
-        "bucket_end": "2026-11-03T16:45:27.142855+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 5,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 5,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "approximately / cloud / expansion / capacity",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "TheElec〈Further Expansion Upon Expansion, ISU Petasys Signs Investment Agreement for Seventh Plant〉  1. Seventh Plant Investment: ISU Petasys (007660.KS) signed an MOU with Daegu City and Dalseong Cou",
-            "url": "https://x.com/QQ_Timmy/status/2117535893695455638",
-            "interaction": 5
-          }
-        ],
-        "net_sentiment_smoothed": 26.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T16:45:27.142855+08:00",
-        "bucket_end": "2026-11-03T17:02:35.714284+08:00",
-        "positive": 1,
-        "neutral": 2,
-        "negative": 0,
-        "positive_engagement": 247,
-        "neutral_engagement": 166,
-        "negative_engagement": 0,
-        "net_sentiment": 33.3,
-        "post_count": 3,
-        "engagement": 413,
-        "top_topics": [
-          {
-            "topic_id": 2,
-            "label": "approximately / cloud / expansion / capacity",
-            "count": 3
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "KOREAN MEDIA: SK HYNIX SUBSIDIARY SOLIDIGM IS PURSUING PLANS TO BUILD TWO NAND FABS AT THE MARCY NANOCENTER IN NEW YORK AT A TOTAL COST OF $100 BILLION.",
-            "url": "https://x.com/jukan05/status/2117541588184551815",
-            "interaction": 247
-          },
-          {
-            "handle": "jukan05",
-            "platform": "X",
-            "text": "\"DeepSeek plans to pretrain its next-generation large AI model, DeepSeek V5, using Huawei Ascend chips.\"  👀",
-            "url": "https://x.com/jukan05/status/2117540499712352336",
-            "interaction": 152
           }
         ],
         "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-03T17:02:35.714284+08:00",
-        "bucket_end": "2026-11-03T17:19:44.285713+08:00",
+        "bucket_start": "2026-11-04T10:31:50.999997+08:00",
+        "bucket_end": "2026-11-04T10:48:59.571426+08:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 2,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 145,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 46.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T17:19:44.285713+08:00",
-        "bucket_end": "2026-11-03T17:36:52.857142+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 46.7,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T17:36:52.857142+08:00",
-        "bucket_end": "2026-11-03T17:54:01.428571+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 13,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
         "post_count": 2,
-        "engagement": 13,
+        "engagement": 145,
         "top_topics": [
           {
-            "topic_id": 1,
-            "label": "revenue / yoy / margin / operating",
-            "count": 1
-          },
-          {
-            "topic_id": 2,
-            "label": "approximately / cloud / expansion / capacity",
+            "topic_id": 0,
+            "label": "twb",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "QQ_Timmy",
+            "handle": "FT",
             "platform": "X",
-            "text": "Nomura Securities (Nomura) <AI Infrastructure: Cash Flow Timing Gap, Not Profitability Crisis>  1. Cloud Already Highly Profitable:   1) AWS revenue $46 billion, up 39% YoY, operating margin 38.7%.   ",
-            "url": "https://x.com/QQ_Timmy/status/2117555634858000835",
-            "interaction": 7
+            "text": "The odds of Democratic victories were rising on prediction markets Kalshi and Polymarket on Tuesday evening, as early results were reported.  https:// ft.trib.al/ScuGCcy",
+            "url": "https://x.com/FT/status/2117808212405592236",
+            "interaction": 144
           },
           {
-            "handle": "QQ_Timmy",
+            "handle": "technews_tw",
             "platform": "X",
-            "text": "Goldman Sachs Revises Up Global Data Center Capacity Forecast  1. Capacity Forecast Revised Upward: Global data center capacity for 2030 raised from 217 GW to 273 GW, a 26% increase, adding approximat",
-            "url": "https://x.com/QQ_Timmy/status/2117554399883190345",
-            "interaction": 6
+            "text": "迎戰 #AI 與 #機器人 需求，#智原科技 發表 EtherCAT 網路 IP。將電磁防護提前於矽智財端完成，反而能規避硬體整合風險？源頭抵禦脈衝絕對是穩定連線的核心。 dlvr.​it/TWB41c",
+            "url": "https://x.com/technews_tw/status/2117809673583890715",
+            "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": 50.0,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-03T17:54:01.428571+08:00",
-        "bucket_end": "2026-11-03T18:11:10+08:00",
+        "bucket_start": "2026-11-04T10:48:59.571426+08:00",
+        "bucket_end": "2026-11-04T11:06:08.142855+08:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 2,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 2,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "twb",
+            "count": 1
+          },
+          {
+            "topic_id": 9,
+            "label": "app / twb",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "#幣安 爆發最大 #加密貨幣 竊案，#駭客 無需私鑰即挾持簽署系統洗走 60 億美元。若金鑰完好卻任由跨鏈指令繞過內控，邊界防禦已形同虛設？嚴控交易授權，實為不容妥協的資安底線。 dlvr.​it/TWB4Pt",
+            "url": "https://x.com/technews_tw/status/2117815371550122006",
+            "interaction": 1
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "單月內 #資安 警報狂響，104、91APP 與永豐銀行的 #雲端 服務接連失守。追求敏捷的數位升級，反倒成為核心庫門戶大開的致命盲區？ dlvr.​it/TWB49m",
+            "url": "https://x.com/technews_tw/status/2117811964806389975",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 32.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T11:06:08.142855+08:00",
+        "bucket_end": "2026-11-04T11:23:16.714284+08:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -604,101 +603,287 @@
         "engagement": 1,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "approximately / cloud / expansion / capacity",
+            "topic_id": 0,
+            "label": "twb",
             "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "QQ_Timmy",
+            "handle": "technews_tw",
             "platform": "X",
-            "text": "Recent Report Summary  CSP Capital Expenditure Summary: AI Capital Expenditure to Slow from 2028 Onward (November 2) - U.S. top five CSP capital expenditures in 2027 and 2028 are approximately $1.2 tr",
-            "url": "https://x.com/QQ_Timmy/status/2117557469576925311",
+            "text": "#蘋果 創最高營收卻遭 #AI 算力帳單逼至死角。將 Token 成本轉嫁訂閱制，反倒成為穩住 #iPhone 毛利的解方？免費運算落幕，使用者付費已是定局。 dlvr.​it/TWB4jp",
+            "url": "https://x.com/technews_tw/status/2117819868418601353",
             "interaction": 1
           }
         ],
-        "net_sentiment_smoothed": 66.7,
+        "net_sentiment_smoothed": 44.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T11:23:16.714284+08:00",
+        "bucket_end": "2026-11-04T11:40:25.285713+08:00",
+        "positive": 3,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 215,
+        "neutral_engagement": 6,
+        "negative_engagement": 0,
+        "net_sentiment": 60.0,
+        "post_count": 5,
+        "engagement": 221,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "hbm / 半導體 / amd / 華邦電",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "When regulation stops AI progress",
+            "url": "https://x.com/SemiAnalysis_/status/2117822230880993403",
+            "interaction": 120
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "In the Senate, Democrats have flipped North Carolina and held Georgia. They are also hoping for wins in Maine, Texas, Ohio and Kansas.  Head to our results tracker for the latest updates on the races ",
+            "url": "https://x.com/FT/status/2117822461550965080",
+            "interaction": 90
+          }
+        ],
+        "net_sentiment_smoothed": 44.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T11:40:25.285713+08:00",
+        "bucket_end": "2026-11-04T11:57:33.857142+08:00",
+        "positive": 3,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 19,
+        "neutral_engagement": 38,
+        "negative_engagement": 0,
+        "net_sentiment": 60.0,
+        "post_count": 5,
+        "engagement": 57,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "半導體 / 華邦電 / 記憶體 / twb",
+            "count": 1
+          },
+          {
+            "topic_id": 0,
+            "label": "twb",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
+            "label": "democrat / senate / ap / republican",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Democrat Annie Andrews has beat Republican senator Darline Graham in South Carolina, according to AP, becoming the first Democrat in the red state to be elected to the Senate since 1998.  https:// ft.",
+            "url": "https://x.com/FT/status/2117826044430315689",
+            "interaction": 28
+          },
+          {
+            "handle": "tengyanAI",
+            "platform": "X",
+            "text": "was reading anthropic's s-1:  h1 2026 capex was just $482M.  signed leases that haven't even started yet: ~$321B  they own almost none of their compute. landlords, power companies and chip vendors car",
+            "url": "https://x.com/tengyanAI/status/2117826614080000206",
+            "interaction": 17
+          }
+        ],
+        "net_sentiment_smoothed": 34.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T11:57:33.857142+08:00",
+        "bucket_end": "2026-11-04T12:14:42.428571+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 2,
+        "positive_engagement": 68,
+        "neutral_engagement": 1,
+        "negative_engagement": 99,
+        "net_sentiment": 0.0,
+        "post_count": 5,
+        "engagement": 168,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "amd / revenue / twb",
+            "count": 1
+          },
+          {
+            "topic_id": 0,
+            "label": "twb",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "breaking / democrat / ap / georgia",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Breaking news: Democrat Amy Acton has defeated Republican Vivek Ramaswamy to win Ohio’s governorship, according to AP  https:// ft.trib.al/Ofj1avv",
+            "url": "https://x.com/FT/status/2117829156620701706",
+            "interaction": 66
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Donald Trump has repeatedly called on Americans to vote as if he were on the ballot. But the US president has blamed the early wave of Democratic victories on the fact that he wasn't named on the midt",
+            "url": "https://x.com/FT/status/2117831454914719746",
+            "interaction": 62
+          }
+        ],
+        "net_sentiment_smoothed": 17.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T12:14:42.428571+08:00",
+        "bucket_end": "2026-11-04T12:31:51+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 3,
+        "positive_engagement": 43,
+        "neutral_engagement": 0,
+        "negative_engagement": 34,
+        "net_sentiment": -50.0,
+        "post_count": 4,
+        "engagement": 77,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "twb",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
+            "label": "democrat / senate / ap / republican",
+            "count": 1
+          },
+          {
+            "topic_id": 8,
+            "label": "taiwan / dram / nt / maker",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Breaking news: James Talarico has landed a historic win for the Democrats, defeating Republican Ken Paxton in the Texas Senate race  https:// ft.trib.al/lqZjy7o",
+            "url": "https://x.com/FT/status/2117832999492325829",
+            "interaction": 43
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Democrat Sherrod Brown has been elected to the Senate in Ohio, defeating Republican incumbent Jon Husted, according to AP.  https:// ft.trib.al/Y5p6yLr",
+            "url": "https://x.com/FT/status/2117833022741368988",
+            "interaction": 31
+          }
+        ],
+        "net_sentiment_smoothed": 3.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
-        "label": "approximately / cloud / expansion / capacity",
+        "topic_id": 0,
+        "label": "twb",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": -66.7,
-            "volume": 3
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
-            "net_sentiment": -50.0,
-            "volume": 2
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
           },
           {
             "net_sentiment": -100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 33.3,
-            "volume": 3
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
             "volume": 1
           }
         ]
       },
       {
-        "topic_id": 0,
-        "label": "tw",
+        "topic_id": 2,
+        "label": "democrat / senate / ap / republican",
         "cells": [
           {
-            "net_sentiment": -100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
           },
           {
-            "net_sentiment": 100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 2
           },
           {
@@ -706,19 +891,131 @@
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "半導體 / 華邦電 / 記憶體 / twb",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": -100.0,
             "volume": 1
           },
           {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": 100.0,
             "volume": 1
           },
           {
-            "net_sentiment": -100.0,
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "amd / revenue / twb",
+        "cells": [
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 1
           },
           {
@@ -740,6 +1037,14 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -749,7 +1054,7 @@
       },
       {
         "topic_id": 1,
-        "label": "revenue / yoy / margin / operating",
+        "label": "hbm / 半導體 / amd / 華邦電",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -764,16 +1069,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": -100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 100.0,
@@ -800,8 +1097,16 @@
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
+            "net_sentiment": 0.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -810,9 +1115,37 @@
         ]
       },
       {
-        "topic_id": 4,
-        "label": "winbond / module / kaohsiung / update",
+        "topic_id": 8,
+        "label": "taiwan / dram / nt / maker",
         "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -840,208 +1173,203 @@
           {
             "net_sentiment": -100.0,
             "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 3,
-        "label": "prices",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "technews_tw",
-        "top_topic_id": 0,
-        "top_topic_label": "tw",
+        "handle": "TrendForce",
+        "top_topic_id": 6,
+        "top_topic_label": "amd / revenue / twb",
         "focus_share": 1.0,
-        "post_count": 8,
-        "unclustered_posts": 0
+        "post_count": 2,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "tengyanAI",
+        "top_topic_id": 6,
+        "top_topic_label": "amd / revenue / twb",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "dylan522p",
+        "top_topic_id": 3,
+        "top_topic_label": "其他（未分群，22 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 3,
+        "top_topic_label": "其他（未分群，22 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
       },
       {
         "handle": "jukan05",
-        "top_topic_id": 2,
-        "top_topic_label": "approximately / cloud / expansion / capacity",
+        "top_topic_id": 3,
+        "top_topic_label": "其他（未分群，22 篇）",
         "focus_share": 1.0,
-        "post_count": 2,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 7,
+        "top_topic_label": "cycle / applied / midterm",
+        "focus_share": 1.0,
+        "post_count": 4,
+        "unclustered_posts": 3
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 8,
+        "top_topic_label": "taiwan / dram / nt / maker",
+        "focus_share": 1.0,
+        "post_count": 6,
+        "unclustered_posts": 4
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 8,
+        "top_topic_label": "taiwan / dram / nt / maker",
+        "focus_share": 1.0,
+        "post_count": 1,
         "unclustered_posts": 0
       },
       {
         "handle": "FT",
         "top_topic_id": 2,
-        "top_topic_label": "approximately / cloud / expansion / capacity",
-        "focus_share": 0.889,
-        "post_count": 9,
-        "unclustered_posts": 0
+        "top_topic_label": "democrat / senate / ap / republican",
+        "focus_share": 0.625,
+        "post_count": 17,
+        "unclustered_posts": 9
       },
       {
-        "handle": "QQ_Timmy",
-        "top_topic_id": 2,
-        "top_topic_label": "approximately / cloud / expansion / capacity",
-        "focus_share": 0.8,
-        "post_count": 5,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "statementdog",
-        "top_topic_id": 4,
-        "top_topic_label": "winbond / module / kaohsiung / update",
-        "focus_share": 0.667,
-        "post_count": 3,
-        "unclustered_posts": 0
+        "handle": "technews_tw",
+        "top_topic_id": 0,
+        "top_topic_label": "twb",
+        "focus_share": 0.412,
+        "post_count": 18,
+        "unclustered_posts": 1
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 2,
-        "label": "approximately / cloud / expansion / capacity",
-        "total_engagement": 689,
-        "post_count": 14,
-        "top_account": "jukan05",
-        "top_account_engagement": 399,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 3,
-        "label": "prices",
-        "total_engagement": 29,
-        "post_count": 1,
-        "top_account": "FT",
-        "top_account_engagement": 29,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 1,
-        "label": "revenue / yoy / margin / operating",
-        "total_engagement": 11,
-        "post_count": 2,
-        "top_account": "QQ_Timmy",
-        "top_account_engagement": 7,
-        "is_catchall": false
-      },
-      {
         "topic_id": 4,
-        "label": "winbond / module / kaohsiung / update",
-        "total_engagement": 8,
+        "label": "breaking / democrat / ap / georgia",
+        "total_engagement": 528,
         "post_count": 2,
-        "top_account": "statementdog",
-        "top_account_engagement": 8,
+        "top_account": "FT",
+        "top_account_engagement": 528,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "cycle / applied / midterm",
+        "total_engagement": 225,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 209,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "democrat / senate / ap / republican",
+        "total_engagement": 162,
+        "post_count": 5,
+        "top_account": "FT",
+        "top_account_engagement": 162,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 8,
+        "label": "taiwan / dram / nt / maker",
+        "total_engagement": 57,
+        "post_count": 3,
+        "top_account": "dnystedt",
+        "top_account_engagement": 55,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "amd / revenue / twb",
+        "total_engagement": 21,
+        "post_count": 3,
+        "top_account": "tengyanAI",
+        "top_account_engagement": 18,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "tw",
+        "label": "twb",
+        "total_engagement": 6,
+        "post_count": 7,
+        "top_account": "technews_tw",
+        "top_account_engagement": 6,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "hbm / 半導體 / amd / 華邦電",
         "total_engagement": 2,
-        "post_count": 8,
+        "post_count": 3,
         "top_account": "technews_tw",
         "top_account_engagement": 2,
         "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "半導體 / 華邦電 / 記憶體 / twb",
+        "total_engagement": 1,
+        "post_count": 4,
+        "top_account": "technews_tw",
+        "top_account_engagement": 1,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 9,
+        "label": "app / twb",
+        "total_engagement": 1,
+        "post_count": 2,
+        "top_account": "technews_tw",
+        "top_account_engagement": 1,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "其他（未分群，22 篇）",
+        "total_engagement": 4527,
+        "post_count": 22,
+        "top_account": "dylan522p",
+        "top_account_engagement": 3391,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
+          "post_count": 45,
+          "likes": 4650,
+          "engagement": 5384,
+          "avg_engagement": 119.6
+        },
+        "afternoon": {
+          "post_count": 8,
+          "likes": 97,
+          "engagement": 146,
+          "avg_engagement": 18.2
+        },
+        "evening": {
           "post_count": 0,
           "likes": 0,
           "engagement": 0,
           "avg_engagement": 0.0
-        },
-        "afternoon": {
-          "post_count": 25,
-          "likes": 552,
-          "engagement": 730,
-          "avg_engagement": 29.2
-        },
-        "evening": {
-          "post_count": 2,
-          "likes": 8,
-          "engagement": 9,
-          "avg_engagement": 4.5
         },
         "late_night": {
           "post_count": 0,
@@ -1050,7 +1378,7 @@
           "avg_engagement": 0.0
         }
       },
-      "peak_slot": "afternoon"
+      "peak_slot": "morning"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,

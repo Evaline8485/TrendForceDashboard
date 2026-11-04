@@ -1,77 +1,539 @@
 {
-  "generated_at": "2026-11-03T12:27:56+08:00",
+  "generated_at": "2026-11-04T12:31:51+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-11-03T11:27:56+08:00",
-    "end_utc": "2026-11-03T12:27:56+08:00",
-    "start_tw": "Nov 03, 11:27",
-    "end_tw": "Nov 03, 12:27"
+    "start_utc": "2026-11-04T11:31:51+08:00",
+    "end_utc": "2026-11-04T12:31:51+08:00",
+    "start_tw": "Nov 04, 11:31",
+    "end_tw": "Nov 04, 12:31"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 9,
+      "total_posts": 18,
       "sentiment_counts": {
-        "positive": 5,
-        "neutral": 1,
-        "negative": 3
+        "positive": 9,
+        "negative": 6,
+        "neutral": 3
       },
       "sentiment_share": {
-        "positive": 0.556,
-        "neutral": 0.111,
-        "negative": 0.333
+        "positive": 0.5,
+        "negative": 0.333,
+        "neutral": 0.167
       },
       "top_terms": [
-        "反而",
-        "運算",
-        "雲端",
-        "深度",
-        "度綁",
-        "綁定",
-        "客製",
-        "彈性",
-        "深度綁",
-        "度綁定"
+        "senate",
+        "republican",
+        "twb",
+        "democrat",
+        "breaking",
+        "elected",
+        "defeating",
+        "ohio",
+        "democrats",
+        "傳輸"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "tw / qeshm / hdd / 馬斯克",
-        "heat": 50.0,
-        "volume": 9,
-        "engagement": 42,
+        "topic_id": 1,
+        "label": "democrats / texas / senate / kansas",
+        "heat": 90.0,
+        "volume": 10,
+        "engagement": 388,
         "entities": [
-          "馬斯克",
-          "深度",
+          "中科",
           "台積電",
-          "輝達"
+          "雲端營",
+          "日月光",
+          "二林園區"
         ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "twb",
+        "heat": 10.0,
+        "volume": 4,
+        "engagement": 4,
+        "entities": [
+          "台灣",
+          "台積電",
+          "弘塑",
+          "聯發科",
+          "美國"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "democrat / ap / republican / elected",
+        "heat": 10.0,
+        "volume": 4,
+        "engagement": 129,
+        "entities": [],
         "is_catchall": false
       }
     ],
     "named_entities": [
       {
-        "entity": "馬斯克",
+        "entity": "台灣",
         "count": 4
       },
       {
-        "entity": "深度",
-        "count": 2
-      },
-      {
         "entity": "台積電",
+        "count": 4
+      },
+      {
+        "entity": "弘塑",
         "count": 2
       },
       {
-        "entity": "輝達",
+        "entity": "聯發科",
+        "count": 2
+      },
+      {
+        "entity": "中科",
+        "count": 2
+      },
+      {
+        "entity": "雲端營",
+        "count": 2
+      },
+      {
+        "entity": "美國",
+        "count": 1
+      },
+      {
+        "entity": "紅海",
+        "count": 1
+      },
+      {
+        "entity": "日月光",
+        "count": 1
+      },
+      {
+        "entity": "二林園區",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-11-03T11:27:56.000002+08:00",
-        "bucket_end": "2026-11-03T11:32:13.142859+08:00",
+        "bucket_start": "2026-11-04T11:31:51.000002+08:00",
+        "bucket_end": "2026-11-04T11:36:08.142859+08:00",
+        "positive": 2,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 210,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 210,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "democrats / texas / senate / kansas",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "When regulation stops AI progress",
+            "url": "https://x.com/SemiAnalysis_/status/2117822230880993403",
+            "interaction": 120
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "In the Senate, Democrats have flipped North Carolina and held Georgia. They are also hoping for wins in Maine, Texas, Ohio and Kansas.  Head to our results tracker for the latest updates on the races ",
+            "url": "https://x.com/FT/status/2117822461550965080",
+            "interaction": 90
+          }
+        ],
+        "net_sentiment_smoothed": 100.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T11:36:08.142859+08:00",
+        "bucket_end": "2026-11-04T11:40:25.285716+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 5,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 5,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "democrats / texas / senate / kansas",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "〈雲端營收不等於 AI 獲利，須拆分純 AI 營收占比〉  1、neil_shah 回應野村證券 AI 基礎設施高獲利之論點，提醒不可將雲端營收直接歸因於 AI 資本支出之成果。  2、理由： 1）Alphabet（  $GOOG ）、Amazon（  $AMZN ）、Microsoft（  $MSFT ）之雲端營收仍含大量非 AI 之傳統雲端與服務業務。",
+            "url": "https://x.com/QQ_Timmy/status/2117823952282333635",
+            "interaction": 5
+          }
+        ],
+        "net_sentiment_smoothed": 75.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T11:40:25.285716+08:00",
+        "bucket_end": "2026-11-04T11:44:42.428573+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 1,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "twb",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "挾 #聯發科 資源，#達發科技 憑 #AI 與 #光通訊 需求讓單季獲利締造新猷。寬頻晶片跨入低軌衛星架構，反成避開紅海的絕佳捷徑？掌握底層傳輸升級，即是 IC 設計廠維持高成長的動能。 dlvr.​it/TWB513",
+            "url": "https://x.com/technews_tw/status/2117824423034274166",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 80.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T11:44:42.428573+08:00",
+        "bucket_end": "2026-11-04T11:48:59.571430+08:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 38,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 38,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "democrats / texas / senate / kansas",
+            "count": 1
+          },
+          {
+            "topic_id": 0,
+            "label": "democrat / ap / republican / elected",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Democrat Annie Andrews has beat Republican senator Darline Graham in South Carolina, according to AP, becoming the first Democrat in the red state to be elected to the Senate since 1998.  https:// ft.",
+            "url": "https://x.com/FT/status/2117826044430315689",
+            "interaction": 28
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "〈矽品傳斥資千億進駐中科二林，承接原台積電預留用地〉  1、核心消息：日月光投控（ASE Technology,  $ASX ,  https:// 3711.TW）旗下子公司矽品（SPIL）傳計劃投資新台幣1,000億元（約30.5億美元），於中科二林園區附近擴產。  2、用地背景： 1）該用地面積約50公頃，原先保留予台積電（TSMC,",
+            "url": "https://x.com/QQ_Timmy/status/2117825512127279164",
+            "interaction": 10
+          }
+        ],
+        "net_sentiment_smoothed": 80.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T11:48:59.571430+08:00",
+        "bucket_end": "2026-11-04T11:53:16.714287+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 17,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 17,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "democrats / texas / senate / kansas",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tengyanAI",
+            "platform": "X",
+            "text": "was reading anthropic's s-1:  h1 2026 capex was just $482M.  signed leases that haven't even started yet: ~$321B  they own almost none of their compute. landlords, power companies and chip vendors car",
+            "url": "https://x.com/tengyanAI/status/2117826614080000206",
+            "interaction": 17
+          }
+        ],
+        "net_sentiment_smoothed": 60.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T11:53:16.714287+08:00",
+        "bucket_end": "2026-11-04T11:57:33.857144+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 1,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "twb",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "延攬前 #台積電 高管，#弘塑科技 挾獲利於 #半導體 擴產期再祭庫藏股與投資公司。無視高檔買回股權，反而能提早籌獲技術併購的關鍵彈藥？厚實資本與激勵機制已是延續競爭優勢的核心。 dlvr.​it/TWB5CK",
+            "url": "https://x.com/technews_tw/status/2117827725893517452",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 40.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T11:57:33.857144+08:00",
+        "bucket_end": "2026-11-04T12:01:51.000001+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 66,
+        "neutral_engagement": 0,
+        "negative_engagement": 37,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 103,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "democrat / ap / republican / elected",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "democrats / texas / senate / kansas",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Breaking news: Democrat Amy Acton has defeated Republican Vivek Ramaswamy to win Ohio’s governorship, according to AP  https:// ft.trib.al/Ofj1avv",
+            "url": "https://x.com/FT/status/2117829156620701706",
+            "interaction": 66
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The New South, the Old Left and now the rise of prairie populism in America’s breadbasket. Democrats are leading in places where progressives almost never win, writes the FT's Rana Foroohar.  https://",
+            "url": "https://x.com/FT/status/2117828992774344879",
+            "interaction": 37
+          }
+        ],
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T12:01:51.000001+08:00",
+        "bucket_end": "2026-11-04T12:06:08.142858+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 30.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T12:06:08.142858+08:00",
+        "bucket_end": "2026-11-04T12:10:25.285715+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 1,
+        "negative_engagement": 62,
+        "net_sentiment": -50.0,
+        "post_count": 2,
+        "engagement": 63,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "twb",
+            "count": 1
+          },
+          {
+            "topic_id": 1,
+            "label": "democrats / texas / senate / kansas",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Donald Trump has repeatedly called on Americans to vote as if he were on the ballot. But the US president has blamed the early wave of Democratic victories on the fact that he wasn't named on the midt",
+            "url": "https://x.com/FT/status/2117831454914719746",
+            "interaction": 62
+          },
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "台灣人太拚了！拚出好成績，也對自己好一點！ #台灣PPP人均GDP首破10萬 國際貨幣基金（IMF）最新《世界經濟展望》估算，2026 年台灣經購買力平價（PPP）調整後的人均 GDP 將達 103,743 國際元，首度突破 10 萬，全球排名由第 11 升至第 9，並超越美國。若扣除人口不足 100… dlvr.​it/TWB5Sf",
+            "url": "https://x.com/technews_tw/status/2117831154057478161",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": 3.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T12:10:25.285715+08:00",
+        "bucket_end": "2026-11-04T12:14:42.428572+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 2,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 2,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "democrats / texas / senate / kansas",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "🔥 #AMD lays out a bold 2027 outlook. Here are the key takeaways 👇",
+            "url": "https://x.com/trendforce/status/2117832557417132170",
+            "interaction": 2
+          }
+        ],
+        "net_sentiment_smoothed": -16.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T12:14:42.428572+08:00",
+        "bucket_end": "2026-11-04T12:18:59.571429+08:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 2,
+        "positive_engagement": 43,
+        "neutral_engagement": 0,
+        "negative_engagement": 33,
+        "net_sentiment": -33.3,
+        "post_count": 3,
+        "engagement": 76,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "democrats / texas / senate / kansas",
+            "count": 2
+          },
+          {
+            "topic_id": 0,
+            "label": "democrat / ap / republican / elected",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Breaking news: James Talarico has landed a historic win for the Democrats, defeating Republican Ken Paxton in the Texas Senate race  https:// ft.trib.al/lqZjy7o",
+            "url": "https://x.com/FT/status/2117832999492325829",
+            "interaction": 43
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Democrat Sherrod Brown has been elected to the Senate in Ohio, defeating Republican incumbent Jon Husted, according to AP.  https:// ft.trib.al/Y5p6yLr",
+            "url": "https://x.com/FT/status/2117833022741368988",
+            "interaction": 31
+          }
+        ],
+        "net_sentiment_smoothed": -16.7,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-11-04T12:18:59.571429+08:00",
+        "bucket_end": "2026-11-04T12:23:16.714286+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 1,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 1,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "twb",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technews_tw",
+            "platform": "X",
+            "text": "部署 #AI 與 #GPU 叢集，#NetApp指出儲存層已成閒置算力殺手。放任資料卡在傳輸端，不僅無助擴增效能，更讓昂貴硬體陷入空轉？打通 I/O 瓶頸，才是提升投資回報的基石。 dlvr.​it/TWB5kR",
+            "url": "https://x.com/technews_tw/status/2117834567155642726",
+            "interaction": 1
+          }
+        ],
+        "net_sentiment_smoothed": -6.7,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-04T12:23:16.714286+08:00",
+        "bucket_end": "2026-11-04T12:27:33.857143+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -87,8 +549,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-03T11:32:13.142859+08:00",
-        "bucket_end": "2026-11-03T11:36:30.285716+08:00",
+        "bucket_start": "2026-11-04T12:27:33.857143+08:00",
+        "bucket_end": "2026-11-04T12:31:51+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -100,320 +562,42 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T11:36:30.285716+08:00",
-        "bucket_end": "2026-11-03T11:40:47.428573+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 5,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 5,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw / qeshm / hdd / 馬斯克",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "HDD Industry Update: Supply Growth Could Accelerate in 2027, with Limited Disruption from Toshiba’s",
-            "url": "https://x.com/statementdog/status/2117461164422729963",
-            "interaction": 5
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T11:40:47.428573+08:00",
-        "bucket_end": "2026-11-03T11:45:04.571430+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 1,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 1,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw / qeshm / hdd / 馬斯克",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "向來堅持垂直整合的 #馬斯克 傳出對 #台積電 軟化立場，掌握龐大算力需求反而坐實了晶圓代工難以撼動的專業壁壘？深厚的量產良率與封裝整合才是跨入先進製造的真正底氣。 dlvr.​it/TW9BdB",
-            "url": "https://x.com/technews_tw/status/2117462181067563172",
-            "interaction": 1
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T11:45:04.571430+08:00",
-        "bucket_end": "2026-11-03T11:49:21.714287+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T11:49:21.714287+08:00",
-        "bucket_end": "2026-11-03T11:53:38.857144+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T11:53:38.857144+08:00",
-        "bucket_end": "2026-11-03T11:57:56.000001+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T11:57:56.000001+08:00",
-        "bucket_end": "2026-11-03T12:02:13.142858+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 2,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 2,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw / qeshm / hdd / 馬斯克",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "We think 40TB-class drives lifting HDD supply into 2027 as Seagate ( $STX ) scales HAMR and Western Digital ( $WDC ) ramps ePMR ahead of its HAMR launch.  Both companies reported strong cloud storage ",
-            "url": "https://x.com/statementdog/status/2117466806252347500",
-            "interaction": 2
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T12:02:13.142858+08:00",
-        "bucket_end": "2026-11-03T12:06:30.285715+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 4,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 4,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw / qeshm / hdd / 馬斯克",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "X",
-            "text": "Memory giants are cashing in, but #Apple is scrambling to stock up! With chip prices soaring, its inventory ballooned 154% YoY to $14.54B last quarter as it races to secure supplies.",
-            "url": "https://x.com/trendforce/status/2117467560123990184",
-            "interaction": 4
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "當 #OpenAI 質疑個人電腦浪費記憶體而引來 #馬斯克 嘲諷，把資源全挪往雲端資料中心反而限制了邊緣運算的發展彈性？ dlvr.​it/TW9BwW",
-            "url": "https://x.com/technews_tw/status/2117467976484131266",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T12:06:30.285715+08:00",
-        "bucket_end": "2026-11-03T12:10:47.428572+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T12:10:47.428572+08:00",
-        "bucket_end": "2026-11-03T12:15:04.571429+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T12:15:04.571429+08:00",
-        "bucket_end": "2026-11-03T12:19:21.714286+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 10.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T12:19:21.714286+08:00",
-        "bucket_end": "2026-11-03T12:23:38.857143+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw / qeshm / hdd / 馬斯克",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "外資目標價喊上 8,600 元天價，#創意 迎來雲端 #ASIC 處理器大單，通用運算狂潮反而刺激了巨頭自研的急迫性？深度綁定先進製程的客製能力正重塑半導體獲利版圖。 dlvr.​it/TW9C9k",
-            "url": "https://x.com/technews_tw/status/2117472657155457362",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 12.5,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-03T12:23:38.857143+08:00",
-        "bucket_end": "2026-11-03T12:27:56+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 17,
-        "net_sentiment": -50.0,
-        "post_count": 2,
-        "engagement": 17,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "tw / qeshm / hdd / 馬斯克",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "US strikes Iran’s Qeshm Island on eve of election",
-            "url": "https://x.com/FT/status/2117473067114823855",
-            "interaction": 17
-          },
-          {
-            "handle": "technews_tw",
-            "platform": "X",
-            "text": "#MediaTek 獲輝達破紀錄投資 35 億美元入股，深度綁定運算霸主反而壓縮了爭取雲端客製化晶片的彈性？ dlvr.​it/TW9CCG",
-            "url": "https://x.com/technews_tw/status/2117473282400338129",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 16.7,
+        "net_sentiment_smoothed": -33.3,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "tw / qeshm / hdd / 馬斯克",
+        "topic_id": 1,
+        "label": "democrats / texas / senate / kansas",
         "cells": [
+          {
+            "net_sentiment": 100.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -429,7 +613,37 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "twb",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -445,11 +659,57 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 2
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "democrat / ap / republican / elected",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -464,8 +724,32 @@
             "volume": 1
           },
           {
-            "net_sentiment": -50.0,
-            "volume": 2
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       }
@@ -473,61 +757,103 @@
     "coverage_focus_ranking": [
       {
         "handle": "TrendForce",
-        "top_topic_id": 0,
-        "top_topic_label": "tw / qeshm / hdd / 馬斯克",
+        "top_topic_id": 1,
+        "top_topic_label": "democrats / texas / senate / kansas",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 1,
+        "top_topic_label": "democrats / texas / senate / kansas",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 1,
+        "top_topic_label": "democrats / texas / senate / kansas",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "tengyanAI",
+        "top_topic_id": 1,
+        "top_topic_label": "democrats / texas / senate / kansas",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "statementdog",
+        "top_topic_id": 1,
+        "top_topic_label": "democrats / texas / senate / kansas",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
         "handle": "technews_tw",
-        "top_topic_id": 0,
-        "top_topic_label": "tw / qeshm / hdd / 馬斯克",
+        "top_topic_id": 2,
+        "top_topic_label": "twb",
         "focus_share": 1.0,
         "post_count": 4,
         "unclustered_posts": 0
       },
       {
         "handle": "FT",
-        "top_topic_id": 0,
-        "top_topic_label": "tw / qeshm / hdd / 馬斯克",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "statementdog",
-        "top_topic_id": 0,
-        "top_topic_label": "tw / qeshm / hdd / 馬斯克",
-        "focus_share": 1.0,
-        "post_count": 2,
+        "top_topic_id": 1,
+        "top_topic_label": "democrats / texas / senate / kansas",
+        "focus_share": 0.5,
+        "post_count": 8,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "tw / qeshm / hdd / 馬斯克",
-        "total_engagement": 42,
-        "post_count": 9,
+        "topic_id": 1,
+        "label": "democrats / texas / senate / kansas",
+        "total_engagement": 388,
+        "post_count": 10,
         "top_account": "FT",
-        "top_account_engagement": 30,
+        "top_account_engagement": 232,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "democrat / ap / republican / elected",
+        "total_engagement": 129,
+        "post_count": 4,
+        "top_account": "FT",
+        "top_account_engagement": 129,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "twb",
+        "total_engagement": 4,
+        "post_count": 4,
+        "top_account": "technews_tw",
+        "top_account_engagement": 4,
         "is_catchall": false
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 2,
-          "likes": 6,
-          "engagement": 6,
-          "avg_engagement": 3.0
+          "post_count": 10,
+          "likes": 318,
+          "engagement": 375,
+          "avg_engagement": 37.5
         },
         "afternoon": {
-          "post_count": 7,
-          "likes": 25,
-          "engagement": 36,
-          "avg_engagement": 5.1
+          "post_count": 8,
+          "likes": 97,
+          "engagement": 146,
+          "avg_engagement": 18.2
         },
         "evening": {
           "post_count": 0,
@@ -542,7 +868,7 @@
           "avg_engagement": 0.0
         }
       },
-      "peak_slot": "afternoon"
+      "peak_slot": "morning"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
