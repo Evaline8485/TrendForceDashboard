@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-11T23:25:47.273013+00:00",
+  "generated_at": "2026-11-12T00:56:01.985546+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-11-11T19:25:47.273013+00:00",
-    "end_utc": "2026-11-11T23:25:47.273013+00:00",
-    "start_tw": "Nov 12, 03:25",
-    "end_tw": "Nov 12, 07:25"
+    "start_utc": "2026-11-11T20:56:01.985546+00:00",
+    "end_utc": "2026-11-12T00:56:01.985546+00:00",
+    "start_tw": "Nov 12, 04:56",
+    "end_tw": "Nov 12, 08:56"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 33,
+      "total_posts": 45,
       "sentiment_counts": {
-        "neutral": 10,
-        "negative": 13,
-        "positive": 10
+        "neutral": 16,
+        "negative": 15,
+        "positive": 14
       },
       "sentiment_share": {
-        "neutral": 0.303,
-        "negative": 0.394,
-        "positive": 0.303
+        "neutral": 0.356,
+        "negative": 0.333,
+        "positive": 0.311
       },
       "top_terms": [
         "查看",
@@ -28,45 +28,130 @@
         "查看更",
         "看更多",
         "真能",
+        "輝達",
         "供應",
         "nvidia",
-        "危機",
-        "擴大"
+        "外資"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "美國 / 中國 / 輝達",
+        "topic_id": 1,
+        "label": "nvidia",
         "heat": 90.0,
-        "volume": 29,
-        "engagement": 3418,
+        "volume": 5,
+        "engagement": 164,
         "entities": [
-          "美國",
-          "中國",
-          "輝達",
-          "黃仁勳",
-          "台達電"
+          "國防",
+          "黑市",
+          "莫非",
+          "輝達"
         ],
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "nvidia",
-        "heat": 10.0,
-        "volume": 4,
-        "engagement": 138,
+        "topic_id": 2,
+        "label": "華邦電",
+        "heat": 24.3,
+        "volume": 2,
+        "engagement": 82,
         "entities": [
-          "國防",
-          "黑市",
-          "莫非"
+          "華邦電",
+          "焦佑",
+          "美國",
+          "摩根士丹利",
+          "力積電"
         ],
         "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "台股",
+        "heat": 17.8,
+        "volume": 2,
+        "engagement": 49,
+        "entities": [
+          "國家隊",
+          "美國",
+          "台股有國安",
+          "台積電",
+          "齊發"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "ipo",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 39,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "盤前",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 27,
+        "entities": [
+          "南亞",
+          "四寶"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "道瓊工業指數低開 / 華爾街股市",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 31,
+        "entities": [
+          "美國",
+          "聯準會",
+          "華爾街",
+          "道瓊工業",
+          "那斯達克"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "道瓊工業指數低開 / 華爾街股市 / ipo",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 55,
+        "entities": [
+          "美國",
+          "華爾街",
+          "道瓊工業",
+          "齊紅"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，31 篇）",
+        "heat": 10.0,
+        "volume": 31,
+        "engagement": 5526,
+        "entities": [
+          "美國",
+          "輝達",
+          "中國",
+          "黃仁勳",
+          "台灣"
+        ],
+        "is_catchall": true
       }
     ],
     "named_entities": [
       {
         "entity": "美國",
+        "count": 10
+      },
+      {
+        "entity": "輝達",
         "count": 7
       },
       {
@@ -74,11 +159,11 @@
         "count": 4
       },
       {
-        "entity": "輝達",
-        "count": 3
+        "entity": "黃仁勳",
+        "count": 4
       },
       {
-        "entity": "黃仁勳",
+        "entity": "台灣",
         "count": 3
       },
       {
@@ -90,7 +175,15 @@
         "count": 3
       },
       {
+        "entity": "華邦電",
+        "count": 2
+      },
+      {
         "entity": "上市",
+        "count": 2
+      },
+      {
+        "entity": "台積電",
         "count": 2
       },
       {
@@ -98,7 +191,11 @@
         "count": 2
       },
       {
-        "entity": "台灣",
+        "entity": "華爾街",
+        "count": 2
+      },
+      {
+        "entity": "道瓊工業",
         "count": 2
       },
       {
@@ -108,28 +205,12 @@
       {
         "entity": "伺服器",
         "count": 2
-      },
-      {
-        "entity": "光寶科",
-        "count": 1
-      },
-      {
-        "entity": "單月營",
-        "count": 1
-      },
-      {
-        "entity": "國防",
-        "count": 1
-      },
-      {
-        "entity": "黑市",
-        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-11-11T19:25:47.273007+00:00",
-        "bucket_end": "2026-11-11T19:42:55.844436+00:00",
+        "bucket_start": "2026-11-11T20:56:01.985540+00:00",
+        "bucket_end": "2026-11-11T21:13:10.556969+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -145,8 +226,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-11T19:42:55.844436+00:00",
-        "bucket_end": "2026-11-11T20:00:04.415865+00:00",
+        "bucket_start": "2026-11-11T21:13:10.556969+00:00",
+        "bucket_end": "2026-11-11T21:30:19.128398+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -162,93 +243,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-11T20:00:04.415865+00:00",
-        "bucket_end": "2026-11-11T20:17:12.987294+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-11T20:17:12.987294+00:00",
-        "bucket_end": "2026-11-11T20:34:21.558723+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-11T20:34:21.558723+00:00",
-        "bucket_end": "2026-11-11T20:51:30.130152+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-11T20:51:30.130152+00:00",
-        "bucket_end": "2026-11-11T21:08:38.701581+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-11T21:08:38.701581+00:00",
-        "bucket_end": "2026-11-11T21:25:47.273010+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-11T21:25:47.273010+00:00",
-        "bucket_end": "2026-11-11T21:42:55.844439+00:00",
+        "bucket_start": "2026-11-11T21:30:19.128398+00:00",
+        "bucket_end": "2026-11-11T21:47:27.699827+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -264,8 +260,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-11T21:42:55.844439+00:00",
-        "bucket_end": "2026-11-11T22:00:04.415868+00:00",
+        "bucket_start": "2026-11-11T21:47:27.699827+00:00",
+        "bucket_end": "2026-11-11T22:04:36.271256+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -281,8 +277,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-11T22:00:04.415868+00:00",
-        "bucket_end": "2026-11-11T22:17:12.987297+00:00",
+        "bucket_start": "2026-11-11T22:04:36.271256+00:00",
+        "bucket_end": "2026-11-11T22:21:44.842685+00:00",
         "positive": 4,
         "neutral": 4,
         "negative": 10,
@@ -294,14 +290,19 @@
         "engagement": 523,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "美國 / 中國 / 輝達",
-            "count": 14
-          },
-          {
             "topic_id": 1,
             "label": "nvidia",
             "count": 4
+          },
+          {
+            "topic_id": 2,
+            "label": "華邦電",
+            "count": 1
+          },
+          {
+            "topic_id": 6,
+            "label": "ipo",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -324,8 +325,8 @@
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-11-11T22:17:12.987297+00:00",
-        "bucket_end": "2026-11-11T22:34:21.558726+00:00",
+        "bucket_start": "2026-11-11T22:21:44.842685+00:00",
+        "bucket_end": "2026-11-11T22:38:53.414114+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -341,8 +342,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-11T22:34:21.558726+00:00",
-        "bucket_end": "2026-11-11T22:51:30.130155+00:00",
+        "bucket_start": "2026-11-11T22:38:53.414114+00:00",
+        "bucket_end": "2026-11-11T22:56:01.985543+00:00",
         "positive": 5,
         "neutral": 6,
         "negative": 3,
@@ -354,9 +355,19 @@
         "engagement": 1196,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "美國 / 中國 / 輝達",
-            "count": 14
+            "topic_id": 3,
+            "label": "盤前",
+            "count": 1
+          },
+          {
+            "topic_id": 4,
+            "label": "台股",
+            "count": 1
+          },
+          {
+            "topic_id": 5,
+            "label": "道瓊工業指數低開 / 華爾街股市",
+            "count": 1
           }
         ],
         "top_posts": [
@@ -375,29 +386,12 @@
             "interaction": 270
           }
         ],
-        "net_sentiment_smoothed": -3.8,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-11-11T22:51:30.130155+00:00",
-        "bucket_end": "2026-11-11T23:08:38.701584+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 3.6,
+        "net_sentiment_smoothed": 16.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-11T23:08:38.701584+00:00",
-        "bucket_end": "2026-11-11T23:25:47.273013+00:00",
+        "bucket_start": "2026-11-11T22:56:01.985543+00:00",
+        "bucket_end": "2026-11-11T23:13:10.556972+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -409,97 +403,156 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 4.8,
+        "net_sentiment_smoothed": 22.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-11T23:13:10.556972+00:00",
+        "bucket_end": "2026-11-11T23:30:19.128401+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 1837,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 1837,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "yutinghaosfinance",
+            "platform": "Facebook",
+            "text": "一環扣一環，中國AI公司疑似取得輝達最強晶片。彭博取得中國監管機構的融資文件，開發Kimi人工智慧模型的月之暗面，疑似在2026年8月透過第三方企業，租用32台搭載輝達B300高階GPU的美超微伺服器，設備總價達4.32億元人民幣，約6,480萬美元，而且伺服器實際位於中國甘肅省慶陽市。…… \n查看更多",
+            "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02gNgpjQhw4DzUV53U1UrjQLJDBb9x3NC56XDkghcSxVW2SKMn69RuWM6se1S1jWyRl?__cft__[0]=AZhr3cVvhnV9agCQ02jowan1Z5Tuf3e7qzrkeAuG-AHst7pQzXmELwxhbtGCtnh5gTGVeW3gHIEl6g-qKiUQmy58BdBxO7iwVrdztSaynT4dyRXOyZuMJwW-SODYRjIV5_gC140HebXFog9yyMAEXawh_VgVgnMpI0ynIC_EAA94zJBjMnGIqQXYLIM",
+            "interaction": 1837
+          }
+        ],
+        "net_sentiment_smoothed": 22.9,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-11T23:30:19.128401+00:00",
+        "bucket_end": "2026-11-11T23:47:27.699830+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-11T23:47:27.699830+00:00",
+        "bucket_end": "2026-11-12T00:04:36.271259+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-12T00:04:36.271259+00:00",
+        "bucket_end": "2026-11-12T00:21:44.842688+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 2.2,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-12T00:21:44.842688+00:00",
+        "bucket_end": "2026-11-12T00:38:53.414117+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 2.8,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-12T00:38:53.414117+00:00",
+        "bucket_end": "2026-11-12T00:56:01.985546+00:00",
+        "positive": 3,
+        "neutral": 4,
+        "negative": 2,
+        "positive_engagement": 66,
+        "neutral_engagement": 98,
+        "negative_engagement": 46,
+        "net_sentiment": 11.1,
+        "post_count": 9,
+        "engagement": 210,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "nvidia",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
+            "label": "華邦電",
+            "count": 1
+          },
+          {
+            "topic_id": 3,
+            "label": "盤前",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "輝達市值兩天已蒸發4,700億美元...\n…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0WKwfZCLghyc8FV4VpUwwfBBF6P97JYLRyPDEt8Sj8mUPBeifeytvZmzTuHG3i45Zl?__cft__[0]=AZgdwhj22hiJch2rckn99LYNAtywRwdwlzSFL8Nth45yG_blUkA8jOJLmeRoE4h_0RhxwfSs0iwslbdR0KizqiTzCdgBiCv8RQRwBB8zsh9KvLOE2FSr8W2VhI7O2XrVIeWwLGDh9Ii-4MtYsZ8HkauVCTeD53zOoYwOFSOrmk05-69OJTI5m9j2xNc",
+            "interaction": 55
+          },
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "美國雲端基礎設施供應商CoreWeave的最新業績與財測強勁，加上人工智慧（AI）新創Anthropic首次公開募股（IPO）需求火爆，投資人對AI交易的熱情重燃，科技股止跌，華爾街股市11日走高，道瓊工業指數低開35點後，其後一度轉漲280點，標普500指數盤中最多漲1.68%，終場四大指數齊紅。",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02fk6sVWsS3y6mh93izrPMBzmLcURpup6xuXCZyeUkm2p3J6vtbqzNSjuhT6noJBfKl?__cft__[0]=AZjzEMLnnz0Vh8pFbBCw3rQyUIhlo-Vuf0_O5VE6-lWr29dIV7KNFQvfW8UtFm0dfFkcpzAf1lx2dIg8NtqNiWypIfuDlt1PaHr82Raw7laenHO2u2IaMfuDcUAjDTCTK8KIrB2SR4TsJLA7BbGD-rpHsENLBy7BNqWRsvfUTtmf2jqYIONZ0SMQWYo",
+            "interaction": 55
+          }
+        ],
+        "net_sentiment_smoothed": 3.7,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "美國 / 中國 / 輝達",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": -21.4,
-            "volume": 14
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 14.3,
-            "volume": 14
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          }
-        ]
-      },
-      {
         "topic_id": 1,
         "label": "nvidia",
         "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -535,63 +588,447 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "華邦電",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "盤前",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "台股",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "ipo",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "道瓊工業指數低開 / 華爾街股市",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "ctee.fans",
-        "top_topic_id": 0,
-        "top_topic_label": "美國 / 中國 / 輝達",
-        "focus_share": 1.0,
-        "post_count": 14,
-        "unclustered_posts": 0
-      },
-      {
         "handle": "yutinghaosfinance",
         "top_topic_id": 0,
-        "top_topic_label": "美國 / 中國 / 輝達",
+        "top_topic_label": "其他（未分群，31 篇）",
         "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
+        "post_count": 4,
+        "unclustered_posts": 4
       },
       {
         "handle": "technewsinside",
-        "top_topic_id": 0,
-        "top_topic_label": "美國 / 中國 / 輝達",
-        "focus_share": 0.778,
-        "post_count": 18,
-        "unclustered_posts": 0
+        "top_topic_id": 1,
+        "top_topic_label": "nvidia",
+        "focus_share": 0.714,
+        "post_count": 21,
+        "unclustered_posts": 14
+      },
+      {
+        "handle": "ctee.fans",
+        "top_topic_id": 3,
+        "top_topic_label": "盤前",
+        "focus_share": 0.286,
+        "post_count": 20,
+        "unclustered_posts": 13
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 0,
-        "label": "美國 / 中國 / 輝達",
-        "total_engagement": 3418,
-        "post_count": 29,
-        "top_account": "yutinghaosfinance",
-        "top_account_engagement": 1837,
+        "topic_id": 1,
+        "label": "nvidia",
+        "total_engagement": 164,
+        "post_count": 5,
+        "top_account": "technewsinside",
+        "top_account_engagement": 164,
         "is_catchall": false
       },
       {
-        "topic_id": 1,
-        "label": "nvidia",
-        "total_engagement": 138,
-        "post_count": 4,
+        "topic_id": 2,
+        "label": "華邦電",
+        "total_engagement": 82,
+        "post_count": 2,
         "top_account": "technewsinside",
-        "top_account_engagement": 138,
+        "top_account_engagement": 74,
         "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "道瓊工業指數低開 / 華爾街股市 / ipo",
+        "total_engagement": 55,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 55,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "台股",
+        "total_engagement": 49,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 49,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "ipo",
+        "total_engagement": 39,
+        "post_count": 1,
+        "top_account": "technewsinside",
+        "top_account_engagement": 39,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "道瓊工業指數低開 / 華爾街股市",
+        "total_engagement": 31,
+        "post_count": 1,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 31,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "盤前",
+        "total_engagement": 27,
+        "post_count": 2,
+        "top_account": "ctee.fans",
+        "top_account_engagement": 27,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，31 篇）",
+        "total_engagement": 5526,
+        "post_count": 31,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 4044,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 33,
-          "likes": 3556,
-          "engagement": 3556,
-          "avg_engagement": 107.8
+          "post_count": 45,
+          "likes": 5973,
+          "engagement": 5973,
+          "avg_engagement": 132.7
         },
         "afternoon": {
           "post_count": 0,
