@@ -1,46 +1,61 @@
 {
-  "generated_at": "2026-11-14T22:45:24.182481+00:00",
+  "generated_at": "2026-11-15T00:56:04.471673+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-11-14T18:45:24.182481+00:00",
-    "end_utc": "2026-11-14T22:45:24.182481+00:00",
-    "start_tw": "Nov 15, 02:45",
-    "end_tw": "Nov 15, 06:45"
+    "start_utc": "2026-11-14T20:56:04.471673+00:00",
+    "end_utc": "2026-11-15T00:56:04.471673+00:00",
+    "start_tw": "Nov 15, 04:56",
+    "end_tw": "Nov 15, 08:56"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 10,
+      "total_posts": 15,
       "sentiment_counts": {
-        "negative": 5,
-        "positive": 3,
-        "neutral": 2
+        "negative": 6,
+        "positive": 4,
+        "neutral": 5
       },
       "sentiment_share": {
-        "negative": 0.5,
-        "positive": 0.3,
-        "neutral": 0.2
+        "negative": 0.4,
+        "positive": 0.267,
+        "neutral": 0.333
       },
       "top_terms": [
         "輝達",
-        "晶片",
+        "查看",
+        "看更",
+        "更多",
+        "查看更",
+        "看更多",
         "黃仁",
         "仁勳",
         "黃仁勳",
-        "供應",
-        "應鏈",
-        "供應鏈",
-        "行長",
-        "執行長"
+        "晶片"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 1,
-        "label": "輝達 / 黃仁勳",
+        "label": "華爾街 / 喝咖啡 / 聊天",
         "heat": 90.0,
-        "volume": 5,
-        "engagement": 336,
+        "volume": 7,
+        "engagement": 7004,
+        "entities": [
+          "華爾街",
+          "喝咖啡",
+          "聊天",
+          "毛毛",
+          "黃仁勳"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "輝達 / 黃仁勳",
+        "heat": 39.6,
+        "volume": 6,
+        "engagement": 349,
         "entities": [
           "輝達",
           "黃仁勳",
@@ -54,12 +69,10 @@
         "topic_id": 0,
         "label": "資安",
         "heat": 10.0,
-        "volume": 5,
-        "engagement": 128,
+        "volume": 2,
+        "engagement": 31,
         "entities": [
-          "華爾街",
-          "卡片",
-          "喝咖啡"
+          "卡片"
         ],
         "is_catchall": false
       }
@@ -67,11 +80,11 @@
     "named_entities": [
       {
         "entity": "輝達",
-        "count": 5
+        "count": 6
       },
       {
         "entity": "黃仁勳",
-        "count": 3
+        "count": 4
       },
       {
         "entity": "中國",
@@ -106,14 +119,26 @@
         "count": 1
       },
       {
+        "entity": "廣達",
+        "count": 1
+      },
+      {
         "entity": "喝咖啡",
+        "count": 1
+      },
+      {
+        "entity": "聊天",
+        "count": 1
+      },
+      {
+        "entity": "毛毛",
         "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-11-14T18:45:24.182475+00:00",
-        "bucket_end": "2026-11-14T19:02:32.753904+00:00",
+        "bucket_start": "2026-11-14T20:56:04.471667+00:00",
+        "bucket_end": "2026-11-14T21:13:13.043096+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -129,8 +154,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-14T19:02:32.753904+00:00",
-        "bucket_end": "2026-11-14T19:19:41.325333+00:00",
+        "bucket_start": "2026-11-14T21:13:13.043096+00:00",
+        "bucket_end": "2026-11-14T21:30:21.614525+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -146,127 +171,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-14T19:19:41.325333+00:00",
-        "bucket_end": "2026-11-14T19:36:49.896762+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-14T19:36:49.896762+00:00",
-        "bucket_end": "2026-11-14T19:53:58.468191+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-14T19:53:58.468191+00:00",
-        "bucket_end": "2026-11-14T20:11:07.039620+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-14T20:11:07.039620+00:00",
-        "bucket_end": "2026-11-14T20:28:15.611049+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-14T20:28:15.611049+00:00",
-        "bucket_end": "2026-11-14T20:45:24.182478+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-14T20:45:24.182478+00:00",
-        "bucket_end": "2026-11-14T21:02:32.753907+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-14T21:02:32.753907+00:00",
-        "bucket_end": "2026-11-14T21:19:41.325336+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-14T21:19:41.325336+00:00",
-        "bucket_end": "2026-11-14T21:36:49.896765+00:00",
+        "bucket_start": "2026-11-14T21:30:21.614525+00:00",
+        "bucket_end": "2026-11-14T21:47:30.185954+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -282,8 +188,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-14T21:36:49.896765+00:00",
-        "bucket_end": "2026-11-14T21:53:58.468194+00:00",
+        "bucket_start": "2026-11-14T21:47:30.185954+00:00",
+        "bucket_end": "2026-11-14T22:04:38.757383+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -299,8 +205,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-14T21:53:58.468194+00:00",
-        "bucket_end": "2026-11-14T22:11:07.039623+00:00",
+        "bucket_start": "2026-11-14T22:04:38.757383+00:00",
+        "bucket_end": "2026-11-14T22:21:47.328812+00:00",
         "positive": 2,
         "neutral": 2,
         "negative": 5,
@@ -312,14 +218,19 @@
         "engagement": 462,
         "top_topics": [
           {
-            "topic_id": 1,
+            "topic_id": 2,
             "label": "輝達 / 黃仁勳",
             "count": 5
           },
           {
+            "topic_id": 1,
+            "label": "華爾街 / 喝咖啡 / 聊天",
+            "count": 2
+          },
+          {
             "topic_id": 0,
             "label": "資安",
-            "count": 4
+            "count": 2
           }
         ],
         "top_posts": [
@@ -338,12 +249,12 @@
             "interaction": 67
           }
         ],
-        "net_sentiment_smoothed": -6.7,
+        "net_sentiment_smoothed": 13.3,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-11-14T22:11:07.039623+00:00",
-        "bucket_end": "2026-11-14T22:28:15.611052+00:00",
+        "bucket_start": "2026-11-14T22:21:47.328812+00:00",
+        "bucket_end": "2026-11-14T22:38:55.900241+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -355,12 +266,43 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -8.3,
+        "net_sentiment_smoothed": 13.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-14T22:28:15.611052+00:00",
-        "bucket_end": "2026-11-14T22:45:24.182481+00:00",
+        "bucket_start": "2026-11-14T22:38:55.900241+00:00",
+        "bucket_end": "2026-11-14T22:56:04.471670+00:00",
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 2,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 2,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "華爾街 / 喝咖啡 / 聊天",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "如果你本來就愛喝咖啡，最近又多了一個可以安心喝的理由。…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0VjeofGGkidMZpcEGvMxLeCcXYSEEkQAfXuj8BU1MHsTuAmATko9pqGJQeVqt56dAl?__cft__[0]=AZjg5BzLD6mntjPssmGi18vodNguYxneh3TX8ptoIlkBj_yUPW9HhRvmCjrpoAq6tZKQZs1MU0GtIB2ClGwZFAY7FvYHP5sjFyHf-lABVdFZJFS0Ds3BZTTLmKG7lL1mhcmU8B6CmUSDv_eGnTZmUB8LIUH_pzCBsWu560XoUd3nmWI-f_F3dzhCOVk",
+            "interaction": 2
+          }
+        ],
+        "net_sentiment_smoothed": 13.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-14T22:56:04.471670+00:00",
+        "bucket_end": "2026-11-14T23:13:13.043099+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -372,14 +314,142 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -11.1,
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-14T23:13:13.043099+00:00",
+        "bucket_end": "2026-11-14T23:30:21.614528+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-14T23:30:21.614528+00:00",
+        "bucket_end": "2026-11-14T23:47:30.185957+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-14T23:47:30.185957+00:00",
+        "bucket_end": "2026-11-15T00:04:38.757386+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-15T00:04:38.757386+00:00",
+        "bucket_end": "2026-11-15T00:21:47.328815+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-15T00:21:47.328815+00:00",
+        "bucket_end": "2026-11-15T00:38:55.900244+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-15T00:38:55.900244+00:00",
+        "bucket_end": "2026-11-15T00:56:04.471673+00:00",
+        "positive": 1,
+        "neutral": 2,
+        "negative": 1,
+        "positive_engagement": 18,
+        "neutral_engagement": 23,
+        "negative_engagement": 9,
+        "net_sentiment": 0.0,
+        "post_count": 4,
+        "engagement": 50,
+        "top_topics": [
+          {
+            "topic_id": 1,
+            "label": "華爾街 / 喝咖啡 / 聊天",
+            "count": 3
+          },
+          {
+            "topic_id": 2,
+            "label": "輝達 / 黃仁勳",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "ctee.fans",
+            "platform": "Facebook",
+            "text": "【台股Q3獲利大暴衝！世芯-KY、創意等16檔績優股法人挺】…… \n查看更多",
+            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02YaZPfJfNxmTJBWVQ1TtcL9PX8a3kx19qzY8Exg8YALftv4VdcHs49NyHxD8Scd3ql?__cft__[0]=AZgTP7shLRYeXF7vJZgfIxbcl8nQMgsNfVGzPIlOuVV3HF49tjGzlsuakmqOqVGkXKO3kahvYVTN_R1lJaw8vrvveWOjKVRxtF4U2zmZ9DjtoEBVR9-LeQIhYkFLhChkkxyiYotkA8v449dWcbXaWd1c6sNIEMjInmmd8xC2rSlLArODPB10QrO1vgQ",
+            "interaction": 18
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "#輝達\n 陷高層風暴，\n#廣達\n 卻直言 AI 建設已箭在弦上。",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02a5bjkqBksfgKgL6KUchF3uHn4o15LkEysgQmnnTnkjb3wcmS6Dyjb2qtwm4qd6Zjl?comment_id=3637256493110535",
+            "interaction": 13
+          }
+        ],
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
         "topic_id": 1,
-        "label": "輝達 / 黃仁勳",
+        "label": "華爾街 / 喝咖啡 / 聊天",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -399,6 +469,22 @@
           },
           {
             "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
             "volume": 0
           },
           {
@@ -409,6 +495,24 @@
             "net_sentiment": 0.0,
             "volume": 0
           },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 3
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "輝達 / 黃仁勳",
+        "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
@@ -436,6 +540,34 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
           }
         ]
       },
@@ -460,8 +592,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": -50.0,
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -488,8 +620,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": -25.0,
-            "volume": 4
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -505,38 +637,55 @@
     "coverage_focus_ranking": [
       {
         "handle": "ctee.fans",
-        "top_topic_id": 0,
-        "top_topic_label": "資安",
+        "top_topic_id": 1,
+        "top_topic_label": "華爾街 / 喝咖啡 / 聊天",
+        "focus_share": 1.0,
+        "post_count": 4,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 1,
+        "top_topic_label": "華爾街 / 喝咖啡 / 聊天",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
       },
       {
         "handle": "technewsinside",
-        "top_topic_id": 1,
+        "top_topic_id": 2,
         "top_topic_label": "輝達 / 黃仁勳",
-        "focus_share": 0.556,
-        "post_count": 9,
+        "focus_share": 0.6,
+        "post_count": 10,
         "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 1,
+        "label": "華爾街 / 喝咖啡 / 聊天",
+        "total_engagement": 7004,
+        "post_count": 7,
+        "top_account": "yutinghaosfinance",
+        "top_account_engagement": 6870,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
         "label": "輝達 / 黃仁勳",
-        "total_engagement": 336,
-        "post_count": 5,
+        "total_engagement": 349,
+        "post_count": 6,
         "top_account": "technewsinside",
-        "top_account_engagement": 336,
+        "top_account_engagement": 349,
         "is_catchall": false
       },
       {
         "topic_id": 0,
         "label": "資安",
-        "total_engagement": 128,
-        "post_count": 5,
+        "total_engagement": 31,
+        "post_count": 2,
         "top_account": "technewsinside",
-        "top_account_engagement": 126,
+        "top_account_engagement": 31,
         "is_catchall": false
       }
     ],
