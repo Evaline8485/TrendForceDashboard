@@ -10,16 +10,16 @@
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 9,
+      "total_posts": 28,
       "sentiment_counts": {
-        "negative": 5,
-        "neutral": 3,
-        "positive": 1
+        "neutral": 8,
+        "positive": 10,
+        "negative": 10
       },
       "sentiment_share": {
-        "negative": 0.556,
-        "neutral": 0.333,
-        "positive": 0.111
+        "neutral": 0.286,
+        "positive": 0.357,
+        "negative": 0.357
       },
       "top_terms": [
         "查看",
@@ -27,20 +27,56 @@
         "更多",
         "查看更",
         "看更多",
-        "川普",
-        "反而",
-        "北約",
-        "危機",
-        "去一"
+        "capacity",
+        "demand",
+        "unit",
+        "spacex",
+        "cmp"
       ]
     },
     "temperature_bar": [
       {
+        "topic_id": 3,
+        "label": "demand / maker / cmp / polishing",
+        "heat": 90.0,
+        "volume": 2,
+        "engagement": 152,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "hbm / nvidia / vera / rubin",
+        "heat": 88.0,
+        "volume": 2,
+        "engagement": 77,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "unit",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 18,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
         "topic_id": 0,
-        "label": "是否有機會緩解衝突 / 中國對日稀土出口暴跌 / apec即將到來 / 散戶看到的卻是機會",
-        "heat": 50.0,
-        "volume": 9,
-        "engagement": 9165,
+        "label": "customers / materials / capacity",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 9,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，22 篇）",
+        "heat": 10.0,
+        "volume": 22,
+        "engagement": 11537,
         "entities": [
           "美國",
           "川普",
@@ -48,7 +84,7 @@
           "輝達",
           "黃仁勳"
         ],
-        "is_catchall": false
+        "is_catchall": true
       }
     ],
     "named_entities": [
@@ -152,16 +188,24 @@
         "bucket_start": "2026-11-15T21:58:23.348289+00:00",
         "bucket_end": "2026-11-15T22:15:31.919718+00:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 43,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "post_count": 1,
+        "engagement": 43,
         "top_topics": [],
-        "top_posts": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Just published: front page of the Financial Times, international edition, November 16       https:// ft.trib.al/X8e7LgP",
+            "url": "https://x.com/FT/status/2122087298288214511",
+            "interaction": 43
+          }
+        ],
         "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
@@ -179,7 +223,7 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 20.0,
         "is_anomaly": false
       },
       {
@@ -196,110 +240,217 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 40.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T22:49:49.062576+00:00",
         "bucket_end": "2026-11-15T23:06:57.634005+00:00",
-        "positive": 0,
+        "positive": 2,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 52,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 52,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "customers / materials / capacity",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "I thought this was just usual online BS, but just asked a friend today & it might be close to the truth.  Here is the triple leveraged ETF for KOSPI this yr. This id down despite the regular ETF being",
+            "url": "https://x.com/tphuang/status/2122103093936472195",
+            "interaction": 43
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "KYEC (2449 TT) is the largest pure-play chip test house. Its customers include  $NVDA , which has prepaid $1.1 billion to reserve KYEC testing capacity in the US.  At this month’s NCKU Materials Indus",
+            "url": "https://x.com/statementdog/status/2122102353730093165",
+            "interaction": 9
+          }
+        ],
+        "net_sentiment_smoothed": 40.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T23:06:57.634005+00:00",
         "bucket_end": "2026-11-15T23:24:06.205434+00:00",
-        "positive": 0,
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 18,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 18,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "unit",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "CCTV reporting on a new UAV unit of GJ-2 & WZ-7. This is the 1st real gen of drones in PLAAF. They are obviously limited by the tech available to China back in late 2000s.  GJ-11 is the 2nd gen, but e",
+            "url": "https://x.com/tphuang/status/2122105197572825093",
+            "interaction": 18
+          }
+        ],
+        "net_sentiment_smoothed": 30.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T23:24:06.205434+00:00",
         "bucket_end": "2026-11-15T23:41:14.776863+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 13,
+        "neutral_engagement": 81,
+        "negative_engagement": 64,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "post_count": 3,
+        "engagement": 158,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "hbm / nvidia / vera / rubin",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Burnham vows to reopen Brexit debate as he paves way for UK-EU ‘reset’ deal",
+            "url": "https://x.com/FT/status/2122109810208362966",
+            "interaction": 81
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Rumor: Nvidia Vera Rubin-based servers face delay due to lack of enough HBM4 memory chips, pushing the volume ramp to 1st half 2027 from year-end originally, media report, adding the delay will impact",
+            "url": "https://x.com/dnystedt/status/2122111614589796577",
+            "interaction": 64
+          }
+        ],
+        "net_sentiment_smoothed": 30.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T23:41:14.776863+00:00",
         "bucket_end": "2026-11-15T23:58:23.348292+00:00",
         "positive": 0,
-        "neutral": 0,
-        "negative": 0,
+        "neutral": 1,
+        "negative": 1,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "neutral_engagement": 1206,
+        "negative_engagement": 32,
+        "net_sentiment": -50.0,
+        "post_count": 2,
+        "engagement": 1238,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "I have been informed that Venus and Mercury retrograde have ended. It's time for a return of the king",
+            "url": "https://x.com/dylan522p/status/2122116251292201162",
+            "interaction": 1206
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Estonia to close border with Russia after second alleged sabotage attempt",
+            "url": "https://x.com/FT/status/2122116571325776042",
+            "interaction": 32
+          }
+        ],
+        "net_sentiment_smoothed": 10.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T23:58:23.348292+00:00",
         "bucket_end": "2026-11-16T00:15:31.919721+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 15,
+        "neutral_engagement": 14,
+        "negative_engagement": 310,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "post_count": 3,
+        "engagement": 339,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "A public campaign to reinstate the former CEO has gathered steam over the weekend, with Tesla and SpaceX boss Elon Musk among executives backing a public letter demanding that its board ‘Bring Jensen ",
+            "url": "https://x.com/FT/status/2122120482228932738",
+            "interaction": 310
+          },
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "Good morning! 11/16 Roundup of Overseas Reports  - 8358 Chin-Poon: U.S. broker reaffirms positive view A Japanese competitor is raising prices for electrolytic copper foil, effective from December. Th",
+            "url": "https://x.com/QQ_Timmy/status/2122120857636286538",
+            "interaction": 15
+          }
+        ],
+        "net_sentiment_smoothed": -10.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-16T00:15:31.919721+00:00",
         "bucket_end": "2026-11-16T00:32:40.491150+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
+        "positive": 2,
+        "neutral": 1,
+        "negative": 2,
+        "positive_engagement": 43,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
+        "negative_engagement": 602,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
+        "post_count": 5,
+        "engagement": 645,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "demand / maker / cmp / polishing",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "This was my first time flying domestically in the U.S., and it was an awful experience.  First, American Airlines delayed my flight by two hours. Then they left my bag behind at the airport I flew out",
+            "url": "https://x.com/jukan05/status/2122122364255088801",
+            "interaction": 583
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Samsung plans to invest US$1.9 billion in its Austin, Texas fab to pave the way for SpaceX satellite chip production at the site, specifically STMicro's STM32V8 microcontroller, an 18nm FD-SOI chip by",
+            "url": "https://x.com/dnystedt/status/2122122991509373330",
+            "interaction": 23
+          }
+        ],
+        "net_sentiment_smoothed": 10.0,
+        "is_anomaly": true
       },
       {
         "bucket_start": "2026-11-16T00:32:40.491150+00:00",
@@ -315,48 +466,70 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 40.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-16T00:49:49.062579+00:00",
         "bucket_end": "2026-11-16T01:06:57.634008+00:00",
-        "positive": 0,
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 2,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 2,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "CMP pad supplier Praise Victor (7768 TT) told us it is short of capacity and expanding, as chip packaging takes on polishing steps that used to belong mainly to wafer fabs.  Its subsidiary IV Technolo",
+            "url": "https://x.com/statementdog/status/2122132547199185017",
+            "interaction": 2
+          }
+        ],
+        "net_sentiment_smoothed": 50.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-16T01:06:57.634008+00:00",
         "bucket_end": "2026-11-16T01:24:06.205437+00:00",
-        "positive": 0,
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 133,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 133,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "demand / maker / cmp / polishing",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "\"(2) Combined 2028–2029 demand: about 12M units for OpenAI (8t, designed by MediaTek) and about 14M for Anthropic (8i, designed by Broadcom), with both growing year over year. OpenAI buys outright, wh",
+            "url": "https://x.com/jukan05/status/2122135556784328777",
+            "interaction": 133
+          }
+        ],
+        "net_sentiment_smoothed": 66.7,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "是否有機會緩解衝突 / 中國對日稀土出口暴跌 / apec即將到來 / 散戶看到的卻是機會",
+        "topic_id": 3,
+        "label": "demand / maker / cmp / polishing",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -399,6 +572,192 @@
             "volume": 0
           },
           {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "hbm / nvidia / vera / rubin",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "unit",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 0,
+        "label": "customers / materials / capacity",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": 0.0,
             "volume": 0
           },
@@ -419,32 +778,124 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "yutinghaosfinance",
+        "handle": "dylan522p",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，22 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 3,
+        "top_topic_label": "demand / maker / cmp / polishing",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，22 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 4,
+        "top_topic_label": "unit",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，22 篇）",
+        "focus_share": 1.0,
+        "post_count": 5,
+        "unclustered_posts": 5
+      },
+      {
+        "handle": "statementdog",
         "top_topic_id": 0,
-        "top_topic_label": "是否有機會緩解衝突 / 中國對日稀土出口暴跌 / apec即將到來 / 散戶看到的卻是機會",
+        "top_topic_label": "customers / materials / capacity",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，22 篇）",
         "focus_share": 1.0,
         "post_count": 9,
-        "unclustered_posts": 0
+        "unclustered_posts": 9
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 2,
+        "top_topic_label": "hbm / nvidia / vera / rubin",
+        "focus_share": 0.667,
+        "post_count": 6,
+        "unclustered_posts": 3
       }
     ],
     "top_engagement_ranking": [
       {
+        "topic_id": 3,
+        "label": "demand / maker / cmp / polishing",
+        "total_engagement": 152,
+        "post_count": 2,
+        "top_account": "jukan05",
+        "top_account_engagement": 133,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "hbm / nvidia / vera / rubin",
+        "total_engagement": 77,
+        "post_count": 2,
+        "top_account": "dnystedt",
+        "top_account_engagement": 77,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "unit",
+        "total_engagement": 18,
+        "post_count": 1,
+        "top_account": "tphuang",
+        "top_account_engagement": 18,
+        "is_catchall": false
+      },
+      {
         "topic_id": 0,
-        "label": "是否有機會緩解衝突 / 中國對日稀土出口暴跌 / apec即將到來 / 散戶看到的卻是機會",
-        "total_engagement": 9165,
-        "post_count": 9,
+        "label": "customers / materials / capacity",
+        "total_engagement": 9,
+        "post_count": 1,
+        "top_account": "statementdog",
+        "top_account_engagement": 9,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，22 篇）",
+        "total_engagement": 11537,
+        "post_count": 22,
         "top_account": "yutinghaosfinance",
         "top_account_engagement": 9165,
-        "is_catchall": false
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 9,
-          "likes": 9165,
-          "engagement": 9165,
-          "avg_engagement": 1018.3
+          "post_count": 28,
+          "likes": 11359,
+          "engagement": 11793,
+          "avg_engagement": 421.2
         },
         "afternoon": {
           "post_count": 0,

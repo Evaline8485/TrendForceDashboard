@@ -10,16 +10,16 @@
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 9,
+      "total_posts": 43,
       "sentiment_counts": {
-        "negative": 5,
-        "neutral": 3,
-        "positive": 1
+        "neutral": 11,
+        "positive": 20,
+        "negative": 12
       },
       "sentiment_share": {
-        "negative": 0.556,
-        "neutral": 0.333,
-        "positive": 0.111
+        "neutral": 0.256,
+        "positive": 0.465,
+        "negative": 0.279
       },
       "top_terms": [
         "查看",
@@ -27,20 +27,83 @@
         "更多",
         "查看更",
         "看更多",
-        "川普",
-        "反而",
-        "北約",
-        "危機",
-        "去一"
+        "nvidia",
+        "ceo",
+        "capacity",
+        "demand",
+        "airport"
       ]
     },
     "temperature_bar": [
       {
         "topic_id": 0,
-        "label": "是否有機會緩解衝突 / 中國對日稀土出口暴跌 / apec即將到來 / 散戶看到的卻是機會",
-        "heat": 50.0,
-        "volume": 9,
-        "engagement": 9165,
+        "label": "nvidia / ceo / jensen / allies",
+        "heat": 90.0,
+        "volume": 3,
+        "engagement": 2439,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "airport / ppl",
+        "heat": 77.0,
+        "volume": 3,
+        "engagement": 823,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "prices",
+        "heat": 19.4,
+        "volume": 2,
+        "engagement": 288,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "demand / cmp / polishing / ebara",
+        "heat": 15.0,
+        "volume": 2,
+        "engagement": 152,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "hbm / nvidia / vera / rubin",
+        "heat": 12.5,
+        "volume": 2,
+        "engagement": 77,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "ebara",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 0,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "packaging / adding / rumor / maker",
+        "heat": 10.0,
+        "volume": 1,
+        "engagement": 20,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，29 篇）",
+        "heat": 10.0,
+        "volume": 29,
+        "engagement": 14332,
         "entities": [
           "美國",
           "川普",
@@ -48,7 +111,7 @@
           "輝達",
           "黃仁勳"
         ],
-        "is_catchall": false
+        "is_catchall": true
       }
     ],
     "named_entities": [
@@ -117,120 +180,232 @@
       {
         "bucket_start": "2026-11-15T17:24:06.205439+00:00",
         "bucket_end": "2026-11-15T17:58:23.348296+00:00",
-        "positive": 0,
+        "positive": 1,
         "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
+        "negative": 1,
+        "positive_engagement": 99,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
+        "negative_engagement": 288,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "post_count": 2,
+        "engagement": 387,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "nvidia / ceo / jensen / allies",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Bessent says Nvidia needs ‘shake-up’ with external CEO",
+            "url": "https://x.com/FT/status/2122018739050651770",
+            "interaction": 288
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "US and allies sign accord to protect AI supply chains from China",
+            "url": "https://x.com/FT/status/2122025540055978452",
+            "interaction": 99
+          }
+        ],
+        "net_sentiment_smoothed": 66.7,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T17:58:23.348296+00:00",
         "bucket_end": "2026-11-15T18:32:40.491153+00:00",
-        "positive": 0,
+        "positive": 2,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 267,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 267,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Young people not in work or training will be guaranteed a six-month job from November.  https:// ft.trib.al/L09vJE3",
+            "url": "https://x.com/FT/status/2122026887849370017",
+            "interaction": 164
+          },
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "If you’d like to meet up at  @TomorrowXSummit , feel free to DM me.  I’m really looking forward to the week ahead!",
+            "url": "https://x.com/jukan05/status/2122031252018774350",
+            "interaction": 103
+          }
+        ],
+        "net_sentiment_smoothed": 55.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T18:32:40.491153+00:00",
         "bucket_end": "2026-11-15T19:06:57.634010+00:00",
-        "positive": 0,
+        "positive": 3,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 172,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 100.0,
+        "post_count": 3,
+        "engagement": 172,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "nvidia / ceo / jensen / allies",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Layer by layer of the Kirin 9050, from topside to bumpside. What does LogicFolding actually look like? Reach out to learn more!  sales@semianalysis.com |  https:// semianalysis.com/careers",
+            "url": "https://x.com/SemiAnalysis_/status/2122043289872355822",
+            "interaction": 123
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Diamondback nears $5bn deal to expand drilling in oil-rich Permian Basin",
+            "url": "https://x.com/FT/status/2122038403935961148",
+            "interaction": 32
+          }
+        ],
+        "net_sentiment_smoothed": 64.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T19:06:57.634010+00:00",
         "bucket_end": "2026-11-15T19:41:14.776867+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "positive": 2,
+        "neutral": 2,
+        "negative": 1,
+        "positive_engagement": 226,
+        "neutral_engagement": 4539,
+        "negative_engagement": 273,
+        "net_sentiment": 20.0,
+        "post_count": 5,
+        "engagement": 5038,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "airport / ppl",
+            "count": 1
+          },
+          {
+            "topic_id": 3,
+            "label": "prices",
+            "count": 1
+          },
+          {
+            "topic_id": 0,
+            "label": "nvidia / ceo / jensen / allies",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "LFG!!!",
+            "url": "https://x.com/jukan05/status/2122044316218794143",
+            "interaction": 2405
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+            "url": "https://x.com/FT/status/2122045928987123914",
+            "interaction": 2134
+          }
+        ],
+        "net_sentiment_smoothed": 84.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T19:41:14.776867+00:00",
         "bucket_end": "2026-11-15T20:15:31.919724+00:00",
-        "positive": 0,
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 404,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 404,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Viktor Orbán’s party reels from $20mn hidden cash discovery",
+            "url": "https://x.com/FT/status/2122054801282289953",
+            "interaction": 404
+          }
+        ],
+        "net_sentiment_smoothed": 64.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T20:15:31.919724+00:00",
         "bucket_end": "2026-11-15T20:49:49.062581+00:00",
-        "positive": 0,
+        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 35,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "net_sentiment": 100.0,
+        "post_count": 1,
+        "engagement": 35,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "FT Exclusive: Electricity bills for businesses are set to rise by about 13% on average by the end of the decade, according to new forecasts that illustrate the challenges facing the UK government as i",
+            "url": "https://x.com/FT/status/2122064860267552906",
+            "interaction": 35
+          }
+        ],
+        "net_sentiment_smoothed": 44.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T20:49:49.062581+00:00",
         "bucket_end": "2026-11-15T21:24:06.205438+00:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 35,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "post_count": 1,
+        "engagement": 35,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Just published: front page of the Financial Times, UK edition, November 16       https:// ft.trib.al/TwWUcBI",
+            "url": "https://x.com/FT/status/2122072178086531518",
+            "interaction": 35
+          }
+        ],
+        "net_sentiment_smoothed": 40.0,
         "is_anomaly": false
       },
       {
@@ -247,116 +422,549 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": 40.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T21:58:23.348295+00:00",
         "bucket_end": "2026-11-15T22:32:40.491152+00:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 43,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "post_count": 1,
+        "engagement": 43,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Just published: front page of the Financial Times, international edition, November 16       https:// ft.trib.al/X8e7LgP",
+            "url": "https://x.com/FT/status/2122087298288214511",
+            "interaction": 43
+          }
+        ],
+        "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T22:32:40.491152+00:00",
         "bucket_end": "2026-11-15T23:06:57.634009+00:00",
-        "positive": 0,
+        "positive": 2,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 52,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 52,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "airport / ppl",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "I thought this was just usual online BS, but just asked a friend today & it might be close to the truth.  Here is the triple leveraged ETF for KOSPI this yr. This id down despite the regular ETF being",
+            "url": "https://x.com/tphuang/status/2122103093936472195",
+            "interaction": 43
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "KYEC (2449 TT) is the largest pure-play chip test house. Its customers include  $NVDA , which has prepaid $1.1 billion to reserve KYEC testing capacity in the US.  At this month’s NCKU Materials Indus",
+            "url": "https://x.com/statementdog/status/2122102353730093165",
+            "interaction": 9
+          }
+        ],
+        "net_sentiment_smoothed": 21.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T23:06:57.634009+00:00",
         "bucket_end": "2026-11-15T23:41:14.776866+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "positive": 2,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 31,
+        "neutral_engagement": 81,
+        "negative_engagement": 64,
+        "net_sentiment": 25.0,
+        "post_count": 4,
+        "engagement": 176,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "hbm / nvidia / vera / rubin",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Burnham vows to reopen Brexit debate as he paves way for UK-EU ‘reset’ deal",
+            "url": "https://x.com/FT/status/2122109810208362966",
+            "interaction": 81
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Rumor: Nvidia Vera Rubin-based servers face delay due to lack of enough HBM4 memory chips, pushing the volume ramp to 1st half 2027 from year-end originally, media report, adding the delay will impact",
+            "url": "https://x.com/dnystedt/status/2122111614589796577",
+            "interaction": 64
+          }
+        ],
+        "net_sentiment_smoothed": 21.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-15T23:41:14.776866+00:00",
         "bucket_end": "2026-11-16T00:15:31.919723+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "positive": 1,
+        "neutral": 2,
+        "negative": 2,
+        "positive_engagement": 15,
+        "neutral_engagement": 1220,
+        "negative_engagement": 342,
+        "net_sentiment": -20.0,
+        "post_count": 5,
+        "engagement": 1577,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "prices",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "dylan522p",
+            "platform": "X",
+            "text": "I have been informed that Venus and Mercury retrograde have ended. It's time for a return of the king",
+            "url": "https://x.com/dylan522p/status/2122116251292201162",
+            "interaction": 1206
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "A public campaign to reinstate the former CEO has gathered steam over the weekend, with Tesla and SpaceX boss Elon Musk among executives backing a public letter demanding that its board ‘Bring Jensen ",
+            "url": "https://x.com/FT/status/2122120482228932738",
+            "interaction": 310
+          }
+        ],
+        "net_sentiment_smoothed": 41.0,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-16T00:15:31.919723+00:00",
         "bucket_end": "2026-11-16T00:49:49.062580+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
+        "positive": 2,
+        "neutral": 1,
+        "negative": 2,
+        "positive_engagement": 43,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
+        "negative_engagement": 602,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "post_count": 5,
+        "engagement": 645,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "airport / ppl",
+            "count": 1
+          },
+          {
+            "topic_id": 6,
+            "label": "demand / cmp / polishing / ebara",
+            "count": 1
+          },
+          {
+            "topic_id": 2,
+            "label": "ebara",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "This was my first time flying domestically in the U.S., and it was an awful experience.  First, American Airlines delayed my flight by two hours. Then they left my bag behind at the airport I flew out",
+            "url": "https://x.com/jukan05/status/2122122364255088801",
+            "interaction": 583
+          },
+          {
+            "handle": "dnystedt",
+            "platform": "X",
+            "text": "Samsung plans to invest US$1.9 billion in its Austin, Texas fab to pave the way for SpaceX satellite chip production at the site, specifically STMicro's STM32V8 microcontroller, an 18nm FD-SOI chip by",
+            "url": "https://x.com/dnystedt/status/2122122991509373330",
+            "interaction": 23
+          }
+        ],
+        "net_sentiment_smoothed": 26.2,
         "is_anomaly": false
       },
       {
         "bucket_start": "2026-11-16T00:49:49.062580+00:00",
         "bucket_end": "2026-11-16T01:24:06.205437+00:00",
-        "positive": 0,
+        "positive": 2,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
+        "positive_engagement": 135,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment": 100.0,
+        "post_count": 2,
+        "engagement": 135,
+        "top_topics": [
+          {
+            "topic_id": 6,
+            "label": "demand / cmp / polishing / ebara",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "jukan05",
+            "platform": "X",
+            "text": "\"(2) Combined 2028–2029 demand: about 12M units for OpenAI (8t, designed by MediaTek) and about 14M for Anthropic (8i, designed by Broadcom), with both growing year over year. OpenAI buys outright, wh",
+            "url": "https://x.com/jukan05/status/2122135556784328777",
+            "interaction": 133
+          },
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "CMP pad supplier Praise Victor (7768 TT) told us it is short of capacity and expanding, as chip packaging takes on polishing steps that used to belong mainly to wafer fabs.  Its subsidiary IV Technolo",
+            "url": "https://x.com/statementdog/status/2122132547199185017",
+            "interaction": 2
+          }
+        ],
+        "net_sentiment_smoothed": 26.7,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
+        "topic_id": 4,
+        "label": "airport / ppl",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
         "topic_id": 0,
-        "label": "是否有機會緩解衝突 / 中國對日稀土出口暴跌 / apec即將到來 / 散戶看到的卻是機會",
+        "label": "nvidia / ceo / jensen / allies",
+        "cells": [
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "demand / cmp / polishing / ebara",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "prices",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "hbm / nvidia / vera / rubin",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "ebara",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -408,7 +1016,7 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -419,32 +1027,159 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "yutinghaosfinance",
+        "handle": "dylan522p",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，29 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，29 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
+      },
+      {
+        "handle": "tphuang",
+        "top_topic_id": 4,
+        "top_topic_label": "airport / ppl",
+        "focus_share": 1.0,
+        "post_count": 4,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "statementdog",
         "top_topic_id": 0,
-        "top_topic_label": "是否有機會緩解衝突 / 中國對日稀土出口暴跌 / apec即將到來 / 散戶看到的卻是機會",
+        "top_topic_label": "nvidia / ceo / jensen / allies",
+        "focus_share": 1.0,
+        "post_count": 3,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，29 篇）",
         "focus_share": 1.0,
         "post_count": 9,
+        "unclustered_posts": 9
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 3,
+        "top_topic_label": "prices",
+        "focus_share": 1.0,
+        "post_count": 1,
         "unclustered_posts": 0
+      },
+      {
+        "handle": "FT",
+        "top_topic_id": 0,
+        "top_topic_label": "nvidia / ceo / jensen / allies",
+        "focus_share": 0.667,
+        "post_count": 14,
+        "unclustered_posts": 11
+      },
+      {
+        "handle": "jukan05",
+        "top_topic_id": 6,
+        "top_topic_label": "demand / cmp / polishing / ebara",
+        "focus_share": 0.5,
+        "post_count": 4,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "dnystedt",
+        "top_topic_id": 5,
+        "top_topic_label": "hbm / nvidia / vera / rubin",
+        "focus_share": 0.4,
+        "post_count": 6,
+        "unclustered_posts": 1
       }
     ],
     "top_engagement_ranking": [
       {
         "topic_id": 0,
-        "label": "是否有機會緩解衝突 / 中國對日稀土出口暴跌 / apec即將到來 / 散戶看到的卻是機會",
-        "total_engagement": 9165,
-        "post_count": 9,
+        "label": "nvidia / ceo / jensen / allies",
+        "total_engagement": 2439,
+        "post_count": 3,
+        "top_account": "FT",
+        "top_account_engagement": 2422,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "airport / ppl",
+        "total_engagement": 823,
+        "post_count": 3,
+        "top_account": "jukan05",
+        "top_account_engagement": 583,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "prices",
+        "total_engagement": 288,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_engagement": 273,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "demand / cmp / polishing / ebara",
+        "total_engagement": 152,
+        "post_count": 2,
+        "top_account": "jukan05",
+        "top_account_engagement": 133,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "hbm / nvidia / vera / rubin",
+        "total_engagement": 77,
+        "post_count": 2,
+        "top_account": "dnystedt",
+        "top_account_engagement": 77,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "packaging / adding / rumor / maker",
+        "total_engagement": 20,
+        "post_count": 1,
+        "top_account": "dnystedt",
+        "top_account_engagement": 20,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "ebara",
+        "total_engagement": 0,
+        "post_count": 1,
+        "top_account": "dnystedt",
+        "top_account_engagement": 0,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，29 篇）",
+        "total_engagement": 14332,
+        "post_count": 29,
         "top_account": "yutinghaosfinance",
         "top_account_engagement": 9165,
-        "is_catchall": false
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 9,
-          "likes": 9165,
-          "engagement": 9165,
-          "avg_engagement": 1018.3
+          "post_count": 28,
+          "likes": 11359,
+          "engagement": 11793,
+          "avg_engagement": 421.2
         },
         "afternoon": {
           "post_count": 0,
@@ -459,10 +1194,10 @@
           "avg_engagement": 0.0
         },
         "late_night": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 15,
+          "likes": 4876,
+          "engagement": 6338,
+          "avg_engagement": 422.5
         }
       },
       "peak_slot": "morning"
