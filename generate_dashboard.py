@@ -1234,15 +1234,13 @@ def main():
       return;
     }}
 
-    const byHandle = {{}}, byPlatform = {{}}, byPlatformHandle = {{}};
-    const urlsByHandle = {{}}, urlsByPlatformHandle = {{}};
+    const byPlatform = {{}}, byPlatformHandle = {{}};
+    const urlsByPlatformHandle = {{}};
     for (const p of matches) {{
-      byHandle[p.handle] = (byHandle[p.handle] || 0) + 1;
       byPlatform[p.platform] = (byPlatform[p.platform] || 0) + 1;
       byPlatformHandle[p.platform] = byPlatformHandle[p.platform] || {{}};
       byPlatformHandle[p.platform][p.handle] = (byPlatformHandle[p.platform][p.handle] || 0) + 1;
       if (p.url) {{
-        (urlsByHandle[p.handle] = urlsByHandle[p.handle] || []).push(p.url);
         urlsByPlatformHandle[p.platform] = urlsByPlatformHandle[p.platform] || {{}};
         (urlsByPlatformHandle[p.platform][p.handle] = urlsByPlatformHandle[p.platform][p.handle] || []).push(p.url);
       }}
@@ -1253,11 +1251,19 @@ def main():
     // URL so the reader can jump straight to the source instead of just
     // seeing a number. Encoded as a data attribute (not inline onclick) so
     // the URLs go through textContent/href, never innerHTML string-built.
-    const linkRow = (h, c, urls) =>
-      `<tr class="kw-link-row" tabindex="0" data-urls="${{escapeAttr(JSON.stringify(urls || []))}}"><td>${{escapeHtml(h)}}</td><td class="num">${{c}}</td></tr>`;
+    // plat is only passed for the cross-platform table below; the
+    // per-platform ranking tables already say which platform they are.
+    const linkRow = (h, c, urls, plat) =>
+      `<tr class="kw-link-row" tabindex="0" data-urls="${{escapeAttr(JSON.stringify(urls || []))}}"><td>${{escapeHtml(h)}}</td>${{plat === undefined ? '' : `<td>${{escapeHtml(plat)}}</td>`}}<td class="num">${{c}}</td></tr>`;
 
-    const mentionRows = Object.entries(byHandle).sort((a, b) => b[1] - a[1])
-      .map(([h, c]) => linkRow(h, c, urlsByHandle[h])).join('');
+    // An account is a platform + handle pair, not a handle: X's TrendForce
+    // and LinkedIn's TrendForce share a handle but are different accounts,
+    // and a by-handle tally added them together into one row. So the rows
+    // come from the per-platform counts, with the platform shown.
+    const mentionRows = Object.entries(byPlatformHandle)
+      .flatMap(([plat, handles]) => Object.entries(handles).map(([h, c]) => ({{plat, h, c}})))
+      .sort((a, b) => b.c - a.c)
+      .map(({{plat, h, c}}) => linkRow(h, c, (urlsByPlatformHandle[plat] || {{}})[h], plat)).join('');
 
     const total = matches.length;
     const shareRows = Object.entries(byPlatform).sort((a, b) => b[1] - a[1])
@@ -1275,7 +1281,7 @@ def main():
       <div class="col-2">
         <div>
           <h3>Competitor mentions (FR-03-04)</h3>
-          <div class="table-wrap"><table><thead><tr><th>Account</th><th class="num">Mentions</th></tr></thead><tbody>${{mentionRows}}</tbody></table></div>
+          <div class="table-wrap"><table><thead><tr><th>Account</th><th>Platform</th><th class="num">Mentions</th></tr></thead><tbody>${{mentionRows}}</tbody></table></div>
         </div>
         <div>
           <h3>Platform share of voice (FR-03-05)</h3>

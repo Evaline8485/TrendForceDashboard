@@ -531,15 +531,23 @@ def widget_topic_sentiment_heatmap(posts, now, span, topic_labels, buckets=14, t
 
 
 def widget_competitor_mentions(posts, keyword):
-    """Returns (mentions_by_handle, mentions_by_platform) for posts matching keyword."""
-    by_handle = Counter()
+    """Returns (mentions_by_account, mentions_by_platform) for posts matching keyword.
+
+    An account is a (platform, handle) pair, not a handle: X's TrendForce and
+    LinkedIn's TrendForce share a handle but are different accounts, and a
+    by-handle tally added them together. So the accounts come back as rows,
+    most mentions first, in the same shape as widget_platform_keyword_ranking's
+    rows plus the platform."""
+    by_account = Counter()
     by_platform = Counter()
     kw = keyword.lower()
     for p in posts:
         if kw in p['text'].lower():
-            by_handle[p['handle']] += 1
+            by_account[(p['platform'], p['handle'])] += 1
             by_platform[p['platform']] += 1
-    return dict(by_handle), dict(by_platform)
+    mentions_by_account = [{'platform': platform, 'handle': handle, 'mentions': c}
+                           for (platform, handle), c in by_account.most_common()]
+    return mentions_by_account, dict(by_platform)
 
 
 def widget_platform_share_bar(mentions_by_platform):
@@ -722,8 +730,8 @@ def build_dashboard(all_posts, time_range, now, keyword=None):
     }
 
     if keyword:
-        mentions_by_handle, mentions_by_platform = widget_competitor_mentions(posts, keyword)
-        result['widgets']['competitor_mentions'] = mentions_by_handle
+        mentions_by_account, mentions_by_platform = widget_competitor_mentions(posts, keyword)
+        result['widgets']['competitor_mentions'] = mentions_by_account
         result['widgets']['platform_share_bar'] = widget_platform_share_bar(mentions_by_platform)
         result['widgets']['platform_keyword_ranking'] = widget_platform_keyword_ranking(posts, keyword)
     else:
