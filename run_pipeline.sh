@@ -50,6 +50,14 @@ set -u
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:$PATH"
 cd "$(dirname "$0")"
 
+# Validated before locking (it names the job's queue slot below), so a typo
+# can't take the lock or leave a stray lock file behind.
+JOB="${1:-}"
+case "$JOB" in
+  scan|core|accounts|daily) ;;
+  *) echo "Usage: $0 <scan|core|accounts|daily>" >&2; exit 1 ;;
+esac
+
 # Locking: scan/core/accounts/daily all regenerate the SAME docs/index.html
 # and do their own git commit+push (publish.sh) at the end - with no lock,
 # overlapping invocations (multiple scheduled launchd jobs, plus the
@@ -57,34 +65,26 @@ cd "$(dirname "$0")"
 # In practice this showed up as GitHub Pages deployments getting cancelled
 # (superseded by the next push landing seconds later) and a growing
 # backlog where "pipeline run complete" timestamps were hours after
-# "Starting" - not because the actual work was slow, but because the run
-# was queued behind other overlapping invocations the whole time. mkdir is
-# atomic on POSIX filesystems, so use a lock directory as a mutex - same
-# pattern as sync_data.sh's own lock, just with a much longer stale
-# timeout since a legitimate run here can genuinely take an hour or more
-# (sync_data.sh's own steps are short by comparison).
-LOCKDIR=".run_pipeline.lock"
-STALE_AFTER=7200  # 2h - generously above any observed legitimate run time
-# Staleness must be judged by the lock DIRECTORY's own age (its mtime from
-# when mkdir created it), not by how long THIS waiter has been polling -
-# observed 2026-07-17: a waiter queued behind several back-to-back
-# legitimate holders accumulated over 7200s of ITS OWN wait time and then
-# stole the lock from a still-actively-running job (mid-scan, not crashed),
-# defeating the mutex for ~2 minutes. A per-waiter counter conflates "how
-# long have I waited" with "how long has the current holder had it" -
-# under sustained backlog those are completely different numbers.
-while ! mkdir "$LOCKDIR" 2>/dev/null; do
-  lock_mtime=$(stat -f%m "$LOCKDIR" 2>/dev/null || stat -c%Y "$LOCKDIR" 2>/dev/null)
-  lock_age=$(( $(date +%s) - ${lock_mtime:-0} ))
-  if [ "$lock_age" -ge "$STALE_AFTER" ]; then
-    echo "[WARN] run_pipeline: lock directory is ${lock_age}s old - assuming a crashed run left it behind, taking over"
-    rmdir "$LOCKDIR" 2>/dev/null
-    mkdir "$LOCKDIR" 2>/dev/null
-    break
-  fi
-  sleep 5
-done
-trap 'rmdir "$LOCKDIR" 2>/dev/null' EXIT
+# "Starting". This used to be a mkdir lock directory with a 2h "stale"
+# takeover; legitimate runs kept outliving that, so waiters stole the lock
+# from live runs (307 takeovers in pipeline.log) and on 2026-11-16 four
+# 'core' runs were executing at once. pipeline_lock.sh replaces it with a
+# kernel lock (flock) that can't go stale, plus at most one queued run per
+# job - see that file for the details, and tests/test_pipeline_lock.sh.
+. ./pipeline_lock.sh
+pipeline_enter "$JOB"
+case $? in
+  0) ;;
+  75)
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Skipping this '$JOB' trigger - another '$JOB' run is already queued and will sync the latest data when it starts."
+    exit 0
+    ;;
+  *)
+    echo "[ERROR] run_pipeline: could not take the pipeline lock (is python3 working?) - not running '$JOB' unlocked."
+    bash alert.sh "TrendForceDash: $JOB run — lock error" "run_pipeline could not take the pipeline lock, so '$JOB' did not run. Check pipeline.log."
+    exit 1
+    ;;
+esac
 
 # macOS drifts into Deep Idle/Power Nap dark-wake cycling when left alone
 # for a while, even mid-run - the same bug already found and fixed in
@@ -99,15 +99,11 @@ trap 'rmdir "$LOCKDIR" 2>/dev/null' EXIT
 # not acquired by Runner... even after multiple attempts" on 4 separate
 # deploys in one day). caffeinate -i -w $$ blocks idle sleep for exactly
 # this script's own lifetime, fixing the actual slowness instead of just
-# the lock's symptom of it.
-caffeinate -i -w $$ &
+# the lock's symptom of it. 9>&-: caffeinate must not inherit the pipeline
+# lock's descriptor, or the lock would outlive this script for as long as
+# caffeinate lingers.
+caffeinate -i -w $$ 9>&- &
 disown
-
-JOB="${1:-}"
-if [[ -z "$JOB" ]]; then
-  echo "Usage: $0 <scan|core|accounts|daily>" >&2
-  exit 1
-fi
 
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Starting '$JOB' pipeline run..."
 

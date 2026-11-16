@@ -23,25 +23,22 @@
 # accounts every 8h both fire at 0/8/16h) - two concurrent instances both
 # truncating and writing the same csv/facebook/<handle>.csv raced and
 # corrupted it (a UTF-8 multi-byte sequence split mid-character) the first
-# time this actually happened. mkdir is atomic on POSIX filesystems, so use
-# a lock directory as a mutex; a second instance waits rather than racing.
+# time this actually happened. A second instance waits rather than racing.
+# Until 2026-11-16 this was a mkdir lock directory that "took over" after
+# 60s of waiting - i.e. it could barge in on a sync that was still running,
+# the exact race it existed to prevent. It is now a kernel lock (flock) from
+# pipeline_lock.sh: released automatically when the holder exits, so it
+# never goes stale and is never taken over.
 
 set -u
 cd "$(dirname "$0")"
 
-LOCKDIR=".sync_data.lock"
-waited=0
-while ! mkdir "$LOCKDIR" 2>/dev/null; do
-  if [ "$waited" -ge 60 ]; then
-    echo "[WARN] sync_data: lock held for 60s - assuming it's stale (a crashed run left it behind) and taking over"
-    rmdir "$LOCKDIR" 2>/dev/null
-    mkdir "$LOCKDIR" 2>/dev/null
-    break
-  fi
-  sleep 1
-  waited=$((waited + 1))
-done
-trap 'rmdir "$LOCKDIR" 2>/dev/null' EXIT
+. ./pipeline_lock.sh
+if ! lock_wait 7 ".sync_data.flock" \
+     "sync_data has waited over $((PIPELINE_LOCK_WARN_AFTER / 60)) min for its lock - another sync may be hung."; then
+  echo "[ERROR] sync_data: could not take its lock (is python3 working?) - not syncing."
+  exit 1
+fi
 
 # Derived relative to this script's own directory (we've already cd'd
 # there above) rather than a hardcoded absolute path, so this doesn't

@@ -11,3 +11,10 @@ pipeline.log
 auto_approve.log
 auto_approve.log.old
 .notified_issues.json
+
+# lock files (pipeline_lock.sh) - the kernel locks these; contents are just
+# diagnostics, never data
+.run_pipeline.flock
+.run_pipeline.queued.*
+.run_pipeline.holder
+.sync_data.flock
