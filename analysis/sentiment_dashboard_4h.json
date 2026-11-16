@@ -36,7 +36,7 @@
     },
     "temperature_bar": [
       {
-        "topic_id": 6,
+        "topic_id": 11,
         "label": "spacex / satellite / fab / starlink",
         "heat": 90.0,
         "volume": 3,
@@ -47,7 +47,7 @@
       {
         "topic_id": 7,
         "label": "聯發科 / 台積電",
-        "heat": 68.2,
+        "heat": 68.0,
         "volume": 3,
         "engagement": 90,
         "entities": [
@@ -62,7 +62,7 @@
       {
         "topic_id": 1,
         "label": "intel / border / russia / unit",
-        "heat": 61.1,
+        "heat": 60.9,
         "volume": 3,
         "engagement": 55,
         "entities": [
@@ -71,9 +71,9 @@
         "is_catchall": false
       },
       {
-        "topic_id": 8,
+        "topic_id": 6,
         "label": "demand / polishing / cmp / ebara",
-        "heat": 55.3,
+        "heat": 55.2,
         "volume": 2,
         "engagement": 224,
         "entities": [],
@@ -82,7 +82,7 @@
       {
         "topic_id": 5,
         "label": "hbm / nvidia / rubin / vera",
-        "heat": 28.2,
+        "heat": 28.0,
         "volume": 2,
         "engagement": 90,
         "entities": [],
@@ -91,7 +91,7 @@
       {
         "topic_id": 10,
         "label": "國家太空中心 / 輝達",
-        "heat": 24.5,
+        "heat": 24.4,
         "volume": 2,
         "engagement": 72,
         "entities": [
@@ -106,7 +106,7 @@
       {
         "topic_id": 3,
         "label": "黃仁勳 / 輝達",
-        "heat": 17.9,
+        "heat": 17.7,
         "volume": 2,
         "engagement": 39,
         "entities": [
@@ -121,7 +121,7 @@
       {
         "topic_id": 2,
         "label": "市場預期",
-        "heat": 17.7,
+        "heat": 17.5,
         "volume": 2,
         "engagement": 38,
         "entities": [
@@ -136,18 +136,18 @@
       {
         "topic_id": 4,
         "label": "export / suppliers / optical",
-        "heat": 10.2,
+        "heat": 10.0,
         "volume": 2,
         "engagement": 1,
         "entities": [],
         "is_catchall": false
       },
       {
-        "topic_id": 11,
-        "label": "ebara",
+        "topic_id": 8,
+        "label": "unit",
         "heat": 10.0,
         "volume": 1,
-        "engagement": 0,
+        "engagement": 22,
         "entities": [],
         "is_catchall": false
       },
@@ -174,7 +174,7 @@
         "label": "其他（未分群，44 篇）",
         "heat": 10.0,
         "volume": 44,
-        "engagement": 14475,
+        "engagement": 14453,
         "entities": [
           "輝達",
           "黃仁勳",
@@ -260,7 +260,13 @@
         "net_sentiment": 100.0,
         "post_count": 1,
         "engagement": 22,
-        "top_topics": [],
+        "top_topics": [
+          {
+            "topic_id": 8,
+            "label": "unit",
+            "count": 1
+          }
+        ],
         "top_posts": [
           {
             "handle": "tphuang",
@@ -363,7 +369,7 @@
         "engagement": 399,
         "top_topics": [
           {
-            "topic_id": 6,
+            "topic_id": 11,
             "label": "spacex / satellite / fab / starlink",
             "count": 1
           }
@@ -401,18 +407,18 @@
         "engagement": 772,
         "top_topics": [
           {
-            "topic_id": 8,
+            "topic_id": 6,
             "label": "demand / polishing / cmp / ebara",
             "count": 1
           },
           {
             "topic_id": 11,
-            "label": "ebara",
+            "label": "spacex / satellite / fab / starlink",
             "count": 1
           },
           {
-            "topic_id": 6,
-            "label": "spacex / satellite / fab / starlink",
+            "topic_id": 12,
+            "label": "packaging / substrates / rumor / maker",
             "count": 1
           }
         ],
@@ -459,7 +465,7 @@
             "handle": "TrendForce",
             "platform": "LinkedIn",
             "text": "🔥AI’s optical boom is squeezing InP substrate supply! As demand for high-speed modules surges, optical giants are racing to lock in LTAs, with U.S.-based Applied Optoelectronics placing an order for 4",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527894569125011456/",
+            "url": "https://www.linkedin.com/feed/update/urn:li:share:7527894568281915392/",
             "interaction": 6
           }
         ],
@@ -505,7 +511,7 @@
         "engagement": 9367,
         "top_topics": [
           {
-            "topic_id": 8,
+            "topic_id": 6,
             "label": "demand / polishing / cmp / ebara",
             "count": 1
           }
@@ -779,7 +785,7 @@
         ]
       },
       {
-        "topic_id": 6,
+        "topic_id": 11,
         "label": "spacex / satellite / fab / starlink",
         "cells": [
           {
@@ -903,7 +909,7 @@
         ]
       },
       {
-        "topic_id": 8,
+        "topic_id": 6,
         "label": "demand / polishing / cmp / ebara",
         "cells": [
           {
@@ -1100,7 +1106,7 @@
       },
       {
         "handle": "jukan05",
-        "top_topic_id": 8,
+        "top_topic_id": 6,
         "top_topic_label": "demand / polishing / cmp / ebara",
         "focus_share": 1.0,
         "post_count": 2,
@@ -1113,14 +1119,6 @@
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
-      },
-      {
-        "handle": "tphuang",
-        "top_topic_id": 4,
-        "top_topic_label": "export / suppliers / optical",
-        "focus_share": 1.0,
-        "post_count": 3,
-        "unclustered_posts": 2
       },
       {
         "handle": "statementdog",
@@ -1163,8 +1161,16 @@
         "unclustered_posts": 17
       },
       {
+        "handle": "tphuang",
+        "top_topic_id": 4,
+        "top_topic_label": "export / suppliers / optical",
+        "focus_share": 0.5,
+        "post_count": 3,
+        "unclustered_posts": 1
+      },
+      {
         "handle": "TrendForce",
-        "top_topic_id": 6,
+        "top_topic_id": 11,
         "top_topic_label": "spacex / satellite / fab / starlink",
         "focus_share": 0.5,
         "post_count": 2,
@@ -1182,14 +1188,14 @@
         "handle": "dnystedt",
         "top_topic_id": 5,
         "top_topic_label": "hbm / nvidia / rubin / vera",
-        "focus_share": 0.333,
+        "focus_share": 0.4,
         "post_count": 6,
-        "unclustered_posts": 0
+        "unclustered_posts": 1
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 6,
+        "topic_id": 11,
         "label": "spacex / satellite / fab / starlink",
         "total_engagement": 396,
         "post_count": 3,
@@ -1198,7 +1204,7 @@
         "is_catchall": false
       },
       {
-        "topic_id": 8,
+        "topic_id": 6,
         "label": "demand / polishing / cmp / ebara",
         "total_engagement": 224,
         "post_count": 2,
@@ -1270,6 +1276,15 @@
         "is_catchall": false
       },
       {
+        "topic_id": 8,
+        "label": "unit",
+        "total_engagement": 22,
+        "post_count": 1,
+        "top_account": "tphuang",
+        "top_account_engagement": 22,
+        "is_catchall": false
+      },
+      {
         "topic_id": 9,
         "label": "substrates / optical / substrate / demand",
         "total_engagement": 6,
@@ -1288,18 +1303,9 @@
         "is_catchall": false
       },
       {
-        "topic_id": 11,
-        "label": "ebara",
-        "total_engagement": 0,
-        "post_count": 1,
-        "top_account": "dnystedt",
-        "top_account_engagement": 0,
-        "is_catchall": false
-      },
-      {
         "topic_id": 0,
         "label": "其他（未分群，44 篇）",
-        "total_engagement": 14475,
+        "total_engagement": 14453,
         "post_count": 44,
         "top_account": "yutinghaosfinance",
         "top_account_engagement": 9560,
