@@ -203,7 +203,13 @@ def summarize_engagement(daily_dashboard):
         ]
         if r.get('top_account'):
             share_pct = round(r['top_account_engagement'] / r['total_engagement'] * 100) if r['total_engagement'] else 0
-            clauses.append(f"{r['top_account']}貢獻其中{share_pct}%互動, 為該議題主要聲量來源")
+            # Name the platform on first mention: the same handle can be two
+            # different accounts (X's TrendForce and LinkedIn's TrendForce).
+            # Rankings written before nlp_sentiment.py added the field have no
+            # platform, so fall back to the bare handle rather than fail.
+            platform = r.get('top_account_platform')
+            account = f"{r['top_account']}（{platform}）" if platform else r['top_account']
+            clauses.append(f"{account}貢獻其中{share_pct}%互動, 為該議題主要聲量來源")
             clauses.append(f"建議參考{r['top_account']}內容方向, 延伸相關報導承接討論熱度")
         else:
             clauses.append("建議延伸相關報導, 承接既有討論熱度")

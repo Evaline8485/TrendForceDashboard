@@ -597,14 +597,19 @@ def widget_coverage_focus_ranking(posts_by_topic, topic_labels, catchall_cid=Non
     at 0.889). The share that did not map is kept as unclustered_posts rather
     than dropped, so a feed that is mostly unclassifiable is still visible as
     such. Accounts with nothing but catch-all posts keep the catch-all as their
-    topic - there is no real one to report."""
+    topic - there is no real one to report.
+
+    An account is a (platform, handle) pair: X's TrendForce and LinkedIn's
+    TrendForce share a handle but are different accounts, and grouping by
+    handle alone gave them one combined row (1q 2026-11-16: 324 X + 483
+    LinkedIn posts reported as a single 807-post account)."""
     by_account_topic = defaultdict(Counter)
     for cid, ps in posts_by_topic.items():
         for p in ps:
-            by_account_topic[p['handle']][cid] += 1
+            by_account_topic[(p['platform'], p['handle'])][cid] += 1
 
     ranking = []
-    for handle, topic_counts in by_account_topic.items():
+    for (platform, handle), topic_counts in by_account_topic.items():
         total = sum(topic_counts.values())
         unclustered = topic_counts.get(catchall_cid, 0) if catchall_cid is not None else 0
         real = {cid: n for cid, n in topic_counts.items() if cid != catchall_cid}
@@ -616,6 +621,7 @@ def widget_coverage_focus_ranking(posts_by_topic, topic_labels, catchall_cid=Non
             denominator = total
         ranking.append({
             'handle': handle,
+            'platform': platform,
             'top_topic_id': top_cid,
             'top_topic_label': topic_labels[top_cid],
             'focus_share': round(top_count / denominator, 3) if denominator else 0.0,
@@ -629,17 +635,23 @@ def widget_coverage_focus_ranking(posts_by_topic, topic_labels, catchall_cid=Non
 def widget_top_engagement_ranking(posts_by_topic, topic_labels, catchall_cid=None):
     """top_account/top_account_engagement (2026-08-13) let FR-06's daily
     summaries name a specific account to benchmark against, instead of a
-    generic "延伸相關報導" with no concrete who/what."""
+    generic "延伸相關報導" with no concrete who/what.
+
+    Engagement is summed per (platform, handle), not per handle - X's
+    TrendForce and LinkedIn's TrendForce are different accounts, and adding
+    them together could name "TrendForce" the top account when neither one
+    is. top_account_platform says which of the two it was."""
     ranking = []
     for cid, ps in posts_by_topic.items():
         total_engagement = sum(p['interaction'] for p in ps)
         by_account = defaultdict(int)
         for p in ps:
-            by_account[p['handle']] += p['interaction']
-        top_account, top_account_engagement = max(by_account.items(), key=lambda kv: kv[1])
+            by_account[(p['platform'], p['handle'])] += p['interaction']
+        (top_platform, top_account), top_account_engagement = max(by_account.items(), key=lambda kv: kv[1])
         ranking.append({'topic_id': cid, 'label': topic_labels[cid],
                         'total_engagement': total_engagement, 'post_count': len(ps),
-                        'top_account': top_account, 'top_account_engagement': top_account_engagement,
+                        'top_account': top_account, 'top_account_platform': top_platform,
+                        'top_account_engagement': top_account_engagement,
                         'is_catchall': cid == catchall_cid})
     # Catch-all last, same reasoning as widget_temperature_bar: it holds more
     # posts than any real topic, so it wins any total-engagement race by volume

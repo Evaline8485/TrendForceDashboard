@@ -377,8 +377,11 @@ def render_sentiment(data):
     trend_html = render_trend_curve(w['sentiment_trend_curve'])
     heatmap_html = render_topic_heatmap(w.get('topic_sentiment_heatmap', []), w['sentiment_trend_curve'])
 
+    # Platform column: the same handle on two platforms is two accounts
+    # (X's and LinkedIn's TrendForce) and gets two rows. A dash until
+    # nlp_sentiment.py has rewritten the ranking with a platform per row.
     focus_rows = ''.join(f"""
-      <tr><td class="cell-primary">{esc(r['handle'])}</td><td>{esc(r['top_topic_label'])}</td>
+      <tr><td class="cell-primary">{esc(r['handle'])}</td><td>{esc(r.get('platform', '')) or '<span class="muted">—</span>'}</td><td>{esc(r['top_topic_label'])}</td>
       <td class="num">{round(r['focus_share'] * 100, 1)}%</td><td class="num">{fmt_int(r['post_count'])}</td></tr>"""
       for r in sorted(w['coverage_focus_ranking'], key=lambda r: r['focus_share'], reverse=True)[:10])
 
@@ -399,7 +402,7 @@ def render_sentiment(data):
       {panel(table(['Topic', '#Engagement', '#Posts'], engagement_rows), 'Top engagement')}
     </div>
     {panel(table(['Entity', '#Mentions'], entity_rows), 'Named entities', 'NER — most-mentioned people/orgs/products')}
-    {panel(table(['Account', 'Top topic', '#Focus share', '#Posts'], focus_rows), 'Coverage focus ranking', "Each account's dominant topic")}
+    {panel(table(['Account', 'Platform', 'Top topic', '#Focus share', '#Posts'], focus_rows), 'Coverage focus ranking', "Each account's dominant topic")}
     {panel(table(['Time slot', '#Posts', '#Likes', '#Engagement'], slot_rows), 'Posting time-slot analysis', 'Mon–Fri, peak highlighted')}
     """
 

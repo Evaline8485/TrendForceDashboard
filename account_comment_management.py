@@ -232,14 +232,19 @@ def parse_ts(ts):
 
 
 def build_account_status(posts, now):
-    by_handle = defaultdict(list)
+    # Keyed by (platform, handle), not handle: X's TrendForce and LinkedIn's
+    # TrendForce share a handle but are different accounts. Looked up by
+    # handle alone, each row got both accounts' posts - so the LinkedIn row
+    # kept showing X's latest post and stayed "active" through the whole
+    # 2026-10-08..11-16 stretch when LinkedIn had no data at all.
+    by_account = defaultdict(list)
     for p in posts:
-        by_handle[p['handle']].append(p)
+        by_account[(p['platform'], p['handle'])].append(p)
 
     accounts = []
     for platform, cfg in PLATFORM_ACCOUNTS.items():
         for handle in cfg['own'] + cfg['competitors']:
-            handle_posts = by_handle.get(handle, [])
+            handle_posts = by_account.get((platform, handle), [])
             timestamps = [parse_ts(p['timestamp']) for p in handle_posts]
             timestamps = [t for t in timestamps if t]
             last_post_at = max(timestamps) if timestamps else None
