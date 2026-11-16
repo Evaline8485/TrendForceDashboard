@@ -154,8 +154,10 @@ run_step "generate_dashboard" generate_dashboard.py
 # Publish (commit + push + confirm the GitHub Pages deploy) whatever just
 # got generated, even if an earlier step in this job failed - a partial
 # update published beats a correct one nobody sees until someone happens
-# to push manually.
-if ! bash publish.sh; then
+# to push manually. 9>&-: git may start a detached `git gc --auto` here,
+# which would inherit the pipeline lock's descriptor and hold the lock until
+# the gc finishes; this shell keeps holding it for the publish itself.
+if ! bash publish.sh 9>&-; then
   echo "[WARN] publish failed"
   FAILURES+=("publish")
 fi
