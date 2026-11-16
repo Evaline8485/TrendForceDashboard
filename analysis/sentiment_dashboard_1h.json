@@ -1,306 +1,158 @@
 {
-  "generated_at": "2026-11-16T03:07:18.382955+00:00",
+  "generated_at": "2026-11-16T12:30:54+08:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-11-16T02:07:18.382955+00:00",
-    "end_utc": "2026-11-16T03:07:18.382955+00:00",
-    "start_tw": "Nov 16, 10:07",
-    "end_tw": "Nov 16, 11:07"
+    "start_utc": "2026-11-16T11:30:54+08:00",
+    "end_utc": "2026-11-16T12:30:54+08:00",
+    "start_tw": "Nov 16, 11:30",
+    "end_tw": "Nov 16, 12:30"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 25,
+      "total_posts": 5,
       "sentiment_counts": {
-        "positive": 9,
-        "negative": 4,
-        "neutral": 12
+        "negative": 2,
+        "positive": 2,
+        "neutral": 1
       },
       "sentiment_share": {
-        "positive": 0.36,
-        "negative": 0.16,
-        "neutral": 0.48
+        "negative": 0.4,
+        "positive": 0.4,
+        "neutral": 0.2
       },
       "top_terms": [
-        "更多",
-        "查看",
-        "看更",
-        "查看更",
-        "看更多",
-        "輝達",
-        "黃仁",
-        "仁勳",
-        "黃仁勳",
-        "台股"
+        "nvidia",
+        "succession",
+        "paths",
+        "carries",
+        "risks",
+        "nov",
+        "earnings",
+        "kress",
+        "employee",
+        "hall"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "市場預期",
-        "heat": 90.0,
-        "volume": 2,
-        "engagement": 38,
-        "entities": [
-          "美國",
-          "三星",
-          "台積電",
-          "聯電",
-          "世界先進"
-        ],
-        "is_catchall": false
-      },
-      {
-        "topic_id": 2,
-        "label": "export",
-        "heat": 10.0,
-        "volume": 2,
-        "engagement": 1,
+        "topic_id": 0,
+        "label": "activity / slows / nvidia / spacex",
+        "heat": 50.0,
+        "volume": 5,
+        "engagement": 45,
         "entities": [],
         "is_catchall": false
-      },
-      {
-        "topic_id": 0,
-        "label": "其他（未分群，21 篇）",
-        "heat": 10.0,
-        "volume": 21,
-        "engagement": 1024,
-        "entities": [
-          "輝達",
-          "黃仁勳",
-          "國安",
-          "韓國",
-          "台灣"
-        ],
-        "is_catchall": true
       }
     ],
-    "named_entities": [
-      {
-        "entity": "輝達",
-        "count": 7
-      },
-      {
-        "entity": "黃仁勳",
-        "count": 6
-      },
-      {
-        "entity": "國安",
-        "count": 3
-      },
-      {
-        "entity": "美國",
-        "count": 3
-      },
-      {
-        "entity": "台積電",
-        "count": 2
-      },
-      {
-        "entity": "韓國",
-        "count": 2
-      },
-      {
-        "entity": "台灣",
-        "count": 2
-      },
-      {
-        "entity": "英特爾",
-        "count": 1
-      },
-      {
-        "entity": "福田",
-        "count": 1
-      },
-      {
-        "entity": "南山",
-        "count": 1
-      },
-      {
-        "entity": "海康",
-        "count": 1
-      },
-      {
-        "entity": "獲利豐",
-        "count": 1
-      },
-      {
-        "entity": "嚴陣",
-        "count": 1
-      },
-      {
-        "entity": "三星",
-        "count": 1
-      },
-      {
-        "entity": "聯電",
-        "count": 1
-      }
-    ],
+    "named_entities": [],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-11-16T02:07:18.382957+00:00",
-        "bucket_end": "2026-11-16T02:11:35.525814+00:00",
+        "bucket_start": "2026-11-16T11:30:54.000002+08:00",
+        "bucket_end": "2026-11-16T11:35:11.142859+08:00",
         "positive": 1,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 1,
-        "neutral_engagement": 0,
+        "positive_engagement": 7,
+        "neutral_engagement": 20,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 1,
-        "top_topics": [],
+        "net_sentiment": 50.0,
+        "post_count": 2,
+        "engagement": 27,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "activity / slows / nvidia / spacex",
+            "count": 2
+          }
+        ],
         "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
-            "text": "Hong Kong developer New World’s shares tumble 47% on $3.2bn rights issue plan",
-            "url": "https://x.com/FT/status/2122149948003168727",
-            "interaction": 1
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-16T02:11:35.525814+00:00",
-        "bucket_end": "2026-11-16T02:15:52.668671+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 6,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 6,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "Interesting thing here. Qwen-4 appears to be built w/ more science discovery in mind. It seems like SWE is not its strong suit based on these benchmarks. At least not major improvement over previous Q",
-            "url": "https://x.com/tphuang/status/2122150657624768628",
-            "interaction": 6
-          }
-        ],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-16T02:15:52.668671+00:00",
-        "bucket_end": "2026-11-16T02:20:09.811528+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 5.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-16T02:20:09.811528+00:00",
-        "bucket_end": "2026-11-16T02:24:26.954385+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -15.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-16T02:24:26.954385+00:00",
-        "bucket_end": "2026-11-16T02:28:44.097242+00:00",
-        "positive": 7,
-        "neutral": 11,
-        "negative": 2,
-        "positive_engagement": 163,
-        "neutral_engagement": 460,
-        "negative_engagement": 37,
-        "net_sentiment": 25.0,
-        "post_count": 20,
-        "engagement": 660,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "市場預期",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "ctee.fans",
-            "platform": "Facebook",
-            "text": "小編覺得這1.08億還只是開始..…… \n查看更多",
-            "url": "https://www.facebook.com/ctee.fans/posts/pfbid0XSNz2BUKUv1g5Aoyv5GFvrEoQERZ41x6C5peqA7f5CYAmDuAZ7XUP4Wmm2NK84XUl?__cft__[0]=AZi9T5yMtuilTWs6mnpdQds_KkjQC_vTIU0bXGe-hlUY7N0Kg-eIoamvVx3yYWf8dPn27cUOhvtj4RiaJ-GGRf_1O9Olt_hHWWsH6YO1j6QKWC2v_vh-tMEr-OgizuAqy0cjj3NoLP9_jHvNqxJWWcNn7EnOXDaFK9owKtiqEYki5v_0bhzRpOtCfYw",
-            "interaction": 293
+            "text": "China’s economic activity slows more than expected in October",
+            "url": "https://x.com/FT/status/2122170926737281101",
+            "interaction": 20
           },
           {
-            "handle": "ctee.fans",
-            "platform": "Facebook",
-            "text": "輝達是離不開我們黃爸的！…… \n查看更多",
-            "url": "https://www.facebook.com/ctee.fans/posts/pfbid02i8ak4g5ARUP8LZtJfriBCyGQM58w37HcKoQJY7bgre4R4pvdPd1HTE1VRt463bpTl?__cft__[0]=AZiFp-oQ1tni10wpR_gwkU4mTUWayIJr9d7SIycRJUhvBgORZmTg1aRQehqp0_SC9GPMWrmgs-OMSRewgYdP5NdbOYX83Eg26oGz31h9hjIPSwuD5om26Rs4H4MNCfsmSU19DLJVl_-AG1ZjpHzVXF4sVUb-M3IJOFhvkcYXOXMPOE3SUKq6PkOYwWQ",
-            "interaction": 67
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "SpaceX and Singulus’s space computing partnership could boost solar photovoltaics  - SpaceX–Singulus partnership (November 10): Singulus Technologies ( http:// SNG.DE) will supply turnkey HJT (heteroj",
+            "url": "https://x.com/QQ_Timmy/status/2122171031129649434",
+            "interaction": 7
           }
         ],
-        "net_sentiment_smoothed": 5.0,
+        "net_sentiment_smoothed": 16.7,
         "is_anomaly": true
       },
       {
-        "bucket_start": "2026-11-16T02:28:44.097242+00:00",
-        "bucket_end": "2026-11-16T02:33:01.240099+00:00",
-        "positive": 1,
+        "bucket_start": "2026-11-16T11:35:11.142859+08:00",
+        "bucket_end": "2026-11-16T11:39:28.285716+08:00",
+        "positive": 0,
         "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 1,
+        "negative": 0,
+        "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 1,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -12.5,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-16T11:39:28.285716+08:00",
+        "bucket_end": "2026-11-16T11:43:45.428573+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -10.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-16T11:43:45.428573+08:00",
+        "bucket_end": "2026-11-16T11:48:02.571430+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 12,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 12,
         "top_topics": [
           {
-            "topic_id": 2,
-            "label": "export",
-            "count": 2
+            "topic_id": 0,
+            "label": "activity / slows / nvidia / spacex",
+            "count": 1
           }
         ],
         "top_posts": [
           {
-            "handle": "tphuang",
-            "platform": "X",
-            "text": "China's SuperNode supply chain: HW was the original victim of export control which drove it to go thru the extraordinary step of developing full domestic supply chain to support its ultimate goal of a",
-            "url": "https://x.com/tphuang/status/2122155249855066578",
-            "interaction": 1
-          },
-          {
             "handle": "tengyanAI",
             "platform": "X",
-            "text": "thats why i think the US export ban on chips to china is going to backfire heavily. it preserves the US lead in the short-term but it forces the china ecosystem to evolve f v fast.   at some point (co",
-            "url": "https://x.com/tengyanAI/status/2122155403043827833",
-            "interaction": 0
+            "text": "seeing lots of fear around circular financing and \"AI bubble has burst'. so we studied what could happen and who wins/loses (full article dropping later)  one Q is: when an AI data center deal falls t",
+            "url": "https://x.com/tengyanAI/status/2122174303240372570",
+            "interaction": 12
           }
         ],
-        "net_sentiment_smoothed": 5.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T02:33:01.240099+00:00",
-        "bucket_end": "2026-11-16T02:37:18.382956+00:00",
+        "bucket_start": "2026-11-16T11:48:02.571430+08:00",
+        "bucket_end": "2026-11-16T11:52:19.714287+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -312,12 +164,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 5.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T02:37:18.382956+00:00",
-        "bucket_end": "2026-11-16T02:41:35.525813+00:00",
+        "bucket_start": "2026-11-16T11:52:19.714287+08:00",
+        "bucket_end": "2026-11-16T11:56:36.857144+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -329,29 +181,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T02:41:35.525813+00:00",
-        "bucket_end": "2026-11-16T02:45:52.668670+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-16T02:45:52.668670+00:00",
-        "bucket_end": "2026-11-16T02:50:09.811527+00:00",
+        "bucket_start": "2026-11-16T11:56:36.857144+08:00",
+        "bucket_end": "2026-11-16T12:00:54.000001+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -367,8 +202,107 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T02:50:09.811527+00:00",
-        "bucket_end": "2026-11-16T02:54:26.954384+00:00",
+        "bucket_start": "2026-11-16T12:00:54.000001+08:00",
+        "bucket_end": "2026-11-16T12:05:11.142858+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-16T12:05:11.142858+08:00",
+        "bucket_end": "2026-11-16T12:09:28.285715+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-16T12:09:28.285715+08:00",
+        "bucket_end": "2026-11-16T12:13:45.428572+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 5,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 5,
+        "top_topics": [
+          {
+            "topic_id": 0,
+            "label": "activity / slows / nvidia / spacex",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "Each of #NVIDIA’s three succession paths carries its own risks. The Nov. 17 earnings call and Kress-led Nov. 18 employee town hall could offer the first clues about what comes next.",
+            "url": "https://x.com/trendforce/status/2122180909508227124",
+            "interaction": 5
+          }
+        ],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-16T12:13:45.428572+08:00",
+        "bucket_end": "2026-11-16T12:18:02.571429+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-16T12:18:02.571429+08:00",
+        "bucket_end": "2026-11-16T12:22:19.714286+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-16T12:22:19.714286+08:00",
+        "bucket_end": "2026-11-16T12:26:36.857143+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -384,42 +318,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T02:54:26.954384+00:00",
-        "bucket_end": "2026-11-16T02:58:44.097241+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-16T02:58:44.097241+00:00",
-        "bucket_end": "2026-11-16T03:03:01.240098+00:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-16T03:03:01.240098+00:00",
-        "bucket_end": "2026-11-16T03:07:18.382955+00:00",
+        "bucket_start": "2026-11-16T12:26:36.857143+08:00",
+        "bucket_end": "2026-11-16T12:30:54+08:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -437,31 +337,11 @@
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 2,
-        "label": "export",
+        "topic_id": 0,
+        "label": "activity / slows / nvidia / spacex",
         "cells": [
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
+            "net_sentiment": 50.0,
             "volume": 2
           },
           {
@@ -473,8 +353,8 @@
             "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": -100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -495,52 +375,10 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
-          }
-        ]
-      },
-      {
-        "topic_id": 1,
-        "label": "市場預期",
-        "cells": [
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
           },
           {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 2
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
+            "net_sentiment": -100.0,
+            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -563,17 +401,25 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "tphuang",
-        "top_topic_id": 2,
-        "top_topic_label": "export",
+        "handle": "TrendForce",
+        "top_topic_id": 0,
+        "top_topic_label": "activity / slows / nvidia / spacex",
         "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 1
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "QQ_Timmy",
+        "top_topic_id": 0,
+        "top_topic_label": "activity / slows / nvidia / spacex",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
       },
       {
         "handle": "tengyanAI",
-        "top_topic_id": 2,
-        "top_topic_label": "export",
+        "top_topic_id": 0,
+        "top_topic_label": "activity / slows / nvidia / spacex",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 0
@@ -581,70 +427,36 @@
       {
         "handle": "FT",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，21 篇）",
+        "top_topic_label": "activity / slows / nvidia / spacex",
         "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
-      },
-      {
-        "handle": "ctee.fans",
-        "top_topic_id": 1,
-        "top_topic_label": "市場預期",
-        "focus_share": 1.0,
-        "post_count": 20,
-        "unclustered_posts": 18
-      },
-      {
-        "handle": "yutinghaosfinance",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，21 篇）",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
+        "post_count": 2,
+        "unclustered_posts": 0
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "市場預期",
-        "total_engagement": 38,
-        "post_count": 2,
-        "top_account": "ctee.fans",
-        "top_account_engagement": 38,
-        "is_catchall": false
-      },
-      {
-        "topic_id": 2,
-        "label": "export",
-        "total_engagement": 1,
-        "post_count": 2,
-        "top_account": "tphuang",
-        "top_account_engagement": 1,
-        "is_catchall": false
-      },
-      {
         "topic_id": 0,
-        "label": "其他（未分群，21 篇）",
-        "total_engagement": 1024,
-        "post_count": 21,
-        "top_account": "ctee.fans",
-        "top_account_engagement": 622,
-        "is_catchall": true
+        "label": "activity / slows / nvidia / spacex",
+        "total_engagement": 45,
+        "post_count": 5,
+        "top_account": "FT",
+        "top_account_engagement": 21,
+        "is_catchall": false
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 25,
-          "likes": 1061,
-          "engagement": 1063,
-          "avg_engagement": 42.5
+          "post_count": 3,
+          "likes": 29,
+          "engagement": 39,
+          "avg_engagement": 13.0
         },
         "afternoon": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 2,
+          "likes": 5,
+          "engagement": 6,
+          "avg_engagement": 3.0
         },
         "evening": {
           "post_count": 0,
