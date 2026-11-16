@@ -3,28 +3,304 @@
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 1,
+      "size": 6,
       "accounts": {
+        "FT": 2,
+        "statementdog": 1,
+        "dnystedt": 2,
         "yutinghaosfinance": 1
       },
       "engagement_by_account": {
+        "FT": 2422,
+        "statementdog": 17,
+        "dnystedt": 77,
         "yutinghaosfinance": 2248
+      }
+    },
+    {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 3,
+      "accounts": {
+        "dnystedt": 3
+      },
+      "engagement_by_account": {
+        "dnystedt": 100
       }
     },
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 1,
+      "size": 2,
       "accounts": {
+        "dnystedt": 1,
         "yutinghaosfinance": 1
       },
       "engagement_by_account": {
+        "dnystedt": 19,
         "yutinghaosfinance": 778
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 2,
+      "accounts": {
+        "statementdog": 1,
+        "dnystedt": 1
+      },
+      "engagement_by_account": {
+        "statementdog": 9,
+        "dnystedt": 20
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 1,
+      "accounts": {
+        "jukan05": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 133
+      }
+    },
+    {
+      "id": "G",
+      "label": "IC 設計",
+      "size": 1,
+      "accounts": {
+        "jukan05": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 133
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 1,
+      "accounts": {
+        "jukan05": 1
+      },
+      "engagement_by_account": {
+        "jukan05": 133
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 1,
+      "accounts": {
+        "FT": 1
+      },
+      "engagement_by_account": {
+        "FT": 310
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 6,
+      "competitor_engagement": 4764,
+      "competitors_covering": [
+        "FT",
+        "statementdog",
+        "dnystedt",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "黃仁勳下台只是開始，《晶片戰爭》作者克里斯米勒指出，黃仁勳事件不只是個人聲譽危機，更可能徹底改變，美國AI產業與華府的權力關係。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid031w496hLVEGZysMuYEyrNVw4bWnEQeLmpnKUK8zcYZUiMQ1U1cVVGsQ3aKX7sWCWHl?__cft__[0]=AZgxcOHoXIIPkncfAocF-IZujtD_vb08xymlFtN5BaZudsGVPfJUmCCS7I5KZtc27i1KB1K2gEi08_xoOC5vkccGi31VUyYy8wTUz5TnXTmloSD7P4CatLCqixbrYgBl3dIfyLjYflze4TjSvTYP7nVWcX4mqhsa6uVgPTpeECz8kPXH03OXiumZ0bc",
+          "timestamp": "2026-11-16T01:24:06.205437+00:00",
+          "interaction": 2248
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+          "url": "https://x.com/FT/status/2122045928987123914",
+          "timestamp": "2026-11-16T03:15:49.000+08:00",
+          "interaction": 2134
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Bessent says Nvidia needs ‘shake-up’ with external CEO",
+          "url": "https://x.com/FT/status/2122018739050651770",
+          "timestamp": "2026-11-16T01:27:47.000+08:00",
+          "interaction": 288
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Rumor: Nvidia Vera Rubin-based servers face delay due to lack of enough HBM4 memory chips, pushing the volume ramp to 1st half 2027 from year-end originally, media report, adding the delay will impact 800V DC power suppliers, M9 substrate materials makers and optical parts makers",
+          "url": "https://x.com/dnystedt/status/2122111614589796577",
+          "timestamp": "2026-11-16T07:36:50.000+08:00",
+          "interaction": 64
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "I think in this whole Nvidia situation, there's an important second-order effect that could play out over the next six months.  Everyone’s been wondering how Chinese AI models caught up so fast. Besides China’s dense AI talent and its efficiency in model distillation and",
+          "url": "https://x.com/statementdog/status/2122041951650472373",
+          "timestamp": "2026-11-16T03:00:01.000+08:00",
+          "interaction": 17
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Note: The report has issues. HBM4 supply issues were flagged early this year, and in October, Nvidia cut HBM4 bandwidth specs on its official datasheet to make sure Vera Rubin still began shipping on time.  Actual supply chain earnings calls also tell a slightly different story:",
+          "url": "https://x.com/dnystedt/status/2122111737159893502",
+          "timestamp": "2026-11-16T07:37:19.000+08:00",
+          "interaction": 13
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 100,
+      "competitors_covering": [
+        "dnystedt"
+      ],
+      "sample_posts": [
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Rumor: Nvidia Vera Rubin-based servers face delay due to lack of enough HBM4 memory chips, pushing the volume ramp to 1st half 2027 from year-end originally, media report, adding the delay will impact 800V DC power suppliers, M9 substrate materials makers and optical parts makers",
+          "url": "https://x.com/dnystedt/status/2122111614589796577",
+          "timestamp": "2026-11-16T07:36:50.000+08:00",
+          "interaction": 64
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Samsung plans to invest US$1.9 billion in its Austin, Texas fab to pave the way for SpaceX satellite chip production at the site, specifically STMicro's STM32V8 microcontroller, an 18nm FD-SOI chip by Starlink, media report. Production is seen starting by 2030. The report cites",
+          "url": "https://x.com/dnystedt/status/2122122991509373330",
+          "timestamp": "2026-11-16T08:22:02.000+08:00",
+          "interaction": 23
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Note: The report has issues. HBM4 supply issues were flagged early this year, and in October, Nvidia cut HBM4 bandwidth specs on its official datasheet to make sure Vera Rubin still began shipping on time.  Actual supply chain earnings calls also tell a slightly different story:",
+          "url": "https://x.com/dnystedt/status/2122111737159893502",
+          "timestamp": "2026-11-16T07:37:19.000+08:00",
+          "interaction": 13
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "B",
+      "label": "GPU / AI 加速器",
+      "own_count": 0,
+      "competitor_count": 6,
+      "competitor_engagement": 4764,
+      "competitors_covering": [
+        "FT",
+        "statementdog",
+        "dnystedt",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "黃仁勳下台只是開始，《晶片戰爭》作者克里斯米勒指出，黃仁勳事件不只是個人聲譽危機，更可能徹底改變，美國AI產業與華府的權力關係。…… \n查看更多",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid031w496hLVEGZysMuYEyrNVw4bWnEQeLmpnKUK8zcYZUiMQ1U1cVVGsQ3aKX7sWCWHl?__cft__[0]=AZgxcOHoXIIPkncfAocF-IZujtD_vb08xymlFtN5BaZudsGVPfJUmCCS7I5KZtc27i1KB1K2gEi08_xoOC5vkccGi31VUyYy8wTUz5TnXTmloSD7P4CatLCqixbrYgBl3dIfyLjYflze4TjSvTYP7nVWcX4mqhsa6uVgPTpeECz8kPXH03OXiumZ0bc",
+          "timestamp": "2026-11-16T01:24:06.205437+00:00",
+          "interaction": 2248
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+          "url": "https://x.com/FT/status/2122045928987123914",
+          "timestamp": "2026-11-16T03:15:49.000+08:00",
+          "interaction": 2134
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Bessent says Nvidia needs ‘shake-up’ with external CEO",
+          "url": "https://x.com/FT/status/2122018739050651770",
+          "timestamp": "2026-11-16T01:27:47.000+08:00",
+          "interaction": 288
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Rumor: Nvidia Vera Rubin-based servers face delay due to lack of enough HBM4 memory chips, pushing the volume ramp to 1st half 2027 from year-end originally, media report, adding the delay will impact 800V DC power suppliers, M9 substrate materials makers and optical parts makers",
+          "url": "https://x.com/dnystedt/status/2122111614589796577",
+          "timestamp": "2026-11-16T07:36:50.000+08:00",
+          "interaction": 64
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "I think in this whole Nvidia situation, there's an important second-order effect that could play out over the next six months.  Everyone’s been wondering how Chinese AI models caught up so fast. Besides China’s dense AI talent and its efficiency in model distillation and",
+          "url": "https://x.com/statementdog/status/2122041951650472373",
+          "timestamp": "2026-11-16T03:00:01.000+08:00",
+          "interaction": 17
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Note: The report has issues. HBM4 supply issues were flagged early this year, and in October, Nvidia cut HBM4 bandwidth specs on its official datasheet to make sure Vera Rubin still began shipping on time.  Actual supply chain earnings calls also tell a slightly different story:",
+          "url": "https://x.com/dnystedt/status/2122111737159893502",
+          "timestamp": "2026-11-16T07:37:19.000+08:00",
+          "interaction": 13
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 100,
+      "competitors_covering": [
+        "dnystedt"
+      ],
+      "sample_posts": [
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Rumor: Nvidia Vera Rubin-based servers face delay due to lack of enough HBM4 memory chips, pushing the volume ramp to 1st half 2027 from year-end originally, media report, adding the delay will impact 800V DC power suppliers, M9 substrate materials makers and optical parts makers",
+          "url": "https://x.com/dnystedt/status/2122111614589796577",
+          "timestamp": "2026-11-16T07:36:50.000+08:00",
+          "interaction": 64
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Samsung plans to invest US$1.9 billion in its Austin, Texas fab to pave the way for SpaceX satellite chip production at the site, specifically STMicro's STM32V8 microcontroller, an 18nm FD-SOI chip by Starlink, media report. Production is seen starting by 2030. The report cites",
+          "url": "https://x.com/dnystedt/status/2122122991509373330",
+          "timestamp": "2026-11-16T08:22:02.000+08:00",
+          "interaction": 23
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "Note: The report has issues. HBM4 supply issues were flagged early this year, and in October, Nvidia cut HBM4 bandwidth specs on its official datasheet to make sure Vera Rubin still began shipping on time.  Actual supply chain earnings calls also tell a slightly different story:",
+          "url": "https://x.com/dnystedt/status/2122111737159893502",
+          "timestamp": "2026-11-16T07:37:19.000+08:00",
+          "interaction": 13
+        }
+      ]
+    }
+  ],
   "window": {
     "start_utc": "2026-11-15T17:24:06.205437+00:00",
     "end_utc": "2026-11-16T01:24:06.205437+00:00",
