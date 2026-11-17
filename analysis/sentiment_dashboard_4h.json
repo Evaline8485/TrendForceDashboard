@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-17T00:50:50.843165+00:00",
+  "generated_at": "2026-11-17T00:55:57.988848+00:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-11-16T20:50:50.843165+00:00",
-    "end_utc": "2026-11-17T00:50:50.843165+00:00",
-    "start_tw": "Nov 17, 04:50",
-    "end_tw": "Nov 17, 08:50"
+    "start_utc": "2026-11-16T20:55:57.988848+00:00",
+    "end_utc": "2026-11-17T00:55:57.988848+00:00",
+    "start_tw": "Nov 17, 04:55",
+    "end_tw": "Nov 17, 08:55"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 49,
+      "total_posts": 74,
       "sentiment_counts": {
-        "positive": 16,
-        "negative": 21,
-        "neutral": 12
+        "positive": 28,
+        "negative": 25,
+        "neutral": 21
       },
       "sentiment_share": {
-        "positive": 0.327,
-        "negative": 0.429,
-        "neutral": 0.245
+        "positive": 0.378,
+        "negative": 0.338,
+        "neutral": 0.284
       },
       "top_terms": [
         "查看",
@@ -31,12 +31,12 @@
         "仁勳",
         "黃仁勳",
         "輝達",
-        "記憶"
+        "台股"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 3,
+        "topic_id": 4,
         "label": "台北",
         "heat": 90.0,
         "volume": 2,
@@ -51,16 +51,30 @@
       {
         "topic_id": 2,
         "label": "openai / incidents",
-        "heat": 12.7,
+        "heat": 13.2,
         "volume": 2,
         "engagement": 216,
         "entities": [],
         "is_catchall": false
       },
       {
+        "topic_id": 3,
+        "label": "台股",
+        "heat": 11.9,
+        "volume": 2,
+        "engagement": 139,
+        "entities": [
+          "中環",
+          "寶成",
+          "京元",
+          "修正"
+        ],
+        "is_catchall": false
+      },
+      {
         "topic_id": 1,
         "label": "輝達",
-        "heat": 10.0,
+        "heat": 10.5,
         "volume": 2,
         "engagement": 55,
         "entities": [
@@ -73,16 +87,25 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，43 篇）",
+        "topic_id": 5,
+        "label": "nvidia",
         "heat": 10.0,
-        "volume": 43,
-        "engagement": 4159,
+        "volume": 2,
+        "engagement": 22,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，64 篇）",
+        "heat": 10.0,
+        "volume": 64,
+        "engagement": 10297,
         "entities": [
           "美國",
           "輝達",
           "黃仁勳",
-          "華許",
+          "國泰",
           "台灣"
         ],
         "is_catchall": true
@@ -98,23 +121,35 @@
         "count": 10
       },
       {
+        "entity": "台灣",
+        "count": 10
+      },
+      {
         "entity": "黃仁勳",
         "count": 9
       },
       {
-        "entity": "台灣",
-        "count": 7
+        "entity": "國泰",
+        "count": 6
+      },
+      {
+        "entity": "上市",
+        "count": 4
+      },
+      {
+        "entity": "中國",
+        "count": 4
+      },
+      {
+        "entity": "台北",
+        "count": 4
       },
       {
         "entity": "東南亞",
         "count": 3
       },
       {
-        "entity": "中國",
-        "count": 3
-      },
-      {
-        "entity": "台北",
+        "entity": "台積電",
         "count": 3
       },
       {
@@ -130,30 +165,18 @@
         "count": 2
       },
       {
-        "entity": "美國聯準會",
-        "count": 1
+        "entity": "修正",
+        "count": 2
       },
       {
-        "entity": "金山",
-        "count": 1
-      },
-      {
-        "entity": "聯邦準備銀行",
-        "count": 1
-      },
-      {
-        "entity": "聯準銀行",
-        "count": 1
-      },
-      {
-        "entity": "馬克",
-        "count": 1
+        "entity": "友達",
+        "count": 2
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-11-16T20:50:50.843159+00:00",
-        "bucket_end": "2026-11-16T21:07:59.414588+00:00",
+        "bucket_start": "2026-11-16T20:55:57.988842+00:00",
+        "bucket_end": "2026-11-16T21:13:06.560271+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -169,8 +192,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T21:07:59.414588+00:00",
-        "bucket_end": "2026-11-16T21:25:07.986017+00:00",
+        "bucket_start": "2026-11-16T21:13:06.560271+00:00",
+        "bucket_end": "2026-11-16T21:30:15.131700+00:00",
         "positive": 2,
         "neutral": 0,
         "negative": 1,
@@ -207,8 +230,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T21:25:07.986017+00:00",
-        "bucket_end": "2026-11-16T21:42:16.557446+00:00",
+        "bucket_start": "2026-11-16T21:30:15.131700+00:00",
+        "bucket_end": "2026-11-16T21:47:23.703129+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -224,8 +247,8 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T21:42:16.557446+00:00",
-        "bucket_end": "2026-11-16T21:59:25.128875+00:00",
+        "bucket_start": "2026-11-16T21:47:23.703129+00:00",
+        "bucket_end": "2026-11-16T22:04:32.274558+00:00",
         "positive": 1,
         "neutral": 0,
         "negative": 0,
@@ -245,12 +268,12 @@
             "interaction": 200
           }
         ],
-        "net_sentiment_smoothed": 6.7,
+        "net_sentiment_smoothed": -13.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T21:59:25.128875+00:00",
-        "bucket_end": "2026-11-16T22:16:33.700304+00:00",
+        "bucket_start": "2026-11-16T22:04:32.274558+00:00",
+        "bucket_end": "2026-11-16T22:21:40.845987+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 1,
@@ -276,38 +299,21 @@
             "interaction": 133
           }
         ],
-        "net_sentiment_smoothed": -5.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T22:16:33.700304+00:00",
-        "bucket_end": "2026-11-16T22:33:42.271733+00:00",
+        "bucket_start": "2026-11-16T22:21:40.845987+00:00",
+        "bucket_end": "2026-11-16T22:38:49.417416+00:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -5.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-16T22:33:42.271733+00:00",
-        "bucket_end": "2026-11-16T22:50:50.843162+00:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 2,
-        "positive_engagement": 57,
-        "neutral_engagement": 6,
-        "negative_engagement": 274,
-        "net_sentiment": -25.0,
-        "post_count": 4,
-        "engagement": 337,
+        "negative_engagement": 195,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 195,
         "top_topics": [],
         "top_posts": [
           {
@@ -316,21 +322,46 @@
             "text": "Re: The new BIS rule  I missed a provision yesterday.  Under the new rule, chip designers in China and other restricted regions can no longer qualify for an exemption through the existing transistor-c",
             "url": "https://x.com/jukan05/status/2122459140622860670",
             "interaction": 195
-          },
+          }
+        ],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-16T22:38:49.417416+00:00",
+        "bucket_end": "2026-11-16T22:55:57.988845+00:00",
+        "positive": 1,
+        "neutral": 1,
+        "negative": 1,
+        "positive_engagement": 57,
+        "neutral_engagement": 6,
+        "negative_engagement": 79,
+        "net_sentiment": 0.0,
+        "post_count": 3,
+        "engagement": 142,
+        "top_topics": [],
+        "top_posts": [
           {
             "handle": "jukan05",
             "platform": "X",
             "text": "I have my doubts about whether ByteDance’s ASIC will pan out…",
             "url": "https://x.com/jukan05/status/2122460001738572276",
             "interaction": 79
+          },
+          {
+            "handle": "tphuang",
+            "platform": "X",
+            "text": "Wonderful, now United crew system is down. Everything is going to shit in this country. But don’t worry, Anthropic is IPOing & all will be good",
+            "url": "https://x.com/tphuang/status/2122461092060479584",
+            "interaction": 57
           }
         ],
-        "net_sentiment_smoothed": -45.0,
-        "is_anomaly": true
+        "net_sentiment_smoothed": -40.0,
+        "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T22:50:50.843162+00:00",
-        "bucket_end": "2026-11-16T23:07:59.414591+00:00",
+        "bucket_start": "2026-11-16T22:55:57.988845+00:00",
+        "bucket_end": "2026-11-16T23:13:06.560274+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -342,22 +373,28 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -5.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T23:07:59.414591+00:00",
-        "bucket_end": "2026-11-16T23:25:07.986020+00:00",
-        "positive": 0,
+        "bucket_start": "2026-11-16T23:13:06.560274+00:00",
+        "bucket_end": "2026-11-16T23:30:15.131703+00:00",
+        "positive": 1,
         "neutral": 0,
         "negative": 1,
-        "positive_engagement": 0,
+        "positive_engagement": 5,
         "neutral_engagement": 0,
         "negative_engagement": 22,
-        "net_sentiment": -100.0,
-        "post_count": 1,
-        "engagement": 22,
-        "top_topics": [],
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 27,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "nvidia",
+            "count": 1
+          }
+        ],
         "top_posts": [
           {
             "handle": "tengyanAI",
@@ -365,25 +402,7 @@
             "text": "Nvidia has bankrolled its own customers. Critics call it circular.  so we traced the money. If the AI labs' financing runs short, who actually takes the loss?  about $170B of Nvidia's sales next year ",
             "url": "https://x.com/tengyanAI/status/2122469274044531055",
             "interaction": 22
-          }
-        ],
-        "net_sentiment_smoothed": -5.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-16T23:25:07.986020+00:00",
-        "bucket_end": "2026-11-16T23:42:16.557449+00:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 5,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 5,
-        "top_topics": [],
-        "top_posts": [
+          },
           {
             "handle": "FT",
             "platform": "X",
@@ -392,12 +411,29 @@
             "interaction": 5
           }
         ],
-        "net_sentiment_smoothed": 20.0,
+        "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T23:42:16.557449+00:00",
-        "bucket_end": "2026-11-16T23:59:25.128878+00:00",
+        "bucket_start": "2026-11-16T23:30:15.131703+00:00",
+        "bucket_end": "2026-11-16T23:47:23.703132+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-16T23:47:23.703132+00:00",
+        "bucket_end": "2026-11-17T00:04:32.274561+00:00",
         "positive": 0,
         "neutral": 1,
         "negative": 0,
@@ -421,17 +457,17 @@
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-16T23:59:25.128878+00:00",
-        "bucket_end": "2026-11-17T00:16:33.700307+00:00",
+        "bucket_start": "2026-11-17T00:04:32.274561+00:00",
+        "bucket_end": "2026-11-17T00:21:40.845990+00:00",
         "positive": 1,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 6,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 6,
+        "negative_engagement": 4,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 10,
         "top_topics": [],
         "top_posts": [
           {
@@ -440,31 +476,6 @@
             "text": "Good morning! 11/17 Roundup of Overseas Reports  - 6223 MPI: U.S. firm reiterates positive outlook A major U.S. bank estimates 4Q revenue will grow 5–10% quarter over quarter, while profit margins wil",
             "url": "https://x.com/QQ_Timmy/status/2122482055447732434",
             "interaction": 6
-          }
-        ],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-17T00:16:33.700307+00:00",
-        "bucket_end": "2026-11-17T00:33:42.271736+00:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 1,
-        "positive_engagement": 4,
-        "neutral_engagement": 0,
-        "negative_engagement": 4,
-        "net_sentiment": 0.0,
-        "post_count": 2,
-        "engagement": 8,
-        "top_topics": [],
-        "top_posts": [
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "〈Fed 主席華許推演 AI 失望劇本〉  1、場合與背景 1）美國聯準會（Fed）主席華許（Kevin Warsh）到舊金山聯邦準備銀行，為一場生產力與就業會議揭幕。貼文指出，這是他上任後第一次走訪地方聯準銀行。 2）台下坐著他約五個半月前召集的特別工作小組成員，由矽谷創投代表人物馬克·安德森（Marc",
-            "url": "https://x.com/QQ_Timmy/status/2122485625354174715",
-            "interaction": 4
           },
           {
             "handle": "QQ_Timmy",
@@ -474,36 +485,146 @@
             "interaction": 4
           }
         ],
-        "net_sentiment_smoothed": 25.0,
+        "net_sentiment_smoothed": 20.4,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-17T00:33:42.271736+00:00",
-        "bucket_end": "2026-11-17T00:50:50.843165+00:00",
-        "positive": 0,
-        "neutral": 1,
+        "bucket_start": "2026-11-17T00:21:40.845990+00:00",
+        "bucket_end": "2026-11-17T00:38:49.417419+00:00",
+        "positive": 1,
+        "neutral": 0,
         "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 7,
+        "positive_engagement": 4,
+        "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
+        "net_sentiment": 100.0,
         "post_count": 1,
-        "engagement": 7,
+        "engagement": 4,
         "top_topics": [],
         "top_posts": [
           {
-            "handle": "TrendForce.tw",
-            "platform": "Facebook",
-            "text": "記憶體漲價推升成本，第三季全球電視出貨年減 3.6%。市場萎縮之際，Samsung 與 LGE 如何推動 Mini LED 電視逆勢年增 116%？TrendForce 分析全球前五大電視品牌 Mini LED 高階化策略：\nhttps://buff.ly/QevQsUh",
-            "url": "https://www.facebook.com/TrendForce.tw/posts/pfbid07oFJLvQyeKetVfcQQT4BfvT6fD6NwsiRUZGoTboBtMbTPXWLBXVQ8tokhnrVvjaVl?__cft__[0]=AZhPKDBY6FaEay7fgSBoEJIQD9YQZlkpWR0KJ0Yjhz8orNe1JGTOcshh8VErUSYPpwdMTPJT3GPuDclEq3bS2b9EIar_6zgnbP3B5ek8N4zu8Axn5qg1WfLXbT--9DobDiVrwm_EtHlUBLgHdI_-0-ErQD3jnRSPGvQNlwG0U_ml3dy_7eRbIN_fVKM",
-            "interaction": 7
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "〈Fed 主席華許推演 AI 失望劇本〉  1、場合與背景 1）美國聯準會（Fed）主席華許（Kevin Warsh）到舊金山聯邦準備銀行，為一場生產力與就業會議揭幕。貼文指出，這是他上任後第一次走訪地方聯準銀行。 2）台下坐著他約五個半月前召集的特別工作小組成員，由矽谷創投代表人物馬克·安德森（Marc",
+            "url": "https://x.com/QQ_Timmy/status/2122485625354174715",
+            "interaction": 4
           }
         ],
-        "net_sentiment_smoothed": 33.3,
+        "net_sentiment_smoothed": 25.5,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-17T00:38:49.417419+00:00",
+        "bucket_end": "2026-11-17T00:55:57.988848+00:00",
+        "positive": 18,
+        "neutral": 17,
+        "negative": 17,
+        "positive_engagement": 1072,
+        "neutral_engagement": 6446,
+        "negative_engagement": 1044,
+        "net_sentiment": 1.9,
+        "post_count": 52,
+        "engagement": 8562,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "台北",
+            "count": 2
+          },
+          {
+            "topic_id": 3,
+            "label": "台股",
+            "count": 2
+          },
+          {
+            "topic_id": 1,
+            "label": "輝達",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "台北 101 點燈，台灣科技業挺黃仁勳！\n#台灣科技業力挺黃仁勳台北101今晚點燈傳遞支持\n…… \n查看更多",
+            "url": "https://www.facebook.com/reel/1436791071910921/?__cft__[0]=AZg7ML9W4Pf74pvNVs1Wm0eg4HR4l_XpgkhpkW_FLdIv7da6QtYCCI5zmRNYSAiwe0Bt1DzY7qKONqa30ob8xg5nNEc5VZodo1TxE-X8nhyPZ6QAvDGp0HpEM0osX6YMq_g05AKWswxGRlVJosh3G8R23dRicarCyhYGgCEB-OBpL2TC_UBtddY7qQJRmG3hAi4pids",
+            "interaction": 4118
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "川普鬆口挺黃仁勳回鍋，間諜案還可能找習近平談！\n#川普不介意黃仁勳回任輝達\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid02w8MM3xXqi54FraAfneqGdbGNvrrj1eX6St1UpxDVDXx4Fri8Xy1CiLPZ8owuQHBDl?__cft__[0]=AZhU5BoQIfS9pu9X2vvFVEhwsF673w8NjHQx61hRb3fw6x5i0ULVRA6v_AISsHxrnE_vusXBNjN0qAwx7Zb2z67x0R0WUrvLOWrq2cz6XIZ9pqJfyNKT0LoZEoenuZBHcZ4kTw8pPXwCywCXVwQMul1S44EGvA3vEQDal_BteKeI7lj2t7Dhp7WcfcA",
+            "interaction": 1322
+          }
+        ],
+        "net_sentiment_smoothed": 34.0,
+        "is_anomaly": true
       }
     ],
     "topic_sentiment_heatmap": [
+      {
+        "topic_id": 5,
+        "label": "nvidia",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          }
+        ]
+      },
       {
         "topic_id": 2,
         "label": "openai / incidents",
@@ -567,7 +688,7 @@
         ]
       },
       {
-        "topic_id": 3,
+        "topic_id": 4,
         "label": "台北",
         "cells": [
           {
@@ -623,8 +744,70 @@
             "volume": 0
           },
           {
+            "net_sentiment": 50.0,
+            "volume": 2
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "台股",
+        "cells": [
+          {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 2
           }
         ]
       },
@@ -686,7 +869,7 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 0
+            "volume": 2
           }
         ]
       }
@@ -696,7 +879,7 @@
         "handle": "SemiAnalysis_",
         "platform": "X",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，43 篇）",
+        "top_topic_label": "其他（未分群，64 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
@@ -705,7 +888,7 @@
         "handle": "jukan05",
         "platform": "X",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，43 篇）",
+        "top_topic_label": "其他（未分群，64 篇）",
         "focus_share": 1.0,
         "post_count": 3,
         "unclustered_posts": 3
@@ -714,7 +897,7 @@
         "handle": "QQ_Timmy",
         "platform": "X",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，43 篇）",
+        "top_topic_label": "其他（未分群，64 篇）",
         "focus_share": 1.0,
         "post_count": 3,
         "unclustered_posts": 3
@@ -723,19 +906,10 @@
         "handle": "tphuang",
         "platform": "X",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，43 篇）",
+        "top_topic_label": "其他（未分群，64 篇）",
         "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 2
-      },
-      {
-        "handle": "tengyanAI",
-        "platform": "X",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，43 篇）",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 1
       },
       {
         "handle": "FT",
@@ -750,24 +924,60 @@
         "handle": "TrendForce.tw",
         "platform": "Facebook",
         "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，43 篇）",
+        "top_topic_label": "其他（未分群，64 篇）",
         "focus_share": 1.0,
         "post_count": 1,
         "unclustered_posts": 1
       },
       {
-        "handle": "technewsinside",
+        "handle": "ctee.fans",
         "platform": "Facebook",
         "top_topic_id": 3,
+        "top_topic_label": "台股",
+        "focus_share": 1.0,
+        "post_count": 17,
+        "unclustered_posts": 16
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "platform": "Facebook",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，64 篇）",
+        "focus_share": 1.0,
+        "post_count": 7,
+        "unclustered_posts": 7
+      },
+      {
+        "handle": "tengyanAI",
+        "platform": "X",
+        "top_topic_id": 5,
+        "top_topic_label": "nvidia",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "TrendForce",
+        "platform": "LinkedIn",
+        "top_topic_id": 5,
+        "top_topic_label": "nvidia",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "technewsinside",
+        "platform": "Facebook",
+        "top_topic_id": 4,
         "top_topic_label": "台北",
-        "focus_share": 0.5,
+        "focus_share": 0.4,
         "post_count": 33,
-        "unclustered_posts": 29
+        "unclustered_posts": 28
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 3,
+        "topic_id": 4,
         "label": "台北",
         "total_engagement": 4862,
         "post_count": 2,
@@ -787,6 +997,16 @@
         "is_catchall": false
       },
       {
+        "topic_id": 3,
+        "label": "台股",
+        "total_engagement": 139,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_platform": "Facebook",
+        "top_account_engagement": 119,
+        "is_catchall": false
+      },
+      {
         "topic_id": 1,
         "label": "輝達",
         "total_engagement": 55,
@@ -797,23 +1017,33 @@
         "is_catchall": false
       },
       {
+        "topic_id": 5,
+        "label": "nvidia",
+        "total_engagement": 22,
+        "post_count": 2,
+        "top_account": "tengyanAI",
+        "top_account_platform": "X",
+        "top_account_engagement": 22,
+        "is_catchall": false
+      },
+      {
         "topic_id": 0,
-        "label": "其他（未分群，43 篇）",
-        "total_engagement": 4159,
-        "post_count": 43,
-        "top_account": "technewsinside",
+        "label": "其他（未分群，64 篇）",
+        "total_engagement": 10297,
+        "post_count": 64,
+        "top_account": "yutinghaosfinance",
         "top_account_platform": "Facebook",
-        "top_account_engagement": 3289,
+        "top_account_engagement": 5950,
         "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 45,
-          "likes": 8627,
-          "engagement": 8743,
-          "avg_engagement": 194.3
+          "post_count": 70,
+          "likes": 14926,
+          "engagement": 15042,
+          "avg_engagement": 214.9
         },
         "afternoon": {
           "post_count": 0,

@@ -3,27 +3,61 @@
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 8,
+      "size": 10,
       "accounts": {
         "tengyanAI": 1,
-        "technewsinside": 7
+        "technewsinside": 7,
+        "ctee.fans": 1,
+        "TrendForce": 1
       },
       "engagement_by_account": {
         "tengyanAI": 22,
-        "technewsinside": 7149
+        "technewsinside": 7149,
+        "ctee.fans": 14,
+        "TrendForce": 0
+      }
+    },
+    {
+      "id": "M",
+      "label": "台股市場",
+      "size": 7,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 6
+      },
+      "engagement_by_account": {
+        "technewsinside": 119,
+        "ctee.fans": 101
       }
     },
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 5,
+      "size": 6,
       "accounts": {
         "tphuang": 1,
-        "technewsinside": 4
+        "technewsinside": 4,
+        "TrendForce": 1
       },
       "engagement_by_account": {
         "tphuang": 80,
-        "technewsinside": 101
+        "technewsinside": 101,
+        "TrendForce": 0
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 3,
+      "accounts": {
+        "technewsinside": 1,
+        "ctee.fans": 1,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "technewsinside": 17,
+        "ctee.fans": 32,
+        "yutinghaosfinance": 1004
       }
     },
     {
@@ -55,23 +89,14 @@
     {
       "id": "C",
       "label": "ASIC / 自研晶片",
-      "size": 1,
+      "size": 2,
       "accounts": {
-        "jukan05": 1
+        "jukan05": 1,
+        "ctee.fans": 1
       },
       "engagement_by_account": {
-        "jukan05": 79
-      }
-    },
-    {
-      "id": "F",
-      "label": "晶圓代工 / 先進製程",
-      "size": 1,
-      "accounts": {
-        "technewsinside": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 17
+        "jukan05": 79,
+        "ctee.fans": 14
       }
     },
     {
@@ -86,6 +111,28 @@
       }
     },
     {
+      "id": "I",
+      "label": "電源 / 電力設備",
+      "size": 1,
+      "accounts": {
+        "TrendForce": 1
+      },
+      "engagement_by_account": {
+        "TrendForce": 0
+      }
+    },
+    {
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "size": 1,
+      "accounts": {
+        "ctee.fans": 1
+      },
+      "engagement_by_account": {
+        "ctee.fans": 14
+      }
+    },
+    {
       "id": "L",
       "label": "總經 / Fed",
       "size": 1,
@@ -97,14 +144,14 @@
       }
     },
     {
-      "id": "M",
-      "label": "台股市場",
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
       "size": 1,
       "accounts": {
-        "technewsinside": 1
+        "yutinghaosfinance": 1
       },
       "engagement_by_account": {
-        "technewsinside": 119
+        "yutinghaosfinance": 266
       }
     },
     {
@@ -156,6 +203,66 @@
           "interaction": 57
         }
       ]
+    },
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 1,
+      "competitor_count": 6,
+      "competitor_engagement": 101,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股走過最慘十月，單月跌5.69％，衝擊金控獲利。13家上市金控獲利16日全部出爐，前十月仍刷新史上同期新高...\nhttps://www.ctee.com.tw/news/20261116701910-43030",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02eEjfrnvLPi4By4FTgsJ5S27aH83NcCu21nXhPraKBS5C51era1pxYfXFLp2tdheRl?__cft__[0]=AZhP4BTCBM6MACTDOfS_HaY2t3GDOBV-v-dTesNUSmOsKSwOGfgN1FRGuTtd1gnYzsIr0PsrIetopDz49o7gdgK4Fc1GRZF4Hc6sEw7bZiIxp9opHbbBgbOxZJjYxtz1ZcXrf0zTWgaA_LAY4sIv3eIC5BDV2NPBjji9iuxp2dTGLgMsOInpY0DOa2w",
+          "timestamp": "2026-11-17T00:53:22.872925+00:00",
+          "interaction": 24
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "金管會16日晚間指出，台股跌幅在亞股中相對較重，但觀察集中市場信用交易之整戶擔保維持率仍有177.48％、基本面未變，金管會關注近期股市波動情形，並已請證交所及櫃買中心密切注意國際金融市場變化情形。\n#金管會\n \n#限空令",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0yeUYiMGTJPLeUbuR15SriutQQ4wBm7oz8aa9nBmmHDXMGnCCbfkCUU4VgjQKedmMl?__cft__[0]=AZhrH_H_rpNkJa7zHn4ng_IFgHeXclRBj10l_AostSrsXk54pKwT5__eI90vSw7U5iRiQ8q_SxNclNgadFH9-n6mee-7ZxkTFXntkQS1HyjGW_W1C1rAX4KPup77hYnG3ETCEzyuiTMeIaMEsHiXWH2zOry3UKWCyTlxHLuHdDgqd9UmyOka7-ljQnM",
+          "timestamp": "2026-11-17T00:53:22.872925+00:00",
+          "interaction": 21
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台灣與韓國同為今年推動亞股市上漲的兩大主要市場之一，高盛卻把台股評級調降一級至「中立」，卻仍維持韓股「加碼」...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02Ntg413q8BVYaa4eQ2LrfGt2B12ZiLd87oyZCEvJtManJeHgcTrGzUHpFgoouqVZSl?__cft__[0]=AZivcAvP0OjvVNU2J4SkTE7xwMJofFxVLWd-HBvmVKAFAzdmnHcHMyhE6vCUtv6kSAclDlYJEd98df6auIjpF5H3enq24Ta96og--n23c-UyWFIbB0JZi3rE4vaePAnEhObsI0-kZxIqfdCZoXr-5X_sK85CoTgxv9aenXDemQelmgatD_sitGXS8Eo",
+          "timestamp": "2026-11-17T00:53:22.872925+00:00",
+          "interaction": 20
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "今日驊宏資、中環、寶成等個股逆勢上漲，反觀台玻、京元電、精材等個股受大盤爆跌拖累，出現回檔修正走勢。\n#台股雷達\n \n#台股",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0747Ghdeu6X85Yfr5werTTzCmHYkZrBZG47Rw3a5fvhrq9mMR1hFS6fFiotX6Ww3ml?__cft__[0]=AZiyo9thSprmU8jJPQmJ4lgj7jlcS4SLtlEoSBVF8NOQ45jK0X5TbETSGNKC9g6LwAuchIG2OhesgA2N0tD9T2YGUDWEztwEPPqvI0PyNdbb5lrexkz0CdjyYHLTGfFck5E1xK5b9IIxCnZgLLf0zOq8Rf9vDWakoRS-XC5THlDrjj3kdZO5o81zCcA",
+          "timestamp": "2026-11-17T00:53:22.872925+00:00",
+          "interaction": 20
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "法人都在買！這幾檔下一波盤面焦點？\n台股歷經AI議題洗禮，加權指數在回測37,837點低點後展開強彈，16日則再陷震盪，市場資金也逐漸從純做夢題材轉向基本面驗證。隨著上市櫃公司第三季財報全數出爐，轉虧為盈的「翻升股」有望成為盤面焦點，後市表現備受關注。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02DPVSRRKgYGM4xxMw3AfdwfQHFYDYUpSUSkK8nrJSe6DHGMPL38bcEwWxDkw8cJkXl?__cft__[0]=AZjJeCETbGJTA9Rdy0d2xEdd6j94pq3Y6brz8OgFr0lqyA-hMWNb67-esec6WgZGoSx_1QNjSF0pkFlNYJE6L1Uf-wlDCp2LZvxHAE3Oa8rvO3mZdN6uhpPjnj5ytn5QZR8_QH7yDHbHB6h8hqUV3zWsPYs6vgW6uUKSRdC3_qjXus41uX9hTIkRW6Q",
+          "timestamp": "2026-11-17T00:53:22.872925+00:00",
+          "interaction": 8
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股逐洞賽｜資金湧向資服資安 族群避險集中】\n受電子權值與高價IC設計股普遍面臨修正壓力影響，市場資金加速自高基期硬體股撤出，轉向具備企業剛性支出支撐、且不受庫存調整干擾的資訊服務與資安軟體族群避險集中。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid09wRFA7udMoyZZ1g9juWNTuSQ9ZB2FuMRhjb7cxQhaAFyTjaCUmMYbqekYgj52E55l?__cft__[0]=AZhO5mEGwI5d3fahXM0gPg2w1zDiaPC8gbAgpQyDv2Bhe8Cm-aay1sVeZBwKRbc2A--Gs57gi6cU-D4PCR65Q7HaMMemG-hd9VzHZYq4_kUXTOwpkRwtiTAAuMX1E6VZPQS0LF_MYFU0IYSWD3jrN7Xnpmgv9PnBVJhNj0wKoPhLGRZB_2urPaG0Mf8",
+          "timestamp": "2026-11-17T00:53:22.872925+00:00",
+          "interaction": 8
+        }
+      ]
     }
   ],
   "suggested_entry_points": [
@@ -195,12 +302,72 @@
           "interaction": 57
         }
       ]
+    },
+    {
+      "cluster_id": "M",
+      "label": "台股市場",
+      "own_count": 1,
+      "competitor_count": 6,
+      "competitor_engagement": 101,
+      "competitors_covering": [
+        "ctee.fans"
+      ],
+      "sample_posts": [
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台股走過最慘十月，單月跌5.69％，衝擊金控獲利。13家上市金控獲利16日全部出爐，前十月仍刷新史上同期新高...\nhttps://www.ctee.com.tw/news/20261116701910-43030",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02eEjfrnvLPi4By4FTgsJ5S27aH83NcCu21nXhPraKBS5C51era1pxYfXFLp2tdheRl?__cft__[0]=AZhP4BTCBM6MACTDOfS_HaY2t3GDOBV-v-dTesNUSmOsKSwOGfgN1FRGuTtd1gnYzsIr0PsrIetopDz49o7gdgK4Fc1GRZF4Hc6sEw7bZiIxp9opHbbBgbOxZJjYxtz1ZcXrf0zTWgaA_LAY4sIv3eIC5BDV2NPBjji9iuxp2dTGLgMsOInpY0DOa2w",
+          "timestamp": "2026-11-17T00:53:22.872925+00:00",
+          "interaction": 24
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "金管會16日晚間指出，台股跌幅在亞股中相對較重，但觀察集中市場信用交易之整戶擔保維持率仍有177.48％、基本面未變，金管會關注近期股市波動情形，並已請證交所及櫃買中心密切注意國際金融市場變化情形。\n#金管會\n \n#限空令",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0yeUYiMGTJPLeUbuR15SriutQQ4wBm7oz8aa9nBmmHDXMGnCCbfkCUU4VgjQKedmMl?__cft__[0]=AZhrH_H_rpNkJa7zHn4ng_IFgHeXclRBj10l_AostSrsXk54pKwT5__eI90vSw7U5iRiQ8q_SxNclNgadFH9-n6mee-7ZxkTFXntkQS1HyjGW_W1C1rAX4KPup77hYnG3ETCEzyuiTMeIaMEsHiXWH2zOry3UKWCyTlxHLuHdDgqd9UmyOka7-ljQnM",
+          "timestamp": "2026-11-17T00:53:22.872925+00:00",
+          "interaction": 21
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "台灣與韓國同為今年推動亞股市上漲的兩大主要市場之一，高盛卻把台股評級調降一級至「中立」，卻仍維持韓股「加碼」...",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02Ntg413q8BVYaa4eQ2LrfGt2B12ZiLd87oyZCEvJtManJeHgcTrGzUHpFgoouqVZSl?__cft__[0]=AZivcAvP0OjvVNU2J4SkTE7xwMJofFxVLWd-HBvmVKAFAzdmnHcHMyhE6vCUtv6kSAclDlYJEd98df6auIjpF5H3enq24Ta96og--n23c-UyWFIbB0JZi3rE4vaePAnEhObsI0-kZxIqfdCZoXr-5X_sK85CoTgxv9aenXDemQelmgatD_sitGXS8Eo",
+          "timestamp": "2026-11-17T00:53:22.872925+00:00",
+          "interaction": 20
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "今日驊宏資、中環、寶成等個股逆勢上漲，反觀台玻、京元電、精材等個股受大盤爆跌拖累，出現回檔修正走勢。\n#台股雷達\n \n#台股",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid0747Ghdeu6X85Yfr5werTTzCmHYkZrBZG47Rw3a5fvhrq9mMR1hFS6fFiotX6Ww3ml?__cft__[0]=AZiyo9thSprmU8jJPQmJ4lgj7jlcS4SLtlEoSBVF8NOQ45jK0X5TbETSGNKC9g6LwAuchIG2OhesgA2N0tD9T2YGUDWEztwEPPqvI0PyNdbb5lrexkz0CdjyYHLTGfFck5E1xK5b9IIxCnZgLLf0zOq8Rf9vDWakoRS-XC5THlDrjj3kdZO5o81zCcA",
+          "timestamp": "2026-11-17T00:53:22.872925+00:00",
+          "interaction": 20
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "法人都在買！這幾檔下一波盤面焦點？\n台股歷經AI議題洗禮，加權指數在回測37,837點低點後展開強彈，16日則再陷震盪，市場資金也逐漸從純做夢題材轉向基本面驗證。隨著上市櫃公司第三季財報全數出爐，轉虧為盈的「翻升股」有望成為盤面焦點，後市表現備受關注。",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid02DPVSRRKgYGM4xxMw3AfdwfQHFYDYUpSUSkK8nrJSe6DHGMPL38bcEwWxDkw8cJkXl?__cft__[0]=AZjJeCETbGJTA9Rdy0d2xEdd6j94pq3Y6brz8OgFr0lqyA-hMWNb67-esec6WgZGoSx_1QNjSF0pkFlNYJE6L1Uf-wlDCp2LZvxHAE3Oa8rvO3mZdN6uhpPjnj5ytn5QZR8_QH7yDHbHB6h8hqUV3zWsPYs6vgW6uUKSRdC3_qjXus41uX9hTIkRW6Q",
+          "timestamp": "2026-11-17T00:53:22.872925+00:00",
+          "interaction": 8
+        },
+        {
+          "handle": "ctee.fans",
+          "platform": "Facebook",
+          "text": "【台股逐洞賽｜資金湧向資服資安 族群避險集中】\n受電子權值與高價IC設計股普遍面臨修正壓力影響，市場資金加速自高基期硬體股撤出，轉向具備企業剛性支出支撐、且不受庫存調整干擾的資訊服務與資安軟體族群避險集中。…… \n查看更多",
+          "url": "https://www.facebook.com/ctee.fans/posts/pfbid09wRFA7udMoyZZ1g9juWNTuSQ9ZB2FuMRhjb7cxQhaAFyTjaCUmMYbqekYgj52E55l?__cft__[0]=AZhO5mEGwI5d3fahXM0gPg2w1zDiaPC8gbAgpQyDv2Bhe8Cm-aay1sVeZBwKRbc2A--Gs57gi6cU-D4PCR65Q7HaMMemG-hd9VzHZYq4_kUXTOwpkRwtiTAAuMX1E6VZPQS0LF_MYFU0IYSWD3jrN7Xnpmgv9PnBVJhNj0wKoPhLGRZB_2urPaG0Mf8",
+          "timestamp": "2026-11-17T00:53:22.872925+00:00",
+          "interaction": 8
+        }
+      ]
     }
   ],
   "window": {
-    "start_utc": "2026-11-16T20:50:50.843165+00:00",
-    "end_utc": "2026-11-17T00:50:50.843165+00:00",
-    "start_tw": "Nov 17, 04:50",
-    "end_tw": "Nov 17, 08:50"
+    "start_utc": "2026-11-16T20:55:57.988848+00:00",
+    "end_utc": "2026-11-17T00:55:57.988848+00:00",
+    "start_tw": "Nov 17, 04:55",
+    "end_tw": "Nov 17, 08:55"
   }
 }
