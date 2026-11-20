@@ -1,61 +1,134 @@
 {
   "clusters": [
     {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 6,
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 12,
       "accounts": {
-        "pequityresearch": 4,
-        "aleabitoreddit": 1,
-        "TrendForce": 1
+        "SemiAnalysis_": 1,
+        "tengyanAI": 1,
+        "FT": 8,
+        "pequityresearch": 1,
+        "aleabitoreddit": 1
       },
       "engagement_by_account": {
-        "pequityresearch": 217,
-        "aleabitoreddit": 2917,
-        "TrendForce": 0
+        "SemiAnalysis_": 5548,
+        "tengyanAI": 10,
+        "FT": 1598,
+        "pequityresearch": 20,
+        "aleabitoreddit": 567
       }
     },
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 6,
+      "size": 8,
       "accounts": {
+        "QQ_Timmy": 2,
         "pequityresearch": 4,
         "aleabitoreddit": 1,
         "TrendForce": 1
       },
       "engagement_by_account": {
-        "pequityresearch": 182,
-        "aleabitoreddit": 531,
+        "QQ_Timmy": 63,
+        "pequityresearch": 170,
+        "aleabitoreddit": 567,
         "TrendForce": 0
       }
     },
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 3,
+      "size": 7,
       "accounts": {
-        "pequityresearch": 1,
+        "TrendForce": 2,
+        "tengyanAI": 1,
+        "pequityresearch": 2,
+        "aleabitoreddit": 2
+      },
+      "engagement_by_account": {
+        "TrendForce": 36,
+        "tengyanAI": 14,
+        "pequityresearch": 144,
+        "aleabitoreddit": 753
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 6,
+      "accounts": {
+        "QQ_Timmy": 1,
+        "FT": 1,
+        "pequityresearch": 2,
         "aleabitoreddit": 1,
         "TrendForce": 1
       },
       "engagement_by_account": {
-        "pequityresearch": 89,
-        "aleabitoreddit": 470,
+        "QQ_Timmy": 54,
+        "FT": 306,
+        "pequityresearch": 191,
+        "aleabitoreddit": 3935,
         "TrendForce": 0
       }
     },
     {
-      "id": "K",
-      "label": "AI 模型 / 應用",
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
       "size": 2,
       "accounts": {
-        "pequityresearch": 1,
+        "QQ_Timmy": 1,
+        "pequityresearch": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 5,
+        "pequityresearch": 21
+      }
+    },
+    {
+      "id": "O",
+      "label": "邊緣 AI / 新終端",
+      "size": 2,
+      "accounts": {
+        "tphuang": 1,
         "aleabitoreddit": 1
       },
       "engagement_by_account": {
-        "pequityresearch": 9,
-        "aleabitoreddit": 531
+        "tphuang": 15,
+        "aleabitoreddit": 567
+      }
+    },
+    {
+      "id": "C",
+      "label": "ASIC / 自研晶片",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 22
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 54
+      }
+    },
+    {
+      "id": "G",
+      "label": "IC 設計",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 22
       }
     },
     {
@@ -66,18 +139,29 @@
         "aleabitoreddit": 1
       },
       "engagement_by_account": {
-        "aleabitoreddit": 470
+        "aleabitoreddit": 639
       }
     },
     {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
       "size": 1,
       "accounts": {
-        "aleabitoreddit": 1
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "aleabitoreddit": 531
+        "statementdog": 6
+      }
+    },
+    {
+      "id": "N",
+      "label": "地緣政治 / 政策",
+      "size": 1,
+      "accounts": {
+        "tphuang": 1
+      },
+      "engagement_by_account": {
+        "tphuang": 43
       }
     },
     {
@@ -88,18 +172,111 @@
         "aleabitoreddit": 1
       },
       "engagement_by_account": {
-        "aleabitoreddit": 470
+        "aleabitoreddit": 639
+      }
+    },
+    {
+      "id": "R",
+      "label": "散熱 / HVAC",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 54
       }
     }
   ],
   "gaps": [
     {
+      "cluster_id": "K",
+      "label": "AI 模型 / 應用",
+      "own_count": 0,
+      "competitor_count": 12,
+      "competitor_engagement": 7743,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "tengyanAI",
+        "FT",
+        "pequityresearch",
+        "aleabitoreddit"
+      ],
+      "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "I want to thanks @SemiAnalysis_ for the motivation.  In the Gemini RL scaling team, we printed & put that article on our desks to be reminded daily of what used to be true at the time.  But the times they are changing :)  x.com/SemiAnalysis_/…",
+          "url": "https://x.com/SemiAnalysis_/status/2123519982260846716",
+          "timestamp": "2026-11-20T04:53:11.000+08:00",
+          "interaction": 5548
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Leopold Aschenbrenner, the 25-year-old whose hedge fund nearly imploded earlier this year, has made billions of dollars from Anthropic's listing.  https:// ft.trib.al/bUHLaNQ",
+          "url": "https://x.com/FT/status/2123519715066659256",
+          "timestamp": "2026-11-20T04:52:07.000+08:00",
+          "interaction": 985
+        },
+        {
+          "handle": "aleabitoreddit",
+          "platform": "X",
+          "text": "$AAPL  is now developing its own AI agent offerings to compete vs.  $ANT , Meta Muse, Google Gemini, and OpenAI.   Given on-device inference isn't quite ready yet for complex workflows...  + Apple isn't really known for doing much in the AI race  This is pretty positive for",
+          "url": "https://x.com/aleabitoreddit/status/2123543880780132572",
+          "timestamp": "2026-11-20T06:28:09.000+08:00",
+          "interaction": 567
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Anthropic has overtaken OpenAI in terms of use by US businesses.  https:// ft.trib.al/drNR6jS",
+          "url": "https://x.com/FT/status/2123542861991833891",
+          "timestamp": "2026-11-20T06:24:06.000+08:00",
+          "interaction": 172
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Anthropic's massive AI spending commitments, in charts. Follow live updates here:  https:// ft.trib.al/vuJqV97",
+          "url": "https://x.com/FT/status/2123523307995529395",
+          "timestamp": "2026-11-20T05:06:24.000+08:00",
+          "interaction": 160
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Anthropic popped 17% to close at about $97 a share in its Wall Street debut after raising $81bn in the biggest-ever IPO.  https:// ft.trib.al/wqux5IJ",
+          "url": "https://x.com/FT/status/2123527515897503798",
+          "timestamp": "2026-11-20T05:23:07.000+08:00",
+          "interaction": 89
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Anthropic shares jump 17% after record Wall Street listing",
+          "url": "https://x.com/FT/status/2123523262239891800",
+          "timestamp": "2026-11-20T05:06:13.000+08:00",
+          "interaction": 87
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "The number of Anthropic corporate customers spending at least $100,000 on its Claude chatbot has surged. But the company acknowledged in its IPO filing that about 25% of its revenue in 2026 came from its five biggest customers.  https:// ft.trib.al/8KHyjZf",
+          "url": "https://x.com/FT/status/2123534811872506172",
+          "timestamp": "2026-11-20T05:52:07.000+08:00",
+          "interaction": 72
+        }
+      ]
+    },
+    {
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
       "own_count": 1,
       "competitor_count": 5,
-      "competitor_engagement": 3134,
+      "competitor_engagement": 4486,
       "competitors_covering": [
+        "QQ_Timmy",
+        "FT",
         "pequityresearch",
         "aleabitoreddit"
       ],
@@ -110,7 +287,15 @@
           "text": "I'm hearing multiple things from industry executives:  1. Potential  $NVDA  employee exodus if Jensen doesn't come back soon.  Many senior management and engineers can easily retire after Nvidia stock appreciation over the years.  They don't need to continue working sitting on",
           "url": "https://x.com/aleabitoreddit/status/2123565807653552458",
           "timestamp": "2026-11-20T07:55:17.000+08:00",
-          "interaction": 2917
+          "interaction": 3935
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "US approved sale of Nvidia and AMD chips to Chinese companies",
+          "url": "https://x.com/FT/status/2123581451853549724",
+          "timestamp": "2026-11-20T08:57:27.000+08:00",
+          "interaction": 306
         },
         {
           "handle": "pequityresearch",
@@ -118,15 +303,7 @@
           "text": "A lot of heavy lifting here from Nvidia and Micron. Excluding them, its closer to 23x. Not egregious but looks entirely different when looking outside of them.    $MU   $NVDA",
           "url": "https://x.com/pequityresearch/status/2123571822280990907",
           "timestamp": "2026-11-20T08:19:11.000+08:00",
-          "interaction": 89
-        },
-        {
-          "handle": "pequityresearch",
-          "platform": "X",
-          "text": "Nvidia and AMD requested the sales of 3.4 million AI chips to China, of which more than 879,000 were approved by the BIS to be sold to Alibaba and Tencent. Two companies flagged as \"Chinese Military Companies\" by the Department of War.    $AMD   $NVDA",
-          "url": "https://x.com/pequityresearch/status/2123503803898941765",
-          "timestamp": "2026-11-20T03:48:54.000+08:00",
-          "interaction": 66
+          "interaction": 126
         },
         {
           "handle": "pequityresearch",
@@ -134,15 +311,15 @@
           "text": "Expert Takeaways: CoreWeave  > 2027 capex & funding mix: ~$40B total spend (~$20B data-center capex at ~$20M/MW for 1 GW plus ~$15–20B GPU capex) is funded via ~$25B DDTL, ~$9B customer prepayments, and only ~$5B residual parent equity.  > Funding certainty & debt cost: Existing",
           "url": "https://x.com/pequityresearch/status/2123536797430894824",
           "timestamp": "2026-11-20T06:00:00.000+08:00",
-          "interaction": 58
+          "interaction": 65
         },
         {
-          "handle": "pequityresearch",
+          "handle": "QQ_Timmy",
           "platform": "X",
-          "text": "Really detailed read on Nvidia …",
-          "url": "https://x.com/pequityresearch/status/2123493362452025814",
-          "timestamp": "2026-11-20T03:07:24.000+08:00",
-          "interaction": 4
+          "text": "〈AI 機櫃太重，多數舊資料中心撐不住〉  1、AI 機櫃的重量已遠超舊資料中心的設計 1）NVIDIA（  $NVDA ）GB300 NVL72 機櫃在液冷迴路注滿冷卻液後重 1,590 公斤。 2）2011 年的典型伺服器機櫃約 450 公斤。NVIDIA 說明年的 Vera Rubin 機櫃約 4,000 磅，約 1,814 公斤。",
+          "url": "https://x.com/QQ_Timmy/status/2123579516245467374",
+          "timestamp": "2026-11-20T08:49:45.000+08:00",
+          "interaction": 54
         }
       ]
     },
@@ -150,9 +327,10 @@
       "cluster_id": "D",
       "label": "CSP / 資料中心",
       "own_count": 1,
-      "competitor_count": 5,
-      "competitor_engagement": 713,
+      "competitor_count": 7,
+      "competitor_engagement": 800,
       "competitors_covering": [
+        "QQ_Timmy",
         "pequityresearch",
         "aleabitoreddit"
       ],
@@ -163,23 +341,7 @@
           "text": "$AAPL  is now developing its own AI agent offerings to compete vs.  $ANT , Meta Muse, Google Gemini, and OpenAI.   Given on-device inference isn't quite ready yet for complex workflows...  + Apple isn't really known for doing much in the AI race  This is pretty positive for",
           "url": "https://x.com/aleabitoreddit/status/2123543880780132572",
           "timestamp": "2026-11-20T06:28:09.000+08:00",
-          "interaction": 531
-        },
-        {
-          "handle": "pequityresearch",
-          "platform": "X",
-          "text": "Expert Takeaways: CoreWeave  > 2027 capex & funding mix: ~$40B total spend (~$20B data-center capex at ~$20M/MW for 1 GW plus ~$15–20B GPU capex) is funded via ~$25B DDTL, ~$9B customer prepayments, and only ~$5B residual parent equity.  > Funding certainty & debt cost: Existing",
-          "url": "https://x.com/pequityresearch/status/2123536797430894824",
-          "timestamp": "2026-11-20T06:00:00.000+08:00",
-          "interaction": 58
-        },
-        {
-          "handle": "pequityresearch",
-          "platform": "X",
-          "text": "I hate this idea from Meta so much I don't even have words to explain it. They all sat in a room and thought of this as the best consumer device they could make using Muse?",
-          "url": "https://x.com/pequityresearch/status/2123510777122349132",
-          "timestamp": "2026-11-20T04:16:36.000+08:00",
-          "interaction": 58
+          "interaction": 567
         },
         {
           "handle": "pequityresearch",
@@ -187,7 +349,31 @@
           "text": "CoreWeave vs IREN backlog quality  IREN has almost half of their backlog coming from Microsoft, while CoreWeave has a more diversified set of customers. Highest single customer concentration from CoreWeave comes from Meta (22%).   $IREN   $CRWV",
           "url": "https://x.com/pequityresearch/status/2123579364029640716",
           "timestamp": "2026-11-20T08:49:09.000+08:00",
-          "interaction": 57
+          "interaction": 73
+        },
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "Expert Takeaways: CoreWeave  > 2027 capex & funding mix: ~$40B total spend (~$20B data-center capex at ~$20M/MW for 1 GW plus ~$15–20B GPU capex) is funded via ~$25B DDTL, ~$9B customer prepayments, and only ~$5B residual parent equity.  > Funding certainty & debt cost: Existing",
+          "url": "https://x.com/pequityresearch/status/2123536797430894824",
+          "timestamp": "2026-11-20T06:00:00.000+08:00",
+          "interaction": 65
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "〈AI 機櫃太重，多數舊資料中心撐不住〉  1、AI 機櫃的重量已遠超舊資料中心的設計 1）NVIDIA（  $NVDA ）GB300 NVL72 機櫃在液冷迴路注滿冷卻液後重 1,590 公斤。 2）2011 年的典型伺服器機櫃約 450 公斤。NVIDIA 說明年的 Vera Rubin 機櫃約 4,000 磅，約 1,814 公斤。",
+          "url": "https://x.com/QQ_Timmy/status/2123579516245467374",
+          "timestamp": "2026-11-20T08:49:45.000+08:00",
+          "interaction": 54
+        },
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "Takeaways: Server CPU Outlook  > Rumors of Meta and Microsoft cutting server CPU orders are overblown. Microsoft’s total order volume is unchanged—only manufacturing allocation across ODMs was reshuffled.  > Meta is trimming legacy x86 orders (primarily Intel Emerald Rapids) to",
+          "url": "https://x.com/pequityresearch/status/2123622611674652930",
+          "timestamp": "2026-11-20T11:41:00.000+08:00",
+          "interaction": 21
         },
         {
           "handle": "pequityresearch",
@@ -195,6 +381,14 @@
           "text": "CEO of Microsoft, Satya Nadella, is apologizing for the Microsoft Outlook outage and does not blame AI for the reason behind it.  I think a lot of working people are actually thanking Microsoft for the outage last week 🤣    $MSFT",
           "url": "https://x.com/pequityresearch/status/2123521705821839582",
           "timestamp": "2026-11-20T05:00:02.000+08:00",
+          "interaction": 11
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "〈伺服器 CPU 展望重點〉  - 近期 Meta（  $META ）和微軟（Microsoft,  $MSFT ）砍單的傳聞被誇大了。Meta 正把部分 x86 CPU（主要是 Emerald Rapids）轉向 Grace 和 Vera CPU（超過 50 萬顆），代表它在為代理式 AI 加速部署一般伺服器。  Venice CPU 出貨量預估：2027 年最高約 600",
+          "url": "https://x.com/QQ_Timmy/status/2123610629328224758",
+          "timestamp": "2026-11-20T10:53:23.000+08:00",
           "interaction": 9
         }
       ]
@@ -202,12 +396,94 @@
   ],
   "suggested_entry_points": [
     {
+      "cluster_id": "K",
+      "label": "AI 模型 / 應用",
+      "own_count": 0,
+      "competitor_count": 12,
+      "competitor_engagement": 7743,
+      "competitors_covering": [
+        "SemiAnalysis_",
+        "tengyanAI",
+        "FT",
+        "pequityresearch",
+        "aleabitoreddit"
+      ],
+      "sample_posts": [
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "I want to thanks @SemiAnalysis_ for the motivation.  In the Gemini RL scaling team, we printed & put that article on our desks to be reminded daily of what used to be true at the time.  But the times they are changing :)  x.com/SemiAnalysis_/…",
+          "url": "https://x.com/SemiAnalysis_/status/2123519982260846716",
+          "timestamp": "2026-11-20T04:53:11.000+08:00",
+          "interaction": 5548
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Leopold Aschenbrenner, the 25-year-old whose hedge fund nearly imploded earlier this year, has made billions of dollars from Anthropic's listing.  https:// ft.trib.al/bUHLaNQ",
+          "url": "https://x.com/FT/status/2123519715066659256",
+          "timestamp": "2026-11-20T04:52:07.000+08:00",
+          "interaction": 985
+        },
+        {
+          "handle": "aleabitoreddit",
+          "platform": "X",
+          "text": "$AAPL  is now developing its own AI agent offerings to compete vs.  $ANT , Meta Muse, Google Gemini, and OpenAI.   Given on-device inference isn't quite ready yet for complex workflows...  + Apple isn't really known for doing much in the AI race  This is pretty positive for",
+          "url": "https://x.com/aleabitoreddit/status/2123543880780132572",
+          "timestamp": "2026-11-20T06:28:09.000+08:00",
+          "interaction": 567
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Anthropic has overtaken OpenAI in terms of use by US businesses.  https:// ft.trib.al/drNR6jS",
+          "url": "https://x.com/FT/status/2123542861991833891",
+          "timestamp": "2026-11-20T06:24:06.000+08:00",
+          "interaction": 172
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Anthropic's massive AI spending commitments, in charts. Follow live updates here:  https:// ft.trib.al/vuJqV97",
+          "url": "https://x.com/FT/status/2123523307995529395",
+          "timestamp": "2026-11-20T05:06:24.000+08:00",
+          "interaction": 160
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Anthropic popped 17% to close at about $97 a share in its Wall Street debut after raising $81bn in the biggest-ever IPO.  https:// ft.trib.al/wqux5IJ",
+          "url": "https://x.com/FT/status/2123527515897503798",
+          "timestamp": "2026-11-20T05:23:07.000+08:00",
+          "interaction": 89
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Anthropic shares jump 17% after record Wall Street listing",
+          "url": "https://x.com/FT/status/2123523262239891800",
+          "timestamp": "2026-11-20T05:06:13.000+08:00",
+          "interaction": 87
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "The number of Anthropic corporate customers spending at least $100,000 on its Claude chatbot has surged. But the company acknowledged in its IPO filing that about 25% of its revenue in 2026 came from its five biggest customers.  https:// ft.trib.al/8KHyjZf",
+          "url": "https://x.com/FT/status/2123534811872506172",
+          "timestamp": "2026-11-20T05:52:07.000+08:00",
+          "interaction": 72
+        }
+      ]
+    },
+    {
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
       "own_count": 1,
       "competitor_count": 5,
-      "competitor_engagement": 3134,
+      "competitor_engagement": 4486,
       "competitors_covering": [
+        "QQ_Timmy",
+        "FT",
         "pequityresearch",
         "aleabitoreddit"
       ],
@@ -218,7 +494,15 @@
           "text": "I'm hearing multiple things from industry executives:  1. Potential  $NVDA  employee exodus if Jensen doesn't come back soon.  Many senior management and engineers can easily retire after Nvidia stock appreciation over the years.  They don't need to continue working sitting on",
           "url": "https://x.com/aleabitoreddit/status/2123565807653552458",
           "timestamp": "2026-11-20T07:55:17.000+08:00",
-          "interaction": 2917
+          "interaction": 3935
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "US approved sale of Nvidia and AMD chips to Chinese companies",
+          "url": "https://x.com/FT/status/2123581451853549724",
+          "timestamp": "2026-11-20T08:57:27.000+08:00",
+          "interaction": 306
         },
         {
           "handle": "pequityresearch",
@@ -226,15 +510,7 @@
           "text": "A lot of heavy lifting here from Nvidia and Micron. Excluding them, its closer to 23x. Not egregious but looks entirely different when looking outside of them.    $MU   $NVDA",
           "url": "https://x.com/pequityresearch/status/2123571822280990907",
           "timestamp": "2026-11-20T08:19:11.000+08:00",
-          "interaction": 89
-        },
-        {
-          "handle": "pequityresearch",
-          "platform": "X",
-          "text": "Nvidia and AMD requested the sales of 3.4 million AI chips to China, of which more than 879,000 were approved by the BIS to be sold to Alibaba and Tencent. Two companies flagged as \"Chinese Military Companies\" by the Department of War.    $AMD   $NVDA",
-          "url": "https://x.com/pequityresearch/status/2123503803898941765",
-          "timestamp": "2026-11-20T03:48:54.000+08:00",
-          "interaction": 66
+          "interaction": 126
         },
         {
           "handle": "pequityresearch",
@@ -242,15 +518,15 @@
           "text": "Expert Takeaways: CoreWeave  > 2027 capex & funding mix: ~$40B total spend (~$20B data-center capex at ~$20M/MW for 1 GW plus ~$15–20B GPU capex) is funded via ~$25B DDTL, ~$9B customer prepayments, and only ~$5B residual parent equity.  > Funding certainty & debt cost: Existing",
           "url": "https://x.com/pequityresearch/status/2123536797430894824",
           "timestamp": "2026-11-20T06:00:00.000+08:00",
-          "interaction": 58
+          "interaction": 65
         },
         {
-          "handle": "pequityresearch",
+          "handle": "QQ_Timmy",
           "platform": "X",
-          "text": "Really detailed read on Nvidia …",
-          "url": "https://x.com/pequityresearch/status/2123493362452025814",
-          "timestamp": "2026-11-20T03:07:24.000+08:00",
-          "interaction": 4
+          "text": "〈AI 機櫃太重，多數舊資料中心撐不住〉  1、AI 機櫃的重量已遠超舊資料中心的設計 1）NVIDIA（  $NVDA ）GB300 NVL72 機櫃在液冷迴路注滿冷卻液後重 1,590 公斤。 2）2011 年的典型伺服器機櫃約 450 公斤。NVIDIA 說明年的 Vera Rubin 機櫃約 4,000 磅，約 1,814 公斤。",
+          "url": "https://x.com/QQ_Timmy/status/2123579516245467374",
+          "timestamp": "2026-11-20T08:49:45.000+08:00",
+          "interaction": 54
         }
       ]
     },
@@ -258,9 +534,10 @@
       "cluster_id": "D",
       "label": "CSP / 資料中心",
       "own_count": 1,
-      "competitor_count": 5,
-      "competitor_engagement": 713,
+      "competitor_count": 7,
+      "competitor_engagement": 800,
       "competitors_covering": [
+        "QQ_Timmy",
         "pequityresearch",
         "aleabitoreddit"
       ],
@@ -271,23 +548,7 @@
           "text": "$AAPL  is now developing its own AI agent offerings to compete vs.  $ANT , Meta Muse, Google Gemini, and OpenAI.   Given on-device inference isn't quite ready yet for complex workflows...  + Apple isn't really known for doing much in the AI race  This is pretty positive for",
           "url": "https://x.com/aleabitoreddit/status/2123543880780132572",
           "timestamp": "2026-11-20T06:28:09.000+08:00",
-          "interaction": 531
-        },
-        {
-          "handle": "pequityresearch",
-          "platform": "X",
-          "text": "Expert Takeaways: CoreWeave  > 2027 capex & funding mix: ~$40B total spend (~$20B data-center capex at ~$20M/MW for 1 GW plus ~$15–20B GPU capex) is funded via ~$25B DDTL, ~$9B customer prepayments, and only ~$5B residual parent equity.  > Funding certainty & debt cost: Existing",
-          "url": "https://x.com/pequityresearch/status/2123536797430894824",
-          "timestamp": "2026-11-20T06:00:00.000+08:00",
-          "interaction": 58
-        },
-        {
-          "handle": "pequityresearch",
-          "platform": "X",
-          "text": "I hate this idea from Meta so much I don't even have words to explain it. They all sat in a room and thought of this as the best consumer device they could make using Muse?",
-          "url": "https://x.com/pequityresearch/status/2123510777122349132",
-          "timestamp": "2026-11-20T04:16:36.000+08:00",
-          "interaction": 58
+          "interaction": 567
         },
         {
           "handle": "pequityresearch",
@@ -295,7 +556,31 @@
           "text": "CoreWeave vs IREN backlog quality  IREN has almost half of their backlog coming from Microsoft, while CoreWeave has a more diversified set of customers. Highest single customer concentration from CoreWeave comes from Meta (22%).   $IREN   $CRWV",
           "url": "https://x.com/pequityresearch/status/2123579364029640716",
           "timestamp": "2026-11-20T08:49:09.000+08:00",
-          "interaction": 57
+          "interaction": 73
+        },
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "Expert Takeaways: CoreWeave  > 2027 capex & funding mix: ~$40B total spend (~$20B data-center capex at ~$20M/MW for 1 GW plus ~$15–20B GPU capex) is funded via ~$25B DDTL, ~$9B customer prepayments, and only ~$5B residual parent equity.  > Funding certainty & debt cost: Existing",
+          "url": "https://x.com/pequityresearch/status/2123536797430894824",
+          "timestamp": "2026-11-20T06:00:00.000+08:00",
+          "interaction": 65
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "〈AI 機櫃太重，多數舊資料中心撐不住〉  1、AI 機櫃的重量已遠超舊資料中心的設計 1）NVIDIA（  $NVDA ）GB300 NVL72 機櫃在液冷迴路注滿冷卻液後重 1,590 公斤。 2）2011 年的典型伺服器機櫃約 450 公斤。NVIDIA 說明年的 Vera Rubin 機櫃約 4,000 磅，約 1,814 公斤。",
+          "url": "https://x.com/QQ_Timmy/status/2123579516245467374",
+          "timestamp": "2026-11-20T08:49:45.000+08:00",
+          "interaction": 54
+        },
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "Takeaways: Server CPU Outlook  > Rumors of Meta and Microsoft cutting server CPU orders are overblown. Microsoft’s total order volume is unchanged—only manufacturing allocation across ODMs was reshuffled.  > Meta is trimming legacy x86 orders (primarily Intel Emerald Rapids) to",
+          "url": "https://x.com/pequityresearch/status/2123622611674652930",
+          "timestamp": "2026-11-20T11:41:00.000+08:00",
+          "interaction": 21
         },
         {
           "handle": "pequityresearch",
@@ -303,15 +588,23 @@
           "text": "CEO of Microsoft, Satya Nadella, is apologizing for the Microsoft Outlook outage and does not blame AI for the reason behind it.  I think a lot of working people are actually thanking Microsoft for the outage last week 🤣    $MSFT",
           "url": "https://x.com/pequityresearch/status/2123521705821839582",
           "timestamp": "2026-11-20T05:00:02.000+08:00",
+          "interaction": 11
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "〈伺服器 CPU 展望重點〉  - 近期 Meta（  $META ）和微軟（Microsoft,  $MSFT ）砍單的傳聞被誇大了。Meta 正把部分 x86 CPU（主要是 Emerald Rapids）轉向 Grace 和 Vera CPU（超過 50 萬顆），代表它在為代理式 AI 加速部署一般伺服器。  Venice CPU 出貨量預估：2027 年最高約 600",
+          "url": "https://x.com/QQ_Timmy/status/2123610629328224758",
+          "timestamp": "2026-11-20T10:53:23.000+08:00",
           "interaction": 9
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-11-20T02:03:56+08:00",
-    "end_utc": "2026-11-20T10:03:56+08:00",
-    "start_tw": "Nov 20, 02:03",
-    "end_tw": "Nov 20, 10:03"
+    "start_utc": "2026-11-20T04:30:58+08:00",
+    "end_utc": "2026-11-20T12:30:58+08:00",
+    "start_tw": "Nov 20, 04:30",
+    "end_tw": "Nov 20, 12:30"
   }
 }

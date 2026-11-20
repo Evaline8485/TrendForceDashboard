@@ -1,359 +1,193 @@
 {
-  "generated_at": "2026-11-20T10:03:56+08:00",
+  "generated_at": "2026-11-20T12:30:58+08:00",
   "time_range": "4h",
   "window": {
-    "start_utc": "2026-11-20T06:03:56+08:00",
-    "end_utc": "2026-11-20T10:03:56+08:00",
-    "start_tw": "Nov 20, 06:03",
-    "end_tw": "Nov 20, 10:03"
+    "start_utc": "2026-11-20T08:30:58+08:00",
+    "end_utc": "2026-11-20T12:30:58+08:00",
+    "start_tw": "Nov 20, 08:30",
+    "end_tw": "Nov 20, 12:30"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 12,
+      "total_posts": 32,
       "sentiment_counts": {
-        "positive": 9,
-        "neutral": 3
+        "negative": 11,
+        "neutral": 9,
+        "positive": 12
       },
       "sentiment_share": {
-        "positive": 0.75,
-        "neutral": 0.25
+        "negative": 0.344,
+        "neutral": 0.281,
+        "positive": 0.375
       },
       "top_terms": [
+        "takeaways",
+        "memory",
         "meta",
-        "nvidia",
-        "openai",
-        "compute",
+        "microsoft",
+        "iren",
+        "nand",
         "elon",
         "musk",
-        "customers",
-        "micron",
-        "closer",
-        "nvda"
+        "demand",
+        "pricing"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 0,
-        "label": "meta / vs / micron / customers",
+        "topic_id": 2,
+        "label": "datacenter / elected / biggest / greg",
         "heat": 50.0,
-        "volume": 9,
-        "engagement": 1405,
+        "volume": 2,
+        "engagement": 114,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "tomorrowx / discussions / takeaways / nand",
+        "heat": 50.0,
+        "volume": 3,
+        "engagement": 22,
         "entities": [],
         "is_catchall": false
       },
       {
         "topic_id": 1,
-        "label": "nvidia / nvda / micron / compute",
-        "heat": 50.0,
-        "volume": 3,
-        "engagement": 3006,
+        "label": "micron / dram / memory / roadmap",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 36,
         "entities": [],
         "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "cpu / meta / microsoft / emerald",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 30,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "anthropic / ipo / stocks / openai",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 22,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 0,
+        "label": "其他（未分群，21 篇）",
+        "heat": 10.0,
+        "volume": 21,
+        "engagement": 1985,
+        "entities": [
+          "亞洲",
+          "伺服器"
+        ],
+        "is_catchall": true
       }
     ],
-    "named_entities": [],
+    "named_entities": [
+      {
+        "entity": "亞洲",
+        "count": 1
+      },
+      {
+        "entity": "伺服器",
+        "count": 1
+      }
+    ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-11-20T06:03:55.999994+08:00",
-        "bucket_end": "2026-11-20T06:21:04.571423+08:00",
+        "bucket_start": "2026-11-20T08:30:57.999994+08:00",
+        "bucket_end": "2026-11-20T08:48:06.571423+08:00",
         "positive": 0,
-        "neutral": 0,
+        "neutral": 1,
         "negative": 0,
         "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "neutral_engagement": 230,
         "negative_engagement": 0,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
+        "post_count": 1,
+        "engagement": 230,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 33.3,
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Lenders aim to bar SpaceX from launching $40bn of chips into orbit",
+            "url": "https://x.com/FT/status/2123577499783160026",
+            "interaction": 230
+          }
+        ],
+        "net_sentiment_smoothed": 22.2,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-20T06:21:04.571423+08:00",
-        "bucket_end": "2026-11-20T06:38:13.142852+08:00",
-        "positive": 1,
-        "neutral": 0,
+        "bucket_start": "2026-11-20T08:48:06.571423+08:00",
+        "bucket_end": "2026-11-20T09:05:15.142852+08:00",
+        "positive": 2,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 531,
-        "neutral_engagement": 0,
+        "positive_engagement": 360,
+        "neutral_engagement": 73,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 531,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "meta / vs / micron / customers",
-            "count": 1
-          }
-        ],
+        "net_sentiment": 66.7,
+        "post_count": 3,
+        "engagement": 433,
+        "top_topics": [],
         "top_posts": [
           {
-            "handle": "aleabitoreddit",
+            "handle": "FT",
             "platform": "X",
-            "text": "$AAPL  is now developing its own AI agent offerings to compete vs.  $ANT , Meta Muse, Google Gemini, and OpenAI.   Given on-device inference isn't quite ready yet for complex workflows...  + Apple isn",
-            "url": "https://x.com/aleabitoreddit/status/2123543880780132572",
-            "interaction": 531
+            "text": "US approved sale of Nvidia and AMD chips to Chinese companies",
+            "url": "https://x.com/FT/status/2123581451853549724",
+            "interaction": 306
+          },
+          {
+            "handle": "pequityresearch",
+            "platform": "X",
+            "text": "CoreWeave vs IREN backlog quality  IREN has almost half of their backlog coming from Microsoft, while CoreWeave has a more diversified set of customers. Highest single customer concentration from Core",
+            "url": "https://x.com/pequityresearch/status/2123579364029640716",
+            "interaction": 73
           }
         ],
         "net_sentiment_smoothed": 25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-20T06:38:13.142852+08:00",
-        "bucket_end": "2026-11-20T06:55:21.714281+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 134,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 134,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "meta / vs / micron / customers",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "pequityresearch",
-            "platform": "X",
-            "text": "Dr. Doofenshmirtz",
-            "url": "https://x.com/pequityresearch/status/2123549974960955593",
-            "interaction": 134
-          }
-        ],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-20T06:55:21.714281+08:00",
-        "bucket_end": "2026-11-20T07:12:30.285710+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-20T07:12:30.285710+08:00",
-        "bucket_end": "2026-11-20T07:29:38.857139+08:00",
+        "bucket_start": "2026-11-20T09:05:15.142852+08:00",
+        "bucket_end": "2026-11-20T09:22:23.714281+08:00",
         "positive": 1,
         "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 25,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 25,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "meta / vs / micron / customers",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "pequityresearch",
-            "platform": "X",
-            "text": "BofA: 34% of fund managers say the biggest tail risk to the market is an AI bubble, followed by 31% saying an AI hyperscaler credit event.    $GOOGL   $META   $MSFT   $AMZN   $ORCL",
-            "url": "https://x.com/pequityresearch/status/2123555933628293312",
-            "interaction": 25
-          }
-        ],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-20T07:29:38.857139+08:00",
-        "bucket_end": "2026-11-20T07:46:47.428568+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
+        "negative_engagement": 99,
         "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-20T07:46:47.428568+08:00",
-        "bucket_end": "2026-11-20T08:03:55.999997+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 2923,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
         "post_count": 2,
-        "engagement": 2923,
+        "engagement": 99,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "meta / vs / micron / customers",
+            "topic_id": 1,
+            "label": "micron / dram / memory / roadmap",
             "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "FT Exclusive: Elon Musk’s ambitions to build data centres in space could face legal challenges, as investors backing SpaceX’s latest debt package demand protection  https:// ft.trib.al/6ungucL",
+            "url": "https://x.com/FT/status/2123585966539452491",
+            "interaction": 99
           },
-          {
-            "topic_id": 1,
-            "label": "nvidia / nvda / micron / compute",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "aleabitoreddit",
-            "platform": "X",
-            "text": "I'm hearing multiple things from industry executives:  1. Potential  $NVDA  employee exodus if Jensen doesn't come back soon.  Many senior management and engineers can easily retire after Nvidia stock",
-            "url": "https://x.com/aleabitoreddit/status/2123565807653552458",
-            "interaction": 2917
-          },
-          {
-            "handle": "pequityresearch",
-            "platform": "X",
-            "text": "This is a really long and detailed read but worth …",
-            "url": "https://x.com/pequityresearch/status/2123563954970546311",
-            "interaction": 6
-          }
-        ],
-        "net_sentiment_smoothed": 60.0,
-        "is_anomaly": true
-      },
-      {
-        "bucket_start": "2026-11-20T08:03:55.999997+08:00",
-        "bucket_end": "2026-11-20T08:21:04.571426+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 89,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 89,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "nvidia / nvda / micron / compute",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "pequityresearch",
-            "platform": "X",
-            "text": "A lot of heavy lifting here from Nvidia and Micron. Excluding them, its closer to 23x. Not egregious but looks entirely different when looking outside of them.    $MU   $NVDA",
-            "url": "https://x.com/pequityresearch/status/2123571822280990907",
-            "interaction": 89
-          }
-        ],
-        "net_sentiment_smoothed": 40.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-20T08:21:04.571426+08:00",
-        "bucket_end": "2026-11-20T08:38:13.142855+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "nvidia / nvda / micron / compute",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "TrendForce",
-            "platform": "LinkedIn",
-            "text": "🤔 U.S. export curbs are rattling Southeast Asia’s GPU rental financing! Banks have reportedly paused work on a US$480M loan for NVIDIA GPUs tied to ByteDance. What’s next for Chinese tech firms relyin",
-            "url": "https://www.linkedin.com/feed/update/urn:li:share:7529340423580880896/",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 60.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-20T08:38:13.142855+08:00",
-        "bucket_end": "2026-11-20T08:55:21.714284+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 57,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 57,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "meta / vs / micron / customers",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "pequityresearch",
-            "platform": "X",
-            "text": "CoreWeave vs IREN backlog quality  IREN has almost half of their backlog coming from Microsoft, while CoreWeave has a more diversified set of customers. Highest single customer concentration from Core",
-            "url": "https://x.com/pequityresearch/status/2123579364029640716",
-            "interaction": 57
-          }
-        ],
-        "net_sentiment_smoothed": 60.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-20T08:55:21.714284+08:00",
-        "bucket_end": "2026-11-20T09:12:30.285713+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 0,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "meta / vs / micron / customers",
-            "count": 1
-          }
-        ],
-        "top_posts": [
           {
             "handle": "TrendForce",
             "platform": "LinkedIn",
@@ -362,25 +196,25 @@
             "interaction": 0
           }
         ],
-        "net_sentiment_smoothed": 60.0,
+        "net_sentiment_smoothed": 33.3,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-20T09:12:30.285713+08:00",
-        "bucket_end": "2026-11-20T09:29:38.857142+08:00",
-        "positive": 1,
+        "bucket_start": "2026-11-20T09:22:23.714281+08:00",
+        "bucket_end": "2026-11-20T09:39:32.285710+08:00",
+        "positive": 2,
         "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 470,
+        "negative": 1,
+        "positive_engagement": 653,
         "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 470,
+        "negative_engagement": 36,
+        "net_sentiment": 33.3,
+        "post_count": 3,
+        "engagement": 689,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "meta / vs / micron / customers",
+            "topic_id": 1,
+            "label": "micron / dram / memory / roadmap",
             "count": 1
           }
         ],
@@ -390,45 +224,35 @@
             "platform": "X",
             "text": "True, I've looked at biotech, physical AI, cybersecurity, space, and others... But I still have conviction that optics is the most compelling opportunity.   If you look at Elon Musk  $SPCX  (Mesh acqu",
             "url": "https://x.com/aleabitoreddit/status/2123588783753048553",
-            "interaction": 470
+            "interaction": 639
+          },
+          {
+            "handle": "TrendForce",
+            "platform": "X",
+            "text": "📈 Beyond shedding more light on its 3D DRAM roadmap, #Micron is pushing back against fears of a memory price reversal. With 75% of its 2027 supply already sold out, the chipmaker sees even tighter mar",
+            "url": "https://x.com/trendforce/status/2123588166859079849",
+            "interaction": 36
           }
         ],
-        "net_sentiment_smoothed": 60.0,
+        "net_sentiment_smoothed": 46.7,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-20T09:29:38.857142+08:00",
-        "bucket_end": "2026-11-20T09:46:47.428571+08:00",
-        "positive": 0,
-        "neutral": 0,
+        "bucket_start": "2026-11-20T09:39:32.285710+08:00",
+        "bucket_end": "2026-11-20T09:56:40.857139+08:00",
+        "positive": 2,
+        "neutral": 1,
         "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
+        "positive_engagement": 30,
+        "neutral_engagement": 8,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 75.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-20T09:46:47.428571+08:00",
-        "bucket_end": "2026-11-20T10:03:56+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 9,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 9,
+        "net_sentiment": 66.7,
+        "post_count": 3,
+        "engagement": 38,
         "top_topics": [
           {
-            "topic_id": 0,
-            "label": "meta / vs / micron / customers",
+            "topic_id": 3,
+            "label": "anthropic / ipo / stocks / openai",
             "count": 1
           }
         ],
@@ -438,45 +262,339 @@
             "platform": "X",
             "text": "President of OpenAI, Greg Brockman, says he asked for compute from both Elon Musk and Sergey Brin:  \"Certainly I've asked and I also asked Sergey for compute. I think the world is not building enough ",
             "url": "https://x.com/pequityresearch/status/2123595684611830059",
-            "interaction": 9
+            "interaction": 20
+          },
+          {
+            "handle": "tengyanAI",
+            "platform": "X",
+            "text": "what was holding openAI back from IPO-ing before anthropic?  there's a finite amount of capital out there and being first to market in a new defining category is clearly an advantage  congrats to anth",
+            "url": "https://x.com/tengyanAI/status/2123596242500632933",
+            "interaction": 10
           }
         ],
-        "net_sentiment_smoothed": 66.7,
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-20T09:56:40.857139+08:00",
+        "bucket_end": "2026-11-20T10:13:49.428568+08:00",
+        "positive": 2,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 255,
+        "neutral_engagement": 6,
+        "negative_engagement": 0,
+        "net_sentiment": 66.7,
+        "post_count": 3,
+        "engagement": 261,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "aleabitoreddit",
+            "platform": "X",
+            "text": "I'm actually very impressed with market-chan. If we look at ESMT numbers today:   > $1.58B MC > $747M net cash, $274.7M net inventory from Q3 > $349.5M in Q3 free cash flow Adjusted EV: $559.3M  > Q3 ",
+            "url": "https://x.com/aleabitoreddit/status/2123598186065559858",
+            "interaction": 236
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Good morning, Asia. While you were sleeping, one of our most-read stories was about an accord to improve UK-EU trade, which is set to be sealed after a dispute was resolved with France  https:// ft.tr",
+            "url": "https://x.com/FT/status/2123598732545388713",
+            "interaction": 19
+          }
+        ],
+        "net_sentiment_smoothed": 20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-20T10:13:49.428568+08:00",
+        "bucket_end": "2026-11-20T10:30:57.999997+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 2,
+        "positive_engagement": 0,
+        "neutral_engagement": 14,
+        "negative_engagement": 113,
+        "net_sentiment": -66.7,
+        "post_count": 3,
+        "engagement": 127,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "datacenter / elected / biggest / greg",
+            "count": 2
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Before the election, we called a prolonged Texas permit freeze the biggest risk to our US datacenter forecast. Texas then elected the candidate who campaigned on a moratorium: Gina Hinojosa beat Greg ",
+            "url": "https://x.com/SemiAnalysis_/status/2123602891713708464",
+            "interaction": 100
+          },
+          {
+            "handle": "SemiAnalysis_",
+            "platform": "X",
+            "text": "Georgia and Ohio also elected governors who ran on pausing new datacenter construction. (2/5)",
+            "url": "https://x.com/SemiAnalysis_/status/2123602893789962391",
+            "interaction": 14
+          }
+        ],
+        "net_sentiment_smoothed": 17.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-20T10:30:57.999997+08:00",
+        "bucket_end": "2026-11-20T10:48:06.571426+08:00",
+        "positive": 0,
+        "neutral": 2,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 22,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 2,
+        "engagement": 22,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "tomorrowx / discussions / takeaways / nand",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The Xi, Trump, Putin meeting and the dawn of a post-western world",
+            "url": "https://x.com/FT/status/2123606933055664481",
+            "interaction": 19
+          },
+          {
+            "handle": "pequityresearch",
+            "platform": "X",
+            "text": "My takeaways from tomorrowx and some discussions I…",
+            "url": "https://x.com/pequityresearch/status/2123608261467218326",
+            "interaction": 3
+          }
+        ],
+        "net_sentiment_smoothed": 4.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-20T10:48:06.571426+08:00",
+        "bucket_end": "2026-11-20T11:05:15.142855+08:00",
+        "positive": 3,
+        "neutral": 0,
+        "negative": 2,
+        "positive_engagement": 22,
+        "neutral_engagement": 0,
+        "negative_engagement": 27,
+        "net_sentiment": 20.0,
+        "post_count": 5,
+        "engagement": 49,
+        "top_topics": [
+          {
+            "topic_id": 4,
+            "label": "tomorrowx / discussions / takeaways / nand",
+            "count": 2
+          },
+          {
+            "topic_id": 5,
+            "label": "cpu / meta / microsoft / emerald",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "pequityresearch",
+            "platform": "X",
+            "text": "Takeaways & Discussions | TomorrowX  Several CEOs discussed current demand signals, financing conditions, and future of AI.   Along with this, I spoke with several different people, including some ana",
+            "url": "https://x.com/pequityresearch/status/2123610028619764133",
+            "interaction": 18
+          },
+          {
+            "handle": "tengyanAI",
+            "platform": "X",
+            "text": "fyi if you want to dig deeper into the evidence + our calculations, you can read the earnings transcripts straight from Tessara, within 15 mins after every call.   this is from the nov 5 IREN: \"It's p",
+            "url": "https://x.com/tengyanAI/status/2123613083763724389",
+            "interaction": 12
+          }
+        ],
+        "net_sentiment_smoothed": -9.3,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-11-20T11:05:15.142855+08:00",
+        "bucket_end": "2026-11-20T11:22:23.714284+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 99,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 99,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Previously confidential records show that American companies sought permission to ship more than 3mn chips to Chinese groups, including some that the Pentagon believed were associated with the People’",
+            "url": "https://x.com/FT/status/2123616719381930080",
+            "interaction": 99
+          }
+        ],
+        "net_sentiment_smoothed": -16.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-20T11:22:23.714284+08:00",
+        "bucket_end": "2026-11-20T11:39:32.285713+08:00",
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 5,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 1,
+        "engagement": 5,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "QQ_Timmy",
+            "platform": "X",
+            "text": "LPKF Laser & Electronics（ https:// LPK.DE）新聞稿〈LPKF 再接到先進封裝量產設備訂單〉｜2026/11/16  1、訂單內容 1）LPKF 接到一家亞洲先進半導體封裝元件大廠的訂單，金額是數百萬歐元的中段水準。 2）客戶會用",
+            "url": "https://x.com/QQ_Timmy/status/2123621596313407633",
+            "interaction": 5
+          }
+        ],
+        "net_sentiment_smoothed": -36.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-20T11:39:32.285713+08:00",
+        "bucket_end": "2026-11-20T11:56:40.857142+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 21,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 21,
+        "top_topics": [
+          {
+            "topic_id": 5,
+            "label": "cpu / meta / microsoft / emerald",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "pequityresearch",
+            "platform": "X",
+            "text": "Takeaways: Server CPU Outlook  > Rumors of Meta and Microsoft cutting server CPU orders are overblown. Microsoft’s total order volume is unchanged—only manufacturing allocation across ODMs was reshuff",
+            "url": "https://x.com/pequityresearch/status/2123622611674652930",
+            "interaction": 21
+          }
+        ],
+        "net_sentiment_smoothed": -60.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-20T11:56:40.857142+08:00",
+        "bucket_end": "2026-11-20T12:13:49.428571+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 6,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 6,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "statementdog",
+            "platform": "X",
+            "text": "Standard MLCC pricing is firming up, too. China’s Three-Circle (6951 HK) told Morgan Stanley’s Asia Pacific Summit that its average MLCC selling price rose 20% to 30% quarter over quarter in Q3 2026, ",
+            "url": "https://x.com/statementdog/status/2123627399044620716",
+            "interaction": 6
+          }
+        ],
+        "net_sentiment_smoothed": -75.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-20T12:13:49.428571+08:00",
+        "bucket_end": "2026-11-20T12:30:58+08:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 2,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 126,
+        "net_sentiment": -100.0,
+        "post_count": 2,
+        "engagement": 126,
+        "top_topics": [
+          {
+            "topic_id": 3,
+            "label": "anthropic / ipo / stocks / openai",
+            "count": 1
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "aleabitoreddit",
+            "platform": "X",
+            "text": "Markets appear to be wrongly interpreting Chinese eSSD cuts as deteriorating demand and NAND oversupply.  Phison CEO commentary today + more context behind  $SNDK  / Kioxia selloff regarding Trendforc",
+            "url": "https://x.com/aleabitoreddit/status/2123633356969775107",
+            "interaction": 114
+          },
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "Tech stocks fall as Anthropic IPO fails to stem broader AI sell-off",
+            "url": "https://x.com/FT/status/2123631407582822775",
+            "interaction": 12
+          }
+        ],
+        "net_sentiment_smoothed": -100.0,
         "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 0,
-        "label": "meta / vs / micron / customers",
+        "topic_id": 4,
+        "label": "tomorrowx / discussions / takeaways / nand",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -491,26 +609,96 @@
             "volume": 1
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           }
         ]
       },
       {
         "topic_id": 1,
-        "label": "nvidia / nvda / micron / compute",
+        "label": "micron / dram / memory / roadmap",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "datacenter / elected / biggest / greg",
         "cells": [
           {
             "net_sentiment": 0.0,
@@ -537,12 +725,120 @@
             "volume": 0
           },
           {
+            "net_sentiment": -50.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "cpu / meta / microsoft / emerald",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
             "net_sentiment": 100.0,
             "volume": 1
           },
           {
             "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
             "volume": 1
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "anthropic / ipo / stocks / openai",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 100.0,
@@ -567,74 +863,184 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 1
           }
         ]
       }
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "pequityresearch",
+        "handle": "TrendForce",
         "platform": "X",
-        "top_topic_id": 0,
-        "top_topic_label": "meta / vs / micron / customers",
-        "focus_share": 0.833,
-        "post_count": 6,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "aleabitoreddit",
-        "platform": "X",
-        "top_topic_id": 0,
-        "top_topic_label": "meta / vs / micron / customers",
-        "focus_share": 0.75,
-        "post_count": 4,
+        "top_topic_id": 1,
+        "top_topic_label": "micron / dram / memory / roadmap",
+        "focus_share": 1.0,
+        "post_count": 1,
         "unclustered_posts": 0
       },
       {
         "handle": "TrendForce",
         "platform": "LinkedIn",
-        "top_topic_id": 0,
-        "top_topic_label": "meta / vs / micron / customers",
-        "focus_share": 0.5,
+        "top_topic_id": 1,
+        "top_topic_label": "micron / dram / memory / roadmap",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 0
+      },
+      {
+        "handle": "SemiAnalysis_",
+        "platform": "X",
+        "top_topic_id": 2,
+        "top_topic_label": "datacenter / elected / biggest / greg",
+        "focus_share": 1.0,
         "post_count": 2,
         "unclustered_posts": 0
+      },
+      {
+        "handle": "QQ_Timmy",
+        "platform": "X",
+        "top_topic_id": 5,
+        "top_topic_label": "cpu / meta / microsoft / emerald",
+        "focus_share": 1.0,
+        "post_count": 3,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "tengyanAI",
+        "platform": "X",
+        "top_topic_id": 3,
+        "top_topic_label": "anthropic / ipo / stocks / openai",
+        "focus_share": 1.0,
+        "post_count": 5,
+        "unclustered_posts": 4
+      },
+      {
+        "handle": "FT",
+        "platform": "X",
+        "top_topic_id": 3,
+        "top_topic_label": "anthropic / ipo / stocks / openai",
+        "focus_share": 1.0,
+        "post_count": 9,
+        "unclustered_posts": 8
+      },
+      {
+        "handle": "statementdog",
+        "platform": "X",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，21 篇）",
+        "focus_share": 1.0,
+        "post_count": 2,
+        "unclustered_posts": 2
+      },
+      {
+        "handle": "aleabitoreddit",
+        "platform": "X",
+        "top_topic_id": 0,
+        "top_topic_label": "其他（未分群，21 篇）",
+        "focus_share": 1.0,
+        "post_count": 3,
+        "unclustered_posts": 3
+      },
+      {
+        "handle": "pequityresearch",
+        "platform": "X",
+        "top_topic_id": 4,
+        "top_topic_label": "tomorrowx / discussions / takeaways / nand",
+        "focus_share": 0.75,
+        "post_count": 6,
+        "unclustered_posts": 2
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "nvidia / nvda / micron / compute",
-        "total_engagement": 3006,
-        "post_count": 3,
-        "top_account": "aleabitoreddit",
+        "topic_id": 2,
+        "label": "datacenter / elected / biggest / greg",
+        "total_engagement": 114,
+        "post_count": 2,
+        "top_account": "SemiAnalysis_",
         "top_account_platform": "X",
-        "top_account_engagement": 2917,
+        "top_account_engagement": 114,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "micron / dram / memory / roadmap",
+        "total_engagement": 36,
+        "post_count": 2,
+        "top_account": "TrendForce",
+        "top_account_platform": "X",
+        "top_account_engagement": 36,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "cpu / meta / microsoft / emerald",
+        "total_engagement": 30,
+        "post_count": 2,
+        "top_account": "pequityresearch",
+        "top_account_platform": "X",
+        "top_account_engagement": 21,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "anthropic / ipo / stocks / openai",
+        "total_engagement": 22,
+        "post_count": 2,
+        "top_account": "FT",
+        "top_account_platform": "X",
+        "top_account_engagement": 12,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "tomorrowx / discussions / takeaways / nand",
+        "total_engagement": 22,
+        "post_count": 3,
+        "top_account": "pequityresearch",
+        "top_account_platform": "X",
+        "top_account_engagement": 22,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "meta / vs / micron / customers",
-        "total_engagement": 1405,
-        "post_count": 9,
+        "label": "其他（未分群，21 篇）",
+        "total_engagement": 1985,
+        "post_count": 21,
         "top_account": "aleabitoreddit",
         "top_account_platform": "X",
-        "top_account_engagement": 1174,
-        "is_catchall": false
+        "top_account_engagement": 989,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 12,
-          "likes": 3692,
-          "engagement": 4411,
-          "avg_engagement": 367.6
+          "post_count": 28,
+          "likes": 1543,
+          "engagement": 2073,
+          "avg_engagement": 74.0
         },
         "afternoon": {
-          "post_count": 0,
-          "likes": 0,
-          "engagement": 0,
-          "avg_engagement": 0.0
+          "post_count": 4,
+          "likes": 109,
+          "engagement": 136,
+          "avg_engagement": 34.0
         },
         "evening": {
           "post_count": 0,

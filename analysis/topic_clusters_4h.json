@@ -3,59 +3,83 @@
     {
       "id": "A",
       "label": "記憶體 / HBM",
-      "size": 3,
+      "size": 6,
       "accounts": {
+        "TrendForce": 2,
+        "tengyanAI": 1,
         "pequityresearch": 1,
-        "aleabitoreddit": 1,
-        "TrendForce": 1
+        "aleabitoreddit": 2
       },
       "engagement_by_account": {
-        "pequityresearch": 89,
-        "aleabitoreddit": 470,
-        "TrendForce": 0
-      }
-    },
-    {
-      "id": "B",
-      "label": "GPU / AI 加速器",
-      "size": 3,
-      "accounts": {
-        "pequityresearch": 1,
-        "aleabitoreddit": 1,
-        "TrendForce": 1
-      },
-      "engagement_by_account": {
-        "pequityresearch": 89,
-        "aleabitoreddit": 2917,
-        "TrendForce": 0
+        "TrendForce": 36,
+        "tengyanAI": 14,
+        "pequityresearch": 18,
+        "aleabitoreddit": 753
       }
     },
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 3,
+      "size": 4,
       "accounts": {
-        "pequityresearch": 1,
-        "aleabitoreddit": 1,
-        "TrendForce": 1
+        "QQ_Timmy": 2,
+        "pequityresearch": 2
       },
       "engagement_by_account": {
-        "pequityresearch": 57,
-        "aleabitoreddit": 531,
-        "TrendForce": 0
+        "QQ_Timmy": 63,
+        "pequityresearch": 94
       }
     },
     {
       "id": "K",
       "label": "AI 模型 / 應用",
-      "size": 2,
+      "size": 3,
       "accounts": {
-        "pequityresearch": 1,
-        "aleabitoreddit": 1
+        "tengyanAI": 1,
+        "FT": 1,
+        "pequityresearch": 1
       },
       "engagement_by_account": {
-        "pequityresearch": 9,
-        "aleabitoreddit": 531
+        "tengyanAI": 10,
+        "FT": 12,
+        "pequityresearch": 20
+      }
+    },
+    {
+      "id": "B",
+      "label": "GPU / AI 加速器",
+      "size": 2,
+      "accounts": {
+        "QQ_Timmy": 1,
+        "FT": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 54,
+        "FT": 306
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 2,
+      "accounts": {
+        "QQ_Timmy": 1,
+        "pequityresearch": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 5,
+        "pequityresearch": 21
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 54
       }
     },
     {
@@ -66,18 +90,18 @@
         "aleabitoreddit": 1
       },
       "engagement_by_account": {
-        "aleabitoreddit": 470
+        "aleabitoreddit": 639
       }
     },
     {
-      "id": "O",
-      "label": "邊緣 AI / 新終端",
+      "id": "J",
+      "label": "PCB / 載板 / 被動元件",
       "size": 1,
       "accounts": {
-        "aleabitoreddit": 1
+        "statementdog": 1
       },
       "engagement_by_account": {
-        "aleabitoreddit": 531
+        "statementdog": 6
       }
     },
     {
@@ -88,16 +112,195 @@
         "aleabitoreddit": 1
       },
       "engagement_by_account": {
-        "aleabitoreddit": 470
+        "aleabitoreddit": 639
+      }
+    },
+    {
+      "id": "R",
+      "label": "散熱 / HVAC",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 54
       }
     }
   ],
-  "gaps": [],
-  "suggested_entry_points": [],
+  "gaps": [
+    {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 157,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "pequityresearch"
+      ],
+      "sample_posts": [
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "CoreWeave vs IREN backlog quality  IREN has almost half of their backlog coming from Microsoft, while CoreWeave has a more diversified set of customers. Highest single customer concentration from CoreWeave comes from Meta (22%).   $IREN   $CRWV",
+          "url": "https://x.com/pequityresearch/status/2123579364029640716",
+          "timestamp": "2026-11-20T08:49:09.000+08:00",
+          "interaction": 73
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "〈AI 機櫃太重，多數舊資料中心撐不住〉  1、AI 機櫃的重量已遠超舊資料中心的設計 1）NVIDIA（  $NVDA ）GB300 NVL72 機櫃在液冷迴路注滿冷卻液後重 1,590 公斤。 2）2011 年的典型伺服器機櫃約 450 公斤。NVIDIA 說明年的 Vera Rubin 機櫃約 4,000 磅，約 1,814 公斤。",
+          "url": "https://x.com/QQ_Timmy/status/2123579516245467374",
+          "timestamp": "2026-11-20T08:49:45.000+08:00",
+          "interaction": 54
+        },
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "Takeaways: Server CPU Outlook  > Rumors of Meta and Microsoft cutting server CPU orders are overblown. Microsoft’s total order volume is unchanged—only manufacturing allocation across ODMs was reshuffled.  > Meta is trimming legacy x86 orders (primarily Intel Emerald Rapids) to",
+          "url": "https://x.com/pequityresearch/status/2123622611674652930",
+          "timestamp": "2026-11-20T11:41:00.000+08:00",
+          "interaction": 21
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "〈伺服器 CPU 展望重點〉  - 近期 Meta（  $META ）和微軟（Microsoft,  $MSFT ）砍單的傳聞被誇大了。Meta 正把部分 x86 CPU（主要是 Emerald Rapids）轉向 Grace 和 Vera CPU（超過 50 萬顆），代表它在為代理式 AI 加速部署一般伺服器。  Venice CPU 出貨量預估：2027 年最高約 600",
+          "url": "https://x.com/QQ_Timmy/status/2123610629328224758",
+          "timestamp": "2026-11-20T10:53:23.000+08:00",
+          "interaction": 9
+        }
+      ]
+    },
+    {
+      "cluster_id": "K",
+      "label": "AI 模型 / 應用",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 42,
+      "competitors_covering": [
+        "tengyanAI",
+        "FT",
+        "pequityresearch"
+      ],
+      "sample_posts": [
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "President of OpenAI, Greg Brockman, says he asked for compute from both Elon Musk and Sergey Brin:  \"Certainly I've asked and I also asked Sergey for compute. I think the world is not building enough compute and I think that the world we are heading to, this technology, again we",
+          "url": "https://x.com/pequityresearch/status/2123595684611830059",
+          "timestamp": "2026-11-20T09:54:00.000+08:00",
+          "interaction": 20
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Tech stocks fall as Anthropic IPO fails to stem broader AI sell-off",
+          "url": "https://x.com/FT/status/2123631407582822775",
+          "timestamp": "2026-11-20T12:15:57.000+08:00",
+          "interaction": 12
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "what was holding openAI back from IPO-ing before anthropic?  there's a finite amount of capital out there and being first to market in a new defining category is clearly an advantage  congrats to anthropic - well deserved. your models are the best in the world",
+          "url": "https://x.com/tengyanAI/status/2123596242500632933",
+          "timestamp": "2026-11-20T09:56:13.000+08:00",
+          "interaction": 10
+        }
+      ]
+    }
+  ],
+  "suggested_entry_points": [
+    {
+      "cluster_id": "D",
+      "label": "CSP / 資料中心",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 157,
+      "competitors_covering": [
+        "QQ_Timmy",
+        "pequityresearch"
+      ],
+      "sample_posts": [
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "CoreWeave vs IREN backlog quality  IREN has almost half of their backlog coming from Microsoft, while CoreWeave has a more diversified set of customers. Highest single customer concentration from CoreWeave comes from Meta (22%).   $IREN   $CRWV",
+          "url": "https://x.com/pequityresearch/status/2123579364029640716",
+          "timestamp": "2026-11-20T08:49:09.000+08:00",
+          "interaction": 73
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "〈AI 機櫃太重，多數舊資料中心撐不住〉  1、AI 機櫃的重量已遠超舊資料中心的設計 1）NVIDIA（  $NVDA ）GB300 NVL72 機櫃在液冷迴路注滿冷卻液後重 1,590 公斤。 2）2011 年的典型伺服器機櫃約 450 公斤。NVIDIA 說明年的 Vera Rubin 機櫃約 4,000 磅，約 1,814 公斤。",
+          "url": "https://x.com/QQ_Timmy/status/2123579516245467374",
+          "timestamp": "2026-11-20T08:49:45.000+08:00",
+          "interaction": 54
+        },
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "Takeaways: Server CPU Outlook  > Rumors of Meta and Microsoft cutting server CPU orders are overblown. Microsoft’s total order volume is unchanged—only manufacturing allocation across ODMs was reshuffled.  > Meta is trimming legacy x86 orders (primarily Intel Emerald Rapids) to",
+          "url": "https://x.com/pequityresearch/status/2123622611674652930",
+          "timestamp": "2026-11-20T11:41:00.000+08:00",
+          "interaction": 21
+        },
+        {
+          "handle": "QQ_Timmy",
+          "platform": "X",
+          "text": "〈伺服器 CPU 展望重點〉  - 近期 Meta（  $META ）和微軟（Microsoft,  $MSFT ）砍單的傳聞被誇大了。Meta 正把部分 x86 CPU（主要是 Emerald Rapids）轉向 Grace 和 Vera CPU（超過 50 萬顆），代表它在為代理式 AI 加速部署一般伺服器。  Venice CPU 出貨量預估：2027 年最高約 600",
+          "url": "https://x.com/QQ_Timmy/status/2123610629328224758",
+          "timestamp": "2026-11-20T10:53:23.000+08:00",
+          "interaction": 9
+        }
+      ]
+    },
+    {
+      "cluster_id": "K",
+      "label": "AI 模型 / 應用",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 42,
+      "competitors_covering": [
+        "tengyanAI",
+        "FT",
+        "pequityresearch"
+      ],
+      "sample_posts": [
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "President of OpenAI, Greg Brockman, says he asked for compute from both Elon Musk and Sergey Brin:  \"Certainly I've asked and I also asked Sergey for compute. I think the world is not building enough compute and I think that the world we are heading to, this technology, again we",
+          "url": "https://x.com/pequityresearch/status/2123595684611830059",
+          "timestamp": "2026-11-20T09:54:00.000+08:00",
+          "interaction": 20
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Tech stocks fall as Anthropic IPO fails to stem broader AI sell-off",
+          "url": "https://x.com/FT/status/2123631407582822775",
+          "timestamp": "2026-11-20T12:15:57.000+08:00",
+          "interaction": 12
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "what was holding openAI back from IPO-ing before anthropic?  there's a finite amount of capital out there and being first to market in a new defining category is clearly an advantage  congrats to anthropic - well deserved. your models are the best in the world",
+          "url": "https://x.com/tengyanAI/status/2123596242500632933",
+          "timestamp": "2026-11-20T09:56:13.000+08:00",
+          "interaction": 10
+        }
+      ]
+    }
+  ],
   "window": {
-    "start_utc": "2026-11-20T06:03:56+08:00",
-    "end_utc": "2026-11-20T10:03:56+08:00",
-    "start_tw": "Nov 20, 06:03",
-    "end_tw": "Nov 20, 10:03"
+    "start_utc": "2026-11-20T08:30:58+08:00",
+    "end_utc": "2026-11-20T12:30:58+08:00",
+    "start_tw": "Nov 20, 08:30",
+    "end_tw": "Nov 20, 12:30"
   }
 }
