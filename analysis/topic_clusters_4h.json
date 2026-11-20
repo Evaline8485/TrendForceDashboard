@@ -5,54 +5,54 @@
       "label": "記憶體 / HBM",
       "size": 32,
       "accounts": {
+        "tengyanAI": 1,
         "pequityresearch": 1,
-        "aleabitoreddit": 1,
         "clubhousetechjob": 30
       },
       "engagement_by_account": {
-        "pequityresearch": 18,
-        "aleabitoreddit": 114,
+        "tengyanAI": 48,
+        "pequityresearch": 113,
         "clubhousetechjob": 32269
-      }
-    },
-    {
-      "id": "F",
-      "label": "晶圓代工 / 先進製程",
-      "size": 17,
-      "accounts": {
-        "QQ_Timmy": 1,
-        "pequityresearch": 1,
-        "clubhousetechjob": 15
-      },
-      "engagement_by_account": {
-        "QQ_Timmy": 5,
-        "pequityresearch": 21,
-        "clubhousetechjob": 10117
       }
     },
     {
       "id": "B",
       "label": "GPU / AI 加速器",
+      "size": 18,
+      "accounts": {
+        "FT": 1,
+        "statementdog": 1,
+        "pequityresearch": 1,
+        "clubhousetechjob": 15
+      },
+      "engagement_by_account": {
+        "FT": 10,
+        "statementdog": 2,
+        "pequityresearch": 87,
+        "clubhousetechjob": 9362
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
       "size": 15,
       "accounts": {
         "clubhousetechjob": 15
       },
       "engagement_by_account": {
-        "clubhousetechjob": 9362
+        "clubhousetechjob": 10117
       }
     },
     {
       "id": "D",
       "label": "CSP / 資料中心",
-      "size": 13,
+      "size": 12,
       "accounts": {
-        "QQ_Timmy": 1,
-        "pequityresearch": 1,
+        "statementdog": 1,
         "clubhousetechjob": 11
       },
       "engagement_by_account": {
-        "QQ_Timmy": 9,
-        "pequityresearch": 21,
+        "statementdog": 23,
         "clubhousetechjob": 3608
       }
     },
@@ -68,6 +68,19 @@
       }
     },
     {
+      "id": "G",
+      "label": "IC 設計",
+      "size": 8,
+      "accounts": {
+        "statementdog": 1,
+        "clubhousetechjob": 7
+      },
+      "engagement_by_account": {
+        "statementdog": 23,
+        "clubhousetechjob": 1339
+      }
+    },
+    {
       "id": "E",
       "label": "AI 伺服器供應鏈",
       "size": 7,
@@ -79,37 +92,28 @@
       }
     },
     {
-      "id": "G",
-      "label": "IC 設計",
-      "size": 7,
-      "accounts": {
-        "clubhousetechjob": 7
-      },
-      "engagement_by_account": {
-        "clubhousetechjob": 1339
-      }
-    },
-    {
       "id": "K",
       "label": "AI 模型 / 應用",
-      "size": 5,
+      "size": 7,
       "accounts": {
-        "FT": 1,
+        "FT": 3,
         "clubhousetechjob": 4
       },
       "engagement_by_account": {
-        "FT": 12,
+        "FT": 97,
         "clubhousetechjob": 1010
       }
     },
     {
       "id": "C",
       "label": "ASIC / 自研晶片",
-      "size": 4,
+      "size": 5,
       "accounts": {
+        "statementdog": 1,
         "clubhousetechjob": 4
       },
       "engagement_by_account": {
+        "statementdog": 23,
         "clubhousetechjob": 235
       }
     },
@@ -122,7 +126,7 @@
         "clubhousetechjob": 2
       },
       "engagement_by_account": {
-        "statementdog": 6,
+        "statementdog": 2,
         "clubhousetechjob": 1025
       }
     },
@@ -166,10 +170,10 @@
       "label": "記憶體 / HBM",
       "own_count": 0,
       "competitor_count": 32,
-      "competitor_engagement": 32401,
+      "competitor_engagement": 32430,
       "competitors_covering": [
+        "tengyanAI",
         "pequityresearch",
-        "aleabitoreddit",
         "clubhousetechjob"
       ],
       "sample_posts": [
@@ -243,11 +247,9 @@
       "cluster_id": "F",
       "label": "晶圓代工 / 先進製程",
       "own_count": 0,
-      "competitor_count": 17,
-      "competitor_engagement": 10143,
+      "competitor_count": 15,
+      "competitor_engagement": 10117,
       "competitors_covering": [
-        "QQ_Timmy",
-        "pequityresearch",
         "clubhousetechjob"
       ],
       "sample_posts": [
@@ -321,9 +323,12 @@
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
       "own_count": 0,
-      "competitor_count": 15,
-      "competitor_engagement": 9362,
+      "competitor_count": 18,
+      "competitor_engagement": 9461,
       "competitors_covering": [
+        "FT",
+        "statementdog",
+        "pequityresearch",
         "clubhousetechjob"
       ],
       "sample_posts": [
@@ -541,11 +546,10 @@
       "cluster_id": "D",
       "label": "CSP / 資料中心",
       "own_count": 0,
-      "competitor_count": 13,
-      "competitor_engagement": 3638,
+      "competitor_count": 12,
+      "competitor_engagement": 3631,
       "competitors_covering": [
-        "QQ_Timmy",
-        "pequityresearch",
+        "statementdog",
         "clubhousetechjob"
       ],
       "sample_posts": [
@@ -619,9 +623,10 @@
       "cluster_id": "G",
       "label": "IC 設計",
       "own_count": 0,
-      "competitor_count": 7,
-      "competitor_engagement": 1339,
+      "competitor_count": 8,
+      "competitor_engagement": 1362,
       "competitors_covering": [
+        "statementdog",
         "clubhousetechjob"
       ],
       "sample_posts": [
@@ -642,6 +647,14 @@
           "interaction": 600
         },
         {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Google’s TPU v9 has an encouraging production update.  MediaTek told Morgan Stanley’s Asia Pacific Summit that it’s comfortable with how yields and output are progressing. It still sees EMIB-T substrate supply as key to the ramp.  MediaTek also said Google could use TPU v8t and",
+          "url": "https://x.com/statementdog/status/2123657598129901766",
+          "timestamp": "2026-11-20T14:00:01.000+08:00",
+          "interaction": 23
+        },
+        {
           "handle": "clubhousetechjob",
           "platform": "Facebook",
           "text": "#選擇認識什麼樣的人\n大家會發現一件事情：你選擇認識什麼樣的人，會影響你的想法蠻多的。如果這些人都是對於未來積極，對於財務有規劃，優秀，認真，那麼你自己也會被感染，很快就會被影響。\n你每天對話的人，決定了你認知的天花板。如果你身邊都是在抱怨環境的人，你眼裡就只有框架；但當你置身於一群已經走在前面、年薪數百萬的工程師，外商主管，供應鏈管理，PM與投資高手之中，你會發現：他們是這樣看職涯的、資產可以這樣佈局。\n----\n這就是為什麼每年年末，《科技工作講》堅持要舉辦年度實體聚會。\n因為如果沒有這個聚會，這些人不會在這一天齊聚一堂。他們只是網路上的某個網友。我個人一年都會要求自己認識業界幾個人，事後",
@@ -660,48 +673,11 @@
       ]
     },
     {
-      "cluster_id": "J",
-      "label": "PCB / 載板 / 被動元件",
-      "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 1031,
-      "competitors_covering": [
-        "statementdog",
-        "clubhousetechjob"
-      ],
-      "sample_posts": [
-        {
-          "handle": "clubhousetechjob",
-          "platform": "Facebook",
-          "text": "景碩是不是無辜被欣興波及到啊",
-          "url": "https://www.facebook.com/clubhousetechjob/posts/pfbid0jPyVxGMNv99mBEVoCB2epd3Nvs6WBdqYavJgP9E6xF1BDbHM9NhK93gEYVzHHhz2l?comment_id=1762357924875655",
-          "timestamp": "2026-11-20T06:41:48.237939+00:00",
-          "interaction": 539
-        },
-        {
-          "handle": "clubhousetechjob",
-          "platform": "Facebook",
-          "text": "每次科技業的討論講到PCB\n就會有人出來澄清PCB不是科技業…… \n查看更多",
-          "url": "https://www.facebook.com/clubhousetechjob/posts/pfbid0pMR6vvTJE5i2E8DUiP5KrjMSLcieoVpP16sMNqHHw3eHXmBU8PCNE69UyPBBAFeMl?__cft__[0]=AZjHxUbyikgqLlzBRX_n4VkUAg1o7WT5XU1gU4pLb3hjXx8C0coXQaGk8yzBVsfj8KuV8K6dcEXFM28Lmiv41xvS3qpTEBLu36sUXOEHSTq_KPE1SYXNT9sadCEr5F8Le7ntfTgnP8TFXEFTndKWqnws_vCFdd_hLlG4PvbLYAmV_gsjRf0BEh4xwWg",
-          "timestamp": "2026-11-20T06:41:48.237939+00:00",
-          "interaction": 486
-        },
-        {
-          "handle": "statementdog",
-          "platform": "X",
-          "text": "Standard MLCC pricing is firming up, too. China’s Three-Circle (6951 HK) told Morgan Stanley’s Asia Pacific Summit that its average MLCC selling price rose 20% to 30% quarter over quarter in Q3 2026, mainly because it raised prices on mid- and low-capacitance parts.  As Murata",
-          "url": "https://x.com/statementdog/status/2123627399044620716",
-          "timestamp": "2026-11-20T12:00:01.000+08:00",
-          "interaction": 6
-        }
-      ]
-    },
-    {
       "cluster_id": "K",
       "label": "AI 模型 / 應用",
       "own_count": 0,
-      "competitor_count": 5,
-      "competitor_engagement": 1022,
+      "competitor_count": 7,
+      "competitor_engagement": 1107,
       "competitors_covering": [
         "FT",
         "clubhousetechjob"
@@ -726,10 +702,26 @@
         {
           "handle": "FT",
           "platform": "X",
-          "text": "Tech stocks fall as Anthropic IPO fails to stem broader AI sell-off",
-          "url": "https://x.com/FT/status/2123631407582822775",
-          "timestamp": "2026-11-20T12:15:57.000+08:00",
-          "interaction": 12
+          "text": "Technology stocks in Asia fell on Friday as Anthropic’s record listing in New York rattled the region’s equity markets and failed to reverse losses from a deepening sell-off in AI companies  https:// ft.trib.al/zppMKrY",
+          "url": "https://x.com/FT/status/2123672826381017206",
+          "timestamp": "2026-11-20T15:00:32.000+08:00",
+          "interaction": 45
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Anthropic’s Wall Street stimulus fades",
+          "url": "https://x.com/FT/status/2123647738436800966",
+          "timestamp": "2026-11-20T13:20:50.000+08:00",
+          "interaction": 41
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "So, Anthropic is finally a public company. What now?",
+          "url": "https://x.com/FT/status/2123656324042961251",
+          "timestamp": "2026-11-20T13:54:57.000+08:00",
+          "interaction": 11
         },
         {
           "handle": "clubhousetechjob",
@@ -742,12 +734,50 @@
       ]
     },
     {
+      "cluster_id": "J",
+      "label": "PCB / 載板 / 被動元件",
+      "own_count": 0,
+      "competitor_count": 3,
+      "competitor_engagement": 1027,
+      "competitors_covering": [
+        "statementdog",
+        "clubhousetechjob"
+      ],
+      "sample_posts": [
+        {
+          "handle": "clubhousetechjob",
+          "platform": "Facebook",
+          "text": "景碩是不是無辜被欣興波及到啊",
+          "url": "https://www.facebook.com/clubhousetechjob/posts/pfbid0jPyVxGMNv99mBEVoCB2epd3Nvs6WBdqYavJgP9E6xF1BDbHM9NhK93gEYVzHHhz2l?comment_id=1762357924875655",
+          "timestamp": "2026-11-20T06:41:48.237939+00:00",
+          "interaction": 539
+        },
+        {
+          "handle": "clubhousetechjob",
+          "platform": "Facebook",
+          "text": "每次科技業的討論講到PCB\n就會有人出來澄清PCB不是科技業…… \n查看更多",
+          "url": "https://www.facebook.com/clubhousetechjob/posts/pfbid0pMR6vvTJE5i2E8DUiP5KrjMSLcieoVpP16sMNqHHw3eHXmBU8PCNE69UyPBBAFeMl?__cft__[0]=AZjHxUbyikgqLlzBRX_n4VkUAg1o7WT5XU1gU4pLb3hjXx8C0coXQaGk8yzBVsfj8KuV8K6dcEXFM28Lmiv41xvS3qpTEBLu36sUXOEHSTq_KPE1SYXNT9sadCEr5F8Le7ntfTgnP8TFXEFTndKWqnws_vCFdd_hLlG4PvbLYAmV_gsjRf0BEh4xwWg",
+          "timestamp": "2026-11-20T06:41:48.237939+00:00",
+          "interaction": 486
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Taiwanese CCL giant Elite Material (2383 TT) really put out a whole filing to say Nvidia has never been more than 20% of its revenue 😭🥶  The stock still closed 45% below its recent high on Nov. 17.  The post-Jensen era is so messy lol",
+          "url": "https://x.com/statementdog/status/2123684631170130013",
+          "timestamp": "2026-11-20T15:47:26.000+08:00",
+          "interaction": 2
+        }
+      ]
+    },
+    {
       "cluster_id": "C",
       "label": "ASIC / 自研晶片",
       "own_count": 0,
-      "competitor_count": 4,
-      "competitor_engagement": 235,
+      "competitor_count": 5,
+      "competitor_engagement": 258,
       "competitors_covering": [
+        "statementdog",
         "clubhousetechjob"
       ],
       "sample_posts": [
@@ -758,6 +788,14 @@
           "url": "https://www.facebook.com/clubhousetechjob/posts/pfbid024ZqsirwxVFwo11BF8s9LVr8X7RxLaaFLD7b4dAX1yMP6yUqbt5Uz9vTERrAN6ah3l?__cft__[0]=AZitls7573UE1fEMRFgJfnnP6VQXsIdm-gSfP5yjqb5MKhfWzF0J8NX8UeR2XFuhXuKd8dmFTmA-ulxVRCpPdLQ7Wc6aPrV18v-r4h7b0gOZ1y6tp3tWKJSbjEfEQnR12thWj4cyZFFJ5i_h22A1ekwAgSRDRu8sqFEcPMMUrFyPg-t4mqOeuttDuiM",
           "timestamp": "2026-11-20T06:41:48.237939+00:00",
           "interaction": 235
+        },
+        {
+          "handle": "statementdog",
+          "platform": "X",
+          "text": "Google’s TPU v9 has an encouraging production update.  MediaTek told Morgan Stanley’s Asia Pacific Summit that it’s comfortable with how yields and output are progressing. It still sees EMIB-T substrate supply as key to the ramp.  MediaTek also said Google could use TPU v8t and",
+          "url": "https://x.com/statementdog/status/2123657598129901766",
+          "timestamp": "2026-11-20T14:00:01.000+08:00",
+          "interaction": 23
         },
         {
           "handle": "clubhousetechjob",
@@ -776,10 +814,10 @@
       "label": "記憶體 / HBM",
       "own_count": 0,
       "competitor_count": 32,
-      "competitor_engagement": 32401,
+      "competitor_engagement": 32430,
       "competitors_covering": [
+        "tengyanAI",
         "pequityresearch",
-        "aleabitoreddit",
         "clubhousetechjob"
       ],
       "sample_posts": [
@@ -853,11 +891,9 @@
       "cluster_id": "F",
       "label": "晶圓代工 / 先進製程",
       "own_count": 0,
-      "competitor_count": 17,
-      "competitor_engagement": 10143,
+      "competitor_count": 15,
+      "competitor_engagement": 10117,
       "competitors_covering": [
-        "QQ_Timmy",
-        "pequityresearch",
         "clubhousetechjob"
       ],
       "sample_posts": [
@@ -931,9 +967,12 @@
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
       "own_count": 0,
-      "competitor_count": 15,
-      "competitor_engagement": 9362,
+      "competitor_count": 18,
+      "competitor_engagement": 9461,
       "competitors_covering": [
+        "FT",
+        "statementdog",
+        "pequityresearch",
         "clubhousetechjob"
       ],
       "sample_posts": [
@@ -1149,9 +1188,9 @@
     }
   ],
   "window": {
-    "start_utc": "2026-11-20T02:41:48.237939+00:00",
-    "end_utc": "2026-11-20T06:41:48.237939+00:00",
-    "start_tw": "Nov 20, 10:41",
-    "end_tw": "Nov 20, 14:41"
+    "start_utc": "2026-11-20T12:30:08+08:00",
+    "end_utc": "2026-11-20T16:30:08+08:00",
+    "start_tw": "Nov 20, 12:30",
+    "end_tw": "Nov 20, 16:30"
   }
 }
