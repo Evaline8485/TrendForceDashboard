@@ -3,12 +3,73 @@
     {
       "id": "B",
       "label": "GPU / AI 加速器",
-      "size": 3,
+      "size": 9,
       "accounts": {
+        "TrendForce": 1,
+        "SemiAnalysis_": 2,
+        "FT": 1,
+        "pequityresearch": 1,
+        "aleabitoreddit": 1,
         "yutinghaosfinance": 3
       },
       "engagement_by_account": {
+        "TrendForce": 9,
+        "SemiAnalysis_": 780,
+        "FT": 99,
+        "pequityresearch": 74,
+        "aleabitoreddit": 482,
         "yutinghaosfinance": 1928
+      }
+    },
+    {
+      "id": "D",
+      "label": "CSP / 資料中心",
+      "size": 6,
+      "accounts": {
+        "TrendForce": 1,
+        "tengyanAI": 1,
+        "statementdog": 1,
+        "dnystedt": 1,
+        "technewsinside": 1,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "TrendForce": 9,
+        "tengyanAI": 35,
+        "statementdog": 9,
+        "dnystedt": 75,
+        "technewsinside": 24,
+        "yutinghaosfinance": 1341
+      }
+    },
+    {
+      "id": "A",
+      "label": "記憶體 / HBM",
+      "size": 4,
+      "accounts": {
+        "tengyanAI": 1,
+        "pequityresearch": 2,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "tengyanAI": 35,
+        "pequityresearch": 187,
+        "yutinghaosfinance": 1341
+      }
+    },
+    {
+      "id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "size": 4,
+      "accounts": {
+        "dnystedt": 2,
+        "technewsinside": 1,
+        "yutinghaosfinance": 1
+      },
+      "engagement_by_account": {
+        "dnystedt": 126,
+        "technewsinside": 68,
+        "yutinghaosfinance": 1341
       }
     },
     {
@@ -23,51 +84,40 @@
       }
     },
     {
-      "id": "D",
-      "label": "CSP / 資料中心",
-      "size": 2,
-      "accounts": {
-        "technewsinside": 1,
-        "yutinghaosfinance": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 24,
-        "yutinghaosfinance": 1341
-      }
-    },
-    {
-      "id": "F",
-      "label": "晶圓代工 / 先進製程",
-      "size": 2,
-      "accounts": {
-        "technewsinside": 1,
-        "yutinghaosfinance": 1
-      },
-      "engagement_by_account": {
-        "technewsinside": 68,
-        "yutinghaosfinance": 1341
-      }
-    },
-    {
-      "id": "A",
-      "label": "記憶體 / HBM",
-      "size": 1,
-      "accounts": {
-        "yutinghaosfinance": 1
-      },
-      "engagement_by_account": {
-        "yutinghaosfinance": 1341
-      }
-    },
-    {
       "id": "C",
       "label": "ASIC / 自研晶片",
-      "size": 1,
+      "size": 2,
       "accounts": {
+        "statementdog": 1,
         "yutinghaosfinance": 1
       },
       "engagement_by_account": {
+        "statementdog": 10,
         "yutinghaosfinance": 1341
+      }
+    },
+    {
+      "id": "K",
+      "label": "AI 模型 / 應用",
+      "size": 2,
+      "accounts": {
+        "FT": 1,
+        "pequityresearch": 1
+      },
+      "engagement_by_account": {
+        "FT": 28,
+        "pequityresearch": 3
+      }
+    },
+    {
+      "id": "E",
+      "label": "AI 伺服器供應鏈",
+      "size": 1,
+      "accounts": {
+        "dnystedt": 1
+      },
+      "engagement_by_account": {
+        "dnystedt": 71
       }
     },
     {
@@ -79,6 +129,28 @@
       },
       "engagement_by_account": {
         "yutinghaosfinance": 1341
+      }
+    },
+    {
+      "id": "H",
+      "label": "網通 / 光通訊",
+      "size": 1,
+      "accounts": {
+        "statementdog": 1
+      },
+      "engagement_by_account": {
+        "statementdog": 10
+      }
+    },
+    {
+      "id": "L",
+      "label": "總經 / Fed",
+      "size": 1,
+      "accounts": {
+        "QQ_Timmy": 1
+      },
+      "engagement_by_account": {
+        "QQ_Timmy": 14
       }
     },
     {
@@ -144,10 +216,14 @@
     {
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
-      "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 1928,
+      "own_count": 1,
+      "competitor_count": 8,
+      "competitor_engagement": 3363,
       "competitors_covering": [
+        "SemiAnalysis_",
+        "FT",
+        "pequityresearch",
+        "aleabitoreddit",
         "yutinghaosfinance"
       ],
       "sample_posts": [
@@ -168,12 +244,135 @@
           "interaction": 850
         },
         {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Cerebras loves to claim that their output interactivity is 2000 tok/s/user on Kimi K3.1 2.8T, but based on their demo (YouTube video “Cerebras Demo: Running Kimi K3.1 at 2,000 Tokens/Sec”), that is only for short contexts with a context prompt less than 100 tokens long.",
+          "url": "https://x.com/SemiAnalysis_/status/2124684387761430549",
+          "timestamp": "2026-11-23T10:00:07.000+08:00",
+          "interaction": 482
+        },
+        {
+          "handle": "aleabitoreddit",
+          "platform": "X",
+          "text": "President Trump: \"I hope the Board of Nvidia rehires Jensen Huang\"  Jensen's return to  $NVDA  is looking a lot more likely.   Especially with the support from the US president.",
+          "url": "https://x.com/aleabitoreddit/status/2124715837533859857",
+          "timestamp": "2026-11-23T12:05:05.000+08:00",
+          "interaction": 482
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "BREAKING NEWS🚨: New SGLang Rubin NVL72 submission delivers 6.5x better performance per dollar than GB300 NVL72🚨. SGLANG IS NOT A CAR! 🚨   This is done on the new OSS Kimi K3.1 Pro model architecture, which is less than 3 weeks old and has over 2.8 trillion parameters (similar",
+          "url": "https://x.com/SemiAnalysis_/status/2124637709176016998",
+          "timestamp": "2026-11-23T06:54:38.000+08:00",
+          "interaction": 298
+        },
+        {
           "handle": "yutinghaosfinance",
           "platform": "Facebook",
           "text": "美國對中國AI晶片出口管制再度引發爭議，根據美國眾議院外交事務委員會，本週公開的出口許可紀錄，川普政府在2025年12月至2026年5月期間，收到輝達H200與AMD MI325X晶片合計約340萬顆的出口申請，截至5月11日已核准21件申請、共879,868顆晶片。…… \n查看更多",
           "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02ni5NaoSx3o75oP2kpqnoMuSSRZTfmzY2QryHJeUoaAtidNu296R6FziDxfRPm31ul?__cft__[0]=AZjzfkxu46g2UvRMteF9Nb-dxDHdpByg3GhaXgbs7cyaFuaJyK6Uxo8w1xValJiRFURODdVn5MwSDi_WCrxIH_Km2CxxMw3Q2gNxa4WxNJFTOrq3FUi9y0BUGFze9oApNxtNzvyvfU8UTJ7e_zGkBqdBNPK4IJCE5x_J4thgGTnKP2FK67MwYiRspJY",
           "timestamp": "2026-11-22T23:06:34.550004+00:00",
           "interaction": 190
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Good morning, Asia. While you were sleeping, our most-read story was about the US Treasury secretary appearing to soften his calls for new leadership at Nvidia amid a growing clamour for the former chief’s reinstatement  https:// ft.trib.al/GqiANJH",
+          "url": "https://x.com/FT/status/2124671207962267914",
+          "timestamp": "2026-11-23T09:07:45.000+08:00",
+          "interaction": 99
+        },
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "Trump really wants Jensen to return to Nvidia...   $NVDA",
+          "url": "https://x.com/pequityresearch/status/2124701518989598973",
+          "timestamp": "2026-11-23T11:08:11.000+08:00",
+          "interaction": 74
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 1563,
+      "competitors_covering": [
+        "tengyanAI",
+        "pequityresearch",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "痛苦是比較來的，CoreWeave從歷史高點暴跌76%，甲骨文與SanDisk雙雙重挫68%，Nebius下跌66%，英特爾跌幅也達61%。記憶體與半導體族群同樣遭到猛烈拋售，威騰電子與Arm均下跌60%，美光下跌43%，輝達也從高點回落39%，博通與台積電ADR則分別下跌28%。",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0f8whELCSM2DcrRtG5nPfnuU8f3jksex27oNhTvY9hBaHHL2kJTsjN4L2N1fMcvnfl?__cft__[0]=AZi04W6jp7XuxLIVWOAiwhLxrsNSRnRr6FiP_iQIYAZmm4YMdf-sUHpJwGfZWMs7Tri5JzEiK3vJ1XvBP89gKL42Fa1bY3Zl8hw8RHtNMwdi3Y86q2ptrnS2c4v-quowwWKzUIMZLuU0840i66WMWskwRpBSl2tQQ392Scm79DDzmdGAaJEb0-B16bs",
+          "timestamp": "2026-11-22T23:06:34.550004+00:00",
+          "interaction": 1341
+        },
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "Citi: DDR5 contract and spot price forecasts   $MU   $DRAM   $EWY   $SKHY",
+          "url": "https://x.com/pequityresearch/status/2124641842859815326",
+          "timestamp": "2026-11-23T07:11:03.000+08:00",
+          "interaction": 139
+        },
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "Meritz Securities is reporting that memory makers are now holding talks for ultra-long LTAs that would commit buyers to purchases of up to 20 years, beyond the traditional 10.   I personally find that beyond ridiculous to even consider...   $MU   $DRAM   $EWY   $SKHY   $GOOGL   $MSFT   $AMZN",
+          "url": "https://x.com/pequityresearch/status/2124710322321621145",
+          "timestamp": "2026-11-23T11:43:10.000+08:00",
+          "interaction": 48
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "meritz securities says its channel checks show US big tech proposing memory LTAs with purchase commitments up to 20 years. makers are reluctant to lock in capacity on a buy promise alone.  makes sense. the fab needs cash and the capex risk sits with the maker. micron said its",
+          "url": "https://x.com/tengyanAI/status/2124706194266948094",
+          "timestamp": "2026-11-23T11:26:46.000+08:00",
+          "interaction": 35
+        }
+      ]
+    },
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 1467,
+      "competitors_covering": [
+        "dnystedt",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "痛苦是比較來的，CoreWeave從歷史高點暴跌76%，甲骨文與SanDisk雙雙重挫68%，Nebius下跌66%，英特爾跌幅也達61%。記憶體與半導體族群同樣遭到猛烈拋售，威騰電子與Arm均下跌60%，美光下跌43%，輝達也從高點回落39%，博通與台積電ADR則分別下跌28%。",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0f8whELCSM2DcrRtG5nPfnuU8f3jksex27oNhTvY9hBaHHL2kJTsjN4L2N1fMcvnfl?__cft__[0]=AZi04W6jp7XuxLIVWOAiwhLxrsNSRnRr6FiP_iQIYAZmm4YMdf-sUHpJwGfZWMs7Tri5JzEiK3vJ1XvBP89gKL42Fa1bY3Zl8hw8RHtNMwdi3Y86q2ptrnS2c4v-quowwWKzUIMZLuU0840i66WMWskwRpBSl2tQQ392Scm79DDzmdGAaJEb0-B16bs",
+          "timestamp": "2026-11-22T23:06:34.550004+00:00",
+          "interaction": 1341
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "TSMC’s 1nm fab project in the south Taiwan city of Tainan will be supported by an NT$109.6 billion (US$3.3B) Taipower investment in power-transmission, media report. Science parks in and around the city are expected to require 8,000MW of power, for a power load of 400MW per",
+          "url": "https://x.com/dnystedt/status/2124660702464061519",
+          "timestamp": "2026-11-23T08:26:00.000+08:00",
+          "interaction": 96
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "ASE’s CoWoS-like capacity will exceed Amkor’s for the first time in 2027 as it expands to meet server CPU demand for the packaging, DigiTimes reports. The report says ASE’s and SPIL’s combined CoWoS-like packaging capacity. ASE owns SPIL, but SPIL continues to operate",
+          "url": "https://x.com/dnystedt/status/2124660882672374081",
+          "timestamp": "2026-11-23T08:26:43.000+08:00",
+          "interaction": 30
         }
       ]
     }
@@ -218,10 +417,14 @@
     {
       "cluster_id": "B",
       "label": "GPU / AI 加速器",
-      "own_count": 0,
-      "competitor_count": 3,
-      "competitor_engagement": 1928,
+      "own_count": 1,
+      "competitor_count": 8,
+      "competitor_engagement": 3363,
       "competitors_covering": [
+        "SemiAnalysis_",
+        "FT",
+        "pequityresearch",
+        "aleabitoreddit",
         "yutinghaosfinance"
       ],
       "sample_posts": [
@@ -242,20 +445,143 @@
           "interaction": 850
         },
         {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "Cerebras loves to claim that their output interactivity is 2000 tok/s/user on Kimi K3.1 2.8T, but based on their demo (YouTube video “Cerebras Demo: Running Kimi K3.1 at 2,000 Tokens/Sec”), that is only for short contexts with a context prompt less than 100 tokens long.",
+          "url": "https://x.com/SemiAnalysis_/status/2124684387761430549",
+          "timestamp": "2026-11-23T10:00:07.000+08:00",
+          "interaction": 482
+        },
+        {
+          "handle": "aleabitoreddit",
+          "platform": "X",
+          "text": "President Trump: \"I hope the Board of Nvidia rehires Jensen Huang\"  Jensen's return to  $NVDA  is looking a lot more likely.   Especially with the support from the US president.",
+          "url": "https://x.com/aleabitoreddit/status/2124715837533859857",
+          "timestamp": "2026-11-23T12:05:05.000+08:00",
+          "interaction": 482
+        },
+        {
+          "handle": "SemiAnalysis_",
+          "platform": "X",
+          "text": "BREAKING NEWS🚨: New SGLang Rubin NVL72 submission delivers 6.5x better performance per dollar than GB300 NVL72🚨. SGLANG IS NOT A CAR! 🚨   This is done on the new OSS Kimi K3.1 Pro model architecture, which is less than 3 weeks old and has over 2.8 trillion parameters (similar",
+          "url": "https://x.com/SemiAnalysis_/status/2124637709176016998",
+          "timestamp": "2026-11-23T06:54:38.000+08:00",
+          "interaction": 298
+        },
+        {
           "handle": "yutinghaosfinance",
           "platform": "Facebook",
           "text": "美國對中國AI晶片出口管制再度引發爭議，根據美國眾議院外交事務委員會，本週公開的出口許可紀錄，川普政府在2025年12月至2026年5月期間，收到輝達H200與AMD MI325X晶片合計約340萬顆的出口申請，截至5月11日已核准21件申請、共879,868顆晶片。…… \n查看更多",
           "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid02ni5NaoSx3o75oP2kpqnoMuSSRZTfmzY2QryHJeUoaAtidNu296R6FziDxfRPm31ul?__cft__[0]=AZjzfkxu46g2UvRMteF9Nb-dxDHdpByg3GhaXgbs7cyaFuaJyK6Uxo8w1xValJiRFURODdVn5MwSDi_WCrxIH_Km2CxxMw3Q2gNxa4WxNJFTOrq3FUi9y0BUGFze9oApNxtNzvyvfU8UTJ7e_zGkBqdBNPK4IJCE5x_J4thgGTnKP2FK67MwYiRspJY",
           "timestamp": "2026-11-22T23:06:34.550004+00:00",
           "interaction": 190
+        },
+        {
+          "handle": "FT",
+          "platform": "X",
+          "text": "Good morning, Asia. While you were sleeping, our most-read story was about the US Treasury secretary appearing to soften his calls for new leadership at Nvidia amid a growing clamour for the former chief’s reinstatement  https:// ft.trib.al/GqiANJH",
+          "url": "https://x.com/FT/status/2124671207962267914",
+          "timestamp": "2026-11-23T09:07:45.000+08:00",
+          "interaction": 99
+        },
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "Trump really wants Jensen to return to Nvidia...   $NVDA",
+          "url": "https://x.com/pequityresearch/status/2124701518989598973",
+          "timestamp": "2026-11-23T11:08:11.000+08:00",
+          "interaction": 74
+        }
+      ]
+    },
+    {
+      "cluster_id": "A",
+      "label": "記憶體 / HBM",
+      "own_count": 0,
+      "competitor_count": 4,
+      "competitor_engagement": 1563,
+      "competitors_covering": [
+        "tengyanAI",
+        "pequityresearch",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "痛苦是比較來的，CoreWeave從歷史高點暴跌76%，甲骨文與SanDisk雙雙重挫68%，Nebius下跌66%，英特爾跌幅也達61%。記憶體與半導體族群同樣遭到猛烈拋售，威騰電子與Arm均下跌60%，美光下跌43%，輝達也從高點回落39%，博通與台積電ADR則分別下跌28%。",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0f8whELCSM2DcrRtG5nPfnuU8f3jksex27oNhTvY9hBaHHL2kJTsjN4L2N1fMcvnfl?__cft__[0]=AZi04W6jp7XuxLIVWOAiwhLxrsNSRnRr6FiP_iQIYAZmm4YMdf-sUHpJwGfZWMs7Tri5JzEiK3vJ1XvBP89gKL42Fa1bY3Zl8hw8RHtNMwdi3Y86q2ptrnS2c4v-quowwWKzUIMZLuU0840i66WMWskwRpBSl2tQQ392Scm79DDzmdGAaJEb0-B16bs",
+          "timestamp": "2026-11-22T23:06:34.550004+00:00",
+          "interaction": 1341
+        },
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "Citi: DDR5 contract and spot price forecasts   $MU   $DRAM   $EWY   $SKHY",
+          "url": "https://x.com/pequityresearch/status/2124641842859815326",
+          "timestamp": "2026-11-23T07:11:03.000+08:00",
+          "interaction": 139
+        },
+        {
+          "handle": "pequityresearch",
+          "platform": "X",
+          "text": "Meritz Securities is reporting that memory makers are now holding talks for ultra-long LTAs that would commit buyers to purchases of up to 20 years, beyond the traditional 10.   I personally find that beyond ridiculous to even consider...   $MU   $DRAM   $EWY   $SKHY   $GOOGL   $MSFT   $AMZN",
+          "url": "https://x.com/pequityresearch/status/2124710322321621145",
+          "timestamp": "2026-11-23T11:43:10.000+08:00",
+          "interaction": 48
+        },
+        {
+          "handle": "tengyanAI",
+          "platform": "X",
+          "text": "meritz securities says its channel checks show US big tech proposing memory LTAs with purchase commitments up to 20 years. makers are reluctant to lock in capacity on a buy promise alone.  makes sense. the fab needs cash and the capex risk sits with the maker. micron said its",
+          "url": "https://x.com/tengyanAI/status/2124706194266948094",
+          "timestamp": "2026-11-23T11:26:46.000+08:00",
+          "interaction": 35
+        }
+      ]
+    },
+    {
+      "cluster_id": "F",
+      "label": "晶圓代工 / 先進製程",
+      "own_count": 1,
+      "competitor_count": 3,
+      "competitor_engagement": 1467,
+      "competitors_covering": [
+        "dnystedt",
+        "yutinghaosfinance"
+      ],
+      "sample_posts": [
+        {
+          "handle": "yutinghaosfinance",
+          "platform": "Facebook",
+          "text": "痛苦是比較來的，CoreWeave從歷史高點暴跌76%，甲骨文與SanDisk雙雙重挫68%，Nebius下跌66%，英特爾跌幅也達61%。記憶體與半導體族群同樣遭到猛烈拋售，威騰電子與Arm均下跌60%，美光下跌43%，輝達也從高點回落39%，博通與台積電ADR則分別下跌28%。",
+          "url": "https://www.facebook.com/yutinghaosfinance/posts/pfbid0f8whELCSM2DcrRtG5nPfnuU8f3jksex27oNhTvY9hBaHHL2kJTsjN4L2N1fMcvnfl?__cft__[0]=AZi04W6jp7XuxLIVWOAiwhLxrsNSRnRr6FiP_iQIYAZmm4YMdf-sUHpJwGfZWMs7Tri5JzEiK3vJ1XvBP89gKL42Fa1bY3Zl8hw8RHtNMwdi3Y86q2ptrnS2c4v-quowwWKzUIMZLuU0840i66WMWskwRpBSl2tQQ392Scm79DDzmdGAaJEb0-B16bs",
+          "timestamp": "2026-11-22T23:06:34.550004+00:00",
+          "interaction": 1341
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "TSMC’s 1nm fab project in the south Taiwan city of Tainan will be supported by an NT$109.6 billion (US$3.3B) Taipower investment in power-transmission, media report. Science parks in and around the city are expected to require 8,000MW of power, for a power load of 400MW per",
+          "url": "https://x.com/dnystedt/status/2124660702464061519",
+          "timestamp": "2026-11-23T08:26:00.000+08:00",
+          "interaction": 96
+        },
+        {
+          "handle": "dnystedt",
+          "platform": "X",
+          "text": "ASE’s CoWoS-like capacity will exceed Amkor’s for the first time in 2027 as it expands to meet server CPU demand for the packaging, DigiTimes reports. The report says ASE’s and SPIL’s combined CoWoS-like packaging capacity. ASE owns SPIL, but SPIL continues to operate",
+          "url": "https://x.com/dnystedt/status/2124660882672374081",
+          "timestamp": "2026-11-23T08:26:43.000+08:00",
+          "interaction": 30
         }
       ]
     }
   ],
   "window": {
-    "start_utc": "2026-11-22T15:06:34.550004+00:00",
-    "end_utc": "2026-11-22T23:06:34.550004+00:00",
-    "start_tw": "Nov 22, 23:06",
-    "end_tw": "Nov 23, 07:06"
+    "start_utc": "2026-11-23T04:21:32+08:00",
+    "end_utc": "2026-11-23T12:21:32+08:00",
+    "start_tw": "Nov 23, 04:21",
+    "end_tw": "Nov 23, 12:21"
   }
 }
