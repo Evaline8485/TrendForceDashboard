@@ -1,176 +1,259 @@
 {
-  "generated_at": "2026-11-23T12:21:32+08:00",
+  "generated_at": "2026-11-23T08:58:41.097761+00:00",
   "time_range": "1h",
   "window": {
-    "start_utc": "2026-11-23T11:21:32+08:00",
-    "end_utc": "2026-11-23T12:21:32+08:00",
-    "start_tw": "Nov 23, 11:21",
-    "end_tw": "Nov 23, 12:21"
+    "start_utc": "2026-11-23T07:58:41.097761+00:00",
+    "end_utc": "2026-11-23T08:58:41.097761+00:00",
+    "start_tw": "Nov 23, 15:58",
+    "end_tw": "Nov 23, 16:58"
   },
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 10,
+      "total_posts": 40,
       "sentiment_counts": {
-        "negative": 1,
-        "positive": 5,
-        "neutral": 4
+        "negative": 14,
+        "neutral": 16,
+        "positive": 10
       },
       "sentiment_share": {
-        "negative": 0.1,
-        "positive": 0.5,
-        "neutral": 0.4
+        "negative": 0.35,
+        "neutral": 0.4,
+        "positive": 0.25
       },
       "top_terms": [
-        "meritz",
-        "securities",
-        "memory",
-        "ltas",
-        "makers",
-        "japan",
-        "diamond",
-        "foundry",
-        "球首",
-        "首見"
+        "輝達",
+        "晶片",
+        "算力",
+        "黃仁",
+        "仁勳",
+        "黃仁勳",
+        "反而",
+        "成本",
+        "記憶",
+        "憶體"
       ]
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
-        "label": "美國",
+        "topic_id": 2,
+        "label": "輝達",
         "heat": 90.0,
-        "volume": 8,
-        "engagement": 538,
+        "volume": 5,
+        "engagement": 94,
         "entities": [
-          "美國"
+          "輝達",
+          "黃仁勳",
+          "司法部",
+          "台積電",
+          "城河"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "megaspeed / 輝達",
+        "heat": 52.7,
+        "volume": 4,
+        "engagement": 64,
+        "entities": [
+          "輝達",
+          "柬埔寨",
+          "養大",
+          "黑市",
+          "中資與軍"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 6,
+        "label": "台股",
+        "heat": 50.0,
+        "volume": 2,
+        "engagement": 127,
+        "entities": [],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "記憶體",
+        "heat": 30.9,
+        "volume": 3,
+        "engagement": 69,
+        "entities": [
+          "戴爾",
+          "超微",
+          "伺服器",
+          "美光",
+          "三星"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "晶片 / amd / 輝達 / anthropic",
+        "heat": 20.4,
+        "volume": 3,
+        "engagement": 47,
+        "entities": [
+          "輝達",
+          "毛利",
+          "連七週",
+          "中國國",
+          "黃仁勳"
         ],
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "memory / securities / meritz / makers",
+        "label": "特斯拉 / 記憶體",
         "heat": 10.0,
         "volume": 2,
-        "engagement": 83,
-        "entities": [],
+        "engagement": 53,
+        "entities": [
+          "馬斯克",
+          "毛利",
+          "保衛戰"
+        ],
         "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "anthropic",
+        "heat": 10.0,
+        "volume": 2,
+        "engagement": 25,
+        "entities": [
+          "高昂",
+          "美國",
+          "城河"
+        ],
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，19 篇）",
+        "heat": 10.0,
+        "volume": 19,
+        "engagement": 1748,
+        "entities": [
+          "黃仁勳",
+          "輝達",
+          "貝森特",
+          "川普",
+          "大摩"
+        ],
+        "is_catchall": true
       }
     ],
     "named_entities": [
       {
+        "entity": "輝達",
+        "count": 16
+      },
+      {
+        "entity": "黃仁勳",
+        "count": 10
+      },
+      {
+        "entity": "毛利",
+        "count": 3
+      },
+      {
+        "entity": "貝森特",
+        "count": 3
+      },
+      {
+        "entity": "川普",
+        "count": 2
+      },
+      {
         "entity": "美國",
         "count": 2
+      },
+      {
+        "entity": "城河",
+        "count": 2
+      },
+      {
+        "entity": "戴爾",
+        "count": 1
+      },
+      {
+        "entity": "超微",
+        "count": 1
+      },
+      {
+        "entity": "伺服器",
+        "count": 1
+      },
+      {
+        "entity": "馬斯克",
+        "count": 1
+      },
+      {
+        "entity": "保衛戰",
+        "count": 1
+      },
+      {
+        "entity": "柬埔寨",
+        "count": 1
+      },
+      {
+        "entity": "養大",
+        "count": 1
+      },
+      {
+        "entity": "黑市",
+        "count": 1
       }
     ],
     "sentiment_trend_curve": [
       {
-        "bucket_start": "2026-11-23T11:21:32.000002+08:00",
-        "bucket_end": "2026-11-23T11:25:49.142859+08:00",
+        "bucket_start": "2026-11-23T07:58:41.097763+00:00",
+        "bucket_end": "2026-11-23T08:02:58.240620+00:00",
         "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 3,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 3,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "美國",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "pequityresearch",
-            "platform": "X",
-            "text": "Anthropic   https…",
-            "url": "https://x.com/pequityresearch/status/2124705578383712443",
-            "interaction": 3
-          }
-        ],
-        "net_sentiment_smoothed": 50.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-23T11:25:49.142859+08:00",
-        "bucket_end": "2026-11-23T11:30:06.285716+08:00",
-        "positive": 1,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 35,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 50.0,
-        "post_count": 2,
-        "engagement": 35,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "美國",
-            "count": 1
-          },
-          {
-            "topic_id": 0,
-            "label": "memory / securities / meritz / makers",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "tengyanAI",
-            "platform": "X",
-            "text": "meritz securities says its channel checks show US big tech proposing memory LTAs with purchase commitments up to 20 years. makers are reluctant to lock in capacity on a buy promise alone.  makes sense",
-            "url": "https://x.com/tengyanAI/status/2124706194266948094",
-            "interaction": 35
-          },
-          {
-            "handle": "tengyanAI",
-            "platform": "X",
-            "text": "source:",
-            "url": "https://x.com/tengyanAI/status/2124706518285406377",
-            "interaction": 0
-          }
-        ],
-        "net_sentiment_smoothed": 37.5,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-23T11:30:06.285716+08:00",
-        "bucket_end": "2026-11-23T11:34:23.428573+08:00",
-        "positive": 1,
         "neutral": 0,
         "negative": 0,
-        "positive_engagement": 17,
+        "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 100.0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -33.3,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-23T08:02:58.240620+00:00",
+        "bucket_end": "2026-11-23T08:07:15.383477+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 50,
+        "net_sentiment": -100.0,
         "post_count": 1,
-        "engagement": 17,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "美國",
-            "count": 1
-          }
-        ],
+        "engagement": 50,
+        "top_topics": [],
         "top_posts": [
           {
             "handle": "FT",
             "platform": "X",
-            "text": "BYD shares fall after SUV barred from EU for Land Rover design copy",
-            "url": "https://x.com/FT/status/2124707403224559730",
-            "interaction": 17
+            "text": "Ukraine sinks Russian warship off coast of Libya",
+            "url": "https://x.com/FT/status/2124775844530827344",
+            "interaction": 50
           }
         ],
-        "net_sentiment_smoothed": 30.0,
+        "net_sentiment_smoothed": -25.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-23T11:34:23.428573+08:00",
-        "bucket_end": "2026-11-23T11:38:40.571430+08:00",
+        "bucket_start": "2026-11-23T08:07:15.383477+00:00",
+        "bucket_end": "2026-11-23T08:11:32.526334+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -182,12 +265,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 50.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-23T11:38:40.571430+08:00",
-        "bucket_end": "2026-11-23T11:42:57.714287+08:00",
+        "bucket_start": "2026-11-23T08:11:32.526334+00:00",
+        "bucket_end": "2026-11-23T08:15:49.669191+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -199,211 +282,12 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 40.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
-        "bucket_start": "2026-11-23T11:42:57.714287+08:00",
-        "bucket_end": "2026-11-23T11:47:14.857144+08:00",
-        "positive": 1,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 48,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 1,
-        "engagement": 48,
-        "top_topics": [
-          {
-            "topic_id": 0,
-            "label": "memory / securities / meritz / makers",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "pequityresearch",
-            "platform": "X",
-            "text": "Meritz Securities is reporting that memory makers are now holding talks for ultra-long LTAs that would commit buyers to purchases of up to 20 years, beyond the traditional 10.   I personally find that",
-            "url": "https://x.com/pequityresearch/status/2124710322321621145",
-            "interaction": 48
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-23T11:47:14.857144+08:00",
-        "bucket_end": "2026-11-23T11:51:32.000001+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 10,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 10,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "美國",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "FT",
-            "platform": "X",
-            "text": "Will Tata be able to list India’s biggest company?",
-            "url": "https://x.com/FT/status/2124711918619287706",
-            "interaction": 10
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-23T11:51:32.000001+08:00",
-        "bucket_end": "2026-11-23T11:55:49.142858+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-23T11:55:49.142858+08:00",
-        "bucket_end": "2026-11-23T12:00:06.285715+08:00",
-        "positive": 0,
-        "neutral": 1,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 10,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 1,
-        "engagement": 10,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "美國",
-            "count": 1
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "statementdog",
-            "platform": "X",
-            "text": "CPO testing could cost about $1 million per setup.  That’s Cathay Futures’ preliminary estimate for Hon Precision’s (7769 TT) system, which is designed to test one ASIC and four optical engines togeth",
-            "url": "https://x.com/statementdog/status/2124714562226442719",
-            "interaction": 10
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-23T12:00:06.285715+08:00",
-        "bucket_end": "2026-11-23T12:04:23.428572+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-23T12:04:23.428572+08:00",
-        "bucket_end": "2026-11-23T12:08:40.571429+08:00",
-        "positive": 2,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 496,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 100.0,
-        "post_count": 2,
-        "engagement": 496,
-        "top_topics": [
-          {
-            "topic_id": 1,
-            "label": "美國",
-            "count": 2
-          }
-        ],
-        "top_posts": [
-          {
-            "handle": "aleabitoreddit",
-            "platform": "X",
-            "text": "President Trump: \"I hope the Board of Nvidia rehires Jensen Huang\"  Jensen's return to  $NVDA  is looking a lot more likely.   Especially with the support from the US president.",
-            "url": "https://x.com/aleabitoreddit/status/2124715837533859857",
-            "interaction": 482
-          },
-          {
-            "handle": "QQ_Timmy",
-            "platform": "X",
-            "text": "〈抄底時刻到了嗎？〉 @statementdog    1、Jeff 認為抄底前最該關注兩件事 1）聽說最近不少人準備抄底，Jeff 認為最需要關注的是「是否有 NeoCloud 出事」和「Fed 是否考慮轉向」。  2、是否有 NeoCloud 出事（主要影響 AI 股） 1）如果真的發生，Jeff",
-            "url": "https://x.com/QQ_Timmy/status/2124715847969284602",
-            "interaction": 14
-          }
-        ],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-23T12:08:40.571429+08:00",
-        "bucket_end": "2026-11-23T12:12:57.714286+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 20.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-23T12:12:57.714286+08:00",
-        "bucket_end": "2026-11-23T12:17:14.857143+08:00",
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0,
-        "positive_engagement": 0,
-        "neutral_engagement": 0,
-        "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
-        "engagement": 0,
-        "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": 25.0,
-        "is_anomaly": false
-      },
-      {
-        "bucket_start": "2026-11-23T12:17:14.857143+08:00",
-        "bucket_end": "2026-11-23T12:21:32+08:00",
+        "bucket_start": "2026-11-23T08:15:49.669191+00:00",
+        "bucket_end": "2026-11-23T08:20:06.812048+00:00",
         "positive": 0,
         "neutral": 0,
         "negative": 0,
@@ -417,24 +301,216 @@
         "top_posts": [],
         "net_sentiment_smoothed": 0.0,
         "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-23T08:20:06.812048+00:00",
+        "bucket_end": "2026-11-23T08:24:23.954905+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": 0.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-23T08:24:23.954905+00:00",
+        "bucket_end": "2026-11-23T08:28:41.097762+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-23T08:28:41.097762+00:00",
+        "bucket_end": "2026-11-23T08:32:58.240619+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-23T08:32:58.240619+00:00",
+        "bucket_end": "2026-11-23T08:37:15.383476+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 1,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": -100.0,
+        "post_count": 1,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [
+          {
+            "handle": "FT",
+            "platform": "X",
+            "text": "The capital’s lacklustre housing market hides some hotspots: a tiny clutch of neighbourhoods holding their own, with Hackney leading the charge:  https:// ft.trib.al/pv5qAW3",
+            "url": "https://x.com/FT/status/2124783544253690020",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-23T08:37:15.383476+00:00",
+        "bucket_end": "2026-11-23T08:41:32.526333+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -20.0,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-23T08:41:32.526333+00:00",
+        "bucket_end": "2026-11-23T08:45:49.669190+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -21.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-23T08:45:49.669190+00:00",
+        "bucket_end": "2026-11-23T08:50:06.812047+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -1.6,
+        "is_anomaly": false
+      },
+      {
+        "bucket_start": "2026-11-23T08:50:06.812047+00:00",
+        "bucket_end": "2026-11-23T08:54:23.954904+00:00",
+        "positive": 9,
+        "neutral": 16,
+        "negative": 12,
+        "positive_engagement": 168,
+        "neutral_engagement": 1298,
+        "negative_engagement": 203,
+        "net_sentiment": -8.1,
+        "post_count": 37,
+        "engagement": 1669,
+        "top_topics": [
+          {
+            "topic_id": 2,
+            "label": "輝達",
+            "count": 5
+          },
+          {
+            "topic_id": 4,
+            "label": "megaspeed / 輝達",
+            "count": 4
+          },
+          {
+            "topic_id": 3,
+            "label": "記憶體",
+            "count": 3
+          }
+        ],
+        "top_posts": [
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "川普再喊輝達董事會重聘黃仁勳！\n#川普發文點名輝達董事會表態回聘黃仁勳\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid0z2Kam6Bwtcc1RpkS6NgCf7Q8FWzsqGV5SExAeAMfQoPSgGDaVfcynyzKQnp6vvWgl?__cft__[0]=AZi0S2GP6t9dlcnU9oAb805R_3AF59f4gS5XcI0Y70LsX5vf0Fqo-oVUrWUPEncFNVocZb7jstypiatu5pxuR2poBCOFmxgKFKWEp0sh3fED1L11uv1GfJpwMasDV2qVFSN47IyKOYe9BeDuWUOFUtSKTBFZNXZmMma-6_ytWpUuK2kqAOKNpYE9dpI",
+            "interaction": 530
+          },
+          {
+            "handle": "technewsinside",
+            "platform": "Facebook",
+            "text": "貝森特幽默玩梗？\n#貝森特不反對黃仁勳重返輝達\n…… \n查看更多",
+            "url": "https://www.facebook.com/technewsinside/posts/pfbid0B6NJJZY3NP7Hh7GqBJaL8K6ZTgBXvJWnKBTY2v7vq1GLiy1Hixc3zBRmBv2XfZFul?__cft__[0]=AZj8IBOpzbzYk9gqYQ3lz1oyvFw1OMiS86ft7EukzY9y3NsZJZ3KbD72CE7PTujFYzXSDuV56pBMlqxFxJnHyVusQarIWg543NUomhVEQNOKSXjzT8jww8fhn90HF_SfPMMPWZpZNa7BC1uKH7PnxcJTfKY4HQUYFJiho9YzbuCiI1s9ZzpoANF7QNM",
+            "interaction": 273
+          }
+        ],
+        "net_sentiment_smoothed": -2.0,
+        "is_anomaly": true
+      },
+      {
+        "bucket_start": "2026-11-23T08:54:23.954904+00:00",
+        "bucket_end": "2026-11-23T08:58:41.097761+00:00",
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "positive_engagement": 0,
+        "neutral_engagement": 0,
+        "negative_engagement": 0,
+        "net_sentiment": 0.0,
+        "post_count": 0,
+        "engagement": 0,
+        "top_topics": [],
+        "top_posts": [],
+        "net_sentiment_smoothed": -2.7,
+        "is_anomaly": false
       }
     ],
     "topic_sentiment_heatmap": [
       {
-        "topic_id": 1,
-        "label": "美國",
+        "topic_id": 2,
+        "label": "輝達",
         "cells": [
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
+            "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
+            "net_sentiment": 0.0,
+            "volume": 0
           },
           {
             "net_sentiment": 0.0,
@@ -450,23 +526,11 @@
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 0
           },
           {
             "net_sentiment": 0.0,
-            "volume": 1
-          },
-          {
-            "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -475,6 +539,204 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -40.0,
+            "volume": 5
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "megaspeed / 輝達",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -50.0,
+            "volume": 4
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "記憶體",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 66.7,
+            "volume": 3
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "晶片 / amd / 輝達 / anthropic",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 3
           },
           {
             "net_sentiment": 0.0,
@@ -484,31 +746,15 @@
       },
       {
         "topic_id": 0,
-        "label": "memory / securities / meritz / makers",
+        "label": "特斯拉 / 記憶體",
         "cells": [
           {
             "net_sentiment": 0.0,
             "volume": 0
           },
           {
-            "net_sentiment": 100.0,
-            "volume": 1
-          },
-          {
             "net_sentiment": 0.0,
             "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 0.0,
-            "volume": 0
-          },
-          {
-            "net_sentiment": 100.0,
-            "volume": 1
           },
           {
             "net_sentiment": 0.0,
@@ -537,6 +783,84 @@
           {
             "net_sentiment": 0.0,
             "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": -100.0,
+            "volume": 2
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "anthropic",
+        "cells": [
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 0.0,
+            "volume": 0
+          },
+          {
+            "net_sentiment": 50.0,
+            "volume": 2
           },
           {
             "net_sentiment": 0.0,
@@ -547,95 +871,137 @@
     ],
     "coverage_focus_ranking": [
       {
-        "handle": "QQ_Timmy",
-        "platform": "X",
-        "top_topic_id": 1,
-        "top_topic_label": "美國",
-        "focus_share": 1.0,
-        "post_count": 2,
-        "unclustered_posts": 0
-      },
-      {
         "handle": "FT",
         "platform": "X",
         "top_topic_id": 1,
-        "top_topic_label": "美國",
+        "top_topic_label": "其他（未分群，19 篇）",
         "focus_share": 1.0,
         "post_count": 2,
-        "unclustered_posts": 0
+        "unclustered_posts": 2
       },
       {
-        "handle": "statementdog",
-        "platform": "X",
+        "handle": "ctee.fans",
+        "platform": "Facebook",
         "top_topic_id": 1,
-        "top_topic_label": "美國",
+        "top_topic_label": "其他（未分群，19 篇）",
+        "focus_share": 1.0,
+        "post_count": 3,
+        "unclustered_posts": 3
+      },
+      {
+        "handle": "yutinghaosfinance",
+        "platform": "Facebook",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，19 篇）",
         "focus_share": 1.0,
         "post_count": 1,
-        "unclustered_posts": 0
+        "unclustered_posts": 1
       },
       {
-        "handle": "aleabitoreddit",
-        "platform": "X",
-        "top_topic_id": 1,
-        "top_topic_label": "美國",
-        "focus_share": 1.0,
-        "post_count": 1,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "tengyanAI",
-        "platform": "X",
-        "top_topic_id": 1,
-        "top_topic_label": "美國",
-        "focus_share": 0.5,
-        "post_count": 2,
-        "unclustered_posts": 0
-      },
-      {
-        "handle": "pequityresearch",
-        "platform": "X",
-        "top_topic_id": 1,
-        "top_topic_label": "美國",
-        "focus_share": 0.5,
-        "post_count": 2,
-        "unclustered_posts": 0
+        "handle": "technewsinside",
+        "platform": "Facebook",
+        "top_topic_id": 2,
+        "top_topic_label": "輝達",
+        "focus_share": 0.238,
+        "post_count": 34,
+        "unclustered_posts": 13
       }
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
-        "label": "美國",
-        "total_engagement": 538,
-        "post_count": 8,
-        "top_account": "aleabitoreddit",
-        "top_account_platform": "X",
-        "top_account_engagement": 482,
+        "topic_id": 6,
+        "label": "台股",
+        "total_engagement": 127,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_platform": "Facebook",
+        "top_account_engagement": 127,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 2,
+        "label": "輝達",
+        "total_engagement": 94,
+        "post_count": 5,
+        "top_account": "technewsinside",
+        "top_account_platform": "Facebook",
+        "top_account_engagement": 94,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 3,
+        "label": "記憶體",
+        "total_engagement": 69,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_platform": "Facebook",
+        "top_account_engagement": 69,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 4,
+        "label": "megaspeed / 輝達",
+        "total_engagement": 64,
+        "post_count": 4,
+        "top_account": "technewsinside",
+        "top_account_platform": "Facebook",
+        "top_account_engagement": 64,
         "is_catchall": false
       },
       {
         "topic_id": 0,
-        "label": "memory / securities / meritz / makers",
-        "total_engagement": 83,
+        "label": "特斯拉 / 記憶體",
+        "total_engagement": 53,
         "post_count": 2,
-        "top_account": "pequityresearch",
-        "top_account_platform": "X",
-        "top_account_engagement": 48,
+        "top_account": "technewsinside",
+        "top_account_platform": "Facebook",
+        "top_account_engagement": 53,
         "is_catchall": false
+      },
+      {
+        "topic_id": 7,
+        "label": "晶片 / amd / 輝達 / anthropic",
+        "total_engagement": 47,
+        "post_count": 3,
+        "top_account": "technewsinside",
+        "top_account_platform": "Facebook",
+        "top_account_engagement": 47,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 5,
+        "label": "anthropic",
+        "total_engagement": 25,
+        "post_count": 2,
+        "top_account": "technewsinside",
+        "top_account_platform": "Facebook",
+        "top_account_engagement": 25,
+        "is_catchall": false
+      },
+      {
+        "topic_id": 1,
+        "label": "其他（未分群，19 篇）",
+        "total_engagement": 1748,
+        "post_count": 19,
+        "top_account": "technewsinside",
+        "top_account_platform": "Facebook",
+        "top_account_engagement": 1174,
+        "is_catchall": true
       }
     ],
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 6,
-          "likes": 80,
-          "engagement": 113,
-          "avg_engagement": 18.8
+          "post_count": 0,
+          "likes": 0,
+          "engagement": 0,
+          "avg_engagement": 0.0
         },
         "afternoon": {
-          "post_count": 4,
-          "likes": 415,
-          "engagement": 508,
-          "avg_engagement": 127.0
+          "post_count": 40,
+          "likes": 2213,
+          "engagement": 2227,
+          "avg_engagement": 55.7
         },
         "evening": {
           "post_count": 0,
@@ -650,7 +1016,7 @@
           "avg_engagement": 0.0
         }
       },
-      "peak_slot": "morning"
+      "peak_slot": "afternoon"
     },
     "competitor_mentions": null,
     "platform_share_bar": null,
