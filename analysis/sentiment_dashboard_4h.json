@@ -10,16 +10,16 @@
   "keyword": null,
   "widgets": {
     "sentiment_overview": {
-      "total_posts": 48,
+      "total_posts": 49,
       "sentiment_counts": {
         "neutral": 19,
-        "negative": 16,
+        "negative": 17,
         "positive": 13
       },
       "sentiment_share": {
-        "neutral": 0.396,
-        "negative": 0.333,
-        "positive": 0.271
+        "neutral": 0.388,
+        "negative": 0.347,
+        "positive": 0.265
       },
       "top_terms": [
         "黃仁",
@@ -36,7 +36,7 @@
     },
     "temperature_bar": [
       {
-        "topic_id": 1,
+        "topic_id": 0,
         "label": "輝達",
         "heat": 90.0,
         "volume": 2,
@@ -85,10 +85,10 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，42 篇）",
+        "topic_id": 1,
+        "label": "其他（未分群，43 篇）",
         "heat": 10.0,
-        "volume": 42,
+        "volume": 43,
         "engagement": 32330,
         "entities": [
           "黃仁勳",
@@ -347,7 +347,7 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": 0.0,
+        "net_sentiment_smoothed": -20.0,
         "is_anomaly": false
       },
       {
@@ -364,7 +364,7 @@
         "engagement": 0,
         "top_topics": [],
         "top_posts": [],
-        "net_sentiment_smoothed": -0.5,
+        "net_sentiment_smoothed": -20.5,
         "is_anomaly": false
       },
       {
@@ -372,16 +372,24 @@
         "bucket_end": "2026-11-24T00:43:08.215998+00:00",
         "positive": 0,
         "neutral": 0,
-        "negative": 0,
+        "negative": 1,
         "positive_engagement": 0,
         "neutral_engagement": 0,
         "negative_engagement": 0,
-        "net_sentiment": 0.0,
-        "post_count": 0,
+        "net_sentiment": -100.0,
+        "post_count": 1,
         "engagement": 0,
         "top_topics": [],
-        "top_posts": [],
-        "net_sentiment_smoothed": -0.6,
+        "top_posts": [
+          {
+            "handle": "TrendForce",
+            "platform": "LinkedIn",
+            "text": "🤝 A nearly two-year legal battle over SK hynix’s $3.87B Indiana plant is nearing resolution. Sparked by rezoning land near Purdue University for industrial use, the dispute has reached a settlement, c",
+            "url": "https://www.linkedin.com/feed/update/urn:li:share:7530792398742810624/",
+            "interaction": 0
+          }
+        ],
+        "net_sentiment_smoothed": -25.6,
         "is_anomaly": false
       },
       {
@@ -403,7 +411,7 @@
             "count": 2
           },
           {
-            "topic_id": 1,
+            "topic_id": 0,
             "label": "輝達",
             "count": 2
           },
@@ -429,7 +437,7 @@
             "interaction": 1956
           }
         ],
-        "net_sentiment_smoothed": -0.8,
+        "net_sentiment_smoothed": -34.1,
         "is_anomaly": true
       }
     ],
@@ -497,7 +505,7 @@
         ]
       },
       {
-        "topic_id": 1,
+        "topic_id": 0,
         "label": "輝達",
         "cells": [
           {
@@ -687,11 +695,20 @@
       {
         "handle": "yutinghaosfinance",
         "platform": "Facebook",
-        "top_topic_id": 0,
-        "top_topic_label": "其他（未分群，42 篇）",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，43 篇）",
         "focus_share": 1.0,
         "post_count": 5,
         "unclustered_posts": 5
+      },
+      {
+        "handle": "TrendForce",
+        "platform": "LinkedIn",
+        "top_topic_id": 1,
+        "top_topic_label": "其他（未分群，43 篇）",
+        "focus_share": 1.0,
+        "post_count": 1,
+        "unclustered_posts": 1
       },
       {
         "handle": "technewsinside",
@@ -705,7 +722,7 @@
       {
         "handle": "ctee.fans",
         "platform": "Facebook",
-        "top_topic_id": 1,
+        "top_topic_id": 0,
         "top_topic_label": "輝達",
         "focus_share": 0.333,
         "post_count": 20,
@@ -714,7 +731,7 @@
     ],
     "top_engagement_ranking": [
       {
-        "topic_id": 1,
+        "topic_id": 0,
         "label": "輝達",
         "total_engagement": 158,
         "post_count": 2,
@@ -754,10 +771,10 @@
         "is_catchall": false
       },
       {
-        "topic_id": 0,
-        "label": "其他（未分群，42 篇）",
+        "topic_id": 1,
+        "label": "其他（未分群，43 篇）",
         "total_engagement": 32330,
-        "post_count": 42,
+        "post_count": 43,
         "top_account": "yutinghaosfinance",
         "top_account_platform": "Facebook",
         "top_account_engagement": 20713,
@@ -767,10 +784,10 @@
     "posting_timeslot_analysis": {
       "slots": {
         "morning": {
-          "post_count": 48,
+          "post_count": 49,
           "likes": 32692,
           "engagement": 32692,
-          "avg_engagement": 681.1
+          "avg_engagement": 667.2
         },
         "afternoon": {
           "post_count": 0,
